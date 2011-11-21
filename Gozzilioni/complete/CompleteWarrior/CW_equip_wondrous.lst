@@ -1,0 +1,6 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net							
+									
+#Bracers of Dawn	COST:26000								
+									
+###Block									
+Bracers of Dawn		TYPE:Magic.Wondrous.Bracer	COST:26000	WT:1.00		SOURCEPAGE:CW		MODS:NO	ABILITY:Special Ability|VIRTUAL|Belt of the Champion Ability

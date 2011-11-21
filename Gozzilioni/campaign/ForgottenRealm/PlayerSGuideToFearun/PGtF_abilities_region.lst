@@ -1,0 +1,191 @@
+SOURCELONG:Player's guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Rogue Special Abilities																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
+Faerunian Region	CATEGORY:Regional	TYPE:Regional	VISIBLE:YES								BONUS:ABILITYPOOL|Faerun Region|1								COST:0													SOURCEPAGE:PGtF
+#																																
+Human Aglarond Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Aglarond		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Aglarond Region													SOURCEPAGE:PGtF
+Human Altumbel Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Altumbel		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Altumbel Region													SOURCEPAGE:PGtF
+Human Amn Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Amn		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Amn Region													SOURCEPAGE:PGtF
+Human Anauroch Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Anauroch		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Anauroch Region													SOURCEPAGE:PGtF
+Human Calimshan Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Calimshan		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Calimshan Region													SOURCEPAGE:PGtF
+Human Chessenta Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chessenta		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Chessenta Region													SOURCEPAGE:PGtF
+Human Chult Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chult		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Chult Region													SOURCEPAGE:PGtF
+Human Cormyr Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Cormyr		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Cormyr Region													SOURCEPAGE:PGtF
+Human Dalelands Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Dalelands		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Dalelands Region													SOURCEPAGE:PGtF
+Human Damara Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Damara		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Damara Region													SOURCEPAGE:PGtF
+Human Dambrath Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Dambrath		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Dambrath Region													SOURCEPAGE:PGtF
+Human Dragon Coast Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Dragon Coast		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Dragon Coast Region													SOURCEPAGE:PGtF
+Human Golden Water Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Golden Water		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Golden Water Region													SOURCEPAGE:PGtF
+Human Great Dale Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Great Dale		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Great Dale Region													SOURCEPAGE:PGtF
+Human Great Glacier Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Great Glacier		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Great Glacier Region													SOURCEPAGE:PGtF
+Human Halruaa Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Halruaa		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Halruaa Region													SOURCEPAGE:PGtF
+Human Hordeland Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Hordeland		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Hordeland Region													SOURCEPAGE:PGtF
+Human Impiltur Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Impiltur		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Impiltur Region													SOURCEPAGE:PGtF
+Human Lake of Steam Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Lake of Steam		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Lake of Steam Region													SOURCEPAGE:PGtF
+Human Lapaliiya Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Lapaliiya		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Lapaliiya Region													SOURCEPAGE:PGtF
+Human Lantan Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Lantan		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Lantan Region													SOURCEPAGE:PGtF
+Human Moonsea Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Moonsea		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Moonsea Region													SOURCEPAGE:PGtF
+Human Moonshae Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Moonshae		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Moonshae Region													SOURCEPAGE:PGtF
+Human Mulhorand Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Mulhorand		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Mulhorand Region													SOURCEPAGE:PGtF
+Human Narfell Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Narfell		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Narfell Region													SOURCEPAGE:PGtF
+Human Nelanther Isles Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Nelanther Isles		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Nelanther Isles Region													SOURCEPAGE:PGtF
+Human North Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:North		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human North Region													SOURCEPAGE:PGtF
+Human Rashemen Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Rashemen		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Rashemen Region													SOURCEPAGE:PGtF
+Human Ride Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Ride		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Ride Region													SOURCEPAGE:PGtF
+Human Sembia Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Sembia		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Sembia Region													SOURCEPAGE:PGtF
+Human Shaar Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Shaar		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Shaar Region													SOURCEPAGE:PGtF
+Human Shadovar Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Shadovar		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Shadovar Region													SOURCEPAGE:PGtF
+Human Shou Expatriate Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Shou Expatriate		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Shou Expatriate Region													SOURCEPAGE:PGtF
+Human Silverymoon Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Silverymoon		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Silverymoon Region													SOURCEPAGE:PGtF
+Human Sword Coast Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Sword Coast		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Sword Coast Region													SOURCEPAGE:PGtF
+Human Tashalar Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Tashalar		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Tashalar Region													SOURCEPAGE:PGtF
+Human Tethyr Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Tethyr		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Tethyr Region													SOURCEPAGE:PGtF
+Human Thay Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Thay		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Thay Region													SOURCEPAGE:PGtF
+Human Thesk Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Thesk		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Thesk Region													SOURCEPAGE:PGtF
+Human Turmish Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Turmish		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Turmish Region													SOURCEPAGE:PGtF
+Human Unther Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Unther		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Unther Region													SOURCEPAGE:PGtF
+Human Uthgardt Tribesfolk Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Uthgardt Tribesfolk		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Uthgardt Tribesfolk Region													SOURCEPAGE:PGtF
+Human Vaasa Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Vaasa		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Vaasa Region													SOURCEPAGE:PGtF
+Human Vast Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Vast		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Vast Region													SOURCEPAGE:PGtF
+Human Vilhon Reach Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Vilhon Reach		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Vilhon Reach Region													SOURCEPAGE:PGtF
+Human Waterdeep Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Waterdeep		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Waterdeep Region													SOURCEPAGE:PGtF
+Human Western Heartlands Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Western Heartlands		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Western Heartlands Region													SOURCEPAGE:PGtF
+Human Wizard's Reach Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Wizard's Reach		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Wizard's Reach Region													SOURCEPAGE:PGtF
+#																																
+Dwarven Chult Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chult		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Chult Region													SOURCEPAGE:PGtF
+Dwarven Galena Mountain Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Galena Mountain		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Galena Mountain Region													SOURCEPAGE:PGtF
+Dwarven Great Glacier Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Great Glacier		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Great Glacier Region													SOURCEPAGE:PGtF
+Dwarven Great Rift Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Great Rift		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Great Rift Region													SOURCEPAGE:PGtF
+Dwarven Oldonnar Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Oldonnar		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Oldonnar Region													SOURCEPAGE:PGtF
+Dwarven Smoking Mountains Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Smoking Mountains		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Smoking Mountains Region													SOURCEPAGE:PGtF
+Dwarven Spine of the World Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Spine of the World		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Spine of the World Region													SOURCEPAGE:PGtF
+Dwarven Sword Coast Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Sword Coast		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Sword Coast Region													SOURCEPAGE:PGtF
+Dwarven Turmish Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Turmish		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Turmish Region													SOURCEPAGE:PGtF
+Dwarven Underdark Darklands Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Underdark (Darklands)		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Underdark Darklands Region													SOURCEPAGE:PGtF
+Dwarven Underdark Northdark Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Underdark (Northdark)		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Underdark Northdark Region													SOURCEPAGE:PGtF
+Dwarven Underdark Old Shanatar Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Underdark (Old Shanatar)		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Underdark Old Shanatar Region													SOURCEPAGE:PGtF
+Dwarven Waterdeep Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Waterdeep		PRERACE:1,RACESUBTYPE=Dwarf													TEMPLATE:Dwarven Waterdeep Region													SOURCEPAGE:PGtF
+#																																
+Elven Chondalwood Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chondalwood		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Chondalwood Region													SOURCEPAGE:PGtF
+Elven Cormanthor Drow Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Cormanthor Drow		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Cormanthor Drow Region													SOURCEPAGE:PGtF
+Elven Court Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Court		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Court Region													SOURCEPAGE:PGtF
+Elven Evereska Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Evereska		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Evereska Region													SOURCEPAGE:PGtF
+Elven Evermeet Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Evermeet		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Evermeet Region													SOURCEPAGE:PGtF
+Elven Forest of Lethyr Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Forest of Lethyr		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Forest of Lethyr Region													SOURCEPAGE:PGtF
+Elven High Forest Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:High Forest		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven High Forest Region													SOURCEPAGE:PGtF
+Elven Inner Sea Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Inner Sea		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Inner Sea Region													SOURCEPAGE:PGtF
+Elven Menzoberranyr Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Menzoberranyr		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Menzoberranyr Region													SOURCEPAGE:PGtF
+Elven Sildeyuir Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Sildeyuir		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Sildeyuir Region													SOURCEPAGE:PGtF
+Elven Silverymoon Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Silverymoon		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Silverymoon Region													SOURCEPAGE:PGtF
+Elven Snow Eagle Aerie Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Snow Eagle Aerie		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Snow Eagle Aerie Region													SOURCEPAGE:PGtF
+Elven Waterdeep Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Waterdeep		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Waterdeep Region													SOURCEPAGE:PGtF
+Elven Wealdath Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Wealdath		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Wealdath Region													SOURCEPAGE:PGtF
+Elven Yuirwood Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Yuirwood		PRERACE:1,RACESUBTYPE=Elf													TEMPLATE:Elven Yuirwood Region													SOURCEPAGE:PGtF
+#																																
+Gnome Great Dale Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Great Dale		PRERACE:1,RACESUBTYPE=Gnome													TEMPLATE:Gnome Great Dale Region													SOURCEPAGE:PGtF
+Gnome Lantan Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Lantan		PRERACE:1,RACESUBTYPE=Gnome													TEMPLATE:Gnome Lantan Region													SOURCEPAGE:PGtF
+Gnome Thesk Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Thesk		PRERACE:1,RACESUBTYPE=Gnome													TEMPLATE:Gnome Thesk Region													SOURCEPAGE:PGtF
+Gnome Underdark Northdark Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Underdark Northdark		PRERACE:1,RACESUBTYPE=Gnome													TEMPLATE:Gnome Underdark Northdark Region													SOURCEPAGE:PGtF
+Gnome Western Heartlands Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Western Heartlands		PRERACE:1,RACESUBTYPE=Gnome													TEMPLATE:Gnome Western Heartlands Region													SOURCEPAGE:PGtF
+#																																
+Half Elf Aglarond Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Aglarond		PRERACE:1,RACESUBTYPE=Half-Elf													TEMPLATE:Half Elf Aglarond Region													SOURCEPAGE:PGtF
+Half Elf Dalelands Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Dalelands		PRERACE:1,RACESUBTYPE=Half-Elf													TEMPLATE:Half Elf Dalelands Region													SOURCEPAGE:PGtF
+Half Elf Dambrath Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Dambrath		PRERACE:1,RACESUBTYPE=Half-Elf													TEMPLATE:Half Elf Dambrath Region													SOURCEPAGE:PGtF
+Half Elf Dragon Coast Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Dragon Coast		PRERACE:1,RACESUBTYPE=Half-Elf													TEMPLATE:Half Elf Dragon Coast Region													SOURCEPAGE:PGtF
+Half Elf Silverymoon Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Silverymoon		PRERACE:1,RACESUBTYPE=Half-Elf													TEMPLATE:Half Elf Silverymoon Region													SOURCEPAGE:PGtF
+Half Elf Waterdeep Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Waterdeep		PRERACE:1,RACESUBTYPE=Half-Elf													TEMPLATE:Half Elf Waterdeep Region													SOURCEPAGE:PGtF
+#																																
+Halfling Cannath Vale Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Cannath Vale		PRERACE:1,RACESUBTYPE=Halfling													TEMPLATE:Halfling Cannath Vale Region													SOURCEPAGE:PGtF
+Halfling Chondalwood Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chondalwood		PRERACE:1,RACESUBTYPE=Halfling													TEMPLATE:Halfling Chondalwood Region													SOURCEPAGE:PGtF
+Halfling Lurien Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Lurien		PRERACE:1,RACESUBTYPE=Halfling													TEMPLATE:Halfling Lurien Region													SOURCEPAGE:PGtF
+Halfling Western Heartlands Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Western Heartlands		PRERACE:1,RACESUBTYPE=Halfling													TEMPLATE:Halfling Western Heartlands Region													SOURCEPAGE:PGtF
+#																																
+Orc Amn Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Amn		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Amn Region													SOURCEPAGE:PGtF
+Orc Chessenta Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chessenta		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Chessenta Region													SOURCEPAGE:PGtF
+Orc Hordeland Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Hordeland		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Hordeland Region													SOURCEPAGE:PGtF
+Orc Moonsea Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Moonsea		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Moonsea Region													SOURCEPAGE:PGtF
+Orc North Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:North		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc North Region													SOURCEPAGE:PGtF
+Orc Thesk Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Thesk		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Thesk Region													SOURCEPAGE:PGtF
+Orc Underdark Northdark Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Underdark Northdark		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Underdark Northdark Region													SOURCEPAGE:PGtF
+Orc Vaasa Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Vaasa		PRERACE:1,RACESUBTYPE=Orc													TEMPLATE:Orc Vaasa Region													SOURCEPAGE:PGtF
+#																																
+Planetouched Calimshan Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Calimshan		PRERACE:1,RACESUBTYPE=Planetouched													TEMPLATE:Planetouched Calimshan Region													SOURCEPAGE:PGtF
+Planetouched Mulhorand Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Mulhorand		PRERACE:1,RACESUBTYPE=Planetouched													TEMPLATE:Planetouched Mulhorand Region													SOURCEPAGE:PGtF
+Planetouched Thay Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Thay		PRERACE:1,RACESUBTYPE=Planetouched													TEMPLATE:Planetouched Thay Region													SOURCEPAGE:PGtF
+Planetouched Chessenta Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Chessenta		PRERACE:1,RACESUBTYPE=Planetouched													TEMPLATE:Planetouched Chessenta Region													SOURCEPAGE:PGtF
+Planetouched Unther Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Unther		PRERACE:1,RACESUBTYPE=Planetouched													TEMPLATE:Planetouched Unther Region													SOURCEPAGE:PGtF
+#
+#
+# Ability Name	No Faerunian region						KIT:1|No Fearunian Region																									
+# Ability Name	Aglarond						KIT:1|AglarondA1|AglarondB1|AglarondI1|AglarondI2|AglarondJ1																									
+# Ability Name	Altumbel						KIT:1|AltumbelA1|AltumbelA2|AltumbelB1|																									
+# Ability Name	Amn						KIT:1|AmnA1|AmnB1|AmnB2|AmnM1|AmnM2|AmnN1																									
+# Ability Name	Anauroch						KIT:1|AnaurochA1|AnaurochA2|AnaurochB1																									
+# Ability Name	Calimshan						KIT:1|CalimshanA1|CalimshanB1|CalimshanO1|CalimshanO2|CalimshanP1																									
+# Ability Name	Chessenta						KIT:1|ChessentaA1|ChessentaA2|ChessentaB1|ChessentaM1|ChessentaM2|ChessentaN1|ChessentaO1|ChessentaO2|ChessentaP1																									
+# Ability Name	Chult						KIT:1|ChultA1|ChultA2|ChultB1|ChultC1|ChultC2|ChultD1																									
+# Ability Name	Cormyr						KIT:1|CormyrA1|CormyrA2|CormyrB1																									
+# Ability Name	Dalelands						KIT:1|DalelandsA1|DalelandsB1|DalelandsB2|DalelandsB3|DalelandsI1|DalelandsI2|DalelandsJ1																									
+# Ability Name	Damara						KIT:1|DamaraA1|DamaraA2|DamaraB1																									
+# Ability Name	Dambrath						KIT:1|DambrathA1|DambrathA2|DambrathB1|DambrathI1|DambrathJ1|DambrathJ2																									
+# Ability Name	Dragon Coast						KIT:1|DragonCoastA1|DragonCoastA2|DragonCoastB1|DragonCoastB2|DragonCoastI1|DragonCoastI2|DragonCoastJ1																									
+# Ability Name	Golden Water						KIT:1|GoldenWaterA1|GoldenWaterA2|GoldenWaterA3|GoldenWaterB1																									
+# Ability Name	Great Dale						KIT:1|GreatDaleA1|GreatDaleA2|GreatDaleB1|GreatDaleG1|GreatDaleG2|GreatDaleH1																									
+# Ability Name	Great Glacier						KIT:1|GreatGlacierA1|GreatGlacierA2|GreatGlacierB1|GreatGlacierC1|GreatGlacierC2|GreatGlacierD1																									
+# Ability Name	Halruaa						KIT:1|HalruaaA1|HalruaaB1																									
+# Ability Name	Hordeland						KIT:1|HordelandA1|HordelandA2|HordelandM1|HordelandM2|HordelandN1																									
+# Ability Name	Impiltur						KIT:1|ImpilturA1|ImpilturA2|ImpilturB1																									
+# Ability Name	Lake of Steam						KIT:1|LakeOfSteamA1|LakeOfSteamA2|LakeOfSteamA3|LakeOfSteamB1																									
+# Ability Name	Lapaliiya						KIT:1|LapaliiyaA1|LapaliiyaA2|LapaliiyaB1																									
+# Ability Name	Lantan						KIT:1|LantanA1|LantanA2|LantanG1|LantanH1																									
+# Ability Name	Moonsea						KIT:1|MoonseaA1|MoonseaA2|MoonseaB1|MoonseaM1|MoonseaM2|MoonseaN1																									
+# Ability Name	Moonshae						KIT:1|MoonshaeA1|MoonseaB1|MoonseaB2|MoonseaB3																									
+# Ability Name	Mulhorand						KIT:1|MulhorandA1|MulhorandA2|MulhorandA3|MulhorandB1|MulhorandO1|MulhorandO2|MulhorandP1																									
+# Ability Name	Narfell						KIT:1|NarfellA1|NarfellB1|NarfellB2																									
+# Ability Name	Nelanther Isles						KIT:1|NelantherIslesA1|NelantherIslesA2|NelantherIslesB1																									
+# Ability Name	North						KIT:1|NorthA1|NorthA2|NorthA3|NorthB1|NorthM1|NorthN1|NorthN2|NorthN3																									
+# Ability Name	Rashemen						KIT:1|RashemenA1|RashemenA2|RashemenB1|RashemenB2																									
+# Ability Name	Ride						KIT:1|RideA1|RideB1|RideB2																									
+# Ability Name	Sembia						KIT:1|SembiaA1|SembiaB1|SembiaB2																									
+# Ability Name	Shaar						KIT:1|ShaarA1|ShaarB1																									
+# Ability Name	Shadovar						KIT:1|ShadovarA1|ShadovarA2|ShadovarB1																									
+# Ability Name	Shou Expatriate						KIT:1|ShouExpatriateA1|ShouExpatriateB1|ShouExpatriateB2																									
+# Ability Name	Silverymoon						KIT:1|SilverymoonA1|SilverymoonA2|SilverymoonA3|SilverymoonB1|SilverymoonE1|SilverymoonE2|SilverymoonF1|SilverymoonI1|SilverymoonI2|SilverymoonJ1																									
+# Ability Name	Sword Coast						KIT:1|SwordcoastA1|SwordcoastA2|SwordcoastB1|SwordcoastC1|SwordcoastC2|SwordcoastD1																									
+# Ability Name	Tashalar						KIT:1|TashalarA1|TashalarB1																									
+# Ability Name	Tethyr						KIT:1|TethyrA1|TethyrB1																									
+# Ability Name	Thay						KIT:1|ThayA1|ThayB1|ThayO1|ThayP1																									
+# Ability Name	Thesk						KIT:1|TheskA1|TheskB1|TheskG1|TheskG2|TheskH1|TheskM1|TheskM2|TheskN1																									
+# Ability Name	Turmish						KIT:1|TurmishA1|TurmishC1|TurmishD1																									
+# Ability Name	Unther						KIT:1|UntherA1|UntherB1|UntherO1|UntherP1																									
+# Ability Name	Uthgardt Tribesfolk						KIT:1|UthgardtTribesfolkA1|UthgardtTribesfolkA2|UthgardtTribesfolkB1																									
+# Ability Name	Vaasa						KIT:1|VaasaA1|VaasaB1|VaasaB2|VaasaM1|VaasaM2|VaasaN1																									
+# Ability Name	Vast						KIT:1|VastA1|VastB1																									
+# Ability Name	Vilhon Reach						KIT:1|VilhonReachA1|VilhonReachA2|VilhonReachB1																									
+# Ability Name	Waterdeep						KIT:1|WaterdeepA1|WaterdeepA2|WaterdeepA3|WaterdeepB1|WaterdeepC1|WaterdeepD1|WaterdeepD2|WaterdeepE1|WaterdeepE2|WaterdeepF1|WaterdeepI1|WaterdeepI2|WaterdeepJ1																									
+# Ability Name	Western Heartlands						KIT:1|WesternHeartlandsA1|WesternHeartlandsA2|WesternHeartlandsB1|WesternHeartlandsG1|WesternHeartlandsH1|WesternHeartlandsK1|WesternHeartlandsK2|WesternHeartlandsL1																									
+# Ability Name	Wizard's Reach						KIT:1|WizardSReachA1|WizardSReachB1																									
+# Ability Name	Galena Mountain						KIT:1|GalenaMountainC2|GalenaMountainD1																									
+# Ability Name	Great Rift						KIT:1|GreatRiftC1|GreatRiftD1|GreatRiftD2																									
+# Ability Name	Oldonnar						KIT:1|OldonnarC1|OldonnarC2|OldonnarD1																									
+# Ability Name	Smoking Mountains						KIT:1|SmokingMountainC1|SmokingMountainD1																									
+# Ability Name	Spine of the World						KIT:1|SpineOfTheWorldC1|SpineOfTheWorldC2|SpineOfTheWorldD1																									
+# Ability Name	Underdark (Darklands)						KIT:1|UnderdarkDarklandsC1|UnderdarkDarklandsC2|UnderdarkDarklandsD1																									
+# Ability Name	Underdark (Northdark)						KIT:1|UnderdarkNorthdarkC1|UnderdarkNorthdarkD1|UnderdarkNorthdarkD2|UnderdarkNorthdarkG1|UnderdarkNorthdarkG2|UnderdarkNorthdarkG3|UnderdarkNorthdarkH1|UnderdarkNorthdarkM1|UnderdarkNorthdarkM2|UnderdarkNorthdarkN1																									
+# Ability Name	Underdark (Old Shanatar)						KIT:1|UnderdarkOldShanatarC1|UnderdarkOldShanatarC2|UnderdarkOldShanatarD1																									
+# Ability Name	Chondalwood						KIT:1|ChondalwoodE1|ChondalwoodF1|ChondalwoodK1|ChondalwoodK2|ChondalwoodK3|ChondalwoodL1																									
+# Ability Name	Cormanthor Drow						KIT:1|CormanthorDrowE1|CormanthorDrowE2|CormanthorDrowF1																									
+# Ability Name	Elven Court						KIT:1|ElvenCourtE1|ElvenCourtF1																									
+# Ability Name	Evereska						KIT:1|EvereskaE1|EvereskaF1																									
+# Ability Name	Evermeet						KIT:1|EvermeetE1|EvermeetF1|EvermeetF2																									
+# Ability Name	Forest of Lethyr						KIT:1|ForestOfLethyrE1|ForestOfLethyrF1																									
+# Ability Name	High Forest						KIT:1|HighForestE1|HighForestE2|HighForestF1																									
+# Ability Name	Inner Sea						KIT:1|InnerSeaE1|InnerSeaE2|InnerSeaF1																									
+# Ability Name	Underdark (Menzoberranyr)						KIT:1|MenzoberranyrE1|MenzoberranyrF1																									
+# Ability Name	Sildeyuir						KIT:1|SildeyuirE1|SildeyuirE2|SildeyuirF1																									
+# Ability Name	Snow Eagle Aerie						KIT:1|SnowEagleAerieE1|SnowEagleAerieE2|SnowEagleAerieF1																									
+# Ability Name	Wealdath						KIT:1|WealdathE1|WealdathF1																									
+# Ability Name	Yuirwood						KIT:1|YuirwoodE1|YuirwoodF1																									
+# Ability Name	Cannath Vale						KIT:1|CannatValeK1|CannatValeL1																									
+# Ability Name	Lurien						KIT:1|LurienK1|LurienK2|LurienL1																									

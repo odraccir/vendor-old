@@ -1,0 +1,14 @@
+SOURCELONG:Boook of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net						
+
+#Weapon Groupings used to facilitate homebrews:
+#	Sword, Spear, Axe, Bow, Unarmed
+#	Melee, Ranged, Thrown, Spell
+#	Bludgeoning, Slashing, Piercing
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
+#	RangedTouch
+
+Entangling Pole	TYPE:Weapon.Melee.TwoHanded.Reach.Standard.Piercing.Polearm
+Grasping Pole	TYPE:Weapon.Melee.TwoHanded.Reach.Subdual.Standard.Bludgeoning.Polearm
+Turcheon	TYPE:Weapon.Melee.Finesseable.Martial.Subdual.Standard.Bludgeoning.Sap
+Lasso	TYPE:Weapon.Ranged.Exotic.Standard

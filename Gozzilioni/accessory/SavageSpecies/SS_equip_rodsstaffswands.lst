@@ -1,0 +1,10 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																
+																		
+###Block:Wands																		
+# Equipment Name																		
+# Equipment Name	OUTPUTNAME:Crimson Rod of Dragonshape		TYPE:Magic.Rod	COST:120000	WT:5	SOURCEPAGE:Drac	BASEITEM:Rod											
+# Equipment Name	OUTPUTNAME:Golden Rod of Dragonshape		TYPE:Magic.Rod	COST:120000	WT:5	SOURCEPAGE:Drac	BASEITEM:Rod											
+																		
+# Equipment Name																		
+Staff (the Glutton)	OUTPUTNAME:Staff of [NAME]	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:58200	WT:5	SOURCEPAGE:SS	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W	ALTEQMOD:WOOD.PLUS2W	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	WIELD:TwoHanded	SIZE:M	SPROP:Bite extra 1d8 on critical hit.
+Staff (the Lich)	OUTPUTNAME:Staff of [NAME]	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:78950	WT:5	SOURCEPAGE:SS	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.UNHLY_M	ALTEQMOD:WOOD.PLUS1W.UNHLY_M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	WIELD:TwoHanded	SIZE:M	

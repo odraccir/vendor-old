@@ -1,0 +1,66 @@
+CAMPAIGN:Gozzilioni Complete Warrior
+GAMEMODE:35e
+RANK:6
+TYPE:Gozzilioni.Supplements
+SETTING:Heroes
+SOURCELONG:Gozzilioni Complete Warrior
+SOURCESHORT:CW
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-11
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2005 by me
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+#
+#PCC:@/d20ogl/srd35/rsrd.pcc
+FORWARDREF:SPELL|Visage of the Deity (Lesser)
+#SPELL:@/../vendor/Gozzilioni/CompleteDivine/CD_spells.lst|(INCLUDE:Visage of the Deity (Lesser))
+#SPELL:@/d20ogl/srd35/basics/srd_spells.lst|(INCLUDE:Invisibility to Animals)
+#
+#Complete Warrior
+ABILITY:CW_abilities_class.lst
+CLASS:CW_classes_base.lst
+CLASS:CW_classes_mod.lst
+CLASS:CW_classes_prestige.lst
+CLASS:CW_classes_prestige_epic.lst
+SPELL:CW_classes_spells.lst
+COMPANIONMOD:CW_companionmods.lst
+DEITY:CW_deities.lst
+DOMAIN:CW_domains.lst
+EQUIPMENT:CW_equip_armorshields_specific.lst
+EQUIPMENT:CW_equip_weap_ammo.lst
+EQUIPMENT:CW_equip_weap_ammo_specific.lst
+EQUIPMENT:CW_equip_weap_melee.lst
+EQUIPMENT:CW_equip_weap_melee_specific.lst
+EQUIPMENT:CW_equip_weap_ranged.lst
+EQUIPMENT:CW_equip_weap_ranged_specific.lst
+EQUIPMOD:CW_equipmods_base.lst
+EQUIPMOD:CW_equipmods_enhancing.lst
+FEAT:CW_feats.lst
+FEAT:CW_feats_description.lst
+FEAT:CW_feats_epic.lst
+#FEAT:CW_feats_hidden.lst
+KIT:CW_kits_races_g_h.lst
+RACE:CW_races_g_h.lst
+SKILL:CW_skills.lst
+SPELL:CW_spells.lst
+WEAPONPROF:CW_weaponprofs.lst
+
+#BIOSET:my_biosettings.lst
+#CLASS:my_classes.lst
+#COMPANIONMOD:my_companionmods.lst
+#DEITY:my_deities.lst
+#DOMAIN:my_domains.lst
+#EQUIPMENT:my_equipment.lst
+#EQUIPMOD:my_equipmods.lst
+#FEAT:my_feats.lst
+#KIT:my_kits.lst
+#LANGUAGE:my_languages.lst
+#RACE:my_races.lst
+#SKILL:my_skills.lst
+#SPELL:my_spells.lst
+#TEMPLATE:my_templates.lst
+#WEAPONPROF:my_weaponprofs.lst
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want. Options are 3e, 35e, Modern, Deadlands, Sidewinder, Spycraft, or Xcrawl.

@@ -1,0 +1,16 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net						
+								
+# Equipment Name								
+#	COST:							
+								
+###Block								
+Boots of Gravity		TYPE:Magic.Wondrous.Boot	COST:50400	WT:1		SOURCEPAGE:PH		MODS:NO
+Cloak of Shadow		TYPE:Magic.Wondrous.Cape	COST:75000	WT:1		SOURCEPAGE:PH		MODS:NO
+Deck of Illusions (Planar)	OUTPUTNAME:Deck of Illusions, Planar	TYPE:Magic.Wondrous	COST:8100	WT:0.5		SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_34|CHARGES[34]	MODS:NO
+Gate Compass		TYPE:Magic.Wondrous	COST:2500	WT:1		SOURCEPAGE:PH		MODS:NO
+Gate Compass (Greater)	OUTPUTNAME:Gate Compass, Greater	TYPE:Magic.Wondrous	COST:10000	WT:1		SOURCEPAGE:PH		MODS:NO
+Ring Gates (Planar)		TYPE:Magic.Wondrous	COST:200000	WT:20		SOURCEPAGE:PH		MODS:NO
+Rope of Crossing		TYPE:Magic.Wondrous	COST:90000	WT:10		SOURCEPAGE:PH		MODS:NO
+Sextant of the Planes		TYPE:Magic.Wondrous	COST:54000	WT:12		SOURCEPAGE:PH		MODS:NO
+Vestments of Steadfast Spellcasting		TYPE:Magic.Wondrous.Shirt	COST:25000	WT:2		SOURCEPAGE:PH		MODS:NO
+Yeth Horn		TYPE:Magic.Wondrous	COST:10000	WT:1		SOURCEPAGE:PH		MODS:NO

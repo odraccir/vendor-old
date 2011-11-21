@@ -1,0 +1,4 @@
+SOURCELONG:Libris mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+Sand Pack (Sand Blaster)	OUTPUTNAME:Sand Pack, [NAME]		TYPE:Ammunition.Standard.SandPack	COST:0	WT:1													SOURCEPAGE:MM3

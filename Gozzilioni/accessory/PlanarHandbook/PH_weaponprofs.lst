@@ -1,0 +1,19 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net															
+
+#Weapon Groupings used to facilitate homebrews:
+#	Sword, Spear, Axe, Bow, Unarmed
+#	Melee, Ranged, Thrown, Spell
+#	Bludgeoning, Slashing, Piercing
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
+#	RangedTouch
+
+Muspelrule	TYPE:Simple.Club.Melee.Bludgeoning.Light.MeleeBludgeoning
+Sickle (Heavy)	TYPE:Simple.Sickle.Melee.Slashing.OneHanded.MeleeSlashing
+Lancet (Gehennan)	TYPE:Martial.Dagger.Melee.Piercing.Light.MeleePiercing
+Stabaxe	TYPE:Martial.Axe.Melee.Piercing.Light.MeleePiercing
+Straightblade	TYPE:Martial.Sword.Melee.Slashing.Light.MeleeSlashing
+Ripper	TYPE:Martial.Spear.Melee.Piercing.TwoHanded.MeleeSlashing
+Jovar	TYPE:Exotic.Sword.Melee.Slashing.TwoHanded.MeleeSlashing
+Ramhammer	TYPE:Exotic.Hammer.Melee.Bludgeoning.TwoHanded.Reach.MeleeBludgeoning
+Annulat	TYPE:Melee.Exotic.Slashing.Ranged.RangedSlashing.MeleeSlashing

@@ -1,0 +1,13 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net																																								
+																																										
+# BASICS																																										
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	
+Attune Gem	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=3							PRESKILL:1,Craft (Gemcutting)=1			PRESTAT:1,INT=13																										SOURCEPAGE:MoF	
+#Augment Summoning																																										
+#Energy Substitution																																										
+#Eschew Materials																																										
+#Reactive Counterspell																																										
+Spell Girding	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:MoF	
+#Spell Thematics																																										
+Spellfire Wielder	TYPE:General	VISIBLE:YES									PRELEVELMAX:1													DESC:See Text																	SOURCEPAGE:MoF	ABILITY:Special Ability|AUTOMATIC|Spellfire
+#Widen Spell																																										

@@ -1,0 +1,9 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+#Poisons																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+Ravages (Golden ice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0		SOURCEPAGE:EXD	SPROP:Contact DC 14, Init.:1d6 DEX, Sec.:2d6 DEX													
+Ravages (Celestial lightsblood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0		SOURCEPAGE:EXD	SPROP:Ingested DC 20, Init.:1d4 DEX, Sec.:1d4 CON													
+Ravages (Jade water)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:350	WT:0		SOURCEPAGE:EXD	SPROP:Injury DC 14, Init.:1d4 WIS, Sec.:1d4 INT+1d4 WIS													
+Ravages (Purified coutl venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0		SOURCEPAGE:EXD	SPROP:Injury DC 16, Init.:2d4 STR, Sec.:4d4 STR													
+Ravages (Unicorn Blood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:EXD	SPROP:Injury DC 17, Init.:1d3 STR, Sec.:1d4 STR													

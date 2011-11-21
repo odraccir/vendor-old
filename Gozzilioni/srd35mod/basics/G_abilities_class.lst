@@ -1,0 +1,104 @@
+SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																															
+#																																	
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Turn Earth.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Rebuke Earth.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Turn Water.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Rebuke Water.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Turn Fire.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Rebuke Fire.MOD	TYPE:TurnElemental																																
+CATEGORY=Special Ability|Wild Shape.MOD	TYPE:WildShape																																
+CATEGORY=Special Ability|Aura of Menace.MOD	DESC:Will DC %1|AuraMenaceDC	DEFINE:AuraMenaceDC|10+(HD/2)+CHA	BONUS:VAR|AuraMenaceDC|2|PREFEAT:1,Ability Focus(Aura of Menace)																														
+CATEGORY=Special Ability|Wild Shape.MOD	TYPE:WildShape																																
+CATEGORY=Special Ability|Rage.MOD	TYPE:Rage																																
+CATEGORY=Special Ability|Paralyzing Gaze.MOD	DEFINE:ParalyzingGazeDC|0	DESC:DC %1|ParalyzingGazeDC|PREVARGT:ParalyzingGazeDC,0	BONUS:VAR|ParalyzingGazeDC|2|PREFEAT:1,Ability Focus(Paralyzing Gaze)																														
+CATEGORY=Special Ability|Curse of Lycanthropy.MOD	DEFINE:CurseOfLycanthropyDC|15	DESC:Fort DC %1|CurseOfLycanthropyDC																															
+CATEGORY=Special Ability|Whirlwind.MOD	DESC:Ref DC %1|WhirlwindDC	DEFINE:WhirlwindDC|10+(HD/2)+STR	BONUS:VAR|WhirlwindDC|2|PREFEAT:1,Ability Focus(Whirlwind)																														
+CATEGORY=Special Ability|Burn.MOD	DESC:Ref DC %1|BurnDC	DEFINE:BurnDC|10+(HD/2)+CON	BONUS:VAR|BurnDC|2|PREFEAT:1,Ability Focus(Burn)																														
+CATEGORY=Special Ability|Vortex.MOD	DESC:Ref DC %1|VortexDC	DEFINE:VortexDC|10+(HD/2)+CON	BONUS:VAR|VortexDC|2|PREFEAT:1,Ability Focus(Vortex)																														
+CATEGORY=Special Ability|Distraction.MOD	DESC:Fort DC %1|DistractionDC	DEFINE:DistractionDC|10+CON+(HD/2)	BONUS:VAR|DistractionDC|2|PREFEAT:1,Ability Focus(Distraction)																														
+CATEGORY=Special Ability|Rend.MOD	DESC:%1d%2 + %3|RendDice|RendDie|RendBonusDamage	DEFINE:RendDice|0	DEFINE:RendDie|0	DEFINE:RendBonusDamage|STR*3/2																													
+CATEGORY=Special Ability|Stonecunning.MOD	BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=RACIAL	BONUS:VAR|StonecunningLevel|1|TYPE=Stonecunning																															
+CATEGORY=Special Ability|Crippling Strike.MOD	DESC:.CLEAR	DESC:An opponent damaged with Sneak Attack also takes %1 points STR damage.|CripplingStrikeDamage	DEFINE:CripplingStrikeDamage|0	BONUS:VAR|CripplingStrikeDamage|2|TYPE=Base																													
+CATEGORY=Special Ability|Archmage Spell Power.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|1																																
+CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBonus|0																															
+CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate
+#																																	
+CATEGORY=Special Ability|Special Mount.MOD	COMPANIONLIST:.CLEAR.Special Mount	COMPANIONLIST:Special Mount|RACETYPE=Animal																															
+#
+Energon Trait	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Do not speack even among themselves.															ABILITY:Special Ability|AUTOMATIC|Explosion|Energy Ray	VISION:Darkvision (60')												SOURCEPAGE:MotP
+#
+No region	CATEGORY:Regional	TYPE:Regional	VISIBLE:YES				!PREABILITY:1,CATEGORY=Regional,ANY												COST:0													SOURCEPAGE:PGtF	
+#																																	
+Red Dragon Pact	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+4 racial bonus to Diplomacy checks when dealing with Red Dragons.																												SOURCEPAGE:MM	
+Yuan Ti Pureblood Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+5 racial bonus on Disguise checks when impersonating a human.																												SOURCEPAGE:MM	
+Yuan Ti Abomination Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Can take 10 on Climb checks even when rushed or threatened.+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check.																												SOURCEPAGE:MM	
+#																																	
+Alternate Form (Sp)	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
+Antimagic Cone	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES																													SOURCEPAGE:MM	
+Chameleon Power	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES	DESC:+10 circumstance bonus on Hide checks.																												SOURCEPAGE:MM	
+Circle Leader	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY								DEFINE:CircleLeaderPower|0								ABILITY:Special Ability|AUTOMATIC|Circle Leader Output|PREVARLTEQ:CircleLeaderPower,1	ABILITY:Special Ability|AUTOMATIC|Great Circle Leader Output|PREVARGTEQ:CircleLeaderPower,2												SOURCEPAGE:DMG	
+Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Circle Leader																												SOURCEPAGE:DMG	
+Great Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Great Circle Leader																												SOURCEPAGE:DMG	
+Detect Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
+Displacer Beast Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to Hide.																												SOURCEPAGE:MM	
+Distortion	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:50%% concealment																												SOURCEPAGE:MM	
+Enhanced Specialization ~ Abjuration	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Abjuration																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Conjuration	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Conjuration																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Divination	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Divination																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Enchantment	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Enchantment																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Evocation	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Evocation																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Illusion	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Illusion																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Necromancy	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Necromancy																											SOURCEPAGE:DMG	
+Enhanced Specialization ~ Transmutation	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Enhanced Specialization	DESC:Transmutation																											SOURCEPAGE:DMG	
+Energy Ray	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:20'ft range.																												SOURCEPAGE:MotP
+Extract	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:MM	
+Explode	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:20'ft radius explosion 1d8+9 damage (Ref DC 16)																												SOURCEPAGE:MotP
+Immunity to Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take damage from ranged magic attack.																												SOURCEPAGE:MM	ASPECT:Immunity|Ranged Attack
+Inertial Armor (Sp)	CATEGORY:Special Ability	TYPE:SpecialQuality.SpellLike	VISIBLE:YES	DESC:+4armor bonus to AC as long as remain conscious.																												SOURCEPAGE:MM	
+Mist Form	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You have the supernatural ability to assume a misty form.																												SOURCEPAGE:MMay	
+Negative Energy Lash	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:MotP
+Produce Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
+Protected Sight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES		DESC:+3 racial bonus on saving throw against any light or pattern effect.																											SOURCEPAGE:MM	
+Resistance To Ranged Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO					DEFINE:RangedAttackResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Ranged Attack Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Ranged Attack,Vulnerability To Ranged Attack													SOURCEPAGE:MM	
+Resistance To Ranged Attack Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	DESC:You gain +%1 resistance bonus to saving throws against ranged magic attack|BacklashResistanceBonus	OUTPUTNAME:Resistance To Ranged Attack	ASPECT:Resistance|Ranged Attack	ASPECT:Ability Benefit|%1|RangedAttackResistanceBonus																									SOURCEPAGE:MM	
+Scribe Tatoo	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:DMG	
+See In Darkness	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.Sense	VISIBLE:YES																													SOURCEPAGE:MM																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+Slaad Fever	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES																													SOURCEPAGE:MM	
+Specialist Defense ~ Abjuration	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Abjuration spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Conjuration	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Conjuration spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Divination	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Divination spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Enchantment	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Enchantment spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Evocation	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Evocation spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Illusion	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Illusion spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Necromancy	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Necromancy spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Specialist Defense ~ Transmutation	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1 against Transmutation spells|SpecialistDefenseBonus				DEFINE:SpecialistDefenseBonus|0																								SOURCEPAGE:DMG	
+Spell Power ~ Abjuration	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Abjuration|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Conjuration	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Conjuration|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Divination	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Divination|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Enchantment	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Enchantment|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Evocation	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Evocation|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Illusion	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Illusion|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Necromancy	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Necromancy|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spell Power ~ Transmutation	CATEGORY:Special Ability	TYPE:Special	VISIBLE:YES	DESC:+%1|SpellPowerBonus				DEFINE:SpellPowerLVL|0	DEFINE:SpellPowerBonus|0		BONUS:CASTERLEVEL|SCHOOL.Transmutation|SpellPowerBonus	BONUS:VAR|SpellPowerBonus|SpellPowerLVL/2																				SOURCEPAGE:DMG	
+Spurt	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:1 fire damage in 5-ft radius																												SOURCEPAGE:MMay	
+Stunning Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.AbilityFocus	VISIBLE:YES	DESC:Will DC %1|StunningGazeDC				DEFINE:StunningGazeDC|10+(HD/2)+CHA			BONUS:VAR|StunningGazeDC|2|PREFEAT:1,Ability Focus(Stunning Gaze)																					SOURCEPAGE:MM	
+Stunning Croak	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.AbilityFocus	VISIBLE:YES	DESC:Fort DC %1|StunningCroakDC				DEFINE:StunningCroakDC|10+(HD/2)+CON			BONUS:VAR|StunningCroakDC|2|PREFEAT:1,Ability Focus(Stunning Croak)																					SOURCEPAGE:MM	
+Summon Slaad ~ Red Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:1/day summon 1 red slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
+Summon Slaad ~ Blue Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:1/day summon 1 blue slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
+Summon Slaad ~ Green Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:1/day summon 1 green slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
+Summon Slaad ~ Grey Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:2/day summon 1-2 red slaad or 1 blue slaad 60%% or 1 green slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
+Summon Slaad ~ Death Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:2/day summon 1-2 red slaad or 1 blue slaad 60%% or 1-2 green slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
+Vulnerability To Ranged Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.Weakness	VISIBLE:YES	DESC:You take half again as much (+50%%) damage as normal from magic ranged attack.																												SOURCEPAGE:MM	
+																																	
+																																	
+###Block: Dragon Breath Weapons																																	
+Breath Weapon ~ Cone of Scalding Steam	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0		DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' Cone of Scalding Steam %2d%3 cold DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC																					SOURCEPAGE:MMay	
+Breath Weapon ~ Line of Burning Light	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0		DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' Line of Burning Light %2d%3 fire DC %4|BreathWeaponLine|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC																					SOURCEPAGE:MMay	
+Breath Weapon ~ Line of Caustic Slime	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponLine|0				DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' Line of Caustic Slime DC %2|BreathWeaponLine|BreathWeaponDC																					SOURCEPAGE:MMay	
+Breath Weapon ~ Cloud of Nauseating Gas	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDuration|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' radius Cloud of Nauseating Gas DC %2 for %3 rounds|BreathWeaponCloud|BreathWeaponDC|BreathWeaponDuration																					SOURCEPAGE:MMay	
+																																	
+# Ability Name																																	
+Red Dragon Domain Spell	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	SPELLLEVEL:CLASS|Sorcerer=1|Protection from Law,Protection from Good,Burning Hands|Sorcerer=2|Shatter,Desecrate,Produce Flame|Sorcerer=3|Magic Circle against Law,Magic Circle against Good,Resist Energy|Sorcerer=4|Chaos Hammer,Unholy Blight,Wall of Fire|Sorcerer=5|Dispel Law,Dispel Good,Fire Shield|Sorcerer=6|Animate Objects,Create Undead,Fire Seeds|Sorcerer=7|Word of Chaos,Blasphemy,Fire Storm|Sorcerer=8|Cloak of Chaos,Unholy Aura,Incendiary Cloud|Sorcerer=9|Summon Monster IX,Elemental Swarm																												SOURCEPAGE:MM	

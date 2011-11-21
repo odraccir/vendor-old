@@ -1,0 +1,7 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net																			
+																					
+#Luiren Shortbow	COST:8330																				
+																					
+#																					
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property										
+Luiren Shortbow		PROFICIENCY:WEAPON|Shortbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Shortbow	COST:30	WT:2		SLOTS:2		DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS1W.SEEK	RANGE:60	CONTAINS:1|Arrow=1				SOURCEPAGE:MoF	MODS:NO		BONUS:WEAPON|DAMAGE|min(STR,0)

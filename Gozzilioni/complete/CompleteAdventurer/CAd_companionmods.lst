@@ -1,0 +1,98 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net
+
+###Block:Beastmaster Extra Animal Companion
+# Class of the Master	Type				Hit Dice	Virtual Feat				Special ABility					Define			Combat bonus						Stat bonus
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion									ABILITY:Special Ability|AUTOMATIC|Link|Share Spells
+FOLLOWER:ExtraCompLevel1=3	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Evasion					DEFINE:EvasionUsable|0	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel1=6	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Devotion									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel1=9	TYPE:Animal Companion	HD:2		VFEAT:Multiattack|PREHANDSGTEQ:3	AUTO:FEAT|Multiattack								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel1=12	TYPE:Animal Companion	HD:2																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel1=15	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Improved Evasion							BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel1=18	TYPE:Animal Companion	HD:2																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+#
+
+###Block:Specific Beastmaster Extra Animal Companions
+# Class of the Master	Type				Required Race					Apply Kit
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Badger					KIT:1|Badger Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Camel					KIT:1|Camel Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Dire Animal (Dire Rat)		KIT:1|Dire Animal (Dire Rat) Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Dog					KIT:1|Dog Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Dog (Riding)				KIT:1|Dog (Riding) Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Eagle					KIT:1|Eagle Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Hawk					KIT:1|Hawk Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Horse (Heavy)				KIT:1|Horse (Heavy) Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Horse (Light)				KIT:1|Horse (Light) Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Owl					KIT:1|Owl Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Pony					KIT:1|Pony Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Snake (Viper/Medium)		KIT:1|Snake (Viper/Medium) Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Snake (Viper/Small)			KIT:1|Snake (Viper/Small) Companion
+FOLLOWER:ExtraCompLevel1=1	TYPE:Animal Companion	PRERACE:1,Wolf					KIT:1|Wolf Companion
+
+###Block:Beastmaster Extra Animal Companion
+# Class of the Master	Type				Hit Dice	Virtual Feat				Special ABility					Define			Combat bonus						Stat bonus
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion									ABILITY:Special Ability|AUTOMATIC|Link|Share Spells
+FOLLOWER:ExtraCompLevel2=3	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Evasion					DEFINE:EvasionUsable|0	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel2=6	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Devotion									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel2=9	TYPE:Animal Companion	HD:2		VFEAT:Multiattack|PREHANDSGTEQ:3	AUTO:FEAT|Multiattack									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel2=12	TYPE:Animal Companion	HD:2																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel2=15	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Improved Evasion							BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel2=18	TYPE:Animal Companion	HD:2																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+#
+
+###Block:Specific Beastmaster Extra Animal Companions
+# Class of the Master	Type				Required Race					Apply Kit
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Badger					KIT:1|Badger Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Camel					KIT:1|Camel Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Dire Animal (Dire Rat)		KIT:1|Dire Animal (Dire Rat) Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Dog					KIT:1|Dog Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Dog (Riding)				KIT:1|Dog (Riding) Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Eagle					KIT:1|Eagle Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Hawk					KIT:1|Hawk Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Horse (Heavy)				KIT:1|Horse (Heavy) Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Horse (Light)				KIT:1|Horse (Light) Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Owl					KIT:1|Owl Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Pony					KIT:1|Pony Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Snake (Viper/Medium)		KIT:1|Snake (Viper/Medium) Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Snake (Viper/Small)			KIT:1|Snake (Viper/Small) Companion
+FOLLOWER:ExtraCompLevel2=1	TYPE:Animal Companion	PRERACE:1,Wolf					KIT:1|Wolf Companion
+
+###Block:Beastmaster Extra Animal Companion
+# Class of the Master	Type				Hit Dice	Virtual Feat				Special ABility					Define			Combat bonus						Stat bonus
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion									ABILITY:Special Ability|AUTOMATIC|Link|Share Spells
+FOLLOWER:ExtraCompLevel3=3	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Evasion					DEFINE:EvasionUsable|0	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel3=6	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Devotion									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel3=9	TYPE:Animal Companion	HD:2		VFEAT:Multiattack|PREHANDSGTEQ:3	AUTO:FEAT|Multiattack								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel3=12	TYPE:Animal Companion	HD:2																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel3=15	TYPE:Animal Companion	HD:2								ABILITY:Special Ability|AUTOMATIC|Improved Evasion							BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+FOLLOWER:ExtraCompLevel3=18	TYPE:Animal Companion	HD:2																			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	BONUS:STAT|DEX|1
+#
+
+###Block:Specific Beastmaster Extra Animal Companions
+# Class of the Master	Type				Required Race					Apply Kit
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Badger					KIT:1|Badger Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Camel					KIT:1|Camel Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Dire Animal (Dire Rat)		KIT:1|Dire Animal (Dire Rat) Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Dog					KIT:1|Dog Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Dog (Riding)				KIT:1|Dog (Riding) Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Eagle					KIT:1|Eagle Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Hawk					KIT:1|Hawk Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Horse (Heavy)				KIT:1|Horse (Heavy) Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Horse (Light)				KIT:1|Horse (Light) Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Owl					KIT:1|Owl Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Pony					KIT:1|Pony Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Snake (Viper/Medium)		KIT:1|Snake (Viper/Medium) Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Snake (Viper/Small)			KIT:1|Snake (Viper/Small) Companion
+FOLLOWER:ExtraCompLevel3=1	TYPE:Animal Companion	PRERACE:1,Wolf					KIT:1|Wolf Companion
+
+###Block:Animal Companion Size work-around
+#
+# These bonuses prevent the listed animals from increasing in size when they gain hit dice as a companion
+# This should eventually be done by hard-coding it but for now this work-around will let the 5.8 companions come out with the correct numbers - Eddy
+# Class of the Master	Type				Adjust PC Size
+FOLLOWER:ExtraCompLevel1=3	TYPE:Animal Companion	BONUS:SIZEMOD|NUMBER|-1|PRERACE:1,Wolf,Dire Animal (Dire Rat)|PREVARGT:TL,3|PREVARLT:TL,7
+FOLLOWER:ExtraCompLevel2=3	TYPE:Animal Companion	BONUS:SIZEMOD|NUMBER|-1|PRERACE:1,Wolf,Dire Animal (Dire Rat)|PREVARGT:TL,3|PREVARLT:TL,7
+FOLLOWER:ExtraCompLevel3=3	TYPE:Animal Companion	BONUS:SIZEMOD|NUMBER|-1|PRERACE:1,Wolf,Dire Animal (Dire Rat)|PREVARGT:TL,3|PREVARLT:TL,7
+#
+
+FOLLOWER:WildPlainsSwiftness=1	TYPE:Animal Companion			ABILITY:Special Ability|AUTOMATIC|Wild Plains Swiftness
+FOLLOWER:WildPlainsSwiftness=1	TYPE:Special Mount			ABILITY:Special Ability|AUTOMATIC|Wild Plains Swiftness

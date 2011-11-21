@@ -1,0 +1,54 @@
+SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Rogue Special Abilities																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
+Ravenloft Region	CATEGORY:Regional	TYPE:Regional	VISIBLE:YES								BONUS:ABILITYPOOL|Ravenloft Region|1								COST:0	TEMPLATE:Outcast Rating												SOURCEPAGE:RLDMG
+#																																
+#	DWARF	BONUS:VAR|OutcastRatingBase|3																														
+#	ELF	BONUS:VAR|OutcastRatingBase|3																														
+#	GNOME	BONUS:VAR|OutcastRatingBase|2																														
+#	HALF-ELF	BONUS:VAR|OutcastRatingBase|1																														
+#	HALFLING	BONUS:VAR|OutcastRatingBase|1																														
+#Human Aglarond Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Aglarond		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Aglarond Region													SOURCEPAGE:PGtF
+Barovia	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Barovia Region													SOURCEPAGE:RLPHB
+Borca	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Borca Region													SOURCEPAGE:RLPHB
+Darkon	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Darkon Region													SOURCEPAGE:RLPHB
+Dementlieu	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Dementlieu Region													SOURCEPAGE:RLPHB
+Falkovnia	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Falkovnia Region													SOURCEPAGE:RLPHB
+Forlorn	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Forlorn Region													SOURCEPAGE:RLPHB
+Hazlan	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Hazlan Region													SOURCEPAGE:RLPHB
+Invidia	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Invidia Region													SOURCEPAGE:RLPHB
+Kartakass	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Kartakass Region													SOURCEPAGE:RLPHB
+Keening	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Keening Region													SOURCEPAGE:RLPHB
+Lamordia	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Lamordia Region													SOURCEPAGE:RLPHB
+Markovia	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Markovia Region													SOURCEPAGE:RLPHB
+Mordent	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Mordent Region													SOURCEPAGE:RLPHB
+Necropolis	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Necropolis Region													SOURCEPAGE:RLPHB
+Nocturnal Sea	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Nocturnal Sea Region													SOURCEPAGE:RLPHB
+Nova Vaasa	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Nova Vaasa Region													SOURCEPAGE:RLPHB
+Richmulot	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Richmulot Region													SOURCEPAGE:RLPHB
+Sea of Sorrow	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Sea of Sorrow Region													SOURCEPAGE:RLPHB
+Shadow Rift	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Shadow Rift Region													SOURCEPAGE:RLPHB
+Sithicus	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Sithicus Region													SOURCEPAGE:RLPHB
+Tepest	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Tepest Region													SOURCEPAGE:RLPHB
+Valachan	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Valachan Region													SOURCEPAGE:RLPHB
+Vechor	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Vechor Region													SOURCEPAGE:RLPHB
+Vebrek	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES																TEMPLATE:Vebrek Region													SOURCEPAGE:RLPHB
+Amber Wastes (Har'Akir)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Amber Wastes, Har'Akir															TEMPLATE:Har'Akir Region													SOURCEPAGE:RLPHB
+Amber Wastes (Pharazia)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Amber Wastes, Pharazia															TEMPLATE:Pharazia Region													SOURCEPAGE:RLPHB
+Amber Wastes (Sebua)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Amber Wastes, Sebua															TEMPLATE:Sebua Region													SOURCEPAGE:RLPHB
+Frozen Reaches (Sanguinia)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Frozen Reaches, Sanguinia															TEMPLATE:Sanguinia Region													SOURCEPAGE:RLPHB
+Frozen Reaches (Vorostokov)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Frozen Reaches, Vorostokov															TEMPLATE:Vorostokov Region													SOURCEPAGE:RLPHB
+Shadowlands (Avonleigh)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Shadowlands, Avonleigh															TEMPLATE:Avonleigh Region													SOURCEPAGE:RLPHB
+Shadowlands (Nidala)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Shadowlands, Nidala															TEMPLATE:Nidala Region													SOURCEPAGE:RLPHB
+Shadowlands (Shadowmanor)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Shadowlands, Shadowmanor															TEMPLATE:Shadowmanor Region													SOURCEPAGE:RLPHB
+Verdurous Land (Saragoss)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Verdurous Lands, Saragoss															TEMPLATE:Saragoss Region													SOURCEPAGE:RLPHB
+Verdurous Land (Sri Raji)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Verdurous Lands, Sri Raji															TEMPLATE:Sri Raji Region													SOURCEPAGE:RLPHB
+Verdurous Land (Wildland)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Verdurous Lands, Wildlands															TEMPLATE:Wildlands Region													SOURCEPAGE:RLPHB
+Zherisia (Paridon)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Zherisia, Paridon															TEMPLATE:Paridon Region													SOURCEPAGE:RLPHB
+Zherisia (Timor)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Zherisia, Timor															TEMPLATE:Timor Region													SOURCEPAGE:RLPHB
+Island of Terror (Bluetspur)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Islands of Terror, Bluetspur															TEMPLATE:Bluetspur Region													SOURCEPAGE:RLPHB
+Island of Terror (G'henna)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Islands of Terror, G'Henna															TEMPLATE:G'Henna Region													SOURCEPAGE:RLPHB
+Island of Terror (Odiare)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Islands of Terror, Odiare															TEMPLATE:Odiare Region													SOURCEPAGE:RLPHB
+Island of Terror (Rokushima Tayioo)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Islands of Terror, Taiyoo															TEMPLATE:Taiyoo Region													SOURCEPAGE:RLPHB
+Island of Terror (Souragne)	CATEGORY:Regional	TYPE:RavenloftRegion	VISIBLE:YES	OUTPUTNAME:Islands of Terror, Souragne															TEMPLATE:Souragne Region													SOURCEPAGE:RLPHB

@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																							
+																																									
+Remain Conscious	TYPE:General	VISIBLE:YES		PREATT:2			PREFEAT:3,Endurance,Iron Will,Toughness																	DESC:You have a tenacity of will that supports you even when things look bleak.																	SOURCEPAGE:MotW
+Multidexterity	TYPE:General	VISIBLE:YES								PREHANDSGTEQ:3					PRESTAT:1,DEX=15									DESC:The creature ignores all penalties for using an off hand.									BONUS:COMBAT|TOHIT-PRIMARY,TOHIT-SECONDARY|4|PREEQUIPSECONDARY:1,TYPE=Natural								SOURCEPAGE:MM2

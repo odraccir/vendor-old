@@ -1,0 +1,20 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+
+# Laid out to match RSRD ordering		
+# Weapon Name	Type	Nb Hands
+Buckler Axe (Dwarven)	TYPE:Exotic.Dwarven	
+Lightblade (Elven)	TYPE:Exotic.Elven	
+Tortoise Blade (Gnome)	TYPE:Exotic.Gnomish	
+Maul	TYPE:Martial.Exotic	
+Pick (Dire)	TYPE:Martial.Exotic	
+Scourge	TYPE:Exotic	
+Thinblade (Elven)	TYPE:Exotic	
+Warmace	TYPE:Martial.Exotic	
+Greatspear	TYPE:Exotic	
+Greatbow	TYPE:Exotic	HANDS:2
+Hammer (Double)	TYPE:Exotic	
+Lajatang	TYPE:Exotic	
+Mancatcher	TYPE:Exotic	
+Poleaxe (Heavy)	TYPE:Exotic
+Blowgun (Greater)	TYPE:Exotic
+Boomerang	TYPE:Exotic

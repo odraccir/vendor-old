@@ -1,0 +1,133 @@
+SOURCELONG:Player's Handbook 2	SOURCESHORT:PHB2	SOURCEWEB:http://www.gozzilioni.net																																														
+																																																
+# BASICS																																																
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page							
+Acrobatic Strike	TYPE:General.Fighter	VISIBLE:YES													PRESKILL:1,Tumble=12									DESC:See Text																	SOURCEPAGE:PHB2							
+Active Shield Defense	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Shield Specialization			PREMULT:1,[PREPROFWITHSHIELD:1,TYPE.Light,TYPE.Heavy],[PREFEAT:1,Shield Proficiency]															DESC:See Text																	SOURCEPAGE:PHB2							
+Adaptable Flanker	TYPE:General.Fighter	VISIBLE:YES		PREATT:4		PREFEAT:2,Combat Reflexes,Vexing Flanker																		DESC:See Text																	SOURCEPAGE:PHB2							
+Agile Shield Fighter	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Shield Specialization,Improved Shield Bash			PREMULT:1,[PREPROFWITHSHIELD:1,TYPE.Light,TYPE.Heavy],[PREFEAT:1,Shield Proficiency]															DESC:See Text																	SOURCEPAGE:PHB2							
+Arcane Accompaniment	TYPE:General	VISIBLE:YES				PREFEAT:1,Arcane Flourish			PREABILITY:1,CATEGORY=Special Ability,Bardic Music			PRESKILL:1,TYPE.Perform=4	PRECLASS:1,SPELLCASTER.Arcane=1											DESC:See Text																	SOURCEPAGE:PHB2							
+Arcane Consumption	TYPE:General	VISIBLE:YES				PREFEAT:2,Arcane Toughness,Toughness							PRECLASS:1,SPELLCASTER.Arcane=6											DESC:See Text																	SOURCEPAGE:PHB2							
+Arcane Flourish	TYPE:General	VISIBLE:YES										PRESKILL:1,TYPE.Perform=4	PRECLASS:1,SPELLCASTER.Arcane=1											DESC:See Text																	SOURCEPAGE:PHB2							
+Arcane Thesis	TYPE:General	VISIBLE:YES										PRESKILL:1,Knowledge (Arcana)=9	PRESPELLCAST:TYPE=Arcane											DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Arcane[LEVELMIN=1;LEVELMAX=MAXCASTABLE]				BONUS:CASTERLEVEL|SPELL.%LIST|2										SOURCEPAGE:PHB2	SELECT:1						
+Arcane Toughness	TYPE:General	VISIBLE:YES				PREFEAT:1,Toughness							PRECLASS:1,SPELLCASTER.Arcane=3											DESC:See Text																	SOURCEPAGE:PHB2							
+Armor Specialization (Medium)	TYPE:General.Fighter	VISIBLE:YES		PREATT:12					PREMULT:1,[PREPROFWITHARMOR:1,TYPE.Medium],[PREFEAT:1,Armor Proficiency (Medium)]															DESC:See Text																	SOURCEPAGE:PHB2	DR:2/-|PREARMORTYPE:2,TYPE.Medium,TYPE.Masterwork						
+Armor Specialization (Heavy)	TYPE:General.Fighter	VISIBLE:YES		PREATT:12					PREMULT:1,[PREPROFWITHARMOR:1,TYPE.Heavy],[PREFEAT:1,Armor Proficiency (Heavy)]															DESC:See Text																	SOURCEPAGE:PHB2	DR:2/-|PREARMORTYPE:2,TYPE.Heavy,TYPE.Masterwork						
+Battle Dancer	TYPE:General	VISIBLE:YES		PREATT:2		PREABILITY:1,CATEGORY=Special Ability,Bardic Music																		DESC:See Text																	SOURCEPAGE:PHB2							
+Bonded Familiar	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Summon Familiar																		DESC:See Text																	SOURCEPAGE:PHB2							
+Bounding Assault	TYPE:General.AttackOption	VISIBLE:YES		PREATT:12		PREFEAT:3,Dodge,Mobility,Spring Attack									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Brutal Strike	TYPE:General.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:1,Power Attack									PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Combat Acrobat	TYPE:General.Fighter	VISIBLE:YES										PRESKILL:2,Balance=9,Tumble=9												DESC:See Text																	SOURCEPAGE:PHB2							
+Combat Familiar	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Summon Familiar							PRECLASS:1,SPELLCASTER.Arcane=1											DESC:See Text																	SOURCEPAGE:PHB2							
+Combat Tactician	TYPE:General	VISIBLE:YES		PREATT:12		PREFEAT:1,Dodge									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Cometary Collision	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Improved Bull Rush,Power Attack									PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Companion Spellbond	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Animal Companion																		DESC:See Text																	SOURCEPAGE:PHB2							
+Crossbow Sniper	TYPE:General	VISIBLE:YES		PREATT:1		PREFEAT:1,Weapon Focus(TYPE=Crossbow)			PREWEAPONPROF:1,TYPE.Crossbow															DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Weapon Focus						BONUS:WEAPONPROF=%LIST|TOHIT|max(0,DEX/2)|PREEQUIP:1,TYPE=Ranged								SOURCEPAGE:PHB2							
+Crushing Strike	TYPE:General	VISIBLE:YES				PREFEAT:1,Weapon Focus(TYPE=Bludgeoning)	PREFEAT:1,Melee Weapon Mastery (Bludgeoning)	PREFEAT:1,Weapon Specialization(TYPE=Bludgeoning)	PREWEAPONPROF:1,TYPE.Bludgeoning															DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|BardicMusicTimes|4			SOURCEPAGE:PHB2							
+Cunning Evasion	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Evasion						PRESKILL:1,Hide=9												DESC:See Text																	SOURCEPAGE:PHB2							
+Dampen Spell	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Counterspell																		DESC:See Text																	SOURCEPAGE:PHB2							
+Deadeye Shot	TYPE:General.Fighter	VISIBLE:YES		PREATT:4		PREFEAT:2,Point Blank Shot,Precise Shot			PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Skirmish Attack						PRESTAT:1,CHA=13									DESC:See Text								BONUS:CHECKS|Will|max(WIS,CHA)-WIS									SOURCEPAGE:PHB2							
+Defensive Sweep	TYPE:General.Fighter	VISIBLE:YES		PREATT:15																				DESC:See Text																	SOURCEPAGE:PHB2							
+Driving Attack	TYPE:General	VISIBLE:YES		PREATT:14		PREFEAT:1,Weapon Focus(TYPE=Piercing)	PREFEAT:1,Melee Weapon Mastery (Piercing)	PREFEAT:1,Weapon Specialization(TYPE=Piercing)	PREWEAPONPROF:1,TYPE.Piercing															DESC:See Text																	SOURCEPAGE:PHB2							
+Elven Spell Lore	TYPE:General	VISIBLE:YES																		PREMULT:1,[PRESTAT:1,INT=17],[PREMULT:1,[PRERACE:1,Elf%],[PRERACE:1,RACESUBTYPE=Elf]]				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLLEVEL|1|TYPE=Arcane|0|MAXLEVEL|TYPE=Divine|0|MAXLEVEL														SOURCEPAGE:PHB2	SELECT:1						
+Fade into Violence	TYPE:General	VISIBLE:YES										PRESKILL:1,Bluff=6,Hide=6												DESC:See Text																	SOURCEPAGE:PHB2							
+Fiery Fist	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:2,Improved Unarmed Strike,Stunning Fist									PRESTAT:2,DEX=13,WIS=13									DESC:See Text														BONUS:VAR|StunningFistAttack|1			SOURCEPAGE:PHB2							
+Fiery Ki Defense	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:3,Improved Unarmed Strike,Stunning Fist,Fiery Fist									PRESTAT:2,DEX=13,WIS=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Flay	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Power Attack									PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Grenadier	TYPE:General.Fighter	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:PHB2							
+Hindering Opportunist	TYPE:General	VISIBLE:YES		PREATT:3		PREFEAT:1,Combat Reflexes																		DESC:See Text																	SOURCEPAGE:PHB2							
+Intimidating Strike	TYPE:General.Fighter	VISIBLE:YES										PRESKILL:1,Intimidate=4												DESC:See Text																	SOURCEPAGE:PHB2							
+Indomitable Soul	TYPE:General	VISIBLE:YES				PREFEAT:2,Endurance,Iron Will						PRESKILL:1,Concentration=8												DESC:See Text																	SOURCEPAGE:PHB2							
+Keen Eared Scout	TYPE:General	VISIBLE:YES	OUTPUTNAME:Keen-Eared Scout			PREFEAT:1,Alertness,Skill Focus(Listen)						PRESKILL:1,Listen=6												DESC:See Text																	SOURCEPAGE:PHB2							
+Ki Blast	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:3,Improved Unarmed Strike,Stunning Fist,Fiery Fist									PRESTAT:2,DEX=13,WIS=13									DESC:See Text														BONUS:VAR|StunningFistAttack|1			SOURCEPAGE:PHB2							
+Leap of the Heavens	TYPE:General	VISIBLE:YES										PRESKILL:1,Jump=4												DESC:See Text																	SOURCEPAGE:PHB2							
+Lunging Strike	TYPE:General.Fighter	VISIBLE:YES		PREATT:6																				DESC:See Text																	SOURCEPAGE:PHB2							
+Lurking Familiar	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Summon Familiar	PREFEAT:1,Combat Familiar						PRECLASS:1,SPELLCASTER.Arcane=6											DESC:See Text																	SOURCEPAGE:PHB2							
+Mad Foam Rager	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE=Rage																		DESC:See Text																	SOURCEPAGE:PHB2							
+Master Manipulator	TYPE:General	VISIBLE:YES										PRESKILL:1,Diplomacy=9			PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Melee Evasion	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Combat Expertise,Dodge									PRESTAT:2,DEX=13,INT=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Melee Weapon Mastery (Bludgeoning)	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:1,Weapon Focus(TYPE=Bludgeoning)	PREFEAT:1,Weapon Specialization(TYPE=Bludgeoning)		PREWEAPONPROF:1,TYPE.Bludgeoning															DESC:See Text						BONUS:COMBAT|TOHIT.Bludgeoning|2			BONUS:COMBAT|DAMAGE.Bludgeoning|2								SOURCEPAGE:PHB2							
+Melee Weapon Mastery (Piercing)	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:1,Weapon Focus(TYPE=Piercing)	PREFEAT:1,Weapon Specialization(TYPE=Piercing)		PREWEAPONPROF:1,TYPE.Piercing															DESC:See Text						BONUS:COMBAT|TOHIT.Piercing|2			BONUS:COMBAT|DAMAGE.Piercing|2								SOURCEPAGE:PHB2							
+Melee Weapon Mastery (Slashing)	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:1,Weapon Focus(TYPE=Slashing)	PREFEAT:1,Weapon Specialization(TYPE=Slashing)		PREWEAPONPROF:1,TYPE.Slashing															DESC:See Text						BONUS:COMBAT|TOHIT.Slashing|2			BONUS:COMBAT|DAMAGE.Slashing|2								SOURCEPAGE:PHB2							
+Overwhelming Assault	TYPE:General	VISIBLE:YES		PREATT:15																				DESC:See Text																	SOURCEPAGE:PHB2							
+Penetrating Shot	TYPE:General.Fighter	VISIBLE:YES		PREATT:10		PREFEAT:1,Point Blank Shot									PRESTAT:1,STR=15									DESC:See Text																	SOURCEPAGE:PHB2							
+Ranged Weapon Mastery	TYPE:General.Fighter	VISIBLE:YES		PREATT:8		PREFEAT:1,Weapon Focus(TYPE=Ranged)	PREFEAT:1,Weapon Specialization(TYPE=Ranged)		PREWEAPONPROF:1,TYPE.Ranged															DESC:See Text						BONUS:COMBAT|TOHIT.Ranged|2			BONUS:COMBAT|DAMAGE.Ranged|2								SOURCEPAGE:PHB2							
+Rapid Blitz	TYPE:General.AttackOption	VISIBLE:YES		PREATT:18		PREFEAT:4,Bounding Assault,Dodge,Mobility,Spring Attack									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Robilar's Gambit	TYPE:General.Fighter	VISIBLE:YES		PREATT:12		PREFEAT:1,Combat Reflexes																		DESC:See Text																	SOURCEPAGE:PHB2							
+Shield Sling	TYPE:General.Fighter	VISIBLE:YES		PREATT:9		PREFEAT:2,Improved Shield Bash,Shield Proficiency																		DESC:See Text																	SOURCEPAGE:PHB2							
+#Shield Specialization	TYPE:General	VISIBLE:YES							PREMULT:1,[PREPROFWITHSHIELD:1,TYPE.Buckler,TYPE.Light,TYPE.Heavy],[PREFEAT:1,Shield Proficiency]															DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SHIELDPROF|LIST						BONUS:COMBAT|AC|1|TYPE=Shield.STACK|PREPROFWITHSHIELD:1,TYPE.%LIST								SOURCEPAGE:PHB2							
+Shield Specialization	TYPE:General	VISIBLE:YES							PREMULT:1,[PREPROFWITHSHIELD:1,TYPE.Buckler,TYPE.Light,TYPE.Heavy],[PREFEAT:1,Shield Proficiency]															DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SHIELDPROF|TYPE=Shield	SELECT:1					BONUS:SHIELDPROF=%LIST|AC|1								SOURCEPAGE:PHB2							
+Shield Ward	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Shield Specialization			PREMULT:1,[PREPROFWITHSHIELD:1,TYPE.Buckler,TYPE.Light,TYPE.Heavy],[PREFEAT:1,Shield Proficiency]															DESC:See Text																	SOURCEPAGE:PHB2							
+Short Haft	TYPE:General.Fighter	VISIBLE:YES		PREATT:3		PREFEAT:1,Weapon Focus(TYPE=Reach)			PREMULT:1,[PREWEAPONPROF:1,TYPE.Reach],[PREFEAT:1,Martial Weapon Proficiency(TYPE=Reach)]															DESC:See Text																	SOURCEPAGE:PHB2							
+Slashing Flurry	TYPE:General	VISIBLE:YES		PREATT:14		PREFEAT:3,Weapon Focus(TYPE=Slashing),Melee Weapon Mastery (Slashing),Weapon Specialization(TYPE=Slashing)			PREWEAPONPROF:1,TYPE.Slashing															DESC:See Text																	SOURCEPAGE:PHB2							
+Spectral Skirmisher	TYPE:General.Fighter	VISIBLE:YES		PREATT:6																				DESC:See Text																	SOURCEPAGE:PHB2							
+Spell Linked Familiar	TYPE:General	VISIBLE:YES	OUTPUTNAME:Spell-Linked Familiar			PREABILITY:1,CATEGORY=Special Ability,Summon Familiar							PRECLASS:1,SPELLCASTER.Arcane=9											DESC:See Text																	SOURCEPAGE:PHB2							
+Stalwart Defence	TYPE:General	VISIBLE:YES		PREATT:9		PREFEAT:2,Combat Reflexes,Hindering Opportunist																		DESC:See Text																	SOURCEPAGE:PHB2							
+Steadfast Determination	TYPE:General	VISIBLE:YES				PREFEAT:1,Endurance																		DESC:See Text								BONUS:CHECKS|Will|max(WIS,CON)-WIS									SOURCEPAGE:PHB2							
+Telling Blow	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Skirmish Attack																		DESC:See Text																	SOURCEPAGE:PHB2							
+Trophy Collector	TYPE:General	VISIBLE:YES										PRESKILL:1,Craft (Taxidermy)=6												DESC:See Text																	SOURCEPAGE:PHB2							
+Tumbling Feint	TYPE:General.Fighter	VISIBLE:YES										PRESKILL:2,Bluff=4,Tumble=4												DESC:See Text																	SOURCEPAGE:PHB2							
+Two Weapon Pounce	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Two-Weapon Pounce	PREATT:6		PREFEAT:1,Two Weapon Fighting									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:PHB2							
+Two Weapon Rend.MOD	VISIBLE:NO
+Two Weapon Rend PHB2	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Two-Weapon Rend	PREATT:11		PREFEAT:1,Two Weapon Fighting									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:PHB2	SERVESAS:ABILITY=FEAT|Two Weapon Rend						
+Vatic Gaze	TYPE:General	VISIBLE:YES											PRECLASS:1,SPELLCASTER.Arcane=9											DESC:See Text																	SOURCEPAGE:PHB2	SPELLS:Vatic Gaze|TIMES=ATWILL|CASTERLEVEL=TL|Detect Magic						
+Versatile Unarmed Strike	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike																		DESC:See Text																	SOURCEPAGE:PHB2							
+Vexing Flanker	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Combat Reflexes																		DESC:See Text																	SOURCEPAGE:PHB2							
+Wanderer's Diplomacy	TYPE:General	VISIBLE:YES																		PREMULT:1,[PRESKILL:3,Bluff=4,Diplomacy=4,Sense Motive=4],[PREMULT:1,[PRERACE:1,Halfling%],[PRERACE:1,RACESUBTYPE=Halfling]]				DESC:See Text																	SOURCEPAGE:PHB2							
+Water Splitting Stone	TYPE:General.Fighter	VISIBLE:YES		PREATT:9		PREFEAT:2,Improved Unarmed Strike,Stunning Fist									PRESTAT:2,DEX=13,INT=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Weapon Supremacy	TYPE:General	VISIBLE:YES				PREFEAT:4,Greater Weapon Focus,Greater Weapon Specialization,Weapon Focus,Weapon Specialization	PREFEAT:1,Melee Weapon Mastery (Bludgeoning),Melee Weapon Mastery (Piercing),Melee Weapon Mastery (Slashing)														PREVARGTEQ:FighterLVL,18			DESC:See Text																	SOURCEPAGE:PHB2							
+# Cerimonial Feats																																																
+Ritual Blessing	TYPE:General.Ceremony	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4								PREALIGN:LG,NG,CG				DESC:See Text																	SOURCEPAGE:PHB2							
+Ritual Blood Bonds	TYPE:General.Ceremony	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4								PREMULT:1,[PRERACE:1,Orc%,Half-Orc],[PRERACE:1,RACESUBTYPE=Orc]				DESC:See Text																	SOURCEPAGE:PHB2							
+# Combat Form																								DESC:See Text																	SOURCEPAGE:PHB2							
+Combat Awareness	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:12		PREFEAT:2,Combat Focus,Blind Fight									PRESTAT:1,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2	VFEAT:Combat Awareness Blindsight|PREVARGTEQ:CombatFocusFeats,3						
+Combat Defense	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:6		PREFEAT:2,Combat Focus,Dodge									PRESTAT:2,DEX=13,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2	BONUS:VAR|DodgeBonusAC|1|PREVARGTEQ:CombatFocusFeats,3						
+Combat Focus	TYPE:General.Fighter.CombatForm	VISIBLE:YES													PRESTAT:1,WIS=13							SAB:Combat Focus ~ % rounds|CombatFocusDuration	DEFINE:CombatFocusFeats|0	DESC:See Text								BONUS:CHECKS|Will|CombatFocusMorale|PREAPPLY:PC									SOURCEPAGE:PHB2	DEFINE:CombatFocusMorale|0	DEFINE:CombatFocusDuration|0	BONUS:VAR|CombatFocusDuration|10+CombatFocusFeats	DEFINE:CombatFocused|0	BONUS:VAR|CombatFocusMorale|2	BONUS:VAR|CombatFocusMorale|2|PREVARGTEQ:CombatFocusFeats,3	BONUS:VAR|CombatFocused|1|PREAPPLY:PC
+Combat Stability	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:3		PREFEAT:1,Combat Focus									PRESTAT:1,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2							
+Combat Strike	TYPE:General.Fighter.CombatForm	VISIBLE:YES				PREFEAT:1,Combat Focus									PRESTAT:1,WIS=13						PREVARGTEQ:CombatFocusFeats,2			DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2							
+Combat Vigor	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:9		PREFEAT:1,Combat Focus									PRESTAT:1,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2							
+Combat Awareness Blindsight	TYPE:Hidden	VISIBLE:NO	PREVARGTEQ:CombatFocusFeats,3	VISION:Blindsight (5')																																												
+# Divine feats																																																
+Divine Armor	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead				PRECLASS:1,SPELLCASTER.Divine=5											DESC:See Text																	SOURCEPAGE:PHB2							
+Divine Fortune	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead				PRECLASS:1,SPELLCASTER.Divine=5											DESC:See Text																	SOURCEPAGE:PHB2							
+Divine Justice	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead															DESC:See Text																	SOURCEPAGE:PHB2							
+Divine Ward	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead															DESC:See Text																	SOURCEPAGE:PHB2							
+Profane Aura	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead				PRECLASS:1,SPELLCASTER.Divine=9											DESC:See Text																	SOURCEPAGE:PHB2							
+Sacred Healing	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,Turn Undead															DESC:See Text																	SOURCEPAGE:PHB2							
+Sacred Purification	TYPE:Divine	VISIBLE:YES				PREFEAT:1,Sacred Healing			PREABILITY:1,CATEGORY=Special Ability,Turn Undead															DESC:See Text																	SOURCEPAGE:PHB2							
+Sacred Radiance	TYPE:Divine	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,Turn Undead				PRECLASS:1,SPELLCASTER.Divine=9											DESC:See Text																	SOURCEPAGE:PHB2							
+# Heritage feats																																																
+Celestial Sorcerer Aura	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Celestial Sorcerer Heritage																		DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|CelestialHeritageFeats|1						
+Celestial Sorcerer Heritage	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1																	SAB:+% on saves against Electricity|CelestialHeritageFeats	DEFINE:CelestialHeritageFeats|0	DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|CelestialHeritageFeats|1	SAB:+% on saves against Petrification|CelestialHeritageFeats	BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=1|1	SAB:Add Protection from Evil to 1st level spell known			
+Celestial Sorcerer Lance	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Celestial Sorcerer Heritage																		DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|CelestialHeritageFeats|1						
+Celestial Sorcerer Lore	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Celestial Sorcerer Heritage															PREVARGTEQ:DraconicHeritageFeats,3			DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|CelestialHeritageFeats|1		BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=3|2	BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=5|1	SAB:Add Magic Circle Against Evil, Tongues to 3st level spell known.	SAB:Add Teleport to 5th level spell known.	
+Celestial Sorcerer Wings	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Celestial Sorcerer Heritage																		DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|CelestialHeritageFeats|1						
+Infernal Sorcerer Eyes	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Infernal Sorcerer Heritage																		DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|InfernalHeritageFeats|1						
+Infernal Sorcerer Heritage	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1																	SAB:+% on saves against Fire|InfernalHeritageFeats	DEFINE:InfernalHeritageFeats|0	DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|InfernalHeritageFeats|1	SAB:+% on saves against Poison|InfernalHeritageFeats	SAB:+2 casterlevel on spells Conjuration(Summoning) when summoning an evil outsider				
+Infernal Sorcerer Howl	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Infernal Sorcerer Heritage																		DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|InfernalHeritageFeats|1						
+Infernal Sorcerer Resistance	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1																	SAB:Acid Resistance %|InfernalHeritageFeats		DESC:See Text																	SOURCEPAGE:PHB2	BONUS:VAR|InfernalHeritageFeats|1	SAB:Cold Resistance %|InfernalHeritageFeats					
+# Metamagic																																																
+Blistering Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:PHB2	ADDSPELLLEVEL:1						
+Earthbound Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:PHB2	ADDSPELLLEVEL:2						
+Flash Frost Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:PHB2	ADDSPELLLEVEL:1						
+Imbued Summoning	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:2,Augment Summoning,Spell Focus(Conjuration)																		DESC:See Text																	SOURCEPAGE:PHB2	ADDSPELLLEVEL:1						
+Smiting Spell	TYPE:Metamagic.Wizard	VISIBLE:YES		PREATT:1									PRECLASS:1,SPELLCASTER=1											DESC:See Text																	SOURCEPAGE:PHB2	ADDSPELLLEVEL:1						
+# Tactical feats																																																
+Blood Spiked Charger	TYPE:Tactical.Fighter	VISIBLE:YES	OUTPUTNAME:Blood-Spiked Charger	PREATT:6		PREFEAT:1,Weapon Focus(Spiked Armor)									PRESTAT:1,STR=13				PRETEXT:Proficiency with Spided Shield, Weapon Focus with Spiked Shield	PREWEAPONPROF:1,Spiked Armor				DESC:See Text																	SOURCEPAGE:PHB2							
+Combat Cloak Expert	TYPE:Tactical.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:2,Combat Expertise,Dodge									PRESTAT:2,DEX=15,INT=13									DESC:See Text																	SOURCEPAGE:PHB2							
+Combat Panache	TYPE:Tactical.Fighter	VISIBLE:YES										PRESKILL:2,Bluff=8,Intimidate=8								PRESKILL:1,TYPE.Perform=8				DESC:See Text																	SOURCEPAGE:PHB2							
+Einhander	TYPE:Tactical.Fighter	VISIBLE:YES		PREATT:6								PRESKILL:1,Tumble=6												DESC:See Text																	SOURCEPAGE:PHB2							
+Mad Alchemist	TYPE:Tactical	VISIBLE:YES				PREFEAT:1,Grenadier						PRESKILL:1,Craft (Alchemy)=6												DESC:See Text																	SOURCEPAGE:PHB2							
+Shadow Striker	TYPE:Tactical.Fighter	VISIBLE:YES										PRESKILL:2,Hide=12,Move Silently=12												DESC:See Text																	SOURCEPAGE:PHB2							
+#																																																
+Skill Focus.MOD	TYPE:DragonShaman																																															
+Animal Affinity.MOD	TYPE:Knight																																															
+Diehard.MOD	TYPE:Knight																																															
+Endurance.MOD	TYPE:Knight																																															
+Great Fortitude.MOD	TYPE:Knight																																															
+Iron Will.MOD	TYPE:Knight																																															
+Quick Draw.MOD	TYPE:Knight																																															
+Ride By Attack.MOD	TYPE:Knight																																															
+Spirited Charge.MOD	TYPE:Knight																																															
+Trample.MOD	TYPE:Knight																																															
+Weapon Focus.MOD	TYPE:Knight																																															

@@ -1,0 +1,14 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																													
+																															
+# Equipment Name						Type						Cost		Weight	Slot Needed	Requires Modification?	Source Page		Innate Spells								Combat bonus				Special Property
+#Aquamarine of Spell Extending		TYPE:Magic.Wondrous	COST:3700	WT:1.00		SOURCEPAGE:PGtF				SPROP:Extend Spell once per day.																					
+Amulet of Protection against Aquatic Creatures		TYPE:Magic.Wondrous.Amulet	COST:36000	WT:0		SOURCEPAGE:Ssh				SPROP:+4 enhancement bonus to Ac  and Saving Throws that result from an attack against the wearer by aqatic beings.																					
+Amulet of Storm Dispersal		TYPE:Magic.Wondrous.Amulet	COST:8100	WT:0		SOURCEPAGE:Ssh				SPROP:1/day, can disperse a 5 mile radius any storm or inclement weather for 1d4+1 hours																					
+Amulet of Untarnished Steel		TYPE:Magic.Wondrous.Amulet	COST:30000	WT:0		SOURCEPAGE:Ssh	ABILITY:Special Ability|AUTOMATIC|Immunity to Rust																								
+Boots of Water Walking		TYPE:Magic.Wondrous.Boot	COST:12000	WT:1	SLOTS:2	SOURCEPAGE:Ssh																									
+Coracle of Xaren		TYPE:Magic.Wondrous.Transportation.Ships.Container	COST:100000	WT:2000		SOURCEPAGE:Ssh		CONTAINS:*700|Any=UNLIM	SIZE:L																						
+Daoud's Marvelous Maritime Map		TYPE:Magic.Wondrous	COST:81000	WT:150		SOURCEPAGE:Ssh																									
+Figurehead of Protection		TYPE:Magic.Wondrous	COST:27000	WT:300		SOURCEPAGE:Ssh																									
+Helmet of the Crab		TYPE:Magic.Wondrous.Headgear	COST:5800	WT:3		SOURCEPAGE:Ssh				SPROP:Wearer cannot be suprised	BONUS:COMBAT|AC|1|TYPE=Enhancement																				
+Lacedon Cloak		TYPE:Magic.Wondrous.Cape	COST:4750	WT:1		SOURCEPAGE:Ssh				BONUS:COMBAT|AC|2|TYPE=Enhancement		SPELLS:Lacedon Cloak|TIMES=6|CASTERLEVEL=7|Ghoul Touch,15																			
+Master Wheel		TYPE:Magic.Wondrous	COST:72000	WT:75		SOURCEPAGE:Ssh				SPROP:doubles the speed of the vessel.																					

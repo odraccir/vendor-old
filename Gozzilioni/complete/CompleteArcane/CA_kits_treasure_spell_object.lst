@@ -1,0 +1,21 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
+
+STARTPACK:Spell Object - Earth Grue	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")
+GEAR:Spell Object (Resist Energy)		OPTION:1,70
+GEAR:Spell Object (Nondetection)		OPTION:71,100
+
+STARTPACK:Spell Object - Fire Grue	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")
+GEAR:Spell Object (Flaming Sphere)		OPTION:1,70
+GEAR:Spell Object (Haste)		OPTION:71,100
+
+STARTPACK:Spell Object - Air Grue	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")
+GEAR:Spell Object (Invisibility)		OPTION:1,70
+GEAR:Spell Object (Fly)		OPTION:71,100
+
+STARTPACK:Spell Object - Water Grue	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")
+GEAR:Spell Object (Resist Energy)		OPTION:1,70
+GEAR:Spell Object (Sleet Storm)		OPTION:71,100

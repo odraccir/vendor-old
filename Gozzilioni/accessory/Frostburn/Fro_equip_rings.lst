@@ -1,0 +1,6 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Ring of the Icy Soul			TYPE:Magic.Ring	COST:100000	WT:0	SOURCEPAGE:Fro		SPROP:Cold Subtype.	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Vulnerability To Fire																																				
+Ring of Floating			TYPE:Magic.Ring	COST:2000	WT:0	SOURCEPAGE:Fro	SPROP:You float.																																						
+Ring of the White Wyrm			TYPE:Magic.Ring	COST:64000	WT:0	SOURCEPAGE:Fro																																							

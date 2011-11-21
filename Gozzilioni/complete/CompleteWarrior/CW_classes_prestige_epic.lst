@@ -1,0 +1,4 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+# Class Name		Max Level
+CLASS:Frenzied Berserk.MOD	MAXLEVEL:NOLIMIT	
+13:REPEATLEVEL:3	BONUS:ABILITYPOOL|Epic Feat|1

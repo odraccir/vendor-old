@@ -1,0 +1,13 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net
+# Skill Name	Key Stat	Untrained?	Skill Penalty Apply	Type	Visible		Bonus to skill		Source Page	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
+Craft (Beggar)	KEYSTAT:INT	USEUNTRAINED:NO		TYPE:Intelligence.Craft					SOURCEPAGE:DD				
+Perform (Beggar)	KEYSTAT:CHA	USEUNTRAINED:NO		TYPE:Charisma.Perform					SOURCEPAGE:DD				
+Profession (Beggar)	KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession					SOURCEPAGE:DD
+#													
+Hide (Urban Environment)	KEYSTAT:DEX	USEUNTRAINED:NO		TYPE:SkillUse.Dexterity	VISIBLE:EXPORT	CLASSES:Beggar			SOURCEPAGE:DD				
+Move Silently (Urban Environment)	KEYSTAT:DEX	USEUNTRAINED:NO		TYPE:SkillUse.Dexterity	VISIBLE:EXPORT	CLASSES:Beggar			SOURCEPAGE:DD				
+Disguise (Mendicant)	KEYSTAT:CHA	USEUNTRAINED:NO		TYPE:SkillUse.Charisma	VISIBLE:EXPORT	CLASSES:Beggar			SOURCEPAGE:DD				
+
+#													
+# End													
+#													

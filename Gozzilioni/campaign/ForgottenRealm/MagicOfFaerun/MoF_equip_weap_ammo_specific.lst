@@ -1,0 +1,4 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net									
+											
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property
+Arrow of Biting		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.SpecificArrow.Individual	COST:1457	WT:0		EQMOD:STEEL.WOOD	MODS:NO	SOURCEPAGE:MoF		SPROP:Injury DC 16, Init.:1d10 CON, Sec.:1d10 CON

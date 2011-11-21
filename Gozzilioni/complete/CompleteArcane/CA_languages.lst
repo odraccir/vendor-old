@@ -1,0 +1,15 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
+
+# languages from races.rtf and various monsters*.rtf
+# SPECIAL: all class specific languages gained new TYPE value: class (Cleric etc)
+
+# Added alphabet type to each language in accordance with SkillsII.rtf
+# Alphabet type will be final type, such as:
+# Abyssal	TYPE:Spoken.Written.Read.Infernal
+# ... since the Abyssal language uses the Infernal Alphabet for its writing.
+# Per SkillsII.rtf, each language listed in Speak Language is also written/read
+# - Fluxxdog - Nov 4 08
+
+#	everyone's language
+#	racial languages (base races)
+Ancient Suloise			TYPE:Written.Read.Suel

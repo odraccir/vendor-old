@@ -1,0 +1,112 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																															
+#																																	
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define				BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
+Guild Affiliation	CATEGORY:Guild Category	TYPE:GuildFaction	VISIBLE:YES								BONUS:ABILITYPOOL|Guild Affiliation|1								COST:0													SOURCEPAGE:G	
+Planar Faction	CATEGORY:Guild Category	TYPE:GuildAffiliation	VISIBLE:YES								BONUS:ABILITYPOOL|Planar Faction|1								COST:0													SOURCEPAGE:G	
+#																																	
+Academy Necromica	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LM
+Arcane Order	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CA
+Blacklock Lorekeeper	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Bloodfist Tribe	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Bloodhound	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Brightmantle Weapon forge and Trading Consortium	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Caravan of Shadows	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Castle Mairo	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Circle of the True	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LoM
+Cloud Anchorite Monastery	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:Fro
+College of Crescent Lore	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Cult of the Dragon	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Cult of Iborighu	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:For
+Daggerspell Guardians	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Darkrunner Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LoM
+Darkspire College of Thaun	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Disciple of Legends	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Dragon Island	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Dragonblade Ninja Clan	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Elves of the High Forest	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Emerald Enclave	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Eyes of the Overking	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Eyes of Vecna	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LM
+Fochlucan College	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Forak Erak Naek	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES	OUTPUTNAME:Forak-Erak-Naek																													SOURCEPAGE:PGtF
+Grayhaunt Investigators	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Hammers of Moradin	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Harpers	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Hatrans	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Ise Izumi Monastery	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CW
+Kaliesh'erai	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Leage of Boot and Trail	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Lord's Alliance	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Lurkers in Shadow	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LM
+Malaugryms	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Merata Kon	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
+Monk of the Long Death	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Minions of the Skull	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LM
+Nightsong Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Ghost Faced Killers	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES	OUTPUTNAME:Ghost-Faced Killers																													SOURCEPAGE:CAd
+Ordained Champions	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Order of Ancient Mysteries	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:DMG2
+Order of Illumination	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Order of the Black Flame	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CD
+Order of the Chalice	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CW
+Order of the Iron Glacier	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:Fro
+Paragnostic Assembly	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Pelor's Shadow Guards	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+People of the Black Blood	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Purple Dragons	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Ravagers	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CW
+Ravens Bluff	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:AD&D
+Red Wizards of Thay	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:DMG
+Resternford Guild of Insurers Solicitors and Beggars	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES	OUTPUTNAME:Resternford Guild of Insurers, Solicitors and Beggars																													SOURCEPAGE:PHB2
+Resternford Sewerworkers Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+Sanctified of Ehlonna	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Sanctified of Kord	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Sanctified of Olidammara	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Sanctified of Wee Jas	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+Seeker of the Misty Isle	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CD
+Seeker of the Song	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CA
+Seven Sisters	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Shades	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Shadowmind Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Shadow Thieves of Amn	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Society of the Sanctified Mind	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LoM
+Stray Though	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+Sun Fane	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+Talespinners Leage	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
+Temple Raider of Olidammara	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CD
+The Chalice	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+The College of Eclipse	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+The Golden Helm Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+The Guardians of the Green	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CC
+The Hall of Mental Splendor	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PGtF
+The Knight Protectors	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CW
+The Land of Honor	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+The One and the Five	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+The Red Knives	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:DMG2
+The Ruby Order	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LM
+The Shining Crusade	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:DMG2
+The Thunder Sail Argosy	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+Topaz Order	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LoM
+War Wizard of Cormyr	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:MoF
+Watchful Order of Magists and Protectors	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:MoF
+Wayfarer Union	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CA
+Wintervein Dwarves	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PHB2
+Xanathar's Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+Zentharim	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:FRCS
+#																																	
+Freemen of Falkovnia	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+The Hunt Club	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+Science Accademy	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+The Order of the Ebon Gargoyle	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+Sans Mercy	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+Order of Scourges	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+The Tribe of Hyskosa	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:RLCoD
+#																																	
+The Athar	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Doomguard	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Fated	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Mind's Eye	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Society of Sensation	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Transcendent Order	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Xaositecs	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+#																																	

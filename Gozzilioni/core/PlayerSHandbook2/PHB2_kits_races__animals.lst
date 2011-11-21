@@ -1,0 +1,10 @@
+SOURCELONG:Player's Handbook 2	SOURCESHORT:PHB2	SOURCEWEB:http://www.gozzilioni.net
+
+STARTPACK:Panther Dark Companion	TYPE:Companion	VISIBLE:NO	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Panther]
+RACE:Panther	!PRERACE:1,%
+ALIGN:TN
+SKILL:Listen	RANK:3
+SKILL:Spot		RANK:3
+FEAT:Alertness
+FEAT:Weapon Finesse
+STAT:DEX=11|CON=11|STR=10|INT=10|WIS=10|CHA=10

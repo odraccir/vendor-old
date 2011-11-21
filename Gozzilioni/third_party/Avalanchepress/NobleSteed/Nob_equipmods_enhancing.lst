@@ -1,0 +1,13 @@
+SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net								
+#																																						
+###Block:Book abilities																																						
+#Masterwork		KEY:MWORKTD	FORMATCAT:FRONT	NAMEOPT:NORMAL	TYPE:MasterworkQuality.TortureDevice			COST:BASECOST	VISIBLE:QUALIFY	ITYPE:Masterwork	SOURCEPAGE:BoVD	PRETYPE:1,TortureDevice			!PRETYPE:1,Masterwork																							ASSIGNTOALL:YES
+#Masterwork		KEY:MWORKED	FORMATCAT:FRONT	NAMEOPT:NORMAL	TYPE:MasterworkQuality.ExecutionDevice			COST:BASECOST	VISIBLE:QUALIFY	ITYPE:Masterwork	SOURCEPAGE:BoVD	PRETYPE:1,ExecutionDevice			!PRETYPE:1,Masterwork																							ASSIGNTOALL:YES
+#																																						
+#																																						
+#Anarchic	KEY:CHAOS_A	TYPE:Ammunition	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:MagicItemsII.rtf	SPROP:chaos-aligned,+2d6 chaotic damage vs. law,1 negative level bestowed to lawful wielder	PRETYPE:2,Enhancement,Ammunition					BONUS:VAR|NegLevels|1|PREALIGN:0,1,2						ABILITY:Special Ability|AUTOMATIC|Negative Levels																				
+#Anarchic	KEY:CHAOS_M	TYPE:Weapon.Melee.Thrown	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:MagicItemsII.rtf	SPROP:chaos-aligned,+2d6 chaotic damage vs. law,1 negative level bestowed to lawful wielder	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown				BONUS:VAR|NegLevels|1|PREALIGN:0,1,2						ABILITY:Special Ability|AUTOMATIC|Negative Levels																				
+#Anarchic	KEY:CHAOS_R	TYPE:Weapon.Ranged	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:MagicItemsII.rtf	SPROP:chaos-aligned,+2d6 chaotic damage vs. law bestowed on ammunition,1 negative level bestowed to lawful wielder	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown				BONUS:VAR|NegLevels|1|PREALIGN:0,1,2						ABILITY:Special Ability|AUTOMATIC|Negative Levels																				
+#Ghost touch	KEY:GHOST_A	TYPE:Armor.Shield	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:MagicItemsII.rtf	SPROP:armor and enhancement count vs. incorporeal attacks	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]																															
+Beautiful	KEY:BEAUTY_A	TYPE:Barding	COST:BASECOST*2	VISIBLE:QUALIFY	SOURCEPAGE:Nob	SPROP:Beautiful	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Barding]																															
+Featherlight	KEY:FEATHER_A	TYPE:Barding	COST:BASECOST*3	VISIBLE:QUALIFY	SOURCEPAGE:Nob	SPROP:Featherlight (no weight for the barding)	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Barding]					BONUS:EQM|WEIGHTMULT|0																										

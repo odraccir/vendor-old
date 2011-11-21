@@ -1,0 +1,14 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Aribeth's Ring			TYPE:Magic.Ring	COST:50000	WT:0	SOURCEPAGE:MoF		SR:17																																					
+Bone Ring			TYPE:Magic.Ring	COST:36000	WT:0	SOURCEPAGE:MoF	SPROP:absorbs 1 level of energy drain or 1 point of ability drain per charge.	EQMOD:CHARGED_ITEM_50																																					
+Commander's Ring			TYPE:Magic.Ring	COST:120000	WT:0	SOURCEPAGE:MoF	SPROP:sense direction and distance of any Purple Dragon Rings within 100-ft radius.	BONUS:CHECKS|Fortitude,Reflex,Will|2|TYPE=Resistance	BONUS:COMBAT|AC|2|TYPE=Deflection	BONUS:SLOTS|RING|1|PREEQUIP:1,Purple Dragon Ring	SPELLS:Commander's Ring|TIMES=3|CASTERLEVEL=12|Feather Fall|Knock|Wall of Force|Daylight																																		
+The Darkhidden			TYPE:Magic.Ring	COST:6700	WT:0	SOURCEPAGE:MoF	SPROP:the wearer is invisible to darkvision, but visible in normal light.																																						
+Ring of Disease Immunity			TYPE:Magic.Ring	COST:8000	WT:0	SOURCEPAGE:MoF	SPROP:heal 1 extra hp/day of rest.	ABILITY:Special Ability|VIRTUAL|Immunity To Disease																																					
+Ring of Dragons			TYPE:Magic.Ring	COST:25000	WT:0	SOURCEPAGE:MoF																																							
+#Ring of Lore			TYPE:Magic.Ring	COST:23250	WT:0	SOURCEPAGE:MoF		SPELLS:Ring of Lore|TIMES=1|TIMEUNIT=Tenday|CASTERLEVEL=12|Legend Lore|Stone Tell																																					
+Ring of Might			TYPE:Magic.Ring	COST:4000	WT:0	SOURCEPAGE:MoF	UDAM:1d8	VFEAT:Improved Unarmed Strike																																					
+Ring of Nine Lives			TYPE:Magic.Ring	COST:70000	WT:0	SOURCEPAGE:MoF		EQMOD:CHARGED_ITEM_9|CHARGES[9]																																					
+Purple Dragon Ring			TYPE:Magic.Ring	COST:2125	WT:0	SOURCEPAGE:MoF	SPROP:Detect Poison	SPELLS:Purple Dragon Ring|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=1|Light	BONUS:SLOTS|RING|1|PREEQUIP:1,Commander's Ring																																				
+#Spell Battle			TYPE:Magic.Ring	COST:67600	WT:0	SOURCEPAGE:MoF																																							

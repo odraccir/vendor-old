@@ -1,0 +1,5 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net			
+					
+#MINOR ARTIFACTS					
+# Equipment Name	Output Name		Type	Cost	
+Crystal Tear			TYPE:Artifact	COST:0	WT:4

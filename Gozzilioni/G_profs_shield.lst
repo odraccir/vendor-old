@@ -1,0 +1,7 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
+
+# Weapon Name			Type				Nb Hands
+Buckler.MOD	TYPE:Shield.Buckler
+Shield (Light).MOD	TYPE:Shield.Light
+Shield (Heavy).MOD	TYPE:Shield.Heavy
+Tower Shield.MOD	TYPE:Shield.Tower

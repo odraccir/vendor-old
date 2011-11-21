@@ -1,0 +1,56 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net
+		
+# BASICS		
+# Feat Name	Type	sourcepage
+Ancestral Relic.MOD	DESC:Create personal magic item	
+Animal Friend.MOD	DESC:+4 exalted bonus on wild empathy checks	
+Celestial Familiar.MOD	DESC:Additional familiar choices.	
+Celestial Mount.MOD	DESC:Mount gains celestial creature template.	
+#Consecrated Spell	DESC:	
+Consecrate Spell Like Ability.MOD	DESC:Adds good descriptor to spell-like ability	
+Consecrate Spell Trigger.MOD	DESC:Use turning ability to add good descriptor to trigger triggered spell.	
+Exalted Companion.MOD	DESC:Additional animal companion choices.	
+Exalted Smite.MOD	DESC:Weapon good-aligned when smiting evil.	
+Exalted Spell Resistance.MOD	DESC:+4 to spell resistance against evil spells and spell-like abilities of evil outsiders.	
+Exalted Turning.MOD	DESC:Extra 3d6 points of damage when turning.	
+Exalted Wild Shape.MOD	DESC:Additional wild shape options.	
+Favored of the Companions.MOD	DESC:+1 luck bonus on any one roll or check.	
+Fist of the Heavens.MOD	DESC:+2 to Stunning Fist DC.	
+Gift of Faith.MOD	DESC:+2 bonus on saving throws to resist fear and despair.	
+Gift of Grace.MOD	DESC:Share CHA saving throw bonus.	
+Hands of a Healer.MOD	DESC:+2 bonus to CHA for lay on hand ability.	
+Holy Ki Strike.MOD	DESC:+2d6 bonus on damage rolls against evil creatures.	
+Holy Radiance.MOD	DESC:Glow with light harmful to undead.	
+Holy Subdual.MOD	DESC:Transform bonus and smite damage to nonlethal.	
+Intuitive Attack.MOD	DESC:Use WIS modifier instead of STR modifier on attack rolls with simple and natural weapons.	
+Knight of Stars.MOD	DESC:+1 luck bonus on any one roll or check.	
+Nemesis.MOD	DESC:Detect presence of favored enemies.	
+Nimbus of Light.MOD	DESC:+2 bonus on Diplomacy and Sense motive checks with ogood creatures.	
+Nonlethal Substitution.MOD	DESC:Transform spell's energy damage to nonlethal.	
+Nymph's Kiss.MOD	DESC:+2 bonus on CHA-related checks, +1 bonus on saving throws against spells, 1 extra skill point per level.	
+Purify Spell.MOD	DESC:Adds good descriptor to spell; neutral creatures take half damage, good creatures take no damage.	
+Purify Spell Like Ability.MOD	DESC:Adds good descriptor to spell-like ability; neuttral creature take half damage, good creature take no damage.	
+Purify Spell Trigger.MOD	DESC:Use turning ability to add good descriptor to spell; neutral creature take half damage, good creatures take no damage.	
+Quell the Profane.MOD	DESC:Potential STR damage to evil creatures on critical hit.	
+Ranged Smite Evil.MOD	DESC:Smite evil with ranged attacks.	
+Resounding Blow.MOD	DESC:Potential cowering effect on critical hits.	
+Righteous Wrath.MOD	DESC:Potential shaken effect against evil creatures.	
+Sacred Strike.MOD	DESC:Sneak attacks deals d8 to against evil creatures.	
+Sacred Vow.MOD	DESC:+2 perfection bonus on Diplomacy checks.	
+Sanctify Ki Strike.MOD	DESC:+1 or +1d4 bonus on unarmed damage rolls against evil creature.	
+Sanctify Martial Strike.MOD	DESC:+1 or +1d4 bonus on weapon damage rolls against evil creature.	
+Sanctify Natural Attack.MOD	DESC:+1 or +1d4 bonus on natural attack damage rolls against evil creature.	
+Sanctify Weapon.MOD	DESC:Aligned weapon become sanctified.	
+Servant of the Heavens.MOD	DESC:+1 luck bonus on any roll or check.	
+#Spell Focus	DESC:	
+Stigmata.MOD	DESC:Heal others' wounds by taking CON damage.	
+Subduing Strike.MOD	DESC:No penalty when dealing nonlethal damage; rogue's sneak attack deals nonlethal damage.	
+Touch of Golden Ice.MOD	DESC:Evil creatures touched ravaged by golden ice.	
+Vow of Abstinence.MOD	DESC:+4 perfection bonus on Fort saves against poisons and drugs.	
+Vow of Chastity.MOD	DESC:+4 perfection bonus on Will saves against charm and phantasm.	
+Vow of Nonviolence.MOD	DESC:+4 bonus on save Dcs of non-damaging spells.	
+Vow of Obedience.MOD	DESC:+4 perfection bonus on Will saves against compulsions.	
+Vow of Peace.MOD	DESC:Calming aura; +6 varied bonus to AC.	
+Vow of Poverty.MOD	DESC:Bonuses to AC, ability scores and saves; bonus feats.	
+Vow of Purity.MOD	DESC:+4 perfection bonus on Fort saves against disease and death effects.	
+Words of Creation.MOD	DESC:Ability to use Words of Creation.	

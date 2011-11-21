@@ -1,0 +1,23 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net																											
+																													
+###Block:Armor abilities																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+Ectoplasmatic Feedback	KEY:ECTO_FEEDBK	TYPE:Armor		COST:8000	VISIBLE:QUALIFY			SOURCEPAGE:LM	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor]															SPROP:Ectoplasmatic Feedback.					ASSIGNTOALL:NO
+Ghost Ward	KEY:GHST_WRD	TYPE:Armor.Shield	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Ghost Ward					ASSIGNTOALL:NO
+																													
+###Block:Weapon abilities																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+Ghost Strike	KEY:GHST_STRK_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Ghost Strike					ASSIGNTOALL:NO
+Profane	KEY:PRFN_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:2,Enhancement,Ammunition															SPROP:Profane					ASSIGNTOALL:NO
+Profane	KEY:PRFN_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Profane					ASSIGNTOALL:NO
+Profane	KEY:PRFN_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Melee	!PRETYPE:1,Thrown														SPROP:Profane					ASSIGNTOALL:NO
+Profane Burst	KEY:PRFN_BR_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:2,Enhancement,Ammunition															SPROP:Profane Burst					ASSIGNTOALL:NO
+Profane Burst	KEY:PRFN_BR_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Profane Burst					ASSIGNTOALL:NO
+Profane Burst	KEY:PRFN_BR_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Melee	!PRETYPE:1,Thrown														SPROP:Profane Burst					ASSIGNTOALL:NO
+Sacred	KEY:SCRD_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:2,Enhancement,Ammunition															SPROP:Sacred					ASSIGNTOALL:NO
+Sacred	KEY:SCRD_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Sacred					ASSIGNTOALL:NO
+Sacred	KEY:SCRD_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Melee	!PRETYPE:1,Thrown														SPROP:Sacred					ASSIGNTOALL:NO
+Sacred Burst	KEY:SCRD_BR_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:2,Enhancement,Ammunition															SPROP:Sacred Burst					ASSIGNTOALL:NO
+Sacred Burst	KEY:SCRD_BR_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Sacred Burst					ASSIGNTOALL:NO
+Sacred Burst	KEY:SCRD_BR_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Melee	!PRETYPE:1,Thrown														SPROP:Sacred Burst					ASSIGNTOALL:NO
+Necrotic Focus	KEY:NCRK_FCS_M	TYPE:Weapon.Melee	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:LM	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Necrotic Focus					ASSIGNTOALL:NO

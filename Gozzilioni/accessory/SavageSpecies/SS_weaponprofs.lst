@@ -1,0 +1,25 @@
+SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net
+		
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+		
+Chain (Barbed)	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Standard.Bludgeoning.Piercing.Chain	
+Tail Blade	TYPE:Weapon.Melee.Exotic.Standard.Slashing.Sword	
+Tail Club	TYPE:Weapon.Melee.Simple.Standard.Bludgeoning.Mace	
+Chain (Lash)	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Double.Standard.Bludgeoning.Chain	
+Gythka	TYPE:Weapon.Melee.Exotic.Double.Standard.Slashing	
+Longspear (Salamander)	TYPE:Weapon.Melee.TwoHanded.Exotic.Reach.Standard.Piercing.Spear	
+#Pincerstaff	TYPE:Weapon.Melee.TwoHanded.Simple.Standard.Bludgeoning	
+Sword (Scissor)	TYPE:Weapon.Melee.Exotic.Standard.Slashing.Sword	
+Sharktooth Staff	TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Slashing.Staff	
+Chain (Snake)	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Double.Standard.Bludgeoning.Chain	
+Chuul Lasher	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Subdual.Slashing.Whip	
+Chakcha	TYPE:Weapon.Ranged.Exotic.Standard.Piercing	
+Javelin (Howler)	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Thrown.Javelin	
+Halfspear (Salamander)	TYPE:Weapon.Melee.Ranged.Thrown.Simple.Standard.Piercing.Spear	
+Shortspear (Salamander)	TYPE:Weapon.Melee.Ranged.Thrown.Simple.Standard.Piercing.Spear	

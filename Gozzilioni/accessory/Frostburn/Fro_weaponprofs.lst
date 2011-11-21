@@ -1,0 +1,40 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net
+		
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+		
+Glot	TYPE:Ranged.Bludgeoning.RangedBludgeoning	
+Harpoon	TYPE:Ranged.Piercing.RangedPiercing.Harpoon	
+Icechucker	TYPE:Ranged.Piercing.RangedPiercing	
+Razor Skipdisk	TYPE:Ranged.Piercing.RangedPiercing	
+Axe (Ice)	TYPE:Melee.Piercing.Slashing.MeleeSlashing.MeleePiercing.Axe	
+Iuak	TYPE:Melee.Slashing.MeleeSlashing.Dagger	
+Club (Tigerskull)	TYPE:Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.Axe	
+Goad	TYPE:Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.Mace	
+Ritiik	TYPE:Melee.Piercing.MeleePiercing.Spear	
+Sugliin	TYPE:Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.Scythe
+Steelclaw	TYPE:Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+#		
+Bolas.MOD	TYPE:PrimitiveMelee	
+Harpoon.MOD	TYPE:PrimitiveMelee	
+Club.MOD	TYPE:PrimitiveMelee	
+Dart.MOD	TYPE:PrimitiveMelee	
+Greatclub.MOD	TYPE:PrimitiveMelee	
+Goad.MOD	TYPE:PrimitiveMelee	
+Iuak.MOD	TYPE:PrimitiveMelee	
+Javelin.MOD	TYPE:PrimitiveMelee	
+Longspear.MOD	TYPE:PrimitiveMelee	
+Quarterstaff.MOD	TYPE:PrimitiveMelee	
+Ritiik.MOD	TYPE:PrimitiveMelee	
+Shortbow.MOD	TYPE:PrimitiveMelee	
+Shortspear.MOD	TYPE:PrimitiveMelee	
+Sling.MOD	TYPE:PrimitiveMelee	
+Spear.MOD	TYPE:PrimitiveMelee	
+Sugliin.MOD	TYPE:PrimitiveMelee	
+Axe (Throwing).MOD	TYPE:PrimitiveMelee	
+Club (Tigerskull).MOD	TYPE:PrimitiveMelee	

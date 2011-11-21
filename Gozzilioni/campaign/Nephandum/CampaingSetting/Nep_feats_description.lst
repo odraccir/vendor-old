@@ -1,0 +1,32 @@
+SOURCELONG:Nephandum	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net																																							
+																																									
+# BASICS																																									
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
+Sanguinary Weapon.MOD	DESC:Bonus +4 al tiro per colpire dopo un colpo critico.																																								
+Decaying Attack.MOD	DESC:Colpo menomante infligge anche 2 danni alla COS.																																								
+Champion of Death.MOD	DESC:Punti ferita temporanei dopo aver ucciso una creatura pi? potente.																																								
+Lethal Critical.MOD	DESC:Colpo critico automatico dopo aver ottenuto una minaccia.																																								
+Improved Demoralization.MOD	DESC:Demoralizzare ? un'azione di movimento.																																								
+Superior Demoralization.MOD	DESC:Bonus di +4 alla prova di Intimidire per demoralizzare																																								
+Terror Devourer.MOD	DESC:Bonus di +1 al tiro per colpire, ai danni e alla CA se un nemico ? spaventato																																								
+Text Examiner.MOD	DESC:Bonus di +2 a Conoscenze e Decifrare Scritture																																								
+Thin Hope.MOD	DESC:Nuovo tiro savezza con penalit? -4																																								
+Dark Fascination.MOD	DESC:Bonus di +2 a Diplomazia e Raccogliere Informazioni																																								
+Undaunted.MOD	DESC:Condizione di paura migliorata.																																								
+Prohibited Spells.MOD	DESC:L'incantatore pu? utilizzare incantesimi di una scuola proibita.																																								
+Terrifying Spells.MOD	DESC:Incantesimi incutono terrore oltre ai normali effetti.																																								
+Vampiric Spells.MOD	DESC:Incantesimi infliggono la met? dei danni ma forniscono punti ferita temporanei.																																								
+Mark of Death.MOD	DESC:Il personaggio torna in vita, con una penalit? al totale dei suoi punti ferita.																																								
+Divine Horror.MOD	DESC:Scacciare i nemici prescelti.																																								
+First Blood.MOD	DESC:Bonus +1 al tiro per colpire e ai danni contro nemici colti all'improvviso.																																								
+Sickening Fist.MOD	DESC:Avversario colpito rimane nauseato.																																								
+Lightning Reaction.MOD	DESC:Il personaggio mantiene il bonus di Destrezza anche se colto alla sprovvista.																																								
+Destructive Rotation.MOD	DESC:Azione di movimento per 1d6 danni extra.																																								
+Superior Destructive Rotation.MOD	DESC:Azione di round completo per 4d6 danni extra.																																								
+Scarification.MOD	DESC:Penalit? di -2 a Diplomazia e bonus di +4 a Intimidire.																																								
+Whispers of Unknown.MOD	DESC:Bonus di +4 ad Ascoltare, Cercare, Osservare e penalit? -2 ai Tiri Salvezza.																																								
+Techinc of Investigation.MOD	DESC:Bonus di +2 a Cercare; Cercare e Raccogliere Informazioni sono abilit? di classe.																																								
+Indestructible Perseverance.MOD	DESC:Il personaggio muore a -15 punti ferita.																																								
+Last Blow.MOD	DESC:Attacco di opportunit? bonus quando il personaggio ? a 0 punti ferita.																																								
+Veil of Mistery.MOD	DESC:Bonus di +2 ai tiri salvezza sulla Volont? contro la Divinazione.																																								
+#																																									

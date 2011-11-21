@@ -1,0 +1,50 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Warmage Shield Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:SHIELDPROF|SHIELDTYPE=Buckler|SHIELDTYPE=Light	AUTO:WEAPONPROF|Shieldbash (Light)																											SOURCEPAGE:CA
+Warlock Eldritch Blast Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Spells(Ray)																												SOURCEPAGE:CA
+#																																
+Warlock Eldritch Blast	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockEldritchBlastLVL|0					BONUS:VAR|EldritchBlast|(WarlockEldritchBlastLVL+1)/2																		SOURCEPAGE:CA
+Warlock Invocation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockInvocationLVL|0					BONUS:VAR|InvocationLVL|WarlockInvocationLVL																		SOURCEPAGE:CA
+Warlock Energy Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockEnergyResistanceLVL|0	DEFINE:WarlockBasicResistance|5				BONUS:VAR|WarlockBasicResistance|5|PREVARGTEQ:WarlockEnergyResistanceLVL,20																		SOURCEPAGE:CA
+Warmage Edge	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarmageEdgeLVL|0																							SOURCEPAGE:CA
+Wu Jen Watchful Spirit	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|WatchfulSpiritPerDay|1																		SOURCEPAGE:CA
+#																																
+Acolyte of the Skin Fiendish Glare	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AcolyteSkinFiendishGlareLVL|0					BONUS:VAR|FiendishGlareDC|AcolyteSkinFiendishGlareLVL																		SOURCEPAGE:CA
+Acolyte of the Skin Glare of the Pit	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|GlareOfThePitPerDay|1																		SOURCEPAGE:CA
+Acolyte of the Skin Summon Fiend	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|SummonFiendPerDay|1																		SOURCEPAGE:CA
+Alienist Pseudonatural	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO															TEMPLATE:Pseudonatural (CA)													SOURCEPAGE:CA	
+Blood Magus Awaken Blood	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|AwakenBloodPerDay|1																		SOURCEPAGE:CA
+Blood Magus Bloodwalk	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|BloodwalkPerDay|1																		SOURCEPAGE:CA
+Elemental Savant Energy Penetration	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ElementalSavantEnergyPenetrationLVL|0					BONUS:VAR|EnergyPenetrationBonus|((ElementalSavantEnergyPenetrationLVL+2)/5)*2																		SOURCEPAGE:CA
+Elemental Savant Energy Focus	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ElementalSavantEnergyFocusLVL|0					BONUS:VAR|EnergyFocusBonus|ElementalSavantEnergyFocusLVL/5																		SOURCEPAGE:CA
+Enlightened Fist Ki Strike Advancement	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|KiStrikeMagic|1																		SOURCEPAGE:CA
+Enlightened Fist AC	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:EnlightnedFistACLVL|0					BONUS:VAR|MonkACLVL|EnlightnedFistACLVL																		SOURCEPAGE:CA
+Enlightened Fist Flurry	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:EnlightnedFistFlurryLVL|0					BONUS:VAR|FlurryLVL|EnlightnedFistFlurryLVL																		SOURCEPAGE:CA
+Fate Spinner Spin Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FateSpinnerSinFateLVL|0					BONUS:VAR|SpinFatePoints|FateSpinnerSinFateLVL																		SOURCEPAGE:CA
+Fate Spinner Fickle Finger of Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FickleFingerPerDay|1																		SOURCEPAGE:CA
+Fate Spinner Deny Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|DenyFatePerDay|1																		SOURCEPAGE:CA
+Fate Spinner Resist Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|ResistFatePerDay|1																		SOURCEPAGE:CA
+Fate Spinner Seal Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|SealFatePerDay|1																		SOURCEPAGE:CA
+Green Star Adept DR	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:GreenStarAdeptDR|0	DEFINE:GreenStarAdeptDRLVL|0				BONUS:VAR|GreenStarAdeptDR|GreenStarAdeptDRLVL									DR:GreenStarAdeptDR/Adamantine									SOURCEPAGE:CA
+Green Star Adept Unnatural Metabolism	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:GreenStarAdeptUnnaturalMetabolismLVL|0					BONUS:VAR|UnnaturalMetabolismBonus|((GreenStarAdeptUnnaturalMetabolismLVL+1)/3)*2																		SOURCEPAGE:CA
+Green Star Adept Fortification	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:GreenStarAdeptFortificationLVL|0					BONUS:VAR|FortificationPower|GreenStarAdeptFortificationLVL/3																		SOURCEPAGE:CA
+Initiate of the Sevenfold Veil Warding	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:InitiateOfTheSevenfoldVeilWardingLVL|0					BONUS:VAR|WardingPerDay|(InitiateOfTheSevenfoldVeilWardingLVL+1)/2																		SOURCEPAGE:CA
+Initiate of the Sevenfold Veil Unanswerable Strike Bonus	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:InitiateOfTheSevenfoldVeilUnanswerableStrikeLVL|0					BONUS:VAR|UnanswerableStrikeBonus|((InitiateOfTheSevenfoldVeilUnanswerableStrikeLVL +2)/4)*2																		SOURCEPAGE:CA
+Initiate of the Sevenfold Veil Kaleidoscopic Doom	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|KaleidoscopicDoomPerDay|1																		SOURCEPAGE:CA
+Mage of the Arcane Order Spellpool	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MageOfTheArcaneOrderSpellpoolLVL|0					BONUS:VAR|SpellpoolLimit|min(9,3*min(3,(MageOfTheArcaneOrderSpellpoolLVL+2)/3))	BONUS:VAR|SpellpoolEpic|1|PREVARGTEQ:MageOfTheArcaneOrderSpellpoolLVL,14																	SOURCEPAGE:CA
+Master Transmogrif Favored Shape	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MasterTransmogrifFavoredShapeLVL|0					BONUS:VAR|FavoredShapesNumber|2+((MasterTransmogrifFavoredShapeLVL+1)/2)																		SOURCEPAGE:CA
+Master Transmogrif Battle Mastery	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MasterTransmogrifBattleMasteryLVL|0					BONUS:VAR|BattleMasteryBonus|(MasterTransmogrifBattleMasteryLVL/3)*2																		SOURCEPAGE:CA
+Master Transmogrif Reflective Change	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|ReflectiveChangePerDay|1																		SOURCEPAGE:CA
+Mindbender Skill Boost	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MindbenderSkillBoostLVL|0					BONUS:VAR|SkillBoostBonus|MindbenderSkillBoostLVL/2																		SOURCEPAGE:CA
+Mindbender Push the Weak Mind	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MindbenderPushTheWeakMindLVL|0					BONUS:VAR|PushWeakMindPerDay|(MindbenderPushTheWeakMindLVL+1)/3																		SOURCEPAGE:CA
+Mindbender Mindread	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MindbenderMindreadLVL|0					BONUS:VAR|MindreadPerDay|((MindbenderMindreadLVL+1)/4)*2																		SOURCEPAGE:CA
+Mindbender Eternal Charm	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MindbenderEternalCharmLVL|0					BONUS:VAR|EternalCharmNumber|(MindbenderEternalCharmLVL/2)-1																		SOURCEPAGE:CA
+Suel Arcanamach Ignore Spell Failure	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:SuelArcanamachIgnoreSpellFailureLVL|0					BONUS:VAR|SpellFailurePerc|((SuelArcanamachIgnoreSpellFailureLVL+2)/3)*5																		SOURCEPAGE:CA
+Suel Arcanamach Dispelling Strike	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:SuelArcanamachDispellingStrikeLVL|0					BONUS:VAR|DispellingStrikePerDay|(SuelArcanamachDispellingStrikeLVL+2)/4																		SOURCEPAGE:CA
+Wayfarer Guide Enhanced Capacity	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WayfarerGuideEnhancedCapacityLVL|0					BONUS:VAR|EnhancedCapacityNumber|WayfarerGuideEnhancedCapacityLVL																		SOURCEPAGE:CA
+Wild Mage Random Deflector	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WildMageRandomDeflectorLVL|0					BONUS:VAR|RandomDeflectorPerDay|(WildMageRandomDeflectorLVL+1)/3																		SOURCEPAGE:CA
+Wild Mage Wildstrike	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|WildstrikePerDay|1																		SOURCEPAGE:CA
+#																																
+Chaggrin Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ChaggrinSneakAttackLVL|HD					BONUS:VAR|SneakAttack|(ChaggrinSneakAttackLVL)/3																		SOURCEPAGE:CA

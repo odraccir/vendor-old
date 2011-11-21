@@ -1,0 +1,15 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net																										
+																												
+###Block:Familiar																												
+# Class of the Master	Type			Spell Res.	Copy Masters BAB		Copy Masters Checks	HP formula based on Master	Use Masters skills?	Special ABility						Define						Combat bonus						Main Race Type
+FOLLOWER:FMLevel=5	TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Alienist Pseudonatural|PREVARGTEQ:PseudonaturalFamiliar,1																										
+																												
+###Block:Blood Magus Homunculus																												
+# Class of the Master	Type			Spell Res.	Copy Masters BAB		Copy Masters Checks	HP formula based on Master	Use Masters skills?	Special ABility						Define						Combat bonus						Main Race Type
+FOLLOWER:HomLevel=1	TYPE:Homunculus		HD:1							ABILITY:Special Ability|AUTOMATIC|Blood Link																		
+FOLLOWER:HomLevel=2	TYPE:Homunculus		HD:1							ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion													DEFINE:LOCK.INT|6	DEFINE:EvasionUsable|0	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast		
+FOLLOWER:HomLevel=3	TYPE:Homunculus		HD:1																									
+FOLLOWER:HomLevel=4	TYPE:Homunculus		HD:1																									
+FOLLOWER:HomLevel=5	TYPE:Homunculus		HD:1																									
+																												
+MASTERBONUSRACE:Homunculus	TYPE:Homunculus																											

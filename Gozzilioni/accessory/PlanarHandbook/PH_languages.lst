@@ -1,0 +1,8 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
+# Language			Type							Var. Min. Value
+#Common			TYPE:Spoken.Written.Read							
+#	racial languages (base races)									
+Buonmi	TYPE:Spoken
+Neraph	TYPE:Spoken
+Shadowswyft	TYPE:Spoken
+Elsewhales	TYPE:Spoken

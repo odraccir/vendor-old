@@ -1,0 +1,35 @@
+SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net																																																																																																																																																																																																									
+																																																																																																																																																																																																											
+###Block
+# Template Name			Output Name				Visible	Damage Reduction								Level Adjustment	Template																																		Source Page				Special ABility																																	Define				Required AL				Required Race																																Prohibited Race						Required Stat	Prohibited Template		Combat bonus						Damage reduction				Misc bonus												Stat bonus														Modify VAR										Feat			Apply Kit				Clone Movement		Spell Res.			Main Race Type		Race Subtype			Vision			Innate Spells
+Exceptional Breed	VISIBLE:NO	HITDIE:%up1
+Coursier 1	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 2	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 3	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 4	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 5	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 6	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 7	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 8	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 9	VISIBLE:NO	ADDLEVEL:Coursier|1
+Coursier 10	VISIBLE:NO	ADDLEVEL:Coursier|1
+Destrier 1	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 2	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 3	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 4	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 5	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 6	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 7	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 8	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 9	VISIBLE:NO	ADDLEVEL:Destrier|1
+Destrier 10	VISIBLE:NO	ADDLEVEL:Destrier|1
+Palfrey 1	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 2	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 3	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 4	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 5	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 6	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 7	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 8	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 9	VISIBLE:NO	ADDLEVEL:Palfrey|1
+Palfrey 10	VISIBLE:NO	ADDLEVEL:Palfrey|1

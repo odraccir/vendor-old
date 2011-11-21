@@ -1,0 +1,15 @@
+SOURCELONG:Ravenloft Van Richten's Arsenal	SOURCESHORT:RLVRA	SOURCEWEB:http://www.gozzilioni.net																								
+# questi incantesimi sono della 3.0 edizione. non dovrebbero probabilmente nemmeno esserci,																										
+# ma sembrano ancora usati in giro per classi e mostri.																										
+																										
+###Block: AB																										
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
+#Detect Alignment	dove?																									
+#Induce Lycanthropy	CLASSES:Druid=4|Ranger=4|Sorcerer,Wizard=4																									
+#Diminish Undead	CLASSES:Cleric=3|Sorcerer,Wizard=3																									
+#Augment Undead	CLASSES:Cleric=3|Sorcerer,Wizard=3																									
+#Suppress Lycanthropy	CLASSES:Druid=4|Ranger=4|Sorcerer,Wizard=4																									
+Induce Lycanthropy			TYPE:Arcane.Divine			SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature touched.		DURATION:1 hour/3 levels	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:The spell force the target natural or afflicted lycanthrope to assume the bestial alternate form.	SOURCEPAGE:RLVRA, pag 25	ITEM:Potion							
+Diminish Undead			TYPE:Arcane.Divine			SCHOOL:Necromancy			COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One undead creature.		DURATION:1 minute/2 levels	SAVEINFO:Will negates	SPELLRES:Yes	DESC:-1 sacred penalty to saving throw, -3 sacred penalty to Turn Resistance. Affect 3HD or fewer of undead.	SOURCEPAGE:RLVRA, pag 28								
+Augment Undead			TYPE:Arcane.Divine			SCHOOL:Necromancy		DESCRIPTOR:Evil	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One undead creature.		DURATION:1 minute/levels	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:+1 profane bonus to saving throw, +3 profane bonus to Turn Resistance. Affect 3HD or fewer of undead.	SOURCEPAGE:RLVRA, pag 28								
+Suppress Lycanthropy			TYPE:Arcane.Divine			SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature touched.		DURATION:1 hour/3 levels	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:The spell force the target natural or afflicted lycanthrope to assume the humanoid alternate form.	SOURCEPAGE:RLVRA, pag 37	ITEM:Potion							

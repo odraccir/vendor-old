@@ -1,0 +1,3 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																					
+																							
+Naga Spell Focus			TYPE:Special.Hidden			VISIBLE:NO	STACK:NO	MULT:YES	CHOOSE:SCHOOLS		ADD:FEAT|Spell Focus(%CHOICE)

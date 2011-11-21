@@ -1,0 +1,12 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Base Materials																																
+#Bow_STR.MOD	BONUS:ITEMCOST|TYPE.Greatbow|200*%CHOICE|PREVARGT:%CHOICE,0
+BOWSTR.MOD	BONUS:ITEMCOST|TYPE.Greatbow|200*%CHOICE|PREVARGT:%CHOICE,0
+																																
+# Modifier Name	Naming Option	Unique Key	Type														Cost		Visible		Type granted	Source Page				Prohibited Type						Apply to both heads
+#Wood	NAMEOPT:NORMAL	KEY:WOOD	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Wooden	SOURCEPAGE:RSRD Equipment.rtf	!PRETYPE:EQMODTYPE=Mundane	!PRETYPE:1,Metal	ASSIGNTOALL:YES																						
+#Steel	NAMEOPT:NORMAL	KEY:STEEL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Metal	SOURCEPAGE:RSRD Equipment.rtf	!PRETYPE:EQMODTYPE=Mundane	!PRETYPE:1,Wooden																							a
+Pandemonic Silver	NAMEOPT:NORMAL	KEY:PANDEMONIC	TYPE:BaseMaterial.SpecialMaterial.Ammunition.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:Metal.Silver	SOURCEPAGE:CW	PREMULT:3,[PRETYPE:1,Weapon,Ammunition],[PRETYPE:1,Metal],[!PRETYPE:1,Bludgeoning]	!PRETYPE:1,Mithral,Adamantine,ColdIron,Silver,SpecialMaterial	ASSIGNTOALL:NO		BONUS:ITEMCOST|TYPE.Weapon|9000|PREWIELD:1,Light	BONUS:ITEMCOST|TYPE.Weapon|11000|PREWIELD:1,OneHanded	BONUS:ITEMCOST|TYPE.Weapon|13000|PREWIELD:1,TwoHanded	BONUS:WEAPON|DAMAGE|-1|TYPE=Enhancement.STACK	SPROP:10hp/inch and 8 hardness																
+Susalian Chainweave	NAMEOPT:NORMAL	KEY:CHAINWEAVE	TYPE:BaseMaterial.SpecialMaterial.Armor	COST:0	VISIBLE:QUALIFY	ITYPE:Metal.Chainweave	SOURCEPAGE:CW	PRETYPE:2,Metal,Armor	!PRETYPE:1,Wooden	ASSIGNTOALL:NO	DR:3/Piercing	BONUS:ITEMCOST|TYPE.Light|28000	BONUS:ITEMCOST|TYPE.Medium|35000	BONUS:ITEMCOST|TYPE.Heavy|42000																		
+Thinaun	NAMEOPT:NORMAL	KEY:THINAUN	TYPE:BaseMaterial.SpecialMaterial.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:Metal.Thinaun	SOURCEPAGE:CW	PRETYPE:3,Metal,Weapon,Melee	!PRETYPE:1,Wooden	ASSIGNTOALL:NO		BONUS:ITEMCOST|TYPE.Weapon|10000|PREWIELD:1,Light	BONUS:ITEMCOST|TYPE.Weapon|15000|PREWIELD:1,OneHanded	BONUS:ITEMCOST|TYPE.Weapon|20000|PREWIELD:1,TwoHanded																		

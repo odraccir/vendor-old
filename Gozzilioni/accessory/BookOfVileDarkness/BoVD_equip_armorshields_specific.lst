@@ -1,0 +1,16 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																					
+###Block: Specific Armors																							
+																							
+#Tatterdemalion	COST:0																						
+#Armor of the Dread Emperor	COST:14650																						
+#Fleshshifter Armor	COST:13160																						
+#Grim Defender	COST:11350																						
+#Razor Armor	COST:5600																						
+																							
+# Equipment Name			Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory					
+Tatterdemalion		PROFICIENCY:ARMOR|Tatterdemalion	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:0	WT:20	ACCHECK:-1	EQMOD:CLOTH.MWORKA	MAXDEX:5	SOURCEPAGE:BOVD, pag 53	SPELLFAILURE:15	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	PRECLASS:1,Cancer Mage=3											
+#		PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Enhancement.Shield.Heavy.Specific	COST:20	WT:15	ACCHECK:-2	EQMOD:STEEL.MWORKA.PLUS2A.BASH_H.SPIKE_S		SOURCEPAGE:EXD	SPELLFAILURE:15	BONUS:COMBAT|AC|2|TYPE=Shield.REPLACE	SPROP:+1d6 fire damage + 1d6 divine damage against evil creature.							CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4	WIELD:OneHanded	SIZE:M
+Armor of the Dread Emperor		PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:1	SOURCEPAGE:BOVD	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE	SPROP:divide damage with captive.											
+Fleshshifter Armor		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:10	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS1A	MAXDEX:6	SOURCEPAGE:BOVD	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE				SPROP:Fleshshifter Armor|TIMES=ATWILL|CASTERLEVEL=3|Alter Self,12+CHA								
+Grim Defender		PROFICIENCY:ARMOR|Breastplate	TYPE:Enhancement.Armor.Medium.Suit.Specific	COST:200	WT:30	ACCHECK:-4	EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:3	SOURCEPAGE:BOVD	SPELLFAILURE:25	BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE	SPROP:transfer damage to another creature (Fort DC 16)											
+Razor Armor		PROFICIENCY:ARMOR|Scale Mail	TYPE:Enhancement.Armor.Medium.Suit.Standard	COST:50	WT:30	ACCHECK:-4	EQMOD:STEEL	MAXDEX:3	SOURCEPAGE:BOVD	SPELLFAILURE:25	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:2d6 slashing damage with grapple check when grappling.											

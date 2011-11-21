@@ -1,0 +1,72 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net
+		
+# BASICS		
+# Feat Name	Type	sourcepage
+Adroit Flyby Attack.MOD	DESC:Move before and after attacking	
+Awaken Frightful Presence.MOD	DESC:Gain frightful presence ability	
+Awaken Spell Resistance.MOD	DESC:Gain spell resistance ability	
+Clinging Breath.MOD	DESC:Breath deals extra damage 1 round later	
+#Devastating Critical.MOD	DESC:	
+#Dire Charge.MOD	DESC:	
+Draconic Knowledge.MOD	DESC:Bardic Knowledge like ability	
+Embed Spell Focus.MOD	DESC:Focus component becomes a part of you.	
+Endure Blows.MOD	DESC:Gain damage reduction of 2/-	
+Enlarge Breath.MOD	DESC:Length of breath weapon increase by 50%%	
+#Epic Fortitude.MOD	DESC:	
+#Epic Reflexes.MOD	DESC:	
+#Epic Will.MOD	DESC:	
+Extend Spreading Breath.MOD	DESC:Expel breath weapon as spread effect that can be used at range.	
+#Fast Healing.MOD	DESC:	
+Heighten Breath.MOD	DESC:Increase save DC against breath weapon	
+Improved Maneuverability.MOD	DESC:Maneuverability improves by one step	
+Improved Multiattack.MOD	DESC:No penalty on secondary attacks.	
+Improved Rapidstrike.MOD	DESC:Make multiple extra natural weapon attacks at a cumulative -5 penalty.	
+Improved Snatch.MOD	DESC:Use snatch against bigger targets.	
+Improved Speed.MOD	DESC:Fly speed +20-ft. Other speed +10-ft.	
+#Improved Spell Capacity.MOD	DESC:	
+Large and in Charge.MOD	DESC:Push back foe attempting to close	
+Lingering Breath.MOD	DESC:Breath remains as cloud for 1 round	
+Maximize Breath.MOD	DESC:Maximize breath weapon's variable, numeric effects.	
+Multisnatch.MOD	DESC:Penalty to maintain hold lessens to -10.	
+Overcome Weakness.MOD	DESC:Remove vulnerability to energy type.	
+#Overwhelming Critical.MOD	DESC:	
+Power Climb.MOD	DESC:Gain altitude without losing speed	
+Power Dive.MOD	DESC:Knock down target for extra damage	
+Quicken Breath.MOD	DESC:Use breath weapon as free action	
+Rapidstrike.MOD	DESC:Make one extra natural weapon attack at a -5 penalty.	
+Recover Breath.MOD	DESC:Use breath weapon more often	
+Rend.MOD	DESC:Deal extra damage on claw attacks.	
+Shape Breath.MOD	DESC:Expel breath weapon as line or cone	
+Shock Wave.MOD	DESC:Knock down foes by hitting ground with tail.	
+Snatch and Swallow.MOD	DESC:Swallow opponent held in mouth.	
+#Spellcasting Harrier.MOD	DESC:	
+Spreading Breath.MOD	DESC:Expel breath weapon as spread effect.	
+Split Breath.MOD	DESC:Divide breath weapon into two attacks.	
+Suppress Weakness.MOD	DESC:Lessen vulnerability to energy type.	
+Tail Constrict.MOD	DESC:Grab opponents with tail, deal extra tail slap damage.	
+Tail Sweep Knockdown.MOD	DESC:Tail sweep knocks opponents prone.	
+Tempest Breath.MOD	DESC:Breath weapon also produce wind effects.	
+Whirlwind Tail Sweep.MOD	DESC:Tail sweep affects full circle, not semicircle.	
+Wingstorm.MOD	DESC:Use wings to create wind effects against foes.	
+		
+#Clever Wrestling	DESC:	
+Close Quarters Fighting.MOD	DESC:Avoid being grappled more easily	
+Cunning Sidestep.MOD	DESC:Avoid a bull rush or trip attack more easily	
+#Deft Strike	DESC:	
+Dragon Cohort.MOD	DESC:Gain the service of a loyal dragon ally.	
+Dragon Familiar.MOD	DESC:Choose wyrmling dragon as new familiar	
+Dragon Hunter.MOD	DESC:Gain better defense against dragons' attacks	
+Dragon Hunter Bravery.MOD	DESC:Dragons' frightful presence less effective against you and your allies.	
+Dragon Hunter Defense.MOD	DESC:Gain evasion against breath weapon plus save bonus against dragons' magical attacks.	
+Dragon Steed.MOD	DESC:Dragonnel serves as loyal mount for you.	
+Dragon Wild Shape.MOD	DESC:You can take the form of a dragon.	
+Dragonbane.MOD	DESC:Single attack deals extra damage against dragons	
+Dragoncrafter.MOD	DESC:You can create dragoncraft items.	
+Dragondoom.MOD	DESC:Your critical hits against dragons deal tremendous dmage.	
+Dragonfoe.MOD	DESC:You are more adept at attacking dragons.	
+Dragonfriend.MOD	DESC:Good dragons regard you as an ally.	
+Dragonsong.MOD	DESC:Your verbal performances are enhanced.	
+Dragonthrall.MOD	DESC:Evil dragons regard you as an ally.	
+Frightful Presence.MOD	DESC:Gain frightful presence ability.	
+Overhead Thrust.MOD	DESC:Make attack of opportunity against foe attacking from above.	
+Sense Weakness.MOD	DESC:Your attacks more easily overcome damage reduction or hardness.	

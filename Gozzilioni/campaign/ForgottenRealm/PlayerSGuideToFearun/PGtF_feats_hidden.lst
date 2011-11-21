@@ -1,0 +1,9 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																																				
+#
+#Improved Metamagic	TYPE:Metamagic	VISIBLE:NO	ADDSPELLLEVEL:-1																																			
+Netherese Spell Focus Epic	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:NO	PRECLASS:1,Netherese Arcanist=2	STACK:NO	MULT:YES	CHOOSE:SCHOOLS	SELECT:1	SOURCEPAGE:PGtF
+Netherese Greater Spell Focus Epic	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:NO	PRECLASS:1,Netherese Arcanist=5	STACK:NO	MULT:YES	CHOOSE:FEAT=Netherese Spell Focus Epic	SELECT:1
+Harper Skill Focus	TYPE:ClassAbility	VISIBLE:NO	STACK:NO	MULT:YES	CHOOSE:CSKILLS	SERVESAS:ABILITY=FEAT|SKILL Focus	BONUS:SKILL|TYPE.Perform|3|TYPE=Focus	BONUS:SKILL|LIST|3|TYPE=Focus
+#																																						
+#EOF																																						
+#																																						

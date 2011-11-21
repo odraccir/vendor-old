@@ -1,0 +1,6 @@
+SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net																								
+																										
+###Block: Ranged																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+Chakcha		PROFICIENCY:WEAPON|Chakcha	TYPE:Weapon.Ranged.Exotic.Standard.Piercing	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d2	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SS	RANGE:20							
+Javelin (Howler)	OUTPUTNAME:Javelin, Howler	PROFICIENCY:WEAPON|Javelin (Howler)	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Thrown.Javelin	COST:2	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:SS	RANGE:30							

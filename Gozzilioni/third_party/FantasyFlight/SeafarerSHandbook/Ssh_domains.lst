@@ -1,0 +1,3 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net			
+					
+Undersea	SOURCEPAGE:Ssh	SPELLLEVEL:DOMAIN|Undersea=1|Buoyancy|Undersea=2|Ink Cloud|Undersea=3|Air Breathing|Undersea=4|Aquatic Form|Undersea=5|Sphere of Air|Undersea=6|Sink|Undersea=7|Acid Fog (Aquatic)|Undersea=8|Whirlpool I|Undersea=9|Elemental Swarm	DESC:You get +4 circumstance bonus to all Swim check, and Survival (Underwater) is a class skill.	CSKILL:Survival|Survival (Underwater)	BONUS:SKILL|Swim|4|TYPE=Circumstance

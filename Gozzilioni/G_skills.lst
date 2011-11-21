@@ -1,0 +1,46 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net								
+										
+# Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Modify VAR	Temporary effect description
+#Craft (Poisonmaking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Poisonmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PoisonmakingingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Calligraphy)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Calligraphy)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=CalligraphyTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Gemcutting).MOD	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Gemcutting)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=GemcuttingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used			
+Craft (Iceworking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Iceworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=IceworkingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Locksmithing)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Locksmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=LocksmithingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Stonecarving)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Stonecarving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StonecarvingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Woodcarving)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Woodcarving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WoodcarvingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Knowledge (Tactics)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
+Knowledge (Underdark)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
+Knowledge (Lycanthrope Lore)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
+Knowledge (Poison)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
+Perform (Chant)	KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma.Perform	SOURCEPAGE:Sottinteso						
+Profession (Apothecary)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Brewer)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Cook)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Driver)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Engineer)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:Sottinteso						
+Profession (Executioner)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:Sottinteso						
+Profession (Fisher)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Guide)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Herdsman)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Innkeeper)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Lumberjack)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Miller)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Porter)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Rancher)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Sailor)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Scribe)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Stablehand)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Tanner)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Teamster)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+Profession (Torturer)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:Sottinteso
+Profession (Woodcutter)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:srdskillsii.rtf						
+#										
+Search (Normal traps)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:G
+Search (Magical traps)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:PGtF
+Search (Notice unusual icework)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:Fro
+Disable Device (Disable or bypass normal traps)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:G
+Disable Device (Disable or bypass magical traps)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:PGtF
+Disguise (Imitating Beholders)	KEYSTAT:CHA	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:G
+#										
+# End										
+#										

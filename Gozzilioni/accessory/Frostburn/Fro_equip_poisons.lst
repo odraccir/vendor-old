@@ -1,0 +1,12 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+#Poisons																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+Poison (Ice toad bile)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0		SOURCEPAGE:Fro	SPROP:Contact DC 12, Init.:1d4 STR / Unconscious 1d4 hours.
+Poison (Snow spider blood)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0		SOURCEPAGE:Fro	SPROP:Contact DC 13, Init.:Paralysis / 0.
+Poison (Snowflake lichen powder)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0		SOURCEPAGE:Fro	SPROP:Inhaled DC 11, Init.:1 STR / 1 Dex.
+Poison (White pudding essence)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:Fro	SPROP:Inhaled DC 13, Init.:1d2 WIS / 1d2 WIS + 1d2 INT
+Poison (Icegaunt dust)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0		SOURCEPAGE:Fro	SPROP:Inhaled DC 14, Init.:1d6 CON / 2d4 CON + 2d4 DEX.
+Poison (Chilblain brain juice)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:110	WT:0		SOURCEPAGE:Fro	SPROP:Injury DC 12, Init.:1 DEX / 1d4 DEX.
+Poison (Wolly mammoth eye juice)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:140	WT:0		SOURCEPAGE:Fro	SPROP:Injury DC 14, Init.:1d2 STR + 1d2 DEX / 1d4 STR
+Poison (Yeti oil)		OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0		SOURCEPAGE:Fro	SPROP:Injury DC 15, Init.:1d4 DEX / 1d4 DEX

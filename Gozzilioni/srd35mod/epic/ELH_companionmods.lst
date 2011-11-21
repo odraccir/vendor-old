@@ -1,0 +1,15 @@
+SOURCELONG:Epic Level Handbook	SOURCESHORT:ELH	SOURCEWEB:http://www.wizards.com																																
+																																		
+###Block:Familiar																																		
+# Class of the Master	Type			Spell Res.	COPYMASTERBAB		COPYMASTERCHECK		COPYMASTERHP		USEMASTERSKILL		Special Ability									Define						Combat bonus						SWITCHRACE
+FOLLOWER:FMLevel=21	TYPE:Familiar	BONUS:MISC|SR|FMLevel-20																				DEFINE:LOCK.INT|16		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=23	TYPE:Familiar																					DEFINE:LOCK.INT|17		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=25	TYPE:Familiar																					DEFINE:LOCK.INT|18		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=27	TYPE:Familiar																					DEFINE:LOCK.INT|19		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=29	TYPE:Familiar																					DEFINE:LOCK.INT|20		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=31	TYPE:Familiar																					DEFINE:LOCK.INT|21		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=33	TYPE:Familiar																					DEFINE:LOCK.INT|22		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=35	TYPE:Familiar																					DEFINE:LOCK.INT|23		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=37	TYPE:Familiar																					DEFINE:LOCK.INT|24		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=39	TYPE:Familiar																					DEFINE:LOCK.INT|25		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FMLevel=41	TYPE:Familiar																					DEFINE:LOCK.INT|26		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										

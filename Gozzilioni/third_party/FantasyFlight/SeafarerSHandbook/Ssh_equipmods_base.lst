@@ -1,0 +1,9 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net
+
+###Block: Base Materials
+
+# Modifier Name	Unique Key		Naming Option	Type														Cost		Visible		Type granted	Source Page							Prohibited Type							Apply to both heads
+Kelp			KEY:KELP		NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor.Shield.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:NonMetal	SOURCEPAGE:Ssh				!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal		ASSIGNTOALL:YES	SPROP:-1 AC/hour after the first hour not underwater
+Fishbone			KEY:FSHBONE		NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor.Shield.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:NonMetal	SOURCEPAGE:Ssh				!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal		ASSIGNTOALL:YES	SPROP:-1 AC/hour after the first twelve hours underwater
+Shell			KEY:SHELL		NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor.Shield.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:NonMetal	SOURCEPAGE:Ssh				!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal		ASSIGNTOALL:YES	SPROP:-1 AC/hour after the first eight hours not underwater
+Fish Scale			KEY:FSHSCALE		NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor.Shield.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:NonMetal	SOURCEPAGE:Ssh				!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal		ASSIGNTOALL:YES	SPROP:-1 AC/hour after the first eight hours not underwater

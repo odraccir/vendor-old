@@ -1,0 +1,109 @@
+SOURCELONG:Lord of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net										
+												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Savant Aboleth	HD:8	TYPE:Prestige	ABB:Svt	MAXLEVEL:5	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Savant Aboleth	PRERACE:1,RACESUBTYPE=Aboleth	PREFEAT:4,Ability Focus(Enslave),Ability focus(Slime),Craft Aboleth Glyph,Quickslime	PRESPELLTYPE:1,Arcane=3									
+CLASS:Savant Aboleth	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE.Craft|Decipher Script|Forgery|Gather Information|Intimidate|TYPE.Knowledge|Listen|Search|Sense Motive|Speak Language|Spellcraft|Spot|Swim|Use Magic Device										
+#												
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Glyph Mastery|Glyph of Warding (Sp)|Ossification			BONUS:VAR|GlyphOfWardingLVL|CL	BONUS:VAR|GlyphOfWardingPerDay|CL	BONUS:VAR|OssificationBonus|(((CL+1)/2)*2)			
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Enlarged Enslave|Recrudescent Memories								
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Greater Glyph of Warding (Sp)			BONUS:VAR|GreaterGlyphOfWardingLVL|CL	BONUS:VAR|GreaterGlyphOfWardingPerDay|CL				
+4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|True Enslave								
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Elder Glyph of Warding (Sp)			BONUS:VAR|ElderGlyphOfWardingLVL|CL	BONUS:VAR|ElderGlyphOfWardingPerDay|CL				
+#												
+CLASS:Beholder Mage	HD:4	TYPE:Monster.Prestige	ABB:BeH	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Beholder Mage	PRERACE:1,RACESUBTYPE=Beholder	PRETEXT:Lose or put out central magic eye.										
+CLASS:Beholder Mage	STARTSKILLPTS:2	CSKILL:Craft (Alchemy)|Appraise|Concentration|Decipher Script|TYPE.Knowledge|Speak Language|Spellcraft|Use Magic Device										
+CLASS:Beholder Mage	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Beholder Mage|CL							
+1	CAST:6,3			ABILITY:Special Ability|AUTOMATIC|Sacrifice Eyestalk|Arcane Hands								
+2	CAST:6,5,3											
+3	CAST:6,6,5,3											
+4	CAST:6,6,6,5,3											
+5	CAST:6,6,6,6,5,3											
+6	CAST:6,6,6,6,6,5,3											
+7	CAST:6,6,6,6,6,6,5,3											
+8	CAST:6,6,6,6,6,6,6,5,3											
+9	CAST:6,6,6,6,6,6,6,6,5,3											
+10	CAST:6,6,6,6,6,6,6,6,6,5			ABILITY:Special Ability|AUTOMATIC|Ocular Transformation								
+#												
+CLASS:Abolisher	HD:8	TYPE:PC.Prestige	ABB:Abo	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Abolisher	!PRERACE:1,RACETYPE=Aberration	PREALIGN:LG,LN,LE,NG,TN,NE	PRESKILL:1,Knowledge (Dungeoneering)=4	PRESKILL:1,Knowledge (Nature)=9	PREFEAT:1,Track	PREABILITY:1,CATEGORY=Special Ability,Wild Empathy						
+CLASS:Abolisher	STARTSKILLPTS:4	CSKILL:Concentration|Escape Artist|Gather Information|Heal|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Nature)|Knowledge (The Planes)|Listen|Sense Motive|Spot|Survival										
+1				ABILITY:Special Ability|AUTOMATIC|Basic Abolisher Enemy|Abolisher Favored Enemy|Wild Shape|Abolisher Wild Shape Times	ABILITY:Special Ability|AUTOMATIC|Abolisher Animal Companion		BONUS:VAR|AbolisherFavoredEnemyLVL|CL	BONUS:VAR|AbolisherWildShape|CL	BONUS:VAR|AbolisherAnimalCompanionLVL|CL			
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Winds of Nature's Grace			BONUS:VAR|WindSNatureGraceBonus|1					
+3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Pierce Aberrant Defense			BONUS:VAR|PierceAberrantDefenseSR|CL/3					
+4	ADD:SPELLCASTER|Divine											
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Crystals of Nature Wrath			BONUS:VAR|CrystalOfNatureDC|CL					
+6												
+7	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Waves of Nature Purity			BONUS:VAR|WavesOfNaturePurityDC|CL					
+8	ADD:SPELLCASTER|Divine											
+9	ADD:SPELLCASTER|Divine											
+10	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Fire of Nature's Rage			BONUS:VAR|FireOfNatureRagePerDay|3					
+#												
+CLASS:Darkrunner	HD:6	TYPE:PC.Prestige	ABB:Drr	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Darkrunner	PRESKILL:2,Knowledge (Dungeoneering)=5,Search=5	PRESKILL:1,Survival=7	PREFEAT:2,Alertness,Track	PRESKILL:1,Knowledge (Nature)=9	PREFEAT:1,Track	PREVISION:1,Darkvision=1	PREABILITY:1,CATEGORY=Guild Category,Guild Member(Darkrunner Guild)					
+CLASS:Darkrunner	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Escape Artist|Gather Information|Heal|Hide|Intimidate|Jump|Knowledge (Architecture and Engineering)|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Local)|Knowledge (Nature)|Listen|Move Silently|Search|Sense Motive|Speak Language|Spot|Survival|Swim|Tumble										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Direction Sense|Spelunking			BONUS:VAR|SpelunkingBonus|CL			AUTO:EQUIP|Darkrunner Emblem		
+2				ABILITY:Special Ability|AUTOMATIC|Aberration Lore			BONUS:VAR|AberrationLoreBonus|2	BONUS:VISION|Darkvision|10				
+3				ABILITY:Special Ability|AUTOMATIC|Cavefighting|Tunnelport (Sp)			BONUS:VAR|TunnelportPerDay|1	BONUS:VAR|TunnelportLVL|CL				
+4								BONUS:VISION|Darkvision|10		VISION:Tremorsense(30')		
+5				ABILITY:Special Ability|AUTOMATIC|Lore of the Stones								
+6				ABILITY:Special Ability|AUTOMATIC|Aberration Specialist				BONUS:VISION|Darkvision|10				
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Improved Cavefighting				BONUS:VISION|Darkvision|10				
+9				ABILITY:Special Ability|AUTOMATIC|Greater Tunnelport (Sp)			BONUS:VAR|GreaterTunnelportPerDay|1	BONUS:VAR|GreaterTunnelportLVL|CL				
+10				ABILITY:Special Ability|AUTOMATIC|Stone Walk				BONUS:VISION|Darkvision|10				
+#												
+CLASS:Fleshwarper	HD:4	TYPE:PC.Prestige	ABB:Flw	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Fleshwarper	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:1,Heal=4	PRESKILL:1,Knowledge (Arcana)=8	PREFEAT:1,Graft Flesh	PREABILITY:1,CATEGORY=Special Ability,Summon Familiar							
+CLASS:Fleshwarper	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Heal|TYPE.Knowledge|Search|Speak Language|Spellcraft|Use Magic Device										
+1				ABILITY:Special Ability|AUTOMATIC|Aberrant Familiar|Graft Reserve			BONUS:VAR|AberrantFMLevel|CL					
+2	ADD:SPELLCASTER|ANY						BONUS:ABILITYPOOL|Elder Secret|(CL+1)/3					
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Graft Mastery			BONUS:VAR|GraftMastery|(CL-1)/2					
+4	ADD:SPELLCASTER|ANY											
+5	ADD:SPELLCASTER|ANY											
+6	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Rapid Grafting								
+7	ADD:SPELLCASTER|ANY											
+8	ADD:SPELLCASTER|ANY											
+9	ADD:SPELLCASTER|ANY											
+10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Aberrant Apotheosys						TEMPLATE:Aberrant Apotheosys		
+#												
+CLASS:Keeper of the Cerulean Sign	HD:6	TYPE:PC.Prestige	ABB:KCS	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Keeper of the Cerulean Sign	!PRERACE:1,RACETYPE=Aberration	PRESKILL:2,Gather Information=5,Sense Motive=5	PRESKILL:2,Knowledge (Arcana)=8,Knowledge (Dungeoneering)=8	PREFEAT:2,Aberration Banemagic,Craft Wondrous Item	PRETEXT:Must create Cerulean Sign.							
+CLASS:Keeper of the Cerulean Sign	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|Decipher Script|Disguise|Forgery|Gather Information|Hide|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (History)|Knowledge (Local)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spellcraft|Spot|Use Magic Device										
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Cerulean Focus|Detect Aberrant Taint								
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Greater Banemagic			BONUS:VAR|GreaterBanemagicPerDay|CL/2					
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Word of Revelation			BONUS:VAR|WordOfRevelationPerDay|1	DEFINE:WordOfRevelationDC|CL				
+4	ADD:SPELLCASTER|ANY											
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Portal Warding								
+6	ADD:SPELLCASTER|ANY											
+7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Mental Backlash								
+8	ADD:SPELLCASTER|ANY											
+9	ADD:SPELLCASTER|ANY											
+10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Cleanse Aberration								
+#												
+CLASS:Sanctified Mind	HD:8	TYPE:PC.Prestige	ABB:SMi	MAXLEVEL:6	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Sanctified Mind	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:4	PRESKILL:3,Knowledge (Dungeoneering)=2,Knowledge (Psionics)=2,Sense Motive=2	PREFEAT:1,Iron Will	PRETEXT:Must be proficient with all Martial Weapon	PREVARGTEQ:TotalPowerPoints,1						
+CLASS:Sanctified Mind	STARTSKILLPTS:4	CSKILL:Concentration|Disguise|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Psionics)|Listen|Psicraft|Search|Sense Motive|Spot										
+1				ABILITY:Special Ability|AUTOMATIC|Partition Mind			BONUS:VAR|PartitionMindDuration|min(1,CL+CHA)					
+2	ADD:SPELLCASTER|Divine,Psionic			ABILITY:Special Ability|AUTOMATIC|Cleansing Smite			BONUS:VAR|CleansingSmiteToHit|min(0,WIS)	BONUS:VAR|CleansingSmiteDamage|CL				
+3	ADD:SPELLCASTER|Divine,Psionic			ABILITY:Special Ability|AUTOMATIC|Disrupting Blow			BONUS:VAR|DisruptingBlowPerDay|1	BONUS:VAR|DisruptingBlowDC|CL				
+4	ADD:SPELLCASTER|Divine,Psionic						BONUS:COMBAT|TOHIT.GRAPPLE|CL					
+5	ADD:SPELLCASTER|Divine,Psionic						BONUS:VAR|DisruptingBlowPerDay|1					
+6	ADD:SPELLCASTER|Divine,Psionic						SR:5+CL					
+#												
+CLASS:Topaz Guardian	HD:8	TYPE:PC.Prestige	ABB:TGu	MAXLEVEL:5	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Topaz Guardian	PREALIGN:LG,NG,CG	PREATT:5	PREMULT:1,[PRECHECKBASE:1,Will=3],[PREABILITY:1,CATEGORY=Special Ability,Divine Grace	PRESKILL:2,Knowledge (Dungeoneering)=4,Sense Motive=4	PRESKILL:1,Spot=2	PREFEAT:1,Quick Recovery	PRETEXT:Must be sponsored by an existing member and approved by a High Sunwarden of the Order.	PREABILITY:1,CATEGORY=Guild Category,Guild Member(Topaz Order)				
+CLASS:Topaz Guardian	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intimidate|Jump|Knowledge (Dungeoneering)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spot										
+1				ABILITY:Special Ability|AUTOMATIC|Topaz Diadem			BONUS:VAR|TopazDiademBonus|(CL+1)/2			AUTO:EQUIP|Topaz Diadem		
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Smite Aberration			BONUS:VAR|SmiteAberrationDamage|2*CL	BONUS:VAR|SmiteAberration|CL/2				
+3				ABILITY:Special Ability|AUTOMATIC|Hard to Hold			BONUS:VAR|HardToHoldBonus|CL					
+4	ADD:SPELLCASTER|ANY											
+5	ADD:SPELLCASTER|ANY											

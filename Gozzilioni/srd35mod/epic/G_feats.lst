@@ -1,0 +1,3 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net			
+					
+Epic Spell Focus.MOD		BONUS:DC|SCHOOL.%LIST|-1	BONUS:DC|SCHOOL.%LIST|3|TYPE=SpellFocus

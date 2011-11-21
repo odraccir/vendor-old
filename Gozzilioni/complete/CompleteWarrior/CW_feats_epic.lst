@@ -1,0 +1,23 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+
+# EPIC																																											
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page		
+#Armor skin sembra identico, dubbio su .REPLACE e .STACK
+#Armor Skin.MOD	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21													DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE						BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK								SOURCEPAGE:CW		
+#Combat archery è identico. saltato.
+#Combat Archery	TYPE:Epic	VISIBLE:YES				PREFEAT:3,Dodge,Mobility,Point Blank Shot					PRELEVEL:MIN=21													DESC:See Text																	SOURCEPAGE:CW		
+Combat Insight	TYPE:Epic	VISIBLE:YES		PREATT:15		PREFEAT:2,Combat Expertise,Epic Prowess					PRELEVEL:MIN=21													DESC:See Text									BONUS:COMBAT|TOHIT|max(INT,STR)-STR								SOURCEPAGE:CW		
+#Damage reduction è uguale, ma aggiungo un tag. (il talento dovrebbe fornirne a chi non ne ha)
+Damage Reduction.MOD	DR:0/-
+Epic Combat Expertise	TYPE:Epic	VISIBLE:YES		PREATT:21		PREFEAT:1,Combat Expertise					PRELEVEL:MIN=21				PRESTAT:1,INT=19									DESC:See Text																	SOURCEPAGE:CW		
+#Epic prowess è uguale. saltato.
+#Epic Prowess	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21													DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CW	BONUS:COMBAT|BAB|1	
+#Epic toughness è uguale. saltato.
+#Epic Toughness	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21													DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CW	BONUS:HP|CURRENTMAX|30	
+#bonus con TYPE.
+Epic Weapon Focus.MOD	TYPE:Epic	VISIBLE:YES				PREFEAT:2,Weapon Focus,Greater Weapon Focus	BONUS:WEAPONPROF=%LIST|TOHIT|-2 BONUS:WEAPONPROF=%LIST|TOHIT|2|TYPE=EpicWeaponFocus								SOURCEPAGE:CW		
+Epic Sunder	TYPE:Epic	VISIBLE:YES				PREFEAT:3,Epic Prowess,Improved Sunder,Power Attack					PRELEVEL:MIN=21				PRESTAT:1,STR=25									DESC:See Text																	SOURCEPAGE:CW		
+#Legendary Rider	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21	PRESKILL:1,Ride=24												DESC:See Text																	SOURCEPAGE:CW		
+#Perfect two-weapon fighting è identico. saltato. 
+#Perfect Two Weapon Fighting	TYPE:Epic	VISIBLE:YES	OUTPUTNAME:Perfect Two-Weapon Fighting			PREFEAT:3,Greater Two Weapon Fighting,Improved Two Weapon Fighting,Two Weapon Fighting					PRELEVEL:MIN=21				PRESTAT:1,DEX=25									DESC:See Text									BONUS:COMBAT|SECONDARYATTACKS|1								SOURCEPAGE:CW		
+Wield Oversized Weapon	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Monkey Grip					PRELEVEL:MIN=21				PRESTAT:1,STR=25									DESC:See Text									BONUS:WIELDCATEGORY|ALL|-1								SOURCEPAGE:CW		

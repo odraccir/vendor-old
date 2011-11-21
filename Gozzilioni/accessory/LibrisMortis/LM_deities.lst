@@ -1,0 +1,9 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net						
+								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Afflux	ALIGN:NE	DEITYWEAP:Sword (Short)	DESC:Afflux (M)	DOMAINS:Deathbound,Evil,Knowledge,Undeath LM|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Undead	SOURCEPAGE:LM	
+Doresain	ALIGN:CE	DEITYWEAP:Scimitar	DESC:Doresain (M)	DOMAINS:Chaos,Evil,Hunger|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Undead	SOURCEPAGE:LM	
+Evening Glory	ALIGN:TN	DEITYWEAP:Dagger	DESC:Evening Glory (M)	DOMAINS:Charm,Magic,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Undead	SOURCEPAGE:LM	
+Nerull.MOD						PANTHEON:Undead		
+Orcus LM	ALIGN:CE	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Orcus (M)	DOMAINS:Chaos,Evil,Death,Darkness|PREALIGN:NE,CN,CE	TYPE:Demon Lord	PANTHEON:Undead	SOURCEPAGE:LM

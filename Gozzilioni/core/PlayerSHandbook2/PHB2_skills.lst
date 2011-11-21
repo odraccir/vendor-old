@@ -1,0 +1,3 @@
+SOURCELONG:Player's Handbook 2	SOURCESHORT:PHB2	SOURCEWEB:http://www.gozzilioni.net				
+#						
+Craft (Taxidermy)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:PHB2	BONUS:SKILL|Craft (Taxidermy)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=TaxidermyTools|PREAPPLY:PC	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used

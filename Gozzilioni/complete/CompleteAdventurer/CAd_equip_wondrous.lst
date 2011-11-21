@@ -1,0 +1,34 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net													
+															
+###Block								mods	eqmods						
+Amulet of Aberrant Empathy		TYPE:Magic.Wondrous.Amulet	COST:1400	WT:0		SOURCEPAGE:CAd				SPROP:use Handle Animal checks rather Diplomacy checks to influence Aberration with less than 9 Int.					
+Armbands of Might		TYPE:Magic.Wondrous.Bracer	COST:4100	WT:0	SLOTS:2	SOURCEPAGE:CAd				SPROP:+2 Strenght checks and Strenght based skill.	SPROP:-2 penalty on attack Roll and +2 bonus on melee damage roll when using Power Attack feat.|PREFEAT:1,Power Attack				
+Badge of Valor		TYPE:Magic.Wondrous.Amulet	COST:1000	WT:0		SOURCEPAGE:CAd				SPROP:+2 morale bonus on saves against fear effects. +4 on level check made to avoid being intimidated. Stack with paladin's aura of courage and bard's inspire courage abilities.					
+Choker of Eloquence (Lesser)	OUTPUTNAME:Lesser Choker of Eloquence	TYPE:Magic.Wondrous.Necklace	COST:6000	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Diplomacy,Bluff,Perform (Sing)|5|TYPE=Competence				
+Choker of Eloquence (Greater)	OUTPUTNAME:Greater Choker of Eloquence	TYPE:Magic.Wondrous.Necklace	COST:24000	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Diplomacy,Bluff,Perform (Sing)|10|TYPE=Competence				
+Collar of Obedience		TYPE:Magic.Wondrous.Necklace	COST:1500	WT:0		SOURCEPAGE:CAd				SPROP:the DC of Handle Animal check to handle, push, teach, train or rear the wearer is decreased by 5.					
+Crown of Steady Rulership		TYPE:Magic.Wondrous.Headgear	COST:4500	WT:0		SOURCEPAGE:CAd				SPROP:+5 competence bonus on Sense Motive and Spot checks made to see through disguises.					
+Musical Instrument (Flute of the Snake)		TYPE:Magic.Tools.Instrument.Wind.Resizable	COST:15400	WT:3		SOURCEPAGE:CAd			EQMOD:MWORKI	SPROP:Charm snakes (as charm animal) with Perform (Wind Instrument) DC 15.			BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Harp of the Immortal Maestro)		TYPE:Magic.Tools.Instrument.String.Resizable	COST:51000	WT:3		SOURCEPAGE:CAd			EQMOD:MWORKI	SPROP:Levitate, Magic circle against Evil once per day.|PRESKILL:1,Perform (String Instrument)=1	SPROP:Cure Critical Wounds, Displacement and Summon monster V once per day.|PRESKILL:1,Perform (String Instrument)=15		BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Headband of Conscious Effort		TYPE:Magic.Wondrous.Headband	COST:4000	WT:0		SOURCEPAGE:CAd				SPROP:Concentration check instead of a required Fortitude saving throw.					
+Jumping Caltrops		TYPE:Magic.Wondrous	COST:150	WT:2		SOURCEPAGE:CAd									
+Musical Instrument (Lute of the Wandering Minstrel)		TYPE:Magic.Tools.Instrument.String.Resizable	COST:29500	WT:3		SOURCEPAGE:CAd			EQMOD:MWORKI	SPROP:Levitate, Magic circle against Evil once per day.|PRESKILL:1,Perform (String Instrument)=1	SPROP:Expeditious Retreat, Haste or Phantom Steed once per day.|PRESKILL:1,Perform String Instrument)=5		BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Mandolin of Inspiring Muse)		TYPE:Magic.Tools.Instrument.String.Resizable	COST:42000	WT:3		SOURCEPAGE:CAd			EQMOD:MWORKI	SPROP:Levitate, Magic circle against Evil once per day.|PRESKILL:1,Perform (String Instrument)=1	SPROP:Crushing Despair, Dominate Person, Good Hope once per day.|PRESKILL:1,Perform (String Instrument)=15		BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	ABILITY:Special Ability|AUTOMATIC|Negative Levels	BONUS:VAR|NegLevels|1|!PRESKILL:1,Perform (String Instruments)=6
+Mask of Lies		TYPE:Magic.Wondrous.Eyegear	COST:17000	WT:0		SOURCEPAGE:CAd				SPROP:Continually under effects of Undetectable Alignment	SPELLS:Mask of Lies|TIMES=ATWILL|CASTERLEVEL=5|Disguise Self	BONUS:SKILL|Bluff|5|TYPE=Competence			
+Medal of Gallantry		TYPE:Magic.Wondrous.Amulet	COST:1100	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Diplomacy|2|TYPE=Competence	BONUS:SKILL|Bluff|-2	SPELLS:Medal of Gallantry|TIMES=3|CASTERLEVEL=3|Sanctuary		
+Monocle of Perusal		TYPE:Magic.Wondrous.Eyegear	COST:6500	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Appraise|5|TYPE=Competence	SPELLS:Monocle of Perusal|TIMES=1|CASTERLEVEL=3|Identify			
+Papyrus of Deception		TYPE:Magic.Wondrous.Documents	COST:2000	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Forgery|5|TYPE=Competence				
+Lenses of Darkness		TYPE:Magic.Wondrous.Eyegear	COST:7700	WT:0		SOURCEPAGE:CAd									
+Pendant of Draconic Empathy		TYPE:Magic.Wondrous.Amulet	COST:3300	WT:0		SOURCEPAGE:CAd				SPROP:use Handle Animal checks rather Diplomacy checks to influence Dragons with less than 11 Int.					
+Possum Pouch		TYPE:Magic.Wondrous.Container	COST:1800	WT:1		SOURCEPAGE:CAd	CONTAINS:UNLIM|Any=UNLIM			SPROP:when placed against a humanoid’s abdomen and sealed there with a command word, it blends in unobtrusively with the surrounding skin, requiring a DC 30 Search check to detect.					
+Rope of Stone		TYPE:Magic.Wondrous	COST:2800	WT:5		SOURCEPAGE:CAd									
+Sandals of Harmonious Balance		TYPE:Magic.Wondrous.Boot	COST:14000	WT:0		SOURCEPAGE:CAd				SPROP:Can Balance even on liquids, semisolid surfaces.|PRESKILL:1,Balance=10	BONUS:SKILL|Balance|10|TYPE=Insight				
+Scarf of Warmth		TYPE:Magic.Wondrous.Amulet	COST:250	WT:0		SOURCEPAGE:CAd				SPROP:+5 bonus on Fortitude saves made to resist the effect of cold weather.					
+Shawl of Bewitching		TYPE:Magic.Wondrous.Cape	COST:3500	WT:0		SOURCEPAGE:CAd				SPROP:+5 competence bonus on Bluff made to conceal the truth.	BONUS:CASTERLEVEL|SUBSCHOOL.Charm|1				
+Spellsight Spectacle		TYPE:Magic.Wondrous.Eyegear	COST:2500	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Spellcraft (Decipher spell on scroll),Use Magic Device (Scroll)|5|TYPE=Competence				
+Spool of Endless Rope		TYPE:Magic.Wondrous	COST:2000	WT:1		SOURCEPAGE:CAd									
+Strings of Spell Storing		TYPE:Magic.Wondrous.Scroll	COST:4500	WT:0		SOURCEPAGE:CAd									
+Stylus of the Masterful Hand		TYPE:Magic.Wondrous	COST:3000	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Forgery|5|TYPE=Competence				
+Trumpeter's Gift		TYPE:Magic.Wondrous	COST:12700	WT:0		SOURCEPAGE:CAd				SPROP:destroyed when Shout is used.|!PRETYPE:1,Masterwork	BONUS:SKILL|Perform (Wind Instruments)|5|TYPE=Competence	SPELLS:Trumpeter's Gift|TIMES=1|CASTERLEVEL=7|Shout,14			
+Tunic of Steady Spellcasting		TYPE:Magic.Wondrous.Robe	COST:2500	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Concentration|5|TYPE=Competence				
+Vial of the Last Grasp		TYPE:Magic.Wondrous.Vial.Consumable	COST:2200	WT:0		SOURCEPAGE:CAd									

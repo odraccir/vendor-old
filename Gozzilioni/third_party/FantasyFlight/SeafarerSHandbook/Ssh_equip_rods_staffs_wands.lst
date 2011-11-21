@@ -1,0 +1,5 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+###Block: Rod																				
+# Equipment Name	Type			Cost		Weight	Source Page													
+Rod of the Waves		TYPE:Magic.Rod	COST:40000	WT:0	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:Ssh													SPROP:Create Water and Waterbreathing at will without draining charges.

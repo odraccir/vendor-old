@@ -1,0 +1,25 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																											
+#
+###Block:Armor abilities																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+Death Ward (timed)	KEY:DTH_WRD_TIME	TYPE:Armor	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Armor															SPROP:Deth Ward 7 min/day					
+#
+###Block:Weapon abilities																													
+Dispelling	KEY:DISP_A	TYPE:Ammunition		COST:6000	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Ammunition															SPROP:Dispelling 1/day					ASSIGNTOALL:NO
+Dispelling	KEY:DISP_M	TYPE:Weapon.Melee		COST:6000	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Dispelling 1/day					ASSIGNTOALL:NO
+Dispelling	KEY:DISP_R	TYPE:Weapon.Ranged		COST:6000	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Dispelling 1/day					ASSIGNTOALL:NO
+Dispelling (Greater)	KEY:DISP_GRT_A	TYPE:Ammunition		COST:79200	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Ammunition															SPROP:Greater Dispelling 3/day					ASSIGNTOALL:NO
+Dispelling (Greater)	KEY:DISP_GRT_M	TYPE:Weapon.Melee		COST:79200	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Greater Dispelling 3/day					ASSIGNTOALL:NO
+Dispelling (Greater)	KEY:DISP_GRT_R	TYPE:Weapon.Ranged		COST:79200	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Greater Dispelling 3/day					ASSIGNTOALL:NO
+Domineering	KEY:DMRNG_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Ammunition															SPROP:Domineering					ASSIGNTOALL:NO
+Domineering	KEY:DMRNG_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Domineering					ASSIGNTOALL:NO
+Domineering	KEY:DMRNG_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Domineering					ASSIGNTOALL:NO
+Doomwarding	KEY:DOOMWRD_A	TYPE:Ammunition		COST:38500	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Ammunition															SPROP:Doomwarding					ASSIGNTOALL:NO
+Doomwarding	KEY:DOOMWRD_M	TYPE:Weapon.Melee		COST:38500	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Doomwarding					ASSIGNTOALL:NO
+Doomwarding	KEY:DOOMWRD_R	TYPE:Weapon.Ranged		COST:38500	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Doomwarding					ASSIGNTOALL:NO
+Spellblade	KEY:SPELL_A	TYPE:Ammunition		COST:6000	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Ammunition															SPROP:Spellblade					ASSIGNTOALL:NO
+Spellblade	KEY:SPELL_M	TYPE:Weapon.Melee		COST:6000	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Spellblade					ASSIGNTOALL:NO
+Spellblade	KEY:SPELL_R	TYPE:Weapon.Ranged		COST:6000	VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Spellblade					ASSIGNTOALL:NO
+Sure Striking	KEY:SRSTRK_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:2,Enhancement,Ammunition															SPROP:Sure Striking					ASSIGNTOALL:NO
+Sure Striking	KEY:SRSTRK_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Sure Striking					ASSIGNTOALL:NO
+Sure Striking	KEY:SRSTRK_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:PGtF	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Sure Striking					ASSIGNTOALL:NO

@@ -1,0 +1,18 @@
+SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net					
+							
+#Potions							
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	
+Potion (Fog Juice)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:RLDMG	
+Potion (Enslavement)	OUTPUTNAME:Oil of [NAME]		TYPE:Magic.Potion.Consumable	COST:50	WT:0	SOURCEPAGE:RLDMG	
+Potion (Gentle Repose)	OUTPUTNAME:Potion of [NAME]		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:RLDMG	
+Potion (Lies)	OUTPUTNAME:Potion of [NAME]		TYPE:Magic.Potion.Consumable	COST:400	WT:0	SOURCEPAGE:RLDMG	SPROP:+30 bonus on Bluff check for 1 hour.
+Potion (Taste of Darkness Potion)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:100	WT:0	SOURCEPAGE:RLDMG	
+Potion (Taste of Evil)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:750	WT:0	SOURCEPAGE:RLDMG	
+Potion (War Paint of Natural Armor/+3)	OUTPUTNAME:War Paint of Natural Armor +3		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:RLDMG	SPROP:+3 natural armor bonus for 10 minutes.
+Potion (War Paint of Natural Armor/+4)	OUTPUTNAME:War Paint of Natural Armor +4		TYPE:Magic.Potion.Consumable	COST:900	WT:0	SOURCEPAGE:RLDMG	SPROP:+4 natural armor bonus for 10 minutes.
+Potion (War Paint of Natural Armor/+5)	OUTPUTNAME:War Paint of Natural Armor +5		TYPE:Magic.Potion.Consumable	COST:1800	WT:0	SOURCEPAGE:RLDMG	SPROP:+5 natural armor bonus for 10 minutes.
+Potion (Wine of Questing)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:3300	WT:0	SOURCEPAGE:RLDMG	
+Potion (Wine of Suggestion)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:400	WT:0	SOURCEPAGE:RLDMG	
+Potion (Zombie Blood)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:1250	WT:0	SOURCEPAGE:RLDMG	
+#
+Revolting Unguent			TYPE:Cursed.Magic.Potion	COST:3500	WT:0		SOURCEPAGE:RLDMG

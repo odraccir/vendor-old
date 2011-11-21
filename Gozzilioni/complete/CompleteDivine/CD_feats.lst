@@ -1,0 +1,49 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net																																										
+																																												
+# BASICS																																												
+# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page			
+Arcane Disciple	TYPE:General	VISIBLE:YES										PRESKILL:2,Knowledge (Religion)=4,Spellcraft=4							PRESPELLCAST:TYPE=Arcane	PREDEITY:1,Y				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:DOMAIN|QUALIFY														SOURCEPAGE:CD	BONUS:DOMAIN|NUMBER|1		
+Augment Healing	TYPE:General	VISIBLE:YES										PRESKILL:1,Heal=4												DESC:See Text																	SOURCEPAGE:CD			
+Boar's Ferocity	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+Cheetah' Speed	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+Consecrate Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																		PREALIGN:LG,NG,CG				DESC:See Text																	SOURCEPAGE:CD	ADDSPELLLEVEL:1		
+Corrupt Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																		PREALIGN:LE,NE,CE				DESC:See Text																	SOURCEPAGE:CD	ADDSPELLLEVEL:1		
+Disciple of the Sun	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead														PREALIGN:LG,NG,CG				DESC:See Text																	SOURCEPAGE:CD			
+Divine Metamagic	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEATLIST|TYPE=Metamagic														SOURCEPAGE:CD			
+Divine Spell Power	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead													PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1				DESC:See Text																	SOURCEPAGE:CD			
+Domain Focus	TYPE:General	VISIBLE:YES																						DESC:See Text	STACK:NO	MULT:YES	CHOOSE:DOMAIN|PC														SOURCEPAGE:CD	BONUS:CASTERLEVEL|DOMAIN.%LIST|1		
+Domain Spontaneity	TYPE:Divine	VISIBLE:YES																						DESC:See Text	STACK:NO	MULT:YES	CHOOSE:DOMAIN|PC														SOURCEPAGE:CD			
+Eagle's Wings	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+Elemental Healing	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnElemental																		DESC:See Text																	SOURCEPAGE:CD			
+Elemental Smiting	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnElemental																		DESC:See Text																	SOURCEPAGE:CD			
+Elephant's Hide	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape														PREMULT:1,[PREVARGTEQ:WildShapeProgression,2],[PREVARGTEQ:UndeadWildShapeLargeQual,1]				DESC:See Text																	SOURCEPAGE:CD			
+#Empower Turning	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead																SAB:Turn Undead damage x1.5		DESC:See Text																	SOURCEPAGE:CD			
+Extra Wild Shape	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD	BONUS:VAR|WildShapeTimes|2	BONUS:VAR|WildShapeElementalTimes|1	BONUS:VAR|UndeadWildShapeTimes|2
+Fast Wild Shape	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:CD			
+Glorious Weapons	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead																		DESC:See Text																	SOURCEPAGE:CD			
+Grizzly's Claws	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+Improved Smiting	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Smite									PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:CD			
+Lion's Pounce	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD	ABILITY:Special Ability|AUTOMATIC|Pounce		
+Oaken Resilience	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape															PREVARGTEQ:WildShapeProgression,4			DESC:See Text																	SOURCEPAGE:CD			
+#Practiced Spellcaster	TYPE:General	VISIBLE:YES										PRESKILL:1,Spellcraft=4												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLCLASSES														SOURCEPAGE:CD	BONUS:CASTERLEVEL|%CHOICE|min(4,(TL-classlevel(%CHOICE)))		
+Profane Boost	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead																		DESC:See Text																	SOURCEPAGE:CD			
+#Quicken Turning	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead																		DESC:See Text																	SOURCEPAGE:CD			
+Rapid Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CD	ADDSPELLLEVEL:1		
+#Reach spell è identico. saltato.																																												
+#Reach Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CD	ADDSPELLLEVEL:2		
+Sacred Boost	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead																		DESC:See Text																	SOURCEPAGE:CD			
+#Sacred Healing	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead						PRESKILL:1,Heal=8												DESC:See Text																	SOURCEPAGE:CD			
+Sanctify Relic	TYPE:ItemCreation.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=ItemCreation																		DESC:See Text																	SOURCEPAGE:CD			
+Serpent Venom	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+Spell Focus CD	TYPE:General	VISIBLE:YES	OUTPUTNAME:Spell Focus																					DESC:See Text	STACK:NO	MULT:YES	CHOOSE:STRING|Chaos|Law|Good|Evil							BONUS:DC|DESCRIPTOR.%LIST|1|TYPE=SpellFocus							SOURCEPAGE:CD	SERVESAS:ABILITY=FEAT|Spell Focus		
+Greater Spell Focus CD	TYPE:General	VISIBLE:YES	OUTPUTNAME:Greater Spell Focus			PREFEAT:1,Spell Focus CD																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Spell Focus CD							BONUS:DC|DESCRIPTOR.%LIST|2|TYPE=SpellFocus							SOURCEPAGE:CD	SERVESAS:ABILITY=FEAT|Greater Spell Focus		
+Spontaneous Healer	TYPE:General	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4							PRESPELL:1,Cure Critical Wounds,Cure Critical Wounds (Mass),Cure Light Wounds,Cure Light Wounds (Mass),Cure Minor Wounds,Cure Moderate Wounds,Cure Moderate Wounds (Mass),Cure Serious Wounds,Cure Serious Wounds (Mass)	PREALIGN:LG,LN,NG,TN,CG,CN				DESC:See Text																	SOURCEPAGE:CD			
+Spontaneous Summoner	TYPE:General	VISIBLE:YES										PRESKILL:1,Knowledge (Nature)=4			PRESTAT:1,WIS=13				PRESPELL:1,Summon Nature's Ally I,Summon Nature's Ally II,Summon Nature's Ally III,Summon Nature's Ally IV,Summon Nature's Ally V,Summon Nature's Ally VI,Summon Nature's Ally VII,Summon Nature's Ally VIII,Summon Nature's Ally IX	PREALIGN:NG,LN,TN,CN,NE				DESC:See Text																	SOURCEPAGE:CD			
+Spontaneous Wounder	TYPE:General	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4			PRESTAT:1,WIS=13				PRESPELL:1,Inflict Critical Wounds,Inflict Critical Wounds (Mass),Inflict Light Wounds,Inflict Light Wounds (Mass),Inflict Minor Wounds,Inflict Moderate Wounds,Inflict Moderate Wounds (Mass),Inflict Serious Wounds,Inflict Serious Wounds (Mass)					DESC:See Text																	SOURCEPAGE:CD			
+Swim Like A Fish	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+#Transdimensional Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CD	ADDSPELLLEVEL:1		
+True Believer	TYPE:General	VISIBLE:YES																		PREDEITY:1,Y				DESC:See Text																	SOURCEPAGE:CD			
+Wolverine's Rage	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CD			
+Pious Defence	TYPE:Faith	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=2										SAB:Faith Points %1|FaithPoints	DEFINE:FaithPoints|0	DESC:See Text																	SOURCEPAGE:CD	BONUS:VAR|FaithPoints|4		
+Pious Soul	TYPE:Faith	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=2										SAB:Faith Points %1|FaithPoints	DEFINE:FaithPoints|0	DESC:See Text																	SOURCEPAGE:CD	BONUS:VAR|FaithPoints|4		
+Pious Spellsurge	TYPE:Faith	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4										SAB:Faith Points %1|FaithPoints	DEFINE:FaithPoints|0	DESC:See Text																	SOURCEPAGE:CD	BONUS:VAR|FaithPoints|4		

@@ -1,0 +1,24 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																		
+###Block: Creature Subtypes																				
+# Template Name	Visible	Source Page	Special Ability																	
+#																				
+# Template																				
+Augmented (Aberration)	VISIBLE:NO	RACESUBTYPE:Augmented Aberration																		
+Augmented (Animal)	VISIBLE:NO	RACESUBTYPE:Augmented Animal																		
+Augmented (Construct)	VISIBLE:NO	RACESUBTYPE:Augmented Elemental																		
+Augmented (Dragon)	VISIBLE:NO	RACESUBTYPE:Augmented Dragon																		
+Augmented (Elemental)	VISIBLE:NO	RACESUBTYPE:Augmented Elemental																		
+Augmented (Fey)	VISIBLE:NO	RACESUBTYPE:Augmented Fey																		
+Augmented (Giant)	VISIBLE:NO	RACESUBTYPE:Augmented Giant																		
+Augmented (Humanoid)	VISIBLE:NO	RACESUBTYPE:Augmented Humanoid																		
+Augmented (Magical Beast)	VISIBLE:NO	RACESUBTYPE:Augmented Magical Beast																		
+Augmented (Monstrous Humanoid)	VISIBLE:NO	RACESUBTYPE:Augmented Monstrous Humanoid																		
+Augmented (Ooze)	VISIBLE:NO	RACESUBTYPE:Augmented Ooze																		
+Augmented (Outsider)	VISIBLE:NO	RACESUBTYPE:Augmented Outsider																		
+Augmented (Plant)	VISIBLE:NO	RACESUBTYPE:Augmented Plant																		
+Augmented (Undead)	VISIBLE:NO	RACESUBTYPE:Augmented Undead																		
+Augmented (Vermin)	VISIBLE:NO	RACESUBTYPE:Augmented Vermin																		
+#																				
+Horse Untrained	VISIBLE:NO	
+#
+Vampire.MOD	RACESUBTYPE:Vampire

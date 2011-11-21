@@ -1,0 +1,83 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net						
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Bahamut	ALIGN:LG	DEITYWEAP:Pick (Heavy)|Bite	DESC:Bahamut (M)	DOMAINS:Air,Cold,Good,Luck,Protection|PREALIGN:LG,LN,NG	TYPE:Lesser	PANTHEON:Greyhawk|Draconic	SOURCEPAGE:CD	
+Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Mind CD,Oracle,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Corellon Larethian	ALIGN:CG	DEITYWEAP:Longsword	DESC:Corellon Larethian (M)	DOMAINS:Chaos,Community,Good,Protection,War|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:Greyhawk|Elf	SOURCEPAGE:CD	
+Ehlonna	ALIGN:NG	DEITYWEAP:Longsword	DESC:Ehlonna (F)	DOMAINS:Animal,Celerity,Good,Plant,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Erythnul	ALIGN:CE	DEITYWEAP:Morningstar	DESC:Erythnul (M)	DOMAINS:Chaos,Evil,Madness,Trickery,War|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Fharlanghn	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Fharlanghn (M)	DOMAINS:Celerity,Luck,Protection,Travel,Weather CD|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Garl Glittergold	ALIGN:NG	DEITYWEAP:Battleaxe	DESC:Garl Glittergold (M)	DOMAINS:Community,Creation CD,Good,Protection,Trickery|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:Greyhawk|Gnome	SOURCEPAGE:CD	
+Gruumsh	ALIGN:CE	DEITYWEAP:Spear	DESC:Gruumsh (M)	DOMAINS:Chaos,Domination,Evil,Strength,War|PREALIGN:NE,CN,CE	TYPE:Greater	PANTHEON:Greyhawk.Orc	SOURCEPAGE:CD	
+Heironeous	ALIGN:LG	DEITYWEAP:Longsword	DESC:Heironeous (M)	DOMAINS:Glory,Good,Inquisition,Law,War|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Hextor	ALIGN:LE	DEITYWEAP:Flail	DESC:Hextor (M)	DOMAINS:Destruction,Domination,Evil,Law,War|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Kord	ALIGN:CG	DEITYWEAP:Greatsword	DESC:Kord (M)	DOMAINS:Chaos,Competition,Good,Luck,Strength|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Kurtulmak	ALIGN:LE	DEITYWEAP:Spear	DESC:Kurtulmak (M)	DOMAINS:Evil,Law,Trickery|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Greyhawk|Kobolds	SOURCEPAGE:CD	
+Lolth	ALIGN:CE	DEITYWEAP:Whip	DESC:Lolth (F)	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Greyhawk|Drow	SOURCEPAGE:CD	
+Moradin	ALIGN:LG	DEITYWEAP:Warhammer	DESC:Moradin (M)	DOMAINS:Creation CD,Earth,Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Greyhawk|Dwarf	SOURCEPAGE:CD	
+Nerull	ALIGN:NE	DEITYWEAP:Scythe	DESC:Nerull (M)	DOMAINS:Death,Evil,Pestilence,Trickery|PREALIGN:CE,TN,NE,CE	TYPE:Greater	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Obad-Hai	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Obad-Hai (M)	DOMAINS:Air,Animal,Earth,Fire,Plant,Water,Weather CD|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Olidammara	ALIGN:CN	DEITYWEAP:Rapier	DESC:Olidammara (M)	DOMAINS:Celerity,Chaos,Luck,Mind CD,Trickery|PREALIGN:TN,CG,CN,CE	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Pelor	ALIGN:NG	DEITYWEAP:Mace (Heavy)	DESC:Pelor (M)	DOMAINS:Glory,Good,Healing,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+St. Cuthbert	ALIGN:LN	DEITYWEAP:Mace (Heavy)	DESC:St. Cuthbert (M)	DOMAINS:Destruction,Domination,Law,Protection,Strength|PREALIGN:LG,LN,LE,TN	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Tiamat	ALIGN:LE	DEITYWEAP:Pick (Heavy)|Bite	DESC:Tiamat (F)	DOMAINS:Destruction,Evil,Law,Trickery|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Greyhawk|Draconic	SOURCEPAGE:CD	
+Vecna	ALIGN:NE	DEITYWEAP:Dagger	DESC:Vecna (M)	DOMAINS:Evil,Knowledge,Madness,Magic|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Wee Jas	ALIGN:LN	DEITYWEAP:Dagger	DESC:Wee Jas (F)	DOMAINS:Death,Domination,Law,Magic,Mind CD|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Yondalla	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Yondalla (F)	DOMAINS:Community,Creation CD,Good,Law,Protection|PREALIGN:LG,LN,CG	TYPE:Greater	PANTHEON:Greyhawk|Halfling	SOURCEPAGE:CD	
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:	TYPE:	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Beltar	ALIGN:CE	DEITYWEAP:Gauntlet (Spiked)	DESC:Beltar (F)	DOMAINS:Chaos,Earth,Evil,War|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Bralm	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Bralm (F)	DOMAINS:Animal,Community,Law,Pact,Strength|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Celestian	ALIGN:TN	DEITYWEAP:Shortspear	DESC:Celestian (M)	DOMAINS:Knowledge,Oracle,Protection,Travel|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Cyndor	ALIGN:LN	DEITYWEAP:Sling	DESC:Cyndor (M)	DOMAINS:Law,Oracle,Protection,Travel|PREALIGN:LG,LN,LE,TN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Delleb	ALIGN:LG	DEITYWEAP:Dart	DESC:Delleb (M)	DOMAINS:Good,Knowledge,Law,Magic|PREALIGN:LG,LN,NG	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Geshtai	ALIGN:TN	DEITYWEAP:Spear	DESC:Geshtai (F)	DOMAINS:Plant,Travel,Water,Weather CD|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Incabulos	ALIGN:NE	DEITYWEAP:Quarterstaff	DESC:Incabulos (M)	DOMAINS:Death,Destruction,Evil,Pestilence|PREALIGN:LE,TN,NE,CE	TYPE:Greater	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Istus	ALIGN:TN	DEITYWEAP:Dagger	DESC:Istus (F)	DOMAINS:Chaos,Knowledge,Law,Luck,Oracle|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Iuz	ALIGN:CE	DEITYWEAP:Greatsword	DESC:Iuz (M)	DOMAINS:Chaos,Evil,Trickery|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Joramy	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Joramy (F)	DOMAINS:Competition,Destruction,Fire,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Lirr	ALIGN:CG	DEITYWEAP:Rapier	DESC:Lirr (F)	DOMAINS:Chaos,Good,Knowledge,Magic,Travel|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Llerg	ALIGN:CN	DEITYWEAP:Battleaxe	DESC:Llerg (M)	DOMAINS:Animal,Chaos,Competition,Strength|PREALIGN:TN,CG,CN,CE	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Mouqol	ALIGN:TN	DEITYWEAP:Crossbow (Light)	DESC:Mouqol (M)	DOMAINS:Knowledge,Pact,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Osprem	ALIGN:LN	DEITYWEAP:Trident	DESC:Osprem (M)	DOMAINS:Law,Protection,Travel,Water|PREALIGN:LG,LN,LE,TN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Pholtus	ALIGN:LG	DEITYWEAP:Quarterstaff	DESC:Pholtus (M)	DOMAINS:Good,Inquisition,Knowledge,Law,Sun|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Procan	ALIGN:CN	DEITYWEAP:Trident	DESC:Procan (M)	DOMAINS:Animal,Chaos,Travel,Water,Weather CD|PREALIGN:TN,CG,CN,CE	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Pyermius	ALIGN:NE	DEITYWEAP:Longsword	DESC:Pyermius (M)	DOMAINS:Destruction,Evil,Fire|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Rao	ALIGN:LG	DEITYWEAP:Mace (Light)	DESC:Rao (M)	DOMAINS:Community,Good,Knowledge,Luck,Purification|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Telchur	ALIGN:CN	DEITYWEAP:Spear	DESC:Telchur (M)	DOMAINS:Air,Chaos,Cold,Strength|PREALIGN:TN,CG,CN,CE	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Tharizdun	ALIGN:NE	DEITYWEAP:Dagger	DESC:Tharizdun (M)	DOMAINS:Chaos,Destruction,Evil,Force,Madness|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Trithereon	ALIGN:CG	DEITYWEAP:Spear	DESC:Trithereon (M)	DOMAINS:Chaos,Good,Liberation CD,Summoner|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Wastri	ALIGN:LN	DEITYWEAP:Glaive	DESC:Wastri (M)	DOMAINS:Animal,Law,Purification,War|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Xan Yae	ALIGN:TN	DEITYWEAP:Falchion	DESC:Xan Yae (N)	DOMAINS:Celerity,Knowledge,Trickery,War|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Zuoken	ALIGN:TN	DEITYWEAP:Nunchaku	DESC:Zuoken (N)	DOMAINS:Celerity,Knowledge,Strength,War|PREALIGN:LN,NG,TN,NE,CN	TYPE:Demigod	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:	TYPE:	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Annam	ALIGN:TN	DEITYWEAP:Shortspear|Slam	DESC:Annam ()	DOMAINS:Knowledge,Magic,Plant,Sun|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Blibdoolpoop	ALIGN:CE	DEITYWEAP:Pincerstaff	DESC:Blibdoolpoop ()	DOMAINS:Destruction,Evil,Water|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Monster|Kuo-Toa	SOURCEPAGE:CD	
+Callarduran Smoothands	ALIGN:TN	DEITYWEAP:Battleaxe	DESC:Callarduran Smoothands ()	DOMAINS:Earth,Good,Healing,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Monster|Svirfneblin	SOURCEPAGE:CD	
+Deep Sashelas	ALIGN:CG	DEITYWEAP:Trident	DESC:Deep Sashelas ()	DOMAINS:Chaos,Good,Protection,Water|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Monster|Elf	SOURCEPAGE:CD	
+Diirinka	ALIGN:CE	DEITYWEAP:Dagger	DESC:Diirinka ()	DOMAINS:Chaos,Dream,Evil,Magic,Trickery|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Monster|Derro	SOURCEPAGE:CD	
+Eadro	ALIGN:TN	DEITYWEAP:Spear	DESC:Eadro ()	DOMAINS:Animal,Protection,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Monster|Locathahs|Merfolk	SOURCEPAGE:CD	
+Great Mother	ALIGN:CE	DEITYWEAP:Greataxe|Bite	DESC:Great Mother ()	DOMAINS:Chaos,Death,Evil,Strength|PREALIGN:NE,CN,CE	TYPE:Greater	PANTHEON:Monster|Beholder	SOURCEPAGE:CD	
+Grolantor	ALIGN:CE	DEITYWEAP:Club	DESC:Grolantor ()	DOMAINS:Chaos,Death,Earth,Evil|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Monster|Giant|Ettin|Ogre	SOURCEPAGE:CD	
+Hiatea	ALIGN:NG	DEITYWEAP:Spear	DESC:Hiatea ()	DOMAINS:Animal,Good,Plant,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Hruggek	ALIGN:CE	DEITYWEAP:Morningstar	DESC:Hruggek ()	DOMAINS:Knowledge,Law,Magic|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Monster|Bugbear	SOURCEPAGE:CD	
+Iallanis	ALIGN:NG	DEITYWEAP:Battleaxe|Bite	DESC:Iallanis ()	DOMAINS:Good,Healing,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Ilsensine	ALIGN:LE	DEITYWEAP:Unarmed Strike|Tentacle	DESC:Ilsensine ()	DOMAINS:Evil,Knowledge,Law,Magic,Mind CD|PREALIGN:LN,LE,NE	TYPE:Greater	PANTHEON:Monster|Mindflayer	SOURCEPAGE:CD	
+Kaelthiere	ALIGN:NE	DEITYWEAP:Spear	DESC:Kaelthiere ()	DOMAINS:Destruction,Evil,Fire,War|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	PANTHEON:Monster|Salamander|Efreet|Azer	SOURCEPAGE:CD	
+Laduguer	ALIGN:LE	DEITYWEAP:Warhammer	DESC:Laduguer ()	DOMAINS:Domination,Earth,Evil,Law,War|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Monster|Duergar	SOURCEPAGE:CD	
+Laogzed	ALIGN:CE	DEITYWEAP:Javelin	DESC:Laogzed ()	DOMAINS:Chaos,Death,Destruction,Evil|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Monster|Troglodytes	SOURCEPAGE:CD	
+Maglubiyet	ALIGN:NE	DEITYWEAP:Battleaxe	DESC:Maglubiyet ()	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:LN,LE,NE	TYPE:Greater	PANTHEON:Monster|Goblin|Hobgoblin	SOURCEPAGE:CD	
+Memnor	ALIGN:NE	DEITYWEAP:Morningstar	DESC:Memnor ()	DOMAINS:Death,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Merrshaulk	ALIGN:CE	DEITYWEAP:Longsword	DESC:Merrshaulk ()	DOMAINS:Chaos,Destruction,Evil,Plant|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Monster|Yuan-Ti	SOURCEPAGE:CD	
+Panzuriel	ALIGN:NE	DEITYWEAP:Quarterstaff	DESC:Panzuriel ()	DOMAINS:Destruction,Evil,War,Water|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	PANTHEON:Monster|Merrow|Scrag|Kraken	SOURCEPAGE:CD	
+Sekolah	ALIGN:LE	DEITYWEAP:Trident	DESC:Sekolah ()	DOMAINS:Evil,Law,Strength,War|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Monster|Sahuagin	SOURCEPAGE:CD	
+Semuanya	ALIGN:TN	DEITYWEAP:Greatclub	DESC:Semuanya ()	DOMAINS:Animal,Plant,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Monster|Lizardfolk	SOURCEPAGE:CD	
+Shekinester	ALIGN:TN	DEITYWEAP:Dagger|Bite	DESC:Shekinester ()	DOMAINS:Destruction,Knowledge,Magic,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Monster|Naga	SOURCEPAGE:CD	
+Skoraeus Stonebones	ALIGN:TN	DEITYWEAP:Warhammer	DESC:Skoraeus Stonebones ()	DOMAINS:Earth,Healing,Knowledge,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Sixin	ALIGN:LE	DEITYWEAP:Sword (Short)	DESC:Sixin ()	DOMAINS:Evil,Law,Strength,Travel|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Monster|Xills	SOURCEPAGE:CD	
+Skerrit	ALIGN:NG	DEITYWEAP:Spear	DESC:Skerrit ()	DOMAINS:Animal,Healing,Plant,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Monster|Centaur	SOURCEPAGE:CD	
+Stronmaus	ALIGN:CG	DEITYWEAP:Warhammer	DESC:Stronmaus ()	DOMAINS:Chaos,Good,Protection,War,Weather CD|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Surtr	ALIGN:LE	DEITYWEAP:Greatsword	DESC:Surtr ()	DOMAINS:Evil,Fire,Law,Strength,War|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Thrym	ALIGN:CE	DEITYWEAP:Greataxe	DESC:Thrym ()	DOMAINS:Chaos,Cold,Destruction,Evil,War|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Monster|Giant	SOURCEPAGE:CD	
+Vaprak	ALIGN:CE	DEITYWEAP:Greatclub	DESC:Vaprak ()	DOMAINS:Chaos,Destruction,Evil,Strength|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Monster|Ogre|Troll	SOURCEPAGE:CD	

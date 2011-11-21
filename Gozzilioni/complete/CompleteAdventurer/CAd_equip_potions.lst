@@ -1,0 +1,12 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net				
+						
+#Potions						
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page
+Potion (Heatful Rest)	OUTPUTNAME:Potion of [NAME]		TYPE:Magic.Potion.Consumable	COST:50	WT:0	SOURCEPAGE:CAd
+Potion (Oil of Exacting Shot)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:100	WT:0	SOURCEPAGE:CAd
+Potion (Oil of Iron Silence)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:CAd
+Potion (Nature's Favor)	OUTPUTNAME:Potion of [NAME]		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:CAd
+Potion (Sonic Weapon)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:CAd
+Potion (Train Animal)	OUTPUTNAME:Potion of [NAME]		TYPE:Magic.Potion.Consumable	COST:300	WT:0	SOURCEPAGE:CAd
+Potion (Oil of Absorb Weapon)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:750	WT:0	SOURCEPAGE:CAd
+Potion (Oil of Entangling Staff)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:750	WT:0	SOURCEPAGE:CAd

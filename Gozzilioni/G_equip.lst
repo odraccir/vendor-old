@@ -1,0 +1,30 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																							
+#																									
+Artisan's Tools (Calligraphy)	TYPE:Goods.Tools.Artisan.CalligraphyTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Calligraphy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Clockmaking)	TYPE:Goods.Tools.Artisan.ClockmakingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Clockmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Gemcutting)	TYPE:Goods.Tools.Artisan.GemcuttingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Gemcutting)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Gunsmithing)	TYPE:Goods.Tools.Artisan.GunsmithingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Gunsmithing)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Iceworking)	TYPE:Goods.Tools.Artisan.IceworkingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Iceworking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Locksmithing)	TYPE:Goods.Tools.Artisan.LocksmithingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Locksmithing)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Metalworking)	TYPE:Goods.Tools.Artisan.MetalworkingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Metalworking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Poisonmaking)	TYPE:Goods.Tools.Artisan.PoisonmakingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Poisonmaking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Stonecarving)	TYPE:Goods.Tools.Artisan.StonecarvingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Stonecarving)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Stoneworking)	TYPE:Goods.Tools.Artisan.StoneworkingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Stoneworking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Taxidermying)	TYPE:Goods.Tools.Artisan.TaxidermyTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Taxidermy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Woodcarving)	TYPE:Goods.Tools.Artisan.WoodcarvingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Woodcarving)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+#																									
+Outfit (Sailor's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:3	WT:4		SOURCEPAGE:G																			
+Outfit (Merchant's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:3	WT:4		SOURCEPAGE:G																			
+#																									
+Acorn		TYPE:Goods.Food.Consumable.Individual.Acorn	COST:0.01	WT:0.1		SOURCEPAGE:CD	BASEQTY:1																		
+Acorn (6)		TYPE:Goods.Food.Consumable.Acorn	COST:0.06	WT:0.6		SOURCEPAGE:CD	BASEQTY:6																		
+Bomb	TYPE:Goods.Consumable.Individual.Bomb	COST:150	WT:1	SOURCEPAGE:DMG	BASEQTY:1	SPROP:2d6 fire Damage, ranged touch attack, 10 ft range increment, 5ft-radius blast.																			
+Bomb (Smoke)	OUTPUTNAME:[NAME] Bomb	TYPE:Goods.Consumable.Individual.Bomb	COST:70	WT:1	SOURCEPAGE:DMG	BASEQTY:1	SPROP:Smoke, ranged touch attack, 10 ft range increment, 20ft-radius cloud of smoke.																		
+#																									
+#??																									
+Gunpowder (Per Lb.)	TYPE:Goods.Consumable.Gunpowder		COST:1	WT:1		SOURCEPAGE:DMG																			
+Keg (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:15|Gunpowder=15	COST:250	WT:5		SOURCEPAGE:DMG																		
+Powderhorn (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:2|Gunpowder=2	COST:35	WT:0		SOURCEPAGE:DMG																		
+#																									
+Unholy Symbol (Wooden)			TYPE:Goods.Tools.DivineFocus													COST:1	WT:0								SOURCEPAGE:G
+Unholy Symbol (Silver)			TYPE:Goods.Tools.DivineFocus													COST:25	WT:1								SOURCEPAGE:G

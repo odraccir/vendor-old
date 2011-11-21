@@ -1,0 +1,74 @@
+SOURCELONG:Dungeon's Master Guide 2	SOURCESHORT:DMG2	SOURCEWEB:http://www.gozzilioni.net																											
+																													
+###Block:Armor abilities																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+RST_ACD.MOD		ITYPE:Resistance.AcidResistance																											
+RES_ACD_GRT.MOD		ITYPE:Resistance.AcidResistance																											
+RST_ACD_IMP.MOD		ITYPE:Resistance.AcidResistance																											
+RST_CLD.MOD		ITYPE:Resistance.ColdResistance																											
+RES_CLD_GRT.MOD		ITYPE:Resistance.ColdResistance																											
+RST_CLD_IMP.MOD		ITYPE:Resistance.ColdResistance																											
+RST_ELE.MOD		ITYPE:Resistance.ElectricityResistance																											
+RES_ELE_GRT.MOD		ITYPE:Resistance.ElectricityResistance																											
+RST_ELE_IMP.MOD		ITYPE:Resistance.ElectricityResistance																											
+RST_FR.MOD		ITYPE:Resistance.FireResistance																											
+RES_FR_GRT.MOD		ITYPE:Resistance.FireResistance																											
+RST_FR_IMP.MOD		ITYPE:Resistance.FireResistance																											
+RST_SNC.MOD		ITYPE:Resistance.SonicResistance																											
+RES_SNC_GRT.MOD		ITYPE:Resistance.SonicResistance																											
+RST_SNC_IMP.MOD		ITYPE:Resistance.SonicResistance																											
+# Modifier Name																													
+Energy Defense	KEY:NRG_DEF	TYPE:Armor.Shield	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:2,Enhancement.Resistance],[PRETYPE:1,Armor,Shield]															SPROP:Energy Defense					
+Energy Immunity	KEY:NRG_IMM	TYPE:Armor.Shield	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Energy Immunity					
+Fortyfing Defense Heavy	KEY:FRT_DEF_HVY	TYPE:Armor.Shield	PLUS:5		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]	PRETYPE:1,EQMOD=FRT_HVY														SPROP:Fortification Defense Heavy					
+Fortifieng Defense Moderate	KEY:FRT_DEF_MOD	TYPE:Armor.Shield	PLUS:4		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]	PRETYPE:1,EQMOD=FRT_MOD														SPROP:Fortification Defense Moderate					
+Fortifieng Defense Light	KEY:FRT_DEF_LGHT	TYPE:Armor.Shield	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]	PRETYPE:1,EQMOD=FRT_LGHT														SPROP:Fortification Defense Light					
+Slippery Aura	KEY:SLP_AURA	TYPE:Armor.Shield		COST:45000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]	PRETYPE:1,EQMOD=SLP_MIND														SPROP:Slippery Aura					
+Slippery Mind	KEY:SLP_MIND	TYPE:Armor.Shield		COST:45000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Slippery Mind					
+Spell Trapping	KEY:SPL_TRAP	TYPE:Armor.Shield	PLUS:5		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]	PRETYPE:1,EQMOD=SPELL_RES_13,EQMOD=SPELL_RES_15,EQMOD=SPELL_RES_17,EQMOD=SPELL_RES_19														SPROP:Spell Trapping (+2 armor SR)					
+#																													
+Acidic Burst	KEY:ACD_BR_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition															SPROP:+1d6 acid damage. On a critical hit deals +%d10 additional acid damage|CRITMULT-1					
+Acidic Burst	KEY:ACD_BR_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+1d6 acid damage. On a critical hit deals +%d10 additional acid damage|CRITMULT-1					
+Acidic Burst	KEY:ACD_BR_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+1d6 acid damage bestowed on ammunition. On a critical hit deals +%d10 additional acid damage|CRITMULT-1					
+Air Elemental Power (L)	KEY:AIR_ELEM_M_L	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=SHOCK_A,EQMOD=SHOCK_M,EQMOD=SHOCK_R,EQMOD=SHK_BR_A,EQMOD=SHK_BR_M,EQMOD=SHK_BR_R													SPROP:Large Air Elemental for 11 round 1/day					
+Air Elemental Power (H)	KEY:AIR_ELEM_M_H	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=SHOCK_A,EQMOD=SHOCK_M,EQMOD=SHOCK_R,EQMOD=SHK_BR_A,EQMOD=SHK_BR_M,EQMOD=SHK_BR_R													SPROP:Huge Air Elemental for 13 round 1/day					
+Air Elemental Power (G)	KEY:AIR_ELEM_M_G	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=SHOCK_A,EQMOD=SHOCK_M,EQMOD=SHOCK_R,EQMOD=SHK_BR_A,EQMOD=SHK_BR_M,EQMOD=SHK_BR_R													SPROP:Greater Air Elemental for 15 round 1/day					
+Air Elemental Power (E)	KEY:AIR_ELEM_M_E	TYPE:Weapon.Melee.Thrown	PLUS:4		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=SHOCK_A,EQMOD=SHOCK_M,EQMOD=SHOCK_R,EQMOD=SHK_BR_A,EQMOD=SHK_BR_M,EQMOD=SHK_BR_R													SPROP:Elder Air Elemental for 17 round 1/day					
+Brutal Surge	KEY:BRT_SRG_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,Slashing,Bludgeoning													SPROP:Brutal Surge 1/day					
+Caustic Burst	KEY:CSTC_BR_A	TYPE:Ammunition		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition															SPROP:+2d6 acid damage %/day|CON					
+Caustic Burst	KEY:CSTC_BR_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2d6 acid damage %/day|CON					
+Caustic Burst	KEY:CSTC_BR_R	TYPE:Weapon.Ranged		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+2d6 acid damage %/day|CON					
+Corrosive	KEY:CORR_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition															SPROP:+1d6 acid damage					
+Corrosive	KEY:CORR_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+1d6 acid damage					
+Corrosive	KEY:CORR_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+1d6 acid damage bestowed on ammunition					
+Defensive Surge	KEY:DEF_SRG_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Defensive Surge					
+Earth Elemental Power (L)	KEY:EARTH_ELEM_M_L	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=CORR_A,EQMOD=CORR_M,EQMOD=CORR_R,EQMOD=ACD_BR_A,EQMOD=ACD_BR_M,EQMOD=ACD_BR_R													SPROP:Large Earth Elemental for 11 round 1/day					
+Earth Elemental Power (H)	KEY:EARTH_ELEM_M_H	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=CORR_A,EQMOD=CORR_M,EQMOD=CORR_R,EQMOD=ACD_BR_A,EQMOD=ACD_BR_M,EQMOD=ACD_BR_R													SPROP:Huge Earth Elemental for 13 round 1/day					
+Earth Elemental Power (G)	KEY:EARTH_ELEM_M_G	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=CORR_A,EQMOD=CORR_M,EQMOD=CORR_R,EQMOD=ACD_BR_A,EQMOD=ACD_BR_M,EQMOD=ACD_BR_R													SPROP:Greater Earth Elemental for 15 round 1/day					
+Earth Elemental Power (E)	KEY:EARTH_ELEM_M_E	TYPE:Weapon.Melee.Thrown	PLUS:4		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=CORR_A,EQMOD=CORR_M,EQMOD=CORR_R,EQMOD=ACD_BR_A,EQMOD=ACD_BR_M,EQMOD=ACD_BR_R													SPROP:Elder Earth Elemental for 17 round 1/day					
+Fiercebane	KEY:FRCBANE_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition		PRETYPE:1,EQMOD=BANE_A													SPROP:Glow when designated foe comes within 100-ft. On a critical hit deals +%d10 additional acid damage|CRITMULT-1					
+Fiercebane	KEY:FRCBANE_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=BANE_M													SPROP:Glow when designated foe comes within 100-ft. On a critical hit deals +%d10 additional acid damage|CRITMULT-1					
+Fiercebane	KEY:FRCBANE_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown	PRETYPE:1,EQMOD=BANE_R													SPROP:Glow when designated foe comes within 100-ft. On a critical hit deals +%d10 additional acid damage|CRITMULT-1					
+Fire Elemental Power (L)	KEY:FIRE_ELEM_M_L	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FLM_A_A,EQMOD=FLM_M,EQMOD=FLM_R,EQMOD=FLM_BR_A,EQMOD=FLM_BR_M,EQMOD=FLM_BR_R													SPROP:Large Fire Elemental for 11 round 1/day					
+Fire Elemental Power (H)	KEY:FIRE_ELEM_M_H	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FLM_A_A,EQMOD=FLM_M,EQMOD=FLM_R,EQMOD=FLM_BR_A,EQMOD=FLM_BR_M,EQMOD=FLM_BR_R													SPROP:Huge Fire Elemental for 13 round 1/day					
+Fire Elemental Power (G)	KEY:FIRE_ELEM_M_G	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FLM_A_A,EQMOD=FLM_M,EQMOD=FLM_R,EQMOD=FLM_BR_A,EQMOD=FLM_BR_M,EQMOD=FLM_BR_R													SPROP:Greater Fire Elemental for 15 round 1/day					
+Fire Elemental Power (E)	KEY:FIRE_ELEM_M_E	TYPE:Weapon.Melee.Thrown	PLUS:4		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FLM_A_A,EQMOD=FLM_M,EQMOD=FLM_R,EQMOD=FLM_BR_A,EQMOD=FLM_BR_M,EQMOD=FLM_BR_R													SPROP:Elder Fire Elemental for 17 round 1/day					
+Flaming Surge	KEY:FLM_SRG_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2d6 fire damage %/day|CON					
+Holy Surge	KEY:HOLY_SRG_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2d6 holy damage %/day|CHA					
+Icy Surge	KEY:ICY_SRG_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2d6 cold damage %/day|CHA					
+Illusion Bane	KEY:ILLBANE_A	TYPE:Ammunition		COST:7000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition															SPROP:Illusion Bane 1/day					
+Illusion Bane	KEY:ILLBANE_M	TYPE:Weapon.Melee.Thrown		COST:7000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Illusion Bane 1/day					
+Illusion Bane	KEY:ILLBANE_R	TYPE:Weapon.Ranged		COST:7000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Illusion Bane 1/day					
+Illusion Theft	KEY:ILLTHFT_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition		PRETYPE:1,EQMOD=ILLBANE_A													SPROP:Illusion Theft					
+Illusion Theft	KEY:ILLTHFT_M	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=ILLBANE_M													SPROP:Illusion Theft					
+Illusion Theft	KEY:ILLTHFT_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown	PRETYPE:1,EQMOD=ILLBANE_R													SPROP:Illusion Theft					
+Incorporeal Binding	KEY:INCRP_BND_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Ammunition		PRETYPE:1,EQMOD=GHOST_AM													SPROP:deals normal damage vs. incorporeal creatures regardless of  bonus					
+Incorporeal Binding	KEY:INCRP_BND_M	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=GHOST_M													SPROP:deals normal damage vs. incorporeal creatures regardless of  bonus					
+Incorporeal Binding	KEY:INCRP_BND_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown	PRETYPE:1,EQMOD=GHOST_R													SPROP:deals normal damage vs. incorporeal creatures regardless of  bonus					
+Lightning Surge	KEY:LGHTN_SRG	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2d6 electricity damage %/day|CHA					
+Sudden Stunning	KEY:SDDN_STUN_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Stun % %/day|10+(TL/2)+CHA|CHA					
+Unholy Surge	KEY:UNHOLY_SRG_M	TYPE:Weapon.Melee.Thrown		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2d6 unholy damage %/day|CHA					
+Water Elemental Power (L)	KEY:WATER_ELEM_M_L	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FROST_A,EQMOD=FROST_M,EQMOD=FROST_R,EQMOD=ICE_BR_A,EQMOD=ICE_BR_M,EQMOD=ICE_BR_R													SPROP:Large Water Elemental for 11 round 1/day					
+Water Elemental Power (H)	KEY:WATER_ELEM_M_H	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FROST_A,EQMOD=FROST_M,EQMOD=FROST_R,EQMOD=ICE_BR_A,EQMOD=ICE_BR_M,EQMOD=ICE_BR_R													SPROP:Huge Water Elemental for 13 round 1/day					
+Water Elemental Power (G)	KEY:WATER_ELEM_M_G	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FROST_A,EQMOD=FROST_M,EQMOD=FROST_R,EQMOD=ICE_BR_A,EQMOD=ICE_BR_M,EQMOD=ICE_BR_R													SPROP:Greater Water Elemental for 15 round 1/day					
+Water Elemental Power (E)	KEY:WATER_ELEM_M_E	TYPE:Weapon.Melee.Thrown	PLUS:4		VISIBLE:QUALIFY			SOURCEPAGE:DMG2	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,EQMOD=FROST_A,EQMOD=FROST_M,EQMOD=FROST_R,EQMOD=ICE_BR_A,EQMOD=ICE_BR_M,EQMOD=ICE_BR_R													SPROP:Elder Water Elemental for 17 round 1/day					

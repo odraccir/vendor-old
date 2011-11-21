@@ -1,0 +1,12 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net				
+						
+###Block: Region						
+# Template Name	Visible					
+Trascendence	VISIBLE:DISPLAY	PRECLASS:1,Divine Disciple=5	RACETYPE:Outsider	RACESUBTYPE:Native	VISION:Darkvision (60')	TEMPLATE:CHOOSE:Trascendence Lawful|Trascendence Chaotic|Trascendence Good|Trascendence Evil
+Trascendence Lawful	VISIBLE:NO	PREALIGN:LG,LN,LE	TEMPLATE:Lawful			
+Trascendence Chaotic	VISIBLE:NO	PREALIGN:CG,CN,CE	TEMPLATE:Chaotic			
+Trascendence Good	VISIBLE:NO	PREALIGN:LG,NG,CG	TEMPLATE:Good			
+Trascendence Evil	VISIBLE:NO	PREALIGN:LE,NE,CE	TEMPLATE:Evil			
+#						
+# others						
+Otherworldly Template	VISIBLE:YES	RACETYPE:Outsider	RACESUBTYPE:Native	VISION:Darkvision (60')	BONUS:SKILL|Diplomacy|2	

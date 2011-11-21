@@ -1,0 +1,6 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
+Reef Warrior Coral Skin	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:ReefWarriorCoralSkinLVL|0			BONUS:VAR|CoralSkinBonus|ReefWarriorCoralSkinLVL/2																					SOURCEPAGE:Ssh
+Reef Warrior Alien Presence	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:ReefWarriorAlienPresenceLVL|0			BONUS:VAR|AlienPresenceBonus|(ReefWarriorAlienPresenceLVL-2)/2																					
+Reef Warrior Reef Attunement	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:ReefWarriorReefAttunementLVL|0			BONUS:VAR|ReefAttunementDuration|ReefWarriorReefAttunementLVL																					

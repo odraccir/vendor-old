@@ -1,0 +1,9 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+
+###Block: Ranged																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+Blowgun (Greater)	OUTPUTNAME:Blowgun, Greater	PROFICIENCY:WEAPON|Blowgun (Greater)	TYPE:Weapon.Ranged.Exotic.Standard.Piercing.Container.Projectile.Blowgun	COST:15	WT:2													SOURCEPAGE:CW				CONTAINS:UNLIM|Dart=1				
+Bolas (Barbed)	OUTPUTNAME:Bolas, Barbed	PROFICIENCY:WEAPON|Bolas	TYPE:Weapon.Exotic.Ranged.Bludgeoning.Standard.Thrown.Bolas	COST:10	WT:3			SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:CW	RANGE:10							
+Boomerang		PROFICIENCY:WEAPON|Boomerang	TYPE:Weapon.Exotic.Ranged.Bludgeoning.Standard.Thrown.Boomerang	COST:10	WT:2			SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:CW	RANGE:20							
+Greatbow		PROFICIENCY:WEAPON|Greatbow	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Container.Projectile.Bow.Greatbow	COST:150	WT:6	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:CW	RANGE:120			CONTAINS:UNLIM|Arrow=1				BONUS:WEAPON|DAMAGE|min(STR,0)
+Greatbow (Composite)	OUTPUTNAME:[NAME] Greatbow STR	PROFICIENCY:WEAPON|Greatbow	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Container.Projectile.Bow.Greatbow.Composite	COST:200	WT:6	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:CW	RANGE:130			CONTAINS:UNLIM|Arrow=1		MODS:REQUIRED		BONUS:WEAPON|DAMAGE|min(STR,0)

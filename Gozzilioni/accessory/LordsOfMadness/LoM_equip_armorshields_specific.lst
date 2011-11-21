@@ -1,0 +1,6 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net															
+###Block: Specific Armors																	
+#Dampsuit	COST:6910																
+																	
+# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
+Dampsuit	PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:10	WT:15	ACCHECK:0	EQMOD:STEEL.MWORKA.PLUS1A.SLK	MAXDEX:6	SOURCEPAGE:LoM	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	SPROP:Constant Endure Elements effect.						

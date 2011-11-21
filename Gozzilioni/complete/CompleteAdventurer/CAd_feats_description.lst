@@ -1,0 +1,63 @@
+SOURCELONG:Complete Adventure	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																																							
+																																									
+# BASICS																																									
+# Feat Name	Type	sourcepage																																							
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
+Extra Trick.MOD	DESC:Trained Animal can know 3 additional tricks																																								
+#																								DESC:See Text																	SOURCEPAGE:CAd
+Appraise Magic Value.MOD	DESC:Use appraise to determine magic item properties																																								
+Ascetic Hunter.MOD	DESC:Monk and Ranger level stacks for unarmed strike damage, favored enemy bonus improves stunning DC																																								
+Ascetic Knight.MOD	DESC:Monk and Paladin levels stack for unarmed strike and smite evil damage																																								
+Ascetic Mage.MOD	DESC:Monk and Sorcerer levels stack for AC bonus (CHA-based), sacrifice spell to gain bonus on unarmed strike																																								
+Ascetic Rogue.MOD	DESC:Monk and Rogue levels stack for sneak attack damage, unarmed strike sneak attack gains improved stunning DC																																								
+Brachiation.MOD	DESC:Swing through trees at normal land speed																																								
+Brutal Throw.MOD	DESC:Use STR than DEX to attack rolls with thrown weapon																																								
+Combat Intuition.MOD	DESC:+1 to attack opponent engaged in the preceding round																																								
+Danger Sense.MOD	DESC:Reroll initiative once per day																																								
+Death Blow.MOD	DESC:Coup de grace as a standard action																																								
+Deft Opportunist.MOD	DESC:+4 bonus on attack rolls on attacks of opportunity																																								
+Deft Strike.MOD	DESC:Ignore armor and natural armor																																								
+Devoted Inquisitor.MOD	DESC:Use smite evil and sneak attack together to daze foe																																								
+Devoted Performer.MOD	DESC:Paladin and Bard levels stack for smite evil and bardic music																																								
+Devoted Tracker.MOD	DESC:Special mount become animal companion, and paladin and ranger levels stack for smite evil and wild empathy																																								
+Disguise Spell.MOD	DESC:Cast spells unobtrusively as part of performance																																								
+Dive For Cover.MOD	DESC:Make one retry on failed Reflex save, but end up prone																																								
+Dual Strike.MOD	DESC:Attack once with each hand as a standard action																																								
+Expert Tactician.MOD	DESC:All allies gain +2 attack and damage bonus for a round against a target you've hit with an attack of opportunity																																								
+Extra Music.MOD	DESC:Gain 4 uses per day of bardic music																																								
+Extraordinary Concentration.MOD	DESC:Concentrate on a spell as a move action or swift action																																								
+Extraordinary Spell Aim.MOD	DESC:Exclude one creature from spell area																																								
+Force of Personality.MOD	DESC:Add CHA modifier, rather than WIS modifier, to Will saves																																								
+Goad.MOD	DESC:Causes target to attack only you																																								
+Green Ear.MOD	DESC:Affect plants with your bardic music ability																																								
+Hear The Unseen.MOD	DESC:Pinpoint a target's location by sound, not sight																																								
+Improved Diversion.MOD	DESC:Use Bluff to create a diversion, then hide as a move action																																								
+Improved Flight.MOD	DESC:Flight maneuverability improves by one step																																								
+Improved Swimming.MOD	DESC:Double your swimming speed																																								
+Insightful Reflexes.MOD	DESC:Add INT modifier, rather than DEX modifier, to Reflex saves																																								
+Jack of All Trade.MOD	DESC:Use any skill, even Trained Only ones																																								
+Leap Attack.MOD	DESC:Doubles damage by Power Attack on succesful charge																																								
+Lingering Song.MOD	DESC:Extend the duration of your bardic music effects																																								
+Mobile Casting Spell.MOD	DESC:Cast a spell and move at the same time																																								
+Natural Bond.MOD	DESC:Add +3 to effective druid leven when determining animal companion's abilities																																								
+Obscure Lore.MOD	DESC:Gain +4 bonus on bardic knowledge or lore checks																																								
+Open Minded.MOD	DESC:Immediately gain 5 skill points																																								
+Oversized Two Weapon Fighting.MOD	DESC:Treat one-handed weapon in off-hand as if light weapon																																								
+Power Throw.MOD	DESC:Power attack with thrown weapons																																								
+Quick Reconnoiter.MOD	DESC:Spot and Listen as free action, +2 on initiative checks																																								
+Razing Strike.MOD	DESC:Spend a spell uses to gain attack and damage bonuses against constructs or undead																																								
+Staggering Strike.MOD	DESC:Limit target to a single action for 1 round																																								
+Subsonics.MOD	DESC:Produce bardic music effects very softly																																								
+Tactile Trapsmith.MOD	DESC:Add Dex modifier, rather than INT modifier, to Search and Disable Device																																								
+Versatile Performer.MOD	DESC:Treat number of Perform skills as if they had ranks equal to your highest Perform rank																																								
+#	DESC:																																								
+Chant of Fortitude.MOD	DESC:Bardic music keeps allies conscious at negative hit points																																								
+Ironskin Chant.MOD	DESC:Use bardic music to gain DR 5/-																																								
+Lyric Spell.MOD	DESC:Bardic music uses to cast extra spell																																								
+#	DESC:																																								
+Blindsense.MOD	DESC:Wildshape use to gain blindsense																																								
+Climb Like an Ape.MOD	DESC:Wildshape use to gain climb movement mode																																								
+Cougar's Vision.MOD	DESC:Wildshape use to gain low-light vision																																								
+Hawk's Vision.MOD	DESC:Wildshape use to gain +8 Spot checks and cut range increment penalties in half																																								
+Savage Grapple.MOD	DESC:Deal sneak attack damage when grappling in wildshape																																								
+Scent.MOD	DESC:Wildshape use to gain scent																																								

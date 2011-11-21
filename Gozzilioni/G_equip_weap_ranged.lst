@@ -1,0 +1,5 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																								
+
+###Block: Ranged																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+Blowgun		PROFICIENCY:WEAPON|Blowgun	TYPE:Weapon.Simple.Ranged.Piercing.Container.Projectile.Asian.Blowgun	COST:1	WT:2			SIZE:S	DAMAGE:1	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						CONTAINS:UNLIM|Needle=1	RANGE:10			SOURCEPAGE:SRD				

@@ -1,0 +1,7 @@
+SOURCELONG:Fien Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net
+		
+#		
+# Language	Type	Var. Min. Value
+Dark One	TYPE:Spoken	
+Demodand	TYPE:Spoken	
+Khen-Zai	TYPE:Spoken	PREVARGTEQ:Ethergaunt,1

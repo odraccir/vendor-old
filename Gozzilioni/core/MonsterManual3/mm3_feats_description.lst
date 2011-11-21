@@ -1,0 +1,9 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net
+		
+# BASICS		
+# Feat Name	Type	sourcepage
+#Ability Focus.MOD	DESC:	
+Extra Shifter Trait.MOD	DESC:You manifest a second shifter trait while shifting.
+Healing Factor.MOD	DESC:When your current period of shifting ends, you heal a limited amount of damage.
+Shifter Defense.MOD	DESC:By delving into your shifter heritage, you have developed the ability to ignore a little damage.
+Shifter Instinct.MOD	DESC:Your heritage has given you sharp senses and quick reflexes.

@@ -1,0 +1,37 @@
+SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net																																										
+																																												
+# BASICS																																												
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page			
+#Entities from the ID	TYPE:Metamagic	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:RLDMG, pag 105			
+Brawler	TYPE:General	VISIBLE:YES													PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:RLCoD			
+Darkness Within	TYPE:General	VISIBLE:YES																		PRETEXT:You must have failed a Dark Power check.				DESC:See Text																	SOURCEPAGE:RLCoD			
+Deadly Presence	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead									PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:RLCoD			
+Deathly Pallor	TYPE:General	VISIBLE:YES																		PRESPELL:1,Animate Dead				DESC:See Text																	SOURCEPAGE:RLCoD	ABILITY:Special Ability|VIRTUAL|Turn Resistance	BONUS:VAR|TurnResistBonus|7	
+Death's Favor	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead									PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:RLCoD			
+Dirge of Woe	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Bardic Music						PRESKILL:1,TYPE.Perform=9								PRETEXT:You must have had a brush with death.				DESC:See Text																	SOURCEPAGE:RLCoD	VISION:Ghostsight (30')		
+Dispassionate Dread Companion	TYPE:General	VISIBLE:YES																		PRETEXT:You must be able to have a Dread Companion				DESC:See Text																	SOURCEPAGE:RLCoD			
+Energy Drain	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead									PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:RLCoD			
+Equestrian	TYPE:General	VISIBLE:YES				PREFEAT:1,Mounted Combat						PRESKILL:1,Ride=5												DESC:See Text																	SOURCEPAGE:RLCoD			
+Ethereal Touch	TYPE:General	VISIBLE:YES													PRESTAT:1,WIS=16					PRETEXT:Previous contact with an incorporeal being.				DESC:See Text																	SOURCEPAGE:RLCoD	ABILITY:Special Ability|VIRTUAL|Corrupting Touch		
+Extra Domain RL	TYPE:Special	VISIBLE:YES									PRESPELLTYPE:1,Divine=7	PRESKILL:1,Knowledge (Religion)=10			PRESTAT:1,WIS=18									DESC:See Text																	SOURCEPAGE:RLCoD	BONUS:DOMAIN|NUMBER|1		
+Extra Wounds	TYPE:Divine	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead									PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:RLCoD			
+Feral Rearing	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1													DESC:See Text																	SOURCEPAGE:RLCoD	ABILITY:Special Ability|AUTOMATIC|Wild Empathy	BONUS:VAR|WildEmpathy|TL	TEMPLATE:Feral Rearing
+Hearthlore	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1				PRESTAT:1,INT=14	PRESTAT:1,WIS=16								DESC:See Text													CSKILL:Knowledge (Ravenloft)|Knowledge (Monster Lore)				SOURCEPAGE:RLCoD			
+Hollow	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1									PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:RLCoD	ABILITY:Special Ability|AUTOMATIC|Immunity To Energy Drain		
+Life Force Sacrifice (Divine)	TYPE:Metamagic	VISIBLE:YES	OUTPUTNAME:Life-force Sacrifice																	PREDOMAIN:1,Death,Destruction,Repose				DESC:See Text																	SOURCEPAGE:RLCoD	SERVESAS:ABILITY=FEAT|Life Force Sacrifice (Arcane)	ADDSPELLLEVEL:0	
+Life Force Sacrifice (Arcane)	TYPE:Metamagic	VISIBLE:YES	OUTPUTNAME:Life-force Sacrifice																	PRESUBCLASS:1,Necromancer				DESC:See Text																	SOURCEPAGE:RLCoD	SERVESAS:ABILITY=FEAT|Life Force Sacrifice (Divine)	ADDSPELLLEVEL:0	
+Machiavellian	TYPE:General	VISIBLE:YES										PRESKILL:3,Diplomacy=2,Gather Information=2,Sense Motive=2			PRESTAT:1,CHA=16									DESC:See Text													BONUS:SKILL|Diplomacy,Gather Information,Sense Motive|2|TYPE=Competence				SOURCEPAGE:RLCoD			
+Mechanical Aptitude	TYPE:General	VISIBLE:YES										PRESKILL:1,TYPE.Craft=4			PRESTAT:1,INT=13									DESC:See Text																	SOURCEPAGE:RLCoD			
+Mesmerizing	TYPE:General	VISIBLE:YES													PRESTAT:1,WIS=16	PRESTAT:1,CHA=14								DESC:See Text													BONUS:SKILL|Diplomacy,Hyponotism|2|TYPE=Competence				SOURCEPAGE:RLCoD			
+Mimicry	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:RLCoD			
+Piercing Gaze RL	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1				PRESTAT:2,WIS=12,CHA=12									DESC:See Text														BONUS:VAR|OutcastRating|1			SOURCEPAGE:RLCoD	DEFINE:OutcastRating|0		
+Second Sight	TYPE:General	VISIBLE:YES										PRESKILL:1,Spot=4												DESC:See Text													BONUS:SKILL|Spot|4|TYPE=Competence				SOURCEPAGE:RLCoD			
+Shadow Affinity	TYPE:General	VISIBLE:YES									PRECLASS:1,SPELLCASTER=1													DESC:See Text																	SOURCEPAGE:RLCoD			
+Skeletal Dread Companion	TYPE:General	VISIBLE:YES																		PRETEXT:You must be able to have a Dread Companion				DESC:See Text																	SOURCEPAGE:RLCoD			
+Skywise	TYPE:General	VISIBLE:YES										PRESKILL:1,Knowledge (Nature)=4,Survival=4												DESC:See Text																	SOURCEPAGE:RLCoD			
+Tantric Ability	TYPE:General	VISIBLE:YES				!PREFEAT:1,Hollow									PRESTAT:1,WIS=14	PRESTAT:1,CHA=12				PRETEXT:You must learn this feat through direct experience from another individual who possesses Tantric Ability.				DESC:See Text																	SOURCEPAGE:RLCoD			
+Target Vulnerable Spot	TYPE:General	VISIBLE:YES				PREFEAT:1,Weapon Finesse	PREFEAT:1,CHECKMULT,Improved Critical					PRESKILL:1,Heal=4			PRESTAT:1,WIS=14									DESC:See Text																	SOURCEPAGE:RLCoD			
+Tarokka Natural	TYPE:General	VISIBLE:YES													PRESTAT:2,INT=12,WIS=12									DESC:See Text																	SOURCEPAGE:RLCoD			
+Unseen Sensor	TYPE:Metamagic	VISIBLE:YES										PRESKILL:1,Hide=6								PRESPELLSCHOOL:2,Divination=1				DESC:See Text																	SOURCEPAGE:RLCoD			
+Unwholesome Ichor	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1													DESC:See Text																	SOURCEPAGE:RLCoD			
+Vampiric Regeneration	TYPE:General	VISIBLE:YES																		PRETEXT:You must be able to have a Dread Companion				DESC:See Text																	SOURCEPAGE:RLCoD			

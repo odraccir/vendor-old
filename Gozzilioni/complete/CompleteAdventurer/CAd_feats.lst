@@ -1,0 +1,115 @@
+SOURCELONG:Complete Adventure	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# BASICS																																													
+# Feat Name	Type	sourcepage																																											
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page				
+Extra Trick	TYPE:General	VISIBLE:YES			PRECLASS:1,Animal=1,Animal (Will)=1,Animal (Dire)=1,Magical Beast=1										!PRESTAT:1,INT=3					PREABILITY:1,CATEGORY=Special Ability,TYPE=TrainingTricks				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CAd	SAB:% extra trick|ExtraTrick	DEFINE:ExtraTrick|0	BONUS:VAR|ExtraTrick|3	BONUS:ABILITYPOOL|Training Trick|3
+#																								DESC:See Text																	SOURCEPAGE:CAd				
+Appraise Magic Value	TYPE:General	VISIBLE:YES										PRESKILL:3,Appraise=5,Knowledge (Arcana)=5,Spellcraft=5												DESC:See Text																	SOURCEPAGE:CAd				
+Ascetic Hunter	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike															PREVARGTEQ:FavoredEnemies,1			DESC:See Text							BONUS:UDAM|CLASS.Monk|CL=Ranger										SOURCEPAGE:CAd				
+Ascetic Knight	TYPE:General	VISIBLE:YES				PREFEAT:2,Improved Unarmed Strike	PREABILITY:1,CATEGORY=Special Ability,Smite Evil																	DESC:See Text							BONUS:UDAM|CLASS.Monk|CL=Paladin							BONUS:VAR|SmiteEvilDamage|MonkLVL			SOURCEPAGE:CAd				
+Ascetic Mage	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike							PRESPELLCAST:MEMORIZE=N	PRESPELLCAST:TYPE=Arcane										DESC:See Text									BONUS:COMBAT|AC|max(max(CHA,0),WIS)-WIS|PREVAREQ:ENCUMBERANCE,0,var("COUNT[EQTYPE.ARMOR.EQUIPPED]"),0					BONUS:VAR|MonkACLVL|classlevel("Sorcerer")			SOURCEPAGE:CAd				
+Ascetic Rogue	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack																	DESC:See Text							BONUS:UDAM|CLASS.Monk|CL=Rogue										SOURCEPAGE:CAd				
+Brachiation	TYPE:General	VISIBLE:YES										PRESKILL:2,Climb=4,Jump=4												DESC:See Text																	SOURCEPAGE:CAd	MOVECLONE:Walk,Brachiation,*1			
+Brutal Throw	TYPE:General.Fighter	VISIBLE:YES																						DESC:See Text									BONUS:COMBAT|TOHIT.RANGED|max(0,STR)-max(0,DEX)								SOURCEPAGE:CAd				
+Combat Intuition	TYPE:General.Fighter	VISIBLE:YES		PREATT:5								PRESKILL:1,Sense Motive=4												DESC:See Text																	SOURCEPAGE:CAd				
+Danger Sense	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Initiative																		DESC:See Text																	SOURCEPAGE:CAd				
+Death Blow	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:1,Improved Initiative																		DESC:See Text																	SOURCEPAGE:CAd				
+Deft Opportunist	TYPE:General	VISIBLE:YES				PREFEAT:1,Combat Reflexes									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CAd				
+Deft Strike	TYPE:General	VISIBLE:YES				PREFEAT:2,Combat Expertise	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack					PRESKILL:1,Spot=10			PRESTAT:1,INT=13									DESC:See Text																	SOURCEPAGE:CAd				
+Devoted Inquisitor	TYPE:General	VISIBLE:YES					PREABILITY:2,CATEGORY=Special Ability,Smite Evil,Sneak Attack																	DESC:See Text																	SOURCEPAGE:CAd	SAB:Daze for 1 round if both Sneak attack and Smite Evil ability hit a foe (Will DC %)|DevotedInquisitorDC	DEFINE:DevotedInquisitorDC|10+CHA	BONUS:VAR|DevotedInquisitorDC|TL	
+Devoted Performer	TYPE:General	VISIBLE:YES					PREABILITY:2,CATEGORY=Special Ability,Bardic Music,Smite Evil																	DESC:See Text														BONUS:VAR|SmiteEvilDamage|BardicMusicLvl			SOURCEPAGE:CAd	BONUS:VAR|BardicMusicTimes|PaladinSmiteEvilLVL			
+Devoted Tracker	TYPE:General	VISIBLE:YES				PREFEAT:1,Track	PREABILITY:2,CATEGORY=Special Ability,Smite Evil,Wild Empathy																	DESC:See Text														BONUS:VAR|SmiteEvilDamage|classlevel("Ranger")			SOURCEPAGE:CAd	BONUS:VAR|WildEmpathy|classlevel("Paladin")			
+Disguise Sepll	TYPE:General	VISIBLE:YES						PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=9												DESC:See Text																	SOURCEPAGE:CAd			
+Dive For Cover	TYPE:General	VISIBLE:YES																		PRECHECKBASE:1,Reflex=4				DESC:See Text																	SOURCEPAGE:CAd				
+Dual Strike	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Improved Two Weapon Fighting,Two Weapon Fighting																		DESC:See Text																	SOURCEPAGE:CAd				
+Expert Tactician	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:1,Combat Reflexes									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:CAd				
+Extra Music.MOD	SOURCEPAGE:CAd																																												
+Extraordinary Concentration	TYPE:General	VISIBLE:YES										PRESKILL:1,Concentration=15												DESC:See Text																	SOURCEPAGE:CAd				
+Extraordinary Spell Aim	TYPE:General	VISIBLE:YES										PRESKILL:1,Spellcraft=15												DESC:See Text																	SOURCEPAGE:CAd				
+Force of Personality	TYPE:General	VISIBLE:YES													PRESTAT:1,CHA=13									DESC:See Text								BONUS:CHECKS|Will|max(WIS,CHA)-WIS									SOURCEPAGE:CAd				
+Goad	TYPE:General.Fighter	VISIBLE:YES		PREATT:1											PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:CAd				
+Green Ear	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=10									PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
+Hear The Unseen	TYPE:General	VISIBLE:YES				PREFEAT:1,Blind Fight						PRESKILL:1,Listen=5												DESC:See Text																	SOURCEPAGE:CAd				
+Improved Diversion	TYPE:General.Fighter	VISIBLE:YES										PRESKILL:1,Bluff=4												DESC:See Text																	SOURCEPAGE:CAd				
+Improved Flight	TYPE:General	VISIBLE:YES																		PRETEXT:Ability to fly (naturally, magically or trough shapechange)				DESC:See Text																	SOURCEPAGE:CAd				
+Improved Swimming	TYPE:General	VISIBLE:YES										PRESKILL:1,Swim=6												DESC:See Text																	SOURCEPAGE:CAd				
+Insightful Reflexes	TYPE:General	VISIBLE:YES																						DESC:See Text								BONUS:CHECKS|Reflex|max(DEX,INT)-DEX									SOURCEPAGE:CAd				
+Jack of All Trade	TYPE:General	VISIBLE:YES													PRESTAT:1,INT=13									DESC:See Text																	SOURCEPAGE:CAd				
+Leap Attack	TYPE:General	VISIBLE:YES				PREFEAT:1,Power Attack						PRESKILL:1,Jump=8												DESC:See Text																	SOURCEPAGE:CAd				
+Lingering Song	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music														PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
+Mobile Casting Spell	TYPE:General	VISIBLE:YES										PRESKILL:1,Concentration=8												DESC:See Text																	SOURCEPAGE:CAd				
+Natural Bond	TYPE:General	VISIBLE:YES																						DESC:See Text														BONUS:VAR|CompLevel|min(3,classlevel("Druid")-CompLevel)			SOURCEPAGE:CAd				
+Obscure Lore	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,TYPE=Lore																	DESC:See Text																	SOURCEPAGE:CAd				
+Open Minded.MOD	BONUS:SKILLPOOL|CLASS=%;LEVEL=%|5	SOURCEPAGE:CAd																																											
+Oversized Two Weapon Fighting	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Oversized Two-Weapon Fighting			PREFEAT:1,Two Weapon Fighting									PRESTAT:1,STR=13									DESC:See Text															BONUS:COMBAT|TOHIT-SECONDARY|2|PREEQUIPSECONDARY:1,WIELDCATEGORY=Light		SOURCEPAGE:CAd				
+Power Throw	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Brutal Throw,Power Attack									PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:CAd				
+Quick Reconnoiter	TYPE:General	VISIBLE:YES										PRESKILL:2,Listen=5,Spot=5												DESC:See Text									BONUS:COMBAT|INITIATIVE|2								SOURCEPAGE:CAd				
+Razing Strike	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Sneak Attack							PRECLASS:1,SPELLCASTER=5							PREVARGTEQ:SneakAttack,1			DESC:See Text																	SOURCEPAGE:CAd				
+Staggering Strike	TYPE:General	VISIBLE:YES		PREATT:6			PREABILITY:1,CATEGORY=Special Ability,Sneak Attack														PREVARGTEQ:SneakAttack,1			DESC:See Text																	SOURCEPAGE:CAd				
+Subsonics	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=10									PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
+Tactile Trapsmith	TYPE:General	VISIBLE:YES																						DESC:See Text													BONUS:SKILL|Search,Disable Device|max(DEX,INT)-INT				SOURCEPAGE:CAd				
+Versatile Performer	TYPE:General	VISIBLE:YES										PRESKILL:1,TYPE.Perform=5												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Perform														SOURCEPAGE:CAd		SELECT:3+INT		
+#		VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CAd				
+Chant of Fortitude	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,Concentration=9								PRESKILL:1,TYPE.Perform=9	PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
+Ironskin Chant	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,Concentration=12								PRESKILL:1,TYPE.Perform=12	PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
+Lyric Spell	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=9	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=2							PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
+#		VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CAd				
+Blindsense	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape						PRESKILL:1,Listen=4												DESC:See Text																	SOURCEPAGE:CAd				
+Climb Like an Ape	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape																		DESC:See Text																	SOURCEPAGE:CAd				
+Cougar's Vision	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape						PRESKILL:1,Spot=2												DESC:See Text																	SOURCEPAGE:CAd				
+Hawk's Vision	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape						PRESKILL:1,Spot=4												DESC:See Text																	SOURCEPAGE:CAd				
+Savage Grapple	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack																	DESC:See Text																	SOURCEPAGE:CAd				
+Scent	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape																		DESC:See Text																	SOURCEPAGE:CAd				
+#																																													
+Acrobatic.MOD	TYPE:Scout																																												
+Agile.MOD	TYPE:Scout																																												
+Alertness.MOD	TYPE:Scout																																												
+Athletic.MOD	TYPE:Scout																																												
+Blind Fight.MOD	TYPE:Scout																																												
+Brachiation.MOD	TYPE:Scout																																												
+Combat Expertise.MOD	TYPE:Scout																																												
+Danger Sense.MOD	TYPE:Scout																																												
+Dodge.MOD	TYPE:Scout																																												
+Endurance.MOD	TYPE:Scout																																												
+Far Shot.MOD	TYPE:Scout																																												
+Great Fortitude.MOD	TYPE:Scout																																												
+Hear The Unseen.MOD	TYPE:Scout																																												
+Improved Initiative.MOD	TYPE:Scout																																												
+Improved Swimming.MOD	TYPE:Scout																																												
+Iron Will.MOD	TYPE:Scout																																												
+Lightning Reflexes.MOD	TYPE:Scout																																												
+Mobility.MOD	TYPE:Scout																																												
+Point Blank Shot.MOD	TYPE:Scout																																												
+Precise Shot.MOD	TYPE:Scout																																												
+Quick Draw.MOD	TYPE:Scout																																												
+Quick Reconnoiter.MOD	TYPE:Scout																																												
+Rapid Reload.MOD	TYPE:Scout																																												
+Shot on the Run.MOD	TYPE:Scout																																												
+Skill Focus.MOD	TYPE:Scout																																												
+Spring Attack.MOD	TYPE:Scout																																												
+Track.MOD	TYPE:Scout																																												
+Acrobatic.MOD	TYPE:Exemplar																																												
+Agile.MOD	TYPE:Exemplar																																												
+Alertness.MOD	TYPE:Exemplar																																												
+Animal Affinity.MOD	TYPE:Exemplar																																												
+Athletic.MOD	TYPE:Exemplar																																												
+Blind Fight.MOD	TYPE:Exemplar																																												
+Combat Casting.MOD	TYPE:Exemplar																																												
+Combat Expertise.MOD	TYPE:Exemplar																																												
+Deceitful.MOD	TYPE:Exemplar																																												
+Deft Hands.MOD	TYPE:Exemplar																																												
+Diligent.MOD	TYPE:Exemplar																																												
+Improved Initiative.MOD	TYPE:Exemplar																																												
+Improved Swimming.MOD	TYPE:Exemplar																																												
+Investigator.MOD	TYPE:Exemplar																																												
+Magical Aptitude.MOD	TYPE:Exemplar																																												
+Negotiator.MOD	TYPE:Exemplar																																												
+Nimble Fingers.MOD	TYPE:Exemplar																																												
+Open Minded.MOD	TYPE:Exemplar																																												
+Persuasive.MOD	TYPE:Exemplar																																												
+Self Sufficient.MOD	TYPE:Exemplar																																												
+Skill Focus.MOD	TYPE:Exemplar																																												
+Stealthy.MOD	TYPE:Exemplar																																												
+Track.MOD	TYPE:Exemplar																																												
+Versatile Performer.MOD	TYPE:Exemplar																																												

@@ -1,0 +1,8 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net
+		
+#		
+# Language	Type	Var. Min. Value
+Qualith	TYPE:Written	PRERACE:1,RACESUBTYPE=Mind Flayer
+Grell	TYPE:Spoken	PRERACE:1,RACESUBTYPE=Grell
+Tsochar	TYPE:Spoken
+Gloom	TYPE:Spoken

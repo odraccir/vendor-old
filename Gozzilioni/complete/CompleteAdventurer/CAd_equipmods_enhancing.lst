@@ -1,0 +1,20 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																											
+																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+Weapon Capsule	KEY:CAPS_M	TYPE:Weapon.Melee		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee												CONTAINS:UNLIM|Capsule=1								ASSIGNTOALL:YES
+Weapon Capsule	KEY:CAPS_R	TYPE:Weapon.Ranged		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged												CONTAINS:UNLIM|Capsule=1								ASSIGNTOALL:YES
+Triple Weapon Capsule	KEY:TRI_CAPS_M	TYPE:Weapon.Melee		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee												CONTAINS:UNLIM|Capsule=3								ASSIGNTOALL:YES
+Triple Weapon Capsule	KEY:TRI_CAPS_R	TYPE:Weapon.Ranged		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged												CONTAINS:UNLIM|Capsule=3								ASSIGNTOALL:YES
+																													
+																													
+###Block:Armor abilities																													
+Beastskin	KEY:BST_SKIN	TYPE:Armor	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Armor															SPROP:Wildshapoe with armor					
+Focused	KEY:FOCUS	TYPE:Shield	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Shield															SPROP:Focused					ASSIGNTOALL:NO
+																													
+###Block:Weapon abilities																													
+Sizeing	KEY:SIZE_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Ammunition															SPROP:Sizeing					ASSIGNTOALL:NO
+Sizeing	KEY:SIZE_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Sizeing					ASSIGNTOALL:NO
+Sizeing	KEY:SIZE_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Sizeing					ASSIGNTOALL:NO
+Deadly Precision	KEY:DEADLY_PRE_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Ammunition															SPROP:Deadly Precisioini					ASSIGNTOALL:NO
+Deadly Precision	KEY:DEADLY_PRE_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Deadly Precisioini					ASSIGNTOALL:NO
+Deadly Precision	KEY:DEADLY_PRE_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Deadly Precisioini					ASSIGNTOALL:NO

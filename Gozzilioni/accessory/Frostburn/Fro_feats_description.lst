@@ -1,0 +1,35 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																																									
+																																											
+# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	ADDSPELLLEVEL	ability
+Altitude Adaptation.MOD	DESC:+4 on Fort saves to avoid altitude sickness;																																										
+Arctic Priest.MOD	DESC:Can swap out prepared spells for a specialized list of spells. 																																										
+Beckon the Frozen.MOD	DESC:Summoned creatures gain cold subtypoe and +1d6 cold damage to attacks.																																										
+Chosen of Iborighu.MOD	DESC:Cleric is favored class, cold damage gaze attack																																										
+Cold Endurance.MOD	DESC:+2 to cold saves, can exist comfortably in cold environments.																																										
+Cold Focus.MOD	DESC:+1 bonus to save DC against cold spells.																																										
+Cold Spell Specialization.MOD	DESC:+1 or +2 damage/die in cold weather.																																										
+Craft Skull Talisman.MOD	DESC:Create magic skull talismans.																																										
+Faith in the Frost.MOD	DESC:Succesful turn or rebuke causes cold damage.																																										
+Frostfell Prodigy.MOD	DESC:You gain additional bonus spells in cold weather.																																										
+Frozen Berserker.MOD	DESC:Gain cold subtype while raging.																																										
+Frozen Magic.MOD	DESC:Cold spells have higher caster levels in cold weather.																																										
+Frozen Wild Shape.MOD	DESC:Wild shape into cold magical beast.																																										
+Greater Cold Focus.MOD	DESC:+1 bonus to save DC against cold spells.																																										
+Icy Calling.MOD	DESC:Summoned frostfell creatures are stronger in cold weather.																																										
+Ice Harmonics.MOD	DESC:You can use your voice to shatter ice.																																										
+Improved Cold Endurance.MOD	DESC:Resistance to cold 5.																																										
+Improved Frosty Touch.MOD	DESC:Your frosty touch causes more cold damage.																																										
+Mark of Hleid.MOD	DESC:Cleric is favored class, +2 sacred bonus to AC against evil cold cretures, immunity to rimefire.																																										
+Mountaineer.MOD	DESC:+2 bonus on Climb and Survival checks.																																										
+Piercing Cold.MOD	DESC:Cold spells can damage creatures resistant or immune to cold.																																										
+Primeval Wild Shape.MOD	DESC:Wild shape form gains +2 STR, +2 bonus natural armor, and resistance to col 10, but last for only 1 round/level.																																										
+Primitive Caster.MOD	DESC:Add material components to spells to raise a spell's effective level.																																										
+Sea Legs.MOD	DESC:+2 bonus on Balance and Tumble checks and +1 bonus on Initiative checks while on a ship.																																										
+Smite Fiery Foe.MOD	DESC:Add CHA modifier on attack roll and character level to damage againt creatures with fire subtype.																																										
+Snowcasting.MOD	DESC:Add cold descriptor to spell.																																										
+Snowrunner.MOD	DESC:Move through snow at full speed, +5 competence bonus on Balance checks on ice.																																										
+Snowflake Wardance.MOD	DESC:Add CHA modifier to attack rolls with one-handed slashing melee weapons.																																										
+Storm Magic.MOD	DESC:All spells cast at caster level +1 during storms.																																										
+Sugliin Mastery.MOD	DESC:Attacks with a Sugliin are a standard action.																																										
+Winter's Champion.MOD	DESC:Gain additional frostfell spells on your paladin spell list.																																										
+Winter's Mount.MOD	DESC:Specual mount gains cold subtype and +2 CON.																																										

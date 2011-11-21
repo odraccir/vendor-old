@@ -1,0 +1,9 @@
+SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net																								
+																										
+####Block: Simple Weapons																										
+#------light---------																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+#Flindbar		PROFICIENCY:WEAPON|Flindbar	TYPE:Weapon.Melee.Exotic.Standard.Bludgeoning.Nunchaku	COST:30	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:MM3							SPROP:+2 bonus on opposed attack rolls made to disarm. free disarm attempt when wielder threatens a critical hit.	
+Bayonet		PROFICIENCY:WEAPON|Bayonet	TYPE:Weapon.Melee.Finesseable.Simple.Standard.Piercing.Dagger	COST:1	WT:0.5	WIELD:TooSmall		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:RLPHB								
+Straight Razor		PROFICIENCY:WEAPON|Straight Razor	TYPE:Weapon.Melee.Finesseable.Simple.Standard.Piercing.Dagger	COST:2	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL						SOURCEPAGE:RLPHB								
+Rapier (Parthian)	OUTPUTNAME:Rapier, Parthian	PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.Exoti.Finesseable.Standard.Piercing.Sword.Container.Bullet.Pistol	COST:300	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:RLPHB	RANGE:50			BONUS:WEAPON|DAMAGEMULT:2|-0.5	CONTAINS:1|Bullet=1|Gunpowder=1		SPROP:1d10/20/x3 when fires.	

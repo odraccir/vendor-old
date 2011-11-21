@@ -1,0 +1,24 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																															
+																																	
+###Block:Familiar																																	
+# Class of the Master	Type	Spell Res.	Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Special ABility				Define			Combat bonus													Main Race Type						
+FOLLOWER:FFLevel=1	TYPE:Feline Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+FOLLOWER:FFLevel=1	TYPE:Feline Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast								
+FOLLOWER:FFLevel=3	TYPE:Feline Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:FFLevel=5	TYPE:Feline Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:FFLevel=7	TYPE:Feline Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:FFLevel=9	TYPE:Feline Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:FFLevel=11	TYPE:Feline Familiar	SR:16																														DEFINE:LOCK.INT|11	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:FFLevel=12	TYPE:Feline Familiar	SR:17																															
+FOLLOWER:FFLevel=13	TYPE:Feline Familiar	SR:18		ABILITY:Special Ability|AUTOMATIC|Scry on Familiar																				DEFINE:LOCK.INT|12	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:FFLevel=14	TYPE:Feline Familiar	SR:19																															
+FOLLOWER:FFLevel=15	TYPE:Feline Familiar	SR:20																														DEFINE:LOCK.INT|13	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:FFLevel=16	TYPE:Feline Familiar	SR:21																															
+FOLLOWER:FFLevel=17	TYPE:Feline Familiar	SR:22																														DEFINE:LOCK.INT|14	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:FFLevel=18	TYPE:Feline Familiar	SR:23																															
+FOLLOWER:FFLevel=19	TYPE:Feline Familiar	SR:24																														DEFINE:LOCK.INT|15	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:FFLevel=20	TYPE:Feline Familiar	SR:25																															
+																																	
+FOLLOWER:FFLevel=1	TYPE:Feline Familiar										PRERACE:1,Cat			KIT:1|Cat Familiar																			
+																																	
+MASTERBONUSRACE:Cat	TYPE:Feline Familiar												BONUS:SKILL|Move Silently|3	VFEAT:Alertness																			

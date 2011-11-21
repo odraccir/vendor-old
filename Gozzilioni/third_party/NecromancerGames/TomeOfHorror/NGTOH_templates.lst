@@ -1,0 +1,15 @@
+SOURCELONG:Tome of Horror	SOURCESHORT:ToH	SOURCEWEB:http://www.gozzilioni.net																																																																																																																																																																																																									
+																																																																																																																																																																																																											
+###Block: (Half-)Celestial/(Half-)Fiends																																																																																																																																																																																																											
+# Template Name			Output Name				Visible	Damage Reduction								Level Adjustment	Template																																		Source Page				Special ABility																																	Define				Required AL				Required Race																																Prohibited Race						Required Stat	Prohibited Template		Combat bonus						Damage reduction				Misc bonus												Stat bonus														Modify VAR										Feat			Apply Kit				Clone Movement		Spell Res.			Main Race Type		Race Subtype			Vision			Innate Spells
+#Fine, Diminutive, Tiny, Small, Medium, Large, Huge, Gargantuan, Colossal.
+#Dire	VISIBLE:YES	!PREMULT:1,[PRERACE:1,Dire%],[PRERACE:1,RACESUBTYPE=Dire]	TEMPLATE:CHOOSE:Dire Size Small|Dire Size|Dire Size Colossal	BONUS:MOVEADD|TYPE.Walk,TYPE.Fly,TYPE.Swim,TYPE.Burrow|10	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|4	BONUS:STAT|DEX|2	BONUS:STAT|CON|2		CR:1	ADDLEVEL:Animal (Dire)|2	RACESUBTYPE:Dire
+#Dire Size Small	VISIBLE:NO	PRESIZELTEQ:T	BONUS:SIZEMOD|NUMBER|3-SIZE
+#Dire Size 	VISIBLE:NO	PRESIZEGTEQ:S	PRESIZELTEQ:H	BONUS:SIZEMOD|NUMBER|2
+#Dire Size Colossal	VISIBLE:NO	PRESIZEGTEQ:G	BONUS:SIZEMOD|NUMBER|1
+#Dire Size 	VISIBLE:NO	BONUS:SIZEMOD|NUMBER|3-SIZE|PRESIZELTEQ:T	BONUS:SIZEMOD|NUMBER|2|PREMULT:2,[PRESIZEGTEQ:S],[PRESIZELTEQ:H]	BONUS:SIZEMOD|NUMBER|1|PRESIZEGTEQ:G
+Dire	VISIBLE:YES	!PREMULT:1,[PRERACE:1,Dire%],[PRERACE:1,RACESUBTYPE=Dire]	TEMPLATE:CHOOSE:Dire Size Small|Dire Size|Dire Size Colossal	TEMPLATE:Dire Will	BONUS:MOVEADD|TYPE.Walk|10|PREMOVE:1,Walk=1	BONUS:MOVEADD|TYPE.Fly|10|PREMOVE:1,Fly=1	BONUS:MOVEADD|TYPE.Swim|10|PREMOVE:1,Swim=1	BONUS:MOVEADD|TYPE.Burrow|10|PREMOVE:1,Burrow=1	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|4	BONUS:STAT|DEX|2	BONUS:STAT|CON|2		CR:1		RACESUBTYPE:Dire
+Dire Size Small	VISIBLE:NO		PRESIZELTEQ:T	BONUS:SIZEMOD|NUMBER|3-SIZE	ADDLEVEL:Animal (Dire)|1
+Dire Size	VISIBLE:NO	PRESIZEGTEQ:S	PRESIZELTEQ:H	BONUS:SIZEMOD|NUMBER|2	ADDLEVEL:Animal (Dire)|2
+Dire Size Colossal	VISIBLE:NO	PRESIZEGTEQ:G		BONUS:SIZEMOD|NUMBER|1	ADDLEVEL:Animal (Dire)|2
+Dire Will	VISIBLE:NO	PRECLASS:1,Animal=1	BONUS:CHECKS|Will|(2+(classlevel("Animal")/2))-classlevel("Animal")/3

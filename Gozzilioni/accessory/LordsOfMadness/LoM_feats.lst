@@ -1,0 +1,63 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# BASICS																				[PREMULT:2,[PRERACE:1,RACESUBTYPE=Human],[PREREGION:1,Rashemen]]																									
+# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page				
+#Arcane Preparation																																													
+Craft Aboleth Glyph	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=5															PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Death Frenzy	TYPE:General	VISIBLE:YES				PREFEAT:2,Diehard,Endurance														PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Enlarge Mucus Cloud	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=20					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Memory Eater	TYPE:General	VISIBLE:YES													PRESTAT:1,CHA=21					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Powerful Bite	TYPE:General	VISIBLE:YES				PREFEAT:1,Weapon Focus(Aboleth Bite)									PRESTAT:1,STR=28					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text						BONUS:WEAPONPROF=Aboleth Bite|DAMAGESIZE|3											SOURCEPAGE:LoM				
+Quickslime	TYPE:General	VISIBLE:YES				PREFEAT:1,Ability Focus(Slime)														PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Reach Bite	TYPE:General	VISIBLE:YES				PREFEAT:2,Powerful Bite,Weapon Focus(Aboleth Bite)									PRESTAT:1,STR=28					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Thicken Mucus	TYPE:General	VISIBLE:YES				PREFEAT:1,Enlarge Mucus Cloud									PRESTAT:1,CON=22					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Toxic Mucus	TYPE:General	VISIBLE:YES				PREFEAT:2,Enlarge Mucus Cloud,Thicken Mucus									PRESTAT:1,CON=22					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Poison			
+Agile Tyrant	TYPE:General	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Beholder				DESC:See Text																	SOURCEPAGE:LoM				
+Bane of the Unclean	TYPE:General	VISIBLE:YES																		PREMULT:1,[PRERACE:1,RACESUBTYPE=Beholder],[PREABILITY:1,CATEGORY=Special Ability,Favored Enemy (Aberration)]				DESC:See Text																	SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Favored Enemy (Aberration (Beholderkin))|Favored Bonus__Aberration_Beholderkin			
+Disintegration Finesse	TYPE:General	VISIBLE:YES													PRESTAT:1,DEX=13					PRETEXT:ability to cast Disintegrate as a spell or use it as a spell-like or supernatural ability.				DESC:See Text																	SOURCEPAGE:LoM				
+Disjunction Ray	TYPE:General	VISIBLE:YES				PREFEAT:1,Focused Antimagic									PRESTAT:1,CHA=19				PRETEXT:Functional antimagic ability.	PRERACE:1,RACESUBTYPE=Beholder				DESC:See Text																	SOURCEPAGE:LoM				
+Focused Antimagic	TYPE:General	VISIBLE:YES																	PRETEXT:Functional antimagic ability.	PRERACE:1,RACESUBTYPE=Beholder				DESC:See Text																	SOURCEPAGE:LoM				
+Metaray	TYPE:General	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic														PRERACE:1,RACESUBTYPE=Beholder				DESC:See Text																	SOURCEPAGE:LoM				
+Skilled Telekinetic	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Telekinesis				DESC:See Text																	SOURCEPAGE:LoM				
+Craft Psionic Seal	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER.Psionic=7										PRESTAT:1,INT=15					PRETEMPLATE:1,Psionic				DESC:See Text																	SOURCEPAGE:LoM				
+Spit Poison	TYPE:General	VISIBLE:YES		PREATT:3		PREFEAT:1,Ability Focus(Poison)									PRESTAT:1,DEX=17				PRETEXT:Poison special attack delivered by bite.	PREABILITY:1,CATEGORY=Special Ability,Poison				DESC:See Text																	SOURCEPAGE:LoM, pag 94.				
+Grell Alchemy	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=1							PRESKILL:1,Knowledge (Dungeoneering)=3			PRESTAT:1,INT=13									DESC:See Text																	SOURCEPAGE:LoM				
+Mindsight	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Telepathy				DESC:See Text																	SOURCEPAGE:LoM				
+Aberration Banemagic	TYPE:General	VISIBLE:YES																				SAB:+2d6 damage.		DESC:See Text																	SOURCEPAGE:LoM				
+Aberration Blood	TYPE:Aberrant	VISIBLE:YES																		PRERACE:1,RACETYPE=Humanoid				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	TEMPLATE:Aberrant Feat	BONUS:ABILITYPOOL|Aberrant Blood|1		
+Aberration Wild Shape	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood														PREABILITY:1,CATEGORY=Special Ability,Wild Shape				DESC:See Text														BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM				
+Aquatic Spellcasting	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+Bestial Hide	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text									BONUS:COMBAT|AC|AberrantFeatNumber/2					BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM				
+Darkstalker	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+Deepspawn	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood															PREVARGTEQ:2,AberrantFeatNumber			DESC:See Text														BONUS:VAR|AberrantFeatNumber|1	BONUS:COMBAT|TOHIT.GRAPPLE|2|TYPE=Racial		SOURCEPAGE:LoM	TEMPLATE:Deepspawn ~ Tentacles			
+Durable Form	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text											BONUS:HP|CURRENTMAX|2*AberrantFeatNumber			BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM				
+Inhuman Reach	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text									BONUS:COMBAT|REACH|5					BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	BONUS:COMBAT|TOHIT|-1			
+Inhuman Vision	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text													BONUS:SKILL|Spot|AberrantFeatNumber|TYPE=Racial	BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	VISION:Darkvision (0')	BONUS:VISION|Darkvision|5*AberrantFeatNumber		
+Music of the Outer Spheres	TYPE:General	VISIBLE:YES			PRECLASS:1,Bard=9							PRESKILL:1,TYPE.Perform=11												DESC:See Text																	SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Bardic Music Lull Aberration|Bardic Music Sick Aberration|Bardic Music Vitalize Aberration			
+Ocular Spell	TYPE:Metamagic	VISIBLE:YES										PRESKILL:1,Knowledge (Dungeoneering)=4								PRETEXT:Two or more eyes.				DESC:See Text																	SOURCEPAGE:LoM	ADDSPELLLEVEL:2			
+Parrying Shield	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Shield Proficiency																		DESC:See Text																	SOURCEPAGE:LoM				
+Quick Recovery	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+Scavenging Gullet	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text														BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Resistance To Poison	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial		
+Starspawn	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood															PREVARGTEQ:2,AberrantFeatNumber			DESC:See Text														BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Flight Maneuverability|Resistance To Cold	DEFINE:Maneuverability|3	MOVECLONE:Walk,Fly,/2	BONUS:VAR|ColdResistanceBonus|5
+Thrall Bred	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=13					PRERACE:1,RACETYPE=Humanoid				DESC:See Text																	SOURCEPAGE:LoM				
+Warped Mind	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text														BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Resistance To Mind-Affecting	BONUS:VAR|MindAffectingResistanceBonus|AberrantFeatNumber/2	BONUS:VAR|BonusPowerPoints|AberrantFeatNumber	
+Waterspawn	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood															PREVARGTEQ:2,AberrantFeatNumber			DESC:See Text																	SOURCEPAGE:LoM	MOVECLONE:Walk,Swim,*1	BONUS:SKILL|Swim|8|TYPE=Racial	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|5
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
+#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				

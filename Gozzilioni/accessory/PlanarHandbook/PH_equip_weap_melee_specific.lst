@@ -1,0 +1,13 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net																				
+																						
+#Afterlife	COST:105550																					
+#Conflagrant	COST:60305																					
+#Lethe's Lash	COST:22301																					
+#Quencher	COST:40312																					
+																						
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property											
+#Axe of Ancestral Virtue		PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Enhancement.Weapon.Melee.Martial.Exotic.Specific.Dwarven.Slashing.Axe.Relic	COST:60	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:ADAMANT_WEAP.PLUS4W.KEEN							SOURCEPAGE:CD	MODS:NO	PREDEITY:1,Moradin	ABILITY:Special Ability|VIRTUAL|Axe of Ancestral Virtue Ability
+Afterlife		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.UNHLY_M.CNSNT_BR_M							SOURCEPAGE:PH	MODS:NO		SPELLS:Afterlife|TIMES=1|CASTERLEVEL=7|Death Knell,13
+Conflagrant		PROFICIENCY:WEAPON|Longspear	TYPE:Enhancement.Weapon.Melee.TwoHanded.Simple.Reach.Specific.Piercing.Spear	COST:5	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.IGN_M.FLM_BR_M	REACHMULT:2						SOURCEPAGE:PH	MODS:NO		SPELLS:Conflagrant|TIMES=1|CASTERLEVEL=7|Fireball,14
+Lethe's Lash		PROFICIENCY:WEAPON|Whip	TYPE:Enhancement.Weapon.Melee.Exotic.Reach.Specific.Finesseable.Subdual.Slashing	COST:1	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.MWORKW.PLUS1W			REACH:15				SOURCEPAGE:PH	MODS:NO		
+Quencher		PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Bludgeoning.Hammer	COST:12	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.AQN_M.BANE_M|Outsiders (fire)							SOURCEPAGE:PH	MODS:NO		SPELLS:Quencher|TIMES=1|CASTERLEVEL=7|Quench,14

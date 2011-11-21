@@ -1,0 +1,43 @@
+SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+#Cancer Mage Armor Prof	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:BoVD
+																																
+# Ability Name																																
+#Cancer Mage Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageSneakAttackLVL|0					BONUS:VAR|SneakAttack|(CancerMageSneakAttackLVL+3)/4																		SOURCEPAGE:BoVD
+Typical	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES					!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass																								SOURCEPAGE:Nob
+Purebred	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES					!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass						BONUS:STAT|CHA|2																		SOURCEPAGE:Nob
+Exceptional	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES					!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass						BONUS:STAT|CHA|2									TEMPLATE:Exceptional Breed									SOURCEPAGE:Nob
+																																
+# Ability Name																																
+Coursier 1	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 4 skill points			!PREABILITY:1,CATEGORY=Special Ability,TYPE.AdvancedTraining	PREMULT:2,[PRESTAT:1,DEX=14],[PRESTAT:1,CON=15]						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 1									SOURCEPAGE:Nob
+Coursier 2	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 1						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 2									SOURCEPAGE:Nob
+Coursier 3	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 2						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 3									SOURCEPAGE:Nob
+Coursier 4	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 1skill point				PREABILITY:1,CATEGORY=Special Ability,Coursier 3						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 4									SOURCEPAGE:Nob
+Coursier 5	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 4						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 5									SOURCEPAGE:Nob
+Coursier 6	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 5						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 6									SOURCEPAGE:Nob
+Coursier 7	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 6						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 7									SOURCEPAGE:Nob
+Coursier 8	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 1skill point				PREABILITY:1,CATEGORY=Special Ability,Coursier 7						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 8									SOURCEPAGE:Nob
+Coursier 9	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 8						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Coursier 9									SOURCEPAGE:Nob
+Coursier 10	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Coursier 9															TEMPLATE:Coursier 10									SOURCEPAGE:Nob
+Destrier 1	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 4 skill points			!PREABILITY:1,CATEGORY=Special Ability,TYPE.AdvancedTraining	PREMULT:2,[PRESTAT:1,STR=16],[PRESTAT:1,CON=15]						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 1									SOURCEPAGE:Nob
+Destrier 2	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 1						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 2									SOURCEPAGE:Nob
+Destrier 3	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 2						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 3									SOURCEPAGE:Nob
+Destrier 4	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 1skill point				PREABILITY:1,CATEGORY=Special Ability,Destrier 3						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 4									SOURCEPAGE:Nob
+Destrier 5	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 4						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 5									SOURCEPAGE:Nob
+Destrier 6	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 5						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 6									SOURCEPAGE:Nob
+Destrier 7	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 6						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 7									SOURCEPAGE:Nob
+Destrier 8	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 1skill point				PREABILITY:1,CATEGORY=Special Ability,Destrier 7						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 8									SOURCEPAGE:Nob
+Destrier 9	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 8						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Destrier 9									SOURCEPAGE:Nob
+Destrier 10	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Destrier 9															TEMPLATE:Destrier 10									SOURCEPAGE:Nob
+Palfrey 1	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 4 skill points			!PREABILITY:1,CATEGORY=Special Ability,TYPE.AdvancedTraining	PREMULT:2,[PRESTAT:1,DEX=16],[PRESTAT:1,INT=3]						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 1									SOURCEPAGE:Nob
+Palfrey 2	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 1						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 2									SOURCEPAGE:Nob
+Palfrey 3	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 2						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 3									SOURCEPAGE:Nob
+Palfrey 4	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 1skill point				PREABILITY:1,CATEGORY=Special Ability,Palfrey 3						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 4									SOURCEPAGE:Nob
+Palfrey 5	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 4						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 5									SOURCEPAGE:Nob
+Palfrey 6	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 5						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 6									SOURCEPAGE:Nob
+Palfrey 7	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 6						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 7									SOURCEPAGE:Nob
+Palfrey 8	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES	DESC:add 1skill point				PREABILITY:1,CATEGORY=Special Ability,Palfrey 7						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 8									SOURCEPAGE:Nob
+Palfrey 9	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 8						BONUS:ABILITYPOOL|Advanced Training|1									TEMPLATE:Palfrey 9									SOURCEPAGE:Nob
+Palfrey 10	CATEGORY:Special Ability	TYPE:AdvancedTraining	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Palfrey 9															TEMPLATE:Palfrey 10									SOURCEPAGE:Nob

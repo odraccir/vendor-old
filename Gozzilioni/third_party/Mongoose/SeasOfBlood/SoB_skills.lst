@@ -1,0 +1,9 @@
+SOURCELONG:Seas Of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net																																																																																																																																						
+#																																																																																																																																								
+# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Type					Visible		Bonus to skill																																					Source Page						Choose			Bonus to skill rank																																																																Modify VAR										Temporary effect description
+Knowledge (Seamanship)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:SoB																																																																																																																																				
+Profession (Navigator)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:SoB
+Profession (Merchant)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:SoB																																																																																																																																																																																																																																																																								
+#																																																																																																																																								
+# End																																																																																																																																								
+#																																																																																																																																								

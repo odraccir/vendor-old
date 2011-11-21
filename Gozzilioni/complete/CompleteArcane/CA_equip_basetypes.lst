@@ -1,0 +1,13 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net										
+												
+# Equipment Name	Type						Cost		Weight	Slot Needed	Requires Modification?	Source Page
+Spell Object	TYPE:SpellObject.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA	
+												
+# Equipment Name												
+Magic Fruit		TYPE:Potion.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA
+Magic Tile		TYPE:Potion.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA
+Skull Talisman		TYPE:Potion.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA
+Gemstone		TYPE:Scroll.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA
+Incendiary Powder		TYPE:Scroll.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA
+Macrame		TYPE:Scroll.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA
+Vellum		TYPE:Scroll.Consumable			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:CA

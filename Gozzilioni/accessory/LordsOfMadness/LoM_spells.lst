@@ -1,0 +1,32 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+###Block: AB																											
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	DESC:	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose	
+Glyph of Warding (Elder)		VARIANTS:Blast Glyph|Spell Glyph	TYPE:Divine	CLASSES:Cleric=9		SCHOOL:Abjuration			COMPS:V, S, M	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Object touched or up to 5-sq.ft/level.		DURATION:Permanent until discharged [D]	SAVEINFO:See text	SPELLRES:Yes (object)	DESC:Inscription harms those who pass it.	SOURCEPAGE:LoM, pag 21		COST:1000							
+Glyph of Warding.COPY=Glyph of Warding (Aboleth)																											
+Glyph of Warding (Aboleth).MOD		TYPE:Aboleth																									PRERACE:1,Aboleth,RACESUBTYPE=Aboleth
+Glyph of Warding (Greater).COPY=Glyph of Warding (Aboleth/Greater)																											
+Glyph of Warding (Aboleth/Greater).MOD		TYPE:Aboleth																									PRERACE:1,Aboleth,RACESUBTYPE=Aboleth
+Glyph of Warding (Elder).COPY=Glyph of Warding (Aboleth/Elder)																											
+Glyph of Warding (Aboleth/Elder).MOD		TYPE:Aboleth																									PRERACE:1,Aboleth,RACESUBTYPE=Aboleth
+Permeable Form			TYPE:Arcane	CLASSES:Sorcerer,Wizard=3		SCHOOL:Transmutation			COMPS:V	CASTTIME:1 immediate action	RANGE:Personal	TARGETAREA:You		DURATION:1 round	SAVEINFO:None	SPELLRES:No	DESC:You make yourself incorporeal for short time.	SOURCEPAGE:LoM									
+Whispercast			TYPE:Arcane	CLASSES:Sorcerer,Wizard=2		SCHOOL:Transmutation			COMPS:V	CASTTIME:1 swift action	RANGE:Personal	TARGETAREA:You		DURATION:1 round	SAVEINFO:None	SPELLRES:No	DESC:Next spell you cast is purely mental action	SOURCEPAGE:LoM									
+Arms of Plenty			TYPE:Arcane	CLASSES:Sorcerer,Wizard=3		SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature.		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:LoM									
+#Befoul
+#Blast of Force
+#Bolts of Bedevilment																											
+#Brain Spider																											
+#Damning Darkness																											
+#Darkbolt																											
+#Despoil																											
+Detect Aberration			TYPE:Arcane.Divine	CLASSES:Cleric=2|Druid=2|Sorcerer,Wizard=2		SCHOOL:Divination			COMPS:V, S	CASTTIME:1 standard action	RANGE:60-ft.	TARGETAREA:Quarter circle emanating from the character to the extreme of the range.		DURATION:Concentration, up to 1 minute/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:LoM									
+Invoke the Cerulean Sign			TYPE:Arcane.Divine	CLASSES:Bard=3|Cleric=3|Druid=2|Paladin=3|Ranger=2|Sorcerer,Wizard=3		SCHOOL:Evocation			COMPS:S	CASTTIME:1 standard action	RANGE:30-ft.	TARGETAREA:Multiple aberration whose combined total HD do not exceed twice casterlevel in a spread emanating from the character to the extreme of the range.		DURATION:Instantaneous	SAVEINFO:Fortitude negates	SPELLRES:No		SOURCEPAGE:LoM									
+Invoke Magic			TYPE:Arcane	CLASSES:Sorcerer,Wizard=9		SCHOOL:Evocation			COMPS:V, S, M	CASTTIME:1 swift action	RANGE:Personal	TARGETAREA:You		DURATION:1 round	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:LoM		COST:1000							
+#Maddening Scream																											
+#Morality Undone																											
+Nature's Purity			TYPE:Divine	CLASSES:Druid=3		SCHOOL:Evocation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One or more rays.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes		SOURCEPAGE:LoM									
+#Pox																											
+#Probe Thoughts																											
+#Touch of Madness																											
+Undulant Innards			TYPE:Arcane	CLASSES:Sorcerer,Wizard=3		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:LoM									
+Utterdark (LoM)			TYPE:Arcane	CLASSES:Sorcerer,Wizard=9		SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	COMPS:V, S, M/DF	CASTTIME:3 rounds	RANGE:Close	TARGETAREA:100-ft radius spread		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:100-ft/level radius of darkness that evil creature 	SOURCEPAGE:LoM									

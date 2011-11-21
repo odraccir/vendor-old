@@ -1,0 +1,81 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
+		
+#Skill Focus	DESC:See Text	
+Arcane Defense.MOD	DESC:+3 bonus on saves against specific school of magic	
+Arcane Mastery.MOD	DESC:Take 10 on caster level checks	
+Arcane Preparation.MOD	DESC:Prepare arcane spells ahead of time for faster metamagic casting	
+Battle Caster.MOD	DESC:Ignore arcane spell failure chance from heavier armor	
+Black Lore of Moil.MOD	DESC:Add extra negative energy damage to necromancy spells	
+Born of the Three Thunder.MOD	DESC:Sonic or electricity spells deal both types of damage	
+Chain Spell.MOD	DESC:Redirect spells to affect secondary targets	
+Communicator.MOD	DESC:Use Arcane Mark, Message, Comprehend Languages as spell-like abilities 1/day	
+Cooperative Spell.MOD	DESC:Bonus to save DC and on caster level checks of spells cast in conjunction with other casters	
+Craft Contingent Spell.MOD	DESC:Attach semipermanent spells to a creature and set activation conditions	
+Delay Spell.MOD	DESC:Spells effects are delayed 1-5 rounds	
+Double Wand Wielder.MOD	DESC:Activate second wand by expending 2 additional charges	
+Draconic Breath.MOD	DESC:Convert spell energy into a breath weapon	
+Draconic Claw.MOD	DESC:Gain claws and make swift claw attack when you cast a spell	
+Draconic Flight.MOD	DESC:After casting a spell, fly for the rest of the round	
+Draconic Heritage.MOD	DESC:Gain draconic class skill and a bonus on saves against Sleep and Paralysis	
+Draconic Legacy.MOD	DESC:Add spells to your spells known	
+Draconic Power.MOD	DESC:+1 caster level and DC for spells of the energy type matching your Draconic Heritage	
+Draconic Presence.MOD	DESC:Strike fear into lower level opponents when you cast a spell	
+Draconic Resistance.MOD	DESC:Gain resistance to energy of the type of your Draconic Heritage	
+Draconic Skin.MOD	DESC:Natural armor increase by +1	
+Energy Admixture.MOD	DESC:Double energy spell damage by adding an additional energy type	
+Energy Substitution.MOD	DESC:Energy spells can deal different energy damage	
+Explosive Spell.MOD	DESC:Creature are blasted to edge of spell area	
+Extra Edge.MOD	DESC:+1 bonus to warmage Edge ability, plus 1 / 4 warmage levels	
+Extra Invocation.MOD	DESC:Learn an additional Invocation of one grade less the current highest grade	
+Extra Slot.MOD	DESC:Gain an extra spell slot up to one level lower than current highest level	
+Extra Spell.MOD	DESC:Learn an additional spell up to one level lower than current highest level	
+Extra Spell Secret.MOD	DESC:Permanently Enlarge, Extend, Still or Silence one spell	
+Fortify Spell.MOD	DESC:Cast spells at high caster level to overcome spell resistance	
+Guardian Spirit.MOD	DESC:Reroll initiative two times per day, reroll any saves 1/day	
+Heighten Spell Like Ability.MOD	DESC:Use spell-like ability at higher level up to 3/day	
+Innate Spell.MOD	DESC:Use spell as spell-like ability once per round	
+Insightful.MOD	DESC:Use Detect Magic, Detect Secret Doors, Read Magic as spell-like abilities 1/day	
+Lord of the Uttercold.MOD	DESC:Cold spell deal half negative energy damage	
+Mage Slayer.MOD	DESC:+1 bonus on Will saves; spellcasters you threaten can't cast defensively	
+Maximize Spell Like Ability.MOD	DESC:Maximize spell-like ability's variable numeric effects up to 3/day	
+Necropolis Born.MOD	DESC:Use Cause Fear, Ghost Sound, Touch of Fatigue as spell-like abilities 1/day	
+Night Haunt.MOD	DESC:Use Dancing Lights, Prestidigitation, Unseen Servant as spell-like abilities 1/day	
+Nonlethal Substitution.MOD	DESC:Energy spells deal nonlethal damage	
+Obtain Familiar.MOD	DESC:Obtain a familiar in the same manner as a sorcerer or wizard	
+Persisten Spell.MOD	DESC:Fixed or personal range spell last 24 hours	
+Pierce Magical Concealment.MOD	DESC:Ignore spell-based concealment of creatures you attack	
+Pierce Magical Protection.MOD	DESC:Ignore spell-based bonuses to Armor Class	
+Practiced Spellcaster.MOD	DESC:Increase caster level by +4	
+Ranged Spell Specialization.MOD	DESC:+2 bonus on damage rolls with ranged spells	
+Reckless Wand Wielder.MOD	DESC:Increase wand's caster level by expending an additional charge	
+Repeat Spell.MOD	DESC:Spell is automatically cast again next round	
+Sanctun Spell.MOD	DESC:Spell's effective level is increased while in special location, decreased outside special location	
+Sculpt Spell.MOD	DESC:Alter spell's area	
+Soul of the North.MOD	DESC:Use Chill Touch, Ray of Frost, Resistance as spell-like abilities 1/day	
+Spell Hand.MOD	DESC:Use Mage Hand, Open/Close, Tenser's Floating Disk as spell-like abilities 1/day	
+Split Ray.MOD	DESC:Ray's spells affect one additional target	
+Sudden Enlarge.MOD	DESC:Increase by 100%% the range of a spell without special preparation 1/day	
+Sudden Empower.MOD	DESC:Increase spell's variable numeric effect by 50%% without special preparation 1/day	
+Sudden Extend.MOD	DESC:Double spell's duration without special preparation 1/day	
+Sudden Maximize.MOD	DESC:Maximize spell's variable numeric effects without special preparation 1/day	
+Sudden Quicken.MOD	DESC:Cast spells as a swift action without special preparation 1/day	
+Sudden Silent.MOD	DESC:Cast spells without verbal components without special preparation 1/day	
+Sudden Still.MOD	DESC:Cast spells without somatic components without special preparation 1/day	
+Sudden Widen.MOD	DESC:Increase spell's numeric measurement by 50%% without special preparation 1/day	
+Touch Spell Specialization.MOD	DESC:+2 bonus on damage rolls with touch spells	
+Transdimensional Spell.MOD	DESC:Spells affect creature in coexistent planes and extradimensional spaces	
+Twin Spell.MOD	DESC:Simultaneously cast a single spell twice	
+Wandstrike.MOD	DESC:Make touch attack with wand to deal 1d6 damage and target creature with spell	
+		
+Automatic Quicken Spell.MOD	DESC:You can cast any of your lesser spells with a moment's thought.	
+Automatic Silent Spell.MOD	DESC:You can cast any of your lesser spells silently.	
+Automatic Still Spell.MOD	DESC:You can cast any of your lesser spells without gestures.	
+Enhance Spell.MOD	DESC:You can increase the power limit of your damage-dealing spells.	
+Epic Spell Focus.MOD	DESC:Choose a school of magic.  Your spells in that school are far more potent than normal.	
+Epic Spell Penetration.MOD	DESC:Your spells are tremendously potent, breaking through spell resistance with ease.	
+Improved Combat Casting.MOD	DESC:You can cast spells while threatened without fear of being attacked.	
+Master Staff.MOD	DESC:You can activate a staff without using a charge.	
+Master Wand.MOD	DESC:You can activate a wand without using a charge	
+		
+Collegiate Wizard.MOD	DESC:+2 bonus on Knowledge (Arcana) checks, more spells at 1st level.	
+Precocius Apprentice.MOD	DESC:You gain a 2nd level slot to cast a spell with DC 8 caster level check	

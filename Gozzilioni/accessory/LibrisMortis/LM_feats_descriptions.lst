@@ -1,0 +1,63 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net
+		
+# BASICS		
+# Feat Name	Type	
+#Arcane Preparation	DESC:	
+Baleful Moan.MOD	DESC:Emit a terrifying moan.	
+Bolster Resistance.MOD	DESC:Undead gain +4 turn resistance.	
+Contagious Paralysis.MOD	DESC:Paralysis spreads to those who touch target.	
+Corpsecrafter.MOD	DESC:Undead gain +4 STR and +2 HP per HD.	
+Corrupted Wild Shape.MOD	DESC:Undead druids retain ability to wild shape.	
+Daunting Presence.MOD	DESC:Overawe enemy to make it shaken.	
+Deadly Chill.MOD	DESC:Undead deal +1d6 cold damage on melee attacks.	
+Death Master.MOD	DESC:On your critical hit, target is also shaken.	
+Destruction Retribution.MOD	DESC:Undead deal negative damage when killed.	
+Divine Accuracy.MOD	DESC:Ignore miss chance for incorporealness.	
+Empowered Ability Damage.MOD	DESC:Increase variable effect of ability damage or ability drain.	
+Empower Turning.MOD	DESC:Can turn more undead.	
+Endure Sunlight.MOD	DESC:Resist dangerous effects of sunlight.	
+Enduring Life.MOD	DESC:Ignore penalties from negative levels.	
+Energize Spell.MOD	DESC:Deal 50%% extra damage to undead.	
+Enervate Spell.MOD	DESC:Deal 50%% extra damage to living creatures.	
+Eviscerator.MOD	DESC:On your critical hit, foe and its allies are shaken.	
+Fell Animate.MOD	DESC:Creatures slain by the spell rise as zombies.	
+Fell Drain.MOD	DESC:Creatures hurt by the spell gain a negative level.	
+Fell Frighten.MOD	DESC:Creatures damaged by the spell are also shaken.	
+Fell Weaken.MOD	DESC:Creatures damaged by the spell also take -4 STR.	
+Ghost Scarred.MOD	DESC:+2 on attacks, damage, saves against incorporeal undead.	
+Ghostly Grasp.MOD	DESC:Use corporeal items.	
+Graft Flesh.MOD	DESC:You can apply graft of a certain type.	
+Hardened Flesh.MOD	DESC:Undead gain +2 natural armor.	
+Heigthen Turning.MOD	DESC:Can turn more powerful undead.	
+Improved Energy Drain.MOD	DESC:Draw extra power from energy-drained victims.	
+Improved Paralysis.MOD	DESC:+4 DC to paralysis ability.	
+#Improved Toughness.MOD	DESC:Gain HP equal to your current HD.	
+Improved Turn Resistance.MOD	DESC:Increase turn resistance by +4.	
+Lasting Life.MOD	DESC:OPurge negative levels with Will saves.	
+Life Drain.MOD	DESC:Negative levels you bestow deal, gain more hp	
+Lifebond.MOD	DESC:Bond with chosen living creature to gain benefits.	
+Lifesense.MOD	DESC:Living creatures provide illumination.	
+Mother Cyst.MOD	DESC:Internal undead cyst allows access to special spells.	
+Necromantic Might.MOD	DESC:Undead in your presence gain +2 on attack rolls and damage rolls.	
+Necromantic Presence.MOD	DESC:Undead in your presence gain +4 turn resistance.	
+Necrotic Reserve.MOD	DESC:Drain abilities or levels to survive below 0 hit points.	
+Necropotent.MOD	DESC:+4 damage with selected weapon against undead.	
+Ninble Bones.MOD	DESC:Undead gain +4 to initiative and +10-ft/round.	
+Positive Energy Resistance.MOD	DESC:Resistance 10 to positive energy effects.	
+Profane Lifeleech.MOD	DESC:Steal 1d6 HP from nearby undead allies.	
+Profane Vigor.MOD	DESC:Grants 1d8 HP to nearby undead allies.	
+Quicken Manifestation.MOD	DESC:Manifest from Ethereal Planes as free action.	
+Quicken Turning.MOD	DESC:Can turn undead as a free action.	
+Requiem.MOD	DESC:Bardic music affects undead.	
+Sacred Vengeance.MOD	DESC:+2d6 on melee attacks against undead.	
+Sacred Vitality.MOD	DESC:Gain immunity to ability damage, ability drain and energy drain.	
+Spell Drain.MOD	DESC:Gain spells lost by negative levels you bestow.	
+Spurn Death Touch.MOD	DESC:Heal ability damage, paralysis, negative level.	
+Stitched Flesh Familiar.MOD	DESC:Familiar gains undead qualities, you can control 4 extra HD of undead.	
+Tomb Born Fortitude.MOD	DESC:25%% crit resistance, no massive damage risk.	
+Tomb Born Resilience.MOD	DESC:+2 on saves vs mental influence, poison, disease.	
+Tomb Born Vitality.MOD	DESC:Forego sleep, immunity to magic sleep effects.	
+Tomb Tainted Soul.MOD	DESC:Heal with negative energy as an undead creature.	
+Undead Leadership.MOD	DESC:Attract undead followers and cohort.	
+Unquenchable Flame of Life.MOD	DESC:+2 bonus on saves against undead attacks.	
+Vampire Hunter.MOD	DESC:Detect vampires, immunity to dominating gaze.	

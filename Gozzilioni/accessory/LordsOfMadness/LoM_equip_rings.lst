@@ -1,0 +1,5 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Ring of Reduction			TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:LoM																																							
+Ring of Lightning Flashes			TYPE:Magic.Ring	COST:11250	WT:0	SOURCEPAGE:LoM	SAB:3/day																																						

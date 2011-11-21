@@ -1,0 +1,38 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																								
+																										
+###Block: AB																										
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	TARGETAREA:		Duration	Save Info	Spell Resistance	DESC:	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
+Cause Fear.MOD	CLASSES:Disciple of Thrym=1																									
+Corrupt Weapon.MOD	CLASSES:Disciple of Thrym=1																									
+Detect Fire.MOD	CLASSES:Disciple of Thrym=1																									
+Divine Favor.MOD	CLASSES:Disciple of Thrym=1																									
+Doom.MOD	CLASSES:Disciple of Thrym=1																									
+Ease of Breath.MOD	CLASSES:Disciple of Thrym=1																									
+Frostburn (Lesser).MOD	CLASSES:Disciple of Thrym=1																									
+Magic Weapon.MOD	CLASSES:Disciple of Thrym=1																									
+Obscuring Mist.MOD	CLASSES:Disciple of Thrym=1																									
+Protection from Good.MOD	CLASSES:Disciple of Thrym=1																									
+Protection from Law.MOD	CLASSES:Disciple of Thrym=1																									
+Shivering Touch (Lesser).MOD	CLASSES:Disciple of Thrym=1																									
+Blood Snow.MOD	CLASSES:Disciple of Thrym=2																									
+Bull's Strength.MOD	CLASSES:Disciple of Thrym=2																									
+Chill Metal.MOD	CLASSES:Disciple of Thrym=2																									
+Conjure Ice Object.MOD	CLASSES:Disciple of Thrym=2																									
+Eagle's Splendor.MOD	CLASSES:Disciple of Thrym=2																									
+Fog Cloud.MOD	CLASSES:Disciple of Thrym=2																									
+Frost Weapon.MOD	CLASSES:Disciple of Thrym=2																									
+Zone of Glacial Cold.MOD	CLASSES:Disciple of Thrym=2																									
+Binding Snow.MOD	CLASSES:Disciple of Thrym=3																									
+Ice Shape.MOD	CLASSES:Disciple of Thrym=3																									
+Aura of Cold (Lesser).MOD	CLASSES:Disciple of Thrym=3																									
+Meld into Ice.MOD	CLASSES:Disciple of Thrym=3																									
+Shivering Touch.MOD	CLASSES:Disciple of Thrym=3																									
+Sleet Storm.MOD	CLASSES:Disciple of Thrym=3																									
+Dispel Fire.MOD	CLASSES:Disciple of Thrym=4																									
+Dispel Good.MOD	CLASSES:Disciple of Thrym=4																									
+Dispel Law.MOD	CLASSES:Disciple of Thrym=4																									
+Entomb.MOD	CLASSES:Disciple of Thrym=4																									
+Frostbite.MOD	CLASSES:Disciple of Thrym=4																									
+Ice Storm.MOD	CLASSES:Disciple of Thrym=4																									
+Stoneskin.MOD	CLASSES:Disciple of Thrym=4																									
+Wall of Ice.MOD	CLASSES:Disciple of Thrym=4																									

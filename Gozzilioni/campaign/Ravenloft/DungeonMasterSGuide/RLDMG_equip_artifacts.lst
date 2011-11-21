@@ -1,0 +1,10 @@
+SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net														
+																
+#MINOR ARTIFACTS																
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight		Modifier	Requires Modification?	Source Page			Critical Hit Multiplier	Critical Hit Range	Damage	Wield Category	Size
+#Shattering Swords of Coronal Ynloeth		PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Artifact.Slashing.Sword	COST:0	WT:4		EQMOD:STEEL.MWORKW.PLUS5W.HOLY_M.SPEED	MODS:NO	SOURCEPAGE:PGtF			CRITMULT:x2	CRITRANGE:2	DAMAGE:1d8	WIELD:OneHanded	SIZE:M
+The Apparatus		TYPE:Cursed.Artifact.Major	COST:0	WT:0	SOURCEPAGE:RLDMG
+Black Stone		TYPE:Cursed.Artifact.Major	COST:0	WT:0	SOURCEPAGE:RLDMG
+Fang of the Nosferatu		PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Specific.Piercing.Slashing.Dagger.Cursed.Artifact.Major	COST:0	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS3W.INT_ITEM.INT_ITEM_ALIGN_CE.INT_ITEM_INT_17.INT_ITEM_WIS_15.INT_ITEM_CHA_16	RANGE:10						SOURCEPAGE:RLDMG	MODS:NO	SPROP:Greater Invisibility after the first hit once per day.		BONUS:VAR|ItemEgo|14
+Rotham's Jealous Necklace			TYPE:Cursed.Artifact.Major.Amulet	COST:56000	WT:0		SOURCEPAGE:RLDMG	ABILITY:Special Ability|VIRTUAL|Resistance To Enchantment|Resistance To Fear	BONUS:VAR|EnchantmentResistanceBonus|2|TYPE=Magical	BONUS:VAR|FearResistanceBonus|4|TYPE=Magical
+The Whishing Imp		TYPE:Cursed.Artifact.Major.Goods	COST:0	WT:0	SOURCEPAGE:RLDMG	EQMOD:INT_ITEM.GOOD_INT_ITEM_5.INT_ITEM_ALIGN_CE.INT_ITEM_CHA_16.INT_ITEM_INT_12.INT_ITEM_WIS_17

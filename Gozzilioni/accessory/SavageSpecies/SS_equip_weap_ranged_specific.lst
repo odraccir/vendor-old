@@ -1,0 +1,8 @@
+SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net																					
+																							
+#Scaled Javelin	COST:26301																						
+#Dart of the Phoenix	COST:99400																						
+																							
+###Block: Ranged																							
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW		Range	Reach	Reach Multiplier	sprop
+Scaled Javelin		PROFICIENCY:WEAPON|Javelin	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Thrown.Javelin	COST:1	WT:2				DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS2W						SOURCEPAGE:SS	MODS:NO	RANGE:30			SPROP:Distance and Returning special quality|PRERACE:1,RACESUBTYPE=Reptilian

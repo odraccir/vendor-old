@@ -1,0 +1,10 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net						
+								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+#Ghaunadaur								
+Great Mother (LoM)	ALIGN:LE	DEITYWEAP:Greataxe	DESC:The Great Mother (F)	DOMAINS:Law,Evil,Hatred,Strength|PREALIGN:LN,LE,NE	TYPE:Greater	PANTHEON:Beholder	SOURCEPAGE:LoM	SYMBOL:An eye and an egg.
+#Illsensine								
+The Patient One	ALIGN:NE	DEITYWEAP:Unarmed Strike	DESC:The Patient One (M)	DOMAINS:Corruption,Evil,Vile Darkness	TYPE:Greater	PANTHEON:Aboleth|Cloaker|Chuul|Avolakia	SOURCEPAGE:LoM	SYMBOL:Mouth surrounded by eyes, always in dark color.
+Mak Thuum Ngatha	ALIGN:CE	DEITYWEAP:Morningstar	DESC:Mak Thuum Ngatha (M)	DOMAINS:Destruction,Knowledge,Madness,Travel|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Tsochar|Psurlon	SOURCEPAGE:LoM	SYMBOL:Fan-shaped glyph of nine squiggly lines.
+Tharizdun (LoM)	ALIGN:NE	DEITYWEAP:Dagger	DESC:Tharizdun (M)	DOMAINS:Chaos,Destruction,Evil,Force,Madness|PREALIGN:LE,TN,NE,CE	TYPE:Greater	PANTHEON:Aboleth|Cloaker|Grell|Psurlon	SOURCEPAGE:LoM	SYMBOL:dark spiral.

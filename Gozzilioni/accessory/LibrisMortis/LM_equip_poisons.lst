@@ -1,0 +1,11 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+#Poisons																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+Positoxin (Gravedust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:100	WT:0		SOURCEPAGE:LM	SPROP:Contact DC 10, Init.:1 DEX drain, Sec.:1d4 Dex drain													
+Positoxin (Boneshard Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:750	WT:0		SOURCEPAGE:LM	SPROP:Contact DC 13, Init.:1 STR drain, Sec.:1d4 STR drain													
+Positoxin (Sunlight Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:1300	WT:0		SOURCEPAGE:LM	SPROP:Contact DC 16, Init.:1d4 STR drain, Sec.:1d4 DEX drain + 1d3 STR Drain													
+Positoxin (Bloodwine)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:250	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 11, Init.:1d4 CHA, Sec.:2d4 CHA													
+Positoxin (Celestial Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:400	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 14, Init.:1d6 WIS, Sec.:2d6 WIS													
+Positoxin (Lichbane)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:650	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 17, Init.:1 INT drain + 1 WIS drain + 1 CHA drain, Sec.:1d4 INT + 1d4 WIS + 1d4 CHA													
+Positoxin (Liquid Mortality)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:1250	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 20, Init.:1d4 STR drain, Sec.:2d4 STR drain													

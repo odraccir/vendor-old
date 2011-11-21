@@ -1,0 +1,114 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+# Arcane Scrolls																																													
+###Block: 1-level Arcane Scrolls																																													
+Scroll (Accelerated Movement/Arcane)	OUTPUTNAME:Scroll (Accelerated Movement)		TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Arrow Mind/Arcane)	OUTPUTNAME:Scroll (Arrow Mind)		TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Critical Strike)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Distort Speech)			TYPE:Magic.Scroll.Arcane.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Distract Assailant)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Expeditious Retreat, Swift)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Focusing Chant)			TYPE:Magic.Scroll.Arcane.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Golem Strike)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Guided Shot/Arcane)	OUTPUTNAME:Scroll (Guided Shot)		TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Healthful Rest/Arcane)	OUTPUTNAME:Scroll (Healthful Rest)		TYPE:Magic.Scroll.Arcane.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Herald's Call)			TYPE:Magic.Scroll.Arcane.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Insightful Feint)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Inspirational Boost)			TYPE:Magic.Scroll.Arcane.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Instant Locksmith)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Instant Search/Arcane)	OUTPUTNAME:Scroll (Instant Search)		TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Joyful Noise)			TYPE:Magic.Scroll.Arcane.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Master's touch)			TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Sniper's Shot/Arcane)	OUTPUTNAME:Scroll (Sniper's Shot)		TYPE:Magic.Scroll.Arcane.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 2-level Arcane Scrolls																																													
+Scroll (Balancing Lorecall/Arcane)	OUTPUTNAME:Scroll (Balancing Lorecall)		TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Bladewave)			TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Daggerspell Stance/Arcane)	OUTPUTNAME:Scroll (Daggerspell Stance)		TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Fly, Swift/Arcane)	OUTPUTNAME:Scroll (Fly, Swift)		TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Insidious Rhythm)			TYPE:Magic.Scroll.Arcane.Consumable	COST:200	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Invisibility, Swift)			TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Iron Silence/Arcane)	OUTPUTNAME:Scroll (Iron Silence)		TYPE:Magic.Scroll.Arcane.Consumable	COST:200	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Listening Lorecall/Arcane)	OUTPUTNAME:Scroll (Listening Lorecall)		TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Mindless Rage)			TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Sonic Weapon)			TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Tactical Precision)			TYPE:Magic.Scroll.Arcane.Consumable	COST:200	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Wracking Touch/Arcane)	OUTPUTNAME:Scroll (Wracking Touch)		TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Wraithstrike)			TYPE:Magic.Scroll.Arcane.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 3-level Arcane Scrolls																																													
+Scroll (Absorb Weapon)			TYPE:Magic.Scroll.Arcane.Consumable	COST:375	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Allegro)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Dirge of Discord)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Dissonant Chord)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Harmonic Chorus)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Hymn of Praise)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Infernal Threnody)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Spectral Weapon)			TYPE:Magic.Scroll.Arcane.Consumable	COST:375	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Speechlink)			TYPE:Magic.Scroll.Arcane.Consumable	COST:525	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 4-level Arcane Scrolls																																													
+Scroll (Entangling Staff/Arcane)	OUTPUTNAME:Scroll (Entangling Staff)		TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Listening Coin)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1000	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Sniper's Eye)			TYPE:Magic.Scroll.Arcane.Consumable	COST:700	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (War Cry)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1000	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 5-level Arcane Scrolls																																													
+Scroll (Improvisation)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1625	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Nightstalker's Transformation)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1125	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Shadow Form)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1125	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Wail of Doom)			TYPE:Magic.Scroll.Arcane.Consumable	COST:1625	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 6-level Arcane Scrolls																																													
+Scroll (Cloak of the Sea/Arcane)	OUTPUTNAME:Scroll (Cloak of the Sea)		TYPE:Magic.Scroll.Arcane.Consumable	COST:1650	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Protégé)			TYPE:Magic.Scroll.Arcane.Consumable	COST:2400	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 7-level Arcane Scrolls																																													
+Scroll (Cacophonic Shield)			TYPE:Magic.Scroll.Arcane.Consumable	COST:2275	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 9-level Arcane Scrolls																																													
+Scroll (Hindsight)			TYPE:Magic.Scroll.Arcane.Consumable	COST:3825	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+# Divine Scrolls																																													
+###Block: 1-level Divine Scrolls																																													
+Scroll (Accelerated Movement/Divine)	OUTPUTNAME:Scroll (Accelerated Movement)		TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Arrow Mind/Mind)	OUTPUTNAME:Scroll (Arrow Mind)		TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Bloodhound)			TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Exacting Shot)			TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Grave Strike)			TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Guided Shot/Divine)	OUTPUTNAME:Scroll (Guided Shot)		TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Hawkeye)			TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Healthful Rest/Divine)	OUTPUTNAME:Scroll (Healthful Rest)		TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Instant Search/Divine)	OUTPUTNAME:Scroll (Instant Search)		TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Sniper's Shot/Divine)	OUTPUTNAME:Scroll (Sniper's Shot)		TYPE:Magic.Scroll.Divine.Consumable	COST:50	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Vine Strike)			TYPE:Magic.Scroll.Divine.Consumable	COST:25	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 2-level Divine Scrolls																																													
+Scroll (Balancing Lorecall/Divine)	OUTPUTNAME:Scroll (Balancing Lorecall)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Branch to Branch)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Daggerspell Stance)	OUTPUTNAME:Scroll (Daggerspell Stance)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Divine Insight)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Easy Climb)			TYPE:Magic.Scroll.Divine.Consumable	COST:200	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Easy Trail)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Embrace the Wild)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Haste, Swift)			TYPE:Magic.Scroll.Divine.Consumable	COST:200	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Healing Lorecall)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Iron Silence/Divine)	OUTPUTNAME:Scroll (Iron Silence)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Listening Lorecall/Divine)	OUTPUTNAME:Scroll (Listening Lorecall)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Nature's Favor)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Train Animal)			TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Wracking Touch/Arcane)	OUTPUTNAME:Scroll (Wracking Touch)		TYPE:Magic.Scroll.Divine.Consumable	COST:150	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 3-level Divine Scrolls																																													
+Scroll (Blade Storm)			TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Entangling Staff/Divine)	OUTPUTNAME:Scroll (Entangling Staff)		TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Fly, Swift/Divine)	OUTPUTNAME:Scroll (Fly, Swift)		TYPE:Magic.Scroll.Divine.Consumable	COST:375	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 4-level Divine Scrolls																																													
+Scroll (Arrow Storm)			TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Foebane)			TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:.01	SOURCEPAGE:CAd																																							
+Scroll (Forestfold)			TYPE:Magic.Scroll.Divine.Consumable	COST:700	WT:.01	SOURCEPAGE:CAd																																							
+																																													
+###Block: 5-level Divine Scrolls																																													
+Scroll (Cloak of the Sea/Divine)	OUTPUTNAME:Scroll (Cloak of the Sea)		TYPE:Magic.Scroll.Divine.Consumable	COST:1125	WT:.01	SOURCEPAGE:CAd																																							

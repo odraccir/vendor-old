@@ -1,0 +1,5 @@
+SOURCELONG:Forgotten Realm Campaing Setting	SOURCESHORT:FRCS	SOURCEWEB:http://www.gozzilioni.net														
+
+#Exotic Ranged
+# Equipment Name			Output Name					Required Proficiency					Type															Contains			Cost		Weight	Slot Needed	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier			Wield Category	Requires Modification?	Range		Size		Source Page				Weapon prop. bonus
+Chakram		PROFICIENCY:WEAPON|Chakram	TYPE:Weapon.Exotic.Ranged.Slashing.Standard.Thrown.Chakram	COST:15	WT:2			SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL						SOURCEPAGE:FRCS	RANGE:30

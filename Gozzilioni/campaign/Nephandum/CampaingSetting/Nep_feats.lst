@@ -1,0 +1,32 @@
+SOURCELONG:Nephandum	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net																																									
+																																											
+# BASICS																																											
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page		
+Sanguinary Weapon	TYPE:General.Fighter					PREFEAT:1,Weapon Focus																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Weapon Focus														SOURCEPAGE:Nep		
+Decaying Attack	TYPE:General					PREABILITY:1,CATEGORY=Special Ability,Sneak Attack	PREABILITY:1,CATEGORY=Special Ability,Crippling Strike																	DESC:See Text																	SOURCEPAGE:Nep		
+Champion of Death	TYPE:General			PREATT:5																PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:Nep		
+Lethal Critical	TYPE:General.Fighter					PREFEAT:2,Greater Weapon Specialization,Improved Critical																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Weapon Specialization														SOURCEPAGE:Nep		
+Improved Demoralization	TYPE:General.Fighter			PREATT:1								PRESKILL:1,Intimidate=4			PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:Nep		
+Superior Demoralization	TYPE:General.Fighter			PREATT:3		PREFEAT:1,Improved Demoralization																		DESC:See Text																	SOURCEPAGE:Nep		
+Terror Devourer	TYPE:General											PRESKILL:1,Sense Motive=6								PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:Nep		
+Text Examiner	TYPE:General					PREFEAT:1,Diligent																		DESC:See Text																	SOURCEPAGE:Nep		
+Thin Hope	TYPE:General														PRESTAT:1,CHA=12					PRECHECKBASE:1,Will=4				DESC:See Text																	SOURCEPAGE:Nep		
+Dark Fascination	TYPE:General														PRESTAT:1,CHA=14									DESC:See Text													BONUS:SKILL|Diplomacy,Gather Information|2				SOURCEPAGE:Nep		
+Undaunted	TYPE:General					PREFEAT:1,Iron Will														PRECHECKBASE:1,Will=4				DESC:See Text																	SOURCEPAGE:Nep		
+Prohibited Spells	TYPE:General														PRESTAT:1,WIS=14							PRETEXT:Specialized in a school of magic		DESC:See Text																	SOURCEPAGE:Nep		
+Terrifying Spells	TYPE:Metamagic.Wizard																							DESC:See Text																	SOURCEPAGE:Nep	ADDSPELLLEVEL:1	
+Vampiric Spells	TYPE:Metamagic.Wizard																							DESC:See Text																	SOURCEPAGE:Nep	ADDSPELLLEVEL:2	
+Mark of Death	TYPE:General														PRESTAT:1,CON=14					PRECHECKBASE:1,Will=4				DESC:See Text																	SOURCEPAGE:Nep		
+Divine Horror	TYPE:General					PREABILITY:1,CATEGORY=Special Ability,Turn Undead	PREABILITY:1,CATEGORY=Special Ability,Basic Favored Enemy,Basic Ancient Foe,Basic Chosen Foe,Basic Dark Nemesi,Basic Foe Hunter,Basic Harper Favored Enemy																	DESC:See Text																	SOURCEPAGE:Nep		
+First Blood	TYPE:General					PREFEAT:2,Quick Draw,Improved Initiative																		DESC:See Text																	SOURCEPAGE:Nep		
+Sickening Fist	TYPE:General.Fighter			PREATT:10		PREFEAT:1,Stunning Fist																		DESC:See Text																	SOURCEPAGE:Nep		
+Lightning Reaction	TYPE:General					PREFEAT:1,Alertness																		DESC:See Text																	SOURCEPAGE:Nep		
+Destructive Rotation	TYPE:General.Fighter			PREATT:6		PREFEAT:1,Power Attack									PRESTAT:1,STR=15									DESC:See Text																	SOURCEPAGE:Nep		
+Superior Destructive Rotation	TYPE:General.Fighter			PREATT:11		PREFEAT:1,Destructive Rotation																		DESC:See Text																	SOURCEPAGE:Nep		
+Scarification	TYPE:General																							DESC:See Text													BONUS:SKILL|Intimidate|4|TYPE=inherent				SOURCEPAGE:Nep		BONUS:SKILL|Diplomacy|-2
+Whispers of Unknown	TYPE:General					PREFEAT:1,Alertness														PREALIGN:LG,LN,NG,TN,CG,CN				DESC:See Text													BONUS:SKILL|Listem,Search,Spot|4				SOURCEPAGE:Nep		
+Techinc of Investigation	TYPE:General					PREFEAT:1,Investigator																		DESC:See Text													CSKILL:Search|Gather Information				SOURCEPAGE:Nep		
+Indestructible Perseverance	TYPE:General					PREFEAT:1,Diehard									PRESTAT:1,CON=15									DESC:See Text																	SOURCEPAGE:Nep		
+Last Blow	TYPE:General			PREATT:3		PREFEAT:1,Iron Will																		DESC:See Text																	SOURCEPAGE:Nep		
+Veil of Mistery	TYPE:General				PRECLASS:1,SPELLCASTER=2																			DESC:See Text																	SOURCEPAGE:Nep		
+#

@@ -1,0 +1,7 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net										
+#												
+###Block: Creature Subtypes												
+# Template Name	Visible	Source Page	Special Ability									
+Beholder	VISIBLE:NO	SOURCEPAGE:MM		LANGAUTO:Beholder,Common		ABILITY:Special Ability|AUTOMATIC|Eye Rays	ABILITY:Special Ability|AUTOMATIC|All-Around Vision	ABILITY:Special Ability|AUTOMATIC|Flight (Ex)	BONUS:SKILL|Spot,Search|4|TYPE=Racial
+Yuan Ti	VISIBLE:NO	SOURCEPAGE:MM	OUTPUTNAME:Yuan-Ti			ABILITY:Special Ability|AUTOMATIC|Alternate Form (Sp)	ABILITY:Special Ability|AUTOMATIC|Detect Poison					RACESUBTYPE:Shapechanger
+Slaad	VISIBLE:NO	SOURCEPAGE:MM		LANGAUTO:Slaad		ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire	ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic	RACESUBTYPE:Slaad	DEFINE:AcidResistanceBonus|5	DEFINE:ColdResistanceBonus|5	DEFINE:ElectricityResistanceBonus|5	DEFINE:FireResistanceBonus|5

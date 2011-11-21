@@ -1,0 +1,114 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net											
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Black Blood Hunter	HD:8	TYPE:Prestige	ABB:Bbh	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Black Blood Hunter	PRETEMPLATE:1,Lycanthrope	PRESKILL:2,Jump=6,Survival=6	PRESKILL:1,Knowledge (Nature)=4	PREFEAT:2,Power Attack,Vile Natural Attack	PREDEITY:1,Malar					HASSUBCLASS:YES		ALLOWBASECLASS:NO	
+CLASS:Black Blood Hunter	STARTSKILLPTS:4	CSKILL:Climb|Hide|Intimidate|Jump|Knowledge (Nature)|Listen|Move Silently|Spot|Survival|Swim											
+#													
+SUBCLASS:Black Blood Hunter ~ Natural	COST:0	PROHIBITCOST:0	PRETEMPLATE:1,Natural Lycanthrope										
+SUBCLASSLEVEL:5				ABILITY:Special Ability|AUTOMATIC|Improved Damage Reduction ~ Natural|Black Blood Improved Damage Reduction			BONUS:VAR|BlackBloodImprovedDamageReductionLVL|CL						
+SUBCLASS:Black Blood Hunter ~ Afflicted	COST:0	PROHIBITCOST:0	PRETEMPLATE:1,Afflicted Lycanthrope	PRESKILL:1,Control Shape=6									
+SUBCLASSLEVEL:5				ABILITY:Special Ability|AUTOMATIC|Improved Damage Reduction ~ Afflict			BONUS:VAR|BlackBloodImprovedDamageReductionLVL|CL						
+#													
+1				ABILITY:Special Ability|AUTOMATIC|Greater Curse of Lycanthropy|Black Blood Greater Curse of Lycanthropy|Lycanthropic Spell|Wild Items			BONUS:VAR|BlackBloodGreaterCurseOfLycanthropyLVL|CL						
+2				ABILITY:Special Ability|AUTOMATIC|Animal Form|Black Blood Animal Form|Wild Empathy			BONUS:VAR|BlackBloodAnimalFormLVL|CL	BONUS:VAR|WildEmpathy|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Improved Hybrid Form									
+4				ABILITY:Special Ability|AUTOMATIC|Improved Vile Natural Attack									
+5													
+6				ABILITY:Special Ability|AUTOMATIC|Faster Change									
+7													
+8													
+9				ABILITY:Special Ability|AUTOMATIC|Quick Change									
+10													
+#													
+CLASS:Celebrant of Sharess	HD:8	TYPE:Prestige	ABB:Cel	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
+CLASS:Celebrant of Sharess	PREALIGN:CG	PRESKILL:1,Diplomacy=7	PRESKILL:1,TYPE.Perform=7	PREFEAT:2,Sacred Vow,Vow of Purity	PREDEITY:1,Sharess								
+CLASS:Celebrant of Sharess	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Disguise|Gather Information|Jump|Listen|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Spellcraft|Tumble											
+CLASS:Celebrant of Sharess	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Celebrant of Sharess|CL								
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Feline Familiar|Fascinate (Sp)|Flirtation			BONUS:VAR|FFLevel|CL*2	BONUS:VAR|FlirtationPerDay|CL		DEFINE:FlirtationPerDay|0			
+2	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Fury of the Tigress|Celebrant of Sharess Fury of Tigress			BONUS:VAR|CelebrantOfSharessFuryOfTigressTimesLVL|CL						
+3	CAST:0,2,0	KNOWN:0,3,2											
+4	CAST:0,3,1	KNOWN:0,4,3		ABILITY:Special Ability|AUTOMATIC|Flirtation ~ Suggestion (Sp)									
+5	CAST:0,3,2,0	KNOWN:0,4,3,2		ABILITY:Special Ability|AUTOMATIC|Pounce of the Tigress									
+6	CAST:0,3,3,1	KNOWN:0,4,4,3											
+7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2		ABILITY:Special Ability|AUTOMATIC|Sanctuary (Sp)									
+8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3		ABILITY:Special Ability|AUTOMATIC|Swiftness of the Tigress|Celebrant of Sharess Swiftness of the Tigress			BONUS:VAR|CelebrantOfSharessSwiftnessOfTheTigressLVL|CL						
+9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3											
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4		ABILITY:Special Ability|AUTOMATIC|Inspire Desire (Sp)									
+#													
+CLASS:Harper Paragon	HD:10	TYPE:Prestige	ABB:Hap	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Harper Paragon	PRESKILL:1,Diplomacy=8	PRESKILL:1,TYPE.Perform=5	PRESKILL:1,Sense Motive=4	PRESKILL:1,Survival=2	PREFEAT:2,Sacred Vow,Vow of Obedience	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy (Humanoid (Goblinoid)),Favored Enemy (Humanoid (Gnoll)),Favored Enemy (Humanoid (Orc)),Favored Enemy (Humanoid (Reptilian)),Favored Enemy (Outsider (Evil)),Favored Enemy (Undead),Favored Enemy (Church of Bane),Favored Enemy (Cult of the Dragon),Favored Enemy (Iron Throne),Favored Enemy (Malaugryms),Favored Enemy (Red Wizards),Favored Enemy (Zhentarim)							
+#CLASS:Harper Paragon	STARTSKILLPTS:4	CSKILL:Appraise|bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|Pick Pockets|TYPE.Profession|Sense Motive|Speak Language|Survival|Swim|Tumble											
+CLASS:Harper Paragon	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|Sleight of Hand|TYPE.Profession|Sense Motive|Speak Language|Survival|Swim|Tumble											
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Aura of Good|Detect Evil			BONUS:VAR|AuraGood|CL	BONUS:VAR|DetectEvilLVL|CL					
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Paragon Harper Knowledge|Favored Enemy (Evil)|Favored Bonus__Evil			BONUS:VAR|HarperParagonHarperKnowledgeLVL|CL						
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Celestial Spell ~ archon|Celestial Spell ~ guardinal|Celestial Spell ~ eladrin									
+4	ADD:SPELLCASTER|ANY		VFEAT:Exalted Companion	ABILITY:Special Ability|AUTOMATIC|Animal Companion			BONUS:VAR|CompLevel|CL						
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Basic Harper Favored Enemy|Harper Paragon Favored Enemy			BONUS:VAR|HarperParagonFavoredEnemyLVL|CL						
+6	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Smite Evil|Harper Paragon Smite Evil			BONUS:VAR|HarperParagonSmiteEvilLVL|CL						
+7	ADD:SPELLCASTER|ANY												
+8	ADD:SPELLCASTER|ANY												
+9	ADD:SPELLCASTER|ANY												
+10	ADD:SPELLCASTER|ANY												
+#													
+CLASS:Maiden of Pain	HD:6	TYPE:Prestige	ABB:Mop	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Maiden of Pain	PREGENDER:Female	PRESKILL:1,Intimidate=4	PREFEAT:1,Violate Spell	PRESPELL:2,Masochism,Sadism	PREDEITY:1,Loviatar	PRETEXT:The candidate must have used the drug Agony (Liquid Pain)							
+CLASS:Maiden of Pain	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Sense Motive|Spellcraft|Use Rope											
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Maiden of Pain Weapon Proficiencies											
+#													
+1				ABILITY:Special Ability|AUTOMATIC|Agony Addiction|Lasher|Pain Touch|Maiden of Pain Pain Touch		DOMAIN:Pain		BONUS:VAR|MaidenOfPainPainTouchLVL|CL					
+2	ADD:SPELLCASTER|Cleric												
+3	ADD:SPELLCASTER|Cleric		VFEAT:Improved Trip										
+4	ADD:SPELLCASTER|Cleric												
+5	ADD:SPELLCASTER|Cleric												
+6	ADD:SPELLCASTER|Cleric		VFEAT:Improved Disarm										
+7	ADD:SPELLCASTER|Cleric												
+8	ADD:SPELLCASTER|Cleric												
+9	ADD:SPELLCASTER|Cleric												
+10	ADD:SPELLCASTER|Cleric												
+#													
+CLASS:Martyr Champion of Ilmater	HD:10	TYPE:Prestige	ABB:Mac	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Martyr Champion of Ilmater	PREALIGN:LG	PRESKILL:1,Knowledge (Religion)=4	PRESKILL:1,TYPE.Strength=9,TYPE.Dexterity=9,TYPE.Constitution=9,TYPE.Intelligence=9,TYPE.Wisdom=9,TYPE.Charisma=9	PREFEAT:2,Endurance,Nimbus of Light	PREDEITY:1,Ilmater	PRETEXT:Must have died in heroic sacrifice and been returned to life.							
+CLASS:Martyr Champion of Ilmater	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Heal|Knowledge (Religion)|TYPE.Profession|Ride|Spellcraft											
+1		UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6	VFEAT:Diehard|Improved Unarmed Strike										
+2		UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6		ABILITY:Special Ability|AUTOMATIC|Immunity To Fear			BONUS:ABILITYPOOL|Martyr Champion Ability|CL/2						
+3		UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6		ABILITY:Special Ability|AUTOMATIC|Greater Endurance									
+4		UDAM:1d2,1d3,1d4,1d6,1d8,1d10,2d8,4d6,6d6		ABILITY:Special Ability|AUTOMATIC|Divine Grace									
+5		UDAM:1d2,1d3,1d4,1d6,1d8,1d10,2d8,4d6,6d6		ABILITY:Special Ability|AUTOMATIC|Holy Suffering									
+6		UDAM:1d2,1d3,1d4,1d6,1d8,1d10,2d8,4d6,6d6											
+7		UDAM:1d2,1d3,1d4,1d6,1d8,1d10,2d8,4d6,6d6											DR:10/Evil
+8		UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,5d8,8d8											
+9		UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,5d8,8d8		ABILITY:Special Ability|AUTOMATIC|Communion|Sustenance									
+10		UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,5d8,8d8											DR:15/Evil
+#													
+CLASS:Slime Lord	HD:8	TYPE:Prestige	ABB:Sll	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Slime Lord	PREALIGN:LE,NE,CE	PREATT:4	PRESKILL:1,Disguise=6	PREFEAT:1,Willing Deformity	PREDEITY:1,Ghaunadaur								
+CLASS:Slime Lord	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|TYPE.Craft|Disguise|Escape Artist|Forgery|Hide|Intimidate|Knowledge (Dungeoneering)|Move Silently|Survival											
+1				ABILITY:Special Ability|AUTOMATIC|Paralytic Slime|Slime Lord Paralytic Slime|Pseudopods|Slime Lord Pseudopods			BONUS:VAR|SlimeLordParalyticSlimeLVL|CL	BONUS:VAR|SlimeLordPseudopodsLVL|CL					
+2													
+3				ABILITY:Special Ability|AUTOMATIC|Gaze|Charming Gaze|Slime Lord Charming Gaze			BONUS:VAR|SlimeLordCharmingGazeLVL|CL						
+4				ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep									
+5				ABILITY:Special Ability|AUTOMATIC|Alter Self									TEMPLATE:Shapechanger
+6													
+7										DR:5/Slashing or Piercing			
+8				ABILITY:Special Ability|AUTOMATIC|Immunity To Polymorph									
+9													VISION:Blindsight (60')
+10				ABILITY:Special Ability|AUTOMATIC|No Discernible Anatomy									
+#													
+CLASS:Yathrinshee	HD:4	TYPE:Prestige	ABB:Yat	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
+CLASS:Yathrinshee	PREMULT:1,[PRERACE:1,Drow%],[PRERACE:1,RACESUBTYPE=Drow]	PREGENDER:1,Female	PRESKILL:2,Knowledge (Arcana)=7,Knowledge (Religion)=7	PRESKILL:1,Perform (Sing)=3	PREFEAT:1,Lichloved,Spell Focus(Necromancy)	PRESPELL:2,Animate Dead,Spectral Hand	PREDEITY:1,Kiaransalee						
+CLASS:Yathrinshee	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft											
+1				ABILITY:Special Ability|AUTOMATIC|Yathrinshee Rebuke Undead|Necromancer			BONUS:VAR|YathrinsheeRebukeUndeadLVL|CL						
+2	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Divine		ABILITY:Special Ability|AUTOMATIC|Threnody|Yathrinshee Threnody									
+3	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Divine											
+4				ABILITY:Special Ability|AUTOMATIC|Death Ward									
+5	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Divine		ABILITY:Special Ability|AUTOMATIC|Curse of the Revenancer									
+6	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Divine											
+7				ABILITY:Special Ability|AUTOMATIC|Zone of Desecration|Yathrinshee Zone of Desecration									
+8	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Divine											
+9	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Divine											
+10				ABILITY:Special Ability|AUTOMATIC|Keening (Su)									

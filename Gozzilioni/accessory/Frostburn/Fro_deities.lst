@@ -1,0 +1,14 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net						
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal	TYPE:Greater	PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Aengrist	ALIGN:LG	DEITYWEAP:Sword (Bastard)		DOMAINS:Law,Protection,War,Winter	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Auril (Fro)	ALIGN:NE	DEITYWEAP:Axe (Ice)		DOMAINS:Air,Cold,Evil,Storm,Water,Winter	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Hleid	ALIGN:NG	DEITYWEAP:Trident		DOMAINS:Animal,Good,Healing,Winter	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Iborighu	ALIGN:CE	DEITYWEAP:Scythe		DOMAINS:Chaos,Cold,Death,War	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Levistus (Fro)	ALIGN:LE	DEITYWEAP:Rapier		DOMAINS:Cold,Diabolic,Evil,Icebergs,Trickery	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Telchur (Fro)	ALIGN:CN	DEITYWEAP:Shortspear		DOMAINS:Air,Chaos,Cold,Strength,Winter	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Thrym (Fro)	ALIGN:CE	DEITYWEAP:Greataxe		DOMAINS:Chaos,Cold,Earth,Evil,Strength,War	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Ulutiu (Fro)	ALIGN:LN	DEITYWEAP:Longspear		DOMAINS:Animal,Law,Ocean,Protection,Strength	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	
+Vatun	ALIGN:CN	DEITYWEAP:Battleaxe		DOMAINS:Air,Animal,Chaos,Snow,Strength	TYPE:Greater	PANTHEON:Frostburn	SOURCEPAGE:Fro	

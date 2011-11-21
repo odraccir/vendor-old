@@ -1,0 +1,9 @@
+SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net/													
+															
+###Block:Familiar															
+# Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type
+FOLLOWER:WRLevel=1	TYPE:Waverider Mount		HD:1	ABILITY:Special Ability|AUTOMATIC|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion		COPYMASTERCHECK:MASTER			DEFINE:LOCK.INT|5	BONUS:STAT|STR|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:WRLevel=8	TYPE:Waverider Mount		HD:1							DEFINE:LOCK.INT|6	BONUS:STAT|STR|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:WRLevel=11	TYPE:Waverider Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind						DEFINE:LOCK.INT|7	BONUS:STAT|STR|1	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:WRLevel=15	TYPE:Waverider Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Fast Movement						DEFINE:LOCK.INT|8	BONUS:STAT|STR|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:WRLevel=19	TYPE:Waverider Mount	SR:5+WRClassLevel	HD:2							DEFINE:LOCK.INT|9	BONUS:STAT|STR|2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			

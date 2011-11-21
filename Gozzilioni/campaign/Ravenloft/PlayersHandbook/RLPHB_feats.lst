@@ -1,0 +1,18 @@
+SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net																																								
+																																										
+# BASICS																																										
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	
+#Entities from the ID	TYPE:Metamagic	VISIBLE:YES																		PRETEXT:Ability to summon creatures; Must have failed at least one Madness save.				DESC:See Text																	SOURCEPAGE:RLDMG, pag 105	
+Back to the Wall	TYPE:General	VISIBLE:YES		PREATT:2																				DESC:See Text																	SOURCEPAGE:RLPHB	
+Cold One	TYPE:General	VISIBLE:YES																		PRETEXT:You must have lost at least level due an energy drain attack				DESC:See Text																	SOURCEPAGE:RLPHB	
+Courage	TYPE:General	VISIBLE:YES																						DESC:See Text														BONUS:VAR|FearResistanceBonus|4			SOURCEPAGE:RLPHB	ABILITY:Special Ability|AUTOMATIC|Resistance To Fear
+Dead Man Walking	TYPE:General	VISIBLE:YES																		PRETEXT:You must have survived an encounter that went against you.				DESC:See Text																	SOURCEPAGE:RLPHB	
+Ethereal Empathy	TYPE:General	VISIBLE:YES													PRESTAT:1,WIS=13									DESC:See Text																	SOURCEPAGE:RLPHB	
+Ghostsight	TYPE:General	VISIBLE:YES																		PRETEXT:You must have had a brush with death.				DESC:See Text																	SOURCEPAGE:RLPHB	VISION:Ghostsight (30')
+Haunted	TYPE:General	VISIBLE:YES																		PRETEXT:For the obvious reason, someone close to you must have death.				DESC:See Text																	SOURCEPAGE:RLPHB	
+Jaded	TYPE:General	VISIBLE:YES																				SAB:+4 bonus on all Horror saves.		DESC:See Text																	SOURCEPAGE:RLPHB	
+Lunatic	TYPE:General	VISIBLE:YES																		PREALIGN:CG,CN,CE				DESC:See Text																	SOURCEPAGE:RLPHB	
+Open Mind	TYPE:General	VISIBLE:YES																				SAB:+4 bonus on all Madness saves.		DESC:See Text																	SOURCEPAGE:RLPHB	
+Redhead	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1				PRESTAT:1,WIS=11									DESC:See Text																	SOURCEPAGE:RLPHB	
+Reincarnated	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1													DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|CROSSCLASS										CSKILL:%CHOICE				SOURCEPAGE:RLPHB	
+Voice of Wrath	TYPE:General	VISIBLE:YES																				SAB:+% bonus on all Curse checks.|VoiceOfWrathBonus		DESC:See Text																	SOURCEPAGE:RLPHB	DEFINE:VoiceOfWrathBonus|4

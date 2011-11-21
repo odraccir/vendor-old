@@ -1,0 +1,127 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																																															
+
+# BASICS																																																	
+# Feat Name	Type	sourcepage																																															
+Combat Casting.MOD	TYPE:Hexblade																																																
+Greater Spell Focus.MOD	TYPE:Hexblade																																																
+Greater Spell Penetration.MOD	TYPE:Hexblade																																																
+Spell Focus.MOD	TYPE:Hexblade																																																
+Spell Penetration.MOD	TYPE:Hexblade																																																
+Far Shot.MOD	TYPE:Ronin																																																
+Improved Precise Shot.MOD	TYPE:Ronin																																																
+Manyshot.MOD	TYPE:Ronin																																																
+Mounted Archery.MOD	TYPE:Ronin																																																
+Mounted Combat.MOD	TYPE:Ronin																																																
+Point Blank Shot.MOD	TYPE:Ronin																																																
+Precise Shot.MOD	TYPE:Ronin																																																
+Rapid Shot.MOD	TYPE:Ronin																																																
+Ride By Attack.MOD	TYPE:Ronin																																																
+Shot on the Run.MOD	TYPE:Ronin																																																
+Spirited Charge.MOD	TYPE:Ronin																																																
+Trample.MOD	TYPE:Ronin																																																
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page								
+Arcane Strike	TYPE:General	VISIBLE:YES		PREATT:4									PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3										DESC:See Text																	SOURCEPAGE:CW								
+Arterial Strike	TYPE:General	VISIBLE:YES		PREATT:4		PREABILITY:1,CATEGORY=Special Ability,Sneak Attack																		DESC:See Text																	SOURCEPAGE:CW								
+Axiomatic Strike	TYPE:General	VISIBLE:YES				PREFEAT:1,Stunning Fist															PREVARGTEQ:KiStrikeLawful,1			DESC:See Text																	SOURCEPAGE:CW								
+Clever Wrestling	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike															PREMULT:2,[PRESIZEEQ:S],[PRESIZEEQ:M]			DESC:See Text																	SOURCEPAGE:CW								
+Close Quarter Strike	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Close-quarters Strike	PREATT:3																				DESC:See Text																	SOURCEPAGE:CW								
+Dash	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CW		BONUS:MOVEADD|TYPE.Walk|10|!PREEQUIP:1,TYPE=Armor.Medium,TYPE=Armor.Heavy						
+Defensive Strike	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Combat Expertise,Dodge									PRESTAT:2,INT=18,DEX=18									DESC:See Text																	SOURCEPAGE:CW								
+Defensive Throw	TYPE:General	VISIBLE:YES				PREFEAT:4,Combat Expertise,Dodge,Improved Trip,Improved Unarmed Strike									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:CW								
+Destructive Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
+Earth's Embrace	TYPE:General	VISIBLE:YES				PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Improved Grab],[PREFEAT:1,Improved Grapple]	PREFEAT:1,Improved Unarmed Strike								PRESTAT:1,STR=15									DESC:See Text																	SOURCEPAGE:CW								
+Eagle Claw Attack	TYPE:General	VISIBLE:YES				PREFEAT:2,Improved Sunder,Improved Unarmed Strike									PRESTAT:1,WIS=13									DESC:See text																	SOURCEPAGE:CW								
+Extend Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CW		BONUS:VAR|RageDuration|5	BONUS:VAR|FrenzyDuration|5	BONUS:VAR|FuryOfTigressDuration|5				
+Extra Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CW		BONUS:VAR|RageTimes|2	BONUS:VAR|FrenzyTimes|2	BONUS:VAR|FuryOfTigressTimes|2				
+Extra Smithing	TYPE:General.Paladin	VISIBLE:YES		PREATT:4		PREABILITY:1,CATEGORY=Special Ability,TYPE=Smite																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|ExtraSmite|2			SOURCEPAGE:CW	SAB:Extra Smite %/day|ExtraSmite	DEFINE:ExtraSmite|0						
+Extra Stunning	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:1,Stunning Fist																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|StunningFistAttack|3			SOURCEPAGE:CW								
+#Eyes in the back of your head rsrd ha dei prerequisiti pi� alti rispetto al complete Warrior. per ora sostituiamo. PREATT:3 PRESTAT:1,WIS=19																																																	
+Eyes in the Back of Your Head.MOD	TYPE:General.Ranger	VISIBLE:YES		PREATT:1											PRESTAT:1,WIS=13									DESC:See Text																	SOURCEPAGE:CW								
+Faster Healing	TYPE:General	VISIBLE:YES													PRECHECKBASE:1,Fortitude=5									DESC:See Text																	SOURCEPAGE:CW								
+Favored Power Attack	TYPE:General	VISIBLE:YES		PREATT:4		PREABILITY:1,CATEGORY=Special Ability,TYPE.FavoredEnemy	PREFEAT:1,Power Attack																	DESC:See Text																	SOURCEPAGE:CW								
+Fist of Iron	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:2,Improved Unarmed Strike,Stunning Fist																		DESC:See Text																	SOURCEPAGE:CW								
+#Fleet of foot  identico all'rsrd. saltato.																																																	
+#Fleet of Foot	TYPE:General	VISIBLE:YES				PREFEAT:1,Run									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
+Flick of the Wrist	TYPE:General	VISIBLE:YES				PREFEAT:1,Quick Draw						PRESKILL:1,Sleight of Hand=5			PRESTAT:1,DEX=17									DESC:See Text																	SOURCEPAGE:CW								
+Flying Kick	TYPE:General	VISIBLE:YES				PREFEAT:2,Improved Unarmed Strike,Power Attack						PRESKILL:1,Jump=4			PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:CW								
+Freezing the Lifeblood	TYPE:General.Fighter	VISIBLE:YES		PREATT:10		PREFEAT:2,Improved Unarmed Strike,Stunning Fist									PRESTAT:1,WIS=17									DESC:See Text																	SOURCEPAGE:CW	SAB:Freezing Lifeblood Fort DC %|FreezingBloodDC	DEFINE:FreezingBloodDC|0	BONUS:VAR|FreezingBloodDC|10+TL+WIS					
+Greater Kiai Shout	TYPE:General	VISIBLE:YES		PREATT:9		PREFEAT:1,Kiai Shout									PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:CW	SAB:Kiai Shout %/day (Will DC % or panicked %d6 rounds)|KiaiShoutTimes|KiaiShoutDC|KiaiShoutDuration|PREVARLT:GreaterKiaiShout,1	BONUS:VAR|KiaiShoutDuration|1	BONUS:VAR|GreaterKiaiShout|1					
+Greater Resiliency	TYPE:General	VISIBLE:YES													PREDR:1,-=1,Magic=1,Silver=1,Cold Iron=1,Adamantine=1,Holy=1,Unholy=1									DESC:See Text																	SOURCEPAGE:CW	ADD:FEAT|TYPE=GreaterResiliency							
+Greater Resiliency - Adamantine	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (Adamantine)												PREDR:1,Adamantine=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|Adamantine|1							
+Greater Resiliency - Cold Iron	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (Cold Iron)												PREDR:1,Cold Iron=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|Cold Iron|1							
+Greater Resiliency - General	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (General)												PREDR:1,-=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|-|1							
+Greater Resiliency - Holy	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (Holy)												PREDR:1,Holy=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|Holy|1							
+Greater Resiliency - Magic	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (Magic)												PREDR:1,Magic=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|Magic|1							
+Greater Resiliency - Silver	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (Silver)												PREDR:1,Silver=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|Silver|1							
+Greater Resiliency - Unholy	TYPE:Special.GreaterResiliency	VISIBLE:NO	OUTPUTNAME:Greater Resiliency (Unholy)												PREDR:1,Unholy=1									DESC:See Text																	SOURCEPAGE:CW	BONUS:DR|Unholy|1							
+Greater Two Weapon Defense	TYPE:General.Fighter.ModifyAC.RangerTwoWeap	VISIBLE:YES	OUTPUTNAME:Greater Two-Weapon Defense	PREATT:11		PREFEAT:3,Improved Two Weapon Defense,Two Weapon Defense,Two Weapon Fighting									PRESTAT:1,DEX=19									DESC:See Text																	SOURCEPAGE:CW	BONUS:VAR|TwoWeaponShield|1							
+Hamstring	TYPE:General	VISIBLE:YES		PREATT:4		PREABILITY:1,CATEGORY=Special Ability,Sneak Attack																		DESC:See Text																	SOURCEPAGE:CW								
+#Hold the line identico all'rsrd. saltato.																																																	
+#Hold the Line	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:1,Combat Reflexes																		DESC:See Text																	SOURCEPAGE:CW								
+Improved Buckler Defence	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Shield Proficiency																		DESC:See Text																	SOURCEPAGE:CW								
+Improved Combat Expertise	TYPE:General.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:1,Combat Expertise									PRESTAT:1,INT=15									DESC:See Text																	SOURCEPAGE:CW								
+Improved Familiar.MOD	COMPANIONLIST:Familiar|Krenshar|FOLLOWERADJUSTMENT:-2|PREFEAT:1,Improved Familiar|PREALIGN:TN|PREATT:3|PRECLASS:1,SPELLCASTER.Arcane=3	COMPANIONLIST:Familiar|Worg|FOLLOWERADJUSTMENT:-2|PREFEAT:1,Improved Familiar|PREALIGN:NE|PREATT:3|PRECLASS:1,SPELLCASTER.Arcane=3	COMPANIONLIST:Familiar|Blink Dog|FOLLOWERADJUSTMENT:-4|PREFEAT:1,Improved Familiar|PREALIGN:LG|PREATT:5|PRECLASS:1,SPELLCASTER.Arcane=5	COMPANIONLIST:Familiar|Hell Hound|FOLLOWERADJUSTMENT:-4|PREFEAT:1,Improved Familiar|PREALIGN:LE|PREATT:5|PRECLASS:1,SPELLCASTER.Arcane=5	COMPANIONLIST:Familiar|Hippogriff|FOLLOWERADJUSTMENT:-6|PREFEAT:1,Improved Familiar|PREALIGN:TN|PREATT:7|PRECLASS:1,SPELLCASTER.Arcane=7	COMPANIONLIST:Familiar|Howler|FOLLOWERADJUSTMENT:-6|PREFEAT:1,Improved Familiar|PREALIGN:CE|PREATT:7|PRECLASS:1,SPELLCASTER.Arcane=7	COMPANIONLIST:Familiar|Winter Wolf|FOLLOWERADJUSTMENT:-6|PREFEAT:1,Improved Familiar|PREALIGN:NE|PREATT:7|PRECLASS:1,SPELLCASTER.Arcane=7	COMPANIONLIST:GuardianFamiliar|Guardian (Spark)|FOLLOWERADJUSTMENT:-6|PREFEAT:1,Improved Familiar|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=7	COMPANIONLIST:GuardianFamiliar|Guardian (Gauntlet)|FOLLOWERADJUSTMENT:-8|PREFEAT:1,Improved Familiar|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=9	COMPANIONLIST:GuardianFamiliar|Guardian (Blade)|FOLLOWERADJUSTMENT:-10|PREFEAT:1,Improved Familiar|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=11																																							
+#Improved favored enemy diverso, cambiato di nome.																																																	
+Improved Favored Enemy (CW)	TYPE:General.Ranger	VISIBLE:YES		PREATT:5		PREABILITY:1,CATEGORY=Special Ability,Basic Favored Enemy																		DESC:See Text																	SOURCEPAGE:CW	BONUS:VAR|FavoredBase|3							
+Improved Mounted Archery	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Mounted Archery,Mounted Combat						PRESKILL:1,Ride=1												DESC:See Text																	SOURCEPAGE:CW								
+Improved Rapid Shot	TYPE:General.Fighter.RangerArcher	VISIBLE:YES				PREFEAT:3,Manyshot,Point Blank Shot,Rapid Shot																		DESC:See Text																	SOURCEPAGE:CW								
+Improved Toughness	TYPE:General.Fighter	VISIBLE:YES													PRECHECKBASE:1,Fortitude=2									DESC:See Text																	SOURCEPAGE:CW	BONUS:HP|CURRENTMAX|TL							
+Improved Two Weapon Defense	TYPE:General.Fighter.ModifyAC.RangerTwoWeap	VISIBLE:YES	OUTPUTNAME:Improved Two-Weapon Defense	PREATT:6		PREFEAT:2,Two Weapon Defense,Two Weapon Fighting									PRESTAT:1,DEX=17									DESC:See Text																	SOURCEPAGE:CW	BONUS:VAR|TwoWeaponShield|1							
+Improved Weapon Familiarity	TYPE:General.Fighter	VISIBLE:YES		PREATT:1																				DESC:See Text	STACK:NO	MULT:NO															SOURCEPAGE:CW	ADD:FEAT|TYPE=RacialFamiliarity							
+Dwarven Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Dwarf%,Half-Dwarf],[PRERACE:1,RACESUBTYPE=Dwarf]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Dwarven=Martial						
+Elven Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Elven=Martial						
+Gnomish Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Gnome%,Half-Gnome],[PRERACE:1,RACESUBTYPE=Gnome]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Gnomish=Martial						
+Orcisc Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Orc%,Half-Orc],[PRERACE:1,RACESUBTYPE=Orc]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Orcish=Martial						
+Instantaneous Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
+Intimidating Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
+Karmic Strike	TYPE:General	VISIBLE:YES				PREFEAT:2,Combat Expertise,Dodge									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:CW								
+Kiai Shout	TYPE:General	VISIBLE:YES		PREATT:1											PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:CW	SAB:Kiai Shout %/day (Will DC % or shaken %d6 rounds)|KiaiShoutTimes|KiaiShoutDC|KiaiShoutDuration|PREVARLT:GreaterKiaiShout,1	DEFINE:KiaiShoutTimes|0	DEFINE:KiaiShoutDC|0	DEFINE:KiaiShoutDuration|0	DEFINE:GreaterKiaiShout|0	BONUS:VAR|KiaiShoutTimes|3	BONUS:VAR|KiaiShoutDC|10+(TL/2)+CHA	BONUS:VAR|KiaiShoutDuration|1
+Monkey Grip	TYPE:General	VISIBLE:YES		PREATT:1																				DESC:See text																	SOURCEPAGE:CW	BONUS:WIELDCATEGORY|ALL|-1							
+Pain Touch	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:1,Stunning Fist									PRESTAT:1,WIS=15									DESC:See Text																	SOURCEPAGE:CW								
+Phalanx Fighting	TYPE:General.Fighter	VISIBLE:YES		PREATT:1		PREFEAT:1,Shield Proficiency																		DESC:See Text																	SOURCEPAGE:CW	BONUS:COMBAT|AC|1|TYPE=Phalanx|PREMULT:2,[PREEQUIP:1,TYPE.Shield.Heavy],[PREEQUIPPRIMARY:1,WIELDCATEGORY=Light]							
+Pin Shield	TYPE:General	VISIBLE:YES		PREATT:4		PREFEAT:1,Two Weapon Fighting																		DESC:See Text																	SOURCEPAGE:CW								
+#define?																																																	
+#Power Critical	TYPE:General.Fighter	VISIBLE:YES		PREATT:4		PREFEAT:1,Weapon Focus																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:FEAT=Weapon Focus														SOURCEPAGE:CW	SAB:Power Critical: +% to confirm critic|PowerCritic							
+Power Critical.MOD	TYPE:Fighter																																																
+Prone Attack	TYPE:General.Fighter	VISIBLE:YES		PREATT:2		PREFEAT:1,Lightning Reflexes									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
+Ranged Disarm	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,DEX=15									DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROF|1|TYPE.Ranged														SOURCEPAGE:CW								
+Ranged Pin	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
+Ranged Sunder	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:CW								
+Rapid Stunning	TYPE:General.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:2,Combat Reflexes,Stunning Fist																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CW								
+Roundabout Kick	TYPE:General	VISIBLE:YES				PREFEAT:2,Improved Unarmed Strike,Power Attack									PRESTAT:1,STR=15									DESC:See Text																	SOURCEPAGE:CW								
+#Sharp Shooting aggiunge un tipo diverso.																																																	
+Sharp Shooting.MOD	TYPE:General.Fighter.RangerArcher	VISIBLE:YES	OUTPUTNAME:Sharp-Shooting																																														
+Shield Charge	TYPE:General.Fighter	VISIBLE:YES		PREATT:3		PREFEAT:1,Improved Shield Bash																		DESC:See Text																	SOURCEPAGE:CW								
+Shield Slam	TYPE:General.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:2,Improved Shield Bash,Shield Charge																		DESC:See Text																	SOURCEPAGE:CW								
+Swarmfighting	TYPE:General	VISIBLE:YES		PREATT:1											PRESTAT:1,DEX=13						PRESIZEEQ:S			DESC:See Text																	SOURCEPAGE:CW								
+Throw Anything	TYPE:General	VISIBLE:YES		PREATT:2											PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
+Weakening Touch	TYPE:General.Fighter	VISIBLE:YES		PREATT:2		PREFEAT:2,Improved Unarmed Strike,Stunning Fist									PRESTAT:1,WIS=17									DESC:See Text																	SOURCEPAGE:CW								
+Zen Archery	TYPE:General	VISIBLE:YES		PREATT:1											PRESTAT:1,WIS=13									DESC:See Text																	SOURCEPAGE:CW	BONUS:COMBAT|TOHIT.Ranged|((max(WIS,DEX)-DEX)+SHIELDACCHECK)|TYPE=Ranged							
+# Divine Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page								
+Divine Cleansing	TYPE:Divine	VISIBLE:YES																				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead 		DESC:See Text																	SOURCEPAGE:CW								
+#Divine might e identico. saltato.																																																	
+#Divine Might	TYPE:Divine	VISIBLE:YES				PREFEAT:1,Power Attack									PRESTAT:1,STR=13							PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead 		DESC:See Text																	SOURCEPAGE:CW								
+Divine Resistance	TYPE:Divine	VISIBLE:YES				PREFEAT:1,Divine Cleansing																PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead 		DESC:See Text																	SOURCEPAGE:CW								
+Divine Shield	TYPE:Divine	VISIBLE:YES				PREFEAT:1,Shield Proficiency																PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead 		DESC:See Text																	SOURCEPAGE:CW								
+Divine Vigor	TYPE:Divine	VISIBLE:YES																				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead 		DESC:See Text																	SOURCEPAGE:CW								
+#Sacred Vengeance	TYPE:Divine	VISIBLE:YES																				PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead 		DESC:See Text																	SOURCEPAGE:CW								
+# Tactical Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page								
+Cavalry Charger	TYPE:Tactical.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:3,Mounted Combat,Spirited Charge,Trample																		DESC:See Text																	SOURCEPAGE:CW								
+Combat Brute	TYPE:Tactical.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:2,Improved Sunder,Power Attack																		DESC:See Text																	SOURCEPAGE:CW								
+Elusive Target	TYPE:Tactical	VISIBLE:YES		PREATT:6		PREFEAT:2,Dodge,Mobility																		DESC:See Text																	SOURCEPAGE:CW								
+Formation Expert	TYPE:Tactical.Fighter	VISIBLE:YES		PREATT:6																				DESC:See Text																	SOURCEPAGE:CW								
+Giantbane	TYPE:Tactical	VISIBLE:YES		PREATT:6								PRESKILL:1,Tumble=5									PRESIZELTEQ:M			DESC:See Text																	SOURCEPAGE:CW								
+Raptor School	TYPE:Tactical	VISIBLE:YES		PREATT:6								PRESKILL:1,Jump=5			PRESTAT:1,WIS=13									DESC:See Text																	SOURCEPAGE:CW								
+Shock Trooper	TYPE:Tactical.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:2,Improved Bull Rush,Power Attack																		DESC:See Text																	SOURCEPAGE:CW								
+Sun School	TYPE:Tactical	VISIBLE:YES		PREATT:4																		PREABILITY:1,CATEGORY=Special Ability,Flurry of Blows		DESC:See Text																	SOURCEPAGE:CW								
+# Style Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page								
+Anvil of Thunder	TYPE:Style	VISIBLE:YES				PREFEAT:3,Improved Sunder,Power Attack,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Warhammer),Weapon Focus(Hammer (Light))	PREFEAT:1,Weapon Focus(Battleaxe),Weapon Focus(Handaxe),Weapon Focus(Waraxe (Dwarven))							PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:CW								
+Bear Fang	TYPE:Style	VISIBLE:YES				PREFEAT:2,Power Attack,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Dagger)	PREFEAT:1,Weapon Focus(Battleaxe),Weapon Focus(Handaxe),Weapon Focus(Waraxe (Dwarven))																DESC:See Text																	SOURCEPAGE:CW								
+Crescent Moon	TYPE:Style	VISIBLE:YES				PREFEAT:3,Improved Disarm,Two Weapon Fighting,Improved Two Weapon Fighting	PREFEAT:1,Weapon Focus(Dagger)	PREFEAT:1,Weapon Focus(Sword (Bastard)),Weapon Focus(Longsword),Weapon Focus(Scimitar),Weapon Focus(Sword (Short))																DESC:See Text																	SOURCEPAGE:CW								
+Hammer's Edge	TYPE:Style	VISIBLE:YES				PREFEAT:2,Improved Bull Rush,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Sword (Bastard)),Weapon Focus(Longsword),Weapon Focus(Scimitar)	PREFEAT:1,Weapon Focus(Warhammer),Weapon Focus(Hammer (Light))							PRESTAT:1,STR=15									DESC:See Text																	SOURCEPAGE:CW								
+High Sword Low Axe	TYPE:Style	VISIBLE:YES				PREFEAT:2,Improved Trip,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Sword (Bastard)),Weapon Focus(Longsword),Weapon Focus(Scimitar),Weapon Focus(Sword (Short))	PREFEAT:1,Weapon Focus(Battleaxe),Weapon Focus(Handaxe),Weapon Focus(Waraxe (Dwarven))																DESC:See Text																	SOURCEPAGE:CW								
+Lightning Mace	TYPE:Style	VISIBLE:YES				PREFEAT:2,Combat Reflexes,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Mace (Light))																	DESC:See Text																	SOURCEPAGE:CW								
+Net and Trident	TYPE:Style	VISIBLE:YES				PREFEAT:2,Two Weapon Fighting,Exotic Weapon Proficiency(Net)	PREFEAT:1,Weapon Focus(Trident)								PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
+Quick Staff	TYPE:Style	VISIBLE:YES				PREFEAT:3,Combat Expertise,Dodge,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Quarterstaff)																	DESC:See Text																	SOURCEPAGE:CW								
+Spinning Halberd	TYPE:Style	VISIBLE:YES				PREFEAT:2,Combat Expertise,Two Weapon Fighting	PREFEAT:1,Weapon Focus(Halberd)																	DESC:See Text																	SOURCEPAGE:CW								
+Three Mountain	TYPE:Style	VISIBLE:YES				PREFEAT:3,Cleave,Improved Bull Rush,Power Attack	PREFEAT:1,Weapon Focus(Mace (Heavy)),Weapon Focus(Morningstar),Weapon Focus(Greatclub)								PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:CW								

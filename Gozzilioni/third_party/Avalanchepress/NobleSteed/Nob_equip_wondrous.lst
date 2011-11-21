@@ -1,0 +1,17 @@
+SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net								
+										
+# Equipment Name										
+#Rack of the Tortured Saint	COST:180									
+										
+###Block										
+Bronze Horseshoes		TYPE:Magic.Wondrous.Boot.Mount	COST:10000	WT:0		SOURCEPAGE:Nob		MODS:NO	DESC:Hooves are Flaming (+1d5 fire damage). Steed and rider take half damage from fire.	EQMOD:BRONZE
+Caparison of the Sun		TYPE:Magic.Wondrous.Cape.Mount	COST:3000	WT:7		SOURCEPAGE:Nob	DESC:both steed and rider gain +2 bonus to charisma.	MODS:NO		BONUS:STAT|CHA|2
+Earring of the Keen Whisper		TYPE:Magic.Wondrous.Mount	COST:6000	WT:0		SOURCEPAGE:Nob		MODS:NO
+Golden Bridle		TYPE:Magic.Wondrous.Mount	COST:5000	WT:1		SOURCEPAGE:Nob		MODS:NO
+Golden Cuffs		TYPE:Magic.Wondrous.Boot.Mount	COST:15000	WT:0		SOURCEPAGE:Nob		MODS:NO
+Horseshoes of Solid Ground		TYPE:Magic.Wondrous.Boot.Mount	COST:12000	WT:0		SOURCEPAGE:Nob		MODS:NO
+Ribbon (Speed)	OUTPUTNAME:Ribbon of [NAME]	TYPE:Magic.Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:Nob		MODS:NO	BONUS:MOVEADD|TYPE.Walk|10
+Ribbon (Balance)	OUTPUTNAME:Ribbon of [NAME]	TYPE:Magic.Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:Nob		MODS:NO	BONUS:SKILL|Balance|3|TYPE=Enhancement
+Ribbon (Protection)	OUTPUTNAME:Ribbon of [NAME]	TYPE:Magic.Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:Nob		MODS:NO	BONUS:COMBAT|AC|1|TYPE=Enhancement
+Ribbon (Assault)	OUTPUTNAME:Ribbon of [NAME]	TYPE:Magic.Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:Nob		MODS:NO	BONUS:COMBAT|TOHIT|2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE|2|TYPE=Enhancement
+Saddle of Occum		TYPE:Magic.Mount.Saddle.Resizable	COST:8000	WT:25		SOURCEPAGE:Nob		MODS:NO

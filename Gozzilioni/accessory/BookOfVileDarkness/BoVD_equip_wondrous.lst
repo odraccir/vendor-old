@@ -1,0 +1,33 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net								
+										
+# Equipment Name										
+#Rack of the Tortured Saint	COST:180									
+										
+###Block										
+Belt of the Dread Emperor		TYPE:Magic.Wondrous	COST:120000	WT:1		SOURCEPAGE:BovD		MODS:NO	DESC:recall spells at cost of hp of the creature attached.	
+Collar of Venom		TYPE:Magic.Wondrous.Amulet	COST:50000	WT:3		SOURCEPAGE:BovD		MODS:NO	DESC:Poison (Fort DC 14, Init.:1d10 CON, Sec.:1d10 CON)	
+Collar of Virulent Venom		TYPE:Magic.Wondrous.Amulet	COST:50000	WT:3		SOURCEPAGE:BovD		MODS:NO	DESC:Poison (Fort DC 20, Init.:1d10 CON, Sec.:1d10 CON)	
+Dark Altar Stone		TYPE:Magic.Wondrous	COST:150000	WT:100		SOURCEPAGE:BovD		MODS:NO		
+Elixir of Dark Speech		TYPE:Magic.Wondrous.Potion.Consumable	COST:150	WT:0		SOURCEPAGE:BovD		MODS:NO		
+Fanatic's Collar		TYPE:Magic.Wondrous.Amulet	COST:30000	WT:2		SOURCEPAGE:BovD		MODS:NO		
+Flesh Ring of Scorn		TYPE:Magic.Wondrous	COST:8000	WT:0		SOURCEPAGE:BovD		MODS:NO		
+Gem of Psychic Poison		TYPE:Magic.Wondrous	COST:28000	WT:0		SOURCEPAGE:BovD		MODS:NO	DESC:Poison (Init.:1d6 INT, Sec.:1d6 INT)	
+Heaven's Thorn		TYPE:Magic.Wondrous	COST:4550	WT:1		SOURCEPAGE:BovD		MODS:NO	DESC:touch attack stuns good-aligned outsider 1d4 round.	
+Hook of Dissolution		TYPE:Magic.Wondrous	COST:14400	WT:2		SOURCEPAGE:BovD		MODS:NO	DESC:3/day (Fort DC 22)	
+Iron Maiden of Preservation		TYPE:Magic.Wondrous	COST:7000	WT:550		SOURCEPAGE:BovD		MODS:NO		
+Maggot Harvester		TYPE:Magic.Wondrous	COST:10000	WT:5		SOURCEPAGE:BovD		MODS:NO		
+Necklace of Demons		TYPE:Magic.Wondrous.Amulet	COST:28500	WT:1		SOURCEPAGE:BovD		MODS:NO		
+Nipple Clamp of Exquisite Pain		TYPE:Magic.Wondrous	COST:8000	WT:0		SOURCEPAGE:BovD		MODS:NO		
+Oil of the Lamia		TYPE:Magic.Wondrous.Liquid.Flask.Consumable	COST:2000	WT:1		SOURCEPAGE:BovD		MODS:NO		
+Pain Extractor		TYPE:Magic.Wondrous	COST:64000	WT:3		SOURCEPAGE:BovD		MODS:NO		
+Pipe of Grief		TYPE:Magic.Wondrous	COST:3000	WT:1		SOURCEPAGE:BovD		MODS:NO		
+Piercing Needles of Pain		TYPE:Magic.Wondrous	COST:35000	WT:1		SOURCEPAGE:BovD		MODS:NO		
+Quiver of Lies		TYPE:Magic.Wondrous.Container	COST:12000	WT:0		SOURCEPAGE:BovD		MODS:NO		CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20
+Rack of Irresistible Torture		TYPE:Magic.Wondrous	COST:3000	WT:275		SOURCEPAGE:BovD		MODS:NO	DESC:+10 bonus on intimidate check made by the torturer.	
+Skull of Fear		TYPE:Magic.Wondrous	COST:70000	WT:2		SOURCEPAGE:BovD		MODS:NO	DESC:10' fr radius, Aura of Fear (Will DC 16)	
+Slime Pot		TYPE:Magic.Wondrous	COST:11200	WT:5		SOURCEPAGE:BovD		MODS:NO		
+Spiralburst Bottle		TYPE:Magic.Wondrous.Flask.Consumable	COST:19000	WT:1		SOURCEPAGE:BovD		MODS:NO		
+Symbol of Demogorgon		TYPE:Magic.Wondrous.Amulet.DivineFocus	COST:10000	WT:0		SOURCEPAGE:BovD		MODS:NO	SPROP:you can prepare Rotting Curse of Urfestra without Corruption cost.	BONUS:STAT|WIS|2|TYPE=Enhancement
+Tongue Studs of Hell Breath		TYPE:Magic.Wondrous	COST:35000	WT:1		SOURCEPAGE:BovD		MODS:NO	DESC:3/day 50' Line of Hellfire Breath 3d6 unholy.	
+Vasharan Offal Bag		TYPE:Magic.Wondrous	COST:3000	WT:10		SOURCEPAGE:BovD		MODS:NO		
+Vasharan Worm Pod		TYPE:Magic.Wondrous	COST:35000	WT:5		SOURCEPAGE:BovD		MODS:NO		

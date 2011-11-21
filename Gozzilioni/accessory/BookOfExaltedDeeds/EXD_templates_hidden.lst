@@ -1,0 +1,20 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+Initiate of Pistis Sophia Outsider	OUTPUTNAME:Outsider	VISIBLE:EXPORT	SOURCEPAGE:EXD	DR:10/Unholy	RACETYPE:Outsider	RACESUBTYPE:Native											
+Troubadour of Stars Outsider	OUTPUTNAME:Outsider	VISIBLE:EXPORT	SOURCEPAGE:EXD	DR:10/Unholy	RACETYPE:Outsider	RACESUBTYPE:Native											
+Risen Martyr Spiritual Body		VISIBLE:YES	SOURCEPAGE:EXD	PREALIGN:LG,NG,CG	PRECHECKBASE:3,Fortitude=2,Reflex=2,Will=2	PRESKILL:1,TYPE.Strength=9,TYPE.Dexterity=9,TYPE.Constitution=9,TYPE.Intelligence=9,TYPE.Wisdom=9,TYPE.Charisma=9	PRELANG:1,Celestial	PREFEAT:1,Nimbus of Light	PREFEAT:2,TYPE=Exalted	PRETEXT:Must have suffered martyrdom and must not have been returned to life. Must gain 1st-level of Risen Martyr prestige class.	TEMPLATE:Deathless	ABILITY:Special Ability|AUTOMATIC|Spiritual Body					
+Risen Martyr Perfection	OUTPUTNAME:Perfection	VISIBLE:EXPORT	SOURCEPAGE:EXD	TEMPLATE:CHOOSE:Risen Martyr Perfection ~ Lawful|Risen Martyr Perfection ~ Neutral|Risen Martyr Perfection ~ Chaotic													
+Risen Martyr Perfection ~ Lawful		VISIBLE:NO	SOURCEPAGE:EXD	PREALIGN:LG	RACESUBTYPE:Archon												
+Risen Martyr Perfection ~ Neutral		VISIBLE:NO	SOURCEPAGE:EXD	PREALIGN:NG	RACESUBTYPE:Guardinal												
+Risen Martyr Perfection ~ Chaotic		VISIBLE:NO	SOURCEPAGE:EXD	PREALIGN:CG	RACESUBTYPE:Eladrin												
+Swanmay Fey	OUTPUTNAME:Fey	VISIBLE:EXPORT	SOURCEPAGE:EXD	DR:10/Cold Iron	RACETYPE:Fey												
+
+###Block: Diseases																											
+																											
+# Template Name					Visible	Source Page						Stat bonus							Choose								Temporary effect description
+Affliction Damage (Eternal Torpor)	VISIBLE:NO		SOURCEPAGE:EXD	BONUS:STAT|DEX|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=6|TITLE=Dexterity Damage	TEMPDESC:Infection DC 14 (Contact), Incubation 1 days, Damage 1d6 DEX. Constantly drowsy, cannot charge or or run.																					
+Affliction Damage (Consuming Passion)	VISIBLE:NO		SOURCEPAGE:EXD	BONUS:STAT|INT|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Intelligence Damage	TEMPDESC:Infection DC 17 (Contact), Incubation 1d3 days, Damage 1d4 INT. Becomes covetus and paranoid.																					
+Affliction Damage (Depraved Decadence)	VISIBLE:NO		SOURCEPAGE:EXD	BONUS:STAT|STR|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Strength Damage	TEMPDESC:Infection DC 18 (Ingested), Incubation 1d6 days, Damage 1d4 STR. Ravenous hunger and grow weaks from hunger.																					
+Affliction Damage (Pride in Vain)	VISIBLE:NO		SOURCEPAGE:EXD	BONUS:STAT|CHA|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=6|TITLE=Charisma Damage	TEMPDESC:Infection DC 20 (Ingested), Incubation 1 days, Damage 1d6 CHA.Obsess about status and appearance.																					
+Affliction Damage (Raging Desire)	VISIBLE:NO		SOURCEPAGE:EXD	BONUS:STAT|CON|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Constitution Damage	TEMPDESC:Infection DC 15 (Inhaled), Incubation 1 days, Damage 1d3 CON. Insatiable sexual desire preventing the fullfillment of that desire.																					
+Affliction Damage (Haunting Conscience)	VISIBLE:NO		SOURCEPAGE:EXD	BONUS:STAT|WIS|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Wisdom Damage	TEMPDESC:Infection DC 16 (Inhaled), Incubation 1d3 days, Damage 1d4 WIS. Guilt-wracked and violently angry.																					

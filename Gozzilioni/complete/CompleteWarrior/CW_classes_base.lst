@@ -1,0 +1,185 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net									
+#											
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	FINE
+# Class Name req	Requirements	FINE									
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	define class variables (DEFINE:variable|value	FINE		
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)	
+CLASS:Hexblade	HD:10	TYPE:Base.PC	ABB:Hex	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Hexblade	
+CLASS:Hexblade	PREALIGN:LN,LE,TN,NE,CN,CE										
+CLASS:Hexblade	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (Arcana)|TYPE.Profession|Ride|Spellcraft	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Hexblade|CL/2|PRECLASS:1,Hexblade=4				
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)									
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Hexblade's Curse|Hexblade's Curse Level			BONUS:VAR|HexbladeCurseLevel|CL				
+2				ABILITY:Special Ability|AUTOMATIC|Arcane Resistance							
+3				ABILITY:Special Ability|AUTOMATIC|Mettle (Ex)							
+4	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Summon Familiar			BONUS:VAR|FMLevel|CL-3				
+5	CAST:0,0	KNOWN:0,2					BONUS:ABILITYPOOL|Hexblade Feat|CL/5				
+6	CAST:0,1	KNOWN:0,3									
+7	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Greater Hexblade's Curse							
+8	CAST:0,1,0	KNOWN:0,4,2									
+9	CAST:0,1,0	KNOWN:0,4,2									
+10	CAST:0,1,1	KNOWN:0,4,3									
+11	CAST:0,1,1,0	KNOWN:0,4,3,2									
+12	CAST:0,1,1,1	KNOWN:0,4,4,3		ABILITY:Special Ability|AUTOMATIC|Aura of Unluck|Hexblade Aura of Unluck			BONUS:VAR|HexbladeAuraUnluckLVL|CL				
+13	CAST:0,1,1,1	KNOWN:0,4,4,3									
+14	CAST:0,2,1,1,0	KNOWN:0,4,4,4,2									
+15	CAST:0,2,1,1,1	KNOWN:0,4,4,4,3									
+16	CAST:0,2,2,1,1	KNOWN:0,4,4,4,3									
+17	CAST:0,2,2,2,1	KNOWN:0,5,4,4,4									
+18	CAST:0,3,2,2,1	KNOWN:0,5,5,4,4									
+19	CAST:0,3,3,3,2	KNOWN:0,5,5,5,4		ABILITY:Special Ability|AUTOMATIC|Dire Hexblade's Curse							
+20	CAST:0,3,3,3,3	KNOWN:0,5,5,5,5									
+#											
+CLASS:Ex Hexblade	HD:10	TYPE:Base.PC	ABB:XHex		SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO	
+CLASS:Ex Hexblade	STARTSKILLPTS:2										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)									
+3				ABILITY:Special Ability|AUTOMATIC|Mettle (Ex)							
+#											
+CLASS:Samurai	HD:10	TYPE:Base.PC.Oriental	ABB:Sam	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Samurai	
+CLASS:Samurai	PREALIGN:LG,LN,LE										
+CLASS:Samurai	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (History)|Knowledge (Nobility and Royalty)|Ride|Sense Motive									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Daisho Proficiency							
+2				ABILITY:Special Ability|AUTOMATIC|Two Swords as One							
+3				ABILITY:Special Ability|AUTOMATIC|Kiai Smite|Samurai Kiai Smite			BONUS:VAR|SamuraiKiaiSmiteLVL|CL				
+4											
+5				ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master							
+6				ABILITY:Special Ability|AUTOMATIC|Staredown							
+7											
+8			VFEAT:Improved Initiative								
+9											
+10				ABILITY:Special Ability|AUTOMATIC|Mass Staredown							
+11				ABILITY:Special Ability|AUTOMATIC|Improved Two Swords as One							
+12											
+13											
+14				ABILITY:Special Ability|AUTOMATIC|Improved Staredown							
+15											
+16				ABILITY:Special Ability|AUTOMATIC|Greater Two Swords as One							
+17											
+18											
+19											
+20				ABILITY:Special Ability|AUTOMATIC|Frightful Presence|Samurai Frightful Presence			BONUS:VAR|SamuraiFrightfulPresenceLVL|CL				
+#											
+CLASS:Ex Samurai	HD:10	TYPE:Base.PC.Oriental	ABB:XSam		SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO	
+CLASS:Ex Samurai	STARTSKILLPTS:2										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Daisho Proficiency							
+2				ABILITY:Special Ability|AUTOMATIC|Two Swords as One							
+3				ABILITY:Special Ability|AUTOMATIC|Ex Samurai Kiai Smite			BONUS:VAR|ExSamuraiKiaiSmiteLVL|CL				
+4											
+5				ABILITY:Special Ability|AUTOMATIC|Iaijutsu Master							
+6							BONUS:SKILL|Intimidate|4				
+7											
+8			VFEAT:Improved Initiative								
+9											
+10											
+11				ABILITY:Special Ability|AUTOMATIC|Improved Two Swords as One							
+12											
+13											
+14											
+15											
+16				ABILITY:Special Ability|AUTOMATIC|Greater Two Swords as One							
+17											
+18											
+19											
+20							BONUS:VAR|FrightfulPresRange|30	BONUS:VAR|FrightfulPresDC|20+CHA			
+#											
+CLASS:Swashbuckler	HD:10	TYPE:Base.PC	ABB:SwB	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
+#CLASS:Swashbuckler											
+CLASS:Swashbuckler	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Escape Artist|Jump|TYPE.Profession|Sense Motive|Swim|Tumble|Use Rope									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)									
+#											
+1			VFEAT:Weapon Finesse								
+2				ABILITY:Special Ability|AUTOMATIC|Grace|Swashbuckler Grace			BONUS:VAR|SwashbucklerGraceLVL|CL				
+3				ABILITY:Special Ability|AUTOMATIC|Insightful Strike			BONUS:VAR|InsightfulStrikeBonus|max(0,INT)				
+4											
+5				ABILITY:Special Ability|AUTOMATIC|Dodge|Swashbuckler Dodge			BONUS:VAR|SwashbucklerDodgeLVL|CL				
+6											
+7				ABILITY:Special Ability|AUTOMATIC|Acrobatic Charge							
+8				ABILITY:Special Ability|AUTOMATIC|Improved Flanking							
+9											
+10											
+11				ABILITY:Special Ability|AUTOMATIC|Lucky							
+12											
+13				ABILITY:Special Ability|AUTOMATIC|Acrobatic Skill Mastery							
+14				ABILITY:Special Ability|AUTOMATIC|Weakening Critical							
+15											
+16											
+17				ABILITY:Special Ability|AUTOMATIC|Slippery Mind							
+18											
+19				ABILITY:Special Ability|AUTOMATIC|Wounding Critical							
+20											
+#											
+###COMMENT:CONTIGUOUS:Paladin|Paladin CW											
+CLASS:Paladin CW	HD:10	TYPE:Base.PC	ABB:PldCW	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Paladin CW	
+CLASS:Paladin CW	PREALIGN:LG										
+CLASS:Paladin CW	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
+1		AUTO:FEAT|Shield Proficiency									
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Aura of Good|Detect Evil|Smite Evil|Paladin CW Smite Evil			BONUS:VAR|AuraGood,DetectEvilLVL,PaladinCWSmiteEvilLVL|CL				
+2				ABILITY:Special Ability|AUTOMATIC|Divine Grace|Lay on Hands			BONUS:VAR|LayOnHandsLVL|CL				
+3				ABILITY:Special Ability|AUTOMATIC|Aura of Courage|Divine Health							
+4				ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead|Paladin CW Turn Undead			BONUS:VAR|PaladinCWTurnLVL|CL				
+5				ABILITY:Special Ability|AUTOMATIC|Special Mount			BONUS:VAR|SMLevel|CL				
+6				ABILITY:Special Ability|AUTOMATIC|Remove Disease|Blessed Weapon			BONUS:VAR|RemoveDiseaseLVL|CL				
+7											
+8											
+9											
+10											
+11				ABILITY:Special Ability|AUTOMATIC|Divine Might|Paladin CW Divine Might			BONUS:VAR|PaladinCWDivineMightLVL|CL				
+12											
+13				ABILITY:Special Ability|AUTOMATIC|Tend to Mount							
+14											
+15											
+16				ABILITY:Special Ability|AUTOMATIC|Holy Sword (Sp)			BONUS:VAR|HolySwordTimes|1	BONUS:VAR|HolySwordLVL|CL/2			
+17											
+18											
+19											
+20											
+#											
+CLASS:Ex Paladin CW	HD:10	TYPE:Base.PC	ABB:XPldCW		SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO	
+CLASS:Ex Paladin CW	STARTSKILLPTS:2										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
+1		AUTO:FEAT|Shield Proficiency									
+#											
+CLASS:Ranger CW	HD:8	TYPE:Base.PC	ABB:RgrCW	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
+#CLASS:Ranger CW											
+CLASS:Ranger CW	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		AUTO:FEAT|Armor Proficiency (Light)									
+1		AUTO:FEAT|Shield Proficiency									
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Basic Favored Enemy|Ranger CW Favored Enemy			BONUS:VAR|RangerCWFavoredEnemyLVL|CL				
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Ranger Combat Tree							
+#											
+1			AUTO:FEAT|Track	ABILITY:Special Ability|AUTOMATIC|Wild Empathy			BONUS:VAR|WildEmpathy|CL				
+2											
+3			AUTO:FEAT|Endurance								
+4				ABILITY:Special Ability|AUTOMATIC|Animal Companion|Ranger CW Animal Companion			BONUS:VAR|RangerCWAnimalCompLVL|CL				
+5											
+6				ABILITY:Special Ability|AUTOMATIC|Fast Movement ~ Ranger CW							
+7				ABILITY:Special Ability|AUTOMATIC|Woodland Stride							
+8				ABILITY:Special Ability|AUTOMATIC|Swift Tracker							
+9				ABILITY:Special Ability|AUTOMATIC|Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite|PREEQUIP:1,TYPE=Medium,TYPE=Heavy				
+10											
+11				ABILITY:Special Ability|AUTOMATIC|Nature's Blessing|Ranger CW Nature's Blessing			BONUS:VAR|RangerCWNatureSBlessingLVL|CL				
+12											
+13				ABILITY:Special Ability|AUTOMATIC|Camouflage							
+14											
+15											
+16				ABILITY:Special Ability|AUTOMATIC|Freedom of Movement (Sp)			BONUS:VAR|FreedomOfMovementTimes|1	BONUS:VAR|FreedomOfMovementLVL|CL/2			
+17				ABILITY:Special Ability|AUTOMATIC|Hide in Plain Sight (Ranger)							
+18											
+19											
+20											

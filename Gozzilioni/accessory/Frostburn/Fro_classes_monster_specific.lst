@@ -1,0 +1,59 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																																															
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus
+CLASS:Ice Weird	HD:8	TYPE:Monster	MAXLEVEL:14	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE																																									
+# Class Name	Required Race		Reg. Race Type																																														
+CLASS:Ice Weird		PRERACE:1,Elemental Weird (Ice Weird)	PRERACETYPE:Elemental																																														
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
+CLASS:Ice Weird	STARTSKILLPTS:2	MODTOSKILLS:YES																																															
+1	BONUS:PCLEVEL|Sorcerer|1		ADD:SPELLCASTER|1|Sorcerer	SPELLLIST:4|Sorcerer|DOMAIN.Chaos|DOMAIN.Law|DOMAIN.Healing																																													
+2	BONUS:PCLEVEL|Sorcerer|1																																																
+3	BONUS:PCLEVEL|Sorcerer|1																																																
+4	BONUS:PCLEVEL|Sorcerer|1																																																
+5	BONUS:PCLEVEL|Sorcerer|1																																																
+6	BONUS:PCLEVEL|Sorcerer|1																																																
+7	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																																															
+8	BONUS:PCLEVEL|Sorcerer|1																																																
+9	BONUS:PCLEVEL|Sorcerer|1																																																
+10	BONUS:PCLEVEL|Sorcerer|1																																																
+11	BONUS:PCLEVEL|Sorcerer|1																																																
+12	BONUS:PCLEVEL|Sorcerer|1																																																
+13	BONUS:PCLEVEL|Sorcerer|1																																																
+14	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																																															
+15	BONUS:PCLEVEL|Sorcerer|1																																																
+#																																																	
+CLASS:Snow Weird	HD:8	TYPE:Monster	MAXLEVEL:14	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE																																									
+# Class Name	Required Race		Reg. Race Type																																														
+CLASS:Snow Weird		PRERACE:1,Elemental Weird (Snow Weird)	PRERACETYPE:Elemental																																														
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
+CLASS:Snow Weird	STARTSKILLPTS:2	MODTOSKILLS:YES																																															
+1	BONUS:PCLEVEL|Sorcerer|1		ADD:SPELLCASTER|1|Sorcerer	SPELLLIST:3|Sorcerer|DOMAIN.Air|DOMAIN.Cold																																													
+2	BONUS:PCLEVEL|Sorcerer|1																																																
+3	BONUS:PCLEVEL|Sorcerer|1																																																
+4	BONUS:PCLEVEL|Sorcerer|1																																																
+5	BONUS:PCLEVEL|Sorcerer|1																																																
+6	BONUS:PCLEVEL|Sorcerer|1																																																
+7	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																																															
+8	BONUS:PCLEVEL|Sorcerer|1																																																
+9	BONUS:PCLEVEL|Sorcerer|1																																																
+10	BONUS:PCLEVEL|Sorcerer|1																																																
+11	BONUS:PCLEVEL|Sorcerer|1																																																
+12	BONUS:PCLEVEL|Sorcerer|1																																																
+13	BONUS:PCLEVEL|Sorcerer|1																																																
+14	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																																															
+15	BONUS:PCLEVEL|Sorcerer|1																																																
+#																																																	
+CLASS:Icegaunt	HD:12		TYPE:Monster	MAXLEVEL:20	SOURCEPAGE:Fro	ABILITY:Special Ability|AUTOMATIC|Undead Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Undead Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE																																							
+# Class Name	Reg. Race Type																																																
+CLASS:Icegaunt	PRERACETYPE:Undead	PRERACE:1,Icegaunt																																															
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
+CLASS:Icegaunt	STARTSKILLPTS:4	MODTOSKILLS:YES																																															
+1	BONUS:PCLEVEL|Druid|1	PROHIBITSPELL:DESCRIPTOR.Fire	ADD:SPELLCASTER|1|Druid	SPELLLIST:1|Druid																																													
+2																																																	
+3	BONUS:PCLEVEL|Druid|1																																																
+4																																																	
+5	BONUS:PCLEVEL|Druid|1																																																
+6																																																	
+7	BONUS:PCLEVEL|Druid|1																																																
+8																																																	
+9	BONUS:PCLEVEL|Druid|1																																																
+10																																																	

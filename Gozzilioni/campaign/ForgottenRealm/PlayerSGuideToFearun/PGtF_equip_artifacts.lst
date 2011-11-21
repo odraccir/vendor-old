@@ -1,0 +1,5 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net														
+																
+#MINOR ARTIFACTS																
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight		Modifier	Requires Modification?	Source Page			Critical Hit Multiplier	Critical Hit Range	Damage	Wield Category	Size
+Shattering Swords of Coronal Ynloeth		PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Artifact.Slashing.Sword	COST:0	WT:4		EQMOD:STEEL.MWORKW.PLUS5W.HOLY_M.SPEED	MODS:NO	SOURCEPAGE:PGtF			CRITMULT:x2	CRITRANGE:2	DAMAGE:1d8	WIELD:OneHanded	SIZE:M

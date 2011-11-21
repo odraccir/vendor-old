@@ -1,0 +1,183 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																																															
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus
+CLASS:Elder Brain	HD:8	TYPE:Monster	MAXLEVEL:78	SOURCEPAGE:LoM	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																									
+# Class Name	Reg. Race Type		Reg. Race Type																																														
+CLASS:Elder Brain	PRERACE:1,Elder Brain	PRERACETYPE:Aberration																																															
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
+CLASS:Elder Brain	STARTSKILLPTS:2	MODTOSKILLS:YES																																															
+1	BONUS:PCLEVEL|Sorcerer|1		ADD:SPELLCASTER|1|Sorcerer																																														
+2	BONUS:PCLEVEL|Sorcerer|1																																																
+3	BONUS:PCLEVEL|Sorcerer|1																																																
+4																																																	
+5	BONUS:PCLEVEL|Sorcerer|1																																																
+6	BONUS:PCLEVEL|Sorcerer|1																																																
+7	BONUS:PCLEVEL|Sorcerer|1																																																
+8																																																	
+9	BONUS:PCLEVEL|Sorcerer|1																																																
+10	BONUS:PCLEVEL|Sorcerer|1																																																
+11	BONUS:PCLEVEL|Sorcerer|1																																																
+12																																																	
+13	BONUS:PCLEVEL|Sorcerer|1																																																
+14	BONUS:PCLEVEL|Sorcerer|1																																																
+15	BONUS:PCLEVEL|Sorcerer|1																																																
+16																																																	
+17	BONUS:PCLEVEL|Sorcerer|1																																																
+18	BONUS:PCLEVEL|Sorcerer|1																																																
+19	BONUS:PCLEVEL|Sorcerer|1																																																
+20																																																	
+21	BONUS:PCLEVEL|Sorcerer|1																																																
+22	BONUS:PCLEVEL|Sorcerer|1																																																
+23	BONUS:PCLEVEL|Sorcerer|1																																																
+24																																																	
+25	BONUS:PCLEVEL|Sorcerer|1																																																
+26	BONUS:PCLEVEL|Sorcerer|1																																																
+27	BONUS:PCLEVEL|Sorcerer|1																																																
+28																																																	
+29	BONUS:PCLEVEL|Sorcerer|1																																																
+30	BONUS:PCLEVEL|Sorcerer|1																																																
+31	BONUS:PCLEVEL|Sorcerer|1																																																
+32																																																	
+33	BONUS:PCLEVEL|Sorcerer|1																																																
+34	BONUS:PCLEVEL|Sorcerer|1																																																
+35	BONUS:PCLEVEL|Sorcerer|1																																																
+36																																																	
+37	BONUS:PCLEVEL|Sorcerer|1																																																
+38	BONUS:PCLEVEL|Sorcerer|1																																																
+39	BONUS:PCLEVEL|Sorcerer|1																																																
+40																																																	
+41	BONUS:PCLEVEL|Sorcerer|1																																																
+42	BONUS:PCLEVEL|Sorcerer|1																																																
+43	BONUS:PCLEVEL|Sorcerer|1																																																
+44																																																	
+45	BONUS:PCLEVEL|Sorcerer|1																																																
+46	BONUS:PCLEVEL|Sorcerer|1																																																
+47	BONUS:PCLEVEL|Sorcerer|1																																																
+48																																																	
+49	BONUS:PCLEVEL|Sorcerer|1																																																
+50	BONUS:PCLEVEL|Sorcerer|1																																																
+51	BONUS:PCLEVEL|Sorcerer|1																																																
+52																																																	
+53	BONUS:PCLEVEL|Sorcerer|1																																																
+54	BONUS:PCLEVEL|Sorcerer|1																																																
+55	BONUS:PCLEVEL|Sorcerer|1																																																
+56																																																	
+57	BONUS:PCLEVEL|Sorcerer|1																																																
+58	BONUS:PCLEVEL|Sorcerer|1																																																
+59	BONUS:PCLEVEL|Sorcerer|1																																																
+60																																																	
+61	BONUS:PCLEVEL|Sorcerer|1																																																
+62	BONUS:PCLEVEL|Sorcerer|1																																																
+63	BONUS:PCLEVEL|Sorcerer|1																																																
+64																																																	
+65	BONUS:PCLEVEL|Sorcerer|1																																																
+66	BONUS:PCLEVEL|Sorcerer|1																																																
+67	BONUS:PCLEVEL|Sorcerer|1																																																
+68																																																	
+69	BONUS:PCLEVEL|Sorcerer|1																																																
+70	BONUS:PCLEVEL|Sorcerer|1																																																
+71	BONUS:PCLEVEL|Sorcerer|1																																																
+72																																																	
+73	BONUS:PCLEVEL|Sorcerer|1																																																
+74	BONUS:PCLEVEL|Sorcerer|1																																																
+75	BONUS:PCLEVEL|Sorcerer|1																																																
+76																																																	
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus
+CLASS:Elder Brain ~ Psionic	HD:8	TYPE:Monster	MAXLEVEL:78	SOURCEPAGE:LoM	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																									
+# Class Name	Reg. Race Type		Reg. Race Type																																														
+CLASS:Elder Brain ~ Psionic	PRERACE:1,Elder Brain (Psionic)	PRERACETYPE:Aberration																																															
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
+CLASS:Elder Brain ~ Psionic	STARTSKILLPTS:2	MODTOSKILLS:YES																																															
+1	BONUS:PCLEVEL|Telepath|1		ADD:SPELLCASTER|1|Telepath																																														
+2	BONUS:PCLEVEL|Telepath|1																																																
+3	BONUS:PCLEVEL|Telepath|1																																																
+4																																																	
+5	BONUS:PCLEVEL|Telepath|1																																																
+6	BONUS:PCLEVEL|Telepath|1																																																
+7	BONUS:PCLEVEL|Telepath|1																																																
+8																																																	
+9	BONUS:PCLEVEL|Telepath|1																																																
+10	BONUS:PCLEVEL|Telepath|1																																																
+11	BONUS:PCLEVEL|Telepath|1																																																
+12																																																	
+13	BONUS:PCLEVEL|Telepath|1																																																
+14	BONUS:PCLEVEL|Telepath|1																																																
+15	BONUS:PCLEVEL|Telepath|1																																																
+16																																																	
+17	BONUS:PCLEVEL|Telepath|1																																																
+18	BONUS:PCLEVEL|Telepath|1																																																
+19	BONUS:PCLEVEL|Telepath|1																																																
+20																																																	
+21	BONUS:PCLEVEL|Telepath|1																																																
+22	BONUS:PCLEVEL|Telepath|1																																																
+23	BONUS:PCLEVEL|Telepath|1																																																
+24																																																	
+25	BONUS:PCLEVEL|Telepath|1																																																
+26	BONUS:PCLEVEL|Telepath|1																																																
+27	BONUS:PCLEVEL|Telepath|1																																																
+28																																																	
+29	BONUS:PCLEVEL|Telepath|1																																																
+30	BONUS:PCLEVEL|Telepath|1																																																
+31	BONUS:PCLEVEL|Telepath|1																																																
+32																																																	
+33	BONUS:PCLEVEL|Telepath|1																																																
+34	BONUS:PCLEVEL|Telepath|1																																																
+35	BONUS:PCLEVEL|Telepath|1																																																
+36																																																	
+37	BONUS:PCLEVEL|Telepath|1																																																
+38	BONUS:PCLEVEL|Telepath|1																																																
+39	BONUS:PCLEVEL|Telepath|1																																																
+40																																																	
+41	BONUS:PCLEVEL|Telepath|1																																																
+42	BONUS:PCLEVEL|Telepath|1																																																
+43	BONUS:PCLEVEL|Telepath|1																																																
+44																																																	
+45	BONUS:PCLEVEL|Telepath|1																																																
+46	BONUS:PCLEVEL|Telepath|1																																																
+47	BONUS:PCLEVEL|Telepath|1																																																
+48																																																	
+49	BONUS:PCLEVEL|Telepath|1																																																
+50	BONUS:PCLEVEL|Telepath|1																																																
+51	BONUS:PCLEVEL|Telepath|1																																																
+52																																																	
+53	BONUS:PCLEVEL|Telepath|1																																																
+54	BONUS:PCLEVEL|Telepath|1																																																
+55	BONUS:PCLEVEL|Telepath|1																																																
+56																																																	
+57	BONUS:PCLEVEL|Telepath|1																																																
+58	BONUS:PCLEVEL|Telepath|1																																																
+59	BONUS:PCLEVEL|Telepath|1																																																
+60																																																	
+61	BONUS:PCLEVEL|Telepath|1																																																
+62	BONUS:PCLEVEL|Telepath|1																																																
+63	BONUS:PCLEVEL|Telepath|1																																																
+64																																																	
+65	BONUS:PCLEVEL|Telepath|1																																																
+66	BONUS:PCLEVEL|Telepath|1																																																
+67	BONUS:PCLEVEL|Telepath|1																																																
+68																																																	
+69	BONUS:PCLEVEL|Telepath|1																																																
+70	BONUS:PCLEVEL|Telepath|1																																																
+71	BONUS:PCLEVEL|Telepath|1																																																
+72																																																	
+73	BONUS:PCLEVEL|Telepath|1																																																
+74	BONUS:PCLEVEL|Telepath|1																																																
+75	BONUS:PCLEVEL|Telepath|1																																																
+76																																																	
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus
+CLASS:Mind Flayer ~ Psionic Ulitharid	HD:8	TYPE:Monster	MAXLEVEL:12	SOURCEPAGE:LoM	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																									
+# Class Name	Reg. Race Type		Reg. Race Type																																														
+CLASS:Mind Flayer ~ Psionic Ulitharid	PRERACE:1,Mind Flayer (Ulitharid/Psionic)	PRERACETYPE:Aberration																																															
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
+CLASS:Mind Flayer ~ Psionic Ulitharid	STARTSKILLPTS:2	MODTOSKILLS:YES																																															
+1	BONUS:PCLEVEL|Telepath|1		ADD:SPELLCASTER|1|Telepath																																														
+2	BONUS:PCLEVEL|Telepath|1																																																
+3	BONUS:PCLEVEL|Telepath|1																																																
+4	BONUS:PCLEVEL|Telepath|1																																																
+5	BONUS:PCLEVEL|Telepath|1																																																
+6	BONUS:PCLEVEL|Telepath|1																																																
+7	BONUS:PCLEVEL|Telepath|1	BONUS:PCLEVEL|Telepath|1																																															
+8	BONUS:PCLEVEL|Telepath|1																																																
+9	BONUS:PCLEVEL|Telepath|1																																																
+10	BONUS:PCLEVEL|Telepath|1																																																
+11	BONUS:PCLEVEL|Telepath|1																																																
+12	BONUS:PCLEVEL|Telepath|1																																																

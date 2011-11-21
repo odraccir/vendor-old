@@ -1,0 +1,34 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net									
+# Class Name	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Willpower)	Combat bonus	EXCLASS	FINE
+# Class Name	Requirements	FINE									
+# Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		
+# Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)						
+#(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)	
+CLASS:Corrupt	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Corrupt	SPELLSTAT:SPELL	SPELLTYPE:None	SPELLBOOK:YES		BONUS:CASTERLEVEL|Corrupt|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#
+CLASS:Vile (Arcane/WIS)	HD:1	TYPE:VileSpells	ABB:Vile Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Vile (Arcane/WIS)	SPELLSTAT:WIS	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Corrupt	BONUS:CASTERLEVEL|Vile (Arcane/WIS)|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#											
+CLASS:Vile (Arcane/INT)	HD:1	TYPE:VileSpells	ABB:Vile Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Vile (Arcane/INT)	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Corrupt	BONUS:CASTERLEVEL|Vile (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#											
+CLASS:Vile (Arcane/CHA)	HD:1	TYPE:VileSpells	ABB:Vile Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Vile (Arcane/CHA)	SPELLSTAT:CHA	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Corrupt	BONUS:CASTERLEVEL|Vile (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#											
+CLASS:Vile (Divine/WIS)	HD:1	TYPE:VileSpells	ABB:Vile Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Vile (Divine/WIS)	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Corrupt	BONUS:CASTERLEVEL|Vile (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#											
+CLASS:Vile (Divine/INT)	HD:1	TYPE:VileSpells	ABB:Vile Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Vile (Divine/INT)	SPELLSTAT:INT	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Corrupt	BONUS:CASTERLEVEL|Vile (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#											
+CLASS:Vile (Divine/CHA)	HD:1	TYPE:VileSpells	ABB:Vile Spells		SOURCEPAGE:BoVD					VISIBLE:NO	
+CLASS:Vile (Divine/CHA)	SPELLSTAT:CHA	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Corrupt	BONUS:CASTERLEVEL|Vile (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+1	CAST:0,0,0,0,0,0,0,0,0,0										
+#											

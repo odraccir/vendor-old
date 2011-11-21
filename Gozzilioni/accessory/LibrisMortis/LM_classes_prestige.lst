@@ -1,0 +1,134 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net											
+													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Death's Chosen	HD:10	TYPE:Prestige	ABB:Dec	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
+CLASS:Death's Chosen	PRERACE:1,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:5	PRESKILL:1,Knowledge (Religion)=1	PRESKILL:1,Spot=2	PRETEXT:Must be accepted as a death's chosen by a sentient undead creature with at least as many hd as the character.							
+CLASS:Death's Chosen	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Gather Information|Hide|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Search|Spot											
+#													
+1				ABILITY:Special Ability|AUTOMATIC|Shield of The Master|Vigor of the Choosen									
+2				ABILITY:Special Ability|AUTOMATIC|Will of the Choosen									
+3				ABILITY:Special Ability|AUTOMATIC|Bravery of the Choosen|Unnatural Aura									
+#													
+CLASS:Dirgesinger	HD:6	TYPE:Prestige	ABB:Dir	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Dirgesinger	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (Religion)=4	PRESKILL:1,TYPE.Perform=8	PREFEAT:1,Requiem	PREABILITY:1,CATEGORY=Special Ability,Bardic Music								
+CLASS:Dirgesinger	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (History)|Knowledge (Religion)|Listen|TYPE.Perform|Sense Motive|Speak Language											
+1				ABILITY:Special Ability|AUTOMATIC|Dirgesong|Song of Sorrow			BONUS:VAR|DirgesongLVL|CL	BONUS:VAR|BardicMusicTimes|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Song of Bolstering									
+3				ABILITY:Special Ability|AUTOMATIC|Song of Grief									
+4				ABILITY:Special Ability|AUTOMATIC|Song of Horror									
+5				ABILITY:Special Ability|AUTOMATIC|Song of Awakening									
+#													
+CLASS:Master of Radiance	HD:8	TYPE:Prestige	ABB:MsR	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Master of Radiance	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Knowledge (Religion)=5	PRESKILL:1,Knowledge (Nature)=8	PRESPELL:1,Daylight	PRESPELLCAST:TYPE=Divine								
+CLASS:Master of Radiance	STARTSKILLPTS:4	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Spellcraft|Spot											
+1				ABILITY:Special Ability|AUTOMATIC|Master of Radiance Turn Undead|Radiant Aura|Master of Radiance Radiant Aura			BONUS:VAR|MasterOfRadianceTurnUndeadLVL|CL	BONUS:VAR|MasterOfRadianceRadiantAuraLVL|CL					
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Searing Light (Sp/round)									
+3	ADD:SPELLCASTER|Divine												
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Beam of Sunlight (Sp/round)									
+#													
+CLASS:Master of Shrouds	HD:8	TYPE:Prestige	ABB:Msh	MAXLEVEL:10	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Master of Shrouds	PREALIGN:LN,LE,TN,NE,CN,CE	PRECHECKBASE:1,Will=5	PRESKILL:3,Concentration=5,Knowledge (Religion)=5,Spellcraft=5	PREFEAT:2,Augment Summoning,Spell Focus(Conjuration)	PRESPELLCAST:TYPE=Divine	PRESPELL:1,Protection from Good	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead						
+CLASS:Master of Shrouds	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Hide|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft											
+1				ABILITY:Special Ability|AUTOMATIC|Extra Rebuking|Master of Shrouds Rebuke Undead			BONUS:VAR|MasterOfShroudsRebukeUndeadLVL|CL						
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Summon Undead (Sp)			BONUS:VAR|MasterOfShroudsSummonUndeadLVL|CL						
+3	ADD:SPELLCASTER|Divine												
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Improved Summoning									
+6	ADD:SPELLCASTER|Divine												
+7	ADD:SPELLCASTER|Divine												
+8	ADD:SPELLCASTER|Divine												
+9	ADD:SPELLCASTER|Divine												
+10	ADD:SPELLCASTER|Divine												
+#													
+CLASS:Pale Master	HD:4	TYPE:Prestige	ABB:Plm	MAXLEVEL:10	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
+CLASS:Pale Master	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (Religion)=8	PREFEAT:1,Skill Focus(Knowledge (Religion))	PRESPELL:2,Command Undead,Vampiric Touch	PRESPELLCAST:TYPE=Arcane	PRETEXT:Must have spent 3 or more days locked in a tomb with animate undead. This contact may be peaceful or violent. A character who is slain by the undead and later raised still meets the requirement.							
+CLASS:Pale Master	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Spellcraft											
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+#													
+1													
+2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Animate Dead (Sp/no component)			BONUS:VAR|AnimateDeadPerDay|1						
+3	ADD:SPELLCASTER|Arcane									VISION:Darkvision (60')			
+4	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Undead Armor Affinity|Pale Master Undead Armor Affinity			BONUS:VAR|PaleMasterUndeadArmorAffinityLVL|CL						
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Control Undead (Sp)|Deathless Vigor									
+6	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Undead Graft|Pale Master Undead Graft			BONUS:VAR|PaleMasterUndeadGraftLVL|CL	BONUS:ABILITYPOOL|Undead Graft|CL-5	BONUS:VAR|PaleMasterUndeadGraftLVL|CL				
+7	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Tough as Bone									
+8	ADD:SPELLCASTER|Arcane						BONUS:VAR|UndeadArmorSpellFailure|10						
+9	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Undead Cohort									
+10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Deathless Mastery									
+#													
+CLASS:Sacred Purifier	HD:8	TYPE:Prestige	ABB:Sap	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Sacred Purifier	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PRESKILL:1,Knowledge (Religion)=8	PREFEAT:1,Extra Turning	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=2	PREABILITY:1,CATEGORY=Special Ability,Turn Undead						
+CLASS:Sacred Purifier	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Religion)|TYPE.Profession|Search|Spellcraft											
+1				ABILITY:Special Ability|AUTOMATIC|Basic Greater Turning|Sacred Purifier Greater Turning|Sacred Purifier Turn Undead			BONUS:VAR|SacredPurifierTurnUndeadLVL|CL	BONUS:ABILITYPOOL|Greater Turn Undead|1|TYPE=ClassAbility	BONUS:VAR|SacredPurifierGreaterTurnUndeadLVL|CL				
+2	ADD:SPELLCASTER|Divine												
+3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Sacred Strike									
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Positive Energy Burst|Sacred Purifier Energy Burst			BONUS:VAR|SacredPurifierPositiveBurstLVL|CL						
+#													
+CLASS:True Necromancer	HD:6	TYPE:Prestige	ABB:Trn	MAXLEVEL:14	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
+CLASS:True Necromancer	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:2,Knowledge (Arcana)=8,Knowledge (Religion)=8	PREFEAT:1,Spell Focus(Necromancy)	PRESPELL:2,Summon Undead II,Command Undead	PRETEXT:Summon Undead II as divine spell, Command Undead as arcane spell	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	PREDOMAIN:1,Death						
+CLASS:True Necromancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Search|Spellcraft											
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|True Necromancer Rebuke Undead			BONUS:VAR|TrueNecromancerRebukeUndeadLVL|CL						
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Create Undead (Sp)|True Necromancer Create Undead			BONUS:VAR|TrueNecromancerCreateUndeadLVL|CL	BONUS:VAR|CreateUndeadLVL|CL		DEFINE:TrueNecromancerCreateUndeadPerDay|0			
+3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Necromantic Prowess|True Necromancer Necromantic Prowess			BONUS:VAR|TrueNecromancerNecromanticProwessLVL|CL						
+3	ADD:SPELLCASTER|Divine												
+4	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Zone of Desecration|True Necromancer Zone of Desecration									
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Arcane						BONUS:VAR|TrueNecromancerCreateUndeadPerDay|1						
+5	ADD:SPELLCASTER|Divine												
+6	ADD:SPELLCASTER|Arcane												
+7	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Major Desecration|True Necromancer Major Desecration			BONUS:VAR|TrueNecromancerMajorDesecrationLVL|CL						
+8	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Create Greater Undead (Sp)|True Necromancer Create Greater Undead			BONUS:VAR|TrueNecromancerCreateGreaterUndeadLVL|CL	BONUS:VAR|CreateGreaterUndeadLVL|CL					
+8	ADD:SPELLCASTER|Divine												
+9	ADD:SPELLCASTER|Arcane												
+9	ADD:SPELLCASTER|Divine												
+10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Horrid Wilting (Sp)			BONUS:VAR|HorridWiltingPerDay|1	BONUS:VAR|HorridWiltingLVL|CL					
+10	ADD:SPELLCASTER|Divine												
+11	ADD:SPELLCASTER|Arcane												
+11	ADD:SPELLCASTER|Divine												
+12	ADD:SPELLCASTER|Arcane												
+12	ADD:SPELLCASTER|Divine												
+13	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Energy Drain (Sp)			BONUS:VAR|EnergyDrainPerDay|1	BONUS:VAR|EnergyDrainLVL|CL					SPELLS:Innate|TIMES=1|CASTERLEVEL=TL+NecromanticProwessBonus|Energy Drain
+13	ADD:SPELLCASTER|Divine												
+14	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Wail of the Banshee (Sp)			BONUS:VAR|WailOfTheBansheePerDay|1	BONUS:VAR|WailOfTheBansheeLVL|CL					SPELLS:Innate|TIMES=1|CASTERLEVEL=TL+NecromanticProwessBonus|Wail of the Banshee
+14	ADD:SPELLCASTER|Divine												
+#													
+CLASS:Ephemeral Exemplar	HD:12	TYPE:Prestige.Undead	ABB:Eex	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
+CLASS:Ephemeral Exemplar	PRERACE:1,RACETYPE=Undead	PRERACE:1,RACESUBTYPE=Incorporeal	PREATT:3	PRECHECKBASE:1,Will=5	PRETEXT:Even undead creatures that normally don't advances by class level, can take the class if qualify.								
+CLASS:Ephemeral Exemplar	STARTSKILLPTS:4	CSKILL:Hide|Listen|Search|Spot											
+1				ABILITY:Special Ability|AUTOMATIC|Improved Deflection|Ephemeral Exemplar Improved Deflection|Turn Resistance			BONUS:VAR|EphemeralExemplarImprovedDeflectionLVL|CL	BONUS:VAR|TurnResistBonus|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Enhanced Spawn									
+3			AUTO:FEAT|Ghostly Grasp										
+#													
+CLASS:Lurking Terror	HD:12	TYPE:Prestige.Undead	ABB:Lur	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
+CLASS:Lurking Terror	PRERACE:1,RACETYPE=Undead	PRESKILL:1,Hide=8	PREMULT:1,[PRERACE:1,RACESUBTYPE=Incorporeal],[PRESKILL:1,Move Silently=8]		PRETEXT:Even undead creatures that normally don't advances by class level, can take the class if qualify.								
+CLASS:Lurking Terror	STARTSKILLPTS:4	CSKILL:Climb|Escape Artist|Hide|Jump|Listen|Move Silently|Search|Spot											
+1				ABILITY:Special Ability|AUTOMATIC|Deathly Power|Lurking Terror Deathly Power			BONUS:VAR|LurkingTerrorDeathlyPowerLVL|CL						
+2				ABILITY:Special Ability|AUTOMATIC|Improved Darkvision									
+3				ABILITY:Special Ability|AUTOMATIC|Hide in Plain Sight (Ex)									
+#													
+CLASS:Master Vampire	HD:12	TYPE:Prestige.Undead	ABB:Msv	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
+CLASS:Master Vampire	PRERACE:1,RACETYPE=Undead	PREMULT:1,[PRETEMPLATE:1,Vampire],[PRERACE:1,RACESUBTYPE=Vampire]			PRETEXT:The charachter must control at least two vampires or vampire spawns that he created by means of its create spawn ability. Even undead creatures that normally don't advances by class level, can take the class if qualify.								
+CLASS:Master Vampire	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Diplomacy|Hide|Intimidate|Listen|Move Silently|Search|Sense Motive|Spot											
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|More Spawn|Turn Resistance ~ increased									
+2				ABILITY:Special Ability|AUTOMATIC|Enhanced Spawn									
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Master's Chosen									
+													
+CLASS:Tomb Warden	HD:12	TYPE:Prestige.Undead	ABB:Tow	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Tomb Warden			
+CLASS:Tomb Warden	PRERACE:1,RACETYPE=Undead	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:3	PRECHECKBASE:1,Will=5	PREFEAT:1,Toughness	PRETEXT:Must dedicate itself to the protection of a tomb, graveyard o similar resting place of the dead. Even undead creatures that normally don't advances by class level, can take the class if qualify.							
+CLASS:Tomb Warden	STARTSKILLPTS:4	CSKILL:Hide|Knowledge (Religion)|Listen|Move Silently|Search|Sense Motive|Spot											
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
+#													
+1				ABILITY:Special Ability|AUTOMATIC|Immunity to Turning									
+2				ABILITY:Special Ability|AUTOMATIC|Tomb Sense									
+3				ABILITY:Special Ability|AUTOMATIC|Power of the Dead			BONUS:VAR|PowerOfTheDeadPerDay|1						
+#													
+CLASS:Ex Tomb Warden	HD:12	TYPE:Prestige.Undead	ABB:xTow	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO			
+CLASS:Ex Tomb Warden	STARTSKILLPTS:4	CSKILL:Hide|Knowledge (Religion)|Listen|Move Silently|Search|Sense Motive|Spot											
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											

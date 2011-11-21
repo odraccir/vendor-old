@@ -1,0 +1,16 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																			
+																					
+###Block:Rods																					
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Reach	Wield Category	Size	Virtual Feat	Special Property	
+Rod (Icicle)	OUTPUTNAME:[NAME] Rod	TYPE:Magic.Rod.Weapon.Melee.Finesseable.Martial.Standard.Piercing.Sword	COST:120000	WT:5	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50].STEEL.PLUS1W.FROST_M	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Sword (Short)		CRITMULT:x2	CRITRANGE:1	DAMAGE:1d6								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|10
+Rod (Piercing Cold/Lesser)	OUTPUTNAME:Rod of Lesser Piercing Cold	TYPE:Magic.Rod.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger	COST:21430	WT:5	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50].STEEL.PLUS2W.FROST_M	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger		CRITMULT:x2	CRITRANGE:2	DAMAGE:1d4									
+Rod (Piercing Cold)	OUTPUTNAME:Rod of [NAME]	TYPE:Magic.Rod.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger	COST:29300	WT:5	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50].STEEL.PLUS2W.FROST_M	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger		CRITMULT:x2	CRITRANGE:2	DAMAGE:1d4									
+Rod (Piercing Cold/Greater)	OUTPUTNAME:Rod of Greater Piercing Cold	TYPE:Magic.Rod.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger	COST:42800	WT:5	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50].STEEL.PLUS2W.FROST_M	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger		CRITMULT:x2	CRITRANGE:2	DAMAGE:1d4									
+																					
+###Block:Staves																					
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD		Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Modifier	Wield Category	Size	Virtual Feat	Special Property	
+Staff (Iceberg)	OUTPUTNAME:Staff of [NAME]	TYPE:Magic.Staff.Weapon.Simple.Melee.Bludgeoning.Double.Quarterstaff	COST:138000	WT:5	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.ICE_BR_M	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Quarterstaff	ALTTYPE:Weapon.Melee.Bludgeoning	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	ALTCRITMULT:x2	ALTCRITRANGE:1	ALTDAMAGE:1d6	ALTEQMOD:WOOD	WIELD:TwoHanded	SIZE:M			
+Staff (Winter/Fro)	OUTPUTNAME:Staff of [NAME]	TYPE:Magic.Staff	COST:58000	WT:5	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:Fro														
+																					
+###Block:Wands																					
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD		Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Modifier	Wield Category	Size	Virtual Feat	Special Property	

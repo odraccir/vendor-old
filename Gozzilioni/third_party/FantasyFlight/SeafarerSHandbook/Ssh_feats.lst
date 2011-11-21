@@ -1,0 +1,35 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page				
+Amphibious Endurance	TYPE:General																			PREMULT:1,[PRERACE:1,RACESUBTYPE=Merfolk,Ogre (Half Merrow),Elf (Aquatic),Elf (Coral),Elf (Kelp),Locathah,Sahuagin,Triton],[PRERACE:1,RACESUBTYPE=Aquatic]				DESC:See Text.																	SOURCEPAGE:Ssh				
+Armor Proficiency (Aquatic)	TYPE:General																							DESC:See Text.				AUTO:ARMORPROF|ARMORTYPE=Aquatic													SOURCEPAGE:Ssh				
+Barroom Brawler	TYPE:General					PREFEAT:1,Toughness									PRESTAT:1,CON=13									DESC:See Text.																	SOURCEPAGE:Ssh	UDAM:1,1,1d2,1d3,1d4,1d6,1d8,1d10,1d12			
+Cast-Iron Stomach	TYPE:General														PRESTAT:1,CON=13									DESC:See Text.																	SOURCEPAGE:Ssh				
+Child of the Sea	TYPE:General										PREPCLEVEL:MAX=1													DESC:See Text.																	SOURCEPAGE:Ssh				
+Create Manikin	TYPE:ItemCreation				PRECLASS:1,Spellcaster=12																			DESC:See Text.																	SOURCEPAGE:Ssh				
+Endurance Swimmer	TYPE:General					PREFEAT:1,Endurance									PRESTAT:1,STR=13									DESC:See Text.																	SOURCEPAGE:Ssh		DEFINE:EnduranceSwimmer|0	BONUS:SKILL|Swim|EnduranceSwimmer	BONUS:VAR|EnduranceSwimmer|(WEIGHT.CARRIED/20)*3
+Fool's Luck	TYPE:General																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Great Lungs	TYPE:General					PREFEAT:1,Endurance									PRESTAT:1,CON=13									DESC:See Text.																	SOURCEPAGE:Ssh				
+Improved Positional Advantage	TYPE:General			PREATT:4								PRESKILL:1,Swim=1												DESC:See Text.																	SOURCEPAGE:Ssh				
+Lookout	TYPE:General																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Naval Heritage	TYPE:General										PREPCLEVEL:MAX=1													DESC:See Text.																	SOURCEPAGE:Ssh				
+Notorious	TYPE:General																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Parry	TYPE:General			PREATT:3		PREFEAT:1,Combat Expertise									PRESTAT:1,DEX=13									DESC:See Text.																	SOURCEPAGE:Ssh				
+Parrying Weapon	TYPE:General					PREFEAT:1,Two Weapon Fighting																		DESC:See Text.																	SOURCEPAGE:Ssh				
+Polar Bear Skin	TYPE:General																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Port Savvy	TYPE:General																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Pressure Survival	TYPE:General											PRESKILL:1,Swim=1												DESC:See Text.																	SOURCEPAGE:Ssh				
+Riposte	TYPE:General			PREATT:6		PREFEAT:1,Parry																		DESC:See Text.																	SOURCEPAGE:Ssh				
+Rope Climber	TYPE:General														PRESTAT:1,DEX=13									DESC:See Text.																	SOURCEPAGE:Ssh				
+Sea Brother	TYPE:General																							DESC:See Text.	STACK:NO	MULT:YES	CHOOSE:STRING|Merfolk|Half-Merrow|Aquatic Elf														SOURCEPAGE:Ssh				
+Sea Dog	TYPE:General																							DESC:See Text.													BONUS:SKILL|Profession (Sailor),Profession (Navigator),Use Rope|2				SOURCEPAGE:Ssh				
+Scurvy Dog	TYPE:General														PRESTAT:1,CON=13									DESC:See Text.																	SOURCEPAGE:Ssh				
+Shanty Man	TYPE:General											PRESKILL:1,TYPE.Perform=1												DESC:See Text.																	SOURCEPAGE:Ssh				
+Shorewalker	TYPE:General																			PREMULT:1,[PRERACE:1,RACESUBTYPE=Merfolk,Ogre (Half Merrow),Elf (Aquatic),Elf (Coral),Elf (Kelp),Locathah,Sahuagin,Triton],[PRERACE:1,RACESUBTYPE=Aquatic]				DESC:See Text.																	SOURCEPAGE:Ssh				
+Storm Sense	TYPE:General																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Swing-By Attack	TYPE:General					PREFEAT:1,Rope Climber						PRESKILL:1,Climb=1												DESC:See Text.																	SOURCEPAGE:Ssh				
+Tail Slam	TYPE:General																		PRETEXT:Must have a tail.	PRERACE:1,RACESUBTYPE=Merfolk,Ogre (Half Merrow)				DESC:See Text.																	SOURCEPAGE:Ssh				
+Tail Walking	TYPE:General																		PRETEXT:Must have a tail.	PRERACE:1,RACESUBTYPE=Merfolk,Ogre (Half Merrow)				DESC:See Text.																	SOURCEPAGE:Ssh	BONUS:MOVEADD|TYPE=Walk|5			
+#Two-Weapon Defense	aggiornato																							DESC:See Text.																	SOURCEPAGE:Ssh				
+Waterfront Native	TYPE:General										PREPCLEVEL:MAX=1													DESC:See Text.													CSKILL:Swim				SOURCEPAGE:Ssh				
+Weapons of Opportunity	TYPE:General			PREATT:4																				DESC:See Text.																	SOURCEPAGE:Ssh				

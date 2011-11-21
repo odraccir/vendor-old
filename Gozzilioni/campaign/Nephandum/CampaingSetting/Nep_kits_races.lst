@@ -1,0 +1,21 @@
+SOURCELONG:Nephandum	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net
+
+STARTPACK:Default Coagulo	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Coagulo]
+RACE:Coagulo	!PRERACE:1,%
+NAME:Coagulo
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+SKILL:Escape Artist	RANK:8
+SKILL:Listen	RANK:6
+SKILL:Knowledge (Arcana)	RANK:8
+SKILL:Knowledge (Nature)	RANK:8
+SKILL:Knowledge (The Planes)	RANK:8
+SKILL:Knowledge (History)	RANK:3
+SKILL:Hide	RANK:4
+SKILL:Swim	RANK:7
+SKILL:Spot	RANK:6
+SKILL:Jump	RANK:12
+FEAT:Alertness
+FEAT:Ability Focus
+FEAT:Hover
+FEAT:Improved Initiative
+FEAT:Wingover

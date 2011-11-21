@@ -1,0 +1,78 @@
+SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net																																									
+																																											
+# BASICS																																											
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page		
+#Ability Focus	vedi MM																																										
+Area Attack	TYPE:General	VISIBLE:YES				PREFEAT:1,Power Attack									PRESTAT:1,STR=19					PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
+Assume Supernatural Ability	TYPE:General	VISIBLE:YES													PRESTAT:1,WIS=13					PRETEXT:Ability to assume a new form magically				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:SS		
+Blowhard	TYPE:General	VISIBLE:YES				PREFEAT:1,Power Attack									PRESTAT:1,CON=20					PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
+Bonus Breath	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Extend Spell,Extend Spell Like Ability														PRETEXT:Breath weapon with limited uses per day				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:SS		
+Controlled Respiration	TYPE:General	VISIBLE:YES				PREFEAT:1,Endurance														PRETEXT:Time limit on how long you can remain out of the water				DESC:See Text																	SOURCEPAGE:SS		
+Crush	TYPE:General	VISIBLE:YES																		PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
+Cumbrous Dodge	TYPE:General	VISIBLE:YES				PREFEAT:1,Dodge						PRESKILL:1,Tumble=4												DESC:See Text																	SOURCEPAGE:SS		
+Cumbrous Fortitude	TYPE:General	VISIBLE:YES				PREFEAT:1,Great Fortitude																		DESC:See Text																	SOURCEPAGE:SS		
+Cumbrous Reflexes	TYPE:General	VISIBLE:YES				PREFEAT:1,Lightning Reflexes																		DESC:See Text																	SOURCEPAGE:SS		
+Cumbrous Will	TYPE:General	VISIBLE:YES				PREFEAT:1,Iron Will																		DESC:See Text																	SOURCEPAGE:SS		
+Deadly Poison	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Virulent Poison									PRESTAT:1,CON=19				PRETEXT:the poison must deal ability damage as a secondary damage.	PREABILITY:1,CATEGORY=Special Ability,Poison				DESC:See Text																	SOURCEPAGE:SS		
+Deep Denizen	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Underground as sole terrain type.		SAB:+4 bonus while tracking by scent.		DESC:See Text													BONUS:SKILL|Listen|2|TYPE=Competence				SOURCEPAGE:SS		
+Desert Dweller	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Desert terrain type.				DESC:See Text																	SOURCEPAGE:SS		
+Detach	TYPE:Monstrous	VISIBLE:YES													PRESTAT:1,CON=19					PREABILITY:1,CATEGORY=Special Ability,Regeneration				DESC:See Text																	SOURCEPAGE:SS		
+Dust Cloud	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Combat Reflexes									PRESTAT:2,DEX=19,INT=19				PRETEXT:Wings or tail.	PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
+#Empower Spell Like Ability	vedi MM																																										
+Extend Reach	TYPE:Monstrous	VISIBLE:YES																	PRETEXT:Nonrigid body or nonrigid attack form such as a tentacle, feeler or pseudopod.	PRESIZEGTEQ:S				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFS|TYPE.Natural														SOURCEPAGE:SS	SELECT:1	
+Extra Item Space	TYPE:Monstrous	VISIBLE:YES								PREMULT:1,[PREHANDSGT:2],[PRELEGSGT:2]														DESC:See Text	STACK:YES	MULT:YES	CHOOSE:STRING|BOOT|BRACER|EYEGEAR|GLOVE|HANDS|HEADGEAR|LEGS|RING														SOURCEPAGE:SS	SELECT:1	BONUS:SLOTS|LIST|1
+Final Strike	TYPE:Monstrous	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Acid,RACESUBTYPE=Air,RACESUBTYPE=Cold,RACESUBTYPE=Earth,RACESUBTYPE=Electricity,RACESUBTYPE=Fire,RACESUBTYPE=Water		SAB:1 secondary attack with one natural weapol.		DESC:See Text																	SOURCEPAGE:SS		
+Fling Enemy	TYPE:General	VISIBLE:YES													PRESTAT:1,STR=23				PREABILITY:1,CATEGORY=Special Ability,Improved Grab	PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
+Gape of the Serpent	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Swallow Whole				DESC:See Text																	SOURCEPAGE:SS		
+Grass Trekker	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Plains terrain type.				DESC:See Text													BONUS:SKILL|Jump|2|TYPE=Competence				SOURCEPAGE:SS		
+Great Flyby Attack	TYPE:General	VISIBLE:YES				PREFEAT:1,Flyby Attack														PREMOVE:1,Fly=1				DESC:See Text																	SOURCEPAGE:SS		
+Greater Multigrab	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Multigrab									PREMULT:2,[PRESTAT:1,STR=19],[PRESTAT:1,DEX=15]					PREABILITY:1,CATEGORY=Special Ability,Improved Grab				DESC:See Text																	SOURCEPAGE:SS		
+#Greater Multiweapon Fighting	TYPE:Monstrous	VISIBLE:YES		PREATT:15		PREFEAT:3,Improved Multiweapon Fighting,Multiweapon Fighting,Multidexterity				PREHANDSGT:2					PRESTAT:1,DEX=19									DESC:See Text																	SOURCEPAGE:SS		
+Greater Mighty Roar	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Mighty Roar													PRERACE:1,TYPE=Animal,TYPE=Magical Beast	PRESIZEGTEQ:L				DESC:See Text																	SOURCEPAGE:SS		
+Improved Assume Supernatural Ability	TYPE:General	VISIBLE:YES				PREFEAT:1,Assume Supernatural Ability									PRESTAT:1,WIS=17					PRETEXT:Ability to assume a new form magically				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:SS		
+Improved Flyby Attack.MOD	SOURCEPAGE:SS
+Improved Multiattack.MOD	SOURCEPAGE:SS
+#Improved Multiweapon Fighting	TYPE:Monstrous	VISIBLE:YES		PREATT:9		PREFEAT:2,Multidexterity,Multiweapon Fighting				PREHANDSGT:2					PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:SS		
+Improved Multiweapon Fighting.MOD	SOURCEPAGE:SS
+Improved Scent	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Scent				DESC:See Text																	SOURCEPAGE:SS		
+#Improved Turn Resistance	TYPE:Monstrous	VISIBLE:YES																		PRERACE:1,RACETYPE=Undead				DESC:See Text																	SOURCEPAGE:SS	ABILITY:Special Ability|AUTOMATIC|Turn Resistance	BONUS:VAR|TurnResistBonus|4
+Improved Web	TYPE:Monstrous	VISIBLE:YES																	PRETEXT:Ability to create web at least twice per day.	PREABILITY:1,CATEGORY=Special Ability,Web				DESC:See Text																	SOURCEPAGE:SS		
+Inured to Energy (Acid)	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Resistance To Acid				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|AcidResistanceBonus|10			SOURCEPAGE:SS		
+Inured to Energy (Cold)	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Resistance To Cold				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|ColdResistanceBonus|10			SOURCEPAGE:SS		
+Inured to Energy (Electricity)	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Resistance To Electricity				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|ElectricityResistanceBonus|10			SOURCEPAGE:SS		
+Inured to Energy (Fire)	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Resistance To Fire				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|FireResistanceBonus|10			SOURCEPAGE:SS		
+Involuntary Rage	TYPE:General	VISIBLE:YES				PREFEAT:1,Toughness									PRESTAT:1,CON=20									DESC:See Text																	SOURCEPAGE:SS		
+Irresistible Gaze	TYPE:Monstrous	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Gaze				DESC:See Text																	SOURCEPAGE:SS		
+Mighty Leaping	TYPE:General	VISIBLE:YES				PREFEAT:2,Dodge,Mobility						PRESKILL:1,Jump=9			PRESTAT:1,STR=21									DESC:See Text													BONUS:SKILL|Jump|10|TYPE=Competence				SOURCEPAGE:SS		
+Mighty Roar	TYPE:Monstrous	VISIBLE:YES																	PRESIZEGTEQ:L	PRERACE:1,TYPE=Animal,TYPE=Magical Beast		SAB:Fort DC %|10+(HD/2)+CHA		DESC:See Text																	SOURCEPAGE:SS		
+Multigrab	TYPE:Monstrous	VISIBLE:YES													PRESTAT:1,STR=17					PREABILITY:1,CATEGORY=Special Ability,Improved Grab				DESC:See Text																	SOURCEPAGE:SS		
+Multitasking	TYPE:Monstrous	VISIBLE:YES				PREFEAT:3,Improved Multiweapon Fighting,Multiattack,Multiweapon Fighting				PREHANDSGTEQ:4					PRESTAT:2,DEX=15,INT=15									DESC:See Text																	SOURCEPAGE:SS		
+Multivoice	TYPE:Monstrous	VISIBLE:YES				PREFEAT:4,Improved Two Weapon Fighting,Multiattack,Quicken Spell,Two Weapon Fighting									PRESTAT:2,DEX=15,INT=15					PRETEXT:Two or more heads				DESC:See Text																	SOURCEPAGE:SS		
+Narrowed Gaze	TYPE:Monstrous	VISIBLE:YES													PRESTAT:1,INT=13					PREABILITY:1,CATEGORY=Special Ability,Gaze				DESC:See Text																	SOURCEPAGE:SS		
+Pain Mastery	TYPE:General	VISIBLE:YES				PREFEAT:1,Toughness									PRESTAT:1,CON=20									DESC:See Text																	SOURCEPAGE:SS		
+Peak Hopper	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Hill or Mountain terrain type.				DESC:See Text													BONUS:SKILL|Balance,Climb|2|TYPE=Competence				SOURCEPAGE:SS		
+Pervasive Gaze	TYPE:Monstrous	VISIBLE:YES													PRESTAT:1,INT=13					PREABILITY:1,CATEGORY=Special Ability,Gaze				DESC:See Text																	SOURCEPAGE:SS		
+Piercing Gaze	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Irresistible Gaze									PREMULT:2,[PRESTAT:1,INT=13],[PRESTAT:1,CHA=15]					PREABILITY:1,CATEGORY=Special Ability,Gaze				DESC:See Text																	SOURCEPAGE:SS		
+Poison Immunity	TYPE:Monstrous	VISIBLE:YES																	PRETEXT:Poison special attack as an extraordinary ability.	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Resistance To Poison],[PREFEAT:1,Poison Resistance]				DESC:See Text																	SOURCEPAGE:SS	ABILITY:Special Ability|AUTOMATIC|Immunity To Poison	
+Poison Resistance	TYPE:Monstrous	VISIBLE:YES																		PRETEXT:Poison special attack as an extraordinary ability.				DESC:See Text																	SOURCEPAGE:SS	ABILITY:Special Ability|AUTOMATIC|Resistance To Poison	BONUS:VAR|PoisonResistanceBonus|2|TYPE=Competence
+#Power Dive	TYPE:General	VISIBLE:YES													PRESTAT:1,STR=15					PREMOVE:1,Fly=1	PREVARGTEQ:Maneuverability,3			DESC:See Text																	SOURCEPAGE:SS		
+Prehensile Tail	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Two Weapon Fighting									PRESTAT:1,STR=13					PRETEXT:Tail attack				DESC:See Text																	SOURCEPAGE:SS		
+Quick Change	TYPE:General	VISIBLE:YES													PRESTAT:1,DEX=15					PREABILITY:1,CATEGORY=Special Ability,Alternate Form				DESC:See Text																	SOURCEPAGE:SS		
+#Quicken Spell Like Ability	vedi MM																																										
+Rapid Breath	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Quicken Spell,Quicken Spell Like Ability														PREABILITY:1,CATEGORY=Special Ability,Breath Weapon		SAB:-1 round		DESC:See Text																	SOURCEPAGE:SS		
+Rending Constriction	TYPE:Monstrous	VISIBLE:YES				PREFEAT:2,Greater Multigrab,Multigrab									PREMULT:2,[PRESTAT:1,STR=19],[PRESTAT:1,DEX=15]				PRETEXT:Two constricting limbs	PREABILITY:2,CATEGORY=Special Ability,Constrict,Improved Grab				DESC:See Text																	SOURCEPAGE:SS		
+Reverberation	TYPE:General	VISIBLE:YES																		PRETEXT:Sonic special attack.				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:SS		
+Roll With It	TYPE:General	VISIBLE:YES				PREFEAT:1,Toughness									PRESTAT:1,CON=20									DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											DR:0/-			SOURCEPAGE:SS	BONUS:DR|-|2	
+Scramble	TYPE:General	VISIBLE:YES													PRESTAT:1,DEX=15				PREABILITY:1,CATEGORY=Special Ability,Improved Evasion	PRESIZELTEQ:S				DESC:See Text																	SOURCEPAGE:SS		
+Stamp	TYPE:Monstrous	VISIBLE:YES																PRETEXT:feet.	PREABILITY:1,CATEGORY=Special Ability,Trample	PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
+Supernatural Transformation	TYPE:General	VISIBLE:YES																		PRETEXT:Innate spell-like ability				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLLEVEL|1|TYPE=Innate|0|MAXLEVEL														SOURCEPAGE:SS		
+Surrogate Spellcasting	TYPE:Monstrous	VISIBLE:YES													PRESTAT:1,WIS=13					PRETEXT:nonhumanoid or nonhumanoidlike form				DESC:See Text																	SOURCEPAGE:SS		
+Swamp Stalker	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Marsh terrain				DESC:See Text													BONUS:SKILL|Swim|2|TYPE=Competence				SOURCEPAGE:SS		
+Thick Skinned	TYPE:Monstrous	VISIBLE:YES	OUTPUTNAME:Thick-Skinned																	PRETEXT:Damage reduction				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:SS		
+Thunderclap	TYPE:General	VISIBLE:YES				PREFEAT:2,Improved Unarmed Strike,Power Attack									PRESTAT:1,STR=30									DESC:See Text																	SOURCEPAGE:SS		
+Treefriend	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Forest terrain				DESC:See Text													BONUS:SKILL|Climb|2|TYPE=Competence				SOURCEPAGE:SS		
+Uncanny Scent	TYPE:General	VISIBLE:YES				PREFEAT:1,Improved Scent														PREABILITY:1,CATEGORY=Special Ability,Scent				DESC:See Text																	SOURCEPAGE:SS		
+Vicious Wound	TYPE:General	VISIBLE:YES				PREFEAT:1,Combat Expertise														PREABILITY:1,CATEGORY=Special Ability,Wounding				DESC:See Text																	SOURCEPAGE:SS		
+Virulent Poison	TYPE:General	VISIBLE:YES																		PRETEXT:Poison special attack as an extraordinary ability.				DESC:See Text																	SOURCEPAGE:SS		
+#Wingstorm	TYPE:General	VISIBLE:YES				PREFEAT:2,Hover,Power Attack									PRESTAT:1,STR=13				PRESIZEGTEQ:L	PREMOVE:1,Fly=20				DESC:See Text																	SOURCEPAGE:SS		
+Winter's Child	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Cold terrain				DESC:See Text																	SOURCEPAGE:SS		

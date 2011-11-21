@@ -1,0 +1,8 @@
+# Gem dragon max age 1200+(75*Charisma score) ??? 						
+# Hellfire wyrn max age 1200+(50*Charisma score) ??? 						
+# monster Mayhem dragon max age 1200+(50*Charisma score) ??? 						
+AGESET:0|Adulthood						
+RACENAME:Horse %	BASEAGE:1	MAXAGE:20	AGEDIEROLL:3d4	HAIR:Black|Gray|White|Brown|Yellow|Red|Liver|Light Gray|Dark Gray	EYES:Black|Brown|Blue	SKINTONE:Grey|Flea Bitten|Palomino|Bay|Light Bay|Bright Bay|Chestnut|Red Chestnut|Liver|Dark Liver|Dun|Bay Brown|Brown|Blue Roan|Red Roan|Black|Dapple Gray|Skewbald|Piebald
+#RACENAME:Horse %	CLASS:Barbarian,Rogue,Sorcerer[BASEAGEADD:1d4]|Bard,Fighter,Paladin,Ranger[BASEAGEADD:1d6]|Cleric,Druid,Monk,Wizard[BASEAGEADD:2d6]					
+#RACENAME:Horse %	SEX:Male[BASEHT:58|HTDIEROLL:2d10|BASEWT:120|WTDIEROLL:2d4|TOTALWT:BASEWT+(HTDIEROLL*WTDIEROLL)]Female[BASEHT:53|HTDIEROLL:2d10|BASEWT:85|WTDIEROLL:2d4|TOTALWT:BASEWT+(HTDIEROLL*WTDIEROLL)]					
+#						

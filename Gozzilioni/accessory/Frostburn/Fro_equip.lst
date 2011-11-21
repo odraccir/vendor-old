@@ -1,0 +1,36 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+#skull talisman																				
+Skull		OUTPUTNAME:[NAME]	TYPE:SkullTalisman.Resizable.Consumable	COST:0	WT:0		SOURCEPAGE:Fro													
+																				
+#goods																				
+Crampons			TYPE:Good	COST:5	WT:1		SOURCEPAGE:Fro	BONUS:SKILL|Balance,Climb|2|TYPE=Circumstance												
+Fur Clothing			TYPE:Goods.Clothing.Resizable.Fur	COST:8	WT:10		SOURCEPAGE:Fro	SPROP:+10 circumstance bonus on Fortitude saving throws against exposure to cold weather.	BONUS:ARMORPROF=TYPE.Light|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Medium|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Heavy|ACCHECK|-2									
+Hut (portable)		OUTPUTNAME:Hut, Portable	TYPE:Goods.General.Resizable	COST:125	WT:75		SOURCEPAGE:Fro													
+Skates			TYPE:Good	COST:10	WT:3		SOURCEPAGE:Fro	SPROP:can be use only on icy surfaces.	PRESKILL:1,Balance=5											
+Skis and Poles			TYPE:Good	COST:15	WT:6		SOURCEPAGE:Fro	SPROP:can be use only on icy or snowy surfaces.												
+Snow Goggles			TYPE:Good.Eyegear	COST:2	WT:0		SOURCEPAGE:Fro	SPROP:+2 circumstances bonus on saving throws to resist blinding effects.	BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance											
+Snowshoes			TYPE:Good.Boot	COST:15	WT:8		SOURCEPAGE:Fro	SPROP:allow to move across the snow and ice with increased speed.												
+Winter Fullcloth			TYPE:Goods.Clothing.Resizable	COST:4	WT:2		SOURCEPAGE:Fro	SPROP:+1 circumstance bonus on Fortitude saving throws against exposure to cold weather.												
+																				
+#alchemical																				
+Armor Insulation (Flask)			TYPE:Goods.Alchemical.Flask.Consumable	COST:50	WT:2		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Freeze Powder (Vial)			TYPE:Goods.Alchemical.Vial.Consumable	COST:100	WT:1		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Frostbite Salve (Jar)			TYPE:Goods.Alchemical.Jar.Consumable	COST:50	WT:1		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 20.												
+Ice Chalks			TYPE:Goods.Alchemical.Consumable	COST:20	WT:0		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 15.												
+Melt Powder (Vial)			TYPE:Goods.Alchemical.Vial.Consumable	COST:25	WT:1		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 20.												
+Polar Skin (Flask)			TYPE:Goods.Alchemical.Flask.Consumable	COST:25	WT:1		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Razor Ice Powder (Vial)			TYPE:Goods.Alchemical.Vial.Consumable	COST:50	WT:1		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Whale Grease (Flask)			TYPE:Goods.Alchemical.Flask.Consumable	COST:75	WT:2		SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+																				
+Sled (Fro)			TYPE:Goods.Transportation.Container	COST:20	WT:300	CONTAINS:1000|Any=UNLIM	SOURCEPAGE:Fro													
+Worg Warsled			TYPE:Goods.Transportation.Container	COST:400	WT:900	CONTAINS:900|Any=UNLIM	SOURCEPAGE:Fro													
+Ice Sled Wagon		OUTPUTNAME:Ice Sled-Wagon	TYPE:Goods.Transportation.Container	COST:35	WT:400	CONTAINS:2000|Any=UNLIM	SOURCEPAGE:Fro													
+Sailing Ship (Ice)		OUTPUTNAME:Sailing Ship, Ice	TYPE:Goods.Transportation.Ship.Container	COST:10000	WT:0	CONTAINS:150000|Any=UNLIM	SOURCEPAGE:Fro													
+Warship (Ice)		OUTPUTNAME:Warship, Ice	TYPE:Goods.Transportation.Ships.Container	COST:25000	WT:0	CONTAINS:5000|Any=UNLIM	SOURCEPAGE:Fro													
+Iceberg			TYPE:Goods.Transportation.Container	COST:0	WT:0	CONTAINS:1000000|Any=UNLIM	SOURCEPAGE:Fro													
+Skyberg			TYPE:Goods.Transportation.Container	COST:0	WT:0	CONTAINS:1000000|Any=UNLIM	SOURCEPAGE:Fro													
+Ship (Coldfire)		OUTPUTNAME:Ship, Coldfire	TYPE:Goods.Transportation.Ships.Container	COST:500000	WT:0	CONTAINS:200000|Any=UNLIM	SOURCEPAGE:Fro	EQMOD:ICEKEEL_TRANSP|CFENGINE_TRANSP												
+																				
+Coldfire (Vial)			TYPE:Goods.MaterialComponent.Consumable	COST:50	WT:1		SOURCEPAGE:Fro													

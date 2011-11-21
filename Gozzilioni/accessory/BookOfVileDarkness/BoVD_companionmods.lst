@@ -1,0 +1,59 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																								
+																																	
+#FOLLOWER:FMLevel=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+#FOLLOWER:FMLevel=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast								
+#FOLLOWER:FMLevel=3	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+#FOLLOWER:FMLevel=5	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+#FOLLOWER:FMLevel=7	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+#FOLLOWER:FMLevel=9	TYPE:Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+#FOLLOWER:FMLevel=11	TYPE:Familiar	SR:16																														DEFINE:LOCK.INT|11	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+#																																	
+###Block:Familiar																																	
+# Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type																		
+FOLLOWER:CaCLevel=2	TYPE:Cancer			ABILITY:Special Ability|AUTOMATIC|Telepathic Link		COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER		USEMASTERSKILL:YES	DEFINE:LOCK.INT|6	VISION:Blindsight (30')																						
+FOLLOWER:CaCLevel=3	TYPE:Cancer									DEFINE:LOCK.INT|7																							
+FOLLOWER:CaCLevel=4	TYPE:Cancer			ABILITY:Special Ability|AUTOMATIC|Evasion						DEFINE:LOCK.INT|8																							
+FOLLOWER:CaCLevel=5	TYPE:Cancer			ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base						DEFINE:LOCK.INT|9			BONUS:VAR|UncannyDodgeFlankingLevel|CaCLevel	BONUS:VAR|UncannyDodgeLevel|1																			
+FOLLOWER:CaCLevel=6	TYPE:Cancer									DEFINE:LOCK.INT|10																							
+FOLLOWER:CaCLevel=7	TYPE:Cancer									DEFINE:LOCK.INT|11																							
+FOLLOWER:CaCLevel=8	TYPE:Cancer									DEFINE:LOCK.INT|12				BONUS:VAR|UncannyDodgeLevel|1																			
+FOLLOWER:CaCLevel=9	TYPE:Cancer									DEFINE:LOCK.INT|13																							
+FOLLOWER:CaCLevel=10	TYPE:Cancer									DEFINE:LOCK.INT|14	VISION:Blindsight (60')																						
+#																																	
+###Block:Quasit Familiar																																	
+FOLLOWER:QFLevel=1	TYPE:Quasit Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+FOLLOWER:QFLevel=1	TYPE:Quasit Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE									
+FOLLOWER:QFLevel=3	TYPE:Quasit Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:QFLevel=5	TYPE:Quasit Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:QFLevel=7	TYPE:Quasit Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:QFLevel=9	TYPE:Quasit Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+#																																	
+###Block:Imp Familiar																																	
+FOLLOWER:IFLevel=1	TYPE:Imp Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+FOLLOWER:IFLevel=1	TYPE:Imp Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE									
+FOLLOWER:IFLevel=3	TYPE:Imp Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:IFLevel=5	TYPE:Imp Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:IFLevel=7	TYPE:Imp Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:IFLevel=9	TYPE:Imp Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+#																																	
+###Block:Vermin Familiar																																	
+FOLLOWER:VerminFamiliar=1	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+FOLLOWER:VerminFamiliar=1	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast								
+FOLLOWER:VerminFamiliar=3	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:VerminFamiliar=5	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:VerminFamiliar=7	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:VerminFamiliar=9	TYPE:Vermin Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+###Block:Vermin Familiar 2																																	
+FOLLOWER:VerminFamiliar2=1	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+FOLLOWER:VerminFamiliar2=1	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast								
+FOLLOWER:VerminFamiliar2=3	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:VerminFamiliar2=5	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:VerminFamiliar2=7	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:VerminFamiliar2=9	TYPE:Vermin Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+###Block:Vermin Familiar 3																																	
+FOLLOWER:VerminFamiliar3=1	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
+FOLLOWER:VerminFamiliar3=1	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast								
+FOLLOWER:VerminFamiliar3=3	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:VerminFamiliar3=5	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:VerminFamiliar3=7	TYPE:Vermin Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
+FOLLOWER:VerminFamiliar3=9	TYPE:Vermin Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE

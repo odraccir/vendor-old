@@ -1,0 +1,4 @@
+SOURCELONG:Tome of Horror	SOURCESHORT:ToH	SOURCEWEB:http://www.gozzilioni.net
+#
+Dire Animal Traits	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Dire Animals eat/sleep/breathe.																																																																																																																																																	VISION:Low-light				SOURCEPAGE:G
+Dire Animal Advancement	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Dire Animals can advance three times their new HD.																																																																																																																																																	VISION:Low-light				SOURCEPAGE:G

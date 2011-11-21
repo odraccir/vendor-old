@@ -1,0 +1,6 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																											
+																													
+# BASICS																													
+# Feat Name	Type	Visible		Required					Special Ability				Define		Description		Save checks bonus			Combat bonus	Bonus to skill					Modify VAR			Source Page
+Pirate King Leadership	TYPE:Hidden	DEFINE:PirateKingLeadershipScore|0	DESC:See text	BONUS:VAR|PirateKingLeadershipScore|(TL+CHA)	SOURCEPAGE:CAd	SERVESAS:ABILITY=FEAT|Leadership																							
+#END																													

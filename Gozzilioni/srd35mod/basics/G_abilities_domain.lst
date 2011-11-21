@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																			
+#																					
+Basic Greater Turning	CATEGORY:Special Ability	TYPE:GreaterTurning		VISIBLE:NO										DEFINE:GreaterTurnTimesBase|0	DEFINE:GreaterTurnLevelBase|TurnLevelUndead	DEFINE:GreaterTurnCheckBase|TurnCheckUndead		SOURCEPAGE:PHB			
+Greater Turn Undead	CATEGORY:Special Ability	TYPE:GreaterTurning.GreaterTurnUndead		VISIBLE:DISPLAY	!PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	PREALIGN:LG,LN,NG,TN,CG,CN	PREVARNEQ:TurnProhibitedByDeity,1	DESC:%1/day (turn level %2)|GreaterTurnTimesUndead|GreaterTurnLevelUndead						DEFINE:GreaterTurnTimesUndead|GreaterTurnTimesBase	DEFINE:GreaterTurnLevelUndead|GreaterTurnLevelBase	DEFINE:GreaterTurnCheckUndead|GreaterTurnCheckBase		SOURCEPAGE:PHB			
+Sun Greater Turning	CATEGORY:Special Ability	TYPE:Special		VISIBLE:NO														SOURCEPAGE:PHB	BONUS:VAR|GreatTurnCheckBase|CHA|TYPE=Base	BONUS:VAR|GreatTurnTimesBase|1|TYPE=Base	BONUS:ABILITYPOOL|Greater Turn Undead|1
+#																					

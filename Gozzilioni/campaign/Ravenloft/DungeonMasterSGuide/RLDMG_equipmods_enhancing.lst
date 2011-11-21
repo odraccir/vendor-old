@@ -1,0 +1,18 @@
+SOURCELONG:Ravenloft Dungeons Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																												
+																														
+###Block:Armor abilities																														
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads	
+Barkskin Furs (+2)	KEY:BRKFUR_PLUS2	TYPE:Fur.Clothing		COST:4000	VISIBLE:QUALIFY	ITYPE:Magic.Barkskin.Armor.Nonmetal	REPLACES:BRKFUR_PLUS4,CFTFUR_PLUS5	SOURCEPAGE:RLDMG	PRETYPE:2,Fur,Clothing															SPROP:Barkskin Fur +2					ASSIGNTOALL:YES	BONUS:COMBAT|AC|2|TYPE=NaturalArmor|PRETYPE:2,Fur,Clothing|!PRETYPE:1,NaturalArmor
+Barkskin Furs (+4)	KEY:BRKFUR_PLUS4	TYPE:Fur.Clothing		COST:8000	VISIBLE:QUALIFY	ITYPE:Magic.Barkskin.Armor.Nonmetal	REPLACES:BRKFUR_PLUS2,CFTFUR_PLUS5	SOURCEPAGE:RLDMG	PRETYPE:2,Fur,Clothing															SPROP:Barkskin Fur +4					ASSIGNTOALL:YES	BONUS:COMBAT|AC|4|TYPE=NaturalArmor|PRETYPE:2,Fur,Clothing|!PRETYPE:1,NaturalArmor
+Chieftain's Furs (+5)	KEY:CFTFUR_PLUS5	TYPE:Fur.Clothing		COST:25000	VISIBLE:QUALIFY	ITYPE:Magic.Barkskin.Armor.Nonmetal	REPLACES:BRKFUR_PLUS2,BRKFUR_PLUS4	SOURCEPAGE:RLDMG	PRETYPE:2,Fur,Clothing															SPROP:Chieftain Fur +5					ASSIGNTOALL:YES	BONUS:COMBAT|AC|5|TYPE=NaturalArmor|PRETYPE:2,Fur,Clothing|!PRETYPE:1,NaturalArmor
+Magic Vest (+1)	KEY:VEST_PLUS1	TYPE:Clothing.Shirt		COST:1000	VISIBLE:QUALIFY	ITYPE:Magic	REPLACES:VEST_PLUS2,VEST_PLUS3	SOURCEPAGE:RLDMG	PRETYPE:1,Clothing,Shirt															SPROP:Magic Vest +1					ASSIGNTOALL:YES	BONUS:COMBAT|AC|5|TYPE=Enhancement|PRETYPE:1,Clothing,Shirt|!PRETYPE:1,Enhancement
+Magic Vest (+2)	KEY:VEST_PLUS2	TYPE:Clothing.Shirt		COST:4000	VISIBLE:QUALIFY	ITYPE:Magic	REPLACES:VEST_PLUS1,VEST_PLUS3	SOURCEPAGE:RLDMG	PRETYPE:1,Clothing,Shirt															SPROP:Magic Vest +1					ASSIGNTOALL:YES	BONUS:COMBAT|AC|5|TYPE=Enhancement|PRETYPE:1,Clothing,Shirt|!PRETYPE:1,Enhancement
+Magic Vest (+3)	KEY:VEST_PLUS3	TYPE:Clothing.Shirt		COST:9000	VISIBLE:QUALIFY	ITYPE:Magic	REPLACES:VEST_PLUS1,VEST_PLUS2	SOURCEPAGE:RLDMG	PRETYPE:1,Clothing,Shirt															SPROP:Magic Vest +1					ASSIGNTOALL:YES	BONUS:COMBAT|AC|5|TYPE=Enhancement|PRETYPE:1,Clothing,Shirt|!PRETYPE:1,Enhancement
+																														
+# Modifier Name																														
+Resonant	KEY:RESNT	TYPE:Armor		COST:49000	VISIBLE:QUALIFY			SOURCEPAGE:RLDMG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]																					
+Bashing	KEY:BASH_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:RLDMG	PREMULT:2,[PRETYPE:3,Enhancement,Weapon,Bludgeoning],[PRETYPE:1,Melee,Thrown]															SPROP:+1d6 bludgeoning damage
+#
+Wailing	KEY:WAIL_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:RLDMG	PREMULT:2,[PRETYPE:3,Enhancement,Weapon,Slashing],[PRETYPE:1,Melee,Thrown]															SPROP:Wailing
+Hot Blooded	KEY:HTBLD_M	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:RLDMG	PREMULT:2,[PRETYPE:2,Enhancement,Weapon],[PRETYPE:1,Melee,Thrown]															SPROP:Hot Blooded
+Regenerative	KEY:REGEN_M		TYPE:Armor	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:RLDMG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Regenerative

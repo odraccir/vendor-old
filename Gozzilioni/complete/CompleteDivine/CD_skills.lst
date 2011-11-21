@@ -1,0 +1,8 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net
+
+# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Type					Visible		Bonus to skill																																										Source Page						Choose			Bonus to skill rank																																																																Modify VAR										Temporary effect description
+Profession (Herbalist)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession	SOURCEPAGE:CD																																																																																																																																									
+
+#																																																																																																																																													
+# End																																																																																																																																													
+#																																																																																																																																													

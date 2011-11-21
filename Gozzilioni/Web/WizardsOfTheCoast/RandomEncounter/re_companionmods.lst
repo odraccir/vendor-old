@@ -1,0 +1,37 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+###Block:Wild Coohort																				
+# Class of the Master	Type	Hit Dice	Spell Res.	Automaticaly Gained Armor Prof.		Special ABility			Define	Combat bonus	Add to base move	Stat bonus						Main Race Type		
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort					ABILITY:Special Ability|AUTOMATIC|Basic Training														
+FOLLOWER:WCLevel=3	TYPE:Wild Cohort	HD:1								BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE									BONUS:VAR|BasicTrainingNumber|1	ABILITY:Special Ability|AUTOMATIC|Evasion
+FOLLOWER:WCLevel=6	TYPE:Wild Cohort	HD:2								BONUS:COMBAT|AC|3|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1						BONUS:VAR|BasicTrainingNumber|1	
+FOLLOWER:WCLevel=9	TYPE:Wild Cohort	HD:2								BONUS:COMBAT|AC|5|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1						BONUS:VAR|BasicTrainingNumber|1	
+FOLLOWER:WCLevel=12	TYPE:Wild Cohort	HD:2				ABILITY:Special Ability|AUTOMATIC|Devotion				BONUS:COMBAT|AC|7|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1						BONUS:VAR|BasicTrainingNumber|1	
+FOLLOWER:WCLevel=15	TYPE:Wild Cohort	HD:2								BONUS:COMBAT|AC|9|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1						BONUS:VAR|BasicTrainingNumber|1	
+FOLLOWER:WCLevel=18	TYPE:Wild Cohort	HD:2								BONUS:COMBAT|AC|11|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1						BONUS:VAR|BasicTrainingNumber|1	ABILITY:Special Ability|AUTOMATIC|Improved Evasion
+#																				
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Badger	KIT:1|Badger Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Camel	KIT:1|Camel Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Dire Animal (Dire Rat)	KIT:1|Dire Animal (Dire Rat) Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Dog	KIT:1|Dog Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Dog (Riding)	KIT:1|Dog (Riding) Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Eagle	KIT:1|Eagle Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Hawk	KIT:1|Hawk Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Horse (Heavy)	KIT:1|Horse (Heavy) Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Horse (Light)	KIT:1|Horse (Light) Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Owl	KIT:1|Owl Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Pony	KIT:1|Pony Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Snake (Viper/Medium)	KIT:1|Snake (Viper/Medium) Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Snake (Viper/Small)	KIT:1|Snake (Viper/Small) Companion																	
+FOLLOWER:WCLevel=1	TYPE:Wild Cohort	PRERACE:1,Wolf	KIT:1|Wolf Companion																	
+#																				
+FOLLOWER:CompLevel=1	TYPE:Animal Companion	ABILITY:Special Ability|AUTOMATIC|Basic Training	BONUS:VAR|BasicTrainingNumber|1																	
+FOLLOWER:CompLevel=3	TYPE:Animal Companion		BONUS:VAR|BasicTrainingNumber|1																	
+FOLLOWER:CompLevel=6	TYPE:Animal Companion		BONUS:VAR|BasicTrainingNumber|1																	
+FOLLOWER:CompLevel=9	TYPE:Animal Companion		BONUS:VAR|BasicTrainingNumber|1																	
+FOLLOWER:CompLevel=12	TYPE:Animal Companion		BONUS:VAR|BasicTrainingNumber|1																	
+FOLLOWER:CompLevel=15	TYPE:Animal Companion		BONUS:VAR|BasicTrainingNumber|1																	
+FOLLOWER:CompLevel=18	TYPE:Animal Companion		BONUS:VAR|BasicTrainingNumber|1																	
+#																				
+# End																				
+#																				

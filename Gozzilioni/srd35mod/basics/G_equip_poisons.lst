@@ -1,0 +1,32 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+#Poisons																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+Poison (Arsenic).MOD	SPROP: Craft DC 15.																			
+Poison (Black adder venom).MOD	SPROP: Craft DC 15.																			
+Poison (Black lotus extract).MOD	SPROP: Craft DC 35.																			
+Poison (Bloodroot).MOD	SPROP: Craft DC 15.																			
+Poison (Blue whinnis).MOD	SPROP: Craft DC 15.																			
+Poison (Burnt othur fumes).MOD	SPROP: Craft DC 25.																			
+Poison (Dark reaver powder).MOD	SPROP: Craft DC 25.																			
+Poison (Deathblade).MOD	SPROP: Craft DC 25.																			
+Poison (Dragon bile).MOD	SPROP: Craft DC 30.																			
+Poison (Drow Poison).MOD	SPROP: Craft DC 15.																			
+Poison (Giant wasp poison).MOD	SPROP: Craft DC 20.																			
+Poison (Greenblood oil).MOD	SPROP: Craft DC 15.																			
+Poison (Id moss).MOD	SPROP: Craft DC 15.																			
+Poison (Insanity mist).MOD	SPROP: Craft DC 20.																			
+Poison (Large scorpion venom).MOD	SPROP: Craft DC 20.																			
+Poison (Lich dust).MOD	SPROP: Craft DC 20.																			
+Poison (Malyss root paste).MOD	SPROP: Craft DC 20.																			
+Poison (Medium spider venom).MOD	SPROP: Craft DC 15.																			
+Poison (Nitharit).MOD	SPROP: Craft DC 20.																			
+Poison (Oil of taggit).MOD	SPROP: Craft DC 15.																			
+Poison (Purple worm poison).MOD	SPROP: Craft DC 20.																			
+Poison (Sassone leaf residue).MOD	SPROP: Craft DC 20.																			
+Poison (Shadow essence).MOD	SPROP: Craft DC 20.																			
+Poison (Small centipede poison).MOD	SPROP: Craft DC 15.																			
+Poison (Striped toadstool).MOD	SPROP: Craft DC 15.																			
+Poison (Terinav root).MOD	SPROP: Craft DC 25.																			
+Poison (Ungol dust).MOD	SPROP: Craft DC 20.																			
+Poison (Wyvern poison).MOD	SPROP: Craft DC 25.

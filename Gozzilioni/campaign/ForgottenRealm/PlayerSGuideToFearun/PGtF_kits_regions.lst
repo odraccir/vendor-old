@@ -1,0 +1,1062 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net		
+#				
+#STARTPACK:	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:
+#TEMPLATE:Region				
+#GEAR:		EQMOD:Masterwork		
+#				
+STARTPACK:Mercantile Background Kit	EQUIPBUY:0		VISIBLE:NO	
+FUNDS:gp	QTY:300			
+#				
+REGION:Faerunian without region				
+STARTPACK:No Fearunian Region	EQUIPBUY:0		PRELEVELMAX:1	
+FUNDS:gp	QTY:100			
+#				
+REGION:Aglarond				
+STARTPACK:AglarondA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Rashemi
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Arrow	QTY:20	EQMOD:MWORKW		
+#				
+STARTPACK:AglarondB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Rashemi
+GEAR:Scroll (Protection from Arrows)				
+GEAR:Scroll (Web)				
+#				
+STARTPACK:AglarondA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:AglarondA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:AglarondB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Hide		EQMOD:MWORKA		
+GEAR:Shield (Heavy/Wood)		EQMOD:MWORKA.DARK		
+#				
+REGION:Altumbel				
+STARTPACK:AltumbelA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Mulan
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:AltumbelA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Mulan
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:AltumbelB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Mulan
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Musical Instrument (Lute)		EQMOD:MWORKI		
+#				
+REGION:Amn				
+STARTPACK:AmnA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Thieves' Tools				
+GEAR:Crossbow (Hand)				
+GEAR:Bolts (Crossbow/10)		EQMOD:MWORKW		
+#				
+STARTPACK:AmnB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:AmnB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:AmnM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:AmnM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc
+GEAR:Axe (Orc Double)		EQMOD:MWORKW		
+#				
+STARTPACK:AmnN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc
+GEAR:Chain Shirt				
+GEAR:Shield (Heavy/Metal)	EQMOD:MWORKA			
+#				
+REGION:Anauroch				
+STARTPACK:AnaurochA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Bedine
+GEAR:Scimitar		EQMOD:MWORKW		
+#				
+STARTPACK:AnaurochA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Bedine
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:AnaurochB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Bedine
+GEAR:Shortbow (Composite)		EQMOD:MWORKW.BOWSTR|+2		
+GEAR:Arrow	QTY:10	EQMOD:MWORKW		
+#				
+REGION:Calimshan				
+STARTPACK:CalimshanA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+
+STARTPACK:CalimshanB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Potion (Cure Light Wounds)				
+#				
+STARTPACK:CalimshanO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Air, Fire
+GEAR:Scimitar		EQMOD:MWORKW		
+#				
+STARTPACK:CalimshanO2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Air, Fire
+GEAR:Falchion		EQMOD:MWORKW		
+#				
+STARTPACK:CalimshanP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Air, Fire
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Chessenta				
+STARTPACK:ChessentaA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Turami
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:ChessentaA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Turami
+GEAR:Longspear		EQMOD:MWORKW		
+#				
+STARTPACK:ChessentaB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Turami
+GEAR:Scroll (Blur)				
+GEAR:Scroll (Levitate)				
+#				
+STARTPACK:ChessentaM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain
+GEAR:Sword (Bastard)		EQMOD:MWORKW		
+#				
+STARTPACK:ChessentaM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain
+GEAR:Falchion		EQMOD:MWORKW		
+#				
+STARTPACK:ChessentaN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain
+GEAR:Breastplate		EQMOD:MWORKA		
+#				
+STARTPACK:ChessentaO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Water
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:ChessentaO2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Water
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:ChessentaP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Water
+GEAR:Breastplate				
+#				
+REGION:Chult				
+STARTPACK:ChultA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chultan, Tashalan
+GEAR:Kukri		EQMOD:MWORKW		
+#				
+STARTPACK:ChultA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chultan, Tashalan
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:ChultB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chultan, Tashalan
+GEAR:Poison (Large scorpion venom)	QTY:2			
+#				
+STARTPACK:ChultC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chultan, Tashalan
+GEAR:Handaxe		EQMOD:MWORKW		
+#				
+STARTPACK:ChultC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Wild
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:ChultD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Wild
+GEAR:Poison (Black adder venom)	QTY:3			
+#				
+REGION:Cormyr				
+STARTPACK:CormyrA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:CormyrA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:CormyrB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Banded Mail		EQMOD:MWORKA		
+#				
+REGION:Dalelands				
+STARTPACK:DalelandsA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Vaasan
+GEAR:Longbow (Composite)		EQMOD:MWORKW.BOWSTR|+2		
+#				
+STARTPACK:DalelandsB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Vaasan
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:DalelandsB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Vaasan
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:DalelandsB3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Vaasan
+GEAR:Quarterstaff		EQMOD:MWORKW		
+#				
+STARTPACK:DalelandsI1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon, Drow
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:DalelandsI2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon, Drow
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:DalelandsJ1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon, Drow
+GEAR:Longbow (Composite)		EQMOD:MWORKW.BOWSTR|+2		
+#				
+REGION:Damara				
+STARTPACK:DamaraA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Chondathan
+GEAR:Sword (Bastard)		EQMOD:MWORKW		
+#				
+STARTPACK:DamaraA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Chondathan
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:DamaraB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Chondathan
+GEAR:Scroll (Cure Moderate Wounds)	QTY:2			
+#				
+REGION:Dambrath				
+STARTPACK:DambrathA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Shaaran
+GEAR:Crossbow (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:DambrathA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Shaaran
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:DambrathB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Shaaran
+GEAR:Poison (Drow Poison)	QTY:3			
+#				
+STARTPACK:DambrathI1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Drow
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Poison (Drow Poison)				
+#				
+STARTPACK:DambrathJ1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Drow
+GEAR:Chain (Spiked)		EQMOD:MWORKW		
+#				
+STARTPACK:DambrathJ2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Drow
+GEAR:Scourge		EQMOD:MWORKW		
+#				
+REGION:Dragon Coast				
+STARTPACK:DragonCoastA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:DragonCoastA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Crossbow (Light)		EQMOD:MWORKA		
+#				
+STARTPACK:DragonCoastB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Potion (Blur)				
+#				
+STARTPACK:DragonCoastB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Tethyrian
+GEAR:Potion (Levitate)				
+#				
+STARTPACK:DragonCoastI1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Aquatic
+GEAR:Trident		EQMOD:MWORKW		
+#				
+STARTPACK:DragonCoastI2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Aquatic
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:DragonCoastJ1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Aquatic
+GEAR:Pearl (Freshwater/Irregular)	QTY:5	EQMOD:GEM|EVAL(50)		
+#				
+REGION:Golden Water				
+STARTPACK:GoldenWaterA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari
+GEAR:Scimitar		EQMOD:MWORKW		
+#				
+STARTPACK:GoldenWaterA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari
+GEAR:Kukri		EQMOD:MWORKW		
+#				
+STARTPACK:GoldenWaterA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari
+GEAR:Falchion		EQMOD:MWORKW		
+#				
+STARTPACK:GoldenWaterB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Great Dale				
+STARTPACK:GreatDaleA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Nar
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:GreatDaleA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Nar
+GEAR:Shortbow		EQMOD:MWORKW		
+#				
+STARTPACK:GreatDaleB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Nar
+GEAR:Healer's Kit				
+GEAR:Antitoxin (Vial)	QTY:2			
+GEAR:Arrows (20)				
+#				
+STARTPACK:GreatDaleG1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Forest, Rock
+GEAR:Mace (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:GreatDaleG2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Forest, Rock
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:GreatDaleH1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Forest, Rock
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Great Glacier				
+STARTPACK:GreatGlacierA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Hulutium, Sossrim
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:GreatGlacierA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Hulutium, Sossrim
+GEAR:Javelin		EQMOD:MWORKW		
+#				
+STARTPACK:GreatGlacierB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Hulutium, Sossrim
+GEAR:Hide		EQMOD:MWORKA		
+GEAR:Potion (Cure Moderate Wounds)				
+#				
+STARTPACK:GreatGlacierC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Artic, Shield
+GEAR:Pick (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:GreatGlacierC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Artic, Shield
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:GreatGlacierD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Artic, Shield
+GEAR:Dog (Riding)				
+GEAR:Hide		EQMOD:MWORKA		
+#				
+REGION:Halruaa				
+STARTPACK:HalruaaA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Halruaan, Shaaran, Tashalan
+GEAR:Scroll (Web)				
+SPELLS:LEVEL=1	COUNT:6			
+#				
+STARTPACK:HalruaaB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Halruaan, Shaaran, Tashalan
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Sleep]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Hordeland				
+STARTPACK:HordelandA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Tuigan, Rashemi
+GEAR:Shortbow (Composite)		EQMOD:MWORKW.BOWSTR|+0		
+#				
+STARTPACK:HordelandA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Tuigan, Rashemi
+GEAR:Warhorse (Light)				
+GEAR:Bit and Bridle				
+GEAR:Saddle (Military)			SIZE:L	
+GEAR:Barding (Studded Leather)			SIZE:L	
+#				
+STARTPACK:HordelandM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Gray
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:HordelandM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Gray
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:HordelandN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Gray
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Potion (Bull's Strength)				
+#				
+REGION:Impiltur				
+STARTPACK:ImpilturA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran
+GEAR:Sword (Bastard)		EQMOD:MWORKW		
+#				
+STARTPACK:ImpilturA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran
+GEAR:Morningstar		EQMOD:MWORKW		
+#				
+STARTPACK:ImpilturB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran
+GEAR:Thieves' Tools		EQMOD:MWORKT		
+GEAR:Studded Leather		EQMOD:MWORKA		
+#				
+REGION:Lake of Steam				
+STARTPACK:LakeOfSteamA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Shaaran
+GEAR:Scimitar		EQMOD:MWORKW		
+#				
+STARTPACK:LakeOfSteamA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Shaaran
+GEAR:Falchion		EQMOD:MWORKW		
+#				
+STARTPACK:LakeOfSteamA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Shaaran
+GEAR:Glaive		EQMOD:MWORKW		
+#				
+STARTPACK:LakeOfSteamB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Shaaran
+GEAR:Potion (Darkness)				
+#				
+REGION:Lapaliiya				
+STARTPACK:LapaliiyaA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Sharran, Tashalan
+GEAR:Scimitar		EQMOD:MWORKW		
+#				
+STARTPACK:LapaliiyaA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Sharran, Tashalan
+GEAR:Javelin		EQMOD:MWORKW		
+#				
+STARTPACK:LapaliiyaB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Sharran, Tashalan
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Potion (Invisibility)				
+#				
+REGION:Lantan				
+STARTPACK:LantanA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Lantanna
+GEAR:Firearms (Pistol)				
+GEAR:Powderhorn (Gunpowder)				
+GEAR:Bullets (Firearm/10)	QTY:1	EQMOD:MWORKW		
+#				
+STARTPACK:LantanA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Lantanna
+GEAR:Crossbow (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:LantanG1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Firearms (Pistol)				
+GEAR:Powderhorn (Gunpowder)				
+GEAR:Bullets (Firearm/10)	QTY:1	EQMOD:MWORKW		
+#				
+STARTPACK:LantanH1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Crossbow (Heavy)		EQMOD:MWORKW		
+#				
+REGION:Moonsea				
+STARTPACK:MoonseaA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Vaasan
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:MoonseaA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Vaasan
+GEAR:Sword (Two-Bladed)		EQMOD:MWORKW		
+#				
+STARTPACK:MoonseaB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran, Vaasan
+GEAR:Crossbow (Hand)				
+GEAR:Poison (Greenblood Oil)	QTY:2			
+#				
+STARTPACK:MoonseaM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:MoonseaM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog
+GEAR:Axe (Orc Double)		EQMOD:MWORKW		
+#				
+STARTPACK:MoonseaN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog
+GEAR:Chain Shirt				
+GEAR:Shield (Heavy/Metal)		EQMOD:MWORKA		
+#				
+REGION:Moonshae				
+STARTPACK:MoonshaeA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Arrows (20)				
+#				
+STARTPACK:MoonshaeB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Handaxe		EQMOD:MWORKW		
+#				
+STARTPACK:MoonshaeB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:MoonshaeB3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+REGION:Mulhorand				
+STARTPACK:MulhorandA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari, Mulani
+GEAR:Sickle		EQMOD:MWORKW		
+#				
+STARTPACK:MulhorandA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari, Mulani
+GEAR:Falchion		EQMOD:MWORKW		
+#				
+STARTPACK:MulhorandA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari, Mulani
+GEAR:Sword (Kopesh)		EQMOD:MWORKW		
+#				
+STARTPACK:MulhorandB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Durpari, Mulani
+GEAR:Scroll	QTY:6			
+#				
+STARTPACK:MulhorandO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Earth, Tiefling
+GEAR:Falchion		EQMOD:MWORKW		
+#				
+STARTPACK:MulhorandO2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Earth, Tiefling
+GEAR:Sword (Kopesh)		EQMOD:MWORKW		
+#				
+STARTPACK:MulhorandP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Earth, Tiefling
+GEAR:Scroll (Lesser Restoration)				
+GEAR:Scroll (Spiritual Weapon)				
+#				
+REGION:Narfell				
+STARTPACK:NarfellA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Nar
+GEAR:Warhorse (Light)				
+GEAR:Bit and Bridle			SIZE:L	
+GEAR:Saddle (Military)			SIZE:L	
+GEAR:Barding (Studded Leather)			SIZE:L	
+#				
+STARTPACK:NarfellB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Nar
+GEAR:Lance (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:NarfellB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Nar
+GEAR:Longspear		EQMOD:MWORKW		
+#				
+REGION:Nelanther Isles				
+STARTPACK:NelantherIslesA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Chondathan, Illuskan
+GEAR:Scimitar		EQMOD:MWORKW		
+#				
+STARTPACK:NelantherIslesA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Chondathan, Illuskan
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:NelantherIslesB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Chondathan, Illuskan
+GEAR:Firearms (Pistol)				
+GEAR:Powderhorn (Gunpowder)				
+GEAR:Bullets (Firearm/10)	QTY:1			
+#				
+REGION:North				
+STARTPACK:NorthA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:NorthA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:NorthA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:NorthB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Arrows (20)		EQMOD:MWORKW		
+#				
+STARTPACK:NorthM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog, Tanarukk
+GEAR:Banded Mail		EQMOD:MWORKA.SPIKE_A		
+#				
+STARTPACK:NorthN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog, Tanarukk
+GEAR:Flail (Dire)		EQMOD:MWORKW		
+#				
+STARTPACK:NorthN2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog, Tanarukk
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:NorthN3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Orog, Tanarukk
+GEAR:Axe (Orc Double)		EQMOD:MWORKW		
+#				
+REGION:Rashemen				
+STARTPACK:RashemenA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Rashemi
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:RashemenA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Rashemi
+GEAR:Greatsword		EQMOD:MWORKW		
+#				
+STARTPACK:RashemenB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Rashemi
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Detect Magic]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+STARTPACK:RashemenB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Rashemi
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Light]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Ride				
+STARTPACK:RideA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Vaasan
+GEAR:Warhorse (Light)				
+GEAR:Bit and Bridle			SIZE:L	
+GEAR:Saddle (Military)			SIZE:L	
+GEAR:Barding (Studded Leather)			SIZE:L	
+#				
+STARTPACK:RideB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Vaasan
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:RideB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Nar, Vaasan
+GEAR:Spear		EQMOD:MWORKW		
+#				
+REGION:Sembia				
+STARTPACK:SembiaA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan
+FUNDS:gp	QTY:300			
+#				
+STARTPACK:SembiaB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:SembiaB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+REGION:Shaar				
+STARTPACK:ShaarA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Shaaran
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Javelin				
+#				
+STARTPACK:ShaarB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Shaaran
+GEAR:Warhorse (Light)				
+GEAR:Bit and Bridle			SIZE:L	
+GEAR:Saddle (Military)			SIZE:L	
+GEAR:Barding (Studded Leather)			SIZE:L	
+#				
+REGION:Shadovar				
+STARTPACK:ShadovarA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Netherese, Shade
+GEAR:Ranseur		EQMOD:MWORKW		
+#				
+STARTPACK:ShadovarA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Netherese, Shade
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:ShadovarB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Netherese, Shade
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Sleep]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Shou Expatriate				
+STARTPACK:ShouExpatriateA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Shou
+GEAR:Sword (Katana)		EQMOD:MWORKW		
+#				
+STARTPACK:ShouExpatriateB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Shou
+GEAR:Nunchaku		EQMOD:MWORKW		
+#				
+STARTPACK:ShouExpatriateB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Shou
+GEAR:Kukri		EQMOD:MWORKW		
+#				
+REGION:Silverymoon				
+STARTPACK:SilverymoonA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Scroll				
+#				
+STARTPACK:SilverymoonE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
+GEAR:Breastplate				
+GEAR:Arrows (20)		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonI1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonI2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:SilverymoonJ1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Breastplate				
+GEAR:Arrows (20)		EQMOD:MWORKW		
+#				
+REGION:Sword Coast				
+STARTPACK:SwordcoastA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Tethyrian
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:SwordcoastA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Tethyrian
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:SwordcoastB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Tethyrian
+GEAR:Firearms (Pistol)		EQMOD:MWORKW		
+GEAR:Powderhorn (Gunpowder)				
+GEAR:Bullets (Firearm/10)	QTY:1			
+#				
+STARTPACK:SwordcoastC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Handaxe		EQMOD:MWORKW		
+#				
+STARTPACK:SwordcoastC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:SwordcoastD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Gold (Per Lb.)	QTY:5			
+#				
+REGION:Tashalar				
+STARTPACK:TashalarA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chultan, Shaaran, Tashalan
+GEAR:Crossbow (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:TashalarB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chultan, Shaaran, Tashalan
+GEAR:Hide		EQMOD:MWORKA		
+GEAR:Shield (Heavy/Wood)		EQMOD:MWORKA.DARK		
+#				
+REGION:Tethyr				
+STARTPACK:TethyrA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Potion (Cure Moderate Wounds)				
+#				
+STARTPACK:TethyrB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Tethyrian
+GEAR:Chainmail		EQMOD:MWORKA		
+#				
+REGION:Thay				
+STARTPACK:ThayA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Rashemi
+GEAR:Scroll	QTY:2			
+#				
+STARTPACK:ThayB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Rashemi
+GEAR:Scroll	QTY:7			
+#				
+STARTPACK:ThayO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Any, Tiefling
+GEAR:Scroll (Invisibility)				
+GEAR:Scroll (Scorcing Ray)				
+#				
+STARTPACK:ThayP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Any, Tiefling
+GEAR:Breastplate		EQMOD:MWORKA		
+#				
+REGION:Thesk				
+STARTPACK:TheskA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Rashemi, Tuigan
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Thieves' Tools		EQMOD:MWORKT		
+#				
+STARTPACK:TheskB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Rashemi, Tuigan
+GEAR:Scale Mail		EQMOD:MWORKA		
+GEAR:Healer's Kit				
+#				
+STARTPACK:TheskG1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Mace (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:TheskG2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:TheskH1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Thunderstone	QTY:5			
+GEAR:Potion (Cure Light Wounds)				
+#				
+STARTPACK:TheskM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Gray
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:TheskM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Gray
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:TheskN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain, Gray
+GEAR:Chainmail		EQMOD:MWORKA.SPIKE_A		
+#				
+REGION:Turmish				
+STARTPACK:TurmishA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Turami
+GEAR:Splint Mail		EQMOD:MWORKA		
+GEAR:Shield (Heavy/Metal)		EQMOD:MWORKA		
+#				
+#STARTPACK:TurmishB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Turami
+#GEAR:Gems 50 gp	QTY:5			
+#				
+STARTPACK:TurmishC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gold, Shield
+GEAR:Splint Mail		EQMOD:MWORKA		
+GEAR:Shield (Heavy/Metal)		EQMOD:MWORKA		
+#				
+STARTPACK:TurmishD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gold, Shield
+GEAR:Gold (Per Lb.)	QTY:5			
+#				
+REGION:Unther				
+STARTPACK:UntherA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Turami
+GEAR:Breastplate		EQMOD:MWORKA		
+#				
+STARTPACK:UntherB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Turami
+GEAR:Scroll (Detect Thoughts)				
+GEAR:Scroll (Scorcing Ray)				
+#				
+STARTPACK:UntherO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Fire, Tiefling
+GEAR:Scale Mail		EQMOD:MWORKA		
+GEAR:Arrows (20)		EQMOD:C_IRON		
+#				
+STARTPACK:UntherP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Fire, Tiefling
+GEAR:Poison (Black adder venom)	QTY:3			
+#				
+REGION:Uthgardt Tribesfolk				
+STARTPACK:UthgardtTribesfolkA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Battleaxe		EQMOD:MWORKA		
+#				
+STARTPACK:UthgardtTribesfolkA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Greataxe		EQMOD:MWORKW		
+#				
+STARTPACK:UthgardtTribesfolkB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Arrows (20)				
+#				
+REGION:Vaasa				
+STARTPACK:VaasaA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Vaasan
+GEAR:Splint Mail		EQMOD:MWORKA		
+#				
+STARTPACK:VaasaB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Vaasan
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:VaasaB2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Vaasan
+GEAR:Mace (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:VaasaM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:VaasaM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain
+GEAR:Axe (Orc Double)		EQMOD:MWORKW		
+#				
+STARTPACK:VaasaN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Orc, Orc Mountain
+GEAR:Chain Shirt				
+GEAR:Shield (Heavy/Metal)		EQMOD:MWORKA		
+#				
+REGION:Vast				
+STARTPACK:VastA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran
+GEAR:Potion (Cure Light Wounds)	QTY:3			
+GEAR:Arrows (20)				
+#				
+STARTPACK:VastB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Damaran
+GEAR:Banded Mail		EQMOD:SPIKE_A		
+#				
+REGION:Vilhon Reach				
+STARTPACK:VilhonReachA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Shaaran, Turami
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:VilhonReachA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Shaaran, Turami
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:VilhonReachB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Shaaran, Turami
+GEAR:Chain Shirt				
+GEAR:Bolts (Crossbow/10)	QTY:2	EQMOD:MWORKW		
+#				
+REGION:Waterdeep				
+STARTPACK:WaterdeepA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan, Tethyrian
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan, Tethyrian
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepA3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan, Tethyrian
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Illuskan, Tethyrian
+GEAR:Scroll	QTY:2			
+#				
+STARTPACK:WaterdeepC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Chain Shirt		EQMOD:MWORKA		
+FUNDS:gp	QTY:50			
+#				
+STARTPACK:WaterdeepD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepD2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+STARTPACK:WaterdeepI1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepI2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Moon
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:WaterdeepJ1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Half Elf Aquatic
+GEAR:Chain Shirt		EQMOD:MWORKA		
+FUNDS:gp	QTY:50			
+#				
+REGION:Western Heartlkands				
+STARTPACK:WesternHeartlandsA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Chondathan
+GEAR:Sword (Bastard)		EQMOD:MWORKW		
+#				
+STARTPACK:WesternHeartlandsA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Chondathan
+GEAR:Greatsword		EQMOD:MWORKW		
+#				
+STARTPACK:WesternHeartlandsB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Calishite, Chondathan
+GEAR:Potion (Lesser Restoration)				
+#				
+STARTPACK:WesternHeartlandsG1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Firearms (Pistol)				
+GEAR:Powderhorn (Gunpowder)				
+GEAR:Bullets (Firearm/20)	QTY:1	EQMOD:MWORKW		
+#				
+STARTPACK:WesternHeartlandsH1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Rock
+GEAR:Scroll (Invisibility)				
+GEAR:Scroll (Mirror Image)				
+#				
+STARTPACK:WesternHeartlandsK1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Lightfoot, Strongheart
+GEAR:Crossbow (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:WesternHeartlandsK2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Lightfoot, Strongheart
+GEAR:Shortbow		EQMOD:MWORKW		
+#				
+STARTPACK:WesternHeartlandsL1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Lightfoot, Strongheart
+GEAR:Chain Shirt		EQMOD:MWORKA		
+#				
+REGION:Wizard's Reach				
+STARTPACK:WizardSReachA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Mulan, Rashemi
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Bolt (Crossbow)	QTY:10	EQMOD:MWORKW.PLUS1W		
+#				
+STARTPACK:WizardSReachB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Mulan, Rashemi
+GEAR:Scroll				
+GEAR:Thunderstone	QTY:3			
+#				
+REGION:Galena Mountain				
+STARTPACK:GalenaMountainC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Pick (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:GalenaMountainC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Urgrosh (Dwarven)		EQMOD:MWORKW		
+#				
+STARTPACK:GalenaMountainD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Chainmail		EQMOD:MWORKA		
+#				
+REGION:Great Rift				
+STARTPACK:GreatRiftC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Mulan, Rashemi
+GEAR:Scroll (Bull's Strength)				
+GEAR:Thunderstone	QTY:5			
+#				
+STARTPACK:GreatRiftD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gold
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:GreatRiftD2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Mulan, Rashemi
+GEAR:Waraxe (Dwarven)		EQMOD:MWORKW		
+#				
+REGION:Oldonnar				
+STARTPACK:OldonnarC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Urdunnir
+GEAR:Pick (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:OldonnarC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Urdunnir
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:OldonnarD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Urdunnir
+GEAR:Chainmail		EQMOD:MWORKA		
+#				
+REGION:Smoking Mountains				
+STARTPACK:SmokingMountainC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gold
+GEAR:Chain Shirt		EQMOD:MWORKA		
+#				
+STARTPACK:SmokingMountainD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gold
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Spine of the World				
+STARTPACK:SpineOfTheWorldC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Artic, Shield, Urdunnir
+GEAR:Warhammer		EQMOD:MWORKW		
+#				
+STARTPACK:SpineOfTheWorldC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Artic, Shield, Urdunnir
+GEAR:Waraxe (Dwarven)		EQMOD:MWORKW		
+#				
+STARTPACK:SpineOfTheWorldD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Artic, Shield, Urdunnir
+GEAR:Breastplate				
+GEAR:Potion (Cure Light Wounds)	QTY:2			
+#				
+REGION:Underdark (Darklands)				
+STARTPACK:UnderdarkDarklandsC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gray
+GEAR:Warhammer		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkDarklandsC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gray
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkDarklandsD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gray
+GEAR:Splint Mail		EQMOD:MWORKA		
+#				
+REGION:Underdark (Northdark)				
+STARTPACK:UnderdarkNorthdarkC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gray
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Bolt (Crossbow)	QTY:10	EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gray
+GEAR:Handaxe		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkD2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gray
+GEAR:Battleaxe		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkG1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Deep
+GEAR:Dagger		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkG2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Deep
+GEAR:Pick (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkG3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Deep
+GEAR:Pick (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkH1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Gnome Deep
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Bolt (Crossbow)	QTY:10	EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkM1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Orc Mountain, Orog, Tanarukk
+GEAR:Greatsword		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkM2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Orc Mountain, Orog, Tanarukk
+GEAR:Spear		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkNorthdarkN1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Orc Mountain, Orog, Tanarukk
+GEAR:Banded Mail		EQMOD:MWORKA.SPIKE_A		
+#				
+REGION:Underdark (Old Shanatar)				
+STARTPACK:UnderdarkOldShanatarC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Mace (Heavy)		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkOldShanatarC2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Urgrosh (Dwarven)		EQMOD:MWORKW		
+#				
+STARTPACK:UnderdarkOldShanatarD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Shield
+GEAR:Chainmail		EQMOD:MWORKA		
+#				
+REGION:Chondalwood				
+STARTPACK:ChondalwoodE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wild
+GEAR:Hide		EQMOD:MWORKA		
+GEAR:Potion (Elixir of Sneaking)				
+#				
+STARTPACK:ChondalwoodF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wild
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:ChondalwoodK1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Ghostwise
+GEAR:Shortbow		EQMOD:MWORKW		
+#				
+STARTPACK:ChondalwoodK2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Ghostwise
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:ChondalwoodK3	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Ghostwise
+GEAR:Shortspear		EQMOD:MWORKW		
+#				
+STARTPACK:ChondalwoodL1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Ghostwise
+GEAR:Poison (Blue whinnis)				
+#				
+REGION:Cormanthor Drow				
+STARTPACK:CormanthorDrowE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Drow
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:CormanthorDrowE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Drow
+GEAR:Crossbow (Light)		EQMOD:MWORKW		
+#				
+STARTPACK:CormanthorDrowF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Drow
+GEAR:Crossbow (Hand)				
+GEAR:Poison (Drow Poison)	QTY:3			
+#				
+REGION:Elven Court				
+STARTPACK:ElvenCourtE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Wild, Wood
+GEAR:Chain Shirt		EQMOD:MWORKA		
+#				
+STARTPACK:ElvenCourtF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Wild, Wood
+GEAR:Scroll (Barkskin)				
+GEAR:Scroll (Tree Shape)				
+#				
+REGION:Evereska				
+STARTPACK:EvereskaE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
+GEAR:Chainmail		EQMOD:MWORKA		
+GEAR:Arrow (20)	QTY:20			
+#				
+STARTPACK:EvereskaF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Color Spray]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Evermeet				
+STARTPACK:EvermeetE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun, Wood
+GEAR:Scroll (Knock)				
+GEAR:Scroll (Invisibility)				
+#				
+STARTPACK:EvermeetF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun, Wood
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:EvermeetF2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun, Wood
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+REGION:Forest of Lethyr				
+STARTPACK:ForestOfLethyrE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wood
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Potion (Cure Light Wounds)	QTY:3			
+#				
+STARTPACK:ForestOfLethyrF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wood
+GEAR:Hide		EQMOD:MWORKA		
+GEAR:Scroll (Heat Metal)				
+#				
+REGION:High Forest				
+STARTPACK:HighForestE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wood
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:HighForestE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wood
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:HighForestF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wood
+GEAR:Longbow (Composite)		EQMOD:BOWSTR|+2		
+#				
+REGION:Inner Sea				
+STARTPACK:InnerSeaE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Aquatic
+GEAR:Trident		EQMOD:MWORKW		
+#				
+STARTPACK:InnerSeaE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Aquatic
+GEAR:Longspear		EQMOD:MWORKW		
+#				
+STARTPACK:InnerSeaF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Aquatic
+GEAR:Longbow (Aquatic)		EQMOD:MWORKW		
+#				
+REGION:Underdark (Menzoberranyr)				
+STARTPACK:MenzoberranyrE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Drow
+GEAR:Crossbow (Hand)				
+GEAR:Bolt (Crossbow)	QTY:20	EQMOD:MWORKW		
+#				
+STARTPACK:MenzoberranyrF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Drow
+GEAR:Scroll	QTY:2			
+#				
+REGION:Sildeyuir				
+STARTPACK:SildeyuirE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:SildeyuirE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:SildeyuirF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Musical Instrument (Lute)		EQMOD:MWORKI		
+#				
+REGION:Snow Eagle Aerie				
+STARTPACK:SnowEagleAerieE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Avariel
+GEAR:Rapier		EQMOD:MWORKW		
+#				
+STARTPACK:SnowEagleAerieE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Avariel
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:SnowEagleAerieF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Avariel
+GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
+#				
+REGION:Wealdath				
+STARTPACK:WealdathE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wild, Wood
+GEAR:Longbow		EQMOD:MWORKW		
+#				
+STARTPACK:WealdathF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wild, Wood
+GEAR:Chain Shirt		EQMOD:MWORKA		
+GEAR:Potion (Cure Light Wounds)				
+#				
+REGION:Yuirwood				
+STARTPACK:YuirwoodE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star, Wood
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Arrow (20)		EQMOD:MWORKW		
+#				
+STARTPACK:YuirwoodF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star, Wood
+GEAR:Scroll (Barkskin)				
+GEAR:Scroll (Tree Shape)				
+#				
+REGION:Cannath Vale				
+STARTPACK:CannatValeK1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Ghostwise, Strongheart
+GEAR:Studded Leather		EQMOD:MWORKA		
+GEAR:Poison (Black adder venom)				
+#				
+STARTPACK:CannatValeL1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Ghostwise, Strongheart
+GEAR:Sling		EQMOD:MWORKW		
+GEAR:Bullets (Sling/10)	QTY:1	EQMOD:ALCHM		
+#				
+REGION:Lurien				
+STARTPACK:LurienK1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Lightfoot
+GEAR:Sword (Short)		EQMOD:MWORKW		
+#				
+STARTPACK:LurienK2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Lightfoot
+GEAR:Longsword		EQMOD:MWORKW		
+#				
+STARTPACK:LurienL1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Halfling Lightfoot
+GEAR:Shield (Heavy/Wood)		EQMOD:MWORKA.DARK		
+GEAR:Tanglefoot Bag	QTY:3			

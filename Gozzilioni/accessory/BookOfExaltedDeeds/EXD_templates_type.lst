@@ -1,0 +1,7 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net															
+																	
+Celestial Hebdomad		VISIBLE:YES	SOURCEPAGE:EXD	ABILITY:Special Ability|AUTOMATIC|Aura of Menace|Indelible Imprint|Magic Circle against Evil|Summon Archons ~ Hebdomad|Teleport|Tongues													
+Five Companions		VISIBLE:YES	SOURCEPAGE:EXD	ABILITY:Special Ability|AUTOMATIC|Lay on Hands|Speak with Animals|Tongues													
+Court of the Star		VISIBLE:YES	SOURCEPAGE:EXD	ABILITY:Special Ability|AUTOMATIC|Bardic Music|Protective Aura|Tongues	DEFINE:BardicMusicLvl|20	DEFINE:BardicMusicLvl|20											
+Deathless		VISIBLE:YES	SOURCEPAGE:EXD	DEFINE:LOCK.CON|10	BONUS:SKILL|Concentration|CHA-CON												
+Aleax		VISIBLE:YES	SOURCEPAGE:EXD	RACETYPE:Construct	BONUS:HP|CURRENTMAX|max(SIZE-2,0)*10	BONUS:HP|CURRENTMAX|max(SIZE-6,0)*10	BONUS:COMBAT|INITIATIVE|1|TYPE=Insight	BONUS:COMBAT|AC|2|TYPE=Perfection	ABILITY:Special Ability|AUTOMATIC|Searing Light (Sp)|Fast Healing|True Seeing	BONUS:VAR|SearingLightPerDay|1	BONUS:VAR|SearingLightLVL|HD	RACESUBTYPE:Shapechanger	TEMPLATE:Shapechanger	BONUS:VAR|FastHealing|5	SR:10+HD	DEFINE:LOCK.CON|10	CR:3

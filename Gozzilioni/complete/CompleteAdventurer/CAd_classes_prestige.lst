@@ -1,0 +1,443 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net										
+#												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Animal Lord	HD:10	TYPE:Prestige	ABB:Anl	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Animal Lord	PREALIGN:NG,LN,TN,CN,NE	PREATT:5	PRESKILL:1,Handle Animal=4	PRESKILL:1,Knowledge (Nature)=2								ALLOWBASECLASS:NO
+CLASS:Animal Lord	STARTSKILLPTS:4	CSKILL:Climb|Escape Artist|Handle Animal|Heal|Hide|Intimidate|Jump|Knowledge (Nature)|Listen|Move Silently|Spot|Survival|Swim										
+#												
+SUBCLASS:Apelord	COST:0	PRESKILL:1,Climb=4	PREFEAT:1,Toughness									
+SUBCLASSLEVEL:1									SPELLS:Detect Apes|TIMES=UNLIM|CASTERLEVEL=classlevel("Apelord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Apelord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Apes|TIMES=1|CASTERLEVEL=classlevel("Apelord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Apes|TIMES=1|CASTERLEVEL=classlevel("Apelord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Apes Growth|TIMES=1|CASTERLEVEL=classlevel("Apelord")|Animal Growth			
+SUBCLASS:Bearlord	COST:0	PRESKILL:1,Intimidate=4	PREFEAT:1,Endurance									
+SUBCLASSLEVEL:1									SPELLS:Detect Bears|TIMES=UNLIM|CASTERLEVEL=classlevel("Bearlord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Bearlord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Bears|TIMES=1|CASTERLEVEL=classlevel("Bearlord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Bears|TIMES=1|CASTERLEVEL=classlevel("Bearlord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Bearss Growth|TIMES=1|CASTERLEVEL=classlevel("Bearlord")|Animal Growth			
+SUBCLASS:Birdlord	COST:0	PRESKILL:1,Spot=4	PREFEAT:1,Improved Flight									
+SUBCLASSLEVEL:1									SPELLS:Detect Birds|TIMES=UNLIM|CASTERLEVEL=classlevel("Birdlord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Birdlord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Birds|TIMES=1|CASTERLEVEL=classlevel("Birdlord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Birds|TIMES=1|CASTERLEVEL=classlevel("Birdlord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Bird Growth|TIMES=1|CASTERLEVEL=classlevel("Birdlord")|Animal Growth			
+SUBCLASS:Catlord	COST:0	PRESKILL:1,Move Silently=4	PREFEAT:1,Weapon Finesse									
+SUBCLASSLEVEL:1									SPELLS:Detect Cats|TIMES=UNLIM|CASTERLEVEL=classlevel("Catlord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Catlord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Cats|TIMES=1|CASTERLEVEL=classlevel("Catlord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Cats|TIMES=1|CASTERLEVEL=classlevel("Catlord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Cats Growth|TIMES=1|CASTERLEVEL=classlevel("Catlord")|Animal Growth			
+SUBCLASS:Horselord	COST:0	PRESKILL:1,Jump=4	PREFEAT:1,Run									
+SUBCLASSLEVEL:1									SPELLS:Detect Horses|TIMES=UNLIM|CASTERLEVEL=classlevel("Horselord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Horselord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Horses|TIMES=1|CASTERLEVEL=classlevel("Horselord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Horses|TIMES=1|CASTERLEVEL=classlevel("Horselord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Horses Growth|TIMES=1|CASTERLEVEL=classlevel("Horselord")|Animal Growth			
+SUBCLASS:Sharklord	COST:0	PRESKILL:1,Swim=4	PREFEAT:1,Improved Swimming									
+SUBCLASSLEVEL:1									SPELLS:Detect Sharks|TIMES=UNLIM|CASTERLEVEL=classlevel("Sharklord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Sharklord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Sharks|TIMES=1|CASTERLEVEL=classlevel("Sharklord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Sharks|TIMES=1|CASTERLEVEL=classlevel("Sharklord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Sharks Growth|TIMES=1|CASTERLEVEL=classlevel("Sharklord")|Animal Growth			
+SUBCLASS:Snakelord	COST:0	PRESKILL:1,Escape Artist=4	PREFEAT:1,Combat Reflexes									
+SUBCLASSLEVEL:1									SPELLS:Detect Snakes|TIMES=UNLIM|CASTERLEVEL=classlevel("Snakelord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Snakelord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Snakes|TIMES=1|CASTERLEVEL=classlevel("Snakelord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Snakes|TIMES=1|CASTERLEVEL=classlevel("Snakelord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Snakes Growth|TIMES=1|CASTERLEVEL=classlevel("Snakelord")|Animal Growth			
+SUBCLASS:Wolflord	COST:0	PRESKILL:1,Survival=4	PREFEAT:1,Track									
+SUBCLASSLEVEL:1									SPELLS:Detect Wolfs|TIMES=UNLIM|CASTERLEVEL=classlevel("Wolflord")|Detect Animals or Plants			
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Wolflord Wild Aspect								
+SUBCLASSLEVEL:4									SPELLS:Speak with Wolves|TIMES=1|CASTERLEVEL=classlevel("Wolflord")|Speak with Animals			
+SUBCLASSLEVEL:5									SPELLS:Summon Wolves|TIMES=1|CASTERLEVEL=classlevel("Wolflord")|Summon Nature's Ally V			
+SUBCLASSLEVEL:7									SPELLS:Wolves Growth|TIMES=1|CASTERLEVEL=classlevel("Wolflord")|Animal Growth			
+1				ABILITY:Special Ability|AUTOMATIC|Animal Bond|Wild Empathy			BONUS:VAR|WildEmpathy,CompLevel|CL					
+2					VISION:Low-Light		BONUS:ABILITYPOOL|Animal Lord First Totem|1					
+3				ABILITY:Special Ability|AUTOMATIC|Wild Aspect|Animal Lord Wild Aspect			BONUS:VAR|AnimalLordWildAspectLVL|CL					
+4												
+5												
+6							BONUS:ABILITYPOOL|Animal Lord Second Totem|1					
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Telepathy			BONUS:VAR|TelepathyRange|100					
+9												
+10							BONUS:ABILITYPOOL|Animal Lord Third Totem|1					
+#												
+CLASS:Beastmaster	HD:10	TYPE:Prestige	ABB:Bea	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Beastmaster	PRESKILL:1,Handle Animal=8	PRESKILL:1,Survival=4	PREFEAT:1,Skill Focus(Handle Animal)									
+CLASS:Beastmaster	STARTSKILLPTS:4	CSKILL:Climb|Handle Animal|Heal|Hide|Jump|Knowledge (Nature)|Listen|Ride|Spot|Survival|Swim										
+1				ABILITY:Special Ability|AUTOMATIC|Animal Companion|Beastmaster Animal Companion|Wild Empathy			BONUS:VAR|WildEmpathy|CL	BONUS:VAR|BeastmasterAnimalCompanionLVL|CL				
+2			VFEAT:Alertness									
+3				ABILITY:Special Ability|AUTOMATIC|Speak with Animals (Sp)			BONUS:VAR|SpeakWithAnimalsTimes|CL/3	BONUS:VAR|SpeakWithAnimalsLVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 1				BONUS:VAR|ExtraCompLevel1|CL				
+5				VISION:Low-Light								
+7				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 2				BONUS:VAR|ExtraCompLevel2|CL				
+8				ABILITY:Special Ability|AUTOMATIC|Scent								
+10				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 3				BONUS:VAR|ExtraCompLevel3|CL				
+#												
+CLASS:Bloodhound	HD:10	TYPE:Prestige	ABB:Blo	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Bloodhound	PREATT:4	PRESKILL:3,Gather Information=4,Move Silently=4,Survival=4	PREFEAT:2,Endurance,Track									
+CLASS:Bloodhound	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Diplomacy|Disguise|Gather Information|Heal|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Ride|Search|Sense Motive|Spot|Survival|Swim|Use Rope										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Mark|Swift Tracker			BONUS:VAR|MarkBonus|CL	BONUS:VAR|Mark|(CL+2)/3				
+2				ABILITY:Special Ability|AUTOMATIC|Nonlethal Force|Ready and Waiting								
+3				ABILITY:Special Ability|AUTOMATIC|Bring'em Back Alive|Tenacious Pursuit								
+4				ABILITY:Special Ability|AUTOMATIC|Hunter's Dedication								
+5				ABILITY:Special Ability|AUTOMATIC|Move Like the Wind|Crippling Strike|Track the Trackless								
+6				ABILITY:Special Ability|AUTOMATIC|See Invisibility|Shield Mind|Bloodhound Shield Mind			BONUS:VAR|ShieldMindLVL|CL					
+7				ABILITY:Special Ability|AUTOMATIC|Locate Creature (Sp)			BONUS:VAR|LocateCreatureLVL|CL					
+8				ABILITY:Special Ability|AUTOMATIC|Freedom of Movement (Su/rounds)								
+9				ABILITY:Special Ability|AUTOMATIC|Scent								
+10				ABILITY:Special Ability|AUTOMATIC|Find the Path (Sp)			BONUS:VAR|FindThePathPerDay|2	BONUS:VAR|FindThePathLVL|CL				
+#												
+CLASS:Daggerspell Mage	HD:6	TYPE:Prestige	ABB:Dgm	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Daggerspell Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PREFEAT:2,Weapon Focus(Dagger),Two Weapon Fighting	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=5	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack							
+CLASS:Daggerspell Mage	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Arcana)|Listen|Move Silently|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim|Tumble										
+1				ABILITY:Special Ability|AUTOMATIC|Daggercast								
+2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Invocation of the Knife								
+3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Daggerspell Sneak Attack			BONUS:VAR|DaggerspellSneakAttackLVL|CL					
+4	ADD:SPELLCASTER|Arcane											
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Double Daggercast								
+6	ADD:SPELLCASTER|Arcane											
+7	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Arcane Infusion								
+8	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Arcane Throw								
+9	ADD:SPELLCASTER|Arcane											
+10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Daggerspell Flurry								
+#												
+CLASS:Daggerspell Shaper	HD:6	TYPE:Prestige	ABB:Dgs	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Daggerspell Shaper	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=8	PREFEAT:2,Weapon Focus(Dagger),Two Weapon Fighting	PREABILITY:1,CATEGORY=Special Ability,TYPE=WildShape	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Skirmish Attack							
+CLASS:Daggerspell Shaper	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Nature)|Listen|Move Silently|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim|Tumble										
+1				ABILITY:Special Ability|AUTOMATIC|Daggercast								
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Daggerspell Wild Shape|Daggerspell Wild Shape Times|Daggerspell Wild Shape Progression	ABILITY:Special Ability|AUTOMATIC|Dagger Claws		BONUS:VAR|DaggerspellWildShape|CL					
+3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Daggerspell Sneak Attack			BONUS:VAR|DaggerspellSneakAttackLVL|CL					
+4	ADD:SPELLCASTER|Divine											
+5	ADD:SPELLCASTER|Divine											
+6	ADD:SPELLCASTER|Divine											
+7	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Fast Wild Shape								
+8	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Enhanced Wild Shape								
+9	ADD:SPELLCASTER|Divine											
+10	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Daggerspell Flurry								
+#												
+CLASS:Dread Pirate	HD:8	TYPE:Prestige	ABB:Drp	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Dread Pirate	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:4	PRESKILL:2,Appraise=8,Profession (Sailor)=8	PRESKILL:2,Swim=4,Use Rope=4	PREFEAT:2,Quick Draw,Weapon Finesse	PRETEXT:Must own a ship of at least 10'000 Gp of value. The method of acquisition makes no difference, as long as he can freely operate in high seas						
+CLASS:Dread Pirate	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craft|Gather Information|Intimidate|Jump|Listen|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Rope										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Dread Pirate Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Seamanship|Dread Pirate Seamanship|Code of Conduct ~ Dread Pirate			BONUS:VAR|DreadPirateSeamanshipLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Dread Pirate Two Weapon Fighting|Fearsome Reputation			BONUS:VAR|FearsomeReputationLVL|CL	BONUS:ABILITYPOOL|Fearsome Reputation|(CL+1)/2				
+3												
+4				ABILITY:Special Ability|AUTOMATIC|Acrobatic Charge|Steady Stance								
+5												
+6												
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Dread Pirate Skill Mastery								
+9												
+10				ABILITY:Special Ability|AUTOMATIC|Pirate King								
+#												
+CLASS:Dungeon Delver	HD:6	TYPE:Prestige	ABB:Del	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Dungeon Delver	PRESKILL:4,Climb=10,Disable Device=10,Open Lock=10,Search=10	PRESKILL:4,Craft (Stonemasonry)=5,Hide=5,Knowledge (Dungeoneering)=5,Move Silently=5	PREFEAT:2,Alertness,Blind Fight	PREABILITY:1,CATEGORY=Special Ability,Trapfinding	PRETEXT:Must survive a great trial underground.see desc.							
+CLASS:Dungeon Delver	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Disable Device|Hide|Jump|Knowledge (Dungeoneering)|Listen|Move Silently|Open Lock|Search|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope										
+1				ABILITY:Special Ability|AUTOMATIC|Dungeon Delver Darkvision|Deep Survival|Dungeon Delver Deep Survival|Trap Sense Ability			BONUS:VAR|DungeonDelverDeepSurvivalLVL|CL	BONUS:VAR|TrapSense|(CL+2)/3				
+2				ABILITY:Special Ability|AUTOMATIC|Stonecunning|Reduce (Sp)						SPELLS:Reduce|TIMES=3|CASTERLEVEL=classlevel("Dungeon Delver")|Reduce Person		
+3				ABILITY:Special Ability|AUTOMATIC|Augury (Sp)	ADD:ABILITY|Special Ability|VIRTUAL|Skill Mastery		BONUS:VAR|AuguryTimes|CL/3	BONUS:VAR|AuguryLVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite|PREEQUIP:1,TYPE=Medium,TYPE=Heavy					
+5				ABILITY:Special Ability|AUTOMATIC|Blindsense (Ex)|Dungeon Delver Blindsense			BONUS:VAR|DungeonDelverBlindsenseLVL|CL					
+6				ABILITY:Special Ability|AUTOMATIC|Passwall (Sp)			BONUS:VAR|PasswallTimes|1	BONUS:VAR|PasswallLVL|CL				
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Find the Path (Sp)			BONUS:VAR|FindThePathPerDay|2	BONUS:VAR|FindThePathLVL|CL				
+9				ABILITY:Special Ability|AUTOMATIC|Phase Door (Sp)			BONUS:VAR|PhaseDoorPerDay|1	BONUS:VAR|PhaseDoorLVL|18				
+10												
+#												
+CLASS:Exemplar	HD:6	TYPE:Prestige	ABB:Exe	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Exemplar	PRESKILL:1,Diplomacy=6	PRESKILL:1,TYPE.Strength=13,TYPE.Dexterity=13,TYPE.Constitution=13,TYPE.Intelligence=13,TYPE.Wisdom=13,TYPE.Charisma=13	PREFEAT:1,Skill Focus									
+CLASS:Exemplar	STARTSKILLPTS:8	CSKILL:TYPE.Strength|TYPE.Dexterity|TYPE.Constitution|TYPE.Intelligence|TYPE.Wisdom|TYPE.Charisma										
+1							BONUS:ABILITYPOOL|Skill Artistry|((CL+2)/3)	BONUS:ABILITYPOOL|Skill Mastery|(1+INT)+(CL-1)				
+2				ABILITY:Special Ability|AUTOMATIC|Lend Talent								
+3							BONUS:ABILITYPOOL|Exemplar Feat|CL/3					
+4				ABILITY:Special Ability|AUTOMATIC|Sustaining Presence								
+5				ABILITY:Special Ability|AUTOMATIC|Persuasiuve Performance								
+6												
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Intellectual Agility								
+9												
+10				ABILITY:Special Ability|AUTOMATIC|Exemplar Perfect Self								
+#												
+###COMMENT:CONTIGUOUS:Druid|Bard												
+CLASS:Fochlucan Lyrist	HD:6	TYPE:Prestige	ABB:Fon	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Fochlucan Lyrist	PRESKILL:5,Decipher Script=7,Diplomacy=7,Gather Information=7,Knowledge (Nature)=7,Sleight of Hand=7	PRESKILL:1,Perform (String Instruments)=13	PRELANG:1,Druidic	PRESPELLTYPE:2,Arcane=1,Divine=1	PREABILITY:2,CATEGORY=Special Ability,Bardic Knowledge,Evasion							
+CLASS:Fochlucan Lyrist	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Gather Information|Handle Animal|Heal|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Survival|Swim|Use Magic Device										
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Bardic Knowledge|Bardic Music			BONUS:VAR|BardicKnowledgeLvl|CL	BONUS:VAR|BardicKnowledge|BardicKnowledgeLvl	BONUS:VAR|BardicMusicLvl|CL	BONUS:VAR|BardicMusicTimes|CL		
+1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Unbound								
+2	ADD:SPELLCASTER|Arcane											
+2	ADD:SPELLCASTER|Divine											
+3	ADD:SPELLCASTER|Arcane											
+3	ADD:SPELLCASTER|Divine											
+4	ADD:SPELLCASTER|Arcane											
+4	ADD:SPELLCASTER|Divine											
+5	ADD:SPELLCASTER|Arcane											
+5	ADD:SPELLCASTER|Divine											
+6	ADD:SPELLCASTER|Arcane											
+6	ADD:SPELLCASTER|Divine											
+7	ADD:SPELLCASTER|Arcane											
+7	ADD:SPELLCASTER|Divine											
+8	ADD:SPELLCASTER|Arcane											
+8	ADD:SPELLCASTER|Divine											
+9	ADD:SPELLCASTER|Arcane											
+9	ADD:SPELLCASTER|Divine											
+10	ADD:SPELLCASTER|Arcane											
+10	ADD:SPELLCASTER|Divine											
+#												
+CLASS:Ghost Faced Killer	HD:8	TYPE:Prestige.Oriental	ABB:Gfk	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Ghost Faced Killer	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:2,Hide=6,Move Silently=6	PRESKILL:1,Concentration=4	PRESKILL:1,Intimidate=8	PREFEAT:2,Improved Initiative,Power Attack						
+CLASS:Ghost Faced Killer	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Spot|Swim|Tumble										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Ghost Step|Ghost Step (Su)|Ghost Faced Killer Ghost Step			BONUS:VAR|GhostFacedKillerGhostStepLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Sudden Strike|Ghost Faced Killer Sudden Strike			BONUS:VAR|GhostFacedKillerSuddenStrikeLVL|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Frightful Attack			BONUS:VAR|FrightfulAttackPerDay|CL/3					
+4												
+5												
+6												
+7				ABILITY:Special Ability|AUTOMATIC|Ghost Sight								
+8												
+9												
+10				ABILITY:Special Ability|AUTOMATIC|Frightful Cleave								
+#												
+CLASS:Highland Stalker	HD:8	TYPE:Prestige	ABB:His	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Highland Stalker	PREATT:5	PRESKILL:3,Listen=8,Spot=8,Survival=8	PREFEAT:1,Track	PREABILITY:1,CATEGORY=Special Ability,Skirmish Attack,Sneak Attack								
+CLASS:Highland Stalker	STARTSKILLPTS:4	CSKILL:Balance|Climb|TYPE.Craft|Hide|Jump|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|Search|Spot|Survival										
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Mountain Stride								
+2				ABILITY:Special Ability|AUTOMATIC|Skirmish Attack|Skirmish AC|Highlander Stalker Skirmish			BONUS:VAR|HighlanderStalkerSkirmishLVL|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Swift Tracker								
+4												
+5				ABILITY:Special Ability|AUTOMATIC|Surefooted								
+6												
+7				ABILITY:Special Ability|AUTOMATIC|Camouflage								
+8												
+9												
+10												
+#												
+CLASS:Maester	HD:4	TYPE:Prestige	ABB:Mae	MAXLEVEL:5	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Maester	PREMULT:1,[PRERACE:1,Gnome%],[PRERACE:1,RACESUBTYPE=Gnome]	PRESKILL:1,TYPE.Craft=8	PRESKILL:1,Use Magic Device=4	PREFEAT:2,TYPE=ItemCreation	PRESPELLTYPE:1,Arcane=5							
+CLASS:Maester	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE.Craft|Disable Device|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Spellcraft|Use Magic Device										
+1		BONUS:ABILITYPOOL|Maester Feat|(CL+3)/4		ABILITY:Special Ability|AUTOMATIC|Quick Crafting								
+2	ADD:SPELLCASTER|ANY											
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Identification (Sp)								
+4	ADD:SPELLCASTER|ANY											
+5	ADD:SPELLCASTER|ANY											
+#												
+CLASS:Master of Many Form	HD:8	TYPE:Prestige	ABB:Mmf	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
+CLASS:Master of Many Form	PREFEAT:2,Alertness,Endurance	PREABILITY:1,CATEGORY=Special Ability,TYPE=WildShape										
+CLASS:Master of Many Form	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Disguise|Handle Animal|Hide|Jump|Knowledge (Nature)|Listen|Spot|Swim|Survival										
+1				ABILITY:Special Ability|AUTOMATIC|Shifter's Speech|Improved Wild Shape|Master of Many Form Improved Wild Shape			BONUS:VAR|MasterOfManyFormImprovedWildShapeLVL|CL					
+2												
+3				ABILITY:Special Ability|AUTOMATIC|Fast Wild Shape								
+4												
+5												
+6												
+7				ABILITY:Special Ability|AUTOMATIC|Extraordinary Wild Shape								
+8												
+9												
+10				ABILITY:Special Ability|AUTOMATIC|Evershifting Form								
+#												
+CLASS:Nightsong Enforcer	HD:8	TYPE:Prestige	ABB:Nse	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Nightsong Enforcer	PREATT:5	PRESKILL:2,Hide=10,Move Silently=10	PREFEAT:1,Improved Initiative	PREABILITY:1,CATEGORY=Special Ability,Evasion	PRETEXT:Must undergo intensive training and tests with the Nightsong Guild							
+CLASS:Nightsong Enforcer	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|TYPE.Profession|Ride|Ride|Search|Spot|Swim|Tumble										
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Nightsong Enforcer Sneak Attack|Teamwork ~ hear/see allies			BONUS:VAR|NightsongEnforcerSneakAttackLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Agility Train								
+3				ABILITY:Special Ability|AUTOMATIC|Skill Teamwork|Nightsong Enforcer Skill Teamwork			BONUS:VAR|NightsongEnforcerSkillTeamworkLVL|CL					
+4												
+5				ABILITY:Special Ability|AUTOMATIC|Flanking Teamwork			BONUS:VAR|FlankingTeamworkBonus|1			DEFINE:FlankingTeamworkBonus|0		
+6				ABILITY:Special Ability|AUTOMATIC|Opportunist								
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1					
+9				ABILITY:Special Ability|AUTOMATIC|Teamwork ~ status								
+10												
+#												
+CLASS:Nightsong Infiltrator	HD:6	TYPE:Prestige	ABB:Nsi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Nightsong Infiltrator	PRESKILL:1,Climb=10	PRESKILL:3,Disable Device=5,Open Lock=5,Search=5	PREFEAT:1,Alertness	PREABILITY:1,CATEGORY=Special Ability,Evasion	PRETEXT:Must undergo intensive training and tests with the Nightsong Guild							
+CLASS:Nightsong Infiltrator	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|Listen|Move Silently|Open Lock|TYPE.Profession|Ride|Search|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope										
+1				ABILITY:Special Ability|AUTOMATIC|Trap Sense Ability|Nightsong Infiltrator Trap Sense|Teamwork ~ trap sense|Trapfinding			BONUS:VAR|NightsongInfiltratorTrapSenseLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Steady Stance|Teamwork ~ infiltration|Nightsong Infiltrator Infiltration			BONUS:VAR|NightsongInfiltratorTeamworkInfiltrationLVL|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Break Away|Trackless Step								
+4				ABILITY:Special Ability|AUTOMATIC|Detect Magic (Sp at will)|Sneak Attack|Nightsong Infiltrator Sneak Attack|Teamwork ~ sneak attack			BONUS:VAR|DetectMagicWillLVL|CL	BONUS:VAR|NightsongInfiltratorSneakAttackLVL|CL				
+5				ABILITY:Special Ability|AUTOMATIC|Defensive Roll|Grant Move Action|Nightsong Infiltrator Grant Move Action			BONUS:VAR|NightsongInfiltratorGrantMoveActionLVL|CL					
+6				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion|Specialized Tool	ADD:ABILITY|Special Ability|VIRTUAL|Nightsong Infiltrator Skill Mastery		BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1					
+7				ABILITY:Special Ability|AUTOMATIC|Teamwork ~ trackless step|Nightsong Infiltrator Trackless Step			BONUS:VAR|NightsongInfiltratorTracklessStepLVL|CL					
+8												
+9												
+10				ABILITY:Special Ability|AUTOMATIC|Hide in Plain Sight (Ex)								
+#												
+CLASS:Ollam	HD:8	TYPE:Prestige	ABB:Oll	MAXLEVEL:5	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Ollam	PREMULT:1,[PRERACE:1,Dwarf%],[PRERACE:1,RACESUBTYPE=Dwarf]	PREALIGN:LG	PRESKILL:1,Knowledge (History)=10	PRESKILL:2,TYPE.Knowledge=10	PRESKILL:1,Perform (Oratory)=5							ALLOWBASECLASS:NO
+CLASS:Ollam	STARTSKILLPTS:6	CSKILL:Concentration|TYPE.Craft|Decipher Script|Diplomacy|Gather Information|Heal|TYPE.Knowledge|Listen|TYPE.Perform|Search|Sense Motive|Speak Language|Spellcraft										
+SUBSTITUTIONCLASS:Ollam cleric	!PRECLASS:1,SPELLCASTER=1											
+SUBSTITUTIONLEVEL:2	ADD:SPELLCASTER|Cleric	BONUS:PCLEVEL|Cleric|(CL-1)										
+SUBSTITUTIONLEVEL:3	ADD:SPELLCASTER|Cleric			ABILITY:Special Ability|AUTOMATIC|Bardic Inspire Competence								
+SUBSTITUTIONLEVEL:4	ADD:SPELLCASTER|Cleric											
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Ollam Lore			BONUS:VAR|OllamLore|CL	BONUS:VAR|BardicKnowledge|CL				
+2	ADD:SPELLCASTER|ANY											
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Bardic Inspire Competence								
+4	ADD:SPELLCASTER|ANY											
+5				ABILITY:Special Ability|AUTOMATIC|Inspire Resilience								
+#												
+###COMMENT:CONTIGUOUS:Paladin,Rogue												
+CLASS:Shadowbane Inquisitor	HD:10	TYPE:Prestige	ABB:Sbi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Shadowbane Inquisitor		
+CLASS:Shadowbane Inquisitor	PREALIGN:LG	PREATT:5	PRESKILL:1,Knowledge (Religion)=2	PRESKILL:1,Gather Information=4	PRESKILL:1,Sense Motive=8	PREFEAT:1,Power Attack	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Detect Evil],[PRESPELL:1,Detect Evil]	PREABILITY:1,CATEGORY=Special Ability,Turn Undead			
+CLASS:Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Gather Information|Heal|Hide|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Search|Sense Motive|Swim										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1		AUTO:FEAT|Shield Proficiency										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Absolute Conviction|Pierce Shadows|Shadowbane Inquisitor Pierce Shadows			BONUS:VAR|ShadowbaneInquisitorPierceShadowsLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Sacred Stealth|Shadowbane Inquisitor Sacred Stealth|Smite Corrupted|Shadowbane Inquisitor Smite Corrupted			BONUS:VAR|ShadowbaneInquisitorSmiteCorruptedLVL|CL	BONUS:VAR|ShadowbaneInquisitorSacredStealthLVL|CL				
+3			VFEAT:Improved Sunder									
+4				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Shadowbane Inquisitor Sneak Attack			BONUS:VAR|ShadowbaneInquisitorSneakAttackLVL|CL					
+5				ABILITY:Special Ability|AUTOMATIC|Merciless Purity								
+6												
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Righteous Fervor								
+9				ABILITY:Special Ability|AUTOMATIC|Burning Light								
+10												
+#												
+CLASS:Ex Shadowbane Inquisitor	HD:10	TYPE:Prestige	ABB:XSbi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO		
+CLASS:Ex Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Gather Information|Heal|Hide|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Search|Sense Motive|Swim										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1		AUTO:FEAT|Shield Proficiency										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Pierce Shadows|Shadowbane Inquisitor Pierce Shadows			BONUS:VAR|ShadowbaneInquisitorPierceShadowsLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Sacred Stealth|Smite Corrupted|Shadowbane Inquisitor Smite Corrupted			BONUS:VAR|ShadowbaneInquisitorSmiteCorruptedLVL|CL	BONUS:VAR|ShadowbaneInquisitorSacredStealthLVL|CL				
+3			VFEAT:Improved Sunder									
+4				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Shadowbane Inquisitor Sneak Attack			BONUS:VAR|ShadowbaneInquisitorSneakAttackLVL|CL					
+5				ABILITY:Special Ability|AUTOMATIC|Merciless Purity								
+6												
+7												
+8				ABILITY:Special Ability|AUTOMATIC|Righteous Fervor								
+9				ABILITY:Special Ability|AUTOMATIC|Burning Light								
+10												
+#												
+CLASS:Blackguard.MOD												
+1	EXCHANGELEVEL:Ex Shadowbane Inquisitor|1|10|1											
+#												
+CLASS:Shadowbane Stalker	HD:8	TYPE:Prestige	ABB:Sbl	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Shadowbane Stalker	PREALIGN:LG	PRESKILL:1,Gather Information=8	PRESKILL:2,Sense Motive=4,Search=4	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Detect Evil],[PRESPELL:1,Detect Evil]	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Sudden Strike							
+CLASS:Shadowbane Stalker	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Concentration|TYPE.Craft|Decipher Script|Disable Device|Escape Artist|Gather Information|Heal|Hide|Jump|Knowledge (History)|Knowledge (Nature)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Open Lock|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Spellcraft|Spot|Tumble|Use Magic Device|Use Rope										
+1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Detect Evil|Sacred Stealth			BONUS:VAR|DetectEvilLVL|CL	BONUS:VAR|ShadowbaneStalkerSacredStealthLVL|CL				
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Discover Subterfuge|Shadowbane Stalker Discover Subterfuge			BONUS:VAR|ShadowbaneStalkerDiscoverSubtefugeLVL|CL					
+3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Shadowbane Stalker Sneak Attack			BONUS:VAR|ShadowbaneStalkerSneakAttackLVL|CL					
+4				ABILITY:Special Ability|AUTOMATIC|Sacred Defense|Shadowbane Stalker Sacred Defense								
+5	ADD:SPELLCASTER|Divine											
+6	ADD:SPELLCASTER|Divine											
+7	ADD:SPELLCASTER|Divine											
+8	ADD:SPELLCASTER|Divine											
+9												
+10	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Sacred Strike								
+#												
+CLASS:Spymaster	HD:6	TYPE:Prestige	ABB:Spy	MAXLEVEL:7	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Spymaster	PRESKILL:1,Bluff=8,Disguise=8	PRESKILL:4,Diplomacy=4,Forgery=4,Gather Information=4,Sense Motive=4	PREFEAT:1,Skill Focus(Bluff)									
+CLASS:Spymaster	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Nobility and Royalty)|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Speak Language|Spot|Swim|Tumble|Use Magic Device|Use Rope										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Undetectable Alignment			BONUS:ABILITYPOOL|Cover Identity|((CL+2)/3)					
+2				ABILITY:Special Ability|AUTOMATIC|Quick Change|Scrying Defence			BONUS:VAR|SryingDefenceBonus|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Magic Aura (Sp at will)|Sneak Attack|Spymaster Sneak Attack			BONUS:VAR|MagicAuraLVL|CL	BONUS:VAR|SpymasterSneakAttackLVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Slippery Mind								
+5				ABILITY:Special Ability|AUTOMATIC|Dispel Scrying|Spymaster Dispel Scrying			BONUS:VAR|SpymasterDispelScryingCasterlevelLVL|CL					
+6												
+7				ABILITY:Special Ability|AUTOMATIC|Deep Cover 2								
+#												
+CLASS:Streetfighter	HD:8	TYPE:Prestige	ABB:Str	MAXLEVEL:5	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Streetfighter	PREATT:5	PRESKILL:3,Bluff=5,Intimidate=5,Knowledge (Local)=5	PREFEAT:2,Combat Expertise,Improved Feint									
+CLASS:Streetfighter	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Disable Device|Hide|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|Ride|Search|Spot|Tumble										
+1				ABILITY:Special Ability|AUTOMATIC|Always Ready|Streetfighter Always Ready|Streetwise|Streetfighter Streetwise			BONUS:VAR|StreetfighterAlwaysReadyLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Stand Tough|Streetfighter Stand Tough			BONUS:VAR|StreetfighterStandToughLVL|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Streetfighter Sneak Attack			BONUS:VAR|StreetfighterSneakAttackLVL|CL					
+4												
+5				ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base			BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.STACK	BONUS:VAR|UncannyDodgeLevel|1				
+#												
+CLASS:Tempest	HD:10	TYPE:Prestige	ABB:Tmp	MAXLEVEL:5	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Tempest	PREATT:6	PREFEAT:5,Dodge,Improved Two Weapon Fighting,Mobility,Spring Attack,Two Weapon Fighting										
+CLASS:Tempest	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE.Craft|Jump|Sleight of Hand|Tumble										
+1				ABILITY:Special Ability|AUTOMATIC|Tempest Defense|Tempest Tempest Defense			BONUS:VAR|TempestTempestDefenseLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Ambidexterity|Tempest Ambidexterity			BONUS:VAR|TempestAmbidexterityLVL|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Two Weapon Versatility								
+4												
+5				ABILITY:Special Ability|AUTOMATIC|Two Weapon Spring Attack								
+#												
+CLASS:Thief Acrobat	HD:6	TYPE:Prestige	ABB:Acr	MAXLEVEL:5	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
+CLASS:Thief Acrobat	PRESKILL:4,Balance=8,Climb=8,Jump=8,Tumble=8	PREABILITY:1,CATEGORY=Special Ability,Evasion,Improved Evasion										
+CLASS:Thief Acrobat	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Disable Device|Escape Artist|Hide|Jump|Move Silently|Open Lock|TYPE.Perform|Search|Tumble|Use Rope										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Fast Acrobatics|Kip Up|Steady Stance								
+2				ABILITY:Special Ability|AUTOMATIC|Agile Fighting|Thief Acrobat Agile Fighting|Slow Fall|Thief Acrobat Slow Fall			BONUS:VAR|ThiefAcrobatAgileFightingLVL|CL	BONUS:VAR|ThiefAcrobatSlowFallLVL|CL				
+3				ABILITY:Special Ability|AUTOMATIC|Acrobatic Charge|Defensive Roll|Thief Acrobat Defensive Roll			BONUS:VAR|ThiefAcrobatDefensiveRollLVL|CL					
+4				ABILITY:Special Ability|AUTOMATIC|Thief Acrobat Skill Mastery								
+5				ABILITY:Special Ability|AUTOMATIC|Improved Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1					
+#												
+CLASS:Vigilante	HD:8	TYPE:Prestige	ABB:Vig	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
+CLASS:Vigilante	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:4	PRESKILL:3,Gather Information=8,Knowledge (Local)=8,Sense Motive=8	PRESKILL:2,Intimidate=4,Search=4	PREFEAT:1,Alertness							
+CLASS:Vigilante	STARTSKILLPTS:6	CSKILL:Balance|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Local)|Move Silently|Open Lock|TYPE.Perform|Search|Sense Motive|Tumble|Use Rope										
+CLASS:Vigilante	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Vigilante|CL							
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies|Vigilante Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+#												
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Detect Evil|Streetwise|Vigilante Streetwise			BONUS:VAR|DetectEvilLVL|CL	BONUS:VAR|VigilanteStreetwiseLVL|CL				
+2	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Smite Guilty|Vigilante Smite Guilty			BONUS:VAR|VigilanteSmiteGuiltyLVL|CL					
+3	CAST:0,2,0	KNOWN:0,3,2		ABILITY:Special Ability|AUTOMATIC|Quick Search								
+4	CAST:0,3,1	KNOWN:0,4,3		ABILITY:Special Ability|AUTOMATIC|Speak with Dead (Sp)			BONUS:VAR|SpeakWithDeadTimes|1	BONUS:VAR|SpeakWithDeadLVL|CL				
+5	CAST:0,3,2,0	KNOWN:0,4,3,2		ABILITY:Special Ability|AUTOMATIC|Quick Hide								
+6	CAST:0,3,3,1	KNOWN:0,4,4,3										
+7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2										
+8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3		ABILITY:Special Ability|AUTOMATIC|Dimensional Anchor (Sp)			BONUS:VAR|DimensionalAnchorPerDay|1	BONUS:VAR|DimensionalAnchorLVL|CL				
+9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,4		ABILITY:Special Ability|AUTOMATIC|Mettle (Ex)								
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4										
+#												
+CLASS:Virtuoso	HD:6	TYPE:Prestige	ABB:Vir	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Virtuoso	PRESTAT:1,TYPE.Perform=10	PRESKILL:2,Diplomacy=4,Intimidate=4	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1								
+CLASS:Virtuoso	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Concentration|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Intimidate|Jump|TYPE.Perform|Spellcraft|Tumble										
+1				ABILITY:Special Ability|AUTOMATIC|Bardic Music			BONUS:VAR|BardicMusicLvl|CL	BONUS:VAR|BardicMusicTimes|CL				
+1				ABILITY:Special Ability|VIRTUAL|Bardic Fascinate|PREVARGTEQ:VirtuosoPerformanceLVL,1|PRESKILL:1,TYPE.Perform=3	ABILITY:Special Ability|AUTOMATIC|Virtuoso Performance		BONUS:VAR|VirtuosoPerformanceLVL|CL	BONUS:VAR|VirtuosoPerformanceTimes|CL				
+1				ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (persuasive)|PREVARGTEQ:VirtuosoPerformanceLVL,1|PRESKILL:1,TYPE.Perform=11								
+2	ADD:SPELLCASTER|Arcane											
+3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (sustaining)|PRESKILL:1,TYPE.Perform=13								
+4	ADD:SPELLCASTER|Arcane											
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (jarring)|PRESKILL:1,TYPE.Perform=15								
+6	ADD:SPELLCASTER|Arcane											
+7	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (song of fury)|PRESKILL:1,TYPE.Perform=17								
+8	ADD:SPELLCASTER|Arcane											
+9	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (mindbending melody)|PRESKILL:1,TYPE.Perform=19								
+10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (revealing melody)|PRESKILL:1,TYPE.Perform=20								
+#												
+###COMMENT:CONTIGUOUS:Paladin												
+CLASS:Wild Plains Outrider	HD:8	TYPE:Prestige	ABB:Wpo	MAXLEVEL:3	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Wild Plains Outrider	PRESKILL:1,Ride=9	PREFEAT:2,Mounted Combat,Track	PREABILITY:1,CATEGORY=Special Ability,Special Mount,Animal Companion	PRETEXT:Animal companion large enaugh to serve as a mount, or a paladin's special mount.								
+CLASS:Wild Plains Outrider	STARTSKILLPTS:4	CSKILL:Balance|Handle Animal|Jump|Knowledge (Nature)|Listen|Move Silently|Ride|Spot|Survival|Swim										ALLOWBASECLASS:NO
+#												
+SUBCLASS:Wild Plains Outrider ~ Ranger Animal companion	COST:0	PREABILITY:1,CATEGORY=Special Ability,Animal Companion	PRECLASS:1,Ranger=1									
+SUBCLASSLEVEL:1			BONUS:VAR|RangerAnimalCompLVL|CL									
+SUBCLASS:Wild Plains Outrider ~ Druid Animal companion	COST:0	PREABILITY:1,CATEGORY=Special Ability,Animal Companion	PRECLASS:1,Druid=1									
+SUBCLASSLEVEL:1			BONUS:VAR|CompLevel|CL									
+SUBCLASS:Wild Plains Outrider ~ Special mount	COST:0	PREABILITY:1,CATEGORY=Special Ability,Special Mount	PRECLASS:1,Paladin=1									
+SUBCLASSLEVEL:1			BONUS:VAR|SMLevel|CL									
+1				ABILITY:Special Ability|AUTOMATIC|Ride Bonus|Handle Animal Bonus|Wild Plains Outrider Ride Bonus|Wild Plains Stalker			BONUS:VAR|WildPlainsOutriderRideLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Wild Plains Swiftness			BONUS:VAR|WildPlainsSwiftness|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Wild Plain Offensive								

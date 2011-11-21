@@ -1,0 +1,13 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net
+		
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+		
+Sand Blaster	TYPE:Ranged.Bludgeoning.OneHanded.RangedBludgeoning
+Flindbar	TYPE:Melee.Bludgeoning.OneHanded.MeleeBludgeoning
+Adamantine Blade	TYPE:Natural.Melee.Slashing.OneHanded.MeleeSlashing

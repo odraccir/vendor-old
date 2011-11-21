@@ -1,0 +1,10 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Ring of Elemental Adaptation			TYPE:Magic.Ring	COST:24000	WT:0	SOURCEPAGE:PH																																							
+Ring of Ethereal Travel			TYPE:Magic.Ring	COST:182000	WT:0	SOURCEPAGE:PH																																							
+Ring of Free Magic			TYPE:Magic.Ring	COST:45000	WT:0	SOURCEPAGE:PH		EQMOD:CHARGED_ITEM_50|CHARGES[50]																																					
+Ring of Limbo Control			TYPE:Magic.Ring	COST:120000	WT:0	SOURCEPAGE:PH																																							
+Ring of Negative Protection			TYPE:Magic.Ring	COST:72000	WT:0	SOURCEPAGE:PH	SPROP:Cannot gain Negative Level.																																						
+Ring of Positive Protection			TYPE:Magic.Ring	COST:72000	WT:0	SOURCEPAGE:PH																																							
+Ring of Water Breathing			TYPE:Magic.Ring	COST:12000	WT:0	SOURCEPAGE:PH		ABILITY:Special Ability|AUTOMATIC|Water Breathing																																					

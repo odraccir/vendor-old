@@ -1,0 +1,29 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																								
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC:()	DOMAINS:|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Karaan	ALIGN:CE		DESC:Karaan (M)	DOMAINS:Bestial,Chaos,Destruction|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,wikipedia
+Rallaster	ALIGN:CE		DESC:Rallaster (M)	DOMAINS:Evil,Destruction,Pain|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,wikipedia
+#The Patient One	ALIGN:	DEITYWEAP:	DESC:()	DOMAINS:Darkness,Destruction,Corruption|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,G	
+Scahrossar	ALIGN:LE		DESC:Scahrossar (F)	DOMAINS:Death,Evil,Pain|PREALIGN:LN,LE,NE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,wikipedia	
+Xammux	ALIGN:NE		DESC:Xammux (?)	DOMAINS:Inquisition,Darkness BoVD,Knowledge,Truth|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,google,xammux.txt
+#Yeathan	ALIGN:NE	DEITYWEAP:	DESC:()	DOMAINS:Evil,Destruction,Water|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,google
+
+#	ALIGN:	DEITYWEAP:	DESC:()	DOMAINS:|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD	
+Demogorgon	ALIGN:CE		DESC:Demogorgon (M)	DOMAINS:Corruption,Demonic,Evil|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
+Graz'zt	ALIGN:CE		DESC:Graz'zt (M)	DOMAINS:Darkness BoVD,Demonic,Evil|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
+Juiblex	ALIGN:CE		DESC:Juiblex (M)		TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
+Orcus	ALIGN:CE		DESC:Orcus (M)	DOMAINS:Chaos,Evil,Death|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
+Yeenoghu	ALIGN:CE		DESC:Yeenoghu (M)	DOMAINS:Bestial,Chaos,Demonic|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
+#
+Asmodeus	ALIGN:LE		DESC:Asmodeus (M)	DOMAINS:Diabolic,Evil,Law|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Bel	ALIGN:LE		DESC:Bel (M)		TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Baalzebul	ALIGN:LE		DESC:Baalzebul (M)	DOMAINS:Diabolic,Trickery,War|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Belial	ALIGN:LE		DESC:Belial (M)	DOMAINS:Trickery,Knowledge,Evil|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Dispater	ALIGN:LE		DESC:Dispater (M)	DOMAINS:Diabolic,Evil,War|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Fierna	ALIGN:LE		DESC:Fierna (F)		TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Hag Countess	ALIGN:LE		DESC:Hag Countess (F)		TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Levistus	ALIGN:LE		DESC:Levistus (M)	DOMAINS:Diabolic,Evil,Trickery|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Mammon	ALIGN:LE		DESC:Mammon (M)	DOMAINS:Diabolic,Evil,Greed|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	
+Mephistopheles	ALIGN:LE		DESC:Mephistopheles (M)	DOMAINS:Diabolic,Evil,Fire|PREALIGN:LN,LE,NE	TYPE:Devil	PANTHEON:Archdevil	SOURCEPAGE:BoVD	

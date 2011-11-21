@@ -1,0 +1,58 @@
+SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net										
+#
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	
+# Class Name spell cast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
+###COMMENT:CLASS:Buccaneer	Innuendo per Sense Motive
+CLASS:Buccaneer	HD:8	TYPE:NPC.Prestige	ABB:Buc	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Buccaneer	PREATT:3	PRESTAT:1,CHA=13	PRESKILL:3,Balance=6,Swim=6,Tumble=6									
+CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Seamanship)|Move Silently|Sense Motive|Swim|Tumble|Use Rope										
+#												
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Shipboard Climbing								
+2				ABILITY:Special Ability|AUTOMATIC|Up close and Personal								
+3				ABILITY:Special Ability|AUTOMATIC|Witty Repartee								
+4				ABILITY:Special Ability|AUTOMATIC|Superb Seaman|Buccaneer Superb Seaman			BONUS:VAR|BuccaneerSuperSeamanLVL|CL					
+5				ABILITY:Special Ability|AUTOMATIC|Superb Rigging								
+6				ABILITY:Special Ability|AUTOMATIC|Superb Balance								
+7				ABILITY:Special Ability|AUTOMATIC|Rope Fighting								
+8							BONUS:SKILL|Knowledge (Seamanship)|4|TYPE=Competence					
+9				ABILITY:Special Ability|AUTOMATIC|Sabotage								
+10				ABILITY:Special Ability|AUTOMATIC|Acrobatic Defence								
+#
+CLASS:Reaver	HD:10	TYPE:NPC.Prestige	ABB:Rea	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Reaver	PREATT:4	PRESKILL:1,Swim=6	PREFEAT:2,Power Attack,Two Weapon Fighting									
+CLASS:Reaver	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Hide|Intimidate|Jump|Knowledge (Seamanship)|Swim|Use Rope										
+#												
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+#												
+1		BONUS:ABILITYPOOL|Reaver Feat|((CL+2)/5)		ABILITY:Special Ability|AUTOMATIC|Armor Expertise|Reaver Armor Expertise			BONUS:VAR|ReaverArmorExpertiseLVL|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Inspire Crew|Reaver Inspire Crew			BONUS:VAR|ReaverInspireCrewLVL|CL					
+3												
+4				ABILITY:Special Ability|AUTOMATIC|Instil Fear|Reaver Instil Fear			BONUS:VAR|ReaverIInstilFearLVL|CL					
+5												
+6												
+7				ABILITY:Special Ability|AUTOMATIC|Skilled Boarder								
+8												
+9												
+10												
+#
+CLASS:Navigator Wizard	HD:10	TYPE:NPC.Prestige	ABB:Naw	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Navigator Wizard	PRESPELLSCHOOL:1,Divination=2	PRESKILL:1,Profession (Navigator)=6	PREFEAT:1,Spell Mastery									
+CLASS:Navigator Wizard	STARTSKILLPTS:4	CSKILL:Concentration|Decipher Script|Gather Information|TYPE.Knowledge|Profession (Navigator)|Spellcraft										
+#												
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Infallible Direction								
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Fast Pursuit								
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Intuitive Seamanship|Navigator Wizard Intuitive Seamanshi			BONUS:VAR|NavigatorWizardIntuitiveSeamanshipLVL|((CL/3)*2)					
+4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Catch the Wind								
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|True Voyage								
+6	ADD:SPELLCASTER|ANY											
+7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Weather Predict								
+8	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Ride the Wind								
+9	ADD:SPELLCASTER|ANY											
+10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Control Winds

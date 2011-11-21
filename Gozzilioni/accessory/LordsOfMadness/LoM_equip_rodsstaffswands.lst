@@ -1,0 +1,11 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																			
+																					
+###Block:Rods																					
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Reach	Wield Category	Size	Virtual Feat	Special Property	
+Rod (Freedom)	OUTPUTNAME:Rod of [NAME]	TYPE:Magic.Rod.Weapon.Melee.Simple.Standard.Bludgeoning.Mace	COST:53000	WT:6	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50].ALCHM.PLUS3W	SOURCEPAGE:LoM	PROFICIENCY:WEAPON|Mace (Heavy)		CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8								ABILITY:Special Ability|AUTOMATIC|Resistance To Charm 2	BONUS:VAR|CharmResistanceBonus|4|TYPE=Morale
+																					
+###Block:Staves																					
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD		Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Modifier	Wield Category	Size	Virtual Feat	Special Property	
+																					
+###Block:Wands																					
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD		Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Modifier	Wield Category	Size	Virtual Feat	Special Property	

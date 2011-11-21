@@ -1,0 +1,5 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net				
+						
+###Block: Region						
+# Template Name	Visible					
+Timeless Body ~ Mystic Wanderer			VISIBLE:DISPLAY	TEMPLATE:CHOOSE:Timeless Body ~ Adult|Timeless Body ~ Middle Age|Timeless Body ~ Old|Timeless Body ~ Venerable									PRECLASS:1,Mystic Wanderer=10

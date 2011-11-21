@@ -1,0 +1,13 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net																								
+																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+Muspelrule		PROFICIENCY:WEAPON|Muspelrule	TYPE:Weapon.Melee.Finesseable.Simple.Standard.Bludgeoning.Club	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH								
+Sickle (Heavy)	OUTPUTNAME:Sickle, Heavy	PROFICIENCY:WEAPON|Sickle (Heavy)	TYPE:Weapon.Melee.Finesseable.Simple.Standard.Slashing.Sickle	COST:12	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH								
+Lancet (Gehennan)	OUTPUTNAME:Lancet, Gehennan	PROFICIENCY:WEAPON|Lancet (Gehennan)	TYPE:Weapon.Melee.Finesseable.Martial.Standard.Piercing.Dagger	COST:7	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH								
+Stabaxe		PROFICIENCY:WEAPON|Stabaxe	TYPE:Weapon.Melee.Finesseable.Martial.Standard.Piercing.Axe	COST:5	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL						SOURCEPAGE:PH								
+Straightblade		PROFICIENCY:WEAPON|Straightblade	TYPE:Weapon.Melee.Finesseable.Martial.Standard.Slashing.Sword	COST:7	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH								
+Ripper		PROFICIENCY:WEAPON|Ripper	TYPE:Weapon.Melee.Martial.Standard.Piercing.Spear	COST:55	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:PH								
+Jovar		PROFICIENCY:WEAPON|Jovar	TYPE:Weapon.Melee.Exotic.Standard.Slashing.Sword	COST:500	WT:13	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH								
+Ramhammer		PROFICIENCY:WEAPON|Ramhammer	TYPE:Weapon.Melee.Exotic.Standard.Bludgeoning.Hammer.Reach.Polearm	COST:100	WT:15	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH		REACHMULT:2						
+# Equipment Name																										
+Ocanthus Knife		PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger.Consumable	COST:450	WT:1	WIELD:Light		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:PH	RANGE:10							

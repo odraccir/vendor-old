@@ -1,0 +1,17 @@
+SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																																				
+																																						
+###Block:Wands																																						
+# Equipment Name								Output Name											Type			Weight	Base Item for EQMOD	Modifier														Source Page
+Wand (Golem Strike)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Golem Strike]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[50]																														
+Wand (Grave Strike)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Grave Strike]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[50]																														
+Wand (Hawkeye)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Hawkeye]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[50]																														
+Wand (Healthful Rest)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Healthful Rest]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[50]																														
+Wand (Vine Strike)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Vine Strike]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[50]																														
+Wand (Divine Insight)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Divine Insight]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Iron Silence)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Iron Silence]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Mindless Rage)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Mindless Rage]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Nature's Favor)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Nature's Favor]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Sonic Weapon)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Sonic Weapon]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Train Animal)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Train Animal]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Wracking Touch)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Wracking Touch]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														
+Wand (Wraithstrike)	OUTPUTNAME:Wand of [NAME]		TYPE:Magic.Wand		WT:.0625	SOURCEPAGE:CAd	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Wraithstrike]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]																														

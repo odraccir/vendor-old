@@ -1,0 +1,10 @@
+SOURCELONG:Ravenloft Dungeon master's guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Crimson Zombie Ring			TYPE:Magic.Ring.Consumable	COST:2000	WT:0	SOURCEPAGE:RLDMG																																							
+Crimson Zombie Ring (Hasted)	OUTPUTNAME:Crimson Zombie Ring, Hasted		TYPE:Magic.Ring.Consumable	COST:4000	WT:0	SOURCEPAGE:RLDMG	SPROP:Haste for 10 minutes.																																						
+Ring of Swarm			TYPE:Magic.Ring	COST:2000	WT:0	SOURCEPAGE:RLDMG	SPROP:1/day summon 1d4+1 Dire Rat for 3 rounds.																																						
+Ring of Enduring Swarm			TYPE:Magic.Ring	COST:3750	WT:0	SOURCEPAGE:RLDMG	SPROP:1 every 3 rounds, Summon 1d4+1 Dire Rat for 3 rounds.																																						
+Ring of Wolf Summoning			TYPE:Magic.Ring	COST:25200	WT:0	SOURCEPAGE:RLDMG	SPROP:1 every 3 rounds, Summon 1d3+1 wolves for 3 rounds.	EQMOD:CHARGED_ITEM_50|CHARGES[50]																																					
+#
+Ring of the Predator			TYPE:Cursed.Magic.Ring	COST:10000	WT:0	SOURCEPAGE:RLDMG

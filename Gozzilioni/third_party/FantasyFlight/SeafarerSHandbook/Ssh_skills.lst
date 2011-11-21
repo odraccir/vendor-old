@@ -1,0 +1,9 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net											
+# Skill Name	Key Stat	Untrained?	Skill Penalty Apply	Type	Visible		Bonus to skill		Source Page	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
+Craft (Underwater Alchemy)	KEYSTAT:INT	USEUNTRAINED:NO		TYPE:Intelligence.Craft					SOURCEPAGE:Ssh				
+Survival (Underwater)	KEYSTAT:WIS	USEUNTRAINED:NO	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT				SOURCEPAGE:SkillsII.rtf
+
+Survival.MOD						BONUS:SKILL|Survival (Underwater)|SKILL.Survival.MISC
+#													
+# End													
+#													

@@ -1,0 +1,7 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net																								
+																										
+#Bow of the Mighty Dragonhunter	COST:36900																									
+																										
+###Block: Ranged																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+Bow of the Mighty Dragonhunter		PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:200	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.DRAGCRFTW.BOWSTR|4.PLUS2W						SOURCEPAGE:Drac	RANGE:130			CONTAINS:UNLIM|Arrow=1	MODS:NO		SPROP:1 STR points of damage and crit x5 against a dragons (5 STR points of damage on successfull critical).	

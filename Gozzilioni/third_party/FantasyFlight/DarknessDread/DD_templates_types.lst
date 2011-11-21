@@ -1,0 +1,4 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net
+#
+# Template Name	Visible	Source Page						Define															Required AL	Var. Max. Value		Bonus to HP													Bonus to skill				Modify VAR
+Abomination	VISIBLE:NO	SOURCEPAGE:TypesSubtypesAbilities.rtf																																									

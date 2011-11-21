@@ -1,0 +1,7 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																			
+																					
+#Sharkskin	COST:11160																				
+																					
+# Equipment Name	Required Proficiency			Type									Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+#Light Armor																					
+Sharkskin	PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal.Aquatic	COST:10	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS3A	MAXDEX:6	SOURCEPAGE:Ssh	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	BONUS:SKILL|Swim|10|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Piercing|2	MOVECLONE:Walk,Swim,*1								

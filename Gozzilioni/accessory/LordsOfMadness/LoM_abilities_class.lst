@@ -1,0 +1,8 @@
+SOURCELONG:Lord of madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion	AUTO:WEAPONPROF|Longsword,Rapier,Sap,Sword (Short),Shortbow,Whip																											SOURCEPAGE:LM
+																																
+# Ability Name																																
+Aboleth Smite Good	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES						DEFINE:AbolethSmiteGoodLVL|0					BONUS:VAR|SmiteGood|1	BONUS:VAR|SmiteGoodDamage|AbolethSmiteGoodLVL																	SOURCEPAGE:LoM

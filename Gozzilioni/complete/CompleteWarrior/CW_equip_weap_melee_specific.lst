@@ -1,0 +1,6 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+#Lance of the Last Rider	COST:8306																			
+																				
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property									
+Lance of the Last Rider		PROFICIENCY:WEAPON|Lance	TYPE:Enhancement.Weapon.Melee.Martial.Reach.Specific.Piercing.Lance	COST:10	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.PLUS1W	REACHMULT:2					SOURCEPAGE:CW	MODS:NO	SPROP:When mounted, free bull rush against attempt when hit a mounted foe.

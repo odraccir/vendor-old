@@ -1,0 +1,173 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net									
+# Class Name	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Willpower)	Combat bonus	EXCLASS	FINE
+# Class Name	Requirements	FINE									
+# Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		
+# Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)						
+#(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)	
+CLASS:Cold Ancorite	HD:8	TYPE:PC.Prestige.Frostfell	ABB:ClA	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
+CLASS:Cold Ancorite	PREALIGN:LG,LN,LE,NG,TN,NE	PRECHECKBASE:1,Fortitude=5	PRESKILL:3,Climb=9,Jump=9,Knowledge (Religion)=9	PRESKILL:1,Survival=4	PREFEAT:2,Improved Unarmed Strike,Mountaineer	PRETEXT:must live for a week on her own in a wilderness region, during which time she can travel no lower than 12,000 feet in altitude.					
+CLASS:Cold Ancorite	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Escape Artist|Jump|Knowledge (Nature)|Knowledge (Religion)|Listen|Spot|Survival|Tumble|Use Rope									
+1				ABILITY:Special Ability|AUTOMATIC|Wisdom of the Mountain			BONUS:VAR|MonkACLVL|CL	BONUS:UDAM|CLASS.Monk|CL		MOVE:Climb,10	
+2				ABILITY:Special Ability|AUTOMATIC|Slow Breath			BONUS:VAR|SlowBreathBonus|2				
+3							BONUS:ABILITYPOOL|Cloud Anchorite Feat|(CL+1)/4			BONUS:MOVEADD|TYPE=Climb|10	
+4				ABILITY:Special Ability|AUTOMATIC|Resistance To Cold|Cloud Anchorite Fast Movement			BONUS:VAR|ColdResistanceBonus|(CL/4)*5	BONUS:VAR|CloudAnchoriteFastMovement|(CL/4)*10			
+5				ABILITY:Special Ability|AUTOMATIC|Empty Stride						BONUS:MOVEADD|TYPE=Climb|10	
+6				ABILITY:Special Ability|AUTOMATIC|Acrobatic Charge			BONUS:VAR|SlowBreathBonus|4				
+7										BONUS:MOVEADD|TYPE=Climb|10	
+8											
+9				ABILITY:Special Ability|AUTOMATIC|Walk on the Clouds			BONUS:VAR|WalkOnTheCloudsPerDay|1	BONUS:VAR|WalkOnTheCloudsLVL|CL		BONUS:MOVEADD|TYPE=Climb|10	
+10				ABILITY:Special Ability|AUTOMATIC|Immortality of the Mountain							
+#											
+CLASS:Cryokineticist	HD:8	TYPE:PC.Prestige.Frostfell	ABB:Cry	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
+CLASS:Cryokineticist	PREALIGN:LG,LN,LE	PRESKILL:1,Concentration=8	PRESKILL:1,Craft (Alchemy)=1	PRESKILL:1,Knowledge (Psionics)=2	PRESPELL:1,Energy Emanation						
+CLASS:Cryokineticist	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intimidate|Jump|Knowledge (Psionics)|Psicraft									
+1				ABILITY:Special Ability|AUTOMATIC|Glacial Ray							
+2				ABILITY:Special Ability|AUTOMATIC|Cold Adaptation ~ Cryokineticist|Resistance To Cold|Frozen Fist			BONUS:VAR|ColdResistanceBonus|10				
+3				ABILITY:Special Ability|AUTOMATIC|Bolt of Cold			BONUS:VAR|FrozenFistDuration|CL	BONUS:VAR|BoltOfColdPerDay|3			
+4				ABILITY:Special Ability|AUTOMATIC|Weapon Afrost			BONUS:VAR|WeaponAfrostDuration|CL				
+5				ABILITY:Special Ability|AUTOMATIC|Frostfell Creature Insight							
+6				ABILITY:Special Ability|AUTOMATIC|Cold Walk							
+7				ABILITY:Special Ability|AUTOMATIC|Fear No Cold			BONUS:VAR|ColdResistanceBonus|10				
+8				ABILITY:Special Ability|AUTOMATIC|Greater Weapon Afrost							
+9				ABILITY:Special Ability|AUTOMATIC|Wall of Ice (Sp/atwill)			BONUS:VAR|WallOfIceLVL|9				
+10				ABILITY:Special Ability|AUTOMATIC|Bone Chill			BONUS:VAR|BoneChillDC|CL/2				
+#											
+CLASS:Disciple of Thrym	HD:10	TYPE:PC.Prestige.Frostfell	ABB:DiT	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
+CLASS:Disciple of Thrym	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Intimidate=4	PRESKILL:1,Survival=8	PREATT:4	PREFEAT:1,Weapon Focus(Greataxe)	PREMULT:1,[PREFEAT:1,Cold Endurance],[PRERACE:1,RACESUBTYPE=Cold]					
+CLASS:Disciple of Thrym	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Survival									
+CLASS:Disciple of Thrym	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4							
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+#											
+1	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Detect Fire (Sp/atwill/wis)|Protection of Winter			BONUS:VAR|DetectFireLVL|CL				
+2	CAST:0,2			ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|5				
+3	CAST:0,2,1			ABILITY:Special Ability|AUTOMATIC|Powerful Grip(Greataxe)							
+4	CAST:0,3,2			ABILITY:Special Ability|AUTOMATIC|Frost Greataxe			BONUS:VAR|FrostGreataxeDuration|CL				
+5	CAST:0,3,2,1			ABILITY:Special Ability|AUTOMATIC|Agonizing Strike			BONUS:VAR|AgonizingStrikePerDay|1	BONUS:VAR|AgonizingStrike|CL/2	DEFINE:AgonizingStrikeDie|6		
+6	CAST:0,3,3,2						BONUS:VAR|FireResistanceBonus|5				
+7	CAST:0,4,3,2,1			ABILITY:Special Ability|AUTOMATIC|Dispel Fire (Sp/wis)			BONUS:VAR|DispelFirePerDay|1+CHA	BONUS:VAR|DispelFireLVL|CL			
+8	CAST:0,4,3,3,2			ABILITY:Special Ability|AUTOMATIC|Icy Greataxe			BONUS:VAR|IcyGreataxeDuration|CL				
+9	CAST:0,4,4,3,2,1						BONUS:VAR|AgonizingStrikePerDay|1				
+10	CAST:0,4,4,3,3,2			ABILITY:Special Ability|AUTOMATIC|Immunity To Fire							
+#											
+CLASS:Frost Mage	HD:4	TYPE:PC.Prestige.Frostfell	ABB:Fro	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
+CLASS:Frost Mage	PREFEAT:1,Frozen Magic	PRESKILL:1,Knowledge (Arcana)=8	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1	PRETEXT:Must spend 24 hours unnprotected in a blizzard.						
+CLASS:Frost Mage	STARTSKILLPTS:2	CSKILL:Concentration|Craft (Alchemy)|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft									
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Natural Armor Increase			BONUS:VAR|NaturalArmorIncreaseBonus|(CL+2)/3				
+2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|10				
+3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Gain Knowledge			BONUS:ABILITYPOOL|Gain Knowledge|(CL-1)/2				
+4	ADD:SPELLCASTER|Arcane		AUTO:FEAT|Piercing Cold								
+5	ADD:SPELLCASTER|Arcane										
+6	ADD:SPELLCASTER|Arcane										
+7	ADD:SPELLCASTER|Arcane										
+8	ADD:SPELLCASTER|Arcane										
+9	ADD:SPELLCASTER|Arcane										
+10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|One with the Cold							
+#											
+CLASS:Frostrager	HD:12	TYPE:PC.Prestige.Frostfell	ABB:Frr	MAXLEVEL:5	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
+CLASS:Frostrager	PREATT:6	PRESKILL:2,Intimidate=4,Survival=4	PREFEAT:3,Frozen Berserker,Improved Unarmed Strike,Power Attack	PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage	PRETEXT:must have reduced to fewer than 0 hp by cold damage.						
+CLASS:Frostrager	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Survival|Swim									
+1				ABILITY:Special Ability|AUTOMATIC|Frostrage|Freezing Blood			BONUS:VAR|FrostrageACBonus|4				
+2				ABILITY:Special Ability|AUTOMATIC|One Two Punch							
+3				ABILITY:Special Ability|AUTOMATIC|Absorb Cold ~ Frostrager							
+4				ABILITY:Special Ability|AUTOMATIC|Improved Frostrage							
+5				ABILITY:Special Ability|AUTOMATIC|Rend							
+#											
+### CONTIGUOUS:Paladin											
+CLASS:Knight of the Iron Glacier	HD:10	TYPE:PC.Prestige.Frostfell	ABB:KIG	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
+CLASS:Knight of the Iron Glacier	PREALIGN:LG,LN	PRESKILL:1,Handle Animal=5	PRESKILL:1,Ride=9	PRESKILL:1,Survival=2	PREFEAT:4,Animal Affinity,Exotic Weapon Proficiency(Sword (Bastard)),Mounted Combat,Ride By Attack	PRETEXT:Must prove to the order that her intentions are noble and true.					
+CLASS:Knight of the Iron Glacier	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Listen|Ride|Sense Motive|Spot|Survival									
+1				ABILITY:Special Ability|AUTOMATIC|Warmount			BONUS:VAR|SMLevel|CL	BONUS:VAR|WarmountLVL|CL			
+2				ABILITY:Special Ability|AUTOMATIC|Frostfell Awareness			BONUS:VAR|FrostfellAwarenessBonus|(CL+1)/3				
+3											
+4				ABILITY:Special Ability|AUTOMATIC|Rally the Troops			BONUS:VAR|RallyTheTroopsPerDay|1				
+5											
+6											
+7				ABILITY:Special Ability|AUTOMATIC|Oath of Wrath			BONUS:VAR|OathOfWrathPerDay|1				
+8											
+9											
+10				ABILITY:Special Ability|AUTOMATIC|Overwhelming Odds							
+#											
+CLASS:Primeval	HD:10	TYPE:PC.Prestige.Frostfell	ABB:Pri	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
+CLASS:Primeval	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:8	PRESKILL:3,Handle Animal=5,Knowledge (Nature)=5,Survival=5	PREFEAT:3,Endurance,Self Sufficient,Toughness							
+CLASS:Primeval	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Intimidate|Jump|Knowledge (Nature)|Listen|Spot|Survival|Swim									
+1				ABILITY:Special Ability|AUTOMATIC|Primeval Form			BONUS:VAR|PrimevalFormPerDay|(CL+2)/3				
+2				ABILITY:Special Ability|AUTOMATIC|Animal Empathy|Regression			BONUS:VAR|AnimalEmpathyBonus|4	BONUS:VAR|RegressionBonus|min(3,((CL+1)/3))		VISION:Low-Light	
+3				ABILITY:Special Ability|AUTOMATIC|Feral Power							
+4											
+5				ABILITY:Special Ability|AUTOMATIC|Scent							
+6											
+7											
+8				ABILITY:Special Ability|AUTOMATIC|Primeval Fast Movement			BONUS:VAR|PrimevalFastMovement|10				
+9											
+10				ABILITY:Special Ability|AUTOMATIC|Primeval Shapechanger						TEMPLATE:Primeval Shapechanger	
+#											
+CLASS:Rimefire Witch	HD:6	TYPE:PC.Prestige.Frostfell	ABB:RiW	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	EXCLASS:Ex Rimefire Witch	
+CLASS:Rimefire Witch	PRESKILL:3,Concentration=6,Knowledge (History)=6,Spellcraft=6	PRESKILL:1,Knowledge (Religion)=9	PREFEAT:2,Iron Will,Mark of Hleid	PRESPELLTYPE:1,Divine=1	PRESPELLCAST:TYPE=Divine	PREDEITY:1,Hleid	PRETEXT:Must accept the bond of the rimefire eidolon.				
+CLASS:Rimefire Witch	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Diplomacy|Gather Information|Heal|Jump|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Sense Motive|Spellcraft|Swim									
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Rimefire Witch Weapon Proficiencies										
+#											
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Rimefire Bond|Detect Minion of Iborighu			BONUS:VAR|RELevel|CL				
+2	ADD:SPELLCASTER|ANY										
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Rimefire Bolt			BONUS:VAR|RimefireBolt|CL/3				
+4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Ice Skate (Sp)			BONUS:VAR|IceSkatePerDay|min(1,CHA)	BONUS:VAR|IceSkateLVL|CL			
+5	ADD:SPELLCASTER|ANY										
+6	ADD:SPELLCASTER|ANY										
+7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Word of Recall (Sp)			BONUS:VAR|WordOfRecallPerDay|1	BONUS:VAR|WordOfRecallLVL|CL			
+8	ADD:SPELLCASTER|ANY										
+9	ADD:SPELLCASTER|ANY										
+10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Iceberg (Sp)|Rimefire Apotheosis			BONUS:VAR|IcebergPerDay|1	BONUS:VAR|IcebergLVL|CL		TEMPLATE:Rimefire Apotheosis	
+#											
+CLASS:Ex Rimefire Witch	HD:6	TYPE:PC.Prestige.Frostfell	ABB:XRiW	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	VISIBLE:NO	
+CLASS:Ex Rimefire Witch	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Diplomacy|Gather Information|Heal|Jump|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Sense Motive|Spellcraft|Swim									
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Rimefire Witch Weapon Proficiencies										
+#											
+1				ABILITY:Special Ability|AUTOMATIC|Detect Minion of Iborighu							
+2											
+3											
+4				ABILITY:Special Ability|AUTOMATIC|Ice Skate (Sp)			BONUS:VAR|IceSkatePerDay|min(1,CHA)	BONUS:VAR|IceSkateLVL|CL			
+5											
+6											
+7				ABILITY:Special Ability|AUTOMATIC|Word of Recall (Sp)			BONUS:VAR|WordOfRecallPerDay|1	BONUS:VAR|WordOfRecallLVL|CL			
+8											
+9											
+10				ABILITY:Special Ability|AUTOMATIC|Iceberg (Sp)			BONUS:VAR|IcebergPerDay|1	BONUS:VAR|IcebergLVL|CL			
+#											
+CLASS:Stormsinger	HD:6	TYPE:PC.Prestige.Frostfell	ABB:StS	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
+CLASS:Stormsinger	PRESKILL:3,Concentration=8,Knowledge (Arcana)=8,Perform (Sing)=8	PRESKILL:3,Knowledge (Geography)=4,Knowledge (Nature)=4,Spellcraft=4	PREFEAT:2,Magical Aptitude,Storm Magic	PREABILITY:1,CATEGORY=Special Ability,Bardic Music	PRESPELLCAST:TYPE=Divine	PREDEITY:1,Hleid	PRETEXT:Must accept the bond of the rimefire eidolon.				
+CLASS:Stormsinger	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Jump|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (Nature)|Listen|TYPE.Perform|TYPE.Profession|Spellcraft|Survival|Swim									
+1	ABILITY:Special Ability|VIRTUAL|Stormsong ~ Gust of Wind|PREVARGTEQ:StormsongLVL,1|PRESKILL:1,Perform (Sing)=9										
+1	ABILITY:Special Ability|VIRTUAL|Stormsong ~ Thunderstrike|PREVARGTEQ:StormsongLVL,3|PRESKILL:1,Perform (Sing)=11										
+1	ABILITY:Special Ability|VIRTUAL|Stormsong ~ Control Winds|PREVARGTEQ:StormsongLVL,5|PRESKILL:1,Perform (Sing)=13										
+1	ABILITY:Special Ability|VIRTUAL|Stormsong ~ Winter's Ballad|PREVARGTEQ:StormsongLVL,7|PRESKILL:1,Perform (Sing)=15										
+1	ABILITY:Special Ability|VIRTUAL|Stormsong ~ Great Thunderstrike|PREVARGTEQ:StormsongLVL,9|PRESKILL:1,Perform (Sing)=17										
+1	ABILITY:Special Ability|VIRTUAL|Stormsong ~ Storm of Vengeance|PREVARGTEQ:StormsongLVL,10|PRESKILL:1,Perform (Sing)=18										
+#											
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Stormsong			BONUS:VAR|BardicMusicTimes|CL	BONUS:VAR|StormsongLVL|CL			
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Stormpower							
+3	ADD:SPELLCASTER|ANY										
+4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity			BONUS:VAR|ElectricityResistanceBonus|5				
+5	ADD:SPELLCASTER|ANY										
+6	ADD:SPELLCASTER|ANY						BONUS:VAR|ElectricityResistanceBonus|5				
+7	ADD:SPELLCASTER|ANY										
+8	ADD:SPELLCASTER|ANY						BONUS:VAR|ElectricityResistanceBonus|5				
+9	ADD:SPELLCASTER|ANY										
+10	ADD:SPELLCASTER|ANY										
+#											
+CLASS:Winterhaunt of Iborighu	HD:8	TYPE:PC.Prestige.Frostfell	ABB:WiI	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
+CLASS:Winterhaunt of Iborighu	PREALIGN:CN,CE,NE	PRESKILL:2,Concentration=8,Knowledge (Religion)=8	PRESKILL:1,Knowledge (Arcana)=5	PREFEAT:3,Chosen of Iborighu,Craft Wondrous Item,Piercing Cold	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Iborighu	PRETEXT:Must create an Iceheart (either minor or major).			
+CLASS:Winterhaunt of Iborighu	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft									
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Winterhaunt Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1	AUTO:FEAT|Armor Proficiency (Light)										
+#											
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Cloak of Winter's Chill			BONUS:VAR|CloakOfWinterChillPerDay|3+CHA	BONUS:VAR|CloakOfWinterChillDuration|CL+CHA			
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|5				
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Frozen Skin							
+4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Coldstrike							
+5	ADD:SPELLCASTER|ANY						BONUS:VAR|ColdResistanceBonus|5				
+6	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Constant Piercing Cold							
+7	ADD:SPELLCASTER|ANY									TEMPLATE:Cold	
+8	ADD:SPELLCASTER|ANY										
+9	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Summon the Entombed			BONUS:VAR|SummonTheEntombed|1				
+10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Wintry Apotheosis						TEMPLATE:Wintry Apotheosis	

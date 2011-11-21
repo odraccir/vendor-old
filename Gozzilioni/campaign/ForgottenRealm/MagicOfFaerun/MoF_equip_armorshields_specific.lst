@@ -1,0 +1,14 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net																					
+###Block: Specific Armors																							
+#Cormyrian Greatshield	COST:9170																						
+#Laeral's Spell Shield	COST:9170																						
+#Laeral's Storm Armor	COST:66650																						
+#Shield of Vigilance	COST:9170																						
+#Storm Armor of the Earth's Children	COST:111650																						
+																							
+# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory						
+Cormyrian Greatshield	PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Enhancement.Shield.Heavy.Specific	COST:20	WT:15	ACCHECK:-2	EQMOD:STEEL.MWORKA.PLUS1A.ARW_DEF		SOURCEPAGE:MoF	SPELLFAILURE:15	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE								CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4		WIELD:OneHanded	SIZE:M
+Laeral's Spell Shield	PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Enhancement.Shield.Heavy.Specific	COST:20	WT:15	ACCHECK:-2	EQMOD:STEEL.MWORKA.PLUS1A		SOURCEPAGE:MoF	SPELLFAILURE:15	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	SPROP:Spell Resistance 17 against spell with Force descriptor							CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4		WIELD:OneHanded	SIZE:M
+Laeral's Storm Armor	PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS2A.RST_ELE.RST_FR	MAXDEX:1	SOURCEPAGE:MoF	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE													
+Shield of Vigilance	PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Enhancement.Shield.Heavy.Specific	COST:20	WT:15	ACCHECK:-2	EQMOD:STEEL.MWORKA.PLUS1A.SHOCK_M.BASH_H		SOURCEPAGE:MoF	SPELLFAILURE:15	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE								CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4		WIELD:OneHanded	SIZE:M
+Storm Armor of the Earth's Children	PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS1A.RST_CLD.RST_ELE.RST_FR	MAXDEX:1	SOURCEPAGE:MoF	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE		PRERACE:1,RACESUBTYPE=Dwarf,RACESUBTYPE=Gnome,RACESUBTYPE=Halfling											

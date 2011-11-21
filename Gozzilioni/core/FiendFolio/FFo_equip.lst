@@ -1,0 +1,7 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net										
+												
+###Block:Alchemical Stuff and Liquids												
+# Equipment Name		Type	Cost	Weight	Source Page	Quality and value						
+Undead Graft (Demon Claw)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:0	WT:0.00	SOURCEPAGE:FFo			PRERACE:1,Golem (Demonflesh)			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,2d6	BONUS:WEAPONPROF=Claw|DAMAGE|(STR/2*3)*(-1)+(35/2*3)
+Undead Graft (Whip Tail)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:0	WT:0.00	SOURCEPAGE:FFo			PRERACE:1,Golem (Demonflesh)		SPROP:Daze ~ fullround action (Fort DC 11)	NATURALATTACKS:Tail Lash,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d6	
+Undead Graft (Fast Leg)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:0	WT:0.00	SOURCEPAGE:FFo			PRERACE:1,Golem (Demonflesh)			BONUS:SKILL|Climb,Jump|5|TYPE=Racial	

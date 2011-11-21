@@ -1,0 +1,13 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability												Save checks bonus											Combat bonus
+# Class Name	Reg. Race Type																																		
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																	
+CLASS:Abomination	HD:8		TYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:DD	ABILITY:Special Ability|AUTOMATIC|Abomination Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+CLASS:Abomination	PRERACETYPE:Abomination
+CLASS:Abomination	STARTSKILLPTS:4	MODTOSKILLS:YES
+#
+CLASS:Monster Of Legend	HD:8		TYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2
+CLASS:Monster Of Legend	PRETEMPLATE:1,Monster of Legend
+CLASS:Monster Of Legend	MODTOSKILLS:NO
+CLASS:Monster Of Legend	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3	BONUS:CASTERLEVEL|Monster Of Legend|5
+1	CAST:5,3,2,1	SPELLLIST:4|Cleric|DOMAIN.Protection|DOMAIN.Strength|DOMAIN.War

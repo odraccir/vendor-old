@@ -1,0 +1,11 @@
+SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																					
+																							
+###Block: 																							
+# Template Name				Visible	Template																	Required Size	Natural Attacks
+Aberrant Feat	VISIBLE:NO	SOURCEPAGE:LoM	DEFINE:AberrantFeatNumber|0	DEFINE:AberrantFeatBonusHP|0	DEFINE:AberrantFeatCheck|0	BONUS:VAR|AberrantFeatBonusHP|AberrantFeatNumber	BONUS:VAR|AberrantFeatCheck|AberrantFeatNumber	BONUS:HP|CURRENTMAX|2*AberrantFeatBonusHP	BONUS:SKILL|Diplomacy,Disguise,Gather Information,Handle Animal|AberrantFeatCheck*(-1)	BONUS:VAR|WildEmpathy|AberrantFeatCheck*(-1)													
+Deepspawn ~ Tentacles	VISIBLE:NO	SOURCEPAGE:LoM	TEMPLATE:CHOOSE:Deepspawn ~ Tentacles S|Deepspawn ~ Tentacles M|Deepspawn ~ Tentacles L																				
+Deepspawn ~ Tentacles S	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d3																				
+Deepspawn ~ Tentacles M	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d4																				
+Deepspawn ~ Tentacles L	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,1d6																				
+Familiar ~ Tentacle	VISIBLE:NO	SOURCEPAGE:LoM	NATURALATTACKS:Tentacle,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1																				
+Aberrant Apotheosys	VISIBLE:DISPLAY	SOURCEPAGE:LoM	PRECLASS:1,Fleshwarper=10	RACETYPE:Aberration	VISION:Darkvision (60')	BONUS:STAT|CON|2|TYPE=Racial																	

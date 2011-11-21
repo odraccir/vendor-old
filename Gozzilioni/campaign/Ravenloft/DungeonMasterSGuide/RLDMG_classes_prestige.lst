@@ -1,0 +1,32 @@
+SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net									
+# Class Name	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Willpower)	Combat bonus	EXCLASS	FINE
+# Class Name	Requirements	FINE									
+# Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		
+# Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)						
+#(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)	
+CLASS:Prophet	HD:4	TYPE:NPC	ABB:Pro	MAXLEVEL:10	SOURCEPAGE:RLDMG	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
+#CLASS:Prophet											
+CLASS:Prophet	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Gather Information|TYPE.Knowledge|TYPE.Profession|Spellcraft|Use Magic Device									
+CLASS:Prophet	SPELLSTAT:WIS	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Prophet|CL	
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+#											
+1							BONUS:ABILITYPOOL|Mark of Fate|1				
+2	CAST:2,0	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Augury (Sp)			BONUS:VAR|AuguryTimes|1	BONUS:VAR|AuguryLVL|CL			
+3	CAST:3,1	KNOWN:6,3		ABILITY:Special Ability|AUTOMATIC|Prediction			BONUS:VAR|PredictionPerDay|1				
+4	CAST:3,1	KNOWN:6,3									
+5	CAST:3,2	KNOWN:6,4									
+6	CAST:3,2,0	KNOWN:6,4,2									
+7	CAST:3,2,1	KNOWN:6,4,3									
+8	CAST:3,2,1	KNOWN:6,4,3		ABILITY:Special Ability|AUTOMATIC|Divination (Sp)			BONUS:VAR|DivinationPerDay|1	BONUS:VAR|DivinationLVL|CL			
+9	CAST:3,3,2	KNOWN:6,4,4									
+10	CAST:3,3,2,0	KNOWN:6,4,4,2									
+11	CAST:3,3,2,1	KNOWN:6,4,4,3									
+12	CAST:3,3,2,1	KNOWN:6,4,4,3									
+13	CAST:3,3,3,2	KNOWN:6,4,4,4									
+14	CAST:3,3,3,2,0	KNOWN:6,4,4,4,2									
+15	CAST:3,3,3,2,1	KNOWN:6,4,4,4,3									
+16	CAST:3,3,3,2,1	KNOWN:6,4,4,4,3		ABILITY:Special Ability|AUTOMATIC|Scrying (Sp)			BONUS:VAR|ScryingPerDay|1	BONUS:VAR|ScryingLVL|CL			
+17	CAST:3,3,3,3,2	KNOWN:6,4,4,4,4									
+18	CAST:3,3,3,3,2,0	KNOWN:6,4,4,4,4,2									
+19	CAST:3,3,3,3,2,1	KNOWN:6,4,4,4,4,3									
+20	CAST:3,3,3,3,2,1	KNOWN:6,4,4,4,4,3									

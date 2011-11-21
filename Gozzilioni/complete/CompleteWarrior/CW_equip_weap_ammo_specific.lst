@@ -1,0 +1,4 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property
+Burrowing Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.SpecificArrow.Individual	COST:167	WT:0		EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:CW		SPROP:Burrowing (1d8 points of damage when extracted from the wounds)

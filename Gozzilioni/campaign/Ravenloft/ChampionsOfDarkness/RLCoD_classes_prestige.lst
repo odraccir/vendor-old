@@ -1,0 +1,167 @@
+SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net										
+#												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Charlatan	HD:6	TYPE:Prestige.NPC	ABB:Chl	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
+CLASS:Charlatan	PRESKILL:1,Bluff=8	PRESKILL:2,Diplomacy=6,Forgery=6	PRESKILL:2,Skill Focus(Bluff),Skill Focus(Diplomacy)									
+#CLASS:Charlatan	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Innuendo|Listen|TYPE.Perform|TYPE.Profession|Read Lips|Search|Sense Motive|Spot|Use Magic Device										
+CLASS:Charlatan	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Listen|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Spot|Use Magic Device										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Charlatan Weapon Proficiencies										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Attempting a Confidence Game|Charmer			BONUS:VAR|ConfidenceNumber|3+CHA					
+2				ABILITY:Special Ability|AUTOMATIC|Captivating|Infamous								
+3				ABILITY:Special Ability|AUTOMATIC|Crowd Pleaser								
+4				ABILITY:Special Ability|AUTOMATIC|Gifted Orator|Bad Reputation								
+5				ABILITY:Special Ability|AUTOMATIC|Ultimate Con								
+#												
+CLASS:Dreamcaster	HD:4	TYPE:Prestige.NPC	ABB:Drm	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+#CLASS:Dreamcaster	PREALIGN:CG,CN,CE	PRESKILL:1,Knowledge (Arcana)=4	PRESKILL:2,Spellcraft=8,Scry=8									
+CLASS:Dreamcaster	PREALIGN:CG,CN,CE	PRESKILL:1,Knowledge (Arcana)=4	PRESKILL:1,Spellcraft=8	PRESPELLCAST:TYPE=Arcane	PRESPELL:1,Sleep							
+#CLASS:Dreamcaster	STARTSKILLPTS:2	CSKILL:Alchemy|TYPE.Craft|Concentration|Knowledge (Arcana)|TYPE.Profession|Spellcraft|Scry										
+CLASS:Dreamcaster	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Concentration|Knowledge (Arcana)|TYPE.Profession|Spellcraft										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+#												
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Dreaming Empowerment			BONUS:VAR|DreamingEmpowermentBonus|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Fey Friend								
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Dreaming Potency			BONUS:VAR|DreamingPotencyBonus|CL					
+4				ABILITY:Special Ability|AUTOMATIC|Dreaming Vision								
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Sandman's Gift								
+#												
+CLASS:Highway Rider	HD:6	TYPE:Prestige.NPC	ABB:Hwr	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Highway Rider	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:4	PRESKILL:1,Bluff=6	PRESKILL:2,Diplomacy=4,Ride=4	PREFEAT:4,Equestrian,Exotic Weapon Proficiency(Firearms),Point Blank Shot,Mounted Combat							
+#CLASS:Highway Rider	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Diplomacy|Disguise|Gather Information|Handle Animal|Intuit Direction|Knowledge (Nobility)|Ride|Spot|Tumble										
+CLASS:Highway Rider	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Diplomacy|Disguise|Gather Information|Handle Animal|Knowledge (Nobility and Royalty)|Ride|Spot|Tumble|Survival										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Highway Rider Weapon Proficiencies										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Studied Foe|Knowledge ~ Roads			BONUS:VAR|KnowledgeRoadsBonus|2					
+2				ABILITY:Special Ability|AUTOMATIC|Mist Ways|Savoir-faire			BONUS:VAR|SavoirFaireBonus|CL/2					
+3				ABILITY:Special Ability|AUTOMATIC|Special Mount			BONUS:VAR|SMLevel|CL					
+4				ABILITY:Special Ability|AUTOMATIC|Trick Rider|Notoriety								
+5												
+#												
+CLASS:Manipulator	HD:6	TYPE:Prestige.NPC	ABB:Mpl	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Manipulator	PREALIGN:LN,LE	PRESKILL:3,Bluff=8,Diplomacy=8,Gather Information=8	PRESKILL:1,TYPE.Perform=4	PRESKILL:1,Sense Motive=4	PREFEAT:3,Machiavellian,Skill Focus(Bluff),Skill Focus(Gather Information)							
+#CLASS:Manipulator	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Forgery|Gather Information|Hypnotism|Intimidate|Knowledge (Arcana)|Listen|TYPE.Perform|TYPE.Profession|Read Lips|Scry|Sense Motive|Spellcraft										
+CLASS:Manipulator	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Forgery|Gather Information|Hypnosis|Intimidate|Knowledge (Arcana)|Listen|TYPE.Perform|TYPE.Profession|Spot|Sense Motive|Spellcraft										
+CLASS:Manipulator	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Manipulator|CL								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Manipulator Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Compelling Fascinate|Compelling Inspire Courage|PRESKILL:1,Diplomacy=3|PREVARGTEQ:CompellingConversationalistLVL,1								
+1				ABILITY:Special Ability|AUTOMATIC|Compelling Inspire Competence|PRESKILL:1,Diplomacy=6|PREVARGTEQ:CompellingConversationalistLVL,2								
+1				ABILITY:Special Ability|AUTOMATIC|Compelling Suggestion|PRESKILL:1,Diplomacy=9|PREVARGTEQ:CompellingConversationalistLVL,3								
+1				ABILITY:Special Ability|AUTOMATIC|Compelling Inspire Greatness|PRESKILL:1,Diplomacy=12|PREVARGTEQ:CompellingConversationalistLVL,4								
+#												
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Compelling Conversationalist			BONUS:VAR|CompellingConversationalistTimes|CL	BONUS:VAR|CompellingConversationalistLVL|CL	BONUS:VAR|CompellingInspireDurationBase|5			
+2	CAST:0,1	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|World Wise			BONUS:VAR|WorldWiseLvl|CL					
+3	CAST:0,1,0	KNOWN:0,3,1										
+4	CAST:0,1,1	KNOWN:0,3,2		ABILITY:Special Ability|AUTOMATIC|Iron Will ~ competence								
+5	CAST:0,2,1,0	KNOWN:0,4,2,1		ABILITY:Special Ability|AUTOMATIC|Shrewd								
+#												
+CLASS:Master of Curses	HD:8	TYPE:Prestige.NPC	ABB:Mcu	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Master of Curses	PREALIGN:LG,LN,LE	PRECHECKBASE:1,Will=5	PRESKILL:1,Sense Motive=4	PREFEAT:2,Skill Focus(Sense Motive),Voice of Wrath	PRESPELLCAST:TYPE=Arcane,TYPE=Divine							
+#CLASS:Master of Curses	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Gather Information|Intimidate|Listen|Scry|Sense Motive|Spellcraft										
+CLASS:Master of Curses	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Gather Information|Intimidate|Listen|Sense Motive|Spellcraft										
+SUBCLASS:Master of Curses ~ Cleric	PRECLASS:1,Cleric=1											
+SUBCLASSLEVEL:1												
+SUBCLASS:Master of Curses ~ No Cleric	!PRECLASS:1,Cleric=1											
+SUBCLASSLEVEL:1						DOMAIN:Destruction|Law|Protection|War						
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+#												
+1	ADD:SPELLCASTER|ANY					DOMAIN:Curse						
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Evil Eye ~ Half-Vistani|Improved Voice of Wrath			BONUS:VAR|EvilEyePerWeek|1	BONUS:VAR|EvilEyePerWeek|1|PREGENDER:F				
+3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Basic Turning|Master of Curses Turn Undead|Turn Undead			BONUS:VAR|MasterOfCursesTurnLVL|CL					
+4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Vision of Darkness			BONUS:VAR|VisionOfDarknessDC|WIS
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Willing Sacrifice								
+#												
+CLASS:Mesmerist	HD:6	TYPE:Prestige.NPC	ABB:Msm	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Mesmerist	PREALIGN:NG,TN,NE,CG,CN,CE	PRECHECKBASE:1,Will=4	PRESKILL:2,Bluff=4,Hypnosis=4	PRESKILL:1,Concentration=6	PREFEAT:3,Alertness,Iron Will,Open Mind							
+#CLASS:Mesmerist	STARTSKILLPTS:4	CSKILL:Bluff (Seduction)|Bluff (Telling fortune)|Diplomacy|Disguise|Gather Information|Heal|Hypnosis|Innuendo|Intimidate|TYPE.Perform|Sense Motive										
+CLASS:Mesmerist	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Disguise|Gather Information|Heal|Hypnosis|Intimidate|TYPE.Perform|Sense Motive										
+CLASS:Mesmerist	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Mesmerist|CL								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Mesmerist Weapon Proficiencies										
+#												
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Knowledge ~ Madness								
+2	CAST:0,1	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Mesmeric Focus								
+3	CAST:0,1,0	KNOWN:0,3,1		ABILITY:Special Ability|AUTOMATIC|Hypnotic Voice								
+4	CAST:0,1,1	KNOWN:0,3,2		ABILITY:Special Ability|AUTOMATIC|Simple Minds								
+5	CAST:0,2,1,0	KNOWN:0,4,2,1		ABILITY:Special Ability|AUTOMATIC|Broken Will								
+#												
+CLASS:Moon Bane	HD:8	TYPE:Prestige.NPC	ABB:Mb	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Moon Bane	PREATT:6	PREFEAT:3,Alertness,Great Fortitude,Target Vulnerable Spot	PRETEXT:Must be cursed by and/or cured of Lycanthropy.									
+#CLASS:Moon Bane	STARTSKILLPTS:4	CSKILL:Animal Empathy|Balance|Climb|Handle Animal|Hide|Intuit Direction|Knowledge (Lycanthrope Lore)|TYPE.Profession|Sense Motive|Use Rope|Wilderness Lore										
+CLASS:Moon Bane	STARTSKILLPTS:4	CSKILL:Balance|Climb|Handle Animal|Hide|Knowledge (Lycanthrope Lore)|TYPE.Profession|Sense Motive|Use Rope|Survival										
+SUBCLASS:Moon Bane ~ werebear												
+SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Bear Empathy										
+SUBCLASS:Moon Bane ~ wereboar												
+SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Boar Empathy										
+SUBCLASS:Moon Bane ~ wererat												
+SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Rat Empathy										
+SUBCLASS:Moon Bane ~ weretiger												
+SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Tiger Empathy										
+SUBCLASS:Moon Bane ~ werewolf												
+SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Wolf Empathy										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Wild Empathy			BONUS:VAR|WildEmpathy|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Sense Lycanthrope								
+3				ABILITY:Special Ability|AUTOMATIC|Basic Studied Foe|Moon Bane Studied Foe			BONUS:VAR|MoonBaneStudiedFoeLVL|CL					
+4				ABILITY:Special Ability|AUTOMATIC|Calm Beasts								
+5				ABILITY:Special Ability|AUTOMATIC|Trance Beasts								
+#												
+CLASS:Night Lord	HD:10	TYPE:Prestige.NPC	ABB:Nld	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Night Lord	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Knowledge (Ravenloft)=4	PRESKILL:1,Ride=6	PREFEAT:2,Mounted Combat,Trample	PRETEXT:the Night Lord must have a darklord patron accept him/her into his service.						
+CLASS:Night Lord	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Intimidate|Knowledge (Ravenloft)|TYPE.Profession|Ride|Sense Motive|Spot										
+CLASS:Night Lord	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		BONUS:CASTERLEVEL|Night Lord|CL							
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+#												
+1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Sense Sinkholes of Evil								
+2	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Dread Blessing|Smite Virtue			BONUS:VAR|SmiteVirtue|1	BONUS:VAR|SmiteVirtueDamage|CL				
+3	CAST:0,1,0			ABILITY:Special Ability|AUTOMATIC|Basic Turning|Night Lord Turning|Rebuke Undead			BONUS:VAR|NightLordTurnLVL|CL					
+4	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Fear Aura|Desenitized			BONUS:VAR|FearAuraRadius|10	DEFINE:FearAuraDC|10+CL				
+5	CAST:0,2,1,0			ABILITY:Special Ability|AUTOMATIC|Horrifying Designs|Phooka Mount			BONUS:VAR|PMLevel|CL					
+#												
+CLASS:Propagandist	HD:6	TYPE:Prestige.NPC	ABB:Prp	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+#CLASS:Propagandist	PREALIGN:CG,CN,CE,NG,NE,TN,LN	PRESKILL:4,Diplomacy=4,Innuendo=4,Knowledge (Local)=4,Knowledge (Ravenloft)=4	PRESKILL:1,Gather Information=8	PREFEAT:3,Hearthlore,Machiavellian,Mesmerizing								
+CLASS:Propagandist	PREALIGN:CG,CN,CE,NG,NE,TN,LN	PRESKILL:4,Diplomacy=4,Sense Motive=4,Knowledge (Local)=4,Knowledge (Ravenloft)=4	PRESKILL:1,Gather Information=8	PREFEAT:3,Hearthlore,Machiavellian,Mesmerizing								
+#CLASS:Propagandist	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Disguise|Forgery|Gather Information|Innuendo|Knowledge (Local)|Knowledge (Ravenloft)|TYPE.Profession|Read Lips|Sense motive										
+CLASS:Propagandist	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Disguise|Forgery|Gather Information|Knowledge (Local)|Knowledge (Ravenloft)|TYPE.Profession|Sense Motive|Spot										
+1				ABILITY:Special Ability|AUTOMATIC|Intuition			BONUS:VAR|IntuitionBonus|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Sense Group Dynamics								
+3				ABILITY:Special Ability|AUTOMATIC|Confidant								
+4				ABILITY:Special Ability|AUTOMATIC|Psychology Curiosity								
+5				ABILITY:Special Ability|AUTOMATIC|Information Dissemination								
+#												
+CLASS:Scourge	HD:8	TYPE:Prestige.NPC	ABB:Scg	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Scourge	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:4	PRESKILL:2,Heal=4,Intimidate=4	PREFEAT:4,Endurance,Improved Unarmed Strike,Iron Will,Jaded	PRETEXT:Another Scourge must consider her worthy of training and prospectuve scourge must have endured torture without breaking (Will DC 20)							
+#CLASS:Scourge	STARTSKILLPTS:4	CSKILL:Bluff|Escape Artist|Heal|Intimidate|Profession (Torturer)|Read Lips|Sense Motive|Use Rope										
+CLASS:Scourge	STARTSKILLPTS:4	CSKILL:Bluff|Escape Artist|Heal|Intimidate|Profession (Torturer)|Sense Motive|Use Rope|Spot										
+CLASS:Scourge	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Scourge|CL								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Scourge Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+#												
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Pinpoint Agony								
+2	CAST:0,1	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Detect Thoughts (Sp)			BONUS:VAR|DetectThoughtsLVL|7	BONUS:VAR|DetectThoughtsPerDay|3	BONUS:VAR|DetectThoughtsDC|CL			
+3	CAST:0,1,0	KNOWN:0,3,1		ABILITY:Special Ability|AUTOMATIC|Mask of the Torturer								
+4	CAST:0,1,1	KNOWN:0,3,2										
+5	CAST:0,2,1,0	KNOWN:0,4,2,1		ABILITY:Special Ability|AUTOMATIC|Hands of Death								
+#												
+#CLASS:Solitary Outcast												
+#												
+CLASS:Worldbreaker	HD:8	TYPE:Prestige.NPC	ABB:Wrb	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Worldbreaker	PREALIGN:CG,CN,CE	PRECHECKBASE:1,Fortitude=5	PRESKILL:1,Knowledge (Religion)=8	PRESKILL:1,Perform (Dance)=5	PREFEAT:2,Great Fortitude,Tantric Ability	PREFEAT:1,Life Force Sacrifice (Divine),Life Force Sacrifice (Arcane)	PREGENDER:F	PRECLASS:1,Cleric=1	PREDEITY:1,Kali	PREDOMAIN:1,Destruction			
+CLASS:Worldbreaker	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Spellcraft										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+#												
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Chakra Mastery								
+2							BONUS:ABILITYPOOL|Moderate Madness|1					
+3	ADD:SPELLCASTER|ANY						BONUS:DOMAIN|NUMBER|1					
+4							BONUS:ABILITYPOOL|Major Madness|1					
+5	ADD:SPELLCASTER|ANY						BONUS:DOMAIN|NUMBER|1					

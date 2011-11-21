@@ -1,0 +1,9 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																																					
+#																																							
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOS	FINE																											
+# Class Name req	Requirements	FINE																																					
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE																														
+# Class Name 4	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)																																		
+#(level number)	ADD:SPELLCASTER o CAST	ADD:FEAT Proficiencies	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																													
+CLASS:Cleric.MOD
+1		ABILITY:Special Ability|AUTOMATIC|Spontaneous casting - Sanctified spells	SPELLLIST:2|Cleric|Sanctified

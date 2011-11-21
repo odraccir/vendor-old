@@ -1,0 +1,114 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net											
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	FINE		
+# Class Name req	Requirements	FINE											
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	define class variables (DEFINE:variable|value	FINE				
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Mist Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MMay	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
+CLASS:Mist Dragon	PRERACE:1,Dragon (Mist%	PRERACETYPE:Dragon											
+CLASS:Mist Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Diplomacy|Escape Artist|Intimidate|TYPE.Knowledge|Sense Motive|Use Magic Device|Bluff|Sense Motive|Swim|Survival								MODTOSKILLS:YES			
+1							BONUS:COMBAT|AC|CL-1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|DragonCL|max(DragonAge,(var("BL=Sorcerer")+var("CL=Sorcerer")))		VISION:Keen Senses|Darkvision (120')|Blindsense (60')	DEFINE:DragonCL|0		
+###Block: Breath Weapon and other SA's													
+1	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Scalding Steam									BONUS:VAR|BreathWeaponDamageDie|6	DEFINE:BreathWeaponCone|max((SIZE-1)*10,15)	DEFINE:BreathWeaponDice|DragonAge	
+1	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Caustic Slime									DEFINE:BreathWeaponLine|max((SIZE-1)*20,30)			
+1	ABILITY:Special Ability|AUTOMATIC|Mist Form												
+1	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid												
+1	ABILITY:Special Ability|AUTOMATIC|Immunity To Fire												
+###Block: Frightful Presence													
+15	ABILITY:Special Ability|VIRTUAL|Frightful Presence|PREVARGTEQ:DragonAge,5						BONUS:VAR|FrightfulPresRange|DragonAge*30|PREVARGTEQ:DragonAge,5						
+###Block: Normal Progression													
+1										DEFINE:DragonAge|1			
+3													
+6										DEFINE:DragonAge|2			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Fog Cloud
+9	ADD:SPELLCASTER|1|Sorcerer									DEFINE:DragonAge|3			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Sleet Storm
+11	BONUS:PCLEVEL|Sorcerer|1												
+12	BONUS:PCLEVEL|Sorcerer|1									DEFINE:DragonAge|4			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Wind Wall
+14	BONUS:PCLEVEL|Sorcerer|1												
+15	BONUS:PCLEVEL|Sorcerer|1							SR:16	DR:5/Magic	DEFINE:DragonAge|5			
+17	BONUS:PCLEVEL|Sorcerer|1												
+18	BONUS:PCLEVEL|Sorcerer|1							SR:18		DEFINE:DragonAge|6			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Gust of Wind
+20	BONUS:PCLEVEL|Sorcerer|1												
+21	BONUS:PCLEVEL|Sorcerer|1							SR:20	DR:10/Magic	DEFINE:DragonAge|7			
+23	BONUS:PCLEVEL|Sorcerer|1												
+24	BONUS:PCLEVEL|Sorcerer|1							SR:21		DEFINE:DragonAge|8			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Solid Fog
+26	BONUS:PCLEVEL|Sorcerer|1												
+27	BONUS:PCLEVEL|Sorcerer|1							SR:23	DR:15/Magic	DEFINE:DragonAge|9			
+29	BONUS:PCLEVEL|Sorcerer|1												
+30	BONUS:PCLEVEL|Sorcerer|1							SR:24		DEFINE:DragonAge|10			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Control Water
+32	BONUS:PCLEVEL|Sorcerer|1												
+33	BONUS:PCLEVEL|Sorcerer|1							SR:25	DR:20/Magic	DEFINE:DragonAge|11			
+35	BONUS:PCLEVEL|Sorcerer|1												
+36	BONUS:PCLEVEL|Sorcerer|1							SR:27		DEFINE:DragonAge|12			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Control Weather
+#													
+CLASS:Mercury Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MMay	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
+CLASS:Mercury Dragon	PRERACE:1,Dragon (Mercury%	PRERACETYPE:Dragon											
+CLASS:Mercury Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Diplomacy|Escape Artist|Intimidate|TYPE.Knowledge|Sense Motive|Use Magic Device|Bluff|Disguise|Sense Motive|Survival								MODTOSKILLS:YES			
+1							BONUS:COMBAT|AC|CL-1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|DragonCL|max(DragonAge,(var("BL=Sorcerer")+var("CL=Sorcerer")))		VISION:Keen Senses|Darkvision (120')|Blindsense (60')	DEFINE:DragonCL|0		
+###Block: Breath Weapon and other SA's													
+1										BONUS:VAR|BreathWeaponDamageDie|6	DEFINE:BreathWeaponLine|max((SIZE-1)*20,30)	DEFINE:BreathWeaponDice|DragonAge	
+1	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Burning Light												
+1	ABILITY:Special Ability|AUTOMATIC|Alternate Form										DEFINE:AlternateFormTimes|3		
+1	ABILITY:Special Ability|AUTOMATIC|Protected Sight												
+###Block: Frightful Presence													
+15	ABILITY:Special Ability|VIRTUAL|Frightful Presence|PREVARGTEQ:DragonAge,5						BONUS:VAR|FrightfulPresRange|DragonAge*30|PREVARGTEQ:DragonAge,5						
+###Block: Normal Progression													
+1										DEFINE:DragonAge|1			
+3				ABILITY:Special Ability|AUTOMATIC|Brilliance									
+6										DEFINE:DragonAge|2			
+9	ADD:SPELLCASTER|1|Sorcerer									DEFINE:DragonAge|3			SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Gaze Screen
+11	BONUS:PCLEVEL|Sorcerer|1												
+12	BONUS:PCLEVEL|Sorcerer|1									DEFINE:DragonAge|4			SPELLS:Innate|TIMES=3|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Mirror Image
+14	BONUS:PCLEVEL|Sorcerer|1												
+15	BONUS:PCLEVEL|Sorcerer|1							SR:17	DR:5/Magic	DEFINE:DragonAge|5			
+17	BONUS:PCLEVEL|Sorcerer|1												
+18	BONUS:PCLEVEL|Sorcerer|1							SR:21		DEFINE:DragonAge|6			TEMPLATE:Shapechanger
+20	BONUS:PCLEVEL|Sorcerer|1												
+21	BONUS:PCLEVEL|Sorcerer|1							SR:21	DR:10/Magic	DEFINE:DragonAge|7			
+23	BONUS:PCLEVEL|Sorcerer|1												
+24	BONUS:PCLEVEL|Sorcerer|1							SR:22		DEFINE:DragonAge|8			SPELLS:Innate|TIMES=2|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Telekinesis
+26	BONUS:PCLEVEL|Sorcerer|1												
+27	BONUS:PCLEVEL|Sorcerer|1							SR:24	DR:15/Magic	DEFINE:DragonAge|9			
+29	BONUS:PCLEVEL|Sorcerer|1												
+30	BONUS:PCLEVEL|Sorcerer|1							SR:25		DEFINE:DragonAge|10			
+32	BONUS:PCLEVEL|Sorcerer|1												
+33	BONUS:PCLEVEL|Sorcerer|1							SR:26	DR:20/Magic	DEFINE:DragonAge|11			SPELLS:Innate|TIMES=1|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Project Image
+35	BONUS:PCLEVEL|Sorcerer|1												
+36	BONUS:PCLEVEL|Sorcerer|1							SR:28		DEFINE:DragonAge|12			
+#													
+CLASS:Steel Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MMay	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
+CLASS:Steel Dragon	PRERACE:1,Dragon (Steel%	PRERACETYPE:Dragon											
+CLASS:Steel Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Diplomacy|Escape Artist|Intimidate|TYPE.Knowledge|Sense Motive|Use Magic Device|Bluff|TYPE.Craft|TYPE.Profession								MODTOSKILLS:YES			
+1							BONUS:COMBAT|AC|CL-1|TYPE=NaturalArmor.REPLACE			VISION:Keen Senses|Darkvision (120')|Blindsense (60')			
+###Block: Breath Weapon and other SA's													
+1	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Poisonous Gas									DEFINE:BreathWeaponCone|max((SIZE-1)*10,15)	DEFINE:BreathWeaponDC|10+(CL/2)+CON	DEFINE:BreathWeaponDice|DragonAge	
+1	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid									DEFINE:BreathWeaponLine|max((SIZE-1)*20,30)			
+#1													
+#1													
+#1													
+###Block: Frightful Presence													
+1	ABILITY:Special Ability|AUTOMATIC|Frightful Presence						BONUS:VAR|FrightfulPresRange|DragonAge*30|PREVARGTEQ:DragonAge,5			DEFINE:FrightfulPresRange|0	DEFINE:FrightfulPresDC|10+(CL/2)+CHA		ABILITY:Special Ability|AUTOMATIC|Frightful Presence
+###Block: Normal Progression													
+1				ABILITY:Special Ability|AUTOMATIC|Resistance To Poison			BONUS:VAR|PoisonResistanceBonus|10|TYPE=Racial			DEFINE:DragonAge|1			SPELLS:Innate|TIMES=5|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Polymorph
+4	ADD:SPELLCASTER|1|Sorcerer							SR:16					
+6	BONUS:PCLEVEL|Sorcerer|1												
+7	BONUS:PCLEVEL|Sorcerer|1			ABILITY:Special Ability|AUTOMATIC|Arcane Shield (Minor)			BONUS:VAR|MinorArcaneShieldBonus|10	SR:18		DEFINE:DragonAge|2			
+9	BONUS:PCLEVEL|Sorcerer|1												
+10	BONUS:PCLEVEL|Sorcerer|1			ABILITY:Special Ability|AUTOMATIC|Arcane Shield (Moderate)			BONUS:VAR|ModerateArcaneShieldBonus|10	SR:20		DEFINE:DragonAge|3			
+12	BONUS:PCLEVEL|Sorcerer|1												
+13	BONUS:PCLEVEL|Sorcerer|1							SR:22		DEFINE:DragonAge|4			SPELLS:Innate|TIMES=1|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Enthrall
+15	BONUS:PCLEVEL|Sorcerer|1												
+16	BONUS:PCLEVEL|Sorcerer|1							SR:24	DR:5/Magic	DEFINE:DragonAge|5			
+18	BONUS:PCLEVEL|Sorcerer|1												
+19	BONUS:PCLEVEL|Sorcerer|1							SR:26		DEFINE:DragonAge|6			SPELLS:Innate|TIMES=1|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Charm Person
+21	BONUS:PCLEVEL|Sorcerer|1												
+22	BONUS:PCLEVEL|Sorcerer|1							SR:28	DR:10/Magic	DEFINE:DragonAge|7			
+24	BONUS:PCLEVEL|Sorcerer|1												
+25	BONUS:PCLEVEL|Sorcerer|1							SR:30		DEFINE:DragonAge|8			SPELLS:Innate|TIMES=1|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Suggestion
+27	BONUS:PCLEVEL|Sorcerer|1												
+28	BONUS:PCLEVEL|Sorcerer|1							SR:32	DR:15/Magic	DEFINE:DragonAge|9			
+30	BONUS:PCLEVEL|Sorcerer|1												
+31	BONUS:PCLEVEL|Sorcerer|1							SR:34		DEFINE:DragonAge|10			SPELLS:Innate|TIMES=1|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Suggestion (Mass)
+33													
+34	BONUS:PCLEVEL|Sorcerer|1							SR:36	DR:20/Magic	DEFINE:DragonAge|11			
+36													
+37	BONUS:PCLEVEL|Sorcerer|1							SR:38		DEFINE:DragonAge|12			SPELLS:Innate|TIMES=1|CASTERLEVEL=max(DragonAge,classlevel("Sorcerer"))|Charm Monster (Mass)

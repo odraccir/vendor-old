@@ -1,0 +1,23 @@
+SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net										
+#
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			
+# Class Name 4	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
+#(level number)	ADD:SPELLCASTER o CAST	ADD:FEAT Proficiencies	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
+#
+CLASS:Druid.MOD	HASSUBSTITUTIONLEVEL:YES											
+SUBSTITUTIONCLASS:Sea Druid												
+SUBSTITUTIONLEVEL:1	LANGBONUS:Aquan											
+SUBSTITUTIONLEVEL:2	CAST:4,2	ABILITY:Special Ability|AUTOMATIC|Speed of the Fish										
+SUBSTITUTIONLEVEL:3	CAST:4,2,1	ABILITY:Special Ability|AUTOMATIC|Salt Synthesis
+#
+###COMMENT:CLASS:Sailor	portato a 4 punti abilita dai 2. aggiunte le abilita "Appraise" e "Profession (Navigator)"											
+###COMMENT:CLASS:Sailor	per facilitare un minimo il Dread Pirate																							
+CLASS:Sailor	HD:8	TYPE:NPC.Expert	ABB:Sai	MAXLEVEL:5	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Sailor	PRETEXT:Must live near the sea											
+CLASS:Sailor	STARTSKILLPTS:4	CSKILL:Balance|Climb|Jump|Knowledge (Seamanship)|Swim|Use Rope|Appraise|Profession (Navigator)										
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+#												
+1		ABILITY:Special Ability|AUTOMATIC|Base Skill Level|Sailor Skill Level								BONUS:VAR|SailorSkillLVL|CL

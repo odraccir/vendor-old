@@ -1,0 +1,8 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G		SOURCEWEB:http://www.gozzilioni.net																							
+
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+Needles (Blowgun/20)	OUTPUTNAME:Needles, Blowgun (20)		TYPE:Ammunition.Standard.Needle	COST:1	WT:0							EQMOD:STEEL.WOOD						SOURCEPAGE:G					BASEQTY:20			
+Needle (Blowgun)	OUTPUTNAME:Needle, [NAME]		TYPE:Ammunition.Standard.Needle	COST:0.05	WT:0							EQMOD:STEEL.WOOD						SOURCEPAGE:G								
+Bullet (Firearm)	OUTPUTNAME:Bullet, [NAME]		TYPE:Ammunition.Standard.Bullet	COST:0.30	WT:0.2							EQMOD:STEEL						SOURCEPAGE:DMG								
+Bullets (Firearm/10)	OUTPUTNAME:Bullets, [NAME]		TYPE:Ammunition.Standard.Bullet	COST:3	WT:2							EQMOD:STEEL						SOURCEPAGE:DMG					BASEQTY:10			
+Bullets (Firearm/20)	OUTPUTNAME:Bullets, Firearm (20)		TYPE:Ammunition.Standard.Bullet	COST:6	WT:4							EQMOD:STEEL						SOURCEPAGE:DMG					BASEQTY:20			

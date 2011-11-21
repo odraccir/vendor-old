@@ -1,0 +1,10 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net									
+											
+#Hell's Heart	COST:60										
+#Spectral Arrow	COST:2560										
+											
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property
+Hell's Heart			TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:60	WT:.15	BASEQTY:1	EQMOD:WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:BoVD		SPROP:pass through creature with evil alignment.
+Hell's Heart (20)			TYPE:Enhancement.Ammunition.Specific.Arrow	COST:1200	WT:.3	BASEQTY:20	EQMOD:WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:BoVD		SPROP:pass through creature with evil alignment.
+Spectral Arrow			TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:2560	WT:.15	BASEQTY:1	EQMOD:WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:BoVD		SPROP:bestow 1 negative level on hit instread of damage.
+Spectral Arrow (20)			TYPE:Enhancement.Ammunition.Specific.Arrow	COST:51200	WT:.3	BASEQTY:20	EQMOD:WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:BoVD		SPROP:bestow 1 negative level on hit instread of damage.

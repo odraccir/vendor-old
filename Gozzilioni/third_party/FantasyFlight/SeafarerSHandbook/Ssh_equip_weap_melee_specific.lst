@@ -1,0 +1,8 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+#Crossbow of the Sea God	COST:18335																										
+#Trident of the Sea	COST:18000																										
+																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+Crossbow of the Sea God		PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Container.Projectile.Crossbow	COST:35	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS3W						SOURCEPAGE:Ssh	RANGE:80					MODS:NO	SPROP:can fire bolts underwater without penalties.		CONTAINS:1|Bolt=1
+Trident of the Sea		PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Martial.Ranged.Thrown.Specific.Piercing.Trident	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.RETRN						SOURCEPAGE:Ssh	RANGE:20						SPROP:+2 enhancement bonus vs. unintelligent aquatic creatures.		

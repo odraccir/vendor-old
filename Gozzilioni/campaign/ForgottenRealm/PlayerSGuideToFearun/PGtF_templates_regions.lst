@@ -1,0 +1,125 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net		
+				
+###Block: Region				
+# Template Name	Visible	langauto	langbonus	region
+No Faerun Regiun	VISIBLE:NO			REGION:No Faerunian region
+#				
+# Human Region A/B				
+Human Aglarond Region	VISIBLE:NO	LANGAUTO:Aglarondan	LANGBONUS:Chessentan,Damaran,Draconic,Elven,Mulhorandi,Orc,Sylvan,Untheric	REGION:Aglarond
+Human Altumbel Region	VISIBLE:NO	LANGAUTO:Aglarondan	LANGBONUS:Aquan,Chondathan,Chessentan,Rashemi,Serusan,Untheric	REGION:Altumbel
+Human Amn Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Alzhedo,Elven,Giant,Goblin,Nexalan,Orc,Shaaran	REGION:Amn
+Human Anauroch Region	VISIBLE:NO	LANGAUTO:Midani	LANGBONUS:Chondathan,Damaran,Draconic,Gnoll,Netherese,Orc	REGION:Anauroch
+Human Calimshan Region	VISIBLE:NO	LANGAUTO:Alzhedo	LANGBONUS:Auran,Chondathan,Chultan,Draconic,Ignan,Shaaran,Tashalan	REGION:Calimshan
+Human Chessenta Region	VISIBLE:NO	LANGAUTO:Chessentan	LANGBONUS:Aglarondan,Chondathan,Draconic,Mulhorandi,Turmic,Untheric	REGION:Chessenta
+Human Chult Region	VISIBLE:NO	LANGAUTO:Chultan	LANGBONUS:Alzhedo,Draconic,Dwarven,Goblin,Shaaran,Sylvan,Tashalan	REGION:Chult
+Human Cormyr Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Damaran,Elven,Gnome,Goblin,Halfling,Orc,Turmic	REGION:Cormyr
+Human Dalelands Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Damaran,Elven,Giant,Gnome,Orc,Sylvan	REGION:Dalelands
+Human Damara Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Chondathan,Dwarven,Giant,Goblin,Orc,Uluik	REGION:Damara
+Human Dambrath Region	VISIBLE:NO	LANGAUTO:Dambrathan	LANGBONUS:Dwarven,Elven,Halfling,Halruaan,Gnoll,Illuskan,Shaaran,Undercommon	REGION:Dambrath
+Human Dragon Coast Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Aglarondan,Chessentan,Damaran,Goblin,Halfling,Orc,Turmic	REGION:Dragon Coast
+Human Golden Water Region	VISIBLE:NO	LANGAUTO:Durpari	LANGBONUS:Aglarondan,Dwarven,Giant,Halruaan,Halfling,Mulhorandi,Shaaran	REGION:Golden Water
+Human Great Dale Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Giant,Goblin,Mulhorandi,Rashemi,Sylvan	REGION:Great Dale
+Human Great Glacier Region	VISIBLE:NO	LANGAUTO:Uluik	LANGBONUS:Auran,Damaran,Dwarven,Elven,Giant	REGION:Great Glacier
+Human Halruaa Region	VISIBLE:NO	LANGAUTO:Halruaan	LANGBONUS:Dambrathan,Elven,Goblin,Halfling,Shaaran,Tashalan	REGION:Halruaa
+Human Hordeland Region	VISIBLE:NO	LANGAUTO:Tuigan	LANGBONUS:Damaran,Goblin,Mulhorandi,Rashemi,Shou Expatriate	REGION:Hordeland
+Human Impiltur Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Aglarondan,Chessentan,Chondathan,Dwarven,Giant,Goblin,Mulhorandi,Turmic	REGION:Impiltur
+Human Lake of Steam Region	VISIBLE:NO	LANGAUTO:Shaaran	LANGBONUS:Alzhedo,Chondathan,Dwarven,Goblin,Tashalan	REGION:Lake of Steam
+Human Lapaliiya Region	VISIBLE:NO	LANGAUTO:Tashalan	LANGBONUS:Alzhedo,Chultan,Gnoll,Halruaan,Shaaran,Yuan-Ti	REGION:Lapaliiya
+Human Lantan Region	VISIBLE:NO	LANGAUTO:Lantanese	LANGBONUS:Alzhedo,Chondathan,Dwarven,Gnome,Ignan,Illuskan	REGION:Lantan
+Human Moonsea Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Chessentan,Chondathan,Draconic,Giant,Goblin,Orc	REGION:Moonsea
+Human Moonshae Region	VISIBLE:NO	LANGAUTO:Illuskan	LANGBONUS:Aquan,Chondathan,Elven,Giant,Orc,Sylvan	REGION:Moonshae
+Human Mulhorand Region	VISIBLE:NO	LANGAUTO:Mulhorandi	LANGBONUS:Aglarondan,Chessentan,Draconic,Durpari,Goblin,Tuigan,Untheric	REGION:Mulhorand
+Human Narfell Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Goblin,Orc,Rashemi,Tuigan,Uluik	REGION:Narfell
+Human Nelanther Isles Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Alzhedo,Goblin,Illuskan,Lantanese,Orc,Shaaran	REGION:Nelanther Isles
+Human North Region	VISIBLE:NO	LANGAUTO:Illuskan	LANGBONUS:Chondathan,Dwarven,Elven,Giant,Goblin,Orc	REGION:North
+Human Rashemen Region	VISIBLE:NO	LANGAUTO:Rashemi	LANGBONUS:Aglarondan,Damaran,Goblin,Mulhorandi,Tuigan	REGION:Rashemen
+Human Ride Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Chondathan,Giant,Goblin,Orc,Rashemi	REGION:Ride
+Human Sembia Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Chessentan,Damaran,Gnome,Halfling,Mulhorandi,Shaaran,Turmic	REGION:Sembia
+Human Shaar Region	VISIBLE:NO	LANGAUTO:Shaaran	LANGBONUS:Alzhedo,Dambrathan,Durpari,Dwarven,Gnoll,Halruaan,Tashalan,Untheric	REGION:Shaar
+Human Shadovar Region	VISIBLE:NO	LANGAUTO:Netherese	LANGBONUS:Chondathan,Damaran,Draconic,Elven,Loross,Thorass	REGION:Shadovar
+Human Shou Expatriate Region	VISIBLE:NO	LANGAUTO:Shou Expatriate	LANGBONUS:Draconic,Durpari,Goblin,Mulhorandi,Rashemi,Tuigan	REGION:Shou Expatriate
+Human Silverymoon Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Dwarven,Elven,Giant,Illuskan,Orc,Sylvan	REGION:Silverymoon
+Human Sword Coast Region	VISIBLE:NO	LANGAUTO:Illuskan	LANGBONUS:Chondathan,Dwarven,Giant,Halfling,Orc	REGION:Sword Coast
+Human Tashalar Region	VISIBLE:NO	LANGAUTO:Tashalan	LANGBONUS:Alzhedo,Chultan,Draconic,Illuskan,Orc,Shaaran,Yuan-Ti	REGION:Tashalar
+Human Tethyr Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Alzhedo,Elven,Goblin,Lantanese,Orc	REGION:Tethyr
+Human Thay Region	VISIBLE:NO	LANGAUTO:Mulhorandi	LANGBONUS:Chessentan,Damaran,Gnoll,Infernal,Rashemi,Tuigan,Untheric	REGION:Thay
+Human Thesk Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Aglarondan,Chondathan,Giant,Gnoll,Mulhorandi,Orc,Rashemi,Shou Expatriate,Tuigan	REGION:Thesk
+Human Turmish Region	VISIBLE:NO	LANGAUTO:Turmic	LANGBONUS:Chessentan,Chondathan,Draconic,Dwarven,Ignan,Shaaran	REGION:Turmish
+Human Unther Region	VISIBLE:NO	LANGAUTO:Untheric	LANGBONUS:Chessentan,Draconic,Mulhorandi,Orc,Shaaran	REGION:Unther
+Human Uthgardt Tribesfolk Region	VISIBLE:NO	LANGAUTO:Illuskan	LANGBONUS:Chondathan,Dwarven,Elven,Giant,Orc	REGION:Uthgardt Tribesfolk
+Human Vaasa Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Abyssal,Giant,Goblin,Orc,Uluik	REGION:Vaasa
+Human Vast Region	VISIBLE:NO	LANGAUTO:Damaran	LANGBONUS:Aglarondan,Chondathan,Dwarven,Giant,Goblin,Orc,Rashemi	REGION:Vast
+Human Vilhon Reach Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Chessentan,Damaran,Draconic,Elven,Shaaran,Turmic	REGION:Vilhon Reach
+Human Waterdeep Region	VISIBLE:NO	LANGAUTO:Chondathan	LANGBONUS:Dwarven,Elven,Giant,Halfling,Illuskan,Orc	REGION:Waterdeep
+Human Western Heartlands Region	VISIBLE:NO	LANGAUTO:Chondathan,Tethyrian	LANGBONUS:Elven,Giant,Goblin,Illuskan,Midani,Orc,Turmic	REGION:Western Heartlands
+Human Wizard's Reach Region	VISIBLE:NO	LANGAUTO:Untheric	LANGBONUS:Aglarondan,Chessentan,Elven,Mulhorandi,Orc,Serusan	REGION:Wizard's Reach
+#				
+# Dwarf Region C/D				
+Dwarven Chult Region	VISIBLE:NO	LANGAUTO:Chultan,Dwarven	LANGBONUS:Draconic,Goblin,Ignan,Shaaran,Tashalan	REGION:Chult
+Dwarven Galena Mountain Region	VISIBLE:NO	LANGAUTO:Damaran,Dwarven	LANGBONUS:Chondathan,Giant,Goblin,Orc,Undercommon	REGION:Galena Mountain
+Dwarven Great Glacier Region	VISIBLE:NO	LANGAUTO:Dwarven,Uluik	LANGBONUS:Aquan,Auran,Damaran,Draconic,Giant	REGION:Great Glacier
+Dwarven Great Rift Region	VISIBLE:NO	LANGAUTO:Dwarven	LANGBONUS:Giant,Gnome,Goblin,Shaaran,Terran,Untheric	REGION:Great Rift
+Dwarven Oldonnar Region	VISIBLE:NO	LANGAUTO:Dwarven	LANGBONUS:Draconic,Giant,Terran,Undercommon	REGION:Oldonnar
+Dwarven Smoking Mountains Region	VISIBLE:NO	LANGAUTO:Dwarven	LANGBONUS:Chessentan,Goblin,Mulhorandi,Undercommon,Untheric	REGION:Smoking Mountains
+Dwarven Spine of the World Region	VISIBLE:NO	LANGAUTO:Dwarven	LANGBONUS:Chondathan,Draconic,Giant,Goblin,Illuskan,Orc	REGION:Spine of the World
+Dwarven Sword Coast Region	VISIBLE:NO	LANGAUTO:Dwarven,Illuskan	LANGBONUS:Chondathan,Elven,Giant,Gnome,Orc	REGION:Sword Coast
+Dwarven Turmish Region	VISIBLE:NO	LANGAUTO:Dwarven,Turmic	LANGBONUS:Chondathan,Elven,Giant,Gnome,Halfling	REGION:Turmish
+Dwarven Underdark Darklands Region	VISIBLE:NO	LANGAUTO:Dwarven,Undercommon	LANGBONUS:Aquan,Chondathan,Draconic,Giant,Goblin	REGION:Underdark (Darklands)
+Dwarven Underdark Northdark Region	VISIBLE:NO	LANGAUTO:Dwarven,Undercommon	LANGBONUS:Draconic,Giant,Goblin,Orc,Terran	REGION:Underdark (Northdark)
+Dwarven Underdark Old Shanatar Region	VISIBLE:NO	LANGAUTO:Dwarven,Undercommon	LANGBONUS:Aquan,Draconic,Elven,Gnome,Terran	REGION:Underdark (Old Shanatar)
+Dwarven Waterdeep Region	VISIBLE:NO	LANGAUTO:Dwarven	LANGBONUS:Alzhedo,Chondathan,Elven,Halfling,Illuskan,Orc	REGION:Waterdeep
+#				
+# Elf Region E/F				
+Elven Chondalwood Region	VISIBLE:NO	LANGAUTO:Elven	LANGBONUS:Chessentan,Chondathan,Gnoll,Halfling,Shaaran,Sylvan,Untheric	REGION:Chondalwood
+Elven Cormanthor Drow Region	VISIBLE:NO	LANGAUTO:Elven	LANGBONUS:Abyssal,Chondathan,Draconic,Drow Sign Language,Orc,Sylvan,Undercommon	REGION:Cormanthor Drow
+Elven Court Region	VISIBLE:NO	LANGAUTO:Chondathan,Elven	LANGBONUS:Damaran,Giant,Gnome,Orc,Sylvan	REGION:Elven Court
+Elven Evereska Region	VISIBLE:NO	LANGAUTO:Chondathan,Elven	LANGBONUS:Auran,Draconic,Goblin,Giant,Illuskan,Orc	REGION:Evereska
+Elven Evermeet Region	VISIBLE:NO	LANGAUTO:Elven	LANGBONUS:Aquan,Auran,Celestial,Chondathan,Illuskan,Sylvan	REGION:Evermeet
+Elven Forest of Lethyr Region	VISIBLE:NO	LANGAUTO:Damaran,Elven	LANGBONUS:Giant,Gnoll,Gnome,Orc,Rashemi	REGION:Forest of Lethyr
+Elven High Forest Region	VISIBLE:NO	LANGAUTO:Elven	LANGBONUS:Gnoll,Goblin,Halfling,Illuskan,Sylvan	REGION:High Forest
+Elven Inner Sea Region	VISIBLE:NO	LANGAUTO:Elven,Serusan	LANGBONUS:Aquan,Chondathan,Draconic,Giant,Sylvan	REGION:Inner Sea
+Elven Menzoberranyr Region	VISIBLE:NO	LANGAUTO:Elven,Undercommon	LANGBONUS:Abyssal,Draconic,Drow Sign Language,Goblin,Illuskan	REGION:Underdark (Menzoberranyr)
+Elven Sildeyuir Region	VISIBLE:NO	LANGAUTO:Aglarondan,Elven	LANGBONUS:Abyssal,Auran,Infernal,Mulhorandi,Rashemi,Sylvan	REGION:Sildeyuir
+Elven Silverymoon Region	VISIBLE:NO	LANGAUTO:Elven,Illuskan	LANGBONUS:Chondathan,Dwarven,Giant,Orc,Sylvan	REGION:Silverymoon
+Elven Snow Eagle Aerie Region	VISIBLE:NO	LANGAUTO:Auran,Elven	LANGBONUS:Damaran,Draconic,Giant,Rashemi,Sylvan,Tuigan	REGION:Snow Eagle Aerie
+Elven Waterdeep Region	VISIBLE:NO	LANGAUTO:Chondathan,Elven	LANGBONUS:Alzhedo,Dwarven,Halfling,Illuskan,Orc	REGION:Waterdeep
+Elven Wealdath Region	VISIBLE:NO	LANGAUTO:Chondathan,Elven	LANGBONUS:Alzhedo,Draconic,Giant,Goblin,Shaaran	REGION:Wealdath
+Elven Yuirwood Region	VISIBLE:NO	LANGAUTO:Aglarondan,Elven	LANGBONUS:Chessentan,Damaran,Draconic,Mulhorandi,Sylvan,Untheric	REGION:Yuirwood
+#				
+# Gnome Region G/H				
+Gnome Great Dale Region	VISIBLE:NO	LANGAUTO:Damaran,Gnome	LANGBONUS:Draconic,Elven,Gnoll,Goblin,Orc,Sylvan	REGION:Great Dale
+Gnome Lantan Region	VISIBLE:NO	LANGAUTO:Gnome,Lantanese	LANGBONUS:Alzhedo,Chondathan,Draconic,Dwarven,Ignan,Illuskan	REGION:Lantan
+Gnome Thesk Region	VISIBLE:NO	LANGAUTO:Aglarondan,Gnome	LANGBONUS:Damaran,Draconic,Elven,Goblin,Orc,Sylvan	REGION:Thesk
+Gnome Underdark Northdark Region	VISIBLE:NO	LANGAUTO:Gnome,Undercommon	LANGBONUS:Draconic,Dwarven,Elven,Illuskan,Terran	REGION:Underdark (Northdark)
+Gnome Western Heartlands Region	VISIBLE:NO	LANGAUTO:Gnome,Chondathan	LANGBONUS:Draconic,Dwarven,Goblin,Illuskan,Sylvan,Terran	REGION:Western Heartlands
+#				
+# Half Elf Region I/J				
+Half Elf Aglarond Region	VISIBLE:NO	LANGAUTO:Aglarondan,Elven	LANGBONUS:Chessentan,Damaran,Draconic,Mulhorandi,Orc,Sylvan,Untheric	REGION:Aglarond
+Half Elf Dalelands Region	VISIBLE:NO	LANGAUTO:Chondathan,Elven	LANGBONUS:Dwarven,Giant,Goblin,Sylvan,Undercommon	REGION:Dalelands
+Half Elf Dambrath Region	VISIBLE:NO	LANGAUTO:Dambrathan,Elven	LANGBONUS:Draconic,Gnoll,Halfling,Halruaan,Shaaran,Undercommon	REGION:Dambrath
+Half Elf Dragon Coast Region	VISIBLE:NO	LANGAUTO:Elven,Serusan	LANGBONUS:Aquan,Chondathan,Giant,Goblin,Turmic	REGION:Dragon Coast
+Half Elf Silverymoon Region	VISIBLE:NO	LANGAUTO:Elven,Illuskan	LANGBONUS:Chondathan,Dwarven,Giant,Orc,Sylvan	REGION:Silverymoon
+Half Elf Waterdeep Region	VISIBLE:NO	LANGAUTO:Chondathan,Elven	LANGBONUS:Alzhedo,Dwarven,Halfling,Illuskan,Orc	REGION:Waterdeep
+#				
+# Halfling Region K/L				
+Halfling Cannath Vale Region	VISIBLE:NO	LANGAUTO:Halfling,Shaaran	LANGBONUS:Dambrathan,Dwarven,Elven,Gnoll,Halruaan	REGION:Cannath Vale
+Halfling Chondalwood Region	VISIBLE:NO	LANGAUTO:Chondathan,Halfling	LANGBONUS:Chessentan,Elven,Gnoll,Shaaran,Sylvan	REGION:Chondalwood
+Halfling Lurien Region	VISIBLE:NO	LANGAUTO:Halfling	LANGBONUS:Dambrathan,Durpari,Dwarven,Elven,Gnoll,Halruaan,Shaaran	REGION:Lurien
+Halfling Western Heartlands Region	VISIBLE:NO	LANGAUTO:Chondathan,Halfling	LANGBONUS:Alzhedo,Dwarven,Gnome,Goblin,Illuskan	REGION:Western Heartlands
+#				
+# Orc/Half Orc Region M/N				
+Orc Amn Region	VISIBLE:NO	LANGAUTO:Orc,Chondathan	LANGBONUS:Alzhedo,Draconic,Giant,Gnoll,Halfling	REGION:Amn
+Orc Chessenta Region	VISIBLE:NO	LANGAUTO:Orc,Chessentan	LANGBONUS:Chondathan,Draconic,Giant,Turmic	REGION:Chessenta
+Orc Hordeland Region	VISIBLE:NO	LANGAUTO:Orc,Rashemi	LANGBONUS:Damaran,Gnoll,Mulhorandi,Tuigan	REGION:Hordeland
+Orc Moonsea Region	VISIBLE:NO	LANGAUTO:Orc,Damaran	LANGBONUS:Chondathan,Draconic,Dwarven,Giant	REGION:Moonsea
+Orc North Region	VISIBLE:NO	LANGAUTO:Orc,Illuskan	LANGBONUS:Draconic,Dwarven,Goblin,Giant	REGION:North
+Orc Thesk Region	VISIBLE:NO	LANGAUTO:Orc,Damaran	LANGBONUS:Giant,Gnoll,Mulhorandi,Rashemi	REGION:Thesk
+Orc Underdark Northdark Region	VISIBLE:NO	LANGAUTO:Orc	LANGBONUS:Abyssal,Giant,Goblin,Illuskan,Undercommon	REGION:Underdark (Northdark)
+Orc Vaasa Region	VISIBLE:NO	LANGAUTO:Orc,Damaran	LANGBONUS:Dwarven,Giant,Goblin,Uluik,Undercommon	REGION:Vaasa
+#				
+# Planar Region O/P				
+Planetouched Calimshan Region	VISIBLE:NO	LANGAUTO:Alzhedo	LANGBONUS:Auran,Chondathan,Goblin,Ignan,Shaaran,Tashalan	REGION:Calimshan
+Planetouched Mulhorand Region	VISIBLE:NO	LANGAUTO:Mulhorandi	LANGBONUS:Aglarondan,Celestial,Rashemi,Shaaran,Untheric	REGION:Mulhorand
+Planetouched Thay Region	VISIBLE:NO	LANGAUTO:Mulhorandi	LANGBONUS:Aglarondan,Damaran,Gnoll,Infernal,Rashemi	REGION:Thay
+Planetouched Chessenta Region	VISIBLE:NO	LANGAUTO:Chessentan	LANGBONUS:Aglarondan,Chondathan,Draconic,Mulhorandi,Turmic,Untheric	REGION:Chessenta
+Planetouched Unther Region	VISIBLE:NO	LANGAUTO:Untheric	LANGBONUS:Abyssal,Chessentan,Dwarven,Orc,Shaaran	REGION:Unther

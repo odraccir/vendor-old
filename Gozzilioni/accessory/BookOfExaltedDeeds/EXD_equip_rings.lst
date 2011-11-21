@@ -1,0 +1,7 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Ring of Adamantine Touch			TYPE:Magic.Ring	COST:120000	WT:0	SOURCEPAGE:EXD	SPROP:melee weapon and natural attack are made as id adamantine.																																						
+Ring of Affliction			TYPE:Magic.Ring	COST:72000	WT:0	SOURCEPAGE:EXD	SPROP:target of any natural or unarmed attack must Fort DC 17 or Affliction (as spell)																																						
+Ring of Solar Wings			TYPE:Magic.Ring	COST:118000	WT:0	SOURCEPAGE:EXD	MOVE:Fly,150	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability	BONUS:VAR|Maneuverability|4																																				
+Ring of Vengeance			TYPE:Magic.Ring	COST:4500	WT:0	SOURCEPAGE:EXD	SPROP:15d6 divine energy against the killer of the wearer (Ref DC 19 for half)																																						

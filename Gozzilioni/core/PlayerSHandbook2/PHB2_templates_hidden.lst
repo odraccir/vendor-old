@@ -1,0 +1,6 @@
+SOURCELONG:Player's Handbook 2	SOURCESHORT:PHB2	SOURCEWEB:http://www.gozzilioni.net		
+###Block: Creature Subtypes				
+# Template Name	Visible	Source Page	Special Ability	
+Elusive Attack Bonus	VISIBLE:NO	SOURCEPAGE:PHB2	BONUS:COMBAT|AC|ElusiveAC|TYPE=Dodge|PREAPPLY:PC	TEMPDESC:As full-round action, make one attack at your highest base attack bonus. Until the start of your next turn, you gain +% dodge bonus to your Armor Class.|ElusiveAC
+#				
+#Dragon Shaman Wings	VISIBLE:NO	SOURCEPAGE:PHB2	MOVE:Fly,60	

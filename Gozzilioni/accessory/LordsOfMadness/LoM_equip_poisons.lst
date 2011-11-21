@@ -1,0 +1,5 @@
+SOURCELONG:Lords of Darkness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net					
+							
+#Potions							
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	
+Poison (Gas Spore)	OUTPUTNAME:[NAME]		TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:LoM	SPROP:Contact DC 12, Init.:1d4 CON, Sec.:1d4 CON. Craft (Alchemy) DC 20.

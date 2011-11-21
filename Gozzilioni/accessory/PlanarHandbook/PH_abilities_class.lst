@@ -1,0 +1,42 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:?
+Fatemaker Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:WEAPONPROF|Longsword|Rapier|Sap|Sword (Short)|Shortbow|Whip																												
+Armored Casting (Fatemaker)	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:You may wear light armor without incurring the normal arcane spell failure chance.	OUTPUTNAME:Armored Casting																											SOURCEPAGE:PH
+																																
+# Ability Name																																
+Fighter Align Puissance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FighterAlignPuissanceLVL|0					BONUS:VAR|AlignPuissancePerDay|1	BONUS:VAR|AlignPuissanceDuration|FighterAlignPuissanceLVL																	SOURCEPAGE:PH
+Monk Axiomatic Soul	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MonkAxiomaticSoulLVL|0					BONUS:VAR|AxiomaticSoulSR|MonkAxiomaticSoulLVL																		SOURCEPAGE:PH
+Monk Ki Strike Cold Iron	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|KiStrikeColdIron|1	BONUS:VAR|KiStrikeAdaman|-1																	SOURCEPAGE:PH
+Paladin Smite Evil Outsider	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:PaladinSmiteEvilOutsidersLVL|0					BONUS:VAR|SmiteEvilOutsiders|1+max(0,CHA)	BONUS:VAR|SmiteEvilOutsidersDamage|max(0,CHA)																	SOURCEPAGE:PH
+Sorcerer Extraplanar Spell Penetration	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|ExtraplanarSpellPenetrationPerDay|3	BONUS:VAR|ExtraplanarSpellPenetrationBonus|CHA																	SOURCEPAGE:PH
+Defiant Spell Resistance ~ Mind Affecting	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DefiantSpellResistanceMindAffectingLVL|0					BONUS:VAR|MindAffectingSR|DefiantSpellResistanceMindAffectingLVL																		SOURCEPAGE:PH
+Defiant Divine Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|DivineResistance|max(0,CHA)																		SOURCEPAGE:PH
+Defiant Divine Cancellation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DefiantDivineCancellationLVL|0					BONUS:VAR|DivineCancellationPerDay|max(0,CHA)	BONUS:VAR|DivineCancellationLVL|DefiantDivineCancellationLVL																	SOURCEPAGE:PH
+Defiant Aligned Strike	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DefiantAlignedStrikeLVL|0					BONUS:VAR|AlignedStrikePerDay|DefiantAlignedStrikeLVL/5	BONUS:VAR|AlignedStrikeDuration|DefiantAlignedStrikeLVL																	SOURCEPAGE:PH
+Doomlord Entropic Blow	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DoomlordEntropicBlowLVL|0					BONUS:VAR|EntropicBlowDamage|2*DoomlordEntropicBlowLVL	BONUS:VAR|EntropicBlow|1+(DoomlordEntropicBlowLVL/5)																	SOURCEPAGE:PH
+Doomlord Destructive Expertise	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DoomlordDestructiveExpertiseLVL|0					BONUS:VAR|DestructiveExpertiseBonus|DoomlordDestructiveExpertiseLVL/2																		SOURCEPAGE:PH
+Fatemaker Take Charge Appeal	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FatemakerTakeChargeAppealLVL|0					BONUS:VAR|TakeChargeAppealBonus|(FatemakerTakeChargeAppealLVL+5)/5																		SOURCEPAGE:PH
+Fatemaker Confidence of the Fated	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FatemakerConfidenceOfTheFatedLVL|0					BONUS:VAR|ConfidenceOfTheFatedPerDay|(FatemakerConfidenceOfTheFatedLVL+3)/5	BONUS:VAR|ConfidenceOfTheFatedBonus|FatemakerConfidenceOfTheFatedLVL																	SOURCEPAGE:PH
+Fatemaker Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FatemakerSneakAttackLVL|0					BONUS:VAR|SneakAttack|FatemakerSneakAttackLVL/3																		SOURCEPAGE:PH
+Fatemaker Aura of Confidence	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FatemakerAuraOfConfidenceLVL|0					BONUS:VAR|AuraOfConfidenceBonus|FatemakerAuraOfConfidenceLVL/4																		SOURCEPAGE:PH
+Fatemaker Ego Manifestation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|EgoManifestationPerDay|1																		SOURCEPAGE:PH
+Visionary Seeker Divination Expertise	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:VisionarySeekerDivinationExpertiseLVL|0					BONUS:VAR|DivinationExpertiseBonus|VisionarySeekerDivinationExpertiseLVL																		SOURCEPAGE:PH
+Visionary Seeker Intuition	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:VisionarySeekerIntuitionLVL|0					BONUS:VAR|IntuitionBonus|(((VisionarySeekerIntuitionLVL+3)/5)*2)																		SOURCEPAGE:PH
+Visionary Seeker Bend Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|BendFatePerDay|1																		SOURCEPAGE:PH
+Visionary Seeker Trick Fate	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|TrickFatePerDay|1																		SOURCEPAGE:PH
+Cipher Adept Combat Instinct	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CipherAdeptCombatInstinctACLVL|0					BONUS:VAR|CombatInstinctAC|CipherAdeptCombatInstinctACLVL/3																		
+Chaotican Anarchic Grace	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ChaoticianAnarchicGraceLVL|0					BONUS:VAR|AnarchicGracePerDay|ChaoticianAnarchicGraceLVL/2																		
+Astral Dancer Astral Dodge	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AstralDancerAstralDodgeLVL|0					BONUS:VAR|AstralDodgeBonus|(AstralDancerAstralDodgeLVL/5)*2																		
+Elemental Warrior Elemental Manifestation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ElementalWarriorElementalManifestationLVL|0					BONUS:VAR|ElementalManifestationPerDay|ElementalWarriorElementalManifestationLVL																		
+Elemental Warrior Elemental Weapon	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ElementalWarriorElementalWeaponLVL|0					BONUS:VAR|ElementalWeaponPerDay|ElementalWarriorElementalWeaponLVL	BONUS:VAR|ElementalWeaponPower|1|PREVARGTEQ:ElementalWarriorElementalWeaponLVL,5																	
+Elemental Warrior Elemental Strike	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ElementalWarriorElementalStrikeLVL|0					BONUS:VAR|ElementalStrikePerDay|1	BONUS:VAR|ElementalStrikeDC|ElementalWarriorElementalStrikeLVL																	
+#																																
+Domain ~ Elysium Smite Evil	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DomainElysiumSmiteEvilLVL|0					BONUS:VAR|SmiteEvil|1+(DomainElysiumSmiteEvilLVL/5)	BONUS:VAR|SmiteEvilDamage|DomainElysiumSmiteEvilLVL																SOURCEPAGE:PH	
+Domain ~ Hades Smite Good	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DomainHadesSmiteGoodLVL|0					BONUS:VAR|SmiteGood|1+(DomainHadesSmiteGoodLVL/5)	BONUS:VAR|SmiteGoodDamage|DomainHadesSmiteGoodLVL																SOURCEPAGE:PH	
+Domain ~ Limbo Smite Law	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DomainLimboSmiteLawLVL|0					BONUS:VAR|SmiteLaw|1+(DomainLimboSmiteLawLVL/5)	BONUS:VAR|SmiteLawDamage|DomainLimboSmiteLawLVL																SOURCEPAGE:PH	
+Domain ~ Mechanus Smite Chaos	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DomainMechanusSmiteChaosLVL|0					BONUS:VAR|SmiteChaos|1+(DomainMechanusSmiteChaosLVL/5)	BONUS:VAR|SmiteChaosDamage|DomainMechanusSmiteChaosLVL																SOURCEPAGE:PH	
+#																																
+CATEGORY=Special Ability|Fiendish Servant.MOD	COMPANIONLIST:Fiendish Servant|Nightmare (Lesser)|FOLLOWERADJUSTMENT:-2																															

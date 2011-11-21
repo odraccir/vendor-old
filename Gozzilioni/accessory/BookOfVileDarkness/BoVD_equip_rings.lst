@@ -1,0 +1,8 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Master Ring			TYPE:Magic.Ring	COST:40600	WT:0	SOURCEPAGE:BoVD	SPROP:deal 3d6 points of damage to the wearer the Slave Ring connected.																																						
+Ring of Weeping			TYPE:Magic.Ring	COST:3000	WT:0	SOURCEPAGE:BoVD	SPROP:bestow a weeping, crippling sadness by touch (Will DC 11)																																						
+Slave Ring			TYPE:Magic.Ring	COST:500	WT:0	SOURCEPAGE:BoVD																																							
+Ring of Vile Weapon			TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:BoVD	SPROP:+1 Vile damage.																																						
+Ring of Vile Spell			TYPE:Magic.Ring	COST:15000	WT:0	SOURCEPAGE:BoVD	SPROP:+1 Vile damage/spell level cast.																																						

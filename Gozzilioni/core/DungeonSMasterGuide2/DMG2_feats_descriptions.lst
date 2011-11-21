@@ -1,0 +1,9 @@
+SOURCELONG:Dungeon's Master Guide 2	SOURCESHORT:DMG2	SOURCEWEB:http://www.gozzilioni.net																																								
+																																									
+# BASICS																																									
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
+Apprentice.MOD	DESC:Gains 2 skill rank in a skill associated to the mentor.
+Business Savvy.MOD	DESC:Gains some bonus when running a business.
+Favored in Guild.MOD	DESC:You are an active and valuued member of your guild.
+Guildmaster.MOD	DESC:You are one of the leaders of your guild.
+Truebond.MOD	DESC:Your bond to your chosen item become stronger.

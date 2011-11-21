@@ -1,0 +1,24 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net										
+#												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Cognition Thief	HD:4	TYPE:Prestige.Psionic	ABB:Cot	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Cognition Thief	PRESKILL:2,Bluff=5,Disguise=5,Gather Information=5,Open Lock=5	PREFEAT:1,Inquisitor	PRESPELL:1,Psionic Blast									
+#CLASS:Cognition Thief	STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|TYPE.Craft|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Knowledge (Psionics)|Move Silently|Open Lock|TYPE.Profession|Psicraft|Sleight of Hand|Sense Motive|Stabilize Self										
+CLASS:Cognition Thief	STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|TYPE.Craft|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Knowledge (Psionics)|Move Silently|Open Lock|TYPE.Profession|Psicraft|Sleight of Hand|Sense Motive										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1				ADD:ABILITY|Special Ability|VIRTUAL|Bonus Power Known	ABILITY:Special Ability|AUTOMATIC|Read Thoughts (Sp)		BONUS:VAR|ReadThoughtsPower|1	BONUS:VAR|ReadThoughtsPower|CL/10	BONUS:VAR|ReadThoughtsPerDay|(CL+2)/3	BONUS:VAR|ReadThoughtsDC|max(INT,CHA)-INT+(CL/2)		
+2	ADD:SPELLCASTER|Psionic											
+3	ADD:SPELLCASTER|Psionic											
+4				ADD:ABILITY|Special Ability|VIRTUAL|Bonus Power Known	ABILITY:Special Ability|AUTOMATIC|Confusion (Sp)		BONUS:VAR|ConfusionPerDay|(CL-1)/3	BONUS:VAR|ConfusionDC|max(INT,CHA)-INT+(CL/2)				
+5	ADD:SPELLCASTER|Psionic											
+6	ADD:SPELLCASTER|Psionic											
+7				ADD:ABILITY|Special Ability|VIRTUAL|Bonus Power Known	ABILITY:Special Ability|AUTOMATIC|Mind Probe (Sp)		BONUS:VAR|MindProbePerDay|(CL-4)/3	BONUS:VAR|MindProbeDC|max(INT,CHA)-INT+(CL/2)				
+8	ADD:SPELLCASTER|Psionic											
+9	ADD:SPELLCASTER|Psionic											
+10				ADD:ABILITY|Special Ability|VIRTUAL|Bonus Power Known	ABILITY:Special Ability|AUTOMATIC|Insanity (Sp)		BONUS:VAR|InsanityPerDay|1	BONUS:VAR|InsanityDC|max(INT,CHA)-INT+(CL/2)				

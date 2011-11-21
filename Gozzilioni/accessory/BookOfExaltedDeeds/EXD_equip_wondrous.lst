@@ -1,0 +1,25 @@
+SOURCELONG:Book of Exalting Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net								
+										
+#Bleeding Statue	COST:55000									
+#Rack of the Tortured Saint	COST:180									
+#Sacred Vessel	COST:2000									
+#Saint's Burial Shroud	COST:30000									
+#Saint's Fingerbone	COST:2000									
+#Weeping Image	COST:65000									
+										
+###Block										
+Bleeding Statue		TYPE:Magic.Wondrous.Relic	COST:55000			SOURCEPAGE:EXD		MODS:NO	SPROP:constantly radiate Hallow and Death Ward (13th casterlevel)	
+Rack of the Tortured Saint		TYPE:Magic.Wondrous.Relic	COST:180			SOURCEPAGE:EXD		MODS:NO	SPELLS:Rack of the Tortured Saint|TIMES=1|CASTERLEVEL=1|Guidance	
+Sacred Vessel		TYPE:Magic.Wondrous.Relic.Container	COST:2000			SOURCEPAGE:EXD		MODS:NO	SPROP:water becomes holy water	CONTAINS:*UNLIM|Any=1
+Saint's Burial Shroud		TYPE:Magic.Wondrous.Relic	COST:30000			SOURCEPAGE:EXD		MODS:NO	SPROP:heal all diseases good creature that touch it.	
+Saint's Fingerbone		TYPE:Magic.Wondrous.Relic	COST:2000			SOURCEPAGE:EXD		MODS:NO	BONUS:CHECKS|Fortitude,Reflex,Will|2|TYPE=Resistance	
+Weeping Image		TYPE:Magic.Wondrous.Relic	COST:65000			SOURCEPAGE:EXD		MODS:NO		
+Antimagic Shackles		TYPE:Magic.Wondrous	COST:132000			SOURCEPAGE:EXD		MODS:NO		
+Incense of Consecration		TYPE:Magic.Wondrous.Consumable	COST:300	WT:1		SOURCEPAGE:EXD		MODS:NO		
+Retributive Amulet		TYPE:Magic.Wondrous.Amulet	COST:56000			SOURCEPAGE:EXD		MODS:NO	BONUS:COMBAT|AC|2|TYPE=Sacred	SPROP:damage is divided equally between attacked and attacker.
+Shackles of Silence		TYPE:Magic.Wondrous	COST:12000			SOURCEPAGE:EXD		MODS:NO		
+Starmantle Cloak		TYPE:Magic.Wondrous.Cape	COST:132000	WT:2		SOURCEPAGE:EXD		MODS:NO		
+Thurible of Consecration		TYPE:Magic.Wondrous	COST:5000			SOURCEPAGE:EXD		MODS:NO		
+Trumpet of Doom		TYPE:Magic.Wondrous	COST:7185	WT:1		SOURCEPAGE:EXD		MODS:NO		
+Trumpet of Healing		TYPE:Magic.Wondrous	COST:115440	WT:2		SOURCEPAGE:EXD		MODS:NO		
+Vambraces of Evil's Warding		TYPE:Magic.Wondrous.Bracer	COST:18000	WT:1	SLOTS:2	SOURCEPAGE:EXD		MODS:NO	SPROP:2d6 points of damage/round|PREALIGN:LE,NE,CE	SPROP:ranged attack made by evil creature against the wearer take -4 penalty.

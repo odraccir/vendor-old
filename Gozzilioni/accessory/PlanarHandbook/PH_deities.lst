@@ -1,0 +1,21 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net						
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Bahamut.MOD	DOMAINS:Celestia|PREALIGN:LG
+Corellon Larethian.MOD	DOMAINS:Arborea|PREALIGN:CG
+Heironeous.MOD	DOMAINS:Celestia|PREALIGN:LG
+Kurtulmak.MOD	DOMAINS:Baator|PREALIGN:LE
+Moradin.MOD	DOMAINS:Celestia|PREALIGN:LG
+Pelor.MOD	DOMAINS:Elysium|PREALIGN:NG
+Tiamat.MOD	DOMAINS:Baator|PREALIGN:LE
+Yondalla.MOD	DOMAINS:Celestia|PREALIGN:LG
+#
+Blibdoolpoop.MOD	DOMAINS:Abyss|PREALIGN:CE
+Diirinka.MOD	DOMAINS:Abyss|PREALIGN:CE
+Great Mother.MOD	DOMAINS:Abyss|PREALIGN:CE
+Hruggek.MOD	DOMAINS:Abyss|PREALIGN:CE
+Lolth.MOD	DOMAINS:Abyss|PREALIGN:CE
+Merrshaulk.MOD	DOMAINS:Abyss|PREALIGN:CE
+Sekolah.MOD	DOMAINS:Baator|PREALIGN:LE

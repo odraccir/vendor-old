@@ -1,0 +1,24 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net										
+# New 5.14 'QUALITY:Bright Illumination|x ft.' and 'QUALITY:Shadowy Illumination|x ft.' and 'QUALITY:Duration|x' for light sources. -AM												
+												
+###Block:Alchemical Stuff and Liquids												
+# Equipment Name		Type	Cost	Weight	Source Page	Quality and value						
+Brittlebone (Flask)		TYPE:Goods.Alchemical.Flask.Consumable	COST:30	WT:8.00	SOURCEPAGE:LM							
+Embalming Fire (Flask)		TYPE:Goods.Alchemical.Flask.Consumable	COST:20	WT:8.00	SOURCEPAGE:LM							
+Ghostoil (Flask)		TYPE:Goods.Alchemical.Flask.Consumable	COST:50	WT:1.00	SOURCEPAGE:LM							
+Liquid Night (Flask)		TYPE:Goods.Alchemical.Flask.Consumable	COST:150	WT:8.00	SOURCEPAGE:LM							
+												
+Undead Graft (Bonemail)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:16000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh		BONUS:COMBAT|AC|2|TYPE=NaturalArmor	
+Undead Graft (Bodak's Eye)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:25000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Death Gaze ~ 1/day (30-ft range, Fort DC 15)		
+Undead Graft (Enervating Arm)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:40000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Enervating Touch ~ 2/day (Fort DC 14)	BONUS:STAT|STR|4|TYPE=Inherent	
+Undead Graft (Eye of Flame)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:10800	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Fireball ~ 1/day (Ref DC 14)		
+Undead Graft (Ghostly Arm)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:6000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Corrupting Touch		
+Undead Graft (Mohrg's Tongue)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:24000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Paralyzing Touch ~ 1/day (Fort DC 17)		
+Undead Graft (Mummiefied Eye)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:50000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Eyebite ~ 1/day 12th level caster		
+Undead Graft (Mummified Hand)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:16200	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Mummy Rot ~ 1/day (Fort DC 16)		
+Undead Graft (Paralyzing Arm)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:40000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Paralyzing Touch ~ 2/day (Fort DC 14)	BONUS:STAT|STR|4|TYPE=Inherent	
+Undead Graft (Skeletal Hand)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:3000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Slam Attack		
+Undead Graft (Undead Skin)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:16000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Critical and Sneak Attack bonus damage negated(25% of time)		
+Undead Graft (Vampiric Fangs)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:25000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SAB:Blood Drain (Ex)		
+Undead Graft (Weakening Arm)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:40000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Weakening Touch ~ 2/day	BONUS:STAT|STR|4|TYPE=Inherent	
+Undead Graft (Zombie Arm)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:25000	WT:0.00	SOURCEPAGE:LM			PREABILITY:1,CATEGORY=Special Ability,Graft Undead Flesh	PREFEAT:1,Graft Flesh	SPROP:Slam Attack	BONUS:STAT|STR|2|TYPE=Inherent	BONUS:STAT|DEX|-2

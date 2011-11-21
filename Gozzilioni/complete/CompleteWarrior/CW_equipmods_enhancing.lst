@@ -1,0 +1,23 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+
+###Block:Armor abilities																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+Anti Impact	KEY:ANT_IMP	TYPE:Armor.Shield		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Blufgeoning damage that affect all or most of entire body (such constriction and falling damage) is halved					ASSIGNTOALL:NO
+Axeblock	KEY:AXE_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Bludgeoning or Piercing									SPROP:Axeblock					ASSIGNTOALL:NO
+Hammerblock	KEY:HAM_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Piercing or Slashing									SPROP:Hammerblock					ASSIGNTOALL:NO
+Spearblock	KEY:SPE_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Bludgeoning or Slashing									SPROP:Spearblock					ASSIGNTOALL:NO
+
+###Block:Weapon abilities																													
+Blood Seeking	KEY:BLD_SEEK_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Bloodseeking					ASSIGNTOALL:NO
+Blood Seeking	KEY:BLD_SEEK_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Bloodseeking					ASSIGNTOALL:NO
+Deflecting	KEY:DEFLECT_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Deflecting					ASSIGNTOALL:NO
+Disarming	KEY:DISARM_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Disarming					ASSIGNTOALL:NO
+Disarming	KEY:DISARM_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Disarming					ASSIGNTOALL:NO
+Exit Wound	KEY:EXIT_WND_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Exit Wound					ASSIGNTOALL:NO
+Exit Wound	KEY:EXIT_WND_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Exit Wound					ASSIGNTOALL:NO
+Explosive	KEY:EXPLOSIVE_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Explosive					ASSIGNTOALL:NO
+Explosive	KEY:EXPLOSIVE_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Explosive					ASSIGNTOALL:NO
+Explosive	KEY:EXPLOSIVE_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Explosive					ASSIGNTOALL:NO
+Knockback	KEY:KNOCK_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Knockback					ASSIGNTOALL:NO
+Knockback	KEY:KNOCK_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Knockback					ASSIGNTOALL:NO
+Last Resort	KEY:LST_RES_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee	PREWIELD:1,Light														SPROP:Last Resort					ASSIGNTOALL:NO

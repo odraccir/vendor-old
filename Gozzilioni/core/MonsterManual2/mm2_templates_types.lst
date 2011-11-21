@@ -1,0 +1,17 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net									
+#											
+###Block: Creature Subtypes											
+# Template Name	Visible	Source Page	Special Ability								
+Automaton	VISIBLE:NO	SOURCEPAGE:MM2				ABILITY:Special Ability|AUTOMATIC|Unreliable
+Clockwork Horror	VISIBLE:NO	SOURCEPAGE:MM2			LANGAUTO:Clockwork Tickles	ABILITY:Special Ability|AUTOMATIC|Linked Mind|Spell Vulnerability|Immunity To Electricity	DEFINE:ClockworkLanguages|1
+Desmodu's Bat	VISIBLE:NO	SOURCEPAGE:MM2	VISION:Blindsense (120')	ABILITY:Special Ability|AUTOMATIC|Immunity to Screech
+Elemental Weird	VISIBLE:NO	SOURCEPAGE:MM2				ABILITY:Special Ability|AUTOMATIC|Elemental Command|Elemental Pool	SPELLS:Prescience|TIMES=ATWILL|CASTERLEVEL=16|Analyze Dweomer,16+CHA|Clairaudience/Clairvoyance,13+CHA|Contact Other Plane,15+CHA|Detect Thoughts,12+CHA|Discern Location,18+CHA|Find the Path,16+CHA|Foresight,19+CHA|Scrying (Greater),17+CHA|Legend Lore,16+CHA|Locate Creature,14+CHA|Locate Object,12+CHA|Tongues,13+CHA|True Seeing,16+CHA|Vision,17+CHA			
+Felldrake	VISIBLE:NO	SOURCEPAGE:MM2	VISION:Darkvision (60')|Low-Light		LANGAUTO:Draconic,Sylvan	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Paralysis
+Myconid	VISIBLE:NO	SOURCEPAGE:MM2				ABILITY:Special Ability|AUTOMATIC|Spores
+Neogi	VISIBLE:NO	SOURCEPAGE:MM2			LANGAUTO:Common,Undercommon,Terran	ABILITY:Special Ability|AUTOMATIC|Poison	ABILITY:Special Ability|AUTOMATIC|Immunity To All Mind Affecting Effects	BONUS:SKILL|Climb,Jump|DEX-STR		
+Orcwort	VISIBLE:NO	SOURCEPAGE:MM2				ABILITY:Special Ability|AUTOMATIC|Woodsense			RACESUBTYPE:Orcwort
+Psurlon (CA)	VISIBLE:NO	SOURCEPAGE:MM2	VISION:Blindsight (60')|Darkvision (120)		LANGAUTO:Undercommon,Telepathy	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep	ABILITY:Special Ability|AUTOMATIC|Immunity To Charm Effects	ABILITY:Special Ability|AUTOMATIC|Immunity To Hold Effects	ABILITY:Special Ability|AUTOMATIC|Telepathy	BONUS:VAR|TelepathyRange|250	RACESUBTYPE:Psurlon		
+Raggamoffyn	VISIBLE:NO	SOURCEPAGE:MM2				ABILITY:Special Ability|AUTOMATIC|Control Host	ABILITY:Special Ability|AUTOMATIC|Improved Grab	ABILITY:Special Ability|AUTOMATIC|Wrap	RACESUBTYPE:Raggamoffyn
+Yugoloth	VISIBLE:NO	SOURCEPAGE:MM2	VISION:Darkvision (60')		LANGAUTO:Abyssal,Draconic,Infernal,Telepathy	ABILITY:Special Ability|AUTOMATIC|Immunity To Poison	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid	ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	ABILITY:Special Ability|AUTOMATIC|Resistance To Fire	ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity	RACESUBTYPE:Yugoloth	BONUS:VAR|FireResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10
+#
+Linnorm	VISIBLE:NO	SOURCEPAGE:MM2	VISION:Blindsense (60')|Darkvision (120')|Keen Senses		LANGAUTO:Draconic,Abyssal	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep	ABILITY:Special Ability|AUTOMATIC|Immunity To Paralysis

@@ -1,0 +1,10 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net																								
+																					
+# Equipment Name	Required Proficiency			Type									Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
+#Light Armor																					
+Ironclad Armor	PROFICIENCY:ARMOR|Ironclad Armor	TYPE:Armor.Ironclad.Suit.Standard.Nonmetal	COST:0	WT:0	ACCHECK:0	EQMOD:STEEL		SOURCEPAGE:MM3		BONUS:COMBAT|AC|5|TYPE=Armor	PRERACE:1,Ironclad Mauler
+Ragewalker Armor	PROFICIENCY:ARMOR|Ragewalker Armor	TYPE:Armor.Ragewalker.Suit.Standard.Metal	COST:0	WT:0	ACCHECK:0	EQMOD:STEEL		SOURCEPAGE:MM3		BONUS:COMBAT|AC|6|TYPE=Armor	PRERACE:1,Ragewalker
+Composite Plating	PROFICIENCY:ARMOR|Composite Plating	TYPE:Armor.CompositePlating.Light.Suit.Standard.Metal	COST:0	WT:0	ACCHECK:0	EQMOD:STEEL		SOURCEPAGE:MM3	SPELLFAILURE:5	BONUS:COMBAT|AC|2|TYPE=Armor	PRERACE:1,RACESUBTYPE=Warforged
+Composite Plating (Adamantine Body)	PROFICIENCY:ARMOR|Composite Plating	TYPE:Armor.CompositePlating.Heavy.Suit.Standard.Metal	COST:0	WT:0	ACCHECK:-5	EQMOD:ADAMANT_ARMR_HVY	MAXDEX:1	SOURCEPAGE:MM3	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor	PRERACE:1,RACESUBTYPE=Warforged	DR:2/Adamantine
+Composite Plating (Mithral Body)	PROFICIENCY:ARMOR|Composite Plating	TYPE:Armor.CompositePlating.Light.Suit.Standard.Metal	COST:0	WT:0	ACCHECK:-2	EQMOD:MITHRAL_ARMR_LT	MAXDEX:5	SOURCEPAGE:MM3	SPELLFAILURE:15	BONUS:COMBAT|AC|5|TYPE=Armor	PRERACE:1,RACESUBTYPE=Warforged
+Adamantine Plating	PROFICIENCY:ARMOR|Adamantine Plating	TYPE:Armor.AdamantinePlating.Heavy.Suit.Standard.Metal	COST:0	WT:0	ACCHECK:-5	EQMOD:ADAMANT_ARMR_HVY	MAXDEX:1	SOURCEPAGE:MM3	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor	PRERACE:1,RACESUBTYPE=Warforged	DR:2/Adamantine

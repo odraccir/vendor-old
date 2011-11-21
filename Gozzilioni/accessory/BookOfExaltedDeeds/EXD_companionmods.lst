@@ -1,0 +1,39 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net/																		
+																				
+###Block:Familiar																				
+# Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type					
+FOLLOWER:CFLevel=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link|Celestial Famialir ~ Celestial	ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=3	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells						DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=5	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master						DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=7	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind						DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=9	TYPE:Celestial Familiar									DEFINE:LOCK.INT|10		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=11	TYPE:Celestial Familiar		SR:16							DEFINE:LOCK.INT|11		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=12	TYPE:Celestial Familiar		SR:17																	
+FOLLOWER:CFLevel=13	TYPE:Celestial Familiar		SR:18	ABILITY:Special Ability|AUTOMATIC|Scry on Familiar						DEFINE:LOCK.INT|12		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=14	TYPE:Celestial Familiar		SR:19																	
+FOLLOWER:CFLevel=15	TYPE:Celestial Familiar		SR:20							DEFINE:LOCK.INT|13		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=16	TYPE:Celestial Familiar		SR:21																	
+FOLLOWER:CFLevel=17	TYPE:Celestial Familiar		SR:22							DEFINE:LOCK.INT|14		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=18	TYPE:Celestial Familiar		SR:23																	
+FOLLOWER:CFLevel=19	TYPE:Celestial Familiar		SR:24							DEFINE:LOCK.INT|15		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=20	TYPE:Celestial Familiar		SR:25																	
+																				
+FOLLOWER:SMLevel=4	TYPE:Special Mount			ABILITY:Special Ability|AUTOMATIC|Celestial Companion ~ Mount|PREFEAT:1,Celestial Companion																
+																				
+FOLLOWER:EcLevel=1	TYPE:Exalted Companion			ABILITY:Special Ability|AUTOMATIC|Link|Share Spells																
+FOLLOWER:EcLevel=3	TYPE:Exalted Companion	HD:2		ABILITY:Special Ability|AUTOMATIC|Evasion								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1					
+FOLLOWER:EcLevel=6	TYPE:Exalted Companion	HD:2		ABILITY:Special Ability|AUTOMATIC|Devotion								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1					
+FOLLOWER:EcLevel=9	TYPE:Exalted Companion	HD:2								VFEAT:Multiattack|PREHANDSGTEQ:3	AUTO:FEAT|Multiattack	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1					
+FOLLOWER:EcLevel=12	TYPE:Exalted Companion	HD:2										BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1					
+FOLLOWER:EcLevel=15	TYPE:Exalted Companion	HD:2		ABILITY:Special Ability|AUTOMATIC|Improved Evasion								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1					
+FOLLOWER:EcLevel=18	TYPE:Exalted Companion	HD:2										BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1	BONUS:STAT|DEX|1					
+																				
+FOLLOWER:CULevel=1	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|Telepathic Bond																		
+FOLLOWER:CULevel=6	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|Celestial Charger																		
+																				
+FOLLOWER:FlMLevel=1	TYPE:Flying mount	HD:2		ABILITY:Special Ability|AUTOMATIC|Celestial Flying Mount|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Share Spells|Flying Mount ~ Improved Natural Attacks							BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
+FOLLOWER:FlMLevel=4	TYPE:Flying mount	HD:2		ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Improved Fly Speed|Flying Mount ~ Deadly Charge								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
+FOLLOWER:FlMLevel=7	TYPE:Flying mount	HD:2	SR:12	ABILITY:Special Ability|AUTOMATIC|Immunity To Hold Effects|Immunity To Paralysis|Immunity To Sleep|Immunity To Charm Effects|Immunity to Compulsion Effects								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
+FOLLOWER:FlMLevel=8	TYPE:Flying mount		SR:13																	
+FOLLOWER:FlMLevel=9	TYPE:Flying mount		SR:14																	
+FOLLOWER:FlMLevel=10	TYPE:Flying mount	HD:2	SR:15									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						BONUS:ABILITYPOOL|Flying Mount Feat|1

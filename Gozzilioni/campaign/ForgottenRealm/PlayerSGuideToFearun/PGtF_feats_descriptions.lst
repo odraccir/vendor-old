@@ -1,0 +1,99 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net
+#
+# BASICS		
+# Feat Name	Type	
+#Arcane Preparation	DESC:Apply metamagic feats to prepared spells ahead of time	
+Arcane Schooling.MOD	DESC:Use spell trigger magic items for one arcane spellcasting class.	
+Artist.MOD	DESC:Gain +2 on Perform and Craft checks, can use Bardic Music 3 more times per day.	
+Axethrower.MOD	DESC:Use STR modifier instead of DEX modifier on attacks rolls with thrown weapon.	
+Blooded.MOD	DESC:Gain +2 on initiative and +2 on Spot checks. Can't be shaken.	
+Bloodline of Fire.MOD	DESC:Gain +4 on saves against fire effects and +2 to save DC for Fire spells.	
+Bullheaded.MOD	DESC:Gain +2 on Will saves. Can't be shaken.	
+Cosmopolitan.MOD	DESC:Gain +2 on Bluff, Gather Information, Sense Motive checks.	
+Dauntless.MOD	DESC:Gain +5 hit points.	
+Daylight Adaptation.MOD	DESC:Ignore vulnerability to sunlight or bright light.	
+Delay Spell.MOD	DESC:Set your spell for 1 to 5 round delay after casting.	
+Discipline.MOD	DESC:Gain +2 on Will saves and Concentration checks.	
+Dreadful Wrath.MOD	DESC:Gain Frigthful presence when you attack.	
+Education.MOD	DESC:Gain +2 on two Knowledge skills of your choice, all Knowledge skills are class skills.	
+Ethran.MOD	DESC:Gain +2 on Handle Animal and Survival. +2 on Charisma-based checks against Rashemi, can partecipate in circle magic.	
+Fearless.MOD	DESC:Immune to fear effects.	
+Fleet of Foot.MOD	DESC:Gain +10 feet to land speed.	
+Foe Hunter.MOD	DESC:Gain +2 on Bluff, Listen, Sense Motive, Spot, Survival and Weapon damage checks against a designated foe.	
+Forester.MOD	DESC:Gain +1 on Hide, Listen, Move Silently and Spot checks (+3 while in forest)	
+Forgeheart.MOD	DESC:Gain resistance to fire 5.	
+Furious Charge.MOD	DESC:Gain +4 bonus on charge attacks.	
+Horse Nomad.MOD	DESC:Proficient with light lance, scimitar and composite shortbow, +3 on Ride checks.	
+Improved Familiar.MOD	DESC:PGtF.	
+Innate Spell.MOD	DESC:Use one spell 3/day as a spell like ability.	
+Inscribe Rune.MOD	DESC:Inscribe magic runes.	
+Insidious Magic.MOD	DESC:Weave user must make a level check to detect your spells.	
+Knifefighter.MOD	DESC:No penalty for using a light weapon to attack a grappled foe.	
+Luck of Heroes.MOD	DESC:Gain +1 luck bonus on all saving throws and +1 luck bonus to AC.	
+Magic in the Blood.MOD	DESC:Use spell-like abilities 3/day instead 1/day	
+Magical Artisan.MOD	DESC:Make iten for 75%% item creation costs.	
+Magical Training.MOD	DESC:Cast three 0-level spells per day.	
+Mercantile Background.MOD	DESC:Sell items at 75%% list price; 1/month buy one item at 75%% offered price.	
+Militia.MOD	DESC:Proficient with all martial weapons.	
+Mind Over Body.MOD	DESC:Use INT or CHA modifier to determine hp at 1st level; gain +1 Hp when you learn a metamagic feat; +1 insight bonus to AC.	
+Otherworldly.MOD	DESC:Type changes to outsider native.	
+Pernicious Magic.MOD	DESC:Gain +4 on spell penetration against Weave users.	
+Persistent Spell.MOD	DESC:Extends spell's duration to 24 hours.	
+Portal Master.MOD	DESC:Create Portal for 50%% Portal creation cost, stabilize malfunctioning Portals.	
+Reactive Counterspell.MOD	DESC:Counterspell once per round without readying an action to do so.	
+Resist Poison.MOD	DESC:Gain +4 on Fortitude saves against poison.	
+Saddleback.MOD	DESC:You can take 10 on ride checks, and use your Ride check result as your Reflex save.	
+Shadow Weave Magic.MOD	DESC:Gain +1 on save DC and spell penetration with Enchantment, Illusion, Necromancy. -1 caster level with Evocation and Transmutation spells. Can't use Ligh spells.	
+Signature Spell.MOD	DESC:Spontaneously convert prepared spells into chosen spells.	
+Silver Palm.MOD	DESC:Gain +2 on Appraise, Bluff and Sense Motive checks.	
+Smooth Talk.MOD	DESC:Take -5 penalty on rushed diplomacy checks instead of -10.	
+Snake Blood.MOD	DESC:Gain +2 on Reflex save. +2 on Fortitude saves against poison.	
+Spell Thematics.MOD	DESC:Gain +4 to spellcraft DC to identify your spells, +1 caster level with thematic spells.	
+Spellcasting Prodigy.MOD	DESC:Treat primary spellcasting ability score as 2 higher for spells and save DC.	
+Spellwise.MOD	DESC:Gain +2 on Knowledge (Arcana) and Spellcraft checks, and +2 on saves against Illusion spells and effects.	
+Stormheart.MOD	DESC:Gain +2 on Balance and Profession (Sailor) checks. +1 dodge bonus on ships and ignore movement penalty while on ships.	
+Street Smart.MOD	DESC:Gain +2 on Gather Information, Intimidate and Sense Motive checks.	
+Strong Soul.MOD	DESC:Gain +1 on fortitude and will saves; +3 against death effects, energy drain and ability drain attacks.	
+Surefooted.MOD	DESC:Gain +2 on Climb and Jump checks and ignore movement penalty afor ice and slopes.	
+Survivor.MOD	DESC:Gain +2 on Fortitude and saves and Survival checks.	
+Swift and Silent.MOD	DESC:No penalty on Hide and Move Silently checks when you move at normal speed.	
+Tatoo Focus.MOD	DESC:Gain +1 to save DC and spell penetration with specialized school.	
+Tenacious Magic.MOD	DESC:Dispel DC of your spells is 15+your level against Weave users.	
+Thug.MOD	DESC:Gain +2 on Initiative and +2 on Appraise and Intimidate checks.	
+Thunder Twin.MOD	DESC:Gain +2 on Diplomacy and Intimidate checks. Twin.	
+Tireless.MOD	DESC:Ignore fatigue and reduce exhaustion to fatigue.	
+Treetopper.MOD	DESC:Gain +2 on Balance and climb checks. Retain DEX bonus to AC while climbing.	
+Twin Spell.MOD	DESC:Spell takes effect twice on target or area.	
+Twin Sword Style.MOD	DESC:Gain +2 schield bonus on AC against designated opponent while fighting with two swords.	
+# 1 ~ Epic		
+Axiomatic Strike (FR).MOD	DESC:Any weapon you wield becomes axiomatic.	
+Chosen Weapon Specialization.MOD	DESC:Gain +2 bonus on weapon damage rolls with deity's chosen weapon.	
+Divine Spell Penetration.MOD	DESC:Gain +4 on caster level checks to defeat spell resistance with spells of chosen alignment.	
+Enhance Effect.MOD	DESC:You can change variables of a persisten spell effect.	
+Epic Counterspell.MOD	DESC:You can counter any number od spells in a round, even without a readied action.	
+Epic Devotion.MOD	DESC:Gain +4 bonus on saves against spells with the chosen descriptor	
+Epic Spellfire Wielder.MOD	DESC:Treat your CON as 4 points higher for determining limit of stored spellfire energy levels.	
+Improved Cooperative Metamagic.MOD	DESC:You can apply Silent Spell, Still Spell or Quicken Spell to an ally's spell.	
+Improved Snatch Spell.MOD	DESC:Enhance or control a spell you have seized as if you had cast it yourself.	
+Improved Spellpool Access.MOD	DESC:Increase chance of a desired spell being in a spellpool.	
+Inscribe Epic Rune.MOD	DESC:You can inscribe a rune beyond normal power limits.	
+# 2 ~ Exalted		
+Blessed of the Seven Sisters.MOD	DESC:Increases spell list of chosen arcane spellcasting.	
+Gift of Discernment.MOD	DESC:Duplicate Knowledge provided by Phylactery of Faithfullness	
+Lliira's Blessing.MOD	DESC:Gain +2 sacred bonus on Escape Artist checks and saves against effects that leave you paralyzed, held or entangled.	
+# 3 ~ Vile		
+Favored of the Zulkirs.MOD	DESC:Reduces your ability damage for casting a corrupted spell by 1 point.	
+Spider Bite.MOD	DESC:Your saliva becomes poisonous.	
+Touch of Hate.MOD	DESC:You can transform an animal into a beast of Bane with a touch.	
+# 4 ~ Initiate		
+Initiate of Bane.MOD	DESC:Gain frightful presence, add spells to cleric list.	
+Initiate of Cyric.MOD	DESC:Gain immuniti to fear, add spells to cleric list.	
+Initiate of Gond.MOD	DESC:Add Disable Device and Open Lock to cleric class skills, add spells to cleric spell list.	
+Initiate of Helm.MOD	DESC:Gain benefit of Combat Reflexes feat, add spells to cleric or paladin spell list.	
+Initiate of Ilmater.MOD	DESC:Grant temporary hit points with Cure spells, add spells to cleric or paladin spell list.	
+Initiate of Lathander.MOD	DESC:Spontaneously cast light spell, add spells to cleric spell list.	
+Initiate of Malar.MOD	DESC:Gain benefit of Augment Summoning feat, add spells to clerico or dreid spell list.	
+Initiate of Mystra.MOD	DESC:Cast spell even in a dead magic zone or Antimagic.	
+Initiate of Nature.MOD	DESC:Rebuke/command plant creature, add spells to cleric or druid spell list.	
+Initiate of Selune.MOD	DESC:Cast Augury and divination spells at +5 caster level, add spells to cleric, druid, harper agent, hatran or ranger spell list.	
+Initiate of Tyr.MOD	DESC:Gain +1 bonus on damage rolls with longsword, add spells to cleric spell list.	

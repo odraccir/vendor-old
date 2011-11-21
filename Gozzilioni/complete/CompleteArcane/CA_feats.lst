@@ -1,0 +1,126 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net																																												
+																																														
+# BASICS																																														
+# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page					
+Arcane Defense	TYPE:General	VISIBLE:YES				PREFEAT:1,Spell Focus																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Spell Focus														SOURCEPAGE:CA					
+Arcane Mastery	TYPE:General	VISIBLE:YES											PRESPELLCAST:TYPE=Arcane											DESC:See Text																	SOURCEPAGE:CA					
+Arcane Preparation	TYPE:General	VISIBLE:YES											PRESPELLCAST:MEMORIZE=N											DESC:See Text																	SOURCEPAGE:CA					
+Battle Caster	TYPE:General	VISIBLE:YES																				PRETEXT:Ability to ignore arcane spell failure chance from armor		DESC:See Text																	SOURCEPAGE:CA					
+Black Lore of Moil	TYPE:Metamagic.Wizard	VISIBLE:YES			PRECLASS:1,SPELLCASTER=7	PREFEAT:1,Spell Focus(Necromancy)																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:0				
+Born of the Three Thunder	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,Energy Substitution(Electricity)						PRESKILL:1,Knowledge (Nature)=4												DESC:See Text																	SOURCEPAGE:CA					
+Chain Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:3				
+Communicator	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA			SPELLS:Communicator|TIMES=1|CASTERLEVEL=1|Arcane Mark|Comprehend Languages|Message		
+Cooperative Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:0				
+Craft Contingent Spell	TYPE:ItemCreation.Wizard	VISIBLE:YES			PRECLASS:1,SPELLCASTER=11																			DESC:See Text																	SOURCEPAGE:CA					
+Delay Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:3				
+Double Wand Wielder	TYPE:General	VISIBLE:YES				PREFEAT:2,Craft Wand,Two Weapon Fighting																		DESC:See Text																	SOURCEPAGE:CA					
+Draconic Breath	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage																		DESC:See Text																	SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1			
+Draconic Claw	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage																		DESC:See Text																	SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1	ADD:VFEAT|1|Draconic Claw (Small),Draconic Claw (Medium),Draconic Claw (Large)		
+Draconic Flight	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage									PRESTAT:1,CON=14					PRECHECKBASE:1,Will=4				DESC:See Text																	SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1			
+Draconic Heritage	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1																	SAB:Draconic Heritage Bonus +%|DraconicHeritageBonus	DEFINE:DraconicHeritageFeats|0	DESC:See Text																	SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1		DEFINE:DraconicHeritageBonus|0	BONUS:ABILITYPOOL|Draconic Heritage Ancestor|1
+Draconic Legacy	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1																PREVARGTEQ:DraconicHeritageFeats,4			DESC:See Text																	SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1	BONUS:ABILITYPOOL|Draconic Heritage Legacy|1		
+Draconic Power	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEATADD|TYPE=DraconicHeritagePower														SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1	BONUS:ABILITYPOOL|Draconic Heritage Power|1		
+Draconic Presence	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage																		DESC:See Text																	SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1			
+Draconic Resistance	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEATADD|TYPE=DraconicResistance														SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1	BONUS:ABILITYPOOL|Draconic Heritage Resistance|1		
+Draconic Skin	TYPE:Heritage	VISIBLE:YES			PRECLASS:1,Sorcerer=1	PREFEAT:1,Draconic Heritage																		DESC:See Text									BONUS:COMBAT|AC|1|TYPE=NaturalArmor								SOURCEPAGE:CA		BONUS:VAR|DraconicHeritageFeats|1			
+Energy Admixture	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,Energy Substitution																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Energy Substitution														SOURCEPAGE:CA	ADDSPELLLEVEL:4				
+Energy Substitution.MOD	TYPE:Metamagic.Wizard	ADDSPELLLEVEL:0	SOURCEPAGE:CA																																											
+Explosive Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:2				
+Extra Edge	TYPE:General	VISIBLE:YES			PRECLASS:1,Warmage=4	PREABILITY:1,CATEGORY=Special Ability,Edge																		DESC:See Text																	SOURCEPAGE:CA			BONUS:VAR|EdgeBonus|(WarmageEdgeLVL/4)+1		
+Extra Invocation	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Warlock Invocation,TYPE.LesserInvocation																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:FEATADD|TYPE=ExtraInvocation														SOURCEPAGE:CA					
+Extra Slot	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=4																			DESC:See Text	STACK:YES	MULT:YES	CHOOSE:FEATADD|TYPE=ExtraSlot														SOURCEPAGE:CA					
+Extra Spell	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=3																			DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEATADD|TYPE=ExtraSpell														SOURCEPAGE:CA					
+Extra Spell Secret	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.SpellSecret																		DESC:See Text																	SOURCEPAGE:CA			BONUS:ABILITYPOOL|Spell Secret|1	BONUS:ABILITYPOOL|Taboo|1	
+Fortify Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:1				
+Guardian Spirit	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Watchful Spirit																		DESC:See Text																	SOURCEPAGE:CA					
+Heighten Spell Like Ability	TYPE:General	VISIBLE:YES	OUTPUTNAME:Heighten Spell-Like Ability																					DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLBOOK=Innate														SOURCEPAGE:CA					
+Innate Spell	TYPE:General	VISIBLE:YES				PREFEAT:3,Quicken Spell,Silent Spell,Still Spell																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLS|ANY[LEVELMAX=MAXCASTABLE]														SOURCEPAGE:CA					
+Insightful	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA			SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Detect Magic|Detect Secret Doors|Read Magic		
+Lord of the Uttercold	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,Energy Substitution(Cold)						PRESKILL:1,Knowledge (The Planes)=9												DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:0				
+Mage Slayer	TYPE:General.Fighter	VISIBLE:YES		PREATT:3								PRESKILL:1,Spellcraft=2												DESC:See Text							BONUS:CASTERLEVEL|TYPE.Arcane,TYPE.Divine|-4	BONUS:CHECKS|Will|1									SOURCEPAGE:CA					
+Maximize Spell Like Ability (global)	TYPE:General	VISIBLE:YES	OUTPUTNAME:Maximize Spell-Like Ability																					DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLBOOK=Innate														SOURCEPAGE:CA					
+Necropolis Born	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA			SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Cause Fear,12+CHA|Ghost Sound,10+CHA|Touch of Fatigue,13+CHA		
+Night Haunt	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA			SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Dancing Lights|Prestidigitation|Unseen Servant		
+Nonlethal Substitution	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic						PRESKILL:1,Knowledge (Arcana)=5												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:STRING|Acid|Cold|Electricity|Fire														SOURCEPAGE:CA	ADDSPELLLEVEL:1				
+Obtain Familiar	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=3							PRESKILL:1,Knowledge (Arcana)=4												DESC:See Text																	SOURCEPAGE:CA			ABILITY:Special Ability|AUTOMATIC|Summon Familiar	BONUS:VAR|FMLevel|1	
+Persisten Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,Extend Spell																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:6				
+Pierce Magical Concealment	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Blind Fight,Mage Slayer									PRESTAT:1,CON=13									DESC:See Text							BONUS:CASTERLEVEL|TYPE.Arcane,TYPE.Divine|-4										SOURCEPAGE:CA					
+Pierce Magical Protection	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Mage Slayer									PRESTAT:1,CON=13									DESC:See Text							BONUS:CASTERLEVEL|TYPE.Arcane,TYPE.Divine|-4										SOURCEPAGE:CA					
+Practiced Spellcaster	TYPE:General	VISIBLE:YES										PRESKILL:1,Spellcraft=4												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLCLASSES				BONUS:CASTERLEVEL|%CHOICE|min(4,(TL-classlevel(%CHOICE)))										SOURCEPAGE:CA					
+Ranged Spell Specialization	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=4	PREFEAT:1,Weapon Focus(Ray)																		DESC:See Text																	SOURCEPAGE:CA					
+Reckless Wand Wielder	TYPE:General	VISIBLE:YES				PREFEAT:1,Craft Wand						PRESKILL:1,Use Magic Device=1												DESC:See Text																	SOURCEPAGE:CA					
+Repeat Spell.MOD	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:3				
+Sanctun Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLS|ANY[LEVELMAX=MAXCASTABLE]														SOURCEPAGE:CA	ADDSPELLLEVEL:0				
+Sculpt Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:1				
+Soul of the North	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA			SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Chill Touch,11+CHA|Ray of Frost,10+CHA|Resistance,10+CHA		
+Spell Hand	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA			SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Mage Hand|Open/Close,10+CHA|Floating Disk		
+Split Ray	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:2				
+Sudden Enlarge	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Empower	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Extend	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Maximize	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Quicken	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Silent	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Still	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Sudden Widen	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA					
+Touch Spell Specialization	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=4	PREFEAT:1,Weapon Focus(Touch)																		DESC:See Text																	SOURCEPAGE:CA					
+Transdimensional Spell	TYPE:Metamagic.Wizard	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:1				
+Twin Spell	TYPE:Metamagic.Wizard	VISIBLE:YES				PREFEAT:1,TYPE=Metamagic																		DESC:See Text																	SOURCEPAGE:CA	ADDSPELLLEVEL:4				
+Wandstrike	TYPE:General	VISIBLE:YES										PRESKILL:1,Use Magic Device=4												DESC:See Text																	SOURCEPAGE:CA					
+#																																														
+Collegiate Wizard	TYPE:General	VISIBLE:YES			PRECLASS:1,Wizard=1						PRELEVEL:MAX=1				PRESTAT:1,INT=13									DESC:See Text													BONUS:SKILL|Knowledge (Arcana)|2|TYPE=CollegiateWizard				SOURCEPAGE:CA,181					
+Precocius Apprentice	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER.Arcane=1						PRELEVEL:MAX=1				PRESTAT:1,INT=13,CHA=13									DESC:See Text													BONUS:SKILL|Spellcraft|2|TYPE=PrecociusApprentice				SOURCEPAGE:CA,181	DEFINE:PrecociusSpellsPerDay|0	BONUS:ABILITYPOOL|Precocious Apprentice Type|1	BONUS:VAR|PrecociusSpellsPerDay|1		
+																																														
+Automatic Silent Spell.MOD	TYPE:EpicWarmage																																													
+Automatic Still Spell.MOD	TYPE:EpicWarmage																																													
+Craft Epic Magic Arms and Armor.MOD	TYPE:EpicWarmage																																													
+Craft Epic Rod.MOD	TYPE:EpicWarmage																																													
+Craft Epic Staff.MOD	TYPE:EpicWarmage																																													
+Craft Epic Wondrous Item.MOD	TYPE:EpicWarmage																																													
+Efficient Item Creation.MOD	TYPE:EpicWarmage																																													
+#Energy Resistance.MOD	TYPE:EpicWarmage																																													
+Energy Resistance ~ Acid.MOD	TYPE:EpicWarmage																																													
+Energy Resistance ~ Cold.MOD	TYPE:EpicWarmage																																													
+Energy Resistance ~ Electricity.MOD	TYPE:EpicWarmage																																													
+Energy Resistance ~ Fire.MOD	TYPE:EpicWarmage																																													
+Energy Resistance ~ Sonic.MOD	TYPE:EpicWarmage																																													
+Enhance Spell.MOD	TYPE:EpicWarmage																																													
+Epic Spell Focus.MOD	TYPE:EpicWarmage																																													
+Epic Spell Penetration.MOD	TYPE:EpicWarmage																																													
+Epic Spellcasting.MOD	TYPE:EpicWarmage																																													
+Ignore Material Components.MOD	TYPE:EpicWarmage																																													
+Improved Combat Casting.MOD	TYPE:EpicWarmage																																													
+Improved Heighten Spell.MOD	TYPE:EpicWarmage																																													
+Improved Metamagic.MOD	TYPE:EpicWarmage																																													
+Improved Spell Capacity.MOD	TYPE:EpicWarmage																																													
+Intensify Spell.MOD	TYPE:EpicWarmage																																													
+Master Staff.MOD	TYPE:EpicWarmage																																													
+Master Wand.MOD	TYPE:EpicWarmage																																													
+Scribe Epic Scroll.MOD	TYPE:EpicWarmage																																													
+Spell Opportunity.MOD	TYPE:EpicWarmage																																													
+Spell Stowaway.MOD	TYPE:EpicWarmage																																													
+Spellcasting Harrier.MOD	TYPE:EpicWarmage																																													
+Tenacious Magic.MOD	TYPE:EpicWarmage																																													
+																																														
+Augmented Alchemy.MOD	TYPE:EpicWuJen																																													
+Automatic Quicken Spell.MOD	TYPE:EpicWuJen																																													
+Automatic Silent Spell.MOD	TYPE:EpicWuJen																																													
+Automatic Still Spell.MOD	TYPE:EpicWuJen																																													
+Enhance Spell.MOD	TYPE:EpicWuJen																																													
+Epic Spell Focus.MOD	TYPE:EpicWuJen																																													
+Epic Spell Penetration.MOD	TYPE:EpicWuJen																																													
+Epic Spellcasting.MOD	TYPE:EpicWuJen																																													
+Ignore Material Components.MOD	TYPE:EpicWuJen																																													
+Improved Combat Casting.MOD	TYPE:EpicWuJen																																													
+Improved Heighten Spell.MOD	TYPE:EpicWuJen																																													
+Improved Metamagic.MOD	TYPE:EpicWuJen																																													
+Improved Spell Capacity.MOD	TYPE:EpicWuJen																																													
+Intensify Spell.MOD	TYPE:EpicWuJen																																													
+Multispell.MOD	TYPE:EpicWuJen																																													
+Permanent Emanation.MOD	TYPE:EpicWuJen																																													
+Spell Knowledge.MOD	TYPE:EpicWuJen																																													
+Spell Opportunity.MOD	TYPE:EpicWuJen																																													
+Spell Stowaway.MOD	TYPE:EpicWuJen																																													
+Spontaneous Spell.MOD	TYPE:EpicWuJen																																													
+Superior Initiative.MOD	TYPE:EpicWuJen																																													
+Tenacious Magic.MOD	TYPE:EpicWuJen																																													

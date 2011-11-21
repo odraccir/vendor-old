@@ -1,0 +1,17 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																							
+																									
+#Executioner's Axe	COST:98320																								
+#Saint's Fingerbone	COST:32305																								
+#Celestial Blade	COST:18335																								
+#Celestial Mace	COST:50312																								
+#Demondoom	COST:51512																								
+#Nightblade of Arvandor	COST:44315																								
+																									
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property														
+#Axe of Ancestral Virtue		PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Enhancement.Weapon.Melee.Martial.Exotic.Specific.Dwarven.Slashing.Axe.Relic	COST:60	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:ADAMANT_WEAP.PLUS4W.KEEN							SOURCEPAGE:CD	MODS:NO	PREDEITY:1,Moradin	ABILITY:Special Ability|VIRTUAL|Axe of Ancestral Virtue Ability			
+Executioner's Axe		PROFICIENCY:WEAPON|Greataxe	TYPE:Enhancement.Weapon.Melee.Martial.Relic.Specific.Slashing.Axe	COST:20	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.HOLY_M.VORPAL							SOURCEPAGE:EXD	MODS:NO	BONUS:WEAPON|DAMAGE,TOHIT|-2|TYPE=Enhancement.STACK|PREALIGN:LG,NG,CG				
+Saint's Thightbone		PROFICIENCY:WEAPON|Mace (Light)	TYPE:Enhancement.Weapon.Melee.Relic.Finesseable.Specific.Bludgeoning.Mace	COST:5	WT:0	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.HOLY_M.DISRPT							SOURCEPAGE:EXD	MODS:NO					
+Celestial Blade		PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Enhancement.Weapon.Melee.Martial.Exotic.Specific.Slashing.Sword	COST:35	WT:12	WIELD:TwoHanded		SIZE:L	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS3W							SOURCEPAGE:EXD	MODS:NO	BONUS:WEAPON|WIELDCATEGORY|-1|PREFEAT:1,Exotic Weapon Proficiency(Sword (Bastard))		QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|Permanent
+Celestial Mace		PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Enhancement.Weapon.Melee.Simple.Specific.Bludgeoning.Mace	COST:12	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS3W.DISRPT							SOURCEPAGE:EXD	MODS:NO			QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|Permanent
+Demondoom		PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Bludgeoning.Hammer	COST:12	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:C_IRON.MWORKW.PLUS2W.HOLY_M.BANE_M|Outsiders (evil)							SOURCEPAGE:EXD	MODS:NO					
+Nightblade of Arvandor		PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS2W							SOURCEPAGE:EXD	MODS:NO	SPROP:stars, ranged attack, against nonevil creature 1d8 (half nonlethal), against evil creature 1d8 (all lethal)				

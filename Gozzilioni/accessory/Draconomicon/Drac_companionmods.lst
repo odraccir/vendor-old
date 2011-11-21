@@ -1,0 +1,48 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net/																		
+																				
+###Block:Familiar																				
+# Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type					
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES			BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:DragonFamiliar=9	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:DragonFamiliar=13	TYPE:Familiar	BONUS:MISC|SR|5										BONUS:COMBAT|AC|3|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:DragonFamiliar=17	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Scry on Familiar								BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE								
+																				
+###Block: Specific Familiars																				
+# Class of the Master	Type			Required Race			Apply Kit													
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (White Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Black Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Brass Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Green Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Copper Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Blue Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Bronze Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Red Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Silver Wyrmling)																		
+FOLLOWER:DragonFamiliar=1	TYPE:Familiar	PRERACE:1,Dragon (Gold Wyrmling)																		
+																				
+###Block:Familiar Bonuses to Master																				
+# Race of familiar			Type			Save checks bonus			Bonus to HP			Bonus to skill			Virtual Feat					
+MASTERBONUSRACE:Dragon (White Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Black Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Brass Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Green Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Copper Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Blue Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Bronze Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Red Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Silver Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+MASTERBONUSRACE:Dragon (Gold Wyrmling)	TYPE:Dragon Familiar	VFEAT:Alertness																		
+																				
+FOLLOWER:DragonSteed=1	TYPE:Dragon Steed																			
+																				
+FOLLOWER:DragonMount=1	TYPE:Dragon Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion		COPYMASTERCHECK:MASTER					BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|6						
+FOLLOWER:DragonMount=3	TYPE:Dragon Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Improved Speed								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|7		BONUS:MOVEADD|TYPE.Walk|10|PREMOVE:1,Walk=1	BONUS:MOVEADD|TYPE.Swim|10|PREMOVE:1,Swim=1	BONUS:MOVEADD|TYPE.Climb|10|PREMOVE:1,Climb=1	BONUS:MOVEADD|TYPE.Burrow|10|PREMOVE:1,Burrow=1	BONUS:MOVEADD|TYPE.Fly|10|PREMOVE:1,Fly=1
+FOLLOWER:DragonMount=7	TYPE:Dragon Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Command Own Kind								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|8						
+FOLLOWER:DragonMount=11	TYPE:Dragon Mount	SR:24	HD:2									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|9						
+																				
+FOLLOWER:DragonFiendishServant=1	TYPE:Dragon Fiendish Servant		HD:2	ABILITY:Special Ability|AUTOMATIC|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion		COPYMASTERCHECK:MASTER					BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|6						
+FOLLOWER:DragonFiendishServant=3	TYPE:Dragon Fiendish Servant		HD:2	ABILITY:Special Ability|AUTOMATIC|Improved Speed								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|7		BONUS:MOVEADD|TYPE.Walk|10|PREMOVE:1,Walk=1	BONUS:MOVEADD|TYPE.Swim|10|PREMOVE:1,Swim=1	BONUS:MOVEADD|TYPE.Climb|10|PREMOVE:1,Climb=1	BONUS:MOVEADD|TYPE.Burrow|10|PREMOVE:1,Burrow=1	BONUS:MOVEADD|TYPE.Fly|10|PREMOVE:1,Fly=1
+FOLLOWER:DragonFiendishServant=7	TYPE:Dragon Fiendish Servant		HD:2	ABILITY:Special Ability|AUTOMATIC|Blood Bond								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|8						
+FOLLOWER:DragonFiendishServant=11	TYPE:Dragon Fiendish Servant	SR:14	HD:2									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	BONUS:STAT|STR|1	DEFINE:LOCK.INT|9						
+
+FOLLOWER:FosterDragon=1	TYPE:Foster Dragon

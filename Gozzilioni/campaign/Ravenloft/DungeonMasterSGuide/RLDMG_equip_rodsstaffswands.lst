@@ -1,0 +1,20 @@
+SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+###Block:Rods																				
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Reach	Wield Category	Size	Virtual Feat	Special Property
+Rod (Mists)	OUTPUTNAME:Rod of [NAME]	TYPE:Magic.Rod	COST:5000	WT:5	BASEITEM:Rod		SOURCEPAGE:RLDMG													
+Rod (Stalking)	OUTPUTNAME:Rod of [NAME]	TYPE:Magic.Rod	COST:112000	WT:5	BASEITEM:Rod		SOURCEPAGE:RLDMG													
+Rod (Teleportation)	OUTPUTNAME:Rod of [NAME]	TYPE:Magic.Rod	COST:182000	WT:5	BASEITEM:Rod		SOURCEPAGE:RLDMG													
+																				
+###Block:Staves																				
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD		Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Modifier	Wield Category	Size	Virtual Feat	Special Property
+Staff (Deception)	OUTPUTNAME:Staff of [NAME]	TYPE:Magic.Staff	COST:17250	WT:5	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:RLDMG													
+Staff (Devastation)	OUTPUTNAME:Staff of [NAME]	TYPE:Magic.Staff	COST:87750	WT:5	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:RLDMG													
+Staff (Observation)	OUTPUTNAME:Staff of [NAME]	TYPE:Magic.Staff	COST:66000	WT:5	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:RLDMG													
+Staff (Virtue)	OUTPUTNAME:Staff of [NAME]	TYPE:Magic.Staff	COST:28000	WT:5	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:RLDMG													
+																				
+###Block:Wands																				
+# Equipment Name	Output Name	Type	Cost	Weight	Base Item for EQMOD		Source Page	Required Proficiency	Alternative Type	Critical Hit Multiplier	Critical Hit Range	Damage	Alternative Critical	Alternative Critical Range	Alternative Damage	Modifier	Wield Category	Size	Virtual Feat	Special Property
+Magician's Wand		TYPE:Magic.Wand	COST:375	WT:5	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Prestidigitation]SPELLLEVEL[0]CASTERLEVEL[1]CHARGES[50]	SOURCEPAGE:RLDMG													
+Severed Spectral Hand		TYPE:Magic.Wand	COST:4500	WT:5	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Spectral Hand]SPELLLEVEL[2]CASTERLEVEL[3]CHARGES[50]	SOURCEPAGE:RLDMG													
+Taxidermy Needle		TYPE:Magic.Wand	COST:4500	WT:5	BASEITEM:Wand	EQMOD:SPL_CHRG|SPELLNAME[Gentle Repose]SPELLLEVEL[1]CASTERLEVEL[2]CHARGES[50]	SOURCEPAGE:RLDMG													

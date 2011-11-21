@@ -1,0 +1,5 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+Mace (Heavy/Holy Sprinkler)	OUTPUTNAME:Holy Sprinkler Mace, [NAME]	PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Standard.Bludgeoning.Mace.Container	COST:74	WT:16	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:LM							SPROP:Holy Water Sprinkler		CONTAINS:1|Liquid=1
+Mace (Heavy/Unholy Sprinkler)	OUTPUTNAME:Unholy Sprinkler Mace, [NAME]	PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Standard.Bludgeoning.Mace.Container	COST:74	WT:16	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:LM							SPROP:Unholy Water Sprinkler		CONTAINS:1|Liquid=1

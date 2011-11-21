@@ -1,0 +1,48 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net									
+											
+#Belt of the Champion	COST:22000										
+#Boot of the Unending Journey	COST:23600										
+#Censer of the Last Breath	COST:82000										
+#Dragonscale Cloak	COST:75840										
+#Cornucopia of the Needful	COST:44600										
+#Ehlonna's Seed Pouch	COST:93800										
+#Enveloping Pit	COST:33600										
+#Executioner's Hood	COST:50400										
+#Gauntlet of the Blood Lord	COST:33600										
+#Gauntlet of the Talon	COST:20000										
+#Gem of Glitterdepth	COST:22000										
+#Helm of Platinum	COST:64000										
+#Helm of the Purple Plume	COST:22000										
+#Map of Unseen Lands	COST:25200										
+#Pipes of Frenzied Revelry	COST:22320										
+#Robe of Ebonsilk	COST:134000										
+#Scrolls of Uncertain Power	COST:118000										
+#Shard of the Sun	COST:73280										
+#Tabard of the Disembodied	COST:68600										
+#Tabard of the Great Crusade	COST:68800										
+#Tome of Ancient Lore	COST:22000										
+#Tome of the Stilled Tongue	COST:34850										
+
+###Block											
+Belt of the Champion		TYPE:Magic.Wondrous.Belt.Relic	COST:22000	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Kord	MODS:NO	ABILITY:Special Ability|VIRTUAL|Belt of the Champion Ability		
+Boot of the Unending Journey		TYPE:Magic.Wondrous.Boot.Relic	COST:23600	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Fharlanghn	MODS:NO	ABILITY:Special Ability|VIRTUAL|Boot of the Unending Journey Ability		
+Censer of the Last Breath		TYPE:Magic.Wondrous.Relic.Container.Consumable	COST:82000	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Nerull	MODS:NO	ABILITY:Special Ability|VIRTUAL|Censer of the Last Breath Ability	CONTAINS:UNLIM|Gem=100	
+Dragonscale Cloak		TYPE:Magic.Wondrous.Cape.Relic	COST:75840	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Tiamat	MODS:NO	ABILITY:Special Ability|VIRTUAL|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Resistance To Acid|Dragonscale Cloak Ability		
+Cornucopia of the Needful		TYPE:Magic.Wondrous.Relic	COST:44600	WT:8.00		SOURCEPAGE:CD	PREDEITY:1,Yondalla	MODS:NO	ABILITY:Special Ability|VIRTUAL|Cornucopia of the Needful Ability		
+Ehlonna's Seed Pouch		TYPE:Magic.Wondrous.Goods.Container.General.Resizable.Relic	COST:93800	WT:4.00		SOURCEPAGE:CD	PREDEITY:1,Ehlonna	MODS:NO	ABILITY:Special Ability|VIRTUAL|Ehlonna's Seed Pouch Ability	CONTAINS:UNLIM|Acorn=6	
+Enveloping Pit		TYPE:Magic.Wondrous.Container.Relic	COST:33600	WT:0.00		SOURCEPAGE:CD	PREDEITY:1,Kurtulmak	MODS:NO	ABILITY:Special Ability|VIRTUAL|Enveloping Pit Ability	CONTAINS:*UNLIM|Any=UNLIM	
+Executioner's Hood		TYPE:Magic.Wondrous.Headgear.Relic	COST:50400	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Erythnul	MODS:NO	ABILITY:Special Ability|VIRTUAL|Executioner's Hood Ability		
+Gauntlet of the Blood Lord		TYPE:Magic.Wondrous.Glove.Relic	COST:33600	WT:2.00		SOURCEPAGE:CD	PREDEITY:1,Hextor	MODS:NO	ABILITY:Special Ability|VIRTUAL|Gauntlet of the Blood Lord Ability		
+Gauntlet of the Talon		TYPE:Magic.Wondrous.Glove.Relic	COST:20000	WT:2.00		SOURCEPAGE:CD	PREDEITY:1,Bahamut	MODS:NO	ABILITY:Special Ability|VIRTUAL|Gauntlet of the Talon Ability		
+Gem of Glitterdepth		TYPE:Magic.Wondrous.Amulet.Relic	COST:22000	WT:0.00		SOURCEPAGE:CD	PREDEITY:1,Garl Glittergold	MODS:NO	ABILITY:Special Ability|VIRTUAL|Gem of Glitterdepth Ability		
+Helm of Platinum		TYPE:Magic.Wondrous.Headgear.Relic	COST:64000	WT:3.00		SOURCEPAGE:CD	PREDEITY:1,Bahamut	MODS:NO	ABILITY:Special Ability|VIRTUAL|Helm of Platinum Ability		
+Helm of the Purple Plume		TYPE:Magic.Wondrous.Headgear.Relic	COST:22000	WT:4.00		SOURCEPAGE:CD	PREDEITY:1,Heironeous	MODS:NO	ABILITY:Special Ability|VIRTUAL|Helm of the Purple Plume Ability		
+Map of Unseen Lands		TYPE:Magic.Wondrous.Goods.Relic	COST:25200	WT:0.00		SOURCEPAGE:CD	PREDEITY:1,Yondalla	MODS:NO	ABILITY:Special Ability|VIRTUAL|Map of Unseen Lands Ability		
+Pipes of Frenzied Revelry		TYPE:Magic.Wondrous.Goods.Tools.Instrument.Wind.Resizable.Relic	COST:22320	WT:3.00		SOURCEPAGE:CD	PREDEITY:1,Olidammara	MODS:NO	ABILITY:Special Ability|VIRTUAL|Pipes of Frenzied Revelry Ability	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	
+Robe of Ebonsilk		TYPE:Magic.Wondrous.Robe.Relic	COST:134000	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Lolth	MODS:NO	ABILITY:Special Ability|VIRTUAL|Robe of Ebonsilk Ability		
+Scrolls of Uncertain Power		TYPE:Magic.Scroll.Consumable.Relic	COST:118000	WT:0.01		SOURCEPAGE:CD	PREDEITY:1,Wee Jas	MODS:NO	ABILITY:Special Ability|VIRTUAL|Scrolls of Uncertain Power Ability		
+Shard of the Sun		TYPE:Magic.Wondrous.Goods.Tools.DivineFocus.Relic	COST:73280	WT:1.00	EQMOD:SPL_CON_HOURS|SPELLNAME[Daylight]SPELLLEVEL[5]CASTERLEVEL[10]	SOURCEPAGE:CD	PREDEITY:1,Pelor	MODS:NO	ABILITY:Special Ability|VIRTUAL|Shard of the Sun Ability		
+Tabard of the Disembodied		TYPE:Magic.Wondrous.Cape.Relic	COST:68600	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,Nerull	MODS:NO	ABILITY:Special Ability|VIRTUAL|Tabard of the Disembodied Ability		
+Tabard of the Great Crusade		TYPE:Magic.Wondrous.Cape.Relic	COST:68800	WT:1.00		SOURCEPAGE:CD	PREDEITY:1,St. Cuthbert	MODS:NO	ABILITY:Special Ability|VIRTUAL|Tabard of the Great Crusade Ability		
+Tome of Ancient Lore		TYPE:Magic.Wondrous.Book.Spellbook	COST:22000	WT:2.00		SOURCEPAGE:CD	PREDEITY:1,Boccob	MODS:NO	ABILITY:Special Ability|VIRTUAL|Tome of Ancient Lore Ability	NUMPAGES:999999	PAGEUSAGE:1
+Tome of the Stilled Tongue		TYPE:Magic.Wondrous.Book.Spellbook	COST:34850	WT:2.00		SOURCEPAGE:CD	PREDEITY:1,Vecna	MODS:NO	ABILITY:Special Ability|VIRTUAL|Tome of the Stilled Tongue Ability	NUMPAGES:1000	PAGEUSAGE:max(SPELLLEVEL,1)

@@ -1,0 +1,22 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net
+										
+# input by Ruemere, email: ruemere@poczta.onet.pl										
+										
+# languages from races.rtf and various monsters*.rtf										
+# SPECIAL: all class specific languages gained new TYPE value: class (Cleric etc)										
+										
+#	everyone's language			(not always)						
+# Language			Type							Var. Min. Value
+#Common			TYPE:Spoken.Written.Read							
+										
+#	racial languages (base races)									
+Armandish			TYPE:Spoken							
+Ibixian			TYPE:Spoken
+Kenku			TYPE:Spoken
+Lumi			TYPE:Spoken
+Nycter			TYPE:Spoken
+Odopi			TYPE:Spoken
+Runehound			TYPE:Spoken
+Stonesong			TYPE:Spoken
+Susurrus			TYPE:Spoken
+Zezirs			TYPE:Spoken

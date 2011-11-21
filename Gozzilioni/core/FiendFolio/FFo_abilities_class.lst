@@ -1,0 +1,10 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion	AUTO:WEAPONPROF|Longsword,Rapier,Sap,Sword (Short),Shortbow,Whip																											SOURCEPAGE:LM
+																																
+# Ability Name																																
+Bacche Rage	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO		BONUS:VAR|RageTimes|2																											SOURCEPAGE:FFo
+Haraknin Rage	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO		BONUS:VAR|RageTimes|1																											SOURCEPAGE:FFo
+Farastu Rage	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO		BONUS:VAR|RageTimes|3	BONUS:VAR|TirelessRage|1																										SOURCEPAGE:FFo

@@ -1,0 +1,32 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net												
+#														
+###Block: Creature Subtypes														
+# Template Name	Visible	Source Page	Special Ability											
+Angel.MOD												RACESUBTYPE:Angel		
+Archon.MOD		SOURCEPAGE:MM	VISION:Darkvision (60')|Low-light	LANGAUTO:Celestial,Infernal,Draconic	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification|Tongues|Resistance To Poison	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial	RACESUBTYPE:Archon
+Baatezu	VISIBLE:NO	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Baatezu Traits		LANGAUTO:Infernal,Celestial,Draconic	ABILITY:Special Ability|AUTOMATIC|Immunity To Fire|Immunity To Poison	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid	ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			ABILITY:Special Ability|AUTOMATIC|See in Darkness	ABILITY:Special Ability|AUTOMATIC|Telepathy		RACESUBTYPE:Baatezu		BONUS:VAR|AcidResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10			
+Eladrin	VISIBLE:NO	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Eladrin Traits	VISION:Darkvision (60')|Low-light		ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	ABILITY:Special Ability|AUTOMATIC|Resistance To Fire		ABILITY:Special Ability|AUTOMATIC|Tongues			RACESUBTYPE:Eladrin			BONUS:VAR|ColdResistanceBonus|10	BONUS:VAR|FireResistanceBonus|10		
+Guardinal	VISIBLE:NO	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Guardinal Traits	VISION:Darkvision (60')|Low-light	LANGAUTO:Celestial,Infernal,Draconic	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold		ABILITY:Special Ability|AUTOMATIC|Resistance To Sonic	ABILITY:Special Ability|AUTOMATIC|Lay on Hands	ABILITY:Special Ability|AUTOMATIC|Speak with Animals		RACESUBTYPE:Guardinal			BONUS:VAR|ColdResistanceBonus|10		BONUS:VAR|SonicResistanceBonus|10	
+Reptilian.MOD	VISIBLE:NO	RACESUBTYPE:Reptilian
+Shapechanger.MOD												RACESUBTYPE:Shapechanger		
+Tanar'ri	VISIBLE:NO	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Tanar'ri Traits		LANGAUTO:Abyssal,Celestial,Draconic	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Poison	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid	ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	ABILITY:Special Ability|AUTOMATIC|Resistance To Fire		ABILITY:Special Ability|AUTOMATIC|Telepathy			RACESUBTYPE:Tanar'ri		BONUS:VAR|AcidResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10	BONUS:VAR|FireResistanceBonus|10		BONUS:VAR|TelepathyRange|30
+#														
+###Block: Creature Subtypes														
+# Template Name	Visible	Source Page	Special Ability											
+Extraplanar.MOD												RACESUBTYPE:Extraplanar		
+Native.MOD												RACESUBTYPE:Native		
+Incorporeal.MOD												RACESUBTYPE:Incorporeal		
+Augmented.MOD	TEMPLATE:CHOOSE:Celestial|Outsider													
+#														
+###Block: Creature Subtypes														
+# Template Name	Visible	Source Page	Special Ability											
+Air.MOD												RACESUBTYPE:Air		
+Aquatic.MOD												RACESUBTYPE:Aquatic		
+Chaotic.MOD												RACESUBTYPE:Chaotic		
+Cold.MOD												RACESUBTYPE:Cold		
+Earth.MOD												RACESUBTYPE:Earth		
+Evil.MOD												RACESUBTYPE:Evil		
+Fire.MOD												RACESUBTYPE:Fire		
+Good.MOD												RACESUBTYPE:Good		
+Lawful.MOD												RACESUBTYPE:Lawful		
+Water.MOD												RACESUBTYPE:Water		

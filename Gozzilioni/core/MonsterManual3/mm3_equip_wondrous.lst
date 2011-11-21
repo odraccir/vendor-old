@@ -1,0 +1,4 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net
+#
+###Block:Goods							
+Redcap's Tooth		TYPE:Magic.Wondrous	COST:1000	WT:0		SOURCEPAGE:MM3	SPROP:+2 circumstance bonus on CHA-based checks when dealing with Fey, +4 circumstance bonus on CHA-based checks when dealing with Redcaps.

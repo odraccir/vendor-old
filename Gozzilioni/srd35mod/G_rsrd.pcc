@@ -1,0 +1,88 @@
+CAMPAIGN:Gozzilioni Modifiche a SRD
+GAMEMODE:35e
+RANK:5
+GENRE:Fantasy
+BOOKTYPE:Homebrew
+SETTING:Heroes Campaign
+TYPE:Gozzilioni.Core
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni RSRD
+SOURCESHORT:G
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2008-01
+ISOGL:NO
+COPYRIGHT:Gozzilioni, Copyright 2008 by Me
+
+INFOTEXT:Rsrd official addition and modification from the PHB or the forum
+
+#SRD3.0 modificato
+ABILITY:basics/G_abilities_class.lst
+ABILITY:basics/G_abilities_class_prestige.lst
+ABILITY:basics/G_abilities_domain.lst
+ABILITYCATEGORY:basics/G_ability_categories.lst
+CLASS:basics/G_classes.lst
+CLASS:basics/G_classes_prestige.lst
+CLASS:basics/G_classes_monster.lst
+DOMAIN:basics/G_domains.lst
+EQUIPMENT:basics/G_equip.lst
+EQUIPMENT:basics/G_equip_poisons.lst
+EQUIPMOD:basics/G_equipmods_enhancing.lst
+FEAT:basics/G_feats.lst
+RACE:basics/G_races__base.lst
+SPELL:basics/G_spells.lst
+TEMPLATE:basics/G_templates.lst
+TEMPLATE:basics/G_templates_types.lst
+#Manuale dei mostri
+LANGUAGE:monsters/mm_languages.lst
+RACE:monsters/mm_races.lst
+TEMPLATE:monsters/mm_templates.lst
+TEMPLATE:monsters/mm_templates_types.lst
+#Epico
+COMPANIONMOD:epic/ELH_companionmods.lst
+FEAT:epic/ELH_feat_hidden.lst
+ABILITYCATEGORY:epic/G_ability_category.lst
+FEAT:epic/G_feats.lst
+
+#from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
+ABILITY:old30/MotP_abilities_class.lst
+FEAT:old30/G_feats.lst
+RACE:old30/AaEG_races.lst
+RACE:old30/MotP_races.lst
+SPELL:old30/G_spells.lst
+SPELL:old30/RLVRA_spells.lst
+EQUIPMENT:old30/srd_equip_weap_melee.lst
+TEMPLATE:old30/MotP_templates_type.lst
+WEAPONPROF:old30/srd_weapprofs.lst
+
+#ABILITY:my_abilities.lst
+#ABILITYCATEGORY:my_ability_categories.lst
+#BIOSET:my_biosettings.lst
+#CLASS:my_classes.lst
+#COMPANIONMOD:my_companionmods.lst
+#DEITY:my_deities.lst
+#DOMAIN:my_domains.lst
+#EQUIPMENT:my_equipment.lst
+#EQUIPMOD:my_equipmods.lst
+#FEAT:my_feats.lst
+#KIT:my_kits.lst
+#LANGUAGE:my_languages.lst
+#RACE:my_races.lst
+#SKILL:my_skills.lst
+#SPELL:my_spells.lst
+#TEMPLATE:my_templates.lst
+#WEAPONPROF:my_weaponprofs.lst
+
+### You can hide TYPEs in the GUI - TYPEs are handy for organization, but some are only used for internal functions.
+#HIDETYPE:EQUIP|SpecialSuppressor
+#HIDETYPE:SKILL|Science
+#HIDETYPE:FEAT|Leadership
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want.
+#Options in the Open Source data are 3e, 35e, Modern, Deadlands, Sidewinder, Spycraft, or Xcrawl.
+
+#If you use this framework to set up a dataset of your own, then you may want to rename the folder and files to something
+#different. Otherwise if you ever should install a newer version of PCGen into your existing directory or needed to re-install
+#your existing installation of PCGen, your changes would get overwritten and thus be lost.

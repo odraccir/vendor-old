@@ -1,0 +1,28 @@
+#		
+# Point-buy ability score costs		
+#		
+STAT:3		COST:0
+STAT:4		COST:0
+STAT:5		COST:0
+STAT:6		COST:0
+STAT:7		COST:0
+STAT:8		COST:0
+STAT:9		COST:1
+STAT:10		COST:2
+STAT:11		COST:3
+STAT:12		COST:4
+STAT:13		COST:5
+STAT:14		COST:6
+STAT:15		COST:8
+STAT:16		COST:10
+STAT:17		COST:13
+STAT:18		COST:16
+#		
+# Point-buy methods		
+#		
+METHOD:Standard Buy 40	POINTS:40	
+METHOD:Standard Buy 30	POINTS:30
+METHOD:Standard Buy Low power	POINTS:15	
+METHOD:Standard Buy Exacting	POINTS:22	
+METHOD:Standard Buy Hard	POINTS:28	
+METHOD:Standard Buy Hi	POINTS:32	

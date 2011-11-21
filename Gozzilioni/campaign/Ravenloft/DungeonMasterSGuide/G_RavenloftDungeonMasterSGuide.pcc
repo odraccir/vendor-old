@@ -1,0 +1,52 @@
+CAMPAIGN:Gozzilioni Ravenloft Dungeon Master's guide
+GAMEMODE:35e
+RANK:5
+TYPE:Gozzilioni.Campaign.Ravenloft
+SETTING:Heroes
+SOURCELONG:Gozzilioni Ravenloft Dungeon Master's guide
+SOURCESHORT:RLDMG
+SOURCEWEB:http://www.gozzilioni.net
+#SOURCEDATE:2004-03
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2005 by me
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+#
+#PCC:@\d20ogl\srd35\rsrd.pcc
+#
+#Ravenloft Dungeon Master's Guide
+ABILITY:RLDMG_abilities_class.lst
+CLASS:RLDMG_classes_prestige.lst
+SPELL:RLDMG_classes_spells.lst
+EQUIPMENT:RLDMG_equip.lst
+EQUIPMENT:RLDMG_equip_armorshields_specific.lst
+EQUIPMENT:RLDMG_equip_artifacts.lst
+EQUIPMENT:RLDMG_equip_basetypes.lst
+EQUIPMENT:RLDMG_equip_potions.lst
+EQUIPMENT:RLDMG_equip_rings.lst
+EQUIPMENT:RLDMG_equip_rodsstaffswands.lst
+EQUIPMENT:RLDMG_equip_weap_melee_specific.lst
+EQUIPMENT:RLDMG_equip_wondrous.lst
+EQUIPMOD:RLDMG_equipmods_enhancing.lst
+FEAT:RLDMG_feats.lst
+TEMPLATE:RLDMG_templates.lst
+TEMPLATE:RLDMG_templates_hidden.lst
+
+#BIOSET:my_biosettings.lst
+#CLASS:my_classes.lst
+#COMPANIONMOD:my_companionmods.lst
+#DEITY:my_deities.lst
+#DOMAIN:my_domains.lst
+#EQUIPMENT:my_equipment.lst
+#EQUIPMOD:my_equipmods.lst
+#FEAT:my_feats.lst
+#KIT:my_kits.lst
+#LANGUAGE:my_languages.lst
+#RACE:my_races.lst
+#SKILL:my_skills.lst
+#SPELL:my_spells.lst
+#TEMPLATE:my_templates.lst
+#WEAPONPROF:my_weaponprofs.lst
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want. Options are 3e, 35e, Modern, Deadlands, Sidewinder, Spycraft, or Xcrawl.

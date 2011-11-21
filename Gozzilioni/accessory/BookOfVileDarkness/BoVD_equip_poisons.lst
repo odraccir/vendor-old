@@ -1,0 +1,64 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																		
+																				
+#Poisons																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+Drugs (Agony)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0		SOURCEPAGE:BoVD	SPROP:Ingested DC 18, Addiction Extreme													
+Drugs (Baccaran)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:10	WT:0		SOURCEPAGE:BoVD	SPROP:Ingested DC 14, Addiction Low													
+Drugs (Devilweed)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:6	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 15, Addiction Low													
+Drugs (Luhix)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 25, Addiction Vicious													
+Drugs (Mordayn Vapor)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 17, Addiction High													
+Drugs (Mushroon Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 15, Addiction Medium													
+Drugs (Redflower Leaves)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0		SOURCEPAGE:BoVD	SPROP:Ingested DC 10, Addiction Low													
+Drugs (Sannish)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:15	WT:0		SOURCEPAGE:BoVD	SPROP:Ingested DC 9, Addiction Medium													
+Drugs (Terran Brandy)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:BoVD	SPROP:Ingested DC 19, Addiction Low													
+Drugs (Vodare)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:40	WT:0		SOURCEPAGE:BoVD	SPROP:Ingested DC 13, Addiction High													
+																				
+# Equipment Name																				
+Poison (Tiny centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:40	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1 DEX / 1 DEX. Craft DC 15.													
+#Poison (Small centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0		SOURCEPAGE:AbilitiesandConditions.rtf	SPROP:Injury DC 11, Init.:1d2 DEX / 1d2 DEX. Craft DC 15.													
+Poison (Medium centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:110	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 13, Init.:1d3 DEX / 1d3 DEX. Craft DC 15.													
+Poison (Large centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 16, Init.:1d4 DEX / 1d4 DEX. Craft DC 18.													
+Poison (Huge centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 18, Init.:1d6 DEX / 1d6 DEX. Craft DC 20.													
+Poison (Gargantuan centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:950	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 26, Init.:1d8 DEX / 1d8 DEX. Craft DC 20.													
+Poison (Colossal centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2900	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 36, Init.:2d6 DEX / 2d6 DEX. Craft DC 30.													
+Poison (Tiny scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d2 STR, Sec.:1d2 STR. Craft DC 15.													
+Poison (Small scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d3 STR, Sec.:1d3 STR. Craft DC 15.													
+Poison (Medium scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:175	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 15, Init.:1d4 STR, Sec.:1d4 STR. Craft DC 18.													
+#Poison (Large scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0		SOURCEPAGE:AbilitiesandConditions.rtf	SPROP:Injury DC 18, Init.:1d6 STR, Sec.:1d6 STR. Craft DC 20.													
+Poison (Huge scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 26, Init.:1d8 STR, Sec.:1d8 STR. Craft DC 25.													
+Poison (Gargantuan scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 36, Init.:2d6 STR, Sec.:2d6 STR. Craft DC 32.													
+Poison (Colossal scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:9000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 54, Init.:2d8 STR, Sec.:2d8 STR. Craft DC 35.													
+Poison (Tiny spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 15, Init.:1d2 STR, Sec.:1d2 STR. Craft DC 15.													
+Poison (Small spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 15, Init.:1d3 STR, Sec.:1d3 STR. Craft DC 15.													
+#Poison (Medium spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 18, Init.:1d4 STR, Sec.:1d4 STR. Craft DC 18.													
+Poison (Large spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:175	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 18, Init.:1d6 STR, Sec.:1d6 STR. Craft DC 18.													
+Poison (Huge spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 20, Init.:1d8 STR, Sec.:1d8 STR. Craft DC 20.													
+Poison (Gargantuan spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 26, Init.:2d6 STR, Sec. 2D6 STR. Craft DC 26.													
+Poison (Colossal spider venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 28, Init.:2d8 STR, Sec.:2d8 STR. Craft DC 28.													
+Poison (Bebilith venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:900	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 20, Init. 1d6 CON, Sec. 1d6 CON. Craft DC 20.													
+Poison (Devilseye)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 20, Init. 1 SR, Sec. 1d3 SR. Craft DC 22.													
+Poison (Lifebane)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 20, Init. 1d6 vile CON, Sec. 1d6 vile CON. Craft DC 25.													
+Poison (Eyeblast)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:BoVD	SPROP:Injury DC 22, Init. Blindness, Sec. Blindness. Craft DC 23.													
+Poison (Balor bile)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0		SOURCEPAGE:BoVD	SPROP:Contact DC 25, Init. 1d6 STR, Sec. 1d6 STR. Craft DC 25.													
+Poison (Vilestar)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:6000	WT:0		SOURCEPAGE:BoVD	SPROP:Contact DC 24, Init. 2d6 vile STR, Sec. 2d6 vile STR. Craft DC 34.													
+Poison (Sasson juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:BoVD	SPROP:Conteact DC 18, Init. 1d4 DEX, Sec. 1d4 DEX. Craft DC 22.													
+Poison (Sufferfume)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 20, Init. 1 all scores, Sec. 1 all scores. Craft DC 21.													
+Poison (Urthanyk)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 19, Init. 1d6 STR, Sec. 1d6 STR. Craft DC 26.													
+Poison (Mist of nourn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:7000	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 25, Init. 1d8 CON, Sec. 1d8 CON. Craft DC 35.													
+Poison (Ishentav)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 13, Init. 1d6 STR, Sec. 1d6 STR. Craft DC 25.													
+Poison (Burning angel wings fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2800	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 18, Init. 1d6 CHA, Sec. 2d6 CHA. Craft DC 27.													
+Poison (Basilisk breath)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0		SOURCEPAGE:BoVD	SPROP:Inhaled DC 17, Init. 1d6 CON, Sec. 1d6 CON. Craft DC 26.													
+																				
+# Equipment Name																				
+Psychic Poison (Darin-tasith)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1400	WT:0		SOURCEPAGE:BoVD	SPROP:Creature, Init. 1d6 INT, Sec. 1d6 INT. 7th level.													
+Psychic Poison (Karadach)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1400	WT:0		SOURCEPAGE:BoVD	SPROP:Creature, Init. 1d6 WIS, Sec. 1d6 WIS. 7th level.													
+Psychic Poison (Estadrach)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1800	WT:0		SOURCEPAGE:BoVD	SPROP:Creature, Init. 1d8 WIS, Sec. 2d6 WIS. 9th level.													
+Psychic Poison (Stradda)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1600	WT:0		SOURCEPAGE:BoVD	SPROP:Creature or object, Init. 1d6 CHA, Sec. 1d6 CHA. 8th level.													
+Psychic Poison (Nishita)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1400	WT:0		SOURCEPAGE:BoVD	SPROP:Object, Init. 1d6 INT, Sec. 1d6 INT. 7th level.													
+Psychic Poison (Vashita)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1400	WT:0		SOURCEPAGE:BoVD	SPROP:Object, Init. 1d6 WIS, Sec. 1d6 WIS. 7th level.													
+Psychic Poison (Lanshita)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2200	WT:0		SOURCEPAGE:BoVD	SPROP:Object, Init. 2d6 CHA, Sec. 2d6 CHA. 11th level.													
+Psychic Poison (Blue unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1600	WT:0		SOURCEPAGE:BoVD	SPROP:Area, Init. 1d6 INT, Sec. 1d6 INT. 8th level.													
+Psychic Poison (Red unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1600	WT:0		SOURCEPAGE:BoVD	SPROP:Area, Init. 1d6 WIS, Sec. 1d6 WIS. 8th level.													
+Psychic Poison (Amber unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1600	WT:0		SOURCEPAGE:BoVD	SPROP:Area, Init. 1d6 CHA, Sec. 1d6 CHA. 8th level.													
+Psychic Poison (Violet unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0		SOURCEPAGE:BoVD	SPROP:Area, Init. 1d6 INT, Sec. 2d6 INT. 10th level.													
+Psychic Poison (Black unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2600	WT:0		SOURCEPAGE:BoVD	SPROP:Area, Init. 1d6 INT, 1d6 WIS, 1d6 CHA, Sec. 1d6 INT, 1d6 WIS 1d6 CHA. 13th level.													
