@@ -27,6 +27,7 @@ Ahuizotl Tail Hand	TYPE:Natural.Melee.Bludgeoning.MeleeBludgeoning.Reach.Light
 Darkweaver Tentacle	TYPE:Natural.Melee.Bludgeoning.MeleeBludgeoning.Reach.Light						
 Paeliryon Fingernail	TYPE:Natural.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.Reach.Light						
 Disenchanter Tongue	TYPE:Natural.Melee.Piercing.MeleePiercing.Reach.Light						
+Hullathoin Tentacle	TYPE:Natural.Melee.Bludgeoning.MeleeBludgeoning.Reach.Light						
 #							
 Throath Dart	TYPE:Natural.Ranged.Piercing.RangedPiercing.Light						
 Spit Fire	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
@@ -37,7 +38,7 @@ Splinterspit	TYPE:Natural.Ranged.Piercing.RangedPiercing.Light
 Spark Stream	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
 Poison Spray	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
 Spittle	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
-Bonespear Horn	TYPE:Natural.Ranged.Unarmed.Piercing.RangedPiercing.Light
+Bonespear Horn	TYPE:Natural.Ranged.Unarmed.Piercing.RangedPiercing.Light						
 Flame Snake Magma Spit	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
 Winged Warrior Spike	TYPE:Natural.Ranged.Piercing.RangedPiercing.Light						
 #							
