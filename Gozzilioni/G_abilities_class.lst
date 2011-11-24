@@ -241,7 +241,7 @@ Flame Snake Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTP
 Fossergrim Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Bog Giant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. +8 racial bonus on Hide checks in swamp areas.																												SOURCEPAGE:FFo										
 Shadow Giant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus on Hide checks when in shadowy areas.																												SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Ironmaw Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+15 Racial bonus on Hide checks when in wooded areas.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -3197,21 +3197,21 @@ Blood Reservoir	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIB
 Hellfire	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:+%1d%2 Hellfire|Hellfire|HellfireDie				DEFINE:Hellfire|0	DEFINE:HellfireDie|6																							SOURCEPAGE:FFo										
 Half Fey Spell-Like	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO				PREMULT:1,[PRESTAT:1,CHA=8],[PRESTAT:1,WIS=8]												TEMPLATE:Half Fey Spell Like 1|Half Fey Spell Like 2|Half Fey Spell Like 3|Half Fey Spell Like 4|Half Fey Spell Like 5|Half Fey Spell Like 6|Half Fey Spell Like 7|Half Fey Spell Like 8|Half Fey Spell Like 9|Half Fey Spell Like 10													SOURCEPAGE:FFo										
 Half Illithid Spell-Like	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO				PREMULT:1,[PRESTAT:1,INT=8],[PRESTAT:1,WIS=8]												TEMPLATE:Half Illithid Spell Like 1|Half Illithid Spell Like 2|Half Illithid Spell Like 3|Half Illithid Spell Like 4													SOURCEPAGE:FFo										
-Exude Bloodfiend Locustus	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:NO																													SOURCEPAGE:FFo										
-Ring of Pus	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:NO	DESC:%1/day (Ref DC %2)|RingOfPusPerDay|RingOfPusDC				DEFINE:RingOfPusPerDay|0	DEFINE:RingOfPusDC|10+(HD/2)+CON																							SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Exude Bloodfiend Locustus	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Ring of Pus	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:%1/day (Ref DC %2)|RingOfPusPerDay|RingOfPusDC				DEFINE:RingOfPusPerDay|0	DEFINE:RingOfPusDC|10+(HD/2)+CON																							SOURCEPAGE:FFo										
+Wounding Curse	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (Fort DC %2)|WoundingCursePerDay|WoundingCurseDC				DEFINE:WoundingCursePerDay|0	DEFINE:WoundingCurseDC|10+(HD/2)+CHA																							SOURCEPAGE:FFo										
+Transfusion	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Hallucinogen	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|HallucinogenDC				DEFINE:HallucinogenDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Diabolical Stench	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (Fort DC %2)|DiabolicalStenchPerDay|DiabolicalStenchDC				DEFINE:DiabolicalStenchPerDay|0	DEFINE:DiabolicalStenchDC|10+(HD/2)+CON																							SOURCEPAGE:FFo										
+Knock Back	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|KnockBackDC				DEFINE:KnockBackDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Dispelling Blast	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:%1/day|DispellingBlastPerDay				DEFINE:DispellingBlastPerDay|3																								SOURCEPAGE:FFo										
+Stalk Victim	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Stealth	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1 Enhancement to Hide and Move Silently checks.				DEFINE:StealthBonus|0			BONUS:SKILL|Hide,Move Silently|StealthBonus|TYPE=Enmhancement																					SOURCEPAGE:FFo										
+Illness	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|IllnessDC																												SOURCEPAGE:FFo										
+Curse of the Jackal	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (Will DC %2)|CurseOfTheJackalPerDay|CurseOfTheJackalDC				DEFINE:CurseOfTheJackalPerDay|0	DEFINE:CurseOfTheJackalPerDay|10+(HD/2)+CHA																							SOURCEPAGE:FFo										
+Dominate Animal (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:DominateAnimalPerDay|0	DEFINE:DominateAnimalLVL|0										SPELLS:Innate|TIMES=DominateAnimalPerDay|CASTERLEVEL=DominateAnimalLVL|Dominate Animal,13+CHA													SOURCEPAGE:FFo										
+Dominate Animal (Sp/at will/WIS)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES						DEFINE:DominateAnimalLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DominateAnimalLVL|Dominate Animal,13+WIS													SOURCEPAGE:FFo										
+Summon Jackals ~ Jackal Lord	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:3/day summon 8HD of jackals.	OUTPUTNAME:Summon Jackals																											SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
