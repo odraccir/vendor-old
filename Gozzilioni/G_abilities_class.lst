@@ -241,7 +241,7 @@ Flame Snake Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTP
 Fossergrim Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Bog Giant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. +8 racial bonus on Hide checks in swamp areas.																												SOURCEPAGE:FFo										
 Shadow Giant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus on Hide checks when in shadowy areas.																												SOURCEPAGE:FFo										
-Ironmaw Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+15 Racial bonus on Hide checks when in wooded areas.																												SOURCEPAGE:										
+Ironmaw Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+15 Racial bonus on Hide checks when in wooded areas.																												SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
