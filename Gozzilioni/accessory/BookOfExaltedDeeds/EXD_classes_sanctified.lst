@@ -8,27 +8,27 @@ CLASS:Sanctified	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EX
 CLASS:Sanctified	SPELLSTAT:SPELL	SPELLTYPE:None	SPELLBOOK:YES		BONUS:CASTERLEVEL|Sanctified|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #
-CLASS:Sanctified (Arcane/WIS)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
-CLASS:Sanctified (Arcane/WIS)	SPELLSTAT:WIS	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Arcane/WIS)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Sanctified Spells (Arcane/WIS)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
+CLASS:Sanctified Spells (Arcane/WIS)	SPELLSTAT:WIS	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Arcane/WIS)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
-CLASS:Sanctified (Arcane/INT)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
-CLASS:Sanctified (Arcane/INT)	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Sanctified Spells (Arcane/INT)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
+CLASS:Sanctified Spells (Arcane/INT)	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
-CLASS:Sanctified (Arcane/CHA)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
-CLASS:Sanctified (Arcane/CHA)	SPELLSTAT:CHA	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Sanctified Spells (Arcane/CHA)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
+CLASS:Sanctified Spells (Arcane/CHA)	SPELLSTAT:CHA	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
-CLASS:Sanctified (Divine/WIS)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
-CLASS:Sanctified (Divine/WIS)	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Sanctified Spells (Divine/WIS)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
+CLASS:Sanctified Spells (Divine/WIS)	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
-CLASS:Sanctified (Divine/INT)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
-CLASS:Sanctified (Divine/INT)	SPELLSTAT:INT	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Sanctified Spells (Divine/INT)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
+CLASS:Sanctified Spells (Divine/INT)	SPELLSTAT:INT	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
-CLASS:Sanctified (Divine/CHA)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
-CLASS:Sanctified (Divine/CHA)	SPELLSTAT:CHA	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Sanctified Spells (Divine/CHA)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells		SOURCEPAGE:EXD					VISIBLE:NO	
+CLASS:Sanctified Spells (Divine/CHA)	SPELLSTAT:CHA	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Sanctified	BONUS:CASTERLEVEL|Sanctified (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											

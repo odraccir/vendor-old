@@ -455,7 +455,7 @@ Acquire Special Attack or Quality	CATEGORY:Special Ability	TYPE:ClassAbility.Spe
 Acrobatic Defence	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:SoB										
 Acrobatic Skill Mastery	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Acrobatics	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1 to Climb, Jump, Tumble checks|AcrobaticsBonus				DEFINE:AcrobaticsBonus|0			BONUS:SKILL|Climb,Jump,Tumble|AcrobaticsBonus																					SOURCEPAGE:CAd										
-Adamantine Feather	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Adamantine Feathers	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Adamantine Fists	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM3										
 Adamantine Plating	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ModifyAC	VISIBLE:YES	DESC:Cannot wear armors or robes.		SERVESAS:ABILITY=FEAT|Adamantine Body													AUTO:ARMORPROF|ARMORTYPE=AdamantinePlating													SOURCEPAGE:MM3										
 Adaptive Damage Reduction	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:DR 15/Special																												SOURCEPAGE:MM3										
@@ -2893,7 +2893,7 @@ Telekinetic Fly	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Special
 Telekinetic Wielder	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES					DEFINE:TelekineticWielderAttack|0																								SOURCEPAGE:CW										
 Telepathic Awareness	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:LoM										
 Telepathic Bond	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:EXD										
-Telepathic Link ~ Visilight	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Communicate	VISIBLE:YES	DESC:%1 ft. range|TelepathyRange|PREVARGT:TelepathyRange0	OUTPUTNAME:Telepathic Link	SERVESAS:ABILITY=Special Ability|Telepathy		DEFINE:TelepathyRange|0																								SOURCEPAGE:MM3										
+Telepathic Link ~ Visilight	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Communicate	VISIBLE:YES	DESC:%1 ft. range|TelepathyRange|PREVARGT:TelepathyRange,0	OUTPUTNAME:Telepathic Link	SERVESAS:ABILITY=Special Ability|Telepathy		DEFINE:TelepathyRange|0																								SOURCEPAGE:MM3										
 Telepathic Plea	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Drac										
 Telepathic Sensor Conduit	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:20'ft radius (Will save %1)|10+(HD/2)+CHA																												SOURCEPAGE:BoVD										
 Teleport without Error	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:see Teleport (Greater)																												SOURCEPAGE:BoVD										
@@ -3164,12 +3164,9 @@ Zulkir Defender	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Special
 Zulkir Favor	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES								BONUS:CHECKS|Reflex|2|TYPE=Resistance																					SOURCEPAGE:CW										
 Coalesced Form	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:LoM										
 Verminbond	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|VerminbondDC				DEFINE:Verminbond|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
-Tongues	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Blood Drain ~ Xerfilstyx	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1d4 Con drain.	OUTPUTNAME:Blood Drain	SERVESAS:ABILITY=Special Ability|Blood Drain																										SOURCEPAGE:FFo										
 Breath Weapon ~ Cone of Scalding Blood	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Scalding Water %2d%3 (See text) DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
 Memory Theft	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES																													SOURCEPAGE:FFo										
-Toss	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
-Knowledgeable	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
 Augmented Critical ~ Dire Rhinoceros	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES		OUTPUTNAME:Augmented Critical	SERVESAS:ABILITY=Special Ability|Augmented Critical					BONUS:WEAPONPROF=Gore|CRITRANGEADD|2|TYPE=Racial		BONUS:WEAPONPROF=Gore|CRITMULTADD|1|TYPE=Racial																			SOURCEPAGE:FFo										
 Disenchant	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES																													SOURCEPAGE:FFo										
 Etherealize	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES																													SOURCEPAGE:FFo										
@@ -3179,11 +3176,11 @@ Total Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	V
 Sense Twin	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Sense	VISIBLE:YES																													SOURCEPAGE:FFo										
 Dying Curse	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES																													SOURCEPAGE:FFo										
 Double Damage on Charge	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
-Worry	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
+Worry ~ Fhorge	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
 Burning Hands (Sp)	CATEGORY:Special Ability	TYPE:SpecialAttack.SpellLike	VISIBLE:YES					DEFINE:BurningHandsPerDay|0	DEFINE:BurningHandsLVL|0										SPELLS:Innate|TIMES=BurningHandsPerDay|CASTERLEVEL=BurningHandsLVL|Burning Hands,11+CHA													SOURCEPAGE:FFo										
 Fiery Poison	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
 Breath Weapon ~ Cone of Dark Fire	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Dark Fire %2d%3 half fire half negative energy DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:Fro										
-Fiery Aura	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.Aura	VISIBLE:YES	DESC:5'ft radius 1d6 fire damage.																												SOURCEPAGE:FFo										
+Fiery Aura ~ Flame Drake	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.Aura	VISIBLE:YES	DESC:5'ft radius 1d6 fire damage.	OUTPUTNAME:Fiery Aura	SERVESAS:ABILITY=Special Ability|Fiery Aura																										SOURCEPAGE:FFo										
 Negative Energy	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES																													SOURCEPAGE:FFo										
 Fireball (Sp/maximized)	CATEGORY:Special Ability	TYPE:SpecialAttack.SpellLike	VISIBLE:YES	DESC:maximized				DEFINE:FireballPerDay|0	DEFINE:FireballLVL|0										SPELLS:Innate|TIMES=FireballPerDay|CASTERLEVEL=FireballLVL|Fireball,13+CHA													SOURCEPAGE:FFo										
 Augmented Critical ~ Armadon	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES		OUTPUTNAME:Augmented Critical	SERVESAS:ABILITY=Special Ability|Augmented Critical					BONUS:WEAPONPROF=Bite|CRITRANGEDOUBLE|1|TYPE=Racial	BONUS:WEAPONPROF=Bite|CRITMULTADD|1|TYPE=Racial																				SOURCEPAGE:Fro										

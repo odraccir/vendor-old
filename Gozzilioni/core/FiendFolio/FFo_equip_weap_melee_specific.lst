@@ -3,4 +3,4 @@ SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net
 #Etherblade	COST:800
 																							
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property										range	reach	reachmult
-Etherblade		PROFICIENCY:WEAPON|Etherblade	TYPE:Enhancing.Weapon.Melee.Exotic.Reach.Specific.Slashing.Polearm	COST:8	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW			REACHMULT:x2				SOURCEPAGE:MM3	MODS:NO			PRERACE:1,PRERACESUBTYPE=Ethergaunt
+Etherblade		PROFICIENCY:WEAPON|Etherblade	TYPE:Enhancing.Weapon.Melee.Exotic.Reach.Specific.Slashing.Polearm	COST:8	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW			REACHMULT:2				SOURCEPAGE:MM3	MODS:NO			PRERACE:1,PRERACESUBTYPE=Ethergaunt

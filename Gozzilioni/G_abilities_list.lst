@@ -1041,12 +1041,12 @@ Elder Secret ~ Secret of the Mind Flayer	CATEGORY:Special Ability	TYPE:ElderSecr
 Elder Secret ~ Secret of the Otyugh	CATEGORY:Special Ability	TYPE:ElderSecret.SpecialQuality	VISIBLE:YES		OUTPUTNAME:Secret of the Otyugh														ABILITY:Special Ability|VIRTUAL|Immunity To Disease													SOURCEPAGE:LoM	
 Elder Secret ~ Secret of the Umber Hulk	CATEGORY:Special Ability	TYPE:ElderSecret.SpecialQuality	VISIBLE:YES		OUTPUTNAME:Secret of the Umber Hulk						BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK																					SOURCEPAGE:LoM	
 																																	
-Vile Spellcaster (Arcane/INT Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Vile Spells (Arcane/INT)													SOURCEPAGE:BoVD	
-Vile Spellcaster (Arcane/WIS Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Vile Spells (Arcane/WIS)													SOURCEPAGE:BoVD	
-Vile Spellcaster (Arcane/CHA Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Vile Spells (Arcane/CHA)													SOURCEPAGE:BoVD	
-Vile Spellcaster (Divine/INT Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Vile Spells (Divine/INT)													SOURCEPAGE:BoVD	
-Vile Spellcaster (Divine/WIS Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Vile Spells (Divine/WIS)													SOURCEPAGE:BoVD	
-Vile Spellcaster (Divine/CHA Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Vile Spells (Divine/CHA)													SOURCEPAGE:BoVD	
+Vile Spellcaster (Arcane/INT Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Corrupted Spells (Arcane/INT)													SOURCEPAGE:BoVD	
+Vile Spellcaster (Arcane/WIS Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Corrupted Spells (Arcane/WIS)													SOURCEPAGE:BoVD	
+Vile Spellcaster (Arcane/CHA Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Corrupted Spells (Arcane/CHA)													SOURCEPAGE:BoVD	
+Vile Spellcaster (Divine/INT Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Corrupted Spells (Divine/INT)													SOURCEPAGE:BoVD	
+Vile Spellcaster (Divine/WIS Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Corrupted Spells (Divine/WIS)													SOURCEPAGE:BoVD	
+Vile Spellcaster (Divine/CHA Spellstat)	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Corrupted Spells (Divine/CHA)													SOURCEPAGE:BoVD	
 Sanctified Spellcaster (Arcane/INT Spellstat)	CATEGORY:Special Ability	TYPE:SanctifiedSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Sanctified Spells (Arcane/INT)													SOURCEPAGE:EXD	
 Sanctified Spellcaster (Arcane/WIS Spellstat)	CATEGORY:Special Ability	TYPE:SanctifiedSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Sanctified Spells (Arcane/WIS)													SOURCEPAGE:EXD	
 Sanctified Spellcaster (Arcane/CHA Spellstat)	CATEGORY:Special Ability	TYPE:SanctifiedSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Sanctified Spells (Arcane/CHA)													SOURCEPAGE:EXD	
