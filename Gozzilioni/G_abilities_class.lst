@@ -404,6 +404,7 @@ Immunity To Strength Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraor
 Immunity To Strength Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:Immune to Strength drain																												SOURCEPAGE:G	ASPECT:Immunity|Strength drain									
 Immunity To Wisdom Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:Immune to Wisdom damage																												SOURCEPAGE:G	ASPECT:Immunity|Wisdom damage									
 Immunity To Wisdom Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:Immune to Wisdom drain																												SOURCEPAGE:G	ASPECT:Immunity|Wisdom drain									
+Vulnerability To Material Plane	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Material Plane.																												SOURCEPAGE:FFo										
 																																										
 #Advanced Learning	come aggiungere un incantesimo alla lista degli incantesimi?																															SOURCEPAGE:CA										
 #Divine Horror	FEAT	TYPE:Favored Enemy	aggiungere nemici prescelti ai pre-requisiti																													SOURCEPAGE:Nep										
@@ -2954,7 +2955,7 @@ Trident Charge	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQ
 Tripping Thrust	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM2										
 True Death	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 True Enslave	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:LoM										
-True Strike	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day|TrueStrikePerDay																												SOURCEPAGE:CA										
+True Strike	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day|TrueStrikePerDay				DEFINE:TrueStrikePerDay|0																								SOURCEPAGE:CA										
 True Strike (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES						DEFINE:TrueStrikeLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=TrueStrikeLVL|True Strike																							
 True Strike (Sp/Dragons)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES	DESC:%1/day against dragons|TrueStrikeDragonsPerDay	OUTPUTNAME:True Strike			DEFINE:TrueStrikeDragonsPerDay|0																								SOURCEPAGE:Drac										
 True Voyage	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:SoB										
@@ -3209,8 +3210,8 @@ Curse of the Jackal	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VIS
 Dominate Animal (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:DominateAnimalPerDay|0	DEFINE:DominateAnimalLVL|0										SPELLS:Innate|TIMES=DominateAnimalPerDay|CASTERLEVEL=DominateAnimalLVL|Dominate Animal,13+CHA													SOURCEPAGE:FFo										
 Dominate Animal (Sp/at will/WIS)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES						DEFINE:DominateAnimalLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DominateAnimalLVL|Dominate Animal,13+WIS													SOURCEPAGE:FFo										
 Summon Jackals ~ Jackal Lord	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:3/day summon 8HD of jackals.	OUTPUTNAME:Summon Jackals																											SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Sleep Gaze	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.Gaze	VISIBLE:YES	DESC:Will DC %1|SleepGazeDC		SERVESAS:ABILITY=Special Ability|Gaze		DEFINE:SleepGazeDC|10+(TL/2)+CHA			BONUS:VAR|SleepGazeDC|2|PREFEAT:1,Ability Focus(Sleep Gaze)																					SOURCEPAGE:FFo										
+Vile Transformation	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|VileTransformationDC				DEFINE:VileTransformationDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
