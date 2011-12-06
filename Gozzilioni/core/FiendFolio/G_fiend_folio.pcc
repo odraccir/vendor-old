@@ -17,7 +17,10 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 ABILITY:FFo_abilities_class.lst
 CLASS:FFo_classes_monster_specific.lst
 EQUIPMENT:FFo_equip.lst
+EQUIPMENT:FFo_equip_armorshields_specific.lst
+EQUIPMENT;FFo_equip_poisons.lst
 EQUIPMENT:FFo_equip_weap_melee_specific.lst
+EQUIPMOD:FFo_equipmods_enhancing.lst
 LANGUAGE:FFo_languages.lst
 RACE:FFo_races.lst
 TEMPLATE:FFo_templates.lst

@@ -242,10 +242,10 @@ Fossergrim Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPU
 Bog Giant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. +8 racial bonus on Hide checks in swamp areas.																												SOURCEPAGE:FFo										
 Shadow Giant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus on Hide checks when in shadowy areas.																												SOURCEPAGE:FFo										
 Ironmaw Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+15 Racial bonus on Hide checks when in wooded areas.																												SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Keeper Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened. They are not limited by size when determining the distance they can jump.																												SOURCEPAGE:FFo										
+Kelp Angler Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Kelpie Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Kuldurath Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -3212,17 +3212,17 @@ Dominate Animal (Sp/at will/WIS)	CATEGORY:Special Ability	TYPE:SpellLike.Special
 Summon Jackals ~ Jackal Lord	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:3/day summon 8HD of jackals.	OUTPUTNAME:Summon Jackals																											SOURCEPAGE:FFo										
 Sleep Gaze	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.Gaze	VISIBLE:YES	DESC:Will DC %1|SleepGazeDC		SERVESAS:ABILITY=Special Ability|Gaze		DEFINE:SleepGazeDC|10+(TL/2)+CHA			BONUS:VAR|SleepGazeDC|2|PREFEAT:1,Ability Focus(Sleep Gaze)																					SOURCEPAGE:FFo										
 Vile Transformation	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|VileTransformationDC				DEFINE:VileTransformationDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Mimic Weapon	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Poison Spit	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Body Switch	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Dissolution	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Camouflage	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary	VISIBLE:YES								BONUS:SKILL|Hide|10|TYPE=Racial																					SOURCEPAGE:FFo										
+Electricity Aura	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.Aura	VISIBLE:YES	DESC:30'ft radius																												SOURCEPAGE:FFo										
+Share Defenses	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Fiery Windspike	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary																														SOURCEPAGE:FFo										
+Holocaust Wind	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Whirlflame	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Gaseous	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
