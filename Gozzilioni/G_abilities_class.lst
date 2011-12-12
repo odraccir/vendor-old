@@ -245,9 +245,9 @@ Ironmaw Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNA
 Keeper Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened. They are not limited by size when determining the distance they can jump.																												SOURCEPAGE:FFo										
 Kelp Angler Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Kelpie Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
-Kuldurath Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Kuldurath Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+Living Holocaust Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:The heat and light a living holocaust emits cause it to take a -10 penalty on Hide checks. It's nearly impossible for a living holocaust to hide, but in areas of other flames and fire or in any substantial blaze, living holocaust have a +10 racial bonus on Hide checks.																												SOURCEPAGE:FFo										
+Lucent Worm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
@@ -3219,13 +3219,13 @@ Dissolution	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:Y
 Camouflage	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary	VISIBLE:YES								BONUS:SKILL|Hide|10|TYPE=Racial																					SOURCEPAGE:FFo										
 Electricity Aura	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.Aura	VISIBLE:YES	DESC:30'ft radius																												SOURCEPAGE:FFo										
 Share Defenses	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Fiery Windspike	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary																														SOURCEPAGE:FFo										
-Holocaust Wind	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-Whirlflame	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-Gaseous	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Fiery Windspike	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Holocaust Wind	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Ref CD %1|HolocaustWindDC				DEFINE:HolocaustWindDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Whirlflame	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Gaseous	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Breath Weapon ~ Cloud of Noxious Vapor	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cloud of Noxiuos Vapor DC %2 or Memory Loss|BreathWeaponCloud|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
+Frenzied Charge	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Defensive Stance (encounter)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:%1 times/encounter (%2 rounds)|DefensiveStanceTimes|DefensiveStanceDuration|PREVARGTEQ:DefensiveStanceTimes,1	OUTPUTNAME:Defensive Stance			DEFINE:DefensiveStanceTimes|0	DEFINE:DefensiveStanceDuration|0		BONUS:CHECKS|ALL|2|TYPE=Resistance|PREAPPLY:PC	BONUS:COMBAT|AC|4|TYPE=Dodge|PREAPPLY:PC	BONUS:STAT|STR|2|PREAPPLY:PC	BONUS:STAT|CON|4|PREAPPLY:PC	BONUS:VAR|DefensiveStanceDuration|CON																	SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										

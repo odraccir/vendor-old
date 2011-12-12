@@ -12,7 +12,7 @@ Half Fey Spell Like 1		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=1	SPELLS:Half Fey|TIM
 Half Fey Spell Like 2		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=3	SPELLS:Half Fey|TIMES=3|CASTERLEVEL=HD|Detect Law	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Sleep,11+CHA|Enthrall,12+CHA																
 Half Fey Spell Like 3		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=5	SPELLS:Half Fey|TIMES=3|CASTERLEVEL=HD|Protection from Law	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Hideous Laughter,11+CHA|Suggestion,12+CHA																
 Half Fey Spell Like 4		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=7	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Confusion,13+CHA|Crushing Despair,13+CHA|Good Hope,13+CHA																	
-Half Fey Spell Like 5		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=9	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Eyebite,16+CHA,Geas (Lesser),13+CHA																	
+Half Fey Spell Like 5		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=9	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Eyebite,16+CHA|Geas (Lesser),13+CHA																	
 Half Fey Spell Like 6		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=11	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Dominate Person,14+CHA|Hold Monster,14+CHA																	
 Half Fey Spell Like 7		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=13	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Invisibility (Mass),17+CHA																	
 Half Fey Spell Like 8		VISIBLE:NO	SOURCEPAGE:FFo	PREHD:MIN=15	SPELLS:Half Fey|TIMES=1|CASTERLEVEL=HD|Geas/Quest|Suggestion (Mass),15+CHA																	
