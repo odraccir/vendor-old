@@ -854,6 +854,7 @@ Graft Illithid Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh.SpecialQuality	VIS
 Graft Undead Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:LM	
 Graft Yuan-Ti Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh.SpecialQuality	VISIBLE:YES				PRERACE:1,RACESUBTYPE=Yuan-Ti																									SOURCEPAGE:LM	
 Graft Silthilar Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:LoM	
+Graft Maug Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo	
 																																	
 Undead Graft ~ Paralysing Touch	CATEGORY:Special Ability	TYPE:UndeadGraft.Supernatural.SpecialQuality	VISIBLE:YES				PREVARGTEQ:UndeadGraftRequisiteLVL,1																									SOURCEPAGE:LM	
 Undead Graft ~ Weakening Touch	CATEGORY:Special Ability	TYPE:UndeadGraft.Supernatural.SpecialQuality	VISIBLE:YES				PREVARGTEQ:UndeadGraftRequisiteLVL,2																									SOURCEPAGE:LM	
@@ -1059,3 +1060,10 @@ Necrotic Cyst Spellcaster (Arcane/CHA Spellstat)	CATEGORY:Special Ability	TYPE:N
 Necrotic Cyst Spellcaster (Divine/INT Spellstat)	CATEGORY:Special Ability	TYPE:NecroticCystSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic Cyst Spells (Divine/INT)													SOURCEPAGE:LM	
 Necrotic Cyst Spellcaster (Divine/WIS Spellstat)	CATEGORY:Special Ability	TYPE:NecroticCystSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic Cyst Spells (Divine/WIS)													SOURCEPAGE:LM	
 Necrotic Cyst Spellcaster (Divine/CHA Spellstat)	CATEGORY:Special Ability	TYPE:NecroticCystSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic Cyst Spells (Divine/CHA)													SOURCEPAGE:LM	
+																																	
+Maug Graft (Locking Hand)	CATEGORY:Special Ability	TYPE:MaugGraft.Extraordinary.SpecialQuality	VISIBLE:DISPLAY																COST:2000	AUTO:EQUIP|Maug Graft (Locking Hand)												SOURCEPAGE:FFo	
+Maug Graft (Rollers)	CATEGORY:Special Ability	TYPE:MaugGraft.Extraordinary.SpecialQuality	VISIBLE:DISPLAY																COST:10000	AUTO:EQUIP|Maug Graft (Rollers)												SOURCEPAGE:FFo	
+Maug Graft (Shoving Hand)	CATEGORY:Special Ability	TYPE:MaugGraft.Extraordinary.SpecialQuality	VISIBLE:DISPLAY																COST:2000	AUTO:EQUIP|Maug Graft (Shoving Hand)												SOURCEPAGE:FFo	
+Maug Graft (Shudder Plate)	CATEGORY:Special Ability	TYPE:MaugGraft.Extraordinary.SpecialQuality	VISIBLE:DISPLAY																COST:8000	AUTO:EQUIP|Maug Graft (Shudder Plate)												SOURCEPAGE:FFo	
+Maug Graft (Spike Stones)	CATEGORY:Special Ability	TYPE:MaugGraft.Extraordinary.SpecialQuality	VISIBLE:DISPLAY																COST:4000	AUTO:EQUIP|Maug Graft (Spike Stones)												SOURCEPAGE:FFo	
+Maug Graft (Stone Spitter)	CATEGORY:Special Ability	TYPE:MaugGraft.Extraordinary.SpecialQuality	VISIBLE:DISPLAY																COST:2000	AUTO:EQUIP|Maug Graft (Stone Spitter)												SOURCEPAGE:FFo	

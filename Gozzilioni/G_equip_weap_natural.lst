@@ -20,7 +20,7 @@ Paeliryon Fingernail	OUTPUTNAME:Fingernail	PROFICIENCY:WEAPON|Paeliryon Fingerna
 Disenchanter Tongue	OUTPUTNAME:Tongue	PROFICIENCY:WEAPON|Disenchanter Tongue		TYPE:Weapon.Natural.Melee.Reach.Piercing	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:H	DAMAGE:0	CRITRANGE:1	CRITMULT:x2				REACH:15			SOURCEPAGE:FFo	MODS:NO	PRERACE:1,Disenchanter					
 Hullathoin Tentacle	OUTPUTNAME:Tentacle	PROFICIENCY:WEAPON|Hullathoin Tentacle		TYPE:Weapon.Natural.Melee.Reach.Bludgeoning.Poison	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2				REACH:20			SOURCEPAGE:FFo	MODS:NO	PRERACE:1,Hullathoin					
 Ironmaw Tendril	OUTPUTNAME:Tendril	PROFICIENCY:WEAPON|Ironmaw Tendril		TYPE:Weapon.Natural.Melee.Reach.Bludgeoning	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:H	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2				REACH:60			SOURCEPAGE:FFo	MODS:NO	PRERACE:1,Ironmaw
-																										
+																										Maulgoth Tentacle	OUTPUTNAME:Tentacle	PROFICIENCY:WEAPON|Maulgoth Tentacle		TYPE:Weapon.Natural.Melee.Reach.Bludgeoning	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:H	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2				REACH:20			SOURCEPAGE:FFo	MODS:NO	PRERACE:1,Maulgoth
 # Natural Ranged Weapon																										
 Throath Dart		PROFICIENCY:WEAPON|Throath Dart		TYPE:Weapon.Natural.Ranged.Finesseable.Thrown.Piercing.Poison	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2					RANGE:150	SPROP:poison	SOURCEPAGE:MM3	MODS:NO	PRERACE:1,Astral Stalker					
 Spit Fire		PROFICIENCY:WEAPON|Spit Fire		TYPE:Weapon.Natural.Ranged.Finesseable.Unarmed.Touch.Fire	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2					RANGE:20	SPROP:1d4 fire also to creatures within 5-ft	SOURCEPAGE:MM3	MODS:NO	PRERACE:1,Dracotaur					

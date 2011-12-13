@@ -29,6 +29,7 @@ Paeliryon Fingernail	TYPE:Natural.Melee.Slashing.Piercing.MeleeSlashing.MeleePie
 Disenchanter Tongue	TYPE:Natural.Melee.Piercing.MeleePiercing.Reach.Light						
 Hullathoin Tentacle	TYPE:Natural.Melee.Bludgeoning.MeleeBludgeoning.Reach.Light						
 Ironmaw Tendril	TYPE:Natural.Melee.Bludgeoning.MeleeBludgeoning.Reach.Light						
+Maulgoth Tentacle	TYPE:Natural.Melee.Bludgeoning.MeleeBludgeoning.Reach.Light						
 #							
 Throath Dart	TYPE:Natural.Ranged.Piercing.RangedPiercing.Light						
 Spit Fire	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
