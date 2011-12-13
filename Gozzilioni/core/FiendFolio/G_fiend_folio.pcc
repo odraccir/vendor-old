@@ -22,7 +22,9 @@ EQUIPMENT;FFo_equip_poisons.lst
 EQUIPMENT:FFo_equip_weap_melee_specific.lst
 EQUIPMOD:FFo_equipmods_enhancing.lst
 LANGUAGE:FFo_languages.lst
+FEAT:FFo_feats.lst
 RACE:FFo_races.lst
+SKILL:FFo_skills.lst
 TEMPLATE:FFo_templates.lst
 TEMPLATE:FFo_templates_types.lst
 WEAPONPROF:FFo_weaponprofs.lst

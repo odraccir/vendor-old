@@ -247,7 +247,13 @@ Kelp Angler Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTP
 Kelpie Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Kuldurath Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Living Holocaust Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:The heat and light a living holocaust emits cause it to take a -10 penalty on Hide checks. It's nearly impossible for a living holocaust to hide, but in areas of other flames and fire or in any substantial blaze, living holocaust have a +10 racial bonus on Hide checks.																												SOURCEPAGE:FFo										
-Lucent Worm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:										
+Lucent Worm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Maug Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Maug receive skills as thought they were outsiders.																												SOURCEPAGE:FFo										
+Necrophidius Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
@@ -3226,6 +3232,25 @@ Gaseous	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		
 Breath Weapon ~ Cloud of Noxious Vapor	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cloud of Noxiuos Vapor DC %2 or Memory Loss|BreathWeaponCloud|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
 Frenzied Charge	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Defensive Stance (encounter)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:%1 times/encounter (%2 rounds)|DefensiveStanceTimes|DefensiveStanceDuration|PREVARGTEQ:DefensiveStanceTimes,1	OUTPUTNAME:Defensive Stance			DEFINE:DefensiveStanceTimes|0	DEFINE:DefensiveStanceDuration|0		BONUS:CHECKS|ALL|2|TYPE=Resistance|PREAPPLY:PC	BONUS:COMBAT|AC|4|TYPE=Dodge|PREAPPLY:PC	BONUS:STAT|STR|2|PREAPPLY:PC	BONUS:STAT|CON|4|PREAPPLY:PC	BONUS:VAR|DefensiveStanceDuration|CON																	SOURCEPAGE:FFo										
+Pulverize	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (Fort DC %2)|PulverizePerDay|PulverizeDC				DEFINE:PulverizePerDay|0	DEFINE:PulverizeDC|10+(HD/2)+CON																							SOURCEPAGE:FFo										
+Maug Graft	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:ABILITYPOOL|Maug Graft|2000																					SOURCEPAGE:FFo										
+Ethereal Jolt	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|EtherealJoltDC				DEFINE:EtherealJoltDC|10+(HD/2)+STR																								SOURCEPAGE:FFo										
+Perfect Climbing	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Pin Down	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Emulate Race	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:SKILL|Use Magic Device (Emulate Race)|4|TYPE=Racial|PRESKILL:1,Use Magic Device																					SOURCEPAGE:FFo										
+Dance of Death	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|DanceOfDeathDC				DEFINE:DanceOfDeathDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Mirror Jump	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Reflective Spell Resistance	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:%1|ReflectiveSR				DEFINE:ReflectiveSR|0											ABILITY:Special Ability|VIRTUAL|Immunity To Gaze													SOURCEPAGE:FFo										
+Shard Spray	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										

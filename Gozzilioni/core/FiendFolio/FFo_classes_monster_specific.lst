@@ -252,3 +252,11 @@ CLASS:Jackal Lord	STARTSKILLPTS:2	MODTOSKILLS:YES
 6	BONUS:PCLEVEL|Cleric|1																																																						
 7	BONUS:PCLEVEL|Cleric|1																																																						
 8	BONUS:PCLEVEL|Cleric|1																																																						
+#
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability												Save checks bonus								Combat bonus
+CLASS:Maug	HD:10		TYPE:Monster	MAXLEVEL:2	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Construct Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Reg. Race Type
+CLASS:Maug	PRERACE:1,Maug	PRERACETYPE:Construct
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Maug	STARTSKILLPTS:8	MODTOSKILLS:YES
+#

@@ -5,3 +5,9 @@ SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net
 Undead Graft (Demon Claw)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:0	WT:0.00	SOURCEPAGE:FFo			PRERACE:1,Golem (Demonflesh)			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,2d6	BONUS:WEAPONPROF=Claw|DAMAGE|(STR/2*3)*(-1)+(35/2*3)
 Undead Graft (Whip Tail)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:0	WT:0.00	SOURCEPAGE:FFo			PRERACE:1,Golem (Demonflesh)		SPROP:Daze ~ fullround action (Fort DC 11)	NATURALATTACKS:Tail Lash,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d6	
 Undead Graft (Fast Leg)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.UndeadGraft	COST:0	WT:0.00	SOURCEPAGE:FFo			PRERACE:1,Golem (Demonflesh)			BONUS:SKILL|Climb,Jump|5|TYPE=Racial	
+Maug Graft (Locking Hand)	OUTPUTNAME:[NAME]	TYPE:Glove.Resizable.Graft.MaugGraft	COST:2000	WT:0.00	SOURCEPAGE:FFo					SPROP:+5 bonus on any roll to avoid being disarmed.		
+Maug Graft (Rollers)	OUTPUTNAME:[NAME]	TYPE:Legwear.Resizable.Graft.MaugGraft	COST:10000	WT:0.00	SOURCEPAGE:FFo		BONUS:SLOTS|Foot|-2	BONUS:MOVEADD|TYPE.Walk|20	BONUS:SKILL|Climb,Ride,Swim|-8	ABILITY:Special Ability|VIRTUAL|Trample		
+Maug Graft (Shoving Hand)	OUTPUTNAME:[NAME]	TYPE:Glove.Resizable.Graft.MaugGraft	COST:2000	WT:0.00	SOURCEPAGE:FFo					SPROP:push objects or enemies with STR = %|10+STR		
+Maug Graft (Shudder Plate)	OUTPUTNAME:[NAME]	TYPE:Shirt.Resizable.Graft.MaugGraft	COST:8000	WT:0.00	SOURCEPAGE:FFo			BONUS:SKILL|Move Silently|-4		VISION:Tremorsense (15')		
+Maug Graft (Spike Stones)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.MaugGraft	COST:4000	WT:0.00	SOURCEPAGE:FFo							
+Maug Graft (Stone Spitter)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.MaugGraft	COST:2000	WT:0.00	SOURCEPAGE:FFo							
