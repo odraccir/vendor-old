@@ -49,7 +49,7 @@ Piaga Funesta Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VI
 Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:MM3										
 Throat Dart	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:UNLOCK.CON																								SOURCEPAGE:MM3										
 Deva Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:FFo										
-Ethergaunt Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:Ethergaunt|1																								SOURCEPAGE:FFo										
+Ethergaunt Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:EthergauntLanguage|1																								SOURCEPAGE:FFo										
 																																										
 # Skills ability																																										
 Artisan Master Skills	CATEGORY:Special Ability	TYPE:ArtisanMasterSkills	VISIBLE:DISPLAY	STACK:NO	MULT:YES	CHOOSE:NOCHOICE	ADD:FEAT|Skill Focus																																			
@@ -250,8 +250,8 @@ Living Holocaust Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES
 Lucent Worm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Maug Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Maug receive skills as thought they were outsiders.																												SOURCEPAGE:FFo										
 Necrophidius Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Octopus Tree Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Ophidian Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened. +8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. +10 bonus to Hide checks in forests or underground due to their chameleonlike ability to alter their skin tones.																												SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -1404,7 +1404,7 @@ Eternal Charm	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack
 Eternal Obsession	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:EXD										
 Eternal Torpor	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:evil creatures Fort DC %1 or affliction Eternal torpor|EternalTorporDC				DEFINE:EternalTorporDC|10+(HD/2)+CON																								SOURCEPAGE:MM2										
 Ethereal Bite	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Drac										
-Ethereal Jaunt (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:EtherealJauntPerDay|0	DEFINE:EtherealJauntLVL|0										SPELLS:Innate|TIMES=EtherealJauntPerDay|CASTERLEVEL=EtherealJauntLVL|Ethereal Jaunt													SOURCEPAGE:Nep										
+Ethereal Jaunt (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:EtherealJauntPerDay|0	DEFINE:EtherealJauntLVL|0										SPELLS:Innate|TIMES=EtherealJauntPerDay|CASTERLEVEL=EtherealJauntLVL|Ethereal Jaunt													SOURCEPAGE:Nep										
 Ethereal Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Sense	VISIBLE:YES																													SOURCEPAGE:MM2										
 Etherealness (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:EtherealnessPerDay|0	DEFINE:EtherealnessLVL|0										SPELLS:Innate|TIMES=EtherealnessPerDay|CASTERLEVEL=EtherealnessLVL|Etherealness,19+WIS													SOURCEPAGE:Nep										
 Evasion ~ no gravity	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PH										
@@ -3242,13 +3242,18 @@ Dance of Death	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:
 Mirror Jump	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Reflective Spell Resistance	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:%1|ReflectiveSR				DEFINE:ReflectiveSR|0											ABILITY:Special Ability|VIRTUAL|Immunity To Gaze													SOURCEPAGE:FFo										
 Shard Spray	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Animate Eyeballs	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Steal Eyes	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|StealEyesDC				DEFINE:StealEyesDC|10+(HD/2)+STR																								SOURCEPAGE:FFo										
+Serpentine Curse	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|SerpentineCurseDC				DEFINE:SerpentineCurseDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Mountain Dependency	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Death Gas	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|DeathGasDC				DEFINE:DeathGasDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Desiccate	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|DesiccateDC				DEFINE:DesiccateDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Inscrutable Mind	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Will DC %1|InscrutableMindDC				DEFINE:InscrutableMindDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Fiend Hammer	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day|FiendHammerPerDay				DEFINE:FiendHammerPerDay|0																								SOURCEPAGE:FFo										
+Shocking Grasp (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:ShockingGraspPerDay|0	DEFINE:ShockingGraspLVL|0										SPELLS:Innate|TIMES=ShockingGraspPerDay|CASTERLEVEL=ShockingGraspLVL|Shocking Grasp													SOURCEPAGE:FFo										
+Electricity Healing	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:any direct electricity attack cures 1 hp each 3 points of damage would otherwise deal.																												SOURCEPAGE:FFo										
+Horrifying Gaze	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|HorrifyingGazeDC				DEFINE:HorrifyingGazeDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Spit Blood	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
