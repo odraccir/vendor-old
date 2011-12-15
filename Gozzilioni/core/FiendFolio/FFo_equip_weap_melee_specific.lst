@@ -4,5 +4,11 @@ SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net
 #Ribbon Dagger	COST:50																						
 																							
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property										range	reach	reachmult
+Rilmani Aurumach Halberd	OUTPUTNAME:Halberd	BASEITEM:Halberd	EQMOD:PLUS3W	SIZE:H
+Rilmani Cuprilach Rapier	OUTPUTNAME:Rapier	BASEITEM:Rapier	EQMOD:PLUS2W
+Rilmani Ferrumach Lance	OUTPUTNAME:Heavy Lance	BASEITEM:Lance	EQMOD:PLUS1W
+Rilmani Ferrumach Battleaxe	OUTPUTNAME:Battleaxe	BASEITEM:Battleaxe	EQMOD:PLUS1W
+
+#
 Etherblade		PROFICIENCY:WEAPON|Etherblade	TYPE:Enhancing.Weapon.Melee.Exotic.Reach.Specific.Slashing.Polearm	COST:8	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW			REACHMULT:2				SOURCEPAGE:FFo	MODS:NO			PRERACE:1,PRERACESUBTYPE=Ethergaunt
 Ribbon Dagger		PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Exotic.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:KRESIN_WEAP		RANGE:10									

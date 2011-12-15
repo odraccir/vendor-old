@@ -8,6 +8,7 @@ Coldfire		PROFICIENCY:WEAPON|Spells(Ray)		TYPE:Weapon.Natural.Ranged.Finesseable
 Glacial Ray		PROFICIENCY:WEAPON|Spells(Ray)		TYPE:Weapon.Natural.Ranged.Finesseable.Unarmed.Touch	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x2					RANGE:15		SOURCEPAGE:Fro	MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Glacial Ray					
 Rimefire Bolt		PROFICIENCY:WEAPON|Spells(Ray)		TYPE:Weapon.Natural.Ranged.Finesseable.Unarmed.Touch	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2					RANGE:30	SPROP:+%d%|RimefireBolt|RimefireDie	SOURCEPAGE:Fro	MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Rimefire Bolt					
 Urophion Strand		PROFICIENCY:WEAPON|Spells(Ray)		TYPE:Weapon.Natural.Ranged.Finesseable.Unarmed.Touch	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:L	DAMAGE:0	CRITRANGE:1	CRITMULT:x2					RANGE:50		SOURCEPAGE:LoM	MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Strands					
+Dispelling Ray		PROFICIENCY:WEAPON|Spells(Ray)		TYPE:Weapon.Natural.Ranged.Finesseable.Unarmed.Touch	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2					RANGE:30	SPROP:Greater dispelling cast as a 20th level sorcerer on target.	SOURCEPAGE:FFo	MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Dispelling Ray					
 																										
 # Natural Reach Weapon																										
 Gouger Tongue	OUTPUTNAME:Tongue	PROFICIENCY:WEAPON|Gouger Tongue		TYPE:Weapon.Natural.Melee.Reach.Piercing	COST:0	WT:0	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x3				REACH:15			SOURCEPAGE:Mon	MODS:NO	PRERACE:1,Beholderkin (Gouger)					

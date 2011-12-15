@@ -1,15 +1,17 @@
 SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net														
 #																
 ###Block: Creature Subtypes																
-# Template Name	outputname	Visible	Source Page	Special Ability												
-Aoa		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Aoa	ABILITY:Special Ability|AUTOMATIC|Dispelling Touch|Reflective Spell Resistance|Immunity To Gaze|Resistance To Fire|Resistance To Cold|Resistance To Electricity|Resistance To Sonic	VISION:Darkvision (60')	DEFINE:FireResistanceBonus|20	DEFINE:ColdResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20	DEFINE:SonicResistanceBonus|20	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=15|Detect Magic,10+CHA	BONUS:SKILL|Hide|-6|TYPE=Racial				
-Canomorph		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Canomorph	ABILITY:Special Ability|AUTOMATIC|Change Shape|Command Fiendish Hound|Scent	VISION:Darkvision (60')										
-Dark One		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Dark One	LANGAUTO:Dark One,Undercommon	ABILITY:Special Ability|AUTOMATIC|Shadow Cloak|Sneak Attack|Light Sensitivity|Dark One Skills	DEFINE:ShadowCloakPerDay|3	VISION:Blindsight (60')								
-Demodand		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Demodand	ABILITY:Special Ability|AUTOMATIC|Freedom of Movement (Sp always active)|Immunity To Poison	LANGAUTO:Demodand										
+# Template Name	outputname	Visible	Source Page	Special Ability	NATURALATTACKS:	ABILITY:Special Ability|AUTOMATIC|	LANGAUTO:	LANGBONUS:	VISION:							
+Aoa		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Aoa		ABILITY:Special Ability|AUTOMATIC|Aoa Traits			VISION:Darkvision (60')							
+Canomorph		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Canomorph		ABILITY:Special Ability|AUTOMATIC|Canomorph Traits			VISION:Darkvision (60')							
+Dark One		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Dark One	LANGAUTO:Dark One,Undercommon	ABILITY:Special Ability|AUTOMATIC|Dark One Traits			VISION:Blindsight (60')							
+Demodand		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Demodand			LANGAUTO:Demodand									
 Maurezhi		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,Tanar'ri (Maurezhi)	HD:8-9:SR:20	HD:10-14:SR:21	HD:15-19:SR:22	HD:20+:SR:23	HD:8-9:CR:1	HD:10-14:CR:2	HD:15-19:CR:3	HD:20+:CR:4	HD:8-9:DR:10/Good	HD:10-14:DR:15/Good	HD:15-19:DR:15/Good	HD:20+:DR:15/Good and Magic
-Deva		VISIBLE:NO	SOURCEPAGE:FFo		ABILITY:Special Ability|AUTOMATIC|Deva Traits	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold|Immunity To Electricity|Protective Aura	LANGAUTO:Celestial,Draconic,Infernal									
-Ethergaunt		VISIBLE:NO	SOURCEPAGE:FFo		ABILITY:Special Ability|AUTOMATIC|Ethergaunt Traits|Enslave|Stupefying Gaze|Immunity To Arcane Spells|Material Jaunt|Total Vision		LANGAUTO:Khen-Zai	LANGBONUS:Common,Draconic,Dwarven,Elven								
-Fensir		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Fensir	NATURALATTACKS:Thrown Rock,Weapon.Natural.Ranged.Thrown.Bludgeoning,*1,2d6	ABILITY:Special Ability|AUTOMATIC|Rock Throwing|Rock Catching|Vulnerability To Sunlight	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=9|Transmute Mud to Rock,15+CHA|Transmute Rock to Mud,15+CHA									
-Flame Snake		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Flame Snake	LANGAUTO:Ignan	ABILITY:Special Ability|AUTOMATIC|Heat|Scent|Flame Snake Skills	BONUS:SKILL|Climb|8|TYPE=Racial									
-Formian		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Formian	ABILITY:Special Ability|AUTOMATIC|Hive Mind|Immunity To Cold|Immunity To Petrification|Immunity To Poison|Resistance To Fire|Resistance To Electricity|Resistance To Sonic	DEFINE:FireResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20	DEFINE:SonicResistanceBonus|20								
-Nerra		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Nerra	LANGAUTO:Common,Nerra	ABILITY:Special Ability|AUTOMATIC|Mirror Jump|Reflective Spell Resistance|Vulnerability To Sonic
+Deva		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Deva		ABILITY:Special Ability|AUTOMATIC|Deva Traits	LANGAUTO:Celestial,Draconic,Infernal									
+Ethergaunt		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Ethergaunt		ABILITY:Special Ability|AUTOMATIC|Ethergaunt Traits	LANGAUTO:Khen-Zai	LANGBONUS:Common,Draconic,Dwarven,Elven								
+Fensir		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Fensir	NATURALATTACKS:Thrown Rock,Weapon.Natural.Ranged.Thrown.Bludgeoning,*1,2d6	ABILITY:Special Ability|AUTOMATIC|Fensir Traits										
+Flame Snake		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Flame Snake		ABILITY:Special Ability|AUTOMATIC|Flame Snake Traits	LANGAUTO:Ignan									
+Formian		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Formian		ABILITY:Special Ability|AUTOMATIC|Formian Traits										
+Nerra		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Nerra		ABILITY:Special Ability|AUTOMATIC|Nerra Traits	LANGAUTO:Common,Nerra									
+Rilmani		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Rilmani		ABILITY:Special Ability|AUTOMATIC|Rilmani Traits	LANGAUTO:Common,Rilmani,Undercommon									
+Sarkrith		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Sarkrith		ABILITY:Special Ability|AUTOMATIC|Sarkrith Traits										

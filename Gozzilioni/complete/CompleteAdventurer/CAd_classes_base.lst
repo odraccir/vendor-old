@@ -69,7 +69,7 @@ CLASS:Spellthief	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|S
 4	CAST:0	KNOWN:2										
 5	CAST:0	KNOWN:2		ABILITY:Special Ability|AUTOMATIC|Steal SpellLike Ability								
 6	CAST:1	KNOWN:3										
-7	CAST:1	KNOWN:3		ABILITY:Special Ability|AUTOMATIC|Absorb Spell								
+7	CAST:1	KNOWN:3		ABILITY:Special Ability|AUTOMATIC|Absorb Spells								
 8	CAST:1,0	KNOWN:4,2										
 9	CAST:1,0	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Arcane Sight (Sp)|Spellthief Arcane Sight			BONUS:VAR|SpellthiefArcaneSightVL|CL					
 10	CAST:1,1	KNOWN:4,3										
