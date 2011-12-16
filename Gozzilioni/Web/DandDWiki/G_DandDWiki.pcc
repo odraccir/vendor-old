@@ -17,6 +17,7 @@ INFOTEXT:sito web.
 #Random Encounter
 COMPANIONMOD:ddw_companionmods.lst
 RACE:ddw_races.lst
+SPELL:ddw_spells.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

@@ -272,12 +272,12 @@ Maug Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:
 Necrophidius Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Octopus Tree Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Ophidian Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened. +8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. +10 bonus to Hide checks in forests or underground due to their chameleonlike ability to alter their skin tones.																												SOURCEPAGE:FFo										
-Cuprilach Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
-Rukanyr Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
-Sea Drake Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Cuprilach Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+Rukanyr Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+Sea Drake Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Selkie Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Shadar Kai Low Light Vision	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Shadar-Kai see four times as far as a human in low-light condition.																												SOURCEPAGE:FFo										
+Shadow Asp Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -368,8 +368,12 @@ Resistance To Charisma Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extrao
 Resistance To Charisma Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Charisma Drain	DESC:You get a +%1 bonus on saving throws against Charisma Drain.|CharismaDrainResistanceBonus	ASPECT:Resistance|Charisma drain	ASPECT:Ability Benefit|%1|CharismaDrainResistanceBonus																									SOURCEPAGE:EXD										
 Resistance To Charm 2	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO	SERVESAS:ABILITY=Special Ability|Resistance To Charm				DEFINE:CharmResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Charm Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Charm,Vulnerability To Charm													SOURCEPAGE:PH										
 Resistance To Charm Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Charm	DESC:You get a +%1 bonus on saving throws against enchantment(charm) spells.|CharmResistanceBonus	ASPECT:Resistance|Charm	ASPECT:Ability Benefit|%1|CharmResistanceBonus																									SOURCEPAGE:PH										
+Resistance To Death Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DeathEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Death Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Death Effects,Vulnerability To Death Effects													SOURCEPAGE:FFo										
+Resistance To Death Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Death Effects	DESC:You get a +%1 bonus on saving throws against Death Effects.|DeathEffectsResistanceBonus	ASPECT:Resistance|Death Effects	ASPECT:Ability Benefit|%1|DeathEffectsResistanceBonus																									SOURCEPAGE:FFo										
 Resistance To Enchantment	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:EnchantmentResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Enchantment Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Enchantment,Vulnerability To Enchantment													SOURCEPAGE:EXD										
 Resistance To Enchantment Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Enchantment	DESC:You get a +%1 bonus on saving throws against enchantment spells.|EnchantmentResistanceBonus	ASPECT:Resistance|Enchantment	ASPECT:Ability Benefit|%1|EnchantmentResistanceBonus																									SOURCEPAGE:EXD										
+Resistance To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:EnergyDrainResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Energy Drain Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Energy Drain,Vulnerability To Energy Drain													SOURCEPAGE:FFo										
+Resistance To Energy Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Enchantment	DESC:You get a +%1 bonus on saving throws against enchantment spells.|EnchantmentResistanceBonus	ASPECT:Resistance|Enchantment	ASPECT:Ability Benefit|%1|EnergyDrainResistanceBonus																									SOURCEPAGE:FFo										
 Resistance To Fear	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:FearResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Fear Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Fear,Vulnerability To Fear													SOURCEPAGE:RLDMG										
 Resistance To Fear Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Fear	DESC:You get a +%1 bonus on saving throws against Fear effects.|FearResistanceBonus	ASPECT:Resistance|Fear	ASPECT:Ability Benefit|%1|FearResistanceBonus																									SOURCEPAGE:RLDMG										
 Resistance To Force	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:ForceResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Force Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Force,Vulnerability To Force													SOURCEPAGE:CA										
@@ -409,6 +413,7 @@ Vulnerability To Backlash	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordina
 Vulnerability To Bull Rush	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to being bull rushed and tripped.																												SOURCEPAGE:PH										
 Vulnerability To Charisma Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Charisma damage.																												SOURCEPAGE:EXD										
 Vulnerability To Charisma Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Charisma drain.																												SOURCEPAGE:EXD										
+Vulnerability To Death Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Death effects.																												SOURCEPAGE:FFo										
 Vulnerability To Earth (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Earth.	OUTPUTNAME:Vulnerability To Earth																											SOURCEPAGE:FFo										
 Vulnerability To Elemental Turning	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Elemental Turning.																												SOURCEPAGE:MM3										
 Vulnerability To Enchantment	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Enchantment spells.																												SOURCEPAGE:EXD										
@@ -3301,19 +3306,19 @@ Resist Blows	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:
 Constrict Ship	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Crushing Blow	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Ink Cloud	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Shadow Curse	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Incorporeal Form	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day|IncorporealFormTimes|PREVARGT:IncorporealFormTimes,0				DEFINE:IncorporealFormTimes|0																								SOURCEPAGE:FFo										
+Depart	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																SPELLS:Depart||TIMES=1|TIMEUNIT=Week|CASTERLEVEL=17|Astral Projection													SOURCEPAGE:FFo										
+Rational Mind	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																ABILITY:Special Ability|VIRTUAL|Immunity To Mind-Affecting													SOURCEPAGE:FFo										
+Uncanny Stability	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Innate Nondetection	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES		SERVESAS:ABILITY=Special Ability|Nondetection																											SOURCEPAGE:FFo										
+Peerless Camouflage	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Trackless Path	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Acid Rain	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Ref CD %1|AcidRainDC				DEFINE:AcidRainDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Unnatural Mist	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:three quarter concealment (30%% miss chance).							BONUS:SKILL|Hide|10|TYPE=Circumstance																					SOURCEPAGE:FFo										
+Cringe	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|CringeDC				DEFINE:CringeDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Summon Slaad ~ Mud Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:1/day summon 1 mud slaad 40%% or 1 red slaad 20%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:FFo										
+Feign Death	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Sense Motive DC %1|FeignDeathDC				DEFINE:FeignDeathDC|0																								SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
