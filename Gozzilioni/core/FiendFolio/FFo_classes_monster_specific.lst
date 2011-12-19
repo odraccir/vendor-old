@@ -22,40 +22,6 @@ CLASS:Chronotyryn	STARTSKILLPTS:2	MODTOSKILLS:YES
 15	BONUS:PCLEVEL|Sorcerer|1																																																						
 16	BONUS:PCLEVEL|Sorcerer|1																																																						
 17																																																							
-18	BONUS:PCLEVEL|Sorcerer|1																																																						
-19	BONUS:PCLEVEL|Sorcerer|1																																																						
-20	BONUS:PCLEVEL|Sorcerer|1																																																						
-21																																																							
-22	BONUS:PCLEVEL|Sorcerer|1																																																						
-23	BONUS:PCLEVEL|Sorcerer|1																																																						
-24	BONUS:PCLEVEL|Sorcerer|1																																																						
-25																																																							
-26	BONUS:PCLEVEL|Sorcerer|1																																																						
-27	BONUS:PCLEVEL|Sorcerer|1																																																						
-28	BONUS:PCLEVEL|Sorcerer|1																																																						
-29																																																							
-30	BONUS:PCLEVEL|Sorcerer|1																																																						
-31	BONUS:PCLEVEL|Sorcerer|1																																																						
-32	BONUS:PCLEVEL|Sorcerer|1																																																						
-33																																																							
-34	BONUS:PCLEVEL|Sorcerer|1																																																						
-35	BONUS:PCLEVEL|Sorcerer|1																																																						
-36	BONUS:PCLEVEL|Sorcerer|1																																																						
-37																																																							
-38	BONUS:PCLEVEL|Sorcerer|1																																																						
-39	BONUS:PCLEVEL|Sorcerer|1																																																						
-40	BONUS:PCLEVEL|Sorcerer|1																																																						
-41																																																							
-42	BONUS:PCLEVEL|Sorcerer|1																																																						
-43	BONUS:PCLEVEL|Sorcerer|1																																																						
-44	BONUS:PCLEVEL|Sorcerer|1																																																						
-45																																																							
-46	BONUS:PCLEVEL|Sorcerer|1																																																						
-47	BONUS:PCLEVEL|Sorcerer|1																																																						
-48	BONUS:PCLEVEL|Sorcerer|1																																																						
-49																																																							
-50	BONUS:PCLEVEL|Sorcerer|1																																																						
-51	BONUS:PCLEVEL|Sorcerer|1																																																						
 #																																																							
 # Class Name	Hit Dice	Type			Max Level		Source Page					Ability																											Save checks bonus								Combat bonus								
 CLASS:Shator	HD:8		TYPE:Monster	MAXLEVEL:45	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Outsider Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
@@ -78,39 +44,9 @@ CLASS:Shator	STARTSKILLPTS:8	MODTOSKILLS:YES
 13	BONUS:PCLEVEL|Sorcerer|1																																																						
 14																																																							
 15	BONUS:PCLEVEL|Sorcerer|1																																																						
-16																																																							
-17	BONUS:PCLEVEL|Sorcerer|1																																																						
-18																																																							
-19	BONUS:PCLEVEL|Sorcerer|1																																																						
-20																																																							
-21	BONUS:PCLEVEL|Sorcerer|1																																																						
-22																																																							
-23	BONUS:PCLEVEL|Sorcerer|1																																																						
-24																																																							
-25	BONUS:PCLEVEL|Sorcerer|1																																																						
-26																																																							
-27	BONUS:PCLEVEL|Sorcerer|1																																																						
-28																																																							
-29	BONUS:PCLEVEL|Sorcerer|1																																																						
-30																																																							
-31	BONUS:PCLEVEL|Sorcerer|1																																																						
-32																																																							
-33	BONUS:PCLEVEL|Sorcerer|1																																																						
-34																																																							
-35	BONUS:PCLEVEL|Sorcerer|1																																																						
-36																																																							
-37	BONUS:PCLEVEL|Sorcerer|1																																																						
-38																																																							
-39	BONUS:PCLEVEL|Sorcerer|1																																																						
-40																																																							
-41	BONUS:PCLEVEL|Sorcerer|1																																																						
-42																																																							
-43	BONUS:PCLEVEL|Sorcerer|1																																																						
-44																																																							
-45	BONUS:PCLEVEL|Sorcerer|1																																																						
 #																																																							
 # Class Name	Hit Dice	Type			Max Level		Source Page					Ability																											Save checks bonus								Combat bonus								
-CLASS:Klurichir	HD:8		TYPE:Monster	MAXLEVEL:45	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Outsider Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
+CLASS:Klurichir	HD:8		TYPE:Monster	MAXLEVEL:60	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Outsider Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type																																																						
 CLASS:Klurichir	PRERACE:1,Tanar'ri (Klurichir)	PRERACETYPE:Outsider																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
@@ -135,53 +71,13 @@ CLASS:Klurichir	STARTSKILLPTS:8	MODTOSKILLS:YES
 18																																																							
 19	BONUS:PCLEVEL|Sorcerer|1																																																						
 20																																																							
-21	BONUS:PCLEVEL|Sorcerer|1																																																						
-22																																																							
-23	BONUS:PCLEVEL|Sorcerer|1																																																						
-24																																																							
-25	BONUS:PCLEVEL|Sorcerer|1																																																						
-26																																																							
-27	BONUS:PCLEVEL|Sorcerer|1																																																						
-28																																																							
-29	BONUS:PCLEVEL|Sorcerer|1																																																						
-30																																																							
-31	BONUS:PCLEVEL|Sorcerer|1																																																						
-32																																																							
-33	BONUS:PCLEVEL|Sorcerer|1																																																						
-34																																																							
-35	BONUS:PCLEVEL|Sorcerer|1																																																						
-36																																																							
-37	BONUS:PCLEVEL|Sorcerer|1																																																						
-38																																																							
-39	BONUS:PCLEVEL|Sorcerer|1																																																						
-40																																																							
-41	BONUS:PCLEVEL|Sorcerer|1																																																						
-42																																																							
-43	BONUS:PCLEVEL|Sorcerer|1																																																						
-44																																																							
-45	BONUS:PCLEVEL|Sorcerer|1																																																						
-46																																																							
-47	BONUS:PCLEVEL|Sorcerer|1																																																						
-48																																																							
-49	BONUS:PCLEVEL|Sorcerer|1																																																						
-50																																																							
-51	BONUS:PCLEVEL|Sorcerer|1																																																						
-52																																																							
-53	BONUS:PCLEVEL|Sorcerer|1																																																						
-54																																																							
-55	BONUS:PCLEVEL|Sorcerer|1																																																						
-56																																																							
-57	BONUS:PCLEVEL|Sorcerer|1																																																						
-58																																																							
-59	BONUS:PCLEVEL|Sorcerer|1																																																						
-60																																																							
 #																																																							
 CLASS:Black Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:16	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type																																																						
 CLASS:Black Ethergaunt	PRERACE:1,Black Ethergaunt	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Black Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Wizard|1		ADD:SPELLCASTER|1|Wizard																																																				
+1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|1																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
 4	BONUS:PCLEVEL|Wizard|1																																																						
@@ -203,7 +99,7 @@ CLASS:Red Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:5	SOURCEPAGE:FFo	ABILITY:Specia
 CLASS:Red Ethergaunt	PRERACE:1,Red Ethergaunt	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Red Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Wizard|1		ADD:SPELLCASTER|1|Wizard																																																				
+1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|2																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
 4	BONUS:PCLEVEL|Wizard|2																																																						
@@ -214,26 +110,25 @@ CLASS:White Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:5	SOURCEPAGE:FFo	ABILITY:Spec
 CLASS:White Ethergaunt	PRERACE:1,White Ethergaunt	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:White Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Wizard|1		ADD:SPELLCASTER|1|Wizard																																																				
+1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|1																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
 4	BONUS:PCLEVEL|Wizard|1																																																						
 5	BONUS:PCLEVEL|Wizard|1																																																						
 6	BONUS:PCLEVEL|Wizard|1																																																						
-7	BONUS:PCLEVEL|Wizard|2																																																						
-8	BONUS:PCLEVEL|Wizard|1																																																						
+7	BONUS:PCLEVEL|Wizard|1																																																						
+8	BONUS:PCLEVEL|Wizard|2																																																						
 9	BONUS:PCLEVEL|Wizard|1																																																						
 10	BONUS:PCLEVEL|Wizard|1																																																						
 11	BONUS:PCLEVEL|Wizard|1																																																						
-12	BONUS:PCLEVEL|Wizard|1																																																						
 #																																																							
 # Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus						
-CLASS:Fensir		HD:8		TYPE:Monster	MAXLEVEL:4	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Giant Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																												
+CLASS:Fensir	HD:8		TYPE:Monster	MAXLEVEL:4	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Giant Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																													
 # Class Name	Reg. Race Type																																																						
 CLASS:Fensir	PRERACE:1,Fensir	PRERACETYPE:Giant																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Fensir		STARTSKILLPTS:2	MODTOSKILLS:YES																																																				
-1	BONUS:PCLEVEL|Wizard|1		ADD:SPELLCASTER|1|Wizard																																																				
+1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|1																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
 4	BONUS:PCLEVEL|Wizard|1																																																						
@@ -252,11 +147,27 @@ CLASS:Jackal Lord	STARTSKILLPTS:2	MODTOSKILLS:YES
 6	BONUS:PCLEVEL|Cleric|1																																																						
 7	BONUS:PCLEVEL|Cleric|1																																																						
 8	BONUS:PCLEVEL|Cleric|1																																																						
-#
-# Class Name	Hit Dice	Type			Max Level		Source Page					Ability												Save checks bonus								Combat bonus
-CLASS:Maug	HD:10		TYPE:Monster	MAXLEVEL:2	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Construct Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
-# Class Name	Reg. Race Type
-CLASS:Maug	PRERACE:1,Maug	PRERACETYPE:Construct
-# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
-CLASS:Maug	STARTSKILLPTS:8	MODTOSKILLS:YES
-#
+#																																																							
+# Class Name	Hit Dice	Type			Max Level		Source Page					Ability												Save checks bonus								Combat bonus																							
+CLASS:Maug	HD:10		TYPE:Monster	MAXLEVEL:2	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Construct Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																															
+# Class Name	Reg. Race Type																																																						
+CLASS:Maug	PRERACE:1,Maug	PRERACETYPE:Construct																																																					
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
+CLASS:Maug	STARTSKILLPTS:8	MODTOSKILLS:YES																																																					
+#																																																							
+CLASS:Spirit of the Air	HD:10		TYPE:Monster	MAXLEVEL:51	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Magical Beast Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
+# Class Name	Reg. Race Type	Reg. Race Type	Reg. Race Type																																																				
+CLASS:Spirit of the Air	PRERACE:1,Spirit of the Air	PRERACETYPE:Magical Beast																																																					
+# Class Name	Skill Pts/Lvl	Skill Pts/Lvl	Add INT to Skill Points?																																																				
+CLASS:Spirit of the Air	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
+1	BONUS:PCLEVEL|Cleric|1	DOMAIN:Air|Luck	ADD:SPELLCASTER|1|Cleric																																																				
+2																																																							
+3	BONUS:PCLEVEL|Cleric|1																																																						
+4																																																							
+5	BONUS:PCLEVEL|Cleric|1																																																						
+6																																																							
+7	BONUS:PCLEVEL|Cleric|2																																																						
+8																																																							
+9	BONUS:PCLEVEL|Cleric|1																																																						
+10																																																							
+11	BONUS:PCLEVEL|Cleric|1																																																						

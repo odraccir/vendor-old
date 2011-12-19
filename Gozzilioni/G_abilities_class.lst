@@ -278,7 +278,7 @@ Sea Drake Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUT
 Selkie Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Shadar Kai Low Light Vision	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Shadar-Kai see four times as far as a human in low-light condition.																												SOURCEPAGE:FFo										
 Shadow Asp Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Spectral Lurker Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus on Hide checks when hiding in a solid object.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -299,7 +299,7 @@ Drug Addiction(Medium)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	DE
 Drug Addiction(Negligible)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	DESC:Fort DC 4, Satiation 1 day, 1d3-2 DEX (can be 0).																												SOURCEPAGE:BoVD	ASPECT:Drug Addiction|Negligible									
 Drug Addiction(Vicious)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	DESC:Fort DC 36, Satiation 1 days, 1d8 DEX, 1d8 WIS, 1d6 CON, 1d6 STR.																												SOURCEPAGE:BoVD	ASPECT:Drug Addiction|Vicious									
 																																										
-Immunity To Air	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES																													SOURCEPAGE:MM2	ASPECT:Immunity|Air									
+Immunity To Air	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to Air effects.																												SOURCEPAGE:MM2	ASPECT:Immunity|Air									
 Immunity To Backlash	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take backlash damage																												SOURCEPAGE:PGtF	ASPECT:Immunity|Backlash									
 Immunity To Blunt Weapon Damage	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Immunity	VISIBLE:YES	DESC:You are never subject to damage from blunt weapons.																												SOURCEPAGE:MM2	ASPECT:Immunity|Blunt Weapon Damage									
 Immunity To Bull Rush	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never be bull rushed or tripped.																												SOURCEPAGE:PH	ASPECT:Immunity|Bull Rush									
@@ -3319,6 +3319,23 @@ Unnatural Mist	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE
 Cringe	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|CringeDC				DEFINE:CringeDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
 Summon Slaad ~ Mud Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:1/day summon 1 mud slaad 40%% or 1 red slaad 20%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:FFo										
 Feign Death	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Sense Motive DC %1|FeignDeathDC				DEFINE:FeignDeathDC|0																								SOURCEPAGE:FFo										
+Wing Slash	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.AttackOption	VISIBLE:YES	DESC:only at the end of a charge. Ref DC %1|WingSlashDC				DEFINE:WingSlashDC|10+(HD/2)+STR																								SOURCEPAGE:FFo										
+Dexterity Drain	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.AbilityFocus	VISIBLE:YES																													SOURCEPAGE:FFo										
+Dexterity Drain ~ Spectral Lurker	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d6 Dex drain (Fort DC %1)|SpectralLurkerDexterityDrainDC	OUTPUTNAME:Dexterity Drain	SERVESAS:ABILITY=Special Ability|Dexterity Drain		DEFINE:SpectralLurkerDexterityDrainDC|10+(HD/2)+CHA				BONUS:VAR|SpectralLurkerDexterityDrainDC|2|PREFEAT:1,Ability Focus(Dexterity Drain)																				SOURCEPAGE:FFo										
+Ghost Touch Attacks	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Incorporealize	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|IncorporealizeDC				DEFINE:IncorporealizeDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Silent	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ModifyMovement	VISIBLE:YES	DESC:move in absolute silence and make no noise.																												SOURCEPAGE:FFo										
+Size Change	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES								BONUS:SIZEMOD|NUMBER|1|PREAPPLY:PC																					SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
