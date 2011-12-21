@@ -1,0 +1,6 @@
+SOURCELONG:Pandius	SOURCESHORT:Pnd	SOURCEWEB:http://www.gozzilioni.net																																							
+																																									
+# BASICS																																									
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
+Easily Managed	TYPE:SteedGeneral	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Horse				DESC:+3 bonus on handle checks on this animal.																	SOURCEPAGE:Pnd
+Willingness	TYPE:SteedGeneral	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Horse				DESC:+3 bonus on ride checks of the rider to Leap, Spur Mount or Control Mount action.																	SOURCEPAGE:Pnd

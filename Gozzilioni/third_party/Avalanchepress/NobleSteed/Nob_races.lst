@@ -5,6 +5,7 @@ Horse (Light).MOD	RACESUBTYPE:Horse	TEMPLATE:Horse Untrained
 Horse (Heavy).MOD	RACESUBTYPE:Horse	TEMPLATE:Horse Untrained																																																																						
 Horse (Warhorse Light).MOD	RACESUBTYPE:Horse																																																																							
 Horse (Warhorse Heavy).MOD	RACESUBTYPE:Horse																																																																							
+Pony.MOD	RACESUBTYPE:Horse	TEMPLATE:Horse Untrained	
 Elephant.MOD	RACESUBTYPE:Elephant																																																																							
 Elephant (Indian).MOD	RACESUBTYPE:Elephant																																																																							
 Dire Animal (Dire Elephant).MOD	RACESUBTYPE:Elephant																																																																							

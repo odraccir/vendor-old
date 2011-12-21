@@ -87,7 +87,7 @@ CLASS:Dervish	STARTSKILLPTS:4	CSKILL:Balance|TYPE.Craft|Escape Artist|Jump|Liste
 1				ABILITY:Special Ability|AUTOMATIC|Dervish AC Bonus|Dervish Dance|Dervish Dervish Dance|Movement Mastery|Slashing Blades			BONUS:VAR|DervishACBonus|CL	BONUS:VAR|DervishDanceLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Dervish Fast Movement			BONUS:VAR|DervishMoveBonus|((CL+1)/3)*5						
 3			VFEAT:Spring Attack										
-4				ABILITY:Special Ability|AUTOMATIC|Dance of Death									
+4				ABILITY:Special Ability|AUTOMATIC|Dance of Death ~ Dervish									
 5													
 6				ABILITY:Special Ability|AUTOMATIC|Improved Reaction|Dervish Improved Reaction									
 7				ABILITY:Special Ability|AUTOMATIC|Elaborate Parry|Dervish Elaborate Parry									
