@@ -1,6 +1,6 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																																															
 # Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus
-CLASS:Ice Weird	HD:8	TYPE:Monster	MAXLEVEL:14	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE																																									
+CLASS:Ice Weird	HD:8	TYPE:Monster	MAXLEVEL:45	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE																																									
 # Class Name	Required Race		Reg. Race Type																																														
 CLASS:Ice Weird		PRERACE:1,Elemental Weird (Ice Weird)	PRERACETYPE:Elemental																																														
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
@@ -21,7 +21,7 @@ CLASS:Ice Weird	STARTSKILLPTS:2	MODTOSKILLS:YES
 14	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																																															
 15	BONUS:PCLEVEL|Sorcerer|1																																																
 #																																																	
-CLASS:Snow Weird	HD:8	TYPE:Monster	MAXLEVEL:14	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE																																									
+CLASS:Snow Weird	HD:8	TYPE:Monster	MAXLEVEL:45	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE																																									
 # Class Name	Required Race		Reg. Race Type																																														
 CLASS:Snow Weird		PRERACE:1,Elemental Weird (Snow Weird)	PRERACETYPE:Elemental																																														
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
@@ -47,7 +47,7 @@ CLASS:Icegaunt	HD:12		TYPE:Monster	MAXLEVEL:20	SOURCEPAGE:Fro	ABILITY:Special Ab
 CLASS:Icegaunt	PRERACETYPE:Undead	PRERACE:1,Icegaunt																																															
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																															
 CLASS:Icegaunt	STARTSKILLPTS:4	MODTOSKILLS:YES																																															
-1	BONUS:PCLEVEL|Druid|1	PROHIBITSPELL:DESCRIPTOR.Fire	ADD:SPELLCASTER|1|Druid	SPELLLIST:1|Druid																																													
+1			ADD:SPELLCASTER|1|Druid	SPELLLIST:1|Druid	PROHIBITSPELL:DESCRIPTOR.Fire																																									
 2																																																	
 3	BONUS:PCLEVEL|Druid|1																																																
 4																																																	

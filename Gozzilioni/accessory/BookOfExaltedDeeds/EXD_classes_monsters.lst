@@ -8,32 +8,3 @@ CLASS:Deathless	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:EXD	BONUS:CHECKS
 CLASS:Deathless	PRERACETYPE:Aberration	ABILITY:Special Ability|AUTOMATIC|Deathless Traits|PREVAREQ:NoTypeTraits,0	ABILITY:Special Ability|AUTOMATIC|Undead Proficiencies|PREVAREQ:NoTypeProficiencies,0								
 CLASS:Deathless	STARTSKILLPTS:4	MODTOSKILLS:YES									
 #											
-CLASS:Firre	HD:8	TYPE:Monster		MAXLEVEL:24	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Firre	PRERACETYPE:Outsider	PRERACE:1,Eladrin (Firre)									
-CLASS:Firre	STARTSKILLPTS:8	MODTOSKILLS:YES									
-1				ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Outsider Traits|PREVAREQ:NoTypeTraits,0						
-#											
-1				ABILITY:Special Ability|AUTOMATIC|Bardic Fascinate|Bardic Inspire Courage|Bardic Inspire Competence|Bardic Suggestion			BONUS:VAR|BardicMusicLvl|CL				
-#											
-1	BONUS:PCLEVEL|Cleric|1	ADD:SPELLCASTER|1|Cleric				ADDDOMAINS:Chaos.Fire.Good.Magic	BONUS:DOMAIN|NUMBER|2				
-2	BONUS:PCLEVEL|Cleric|1										
-3	BONUS:PCLEVEL|Cleric|1	BONUS:PCLEVEL|Cleric|1									
-4	BONUS:PCLEVEL|Cleric|1										
-5	BONUS:PCLEVEL|Cleric|1	BONUS:PCLEVEL|Cleric|1									
-6	BONUS:PCLEVEL|Cleric|1										
-7	BONUS:PCLEVEL|Cleric|1	BONUS:PCLEVEL|Cleric|1									
-8	BONUS:PCLEVEL|Cleric|1										
-#											
-CLASS:Ursinal	HD:8	TYPE:Monster		MAXLEVEL:30	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Ursinal	PRERACETYPE:Outsider	PRERACE:1,Guardinal (Ursinal)									
-CLASS:Ursinal	STARTSKILLPTS:8	MODTOSKILLS:YES									
-1	BONUS:PCLEVEL|Wizard|1	ADD:SPELLCASTER|1|Wizard									
-2	BONUS:PCLEVEL|Wizard|1										
-3	BONUS:PCLEVEL|Wizard|1										
-4	BONUS:PCLEVEL|Wizard|1										
-5	BONUS:PCLEVEL|Wizard|1										
-6	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1									
-7	BONUS:PCLEVEL|Wizard|1										
-8	BONUS:PCLEVEL|Wizard|1										
-9	BONUS:PCLEVEL|Wizard|1										
-10	BONUS:PCLEVEL|Wizard|1										

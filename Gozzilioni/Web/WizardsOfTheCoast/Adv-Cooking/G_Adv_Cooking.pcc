@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Monster Mayehm
+CAMPAIGN:Gozzilioni Adventure
 GAMEMODE:35e
 RANK:7
 TYPE:Gozzilioni.WebEnhancement
 SETTING:Heroes
-SOURCELONG:Gozzilioni Monster Mayehm
-SOURCESHORT:MMay
+SOURCELONG:Gozzilioni 
+SOURCESHORT:Adv
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
@@ -14,10 +14,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Wizards Articles: Monster Mayhem
-CLASS:mmay_classes_monster__dragons.lst
-RACE:mmay_races__dragons.lst
-SPELL:mmay_spells.lst
-
+RACE:adv_races.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

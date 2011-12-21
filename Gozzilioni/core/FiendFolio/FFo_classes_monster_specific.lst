@@ -6,9 +6,9 @@ CLASS:Chronotyryn	PRERACE:1,Chronotyryn	PRERACETYPE:Magical Beast
 # Class Name	Skill Pts/Lvl	Skill Pts/Lvl	Add INT to Skill Points?																																																				
 CLASS:Chronotyryn	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
 1																																																							
-2	BONUS:PCLEVEL|Sorcerer|1		ADD:SPELLCASTER|1|Sorcerer																																																				
+2			ADD:SPELLCASTER|1|Sorcerer
 3	BONUS:PCLEVEL|Sorcerer|1																																																						
-4	BONUS:PCLEVEL|Sorcerer|1																																																						
+4	BONUS:PCLEVEL|Sorcerer|1
 5																																																							
 6	BONUS:PCLEVEL|Sorcerer|1																																																						
 7	BONUS:PCLEVEL|Sorcerer|1																																																						
@@ -29,7 +29,7 @@ CLASS:Shator	HD:8		TYPE:Monster	MAXLEVEL:45	SOURCEPAGE:FFo	ABILITY:Special Abili
 CLASS:Shator	PRERACE:1,Demodand (Shator)	PRERACETYPE:Outsider																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Shator	STARTSKILLPTS:8	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Sorcerer|1		ADD:SPELLCASTER|1|Sorcerer																																																				
+1			ADD:SPELLCASTER|1|Sorcerer																																																				
 2																																																							
 3	BONUS:PCLEVEL|Sorcerer|1																																																						
 4																																																							
@@ -51,7 +51,7 @@ CLASS:Klurichir	HD:8		TYPE:Monster	MAXLEVEL:60	SOURCEPAGE:FFo	ABILITY:Special Ab
 CLASS:Klurichir	PRERACE:1,Tanar'ri (Klurichir)	PRERACETYPE:Outsider																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Klurichir	STARTSKILLPTS:8	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Sorcerer|1		ADD:SPELLCASTER|1|Sorcerer																																																				
+1			ADD:SPELLCASTER|1|Sorcerer																																																				
 2																																																							
 3	BONUS:PCLEVEL|Sorcerer|1																																																						
 4																																																							
@@ -77,7 +77,7 @@ CLASS:Black Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:16	SOURCEPAGE:FFo	ABILITY:Spe
 CLASS:Black Ethergaunt	PRERACE:1,Black Ethergaunt	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Black Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
+1	BONUS:PCLEVEL|Wizard|1		ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|1																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
 4	BONUS:PCLEVEL|Wizard|1																																																						
@@ -99,28 +99,28 @@ CLASS:Red Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:5	SOURCEPAGE:FFo	ABILITY:Specia
 CLASS:Red Ethergaunt	PRERACE:1,Red Ethergaunt	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Red Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
-2	BONUS:PCLEVEL|Wizard|2																																																						
-3	BONUS:PCLEVEL|Wizard|1																																																						
-4	BONUS:PCLEVEL|Wizard|2																																																						
-5	BONUS:PCLEVEL|Wizard|2																																																						
+1			ADD:SPELLCASTER|1|Wizard																																																				
+2	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1																																																					
+3	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1																																																					
+4	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1																																																					
+5	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1
 #																																																							
-CLASS:White Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:5	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																														
+CLASS:White Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:11	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type																																																						
 CLASS:White Ethergaunt	PRERACE:1,White Ethergaunt	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:White Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
+1			ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|1																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
 4	BONUS:PCLEVEL|Wizard|1																																																						
-5	BONUS:PCLEVEL|Wizard|1																																																						
-6	BONUS:PCLEVEL|Wizard|1																																																						
+5	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1																																																					
+6	BONUS:PCLEVEL|Wizard|1	
 7	BONUS:PCLEVEL|Wizard|1																																																						
-8	BONUS:PCLEVEL|Wizard|2																																																						
+8	BONUS:PCLEVEL|Wizard|1																																																						
 9	BONUS:PCLEVEL|Wizard|1																																																						
-10	BONUS:PCLEVEL|Wizard|1																																																						
-11	BONUS:PCLEVEL|Wizard|1																																																						
+10	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1																																																					
+11	BONUS:PCLEVEL|Wizard|1	
 #																																																							
 # Class Name	Hit Dice	Type			Max Level		Source Page					Ability																										Save checks bonus											Combat bonus						
 CLASS:Fensir	HD:8		TYPE:Monster	MAXLEVEL:4	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Giant Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																													
@@ -128,18 +128,18 @@ CLASS:Fensir	HD:8		TYPE:Monster	MAXLEVEL:4	SOURCEPAGE:FFo	ABILITY:Special Abilit
 CLASS:Fensir	PRERACE:1,Fensir	PRERACETYPE:Giant																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Fensir		STARTSKILLPTS:2	MODTOSKILLS:YES																																																				
-1	BONUS:PCLEVEL|Wizard|2		ADD:SPELLCASTER|1|Wizard																																																				
+1			ADD:SPELLCASTER|1|Wizard																																																				
 2	BONUS:PCLEVEL|Wizard|1																																																						
 3	BONUS:PCLEVEL|Wizard|1																																																						
-4	BONUS:PCLEVEL|Wizard|1																																																						
+4	BONUS:PCLEVEL|Wizard|1	BONUS:PCLEVEL|Wizard|1																																																					
 #																																																							
 # Class Name			Hit Dice	Type			Max Level		Source Page					Ability																														Save checks bonus											Combat bonus
 CLASS:Jackal Lord	HD:8		TYPE:Monster	MAXLEVEL:8	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Monstrous Humanoid Proficiencies|PREVAREQ:NoTypeProficiencies,0	ABILITY:Special Ability|AUTOMATIC|Monstrous Humanoid Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																													
 # Class Name			Reg. Race Type																																																				
 CLASS:Jackal Lord	PRERACE:1,Jackal Lord	PRERACETYPE:Monstrous Humanoid																																																					
 # Class Name			Skill Pts/Lvl	Add INT to Skill Points?																																																			
-CLASS:Jackal Lord	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Cleric|1	DOMAIN:Animal|Evil	ADD:SPELLCASTER|1|Cleric																																																				
+CLASS:Jackal Lord	STARTSKILLPTS:2	MODTOSKILLS:YES	BONUS:DOMAIN|NUMBER|2																																																				
+1			ADD:SPELLCASTER|1|Cleric	DOMAIN:Animal|Evil																																																			
 2	BONUS:PCLEVEL|Cleric|1																																																						
 3	BONUS:PCLEVEL|Cleric|1																																																						
 4	BONUS:PCLEVEL|Cleric|1																																																						
@@ -155,18 +155,18 @@ CLASS:Maug	PRERACE:1,Maug	PRERACETYPE:Construct
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Maug	STARTSKILLPTS:8	MODTOSKILLS:YES																																																					
 #																																																							
-CLASS:Spirit of the Air	HD:10		TYPE:Monster	MAXLEVEL:51	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Magical Beast Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
+CLASS:Spirit of the Air	HD:10		TYPE:Monster	MAXLEVEL:33	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Magical Beast Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type	Reg. Race Type	Reg. Race Type																																																				
 CLASS:Spirit of the Air	PRERACE:1,Spirit of the Air	PRERACETYPE:Magical Beast																																																					
 # Class Name	Skill Pts/Lvl	Skill Pts/Lvl	Add INT to Skill Points?																																																				
-CLASS:Spirit of the Air	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
-1	BONUS:PCLEVEL|Cleric|1	DOMAIN:Air|Luck	ADD:SPELLCASTER|1|Cleric																																																				
+CLASS:Spirit of the Air	STARTSKILLPTS:2	MODTOSKILLS:YES	BONUS:DOMAIN|NUMBER|1																																																				
+1			ADD:SPELLCASTER|1|Cleric	DOMAIN:Air|Luck
 2																																																							
 3	BONUS:PCLEVEL|Cleric|1																																																						
 4																																																							
 5	BONUS:PCLEVEL|Cleric|1																																																						
-6																																																							
-7	BONUS:PCLEVEL|Cleric|2																																																						
+6		BONUS:PCLEVEL|Cleric|1																																																					
+7	BONUS:PCLEVEL|Cleric|1																																																						
 8																																																							
 9	BONUS:PCLEVEL|Cleric|1																																																						
 10																																																							

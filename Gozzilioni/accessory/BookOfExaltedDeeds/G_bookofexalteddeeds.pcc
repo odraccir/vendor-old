@@ -20,6 +20,7 @@ ABILITY:EXD_abilities_class.lst
 CLASS:EXD_classes_sanctified.lst
 CLASS:EXD_classes_base.lst
 CLASS:EXD_classes_monsters.lst
+CLASS:EXD_classes_monster_specific.lst
 CLASS:EXD_classes_prestige.lst
 SPELL:EXD_classes_spells.lst
 COMPANIONMOD:EXD_companionmods.lst
