@@ -9,26 +9,26 @@ SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net
 #1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
 CLASS:Necrotic Cyst Spells (Arcane/WIS)	HD:1	TYPE:NecroticCystSpells	ABB:Necrotic Cyst Spells		SOURCEPAGE:LM					VISIBLE:NO	
-CLASS:Necrotic Cyst Spells (Arcane/WIS)	SPELLSTAT:WIS	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Necrotic Cyst	BONUS:CASTERLEVEL|Necrotic Cyst (Arcane/WIS)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Necrotic Cyst Spells (Arcane/WIS)	SPELLSTAT:WIS	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic Cyst (Arcane/WIS)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
 CLASS:Necrotic Cyst Spells (Arcane/INT)	HD:1	TYPE:NecroticCystSpells	ABB:Necrotic Cyst Spells		SOURCEPAGE:LM					VISIBLE:NO	
-CLASS:Necrotic Cyst Spells (Arcane/INT)	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Necrotic Cyst	BONUS:CASTERLEVEL|Necrotic Cyst (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Necrotic Cyst Spells (Arcane/INT)	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic Cyst (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
 CLASS:Necrotic Cyst Spells (Arcane/CHA)	HD:1	TYPE:NecroticCystSpells	ABB:Necrotic Cyst Spells		SOURCEPAGE:LM					VISIBLE:NO	
-CLASS:Necrotic Cyst Spells (Arcane/CHA)	SPELLSTAT:CHA	SPELLTYPE:Arcane	SPELLBOOK:YES	SPELLLIST:1|Necrotic Cyst	BONUS:CASTERLEVEL|Necrotic Cyst (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Necrotic Cyst Spells (Arcane/CHA)	SPELLSTAT:CHA	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic Cyst (Arcane/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
 CLASS:Necrotic Cyst Spells (Divine/WIS)	HD:1	TYPE:NecroticCystSpells	ABB:Necrotic Cyst Spells		SOURCEPAGE:LM					VISIBLE:NO	
-CLASS:Necrotic Cyst Spells (Divine/WIS)	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Necrotic Cyst	BONUS:CASTERLEVEL|Necrotic Cyst (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Necrotic Cyst Spells (Divine/WIS)	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic Cyst (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
 CLASS:Necrotic Cyst Spells (Divine/INT)	HD:1	TYPE:NecroticCystSpells	ABB:Necrotic Cyst Spells		SOURCEPAGE:LM					VISIBLE:NO	
-CLASS:Necrotic Cyst Spells (Divine/INT)	SPELLSTAT:INT	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Necrotic Cyst	BONUS:CASTERLEVEL|Necrotic Cyst (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Necrotic Cyst Spells (Divine/INT)	SPELLSTAT:INT	SPELLTYPE:Divine	SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic Cyst (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
 CLASS:Necrotic Cyst Spells (Divine/CHA)	HD:1	TYPE:NecroticCystSpells	ABB:Necrotic Cyst Spells		SOURCEPAGE:LM					VISIBLE:NO	
-CLASS:Necrotic Cyst Spells (Divine/CHA)	SPELLSTAT:CHA	SPELLTYPE:Divine	SPELLBOOK:YES	SPELLLIST:1|Necrotic Cyst	BONUS:CASTERLEVEL|Necrotic Cyst (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
+CLASS:Necrotic Cyst Spells (Divine/CHA)	SPELLSTAT:CHA	SPELLTYPE:Divine	SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic Cyst (Divine/INT)|TL	BONUSSPELLSTAT:NONE					
 1	CAST:0,0,0,0,0,0,0,0,0,0										
 #											
