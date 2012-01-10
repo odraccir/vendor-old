@@ -280,10 +280,10 @@ Xerfilstyx Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPU
 Yeti Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+12 racial bonus on Hide check while in snow.																												SOURCEPAGE:Fro										
 Zeuglodon Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard.																												SOURCEPAGE:Fro										
 Abyssal Ant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
-Plague Ant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
-Cranium Rat Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Plague Ant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+Cranium Rat Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+Viper Swarm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
+Terlen Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -302,7 +302,6 @@ Drug Addiction(Vicious)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	D
 Immunity To Air	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to Air effects.																												SOURCEPAGE:MM2	ASPECT:Immunity|Air									
 Immunity To Arcane Spells	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Immunity	VISIBLE:YES	DESC:You are never subject to arcane spells of %1 level.|ImmunityToSpellLevel				DEFINE:ImmunityToSpellLevel|0																								SOURCEPAGE:FFo	ASPECT:Immunity|Arcane Spells									
 Immunity To Backlash	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take backlash damage																												SOURCEPAGE:PGtF	ASPECT:Immunity|Backlash									
-Immunity To Blindness	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never be blinded.																												SOURCEPAGE:FFo	ASPECT:Immunity|Blindness									
 Immunity To Blunt Weapon Damage	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Immunity	VISIBLE:YES	DESC:You are never subject to damage from blunt weapons.																												SOURCEPAGE:MM2	ASPECT:Immunity|Blunt Weapon Damage									
 Immunity To Bull Rush	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never be bull rushed or tripped.																												SOURCEPAGE:PH	ASPECT:Immunity|Bull Rush									
 Immunity To Chaos Spells	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:Immune to all spells with Chaotic descriptor																												SOURCEPAGE:MM2	ASPECT:Immunity|Spells with Chaotic descriptor									
@@ -2685,7 +2684,7 @@ Smite Evil Outsider	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatur
 Smite Fallen	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Extraordinary.AttackOption	VISIBLE:YES																													SOURCEPAGE:Mon										
 Smite Guilty	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteGuiltyToHit|SmiteGuiltyDamage|SmiteGuilty				DEFINE:SmiteGuiltyToHit|max(0,CHA)	DEFINE:SmiteGuiltyDamage|0	DEFINE:SmiteGuilty|0																						SOURCEPAGE:CAd										
 Smite Infidels	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteInfidelsToHit|SmiteInfidelsDamage|SmiteInfidels				DEFINE:SmiteInfidelsToHit|max(CHA,0)	DEFINE:SmiteInfidelsDamage|0	DEFINE:SmiteInfidels|0																						SOURCEPAGE:PGtF										
-Smite Law		CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DEFINE:SmiteLawToHit|max(CHA,0)	DEFINE:SmiteLawDamage|0	DEFINE:SmiteLaw|0	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteLawToHit|SmiteLawDamage|SmiteLaw	SOURCEPAGE:PH																																	
+Smite Law	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteLawToHit|SmiteLawDamage|SmiteLaw				DEFINE:SmiteLawToHit|max(CHA,0)	DEFINE:SmiteLawDamage|0	DEFINE:SmiteLaw|0																						SOURCEPAGE:PH										
 Smite Mortals	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteMortalsToHit|SmiteMortalsDamage|SmiteMortals				DEFINE:SmiteMortalsToHit|0	DEFINE:SmiteMortalsDamage|0	DEFINE:SmiteMortals|0																						SOURCEPAGE:BoVD										
 Smite Nonaquatic	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteNonaquaticToHit|SmiteNonaquaticDamage|SmiteNonaquatic				DEFINE:SmiteNonaquaticToHit|0	DEFINE:SmiteNonaquaticDamage|0	DEFINE:SmiteNonaquatic|0																						SOURCEPAGE:PGtF										
 Smite Undead	CATEGORY:Special Ability	TYPE:SpecialAttack.Smite.Supernatural.AttackOption	VISIBLE:YES	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteUndeadToHit|SmiteUndeadDamage|SmiteUndead				DEFINE:SmiteUndeadToHit|0	DEFINE:SmiteUndeadDamage|0	DEFINE:SmiteUndead|0																						SOURCEPAGE:CW										
@@ -3314,7 +3313,8 @@ Work the Angles	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Special
 World Traveler	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:DD										
 World Wise	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.Lore	VISIBLE:YES	DESC:+%1|WorldWise				DEFINE:WorldWise|0	DEFINE:WorldWiseLvl|0		BONUS:VAR|WorldWise|INT+WIS																					SOURCEPAGE:RLCoD										
 Worry	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|WorryDC				DEFINE:WorryDC|10+(HD/2)+STR																								SOURCEPAGE:MM3										
-Worry ~ Fhorge	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																													SOURCEPAGE:FFo										
+Worry ~ Fhorge	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES		OUTPUTNAME:Worry	SERVESAS:ABILITY=Special Ability|Worry																										SOURCEPAGE:FFo										
+Worry ~ Terlen	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES		OUTPUTNAME:Worry	SERVESAS:ABILITY=Special Ability|Worry																										SOURCEPAGE:FFo										
 Wound Rot	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM3										
 Wounding Critical	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Wounding Curse	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (Fort DC %2)|WoundingCursePerDay|WoundingCurseDC				DEFINE:WoundingCursePerDay|0	DEFINE:WoundingCurseDC|10+(HD/2)+CHA																							SOURCEPAGE:FFo										
@@ -3334,8 +3334,22 @@ Magic Sense	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Sense	VIS
 Brilliant Aura	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.Aura	VISIBLE:YES	DESC:Fort  DC %1 or blindedeach round|BrilliantAuraDC				DEFINE:BrilliantAuraDC|10+(HD/2)+WIS			BONUS:SKILL|Hide|-20																					SOURCEPAGE:FFo										
 Brilliant Energy	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Energy Form	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Penetration	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:penetrate damage reduction as if it were Magic weapon.																												SOURCEPAGE:FFo										
+Penetration ~ Adamantine	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:penetrate damage reduction as if it were Adamantine weapon.	OUTPUTNAME:Penetration	SERVESAS:ABILITY=Special Ability|Penetration																										SOURCEPAGE:MM3										
+Penetration ~ Magic	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:penetrate damage reduction as if it were Magic weapon.	OUTPUTNAME:Penetration	SERVESAS:ABILITY=Special Ability|Penetration																										SOURCEPAGE:FFo										
 Merge Swarm	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:two group can create one superior group joining.																												SOURCEPAGE:FFo										
+Breath Weapon ~ Cone of Noxious Vapor	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Noxious Vapor Fort DC %2|BreathWeaponCone|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0			DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
+Swarm Regeneration	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Reanimate	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Hypnotic Pattern (Su/wis)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:continuous Hypnotic Pattern effect. Will DC %1.|HypnoticPatternDC	OUTPUTNAME:Hypnotic Pattern (Su)			DEFINE:HypnoticPatternDC|10+(HD/2)+WIS																								SOURCEPAGE:FFo										
+Superior Swarm	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:deal more swarm damage than their hit dice would otherwise indicate.																												SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
