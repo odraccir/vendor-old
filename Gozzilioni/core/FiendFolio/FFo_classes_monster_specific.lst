@@ -195,3 +195,25 @@ CLASS:Cranium Rat	STARTSKILLPTS:2	MODTOSKILLS:YES
 22	BONUS:PCLEVEL|Sorcerer|1																																																						
 23																																																							
 24	BONUS:PCLEVEL|Sorcerer|1																																																						
+#																																																							
+CLASS:Ti Khana	HD:10		TYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Magical Beast Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
+# Class Name		Reg. Race Type																																																					
+CLASS:Ti Khana	PRERACETYPE:Animal																																																						
+# Class Name		Skill Pts/Lvl	Add INT to Skill Points?																																																				
+CLASS:Ti Khana	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
+1	EXCHANGELEVEL:Animal|1|20|0																																																						
+#																																																							
+CLASS:Arcanist Varrangoin	HD:10		TYPE:Monster	MAXLEVEL:16	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Magical Beast Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE																																														
+# Class Name	Reg. Race Type	Reg. Race Type	Reg. Race Type																																																				
+CLASS:Arcanist Varrangoin	PRERACE:1,Varrangoin (Arcanist)	PRERACETYPE:Magical Beast																																																					
+# Class Name	Skill Pts/Lvl	Skill Pts/Lvl	Add INT to Skill Points?																																																				
+CLASS:Arcanist Varrangoin	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
+1																																																							
+2			ADD:SPELLCASTER|1|Wizard																																																				
+3	BONUS:PCLEVEL|Wizard|1																																																						
+4	BONUS:PCLEVEL|Wizard|1																																																						
+5	BONUS:PCLEVEL|Wizard|1																																																						
+6	BONUS:PCLEVEL|Wizard|1																																																						
+7	BONUS:PCLEVEL|Wizard|1																																																						
+8	BONUS:PCLEVEL|Wizard|1																																																						
+9	BONUS:PCLEVEL|Wizard|1																																																						

@@ -15,3 +15,4 @@ Formian		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Formian		ABILITY:Specia
 Nerra		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Nerra		ABILITY:Special Ability|AUTOMATIC|Nerra Traits	LANGAUTO:Common,Nerra									
 Rilmani		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Rilmani		ABILITY:Special Ability|AUTOMATIC|Rilmani Traits	LANGAUTO:Common,Rilmani,Undercommon									
 Sarkrith		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Sarkrith		ABILITY:Special Ability|AUTOMATIC|Sarkrith Traits										
+Varrangoin		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Varrangoin		ABILITY:Special Ability|AUTOMATIC|Varrangoin Traits	LANGAUTO:Varrangoin									

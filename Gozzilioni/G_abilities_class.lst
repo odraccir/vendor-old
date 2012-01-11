@@ -60,7 +60,7 @@ Rilmani Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:
 Sarkrith Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:MaskScentPerDay|1											ABILITY:Special Ability|AUTOMATIC|Mask Scent|Scent													SOURCEPAGE:FFo										
 Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:MM3										
 Throat Dart	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:UNLOCK.CON																								SOURCEPAGE:MM3										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:										
+Varrangoin Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:AcidResistanceBonus|10	DEFINE:ColdResistanceBonus|10	DEFINE:ElectricityResistanceBonus|10	DEFINE:FireResistanceBonus|10								ABILITY:Special Ability|AUTOMATIC|Vulnerability to Sunlight|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire													SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:										
@@ -284,7 +284,7 @@ Plague Ant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPU
 Cranium Rat Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Viper Swarm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Terlen Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Tunnel Terror Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
@@ -3342,16 +3342,17 @@ Swarm Regeneration	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VI
 Reanimate	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Hypnotic Pattern (Su/wis)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:continuous Hypnotic Pattern effect. Will DC %1.|HypnoticPatternDC	OUTPUTNAME:Hypnotic Pattern (Su)			DEFINE:HypnoticPatternDC|10+(HD/2)+WIS																								SOURCEPAGE:FFo										
 Superior Swarm	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:deal more swarm damage than their hit dice would otherwise indicate.																												SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Thunderclap	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Ref DC %1|ThunderclapDC				DEFINE:ThunderclapDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
+Defensive Shock	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Ref DC %1|DefensiveShockDC				DEFINE:DefensiveDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
+Detect Poison (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:DetectPoisonLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DetectPoisonLVL|Detect Poison													SOURCEPAGE:FFo										
+Aversion (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES																SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=AVERSIONLVL|Antipathy,17+CHA													SOURCEPAGE:FFo										
+Suffocating Constriction	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Breath Weapon ~ Cone of Necromantic Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Necromantic Acid permanent %2d6 Con drain Fort DC %3|BreathWeaponCone|BreathWeaponDrain|GhostAbilityDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDrain|0	DEFINE:BreathWeaponDrain|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
+Necromantic Acid	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Spawn Skeletons	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Tendrils	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.Aura	VISIBLE:YES																													SOURCEPAGE:FFo										
+Tendrils ~ Ulgustasta	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.Aura	VISIBLE:YES	DESC:40' feet radius. -2 circumstance penalty on enemies attack rolls. Immune to small nonmagical weapons. 1D12 points of slashing damage to any creature in the area.	OUTPUTNAME:Tendrils	SERVESAS:ABILITY=Special Ability|Tendrils																										SOURCEPAGE:FFo										
+Spell Immunities (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.Immunity	VISIBLE:YES																													SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
