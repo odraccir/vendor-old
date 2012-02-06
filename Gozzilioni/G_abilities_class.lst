@@ -284,7 +284,7 @@ Plague Ant Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPU
 Cranium Rat Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Viper Swarm Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Terlen Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
-Tunnel Terror Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:										
+Tunnel Terror Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
