@@ -3350,9 +3350,8 @@ Suffocating Constriction	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAtta
 Breath Weapon ~ Cone of Necromantic Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Necromantic Acid permanent %2d6 Con drain Fort DC %3|BreathWeaponCone|BreathWeaponDrain|GhostAbilityDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDrain|0	DEFINE:BreathWeaponDrain|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
 Necromantic Acid	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Spawn Skeletons	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
-Tendrils	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.Aura	VISIBLE:YES																													SOURCEPAGE:FFo										
 Tendrils ~ Ulgustasta	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack.Aura	VISIBLE:YES	DESC:40' feet radius. -2 circumstance penalty on enemies attack rolls. Immune to small nonmagical weapons. 1D12 points of slashing damage to any creature in the area.	OUTPUTNAME:Tendrils	SERVESAS:ABILITY=Special Ability|Tendrils																										SOURCEPAGE:FFo										
 Spell Immunities (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.Immunity	VISIBLE:YES																													SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Extra Action	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
