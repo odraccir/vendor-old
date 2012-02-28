@@ -1,0 +1,38 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net										
+												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Fiend of Blasphemy	HD:8	TYPE:Prestige	ABB:Fob	MAXLEVEL:6	SOURCEPAGE:FFo	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Fiend of Blasphemy	PRERACE:1,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Evil	PRECHECKBASE:1,Will=7	PRESKILL:2,Bluff=10,Knowledge (Religion)=10	PREFEAT:1,Leadership	PRETEXT:Must have at least one spell-like ability that duplicate a spell effect of 4th level or higher.						
+CLASS:Fiend of Blasphemy	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Disguise|Knowledge (Religion)|Listen|Search|Sense Motive|Spellcraft|Spot										
+CLASS:Fiend of Blasphemy	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5		BONUS:CASTERLEVEL|Fiend of Blashpemy|CL		BONUS:DOMAIN|NUMBER|2					
+#												
+1	CAST:0,0	ABILITY:Special Ability|AUTOMATIC|Blood of Oath|Locate Cultist|Undetectable Alignment										
+2	CAST:0,1,0	ABILITY:Special Ability|AUTOMATIC|Transfer Spell Like Ability										
+3	CAST:0,1,1,0	ABILITY:Special Ability|AUTOMATIC|Sponsor Worshiper					BONUS:VAR|SponsorWorshiperLVL|2*CL					
+4	CAST:0,1,1,1,0	ABILITY:Special Ability|AUTOMATIC|Scry on Cultist|Torture Cultist					BONUS:VAR|TortureCultistDC|10+CHA+CL					
+5	CAST:0,2,1,1,1,0	ABILITY:Special Ability|AUTOMATIC|Mind Shielding										
+6	CAST:0,2,2,1,1,1	ABILITY:Special Ability|AUTOMATIC|Kill Cultist					BONUS:VAR|KillCultistDC|10+CHA+CL					
+#												
+CLASS:Fiend of Corruption	HD:6	TYPE:Prestige	ABB:Cor	MAXLEVEL:6	SOURCEPAGE:FFo	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Fiend of Corruption	PRERACE:1,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Evil	PRECHECKBASE:1,Will=7	PRESKILL:3,Bluff=10,Disguise=10,Sense Motive=10		PRETEXT:Must be able to use Charm Person or Charm Monster as a spell or spell-like ability.						
+CLASS:Fiend of Corruption	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Knowledge (Religion)|Listen|Search|Sense Motive|Spot										
+1				ABILITY:Special Ability|AUTOMATIC|Alternate Form|Fiend's Favor			BONUS:VAR|FiendsFavorPerDay|1					
+2				ABILITY:Special Ability|AUTOMATIC|Suggestion (Sp)|Mind Shielding			BONUS:VAR|SuggestionPerDay|3	BONUS:VAR|SuggestionLVL|CL				
+3				ABILITY:Special Ability|AUTOMATIC|Mark of Justice (Sp)			BONUS:VAR|MarkOfJusticePerDay|1	BONUS:VAR|MarkOfJusticeLVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Fiendish Graft|Major Creation (Sp)			BONUS:VAR|MajorCreationPerDay|3	BONUS:VAR|MajorCreation|LVL|CL				
+5				ABILITY:Special Ability|AUTOMATIC|Geas (Sp)|Temptation			BONUS:VAR|GeasPerDay|1	BONUS:VAR|GeasLVL|CL				
+6				ABILITY:Special Ability|AUTOMATIC|Wish (Sp)|Soul Bargain			BONUS:VAR|WishPerDay|1	BONUS:VAR|WishLVL|1				
+#												
+CLASS:Fiend of Possession	HD:6	TYPE:Prestige	ABB:Pos	MAXLEVEL:6	SOURCEPAGE:FFo	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+CLASS:Fiend of Possession	PRERACE:1,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Evil	PRECHECKBASE:1,Will=5	PRESKILL:2,Hide=6,Knowledge (Arcana)=6								
+CLASS:Fiend of Possession	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Hide|Listen|Search|Sense Motive|Spellcraft|Spot										
+1				ABILITY:Special Ability|AUTOMATIC|Ethereal Form|Hide Presence|Possess Object			BONUS:VAR|FiendsFavorPerDay|1					
+2				ABILITY:Special Ability|AUTOMATIC|Curse|Magic Item			BONUS:VAR|SuggestionPerDay|3	BONUS:VAR|SuggestionLVL|CL				
+3				ABILITY:Special Ability|AUTOMATIC|Control Object			BONUS:VAR|MarkOfJusticePerDay|1	BONUS:VAR|MarkOfJusticeLVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Animate Object|Possess Creature			BONUS:VAR|MajorCreationPerDay|3	BONUS:VAR|MajorCreation|LVL|CL				
+5				ABILITY:Special Ability|AUTOMATIC|Ally or Enemy|Possess Noncontinuous Object			BONUS:VAR|GeasPerDay|1	BONUS:VAR|GeasLVL|CL				
+6				ABILITY:Special Ability|AUTOMATIC|Control Creature			BONUS:VAR|WishPerDay|1	BONUS:VAR|WishLVL|1				

@@ -16,6 +16,8 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #Fiend Folio
 ABILITY:FFo_abilities_class.lst
 CLASS:FFo_classes_monster_specific.lst
+CLASS:FFo_classes_prestige.lst
+SPELL:FFo_classes_spells.lst
 EQUIPMENT:FFo_equip.lst
 EQUIPMENT:FFo_equip_armorshields_specific.lst
 EQUIPMENT:FFo_equip_poisons.lst
@@ -24,8 +26,8 @@ EQUIPMENT:FFo_equip_weap_melee_specific.lst
 EQUIPMENT:FFo_equip_weap_ranged_specific.lst
 EQUIPMENT:FFo_equip_wondrous.lst
 EQUIPMOD:FFo_equipmods_enhancing.lst
-LANGUAGE:FFo_languages.lst
 FEAT:FFo_feats.lst
+LANGUAGE:FFo_languages.lst
 RACE:FFo_races.lst
 SKILL:FFo_skills.lst
 TEMPLATE:FFo_templates.lst
