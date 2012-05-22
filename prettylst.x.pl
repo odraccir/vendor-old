@@ -1512,6 +1512,8 @@ my @PRE_Tags = (
     '!PRECHECKBASE',
     'PRECITY',
     '!PRECITY',
+	'PRECHARACTERTYPE',
+	'!PRECHARACTERTYPE',
     'PRECLASS',
     '!PRECLASS',
     'PRECLASSLEVELMAX',
@@ -2771,6 +2773,7 @@ my %master_order = (
         'HIDETYPE',
         'COMPANIONLIST',        # [ 1672551 ] PCC tag COMPANIONLIST
         'REQSKILL',
+		'STATUS',
 
         # These tags load files
         'ABILITY',
@@ -3728,6 +3731,7 @@ my %token_CHOOSE_tag = map { $_ => 1 } (
 	'FEATADD',				# Deprecated 5.15 - Remove 6.0
 	'FEATLIST',				# Deprecated 5.15 - Remove 6.0
 	'FEATSELECT',			# Deprecated 5.15 - Remove 6.0
+	'FEATSELECTION',		# [NEWTAG-96 added 5.17]
     'HP',
     'NOCHOICE',
     'NUMBER',

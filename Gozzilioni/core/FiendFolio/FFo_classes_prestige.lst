@@ -23,7 +23,7 @@ CLASS:Fiend of Corruption	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Knowle
 1				ABILITY:Special Ability|AUTOMATIC|Alternate Form|Fiend's Favor			BONUS:VAR|FiendsFavorPerDay|1					
 2				ABILITY:Special Ability|AUTOMATIC|Suggestion (Sp)|Mind Shielding			BONUS:VAR|SuggestionPerDay|3	BONUS:VAR|SuggestionLVL|CL				
 3				ABILITY:Special Ability|AUTOMATIC|Mark of Justice (Sp)			BONUS:VAR|MarkOfJusticePerDay|1	BONUS:VAR|MarkOfJusticeLVL|CL				
-4				ABILITY:Special Ability|AUTOMATIC|Fiendish Graft|Major Creation (Sp)			BONUS:VAR|MajorCreationPerDay|3	BONUS:VAR|MajorCreation|LVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Fiendish Graft|Major Creation (Sp)			BONUS:VAR|MajorCreationPerDay|3	BONUS:VAR|MajorCreationLVL|CL				
 5				ABILITY:Special Ability|AUTOMATIC|Geas (Sp)|Temptation			BONUS:VAR|GeasPerDay|1	BONUS:VAR|GeasLVL|CL				
 6				ABILITY:Special Ability|AUTOMATIC|Wish (Sp)|Soul Bargain			BONUS:VAR|WishPerDay|1	BONUS:VAR|WishLVL|1				
 #												
@@ -33,6 +33,6 @@ CLASS:Fiend of Possession	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Hide|L
 1				ABILITY:Special Ability|AUTOMATIC|Ethereal Form|Hide Presence|Possess Object			BONUS:VAR|FiendsFavorPerDay|1					
 2				ABILITY:Special Ability|AUTOMATIC|Curse|Magic Item			BONUS:VAR|SuggestionPerDay|3	BONUS:VAR|SuggestionLVL|CL				
 3				ABILITY:Special Ability|AUTOMATIC|Control Object			BONUS:VAR|MarkOfJusticePerDay|1	BONUS:VAR|MarkOfJusticeLVL|CL				
-4				ABILITY:Special Ability|AUTOMATIC|Animate Object|Possess Creature			BONUS:VAR|MajorCreationPerDay|3	BONUS:VAR|MajorCreation|LVL|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Animate Object|Possess Creature			BONUS:VAR|MajorCreationPerDay|3	BONUS:VAR|MajorCreationLVL|CL				
 5				ABILITY:Special Ability|AUTOMATIC|Ally or Enemy|Possess Noncontinuous Object			BONUS:VAR|GeasPerDay|1	BONUS:VAR|GeasLVL|CL				
 6				ABILITY:Special Ability|AUTOMATIC|Control Creature			BONUS:VAR|WishPerDay|1	BONUS:VAR|WishLVL|1				

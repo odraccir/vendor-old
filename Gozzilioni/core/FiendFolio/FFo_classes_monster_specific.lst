@@ -74,7 +74,7 @@ CLASS:Klurichir	STARTSKILLPTS:8	MODTOSKILLS:YES
 #																																																							
 CLASS:Black Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:16	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type																																																						
-CLASS:Black Ethergaunt	PRERACE:1,Black Ethergaunt	PRERACETYPE:Aberration																																																					
+CLASS:Black Ethergaunt	PRERACE:1,Ethergaunt (Black)	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Black Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
 1	BONUS:PCLEVEL|Wizard|1		ADD:SPELLCASTER|1|Wizard																																																				
@@ -96,7 +96,7 @@ CLASS:Black Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES
 #																																																							
 CLASS:Red Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:5	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type																																																						
-CLASS:Red Ethergaunt	PRERACE:1,Red Ethergaunt	PRERACETYPE:Aberration																																																					
+CLASS:Red Ethergaunt	PRERACE:1,Ethergaunt (Red)	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:Red Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
 1			ADD:SPELLCASTER|1|Wizard																																																				
@@ -107,7 +107,7 @@ CLASS:Red Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES
 #																																																							
 CLASS:White Ethergaunt	HD:8		TYPE:Monster	MAXLEVEL:11	SOURCEPAGE:FFo	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																																														
 # Class Name	Reg. Race Type																																																						
-CLASS:White Ethergaunt	PRERACE:1,White Ethergaunt	PRERACETYPE:Aberration																																																					
+CLASS:White Ethergaunt	PRERACE:1,Ethergaunt (White)	PRERACETYPE:Aberration																																																					
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																																																					
 CLASS:White Ethergaunt	STARTSKILLPTS:2	MODTOSKILLS:YES																																																					
 1			ADD:SPELLCASTER|1|Wizard																																																				

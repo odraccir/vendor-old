@@ -35,6 +35,7 @@ CATEGORY=Special Ability|All-Around Vision.MOD	DESC:Cannot be Flanked	BONUS:SKIL
 # Racial Ability Name	CATEGORY	TYPE	VISIBLE	SAB:			DEFINE				BONUS				STACK	MULT	CHOOSE	SELECT																								
 Abishai Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES								BONUS:VAR|AcidResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10	BONUS:VAR|RegenerationRate|HD	BONUS:VAR|TelepathyRange|100					ABILITY:Special Ability|AUTOMATIC|Summon Baatezu ~ Abishai|Immunity To Fire|Immunity To Poison|Resistance To Cold|Resistance To Acid|Regeneration|See In Darkness|Telepathy|Vulnerability To Holy Water	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=HD|Animate Dead|Disguise Self|Charm Person|Command|Desecrate|Detect Alignment|Major Image|Suggestion|Scare												SOURCEPAGE:Mon										
 Abomination Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:Abomination do not eat/sleep/breathe. Immune to critical hits, they cannot be flanked,  and they never suffer sneak attack damage. Immune to disease, poison, stunning and sleep effects,  and death effects.							BONUS:ABILITYPOOL|Abomination Strenght|2	BONUS:ABILITYPOOL|Abomination Weakness|2							ABILITY:Special Ability|AUTOMATIC|Immunity To Mind-Affecting	ABILITY:Special Ability|AUTOMATIC|Immunity To Fear	ABILITY:Special Ability|AUTOMATIC|Immunity To Enchantment											SOURCEPAGE:DD										
+Acid Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Vulnerability To Water												SOURCEPAGE:??										
 Alkilith Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:half damage from bludgeoning wepons.																												SOURCEPAGE:FFo										
 Aoa Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:FireResistanceBonus|20	DEFINE:ColdResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20	BONUS:SKILL|Hide|-6|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Dispelling Touch|Reflective Spell Resistance|Immunity To Gaze|Resistance To Fire|Resistance To Cold|Resistance To Electricity|Resistance To Sonic	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=15|Detect Magic,10+CHA	DEFINE:SonicResistanceBonus|20											SOURCEPAGE:FFo										
 Baatezu Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:MM										
@@ -47,6 +48,7 @@ Deathless Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBL
 Demodand Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																ABILITY:Special Ability|AUTOMATIC|Freedom of Movement (Sp always active)|Immunity To Poison													SOURCEPAGE:FFo										
 Deva Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold|Immunity To Electricity|Protective Aura													SOURCEPAGE:FFo										
 Eladrin Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																AUTO:EQUIP|Energon Energy Ray	ABILITY:Special Ability|AUTOMATIC|Explosion												SOURCEPAGE:MM										
+Electricity Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES				DEFINE:Maneuverability|5												ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Vulnerability To Water												SOURCEPAGE:??										
 Energon Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																													SOURCEPAGE:MM										
 Ethergaunt Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES					DEFINE:EthergauntLanguage|1											ABILITY:Special Ability|AUTOMATIC|Enslave|Stupefying Gaze|Immunity To Arcane Spells|Material Jaunt|Total Vision													SOURCEPAGE:FFo										
 Fensir Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES																ABILITY:Special Ability|AUTOMATIC|Rock Throwing|Rock Catching|Vulnerability To Sunlight	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=9|Transmute Mud to Rock,15+CHA|Transmute Rock to Mud,15+CHA												SOURCEPAGE:Fro										
@@ -291,8 +293,8 @@ Vorr Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:
 Anathema Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. It can always take 10 on a climb check even if rushed or threatened. +8 Racial bonus on Survival checks when tracking by scent.																												SOURCEPAGE:FFo										
 Piscoloth Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Skeroloth Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
-Yurian  Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
-Aboleth Skum Tail Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:										
+Yurian Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Aboleth Skum Tail Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -537,6 +539,7 @@ Alien Presence	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQ
 Align Puissance	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day align weapon wielded for %2 rounds|AlignPuissancePerDay|AlignPuissanceDuration				DEFINE:AlignPuissancePerDay|0	DEFINE:AlignPuissanceDuration|0																							SOURCEPAGE:PH										
 Aligned Strike	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day (%2 minutes)|AlignedStrikePerDay|AlignedStrikeDuration				DEFINE:AlignedStrikePerDay|0	DEFINE:AlignedStrikeDuration|0																							SOURCEPAGE:PH										
 Alignment Purity	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:VAR|SmiteEvil|-1																					SOURCEPAGE:PH										
+Ally or Enemy	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Alter Appearance	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality																																								
 Alter Past	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day|AlterPastPerDay				DEFINE:AlterPastPerDay|0																								SOURCEPAGE:MM3										
 Alter Self	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:at will.																												SOURCEPAGE:PGtF										
@@ -557,6 +560,7 @@ Animal Husbandry	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Specia
 Animate Dead	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:MM3										
 Animate Dead (Sp/no component)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES	DESC:no component	OUTPUTNAME:Animate Dead (Sp)			DEFINE:AnimateDeadPerDay|0	DEFINE:AnimateDeadLVL|0										SPELLS:Innate|TIMES=AnimateDeadPerDay|CASTERLEVEL=AnimateDeadLVL|Animate Dead,14+CHA																							
 Animate Eyeballs	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Animate Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Animate Statue	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Animate Vines (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Annoying Strike	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
@@ -632,7 +636,7 @@ Aura of Stability	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.Specia
 Aura of Unluck	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality.Aura	VISIBLE:YES	DESC:%1/day %2 rounds|AuraUnluckPerDay|AuraUnluckDuration				DEFINE:AuraUnluckPerDay|0	DEFINE:AuraUnluckDuration|0																							SOURCEPAGE:CW										
 Aura of Warding	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality.Aura	VISIBLE:YES																													SOURCEPAGE:CD										
 Auravision	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES								VISION:Auravision (60')																					SOURCEPAGE:CW										
-Aversion (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES																SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=AVERSIONLVL|Antipathy,17+CHA													SOURCEPAGE:FFo										
+Aversion (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES						DEFINE:AversionLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=AversionLVL|Antipathy,17+CHA													SOURCEPAGE:FFo										
 Awaken Blood	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (melee touch, 10d10 damage)|AwakenBloodPerDay				DEFINE:AwakenBloodPerDay|0																								SOURCEPAGE:CA										
 Awaken Vermin	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:SS										
 Awakened Frightful Presence	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.MindAffecting.Fear	VISIBLE:YES	DESC:%1 ft (Will DC %2)|AwakenedFrightfulPresRange|AwakenedFrightfulPresenceDC|PREVARGT:AwakenedFrightfulPresRange,0	DESC:Your very presence unsettling to foes. It takes effect automatically when you perform some sort of dramatic action (such as charging, attacking, or snarling). Opponents with fewer hit dice than your racial hitdice within range who witness the action may become frightened or shaken.	SERVESAS:ABILITY=Special Ability|Frightful Presence		DEFINE:AwakenedFrightfulPresRange|0	DEFINE:AwakenedFrightfulPresenceDC|10+(HD/2)+CHA			BONUS:VAR|AwakenedFrightfulPresenceDC|2|PREFEAT:1,Ability Focus(Frightful Presence)																				SOURCEPAGE:Drac										
@@ -1053,9 +1057,11 @@ Contagion (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuali
 Contagion (Sp/WIS)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:ContagionPerDay|0	DEFINE:ContagionLVL|0										SPELLS:Innate|TIMES=ContagionPerDay|CASTERLEVEL=ContagionLVL|Contagion,13+WIS													SOURCEPAGE:BoVD										
 Contagious Touch	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day|ContagiousTouchTimes					DEFINE:ContagiousTouchTimes|0																							SOURCEPAGE:CD										
 Contingent Healing	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:You regain %1 hit points per round when near living creatures.|ContingentHealing				DEFINE:ContingentHealing|0																								SOURCEPAGE:LM										
+Control Creature	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Control Flames (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:ControlFlamesPerDay|0	DEFINE:ControlFlamesLVL|0										SPELLS:Innate|TIMES=ControlFlamesPerDay|CASTERLEVEL=ControlFlamesLVL|Control Flames,10+CHA													SOURCEPAGE:Mon										
 Control Host	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.AbilityFocus	VISIBLE:YES	DESC:Will DC %|ControlHostDC				DEFINE:ControlHostDC|10+CHA+(HD/2)				BONUS:VAR|ControlHostDC|2|PREFEAT:1,Ability Focus(Control Host)																				SOURCEPAGE:FRCS										
 Control Light (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FRCS										
+Control Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Control Rage (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:as per Rage spell (Will DC %1)|ControlRageDC				DEFINE:ControlRageDC|10+(HD/2)+CHA																								SOURCEPAGE:MM3										
 Control Sphere	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CD										
 Control Undead (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Nep										
@@ -1104,7 +1110,6 @@ Creative Fire	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQu
 Creeper Loyalty	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Creeping Doom (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:CreepingDoomPerDay|0	DEFINE:CreepingDoomLVL|0										SPELLS:Innate|TIMES=CreepingDoomPerDay|CASTERLEVEL=CreepingDoomLVL|Creeping Doom													SOURCEPAGE:SS										
 Cringe	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|CringeDC				DEFINE:CringeDC|10+(HD/2)+CON																								SOURCEPAGE:FFo										
-Cringe	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:Will DC %1|CringeDC				DEFINE:CringeDC|10+(HD/2)+CHA																								SOURCEPAGE:FFo										
 Critical Throw	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Crowd Pleaser	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:RLCoD										
 Crown of Fire	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:10 spellfire levels/rounds																												SOURCEPAGE:MoF										
@@ -1118,6 +1123,7 @@ Crystallization	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBL
 Crystals of Nature Wrath	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|CrystalOfNatureDC				DEFINE:CrystalOfNatureDC|10+CHA																								SOURCEPAGE:LoM										
 Curative Transformation	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:BoVD										
 Curse	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/year|CursePerYear				DEFINE:CursePerYear|0																								SOURCEPAGE:Fro										
+Curse (Ex)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Curse of Revenancer	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:Zombie																												SOURCEPAGE:PGtF										
 Curse of the Jackal	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day (Will DC %2)|CurseOfTheJackalPerDay|CurseOfTheJackalDC				DEFINE:CurseOfTheJackalPerDay|0	DEFINE:CurseOfTheJackalPerDay|10+(HD/2)+CHA																							SOURCEPAGE:FFo										
 Dagger Claws	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:adds any magical properties of daggers into natural attacks of the wild shape's form.																												SOURCEPAGE:CAd										
@@ -1513,6 +1519,7 @@ Eternal Charm	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack
 Eternal Obsession	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:EXD										
 Eternal Torpor	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:evil creatures Fort DC %1 or affliction Eternal torpor|EternalTorporDC				DEFINE:EternalTorporDC|10+(HD/2)+CON																								SOURCEPAGE:MM2										
 Ethereal Bite	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Drac										
+Ethereal Form	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Ethereal Jaunt (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:EtherealJauntPerDay|0	DEFINE:EtherealJauntLVL|0										SPELLS:Innate|TIMES=EtherealJauntPerDay|CASTERLEVEL=EtherealJauntLVL|Ethereal Jaunt													SOURCEPAGE:Nep										
 Ethereal Jolt	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|EtherealJoltDC				DEFINE:EtherealJoltDC|10+(HD/2)+STR																								SOURCEPAGE:FFo										
 Ethereal Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Sense	VISIBLE:YES																													SOURCEPAGE:MM2										
@@ -1638,7 +1645,6 @@ Fixed Shape	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:Y
 Flame Spit	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:10' ft range, 1d4 Fire damage.																												SOURCEPAGE:Nep										
 Flaming Aura (Ex)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.AbilityFocus.Aura	VISIBLE:YES	DESC:Fort DC %1|FlamingAuraDC				DEFINE:FlamingAuraDC|10+CON+(HD/2)				BONUS:VAR|FlamingAuraDC|2|PREFEAT:1,Ability Focus(Flaming Aura)																				SOURCEPAGE:BoVD										
 Flaming Aura (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.Aura	VISIBLE:YES																													SOURCEPAGE:MM3										
-Flaming Body	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Flammable Spray	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Ref DC %1|FlammableSprayDC				DEFINE:FlammableSprayDC|10+(HD/2)+CON																								SOURCEPAGE:MM3										
 Flanking Teamwork	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+1 circumstances bonus on attack roll to you and your allies against an opponent flanked by you and by your allies.																												SOURCEPAGE:CAd										
 Flare (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:FlarePerDay|0	DEFINE:FlareLVL|0										SPELLS:Innate|TIMES=FlarePerDay|CASTERLEVEL=FlareLVL|Flare,10+CHA													SOURCEPAGE:BoVD										
@@ -1850,6 +1856,7 @@ Hexbraker	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality
 Hidden Heart	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:SKILL|Diplomacy|-2																					SOURCEPAGE:Nep										
 Hide from Dragons (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:HideFromDragonsPerDay|0	DEFINE:HideFromDragonsLVL|0										SPELLS:Innate|TIMES=HideFromDragonsPerDay|CASTERLEVEL=HideFromDragonsLVL|Hide from Dragons,17+CHA													SOURCEPAGE:Drac										
 Hide in Fog	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:+4 racial bonus to Hide when in light fog. +7 racial bonus to Hide check when in dense fog.																												SOURCEPAGE:Mon										
+Hide Presence	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Hide Scent	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Drac										
 Hidecarved Resistance	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO					DEFINE:HidecarvedResistanceBase|10																								SOURCEPAGE:Drac										
 Hit Point Drain	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|HitPointDrainDC				DEFINE:HitPointDrainDC|10+(HD/2)+CHA																								SOURCEPAGE:Mon										
@@ -2048,7 +2055,7 @@ Invisibility (Ex)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VIS
 Invocation	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:NO					DEFINE:InvocationDC|10+CHA	DEFINE:InvocationLVL|0		BONUS:VAR|InvocationDC|2|PREFEAT:1,Ability Focus(Eldritch Blast)																					SOURCEPAGE:CA										
 Invocation of the Knife	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CAd										
 Invulnerability	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:act as Globe of Invulnerability																												SOURCEPAGE:EXD										
-Invulnerability	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
+Invulnerability (Ex)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Iron Body (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:IronBodyPerDay|0	DEFINE:IronBodyLVL|0										SPELLS:Innate|TIMES=IronBodyPerDay|CASTERLEVEL=IronBodyLVL|Iron Body,18+CHA													SOURCEPAGE:BoVD										
 Iron Hews	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day +3 divine bonus on damage|IronHewsPerDay				DEFINE:IronHewsPerDay|0																								SOURCEPAGE:BoVD										
 Iron Hews (Greater)	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day +6 divine bonus on damage|GreaterIronHewsPerDay	OUTPUTNAME:Iron Hews, Greater			DEFINE:GreaterIronHewsPerDay|0																								SOURCEPAGE:BoVD										
@@ -2148,6 +2155,7 @@ Magic Aura (Sp at will)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.Spe
 Magic Circle	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:constant magic circle against evil.																												SOURCEPAGE:EXD										
 Magic Circle against Evil (Sp always active)	CATEGORY:Special Ability	TYPE:Spelllike.SpecialQuality	VISIBLE:YES	DESC:always active	OUTPUTNAME:Magic Circle against Evil (Sp)																											SOURCEPAGE:EXD										
 Magic Defense	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1|MagicDefenceBonus				DEFINE:MagicDefenceBonus|0																								SOURCEPAGE:CW										
+Magic Item	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Magic Missile (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM2										
 Magic Missile (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:Mon										
 Magic Sense	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.Sense	VISIBLE:YES																													SOURCEPAGE:FFo										
@@ -2403,6 +2411,9 @@ Positive Energy Aura	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.Spe
 Positive Energy Burst	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.SpecialAttack	VISIBLE:YES	DESC:%1d6 damage to undead (Ref DC %2)|PositiveEnergyDie|PositiveEnergyBurstDC			DEFINE:PositiveEnergyBurstDC|10	DEFINE:PositiveEnergyDie|0																								SOURCEPAGE:CD										
 Positive Energy Ray	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality.Ray	VISIBLE:YES	DESC:60'ft range.																												SOURCEPAGE:PH										
 Positive Energy Touch	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:EXD										
+Possess Creature	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Possess Noncontinuous Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
+Possess Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Possession	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:Nep										
 Potion Making	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:MM2										
 Pounce of the Tigress	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PGtF										
@@ -3403,17 +3414,6 @@ Zone of Desecration	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.Spec
 Zulkir Champion	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day|ZulkirChampioPerDay				DEFINE:ZulkirChampioPerDay|0																								SOURCEPAGE:CW										
 Zulkir Defender	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1|ZulkirDefenderBonus				DEFINE:ZulkirDefenderBonus|2																								SOURCEPAGE:CW										
 Zulkir Favor	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES								BONUS:CHECKS|Reflex|2|TYPE=Resistance																					SOURCEPAGE:CW										
-Ethereal Form	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Hide Presence	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Possess Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
-Possess Creature	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
-Possess Noncontinuous Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
-Curse	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Magic Item	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Control Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
-Animate Object	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Ally or Enemy	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Control Creature	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
 #	CATEGORY:Special Ability																															SOURCEPAGE:FFo										

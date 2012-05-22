@@ -22,3 +22,6 @@ Augmented (Vermin)	VISIBLE:NO	RACESUBTYPE:Augmented Vermin
 Horse Untrained	VISIBLE:NO	
 #
 Vampire.MOD	RACESUBTYPE:Vampire
+#
+Electricity	VISIBLE:NO	RACESUBTYPE:Electricity	ABILITY:Special Ability|AUTOMATIC|Electricity Traits
+Acid	VISIBLE:NO	RACESUBTYPE:Acid	ABILITY:Special Ability|AUTOMATIC|Acid Traits

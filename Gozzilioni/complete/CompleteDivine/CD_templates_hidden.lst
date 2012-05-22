@@ -24,15 +24,15 @@ Geomancer Antlers Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Antlers
 Geomancer Antlers Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,4d6																													
 																																						
 Geomancer Talons	VISIBLE:DISPLAY		TEMPLATE:CHOOSE:Geomancer Talons Fine|Geomancer Talons Diminutive|Geomancer Talons Tiny|Geomancer Talons Small|Geomancer Talons Medium|Geomancer Talons Large|Geomancer Talons Huge|Geomancer Talons Gargantuan|Geomancer Talons Colossal	PRECLASS:1,Geomancer=1																																		
-Geomancer Talons Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	FEAT:Weapon Finesse																												
-Geomancer Talons Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	FEAT:Weapon Finesse																												
-Geomancer Talons Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	FEAT:Weapon Finesse																												
-Geomancer Talons Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d2	FEAT:Weapon Finesse																												
-Geomancer Talons Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d3	FEAT:Weapon Finesse																												
-Geomancer Talons Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d4	FEAT:Weapon Finesse																												
-Geomancer Talons Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d6	FEAT:Weapon Finesse																												
-Geomancer Talons Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d6	FEAT:Weapon Finesse																												
-Geomancer Talons Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d8	FEAT:Weapon Finesse																												
+Geomancer Talons Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d2	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d3	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d4	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d6	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d6	AUTO:FEAT|Weapon Finesse																												
+Geomancer Talons Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d8	AUTO:FEAT|Weapon Finesse																												
 																																						
 Geomancer Mouth	VISIBLE:DISPLAY		TEMPLATE:CHOOSE:Geomancer Bite Fine|Geomancer Bite Diminutive|Geomancer Bite Tiny|Geomancer Bite Small|Geomancer Bite Medium|Geomancer Bite Large|Geomancer Bite Huge|Geomancer Bite Gargantuan|Geomancer Bite Colossal	PRECLASS:1,Geomancer=1																																		
 Geomancer Bite Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,1																													
