@@ -49,8 +49,9 @@ CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher
 4	ADD:SPELLCASTER|Arcane		AUTO:FEAT|Eschew Materials								
 5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Mystra's Grace							
 #											
+###TODO PREDEITYALIGN:LG,LN,NG,TN,CG,CN
 CLASS:Harper Priest	HD:8	TYPE:PC.Prestige	ABB:Hpr	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
-CLASS:Harper Priest	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREFEAT:2,Alertness,Iron Will	PRESPELLTYPE:1,Divine=3	PRETEXT:Sponsorship by a member of the Harpers, approval of the High Harpers.	PREDEITYALIGN:LG,LN,NG,TN,CG,CN				
+CLASS:Harper Priest	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREFEAT:2,Alertness,Iron Will	PRESPELLTYPE:1,Divine=3	PRETEXT:Sponsorship by a member of the Harpers, approval of the High Harpers.	
 CLASS:Harper Priest	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|TYPE.Knowledge|Listen|TYPE.Perform|Sense Motive|Spellcraft|Spot|Swim|Survival									
 1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
@@ -62,9 +63,9 @@ CLASS:Harper Priest	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Ha
 4	ADD:SPELLCASTER|Divine		AUTO:FEAT|Eschew Materials								
 5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Mystra's Grace							
 #											
-CLASS:Mage-Killer	HD:4	TYPE:PC.Prestige	ABB:Mki	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
-CLASS:Mage-Killer	PRESKILL:1,Spellcraft=10	PREFEAT:3,Great Fortitude,Lightning Reflexes,Combat Casting	PREFEAT:1,CHECKMULT,Martial Weapon Proficiency	PRESPELLTYPE:1,Divine=4,Arcane=4	PRETEXT:Must be able to cast at least 3 spells that require Fort saves and at least three spells that require Reflex saves. A spell that inflict damage but allow no saving throw can substitute for any of these required spells.						
-CLASS:Mage-Killer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Information|Intimidate|TYPE.Knowledge|Spellcraft									
+CLASS:Mage Killer	HD:4	TYPE:PC.Prestige	ABB:Mki	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
+CLASS:Mage Killer	PRESKILL:1,Spellcraft=10	PREFEAT:3,Great Fortitude,Lightning Reflexes,Combat Casting	PREFEAT:1,CHECKMULT,Martial Weapon Proficiency	PRESPELLTYPE:1,Divine=4,Arcane=4	PRETEXT:Must be able to cast at least 3 spells that require Fort saves and at least three spells that require Reflex saves. A spell that inflict damage but allow no saving throw can substitute for any of these required spells.						
+CLASS:Mage Killer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Information|Intimidate|TYPE.Knowledge|Spellcraft									
 1	ADD:SPELLCASTER|ANY						BONUS:ABILITYPOOL|Mage Killer Improved Saves|(CL+1)/2				
 2	ADD:SPELLCASTER|ANY		AUTO:FEAT|Augment Summoning								
 3	ADD:SPELLCASTER|ANY										

@@ -372,7 +372,7 @@ CLASS:Swanmay	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal
 9	ADD:SPELLCASTER|Druid,Ranger										
 10	ADD:SPELLCASTER|Druid,Ranger			ABILITY:Special Ability|AUTOMATIC|Fey Transformation							
 #											
-###CLASS:Sword of Righteousness	CONTIGUOUS:Paladin,Monk										
+###TODO CONTIGUOUS:Paladin,Monk										
 CLASS:Sword of Righteousness	HD:8	TYPE:PC.Prestige.Exalted	ABB:SwR	MAXLEVEL:3	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Sword of Righteousness	PREALIGN:LG,NG,CG	PREATT:6	PREFEAT:1,Favored of the Companions,Knight of Stars,Servant of the Heavens	PREFEAT:2,TYPE=Exalted							
 CLASS:Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive|Swim									

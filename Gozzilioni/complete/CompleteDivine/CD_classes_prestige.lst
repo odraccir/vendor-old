@@ -49,7 +49,7 @@ CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 9	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Discern Lies|Church Inquisitor Discern Lies											
 10	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Learn the Truth			BONUS:VAR|LearnTruthTimes|3	BONUS:VAR|LearnTruthDC|CL							
 #															
-###COMMENT:CONTIGUOUS:Paladin															
+###TODO CONTIGUOUS:Paladin															
 CLASS:Consecrated Harrier	HD:10	TYPE:Prestige	ABB:Coh	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE						
 CLASS:Consecrated Harrier	PREALIGN:LG,LN,LE	PREATT:5	PRESKILL:2,Disguise=5,Gather Information=5	PREFEAT:1,Track	PRETEXT:The candidate must accept an assignment from her church to locate and destroy some specific, individual enemy of the church. A character who fails must wait a year and a day before applying again. If she succeeds, the church accepts her as a consecrated harrier.										
 CLASS:Consecrated Harrier	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Diplomacy|Disguise|Gather Information|Intimidate|Knowledge (Local)|TYPE.Profession|Ride|Search|Use Rope	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Consecrated Harrier|CL	SPELLLIST:2|Consecrated Harrier|Ranger							
@@ -186,7 +186,7 @@ CLASS:Ex Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomac
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
 #															
-###COMMENT:CONTIGUOUS:Hospitaler|Paladin															
+###TODO CONTIGUOUS:Hospitaler|Paladin															
 CLASS:Hospitaler	HD:8	TYPE:Prestige	ABB:Hos	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Hospitaler					
 CLASS:Hospitaler	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:5	PRESKILL:2,Handle Animal=5,Ride=5	PREFEAT:1,Mounted Combat,Ride By Attack	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1									
 CLASS:Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Religion)|TYPE.Profession|Ride													
@@ -289,7 +289,7 @@ CLASS:Sacred Exorcist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intim
 9	ADD:SPELLCASTER|ANY														
 10	ADD:SPELLCASTER|ANY														
 #															
-###COMMENT:CONTIGUOUS:Sacred Fist															
+###TODO CONTIGUOUS:Sacred Fist															
 CLASS:Sacred Fist	HD:8	TYPE:Prestige	ABB:Saf	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE						
 CLASS:Sacred Fist	PREATT:4	PRESKILL:1,Knowledge (Religion)=8	PREFEAT:4,Combat Casting,Combat Reflexes,Improved Unarmed Strike,Stunning Fist	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1										
 CLASS:Sacred Fist	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Escape Artist|Heal|Jump|TYPE.Profession|Spellcraft|Tumble													

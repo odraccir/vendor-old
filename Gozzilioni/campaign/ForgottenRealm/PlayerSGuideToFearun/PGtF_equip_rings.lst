@@ -1,4 +1,4 @@
-SOURCELONG:Player's Guite to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net														
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net														
 																
 # Equipment Name	Output Name	Type	Cost	Weight	Source Page	Ability		Combat bonus		Bonus to skill		Multiply spell cast/day	Special Property			
 Akkabar's Battleblade Ring		TYPE:Magic.Ring	COST:25920	WT:0	SOURCEPAGE:PGtF								SPELLS:Akkabar's Battleblade Ring|TIMES=1|CASTERLEVEL=12|Blade Barrier			

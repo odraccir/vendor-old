@@ -74,7 +74,7 @@ CLASS:Frostrager	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Survival|Sw
 4				ABILITY:Special Ability|AUTOMATIC|Improved Frostrage							
 5				ABILITY:Special Ability|AUTOMATIC|Rend							
 #											
-### CONTIGUOUS:Paladin											
+###TODO: CONTIGUOUS:Paladin											
 CLASS:Knight of the Iron Glacier	HD:10	TYPE:PC.Prestige.Frostfell	ABB:KIG	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Knight of the Iron Glacier	PREALIGN:LG,LN	PRESKILL:1,Handle Animal=5	PRESKILL:1,Ride=9	PRESKILL:1,Survival=2	PREFEAT:4,Animal Affinity,Exotic Weapon Proficiency(Sword (Bastard)),Mounted Combat,Ride By Attack	PRETEXT:Must prove to the order that her intentions are noble and true.					
 CLASS:Knight of the Iron Glacier	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Listen|Ride|Sense Motive|Spot|Survival									

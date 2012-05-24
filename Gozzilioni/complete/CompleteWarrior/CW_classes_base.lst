@@ -117,7 +117,7 @@ CLASS:Swashbuckler	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diploma
 19				ABILITY:Special Ability|AUTOMATIC|Wounding Critical							
 20											
 #											
-###COMMENT:CONTIGUOUS:Paladin|Paladin CW											
+###TODO CONTIGUOUS:Paladin|Paladin CW											
 CLASS:Paladin CW	HD:10	TYPE:Base.PC	ABB:PldCW	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Paladin CW	
 CLASS:Paladin CW	PREALIGN:LG										
 CLASS:Paladin CW	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive									

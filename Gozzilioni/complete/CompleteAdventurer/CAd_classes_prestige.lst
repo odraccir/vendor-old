@@ -170,7 +170,7 @@ CLASS:Exemplar	STARTSKILLPTS:8	CSKILL:TYPE.Strength|TYPE.Dexterity|TYPE.Constitu
 9												
 10				ABILITY:Special Ability|AUTOMATIC|Exemplar Perfect Self								
 #												
-###COMMENT:CONTIGUOUS:Druid|Bard												
+###TODO CONTIGUOUS:Druid|Bard												
 CLASS:Fochlucan Lyrist	HD:6	TYPE:Prestige	ABB:Fon	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Fochlucan Lyrist	PRESKILL:5,Decipher Script=7,Diplomacy=7,Gather Information=7,Knowledge (Nature)=7,Sleight of Hand=7	PRESKILL:1,Perform (String Instruments)=13	PRELANG:1,Druidic	PRESPELLTYPE:2,Arcane=1,Divine=1	PREABILITY:2,CATEGORY=Special Ability,Bardic Knowledge,Evasion							
 CLASS:Fochlucan Lyrist	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Gather Information|Handle Animal|Heal|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Survival|Swim|Use Magic Device										
@@ -298,7 +298,7 @@ SUBSTITUTIONLEVEL:4	ADD:SPELLCASTER|Cleric
 4	ADD:SPELLCASTER|ANY											
 5				ABILITY:Special Ability|AUTOMATIC|Inspire Resilience								
 #												
-###COMMENT:CONTIGUOUS:Paladin,Rogue												
+###TODO CONTIGUOUS:Paladin,Rogue												
 CLASS:Shadowbane Inquisitor	HD:10	TYPE:Prestige	ABB:Sbi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Shadowbane Inquisitor		
 CLASS:Shadowbane Inquisitor	PREALIGN:LG	PREATT:5	PRESKILL:1,Knowledge (Religion)=2	PRESKILL:1,Gather Information=4	PRESKILL:1,Sense Motive=8	PREFEAT:1,Power Attack	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Detect Evil],[PRESPELL:1,Detect Evil]	PREABILITY:1,CATEGORY=Special Ability,Turn Undead			
 CLASS:Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Gather Information|Heal|Hide|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Search|Sense Motive|Swim										
@@ -427,7 +427,7 @@ CLASS:Virtuoso	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Concentration|TYPE.Craft|Dip
 9	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (mindbending melody)|PRESKILL:1,TYPE.Perform=19								
 10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|VIRTUAL|Virtuoso Performance (revealing melody)|PRESKILL:1,TYPE.Perform=20								
 #												
-###COMMENT:CONTIGUOUS:Paladin												
+###TODO CONTIGUOUS:Paladin												
 CLASS:Wild Plains Outrider	HD:8	TYPE:Prestige	ABB:Wpo	MAXLEVEL:3	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Wild Plains Outrider	PRESKILL:1,Ride=9	PREFEAT:2,Mounted Combat,Track	PREABILITY:1,CATEGORY=Special Ability,Special Mount,Animal Companion	PRETEXT:Animal companion large enaugh to serve as a mount, or a paladin's special mount.								
 CLASS:Wild Plains Outrider	STARTSKILLPTS:4	CSKILL:Balance|Handle Animal|Jump|Knowledge (Nature)|Listen|Move Silently|Ride|Spot|Survival|Swim										ALLOWBASECLASS:NO

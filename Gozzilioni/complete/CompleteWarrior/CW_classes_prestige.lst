@@ -36,7 +36,7 @@ CLASS:Bladesinger	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Jump|Knowledge (A
 9	ADD:SPELLCASTER|Arcane												
 10				ABILITY:Special Ability|AUTOMATIC|Song of Fury									
 #													
-###COMMENT:CONTIGUOUS:Paladin													
+###TODO CONTIGUOUS:Paladin													
 CLASS:Cavalier	HD:10	TYPE:Prestige	ABB:Cav	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Cavalier	PREALIGN:LG,LN,LE	PREATT:8	PRESKILL:2,Handle Animal=4,Knowledge (Nobility and Royalty)=4	PRESKILL:1,Ride=6	PREFEAT:4,Spirited Charge,Weapon Focus(Lance),Mounted Combat,Ride By Attack								
 CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowledge (Nobility and Royalty)|TYPE.Profession|Ride											
@@ -95,7 +95,7 @@ CLASS:Dervish	STARTSKILLPTS:4	CSKILL:Balance|TYPE.Craft|Escape Artist|Jump|Liste
 9				ABILITY:Special Ability|AUTOMATIC|Tireless Dance									
 10				ABILITY:Special Ability|AUTOMATIC|A Thousand Cuts|Dervish A Thousand Cuts									
 #													
-###COMMENT:CONTIGUOUS:Monk													
+###TODO CONTIGUOUS:Monk													
 CLASS:Drunken Master	HD:8	TYPE:Prestige	ABB:Dru	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Drunken Master	PRESKILL:1,Tumble=8	PREFEAT:3,Dodge,Great Fortitude,Improved Unarmed Strike	PREABILITY:1,CATEGORY=Special Ability,Evasion	PREABILITY:1,CATEGORY=Special Ability,Flurry of Blows	PRETEXT:Must be chosen by existing drunken masters and survive a night of revelry among them without being incarcerated, poisoned or extraordinarily embarassed								
 CLASS:Drunken Master	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Escape Artist|Hide|Jump|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Swim|Tumble											
@@ -217,7 +217,7 @@ CLASS:Invisible Blade	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Esca
 4				ABILITY:Special Ability|AUTOMATIC|Feint Mastery									
 5													
 #													
-###COMMENT:CONTIGUOUS:Paladin													
+###TODO CONTIGUOUS:Paladin													
 CLASS:Justicar	HD:10	TYPE:Prestige	ABB:Jus	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Justicar	PREALIGN:LG,LN,LE	PREATT:6	PRESKILL:3,Gather Information=5,Search=5,Survival=5	PREFEAT:1,Skill Focus(Gather Information)									
 CLASS:Justicar	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Disguise|Gather Information|Heal|Hide|Intimidate|Jump|TYPE.Knowledge|Listen|Move Silently|Open Lock|Ride|Search|Sense Motive|Spot|Survival|Swim|Use Rope											
@@ -233,7 +233,7 @@ CLASS:Justicar	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Disguise|Gather Information|He
 9													
 10				ABILITY:Special Ability|AUTOMATIC|Intuition (Su)									
 #													
-###COMMENT:CONTIGUOUS:Samurai|Paladin|Monk													
+###TODO CONTIGUOUS:Samurai|Paladin|Monk													
 CLASS:Kensai	HD:10	TYPE:Prestige	ABB:Ken	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Kensai	PREALIGN:LG,LN,LE	PREATT:5	PRESKILL:3,Concentration=5,Diplomacy=5,Ride=5	PREFEAT:1,Combat Expertise	PREFEAT:1,CHECKMULT,Weapon Focus(TYPE=ANY)	PRETEXT:Must complete an oath of service to either an overlord or an ideal							
 CLASS:Kensai	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Intimidate|Jump|Knowledge (Local)|Knowledge (Nobility and Royalty)|Ride|Sense Motive											
@@ -249,7 +249,7 @@ CLASS:Kensai	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplo
 9													
 10				ABILITY:Special Ability|AUTOMATIC|Ki Warlord									
 #													
-###COMMENT:CONTIGUOUS:Paladin													
+###TODO CONTIGUOUS:Paladin													
 CLASS:Knight of the Chalice	HD:10	TYPE:Prestige	ABB:Cha	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Knight of the Chalice	PREALIGN:LG	PREATT:8	PRESKILL:1,Knowledge (The Planes)=5	PRESKILL:1,Knowledge (Religion)=10	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PRESPELL:1,Protection from Evil						
 CLASS:Knight of the Chalice	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive											
@@ -266,7 +266,7 @@ CLASS:Knight of the Chalice	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPE
 9	CAST:0,2,2,1,1												
 10	CAST:0,2,2,2,1			ABILITY:Special Ability|AUTOMATIC|Holy Aura (Sp)			BONUS:VAR|HolyAuraLVL|10						
 #													
-###COMMENT:CONTIGUOUS:Samurai|Paladin													
+###TODO CONTIGUOUS:Samurai|Paladin													
 CLASS:Knight Protector	HD:10	TYPE:Prestige	ABB:Kni	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Knight Protector			
 CLASS:Knight Protector	PREALIGN:LG,LN	PREATT:5	PRESKILL:2,Diplomacy=6,Ride=6	PRESKILL:1,Knowledge (Nobility and Royalty)=4	PREFEAT:5,Armor Proficiency (Heavy),Cleave,Great Cleave,Mounted Combat,Power Attack								
 CLASS:Knight Protector	STARTSKILLPTS:2	CSKILL:Diplomacy|Intimidate|Knowledge (Nobility and Royalty)|Ride|Spot											
@@ -366,7 +366,7 @@ CLASS:Order of the Bow Initiate	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Knowledg
 9													
 10				ABILITY:Special Ability|AUTOMATIC|Extended Precision									
 #													
-###COMMENT:CONTIGUOUS:Paladin													
+###TODO CONTIGUOUS:Paladin													
 CLASS:Purple Dragon Knight	HD:10	TYPE:Prestige	ABB:Prp	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Purple Dragon Knight	PREALIGN:LG,NG,LN,TN	PREATT:5	PRESKILL:1,Diplomacy=1,Intimidate=1	PRESKILL:3,Listen=2,Ride=2,Spot=2	PREFEAT:2,Mounted Combat,Negotiator	PRETEXT:Must be member of the Purple Dragons							
 CLASS:Purple Dragon Knight	STARTSKILLPTS:2	CSKILL:Climb|Diplomacy|Handle Animal|Intimidate|Knowledge (Local)|Jump|Ride|Swim											
@@ -481,7 +481,7 @@ CLASS:Stonelord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Knowledge|TYPE.P
 9				ABILITY:Special Ability|AUTOMATIC|Earthquake (Sp)			BONUS:VAR|EarthquakeLVL|CL	BONUS:VAR|EarthquakePerDay|1					
 10													
 #													
-###COMMENT:CONTIGUOUS:Monk													
+###TODO CONTIGUOUS:Monk													
 CLASS:Tattoed Monk	HD:8	TYPE:Prestige	ABB:Ttm	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Tattoed Monk	PREALIGN:LG,LN,LE	PREATT:3	PRESKILL:1,Knowledge (Religion)=8	PREFEAT:3,Endurance,Improved Grapple,Improved Unarmed Strike									
 CLASS:Tattoed Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Swim|Tumble						DEFINE:TtmTattooNumber|0					

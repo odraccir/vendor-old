@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realm Campaing setting	SOURCESHORT:FRCS		SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Forgotten Realms Campaing setting	SOURCESHORT:FRCS		SOURCEWEB:http://www.gozzilioni.net
 		
 #Teleport	CLASSES:Sorcerer,Wizard=5	TYPE:Arcane.Divine
 #Change Self.MOD	CLASSES:Harper Scout=1

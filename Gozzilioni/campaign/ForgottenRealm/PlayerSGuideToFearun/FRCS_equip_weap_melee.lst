@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realm Campaing Setting	SOURCESHORT:FRCS	SOURCEWEB:http://www.gozzilioni.net														
+SOURCELONG:Forgotten Realms Campaing Setting	SOURCESHORT:FRCS	SOURCEWEB:http://www.gozzilioni.net														
 																
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property					
 Sword (Cutlass)	OUTPUTNAME:[NAME], Sword	PROFICIENCY:WEAPON|Sword (Cutlass)	TYPE:Weapon.Melee.Finesseable.Martial.Standard.Slashing.Piercing.Sword	COST:15	WT:3		EQMOD:STEEL		SOURCEPAGE:FRCS			CRITMULT:x2	CRITRANGE:2	DAMAGE:1d6	WIELD:Light	SIZE:M

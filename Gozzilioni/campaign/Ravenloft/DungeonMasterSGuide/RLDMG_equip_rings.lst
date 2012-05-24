@@ -1,4 +1,4 @@
-SOURCELONG:Ravenloft Dungeon master's guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																																											
+SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																																											
 																																													
 # Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
 Crimson Zombie Ring			TYPE:Magic.Ring.Consumable	COST:2000	WT:0	SOURCEPAGE:RLDMG																																							

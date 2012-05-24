@@ -110,7 +110,7 @@ SUBCLASSLEVEL:10				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
 9	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Immunity To Poison|Immunity To Paralysis								
 10				ABILITY:Special Ability|AUTOMATIC|Elemental Perfection				TEMPLATE:Elemental Perfection				
 #												
-###COMMENT:CONTIGUOUS:Monk|TYPE.Arcane												
+###TODO CONTIGUOUS:Monk|TYPE.Arcane												
 CLASS:Enlightened Fist	HD:8	TYPE:PC.Prestige	ABB:Enf	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Enlightened Fist	PRESKILL:1,Concentration=8	PRESKILL:2,Knowledge (Arcana)=5,Spellcraft=5	PREFEAT:3,Combat Casting,Improved Unarmed Strike,Stunning Fist	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3							
 CLASS:Enlightened Fist	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Spellcraft|Spot|Swim|Tumble										
@@ -225,7 +225,7 @@ CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate
 9	ADD:SPELLCASTER|Arcane											
 10				ABILITY:Special Ability|AUTOMATIC|Thrall			BONUS:ABILITYPOOL|Improved Caster Level|2					
 #												
-###COMMENT:CONTIGUOUS:Seeker of the Song												
+###TODO CONTIGUOUS:Seeker of the Song												
 CLASS:Seeker of the Song	HD:6	TYPE:PC.Prestige	ABB:Ses	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex Seeker of the Song		
 CLASS:Seeker of the Song	PRESKILL:1,Knowledge (Arcana)=13	PRESKILL:1,TYPE.Perform=13	PREFEAT:1,Skill Focus(TYPE.Perform)	PREABILITY:1,CATEGORY=Special Ability,Bardic Music	PRETEXT:Must have been exposed to the primal music by hearing another Seeker of the Song use a Seeker Music Ability							
 CLASS:Seeker of the Song	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Jump|Knowledge (Arcana)|Listen|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Spot|Swim										

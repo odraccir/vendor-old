@@ -73,7 +73,7 @@ CLASS:Eye of Horus-Re	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|TYPE.K
 9	ADD:SPELLCASTER|Cleric												
 10	ADD:SPELLCASTER|Cleric			ABILITY:Special Ability|AUTOMATIC|Trueseeing									
 #													
-###COMMENT:CONTIGUOUS:Paladin													
+###TODO CONTIGUOUS:Paladin													
 CLASS:Hammer of Moradin	HD:10	TYPE:Prestige	ABB:Hom	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex-Hammer of Moradin			
 CLASS:Hammer of Moradin	PRERACE:1,RACESUBTYPE=Dwarf	PREREGION:1,Spine of the World	PREATT:7	PRESKILL:1,Craft (Weaponsmithing)=10	PREFEAT:2,Iron Will,Weapon Focus(Warhammer)	PRESPELLTYPE:1,Divine=2	PREDEITY:1,Moradin	PRETEXT:Member of the Hammers of Moradin	PRESPELLCAST:TYPE=Divine				
 CLASS:Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (Local)|Knowledge (The Planes)|TYPE.Profession|Spellcraft											
@@ -193,7 +193,7 @@ SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Focused Studies ~ Transmute
 9	ADD:SPELLCASTER|Arcane												
 10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Improved Metamagic									
 #													
-###COMMENT:CONTIGUOUS:Paladin													
+###TODO CONTIGUOUS:Paladin													
 CLASS:Justiciar of Tyr	HD:8	TYPE:Prestige	ABB:Jot	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex-Justiciar of Tyr			
 CLASS:Justiciar of Tyr	PREALIGN:LG	PREATT:5	PRESKILL:1,Diplomacy=7	PRESKILL:1,Knowledge (Local)=4	PRESKILL:1,Knowledge (Religion)=6	PRESPELLTYPE:1,Divine=2	PREDEITY:1,Tyr						
 CLASS:Justiciar of Tyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft											
