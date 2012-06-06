@@ -21,7 +21,7 @@ Horseshoes of Flame		TYPE:Magic.Wondrous.Boot	COST:30240	WT:2		SOURCEPAGE:SS			S
 Liquid Vortex (Flask)		TYPE:Magic.Wondrous.Alchemical.Flask.Consumable	COST:3300			SOURCEPAGE:SS				
 Mask of Fangs		TYPE:Magic.Wondrous.Eyegear	COST:30000	WT:2		SOURCEPAGE:SS				
 Musical Instrument (Master Fiddle)		TYPE:Magic.Wondrous.Tools.Instrument.String.Resizable	COST:18000	WT:3	SIZE:T	SOURCEPAGE:SS		EQMOD:MWORKI	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	SPROP:Will DC 15
-Necklace of Natural Weapon		TYPE:Magic.Wondrous.Weapon.Melee.Natural	COST:600			SOURCEPAGE:SS				
+Necklace of Natural Weapon		TYPE:Magic.Wondrous.Amulet.Weapon.Melee.Natural	COST:600			SOURCEPAGE:SS				
 Render Bait		TYPE:Magic.Wondrous.Amulet	COST:35640			SOURCEPAGE:SS			SPROP:Will DC 19	
 Musical Instrument (Satyr Pipes)		TYPE:Magic.Wondrous.Tools.Instrument.Wind.Resizable	COST:3000	WT:3		SOURCEPAGE:SS	PRESKILL:1,Perform (Wind Instruments)=1		BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	SPROP:Will DC 14
 Scentblinder		TYPE:Magic.Wondrous	COST:33000			SOURCEPAGE:SS				

@@ -59,7 +59,7 @@ CLASS:Dark Hunter	HD:8	TYPE:Prestige	ABB:DHu	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:CHEC
 CLASS:Dark Hunter	PREATT:5	PRESKILL:1,Craft (Trapmaking)=5	PRESKILL:3,Knowledge (Dungeoneering)=2,Move Silently=2,Survival=2	PREFEAT:2,Blind Fight,Track									
 CLASS:Dark Hunter	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Disable Device|Hide|Knowledge (Dungeoneering)|Listen|Move Silently|TYPE.Profession|Spot|Survival|Swim|Use Rope											
 #													
-1				ABILITY:Special Ability|AUTOMATIC|Stonecunning|Improved Stonecunning									
+1				ABILITY:Special Ability|AUTOMATIC|Stonecunning ~ Base			DEFINE:StonecunningLevel|2						
 2				ABILITY:Special Ability|AUTOMATIC|Enhanced Darkvision			BONUS:VISION|DarkVision|30						
 3				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Dark Hunter Sneak Attack			BONUS:VAR|DarkHunterSneakAttackLVL|CL						
 4				ABILITY:Special Ability|AUTOMATIC|Stone Hue									

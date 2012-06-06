@@ -1,0 +1,5 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net									
+											
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property
+Disintegrating Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.SpecificArrow.Individual	COST:3307	WT:0		EQMOD:STEEL.WOOD	MODS:NO	SOURCEPAGE:AaEG		SPROP:Disintegrating (Disintegrate target Fort DC 19 or 5d6 damage.)
+Arrow of Eyes		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.SpecificArrow.Individual	COST:1047	WT:0		EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:AaEG		SPROP:Arcane Eye.

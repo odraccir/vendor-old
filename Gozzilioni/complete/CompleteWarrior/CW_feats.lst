@@ -72,6 +72,7 @@ Dwarven Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO											
 Elven Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Elven=Martial						
 Gnomish Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Gnome%,Half-Gnome],[PRERACE:1,RACESUBTYPE=Gnome]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Gnomish=Martial						
 Orcisc Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Orc%,Half-Orc],[PRERACE:1,RACESUBTYPE=Orc]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Orcish=Martial						
+Halfling Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Halfling%,Half-Halfling],[PRERACE:1,RACESUBTYPE=Halfling]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Halfling=Martial						
 Instantaneous Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
 Intimidating Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
 Karmic Strike	TYPE:General	VISIBLE:YES				PREFEAT:2,Combat Expertise,Dodge									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:CW								

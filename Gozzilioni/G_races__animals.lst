@@ -1,43 +1,44 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																																													
-																																																															
-# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks	Special Ability			Define			Spell Res.	Damage Reduction	MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells	
-#Panther			STARTFEATS:1	SIZE:M	MOVE:Walk,40,Climb,20	FACE:5	REACH:5	VISION:Low-light	PREALIGN:TN				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Balance,Jump|8|TYPE=Racial	BONUS:SKILL|Hide,Move Silently|4|TYPE=Racial			BONUS:STAT|STR|6	BONUS:STAT|DEX|8	BONUS:STAT|CON|4	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-4			MONCSKILL:Balance|Climb|Hide|Jump|Listen|Move Silently|Spot									LEGS:4	HANDS:3				NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3	ABILITY:Special Ability|AUTOMATIC|Scent|Improved Grab|Pounce|Rake								MONSTERCLASS:Animal:3	RACETYPE:Animal		TYPE:Animal						HITDICEADVANCEMENT:5	CR:2	SOURCEPAGE:Srd Leopard		
-Leopard.COPY=Panther																																																													SOURCEPAGE:See Leopard		
-Leopard.COPY=Jaguar																																																													SOURCEPAGE:See Leopard		
-Leopard.COPY=Lion (Mountain)	OUTPUTNAME:Lion, Mountain																																																												SOURCEPAGE:See Leopard		
-Ram			STARTFEATS:1	SIZE:M	MOVE:Walk,30,Climb,20	FACE:5	REACH:5	VISION:Low-light	PREALIGN:TN				BONUS:COMBAT|AC|3|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Balance,Jump|8|TYPE=Racial	BONUS:SKILL|Survival|2|TYPE=Racial			BONUS:STAT|STR|6		BONUS:STAT|CON|4	BONUS:STAT|INT|-8	BONUS:STAT|WIS|-4				MONCSKILL:Spot|Listen									LEGS:4					NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Powerful Charge								MONSTERCLASS:Animal:4	RACETYPE:Animal		TYPE:Animal							CR:2	SOURCEPAGE:Forum		
-#																																																															
-#																																																															
-Blink Dog.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Blink Dog																																																														
-Eagle (Giant).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Giant Eagle																																																														
-Ethereal Marauder.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Ethereal Marauder																																																														
-Griffon.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Griffon																																																														
-Hippogriff.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Hippogriff																																																														
-Hell Hound.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Hell Hound																																																														
-Krenshar.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Krenshar																																																														
-Manticore.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Manticore																																																														
-Otyugh.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Otyugh																																																														
-Owl (Giant).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Giant Owl																																																														
-Owlbear.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Owlbear																																																														
-Pegasus.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pegasus																																																														
-Phantom Fungus.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Phantom Fungus																																																														
-Rust Monster.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Rust Monster																																																														
-Sea Cat.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Sea Cat																																																														
-Shadow Mastiff.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Shadow Mastiff																																																														
-Shocker Lizard.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Shocker Lizard																																																														
-Spider Eater.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Spider Eater																																																														
-Unicorn.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Unicorn																																																														
-Vargouille.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Vargouille																																																														
-#																																																															
-Camel.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel																																																														
-Camel (Bactrian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel																																																														
-Elephant.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant																																																														
-Elephant (Indian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant																																																														
-Horse (Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																														
-Horse (Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																														
-Horse (Warhorse Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																														
-Horse (Warhorse Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																														
-Pony.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony																																																														
-Pony (War).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony																																																														
-# END																																																															
-#																																																															
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																																														
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+#Panther			STARTFEATS:1	SIZE:M	MOVE:Walk,40,Climb,20	FACE:5	REACH:5	VISION:Low-light	PREALIGN:TN				BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Balance,Jump|8|TYPE=Racial	BONUS:SKILL|Hide,Move Silently|4|TYPE=Racial			BONUS:STAT|STR|6	BONUS:STAT|DEX|8	BONUS:STAT|CON|4	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-4			MONCSKILL:Balance|Climb|Hide|Jump|Listen|Move Silently|Spot									LEGS:4	HANDS:3				NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3		ABILITY:Special Ability|AUTOMATIC|Scent|Improved Grab|Pounce|Rake									MONSTERCLASS:Animal:3	RACETYPE:Animal		TYPE:Animal						HITDICEADVANCEMENT:5	CR:2	SOURCEPAGE:Srd Leopard	
+Leopard.COPY=Panther																																																															SOURCEPAGE:See Leopard	
+Leopard.COPY=Jaguar																																																															SOURCEPAGE:See Leopard	
+Leopard.COPY=Lion (Mountain)	OUTPUTNAME:Lion, Mountain																																																														SOURCEPAGE:See Leopard	
+Ram			STARTFEATS:1	SIZE:M	MOVE:Walk,30,Climb,20	FACE:5	REACH:5	VISION:Low-light	PREALIGN:TN				BONUS:COMBAT|AC|3|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Balance,Jump|8|TYPE=Racial	BONUS:SKILL|Survival|2|TYPE=Racial			BONUS:STAT|STR|6		BONUS:STAT|CON|4	BONUS:STAT|INT|-8	BONUS:STAT|WIS|-4				MONCSKILL:Spot|Listen									LEGS:4					NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8		ABILITY:Special Ability|AUTOMATIC|Powerful Charge									MONSTERCLASS:Animal:4	RACETYPE:Animal		TYPE:Animal							CR:2	SOURCEPAGE:Forum	
+#																																																																
+Blink Dog.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Blink Dog																																																															
+Eagle (Giant).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Giant Eagle																																																															
+Ethereal Marauder.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Ethereal Marauder																																																															
+Griffon.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Griffon																																																															
+Hippogriff.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Hippogriff																																																															
+Hell Hound.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Hell Hound																																																															
+Krenshar.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Krenshar																																																															
+Manticore.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Manticore																																																															
+Otyugh.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Otyugh																																																															
+Owl (Giant).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Giant Owl																																																															
+Owlbear.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Owlbear																																																															
+Pegasus.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pegasus																																																															
+Phantom Fungus.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Phantom Fungus																																																															
+Rust Monster.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Rust Monster																																																															
+Sea Cat.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Sea Cat																																																															
+Shadow Mastiff.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Shadow Mastiff																																																															
+Shocker Lizard.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Shocker Lizard																																																															
+Spider Eater.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Spider Eater																																																															
+Unicorn.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Unicorn																																																															
+Vargouille.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Vargouille																																																															
+#																																																																
+Camel.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel																																																															
+Camel (Bactrian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel																																																															
+Elephant.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant																																																															
+Elephant (Indian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant																																																															
+Horse (Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																															
+Horse (Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																															
+Horse (Warhorse Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																															
+Horse (Warhorse Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse																																																															
+Pony.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony																																																															
+Pony (War).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony																																																															
+#																																																																
+Dolphin			STARTFEATS:1	SIZE:M	MOVE:Swim,50	FACE:5	REACH:5	VISION:Blindsight (120')|Low-Light		PREALIGN:TN			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Spot,Listen|4|TYPE=Racial				BONUS:STAT|STR|4	BONUS:STAT|DEX|8	BONUS:STAT|CON|2	BONUS:STAT|INT|-2	BONUS:STAT|WIS|6	BONUS:STAT|CHA|-2			MONCSKILL:Listen|Spot|Swim									LEGS:0	HANDS:0	BONUS:WEAPONPROF=Nose Slam|DAMAGE|max(0,(STR/2))			NATURALATTACKS:Nose Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d4|Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8			ABILITY:Special Ability|AUTOMATIC|Hold Breath			ABILITY:Special Ability|AUTOMATIC|Training ~ Dolphin|Dolphin Skills					MONSTERCLASS:Animal:2	RACETYPE:Animal		TYPE:Animal	TEMPLATE:Animal	TEMPLATE:Aquatic		HITDICEADVANCEMENT:4,6		LEVELADJUSTMENT:2	CR:1	SOURCEPAGE:Web	
+# END																																																																
+#																																																																

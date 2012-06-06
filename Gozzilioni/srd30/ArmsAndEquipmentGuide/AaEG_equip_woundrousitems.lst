@@ -1,0 +1,115 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.wizards.com																	
+																			
+# Equipment Name	Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property							
+Collar of Material Entrapment	TYPE:Magic.Wondrous.Mount.Collar.Animal	COST:30000	WT:1	SOURCEPAGE:AaEG								SPROP:Barred from extradimensional voyage							
+Bracelet of Friends (Mount)	TYPE:Magic.Wondrous.Bracer.Mount	COST:19000	WT:0	SOURCEPAGE:AaEG		EQMOD:CHARGED_ITEM_4|CHARGES[4]													
+																			
+# Equipment Name																			
+Bridle of Ease	TYPE:Magic.Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG								SPROP:+5 competence bonus to Handle Animal checks of the trainer when training a mount.							
+Bridle of Ease (Exotic)	TYPE:Magic.Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG								SPROP:+5 competence bonus to Handle Animal checks of the trainer when training an exotic mount.							
+Bridle (Clever/3 tricks)	TYPE:Magic.Wondrous.Mount	COST:1000	WT:1	SOURCEPAGE:AaEG	OUTPUTNAME:Clever Bridle (3 tricks)				BONUS:ABILITYPOOL|Training Trick|3										
+Bridle (Clever/6 tricks)	TYPE:Magic.Wondrous.Mount	COST:4000	WT:1	SOURCEPAGE:AaEG	OUTPUTNAME:Clever Bridle (6 tricks)				BONUS:ABILITYPOOL|Training Trick|6										
+Bridle (Clever/9 tricks)	TYPE:Magic.Wondrous.Mount	COST:9000	WT:1	SOURCEPAGE:AaEG	OUTPUTNAME:Clever Bridle (9 tricks)				BONUS:ABILITYPOOL|Training Trick|9										
+Saddle (Equestrian's)	TYPE:Magic.Wondrous.Mount.Saddle.Military	COST:2000	WT:30	SOURCEPAGE:AaEG	OUTPUTNAME:[NAME] Saddle							SPROP:+10 circumstance bonus to Ride checks of the rider.							
+Saddle (Horseless)	TYPE:Magic.Wondrous.Mount.Saddle	COST:43200	WT:25	SOURCEPAGE:AaEG	OUTPUTNAME:[NAME] Saddle							SPROP:Phantom Steed.							
+Horseshoes of Thunder	TYPE:Magic.Wondrous.Mount.Boot	COST:10080	WT:1	SOURCEPAGE:AaEG								SPROP:20'ft radius Shout (5/day)							
+Saddlebags of Holding	TYPE:Magic.Wondrous.Mount.Saddle.Container	COST:5000	WT:30	SOURCEPAGE:AaEG											CONTAINS:*250				
+Saddlebags of Providing	TYPE:Magic.Wondrous.Mount.Saddle.Container	COST:8000	WT:16	SOURCEPAGE:AaEG											CONTAINS:*83				
+Shielding Blinders	TYPE:Magic.Wondrous.Mount.Eyegear	COST:12000	WT:2	SOURCEPAGE:AaEG								ABILITY:Special Ability|VIRTUAL|Immunity To Gaze							
+Shrink Collar	TYPE:Magic.Wondrous.Mount.Amulet	COST:10000	WT:1	SOURCEPAGE:AaEG					BONUS:SIZEMOD|NUMBER|-1|PRESIZEEQ:M	BONUS:SIZEMOD|NUMBER|-2|PRESIZEEQ:L		SPROP:reduce the creature to Small size.	BONUS:SIZEMOD|NUMBER|-3|PRESIZEEQ:H	BONUS:SIZEMOD|NUMBER|-4|PRESIZEEQ:G	BONUS:SIZEMOD|NUMBER|-5|PRESIZEEQ:C				
+Whip of Obeyance	TYPE:Magic.Wondrous.Weapon.Melee.Exotic.Reach.Finesseable.Subdual.Slashing	COST:2000	WT:2	SOURCEPAGE:AaEG	PROFICIENCY:WEAPON|Whip	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	BONUS:SKILL|Handle Animal|10|TYPE=Circumstance	EQMOD:LEATHER.MWORKW	WIELD:OneHanded	REACH:15							
+Amulet of Ooze Riding	TYPE:Magic.Wondrous.Amulet	COST:28000	WT:0	SOURCEPAGE:AaEG								SPROP:An energy sphere protect the wearer and prevent from direct attacks by the oozes							
+																			
+Skin Paint	TYPE:Magic.Wondrous.Armor.Light.Specific	COST:5000	WT:0	SOURCEPAGE:AaEG	BONUS:COMBAT|AC|5|TYPE=Armor														
+																			
+# Equipment Name																			
+Collar of Material Entrapment	TYPE:Magic.Wondrous.Mount.Collar.Animal	COST:30000	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Barred from extradimensional voyage							
+Emerald Caltrops	TYPE:Magic.Wondrous	COST:166	WT:2	SOURCEPAGE:Arms and Equipment Guide								SPROP:If hit, the caltrop deals an additional +1 hp damage and +1d6 Acid damage							
+Armband of Reduction	TYPE:Magic.Wondrous.Bracer	COST:2000	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:At command reduces the wearer to half its height. 2 hours duration.							
+Bag of Endless Caltrop	TYPE:Magic.Wondrous	COST:2300	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Endless supply of normal Caltrops. Each standard action enaugh to fill a 5-ft square							
+Banner of Valor	TYPE:Magic.Wondrous	COST:61000	WT:10	SOURCEPAGE:Arms and Equipment Guide								SPROP:Remove Fear at will. 	SPELLS:Banner of Valor|TIMES=3|CASTERLEVEL=9|Healing Circle,17						
+Belt of Endurance	TYPE:Magic.Wondrous.Belt	COST:10000	WT:1	SOURCEPAGE:Arms and Equipment Guide		BONUS:STAT|CON|2|TYPE=Enhancement						SPROP:+2 Enhancement bonus on CON. Additionally gains Great Fortitude feats		VFEAT:Great Fortitude					
+Blindfold of True Darkness	TYPE:Magic.Wondrous.Eyegear	COST:9000	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Blindsight, 60-ft. Immune to Gaze attacks, spells or effects that rely on sight.							
+Bracers of Exit	TYPE:Magic.Wondrous.Bracer	COST:11200	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Negate one Dimensional Anchor per day							
+Boots of Mountain King	TYPE:Magic.Wondrous.Boot	COST:48810	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Full movement on rocky, rugged or mountain terrain.	SPELLS:Boots of Mountain|TIMES=2|CASTERLEVEL=12|Stoneskin,16						
+Boots of the Sea	TYPE:Magic.Wondrous.Boot	COST:56500	WT:1	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Swim|10|TYPE=Competence			SPROP:At will can Water Walk and Water Breath.							
+Boots (Steadfast)	TYPE:Magic.Wondrous.Boot	COST:6000	WT:1	SOURCEPAGE:Arms and Equipment Guide	OUTPUTNAME:[NAME] Boots							SPROP:Cannot be tripped or pushed back by Bull Rush. If the wearer has a Medium or greater weapon also count as being set against a charge.							
+Boots of Tracklessness	TYPE:Magic.Wondrous.Boot	COST:33500	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Grant Pass Without Trace.	SPELLS:Boots of Tracklessness|TIMES=3|CASTERLEVEL=7|Improved Invisibility,16						
+Boots of Woodland Striding	TYPE:Magic.Wondrous.Boot	COST:23600	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Full movement in forest or jungle. Detect Snares and Pits at will	SPELLS:Boots of Woodland Striding|TIMES=3|CASTERLEVEL=12|Tree Stride,16						
+Candle of Icy Death	TYPE:Magic.Wondrous.Candle	COST:34800	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Every minute that the candle burn, the temperature in 20-ft radius lower by 1°F. Prevent natural and magical healing.							
+Chocker of Eloquence (Lesser)	TYPE:Magic.Wondrous.Amulet	COST:1500	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Diplomacy,Innuendo,Bluff,Perform|5|TYPE=Competence										
+Chocker of Eloquence (Greater)	TYPE:Magic.Wondrous.Amulet	COST:6000	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Diplomacy,Innuendo,Bluff,Perform|10|TYPE=Competence										
+Cinders of the Inferno	TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:In 1d4+1 rounds small fire elementals leaps from.							
+Clasp of the Elder	TYPE:Magic.Wondrous.Amulet	COST:6000	WT:10	SOURCEPAGE:Arms and Equipment Guide	BONUS:STAT|WIS|2|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Dwarf				BONUS:SKILL|Diplomacy|1|TYPE=Enhamcement|!PRERACE:1,RACESUBTYPE=Dwarf	BONUS:SKILL|Diplomacy,Intimidate|5|TYPE=Competence|PRERACE:1,RACESUBTYPE=Dwarf									
+Cloak of Shelter	TYPE:Magic.Wondrous.Cape	COST:12080	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:On command the cloak transform into a 4-person tent. The tent includes an Alarm spell.							
+Coin of Eternal Rest	TYPE:Magic.Wondrous.Coin	COST:6000	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Prevent a corpse beins Resurrected, Raised or turned into undead.							
+Dimensional Chalk Holder	TYPE:Magic.Wondrous	COST:22950	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:A normal chalk is imbued the ability to draw in air. The draws are a Gate to whenever wish.							
+Dragonfly Medallion	TYPE:Magic.Wondrous.Amulet	COST:29760	WT:0	SOURCEPAGE:Arms and Equipment Guide	BONUS:COMBAT|INITIATIVE|1|TYPE=Enhancement|PREFEAT:1,Improved Initiative									VFEAT:Improved Initiative|PREFEAT:1,[Improved Initiative]					
+Droplets of the Storm	TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:In 1d4+1 rounds small water elementals leaps from.							
+Dust of Zephyr	TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:In 1d4+1 rounds small air elementals leaps from.							
+Dimensional Prism	TYPE:Magic.Wondrous	COST:17600	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Shatter to the floor to force any being in 30-ft in transitive planes ti Will save DC 30 or forced into Material plane for 1d6 rounds							
+Everfull Mug	TYPE:Magic.Wondrous	COST:800	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Three times per day a command word fills the mug with 12 ounce of water, cheap ale or watery wine.							
+Everlasting Feedbag	TYPE:Magic.Wondrous	COST:15000	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:When on the muzzle of Horse, Donkey or other equine it produces an unlimited amount of suitable feed.							
+Eversoaking Sponge	TYPE:Magic.Wondrous	COST:26400	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Absorbs 1000 gallons of water per rounds. For other liquids functions as a normal sponge.							
+Fan Furious Flame	TYPE:Magic.Wondrous	COST:18750	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Three times per day the fan create a cone 30-ft long that causes any open flames to explodes (Ref DC 15 for half)							
+Fruit Blossom Spike	TYPE:Magic.Wondrous	COST:5800	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:When driven or hammered into a fruit tree, it causes the tree to go through fast rejuvenation, growing extremely healthy and producing enormous fruit. After one full round wither and die.							
+Gloves of Brachiation	TYPE:Magic.Wondrous.Glove	COST:4000	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Jump|10|TYPE=Circumstance			SPROP:Brachiates at full speed.							
+Googles of the Day	TYPE:Magic.Wondrous.Eyegear	COST:4000	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:No penalty in bright light such Flare, Sunbeam or Sunburst spells.							
+Hammersphere	TYPE:Magic.Wondrous	COST:2500	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Once per day function as Spiritual Weapon, but does 3d6 hp damage.							
+Hat of Anonymity	TYPE:Magic.Wondrous.Headgear	COST:34050	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Hide|10|TYPE=Circumstance			SPROP:The wearer is under Nondetection spell continuosly							
+Horned Helm	TYPE:Magic.Wondrous.Headgear	COST:38000	WT:1	SOURCEPAGE:Arms and Equipment Guide			BONUS:MOVEMULT|TYPE.Walk|2					SPROP:Horned helm, +2 Enhancement to hit with horns and 1d8 damage. 							
+Idol of False Vision	TYPE:Magic.Wondrous	COST:54500	WT:400	SOURCEPAGE:Arms and Equipment Guide									SPELLS:Idol of False Vision|TIMES=3|CASTERLEVEL=10|False Vision,17						
+Incense of the Gorgon	TYPE:Magic.Wondrous	COST:6600	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:When burned all creature in 10-ft radius must Fort save DC 19 or be turned to stone							
+Insatiable Locust	TYPE:Magic.Wondrous	COST:29975	WT:10	SOURCEPAGE:Arms and Equipment Guide								SPROP:Jade locust tiny construct							
+Ioun Stone of Resistance +1	TYPE:Magic.Wondrous.Ioun	COST:2000	WT:0	SOURCEPAGE:Arms and Equipment Guide	BONUS:CHECKS|Fortitude,Will,Reflex|1|TYPE=Resistance							SPROP:+1 Resistance on all saving throw							
+Ioun Stone of Resistance +2	TYPE:Magic.Wondrous.Ioun	COST:8000	WT:1	SOURCEPAGE:Arms and Equipment Guide	BONUS:CHECKS|Fortitude,Will,Reflex|2|TYPE=Resistance							SPROP:+2 Resistance on all saving throw							
+Ioun Stone of Resistance +3	TYPE:Magic.Wondrous.Ioun	COST:18000	WT:2	SOURCEPAGE:Arms and Equipment Guide	BONUS:CHECKS|Fortitude,Will,Reflex|3|TYPE=Resistance							SPROP:+3 Resistance on all saving throw							
+Ioun Stone of Resistance +4	TYPE:Magic.Wondrous.Ioun	COST:32000	WT:3	SOURCEPAGE:Arms and Equipment Guide	BONUS:CHECKS|Fortitude,Will,Reflex|4|TYPE=Resistance							SPROP:+4 Resistance on all saving throw							
+Ioun Stone of Resistance +5	TYPE:Magic.Wondrous.Ioun	COST:50000	WT:4	SOURCEPAGE:Arms and Equipment Guide	BONUS:CHECKS|Fortitude,Will,Reflex|5|TYPE=Resistance							SPROP:+5 Resistance on all saving throw							
+Lantern of Brightness	TYPE:Magic.Wondrous	COST:66520	WT:3	SOURCEPAGE:Arms and Equipment Guide								SPROP:Permanent Light spell.	SPELLS:Lantern of Brightness|TIMES=2|CASTERLEVEL=13|Sunbeam,18						
+Libram of Flesh	TYPE:Magic.Wondrous.Book	COST:178500	WT:5	SOURCEPAGE:Arms and Equipment Guide								SPROP:Details the dration of a Golem							
+Magebane Manacles	TYPE:Magic.Wondrous.Bracer	COST:132000	WT:2	SOURCEPAGE:Arms and Equipment Guide								SPROP:The manacles has an Antimagic Fields that extends to anyone locked with them including the object is carrying							
+Mask of Lies	TYPE:Magic.Wondrous.Headgear	COST:17000	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Bluff|5			SPROP:The wearer is contunually under the effect of Undetectable Alignment spell	SPELLS:Mask of Lies|TIMES=-1|CASTERLEVEL=5|Change Self,11						
+Mask of the Feather Queen	TYPE:Magic.Wondrous.Headgear	COST:27120	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Levitate and Charm birds at will.	SPELLS:Mask of the Feather Queen|TIMES=1|CASTERLEVEL=12|Fly,14						
+Medallion of Contact	TYPE:Magic.Wondrous.Amulet	COST:5000	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Once per day on command forge a telepathic bond for 1 minute with one person within 1 mile.							
+Medallion of the Lycanthrope	TYPE:Magic.Wondrous.Amulet	COST:44200	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Once per day can cast Antipathy against Lycanthrope. Any weapon carried damage Lycanthrope as if they where silver							
+Mirror of Secrets Revealed	TYPE:Magic.Wondrous	COST:95000	WT:.5	SOURCEPAGE:Arms and Equipment Guide									SPELLS:Mirror of Secrets Revealed|TIMES=1|CASTERLEVEL=11|Analyze Dweomer,19	SPELLS:Mirror of Secrets Revealed|TIMES=1|CASTERLEVEL=11|True Seeing,17					
+Neckalce of the Marauding Beast (Raging Bear)	TYPE:Magic.Wondrous.Amulet	COST:11840	WT:0	SOURCEPAGE:Arms and Equipment Guide	BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:VAR|RageDuration|1|PREFEAT:1,Rage													
+Neckalce of the Marauding Beast (Frenzied Shark)	TYPE:Magic.Wondrous.Amulet	COST:12160	WT:0	SOURCEPAGE:Arms and Equipment Guide	BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:VAR|RageDuration|1|PREFEAT:1,Rage			BONUS:SKILL|Swim|4|TYPE=Circumstance										
+Neckalce of the Marauding Beast (Rampaging Boar)	TYPE:Magic.Wondrous.Amulet	COST:12440	WT:0	SOURCEPAGE:Arms and Equipment Guide	BONUS:STAT|CON|1|TYPE=Enhancement	BONUS:VAR|RageDuration|1|PREFEAT:1,Rage								VFEAT:Sunder|PREFEAT:1,[Sunder]	VFEAT:Great Sunder|PREFEAT:1,Sunder				
+Necklace of the Wild Beast (Bead of Calming)	TYPE:Magic.Wondrous.Amulet	COST:500	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Wearer can cast Calm Animals once|PRESPELL:1,Animal Friendship	EQMOD:CHARGED_ITEM_1						
+Necklace of the Wild Beast (Bead of Servitude)	TYPE:Magic.Wondrous.Amulet	COST:1500	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Wearer can cast Dominate Animal once|PRESPELL:1,Animal Friendship	EQMOD:CHARGED_ITEM_1						
+Necklace of the Wild Beast (Bead of the Fang)	TYPE:Magic.Wondrous.Amulet	COST:1500	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Wearer can cast Greater Magic Fang once|PRESPELL:1,Animal Friendship	EQMOD:CHARGED_ITEM_1						
+Necklace of the Wild Beast (Bead of Beckoning)	TYPE:Magic.Wondrous.Amulet	COST:2000	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Wearer can cast Summon Nature's Ally IV  once|PRESPELL:1,Animal Friendship	EQMOD:CHARGED_ITEM_1						
+Necklace of the Wild Beast (Bead of the Great Beast)	TYPE:Magic.Wondrous.Amulet	COST:2500	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Wearer can cast Animal Growth once|PRESPELL:1,Animal Friendship	EQMOD:CHARGED_ITEM_1						
+Necklace of the Wild Beast (Bead of Awakening)	TYPE:Magic.Wondrous.Amulet	COST:3750	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Wearer can cast Awaken once|PRESPELL:1,Animal Friendship	EQMOD:CHARGED_ITEM_1						
+Oracle Beads	TYPE:Magic.Wondrous.Amulet	COST:19192	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Scry|5|TYPE=Insight				SPELLS:Oracle Beads|TIMES=1|CASTERLEVEL=7|Divination,16|PRESPELLCAST:TYPE=Arcane	SPELLS:Oracle Beads|TIMES=2|CASTERLEVEL=7|Divination,16|PRESPELLCAST:TYPE=Divine					
+Pelt of Animal Senses	TYPE:Magic.Wondrous.Cape	COST:30080	WT:1	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Listen|2|TYPE=Circumstance					VFEAT:Scent	VISION:Low-Light				
+Phylactery of Change	TYPE:Magic.Wondrous	COST:11200	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:Polymorph Self once per day. The new form is mantained for indefinite times							
+Burrowing Pitons	TYPE:Magic.Wondrous	COST:380	WT:.5	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Climb|2|TYPE=Circumstance			SPROP:1d8 points of damage (x3 critical) against stone or clay golems or earth elementals	EQMOD:CHARGED_ITEM_1						
+Pixie Dust	TYPE:Magic.Wondrous	COST:2700	WT:0	SOURCEPAGE:Arms and Equipment Guide															
+Portal Bridge	TYPE:Magic.Wondrous	COST:36000	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:On command the statue of the bridge turn into a bridge 5-ft wide and 5-ft to 50-ft length							
+Preserving Jar	TYPE:Magic.Wondrous.Container	COST:3000	WT:2	SOURCEPAGE:Arms and Equipment Guide															
+Restricting Band	TYPE:Magic.Wondrous.Bracer	COST:5400	WT:2	SOURCEPAGE:Arms and Equipment Guide								SPROP:Grows and Shriks on command. Escape Artist DC 30 to escape.							
+Rope of Stone	TYPE:Magic.Wondrous	COST:11800	WT:5	SOURCEPAGE:Arms and Equipment Guide								SPROP:On command the rope become hard as stone.							
+Saddle of Growth	TYPE:Magic.Wondrous.Mount.Saddle	COST:48600	WT:25	SOURCEPAGE:Arms and Equipment Guide								SPROP:On command the saddle causes a horses mule or donkey to increase size by one size category.							
+Saddle of the Pegasus	TYPE:Magic.Wondrous.Mount.Saddle.Resizable	COST:16875	WT:25	SOURCEPAGE:Arms and Equipment Guide									SPELLS:Saddle of the Pegasus|TIMES=3|CASTERLEVEL=5|Fly,14						
+Saddle of Weather Protection	TYPE:Magic.Wondrous.Mount.Saddle	COST:5400	WT:25	SOURCEPAGE:Arms and Equipment Guide								SPROP:Feel normal temperature between 0° and 110° F.	SPELLS:Saddle of Weather Protection|TIMES=1|CASTERLEVEL=5|Protection from Elements,14						
+Saw of Prodigious Cutting	TYPE:Magic.Wondrous.Enhancement.Weapon.Martial.Melee.Slashing.Specific	COST:2000	WT:3	SOURCEPAGE:Arms and Equipment Guide									SPROP:As weapon can be used only against Plant creature or backfire against wielder			CRITMULT:x2	CRITRANGE:1	DAMAGE:4d6	EQMOD:STEEL
+Seeds of the Treants	TYPE:Magic.Wondrous	COST:15300	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:2 full round after planted a Treant grows.							
+Shards of the Fissure	TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:Arms and Equipment Guide								SPROP:In 1d4+1 rounds small earth elementals leaps from.							
+Singing Bowl	TYPE:Magic.Wondrous	COST:19440	WT:4	SOURCEPAGE:Arms and Equipment Guide															
+Sparring Dummy of the Master	TYPE:Magic.Wondrous	COST:30000	WT:400	SOURCEPAGE:Arms and Equipment Guide								SPROP:Training with this Dummy for 4 week, 8 hours a day uninterrupted, the monk is allowed to make a 10-foot adjustment instead 5-ft step.							
+Stalwart Eye	TYPE:Magic.Wondrous	COST:10000	WT:2	SOURCEPAGE:Arms and Equipment Guide															
+Steadfast Stone	TYPE:Magic.Wondrous	COST:32400	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Two times per day when throw upon ground the stone create as a Wall of Stone cast by a 9th level cleric.							
+Stove of Everlasting Flame	TYPE:Magic.Wondrous	COST:2400	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Continual Flame inside a metal sphere.							
+Stylus of the Masterful Hand	TYPE:Magic.Wondrous	COST:3000	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|Forgery|5|TYPE=Competence										
+Testing Chalice	TYPE:Magic.Wondrous	COST:4000	WT:.5	SOURCEPAGE:Arms and Equipment Guide								SPROP:The color of the chalice varies depending on the liquid pured into it.							
+Thurible of Divining	TYPE:Magic.Wondrous	COST:77000	WT:1	SOURCEPAGE:Arms and Equipment Guide															
+Thurible of Retribution	TYPE:Magic.Wondrous	COST:77000	WT:1	SOURCEPAGE:Arms and Equipment Guide															
+Thurible of Warding	TYPE:Magic.Wondrous	COST:77000	WT:1	SOURCEPAGE:Arms and Equipment Guide															
+Triton Shell (without air)	TYPE:Magic.Wondrous.Container	COST:3000	WT:3	SOURCEPAGE:Arms and Equipment Guide											CONTAINS:100				
+Triton Shell (with air)	TYPE:Magic.Wondrous.Container	COST:18000	WT:3	SOURCEPAGE:Arms and Equipment Guide											CONTAINS:100				
+Trumpeter's Gift	TYPE:Magic.Wondrous	COST:12200	WT:0	SOURCEPAGE:Arms and Equipment Guide					BONUS:SKILL|TYPE.Performance|5|TYPE=Competence				SPELLS:Trumpeter's Gift|TIMES=1|CASTERLEVEL=7|Shout,16						
+Weightless Scabbard	TYPE:Magic.Wondrous.Resizable.Container	COST:1600	WT:1	SOURCEPAGE:Arms and Equipment Guide											CONTAINS:*-1|Weapon=1				
+Yondalla's Wagon Wheel	TYPE:Magic.Wondrous	COST:92880	WT:1	SOURCEPAGE:Arms and Equipment Guide								SPROP:Once per day the wheel creates Leomund's Secure Shelter.							

@@ -1,0 +1,31 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																					
+###Block: Specific Armors																							
+#Armor of Weapon Creation	COST:42305																						
+#Bale Eye	COST:38360																						
+#Disarmor	COST:10875																						
+#Gazebane	COST:74050																						
+#Plantbane	COST:41240																						
+#Spider Shield	COST:40809																						
+#Stonecunning	COST:32130																						
+#Swarm Shield	COST:6160																						
+#Tessellated Armor	COST:11560																						
+#Useful Buckler	COST:10265																						
+#Vampire Hunter	COST:100000																						
+#Variable Shield	COST:6560																						
+																							
+# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory						
+#Armor of Unending Hunt	PROFICIENCY:ARMOR|Chain Shirt	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:100	WT:20	ACCHECK:-2	EQMOD:MITHRAL_ARMR_LT.PLUS2A.MAGIC_COST|16400	MAXDEX:4	SOURCEPAGE:CW	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:Immunity to fatigue and exhaustion												
+Armor of Weapon Creation	PROFICIENCY:ARMOR|Half-Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:600	WT:35	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS1A.SPIKE_A	MAXDEX:0	SOURCEPAGE:AaEG	SPELLFAILURE:40	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE													
+Bale Eye	PROFICIENCY:ARMOR|Half-Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:600	WT:35	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS2A	MAXDEX:0	SOURCEPAGE:AaEG	SPELLFAILURE:40	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE	ABILITY:Special Ability|VIRTUAL|Fear (Sp)|Resistance To Fear							DEFINE:CauseFearPerDay|3	DEFINE:CauseFearLVL|11	DEFINE:FearResistanceBonus|4			
+Disarmor	PROFICIENCY:ARMOR|Scale Mail	TYPE:Enhancement.Armor.Medium.Suit.Specific	COST:50	WT:30	ACCHECK:-4	EQMOD:STEEL.MWORKA.PLUS2A	MAXDEX:3	SOURCEPAGE:AaEG	SPELLFAILURE:25	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE													
+Gazebane	PROFICIENCY:ARMOR|Chain Shirt	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:100	WT:20	ACCHECK:-2	EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:4	SOURCEPAGE:AaEG	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:Immunity to gaze 3/day.												
+Plantbane	PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:10	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS1A	MAXDEX:6	SOURCEPAGE:AaEG	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE													
+Stonecunning	PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:1	SOURCEPAGE:AaEG	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE	ABILITY:Special Ability|VIRTUAL|Stonecunning ~ Base	ABILITY:Special Ability|VIRTUAL|Stonecunning Dwarven Abilities|Stone Shape (Sp)|Stone Tell (Sp)|PRERACE:1,RACESUBTYPE=Dwarf						DEFINE:StonecunningLevel|1	BONUS:VAR|StonecunningLevel|1|PRERACE:1,RACESUBTYPE=Dwarf	DEFINE:StoneShapePerDay|1	DEFINE:StoneShapeLVL|11	DEFINE:StoneTellPerDay|1	DEFINE:StoneTellLVL|11
+Tessellated Armor	PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Medium.Suit.Specific	COST:1500	WT:50	ACCHECK:-4	EQMOD:STEEL.MWORKA.PLUS2A	MAXDEX:1	SOURCEPAGE:AaEG	SPELLFAILURE:25	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE	ABILITY:Special Ability|VIRTUAL|Stonecunning ~ Base	ABILITY:Special Ability|VIRTUAL|Stonecunning Dwarven Abilities|Stone Shape (Sp)|Stone Tell (Sp)|PRERACE:1,RACESUBTYPE=Dwarf						DEFINE:StonecunningLevel|1	BONUS:VAR|StonecunningLevel|1|PRERACE:1,RACESUBTYPE=Dwarf	DEFINE:StoneShapePerDay|1	DEFINE:StoneShapeLVL|11	DEFINE:StoneTellPerDay|1	DEFINE:StoneTellLVL|11
+Vampire Hunter	PROFICIENCY:ARMOR|Banded Mail	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:250	WT:35	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS3A	MAXDEX:1	SOURCEPAGE:AaEG	SPELLFAILURE:35	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE	ABILITY:Special Ability|VIRTUAL|Daylight (Sp at will)|Protection from Evil (Sp at will)|Sunburst (Sp/Wis)|Holy Smite (Sp/Wis)	SPROP:+4 morale bonus on Will check against Domination attempt. 	ABILITY:Special Ability|VIRTUAL|Negative Levels	BONUS:VAR|NegLevels|1|!PREALIGN:LG,NG,CG				DEFINE:DaylightLVL|15	DEFINE:ProtectionFromEvilLVL|15	DEFINE:SunburstPerDay|1	DEFINE:SunburstLVL|15	DEFINE:HolySmitePerDay|1	DEFINE:HolySmiteLVL|15
+																							
+# Equipment Name																							
+Spider Shield	PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Shield.Light.Specific	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA.PLUS1A		SOURCEPAGE:AaEG	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE	ABILITY:Special Ability|VIRTUAL|Poison							DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2			
+Swarm Shield	PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Shield.Light.Specific	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA.PLUS1A		SOURCEPAGE:AaEG	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE	ABILITY:Special Ability|VIRTUAL|Summon Swarm (Sp)							DEFINE:SummonSwarmPerDay|1	DEFINE:SummonSwarmLVL|3				
+Useful Buckler	PROFICIENCY:SHIELD|Buckler	TYPE:Enhancement.Shield.Buckler.Specific	COST:15	WT:5	ACCHECK:-1	EQMOD:STEEL.MWORKA.PLUS1A		SOURCEPAGE:AaEG	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE		SLOTS:0	BONUS:COMBAT|TOHIT|-1|PREMULT:1,[PREEQUIPBOTH:1,TYPE=Melee],[PREEQUIPSECONDARY:1,TYPE=Melee]										
+Variable Shield	PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Shield.Light.Specific	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA.PLUS1A		SOURCEPAGE:AaEG	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE													

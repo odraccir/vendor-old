@@ -4,7 +4,7 @@ SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.n
 Gemstone of Fortification (Light)	OUTPUTNAME:Gemstone of Light Fortification	TYPE:Magic.Wondrous	COST:3000	WT:0		SOURCEPAGE:Drac				SPROP:Critical and Sneak Attack bonus damage negated(25% of time)			
 Gemstone of Fortification (Medium)	OUTPUTNAME:Gemstone of Medium Fortification	TYPE:Magic.Wondrous	COST:15000	WT:0		SOURCEPAGE:Drac				SPROP:Critical and Sneak Attack bonus damage negated(75% of time)			
 Gemstone of Fortification (Heavy)	OUTPUTNAME:Gemstone of Heavy Fortification	TYPE:Magic.Wondrous	COST:35000	WT:0		SOURCEPAGE:Drac				SPROP:Critical and Sneak Attack bonus damage negated(100% of time)			
-Gorget of Tempest Breath		TYPE:Magic.Wondrous.Necklace	COST:10000	WT:10		SOURCEPAGE:Drac					VFEAT:Tempest Breath		
+Gorget of Tempest Breath		TYPE:Magic.Wondrous.Amulet	COST:10000	WT:10		SOURCEPAGE:Drac					VFEAT:Tempest Breath		
 Jaws of the Dragon		TYPE:Magic.Wondrous	COST:40000	WT:8		SOURCEPAGE:Drac				SPROP:gains the benefit of Sharptooth spells|PREWEAPONPROF:1,Bite			
 Pectoral of Maneuverability		TYPE:Magic.Wondrous.Robe	COST:12000	WT:5		SOURCEPAGE:Drac						BONUS:VAR|Maneuverability|1	
 Pectoral of Maneuverability (Greater)	OUTPUTNAME:Pectoral of Maneuverability, Greater	TYPE:Magic.Wondrous.Robe	COST:90000	WT:5		SOURCEPAGE:Drac						BONUS:VAR|Maneuverability|2	
@@ -49,4 +49,4 @@ Idol of the Dragon (Silver/Jouvenile)	OUTPUTNAME:Idol of the Silver Jouvenile Dr
 Idol of the Dragon (Red/Young Adult)	OUTPUTNAME:Idol of the Red Young Adult Dragon	TYPE:Magic.Wondrous	COST:116000	WT:0		SOURCEPAGE:Drac				SPROP:dragon form or resistance to fire 10			
 Idol of the Dragon (Gold/Young Adult)	OUTPUTNAME:Idol of the Gold Young Adult Dragon	TYPE:Magic.Wondrous	COST:142000	WT:0		SOURCEPAGE:Drac				SPROP:dragon form or resistance to fire 10			
 Mantle of the Silver Wyrm		TYPE:Magic.Wondrous.Cape	COST:27000	WT:3		SOURCEPAGE:Drac		ABILITY:Special Ability|VIRTUAL|Resistance To Cold			SPELLS:Mantle of the Silver Wyrm|TIMES=1|CASTERLEVEL=5|Fly	BONUS:STAT|CHA|4|TYPE=Enhancement	DEFINE:ColdResistance|10
-Wyrmfang Amulet		TYPE:Magic.Wondrous.Necklace	COST:25000	WT:0		SOURCEPAGE:Drac				SPROP:natural attacks overcome damage reduction as if wielding a magic weapon			
+Wyrmfang Amulet		TYPE:Magic.Wondrous.Amulet	COST:25000	WT:0		SOURCEPAGE:Drac				SPROP:natural attacks overcome damage reduction as if wielding a magic weapon			

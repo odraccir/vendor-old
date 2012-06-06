@@ -1,0 +1,44 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.wizards.com
+
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+
+# Weapon Name	TYPE	HANDS:1IFLARGERTHANWEAPON
+#Glot	TYPE:Ranged.Bludgeoning.RangedBludgeoning
+Bracers (Claw)	TYPE:Melee.Piercing.MeleePiercing.Unarmed
+Dagger (Stump)	TYPE:Melee.Piercing.MeleePiercing.Dagger
+Gauntlet (Ward Cestus)	TYPE:Melee.Piercing.EcoticPiercing
+Battlepick (Gnome)	TYPE:Martial.Melee.Piercing.MartialPiercing.MeleePiercing.Pick
+Sapara	TYPE:Melee.Slashing.MeleeSlashing
+Sword (Butterfly)	TYPE:Melee.Slashing.MeleeSlashing.Sword
+Tonfa	TYPE:Melee.Bludgeoning.MeleeBludgeoning
+Chain and Dagger	TYPE:Melee.Reach.Piercing.Chain.MeleePiercing.RangedPiercing
+War Fan	TYPE:Melee.Exotic.Slashing.MeleeSlashing
+Sword (Mercurial)	TYPE:Melee.Slashing.MeleeSlashing.Sword
+Greatsword (Mercurial)	TYPE:Melee.Slashing.MeleeSlashing.Sword
+Gyrspike	TYPE:Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing	HANDS:2
+Mace (Double)	TYPE:Melee.Bludgeoning.MeleeBludgeoninc.Mace	HANDS:2
+Scimitar (Double)	TYPE:Melee.Slashing.MeleeSlashing.Scimitar	HANDS:2
+Staff (Three Section)	TYPE:Melee.Bludgeoning.MeleeBludgeoning.Staff
+Fullblade	TYPE:Melee.Martial.Exotic.Slashing.MeleeSlashing.Sword
+#
+Fukimi Bari	TYPE:Ranged.Piercing.RangedPiercing
+Skiprock	TYPE:Ranged.Bludgeoning.RangedBludgeoning
+Bolas (Two Ball)	TYPE:Exotic.Thrown.Bludgeoning.ThrownBludgeoning
+Calculus (Gnome)	TYPE:Exotic.Thrown.Bludgeoning.ThrownBludgeoning
+Chakram	TYPE:Exotic.Thrown.Slashing.ThrownSlashing
+Throwing Iron	TYPE:Exotic.Thrown.Slashing.ThrownSlashing
+Whip Dagger	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Reach
+Gauntlet (Spring Loaded)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.Unarmed
+Javelin (Spinning)	TYPE:Exotic.Thrown.Piercing.ThrownPiercing
+Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2
+Bow (Double/Elven)	TYPE:Martial.Exotic.Ranged.Piercing.RangedPiercing.Bow	HANDS:2
+#
+#
+Crossbow (Bladed)	TYPE:Melee	HANDS:2
+Sword of Graceful Strike	TYPE:Martial

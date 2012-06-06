@@ -1,0 +1,13 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
+CATEGORY=Special Ability|Monk Weapon Proficiencies.MOD	AUTO:WEAPONPROF|Sword (Butterfly)|Bracers (Claw)|Tonfa|Staff (Three Section)|War Fan																															
+																																
+#																																
+Trick ~ Don't Attack	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Don't Attack ~ DC 15 ~ The animal don't attack a specific person or creature besides the master..	SOURCEPAGE:AaEG													
+Trick ~ Special Ability	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Special Ability ~ DC 15 ~ The animal is trained to use a specific ability until commanded to stop.	SOURCEPAGE:AaEG													
+Trick ~ Alert	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Alert ~ DC 15 ~ The creature make some distinctive noise when detects or attacks intruders.	SOURCEPAGE:AaEG													
+Trick ~ Disable	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Disable ~ DC 15 ~ The creature fights until it senses that the target has been incapacitated.	SOURCEPAGE:AaEG													
+Trick ~ Disarm	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Disarm ~ DC 15 ~ If the creature is capable of making disarm attacks, it attempts to do so until commanded to stop.	SOURCEPAGE:AaEG													
+Trick ~ Subdue	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Subdue ~ DC 15 ~ if possible, the creature deals non lethal damage instead of normal damage.	SOURCEPAGE:AaEG													
+Trick ~ Trip	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Trip ~ DC 15 ~ If the creature is capable of making trip attacks, it attempts to do so until commanded to stop.	SOURCEPAGE:AaEG													

@@ -295,8 +295,7 @@ Piscoloth Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUT
 Skeroloth Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Yurian Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Aboleth Skum Tail Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Dolphin Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. It can use run action while swimming provided it swims in a straight line.																												SOURCEPAGE:AaEG										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
@@ -787,6 +786,7 @@ Breath Weapon ~ Acid Breath Line	CATEGORY:Special Ability	TYPE:SpecialAttack.Sup
 Breath Weapon ~ Cloud of Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cloud of Acid %2d%3 Acid DC %4|BreathWeaponCloud|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCloud|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:MM2										
 Breath Weapon ~ Cloud of Noxious Gas	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cloud of Noxious Gas %2d%3 STR damage DC %4|BreathWeaponCloud|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCloud|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:Mon										
 Breath Weapon ~ Cloud of Noxious Vapor	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cloud of Noxiuos Vapor DC %2 or Memory Loss|BreathWeaponCloud|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
+Breath Weapon ~ Cloud of Paralyzing Gas	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cloud of Paralyzing Gas DC %2 or Paralyzed|BreathWeaponCloud|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:FFo										
 Breath Weapon ~ Cone of Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Acid %2d%3 acid DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:PHB2										
 Breath Weapon ~ Cone of Boiling Water	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Boiling Water %2d%3 DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:PH										
 Breath Weapon ~ Cone of Brilliant Light	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Brilliant Light %2d%3 + blind DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC	OUTPUTNAME:Breath Weapon	SERVESAS:ABILITY=Special Ability|Breath Weapon		DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)																				SOURCEPAGE:MM2										
@@ -1594,7 +1594,7 @@ Fearsome Reputation	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Spe
 Feather Fall (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:FeatherFallPerDay|0	DEFINE:FeatherFallLVL|0										SPELLS:Innate|TIMES=FeatherFallPerDay|CASTERLEVEL=FeatherFallLVL|Feather Fall													SOURCEPAGE:MoF										
 Feather Falls (Sp at will)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:FeatherFallLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=FeatherFallLVL|Feather Fall													SOURCEPAGE:MM2										
 Feather Flurry	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialAttack	VISIBLE:YES	DESC:%1/day|FeatherFlurryPerDay				DEFINE:FeatherFlurryPerDay|0																								SOURCEPAGE:FFo										
-Feeblemind touch	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM2										
+Feeblemind Touch	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM2										
 Feign Death	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Sense Motive DC %1|FeignDeathDC				DEFINE:FeignDeathDC|0																								SOURCEPAGE:FFo										
 Feint Mastery	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Feline Familiar	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES					DEFINE:FFLevel|0											FOLLOWERS:Feline Familiar|1	COMPANIONLIST:Feline Familiar|Cat												SOURCEPAGE:PGtF										
@@ -1879,6 +1879,7 @@ Holy Power	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	
 Holy Purpose	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1|HolyPurposeBonus				DEFINE:HolyPurposeBonus|0																								SOURCEPAGE:EXD										
 Holy Smite (Sp at will)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:HolySmiteLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=HolySmiteLVL|Holy Smite,14+CHA													SOURCEPAGE:EXD										
 Holy Smite (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:HolySmitePerDay|0	DEFINE:HolySmiteLVL|0										SPELLS:Innate|TIMES=HolySmitePerDay|CASTERLEVEL=HolySmiteLVL|Holy Smite,14+CHA													SOURCEPAGE:EXD										
+Holy Smite (Sp/Wis)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:HolySmitePerDay|0	DEFINE:HolySmiteLVL|0										SPELLS:Innate|TIMES=HolySmitePerDay|CASTERLEVEL=HolySmiteLVL|Holy Smite,14+WIS													SOURCEPAGE:EXD										
 Holy Suffering	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PGtF										
 Holy Sword (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:HolySwordTimes|0	DEFINE:HolySwordLVL|0										SPELLS:Innate|TIMES=HolySwordTimes|CASTERLEVEL=HolySwordLVL|Holy Sword,14+WIS													SOURCEPAGE:CW										
 Holy Touch	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:EXD										
@@ -2440,6 +2441,7 @@ Profane Alacrity	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.Modif
 Profane Blast	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day|ProfaneBlastPerDay				DEFINE:ProfaneBlastPerDay|0																								SOURCEPAGE:Drac										
 Protection from Arrows	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:10/magic against ranged weapons.																												SOURCEPAGE:MM2										
 Protection from Evil (Sp always active)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality.Sense	VISIBLE:YES	DESC:always active	OUTPUTNAME:Protection from Evil (Sp)																											SOURCEPAGE:MM2										
+Protection from Evil (Sp at will)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality.Sense	VISIBLE:YES		OUTPUTNAME:Protection from Evil (Sp)				DEFINE:ProtectionFromEvilLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=ProtectionFromEvilLVL|Protection from Evil,11+CHA													SOURCEPAGE:AaEG										
 Protection of Winter	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Fro										
 Protective Aura (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES	DESC:%1/day|ProtectiveAuraPerDay				DEFINE:ProtectiveAuraPerDay|0																								SOURCEPAGE:EXD										
 Prototype	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:MoF										
@@ -3064,7 +3066,7 @@ Summon Yugoloth ~ Ultraloth	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuali
 Summoning	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Mon										
 Summoning Mastery	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:summon monster spell use the list of %1 level higher than normal for chaotic evil outsiders.|SummoningMasteryListAdvancement				DEFINE:SummoningMasteryListAdvancement|0																								SOURCEPAGE:BoVD										
 Sunbeam (Sp/gemstone)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:1d3 times/day				DEFINE:SunbeamLVL|0											SPELLS:Innate|TIMES=3|CASTERLEVEL=SunbeamLVL|Sunbeam,17+CHA													SOURCEPAGE:Mon										
-Sunburst (Sp/Wis)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:SunburstPerDay|0	DEFINE:SunburstDC|0											SPELLS:Innate|TIMES=SunburstPerDay|CASTERLEVEL=SunburstLVL|Sunburst,18+WIS												SOURCEPAGE:EXD										
+Sunburst (Sp/Wis)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:SunburstPerDay|0	DEFINE:SunburstLVL|0											SPELLS:Innate|TIMES=SunburstPerDay|CASTERLEVEL=SunburstLVL|Sunburst,18+WIS												SOURCEPAGE:EXD										
 Sundance	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:EXD										
 Sunder Evil Item	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:EXD										
 Sundering Bite	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:+4 bonus on opposed attack roll to bite weapons, shields or armors and deals double damage.																												SOURCEPAGE:FFo										
@@ -3414,16 +3416,15 @@ Zone of Desecration	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.Spec
 Zulkir Champion	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day|ZulkirChampioPerDay				DEFINE:ZulkirChampioPerDay|0																								SOURCEPAGE:CW										
 Zulkir Defender	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1|ZulkirDefenderBonus				DEFINE:ZulkirDefenderBonus|2																								SOURCEPAGE:CW										
 Zulkir Favor	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES								BONUS:CHECKS|Reflex|2|TYPE=Resistance																					SOURCEPAGE:CW										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
-#	CATEGORY:Special Ability																															SOURCEPAGE:FFo										
+Pestilential Aura	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.Aura	VISIBLE:YES																													SOURCEPAGE:CdT										
+Rotting Metabolism	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CdT										
+Thud	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:AaEG										
+Shatter (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:ShatterPerDay|0	DEFINE:ShatterLVL|0										SPELLS:Innate|TIMES=ShatterPerDay|CASTERLEVEL=ShatterLVL|Shatter,12+CHA													SOURCEPAGE:AaEG										
+Fin Sweep	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Ref CD %1|FinSweepDC				DEFINE:FinSweepDC|10+(HD/2)+STR																								SOURCEPAGE:AaEG										
+Glow	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:AaEG										
+Bale Eye ~ Fear	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:CauseFearPerDay|0	DEFINE:CauseFearLVL|0										SPELLS:Bale Eye|TIMES=CauseFearPerDay|CASTERLEVEL=CauseFearLVL|Cause Fear,11+CHA													SOURCEPAGE:BoVD										
+Stonecunning ~ Dwarven Abilities	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:SKILL|Search (Notice unusual stonework)|4|TYPE=Circumstance																					SOURCEPAGE:AaEG										
+#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
+#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
+#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
+#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										

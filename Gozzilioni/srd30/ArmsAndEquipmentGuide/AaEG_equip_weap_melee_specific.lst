@@ -1,0 +1,7 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																			
+																					
+#Acid Fang Dagger	COST:19102																				
+																					
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property		REACHMULT:2	RANGE							
+Acid Fang Dagger		PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Specific.Piercing.Slashing.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.CORR_M		RANGE:10					SOURCEPAGE:AaEG	MODS:NO	SPROP:1/day Animal Friendship 8HD snakes or reptiles. Speak with Animals with reptiles at will.
+Arrowdeath Flail		PROFICIENCY:WEAPON|Flail (Dire)	TYPE:Enhancement.Weapon.Melee.Exotic.Double.Specific.Bludgeoning.Flail	COST:90	WT:10	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MOWRK2W			ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL.MWORK1W	SOURCEPAGE:AaEG	MODS:NO	

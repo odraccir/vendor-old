@@ -1,0 +1,62 @@
+SOURCELONG:Arms and Equipment guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																											
+#																													
+###Block:Armor abilities																													
+# Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
+Quick Escape	KEY:QUICK_ESC	TYPE:Armor		Cost:300	VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Masterwork,Armor															SPROP:reduce the time to remove the armor. Double the time to don.					
+																													
+#																													
+Acidic	KEY:ACIDIC	TYPE:Armor.Shield	PLUS:4		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:2d4 acid damage per round of contact during a grapple.					
+Aquatic	KEY:AQUATIC	TYPE:Armor	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor]																				
+Aquatic (Water Breathing)	KEY:AQUATIC_WTB	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:3,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor],[PRETYPE:1,EQMOD=AQUATIC]															ABILITY:Special Ability|VIRTUAL|Water Breathing					
+#Arrow Catching	see DMG																												
+Bane Blind	KEY:BANE_BLN	TYPE:Armor	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor]															SPROP:Greater Invisibility vs. %CHOICE				CHOOSE:STRING|Aberrations|Animals|Constructs|Elementals|Fey|Giants|Humanoids (aquatic)|Humanoids (dwarf)|Humanoids (elf)|Humanoids (gnoll)|Humanoids (gnome)|Humanoids (goblinoid)|Humanoids (halfling)|Humanoids (human)|Humanoids (reptilian)|Humanoids (orc)|Magical Beasts|Monstrous Humanoids|Oozes|Outsiders (chaotic)|Outsiders (evil)|Outsiders (good)|Outsiders (lawful)|Undead|Vermin|TITLE=Designated Foe	
+Buffering	KEY:BUFF	TYPE:Armor.Shield	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Buffering					
+Command	KEY:CMD	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]									BONUS:SKILL|STAT.CHA|4|TYPE=Competence	BONUS:SKILL|Hide|-6					SPROP:Command					
+Dancing	KEY:DANCE_SH	TYPE:Shield	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Shield]															SPROP:can be loosed to defend on its own.					
+Daylight	KEY:DAYLGHT	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Daylight					
+Distracting	KEY:DISTRCT	TYPE:Armor.Shield	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Distracting					
+Fearsome	KEY:FEAR	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Fearsome					
+Feathered	KEY:FEATHER	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Feathered					
+#Sacred	See EXD																												
+Wrapping	KEY:WRAP	TYPE:Shield	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Shield]															SPROP:Wrapping					
+																													
+Balanced	KEY:BALANCE	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Melee								BONUS:WEAPON|WIELDCATEGORY|-1												
+Binding	KEY:BIND_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Ammunition															SPROP:1/day Dimension Anchor on target on succesful hit.					
+Binding	KEY:BIND_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Melee	PRETYPE:1,Melee,Thrown														SPROP:1/day Dimension Anchor on target on succesful hit.					
+Binding	KEY:BIND_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:1/day Dimension Anchor on target on succesful hit.					
+Commanding	KEY:COMMAND	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon									BONUS:SKILL|Bluff,Diplomacy,Intimidate|2|TYPE=Enhancement						SPROP:+4 enhancement bonus on Intimidate when held or drawn.	ABILITY:Special Ability|VIRTUAL|Suggestion (Sp)	DEFINE:SuggestionPerDay|1	DEFINE:SuggestionLVL|7		
+Crazed	KEY:CRAZD	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Rage 1/day.					
+#Disarming	vedi CW.																												
+#Energy Aura	vedi MoF (Elemental Aura).																												
+Eager	KEY:EAG	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Melee								BONUS:COMBAT|INITIATIVE|2												
+#Everbright	vedi MoF.																												
+Fierce	KEY:FIERCE	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:DEX bonus to Damage.					
+Force	KEY:FORCE_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Ammunition															SPROP:+1d6 Force damage					
+Force	KEY:FORCE_M	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+1d6 Force damage					
+Force	KEY:FORCE_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+1d6 Force damage bestowed on ammunition					
+Fortunate	KEY:FORTUNE	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon										BONUS:CHECKS|Fortitude,Will,Reflex|1|TYPE=Resistance										
+Grasping	KEY:GRASP_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+2 circumstance bonus on Trip and Disarm.					
+Harmony	KEY:HARMONY_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+4 bonus on flanking attacks instead of +2.					
+Heartfinder	KEY:HRTFIND_M	TYPE:Weapon.Melee.Thrown.Piercing	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown	PRETYPE:1,Piercing													SPROP:+1d6 Sneak Attack damage					
+#Impact	vedi MoF.																												
+#Ki Focus	vedi rsrd/DMG.																												
+#Knockback	vedi CW.																												
+#Merciful	vedi rsrd/DMG.																												
+#Precise	vedi MoF.																												
+Proficent	KEY:PROF	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:negate non proficent malus.					
+Proficent	KEY:PROF	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:negate non proficent malus.					
+#Quickloading	vedi MoF.																												
+Radiant	KEY:RADIANT_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Ammunition															ABILITY:Special Ability|VIRTUAL|Daylight (Sp at will)	DEFINE:DaylightLVL|9				
+Radiant	KEY:RADIANT_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														ABILITY:Special Ability|VIRTUAL|Daylight (Sp at will)	DEFINE:DaylightLVL|9				
+Radiant	KEY:RADIANT_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														ABILITY:Special Ability|VIRTUAL|Daylight (Sp at will)	DEFINE:DaylightLVL|9				
+#Screaming	vedi MOF.																												
+#Seeking	vedi rsrd/DMG.																												
+Shadowstrike	KEY:SHDW_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:1/day reach the target 5-ft through his shadow.					
+Shrink	KEY:SHRINK_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:the weapon can shrink as the spell.					
+Shrink	KEY:SHRINK_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:the weapon can shrink as the spell.					
+Stunning	KEY:STUN_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Ammunition															SPROP:+1d6 sonic damage. Fort DC 17 or stunned on critical hits.	DEFINE:DaylightLVL|9				
+Stunning	KEY:STUN_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+1d6 sonic damage. Fort DC 17 or stunned on critical hits.	DEFINE:DaylightLVL|9				
+Stunning	KEY:STUN_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:AaEG	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+1d6 sonic damage. Fort DC 17 or stunned on critical hits.	DEFINE:DaylightLVL|9				
+#Sure Striking	vedi PGtF. 																												
+#Sweeping	vedi MoF.																												
+#Vicious	vedi rsrd/DMG.																												
