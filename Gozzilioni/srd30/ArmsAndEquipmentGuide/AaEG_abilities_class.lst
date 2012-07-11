@@ -9,5 +9,5 @@ Trick ~ Special Ability	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQual
 Trick ~ Alert	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Alert ~ DC 15 ~ The creature make some distinctive noise when detects or attacks intruders.	SOURCEPAGE:AaEG													
 Trick ~ Disable	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Disable ~ DC 15 ~ The creature fights until it senses that the target has been incapacitated.	SOURCEPAGE:AaEG													
 Trick ~ Disarm	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Disarm ~ DC 15 ~ If the creature is capable of making disarm attacks, it attempts to do so until commanded to stop.	SOURCEPAGE:AaEG													
-Trick ~ Subdue	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Subdue ~ DC 15 ~ if possible, the creature deals non lethal damage instead of normal damage.	SOURCEPAGE:AaEG													
+#Trick ~ Subdue	Vedi CAd
 Trick ~ Trip	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO														DESC:Trip ~ DC 15 ~ If the creature is capable of making trip attacks, it attempts to do so until commanded to stop.	SOURCEPAGE:AaEG													

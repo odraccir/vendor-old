@@ -18,12 +18,17 @@ ARMORPROF:AaEG_armorprof.lst
 EQUIPMENT:AaEG_equip.lst
 EQUIPMENT:AaEG_equip_armorshields.lst
 EQUIPMENT:AaEG_equip_armorshields_specific.lst
+EQUIPMENT:AaEG_equip_artifacts.lst
 EQUIPMENT:AaEG_equip_potions_poisons.lst
+EQUIPMENT:AaEG_equip_rings.lst
+EQUIPMENT:AaEG_equip_rodsstaffswands.lst
 EQUIPMENT:AaEG_equip_weap_ammo.lst
 EQUIPMENT:AaEG_equip_weap_ammo_specific.lst
 EQUIPMENT:AaEG_equip_weap_melee.lst
 EQUIPMENT:AaEG_equip_weap_melee_specific.lst
+EQUIPMENT:AaEG_equip_weap_natural_specific.lst
 EQUIPMENT:AaEG_equip_weap_ranged.lst
+EQUIPMENT:AaEG_equip_weap_ranged_specific.lst
 EQUIPMENT:AaEG_equip_woundrousitems.lst
 EQUIPMOD:AaEG_equipmods_base.lst
 EQUIPMOD:AaEG_equipmods_enhancing.lst

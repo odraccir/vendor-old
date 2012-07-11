@@ -20,6 +20,8 @@ Tonfa	TYPE:Melee.Bludgeoning.MeleeBludgeoning
 Chain and Dagger	TYPE:Melee.Reach.Piercing.Chain.MeleePiercing.RangedPiercing
 War Fan	TYPE:Melee.Exotic.Slashing.MeleeSlashing
 Sword (Mercurial)	TYPE:Melee.Slashing.MeleeSlashing.Sword
+Duom	TYPE:Melee.Piercing.MeleePiercing
+Lucern Hammer	TYPE:Melee.Piercing.MeleePiercing
 Greatsword (Mercurial)	TYPE:Melee.Slashing.MeleeSlashing.Sword
 Gyrspike	TYPE:Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing	HANDS:2
 Mace (Double)	TYPE:Melee.Bludgeoning.MeleeBludgeoninc.Mace	HANDS:2
@@ -31,13 +33,13 @@ Fukimi Bari	TYPE:Ranged.Piercing.RangedPiercing
 Skiprock	TYPE:Ranged.Bludgeoning.RangedBludgeoning
 Bolas (Two Ball)	TYPE:Exotic.Thrown.Bludgeoning.ThrownBludgeoning
 Calculus (Gnome)	TYPE:Exotic.Thrown.Bludgeoning.ThrownBludgeoning
-Chakram	TYPE:Exotic.Thrown.Slashing.ThrownSlashing
 Throwing Iron	TYPE:Exotic.Thrown.Slashing.ThrownSlashing
 Whip Dagger	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Reach
 Gauntlet (Spring Loaded)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.Unarmed
 Javelin (Spinning)	TYPE:Exotic.Thrown.Piercing.ThrownPiercing
 Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2
 Bow (Double/Elven)	TYPE:Martial.Exotic.Ranged.Piercing.RangedPiercing.Bow	HANDS:2
+Shotput	TYPE:Exotic.Martial.Melee.Bludgeoning.MeleeBludgeoning
 #
 #
 Crossbow (Bladed)	TYPE:Melee	HANDS:2

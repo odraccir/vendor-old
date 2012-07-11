@@ -1,0 +1,18 @@
+SOURCELONG:Arms and Equipment guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																										
+																												
+#MINOR ARTIFACTS																												
+# Equipment Name																												
+The Blade of Fiery Might			PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Artifact.Slashing.Sword		WT:4	WIELD:OneHanded		SIZE:L	DAMAGE:1d8	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS5W.UNHLY_M.KEEN.FLM_BR_M								SOURCEPAGE:AaEG	MODS:NO	SPROP:Fire Shield, True Seeing always active. 1D6/round fire damage to the wielder.	ABILITY:Special Ability|VIRTUAL|Basic Turning|Rebuke Fire	DEFINE:TurnLevelBase|20	DEFINE:TurnTimesBase|10		
+Crystal of the Ebon Flame		TYPE:Artifact	COST:0	WT:0	SOURCEPAGE:AaEG																							
+Daoud's Wondrous Lantern		TYPE:Artifact.LightSource	COST:0	WT:0	SOURCEPAGE:AaEG			QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone	QUALITY:Duration|6 hr./pint																		
+Dragonhammer			PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Artifact.Slashing.Sword		WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS5W.HOLY_M.BANE_M_DRG|Dragons (Evil)								SOURCEPAGE:AaEG	MODS:NO	BONUS:COMBAT|AC|7|TYPE=Luck	ABILITY:Special Ability|VIRTUAL|Resistance To Acid|Resistance To Electricity|Resistance To Fire|Resistance To Cold	DEFINE:AcidResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20	DEFINE:FireResistanceBonus|20	DEFINE:ColdResistanceBonus|20
+Helltongue			PROFICIENCY:WEAPON|Whip	TYPE:Enhancement.Weapon.Melee.Reach.Exotic.Artifact.Finesseable.Slashing.Whip.Might		WT:3	WIELD:Light		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:LEATHER.MWORKW.PLUS5W.WHIPSTR|4								SOURCEPAGE:AaEG	MODS:REQUIRED	SPROP:each succesfull hit roll 1d6: 1-2 one strand, 3-4 two strands 5-6 three strands hit the target	REACH:15		BONUS:WEAPON|DAMAGE|min(STR,0)		
+The Iron Flask of Tuerny Merciless		TYPE:Artifact	COST:0	WT:0	SOURCEPAGE:AaEG																							
+The Jacinth of Inestimable Beauty		TYPE:Artifact.Gem	COST:0	WT:0	SOURCEPAGE:AaEG																							
+Joydee's Mask		TYPE:Artifact.Eyegear	COST:0	WT:0	SOURCEPAGE:AaEG		ABILITY:Special Ability|VIRTUAL|Immunity To Gaze|Immunity To Mind-Affecting	SPELLS:Joydee's Mask|TIMES=ATWILL|CASTERLEVEL=20|Alter Self																				
+#Regalia of Evil	see BoVD																											
+#Regalia of Good	see EXD																											
+Regalia of Neutrality (Crown of Neutrality)	OUTPUTNAME:[NAME]	TYPE:Artifact.Headgear	COST:0	WT:0	SOURCEPAGE:AaEG	PREALIGN:NG,TN,NE	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold	BONUS:STAT|INT|4|TYPE=Enhancement	BONUS:COMBAT|AC|4|TYPE=Deflection	SR:20	SPELLS:Crown of Neutrality|TIMES=3|CASTERLEVEL=20|Geas/Quest|Detect Thoughts,17|Resilient Sphere,19																	
+Regalia of Neutrality (Scepter of Neutrality)	OUTPUTNAME:[NAME]	TYPE:Artifact.Rod	COST:0	WT:0	SOURCEPAGE:AaEG	PREALIGN:NG,TN,NE	BASEITEM:Rod	ABILITY:Special Ability|AUTOMATIC|Fast Healing	BONUS:STAT|CON|4|TYPE=Enhancement	SPELLS:Scepter of Good|TIMES=3|CASTERLEVEL=20|Tongues,20|Shout,20|Command (Greater),20	DEFINE:FastHealing|2																	
+Regalia of Neutrality (Orb of Neutrality)	OUTPUTNAME:[NAME]	TYPE:Artifact	COST:0	WT:0	SOURCEPAGE:AaEG	PREALIGN:NG,TN,NE	SPROP:function as Robe of Eyes	BONUS:STAT|CHA|4|TYPE=Enhancement	VISION:Darkvision (120')	ABILITY:Special Ability|AUTOMATIC|See Invisibility|See Ethereal|Uncanny Dodge ~ Base	BONUS:SKILL|Search,Spot|15|TYPE=Circumstance	BONUS:VAR|UncannyDodgeLevel|1																
+Rod of Seven Parts		TYPE:Artifact.Rod	COST:0	WT:0	SOURCEPAGE:AaEG		BASEITEM:Rod																					

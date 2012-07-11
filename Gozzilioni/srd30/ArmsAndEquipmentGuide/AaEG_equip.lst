@@ -15,11 +15,11 @@ Cage (Medium)		TYPE:Goods.General.Resizable	COST:50	WT:100	SOURCEPAGE:AaEG	SPROP
 Cage (Small)		TYPE:Goods.General.Resizable	COST:25	WT:75	SOURCEPAGE:AaEG	SPROP:One small creature or multiple smaller								
 Cage (Tiny)		TYPE:Goods.General.Resizable	COST:15	WT:25	SOURCEPAGE:AaEG	SPROP:One tiny creature or multiple smaller								
 Candelabra 4-candle gold		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource.Container	COST:25	WT:1	SOURCEPAGE:AaEG		CONTAINS:1|Candle=4	QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.					
-Candelabra 4-candle silver		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource	COST:10	WT:.5	SOURCEPAGE:AaEG		CONTAINS:1|Candle=4	QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.					
-Candelabra 8-candle gold		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource	COST:35	WT:2	SOURCEPAGE:AaEG		CONTAINS:1|Candle=8	QUALITY:Shadowy Illumination|15 ft.	QUALITY:Duration|1 hr.					
-Candelabra 8-candle silver		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource	COST:20	WT:1	SOURCEPAGE:AaEG		CONTAINS:1|Candle=8	QUALITY:Shadowy Illumination|15 ft.	QUALITY:Duration|1 hr.					
-Candelabra 16-candle gold		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource	COST:45	WT:6	SOURCEPAGE:AaEG		CONTAINS:1|Candle=16	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|1 hr.					
-Candelabra 16-candle silver		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource	COST:25	WT:3	SOURCEPAGE:AaEG		CONTAINS:1|Candle=16	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|1 hr.					
+Candelabra 4-candle silver		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource.Container	COST:10	WT:.5	SOURCEPAGE:AaEG		CONTAINS:1|Candle=4	QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.					
+Candelabra 8-candle gold		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource.Container	COST:35	WT:2	SOURCEPAGE:AaEG		CONTAINS:1|Candle=8	QUALITY:Shadowy Illumination|15 ft.	QUALITY:Duration|1 hr.					
+Candelabra 8-candle silver		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource.Container	COST:20	WT:1	SOURCEPAGE:AaEG		CONTAINS:1|Candle=8	QUALITY:Shadowy Illumination|15 ft.	QUALITY:Duration|1 hr.					
+Candelabra 16-candle gold		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource.Container	COST:45	WT:6	SOURCEPAGE:AaEG		CONTAINS:1|Candle=16	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|1 hr.					
+Candelabra 16-candle silver		TYPE:Goods.Sacred.Resizable.Church.Candelabra.LightSource.Container	COST:25	WT:3	SOURCEPAGE:AaEG		CONTAINS:1|Candle=16	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|1 hr.					
 Candle (insectbane)		TYPE:Goods.Sacred.Resizable.Church.Candle.LightSource	COST:.1	WT:0	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.					
 Candle (wick/50-ft)		TYPE:Goods.Sacred.Resizable.Church.Candle.LightSource	COST:.2	WT:0	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|50 ft.	QUALITY:Duration|1 hr.					
 Candle Mold		TYPE:Goods.Sacred.Resizable.Church.Candelabra	COST:1.2	WT:5	SOURCEPAGE:AaEG									
@@ -48,10 +48,10 @@ Jeweler's Loupe		TYPE:Goods.General.Resizable.Eyegear	COST:20	WT:0	SOURCEPAGE:Aa
 Keg (cask)		TYPE:Goods.General.Resizable.Container	COST:1	WT:20	SOURCEPAGE:AaEG		CONTAINS:20|Liquid=20							
 Keg (hand)		TYPE:Goods.General.Resizable.Container	COST:.5	WT:10	SOURCEPAGE:AaEG		CONTAINS:10|Liquid=10							
 Lantern (fog-cutter)		TYPE:Goods.General.Resizable.LightSource	COST:20	WT:3	SOURCEPAGE:AaEG			QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone	QUALITY:Duration|6 hr./pint				
-Leash and Muzzle (diminutive)		TYPE:Goods.General.Resizable	COST:.2	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:Masterwork						
-Leash and Muzzle (medium)		TYPE:Goods.General.Resizable	COST:.8	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:Masterwork						
-Leash and Muzzle (small)		TYPE:Goods.General.Resizable	COST:.6	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:Masterwork						
-Leash and Muzzle (tiny)		TYPE:Goods.General.Resizable	COST:.4	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:Masterwork						
+Leash and Muzzle (diminutive)		TYPE:Goods.General.Resizable	COST:.2	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork						
+Leash and Muzzle (medium)		TYPE:Goods.General.Resizable	COST:.8	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork						
+Leash and Muzzle (small)		TYPE:Goods.General.Resizable	COST:.6	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork						
+Leash and Muzzle (tiny)		TYPE:Goods.General.Resizable	COST:.4	WT:0	SOURCEPAGE:AaEG			BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork						
 Magnet (small)		TYPE:Goods.General.Resizable	COST:10	WT:1	SOURCEPAGE:AaEG									
 Marbles		TYPE:Goods.General.Resizable	COST:.2	WT:2	SOURCEPAGE:AaEG									
 Mess Kit		TYPE:Goods.General.Resizable	COST:.6	WT:1	SOURCEPAGE:AaEG									
@@ -68,11 +68,11 @@ Rope (Elven/20 Ft.)		TYPE:Goods.General	COST:50	WT:5	SOURCEPAGE:AaEG			BONUS:SKI
 Saw (folding)		TYPE:Goods.General.Resizable	COST:2	WT:2	SOURCEPAGE:AaEG									
 Shoes (silent)		TYPE:Goods.General.Resizable.Boot	COST:10	WT:1	SOURCEPAGE:AaEG			BONUS:SKILL|Move Silently|1|TYPE=Circumstance						
 Shriek Rock		TYPE:Goods.General.Resizable	COST:3	WT:.25	SOURCEPAGE:AaEG									
-Skis and Poles		TYPE:Goods.General.Resizable	COST:15	WT:6	SOURCEPAGE:AaEG									
+#Skis and Poles	vedi FRO
 Slate Board		TYPE:Goods.General.Resizable	COST:5	WT:1	SOURCEPAGE:AaEG									
 Snorkel		TYPE:Goods.General.Resizable	COST:1	WT:.5	SOURCEPAGE:AaEG									
 Snow Googles		TYPE:Goods.General.Resizable.Eyegear	COST:2	WT:0	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on saves to resist blinding effects		BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance						
-Snowshoes		TYPE:Goods.General.Resizable.Boot	COST:15	WT:8	SOURCEPAGE:AaEG									
+#Snowshoes	vedi FRO
 Sparker		TYPE:Goods.General.Resizable	COST:2	WT:0	SOURCEPAGE:AaEG									
 Spider Poles		TYPE:Goods.General.Resizable	COST:35	WT:8	SOURCEPAGE:AaEG									
 Sprayer		TYPE:Goods.General.Resizable	COST:15	WT:4	SOURCEPAGE:AaEG									
@@ -387,7 +387,7 @@ Animal Training Pole		TYPE:Goods.General.Resizable	COST:10	WT:3	SOURCEPAGE:AaEG	
 Cloak (Forester's)		TYPE:Goods.Clothing.Resizable.Cape	COST:20	WT:3	SOURCEPAGE:AaEG	SPROP:+1 Circumstance bonus on Hide check made in Forest								
 Crossbow Sight (Gnomish)		TYPE:Goods.General.Resizable	COST:150	WT:1	SOURCEPAGE:AaEG	SPROP:Treat the target as 2 increments closer								
 Listening cone		TYPE:Goods.General.Resizable	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:+1 Circumstance bonus on Listen checks made through a door or solid obstacles								
-Backpack (Framed)		TYPE:Goods.General.Resizable.Container	COST:50	WT:2	SOURCEPAGE:AaEG					CONTAINS:10%-1|Any=-1				
+Backpack (Framed)		TYPE:Goods.General.Resizable.Container	COST:50	WT:2	SOURCEPAGE:AaEG					CONTAINS:10%UNLIM|Any				
 Robe (Desert)		TYPE:Goods.Clothing.Resizable.Robe	COST:20	WT:2	SOURCEPAGE:AaEG	SPROP:+2 Circimstance bonus on Fortitude saves against exposure to high temperature								
 Sheath (Boot)		TYPE:Goods.General.Resizable	COST:30	WT:0	SOURCEPAGE:AaEG									
 Sheath (Wrist)		TYPE:Goods.General.Resizable	COST:20	WT:0	SOURCEPAGE:AaEG									
@@ -494,11 +494,11 @@ Chariot (Double)	OUTPUTNAME:Chariot, Double	TYPE:Goods.Transportation	COST:400	W
 Mobile Redbout		TYPE:Goods.Transportation.Container	COST:1500	WT:8000	SOURCEPAGE:AaEG				SIZE:H	CONTAINS:1000|Any				
 Siege Tower (Large)	OUTPUTNAME:Siege Tower, Large	TYPE:Goods.SiegeEngine	COST:4000	WT:32000	SOURCEPAGE:AaEG	SPROP:5 man crew + 25 soldiers			SIZE:H					
 Siege Tower (Small)	OUTPUTNAME:Siege Tower, Small	TYPE:Goods.SiegeEngine	COST:1000	WT:16000	SOURCEPAGE:AaEG	SPROP:1 man crew + 15 soldiers			SIZE:H					
-Sled		TYPE:Goods.Transportation.Container	COST:20	WT:300	SOURCEPAGE:AaEG				SIZE:L	CONTAINS:2000|Any				
+#Sled		vedi PHB
 Stagecoach		TYPE:Goods.Transportation.Container	COST:800	WT:750	SOURCEPAGE:AaEG	SPROP:1 man crew + 7 passengers			SIZE:H	CONTAINS:1000|Any				
-Worg Warsled		TYPE:Goods.Transportation.Container	COST:400	WT:900	SOURCEPAGE:AaEG				SIZE:H	CONTAINS:700|Any				
+#Worg Warsled	vedi FRO
 Halfling Warwagon		TYPE:Goods.Transportation.Container	COST:800	WT:750	SOURCEPAGE:AaEG	SPROP:1 man crew + 7 passengers			SIZE:H	CONTAINS:1000|Any				
 Siege Tower (WarWagon)	OUTPUTNAME:Siege Tower, War Wagon	TYPE:Goods.Transportation.Container	COST:2000	WT:1000	SOURCEPAGE:AaEG				SIZE:G	CONTAINS:4000|Any				
-Dwarven Tunneler		TYPE:Goods.Transportation.Container.Ships.UndergroundShip	COST:70000	WT:40000	SOURCEPAGE:AaEG	SPROP:5 man crew + 10 soldiers			SIZE:H					
-Carriage		TYPE:Goods.Transportation.Container	COST:200	WT:100	SOURCEPAGE:AaEG					CONTAINS:400|Any	SIZE:L	PRESIZEGTEQ:L		
+Dwarven Tunneler		TYPE:Goods.Transportation.Ships.UndergroundShip	COST:70000	WT:40000	SOURCEPAGE:AaEG	SPROP:5 man crew + 10 soldiers			SIZE:H					
+Carriage (Large)	OUTPUTNAME:Carriage, Large	TYPE:Goods.Transportation.Container	COST:200	WT:100	SOURCEPAGE:AaEG					CONTAINS:400|Any	SIZE:L	PRESIZEGTEQ:L		
 Sidecar Saddle		TYPE:Goods.Transportation.Container.Resizable.Mount.Saddle	COST:60	WT:40	SOURCEPAGE:AaEG					CONTAINS:100|Any				

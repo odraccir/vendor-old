@@ -2,7 +2,7 @@ SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.wizard
 																											
 #Melee Weapons																											
 #Sword (Katana)	OUTPUTNAME:Sword, Katana	PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Martial.Exotic.Standard.Slashing.Sword	COST:35	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW						SOURCEPAGE:CW	REACHMULT:2							BONUS:WEAPON|WIELDCATEGORY|-1|PREFEAT:1,Exotic Weapon Proficiency(Sword (Bastard)),Exotic Weapon Proficiency(Sword (Katana))	
-Lucern Hammer		PROFICIENCY:WEAPON|Hammer	TYPE:Weapon.Melee.Martial.Standard.Piercing.Hammer	COST:12	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL						SOURCEPAGE:AeEG									
+Lucern Hammer		PROFICIENCY:WEAPON|Lucern Hammer	TYPE:Weapon.Melee.Martial.Standard.Piercing.Hammer	COST:12	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL						SOURCEPAGE:AeEG									
 #Maul	vedi CW																										
 #																											
 #Exotic Weapon																											

@@ -1,0 +1,16 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																																											
+																																													
+# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
+Ring of Alignment Command (Chaotic)	OUTPUTNAME:Ring of Alignment Command, [NAME]		TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG																																							
+Ring of Alignment Command (Evil)	OUTPUTNAME:Ring of Alignment Command, [NAME]		TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG																																							
+Ring of Alignment Command (Good)	OUTPUTNAME:Ring of Alignment Command, [NAME]		TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG																																							
+Ring of Alignment Command (Lawful)	OUTPUTNAME:Ring of Alignment Command, [NAME]		TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG																																							
+Ring of Filcher's Friend			TYPE:Magic.Ring	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:draws any loose metal object within 1 foot and weight no more than 1 ounce. +5 circumstance bonus on Sleight of Hand checks involving metal objects.																																						
+Ring of Force Armor			TYPE:Magic.Ring	COST:45000	WT:0	SOURCEPAGE:AaEG	SPROP:Unarmed damage deals additional 1d4 points of damage.	SLOTS:2	BONUS:COMBAT|AC|4|TYPE=Armor	BONUS:WEAPONPROF=TYPE.Unharmed|TOHIT|1|TYPE=Enhancement																																			
+Ring of Counterspells (Greater)	OUTPUTNAME:Ring of Counterspells, [NAME]		TYPE:Magic.Ring	COST:16000	WT:0	SOURCEPAGE:AaEG																																							
+Ring of Hive Mind			TYPE:Magic.Ring	COST:180000	WT:0	SOURCEPAGE:AaEG		ABILITY:Special Ability|VIRTUAL|Hive Mind																																					
+Ring of Lockpicking			TYPE:Magic.Ring	COST:7700	WT:0	SOURCEPAGE:AaEG		SPELLS:Ring of Lockpicking|TIMES=3|CASTERLEVEL=12|Knock	BONUS:SKILL|Open Lock|5|TYPE=Competence																																				
+Ring of Magic Fang +1			TYPE:Magic.Ring	COST:6000	WT:0	SOURCEPAGE:AaEG	SPROP:+1 enhancement bonus on a single natural weapon.																																						
+Ring of Misdirection			TYPE:Magic.Ring	COST:7000	WT:0	SOURCEPAGE:AaEG																																							
+Ring of Thunderclaps			TYPE:Magic.Ring	COST:11200	WT:0	SOURCEPAGE:AaEG		SPELLS:Ring of Thunderclaps|TIMES=3|CASTERLEVEL=7|Shocking Grasp	SPELLS:Ring of Thunderclaps|TIMES=1|CASTERLEVEL=7|Shout,16																																				
+Ring (Energy Resistance/Universal/Minor)	OUTPUTNAME:Minor Ring of Energy Resistance (Universal)		TYPE:Magic.Ring	COST:144000	WT:0	SOURCEPAGE:AaEG	SPROP:Absorbs 15 points of elemental energy damage																																						

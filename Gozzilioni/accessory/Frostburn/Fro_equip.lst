@@ -5,13 +5,13 @@ SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net
 Skull		OUTPUTNAME:[NAME]	TYPE:SkullTalisman.Resizable.Consumable	COST:0	WT:0		SOURCEPAGE:Fro													
 																				
 #goods																				
-Crampons			TYPE:Good	COST:5	WT:1		SOURCEPAGE:Fro	BONUS:SKILL|Balance,Climb|2|TYPE=Circumstance												
+Crampons			TYPE:Goods	COST:5	WT:1		SOURCEPAGE:Fro	BONUS:SKILL|Balance,Climb|2|TYPE=Circumstance												
 Fur Clothing			TYPE:Goods.Clothing.Resizable.Fur	COST:8	WT:10		SOURCEPAGE:Fro	SPROP:+10 circumstance bonus on Fortitude saving throws against exposure to cold weather.	BONUS:ARMORPROF=TYPE.Light|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Medium|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Heavy|ACCHECK|-2									
 Hut (portable)		OUTPUTNAME:Hut, Portable	TYPE:Goods.General.Resizable	COST:125	WT:75		SOURCEPAGE:Fro													
-Skates			TYPE:Good	COST:10	WT:3		SOURCEPAGE:Fro	SPROP:can be use only on icy surfaces.	PRESKILL:1,Balance=5											
-Skis and Poles			TYPE:Good	COST:15	WT:6		SOURCEPAGE:Fro	SPROP:can be use only on icy or snowy surfaces.												
-Snow Goggles			TYPE:Good.Eyegear	COST:2	WT:0		SOURCEPAGE:Fro	SPROP:+2 circumstances bonus on saving throws to resist blinding effects.	BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance											
-Snowshoes			TYPE:Good.Boot	COST:15	WT:8		SOURCEPAGE:Fro	SPROP:allow to move across the snow and ice with increased speed.												
+Skates			TYPE:Goods	COST:10	WT:3		SOURCEPAGE:Fro	SPROP:can be use only on icy surfaces.	PRESKILL:1,Balance=5											
+Skis and Poles			TYPE:Goods	COST:15	WT:6		SOURCEPAGE:Fro	SPROP:can be use only on icy or snowy surfaces.												
+Snow Goggles			TYPE:Goods.Eyegear	COST:2	WT:0		SOURCEPAGE:Fro	SPROP:+2 circumstances bonus on saving throws to resist blinding effects.	BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance											
+Snowshoes			TYPE:Goods.Boot	COST:15	WT:8		SOURCEPAGE:Fro	SPROP:allow to move across the snow and ice with increased speed.												
 Winter Fullcloth			TYPE:Goods.Clothing.Resizable	COST:4	WT:2		SOURCEPAGE:Fro	SPROP:+1 circumstance bonus on Fortitude saving throws against exposure to cold weather.												
 																				
 #alchemical																				

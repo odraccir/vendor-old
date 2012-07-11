@@ -15,7 +15,6 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
 ABILITY:MotP_abilities_class.lst
 FEAT:G_feats.lst
-RACE:AaEG_races.lst
 RACE:MotP_races.lst
 SPELL:G_spells.lst
 SPELL:RLVRA_spells.lst

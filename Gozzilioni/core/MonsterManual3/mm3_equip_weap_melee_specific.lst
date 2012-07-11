@@ -3,6 +3,6 @@ SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net
 #	COST:11021																						
 																							
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property										range	reach	reachmult
-Rot Reaver's Cleaver		PROFICIENCY:WEAPON|Handaxe	TYPE:Enhancing.Weapon.Melee.Finesseable.Martial.Specific.Slashing.Axe	COST:0	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.PLUS1W							SOURCEPAGE:MM3	MODS:NO			
-Slaugtherstone's Adamantine Blade		PROFICIENCY:WEAPON|Adamantine Blade	TYPE:Enhancing.Weapon.Melee.Finesseable.Natural.Specific.Slashing.Sword	COST:0	WT:3	WIELD:Light		SIZE:L	DAMAGE:2d8	CRITRANGE:2	CRITMULT:x3	EQMOD:ADAMANT_WEAP.MWORKW.PLUS2W.KEEN							SOURCEPAGE:MM3	MODS:NO	PRERACE:1,Slaughterstone (Eviscerator)		
+Rot Reaver's Cleaver		PROFICIENCY:WEAPON|Handaxe	TYPE:Enhancement.Weapon.Melee.Finesseable.Martial.Specific.Slashing.Axe	COST:0	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.PLUS1W							SOURCEPAGE:MM3	MODS:NO			
+Slaugtherstone's Adamantine Blade		PROFICIENCY:WEAPON|Adamantine Blade	TYPE:Enhancement.Weapon.Melee.Finesseable.Natural.Specific.Slashing.Sword	COST:0	WT:3	WIELD:Light		SIZE:L	DAMAGE:2d8	CRITRANGE:2	CRITMULT:x3	EQMOD:ADAMANT_WEAP.MWORKW.PLUS2W.KEEN							SOURCEPAGE:MM3	MODS:NO	PRERACE:1,Slaughterstone (Eviscerator)		
 Thorn Longsword		PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Specific.Slashing.Sword	COST:0	WT:4	WIELD:OneHanded		SIZE:S	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL							SOURCEPAGE:MM3	MODS:NO	

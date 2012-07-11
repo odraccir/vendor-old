@@ -1,0 +1,7 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																				
+																						
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property		REACHMULT:2	RANGE								
+#Ghost Hands	COST:18302																					
+																						
+# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property		REACHMULT:2	RANGE								
+Ghost Hands		PROFICIENCY:WEAPON|Gauntlet	TYPE:Enhancement.Weapon.Melee.Simple.Unarmed.Specific.Metal.Bludgeoning.Finesseable.Gauntlet	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.GHOST_M								SOURCEPAGE:AaEG	MODS:NO	SPROP:immune to Magic Jar spell and ghost's malevolence ability.

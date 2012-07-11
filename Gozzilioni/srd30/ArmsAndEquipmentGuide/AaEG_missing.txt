@@ -1,1 +1,3 @@
 Mancano le aggiunte ai veicoli.
+Mancano le armi intelligenti
+Mancano gli oggetti maledetti

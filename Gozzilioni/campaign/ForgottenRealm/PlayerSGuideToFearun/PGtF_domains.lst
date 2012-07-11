@@ -1,4 +1,4 @@
-SOURCELONG:Player's guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net				
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net				
 						
 #Travel	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|Travel=1|Longstrider|Travel=2|Locate Object|Travel=3|Fly|Travel=4|Dimension Door|Travel=5|Teleport|Travel=6|Find the Path|Travel=7|Teleport (Greater)|Travel=8|Phase Door|Travel=9|Astral Projection				
 Balance	SOURCEPAGE:PGtF	SPELLLEVEL:DOMAIN|Balance=1|Make Whole|Balance=2|Calm Emotions|Balance=3|Clarity of Mind|Balance=4|Dismissal|Balance=5|Sanctuary (Mass)|Balance=6|Banishment|Balance=7|Word of Balance|Balance=8|Protection from Spells|Balance=9|Weighed in the Balance	DESC:Once per day, as a free action, you may add your WIS modifier to your Armor Class. its effects last for %1 rounds|max(1,classlevel("Cleric"))			

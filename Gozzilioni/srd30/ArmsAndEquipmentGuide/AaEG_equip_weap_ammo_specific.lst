@@ -1,5 +1,14 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net									
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AeEG	SOURCEWEB:http://www.gozzilioni.net									
 											
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property
-Disintegrating Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.SpecificArrow.Individual	COST:3307	WT:0		EQMOD:STEEL.WOOD	MODS:NO	SOURCEPAGE:AaEG		SPROP:Disintegrating (Disintegrate target Fort DC 19 or 5d6 damage.)
-Arrow of Eyes		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.SpecificArrow.Individual	COST:1047	WT:0		EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:AaEG		SPROP:Arcane Eye.
+Disintegrating Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:3307	WT:0	BASEQTY:1	EQMOD:STEEL.WOOD	MODS:NO	SOURCEPAGE:AaEG		SPROP:Disintegrating (Disintegrate target Fort DC 19 or 5d6 damage.)
+Arrow of Eyes		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:1047	WT:0	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:AaEG		SPROP:Arcane Eye.
+Bolt (Freedom)	OUTPUTNAME:Bolt, [NAME]	BASEITEM:Bolt (Crossbow)	TYPE:Enhancement.Ammunition.Specific.Bolt.Individual	COST:247	WT:0.1	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:AaEG		SPROP:+10 Escape Artist to escape a grapple checks and -10 penalty to grapple check made to hold another creature.
+Bolt (Voices)	OUTPUTNAME:Bolt, [NAME]	BASEITEM:Bolt (Crossbow)	TYPE:Enhancement.Ammunition.Specific.Bolt.Individual	COST:767	WT:0.1	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS2W	MODS:NO	SOURCEPAGE:AaEG		SPROP:Will DC 16 or distraction.
+Elven Leaf Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:1167	WT:0	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS2W	MODS:NO	SOURCEPAGE:AaEG		SPROP:Lethal or non Lethal damage as free action. If non lethal in temperate woodland area, Will DC 11 or char monster (10th lvl caster)
+Bolt (Ethereal)	OUTPUTNAME:Bolt, [NAME]	BASEITEM:Bolt (Crossbow)	TYPE:Enhancement.Ammunition.Specific.Bolt.Individual	COST:797	WT:0.1	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:AaEG		SPROP:50%% chance to be material or ethereal.
+Fey Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:297	WT:0	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:AaEG		SPROP:Faerie Fire on hit.
+Halfling's Exit		BASEITEM:Bullet (Sling)	TYPE:Enhancement.Ammunition.Specific.SlingStone.Individual	COST:0.01	WT:0.5	BASEQTY:1	EQMOD:STEEL.MWORKW.PLUS2W	MODS:NO	SOURCEPAGE:AaEG		SPROP:30-ft radius Fog Cloud on hit.
+Spider's Nest Bullet		BASEITEM:Bullet (Sling)	TYPE:Enhancement.Ammunition.Specific.SlingStone.Individual	COST:1057	WT:0.5	BASEQTY:1	EQMOD:STEEL.MWORKW	MODS:NO	SOURCEPAGE:AaEG		SPROP:on succesful hit cast Web and release 2d4 small monstrous spiders..
+Bolt (Stirge)	OUTPUTNAME:Bolt, [NAME]	BASEITEM:Bolt (Crossbow)	TYPE:Enhancement.Ammunition.Specific.Bolt.Individual	COST:1007	WT:0.1	BASEQTY:1	EQMOD:STEEL.WOOD.MWORKW.PLUS3W	MODS:NO	SOURCEPAGE:AaEG		SPROP:1d4 Con damage/round until destroyed. AC 12, hardenss 5, 1 hp.
+Summoning Arrow		BASEITEM:Arrow	TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:257	WT:0	BASEQTY:1	EQMOD:STEEL.WOOD	MODS:NO	SOURCEPAGE:AaEG		SPROP:transform into an Eagle when launched from a bow.
