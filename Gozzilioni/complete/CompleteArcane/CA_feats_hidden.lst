@@ -6,12 +6,3 @@ Extra Slot Divine	TYPE:Hidden.ExtraSlot	VISIBLE:NO	PRESPELLTYPE:1,Divine=1	STACK
 Extra Spell Arcane	TYPE:Hidden.ExtraSpell	VISIBLE:NO	PRESPELLTYPE:1,Arcane=1	STACK:NO	MULT:YES	CHOOSE:SPELLLEVEL|1|TYPE=Arcane|0|MAXLEVEL-1[BONUS:SPELLKNOWN|CLASS=%;LEVEL=%|1]									
 Extra Spell Divine	TYPE:Hidden.ExtraSpell	VISIBLE:NO	PRESPELLTYPE:1,Divine=1	STACK:NO	MULT:YES	CHOOSE:SPELLLEVEL|1|TYPE=Divine|0|MAXLEVEL-1[BONUS:SPELLKNOWN|CLASS=%;LEVEL=%|1]									
 															
-#															
-Draconic Claw (Small)	TYPE:Hidden	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Draconic Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d4											
-Draconic Claw (Medium)	TYPE:Hidden	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Draconic Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d6											
-Draconic Claw (Large)	TYPE:Hidden	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Draconic Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d8																								
-#															
-#															
-Precocius Apprentice (INT Spellstat)	TYPE:PreAppSpells	VISIBLE:NO	ADD:SPELLCASTER|Precocious Spells (Arcane/INT)	BONUS:SPELLCAST|CLASS=Precocious Spells (Arcane/INT);LEVEL=2|EpicSpellsPerDay											
-Precocius Apprentice (WIS Spellstat)	TYPE:PreAppSpells	VISIBLE:NO	ADD:SPELLCASTER|Precocious Spells (Arcane/CHA)	BONUS:SPELLCAST|CLASS=Precocious Spells (Arcane/CHA);LEVEL=2|EpicSpellsPerDay											
-Precocius Apprentice (CHA Spellstat)	TYPE:PreAppSpells	VISIBLE:NO	ADD:SPELLCASTER|Precocious Spells (Arcane/WIS)	BONUS:SPELLCAST|CLASS=Precocious Spells (Arcane/WIS);LEVEL=2|EpicSpellsPerDay											

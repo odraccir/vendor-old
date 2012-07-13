@@ -33,7 +33,6 @@ EQUIPMOD:CD_equipmods_enhancing.lst
 FEAT:CD_feats.lst
 FEAT:CD_feats_description.lst
 FEAT:CD_feats_epic.lst
-FEAT:CD_feats_hidden.lst
 KIT:CD_kits_races_a_b.lst
 RACE:CD_races_a_b.lst
 SKILL:CD_skills.lst

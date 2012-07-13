@@ -35,7 +35,6 @@ EQUIPMENT:PH_equip_weap_ranged.lst
 EQUIPMENT:PH_equip_wondrous.lst
 EQUIPMOD:PH_equipmods_enhancing.lst
 FEAT:PH_feats.lst
-FEAT:PH_feats_hidden.lst
 LANGUAGE:PH_languages.lst
 ARMORPROF:PH_profs_armor.lst
 RACE:PH_races.lst

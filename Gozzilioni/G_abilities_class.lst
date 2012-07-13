@@ -910,10 +910,12 @@ Celestial Brilliance (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.S
 Celestial Charger	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																TEMPLATE:Celestial													SOURCEPAGE:EXD										
 Celestial Companion	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES		FOLLOWERS:Celestial Companion|1			DEFINE:CcLevel|0			COMPANIONLIST:Celestial Companion|Cat,Eagle,Hawk,Horse (Warhorse Heavy),Horse (Warhorse Light),Owl,Pony,Pony (War),Dog (Riding),Wolf																					SOURCEPAGE:CD										
 Celestial Companion ~ Mount	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																TEMPLATE:Celestial													SOURCEPAGE:EXD										
+Celestial Companion ~ Companion	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																TEMPLATE:Celestial													SOURCEPAGE:CD										
 Celestial Famialir ~ Celestial	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Celestial Familiar															TEMPLATE:Celestial													SOURCEPAGE:EXD										
 Celestial Familiar	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES		FOLLOWERS:Celestial Familiar|1			DEFINE:CFLevel|0			COMPANIONLIST:Celestial Familiar|RACETYPE=Animal|PRECLASS:1,SPELLCASTER.Arcane=3|PREALIGN:LG,NG,CG	COMPANIONLIST:Celestial Familiar|Eladrin (Coure)|PRECLASS:1,SPELLCASTER.Arcane=7|PREALIGN:CG	COMPANIONLIST:Celestial Familiar|Archon (Lantern)|PRECLASS:1,SPELLCASTER.Arcane=7|PREALIGN:LG																			SOURCEPAGE:EXD										
 Celestial Flying Mount	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																TEMPLATE:Celestial													SOURCEPAGE:EXD										
 Celestial Mount	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES					DEFINE:CelestialMount|0																								SOURCEPAGE:PH										
+Celestial Mount ~ Mount	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES				PREVARGTEQ:CelestialMount,1												TEMPLATE:Celestial													SOURCEPAGE:PH										
 Celestial Spell	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:cast spells with celestial components.			PREALIGN:LG,NG,CG																									SOURCEPAGE:PGtF										
 Celestial Spell ~ archon	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	DESC:cast as an Archon (celestial or archon components)			PREALIGN:LG																									SOURCEPAGE:EXD										
 Celestial Spell ~ eladrin	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	DESC:cast as an Eladrin (celestial or eladrin components)			PREALIGN:CG																									SOURCEPAGE:EXD										
@@ -2506,7 +2508,6 @@ Reality Distortion	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VIS
 Reality Mirror	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Nep										
 Really Throw Anything	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Throw Anything													SOURCEPAGE:CW										
 Reanimate	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
-Rebuke Cold	CATEGORY:Special Ability	TYPE:SpecialAttack.Turning.TurnCold	VISIBLE:YES	DESC:%1/day (turn level %2) (turn damage %3d%4+%5)|TurnTimesCold|TurnLevelCold|TurnDiceCold|TurnDieSizeCold|TurnDamagePlusCold				DEFINE:TurnTimesCold|TurnTimesBase	DEFINE:TurnLevelCold|TurnLevelBase	DEFINE:TurnDiceCold|TurnDiceBase	DEFINE:TurnDieSizeCold|TurnDieSizeBase	DEFINE:TurnDamagePlusCold|TurnDamagePlusBase	DEFINE:TurnCheckCold|TurnCheckBase																			SOURCEPAGE:Drac										
 Recall Class Feature	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:regains all the class feature he/she had as a living charachter.																												SOURCEPAGE:SS										
 Recall Feats	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:regains all the featss he/she had as a living charachter.																												SOURCEPAGE:SS										
 Recall Spirit	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES	DESC:%1/week|RecallSpiritTimes					DEFINE:RecallSpiritTimes|0																							SOURCEPAGE:CD										
@@ -3204,7 +3205,6 @@ Trueseeing	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQualit
 Trumpet EXD	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day|TrumpetPerDay	OUTPUTNAME:Trumpet			DEFINE:TrumpetPerDay|0																								SOURCEPAGE:EXD										
 Tunnel Fighting	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:MM3										
 Tunnelport (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:TunnelportPerDay|0	DEFINE:TunnelportLVL|0		BONUS:VAR|DimensionDoorPerDay|TunnelportPerDay	BONUS:VAR|DimensionDoorLVL|2*TunnelportLVL							ABILITY:Special Ability|VIRTUAL|Dimension Door (Sp)													SOURCEPAGE:LoM										
-Turn Cold	CATEGORY:Special Ability	TYPE:SpecialAttack.Turning.TurnCold	VISIBLE:YES	DESC:%1/day (turn level %2) (turn damage %3d%4+%5)|TurnTimesCold|TurnLevelCold|TurnDiceCold|TurnDieSizeCold|TurnDamagePlusCold				DEFINE:TurnTimesCold|TurnTimesBase	DEFINE:TurnLevelCold|TurnLevelBase	DEFINE:TurnDiceCold|TurnDiceBase	DEFINE:TurnDieSizeCold|TurnDieSizeBase	DEFINE:TurnDamagePlusCold|TurnDamagePlusBase	DEFINE:TurnCheckCold|TurnCheckBase																			SOURCEPAGE:Drac										
 Turn Resistance ~ increased	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+1/spawn in 60-ft-radius	OUTPUTNAME:Turn Resistance																											SOURCEPAGE:LM										
 Twart Magic Trap	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:SKILL|Search (Magical traps),Disable Device (Disable or bypass magical traps)|3																					SOURCEPAGE:PGtF										
 Twilight Reality	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Nep										
@@ -3426,7 +3426,34 @@ Fin Sweep	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	
 Glow	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:AaEG										
 Bale Eye ~ Fear	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:CauseFearPerDay|0	DEFINE:CauseFearLVL|0										SPELLS:Bale Eye|TIMES=CauseFearPerDay|CASTERLEVEL=CauseFearLVL|Cause Fear,11+CHA													SOURCEPAGE:BoVD										
 Stonecunning ~ Dwarven Abilities	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:SKILL|Search (Notice unusual stonework)|4|TYPE=Circumstance																					SOURCEPAGE:AaEG										
-#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
-#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
-#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
-#	CATEGORY:Special Ability																															SOURCEPAGE:CdT										
+Endure Elements (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:EndureElementsLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=EndureElementsLVL|Endure Elements,11+CHA													SOURCEPAGE:Phs										
+Body Equilibrium (Sp/at will)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:BodyEquilibriumLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=BodyEquilibriumLVL|Body Equilibrium													SOURCEPAGE:Phs										
+Defensive Precognition (Sp/at will)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:DefensivePrecognitionLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DefensivePrecognitionLVL|Precognition (Defensive)													SOURCEPAGE:Phs										
+Inertial Armor (Sp/at will)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:InertialArmorLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=InertialArmorLVL|Inertial Armor													SOURCEPAGE:Phs										
+Courage	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1 morale bonus to saving throws against charm or fear effects.|CourageBonus				DEFINE:CourageBonus|0																								SOURCEPAGE:Phs										
+Calm Emotions (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:CalmEmotionPerDay|0	DEFINE:CalmEmotionsLVL|0										SPELLS:Innate|TIMES=CalmEmotionsPerDay|CASTERLEVEL=CalmEmotionsLVL|Calm Emotions,12+CHA													SOURCEPAGE:CD										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										
+#	CATEGORY:Special Ability																															SOURCEPAGE:										

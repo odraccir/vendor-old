@@ -48,3 +48,4 @@ Wild Mage Random Deflector	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO				
 Wild Mage Wildstrike	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|WildstrikePerDay|1																		SOURCEPAGE:CA
 #																																
 Chaggrin Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ChaggrinSneakAttackLVL|HD					BONUS:VAR|SneakAttack|(ChaggrinSneakAttackLVL)/3																		SOURCEPAGE:CA
+#																																
