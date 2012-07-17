@@ -296,7 +296,8 @@ Skeroloth Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUT
 Yurian Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Aboleth Skum Tail Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Dolphin Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. It can use run action while swimming provided it swims in a straight line.																												SOURCEPAGE:AaEG										
-#	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
+Sciame Topi Infetti Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened. +8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered. It can use run action while swimming provided it swims in a straight line.																												SOURCEPAGE:CdT										
+Cranio Divoratore Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+10 racial bonus on Hide checks when the protective fog is present.																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
 #other abilities																																										
@@ -1050,6 +1051,7 @@ Constant Piercing Cold	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality
 Constitution Drain ~ Gravecrawler	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d2 Con drain (Fort DC %1)|GravecrawlerConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:GravecrawlerConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|GravecrawlerConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:SS										
 Constitution Drain ~ Icegaunt	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d6 Con drain (Fort DC %1)|IcegauntConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:IcegauntConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|IcegauntConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:Fro										
 Constitution Drain ~ Wraith	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d6 Con drain (Fort DC %1)|WraithConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:WraithConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|WraithConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:EXD										
+Constitution Drain ~ Cranio Divoratore	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d4 Con drain (Fort DC %1)|CranioDivoratoreConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:CranioDivoratoreConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|CranioDivoratoreConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:CdT										
 Constrict Ship	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Consume	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Consume Identity	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Mon										
@@ -3432,18 +3434,18 @@ Defensive Precognition (Sp/at will)	CATEGORY:Special Ability	TYPE:SpellLike.Spec
 Inertial Armor (Sp/at will)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:InertialArmorLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=InertialArmorLVL|Inertial Armor													SOURCEPAGE:Phs										
 Courage	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1 morale bonus to saving throws against charm or fear effects.|CourageBonus				DEFINE:CourageBonus|0																								SOURCEPAGE:Phs										
 Calm Emotions (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES					DEFINE:CalmEmotionPerDay|0	DEFINE:CalmEmotionsLVL|0										SPELLS:Innate|TIMES=CalmEmotionsPerDay|CASTERLEVEL=CalmEmotionsLVL|Calm Emotions,12+CHA													SOURCEPAGE:CD										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
-#	CATEGORY:Special Ability																															SOURCEPAGE:										
+Debilitating Touch	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|DebilitatingTouchDC				DEFINE:DebilitatingTouchDC|10+(HD/2)+STR																								SOURCEPAGE:CdT										
+Touch of Insanity	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will  DC %1|TouchOfInsanityDC				DEFINE:TouchOfInsanityDC|10+(HD/2)+CHA																								SOURCEPAGE:CdT										
+Oneiric Shield	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.ModifyAC	VISIBLE:YES	DESC:immune to Magic Missiles.							BONUS:COMBAT|AC|4|TYPE=Deflection																					SOURCEPAGE:CdT										
+Fury of Revenge	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.Rage	VISIBLE:YES	DEFINE:FuryOfRevengeTimes|0	DEFINE:FuryOfRevengeDuration|0	DEFINE:FuryOfRevengeConBonus|0	DEFINE:FuryOfRevengeStrBonus|0	DEFINE:FuryOfRevengeACPenalty|0	DEFINE:FuryOfRevengeMorale|0	DEFINE:FuryOfRevenge|0	DEFINE:FuryOfRevengeBonus|4	DESC:%1 times/day (%2 rounds)|FuryOfRevengeTimes|FuryOfRevengeDuration				DESC:Bonuses when furied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|FuryOfRevengeStrBonus|FuryOfRevengeConBonus|FuryOfRevengeMorale|FuryOfRevengeACPenalty|(FuryOfRevengeConBonus/2)*TL	BONUS:CHECKS|Will|FuryOfRevengeMorale|PREAPPLY:PC	BONUS:COMBAT|AC|-1*(FuryOfRevengeACPenalty)|PREAPPLY:PC	BONUS:STAT|CON|FuryOfRevengeConBonus|PREAPPLY:PC	BONUS:STAT|STR|FuryOfRevengeStrBonus|PREAPPLY:PC	BONUS:VAR|FuryOfRevengeDuration|CON+3+(FuryOfRevengeConBonus/2)	BONUS:VAR|FuryOfRevengeConBonus|FuryOfRevengeBonus	BONUS:VAR|FuryOfRevengeStrBonus|FuryOfRevengeBonus	BONUS:VAR|FuryOfRevengeACPenalty|2	BONUS:VAR|FuryOfRevengeMorale|FuryOfRevengeBonus/2	BONUS:VAR|FuryOfRevengeDuration|-(FuryOfRevengeConBonus/2)|PREAPPLY:PC	BONUS:VAR|FuryOfRevenge|1|PREAPPLY:PC					SOURCEPAGE:CdT										
+Primordial Affinity	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CdT										
+Ancestral Rebellion	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.ModifyMovement	VISIBLE:YES	DESC:constant Freedom of Movement effects																												SOURCEPAGE:CdT										
+Blood Pact	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES		SERVESAS:ABILITY=Special Ability|Wounding																											SOURCEPAGE:CdT										
+Unshakeable Morale	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:VAR|FearResistanceBonus|4|TYPE=Morale								ABILITY:Special Ability|AUTOMATIC|Resistance To Fear													SOURCEPAGE:CdT										
+Living	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:CdT										
+Infection of the Brood	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|InfectionOfTheBroodDC				DEFINE:InfectionOfTheBroodDC|10+(HD/2)+CON																								SOURCEPAGE:CdT										
+Final Infection	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Fort  DC %1|FinalInfectionDC				DEFINE:FinalInfectionDC|10+(HD/2)+CON																								SOURCEPAGE:CdT										
+Protective Fog	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:Will  DC %1|ProtectiveFogDC				DEFINE:ProtectiveFogDC|10+(HD/2)+CHA																								SOURCEPAGE:CdT										
 #	CATEGORY:Special Ability																															SOURCEPAGE:										
 #	CATEGORY:Special Ability																															SOURCEPAGE:										
 #	CATEGORY:Special Ability																															SOURCEPAGE:										

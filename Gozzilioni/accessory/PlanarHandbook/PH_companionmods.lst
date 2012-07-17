@@ -13,7 +13,7 @@ FOLLOWER:FMLevel=1	TYPE:Familiar						BONUS:ABILITYPOOL|Planar Familiar|1|PREMUL
 #																									
 ###Block:Special Mount
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type																		
-FOLLOWER:SMLevel=6	TYPE:Special Mount						ABILITY|Special Ability|AUTOMATIC|Celestial Mount ~ Mount
+FOLLOWER:SMLevel=6	TYPE:Special Mount						ABILITY:Special Ability|AUTOMATIC|Celestial Mount ~ Mount
 #																																	
 ###Block:Animal Companion
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type																		
