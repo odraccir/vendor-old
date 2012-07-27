@@ -7,13 +7,13 @@ Bonus Domain.MOD	TYPE:Epic	VISIBLE:YES	STACK:NO			SOURCEPAGE:CD
 Epic Devotion	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Iron Will					PRELEVEL:MIN=21				PRESTAT:1,WIS=21									DESC:See Text	STACK:NO	MULT:YES	CHOOSE:STRING|Law|Chaos|Good|Evil														SOURCEPAGE:CD	
 #holy strike è identico. saltato.
 #Holy Strike	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Smite Evil					PRELEVEL:MIN=21									PREALIGN:LG,NG,CG				DESC:See Text																	SOURCEPAGE:CD	
-Magical Beast Wild Shape.MOD	PREABILITY:1,CATEGORY=Special Ability|TYPE.WildShape	SOURCEPAGE:CD
+Magical Beast Wild Shape.MOD	PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape	SOURCEPAGE:CD
 #Negative energy burst non ha il prerequisito. modificato.
-Negative Energy Burst.MOD	PRE:.CLEAR	PREALIGN:LE,NE,CE	PRELEVEL:MIN=21	PRESPELL:1,Inflict Critical Wounds	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability|Rebuke Undead	SOURCEPAGE:CD
+Negative Energy Burst.MOD	PRE:.CLEAR	PREALIGN:LE,NE,CE	PRELEVEL:MIN=21	PRESPELL:1,Inflict Critical Wounds	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	SOURCEPAGE:CD
 #Positive energy aura non ha il prerequisito. modificato.
-Positive Energy Aura.MOD	PRE:.CLEAR			PRELEVEL:MIN=21	PRESPELL:1,Dispel Evil	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability|Turn Undead	SOURCEPAGE:CD
-Spectral Strike.MOD	PRE:.CLEAR	PRELEVEL:MIN=21	PRESTAT:1,WIS=19	PREABILITY:1,CATEGORY=Special Ability|TYPE.TurnUndead	SOURCEPAGE:CD
-Undead Mastery.MOD	PRE:.CLEAR	PRELEVEL:MIN=21	PRESTAT:1,CHA=21	PREABILITY:1,CATEGORY=Special Ability|Rebuke Undead	SOURCEPAGE:CD
+Positive Energy Aura.MOD	PRE:.CLEAR			PRELEVEL:MIN=21	PRESPELL:1,Dispel Evil	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability,Turn Undead	SOURCEPAGE:CD
+Spectral Strike.MOD	PRE:.CLEAR	PRELEVEL:MIN=21	PRESTAT:1,WIS=19	PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead	SOURCEPAGE:CD
+Undead Mastery.MOD	PRE:.CLEAR	PRELEVEL:MIN=21	PRESTAT:1,CHA=21	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	SOURCEPAGE:CD
 #Unholy strike è identico. saltato.
 #Unholy Strike	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Smite Good					PRELEVEL:MIN=21									PREALIGN:LE,NE,CE				DESC:See Text																	SOURCEPAGE:CD	
-Zone of Animation.MOD	PRE:.CLEAR	PREFEAT:1,Undead Mastery	PRELEVEL:MIN=21	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability|Rebuke Undead	SOURCEPAGE:CD
+Zone of Animation.MOD	PRE:.CLEAR	PREFEAT:1,Undead Mastery	PRELEVEL:MIN=21	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	SOURCEPAGE:CD

@@ -55,12 +55,12 @@ Chant of Fortitude	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Specia
 Ironskin Chant	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,Concentration=12								PRESKILL:1,TYPE.Perform=12	PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
 Lyric Spell	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=9	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=2							PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
 #		VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CAd				
-Blindsense	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape						PRESKILL:1,Listen=4												DESC:See Text																	SOURCEPAGE:CAd				
-Climb Like an Ape	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape																		DESC:See Text																	SOURCEPAGE:CAd				
-Cougar's Vision	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape						PRESKILL:1,Spot=2												DESC:See Text																	SOURCEPAGE:CAd				
-Hawk's Vision	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape						PRESKILL:1,Spot=4												DESC:See Text																	SOURCEPAGE:CAd				
-Savage Grapple	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack																	DESC:See Text																	SOURCEPAGE:CAd				
-Scent	TYPE:Wild	VISIBLE:YES				PREFEAT:1,TYPE=WildShape																		DESC:See Text																	SOURCEPAGE:CAd				
+Blindsense	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape						PRESKILL:1,Listen=4												DESC:See Text																	SOURCEPAGE:CAd				
+Climb Like an Ape	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CAd				
+Cougar's Vision	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape						PRESKILL:1,Spot=2												DESC:See Text																	SOURCEPAGE:CAd				
+Hawk's Vision	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape						PRESKILL:1,Spot=4												DESC:See Text																	SOURCEPAGE:CAd				
+Savage Grapple	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack																	DESC:See Text																	SOURCEPAGE:CAd				
+Scent	TYPE:Wild	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape																		DESC:See Text																	SOURCEPAGE:CAd				
 #																																													
 Acrobatic.MOD	TYPE:Scout																																												
 Agile.MOD	TYPE:Scout																																												

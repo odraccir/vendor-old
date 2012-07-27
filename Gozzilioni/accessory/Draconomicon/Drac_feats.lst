@@ -42,7 +42,7 @@ Snatch and Swallow	TYPE:Monstrous	VISIBLE:YES				PREFEAT:2,Snatch,Improved Snatc
 #Spellcasting Harrier	vedi epico																																													
 Spreading Breath	TYPE:Metabreath	VISIBLE:YES				PREFEAT:1,Shape Breath									PRESTAT:1,CON=15				PRESIZEGTEQ:S	PREABILITY:1,CATEGORY=Special Ability,Breath Weapon		SAB:+2 round		DESC:See Text																	SOURCEPAGE:Drac					
 Split Breath	TYPE:Metabreath	VISIBLE:YES				PREFEAT:1,Shape Breath									PRESTAT:1,CON=13				PRESIZEGTEQ:S	PREABILITY:1,CATEGORY=Special Ability,Breath Weapon		SAB:+1 round		DESC:See Text									BONUS:COMBAT|INITIATIVE|2								SOURCEPAGE:Drac					
-Suppress Weakness	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Iron Will														PREABILITY:1,CATEGORY=Special Ability,TYPE.Weaknessility				DESC:See Text																	SOURCEPAGE:Drac					
+Suppress Weakness	TYPE:Monstrous	VISIBLE:YES				PREFEAT:1,Iron Will														PREABILITY:1,CATEGORY=Special Ability,TYPE.Weakness				DESC:See Text																	SOURCEPAGE:Drac					
 Tail Constrict	TYPE:Monstrous	VISIBLE:YES				PREFEAT:2,Snatch,Improved Snatch														PRERACE:1,RACETYPE=Dragon				DESC:See Text																	SOURCEPAGE:Drac					
 Tail Sweep Knockdown	TYPE:Monstrous	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Tail Sweep				DESC:See Text																	SOURCEPAGE:Drac					
 Tempest Breath	TYPE:Metabreath	VISIBLE:YES				PREFEAT:1,Power Attack									PRESTAT:1,STR=13				PRESIZEGTEQ:L	PREABILITY:1,CATEGORY=Special Ability,Breath Weapon				DESC:See Text																	SOURCEPAGE:Drac					

@@ -1,0 +1,24 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																		
+#												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			
+# Class Name 4	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
+#(level number)	ADD:SPELLCASTER o CAST	ADD:FEAT Proficiencies	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Avenger	HD:6	TYPE:Base.PC.Prestige	ABB:Ave	MAXLEVEL:10	SOURCEPAGE:LG	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Avenger	PREALIGN:LG,LN,LE,NG,TN,NE	PRESKILL:1,Disguise=4	PRESKILL:2,Hide=8,Move Silently=8	PRETEXT:the character must have killed an enemy leader or champion in defense of his homeland or nation.								
+CLASS:Avenger	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope										
+CLASS:Avenger	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Avenger|CL							
+1			ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Avenger Weapon Proficiencies									
+1		AUTO:FEAT|Armor Proficiency (Light)										
+#												
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Death Attack|Poison Use|Sneak Attack			BONUS:VAR|SneakAttack|(CL+1)/2	BONUS:VAR|DeathAttack|CL	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE			
+2	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Save against Poisons|Uncanny Dodge ~ Base			BONUS:VAR|UncannyDodgeLevel|1	BONUS:VAR|AssassinPoisonSave|CL/2				
+3	CAST:0,2,0	KNOWN:0,3,2										
+4	CAST:0,3,1	KNOWN:0,4,3										
+5	CAST:0,3,2,0	KNOWN:0,4,3,2					BONUS:VAR|UncannyDodgeLevel|1					
+6	CAST:0,3,3,1	KNOWN:0,4,4,3										
+7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2										
+8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3		ABILITY:Special Ability|AUTOMATIC|Hide in Plain Sight (Su)								
+9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3										
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4										

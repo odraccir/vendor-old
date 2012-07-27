@@ -189,7 +189,7 @@ CLASS:Soul Eater	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Intimidate|Jump
 10				ABILITY:Special Ability|AUTOMATIC|Soul Power							
 #											
 CLASS:Thrall of Demogorgon	HD:8	TYPE:PC.Prestige.Vile	ABB:Tod	MAXLEVEL:10	SOURCEPAGE:BoVD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Thrall of Demogorgon	PREALIGN:CE	PREATT:4	PRESKILL:2,Knowledge (Arcana)=2,Knowledge (Religion)=2	PRESKILL:3,TYPE.Knowledge=2	PREFEAT:2,Willing Deformity,Thrall to Demon	PRETEXT:must go through an horrific rite that involves the sacrifice of an intelligent being dedicated to Demogorgon.	PREMULT:1,[PRESPELLTYPE:1,ANY=1],[PREABILITY:1,CATEGORY=Special Quality,Sneak Attack]				
+CLASS:Thrall of Demogorgon	PREALIGN:CE	PREATT:4	PRESKILL:2,Knowledge (Arcana)=2,Knowledge (Religion)=2	PRESKILL:3,TYPE.Knowledge=2	PREFEAT:2,Willing Deformity,Thrall to Demon	PRETEXT:must go through an horrific rite that involves the sacrifice of an intelligent being dedicated to Demogorgon.	PREMULT:1,[PRESPELLTYPE:1,ANY=1],[PREABILITY:1,CATEGORY=Special Ability,Sneak Attack]				
 CLASS:Thrall of Demogorgon	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Intimidate|Jump|Listen|Move Silently|TYPE.Profession|Search|Spellcraft|Spot|Swim|Use Rope									
 1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									

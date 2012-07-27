@@ -232,7 +232,7 @@ CLASS:Initiate of Pistis Sophia	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentrati
 10				ABILITY:Special Ability|AUTOMATIC|Celestial Transformation ~ Initiate of Pistis Sophia							
 #											
 CLASS:Lion of Talsid	HD:8	TYPE:PC.Prestige.Exalted	ABB:Lot	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
-CLASS:Lion of Talsid	PREALIGN:NG	PREATT:4	PRESKILL:2,Knowledge (Nature)=9,Survival=9	PREFEAT:1,Favored of the Companions	PRESPELL:1,Summon Nature's Ally II	PREABILITY:1,CATEGORY=Special Quality,Animal Companion					
+CLASS:Lion of Talsid	PREALIGN:NG	PREATT:4	PRESKILL:2,Knowledge (Nature)=9,Survival=9	PREFEAT:1,Favored of the Companions	PRESPELL:1,Summon Nature's Ally II	PREABILITY:1,CATEGORY=Special Ability,Animal Companion					
 CLASS:Lion of Talsid	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Listen|Knowledge (Nature)|Ride|Spellcraft|Spot|Survival|Swim									
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Lion of Talsid Animal Companion|Lion's Courage			BONUS:VAR|LionTalsidAnimalCompLVL|CL				
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Scent							
@@ -306,7 +306,7 @@ CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE.Knowledge|L
 10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Summon Tempest|Skylord Summon Tempest							
 #											
 CLASS:Slayer of Domiel	HD:6	TYPE:PC.Prestige.Exalted	ABB:SoD	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
-CLASS:Slayer of Domiel	PREALIGN:LG	PRESKILL:2,Hide=8,Move Silently=8	PREFEAT:2,Sanctify Martial Strike,Servant of the Heavens	PREABILITY:2,CATEGORY=Special Quality,Sneak Attack,Evasion	PREVARGTEQ:SneakAttack,3						
+CLASS:Slayer of Domiel	PREALIGN:LG	PRESKILL:2,Hide=8,Move Silently=8	PREFEAT:2,Sanctify Martial Strike,Servant of the Heavens	PREABILITY:2,CATEGORY=Special Ability,Sneak Attack,Evasion	PREVARGTEQ:SneakAttack,3						
 CLASS:Slayer of Domiel	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Spot|Tumble|Use Magic Device|Use Rope									
 CLASS:Slayer of Domiel	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Slayer of Domiel|CL						
 1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Death Touch ~ evil|Slayer of Domiel Death Touch|Detect Evil|Sneak Attack|Slayer of Domiel Sneak Attack			BONUS:VAR|SlayerOfDomielDeathTouchLVL|0	BONUS:VAR|DetectEvilLVL|CL			
@@ -359,7 +359,7 @@ SUBCLASSLEVEL:10	CAST:0,1,1
 10											
 #											
 CLASS:Swanmay	HD:8	TYPE:PC.Prestige.Exalted	ABB:Swn	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Swanmay	PREGENDER:Female	PREALIGN:LG,NG,CG	PRESKILL:2,Knowledge (Nature)=8,Survival=8	PRELANG:1,Sylvan	PREFEAT:2,Sacred Vow,Vow of Purity	PRESPELL:1,Speak with Animals	PREABILITY:1,CATEGORY=Special Quality,Wild Empathy	PRETEXT:knowingly or not, must perform a great service for another swanmay before she can join the order.			
+CLASS:Swanmay	PREGENDER:Female	PREALIGN:LG,NG,CG	PRESKILL:2,Knowledge (Nature)=8,Survival=8	PRELANG:1,Sylvan	PREFEAT:2,Sacred Vow,Vow of Purity	PRESPELL:1,Speak with Animals	PREABILITY:1,CATEGORY=Special Ability,Wild Empathy	PRETEXT:knowingly or not, must perform a great service for another swanmay before she can join the order.			
 CLASS:Swanmay	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Knowledge (Geography)|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Search|Spellcraft|Spot|Survival|Swim									
 1				ABILITY:Special Ability|AUTOMATIC|Shifting|Swanmay Shifting|Wild Empathy|Swanmay Wild Empathy			BONUS:VAR|SwanmayShiftingLVL|CL	BONUS:VAR|WildEmpathy|CL	SR:12+CL	BONUS:VAR|SwanmayWildEmpathyLVL|CL	
 2	ADD:SPELLCASTER|Druid,Ranger			ABILITY:Special Ability|AUTOMATIC|Basic Favored Enemy|Swanmay Favored Enemy							

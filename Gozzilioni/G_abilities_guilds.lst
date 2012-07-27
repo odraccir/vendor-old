@@ -6,6 +6,7 @@ Planar Faction	CATEGORY:Guild Category	TYPE:GuildAffiliation	VISIBLE:YES								
 #																																	
 Academy Necromica	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LM
 Arcane Order	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CA
+Avenger Guild	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:LG
 Blacklock Lorekeeper	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd
 Bloodfist Tribe	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:PH2
 Bloodhound	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:CAd

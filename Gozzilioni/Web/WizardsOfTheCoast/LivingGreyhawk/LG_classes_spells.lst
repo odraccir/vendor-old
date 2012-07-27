@@ -1,0 +1,34 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																		
+			
+#Teleport	CLASSES:Sorcerer,Wizard=5	TYPE:Arcane.Divine	
+Disguise Self.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Detect Poison.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Feather Fall.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Ghost Sound.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Jump.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Obscuring Mist.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Sleep.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+True Strike.MOD	CLASSES:Avenger=1	TYPE:Arcane	
+Alter Self.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Cat's Grace.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Darkness.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Fox's Cunning.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Illusory Script.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Invisibility.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Pass without Trace.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Spider Climb.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Undetectable Alignment.MOD	CLASSES:Avenger=2	TYPE:Arcane	
+Deep Slumber.MOD	CLASSES:Avenger=3	TYPE:Arcane	
+Deeper Darkness.MOD	CLASSES:Avenger=3	TYPE:Arcane	
+False Life.MOD	CLASSES:Avenger=3	TYPE:Arcane	
+Magic Circle against Good.MOD	CLASSES:Avenger=3	TYPE:Arcane	
+Misdirection.MOD	CLASSES:Avenger=3	TYPE:Arcane	
+Nondetection.MOD	CLASSES:Avenger=3	TYPE:Arcane	
+Clairaudience/Clairvoyance.MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Dimension Door.MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Freedom of Movement.MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Glibness.MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Invisibility (Greater).MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Locate Creature.MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Modify Memory.MOD	CLASSES:Avenger=4	TYPE:Arcane	
+Poison.MOD	CLASSES:Avenger=4	TYPE:Arcane	

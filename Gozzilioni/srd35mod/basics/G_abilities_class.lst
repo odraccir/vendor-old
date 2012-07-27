@@ -18,7 +18,7 @@ CATEGORY=Special Ability|Curse of Lycanthropy.MOD	DEFINE:CurseOfLycanthropyDC|15
 CATEGORY=Special Ability|Whirlwind.MOD	DESC:Ref DC %1|WhirlwindDC	DEFINE:WhirlwindDC|10+(HD/2)+STR	BONUS:VAR|WhirlwindDC|2|PREFEAT:1,Ability Focus(Whirlwind)																														
 CATEGORY=Special Ability|Burn.MOD	DESC:Ref DC %1|BurnDC	DEFINE:BurnDC|10+(HD/2)+CON	BONUS:VAR|BurnDC|2|PREFEAT:1,Ability Focus(Burn)																														
 CATEGORY=Special Ability|Vortex.MOD	DESC:Ref DC %1|VortexDC	DEFINE:VortexDC|10+(HD/2)+CON	BONUS:VAR|VortexDC|2|PREFEAT:1,Ability Focus(Vortex)																														
-CATEGORY=Special Ability|Distraction.MOD	DESC:Fort DC %1|DistractionDC	DEFINE:DistractionDC|10+CON+(HD/2)	BONUS:VAR|DistractionDC|2|PREFEAT:1,Ability Focus(Distraction)																														
+CATEGORY=Special Ability|Distraction.MOD	DESC:Fort DC %1|DistractionDC	DEFINE:DistractionDC|10+(HD/2)+CON	BONUS:VAR|DistractionDC|2|PREFEAT:1,Ability Focus(Distraction)																														
 CATEGORY=Special Ability|Rend.MOD	DESC:%1d%2 + %3|RendDice|RendDie|RendBonusDamage	DEFINE:RendDice|0	DEFINE:RendDie|0	DEFINE:RendBonusDamage|STR*3/2																													
 CATEGORY=Special Ability|Stonecunning.MOD	BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=RACIAL	BONUS:VAR|StonecunningLevel|1|TYPE=Stonecunning																															
 CATEGORY=Special Ability|Crippling Strike.MOD	DESC:.CLEAR	DESC:An opponent damaged with Sneak Attack also takes %1 points STR damage.|CripplingStrikeDamage	DEFINE:CripplingStrikeDamage|0	BONUS:VAR|CripplingStrikeDamage|2|TYPE=Base																													

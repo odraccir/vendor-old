@@ -12,6 +12,7 @@ Artisan's Tools (Stonecarving)	TYPE:Goods.Tools.Artisan.StonecarvingTools		COST:
 Artisan's Tools (Stoneworking)	TYPE:Goods.Tools.Artisan.StoneworkingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Stoneworking)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
 Artisan's Tools (Taxidermying)	TYPE:Goods.Tools.Artisan.TaxidermyTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Taxidermy)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
 Artisan's Tools (Woodcarving)	TYPE:Goods.Tools.Artisan.WoodcarvingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Woodcarving)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
+Artisan's Tools (Flower Arranging)	TYPE:Goods.Tools.Artisan.FlowerArrangingTools		COST:5	WT:5	SOURCEPAGE:G		BONUS:SKILL|Craft (Flower Arranging)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																		
 #																									
 Outfit (Sailor's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:3	WT:4		SOURCEPAGE:G																			
 Outfit (Merchant's)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable.Starting	COST:3	WT:4		SOURCEPAGE:G																			
@@ -28,5 +29,5 @@ Powderhorn (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:2|Gunpow
 #																									
 Unholy Symbol (Wooden)			TYPE:Goods.Tools.DivineFocus													COST:1	WT:0								SOURCEPAGE:G
 Unholy Symbol (Silver)			TYPE:Goods.Tools.DivineFocus													COST:25	WT:1								SOURCEPAGE:G
-#
-Scabbard		TYPE:Goods.Container	CONTAINS:UNLIM|Total=1|Weapon=1				COST:.1	WT:1		SOURCEPAGE:G
+#																									
+Scabbard		TYPE:Goods.Container	CONTAINS:UNLIM|Total=1|Weapon=1				COST:.1	WT:1		SOURCEPAGE:G															

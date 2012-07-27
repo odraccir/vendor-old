@@ -15,7 +15,10 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Creature del Terrore
-
+CLASS:CdT_classes_monster__dragons.lst
+LANGUAGE:CdT_languages.lst
+RACE:CdT_races.lst
+RACE:CdT_races__dragons.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst
