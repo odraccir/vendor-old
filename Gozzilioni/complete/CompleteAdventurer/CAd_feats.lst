@@ -49,7 +49,7 @@ Razing Strike	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability
 Staggering Strike	TYPE:General	VISIBLE:YES		PREATT:6			PREABILITY:1,CATEGORY=Special Ability,Sneak Attack														PREVARGTEQ:SneakAttack,1			DESC:See Text																	SOURCEPAGE:CAd				
 Subsonics	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=10									PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
 Tactile Trapsmith	TYPE:General	VISIBLE:YES																						DESC:See Text													BONUS:SKILL|Search,Disable Device|max(DEX,INT)-INT				SOURCEPAGE:CAd				
-Versatile Performer	TYPE:General	VISIBLE:YES										PRESKILL:1,TYPE.Perform=5												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|TYPE=Perform														SOURCEPAGE:CAd		SELECT:3+INT		
+Versatile Performer	TYPE:General	VISIBLE:YES										PRESKILL:1,TYPE.Perform=5												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILL|PC[TYPE=Perform]	SELECT:max(1,INT)													SOURCEPAGE:CAd
 #		VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:CAd				
 Chant of Fortitude	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,Concentration=9								PRESKILL:1,TYPE.Perform=9	PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				
 Ironskin Chant	TYPE:BardicMusic	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,Concentration=12								PRESKILL:1,TYPE.Perform=12	PREVARGTEQ:BardicMusicTimes,1			DESC:See Text																	SOURCEPAGE:CAd				

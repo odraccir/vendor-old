@@ -29,3 +29,11 @@ Vest of Resistance +2		TYPE:Magic.Wondrous.Robe	COST:4000	WT:0		SOURCEPAGE:CA			
 Vest of Resistance +3		TYPE:Magic.Wondrous.Robe	COST:9000	WT:0		SOURCEPAGE:CA					BONUS:CHECKS|ALL|3|TYPE=Resistance				
 Vest of Resistance +4		TYPE:Magic.Wondrous.Robe	COST:16000	WT:0		SOURCEPAGE:CA					BONUS:CHECKS|ALL|4|TYPE=Resistance				
 Vest of Resistance +5		TYPE:Magic.Wondrous.Robe	COST:25000	WT:0		SOURCEPAGE:CA					BONUS:CHECKS|ALL|5|TYPE=Resistance				
+#
+Spell Object (Resist Energy)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA
+Spell Object (Nondetection)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA
+Spell Object (Flaming Sphere)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA
+Spell Object (Haste)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA
+Spell Object (Invisibility)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA
+Spell Object (Fly)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA
+Spell Object (Sleet Storm)	TYPE:Enhancement.Magic.Consumable.SpellObject	COST:0	WT:0	SOURCEPAGE:CA

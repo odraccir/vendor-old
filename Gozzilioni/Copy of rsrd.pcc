@@ -3,14 +3,14 @@ CAMPAIGN:3.5 RSRD
 RANK:1
 GAMEMODE:35e
 GENRE:Fantasy
-BOOKTYPE:Core Rules
+BOOKTYPE:Copy of Core Rules
 SETTING:RSRD
-TYPE:RSRD.Complete
+#TYPE:RSRD.Complete
 !PRECAMPAIGN:1,BOOKTYPE=Core Rules,[3.5 RSRD]
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com/default.asp?x=dnd
-SOURCELONG:Revised (v.3.5) System Reference Document
+SOURCELONG:Copy of Revised (v.3.5) System Reference Document
 SOURCESHORT:RSRD
 SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35
 ISOGL:YES

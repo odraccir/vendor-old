@@ -30,4 +30,4 @@ Powderhorn (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:2|Gunpow
 Unholy Symbol (Wooden)			TYPE:Goods.Tools.DivineFocus													COST:1	WT:0								SOURCEPAGE:G
 Unholy Symbol (Silver)			TYPE:Goods.Tools.DivineFocus													COST:25	WT:1								SOURCEPAGE:G
 #																									
-Scabbard		TYPE:Goods.Container	CONTAINS:UNLIM|Total=1|Weapon=1				COST:.1	WT:1		SOURCEPAGE:G															
+Scabbard		TYPE:Goods.Container	CONTAINS:UNLIM|Total=1|Weapon=1				COST:0.1	WT:1		SOURCEPAGE:G

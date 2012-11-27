@@ -7,40 +7,34 @@ SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.wizard
 #	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
 #	RangedTouch	
-
-# Weapon Name	TYPE	HANDS:1IFLARGERTHANWEAPON
-#Glot	TYPE:Ranged.Bludgeoning.RangedBludgeoning
-Bracers (Claw)	TYPE:Melee.Piercing.MeleePiercing.Unarmed
-Dagger (Stump)	TYPE:Melee.Piercing.MeleePiercing.Dagger
-Gauntlet (Ward Cestus)	TYPE:Melee.Piercing.EcoticPiercing
-Battlepick (Gnome)	TYPE:Martial.Melee.Piercing.MartialPiercing.MeleePiercing.Pick
-Sapara	TYPE:Melee.Slashing.MeleeSlashing
-Sword (Butterfly)	TYPE:Melee.Slashing.MeleeSlashing.Sword
-Tonfa	TYPE:Melee.Bludgeoning.MeleeBludgeoning
-Chain and Dagger	TYPE:Melee.Reach.Piercing.Chain.MeleePiercing.RangedPiercing
-War Fan	TYPE:Melee.Exotic.Slashing.MeleeSlashing
-Sword (Mercurial)	TYPE:Melee.Slashing.MeleeSlashing.Sword
-Duom	TYPE:Melee.Piercing.MeleePiercing
-Lucern Hammer	TYPE:Melee.Piercing.MeleePiercing
-Greatsword (Mercurial)	TYPE:Melee.Slashing.MeleeSlashing.Sword
-Gyrspike	TYPE:Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing	HANDS:2
-Mace (Double)	TYPE:Melee.Bludgeoning.MeleeBludgeoninc.Mace	HANDS:2
-Scimitar (Double)	TYPE:Melee.Slashing.MeleeSlashing.Scimitar	HANDS:2
-Staff (Three Section)	TYPE:Melee.Bludgeoning.MeleeBludgeoning.Staff
-Fullblade	TYPE:Melee.Martial.Exotic.Slashing.MeleeSlashing.Sword
+Lucern Hammer	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Hammer
 #
-Fukimi Bari	TYPE:Ranged.Piercing.RangedPiercing
-Skiprock	TYPE:Ranged.Bludgeoning.RangedBludgeoning
-Bolas (Two Ball)	TYPE:Exotic.Thrown.Bludgeoning.ThrownBludgeoning
-Calculus (Gnome)	TYPE:Exotic.Thrown.Bludgeoning.ThrownBludgeoning
-Throwing Iron	TYPE:Exotic.Thrown.Slashing.ThrownSlashing
-Whip Dagger	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Reach
-Gauntlet (Spring Loaded)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.Unarmed
-Javelin (Spinning)	TYPE:Exotic.Thrown.Piercing.ThrownPiercing
-Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2
-Bow (Double/Elven)	TYPE:Martial.Exotic.Ranged.Piercing.RangedPiercing.Bow	HANDS:2
-Shotput	TYPE:Exotic.Martial.Melee.Bludgeoning.MeleeBludgeoning
+Bracers (Claw)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Unarmed.Claw.Gauntlet
+Dagger (Stump)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Dagger
+Gauntlet (Ward Cestus)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Unarmed.Gauntlet
+Battlepick (Gnome)	TYPE:Martial.Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Pick.Gnomish
+Sapara	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light
+Sword (Butterfly)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Sword
+Tonfa	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.Light
+War Fan	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light
+Chain and Dagger	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Reach.Chain
+Sword (Mercurial)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword
+Duom	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Reach
+Greatsword (Mercurial)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword
+Gyrspike	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.DoubleWeapon	HANDS:2
+Mace (Double)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.DoubleWeapon.Mace	HANDS:2
+Scimitar (Double)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Scimitar	HANDS:2
+Staff (Three Section)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Quarterstaff
+Fullblade	TYPE:Exotic.Martial.Melee.Slashing.MeleeSlashing.TwoHanded.Sword
 #
-#
-Crossbow (Bladed)	TYPE:Melee	HANDS:2
-Sword of Graceful Strike	TYPE:Martial
+Fukimi Bari	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Light
+Skiprock	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.Light.Halfling
+Bolas (Two Ball)	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.Light.Thrown.Bolas
+Calculus (Gnome)	TYPE:Exotic.Ranged.Light.Sling.Gnomish
+Throwing Iron	TYPE:Exotic.Ranged.Slashing.RangedSlashing.Light.Thrown
+Whip Dagger	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Reach.Whip
+Gauntlet (Spring Loaded)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHanded.Unarmed.Gauntlet
+Javelin (Spinning)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.OneHanded.Thrown.Javelin
+Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Crossbow	HANDS:2
+Bow (Double/Elven)	TYPE:Exotic.Martial.Ranged.Piercing.RangedPiercing.TwoHanded.Bow.Longbow.Elven	HANDS:2
+Shotput	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.OneHanded

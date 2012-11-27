@@ -1,3 +1,10 @@
 SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net
-		
-Staff of the Kuo Toa	TYPE:Exotic	
+
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+Crossbow (Light/Aquatic)	TYPE:Simple.Ranged.Piercing.RangedPiercing.TwoHanded.Crossbow.Aquatic

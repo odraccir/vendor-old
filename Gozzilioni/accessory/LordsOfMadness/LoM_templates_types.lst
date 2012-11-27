@@ -2,4 +2,4 @@ SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net
 #								
 ###Block: Creature Subtypes								
 # Template Name	outputname	Visible	Source Page	Special Ability				
-Psurlon		VISIBLE:NO	SOURCEPAGE:LoM	PRERACE:1,RACESUBTYPE=Psurlon	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Charm Effects|Immunity To Compulsion Effects	LANGAUTO:Telepathy	DEFINE:TelepathyRange|250	BONUS:SKILL|Escape Artist|4|TYPE=Racial
+Psurlon		VISIBLE:NO	SOURCEPAGE:LoM	PRERACE:1,RACESUBTYPE=Psurlon	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Charm Effects|Immunity To Compulsion Effects	AUTO:LANG|Telepathy	DEFINE:TelepathyRange|250	BONUS:SKILL|Escape Artist|4|TYPE=Racial

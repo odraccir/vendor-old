@@ -7,9 +7,9 @@ SOURCELONG:Forgotten Realms Campaing Setting	SOURCESHORT:FRCS	SOURCEWEB:http://w
 #	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
-
-Sword (Cutlass)	TYPE:Martial.Melee.Slashing.Piercing.MeleePiercing.MeleeSlashing.Sword
-Sword (Saber)	TYPE:Martial.Melee.Slashing.Piercing.MeleePiercing.MeleeSlashing.Sword
-Claw Bracer	TYPE:Exotic.Melee.Piercing.MeleePiercing
-Sword (Kopesh)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Sword
-Chakram	TYPE:Exotic.Ranged.Thrown.Slashing.RangedSlashing.Chakram
+Sword (Cutlass)	TYPE:Martial.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.Light.Sword
+Sword (Saber)	TYPE:Martial.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.OneHanded.Sword
+Claw Bracer	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Claw
+Sword (Kopesh)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword
+#
+Chakram	TYPE:Exotic.Ranged.Slashing.RangedSlashing.Light.Thrown.Chakram

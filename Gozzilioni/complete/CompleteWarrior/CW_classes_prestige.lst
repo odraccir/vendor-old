@@ -264,7 +264,7 @@ CLASS:Knight of the Chalice	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPE
 7	CAST:0,2,1,1,0												
 8	CAST:0,2,1,1,1			ABILITY:Special Ability|AUTOMATIC|Courage of Heavens (radius)									
 9	CAST:0,2,2,1,1												
-10	CAST:0,2,2,2,1			ABILITY:Special Ability|AUTOMATIC|Holy Aura (Sp)			BONUS:VAR|HolyAuraLVL|10						
+10	CAST:0,2,2,2,1			ABILITY:Special Ability|AUTOMATIC|Holy Aura (Sp/wis)			BONUS:VAR|HolyAuraLVL|10	BONUS:VAR|HolyAuraTimes|1					
 #													
 ###TODO CONTIGUOUS:Samurai|Paladin													
 CLASS:Knight Protector	HD:10	TYPE:Prestige	ABB:Kni	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Knight Protector			

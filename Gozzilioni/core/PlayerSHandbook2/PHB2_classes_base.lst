@@ -14,15 +14,15 @@ CLASS:Beguiler	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Beg
 #																																							
 1	CAST:5,3	KNOWN:5,3		ABILITY:Special Ability|AUTOMATIC|Armored Mage|Beguiler Armored Mage|Trapfinding																																			
 2	CAST:6,4	KNOWN:6,4		ABILITY:Special Ability|AUTOMATIC|Cloaked Casting|Surprise Casting			BONUS:VAR|CloakedCastingDC|1	BONUS:VAR|CloakedCastingSR|2																															
-3	CAST:6,5	KNOWN:6,5		ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Beguiler																																			
+3	CAST:6,5	KNOWN:6,5				BONUS:ABILITYPOOL|Advanced Learning|(CL+1)/4																																	
 4	CAST:6,6,3	KNOWN:6,6,3																																					
 5	CAST:6,6,4	KNOWN:6,6,4	VFEAT:Silent Spell																																				
 6	CAST:6,6,5,3	KNOWN:6,6,5,3																																					
-7	CAST:6,6,6,4	KNOWN:6,6,6,4		ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Beguiler																																			
+7	CAST:6,6,6,4	KNOWN:6,6,6,4																																					
 8	CAST:6,6,6,5,3	KNOWN:6,6,6,5,3					BONUS:VAR|CloakedCastingOvercome|1																																
 9	CAST:6,6,6,6,4	KNOWN:6,6,6,6,4																																					
 10	CAST:6,6,6,6,5,3	KNOWN:6,6,6,6,5,3	VFEAT:Still Spell																																				
-11	CAST:6,6,6,6,6,4	KNOWN:6,6,6,6,6,4		ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Beguiler																																			
+11	CAST:6,6,6,6,6,4	KNOWN:6,6,6,6,6,4																																					
 12	CAST:6,6,6,6,6,5,3	KNOWN:6,6,6,6,6,5,3																																					
 13	CAST:6,6,6,6,6,6,4	KNOWN:6,6,6,6,6,6,4																																					
 14	CAST:6,6,6,6,6,6,5,3	KNOWN:6,6,6,6,6,6,5,3					BONUS:VAR|CloakedCastingDC|1																																
@@ -30,7 +30,7 @@ CLASS:Beguiler	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Beg
 16	CAST:6,6,6,6,6,6,6,5,3	KNOWN:6,6,6,6,6,6,6,5,3																																					
 17	CAST:6,6,6,6,6,6,6,6,4	KNOWN:6,6,6,6,6,6,6,6,4																																					
 18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:6,6,6,6,6,6,6,6,5,3																																					
-19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:6,6,6,6,6,6,6,6,6,4		ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Beguiler																																			
+19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:6,6,6,6,6,6,6,6,6,4																																					
 20	CAST:6,6,6,6,6,6,6,6,6,5	KNOWN:6,6,6,6,6,6,6,6,6,5					BONUS:VAR|CloakedCastingOvercome|1																																
 #																																							
 CLASS:Dragon Shaman	HD:10	TYPE:Base.PC	ABB:Dsh	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex Dragon Shaman																													
@@ -129,26 +129,26 @@ CLASS:Duskblade	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Du
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
 1		AUTO:FEAT|Shield Proficiency																																					
 #																																							
-1	CAST:3,2	KNOWN:2,2	ABILITY:Special Ability|AUTOMATIC|Advanced Learning ~ Duskblade 1	ABILITY:Special Ability|AUTOMATIC|Arcane Attunement|Armored Mage|Duskblade Armored Mage			BONUS:VAR|DuskbladeArmoredMageLVL|CL																																
-2	CAST:4,3	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade	VFEAT:Combat Casting																																				
-3	CAST:5,4	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade		ABILITY:Special Ability|AUTOMATIC|Arcane Channeling																																			
-4	CAST:6,5	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-5	CAST:6,5,2	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade		ABILITY:Special Ability|AUTOMATIC|Quick Cast|Duskblade Quick Cast			BONUS:VAR|DuskbladeQuickCastLVL|CL																																
-6	CAST:6,6,3	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade		ABILITY:Special Ability|AUTOMATIC|Spell Power|Duskblade Spell Power			BONUS:VAR|DuskbladeSpellPowerLVL|CL																																
-7	CAST:6,6,5	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-8	CAST:6,7,6	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-9	CAST:6,7,6,2	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-10	CAST:6,8,7,3	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-11	CAST:6,8,7,5	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-12	CAST:6,8,8,6	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-13	CAST:6,9,8,6,2	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-14	CAST:6,9,8,7,3	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-15	CAST:6,9,8,7,5	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-16	CAST:6,9,9,8,6	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-17	CAST:6,10,9,8,6,2	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-18	CAST:6,10,9,8,7,3	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-19	CAST:6,10,10,9,7,5	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
-20	CAST:6,10,10,10,8,6	ABILITY:SPECIAL Ability|AUTOMATIC|Advanced Learning ~ Duskblade																																					
+1	CAST:3,2	KNOWN:2,2		ABILITY:Special Ability|AUTOMATIC|Arcane Attunement|Armored Mage|Duskblade Armored Mage			BONUS:VAR|DuskbladeArmoredMageLVL|CL	BONUS:ABILITYPOOL|Advanced Learning|CL																															
+2	CAST:4,3		VFEAT:Combat Casting																																				
+3	CAST:5,4			ABILITY:Special Ability|AUTOMATIC|Arcane Channeling																																			
+4	CAST:6,5																																						
+5	CAST:6,5,2			ABILITY:Special Ability|AUTOMATIC|Quick Cast|Duskblade Quick Cast			BONUS:VAR|DuskbladeQuickCastLVL|CL																																
+6	CAST:6,6,3			ABILITY:Special Ability|AUTOMATIC|Spell Power			BONUS:VAR|SpellPower|min(2,1+((CL-1)/5))
+7	CAST:6,6,5																																						
+8	CAST:6,7,6																																						
+9	CAST:6,7,6,2																																						
+10	CAST:6,8,7,3																																						
+11	CAST:6,8,7,5																																						
+12	CAST:6,8,8,6																																						
+13	CAST:6,9,8,6,2																																						
+14	CAST:6,9,8,7,3																																						
+15	CAST:6,9,8,7,5																																						
+16	CAST:6,9,9,8,6						
+17	CAST:6,10,9,8,6,2																																						
+18	CAST:6,10,9,8,7,3						BONUS:VAR|SpellPower|1
+19	CAST:6,10,10,9,7,5																																						
+20	CAST:6,10,10,10,8,6																																						
 #																																							
 CLASS:Knight	HD:12	TYPE:Base.PC	ABB:Kgt	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Knight																													
 CLASS:Knight	PREALIGN:LG,LN,LE																																						
@@ -262,37 +262,38 @@ SUBSTITUTIONLEVEL:1	TEMPLATE:RighteousMightDR
 ###Block: Level progression																																							
 SUBSTITUTIONLEVEL:1	CAST:3,1																																						
 #																																							
-CLASS:Druid.MOD																																							
-1			ABILITY:Special Ability|AUTOMATIC|Druid Weapon Proficiencies|All Automatic Proficiencies																																				
-1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																				
-1			AUTO:FEAT|Shield Proficiency																																				
+CLASS:Druid.MOD
+SUBSTITUTIONCLASS:Spontaneous Rejuvenation
+SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Druid Weapon Proficiencies|All Automatic Proficiencies																																				
+SUBSTITUTIONLEVEL:1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																				
+SUBSTITUTIONLEVEL:1			AUTO:FEAT|Shield Proficiency																																				
 ###Block: Wildshape Abilities Block																																							
-1				ABILITY:Special Ability|AUTOMATIC|Wild Shape|Druid Wild Shape|Druid Wild Shape Times|Druid Elemental Wild Shape Times|Druid Wild Shape Progression			BONUS:VAR|DruidWildShape|CL																																
+SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Wild Shape|Druid Wild Shape|Druid Wild Shape Times|Druid Elemental Wild Shape Times|Druid Wild Shape Progression			BONUS:VAR|DruidWildShape|CL
 ###Block: Spell Alignment Restrictions																																							
-1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
-1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
-1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
-1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
 ###Block: Normal Progression																																							
-1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Nature Sense|Animal Companion|Wild Empathy|Spontaneous casting - Rejuvenating				BONUS:VAR|WildEmpathy|CL	BONUS:VAR|CompLevel|CL																														
+SUBSTITUTIONLEVEL:1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Nature Sense|Animal Companion|Wild Empathy|Spontaneous casting - Rejuvenating				BONUS:VAR|WildEmpathy|CL	BONUS:VAR|CompLevel|CL
 #																																							
 SUBSTITUTIONCLASS:Shapeshift																																							
 ###Block:Proficiencies																																							
-1			ABILITY:Special Ability|AUTOMATIC|Druid Weapon Proficiencies|All Automatic Proficiencies																																				
-1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																				
-1			AUTO:FEAT|Shield Proficiency																																				
+SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Druid Weapon Proficiencies|All Automatic Proficiencies																																				
+SUBSTITUTIONLEVEL:1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																				
+SUBSTITUTIONLEVEL:1			AUTO:FEAT|Shield Proficiency																																				
 ###Block: Shapechanger Abilities Block																																							
-1	BONUS:VAR|DruidShapechangerLVL|CL	ABILITY:SPECIAL Ability|AUTOMATIC|Shapechanger Druid Form					BONUS:ABILITYPOOL|Druid Shapeform|1																																
+SUBSTITUTIONLEVEL:1	BONUS:VAR|DruidShapechangerLVL|CL	ABILITY:SPECIAL Ability|AUTOMATIC|Shapechanger Druid Form					BONUS:ABILITYPOOL|Druid Shapeform|1																																
 ###Block: Spell Alignment Restrictions																																							
-1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
-1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
-1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
-1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
+SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
 ###Block: Normal Progression																																							
-1	CAST:3,1		ABILITY:Special Ability|AUTOMATIC|Nature Sense|Wild Empathy|Spontaneous casting - Summon Nature's Ally					BONUS:VAR|WildEmpathy|CL																															
-5							BONUS:ABILITYPOOL|Druid Shapeform|1																																
-12							BONUS:ABILITYPOOL|Druid Shapeform|1																																
-16							BONUS:ABILITYPOOL|Druid Shapeform|1																																
+SUBSTITUTIONLEVEL:1	CAST:3,1		ABILITY:Special Ability|AUTOMATIC|Nature Sense|Wild Empathy|Spontaneous casting - Summon Nature's Ally					BONUS:VAR|WildEmpathy|CL																															
+SUBSTITUTIONLEVEL:5	CAST:5,3,2,1						BONUS:ABILITYPOOL|Druid Shapeform|1																																
+SUBSTITUTIONLEVEL:12	CAST:6,5,4,4,3,3,2						BONUS:ABILITYPOOL|Druid Shapeform|1																																
+SUBSTITUTIONLEVEL:16	CAST:6,5,5,5,4,4,3,3,2						BONUS:ABILITYPOOL|Druid Shapeform|1																																
 #																																							
 CLASS:Favored Soul.MOD																																							
 SUBSTITUTIONCLASS:Deity's Favor																																							

@@ -8,4 +8,6 @@ SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
 #	RangedTouch	
 		
-Etherblade	TYPE:Polearm.Melee.Slashing.TwoHanded.MeleeSlashing
+Etherblade	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Reach.Polearm.Ethergaunt
+Shard Dagger	TYPE:Exotic.Melee.Ranged.Piercing.Slashing.MeleePiercing.RangedPiercing.MeleeSlashing.RangedSlashing.Light.Thrown.Shard.Dagger.Nerra
+Shard Longsword	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword.Shard.Nerra

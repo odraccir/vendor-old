@@ -8,6 +8,6 @@ SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilio
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
 #	RangedTouch	
 		
-Poker	TYPE:Melee.Piercing.MeleePiercing	
+Poker	TYPE:Exotic.Melee.Piercing.MeleePiercing.OneHanded
 #		
-Cat-o-Nine-Tail	TYPE:Whip.Ranged.Slashig.RangedSlashing	
+Cat-o-Nine-Tail	TYPE:Exotic.Ranged.Slashing.RangedSlashing.OneHanded.Whip

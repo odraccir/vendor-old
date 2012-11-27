@@ -8,12 +8,13 @@ SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilion
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
 
-Axe (Rutterkin Double)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Axe.DoubleWeapon.TwoHanded
-Snap Tong	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded
-Three Armed Blade	TYPE:Exotic.Thrown.Piercing.RangedPiercing
-Acid Spitter	TYPE:Kython.Ranged.Bludgeoning.RangedTouch
-Bone Shard Crossbow	TYPE:Kython.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2
-Boneblade	TYPE:Kython.Melee.Slashing.MeleeSlashing.Sword.OneHanded
-Mouth Launcher	TYPE:Kython.Melee.Piercing.MeleePiercing.Sword.OneHanded
-Mucus Pod	TYPE:Kython.Melee.Touch.OneHanded
+Axe (Rutterkin Double)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Axe.DoubleWeapon.TwoHanded.Rutterkin
+Snap Tong	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Rutterkin
+Boneblade	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword.Kython
+Mouth Launcher	TYPE:Exotic.Melee.Piercing.MeleePiercing.OneHanded.Kython
+Mucus Pod	TYPE:Exotic.Melee.Touch.MeleeTouch.OneHanded.Kython
+#
+Three Armed Blade	TYPE:Exotic.Ranged.Slashing.RangedSlashing.OneHanded.Rutterkin.Thrown
+Acid Spitter	TYPE:Exotic.Ranged.Touch.RangedTouch.Light.Kython
+Bone Shard Crossbow	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Kython.Crossbow.Poison	HANDS:2
 

@@ -7,7 +7,7 @@ SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net
 #	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
 #	RangedTouch	
-		
-Sand Blaster	TYPE:Ranged.Bludgeoning.OneHanded.RangedBludgeoning
-Flindbar	TYPE:Melee.Bludgeoning.OneHanded.MeleeBludgeoning
-Adamantine Blade	TYPE:Natural.Melee.Slashing.OneHanded.MeleeSlashing
+Flindbar	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Nunchaku
+Sand Blaster	TYPE:Exotic.Ranged.Bludgeoning.Rangedbludgeoning.OneHanded
+#
+Adamantine Blade	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword

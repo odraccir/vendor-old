@@ -67,12 +67,7 @@ Improved Mounted Archery	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Mounted A
 Improved Rapid Shot	TYPE:General.Fighter.RangerArcher	VISIBLE:YES				PREFEAT:3,Manyshot,Point Blank Shot,Rapid Shot																		DESC:See Text																	SOURCEPAGE:CW								
 Improved Toughness	TYPE:General.Fighter	VISIBLE:YES													PRECHECKBASE:1,Fortitude=2									DESC:See Text																	SOURCEPAGE:CW	BONUS:HP|CURRENTMAX|TL							
 Improved Two Weapon Defense	TYPE:General.Fighter.ModifyAC.RangerTwoWeap	VISIBLE:YES	OUTPUTNAME:Improved Two-Weapon Defense	PREATT:6		PREFEAT:2,Two Weapon Defense,Two Weapon Fighting									PRESTAT:1,DEX=17									DESC:See Text																	SOURCEPAGE:CW	BONUS:VAR|TwoWeaponShield|1							
-Improved Weapon Familiarity	TYPE:General.Fighter	VISIBLE:YES		PREATT:1																				DESC:See Text	STACK:NO	MULT:NO															SOURCEPAGE:CW	ADD:FEAT|TYPE=RacialFamiliarity							
-Dwarven Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Dwarf%,Half-Dwarf],[PRERACE:1,RACESUBTYPE=Dwarf]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Dwarven=Martial						
-Elven Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Elven=Martial						
-Gnomish Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Gnome%,Half-Gnome],[PRERACE:1,RACESUBTYPE=Gnome]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Gnomish=Martial						
-Orcisc Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Orc%,Half-Orc],[PRERACE:1,RACESUBTYPE=Orc]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Orcish=Martial						
-Halfling Improved Weapon Familiarity	TYPE:RacialFamiliarity	VISIBLE:NO													PREMULT:1,[PRERACE:1,Halfling%,Half-Halfling],[PRERACE:1,RACESUBTYPE=Halfling]									DESC:See Text																	SOURCEPAGE:CW		CHANGEPROF:TYPE.Halfling=Martial						
+Improved Weapon Familiarity	TYPE:General.Fighter	VISIBLE:YES		PREATT:1																				DESC:See Text	STACK:NO	MULT:NO															SOURCEPAGE:CW	BONUS:ABILITYPOOL|Improved Weapon Familiarity|1							
 Instantaneous Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
 Intimidating Rage	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage																		DESC:See Text																	SOURCEPAGE:CW								
 Karmic Strike	TYPE:General	VISIBLE:YES				PREFEAT:2,Combat Expertise,Dodge									PRESTAT:1,DEX=13									DESC:See Text																	SOURCEPAGE:CW								
@@ -85,7 +80,7 @@ Pin Shield	TYPE:General	VISIBLE:YES		PREATT:4		PREFEAT:1,Two Weapon Fighting				
 #Power Critical	TYPE:General.Fighter	VISIBLE:YES		PREATT:4		PREFEAT:1,Weapon Focus																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:FEAT=Weapon Focus														SOURCEPAGE:CW	SAB:Power Critical: +% to confirm critic|PowerCritic							
 Power Critical.MOD	TYPE:Fighter																																																
 Prone Attack	TYPE:General.Fighter	VISIBLE:YES		PREATT:2		PREFEAT:1,Lightning Reflexes									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
-Ranged Disarm	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,DEX=15									DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROF|1|TYPE.Ranged														SOURCEPAGE:CW								
+Ranged Disarm	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,DEX=15									DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC[TYPE.Ranged]	SELECT:1													SOURCEPAGE:CW								
 Ranged Pin	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,DEX=15									DESC:See Text																	SOURCEPAGE:CW								
 Ranged Sunder	TYPE:General.Fighter.RangerArcher	VISIBLE:YES		PREATT:5		PREFEAT:2,Point Blank Shot,Precise Shot									PRESTAT:1,STR=13									DESC:See Text																	SOURCEPAGE:CW								
 Rapid Stunning	TYPE:General.Fighter	VISIBLE:YES		PREATT:6		PREFEAT:2,Combat Reflexes,Stunning Fist																		DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CW								

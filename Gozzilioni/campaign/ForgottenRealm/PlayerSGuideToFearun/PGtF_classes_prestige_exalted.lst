@@ -2,11 +2,11 @@ SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzil
 #													
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
 # Class Name req	Requirements	FINE											
-# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
 CLASS:Black Blood Hunter	HD:8	TYPE:Prestige	ABB:Bbh	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
-CLASS:Black Blood Hunter	PRETEMPLATE:1,Lycanthrope	PRESKILL:2,Jump=6,Survival=6	PRESKILL:1,Knowledge (Nature)=4	PREFEAT:2,Power Attack,Vile Natural Attack	PREDEITY:1,Malar					HASSUBCLASS:YES		ALLOWBASECLASS:NO	
+CLASS:Black Blood Hunter	PRETEMPLATE:1,Lycanthrope	PRESKILL:2,Jump=6,Survival=6	PRESKILL:1,Knowledge (Nature)=4	PREFEAT:2,Power Attack,Vile Natural Attack	PREDEITY:1,Malar							ALLOWBASECLASS:NO	
 CLASS:Black Blood Hunter	STARTSKILLPTS:4	CSKILL:Climb|Hide|Intimidate|Jump|Knowledge (Nature)|Listen|Move Silently|Spot|Survival|Swim											
 #													
 SUBCLASS:Black Blood Hunter ~ Natural	COST:0	PROHIBITCOST:0	PRETEMPLATE:1,Natural Lycanthrope										

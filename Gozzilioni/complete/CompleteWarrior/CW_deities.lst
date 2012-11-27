@@ -1,7 +1,7 @@
 SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net						
 								
 #Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal	TYPE:	PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
-Altua	ALIGN:LG	DEITYWEAP:Longsword	DESC:Altua (F)	DOMAINS:Good,Law,Nobility,War|PREALIGN:LG,LN,NB	TYPE:Greater	PANTHEON:Warrior	SOURCEPAGE:CW	
+Altua	ALIGN:LG	DEITYWEAP:Longsword	DESC:Altua (F)	DOMAINS:Good,Law,Nobility,War|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Warrior	SOURCEPAGE:CW	
 Syreth	ALIGN:NG	DEITYWEAP:Mace (Heavy)	DESC:Syreth (M)	DOMAINS:Good,Healing,Protection|PREALIGN:LG,NG,CG,TN	TYPE:Greater	PANTHEON:Warrior	SOURCEPAGE:CW	
 Valkar	ALIGN:CG	DEITYWEAP:Battleaxe	DESC:Valkar (M)	DOMAINS:Chaos,Courage,Good,Strength|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:Warrior	SOURCEPAGE:CW	
 Halmyr	ALIGN:LN	DEITYWEAP:Rapier	DESC:Halmyr (M)	DOMAINS:Law,Planning,War|PREALIGN:LG,LN,LE,TN	TYPE:Greater	PANTHEON:Warrior	SOURCEPAGE:CW	

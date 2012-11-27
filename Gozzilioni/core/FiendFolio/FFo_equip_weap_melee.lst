@@ -1,0 +1,6 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+Etherblade		PROFICIENCY:WEAPON|Etherblade	TYPE:Weapon.Exotic.Melee.Standard.Slashing.TwoHanded.Reach.Polearm.Ethergaunt	COST:800	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW			REACHMULT:2				SOURCEPAGE:FFo	MODS:NO			PRERACE:1,PRERACESUBTYPE=Ethergaunt
+Shard Dagger		PROFICIENCY:WEAPON|Shard Dagger	TYPE:Weapon.Exotic.Melee.Ranged.Standard.Piercing.Slashing.Light.Thrown.Finesseable.Shard.Dagger.Nerra	COST:2	WT:1		WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.SHARD_WEAP				RANGE:10			SOURCEPAGE:G	PRERACE:1,PRERACESUBTYPE=Nerra
+Shard Longsword		PROFICIENCY:WEAPON|Shard Longsword	TYPE:Weapon.Exotic.Melee.Standard.Slashing.OneHanded.Sword.Shard.Nerra	COST:15	WT:14		WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.SHARD_WEAP							SOURCEPAGE:G	PRERACE:1,PRERACESUBTYPE=Nerra

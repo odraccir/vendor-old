@@ -8,6 +8,6 @@ SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.go
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
 
-Bayonet	TYPE:Melee.Dagger.Piercing.MeleePiercing
-Straight Razor	TYPE:Melee.Dagger.Piercing.MeleePiercing
+Bayonet	TYPE:Simple.Melee.Piercing.MeleePiercing.TooSmall.Dagger
+Straight Razor	TYPE:Simple.Melee.Piercing.MeleePiercing.Light.Dagger
 

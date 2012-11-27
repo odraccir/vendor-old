@@ -8,6 +8,6 @@ Automatic Still Spell.MOD	TYPE:Epic.Metamagic.Wizard	DESC:.CLEAR
 Enhance Spell.MOD	TYPE:Epic.Metamagic.Wizard	DESC:.CLEAR
 Epic Spell Focus.MOD	PRETEXT:Ability to cast at least one 9th level spell of the selected school	BONUS:DC|SCHOOL.%LIST|3|TYPE=SpellFocus	BONUS:DC|SCHOOL.%LIST|-1						SOURCEPAGE:CA	
 #Epic Spell Penetration
-Improved Combat Casting.MOD	BONUS:SKILL|Concentration (Cast defensively)|max(1,charbonusto(CASTERLEVEL,%LIST)/2)	STACK:NO	MULT:YES	CHOOSE:SPELLCLASSES	SOURCEPAGE:CA	
+Improved Combat Casting.MOD	BONUS:SKILL|Concentration (Cast defensively)|max(1,charbonusto(CASTERLEVEL,%LIST)/2)	STACK:NO	MULT:YES	CHOOSE:CLASS|PC[SPELLCASTER]	SOURCEPAGE:CA	
 Master Staff.MOD	PRESKILL:1,Spellcraft=30	SOURCEPAGE:CA	
 #Master Wand

@@ -14,5 +14,5 @@ Jaded	TYPE:General	VISIBLE:YES																				SAB:+4 bonus on all Horror sav
 Lunatic	TYPE:General	VISIBLE:YES																		PREALIGN:CG,CN,CE				DESC:See Text																	SOURCEPAGE:RLPHB	
 Open Mind	TYPE:General	VISIBLE:YES																				SAB:+4 bonus on all Madness saves.		DESC:See Text																	SOURCEPAGE:RLPHB	
 Redhead	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1				PRESTAT:1,WIS=11									DESC:See Text																	SOURCEPAGE:RLPHB	
-Reincarnated	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1													DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILLSNAMED|CROSSCLASS										CSKILL:%CHOICE				SOURCEPAGE:RLPHB	
+Reincarnated	TYPE:General	VISIBLE:YES									PRECLASSLEVELMAX:1,TYPE.Base=1													DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILL|CROSSCLASS	SELECT:1									CSKILL:%LIST				SOURCEPAGE:RLPHB	
 Voice of Wrath	TYPE:General	VISIBLE:YES																				SAB:+% bonus on all Curse checks.|VoiceOfWrathBonus		DESC:See Text																	SOURCEPAGE:RLPHB	DEFINE:VoiceOfWrathBonus|4

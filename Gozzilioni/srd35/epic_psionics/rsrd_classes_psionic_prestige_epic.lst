@@ -1,9 +1,0 @@
-# CVS $Revision: 6746 $ $Author: amaitland $ -- Thu Jun 19 06:15:07 2008 -- reformated by prettylst.pl v1.38 (build 6737)
-SOURCELONG:Revised (v.3.5) System Reference Document	SOURCESHORT:RSRD	SOURCEWEB:http://www.wizards.com/default.asp?x=d20/article/srd35
-# Author: TaluronIscandar
-
-# Class Name		Max Level
-CLASS:Cerebremancer.MOD	MAXLEVEL:NOLIMIT
-11:REPEATLEVEL:2									ADD:SPELLCASTER|Arcane
-12:REPEATLEVEL:2									ADD:SPELLCASTER|Psionic
-16:REPEATLEVEL:6	BONUS:ABILITYPOOL|Epic Cerebremancer Feat|1

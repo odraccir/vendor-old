@@ -81,7 +81,7 @@ CLASS:Contemplative	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|He
 10	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Mystic Union											
 #															
 CLASS:Divine Crusader	HD:8	TYPE:Prestige	ABB:Dic	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE	EXCLASS:Ex Divine Crusader					
-CLASS:Divine Crusader	PREALIGN:DEITY	PREATT:7	PRESKILL:1,Knowledge (Religion)=2	PREFEAT:1,Weapon Focus											
+CLASS:Divine Crusader	PREALIGN:Deity	PREATT:7	PRESKILL:1,Knowledge (Religion)=2	PREFEAT:1,Weapon Focus	PRETEXT:Weapon Focus in a deity favored weapon
 CLASS:Divine Crusader	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Jump|Knowledge (Religion)|Ride|Swim	SPELLSTAT:WIS	SPELLTYPE:Divine			BONUS:CASTERLEVEL|Divine Crusader|CL								
 ###Block: Aura strength															
 1	BONUS:VAR|AlignmentAuraBase|CL	DEFINE:AlignmentAuraBase|0		ABILITY:Special Ability|VIRTUAL|Aura of Chaos|PREDEITYALIGN:CG,CN,CE											
@@ -92,7 +92,7 @@ CLASS:Divine Crusader	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 1	CAST:0,0					BONUS:DOMAIN|NUMBER|1									
 2	CAST:0,1,0														
 3	CAST:0,2,1,0			ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity			BONUS:VAR|ElectricityResistanceBonus|5								
-4	CAST:0,2,2,1,0			ABILITY:Special Ability|AUTOMATIC|Divine Crusader Deity Weapon Specialization			BONUS:VAR|DicWeaponSpecQualifyLVL|CL								
+4	CAST:0,2,2,1,0						BONUS:VAR|WeapSpecQualify|CL	BONUS:ABILITYPOOL|Deity Weapon Proficiency|1							
 5	CAST:0,3,2,2,1,0														
 6	CAST:0,3,3,2,2,1,0			ABILITY:Special Ability|AUTOMATIC|Resistance To Acid			BONUS:VAR|AcidResistanceBonus|5								
 7	CAST:0,3,3,3,2,2,1,0			VISION:Darkvision (60')											
@@ -141,7 +141,7 @@ CLASS:Evangelist	STARTSKILLPTS:6	CSKILL:Bluff|TYPE.Craft|Diplomacy|Disguise|Esca
 1				ABILITY:Special Ability|AUTOMATIC|Great Oratory ~ Base|Evangelist Great Oratory			BONUS:VAR|GreatOratoryLVL|CL	BONUS:ABILITYPOOL|Great Oratory|1							
 2				ABILITY:Special Ability|AUTOMATIC|Fast Talk											
 3								BONUS:ABILITYPOOL|Great Oratory|1							
-4				ADD:ABILITY|Special Ability|VIRTUAL|Evangelist Skill Mastery											
+4								BONUS:ABILITYPOOL|Skill Mastery|1+INT
 5								BONUS:ABILITYPOOL|Great Oratory|1							
 #															
 CLASS:Geomancer	HD:6	TYPE:Prestige	ABB:Geo	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE						
@@ -213,14 +213,13 @@ CLASS:Ex Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Ha
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
 #															
-CLASS:Pious Templar	HD:10	TYPE:Prestige	ABB:Pte	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				HASSUBCLASS:YES	ALLOWBASECLASS:NO	
+CLASS:Pious Templar	HD:10	TYPE:Prestige	ABB:Pte	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					ALLOWBASECLASS:NO	
 CLASS:Pious Templar	PREATT:5	PRESKILL:1,Knowledge (Religion)=4	PREFEAT:2,True Believer,Weapon Focus	PRETEXT:Weapon focus in deity's favored weapon											
-CLASS:Pious Templar	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Heal|Jump|Knowledge (Religion)|TYPE.Profession|Swim	SPELLSTAT:WIS	SPELLTYPE:Divine			BONUS:CASTERLEVEL|Pious Templar|CL								
+CLASS:Pious Templar	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Heal|Jump|Knowledge (Religion)|TYPE.Profession|Swim								
+CLASS:Pious Templar	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Pious Templar|CL
 #															
-SUBCLASS:Pious Templar Paladin	COST:0	PREALIGN:LG,LN,NG,TN,CG,CN													
-SUBCLASSLEVEL:1						KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		SPELLLIST:1|Paladin							
-SUBCLASS:Pious Templar Blackguard	COST:0	PREALIGN:LE,LN,NE,TN,CE,CN													
-SUBCLASSLEVEL:1						KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		SPELLLIST:1|Blackguard							
+SUBCLASS:Pious Templar Paladin	COST:0	PREALIGN:LG,LN,NG,TN,CG,CN	SPELLLIST:1|Paladin
+SUBCLASS:Pious Templar Blackguard	COST:0	PREALIGN:LE,LN,NE,TN,CE,CN	SPELLLIST:1|Blackguard
 #															
 1				ABILITY:Special Ability|AUTOMATIC|Pious Templar Level Advanced Feat Tracker			BONUS:VAR|PiousTemplarLVL|CL								
 1				ABILITY:Special Ability|AUTOMATIC|Pious Templar Weapon Specialization Qualify											
@@ -374,7 +373,7 @@ CLASS:Temple Raider of Olidammara	STARTSKILLPTS:4	CSKILL:Appraise|Climb|TYPE.Cra
 6	CAST:0,1,1,1							BONUS:VAR|UncannyDodgeLevel|1							
 7	CAST:0,2,1,1,0														
 8	CAST:0,2,1,1,1														
-9	CAST:0,2,2,1,1			ADD:ABILITY|Special Ability|VIRTUAL|Temple Raider Skill Mastery											
+9	CAST:0,2,2,1,1							BONUS:ABILITYPOOL|Skill Mastery|3+INT						
 10	CAST:0,2,2,2,1					DOMAIN:Luck	BONUS:DOMAIN|NUMBER|1								
 #															
 CLASS:Ur-Priest	HD:8	TYPE:Prestige	ABB:Urp	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
@@ -412,7 +411,7 @@ CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|He
 12	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Void Suppression|Void Disciple Void Suppression			BONUS:VAR|VoidDiscipleSuppressionLVL|CL								
 13				ABILITY:Special Ability|AUTOMATIC|Void Strike											
 #															
-CLASS:Warpriest	HD:10	TYPE:Prestige	ABB:Wrp	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				HASSUBCLASS:YES	ALLOWBASECLASS:NO	
+CLASS:Warpriest	HD:10	TYPE:Prestige	ABB:Wrp	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					
 CLASS:Warpriest	PREATT:5	PRESKILL:1,Diplomacy=8	PRESKILL:1,Sense Motive=5	PREFEAT:1,Combat Casting	PREDOMAIN:1,Destruction,Protection,Strength,War	PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead									
 CLASS:Warpriest	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Knowledge (History)|Ride|Sense Motive|Spellcraft|Swim							DEFINE:MassCureLightTimes|0		DEFINE:FearAuraTimes|0	DEFINE:FearAuraDuration|0	DEFINE:HeroesFeastTimes|0	DEFINE:HasteTimes|0	DEFINE:MassHealTimes|0
 #															

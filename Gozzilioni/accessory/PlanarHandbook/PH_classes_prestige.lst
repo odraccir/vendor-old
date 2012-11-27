@@ -142,19 +142,19 @@ CLASS:Elemental Warrior	HD:10	TYPE:PC.Prestige	ABB:ElW	MAXLEVEL:5	SOURCEPAGE:PH	
 CLASS:Elemental Warrior	PREATT:7	PRESKILL:1,Knowledge (The Planes)=5	PRETEXT:must have traveled in at least one of the Elemental Planes.								
 CLASS:Elemental Warrior	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Knowledge (The Planes)|Ride|Swim									
 SUBCLASS:Air											
-SUBCLASSLEVEL:1			LANGAUTO:Auran	ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity			BONUS:VAR|ElectricityResistanceBonus|10				
+SUBCLASSLEVEL:1			AUTO:LANG|Auran	ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity			BONUS:VAR|ElectricityResistanceBonus|10				
 SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Elemental Manifestation ~ Air							
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Elemental Movement ~ Air							
 SUBCLASS:Earth											
-SUBCLASSLEVEL:1			LANGAUTO:Terran	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid			BONUS:VAR|AcidResistanceBonus|10				
+SUBCLASSLEVEL:1			AUTO:LANG|Terran	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid			BONUS:VAR|AcidResistanceBonus|10				
 SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Elemental Manifestation ~ Earth							
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Elemental Movement ~ Earth							
 SUBCLASS:Fire											
-SUBCLASSLEVEL:1			LANGAUTO:Ignan	ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|10				
+SUBCLASSLEVEL:1			AUTO:LANG|Ignan	ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|10				
 SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Elemental Manifestation ~ Fire							
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Elemental Movement ~ Fire							
 SUBCLASS:Water											
-SUBCLASSLEVEL:1			LANGAUTO:Aquan	ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|10				
+SUBCLASSLEVEL:1			AUTO:LANG|Aquan	ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|10				
 SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Elemental Manifestation ~ Water							
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Elemental Movement ~ Water							
 1											

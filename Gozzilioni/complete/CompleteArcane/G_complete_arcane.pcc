@@ -33,7 +33,6 @@ EQUIPMENT:CA_equip_wondrous.lst
 FEAT:CA_feats.lst
 FEAT:CA_feats_description.lst
 FEAT:CA_feats_epic.lst
-FEAT:CA_feats_hidden.lst
 KIT:CA_kits_races.lst
 KIT:CA_kits_treasure_spell_object.lst
 LANGUAGE:CA_languages.lst
@@ -42,7 +41,6 @@ SKILL:CA_skills.lst
 SPELL:CA_spells.lst
 TEMPLATE:CA_templates.lst
 TEMPLATE:CA_templates_hidden.lst
-WEAPONPROF:CA_weaponprofs.lst
 #
 HIDETYPE:FEAT|PreAppFeat
 #

@@ -8,12 +8,15 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
 
-Muspelrule	TYPE:Simple.Club.Melee.Bludgeoning.Light.MeleeBludgeoning
-Sickle (Heavy)	TYPE:Simple.Sickle.Melee.Slashing.OneHanded.MeleeSlashing
-Lancet (Gehennan)	TYPE:Martial.Dagger.Melee.Piercing.Light.MeleePiercing
-Stabaxe	TYPE:Martial.Axe.Melee.Piercing.Light.MeleePiercing
-Straightblade	TYPE:Martial.Sword.Melee.Slashing.Light.MeleeSlashing
-Ripper	TYPE:Martial.Spear.Melee.Piercing.TwoHanded.MeleeSlashing
-Jovar	TYPE:Exotic.Sword.Melee.Slashing.TwoHanded.MeleeSlashing
-Ramhammer	TYPE:Exotic.Hammer.Melee.Bludgeoning.TwoHanded.Reach.MeleeBludgeoning
-Annulat	TYPE:Melee.Exotic.Slashing.Ranged.RangedSlashing.MeleeSlashing
+Muspelrule	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Light.Club
+Sickle (Heavy)	TYPE:Simple.Melee.Slashing.MeleeSlashing.Onehanded.Sickle
+#
+Lancet (Gehennan)	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.Dagger
+Stabaxe	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.Axe
+Straightblade	TYPE:Martial.Melee.Slashing.MeleeSlashing.Light.Sword
+Ripper	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Spear
+#
+Jovar	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword
+Ramhammer	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Hammer.Reach.Polearm
+#
+Annulat	TYPE:Exotic.Ranged.Standard.Slashing.RangedSlashing.OneHanded

@@ -14,7 +14,7 @@ CLASS:Favored Soul	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL
 #												
 1	CAST:5,3	KNOWN:4,3										
 2	CAST:6,4	KNOWN:5,3										
-3	CAST:6,5	KNOWN:5,4		ADD:ABILITY|Special Ability|VIRTUAL|Fso Deity Weapon Focus								
+3	CAST:6,5	KNOWN:5,4				BONUS:ABILITYPOOL|Deity Weapon Proficiency|1						
 4	CAST:6,6,3	KNOWN:6,4,3										
 5	CAST:6,6,4	KNOWN:6,5,3					BONUS:ABILITYPOOL|Favored Soul Resistance|1					
 6	CAST:6,6,5,3	KNOWN:7,5,4,3										
@@ -23,7 +23,7 @@ CLASS:Favored Soul	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL
 9	CAST:6,6,6,6,4	KNOWN:8,6,5,4,3										
 10	CAST:6,6,6,6,5,3	KNOWN:9,6,6,5,4,3					BONUS:ABILITYPOOL|Favored Soul Resistance|1					
 11	CAST:6,6,6,6,6,4	KNOWN:9,6,6,5,4,3										
-12	CAST:6,6,6,6,6,5,3	KNOWN:9,6,6,6,5,4,3		ADD:ABILITY|Special Ability|VIRTUAL|Fso Deity Weapon Specialization			BONUS:VAR|FsoWeaponSpecQualifyLVL|CL					
+12	CAST:6,6,6,6,6,5,3	KNOWN:9,6,6,6,5,4,3				BONUS:ABILITYPOOL|Deity Weapon Proficiency|1	BONUS:VAR|WeapSpecQualify|CL					
 13	CAST:6,6,6,6,6,6,4	KNOWN:9,6,6,6,5,4,3										
 14	CAST:6,6,6,6,6,6,5,3	KNOWN:9,6,6,6,6,5,4,3										
 15	CAST:6,6,6,6,6,6,6,4	KNOWN:9,6,6,6,6,5,4,3					BONUS:ABILITYPOOL|Favored Soul Resistance|1					
@@ -34,7 +34,7 @@ CLASS:Favored Soul	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL
 20	CAST:6,6,6,6,6,6,6,6,6,6	KNOWN:9,6,6,6,6,6,6,6,5,4		ADD:ABILITY|1|Special Ability|VIRTUAL|Silver Damage Reduction,Cold Iron Damage Reduction			BONUS:ABILITYPOOL|Favored Soul Resistance|1
 #												
 CLASS:Shugenja	HD:6	TYPE:Base.PC.Oriental	ABB:Shu	MAXLEVEL:20	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
-CLASS:Shugenja	HASSUBCLASS:YES	ALLOWBASECLASS:NO	BONUS:DOMAIN|NUMBER|1									
+CLASS:Shugenja		ALLOWBASECLASS:NO	BONUS:DOMAIN|NUMBER|1									
 CLASS:Shugenja	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|TYPE.Knowledge|TYPE.Profession|Spellcraft	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO	SPELLLIST:1|Shugenja	BONUS:CASTERLEVEL|Shugenja|CL					
 #												
 SUBCLASS:Fire Shugenja	COST:1	CHOICE:DESCRIPTOR|Fire				SPELLLIST:1|Fire Shugenja						

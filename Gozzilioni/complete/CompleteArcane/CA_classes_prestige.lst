@@ -214,7 +214,7 @@ CLASS:Mindbender	HD:4	TYPE:PC.Prestige	ABB:Mnd	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:C
 CLASS:Mindbender	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:4,Bluff=4,Diplomacy=4,Intimidate=4,Sense Motive=4	PRESPELL:1,Charm Person	PRESPELLTYPE:1,Arcane=5	PRESPELLCAST:TYPE=Arcane							
 CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|TYPE.Knowledge|TYPE.Profession|Sense Motive|Spellcraft										
 #												
-1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Telepathy			BONUS:VAR|TelepathyRange|100	LANGAUTO:Telepathy				
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Telepathy			BONUS:VAR|TelepathyRange|100	AUTO:LANG|Telepathy				
 2				ABILITY:Special Ability|AUTOMATIC|Skill Boost|Mindbender Skill Boost|Push the Weak Mind|Mindbender Push the Weak Mind			BONUS:VAR|MindbenderSkillBoostLVL|CL	BONUS:VAR|MindbenderPushTheWeakMindLVL|CL				
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Mindread|Mindbender Mindread			BONUS:VAR|MindbenderMindreadLVL|CL					
 4				ABILITY:Special Ability|AUTOMATIC|Eternal Charm|Mindbender Eternal Charm			BONUS:VAR|MindbenderEternalCharmLVL|CL					

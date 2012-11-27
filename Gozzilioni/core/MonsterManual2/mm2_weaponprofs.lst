@@ -1,8 +1,13 @@
 SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 						
-# Weapon Name			Type			Nb Hands
-# EXOTIC						
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
 						
 # -- 2-handers						
-Notbora			TYPE:Exotic			
-Giantclub			TYPE:Exotic			
+Notbora	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Quarterstaff
+Giantclub	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Club

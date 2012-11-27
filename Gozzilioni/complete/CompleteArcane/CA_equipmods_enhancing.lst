@@ -33,3 +33,4 @@ Skillful	KEY:SKILLFULL_M	TYPE:Weapon.Melee	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:CA	
 #																																																																																																																																																																													
 ###Block: Spell Object																																																																																																																																																																													
 |Spell Object (Single Use/Completion)	KEY:O_1USE	NAMEOPT:SPELL	TYPE:SpellObject	COST:0	VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Consumable	SOURCEPAGE:CA	PRETYPE:1,SpellObject						CHOOSE:EQBUILDER.SPELL|ANY|0|9																																																																																																																																																															
+#

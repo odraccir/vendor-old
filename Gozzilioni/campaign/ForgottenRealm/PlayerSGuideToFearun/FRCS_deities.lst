@@ -67,7 +67,7 @@ Hathor	ALIGN:NG	DEITYWEAP:Sword (Short)	DESC:Hathor ()	DOMAINS:Family,Fate FR,Go
 Horus-Re	ALIGN:LG	DEITYWEAP:Sword (Kopesh)	DESC:Horus-Re (M)	DOMAINS:Good,Law,Nobility FR,Retribution,Sun|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Isis	ALIGN:NG	DEITYWEAP:Dagger (Punching)	DESC:Isis (F)	DOMAINS:Family,Good,Magic,Storm,Water|PREALIGN:LG,NG,TN,CG	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Nephthys	ALIGN:CG	DEITYWEAP:Whip	DESC:Nephthys (F)	DOMAINS:Chaos,Good,Protection,Trade|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Osiris	ALIGN:LG	DEITYWEAP:Flail (Light)|Flail (Heavy)	DESC:Osiris (M)	DOMAINS:Good,Law,Plant,Repose FR,Retribution|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Osiris	ALIGN:LG	DEITYWEAP:Flail|Flail (Heavy)	DESC:Osiris (M)	DOMAINS:Good,Law,Plant,Repose FR,Retribution|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Sebek	ALIGN:NE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Sebek ()	DOMAINS:Animal,Evil,Scalykind FR,Water|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Set	ALIGN:LE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Set (M)	DOMAINS:Air,Darkness FR,Evil,Hatred,Law,Magic,Scalykind FR|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Thoth	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Thoth ()	DOMAINS:Craft,Knowledge,Magic,Rune FR,Spell|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
@@ -120,7 +120,7 @@ Arvoreen	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Arvoreen ()	DOMAINS:Good,Halfling
 Brandobaris	ALIGN:TN	DEITYWEAP:Dagger	DESC:Brandobaris ()	DOMAINS:Halfling,Luck,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 Cyrrollalee	ALIGN:LG	DEITYWEAP:Quarterstaff|Club	DESC:Cyrrollalee ()	DOMAINS:Family,Good,Halfling,Law|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 Sheela Peryroyl	ALIGN:TN	DEITYWEAP:Sickle	DESC:Sheela Peryroyl ()	DOMAINS:Air,Charm FR,Halfling,Plant|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Halfling	SOURCEPAGE:FRCS	
-Urogalan	ALIGN:LN	DEITYWEAP:Flail (Double Headed)	DESC:Urogalan ()	DOMAINS:Earth,Halfling,Law,Protection,Repose FR|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Halfling	SOURCEPAGE:FRCS	
+Urogalan	ALIGN:LN	DEITYWEAP:Flail (Dire)	DESC:Urogalan ()	DOMAINS:Earth,Halfling,Law,Protection,Repose FR|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 Yondalla FR	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Yondalla (F)	DOMAINS:Family,Good,Halfling,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 #								
 Baghtru	ALIGN:CE	DEITYWEAP:Gauntlet (Spiked)	DESC:Baghtru ()	DOMAINS:Chaos,Evil,Orc,Strength FR|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	

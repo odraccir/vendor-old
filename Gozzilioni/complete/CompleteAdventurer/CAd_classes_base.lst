@@ -2,7 +2,7 @@ SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.n
 #
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	FINE	CONTIGUOUS
 # Class Name req	Requirements	FINE										
-# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)	HASSUBCLASS:	HASSUBSTITUTIONLEVEL				define class variables (DEFINE:variable|value	FINE			
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)		HASSUBSTITUTIONLEVEL				define class variables (DEFINE:variable|value	FINE			
 # Class Name 4	SPELLSTAT	SPELLTYPE:	MEMORIZE/SPELLBOOK	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Ninja	HD:6	TYPE:Base.PC.Oriental	ABB:Nin	MAXLEVEL:20	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			

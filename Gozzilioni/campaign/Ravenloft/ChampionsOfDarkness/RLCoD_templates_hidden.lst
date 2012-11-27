@@ -1,6 +1,6 @@
 SOURCELONG:Ravenloft Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net		
 								
 # Template Name	Visible							
-Fey Friend ~ Language	VISIBLE:NO	LANGAUTO:Oneiros
+Fey Friend ~ Language	VISIBLE:NO	AUTO:LANG|Oneiros
 Feral Rearing	VISIBLE:NO	RACETYPE:Animal	BONUS:SKILL|Handle Animal|4|TYPE=Racial	DEFINE:OutcastRatingBase|0	BONUS:VAR|OutcastRatingBase|1	BONUS:VAR|IllteracyLVL|1	DEFINE:IllteracyLVL|0	ABILITY:Special Ability|VIRTUAL|Illiteracy|PREVAREQ:TL,IlliteracyLVL
 # 								

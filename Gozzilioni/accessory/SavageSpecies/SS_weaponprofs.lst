@@ -8,18 +8,20 @@ SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
 #	RangedTouch	
 		
-Chain (Barbed)	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Standard.Bludgeoning.Piercing.Chain	
-Tail Blade	TYPE:Weapon.Melee.Exotic.Standard.Slashing.Sword	
-Tail Club	TYPE:Weapon.Melee.Simple.Standard.Bludgeoning.Mace	
-Chain (Lash)	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Double.Standard.Bludgeoning.Chain	
-Gythka	TYPE:Weapon.Melee.Exotic.Double.Standard.Slashing	
-Longspear (Salamander)	TYPE:Weapon.Melee.TwoHanded.Exotic.Reach.Standard.Piercing.Spear	
-#Pincerstaff	TYPE:Weapon.Melee.TwoHanded.Simple.Standard.Bludgeoning	
-Sword (Scissor)	TYPE:Weapon.Melee.Exotic.Standard.Slashing.Sword	
-Sharktooth Staff	TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Slashing.Staff	
-Chain (Snake)	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Double.Standard.Bludgeoning.Chain	
-Chuul Lasher	TYPE:Weapon.Melee.Exotic.Reach.Finesseable.Subdual.Slashing.Whip	
-Chakcha	TYPE:Weapon.Ranged.Exotic.Standard.Piercing	
-Javelin (Howler)	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Thrown.Javelin	
-Halfspear (Salamander)	TYPE:Weapon.Melee.Ranged.Thrown.Simple.Standard.Piercing.Spear	
-Shortspear (Salamander)	TYPE:Weapon.Melee.Ranged.Thrown.Simple.Standard.Piercing.Spear	
+Chain (Barbed)	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.TwoHanded.Reach.Chain
+Tail Blade	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword
+Tail Club	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Mace
+#
+Chain (Lash)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Reach.DoubleWeapon.Chain
+Gythka	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Polearm
+Longspear (Salamander)	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Reach.Spear
+#Pincerstaff	vedi CD
+Sword (Scissor)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword
+Sharktooth Staff	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Quarterstaff
+Chain (Snake)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Reach.DoubleWeapon.Chain
+Chuul Lasher	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Reach.Whip.Chuul
+#
+Chakcha	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Light
+Javelin (Howler)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Thrown.Javelin
+Halfspear (Salamander)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHanded.Spear.Salamander
+Shortspear (Salamander)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.TwoHanded.Spear.Salamander

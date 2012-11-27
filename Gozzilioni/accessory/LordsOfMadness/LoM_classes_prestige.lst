@@ -2,7 +2,7 @@ SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net
 												
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
 # Class Name req	Requirements	FINE										
-# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Savant Aboleth	HD:8	TYPE:Prestige	ABB:Svt	MAXLEVEL:5	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
@@ -100,7 +100,7 @@ CLASS:Sanctified Mind	STARTSKILLPTS:4	CSKILL:Concentration|Disguise|Gather Infor
 6	ADD:SPELLCASTER|Divine,Psionic						SR:5+CL					
 #												
 CLASS:Topaz Guardian	HD:8	TYPE:PC.Prestige	ABB:TGu	MAXLEVEL:5	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-CLASS:Topaz Guardian	PREALIGN:LG,NG,CG	PREATT:5	PREMULT:1,[PRECHECKBASE:1,Will=3],[PREABILITY:1,CATEGORY=Special Ability,Divine Grace	PRESKILL:2,Knowledge (Dungeoneering)=4,Sense Motive=4	PRESKILL:1,Spot=2	PREFEAT:1,Quick Recovery	PRETEXT:Must be sponsored by an existing member and approved by a High Sunwarden of the Order.	PREABILITY:1,CATEGORY=Guild Category,Guild Member(Topaz Order)				
+CLASS:Topaz Guardian	PREALIGN:LG,NG,CG	PREATT:5	PREMULT:1,[PRECHECKBASE:1,Will=3],[PREABILITY:1,CATEGORY=Special Ability,Divine Grace]	PRESKILL:2,Knowledge (Dungeoneering)=4,Sense Motive=4	PRESKILL:1,Spot=2	PREFEAT:1,Quick Recovery	PRETEXT:Must be sponsored by an existing member and approved by a High Sunwarden of the Order.	PREABILITY:1,CATEGORY=Guild Category,Guild Member(Topaz Order)				
 CLASS:Topaz Guardian	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intimidate|Jump|Knowledge (Dungeoneering)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spot										
 1				ABILITY:Special Ability|AUTOMATIC|Topaz Diadem			BONUS:VAR|TopazDiademBonus|(CL+1)/2			AUTO:EQUIP|Topaz Diadem		
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Smite Aberration			BONUS:VAR|SmiteAberrationDamage|2*CL	BONUS:VAR|SmiteAberration|CL/2				

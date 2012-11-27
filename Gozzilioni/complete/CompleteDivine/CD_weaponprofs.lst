@@ -14,4 +14,4 @@ SOURCELONG:Revised (v.3.5) System Reference Document	SOURCESHORT:RSRD	SOURCEWEB:
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
 
-Pincerstaff			TYPE:Simple.Melee.Quarterstaff.TwoHanded.DoubleWeapon.Bludgeoning.MeleeBludgeoning
+Pincerstaff			TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Quarterstaff.Polearm

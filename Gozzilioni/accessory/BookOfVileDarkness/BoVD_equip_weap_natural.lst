@@ -1,4 +1,4 @@
 SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																								
 																										
 # Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Kython Armor Claw (1d8)				OUTPUTNAME:Kython Armor Claw			PROFICIENCY:WEAPON|Claw			TYPE:Weapon.Natural.Melee.Piercing.Slashing				COST:0	WT:0		DAMAGE:1d8	HANDS:0								
+Kython Armor Claw (1d8)				OUTPUTNAME:Kython Armor Claw			PROFICIENCY:WEAPON|Claw			TYPE:Weapon.Natural.Melee.Standard.Piercing.Unarmed.Light.Kython.Gauntlet				COST:0	WT:0		WIELD:Light	DAMAGE:1d8	HANDS:0								

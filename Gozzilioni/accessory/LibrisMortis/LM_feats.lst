@@ -41,7 +41,7 @@ Mother Cyst	TYPE:General	VISIBLE:YES			PRECLASS:1,SPELLCASTER=1							PRESKILL:1
 Necromantic Might	TYPE:General	VISIBLE:YES				PREFEAT:1,Necromantic Presence																		DESC:See Text																	SOURCEPAGE:LM	
 Necromantic Presence	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LM	
 Necrotic Reserve	TYPE:General	VISIBLE:YES																		PRETEXT:Supernatural ability to drain or damage an ability score or drain energy				DESC:See Text																	SOURCEPAGE:LM	
-Necropotent	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Weapon Focus,Weapon Specialization																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEATLIST|Weapon Specialization														SOURCEPAGE:LM	
+Necropotent	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Weapon Focus,Weapon Specialization																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC[FEAT=Weapon Specialization]														SOURCEPAGE:LM	
 Ninble Bones	TYPE:General	VISIBLE:YES				PREFEAT:1,Corpsecrafter																		DESC:See Text																	SOURCEPAGE:LM	
 Positive Energy Resistance	TYPE:Monstrous	VISIBLE:YES																		PRERACE:1,RACETYPE=Undead				DESC:See Text																	SOURCEPAGE:LM	
 Profane Lifeleech	TYPE:Divine	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead				DESC:See Text																	SOURCEPAGE:LM	

@@ -68,7 +68,7 @@ SUBSTITUTIONLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Planar Animal Companion
 SUBSTITUTIONCLASS:Portal Intuition													
 SUBSTITUTIONLEVEL:8				ABILITY:Special Ability|AUTOMATIC|Portal Intuition									
 SUBSTITUTIONCLASS:Planar Tracking													
-SUBSTITUTIONLEVEL:13				ABILITY:Special Ability|AUTOMATIC|Planar Tracking (Sp)			BONUS:VAR|PlanarTrackingLVL|CL						
+SUBSTITUTIONLEVEL:13				ABILITY:Special Ability|AUTOMATIC|Planar Tracking (Sp)			BONUS:VAR|PlanarTrackingLVL|CL	BONUS:VAR|PlanarTrackingTimes|1					
 #													
 CLASS:Rogue.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Breach Sense													

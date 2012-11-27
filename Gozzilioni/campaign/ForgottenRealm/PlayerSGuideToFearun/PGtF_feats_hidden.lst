@@ -1,9 +1,9 @@
 SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																																				
 #
 #Improved Metamagic	TYPE:Metamagic	VISIBLE:NO	ADDSPELLLEVEL:-1																																			
-Netherese Spell Focus Epic	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:NO	PRECLASS:1,Netherese Arcanist=2	STACK:NO	MULT:YES	CHOOSE:SCHOOLS	SELECT:1	SOURCEPAGE:PGtF
-Netherese Greater Spell Focus Epic	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:NO	PRECLASS:1,Netherese Arcanist=5	STACK:NO	MULT:YES	CHOOSE:FEAT=Netherese Spell Focus Epic	SELECT:1
-Harper Skill Focus	TYPE:ClassAbility	VISIBLE:NO	STACK:NO	MULT:YES	CHOOSE:CSKILLS	SERVESAS:ABILITY=FEAT|SKILL Focus	BONUS:SKILL|TYPE.Perform|3|TYPE=Focus	BONUS:SKILL|LIST|3|TYPE=Focus
+Netherese Spell Focus Epic	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:NO	PRECLASS:1,Netherese Arcanist=2			BONUS:DC|TYPE:Epic|1		SOURCEPAGE:PGtF
+Netherese Greater Spell Focus Epic	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:NO	PRECLASS:1,Netherese Arcanist=5			BONUS:DC|TYPE.Epic|1	SOURCEPAGE:PGtF
+Harper Skill Focus	TYPE:ClassAbility	VISIBLE:NO				SERVESAS:ABILITY=FEAT|Skill Focus	BONUS:SKILL|TYPE.Perform|3|TYPE=Focus	BONUS:SKILL|Appraise,Bluff,Climb,TYPE=Craft,Diplomacy,Disguise,Escape Artist,Gather Information,Hide,Jump,TYPE=Knowledge,Listen,Move Silently,TYPE=Profession,Sense Motive,Sleight of Hand,Survival,Swim,Tumble|3|TYPE=Focus
 #																																						
 #EOF																																						
 #																																						

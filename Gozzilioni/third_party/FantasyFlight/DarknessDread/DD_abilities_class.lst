@@ -8,7 +8,7 @@ Orator Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUT
 																																																																						
 Engineer Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Handaxe|Warhammer																																																																		
 Gambler Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Rapier																																																																		
-Ministrel Weapon Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|%LIST	MULT:YES	STACK:NO	CHOOSE:PROFICIENCY|WEAPON|UNIQUE|TYPE=Martial	SELECT:2																																																														
+Ministrel Weapon Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	BONUS:ABILITYPOOL|Ministrel Martial Weapon Proficiency|2
 Sage Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Dagger																																																																		
 Sewerjack Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Hammer (Light)|Handaxe|Pick (Light)|Battleaxe|Pick (Heavy)|Warhammer|Greataxe																																																																		
 Thief Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Light)|Rapier|Shortbow|Sword (Short)																																																																		

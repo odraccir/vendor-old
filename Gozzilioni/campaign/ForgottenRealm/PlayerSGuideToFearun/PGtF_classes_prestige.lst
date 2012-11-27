@@ -2,7 +2,7 @@ SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzil
 #													
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
 # Class Name req	Requirements	FINE											
-# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
 CLASS:Arcane Devotee	HD:4	TYPE:Prestige	ABB:Dev	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
@@ -13,7 +13,7 @@ CLASS:Arcane Devotee	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Sc
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Sacred Defense|Arcane Devotee Sacred Defense			BONUS:VAR|ArcaneDevoteeSacredDefenseLVL|CL						
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Divine Synergy									
 4	ADD:SPELLCASTER|Arcane												
-5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Divine Shroud (Sp)			BONUS:VAR|DivineShroudLVL|CL						
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Divine Shroud (Sp)			BONUS:VAR|DivineShroudLVL|CL	BONUS:VAR|DivineShroudTimes|1					
 #													
 CLASS:Divine Champion	HD:10	TYPE:Prestige	ABB:Chm	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Divine Champion	PREATT:7	PRESKILL:1,Knowledge (Religion)=3	PREFEAT:1,Weapon Focus	PRETEXT:Weapon focus in deity's favored weapon	PREDEITY:1,Y								
@@ -44,7 +44,7 @@ CLASS:Divine Seeker	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Hide|Jump|
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Sacred Stealth|Twart Magic Trap									
 2				ABILITY:Special Ability|AUTOMATIC|Sacred Defense|Divine Seeker Sacred Defense|Sneak Attack|Divine Seeker Sneak Attack			BONUS:VAR|DivineSeekerSacredDefenseLVL|CL	BONUS:VAR|DivineSeekerSneakAttackLVL|CL	BONUS:VAR|DivineSeekerUncannyDodgeLVL|CL				
-3				ABILITY:Special Ability|AUTOMATIC|Locate Creature (Sp)|Locate Object (Sp)			BONUS:VAR|LocateCreatureLVL|CL+CHA	BONUS:VAR|LocateObjectLVL|CL+CHA					
+3				ABILITY:Special Ability|AUTOMATIC|Locate Creature (Sp)|Locate Object (Sp)			BONUS:VAR|LocateCreatureLVL|CL+CHA	BONUS:VAR|LocateCreatureTimes|1	BONUS:VAR|LocateObjectLVL|CL+CHA	BONUS:VAR|LocateObjectTimes|1				
 4				ABILITY:Special Ability|AUTOMATIC|Divine Perseverance									
 5				ABILITY:Special Ability|AUTOMATIC|Find the Path (Sp)			BONUS:VAR|FindThePathLVL|CL+CHA	BONUS:VAR|FindThePathPerDay|1					
 #													
@@ -100,7 +100,7 @@ CLASS:Ex-Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Hammer Throw									
 2													
-3				ABILITY:Special Ability|AUTOMATIC|Hammer Moradin Damage Reduction|Powerful Grip			BONUS:VAR|HammerMoradinDRLVL|CL						
+3				ABILITY:Special Ability|AUTOMATIC|Hammer Moradin Damage Reduction|Powerful Grip ~ Warhammer			BONUS:VAR|HammerMoradinDRLVL|CL						
 4				ABILITY:Special Ability|AUTOMATIC|Far Shot (warhammer)									
 5													
 6													
@@ -163,7 +163,7 @@ CLASS:Ex-Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|TYPE.
 9	ADD:SPELLCASTER|ANY												
 10	ADD:SPELLCASTER|ANY												
 #													
-CLASS:Incantatrix	HD:4	TYPE:Prestige	ABB:Inc	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	HASSUBCLASS:YES		ALLOWBASECLASS:NO	
+CLASS:Incantatrix	HD:4	TYPE:Prestige	ABB:Inc	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			ALLOWBASECLASS:NO	
 CLASS:Incantatrix	PRESKILL:1,Concentration=4	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PREFEAT:1,Iron Will	PREFEAT:1,TYPE=Metamagic	PRESPELLTYPE:1,Arcane=3	PRETEXT:Cannot have Abjuration as a prohibited school.							
 CLASS:Incantatrix	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft											
 SUBCLASS:Incantatrix ~ Abjurer	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Abjuration										
@@ -265,7 +265,7 @@ CLASS:Morninglord of Lathander	PREALIGN:LG,NG,CG	PRESKILL:1,TYPE.Craft=4	PRESKIL
 CLASS:Morninglord of Lathander	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Perform|Spellcraft											
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Bane of the Restless|Morninglord Turn Undead|Lathander's Light			BONUS:VAR|MorninglordTurnUndeadLVL|CL						
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Creative Fire|Morninglord Creative Fire			BONUS:VAR|MorninglordCreativeFireLVL|CL						
-3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Daylight (Sp)			BONUS:VAR|DaylightLVL|CL						
+3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Daylight (Sp)			BONUS:VAR|DaylightLVL|CL	BONUS:VAR|DaylightPerDay|1					
 4	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Searing Light (Sp)			BONUS:VAR|SearingLightLVL|CL	BONUS:VAR|SearingLightPerDay|1					
 5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Basic Greater Turning|Morninglord Greater Turning			BONUS:ABILITYPOOL|Greater Turn Undead|1|TYPE=ClassAbility	BONUS:VAR|MorninglordGreaterTurnUndeadLVL|CL					
 6	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Blessing of Dawn									
@@ -320,7 +320,7 @@ CLASS:Shadow Adept	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguis
 4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Shield of Shadows|Shadow Adept Shield of Shadows			BONUS:VAR|ShadowAdeptShieldOfShadowLVL|CL						
 5	ADD:SPELLCASTER|ANY												
 6	ADD:SPELLCASTER|ANY												
-7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Shadow Walk (Sp) PGtF			BONUS:VAR|ShadowWalkLVL|CL						VISION:Darkvision (60')
+7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Shadow Walk (Sp)			BONUS:VAR|ShadowWalkLVL|CL	BONUS:VAR|ShadowWalkTimes|1					VISION:Darkvision (60')
 8	ADD:SPELLCASTER|ANY												
 9	ADD:SPELLCASTER|ANY												
 10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Shadow Double									
@@ -345,7 +345,7 @@ CLASS:Spellguard of Silverymoon	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|
 2	ADD:SPELLCASTER|Arcane						BONUS:ABILITYPOOL|Spellguard Feat|CL/2						
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Selective Spell									
 4	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Spellguard									
-5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Spell Power	ADD:ABILITY|Special Ability|VIRTUAL|Spellguard Spell Power								
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Spell Power	BONUS:VAR|SpellPower|1
 #													
 CLASS:Ex-Spellguard of Silverymoon	HD:4	TYPE:Prestige	ABB:XSpl	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	VISIBLE:NO			
 CLASS:Ex-Spellguard of Silverymoon	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft|Spot											
@@ -353,7 +353,7 @@ CLASS:Ex-Spellguard of Silverymoon	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Cra
 2	ADD:SPELLCASTER|Arcane						BONUS:ABILITYPOOL|Spellguard Feat|CL/2						
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Selective Spell									
 4	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Spellguard									
-5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Spell Power	ADD:ABILITY|Special Ability|VIRTUAL|Spellguard Spell Power								
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Spell Power	BONUS:VAR|Spell Power|1
 #													
 CLASS:Zhentarim Spy	HD:6	TYPE:Prestige	ABB:Zsp	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Zhentarim Spy	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:4,Bluff=5,Disguise=5,Forgery=5,Gather Information=5	PREFEAT:1,Deceitful									

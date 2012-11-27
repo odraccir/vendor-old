@@ -44,20 +44,20 @@ CLASS:Warmage	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEV
 #												
 1	CAST:5,3			ABILITY:Special Ability|AUTOMATIC|Armored Mage|Edge|Warmage Edge			BONUS:VAR|ArmoredMagePower|1	BONUS:VAR|WarmageEdgeLVL|CL				
 2	CAST:6,4											
-3	CAST:6,5			ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Warmage								
+3	CAST:6,5					BONUS:ABILITYPOOL|Advanced Learning|(CL+4)/5
 4	CAST:6,6,3											
 5	CAST:6,6,4											
-6	CAST:6,6,5,3			ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Warmage								
+6	CAST:6,6,5,3											
 7	CAST:6,6,6,4						BONUS:ABILITYPOOL|Warmage Sudden Ability|1					
 8	CAST:6,6,6,5,3	AUTO:FEAT|Armor Proficiency (Medium)					BONUS:VAR|ArmoredMagePower|1					
 9	CAST:6,6,6,6,4											
 10	CAST:6,6,6,6,5,3						BONUS:ABILITYPOOL|Warmage Sudden Ability|1					
-11	CAST:6,6,6,6,6,4			ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Warmage								
+11	CAST:6,6,6,6,6,4											
 12	CAST:6,6,6,6,6,5,3											
 13	CAST:6,6,6,6,6,6,4											
 14	CAST:6,6,6,6,6,6,5,3											
 15	CAST:6,6,6,6,6,6,6,4						BONUS:ABILITYPOOL|Warmage Sudden Ability|1					
-16	CAST:6,6,6,6,6,6,6,5,3			ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Warmage								
+16	CAST:6,6,6,6,6,6,6,5,3											
 17	CAST:6,6,6,6,6,6,6,6,4											
 18	CAST:6,6,6,6,6,6,6,6,5,3											
 19	CAST:6,6,6,6,6,6,6,6,6,4											

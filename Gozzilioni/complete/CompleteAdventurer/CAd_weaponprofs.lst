@@ -1,8 +1,14 @@
 SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net
-		
-# Weapon Name	Type	Nb Hands
-Dagger (Barbed)	TYPE:Simple.Melee.Ranged.Dagger.Piercing.Slashing.MeleeSlashing.MeleePiercing.RangedPiercing.RangedSlashing	
-Sword (Short/Broadblade)	TYPE:Martial.Melee.Piercing.MeleePiercing.Sword	
-Rapier (Quickblade)	TYPE:Martial.Melee.Piercing.MeleePiercing.Sword	
-Longaxe	TYPE:Martial.Melee.Slashing.MeleeSlashing.Axe.TwoHanded	
-Longstaff	TYPE:Simple.Melee.Quarterstaff.TwoHanded.DoubleWeapon.Bludgeoning.MeleeBludgeoning	
+
+#Weapon Groupings used to facilitate homebrews:
+#	Sword, Spear, Axe, Bow, Unarmed
+#	Melee, Ranged, Thrown, Spell
+#	Bludgeoning, Slashing, Piercing
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
+#	RangedTouch
+Dagger (Barbed)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Dagger
+Sword (Short/Broadblade)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Sword
+Rapier (Quickblade)	TYPE:Exotic.Melee.Piercing.MeleePiercing.OneHanded.Sword
+Longaxe	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Polearm.Axe
+Longstaff	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.DoubleWeapon.Quarterstaff

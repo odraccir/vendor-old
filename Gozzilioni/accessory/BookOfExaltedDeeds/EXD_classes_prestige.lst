@@ -408,7 +408,7 @@ CLASS:Vassal of Bahamut	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:L
 1		AUTO:FEAT|Shield Proficiency									
 #											
 1	CAST:0			ABILITY:Special Ability|AUTOMATIC|Imperious Aura|Vassal of Bahamut Imperious Aura			BONUS:VAR|VassalOfBahamutImperiousAuraLVL|CL				
-2	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Shared Trove		VISION:Keen Senses|Darkvision (120')					
+2	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Shared Trove		VISION:Darkvision (120')|Keen Senses
 3	CAST:0,1,0						BONUS:ABILITYPOOL|Vassal of Bahamut Feat|CL/3				
 4	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Dragonwrack|Vassal of Bahamut Dragonwrack							
 5	CAST:0,1,1,0			ABILITY:Special Ability|AUTOMATIC|Shared Trove							

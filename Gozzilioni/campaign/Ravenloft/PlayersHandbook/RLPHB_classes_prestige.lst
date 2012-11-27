@@ -2,7 +2,7 @@ SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.go
 #												
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
 # Class Name req	Requirements	FINE										
-# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Monster Hunter	HD:6	TYPE:Prestige	ABB:Mhr	MAXLEVEL:5	SOURCEPAGE:RLPHB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
@@ -21,7 +21,7 @@ CLASS:Monster Hunter	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERL
 #												
 CLASS:Specialty Hunter	HD:6	TYPE:Prestige		MAXLEVEL:5	SOURCEPAGE:RLPHB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Specialty Hunter	PRESKILL:2,Intimidate=10,Sense Motive=10	PRESKILL:1,Knowledge (The Planes)=5	PRECLASS:1,Monster Hunter=3	PRETEXT:10 ranks in a relevant Knowledge for the chosen monster type								
-CLASS:Specialty Hunter	STARTSKILLPTS:4	CSKILL:Concentration|Craft (Alchemy)|Decipher Script|Gather Information|Hide|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Local)|Knowledge (Nature)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spot|Survival								HASSUBCLASS:YES		ALLOWBASECLASS:NO
+CLASS:Specialty Hunter	STARTSKILLPTS:4	CSKILL:Concentration|Craft (Alchemy)|Decipher Script|Gather Information|Hide|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Local)|Knowledge (Nature)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spot|Survival										ALLOWBASECLASS:NO
 CLASS:Specialty Hunter	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Monster Hunter|CL	SPELLLIST:1|Monster Hunter						
 SUBCLASS:Specialty Hunter ~ Beast Hunter	ABB:Bhr											
 SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Lycanthrope Resistant			BONUS:VAR|LycanthropeResistantBonus|CL					

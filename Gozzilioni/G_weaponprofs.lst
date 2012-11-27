@@ -13,7 +13,7 @@ Waraxe (Dwarven).MOD	TYPE:Dwarven
 Whip.MOD	TYPE:Whip						
 #							
 Blowgun	TYPE:Simple						
-Firearms	TYPE:Exotic.Slashing.MeleeSlashing.Sword.TwoHanded						
+Firearms	TYPE:Exotic.Piercing.MeleePiercing.Firearm.OneHanded						
 Kusari-Gama	TYPE:Exotic.Melee.Piercing.MeleePiercing.Reach.TwoHanded						
 Sword (Wakizashi)	TYPE:Martial.Melee.Piercing.MeleePiercing.Sword						
 Sword (Katana)	TYPE:Martial.Exotic.Melee.Slashing.MeleeSlashing.Sword.TwoHanded						

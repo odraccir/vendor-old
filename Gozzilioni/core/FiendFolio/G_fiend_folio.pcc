@@ -22,6 +22,7 @@ EQUIPMENT:FFo_equip.lst
 EQUIPMENT:FFo_equip_armorshields_specific.lst
 EQUIPMENT:FFo_equip_poisons.lst
 EQUIPMENT:FFo_equip_potions.lst
+EQUIPMENT:FFo_equip_weap_melee.lst
 EQUIPMENT:FFo_equip_weap_melee_specific.lst
 EQUIPMENT:FFo_equip_weap_ranged_specific.lst
 EQUIPMENT:FFo_equip_wondrous.lst

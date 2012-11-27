@@ -2,7 +2,7 @@ SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net/
 																				
 ###Block:Familiar																				
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type					
-FOLLOWER:CFLevel=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link|Celestial Famialir ~ Celestial	ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CFLevel=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Celestial Famialir ~ Celestial|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Improved Evasion|Share Spells	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
 FOLLOWER:CFLevel=3	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells						DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CFLevel=5	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master						DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CFLevel=7	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind						DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								

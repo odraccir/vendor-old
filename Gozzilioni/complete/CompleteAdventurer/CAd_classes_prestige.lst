@@ -2,7 +2,7 @@ SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.n
 #												
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
 # Class Name req	Requirements	FINE										
-# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Animal Lord	HD:10	TYPE:Prestige	ABB:Anl	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
@@ -92,7 +92,7 @@ CLASS:Bloodhound	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Diplomacy|Disguise|Gather In
 4				ABILITY:Special Ability|AUTOMATIC|Hunter's Dedication								
 5				ABILITY:Special Ability|AUTOMATIC|Move Like the Wind|Crippling Strike|Track the Trackless								
 6				ABILITY:Special Ability|AUTOMATIC|See Invisibility|Shield Mind|Bloodhound Shield Mind			BONUS:VAR|ShieldMindLVL|CL					
-7				ABILITY:Special Ability|AUTOMATIC|Locate Creature (Sp)			BONUS:VAR|LocateCreatureLVL|CL					
+7				ABILITY:Special Ability|AUTOMATIC|Locate Creature (Sp)			BONUS:VAR|LocateCreatureLVL|CL	BONUS:VAR|LocateCreatureTimes|1				
 8				ABILITY:Special Ability|AUTOMATIC|Freedom of Movement (Su/rounds)								
 9				ABILITY:Special Ability|AUTOMATIC|Scent								
 10				ABILITY:Special Ability|AUTOMATIC|Find the Path (Sp)			BONUS:VAR|FindThePathPerDay|2	BONUS:VAR|FindThePathLVL|CL				
@@ -138,7 +138,7 @@ CLASS:Dread Pirate	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craf
 5												
 6												
 7												
-8				ABILITY:Special Ability|AUTOMATIC|Dread Pirate Skill Mastery								
+8							BONUS:ABILITYPOOL|Skill Mastery|4									
 9												
 10				ABILITY:Special Ability|AUTOMATIC|Pirate King								
 #												
@@ -147,7 +147,7 @@ CLASS:Dungeon Delver	PRESKILL:4,Climb=10,Disable Device=10,Open Lock=10,Search=1
 CLASS:Dungeon Delver	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Disable Device|Hide|Jump|Knowledge (Dungeoneering)|Listen|Move Silently|Open Lock|Search|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope										
 1				ABILITY:Special Ability|AUTOMATIC|Dungeon Delver Darkvision|Deep Survival|Dungeon Delver Deep Survival|Trap Sense Ability			BONUS:VAR|DungeonDelverDeepSurvivalLVL|CL	BONUS:VAR|TrapSense|(CL+2)/3				
 2				ABILITY:Special Ability|AUTOMATIC|Stonecunning|Reduce (Sp)						SPELLS:Reduce|TIMES=3|CASTERLEVEL=classlevel("Dungeon Delver")|Reduce Person		
-3				ABILITY:Special Ability|AUTOMATIC|Augury (Sp)	ADD:ABILITY|Special Ability|VIRTUAL|Skill Mastery		BONUS:VAR|AuguryTimes|CL/3	BONUS:VAR|AuguryLVL|CL				
+3				ABILITY:Special Ability|AUTOMATIC|Augury (Sp)			BONUS:ABILITYPOOL|Skill Mastery|3+INT	BONUS:VAR|AuguryTimes|CL/3	BONUS:VAR|AuguryLVL|CL				
 4				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite|PREEQUIP:1,TYPE=Medium,TYPE=Heavy					
 5				ABILITY:Special Ability|AUTOMATIC|Blindsense (Ex)|Dungeon Delver Blindsense			BONUS:VAR|DungeonDelverBlindsenseLVL|CL					
 6				ABILITY:Special Ability|AUTOMATIC|Passwall (Sp)			BONUS:VAR|PasswallTimes|1	BONUS:VAR|PasswallLVL|CL				
@@ -275,7 +275,7 @@ CLASS:Nightsong Infiltrator	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|
 3				ABILITY:Special Ability|AUTOMATIC|Break Away|Trackless Step								
 4				ABILITY:Special Ability|AUTOMATIC|Detect Magic (Sp at will)|Sneak Attack|Nightsong Infiltrator Sneak Attack|Teamwork ~ sneak attack			BONUS:VAR|DetectMagicWillLVL|CL	BONUS:VAR|NightsongInfiltratorSneakAttackLVL|CL				
 5				ABILITY:Special Ability|AUTOMATIC|Defensive Roll|Grant Move Action|Nightsong Infiltrator Grant Move Action			BONUS:VAR|NightsongInfiltratorGrantMoveActionLVL|CL					
-6				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion|Specialized Tool	ADD:ABILITY|Special Ability|VIRTUAL|Nightsong Infiltrator Skill Mastery		BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1					
+6				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion|Specialized Tool			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1	BONUS:ABILITYPOOL|Skill Mastery|4				
 7				ABILITY:Special Ability|AUTOMATIC|Teamwork ~ trackless step|Nightsong Infiltrator Trackless Step			BONUS:VAR|NightsongInfiltratorTracklessStepLVL|CL					
 8												
 9												
@@ -391,7 +391,7 @@ CLASS:Thief Acrobat	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Dis
 1				ABILITY:Special Ability|AUTOMATIC|Fast Acrobatics|Kip Up|Steady Stance								
 2				ABILITY:Special Ability|AUTOMATIC|Agile Fighting|Thief Acrobat Agile Fighting|Slow Fall|Thief Acrobat Slow Fall			BONUS:VAR|ThiefAcrobatAgileFightingLVL|CL	BONUS:VAR|ThiefAcrobatSlowFallLVL|CL				
 3				ABILITY:Special Ability|AUTOMATIC|Acrobatic Charge|Defensive Roll|Thief Acrobat Defensive Roll			BONUS:VAR|ThiefAcrobatDefensiveRollLVL|CL					
-4				ABILITY:Special Ability|AUTOMATIC|Thief Acrobat Skill Mastery								
+4							BONUS:ABILITYPOOL|Skill Mastery|4					
 5				ABILITY:Special Ability|AUTOMATIC|Improved Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1					
 #												
 CLASS:Vigilante	HD:8	TYPE:Prestige	ABB:Vig	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			

@@ -2,10 +2,10 @@ SOURCELONG:Nephandum	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net
 																																											
 # BASICS																																											
 # Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page		
-Sanguinary Weapon	TYPE:General.Fighter					PREFEAT:1,Weapon Focus																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Weapon Focus														SOURCEPAGE:Nep		
+Sanguinary Weapon	TYPE:General.Fighter					PREFEAT:1,Weapon Focus																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|FEAT=Weapon Focus	SELECT:1													SOURCEPAGE:Nep		
 Decaying Attack	TYPE:General					PREABILITY:1,CATEGORY=Special Ability,Sneak Attack	PREABILITY:1,CATEGORY=Special Ability,Crippling Strike																	DESC:See Text																	SOURCEPAGE:Nep		
 Champion of Death	TYPE:General			PREATT:5																PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:Nep		
-Lethal Critical	TYPE:General.Fighter					PREFEAT:2,Greater Weapon Specialization,Improved Critical																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:FEAT=Weapon Specialization														SOURCEPAGE:Nep		
+Lethal Critical	TYPE:General.Fighter					PREFEAT:2,Greater Weapon Specialization,Improved Critical																		DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|FEAT=Weapon Specialization	SELECT:1													SOURCEPAGE:Nep		
 Improved Demoralization	TYPE:General.Fighter			PREATT:1								PRESKILL:1,Intimidate=4			PRESTAT:1,CHA=13									DESC:See Text																	SOURCEPAGE:Nep		
 Superior Demoralization	TYPE:General.Fighter			PREATT:3		PREFEAT:1,Improved Demoralization																		DESC:See Text																	SOURCEPAGE:Nep		
 Terror Devourer	TYPE:General											PRESKILL:1,Sense Motive=6								PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:Nep		

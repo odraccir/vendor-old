@@ -8,4 +8,4 @@ SOURCELONG:Nephandum Campaign Setting	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzi
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
 
-Gauntlet (Bladed)	TYPE:Simple.Melee.Unarmed.Bludgeoning
+Gauntlet (Bladed)	TYPE:Simple.Melee.Piercing.MeleePiercing.Light.Unarmed.Gauntlet

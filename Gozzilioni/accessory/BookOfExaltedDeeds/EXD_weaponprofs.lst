@@ -7,8 +7,8 @@ SOURCELONG:Boook of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilion
 #	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning
 #	RangedTouch
+Turcheon	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Sap
+Entangling Pole	TYPE:Exotic.Melee.Piercing.MeleePiercing.Reach.TwoHanded.Polearm
+Grasping Pole	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Subdual.Polearm
 
-Entangling Pole	TYPE:Weapon.Melee.TwoHanded.Reach.Standard.Piercing.Polearm
-Grasping Pole	TYPE:Weapon.Melee.TwoHanded.Reach.Subdual.Standard.Bludgeoning.Polearm
-Turcheon	TYPE:Weapon.Melee.Finesseable.Martial.Subdual.Standard.Bludgeoning.Sap
-Lasso	TYPE:Weapon.Ranged.Exotic.Standard
+Lasso	TYPE::Exotic.Ranged.OneHanded.Subdual

@@ -179,7 +179,7 @@ STARTPACK:DamaraA2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Chondathan
 GEAR:Battleaxe		EQMOD:MWORKW		
 #				
 STARTPACK:DamaraB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Damaran, Chondathan
-GEAR:Scroll (Cure Moderate Wounds)	QTY:2			
+GEAR:Scroll (Cure Moderate Wounds/Divine)	QTY:2			
 #				
 REGION:Dambrath				
 STARTPACK:DambrathA1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Illuskan, Shaaran
@@ -413,7 +413,7 @@ STARTPACK:MulhorandO2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Earth, T
 GEAR:Sword (Kopesh)		EQMOD:MWORKW		
 #				
 STARTPACK:MulhorandP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Earth, Tiefling
-GEAR:Scroll (Lesser Restoration)				
+GEAR:Scroll (Restoration/Lesser)				
 GEAR:Scroll (Spiritual Weapon)				
 #				
 REGION:Narfell				
@@ -613,7 +613,7 @@ GEAR:Scroll	QTY:7
 #				
 STARTPACK:ThayO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Any, Tiefling
 GEAR:Scroll (Invisibility)				
-GEAR:Scroll (Scorcing Ray)				
+GEAR:Scroll (Scorching Ray)				
 #				
 STARTPACK:ThayP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Any, Tiefling
 GEAR:Breastplate		EQMOD:MWORKA		
@@ -818,7 +818,7 @@ GEAR:Chainmail		EQMOD:MWORKA
 #				
 REGION:Great Rift				
 STARTPACK:GreatRiftC1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Chondathan, Mulan, Rashemi
-GEAR:Scroll (Bull's Strength)				
+GEAR:Scroll (Bull's Strength/Arcane)				
 GEAR:Thunderstone	QTY:5			
 #				
 STARTPACK:GreatRiftD1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Dwarf Gold
@@ -911,7 +911,7 @@ GEAR:Chainmail		EQMOD:MWORKA
 REGION:Chondalwood				
 STARTPACK:ChondalwoodE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wild
 GEAR:Hide		EQMOD:MWORKA		
-GEAR:Potion (Elixir of Sneaking)				
+GEAR:Elixir of Sneaking
 #				
 STARTPACK:ChondalwoodF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Wild
 GEAR:Shortspear		EQMOD:MWORKW		
@@ -950,7 +950,7 @@ GEAR:Scroll (Tree Shape)
 REGION:Evereska				
 STARTPACK:EvereskaE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
 GEAR:Chainmail		EQMOD:MWORKA		
-GEAR:Arrow (20)	QTY:20			
+GEAR:Arrows (20)	QTY:20			
 #				
 STARTPACK:EvereskaF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Moon, Sun
 GEAR:Wand		EQMOD:SPL_CHRG|SPELLNAME[Color Spray]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[20]		
@@ -993,7 +993,7 @@ STARTPACK:InnerSeaE2	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Aquatic
 GEAR:Longspear		EQMOD:MWORKW		
 #				
 STARTPACK:InnerSeaF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Aquatic
-GEAR:Longbow (Aquatic)		EQMOD:MWORKW		
+GEAR:Longbow (Aquatic)		EQMOD:MWORKW
 #				
 REGION:Underdark (Menzoberranyr)				
 STARTPACK:MenzoberranyrE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Drow
@@ -1035,7 +1035,7 @@ GEAR:Potion (Cure Light Wounds)
 REGION:Yuirwood				
 STARTPACK:YuirwoodE1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star, Wood
 GEAR:Studded Leather		EQMOD:MWORKA		
-GEAR:Arrow (20)		EQMOD:MWORKW		
+GEAR:Arrows (20)		EQMOD:MWORKW		
 #				
 STARTPACK:YuirwoodF1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Elf Star, Wood
 GEAR:Scroll (Barkskin)				

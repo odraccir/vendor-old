@@ -1,0 +1,5 @@
+SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net						
+								
+#name	SOURCEPAGE:PH	SPELLLEVEL:	DESC:	ABILITY:
+Mist	SOURCEPAGE:RLPHB	SPELLLEVEL:DOMAIN|Mist=1|Obscuring Mist|Mist=2|Fog cloud|Mist=3|Gaseus Form|Mist=4|Solid Fog|Mist=5|Mind Fog|Mist=6|Wind Walk|Mist=7|Teleport (Greater)|Mist=8|Vanish|Mist=9|Imprisonment	DESC:Once per day, you may call on Shield of Ezra.	ABILITY:Special Ability|AUTOMATIC|Shield of Ezra	BONUS:VAR|ShieldOfEzraPerDay|1
+Repose	SOURCEPAGE:RLPHB	SPELLLEVEL:DOMAIN|Repose=1|Detect Undead|Repose=2|Gentle Repose|Repose=3|Speak with Dead|Repose=4|Halt Udead|Repose=5|Raise Dead|Repose=6|Antilife Shell|Repose=7|Resurrection|Repose=8|Control Undead|Repose=9|Soul Bind	DESC:Once per day, you can grant Final Rest.	ABILITY:Special Ability|AUTOMATIC|Final Rest (Sp)	BONUS:VAR|FinalRestPerDay|1	BONUS:VAR|FinalRestLVL|TL

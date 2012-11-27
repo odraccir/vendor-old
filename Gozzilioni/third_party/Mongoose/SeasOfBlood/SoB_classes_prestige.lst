@@ -2,7 +2,7 @@ SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net
 #
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
 # Class Name req	Requirements	FINE										
-# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE	HASSUBCLASS	HASSUBSTITUTIONLEVEL	
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	
 # Class Name spell cast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
 ###COMMENT:CLASS:Buccaneer	Innuendo per Sense Motive
@@ -55,4 +55,4 @@ CLASS:Navigator Wizard	STARTSKILLPTS:4	CSKILL:Concentration|Decipher Script|Gath
 7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Weather Predict								
 8	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Ride the Wind								
 9	ADD:SPELLCASTER|ANY											
-10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Control Winds
+10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Control Winds				BONUS:VAR|ControlWindsLVL|CL	BONUS:VAR|ControlWindsTimes|1
