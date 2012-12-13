@@ -3,4 +3,4 @@ SOURCELONG:Nephandum Campaign Setting	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzi
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property								
 #Ghost Bow	COST:16375																		
 																			
-Ghost Bow		PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow	COST:75	WT:3	CONTAINS:1|Arrow=1	EQMOD:WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:Nep	BONUS:WEAPON|DAMAGE|min(STR,0)	VISION:Darkvision (60')	CRITMULT:x3	CRITRANGE:1	DAMAGE:1d8	WIELD:TwoHanded	SIZE:M		RANGE:100	SPROP:1/day ghost arrow with +20 bonus to hit that ignore concealment.
+Ghost Bow		PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.TwoHanded.Container.Projectile.Bow.Longbow	COST:75	WT:3	CONTAINS:1|Arrow=1	EQMOD:WOOD.MWORKW.PLUS1W	MODS:NO	SOURCEPAGE:Nep	BONUS:WEAPON|DAMAGE|min(STR,0)	VISION:Darkvision (60')	CRITMULT:x3	CRITRANGE:1	DAMAGE:1d8	WIELD:TwoHanded	SIZE:M		RANGE:100	SPROP:1/day ghost arrow with +20 bonus to hit that ignore concealment.

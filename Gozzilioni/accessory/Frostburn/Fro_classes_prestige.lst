@@ -36,7 +36,7 @@ CLASS:Disciple of Thrym	HD:10	TYPE:PC.Prestige.Frostfell	ABB:DiT	MAXLEVEL:10	SOU
 CLASS:Disciple of Thrym	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Intimidate=4	PRESKILL:1,Survival=8	PREATT:4	PREFEAT:1,Weapon Focus(Greataxe)	PREMULT:1,[PREFEAT:1,Cold Endurance],[PRERACE:1,RACESUBTYPE=Cold]					
 CLASS:Disciple of Thrym	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Survival									
 CLASS:Disciple of Thrym	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4							
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
 1	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
 #											

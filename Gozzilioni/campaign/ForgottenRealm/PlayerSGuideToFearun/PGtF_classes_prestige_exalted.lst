@@ -38,7 +38,7 @@ CLASS:Celebrant of Sharess	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CAS
 7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2		ABILITY:Special Ability|AUTOMATIC|Sanctuary (Sp)									
 8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3		ABILITY:Special Ability|AUTOMATIC|Swiftness of the Tigress|Celebrant of Sharess Swiftness of the Tigress			BONUS:VAR|CelebrantOfSharessSwiftnessOfTheTigressLVL|CL						
 9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3											
-10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4		ABILITY:Special Ability|AUTOMATIC|Inspire Desire (Sp)									
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4		ABILITY:Special Ability|AUTOMATIC|Inspire Desire (Su)									
 #													
 CLASS:Harper Paragon	HD:10	TYPE:Prestige	ABB:Hap	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Harper Paragon	PRESKILL:1,Diplomacy=8	PRESKILL:1,TYPE.Perform=5	PRESKILL:1,Sense Motive=4	PRESKILL:1,Survival=2	PREFEAT:2,Sacred Vow,Vow of Obedience	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy (Humanoid (Goblinoid)),Favored Enemy (Humanoid (Gnoll)),Favored Enemy (Humanoid (Orc)),Favored Enemy (Humanoid (Reptilian)),Favored Enemy (Outsider (Evil)),Favored Enemy (Undead),Favored Enemy (Church of Bane),Favored Enemy (Cult of the Dragon),Favored Enemy (Iron Throne),Favored Enemy (Malaugryms),Favored Enemy (Red Wizards),Favored Enemy (Zhentarim)							

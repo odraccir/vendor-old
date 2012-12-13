@@ -4,4 +4,4 @@ SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net
 #																					
 																					
 # Equipment Name	Output Name		Type	Cost	Weight	Base Quantity															
-Bow of Winterwood		PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow.Composite.Relic	COST:100	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS4W.BOWSTR|STR.BANE_M_DR|Humanoids (Drow elf)				RANGE:110	CONTAINS:1|Arrow=1	SOURCEPAGE:CD	MODS:NO	PREDEITY:1,Corellon Larethian	ABILITY:Special Ability|VIRTUAL|Bow of Winterwood Ability
+Bow of Winterwood		PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Relic.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS4W.BOWSTR|STR.BANE_M_DR|Humanoids (Drow elf)				RANGE:110	CONTAINS:1|Arrow=1	SOURCEPAGE:CD	MODS:NO	PREDEITY:1,Corellon Larethian	ABILITY:Special Ability|VIRTUAL|Bow of Winterwood Ability

@@ -7,7 +7,7 @@ SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
 CLASS:Hexblade	HD:10	TYPE:Base.PC	ABB:Hex	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Hexblade	
 CLASS:Hexblade	PREALIGN:LN,LE,TN,NE,CN,CE										
 CLASS:Hexblade	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (Arcana)|TYPE.Profession|Ride|Spellcraft	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Hexblade|CL/2|PRECLASS:1,Hexblade=4				
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Hexblade's Curse|Hexblade's Curse Level			BONUS:VAR|HexbladeCurseLevel|CL				
@@ -33,14 +33,14 @@ CLASS:Hexblade	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|I
 #											
 CLASS:Ex Hexblade	HD:10	TYPE:Base.PC	ABB:XHex		SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO	
 CLASS:Ex Hexblade	STARTSKILLPTS:2										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 3				ABILITY:Special Ability|AUTOMATIC|Mettle (Ex)							
 #											
 CLASS:Samurai	HD:10	TYPE:Base.PC.Oriental	ABB:Sam	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Samurai	
 CLASS:Samurai	PREALIGN:LG,LN,LE										
 CLASS:Samurai	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (History)|Knowledge (Nobility and Royalty)|Ride|Sense Motive									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Daisho Proficiency							
@@ -66,7 +66,7 @@ CLASS:Samurai	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimida
 #											
 CLASS:Ex Samurai	HD:10	TYPE:Base.PC.Oriental	ABB:XSam		SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO	
 CLASS:Ex Samurai	STARTSKILLPTS:2										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Daisho Proficiency							
@@ -93,7 +93,7 @@ CLASS:Ex Samurai	STARTSKILLPTS:2
 CLASS:Swashbuckler	HD:10	TYPE:Base.PC	ABB:SwB	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 #CLASS:Swashbuckler											
 CLASS:Swashbuckler	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Escape Artist|Jump|TYPE.Profession|Sense Motive|Swim|Tumble|Use Rope									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 #											
 1			VFEAT:Weapon Finesse								
@@ -121,7 +121,7 @@ CLASS:Swashbuckler	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diploma
 CLASS:Paladin CW	HD:10	TYPE:Base.PC	ABB:PldCW	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Paladin CW	
 CLASS:Paladin CW	PREALIGN:LG										
 CLASS:Paladin CW	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency									
 #											
@@ -148,14 +148,14 @@ CLASS:Paladin CW	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handl
 #											
 CLASS:Ex Paladin CW	HD:10	TYPE:Base.PC	ABB:XPldCW		SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO	
 CLASS:Ex Paladin CW	STARTSKILLPTS:2										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency									
 #											
 CLASS:Ranger CW	HD:8	TYPE:Base.PC	ABB:RgrCW	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 #CLASS:Ranger CW											
 CLASS:Ranger CW	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 1		AUTO:FEAT|Shield Proficiency									
 #											

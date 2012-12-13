@@ -23,6 +23,7 @@ CLASS:Fro_classes_prestige.lst
 SPELL:Fro_classes_spells.lst
 COMPANIONMOD:Fro_companionmods.lst
 DEITY:Fro_deities.lst
+DOMAIN:Fro_domains.lst
 EQUIPMENT:Fro_equip.lst
 EQUIPMENT:Fro_equip_armorshields_specific.lst
 EQUIPMENT:Fro_equip_artifacts.lst

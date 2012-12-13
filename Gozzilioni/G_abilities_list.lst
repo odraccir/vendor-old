@@ -558,8 +558,8 @@ Kharash Favored Enemy (Evil)	CATEGORY:Special Ability	TYPE:FavoredKharashEnemy.E
 #																																	
 Kharash Favored Bonus__Evil	CATEGORY:Special Ability	TYPE:FavoredKharashEnemyBonus	VISIBLE:DISPLAY				PREABILITY:1,CATEGORY=Special Ability,Kharash Favored Enemy (Evil)				BONUS:VAR|FavoredKharashEvil|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE															SOURCEPAGE:EXD	
 																																	
-Bonus Spell Arcane	CATEGORY:Wonderworker Bonus	TYPE:WonderworkerArcane.SpecialQuality	VISIBLE:YES												STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Arcane|0|MAXLEVEL	BONUS:SPELLCAST|%LIST|1														SOURCEPAGE:EXD	
-Bonus Spell Divine	CATEGORY:Wonderworker Bonus	TYPE:WonderworkerDivine.SpecialQuality	VISIBLE:YES												STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Divine|0|MAXLEVEL	BONUS:SPELLCAST|%LIST|1														SOURCEPAGE:EXD	
+Bonus Spell Arcane	CATEGORY:Wonderworker Bonus	TYPE:WonderworkerArcane.SpecialQuality	VISIBLE:YES												STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|SPELLTYPE=Arcane|0|MAXLEVEL	BONUS:SPELLCAST|%LIST|1														SOURCEPAGE:EXD	
+Bonus Spell Divine	CATEGORY:Wonderworker Bonus	TYPE:WonderworkerDivine.SpecialQuality	VISIBLE:YES												STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|SPELLTYPE=Divine|0|MAXLEVEL	BONUS:SPELLCAST|%LIST|1														SOURCEPAGE:EXD	
 Bonus Spell Psionic	CATEGORY:Wonderworker Bonus	TYPE:WonderworkerPsionic.SpecialQuality	VISIBLE:YES								BONUS:VAR|BonusPowerPoints|(PsionML+WonderworkerML)/3||TYPE=WonderworkereBonusPP.STACK																					SOURCEPAGE:EXD	
 																																	
 Blessing ~ Eldath's Pool	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES	DESC:%1/day|EldathSPoolPerDay			PREVARGTEQ:HarperBlessing,1	DEFINE:EldathSPoolPerDay|1																								SOURCEPAGE:MoF	
@@ -568,9 +568,9 @@ Blessing ~ Deneir's Eye	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuali
 Blessing ~ Milil's Voice	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES				PREVARGTEQ:HarperBlessing,4				BONUS:SKILL|TYPE=Charisma|1|TYPE=Sacred																					SOURCEPAGE:MoF	
 Blessing ~ Mielikki's Step	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES				PREVARGTEQ:HarperBlessing,5				BONUS:MOVEADD|TYPE=Walk|10|PREVARLT:ENCUMBERANCE,2,var("COUNT[EQTYPE.ARMOR.EQUIPPED.IS.HEAVY]"),1																					SOURCEPAGE:MoF	
 Blessing ~ Lliira's Heart	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES	DESC:+2 sacred bonus on saving throws against compulsion or fear effects.			PREVARGTEQ:HarperBlessing,6																									SOURCEPAGE:MoF	
-Blessing ~ Ohma's Insight	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES				PREVARGTEQ:HarperBlessing,7												ADD:FEAT|1|Skill Focus(TYPE.Knowledge)													SOURCEPAGE:MoF	
+Blessing ~ Ohma's Insight	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES				PREVARGTEQ:HarperBlessing,7				BONUS:ABILITYPOOL|Oghma's Insight|1																					SOURCEPAGE:MoF	
 Blessing ~ Selune's Radiance	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES				PREVARGTEQ:HarperBlessing,8												VISION:Low-light													SOURCEPAGE:MoF	
-Blessing ~ Mystra's Grace	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES	DESC:+2 insight bonus against magical effects.			PREVARGTEQ:HarperBlessing,9	DEFINE:EldathSPoolPerDay|1																								SOURCEPAGE:MoF	
+Blessing ~ Mystra's Grace	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES	DESC:+2 insight bonus against magical effects.			PREMULT:1,[PREVARGTEQ:HarperBlessing,9],[PRECLASS:1,Harper Mage=5]	DEFINE:EldathSPoolPerDay|1																								SOURCEPAGE:MoF	
 Blessing ~ Tymora Smile	CATEGORY:Special Ability	TYPE:HarperBlessing.SecialQuality	VISIBLE:YES	DESC:+2 luck bonus on any single saving throw once a day.			PREVARGTEQ:HarperBlessing,10																									SOURCEPAGE:MoF	
 																																	
 Improved Save ~ Fortitude	CATEGORY:Special Ability	TYPE:ImprovedSaves	VISIBLE:YES								BONUS:CHECKS|Fortitude|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1														SOURCEPAGE:MoF	
@@ -1133,11 +1133,11 @@ Extra Lesser Invocation	CATEGORY:Special Ability	TYPE:ExtraInvocation	VISIBLE:YE
 Extra Greater Invocation	CATEGORY:Special Ability	TYPE:ExtraInvocation	VISIBLE:YES				PRECLASS:1,Warloc=11				BONUS:ABILITYPOOL|Warlock Greater Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE															SOURCEPAGE:CA	
 Extra Dark Invocation	CATEGORY:Special Ability	TYPE:ExtraInvocation	VISIBLE:YES				PRECLASS:1,Warloc=16				BONUS:ABILITYPOOL|Warlock Dark Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE															SOURCEPAGE:CA	
 																																	
-Extra Slot Arcane	CATEGORY:Special Ability	TYPE:ExtraSlot	VISIBLE:YES				PRESPELLTYPE:1,Arcane=1				BONUS:SPELLCAST|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Arcane|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
-Extra Slot Divine	CATEGORY:Special Ability	TYPE:ExtraSlot	VISIBLE:YES				PRESPELLTYPE:1,Divine=1				BONUS:SPELLCAST|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Divine|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
+Extra Slot Arcane	CATEGORY:Special Ability	TYPE:ExtraSlot	VISIBLE:YES				PRESPELLTYPE:1,Arcane=1				BONUS:SPELLCAST|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|SPELLTYPE=Arcane|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
+Extra Slot Divine	CATEGORY:Special Ability	TYPE:ExtraSlot	VISIBLE:YES				PRESPELLTYPE:1,Divine=1				BONUS:SPELLCAST|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|SPELLTYPE=Divine|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
 																																	
-Extra Spell Arcane	CATEGORY:Special Ability	TYPE:ExtraSpell	VISIBLE:YES				PRESPELLTYPE:1,Arcane=1				BONUS:SPELLKNOWN|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Arcane|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
-Extra Spell Divine	CATEGORY:Special Ability	TYPE:ExtraSpell	VISIBLE:YES				PRESPELLTYPE:1,Divine=1				BONUS:SPELLKNOWN|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Divine|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
+Extra Spell Arcane	CATEGORY:Special Ability	TYPE:ExtraSpell	VISIBLE:YES				PRESPELLTYPE:1,Arcane=1				BONUS:SPELLKNOWN|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|SPELLTYPE=Arcane|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
+Extra Spell Divine	CATEGORY:Special Ability	TYPE:ExtraSpell	VISIBLE:YES				PRESPELLTYPE:1,Divine=1				BONUS:SPELLKNOWN|CLASS=%;LEVEL=%|1				STACK:YES	MULT:YES	CHOOSE:SPELLLEVEL|SPELLTYPE=Divine|0|MAXLEVEL-1	SELECT:1														SOURCEPAGE:CA	
 																																	
 Dread Pirate Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality	VISIBLE:YES	DESC:Take 10 on listed skills	OUTPUTNAME:Skill Mastery			PRECLASS:1,Dread Pirate=8											STACK:NO	MULT:YES	CHOOSE:SKILL|Balance|Climb|Jump|Tumble	SELECT:1										SOURCEPAGE:CAd	
 Nightsong Infiltrator Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality	VISIBLE:YES	DESC:Take 10 on listed skills	OUTPUTNAME:Skill Mastery			PRECLASS:1,Nightsong Infiltrator=6											STACK:NO	MULT:YES	CHOOSE:SKILL|Climb|Disable Device|Open Lock|Search	SELECT:1										SOURCEPAGE:CAd	
@@ -1146,6 +1146,7 @@ Exemplar Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality
 Dungeon Delver Epic Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality	VISIBLE:YES	DESC:Take 10 on listed skills	OUTPUTNAME:Skill Mastery		PRECLASS:1,Dungeon Delver=11											STACK:NO	MULT:YES	CHOOSE:SKILL|PC	SELECT:1										SOURCEPAGE:CAd		
 Evangelist Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality	VISIBLE:YES	DESC:Take 10 on listed skills	OUTPUTNAME:Skill Mastery		PRECLASS:1,Evangelist=4												STACK:NO	MULT:YES	CHOOSE:SKILL|Bluff|Diplomacy|Disguise|Intimidate|Sense Motive	SELECT:1										SOURCEPAGE:CD	
 Temple Raider Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality	VISIBLE:YES	DESC:Take 10 on listed skills	OUTPUTNAME:Skill Mastery		PRECLASS:1,Temple Raider of Olidammara=9												STACK:NO	MULT:YES	CHOOSE:SKILL|PC	SELECT:1										SOURCEPAGE:CD	
+Hoardstealer Skill Mastery	CATEGORY:Special Ability	TYPE:SkillMastery.SpecialQuality	VISIBLE:YES	DESC:Take 10 on listed skills	OUTPUTNAME:Skill Mastery		PRECLASS:1,Hoardstealer=8											STACK:NO	MULT:YES	CHOOSE:SKILL|PC	SELECT:1										SOURCEPAGE:Drac		
 																																	
 Advanced Learning ~ Beguiler	CATEGORY:Special Ability	TYPE:AdvancedLearning.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Advanced Learning			PRECLASS:1,Beguiler=3				BONUS:SPELLKNOWN|CLASS=Beguiler;LEVEL=%|1				STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Wizard[LEVELMIN=0;LEVELMAX=MAXCASTABLE],SCHOOL=Illusion,SCHOOL=Enchantment	SELECT:1														SOURCEPAGE:PHB2	
 Advanced Learning ~ Duskblade 1	CATEGORY:Special Ability	TYPE:AdvancedLearning.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Advanced Learning			PREMULT:2,[PRECLASS:1,Duskblade=1],[PRECLASSLEVELMAX:1,Duskblade=1]				BONUS:SPELLKNOWN|CLASS=Duskblade;LEVEL=0|max(0,INT)				STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Duskblade[LEVELMIN=0;LEVELMAX=0]	SELECT:max(0,INT)														SOURCEPAGE:PHB2	
@@ -1164,7 +1165,15 @@ Halfling Improved Weapon Familiarity	CATEGORY:Special Ability	TYPE:ImprovedWeapo
 Salamander Improved Weapon Familiarity	CATEGORY:Special Ability	TYPE:ImprovedWeaponFamiliarity	VISIBLE:YES	DESC:Halfling Improved Weapon Familiarity			PREMULT:1,[PRERACE:1,Salamander%,Half-Salamander],[PRERACE:1,RACESUBTYPE=Salamander]												CHANGEPROF:TYPE.Salamander=Martial													SOURCEPAGE:G
 Ethergaunt Improved Weapon Familiarity	CATEGORY:Special Ability	TYPE:ImprovedWeaponFamiliarity	VISIBLE:YES	DESC:Ethergaunt Improved Weapon Familiarity			PREMULT:1,[PRERACE:1,Ethergaunt%,Half-Ethergaunt],[PRERACE:1,RACESUBTYPE=Ethergaunt]												CHANGEPROF:TYPE.Ethergaunt=Martial													SOURCEPAGE:G
 
-Martial Weapon Proficiency	CATEGORY:Special Ability	TYPE:MinistrelMartialWeaponProficiency	VISIBLE:YES	DESC:Choose a martial proficency	AUTO:WEAPONPROF|%LIST	MULT:YES	STACK:NO	CHOOSE:WEAPONPROFICIENCY|ANY[TYPE=Martial]	SELECT:1																									SOURCEPAGE:DD
+Ministrel Martial Weapon Proficiency	CATEGORY:Special Ability	TYPE:MinistrelMartialWeaponProficiency	VISIBLE:YES	DESC:Choose a martial proficency	OUTPUTNAME:Martial Weapon Proficiency	AUTO:WEAPONPROF|%LIST	MULT:YES	STACK:NO	CHOOSE:WEAPONPROFICIENCY|ANY[TYPE=Martial]	SELECT:1																									SOURCEPAGE:DD
 
 Deity Weapon Focus	CATEGORY:Special Ability	TYPE:DeityWeaponProficiency.SpecialAttack	VISIBLE:YES												STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC[DEITYWEAPON]	SELECT:1	AUTO:FEAT|Weapon Focus(%LIST)													SOURCEPAGE:CD										
 Deity Weapon Specialization	CATEGORY:Special Ability	TYPE:DeityWeaponProficiency.SpecialAttack	VISIBLE:YES												STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC[DEITYWEAPON,FEAT=Weapon Focus]	SELECT:1	AUTO:FEAT|Weapon Specialization(%LIST)													SOURCEPAGE:CD										
+
+Eclectic Learning ~ Warmage	CATEGORY:Special Ability	TYPE:EclecticLearning.SpecialQuality	VISIBLE:YES		OUTPUTNAME:Eclectic Learning		PRECLASS:1,Warmage=1				BONUS:SPELLKNOWN|CLASS=Warmage;LEVEL=%+1|1				STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Wizard[LEVELMIN=0;LEVELMAX=MAXCASTABLE-1]	SELECT:1														SOURCEPAGE:CAd										
+
+Extend Spell Ability	CATEGORY:Special Ability	TYPE:ExtendSpellAbility.SpecialQuality	VISIBLE:YES	DESC:%1/day|ExtendSpellPerDay	OUTPUTNAME:Extend Spell	PRECLASS:1,Harper Mage=3,Harper Priest=3		DEFINE:ExtendSpellPerDay|1+CHA							STACK:NO	MULT:YES	CHOOSE:NUMCHOICES=1|SKILLSNAMED|TYPE.Knowledge	SELECT:1	ADD:FEAT|Skill Focus(%LIST)													SOURCEPAGE:MoF										
+
+Weapon Bond Ability	CATEGORY:Special Ability	TYPE:WeaponBondAbility.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST											STACK:NO	MULT:YES	CHOOSE:EQUIPMENT|PC[TYPE=Weapon]	SELECT:1														SOURCEPAGE:CW										
+
+Skill Focus ~ Knowledge	CATEGORY:FEAT	TYPE:OghmaSInsight	VISIBLE:YES	DESC:%1|%LIST					ADD:FEAT|Skill Focus(%LIST)						STACK:NO	MULT:YES	CHOOSE:SKILL|PC[TYPE=Knowledge]	SELECT:1														SOURCEPAGE:MoF										

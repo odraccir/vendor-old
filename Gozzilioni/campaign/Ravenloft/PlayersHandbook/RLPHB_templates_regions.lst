@@ -6,7 +6,7 @@ No Ravenloft Regiun	VISIBLE:NO			REGION:No Ravenloft region
 #				
 # Human Region A/B				
 Barovia Region	VISIBLE:NO	AUTO:LANG|Balok	LANGBONUS:Luktar,Vaasi,Sithican,Forfarian,Thaani	REGION:Barovia
-Borca Region	VISIBLE:NO	AUTO:LANG|Balok,Low Mordentish	LANGBONUS:Falkovnian,Luktar,Halfling	REGION:Borca
+Borca Region	VISIBLE:NO	AUTO:LANG|Balok|Low Mordentish	LANGBONUS:Falkovnian,Luktar,Halfling	REGION:Borca
 Darkon Region	VISIBLE:NO	AUTO:LANG|Darkonese	LANGBONUS:Halfling,Gnome,Elven,Dwarven,Falkovnian,Lamordian,High Mordentish,Low Mordentish,Tepestani,Vaasi	REGION:Darkon
 Dementlieu Region	VISIBLE:NO	AUTO:LANG|Low Mordentish	LANGBONUS:Lamordian,Falkovnian,Halfling	REGION:Dementlieu
 Falkovnia Region	VISIBLE:NO	AUTO:LANG|Falkovnian	LANGBONUS:Darkonese,Balok,High Mordentish,Low Mordentish,Halfling,Gnome,Elven,Dwarven	REGION:Falkovnia

@@ -106,7 +106,7 @@ SUBCLASS:Moon Bane ~ weretiger
 SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Tiger Empathy										
 SUBCLASS:Moon Bane ~ werewolf												
 SUBCLASSLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Wolf Empathy										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency Output|Simple Weapon Proficiency									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Wild Empathy			BONUS:VAR|WildEmpathy|CL					
@@ -119,7 +119,7 @@ CLASS:Night Lord	HD:10	TYPE:Prestige.NPC	ABB:Nld	MAXLEVEL:5	SOURCEPAGE:RLCoD	BON
 CLASS:Night Lord	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Knowledge (Ravenloft)=4	PRESKILL:1,Ride=6	PREFEAT:2,Mounted Combat,Trample	PRETEXT:the Night Lord must have a darklord patron accept him/her into his service.						
 CLASS:Night Lord	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Intimidate|Knowledge (Ravenloft)|TYPE.Profession|Ride|Sense Motive|Spot										
 CLASS:Night Lord	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		BONUS:CASTERLEVEL|Night Lord|CL							
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency Output|Simple Weapon Proficiency									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
 #												

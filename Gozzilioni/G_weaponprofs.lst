@@ -12,7 +12,9 @@ Urgrosh (Dwarven).MOD	TYPE:Dwarven
 Waraxe (Dwarven).MOD	TYPE:Dwarven						
 Whip.MOD	TYPE:Whip						
 #							
-Blowgun	TYPE:Simple						
+Blowgun	TYPE:Simple.Ranged.Piercing.RangedPiercing.TwoHanded.Blowgun
+Longbow (Aquatic)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Bow.Longbow
+#
 Firearms	TYPE:Exotic.Piercing.MeleePiercing.Firearm.OneHanded						
 Kusari-Gama	TYPE:Exotic.Melee.Piercing.MeleePiercing.Reach.TwoHanded						
 Sword (Wakizashi)	TYPE:Martial.Melee.Piercing.MeleePiercing.Sword						
@@ -47,3 +49,4 @@ Winged Warrior Spike	TYPE:Natural.Ranged.Piercing.RangedPiercing.Light
 Animate Eyeball	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
 #							
 Aboleth Bite	TYPE:Simple.Melee.Unarmed.Bludgeoning						
+#

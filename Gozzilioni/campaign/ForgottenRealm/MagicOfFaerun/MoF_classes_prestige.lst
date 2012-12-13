@@ -43,11 +43,11 @@ CLASS:Harper Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=4	PRESKILL
 CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Gather Information|Heal|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Speak Language|Spellcraft|Spot									
 1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
 #											
-1	ADD:SPELLCASTER|Arcane		ADD:FEAT|1|Skill Focus(TYPE.Knowledge)	ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Mage Harper Knowledge			BONUS:VAR|HarperMageHarperKnowledgeLVL|CL				
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Mage Harper Knowledge			BONUS:VAR|HarperMageHarperKnowledgeLVL|CL	BONUS:ABILITYPOOL|Oghma's Insight|1			
 2	ADD:SPELLCASTER|Arcane		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
-3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Extend Spell							
+3	ADD:SPELLCASTER|Arcane					BONUS:ABILITYPOOL|Extend Spell Ability|1					
 4	ADD:SPELLCASTER|Arcane		AUTO:FEAT|Eschew Materials								
-5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Mystra's Grace							
+5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Blessing ~ Mystra's Grace							
 #											
 ###TODO PREDEITYALIGN:LG,LN,NG,TN,CG,CN
 CLASS:Harper Priest	HD:8	TYPE:PC.Prestige	ABB:Hpr	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
@@ -59,7 +59,7 @@ CLASS:Harper Priest	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Ha
 #											
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Blessing|Harper Priest Blessing	ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Priest Harper Knowledge		BONUS:ABILITYPOOL|Harper Priest Blessing|CL	BONUS:VAR|HarperPriestHarperKnowledgeLVL|CL			
 2	ADD:SPELLCASTER|Divine		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
-3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Extend Spell							
+3	ADD:SPELLCASTER|Divine					BONUS:ABILITYPOOL|Extend Spell Ability|1					
 4	ADD:SPELLCASTER|Divine		AUTO:FEAT|Eschew Materials								
 5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Mystra's Grace							
 #											

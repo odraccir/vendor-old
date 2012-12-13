@@ -125,7 +125,7 @@ CLASS:Ex Dragon Shaman	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowle
 CLASS:Duskblade	HD:10	TYPE:Base.PC	ABB:Dsk	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																														
 CLASS:Duskblade	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Nature)|Search																																					
 CLASS:Duskblade	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Duskblade|CL																																		
-1		AUTO:FEAT|Martial Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
+1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
 1		AUTO:FEAT|Shield Proficiency																																					
 #																																							
@@ -153,7 +153,7 @@ CLASS:Duskblade	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Du
 CLASS:Knight	HD:12	TYPE:Base.PC	ABB:Kgt	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Knight																													
 CLASS:Knight	PREALIGN:LG,LN,LE																																						
 CLASS:Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowledge (Nobility and Royalty)|Ride|Swim																																					
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
+1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
 1		AUTO:FEAT|Shield Proficiency																																					
 #																																							
@@ -180,7 +180,7 @@ CLASS:Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowledg
 #																																							
 CLASS:Ex Knight	HD:12	TYPE:Base.PC	ABB:xKgt	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO																													
 CLASS:Ex Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowledge (Nobility and Royalty)|Ride|Swim																																					
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
+1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
 1		AUTO:FEAT|Shield Proficiency																																					
 #																																							
@@ -210,7 +210,7 @@ CLASS:Ex Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowl
 CLASS:Barbarian.MOD																																							
 SUBSTITUTIONCLASS:Berserker Strength																																							
 ###Block:Proficiencies																																							
-SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency																																				
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output																																				
 SUBSTITUTIONLEVEL:1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																					
 SUBSTITUTIONLEVEL:1		AUTO:FEAT|Shield Proficiency																																					
 ###Block: Rage variables																																							
@@ -362,13 +362,13 @@ SUBSTITUTIONLEVEL:18							BONUS:ABILITYPOOL|Warlock Dark Invocation|1	BONUS:VAR
 #							BONUS:ABILITYPOOL|Warlock Greater Invocation|1																																
 CLASS:Warmage.MOD																																							
 SUBSTITUTIONCLASS:Eclectic Learning ~ 3																																							
-SUBSTITUTIONLEVEL:3	CAST:6,5			ABILITY:Special Ability|AUTOMATIC|Eclectic Learning ~ Warmage																																			
+SUBSTITUTIONLEVEL:3	CAST:6,5					BONUS:ABILITYPOOL|Eclectic Learning|1																																	
 SUBSTITUTIONCLASS:Eclectic Learning ~ 6																																							
-SUBSTITUTIONLEVEL:6	CAST:6,6,5,3			ABILITY:Special Ability|AUTOMATIC|Eclectic Learning ~ Warmage																																			
+SUBSTITUTIONLEVEL:6	CAST:6,6,5,3					BONUS:ABILITYPOOL|Eclectic Learning|1																																	
 SUBSTITUTIONCLASS:Eclectic Learning ~ 11																																							
-SUBSTITUTIONLEVEL:11	CAST:6,6,6,6,6,4			ABILITY:Special Ability|AUTOMATIC|Eclectic Learning ~ Warmage																																			
+SUBSTITUTIONLEVEL:11	CAST:6,6,6,6,6,4					BONUS:ABILITYPOOL|Eclectic Learning|1																																	
 SUBSTITUTIONCLASS:Eclectic Learning ~ 16																																							
-SUBSTITUTIONLEVEL:16	CAST:6,6,6,6,6,6,6,5,3			ABILITY:Special Ability|AUTOMATIC|Eclectic Learning ~ Warmage																																			
+SUBSTITUTIONLEVEL:16	CAST:6,6,6,6,6,6,6,5,3					BONUS:ABILITYPOOL|Eclectic Learning|1																																	
 #																																							
 CLASS:Wizard.MOD																																							
 SUBSTITUTIONCLASS:Immediate Magic																																							

@@ -83,7 +83,7 @@ CLASS:Beastmaster	STARTSKILLPTS:4	CSKILL:Climb|Handle Animal|Heal|Hide|Jump|Know
 CLASS:Bloodhound	HD:10	TYPE:Prestige	ABB:Blo	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Bloodhound	PREATT:4	PRESKILL:3,Gather Information=4,Move Silently=4,Survival=4	PREFEAT:2,Endurance,Track									
 CLASS:Bloodhound	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Diplomacy|Disguise|Gather Information|Heal|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Ride|Search|Sense Motive|Spot|Survival|Swim|Use Rope										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 1		AUTO:FEAT|Armor Proficiency (Light)										
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Mark|Swift Tracker			BONUS:VAR|MarkBonus|CL	BONUS:VAR|Mark|(CL+2)/3				
@@ -198,7 +198,7 @@ CLASS:Fochlucan Lyrist	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE.
 CLASS:Ghost Faced Killer	HD:8	TYPE:Prestige.Oriental	ABB:Gfk	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Ghost Faced Killer	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:2,Hide=6,Move Silently=6	PRESKILL:1,Concentration=4	PRESKILL:1,Intimidate=8	PREFEAT:2,Improved Initiative,Power Attack						
 CLASS:Ghost Faced Killer	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Spot|Swim|Tumble										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 1		AUTO:FEAT|Armor Proficiency (Light)										
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Ghost Step|Ghost Step (Su)|Ghost Faced Killer Ghost Step			BONUS:VAR|GhostFacedKillerGhostStepLVL|CL					
@@ -302,7 +302,7 @@ SUBSTITUTIONLEVEL:4	ADD:SPELLCASTER|Cleric
 CLASS:Shadowbane Inquisitor	HD:10	TYPE:Prestige	ABB:Sbi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Shadowbane Inquisitor		
 CLASS:Shadowbane Inquisitor	PREALIGN:LG	PREATT:5	PRESKILL:1,Knowledge (Religion)=2	PRESKILL:1,Gather Information=4	PRESKILL:1,Sense Motive=8	PREFEAT:1,Power Attack	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Detect Evil],[PRESPELL:1,Detect Evil]	PREABILITY:1,CATEGORY=Special Ability,Turn Undead			
 CLASS:Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Gather Information|Heal|Hide|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Search|Sense Motive|Swim										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
 1		AUTO:FEAT|Shield Proficiency										
 #												
@@ -319,7 +319,7 @@ CLASS:Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craf
 #												
 CLASS:Ex Shadowbane Inquisitor	HD:10	TYPE:Prestige	ABB:XSbi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO		
 CLASS:Ex Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Gather Information|Heal|Hide|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Search|Sense Motive|Swim										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
 1		AUTO:FEAT|Shield Proficiency										
 #												
@@ -354,7 +354,7 @@ CLASS:Shadowbane Stalker	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Concentra
 CLASS:Spymaster	HD:6	TYPE:Prestige	ABB:Spy	MAXLEVEL:7	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Spymaster	PRESKILL:1,Bluff=8,Disguise=8	PRESKILL:4,Diplomacy=4,Forgery=4,Gather Information=4,Sense Motive=4	PREFEAT:1,Skill Focus(Bluff)									
 CLASS:Spymaster	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Nobility and Royalty)|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Speak Language|Spot|Swim|Tumble|Use Magic Device|Use Rope										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Undetectable Alignment			BONUS:ABILITYPOOL|Cover Identity|((CL+2)/3)					
@@ -398,7 +398,7 @@ CLASS:Vigilante	HD:8	TYPE:Prestige	ABB:Vig	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHEC
 CLASS:Vigilante	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:4	PRESKILL:3,Gather Information=8,Knowledge (Local)=8,Sense Motive=8	PRESKILL:2,Intimidate=4,Search=4	PREFEAT:1,Alertness							
 CLASS:Vigilante	STARTSKILLPTS:6	CSKILL:Balance|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Local)|Move Silently|Open Lock|TYPE.Perform|Search|Sense Motive|Tumble|Use Rope										
 CLASS:Vigilante	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Vigilante|CL							
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies|Vigilante Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies|Vigilante Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
 #												
 1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Detect Evil|Streetwise|Vigilante Streetwise			BONUS:VAR|DetectEvilLVL|CL	BONUS:VAR|VigilanteStreetwiseLVL|CL				
 2	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Smite Guilty|Vigilante Smite Guilty			BONUS:VAR|VigilanteSmiteGuiltyLVL|CL					

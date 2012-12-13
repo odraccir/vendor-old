@@ -65,7 +65,7 @@ Reverberation	TYPE:General	VISIBLE:YES																		PRETEXT:Sonic special at
 Roll With It	TYPE:General	VISIBLE:YES				PREFEAT:1,Toughness									PRESTAT:1,CON=20									DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											DR:0/-			SOURCEPAGE:SS	BONUS:DR|-|2	
 Scramble	TYPE:General	VISIBLE:YES													PRESTAT:1,DEX=15				PREABILITY:1,CATEGORY=Special Ability,Improved Evasion	PRESIZELTEQ:S				DESC:See Text																	SOURCEPAGE:SS		
 Stamp	TYPE:Monstrous	VISIBLE:YES																PRETEXT:feet.	PREABILITY:1,CATEGORY=Special Ability,Trample	PRESIZEGTEQ:H				DESC:See Text																	SOURCEPAGE:SS		
-Supernatural Transformation	TYPE:General	VISIBLE:YES																		PRETEXT:Innate spell-like ability				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLLEVEL|TYPE=Innate|0|MAXLEVEL	SELECT:1													SOURCEPAGE:SS		
+Supernatural Transformation	TYPE:General	VISIBLE:YES																		PRETEXT:Innate spell-like ability				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLBOOK=Innate	SELECT:1													SOURCEPAGE:SS		
 Surrogate Spellcasting	TYPE:Monstrous	VISIBLE:YES													PRESTAT:1,WIS=13					PRETEXT:nonhumanoid or nonhumanoidlike form				DESC:See Text																	SOURCEPAGE:SS		
 Swamp Stalker	TYPE:General.Background	VISIBLE:YES																		PRETEXT:Marsh terrain				DESC:See Text													BONUS:SKILL|Swim|2|TYPE=Competence				SOURCEPAGE:SS		
 Thick Skinned	TYPE:Monstrous	VISIBLE:YES	OUTPUTNAME:Thick-Skinned																	PRETEXT:Damage reduction				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:SS		

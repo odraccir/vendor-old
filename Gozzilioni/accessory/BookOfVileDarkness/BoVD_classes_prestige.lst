@@ -8,7 +8,7 @@ CLASS:Cancer Mage	HD:6	TYPE:PC.Prestige.Vile	ABB:Cam	MAXLEVEL:10	SOURCEPAGE:BoVD
 CLASS:Cancer Mage	PREALIGN:LE,NE,CE	PRECHECKBASE:1,Fortitude=5	PRESKILL:1,Heal=3	PRESKILL:2,Hide=6,Move Silently=6	PRESKILL:1,Knowledge (Religion)=2	PREFEAT:3,Great Fortitude,Poison Immunity,Toughness	PRETEXT:must have fallen victim to the ravages of a disease and must have taken damage from a poison.				
 #CLASS:Cancer Mage	STARTSKILLPTS:6	CSKILL:Alchemy|Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Heal|Hide|Intimidate|Intuit Diorection|Jump|Knowledge (Nature)|Listen|Move Silently|Sleight of Hand|TYPE.Profession|Ride|Search|Sense Motive|Spot|Swim|Tumble|Use Rope									
 CLASS:Cancer Mage	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Heal|Hide|Intimidate|Jump|Knowledge (Nature)|Listen|Move Silently|Sleight of Hand|TYPE.Profession|Ride|Search|Sense Motive|Spot|Swim|Tumble|Use Rope|Survival									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -73,7 +73,7 @@ CLASS:Disciple of Baalzebul	HD:6	TYPE:PC.Prestige.Vile	ABB:Dob	MAXLEVEL:10	SOURC
 CLASS:Disciple of Baalzebul	PREALIGN:LE,NE,CE	PRESKILL:1,Bluff=10	PRESKILL:2,Diplomacy=4,Gather Information=4	PREFEAT:1,Disciple of Darkness	PRETEXT:must be initiated by the sect of Baalzebul in a terrific rite.						
 #CLASS:Disciple of Baalzebul	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Innuendo|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|Pick Pocket|TYPE.Profession|Ride|Search|Sense Motive|Spot|Use Magic Device									
 CLASS:Disciple of Baalzebul	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|TYPE.Profession|Ride|Search|Sense Motive|Sleight of Hand|Spot|Use Magic Device									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Tongue of the Devil							
@@ -91,7 +91,7 @@ CLASS:Disciple of Dispater	HD:10	TYPE:PC.Prestige.Vile	ABB:DoD	MAXLEVEL:10	SOURC
 CLASS:Disciple of Dispater	PREALIGN:LE,NE,CE	PREATT:6	PREFEAT:3,Disciple of Darkness,Combat Expertise,Power Attack	PRETEXT:must be initiated by the sect of Dispater in a terrific rite.							
 #CLASS:Disciple of Dispater	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Innuendo|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot									
 CLASS:Disciple of Dispater	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Sense Motive|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -111,7 +111,7 @@ CLASS:Disciple of Mammon	HD:6	TYPE:PC.Prestige.Vile	ABB:DoM	MAXLEVEL:10	SOURCEPA
 CLASS:Disciple of Mammon	PREALIGN:LE,NE,CE	PREATT:4	PRESKILL:1,Appraise=6	PRESKILL:2,Open Lock=4,Sleight of Hand=4	PREFEAT:1,Disciple of Darkness	PRETEXT:must go through a disgusting and humiliating sexual ritual and betray the closest friend to an evil end.					
 #CLASS:Disciple of Mammon	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Disable Device|Disguise|Escape Artist|Forgery|Hide|Innuendo|Intimidate|TYPE.Knowledge|Listen|Move Silently|Open Lock|Pick Pocket|TYPE.Profession|Search|Spot									
 CLASS:Disciple of Mammon	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Disable Device|Disguise|Escape Artist|Forgery|Hide|Intimidate|TYPE.Knowledge|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Search|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Lie|Disciple of Mammon Lie			BONUS:VAR|DiscipleOfMammonLieLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Cheat (Sp)			BONUS:VAR|CheatPerDay|CL	BONUS:VAR|CheatLVL|15			
@@ -128,7 +128,7 @@ CLASS:Disciple of Mephistopheles	HD:8	TYPE:PC.Prestige.Vile	ABB:DoP	MAXLEVEL:10	
 CLASS:Disciple of Mephistopheles	PREALIGN:LE,NE,CE	PREATT:6	PREFEAT:2,Disciple of Darkness,Evil Brand	PRETEXT:must go through a terrible ritual that involves the sacrifice of an intelligent being in magical fire.							
 #CLASS:Disciple of Mephistopheles	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Innuendo|Jump|Knowledge (Religion)|Listen|Move silently|TYPE.Profession|Ride|Scry|Search|Spot									
 CLASS:Disciple of Mephistopheles	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Sense Motive|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -191,7 +191,7 @@ CLASS:Soul Eater	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Intimidate|Jump
 CLASS:Thrall of Demogorgon	HD:8	TYPE:PC.Prestige.Vile	ABB:Tod	MAXLEVEL:10	SOURCEPAGE:BoVD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Thrall of Demogorgon	PREALIGN:CE	PREATT:4	PRESKILL:2,Knowledge (Arcana)=2,Knowledge (Religion)=2	PRESKILL:3,TYPE.Knowledge=2	PREFEAT:2,Willing Deformity,Thrall to Demon	PRETEXT:must go through an horrific rite that involves the sacrifice of an intelligent being dedicated to Demogorgon.	PREMULT:1,[PRESPELLTYPE:1,ANY=1],[PREABILITY:1,CATEGORY=Special Ability,Sneak Attack]				
 CLASS:Thrall of Demogorgon	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Intimidate|Jump|Listen|Move Silently|TYPE.Profession|Search|Spellcraft|Spot|Swim|Use Rope									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -224,7 +224,7 @@ CLASS:Thrall of Graz'zt	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 CLASS:Thrall of Juiblex	HD:10	TYPE:PC.Prestige.Vile	ABB:ToJ	MAXLEVEL:10	SOURCEPAGE:BoVD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Thrall of Juiblex	PREALIGN:LE,NE,CE	PRESKILL:1,Escape Artist=5	PREFEAT:2,Thrall to Demon,Willing Deformity	PRETEXT:must have been polymoprhed or experienced some sort of shapeshifting experience. must be initiated by the sect of Juiblex in a terrific rite.							
 CLASS:Thrall of Juiblex	STARTSKILLPTS:2	CSKILL:Climb|Disguise|Escape Artist|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -243,7 +243,7 @@ CLASS:Thrall of Orcus	HD:8	TYPE:PC.Prestige.Vile	ABB:ToO	MAXLEVEL:10	SOURCEPAGE:
 CLASS:Thrall of Orcus	PREALIGN:LE,NE,CE	PREATT:4	PRESKILL:2,Knowledge (Arcana)=2,Knowledge (Religion)=2	PREFEAT:2,Lichloved,Thrall to Demon	PRESPELLSCHOOL:1,Necromancy=1	PRETEXT:must be initiated by the sect of Juiblex in a terrific rite.					
 #CLASS:Thrall of Orcus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Hide|Intimidate|TYPE.Knowledge|Move Silently|TYPE.Profession|Scry|Spot									
 CLASS:Thrall of Orcus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Hide|Intimidate|TYPE.Knowledge|Move Silently|TYPE.Profession|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -280,7 +280,7 @@ CLASS:Warrior of Darkness	HD:10	TYPE:PC.Prestige	ABB:WoD	MAXLEVEL:10	SOURCEPAGE:
 CLASS:Warrior of Darkness	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:2,Craft (Alchemy)=3,Knowledge (Arcana)=3	PRESKILL:1,Spellcraft=1	PRELANG:1,Abyssal,Infernal	PREFEAT:1,Iron Will	PRETEXT:must endure a week of painful and scarring black magic rituals in solitude, the secret of wich take a month to study and research succesfully.				
 #CLASS:Warrior of Darkness	STARTSKILLPTS:4	CSKILL:Alchemy|Bluff|Climb|Concentration|Hide|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Move Silently|Ride|Scry|Spellcraft									
 CLASS:Warrior of Darkness	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Bluff|Climb|Concentration|Hide|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Move Silently|Ride|Spellcraft									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											

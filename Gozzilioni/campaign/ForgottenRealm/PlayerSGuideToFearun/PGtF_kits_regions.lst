@@ -613,7 +613,7 @@ GEAR:Scroll	QTY:7
 #				
 STARTPACK:ThayO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Any, Tiefling
 GEAR:Scroll (Invisibility)				
-GEAR:Scroll (Scorching Ray)				
+GEAR:Scroll (Scorching Ray)
 #				
 STARTPACK:ThayP1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Genasi Any, Tiefling
 GEAR:Breastplate		EQMOD:MWORKA		
@@ -668,7 +668,7 @@ GEAR:Breastplate		EQMOD:MWORKA
 #				
 STARTPACK:UntherB1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Human Mulan, Turami
 GEAR:Scroll (Detect Thoughts)				
-GEAR:Scroll (Scorcing Ray)				
+GEAR:Scroll (Scorching Ray)				
 #				
 STARTPACK:UntherO1	EQUIPBUY:0		PRELEVELMAX:1	PRETEXT:Aasimar, Genasi Fire, Tiefling
 GEAR:Scale Mail		EQMOD:MWORKA		

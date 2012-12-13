@@ -47,7 +47,7 @@ CLASS:Abolisher	STARTSKILLPTS:4	CSKILL:Concentration|Escape Artist|Gather Inform
 CLASS:Darkrunner	HD:6	TYPE:PC.Prestige	ABB:Drr	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Darkrunner	PRESKILL:2,Knowledge (Dungeoneering)=5,Search=5	PRESKILL:1,Survival=7	PREFEAT:2,Alertness,Track	PRESKILL:1,Knowledge (Nature)=9	PREFEAT:1,Track	PREVISION:1,Darkvision=1	PREABILITY:1,CATEGORY=Guild Category,Guild Member(Darkrunner Guild)					
 CLASS:Darkrunner	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Escape Artist|Gather Information|Heal|Hide|Intimidate|Jump|Knowledge (Architecture and Engineering)|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Local)|Knowledge (Nature)|Listen|Move Silently|Search|Sense Motive|Speak Language|Spot|Survival|Swim|Tumble										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency|Simple Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency Output|Simple Weapon Proficiency									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Direction Sense|Spelunking			BONUS:VAR|SpelunkingBonus|CL			AUTO:EQUIP|Darkrunner Emblem		

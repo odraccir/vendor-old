@@ -31,6 +31,7 @@ CLASS:G_classes_hidden.lst
 CLASS:G_classes_monsters.lst
 DEITY:G_deities.lst
 EQUIPMENT:G_equip.lst
+EQUIPMENT:G_equip_armorshields.lst
 EQUIPMENT:G_equip_weap_ammo.lst
 EQUIPMENT:G_equip_weap_melee.lst
 EQUIPMENT:G_equip_weap_natural.lst

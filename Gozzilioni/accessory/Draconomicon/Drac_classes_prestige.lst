@@ -227,7 +227,7 @@ CLASS:Dragonrider	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Diplomacy|Handle 
 CLASS:Dragonslayer	HD:10	TYPE:Prestige	ABB:Drg	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Dragonslayer	PREATT:5	PREFEAT:1,Dodge,Iron Will	PRESKILL:1,Tumble=2								
 CLASS:Dragonslayer	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Arcana)|Jump|Search|Tumble									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -282,7 +282,7 @@ CLASS:Hoardstealer	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVE
 5	CAST:0,1,1,0							BONUS:VISION|Darkvision|30			
 6	CAST:0,1,1,1										
 7	CAST:0,2,1,1										
-8	CAST:0,2,1,1,1			ABILITY:Special Ability|AUTOMATIC|Skill Mastery							
+8	CAST:0,2,1,1,1					BONUS:ABILITYPOOL|Skill Mastery|3+INT					
 9	CAST:0,2,2,1,1							BONUS:VISION|Darkvision|30			
 10	CAST:0,2,2,2,1										
 #											
@@ -303,7 +303,7 @@ CLASS:Initiate of the Draconic Myeteries	STARTSKILLPTS:4	CSKILL:Balance|Concentr
 CLASS:Platinum Light	HD:8	TYPE:Prestige	ABB:Plk	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Platinum Light	PREALIGN:LG,NG,CG	PREATT:5	PREFEAT:1,Dragonfriend	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRELANG:1,Draconic						
 CLASS:Platinum Light	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Intimidate|Knowledge (Arcana)|Ride|Sense Motive									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -321,7 +321,7 @@ CLASS:Platinum Light	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Intimid
 CLASS:Talon of Tiamat	HD:8	TYPE:Prestige	ABB:Tot	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
 CLASS:Talon of Tiamat	PREALIGN:LE,NE,CE	PREATT:4	PREFEAT:1,Dragonthrall	PRESKILL:3,Bluff=4,Intimidate=4,Knowledge (Arcana)=4	PRELANG:1,Draconic						
 CLASS:Talon of Tiamat	STARTSKILLPTS:2	CSKILL:Appraise|Bluff|Concentration|Intimidate|Knowledge (Arcana)|Ride|Search|Sense Motive|Spellcraft									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											

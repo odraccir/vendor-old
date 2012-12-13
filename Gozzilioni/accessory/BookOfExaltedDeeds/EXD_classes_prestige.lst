@@ -7,7 +7,7 @@ SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni
 CLASS:Anointed Knight	HD:10	TYPE:PC.Prestige.Exalted	ABB:AnK	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Anointed Knight	PREALIGN:LG,NG,CG	PREATT:5	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:2,Knowledge (Arcana)=3,Spellcraft=3	PREFEAT:1,Ancestral Relic						
 CLASS:Anointed Knight	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Craft (Alchemy)|Heal|Jump|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (The Planes)|Ride|Spellcraft									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -46,7 +46,7 @@ CLASS:Beloved of Valarian	HD:10	TYPE:PC.Prestige.Exalted	ABB:BVa	MAXLEVEL:10	SOU
 CLASS:Beloved of Valarian	PREGENDER:Female	PREALIGN:LG,NG,CG	PREATT:7	PRESKILL:1,Knowledge (Nature)=5	PRESKILL:1,Ride=10	PREFEAT:3,Mounted Combat,Sacred Vow,Vow of Chastity	PRETEXT:Must meditate at a druid's grove and fast until she saves the life of an animal in danger.				
 CLASS:Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense Motive|Survival									
 CLASS:Beloved of Valarian	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4							
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 1		ABILITY:Special Ability|AUTOMATIC|Beloved Valarian Shield Proficiency									
 #											
@@ -196,7 +196,7 @@ SUBCLASSLEVEL:4						SPELLLEVEL:CLASS|Warmage=8|Planar Ally (Greater),Holy Aura|
 CLASS:Fist of Raziel	HD:10	TYPE:PC.Prestige.Exalted	ABB:FiR	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Fist of Raziel	PREALIGN:LG	PREATT:6	PRESKILL:2,Diplomacy=5,Knowledge (Religion)=5	PREFEAT:2,Power Attack,Servant of the Heavens	PRESPELL:1,Divine Favor						
 CLASS:Fist of Raziel	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency									
 #											
@@ -290,7 +290,7 @@ CLASS:Sentinel of Bharrai	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|D
 CLASS:Skylord	HD:10	TYPE:PC.Prestige.Exalted	ABB:Skl	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Skylord	PREALIGN:LG,NG,CG	PRERACE:1,RACESUBTYPE=Elf	PREATT:7	PRESKILL:2,Handle Animal=10,Ride=10	PREFEAT:1,Mounted Combat	PREFEAT:1,Mounted Archery,Ride By Attack	PREFEAT:1,TYPE=Exalted	PRETEXT:must spend one week living and meditating atop a mountain.			
 CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE.Knowledge|Listen|Ride|Spot|Survival									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -345,7 +345,7 @@ SUBCLASSLEVEL:7	CAST:0,1
 SUBCLASSLEVEL:8	CAST:0,1,0										
 SUBCLASSLEVEL:9	CAST:0,1,0										
 SUBCLASSLEVEL:10	CAST:0,1,1										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Scent of Evil							
 2				ABILITY:Special Ability|AUTOMATIC|Basic Karash Favored Enemy|Stalker of Karash Favored Enemy			BONUS:VAR|StalkerOfKarashFavoredEnemyLVL|CL				
@@ -403,7 +403,7 @@ CLASS:Vassal of Bahamut	HD:10	TYPE:PC.Prestige.Exalted	ABB:VoB	MAXLEVEL:10	SOURC
 CLASS:Vassal of Bahamut	PREALIGN:LG	PREATT:7	PRESKILL:2,Craft (Armorsmithing)=5,Diplomacy=5	PREFEAT:2,Sacred Vow,Vow of Obedience	PRETEXT:must have single handedly slain a juvenile (or older) red dragon.						
 CLASS:Vassal of Bahamut	STARTSKILLPTS:2	CSKILL:Bluff|Craft (Armorsmithing)|Craft (Weaponsmithing)|Diplomacy|Heal|Intimidate|Knowledge (Nobility and Royalty)|Knowledge (Religion)|Ride|Sense Motive									
 CLASS:Vassal of Bahamut	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Vassal of Bahamut|CL						
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency									
 #											

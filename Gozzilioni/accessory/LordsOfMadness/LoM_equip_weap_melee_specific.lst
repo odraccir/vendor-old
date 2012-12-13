@@ -3,4 +3,4 @@ SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net
 #Silverspear	COST:8392																									
 																										
 # Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Silverspear		PROFICIENCY:WEAPON|Shortspear	TYPE:Enhancement.Weapon.Melee.Ranged.Thrown.Simple.Specific.Piercing.Spear	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS2W						SOURCEPAGE:LoM	RANGE:20						SPROP:Paralyzing|PRERACE:1,RACESUBTYPE=Grell	
+Silverspear		PROFICIENCY:WEAPON|Shortspear	TYPE:Enhancement.Weapon.Simple.Melee.Ranged.Specific.Piercing.OneHanded.Thrown.Spear	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS2W						SOURCEPAGE:LoM	RANGE:20						SPROP:Paralyzing|PRERACE:1,RACESUBTYPE=Grell	

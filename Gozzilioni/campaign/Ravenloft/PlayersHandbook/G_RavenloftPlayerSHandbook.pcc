@@ -19,6 +19,7 @@ ABILITY:RLPHB_abilities_region.lst
 CLASS:RLPHB_classes_prestige.lst
 SPELL:RLPHB_classes_spells.lst
 DEITY:RLPHB_deities.lst
+DOMAIN:RLPHB_domains.lst
 EQUIPMENT:RLPHB_equip.lst
 EQUIPMENT:RLPHB_equip_weap_melee.lst
 FEAT:RLPHB_feats.lst

@@ -122,7 +122,7 @@ CLASS:Master Vampire	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Diplomacy|
 CLASS:Tomb Warden	HD:12	TYPE:Prestige.Undead	ABB:Tow	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Tomb Warden			
 CLASS:Tomb Warden	PRERACE:1,RACETYPE=Undead	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:3	PRECHECKBASE:1,Will=5	PREFEAT:1,Toughness	PRETEXT:Must dedicate itself to the protection of a tomb, graveyard o similar resting place of the dead. Even undead creatures that normally don't advances by class level, can take the class if qualify.							
 CLASS:Tomb Warden	STARTSKILLPTS:4	CSKILL:Hide|Knowledge (Religion)|Listen|Move Silently|Search|Sense Motive|Spot											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Immunity to Turning									

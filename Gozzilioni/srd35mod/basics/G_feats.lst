@@ -4,7 +4,7 @@ Combat Casting.MOD	BONUS:SKILL|Concentration (Cast defensively)|4|TYPE=CombatCas
 Mobility.MOD	DESC:.CLEAR		DESC:You get a +%1 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area.|MobilityBonusAC	DEFINE:MobilityBonusAC|0	BONUS:VAR|MobilityBonusAC|4|TYPE=Base
 Dodge.MOD	DESC:.CLEAR		DESC:During your action, you designate an opponent and receive a +%1 dodge bonus to Armor Class against attacks from that opponent.|DodgeBonusAC	DEFINE:DodgeBonusAC|0	BONUS:VAR|DodgeBonusAC|1|TYPE=Base
 Endurance.MOD	DESC:.CLEAR	DESC:You gain a +%1 bonus on checks relating to stamina or extended physical activity. Also, you may sleep in light or medium armor without becoming fatigued.|EnduranceBonus	DEFINE:EnduranceBonus|0	BONUS:VAR|EnduranceBonus|4|TYPE=Base	
-Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus			
+Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus			
 Skill Focus.MOD		BONUS:SKILL|LIST|-3	BONUS:SKILL|LIST|3|TYPE=Focus		
 Quicken Spell Like Ability.MOD	STACK:NO	MULT:YES	CHOOSE:USERINPUT|TITLE="Quicken Spell-Like Ability"		
 Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=WeaponFocus			

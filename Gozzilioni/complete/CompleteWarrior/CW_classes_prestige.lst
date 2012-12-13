@@ -40,7 +40,7 @@ CLASS:Bladesinger	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Jump|Knowledge (A
 CLASS:Cavalier	HD:10	TYPE:Prestige	ABB:Cav	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Cavalier	PREALIGN:LG,LN,LE	PREATT:8	PRESKILL:2,Handle Animal=4,Knowledge (Nobility and Royalty)=4	PRESKILL:1,Ride=6	PREFEAT:4,Spirited Charge,Weapon Focus(Lance),Mounted Combat,Ride By Attack								
 CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowledge (Nobility and Royalty)|TYPE.Profession|Ride											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency											
 #													
@@ -153,7 +153,7 @@ CLASS:Frenzied Berserk	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Ride|Ride|Sw
 CLASS:Gnome Giant-Slayer	HD:10	TYPE:Prestige	ABB:Ggs	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Gnome Giant-Slayer	PREMULT:1,[PRERACE:1,Gnome%],[PRERACE:1,RACESUBTYPE=Gnome]	PREATT:5	PRESKILL:2,Escape Artist=3,Tumble=3	PRELANG:1,Giant	PREFEAT:3,Dodge,Mobility,Spring Attack								
 CLASS:Gnome Giant-Slayer	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Escape Artist|Hide|Intimidate|Jump|Move Silently|Tumble|Use Rope											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
 1		AUTO:FEAT|Shield Proficiency											
 #													
@@ -341,11 +341,11 @@ CLASS:Nature's Warrior	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate
 CLASS:Occult Slayer	HD:8	TYPE:Prestige	ABB:Osl	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Occult Slayer	PREATT:5	PRESKILL:1,Knowledge (Arcana)=4	PRESKILL:1,Spellcraft=3	PREFEAT:1,Improved Initiative	PREFEAT:1,CHECKMULT,Weapon Focus(TYPE=ANY)								
 CLASS:Occult Slayer	STARTSKILLPTS:2	CSKILL:Bluff|TYPE.Craft|Gather Information|Knowledge (Arcana)|TYPE.Profession|Sense Motive|Spellcraft											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency											
 #													
-1				ABILITY:Special Ability|AUTOMATIC|Magic Defense|Occult Slayer Magic Defense	ADD:ABILITY|Special Ability|VIRTUAL|Weapon Bond		BONUS:VAR|OccultSlayerMagicDefenseLVL|0						
+1				ABILITY:Special Ability|AUTOMATIC|Magic Defense|Occult Slayer Magic Defense	BONUS:ABILITYPOOL|Weapon Bond|1		BONUS:VAR|OccultSlayerMagicDefenseLVL|0						
 2				ABILITY:Special Ability|AUTOMATIC|Mind Over Magic|Occult Slayer Mind Over Magic|Viciuos Slayer			BONUS:VAR|OccultSlayerMindOverBodyLVL|CL						
 3				ABILITY:Special Ability|AUTOMATIC|Auravision									
 4				ABILITY:Special Ability|AUTOMATIC|Nondetection Cloak									
@@ -358,7 +358,7 @@ CLASS:Order of the Bow Initiate	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Knowledg
 1				ABILITY:Special Ability|AUTOMATIC|Ranged Precision|Order Bow Initiate Ranged Precision			BONUS:VAR|OrderBowInitiateRangedPrecisionLVL|CL						
 2				ABILITY:Special Ability|AUTOMATIC|Close Combat Shot									
 3													
-4			ADD:VFEAT|Greater Weapon Focus(TYPE=Bow)										
+4			ADD:VFEAT|Greater Weapon Focus(TYPE=Bow)	ABILITY:Special Ability|AUTOMATIC|Greater Weapon Focus Qualify									
 5													
 6			VFEAT:Sharp Shooting										
 7													
@@ -452,7 +452,7 @@ CLASS:Ronin	STARTSKILLPTS:2	CSKILL:Bluff|Disguise|Intimidate|Knowledge (History)
 10													
 #													
 CLASS:Spellsword	HD:8	TYPE:Prestige	ABB:Ssw	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
-CLASS:Spellsword	PREATT:4	PRESKILL:1,Knowledge (Arcana)=6	PREFEAT:5,Simple Weapon Proficiency,Martial Weapon Proficiency,Armor Proficiency (Light),Armor Proficiency (Medium),Armor Proficiency (Heavy)	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=2	PRETEXT:Must have defeated an foe through force of arms alone, without recourse to spellcasting							
+CLASS:Spellsword	PREATT:4	PRESKILL:1,Knowledge (Arcana)=6	PREFEAT:1,CHECKMULT,Simple Weapon Proficiency	PREFEAT:1,CHECKMULT,Martial Weapon Proficiency	PREFEAT:3|Armor Proficiency (Light),Armor Proficiency (Medium),Armor Proficiency (Heavy)	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=2	PRETEXT:Must have defeated an foe through force of arms alone, without recourse to spellcasting							
 CLASS:Spellsword	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Knowledge|Jump|TYPE.Profession|Spellcraft											
 #													
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Ignore Spell Failure|Spellsword Ignore Spell Failure			BONUS:VAR|SpellswordIgnoreSpellFailureLVL|CL						

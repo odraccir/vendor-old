@@ -46,7 +46,7 @@ CLASS:Scaled Horror	PRERACE:1,RACESUBTYPE=Aquatic,RACESUBTYPE=Reptilian	PREATT:5
 CLASS:Scaled Horror	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot|Survival|Swim									
 CLASS:Scaled Horror	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Scaled Horror|CL	SPELLLIST:1|Ranger					
 #											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
@@ -115,7 +115,7 @@ CLASS:Sybil	STARTSKILLPTS:6	CSKILL:Concentration|TYPE.Craft|Diplomacy|Gather Inf
 CLASS:Waverider	HD:10	TYPE:Monster.Prestige	ABB:Ips	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Waverider	PRERACE:1,RACETYPE=Fey,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Aquatic	PREATT:5	PRESKILL:1,Ride=6	PREFEAT:2,Mounted Archery,Mounted Combat	PRETEXT:Ride skill related to an aquatic animal					
 CLASS:Waverider	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Jump|TYPE=Profession|Ride									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											

@@ -4,15 +4,15 @@ SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net
 # Template Name	outputname	Visible	Source Page	Special Ability	NATURALATTACKS:	ABILITY:Special Ability|AUTOMATIC|	AUTO:LANG|	LANGBONUS:	VISION:							
 Aoa		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Aoa		ABILITY:Special Ability|AUTOMATIC|Aoa Traits			VISION:Darkvision (60')							
 Canomorph		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Canomorph		ABILITY:Special Ability|AUTOMATIC|Canomorph Traits			VISION:Darkvision (60')							
-Dark One		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Dark One	AUTO:LANG|Dark One,Undercommon	ABILITY:Special Ability|AUTOMATIC|Dark One Traits			VISION:Blindsight (60')							
+Dark One		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Dark One	AUTO:LANG|Dark One|Undercommon	ABILITY:Special Ability|AUTOMATIC|Dark One Traits			VISION:Blindsight (60')							
 Demodand		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Demodand			AUTO:LANG|Demodand									
 Maurezhi		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,Tanar'ri (Maurezhi)	HD:8-9:SR:20	HD:10-14:SR:21	HD:15-19:SR:22	HD:20+:SR:23	HD:8-9:CR:1	HD:10-14:CR:2	HD:15-19:CR:3	HD:20+:CR:4	HD:8-9:DR:10/Good	HD:10-14:DR:15/Good	HD:15-19:DR:15/Good	HD:20+:DR:15/Good and Magic
-Deva		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Deva		ABILITY:Special Ability|AUTOMATIC|Deva Traits	AUTO:LANG|Celestial,Draconic,Infernal									
+Deva		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Deva		ABILITY:Special Ability|AUTOMATIC|Deva Traits	AUTO:LANG|Celestial|Draconic|Infernal									
 Ethergaunt		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Ethergaunt		ABILITY:Special Ability|AUTOMATIC|Ethergaunt Traits	AUTO:LANG|Khen-Zai	LANGBONUS:Common,Draconic,Dwarven,Elven								
 Fensir		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Fensir	NATURALATTACKS:Thrown Rock,Weapon.Natural.Ranged.Thrown.Bludgeoning,*1,2d6	ABILITY:Special Ability|AUTOMATIC|Fensir Traits										
 Flame Snake		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Flame Snake		ABILITY:Special Ability|AUTOMATIC|Flame Snake Traits	AUTO:LANG|Ignan									
 Formian		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Formian		ABILITY:Special Ability|AUTOMATIC|Formian Traits										
-Nerra		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Nerra		ABILITY:Special Ability|AUTOMATIC|Nerra Traits	AUTO:LANG|Common,Nerra									
-Rilmani		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Rilmani		ABILITY:Special Ability|AUTOMATIC|Rilmani Traits	AUTO:LANG|Common,Rilmani,Undercommon									
+Nerra		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Nerra		ABILITY:Special Ability|AUTOMATIC|Nerra Traits	AUTO:LANG|Common|Nerra									
+Rilmani		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Rilmani		ABILITY:Special Ability|AUTOMATIC|Rilmani Traits	AUTO:LANG|Common|Rilmani|Undercommon									
 Sarkrith		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Sarkrith		ABILITY:Special Ability|AUTOMATIC|Sarkrith Traits										
 Varrangoin		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,RACESUBTYPE=Varrangoin		ABILITY:Special Ability|AUTOMATIC|Varrangoin Traits	AUTO:LANG|Varrangoin									

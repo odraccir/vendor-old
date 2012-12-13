@@ -62,7 +62,7 @@ CLASS:Divine Lightning	HD:8	TYPE:Prestige.Nephandum	ABB:Dil	MAXLEVEL:10	SOURCEPA
 CLASS:Divine Lightning	PREALIGN:LG,NG,CG	PREATT:6	PREFEAT:2,Extra Turning,Improved Turning	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=2							
 CLASS:Divine Lightning	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Heal|Jump|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Tumble						DEFINE:DivineHeatDie|0				
 #												
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
+1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
 #												
@@ -141,8 +141,7 @@ SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Enhanced Specialization ~ I
 10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Master of Illusions								
 #												
 CLASS:Dark Reaper	HD:10	TYPE:Prestige.Nephandum	ABB:DrR	MAXLEVEL:10	SOURCEPAGE:Nep	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-#CLASS:Dark Reaper	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:5	PRESKILL:1,Intimidate=8	PREFEAT:1,Weapon Specialization(Scythe)	PREFEAT:1,Improved Trip							
-CLASS:Dark Reaper	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:5	PRESKILL:1,Intimidate=8	PREFEAT:1,Weapon Specialization(Weapon Focus(Scythe))	PREFEAT:1,Improved Trip							
+CLASS:Dark Reaper	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:5	PRESKILL:1,Intimidate=8	PREFEAT:1,Weapon Specialization(Scythe)	PREFEAT:1,Improved Trip							
 CLASS:Dark Reaper	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Ride|Balance|Intimidate|Sense Motive|TYPE.Profession|Gather Information|Use Rope|Appraise										
 #												
 1		ABILITY:Special Ability|AUTOMATIC|Dark Reaper Level Advanced Feat Tracker					BONUS:VAR|DarkReaperLVL|CL					
@@ -181,7 +180,7 @@ CLASS:Darkened	HD:10	TYPE:Prestige.Nephandum	ABB:Drk	MAXLEVEL:10	SOURCEPAGE:Nep	
 CLASS:Darkened	PREATT:6	PRESKILL:1,Hide=5	PREFEAT:3,Blind Fight,Improved Feint,Stealthy	PRETEXT:Must have defeated a Shadow								
 CLASS:Darkened	STARTSKILLPTS:4	CSKILL:Tumble|TYPE.Craft|Escape Artist|Balance|Move Silently|Hide|Spot|Sleight of Hand										
 #												
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
+1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
 #												

@@ -30,7 +30,7 @@ CLASS:Ex Defiant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Informat
 CLASS:Doomlord	HD:12	TYPE:PC.Prestige	ABB:Doom	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Doomlord	PREATT:7	PREFEAT:1,Improved Sunder	PREFEAT:1,Weapon Focus	PRETEXT:must sunder a weapon, scatter 500 gp into a crowd and destroy a building.theese acts must be witnessed by a member of the Doomguard.							
 CLASS:Doomlord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Disable Device|Jump|Knowledge (Architecture and Engineering)|Listen|Spellcraft|Spot|Survival|Swim									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Entropic Blow|Doomlord Entropic Blow|Healing Resistance			BONUS:VAR|DoomlordEntropicBlowLVL|CL				
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Destructive Expertise|Doomlord Destructive Expertise			BONUS:ABILITYPOOL|Doomlord Feat|(CL+2)/4	BONUS:VAR|DoomlordDestructiveExpertiseLVL|CL			
@@ -114,7 +114,7 @@ CLASS:Cipher Adept	STARTSKILLPTS:2	CSKILL:Balance|Bluff|Concentration|Disable De
 CLASS:Chaotican	HD:10	TYPE:PC.Prestige	ABB:Chao	MAXLEVEL:5	SOURCEPAGE:PH	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Chaotican	PREATT:4	PRECHECKBASE:3,Fortitude=2,Reflex=2,Will=2	PREALIGN:CG,CN,CE								
 CLASS:Chaotican	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Decipher Script|Diplomacy|Forgery|Gather Information|Intimidate|TYPE.Knowledge|Search|Sense Motive|Spot|Use Magic Device									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
