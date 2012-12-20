@@ -412,7 +412,7 @@ CLASS:Vigilante	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Vi
 10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4										
 #												
 CLASS:Virtuoso	HD:6	TYPE:Prestige	ABB:Vir	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
-CLASS:Virtuoso	PRESTAT:1,TYPE.Perform=10	PRESKILL:2,Diplomacy=4,Intimidate=4	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1								
+CLASS:Virtuoso	PRESKILL:1,TYPE.Perform=10	PRESKILL:2,Diplomacy=4,Intimidate=4	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1								
 CLASS:Virtuoso	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Concentration|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Intimidate|Jump|TYPE.Perform|Spellcraft|Tumble										
 1				ABILITY:Special Ability|AUTOMATIC|Bardic Music			BONUS:VAR|BardicMusicLvl|CL	BONUS:VAR|BardicMusicTimes|CL				
 1				ABILITY:Special Ability|VIRTUAL|Bardic Fascinate|PREVARGTEQ:VirtuosoPerformanceLVL,1|PRESKILL:1,TYPE.Perform=3	ABILITY:Special Ability|AUTOMATIC|Virtuoso Performance		BONUS:VAR|VirtuosoPerformanceLVL|CL	BONUS:VAR|VirtuosoPerformanceTimes|CL				

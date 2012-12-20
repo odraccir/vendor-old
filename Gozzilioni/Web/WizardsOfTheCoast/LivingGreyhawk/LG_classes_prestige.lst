@@ -5,7 +5,7 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 # Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			
 # Class Name 4	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
 #(level number)	ADD:SPELLCASTER o CAST	ADD:FEAT Proficiencies	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
-CLASS:Avenger	HD:6	TYPE:Base.PC.Prestige	ABB:Ave	MAXLEVEL:10	SOURCEPAGE:LG	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
+CLASS:Avenger	HD:6	TYPE:PC.Prestige	ABB:Ave	MAXLEVEL:10	SOURCEPAGE:LG	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Avenger	PREALIGN:LG,LN,LE,NG,TN,NE	PRESKILL:1,Disguise=4	PRESKILL:2,Hide=8,Move Silently=8	PRETEXT:the character must have killed an enemy leader or champion in defense of his homeland or nation.								
 CLASS:Avenger	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope										
 CLASS:Avenger	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Avenger|CL							

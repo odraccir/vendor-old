@@ -48,5 +48,5 @@ Flame Snake Magma Spit	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light
 Winged Warrior Spike	TYPE:Natural.Ranged.Piercing.RangedPiercing.Light						
 Animate Eyeball	TYPE:Natural.Ranged.Unarmed.RangedTouch.Light						
 #							
-Aboleth Bite	TYPE:Simple.Melee.Unarmed.Bludgeoning						
+Aboleth Bite	TYPE:Natural.Melee.Unarmed.Bludgeoning						
 #
