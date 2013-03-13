@@ -5,7 +5,6 @@ SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net
 #Cancer Mage Armor Prof	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:BoVD
 																																
 # Ability Name																																
-#Cancer Mage Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageSneakAttackLVL|0					BONUS:VAR|SneakAttack|(CancerMageSneakAttackLVL+3)/4																		SOURCEPAGE:BoVD
 Typical	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES					!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass																								SOURCEPAGE:Nob
 Purebred	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES					!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass						BONUS:STAT|CHA|2																		SOURCEPAGE:Nob
 Exceptional	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES					!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass						BONUS:STAT|CHA|2									TEMPLATE:Exceptional Breed									SOURCEPAGE:Nob

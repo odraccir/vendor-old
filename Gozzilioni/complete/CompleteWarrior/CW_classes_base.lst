@@ -13,7 +13,7 @@ CLASS:Hexblade	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|I
 1				ABILITY:Special Ability|AUTOMATIC|Hexblade's Curse|Hexblade's Curse Level			BONUS:VAR|HexbladeCurseLevel|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Arcane Resistance							
 3				ABILITY:Special Ability|AUTOMATIC|Mettle (Ex)							
-4	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Summon Familiar			BONUS:VAR|FMLevel|CL-3				
+4	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Summon Familiar			BONUS:VAR|FamiliarLVL|CL-3				
 5	CAST:0,0	KNOWN:0,2					BONUS:ABILITYPOOL|Hexblade Feat|CL/5				
 6	CAST:0,1	KNOWN:0,3									
 7	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Greater Hexblade's Curse							
@@ -129,7 +129,7 @@ CLASS:Paladin CW	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handl
 2				ABILITY:Special Ability|AUTOMATIC|Divine Grace|Lay on Hands			BONUS:VAR|LayOnHandsLVL|CL				
 3				ABILITY:Special Ability|AUTOMATIC|Aura of Courage|Divine Health							
 4				ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead|Paladin CW Turn Undead			BONUS:VAR|PaladinCWTurnLVL|CL				
-5				ABILITY:Special Ability|AUTOMATIC|Special Mount			BONUS:VAR|SMLevel|CL				
+5				ABILITY:Special Ability|AUTOMATIC|Special Mount			BONUS:VAR|SpecialMountLVL|CL				
 6				ABILITY:Special Ability|AUTOMATIC|Remove Disease|Blessed Weapon			BONUS:VAR|RemoveDiseaseLVL|CL				
 7											
 8											

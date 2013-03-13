@@ -19,7 +19,7 @@ Boggle Rend	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VA
 Gambol Fear Aura	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FearAuraRadius|100	BONUS:VAR|FearAuraDC|10+(HD/2)+CHA																	SOURCEPAGE:MM2
 Gold Clockwork Horror	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|LightningBoltRange|40	BONUS:VAR|LightningBoltDamageDie|6																	SOURCEPAGE:MM2
 Julajimus Fear Aura	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FearAuraRadius|20	BONUS:VAR|FearAuraDC|10+(HD/2)+CHA																	SOURCEPAGE:MM2
-Kelvezu Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:KelvezuSneakAttackLVL|HD					BONUS:VAR|SneakAttack|(KelvezuSneakAttackLVL+2)/3*2																		SOURCEPAGE:MM2
+Kelvezu Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:KelvezuSneakAttackLVL|HD					BONUS:VAR|SneakAttackDice|(KelvezuSneakAttackLVL+2)/3*2																		SOURCEPAGE:MM2
 Lupinal Dodge Missiles	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|DodgeMissilesPerRound|3																		SOURCEPAGE:MM2
 Lupinal Fear Aura	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FearAuraRadius|600	BONUS:VAR|FearAuraDC|10+(HD/2)+CHA																	SOURCEPAGE:MM2
 Malebranche Fear Aura	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FearAuraDC|10+(HD/2)+CHA	BONUS:VAR|FearAuraRadius|15																	SOURCEPAGE:MM2

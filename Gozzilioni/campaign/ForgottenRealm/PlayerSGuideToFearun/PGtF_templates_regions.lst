@@ -2,7 +2,7 @@ SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzil
 				
 ###Block: Region				
 # Template Name	Visible	langauto	langbonus	region
-No Faerun Regiun	VISIBLE:NO			REGION:No Faerunian region
+No Faerun Region	VISIBLE:NO			REGION:No Faerunian region
 #				
 # Human Region A/B				
 Human Aglarond Region	VISIBLE:NO	AUTO:LANG|Aglarondan	LANGBONUS:Chessentan,Damaran,Draconic,Elven,Mulhorandi,Orc,Sylvan,Untheric	REGION:Aglarond

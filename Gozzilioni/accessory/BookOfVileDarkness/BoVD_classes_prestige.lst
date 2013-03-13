@@ -13,7 +13,7 @@ CLASS:Cancer Mage	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Disable 
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Cancer Mage Sneak Attack|Disease Host			BONUS:VAR|CancerMageSneakAttackLVL|CL				
-2				ABILITY:Special Ability|AUTOMATIC|Contagion (Sp/WIS)|Cancerous Companion			BONUS:VAR|ContagionPerDay|CL	BONUS:VAR|ContagionLVL|CL	BONUS:VAR|CaCLevel|CL		
+2				ABILITY:Special Ability|AUTOMATIC|Contagion (Sp/WIS)|Cancerous Companion			BONUS:VAR|ContagionPerDay|CL	BONUS:VAR|ContagionLVL|CL	BONUS:VAR|CancerousCompanionLVL|CL		
 3				ABILITY:Special Ability|AUTOMATIC|Tatterdemalion|Poison (Sp/WIS)			BONUS:VAR|PoisonPerDay|CL	BONUS:VAR|PoisonLVL|CL			
 4				ABILITY:Special Ability|AUTOMATIC|Children of the Night							
 5				ABILITY:Special Ability|AUTOMATIC|Viral Agent							
@@ -29,7 +29,7 @@ CLASS:Demonologist	PREALIGN:CE	PRESKILL:1,Knowledge (Arcana)=4	PRESKILL:1,Knowle
 CLASS:Demonologist	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Craft (Alchemy)|Decipher Script|Forgery|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Ride|Sense Motive|Spellcraft									
 CLASS:Demonologist	SPELLSTAT:CHA	SPELLTYPE:Arcane	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Demonologist|CL						
 1	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Charm Demon (Sp)			BONUS:VAR|CharmDemonPerDay|1	BONUS:VAR|CharmDemonLVL|CL			
-2	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Quasit Familiar			BONUS:VAR|QFLevel|CL				
+2	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Quasit Familiar			BONUS:VAR|QuasitFamiliarLVL|CL				
 3	CAST:0,2,1,1			ABILITY:Special Ability|AUTOMATIC|Summoning Mastery|Demonologist Summoning Mastery			BONUS:VAR|DemonologistSummoningMasteryLVL|CL				
 4	CAST:0,2,2,1,1			ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire			BONUS:VAR|AcidResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10	BONUS:VAR|FireResistanceBonus|10	BONUS:VAR|FireResistanceBonus|20	
 5	CAST:0,3,2,2,1			ABILITY:Special Ability|AUTOMATIC|Immunity To Poison							
@@ -44,7 +44,7 @@ CLASS:Diabolist	PREALIGN:LE	PRECHECKBASE:1,Will=5	PRESKILL:1,Bluff=3,Intimidate=
 #CLASS:Diabolist	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Scry|Spellcraft|Spot									
 CLASS:Diabolist	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Spellcraft|Spot									
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Diabolism|Diabolist Diabolism			BONUS:VAR|DiabolistDiabolismLVL|CL				
-2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Imp Familiar			BONUS:VAR|IFLevel|CL				
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Imp Familiar			BONUS:VAR|ImpFamiliarLVL|CL				
 3	ADD:SPELLCASTER|ANY										
 4	ADD:SPELLCASTER|ANY										
 5	ADD:SPELLCASTER|ANY										
@@ -264,15 +264,15 @@ CLASS:Vermin Lord	HD:6	TYPE:PC.Prestige.Vile	ABB:Vrm	MAXLEVEL:10	SOURCEPAGE:BoVD
 CLASS:Vermin Lord	PREALIGN:LE,NE,CE	PRESKILL:2,Hide=3,Move Silently=3	PRESKILL:1,Knowledge (Nature)=2	PREFEAT:1,Verminfriend	PRESPELL:1,Giant Vermin	PRETEXT:must be initiated by an intelligent evil creature with a physical resemblance to vermin.					
 #CLASS:Vermin Lord	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Knowledge (Nature)|Listen|Move Silently|Perform|Pick Pocket|Search|Spellcraft|Spot									
 CLASS:Vermin Lord	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Knowledge (Nature)|Listen|Move Silently|TYPE.Perform|Sleight of Hand|Search|Spellcraft|Spot									
-1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Chitin|Verminlord Chitin|Vermin Familiar			BONUS:VAR|VerminFamiliar|CL				
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Chitin|Verminlord Chitin|Vermin Familiar			BONUS:VAR|VerminFamiliarLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Blood Drain							
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spider Hand (Sp)			BONUS:VAR|SpiderHandPerDay|1	BONUS:VAR|SpiderHandLVL|CL			
 4				ABILITY:Special Ability|AUTOMATIC|Swarm Armor|Verminlord Swarm Armor			BONUS:VAR|VerminlordSwarmArmorLVL|CL				
-5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Wings of the Vermin|Vermin Familiar 2			BONUS:VAR|VerminFamiliar2|CL	BONUS:VAR|WingsOfTheVerminPerDay|1			
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Wings of the Vermin|Vermin Familiar 2			BONUS:VAR|VerminFamiliarLVL2|CL	BONUS:VAR|WingsOfTheVerminPerDay|1			
 6				ABILITY:Special Ability|AUTOMATIC|Spider Legs (Sp)			BONUS:VAR|SpiderLegsPerDay|1	BONUS:VAR|SpiderLegsLVL|CL+charbonusto("CASTERLEVEL","Vermin Lord")			
 7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spew Vermin (Sp)|Verminlord Spew Vermin			BONUS:VAR|VerminlordSpewVerminLVL|CL				
 8				ABILITY:Special Ability|AUTOMATIC|Poison			BONUS:VAR|PoisonDC|CL				
-9	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Vermin Familiar 3			BONUS:VAR|VerminFamiliar3|CL				
+9	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Vermin Familiar 3			BONUS:VAR|VerminFamiliarLVL3|CL				
 10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Hive Mind							
 #											
 CLASS:Warrior of Darkness	HD:10	TYPE:PC.Prestige	ABB:WoD	MAXLEVEL:10	SOURCEPAGE:BoVD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		

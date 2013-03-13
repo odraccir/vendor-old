@@ -24,7 +24,7 @@ CLASS:Alienist	HD:4	TYPE:PC.Prestige	ABB:Ali	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHE
 CLASS:Alienist	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:1,Knowledge (The Planes)=8	PREFEAT:1,Augment Summoning	PRESPELLSCHOOL:1,Summoning=3	PRETEXT:Must have peacfull contact with an alienist or a pseudonatural creature							
 CLASS:Alienist	STARTSKILLPTS:2	CSKILL:Concentration|Gather Information|TYPE.Knowledge|Listen|TYPE.Profession|Spellcraft|Spot										
 #												
-1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Summon Alien			BONUS:VAR|FMLevel|CL					
+1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Summon Alien			BONUS:VAR|FamiliarLVL|CL					
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Alien Blessing								
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Metamagic Secret			BONUS:ABILITYPOOL|Metamagic Feat|1					
 4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Mad Certainty								
@@ -53,7 +53,7 @@ CLASS:Blood Magus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Heal|Spe
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Scarification								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Death Knell (Sp)			BONUS:VAR|DeathKnellPerDay|1	BONUS:VAR|DeathKnellLVL|CL				
 4	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Blood Draught								
-5				ABILITY:Special Ability|AUTOMATIC|Homunculus			BONUS:VAR|HomLevel|CL-4					
+5				ABILITY:Special Ability|AUTOMATIC|Homunculus			BONUS:VAR|HomunculusLVL|CL-4					
 6	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Bloodseeking Spell								
 7	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Thicker than Water				DR:1/Bludgeoning				
 8	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Awaken Blood|Blood Magus Awaken Blood								

@@ -65,7 +65,9 @@ TEMPLATE:PGtF_templates_regions.lst
 TEMPLATE:PGtF_templates_types.lst
 #Player's Guide to Faerun Web Enhancement
 RACE:PGtF_races__phaerimm.lst
-CLASS:PGtF_classes_monster__phaerimm.lst#Underdark
+CLASS:PGtF_classes_monster__phaerimm.lst
+
+#Underdark
 FORWARDREF:SPELL|Amorphous Form,Mark of the Outcast,Clarity of Mind
 
 

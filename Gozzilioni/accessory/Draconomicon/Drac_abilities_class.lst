@@ -39,7 +39,7 @@ Dragonslayer Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						D
 Dragonslayer True Strike Dragons	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|TrueStrikeDragonsPerDay|1																		SOURCEPAGE:Drac
 Dragonsong Greater Dragonsong	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:GreaterDragonsongLVL|0					DEFINE:GreaterDragonsongDC|10+CHA+GreaterDragonsongLVL																		SOURCEPAGE:Drac
 Dragonstalker Hunting Bonus	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DragonstalkerHuntingBonusLVL|0					BONUS:VAR|HuntingBonus|DragonstalkerHuntingBonusLVL																		SOURCEPAGE:Drac
-Dragonstalker Dragons Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DragonstalkerDragonsSneakAttackLVL|0					BONUS:VAR|DragonsSneakAttack|((DragonstalkerDragonsSneakAttackLVL/2)*2)																		SOURCEPAGE:Drac
+Dragonstalker Dragons Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DragonstalkerDragonsSneakAttackLVL|0					BONUS:VAR|DragonsSneakAttackDice|((DragonstalkerDragonsSneakAttackLVL/2)*2)																		SOURCEPAGE:Drac
 Dragonstalker Ignore Natural Armor	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DragonstalkerIgnoreNaturalArmorLVL|0					BONUS:VAR|IgnoreNaturalArmorPerDay|(DragonstalkerIgnoreNaturalArmorLVL+1)/4																		SOURCEPAGE:Drac
 Dragonstalker Foil blindsense	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FoilBlindsensePerDay|1																		SOURCEPAGE:Drac
 Hoardstealer Trap Sense	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:HoardstealerTrapSenseLVL|0					BONUS:VAR|TrapSense|((HoardstealerTrapSenseLVL)/3)*2																		SOURCEPAGE:Drac

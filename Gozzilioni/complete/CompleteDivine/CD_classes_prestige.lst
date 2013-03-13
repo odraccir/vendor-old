@@ -5,13 +5,13 @@ SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net
 # Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	define class variables (DEFINE:variable|value	FINE						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)					
 CLASS:Black Flame Zealot	HD:6	TYPE:Prestige	ABB:Bfz	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
-#CLASS:Black Flame Zealot	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:3,Hide=8,Knowledge (Religion)=8,Move Silently=8	PREFEAT:2,Exotic Weapon Proficiency(Kukri),Iron Will	PREVARGTEQ:SneakAttack,1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Y	PRETEXT:Must slay an enemy of the fait for no other reason than joining the Order of the Black Flame							
-CLASS:Black Flame Zealot	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:3,Hide=8,Knowledge (Religion)=8,Move Silently=8	PREFEAT:2,Martial Weapon Proficiency(Kukri),Iron Will	PREVARGTEQ:SneakAttack,1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Y	PRETEXT:Must slay an enemy of the fait for no other reason than joining the Order of the Black Flame							
+#CLASS:Black Flame Zealot	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:3,Hide=8,Knowledge (Religion)=8,Move Silently=8	PREFEAT:2,Exotic Weapon Proficiency(Kukri),Iron Will	PREVARGTEQ:SneakAttackDice,1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Y	PRETEXT:Must slay an enemy of the fait for no other reason than joining the Order of the Black Flame							
+CLASS:Black Flame Zealot	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:3,Hide=8,Knowledge (Religion)=8,Move Silently=8	PREFEAT:2,Martial Weapon Proficiency(Kukri),Iron Will	PREVARGTEQ:SneakAttackDice,1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Y	PRETEXT:Must slay an enemy of the fait for no other reason than joining the Order of the Black Flame							
 CLASS:Black Flame Zealot	STARTSKILLPTS:4	CSKILL:Balance|Climb|Escape Artist|Hide|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|TYPE.Profession|Search|Sleight of Hand|Spellcraft|Spot|Swim|Tumble|Use Rope													
 #															
 1				ABILITY:Special Ability|AUTOMATIC|Zelous Hearth|Death Attack			BONUS:VAR|DeathAttack|CL								
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Poison Use											
-3							BONUS:VAR|SneakAttack|CL/3								
+3							BONUS:VAR|SneakAttackDice|CL/3								
 4	ADD:SPELLCASTER|Divine														
 5				ABILITY:Special Ability|AUTOMATIC|Fateful Stride|Black Flame Zealot Fateful Stride											
 6	ADD:SPELLCASTER|Divine														
@@ -173,7 +173,7 @@ CLASS:Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|H
 3	CAST:0,1,0			ABILITY:Special Ability|AUTOMATIC|Aura of Resolve											
 4	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Divine Grace|Break Enchantment|Holy Liberator Break Enchantment			BONUS:VAR|HolyLiberatorBreakEnchantmentLVL|CL								
 5	CAST:0,1,1,0														
-6	CAST:0,1,1,1			ABILITY:Special Ability|AUTOMATIC|Celestial Companion			BONUS:VAR|CcLevel|CL								
+6	CAST:0,1,1,1			ABILITY:Special Ability|AUTOMATIC|Celestial Companion			BONUS:VAR|CelestialCompanionLVL|CL								
 7	CAST:0,2,1,1,0														
 8	CAST:0,2,1,1,1														
 9	CAST:0,2,2,1,1														

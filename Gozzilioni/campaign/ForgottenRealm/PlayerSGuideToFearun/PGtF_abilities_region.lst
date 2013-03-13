@@ -1,9 +1,8 @@
 SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																														
 																																
-###Block: Rogue Special Abilities																																
+#
+Faerunian Generic Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Faerunian Generic Region															TEMPLATE:No Faerun Region													SOURCEPAGE:PGtF
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
-Faerunian Region	CATEGORY:Regional	TYPE:Regional	VISIBLE:YES								BONUS:ABILITYPOOL|Faerun Region|1								COST:0													SOURCEPAGE:PGtF
-#																																
 Human Aglarond Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Aglarond		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Aglarond Region													SOURCEPAGE:PGtF
 Human Altumbel Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Altumbel		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Altumbel Region													SOURCEPAGE:PGtF
 Human Amn Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Amn		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Amn Region													SOURCEPAGE:PGtF

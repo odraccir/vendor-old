@@ -44,7 +44,7 @@ CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowled
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency											
 #													
-1				ABILITY:Special Ability|AUTOMATIC|Special Mount|Mounted Weapon Bonus|Cavalier Mounted Weapon Bonus Lance	ABILITY:Special Ability|AUTOMATIC|Ride Bonus|Cavalier Ride Bonus|Courtly Knowledge		BONUS:VAR|SMLevel|CL	BONUS:VAR|CavalierMountedLanceLVL|CL	BONUS:VAR|CavalierRideBonusLVL|CL	BONUS:VAR|CourtlyKnowledgeBonus|CL			
+1				ABILITY:Special Ability|AUTOMATIC|Special Mount|Mounted Weapon Bonus|Cavalier Mounted Weapon Bonus Lance	ABILITY:Special Ability|AUTOMATIC|Ride Bonus|Cavalier Ride Bonus|Courtly Knowledge		BONUS:VAR|SpecialMountLVL|CL	BONUS:VAR|CavalierMountedLanceLVL|CL	BONUS:VAR|CavalierRideBonusLVL|CL	BONUS:VAR|CourtlyKnowledgeBonus|CL			
 2				ABILITY:Special Ability|AUTOMATIC|Cavalier Mounted Weapon Bonus Sword|Deadly Charge			BONUS:VAR|CavalierMountedSwordLVL|CL	BONUS:VAR|DeadlyChargePerDay|CL/2					
 3				ABILITY:Special Ability|AUTOMATIC|Burst of Speed									
 4													
@@ -170,7 +170,7 @@ CLASS:Gnome Giant-Slayer	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Escape Artist|H
 #													
 CLASS:Halfling Outrider	HD:8	TYPE:Prestige	ABB:Hfo	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Halfling Outrider	PREMULT:1,[PRERACE:1,Halfling%],[PRERACE:1,RACESUBTYPE=Halfling]	PREATT:5	PRESKILL:2,Listen=3,Spot=3	PRESKILL:1,Ride=6	PREFEAT:2,Mounted Combat,Mounted Archery								
-CLASS:Halfling Outrider	STARTSKILLPTS:4	CSKILL:Handle Animal|Listen|Ride|Spot|Survival						DEFINE:SMLevel|0	DEFINE:CompLevel|0				
+CLASS:Halfling Outrider	STARTSKILLPTS:4	CSKILL:Handle Animal|Listen|Ride|Spot|Survival						DEFINE:SpecialMountLVL|0	DEFINE:AnimalCompanionLVL|0				
 #													
 1			VFEAT:Alertness	ABILITY:Special Ability|AUTOMATIC|Outrider AC Bonus|Outrider Mount|Ride Bonus			BONUS:VAR|OutriderACBonusLVL|CL	BONUS:VAR|OutriderMountLVL|CL	BONUS:VAR|RideBonus|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Defensive Riding									

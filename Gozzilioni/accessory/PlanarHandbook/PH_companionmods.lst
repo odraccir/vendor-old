@@ -1,20 +1,12 @@
 SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net																								
 																																	
-#FOLLOWER:FMLevel=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Empathic Link				COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES																						
-#FOLLOWER:FMLevel=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion																		DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	RACETYPE:Magical Beast								
-#FOLLOWER:FMLevel=3	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells																			DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
-#FOLLOWER:FMLevel=5	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master																				DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
-#FOLLOWER:FMLevel=7	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind																				DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE							
-#FOLLOWER:FMLevel=9	TYPE:Familiar																															DEFINE:LOCK.INT|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
-#FOLLOWER:FMLevel=11	TYPE:Familiar	SR:16																														DEFINE:LOCK.INT|11	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
-#
 ###Block:Familiar
-FOLLOWER:FMLevel=1	TYPE:Familiar						BONUS:ABILITYPOOL|Planar Familiar|1|PREMULT:2,[PREVARGTEQ:PlanarFamiliar,1],[PRERACE:1,RACETYPE=Animal]
+FOLLOWER:FamiliarLVL=1	TYPE:Familiar						BONUS:ABILITYPOOL|Planar Familiar|1|PREMULT:2,[PREVARGTEQ:PlanarFamiliar,1],[PRERACE:1,RACETYPE=Animal]
 #																									
 ###Block:Special Mount
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type																		
-FOLLOWER:SMLevel=6	TYPE:Special Mount						ABILITY:Special Ability|AUTOMATIC|Celestial Mount ~ Mount
+FOLLOWER:SpecialMountLVL=6	TYPE:Special Mount						ABILITY:Special Ability|AUTOMATIC|Celestial Mount ~ Mount
 #																																	
 ###Block:Animal Companion
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type																		
-FOLLOWER:CompLevel=1	TYPE:Special Mount						BONUS:ABILITYPOOL|Planar Animal Companion|1|PREVARGTEQ:PlanarAnimalCompanion,1
+FOLLOWER:AnimalCompanionLVL=1	TYPE:Special Mount						BONUS:ABILITYPOOL|Planar Animal Companion|1|PREVARGTEQ:PlanarAnimalCompanion,1

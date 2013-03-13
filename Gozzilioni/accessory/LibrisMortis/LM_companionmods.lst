@@ -2,41 +2,41 @@ SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net
 																	
 ###Block:Familiar																	
 # Class of the Master	Type	Spell Res.	Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Special ABility					Define	Combat bonus	Main Race Type			
-FOLLOWER:SFFLevel=1	TYPE:StitchedFamiliar		COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	ABILITY:Special Ability|AUTOMATIC|Empathic Link										
-FOLLOWER:SFFLevel=1	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion					DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			RACETYPE:Magical Beast
-FOLLOWER:SFFLevel=3	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells					DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=5	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Speak with Master					DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=7	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind					DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=9	TYPE:StitchedFamiliar											DEFINE:LOCK.INT|10		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=11	TYPE:StitchedFamiliar	SR:16										DEFINE:LOCK.INT|11		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=12	TYPE:StitchedFamiliar	SR:17															
-FOLLOWER:SFFLevel=13	TYPE:StitchedFamiliar	SR:18					ABILITY:Special Ability|AUTOMATIC|Scry on Familiar					DEFINE:LOCK.INT|12		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=14	TYPE:StitchedFamiliar	SR:19															
-FOLLOWER:SFFLevel=15	TYPE:StitchedFamiliar	SR:20										DEFINE:LOCK.INT|13		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=16	TYPE:StitchedFamiliar	SR:21															
-FOLLOWER:SFFLevel=17	TYPE:StitchedFamiliar	SR:22										DEFINE:LOCK.INT|14		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=18	TYPE:StitchedFamiliar	SR:23															
-FOLLOWER:SFFLevel=19	TYPE:StitchedFamiliar	SR:24										DEFINE:LOCK.INT|15		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
-FOLLOWER:SFFLevel=20	TYPE:StitchedFamiliar	SR:25															
+FOLLOWER:StitchedFleshFamiliarLVL=1	TYPE:StitchedFamiliar		COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	ABILITY:Special Ability|AUTOMATIC|Empathic Link										
+FOLLOWER:StitchedFleshFamiliarLVL=1	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Share Spells|Improved Evasion					DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			RACETYPE:Magical Beast
+FOLLOWER:StitchedFleshFamiliarLVL=3	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells					DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=5	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Speak with Master					DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=7	TYPE:StitchedFamiliar						ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind					DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=9	TYPE:StitchedFamiliar											DEFINE:LOCK.INT|10		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=11	TYPE:StitchedFamiliar	SR:16										DEFINE:LOCK.INT|11		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=12	TYPE:StitchedFamiliar	SR:17															
+FOLLOWER:StitchedFleshFamiliarLVL=13	TYPE:StitchedFamiliar	SR:18					ABILITY:Special Ability|AUTOMATIC|Scry on Familiar					DEFINE:LOCK.INT|12		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=14	TYPE:StitchedFamiliar	SR:19															
+FOLLOWER:StitchedFleshFamiliarLVL=15	TYPE:StitchedFamiliar	SR:20										DEFINE:LOCK.INT|13		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=16	TYPE:StitchedFamiliar	SR:21															
+FOLLOWER:StitchedFleshFamiliarLVL=17	TYPE:StitchedFamiliar	SR:22										DEFINE:LOCK.INT|14		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=18	TYPE:StitchedFamiliar	SR:23															
+FOLLOWER:StitchedFleshFamiliarLVL=19	TYPE:StitchedFamiliar	SR:24										DEFINE:LOCK.INT|15		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE			
+FOLLOWER:StitchedFleshFamiliarLVL=20	TYPE:StitchedFamiliar	SR:25															
 																	
 ###Block: Specific Familiars																	
 # Class of the Master	Type			Required Race			Apply Kit					Special ABility		Add			
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Raven															
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Bat	KIT:1|Bat Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Cat	KIT:1|Cat Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Hawk	KIT:1|Hawk Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Lizard	KIT:1|Lizard Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Owl	KIT:1|Owl Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Rat	KIT:1|Rat Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Raven	KIT:1|Raven Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Snake (Viper/Tiny)	KIT:1|Snake Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Toad	KIT:1|Toad Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Weasel	KIT:1|Weasel Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Raven															
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Bat	KIT:1|Bat Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Cat	KIT:1|Cat Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Hawk	KIT:1|Hawk Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Lizard	KIT:1|Lizard Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Owl	KIT:1|Owl Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Rat	KIT:1|Rat Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Raven	KIT:1|Raven Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Snake (Viper/Tiny)	KIT:1|Snake Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Toad	KIT:1|Toad Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Weasel	KIT:1|Weasel Familiar	TEMPLATE:Stitched Flesh Familiar													
 																	
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Shocker Lizard	KIT:1|Shocker Lizard Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Stirge	KIT:1|Stirge Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Formian (Worker)	KIT:1|Formian (Worker) Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Devil (Imp)	KIT:1|Devil (Imp) Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Pseudodragon	KIT:1|Pseudodragon Familiar	TEMPLATE:Stitched Flesh Familiar													
-FOLLOWER:FMLevel=1	TYPE:StitchedFamiliar	PRERACE:1,Demon (Quasit)	KIT:1|Demon (Quasit) Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Shocker Lizard	KIT:1|Shocker Lizard Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Stirge	KIT:1|Stirge Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Formian (Worker)	KIT:1|Formian (Worker) Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Devil (Imp)	KIT:1|Devil (Imp) Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Pseudodragon	KIT:1|Pseudodragon Familiar	TEMPLATE:Stitched Flesh Familiar													
+FOLLOWER:FamiliarLVL=1	TYPE:StitchedFamiliar	PRERACE:1,Demon (Quasit)	KIT:1|Demon (Quasit) Familiar	TEMPLATE:Stitched Flesh Familiar													
 #																	

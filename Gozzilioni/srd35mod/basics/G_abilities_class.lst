@@ -30,8 +30,6 @@ CATEGORY=Special Ability|Special Mount.MOD	COMPANIONLIST:.CLEAR	COMPANIONLIST:Sp
 #
 Energon Trait	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Do not speack even among themselves.															ABILITY:Special Ability|AUTOMATIC|Explosion|Energy Ray	VISION:Darkvision (60')												SOURCEPAGE:MotP
 #
-No region	CATEGORY:Regional	TYPE:Regional	VISIBLE:YES				!PREABILITY:1,CATEGORY=Regional,ANY												COST:0													SOURCEPAGE:PGtF	
-#																																	
 Red Dragon Pact	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+4 racial bonus to Diplomacy checks when dealing with Red Dragons.																												SOURCEPAGE:MM	
 Yuan Ti Pureblood Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+5 racial bonus on Disguise checks when impersonating a human.																												SOURCEPAGE:MM	
 Yuan Ti Abomination Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Can take 10 on Climb checks even when rushed or threatened.+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check.																												SOURCEPAGE:MM	

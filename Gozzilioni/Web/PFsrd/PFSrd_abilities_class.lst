@@ -1,0 +1,9 @@
+SOURCELONG:Pathfinder Srd	SOURCESHORT:PFSrd	SOURCEWEB:https://sites.google.com/site/pathfinderogc																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Special Ability|Flight Maneuverability.MOD														BONUS:SKILL|Fly|4*(Maneuverability-3)|TYPE=FlyingManeuverability									CSKILL:Fly									
+Godling Adept Shield Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:SHIELDPROF|SHIELDTYPE=Buckler																												
+																																
+# Ability Name																																
+#Ninja AC	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:NinjaAC|0	DEFINE:NinjaACLVL|0				BONUS:COMBAT|AC|max(WIS,0)+NinjaAC|PREVAREQ:ENCUMBERANCE,0,var("COUNT[EQTYPE.ARMOR.EQUIPPED]"),0	BONUS:VAR|NinjaAC|(NinjaACLVL)/5																	SOURCEPAGE:CAd

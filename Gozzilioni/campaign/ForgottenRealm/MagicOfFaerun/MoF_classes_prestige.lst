@@ -95,7 +95,7 @@ CLASS:Mystic Wanderer	HD:8	TYPE:PC.Prestige	ABB:Myw	MAXLEVEL:10	SOURCEPAGE:MoF	B
 CLASS:Mystic Wanderer	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:2,Craft (Alchemy)=3,Knowledge (Nature)=3	PRESKILL:1,TYPE.Perform=3	PRESKILL:1,Profession (Herbalist)=3	PREFEAT:1,Iron Will	PRESPELLTYPE:1,Divine=2					
 CLASS:Mystic Wanderer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|TYPE.Perform|Spellcraft									
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Glory of the Divine|Sleep (Sp)			BONUS:VAR|SleepPerDay|1	BONUS:VAR|SleepLVL|CL			
-2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Summon Familiar|Lore of Nature			BONUS:VAR|FMLevel|CL				
+2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Summon Familiar|Lore of Nature			BONUS:VAR|FamiliarLVL|CL				
 3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Gem Magic|Resistance To Charm							
 4	ADD:SPELLCASTER|Divine		AUTO:FEAT|Brew Potion								
 5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Suggestion (Sp)			BONUS:VAR|SuggestionPerDay|1	BONUS:VAR|SuggestionLVL|CL			

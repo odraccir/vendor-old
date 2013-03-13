@@ -50,7 +50,7 @@ CLASS:Beloved of Valarian	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELL
 1		AUTO:FEAT|Armor Proficiency (Light)									
 1		ABILITY:Special Ability|AUTOMATIC|Beloved Valarian Shield Proficiency									
 #											
-1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Call Unicorn|Timelessness			BONUS:VAR|CULevel|CL				
+1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Call Unicorn|Timelessness			BONUS:VAR|UnicornMountLVL|CL				
 2	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Ethereal Jaunt (Sp)			BONUS:VAR|EtherealJauntPerDay|1	BONUS:VAR|EtherealJauntLVL|CL			
 3	CAST:0,1,0			ABILITY:Special Ability|AUTOMATIC|Forest Dweller							
 4	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base			BONUS:VAR|UncannyDodgeLevel|1	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.STACK			
@@ -294,7 +294,7 @@ CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE.Knowledge|L
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
-1				ABILITY:Special Ability|AUTOMATIC|Call Flying Mount|Eyes of the Eagle			BONUS:VAR|FlMLevel|CL				
+1				ABILITY:Special Ability|AUTOMATIC|Call Flying Mount|Eyes of the Eagle			BONUS:VAR|FlyingMountLVL|CL				
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Ride the Wind EXD							
 3				ABILITY:Special Ability|AUTOMATIC|Improved Mounted Combat|Skylord Improved Mounted Combat			BONUS:VAR|SkylordImprovedMountedCombatLVL|CL				
 4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Deadly Charge ~ attack|Skylord Deadly Charge ~ attack							
@@ -306,7 +306,7 @@ CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE.Knowledge|L
 10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Summon Tempest|Skylord Summon Tempest							
 #											
 CLASS:Slayer of Domiel	HD:6	TYPE:PC.Prestige.Exalted	ABB:SoD	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
-CLASS:Slayer of Domiel	PREALIGN:LG	PRESKILL:2,Hide=8,Move Silently=8	PREFEAT:2,Sanctify Martial Strike,Servant of the Heavens	PREABILITY:2,CATEGORY=Special Ability,Sneak Attack,Evasion	PREVARGTEQ:SneakAttack,3						
+CLASS:Slayer of Domiel	PREALIGN:LG	PRESKILL:2,Hide=8,Move Silently=8	PREFEAT:2,Sanctify Martial Strike,Servant of the Heavens	PREABILITY:2,CATEGORY=Special Ability,Sneak Attack,Evasion	PREVARGTEQ:SneakAttackDice,3						
 CLASS:Slayer of Domiel	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Spot|Tumble|Use Magic Device|Use Rope									
 CLASS:Slayer of Domiel	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Slayer of Domiel|CL						
 1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Death Touch ~ evil|Slayer of Domiel Death Touch|Detect Evil|Sneak Attack|Slayer of Domiel Sneak Attack			BONUS:VAR|SlayerOfDomielDeathTouchLVL|0	BONUS:VAR|DetectEvilLVL|CL			

@@ -2,7 +2,7 @@ SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net/
 																
 ###Block:Familiar																
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type	
-FOLLOWER:AberrantFMLevel=1	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1										RACETYPE:Aberration	VISION:Darkvision (60')
-FOLLOWER:AberrantFMLevel=4	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1											
-FOLLOWER:AberrantFMLevel=7	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1											
-FOLLOWER:AberrantFMLevel=10	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1											
+FOLLOWER:AberrantFamiliarLVL=1	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1										RACETYPE:Aberration	VISION:Darkvision (60')
+FOLLOWER:AberrantFamiliarLVL=4	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1											
+FOLLOWER:AberrantFamiliarLVL=7	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1											
+FOLLOWER:AberrantFamiliarLVL=10	TYPE:Familiar				BONUS:ABILITYPOOL|Abberrant Familiar|1											
