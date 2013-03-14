@@ -52,16 +52,6 @@ PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/G_Darkness_Dread.pcc
 PCC:&/Gozzilioni/third_party/FantasyFlight/SeafarerSHandbook/G_Seafarer_S_Handbook.pcc
 PCC:&/Gozzilioni/third_party/Mongoose/SeasOfBlood/G_Seas_Of_Blood.pcc
 PCC:&/Gozzilioni/third_party/NecromancerGames/TomeOfHorror/G_necromancergames_tomeofhorror.pcc
-#Web
-PCC:&/Gozzilioni/Web/DandDWiki/G_DandDWiki.pcc
-PCC:&/Gozzilioni/Web/Pandius/G_Pandius.pcc
-PCC:&/Gozzilioni/Web/Physics/G_Physics.pcc
-PCC:&/Gozzilioni/Web/WizardsOfTheCoast/Adv-Cooking/G_Adv_Cooking.pcc
-PCC:&/Gozzilioni/Web/WizardsOfTheCoast/Adv-OldRockTower/G_OldRockTower.pcc
-PCC:&/Gozzilioni/Web/WizardsOfTheCoast/LivingGreyhawk/G_LivingGrayhawk.pcc
-PCC:&/Gozzilioni/Web/WizardsOfTheCoast/MonsterMayehm/G_MonsterMayehm.pcc
-PCC:&/Gozzilioni/Web/WizardsOfTheCoast/RandomEncounter/G_random_encounter.pcc
-PCC:&/Gozzilioni/Web/PFsrd/G_PFSrd.pcc
 #Forgotten Realms
 PCC:&/Gozzilioni/campaign/ForgottenRealm/PlayerSGuideToFearun/G_PlayerSGuideToFaerun.pcc
 PCC:&/Gozzilioni/campaign/ForgottenRealm/MagicOfFaerun/G_magicoffaerun.pcc
@@ -73,6 +63,17 @@ PCC:&/Gozzilioni/campaign/Nephandum/CreatureDelTerrore/G_CreatureDelTerrore.pcc
 PCC:&/Gozzilioni/campaign/Ravenloft/PlayersHandbook/G_RavenloftPlayerSHandbook.pcc
 PCC:&/Gozzilioni/campaign/Ravenloft/DungeonMasterSGuide/G_RavenloftDungeonMasterSGuide.pcc
 PCC:&/Gozzilioni/campaign/Ravenloft/ChampionsOfDarkness/G_ChampionsOfDarkness.pcc
+#Web
+PCC:&/Gozzilioni/Web/DandDWiki/G_DandDWiki.pcc
+PCC:&/Gozzilioni/Web/Pandius/G_Pandius.pcc
+PCC:&/Gozzilioni/Web/Physics/G_Physics.pcc
+PCC:&/Gozzilioni/Web/WizardsOfTheCoast/Adv-Cooking/G_Adv_Cooking.pcc
+PCC:&/Gozzilioni/Web/WizardsOfTheCoast/Adv-OldRockTower/G_OldRockTower.pcc
+PCC:&/Gozzilioni/Web/WizardsOfTheCoast/LivingGreyhawk/G_LivingGrayhawk.pcc
+PCC:&/Gozzilioni/Web/WizardsOfTheCoast/MonsterMayehm/G_MonsterMayehm.pcc
+PCC:&/Gozzilioni/Web/WizardsOfTheCoast/RandomEncounter/G_random_encounter.pcc
+PCC:&/Gozzilioni/Web/PFsrd/G_PFSrd.pcc
+
 #
 #HIDDENFEATTYPES:
 
