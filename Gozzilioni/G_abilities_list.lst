@@ -1434,7 +1434,7 @@ Bloodline Arcana ~ Verdant	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:
 Skill Focus ~ Fly	CATEGORY:FEAT	TYPE:BloodlineFeatDraconic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Fly)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Craft	CATEGORY:FEAT	TYPE:BloodlineFeatProtean	VISIBLE:DISPLAY												STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE=Craft	SELECT:1	AUTO:FEAT|Skill Focus(%LIST)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Intimidate	CATEGORY:FEAT	TYPE:BloodlineFeatBoreal	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Intimidate)													SOURCEPAGE:PFSrd			
-Skill Focus ~ Knowledge Arcana	CATEGORY:FEAT	TYPE:BloodlineFeatArcane.BllodlineFeatDraconic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (Arcane))													SOURCEPAGE:PFSrd			
+Skill Focus ~ Knowledge Arcana	CATEGORY:FEAT	TYPE:BloodlineFeatArcane.BllodlineFeatDraconic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (Arcana))													SOURCEPAGE:PFSrd			
 Skill Focus ~ Knowledge Dungeoneering	CATEGORY:FEAT	TYPE:BloodlineFeatAberrant	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (Dungeoneering))													SOURCEPAGE:PFSrd			
 Skill Focus ~ Knowledge History	CATEGORY:FEAT	TYPE:BloodlineFeatDestined	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (History))													SOURCEPAGE:PFSrd			
 Skill Focus ~ Knowledge Nature	CATEGORY:FEAT	TYPE:BloodlineFeatFey.BloodlineFeatVerdant	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (Nature))													SOURCEPAGE:PFSrd			
