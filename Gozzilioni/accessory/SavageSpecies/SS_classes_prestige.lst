@@ -50,7 +50,7 @@ CLASS:Scaled Horror	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL
 1		AUTO:FEAT|Armor Proficiency (Light)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
-1	CAST:0			ABILITY:Special Ability|AUTOMATIC|Improved Grab|Keen Scent							
+1	CAST:0			ABILITY:Special Ability|AUTOMATIC|Improved Grab|Keen Scent	BONUS:VAR|KeenScentRange|180|TYPE=Base	BONUS:VAR|KeenScentBloodRadius|1|TYPE=Base 						
 2	CAST:1			ABILITY:Special Ability|AUTOMATIC|Freedom of Movement							
 3	CAST:1,0										
 4	CAST:1,1			ABILITY:Special Ability|AUTOMATIC|Scaled Horror DR			BONUS:VAR|ScaledHorrorDRLVL|CL				
@@ -119,7 +119,7 @@ CLASS:Waverider	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Jump|T
 1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
 1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
 #											
-1				ABILITY:Special Ability|AUTOMATIC|Mounted Weapon Bonus|Waverider Mounted Weapon Bonus Trident|Waverider Mounted Weapon Bonus Javelin|Trident Charge|Waverider Mount			BONUS:VAR|WaveriderMountedTridentLVL|CL	BONUS:VAR|WaveriderMountedJavelinLVL|CL	BONUS:VAR|WRLevel|TL	BONUS:VAR|WRClassLevel|CL	
+1				ABILITY:Special Ability|AUTOMATIC|Mounted Weapon Bonus|Waverider Mounted Weapon Bonus Trident|Waverider Mounted Weapon Bonus Javelin|Trident Charge|Waverider Mount			BONUS:VAR|WaveriderMountedTridentLVL|CL	BONUS:VAR|WaveriderMountedJavelinLVL|CL	BONUS:VAR|WaveriderMountLVL|TL	BONUS:VAR|WaveriderMountClassLVL|CL	
 2				ABILITY:Special Ability|AUTOMATIC|Ride Bonus|Waverider Ride Bonus							
 3				ABILITY:Special Ability|AUTOMATIC|Breach							
 4				ABILITY:Special Ability|AUTOMATIC|Sound							

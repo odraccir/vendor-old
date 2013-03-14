@@ -57,7 +57,7 @@ SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Wolflord Wild Aspect
 SUBCLASSLEVEL:4									SPELLS:Speak with Wolves|TIMES=1|CASTERLEVEL=classlevel("Wolflord")|Speak with Animals			
 SUBCLASSLEVEL:5									SPELLS:Summon Wolves|TIMES=1|CASTERLEVEL=classlevel("Wolflord")|Summon Nature's Ally V			
 SUBCLASSLEVEL:7									SPELLS:Wolves Growth|TIMES=1|CASTERLEVEL=classlevel("Wolflord")|Animal Growth			
-1				ABILITY:Special Ability|AUTOMATIC|Animal Bond|Wild Empathy			BONUS:VAR|WildEmpathy,CompLevel|CL					
+1				ABILITY:Special Ability|AUTOMATIC|Animal Bond|Wild Empathy			BONUS:VAR|WildEmpathy,AnimalCompanionLVL|CL					
 2					VISION:Low-Light		BONUS:ABILITYPOOL|Animal Lord First Totem|1					
 3				ABILITY:Special Ability|AUTOMATIC|Wild Aspect|Animal Lord Wild Aspect			BONUS:VAR|AnimalLordWildAspectLVL|CL					
 4												
@@ -74,11 +74,11 @@ CLASS:Beastmaster	STARTSKILLPTS:4	CSKILL:Climb|Handle Animal|Heal|Hide|Jump|Know
 1				ABILITY:Special Ability|AUTOMATIC|Animal Companion|Beastmaster Animal Companion|Wild Empathy			BONUS:VAR|WildEmpathy|CL	BONUS:VAR|BeastmasterAnimalCompanionLVL|CL				
 2			VFEAT:Alertness									
 3				ABILITY:Special Ability|AUTOMATIC|Speak with Animals (Sp)			BONUS:VAR|SpeakWithAnimalsTimes|CL/3	BONUS:VAR|SpeakWithAnimalsLVL|CL				
-4				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 1				BONUS:VAR|ExtraCompLevel1|CL				
+4				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 1				BONUS:VAR|AnimalCompanionLVL1|CL				
 5				VISION:Low-Light								
-7				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 2				BONUS:VAR|ExtraCompLevel2|CL				
+7				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 2				BONUS:VAR|AnimalCompanionLVL2|CL				
 8				ABILITY:Special Ability|AUTOMATIC|Scent								
-10				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 3				BONUS:VAR|ExtraCompLevel3|CL				
+10				ABILITY:Special Ability|AUTOMATIC|Extra Animal Companion 3				BONUS:VAR|AnimalCompanionLVL3|CL				
 #												
 CLASS:Bloodhound	HD:10	TYPE:Prestige	ABB:Blo	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Bloodhound	PREATT:4	PRESKILL:3,Gather Information=4,Move Silently=4,Survival=4	PREFEAT:2,Endurance,Track									
@@ -435,9 +435,9 @@ CLASS:Wild Plains Outrider	STARTSKILLPTS:4	CSKILL:Balance|Handle Animal|Jump|Kno
 SUBCLASS:Wild Plains Outrider ~ Ranger Animal companion	COST:0	PREABILITY:1,CATEGORY=Special Ability,Animal Companion	PRECLASS:1,Ranger=1									
 SUBCLASSLEVEL:1			BONUS:VAR|RangerAnimalCompLVL|CL									
 SUBCLASS:Wild Plains Outrider ~ Druid Animal companion	COST:0	PREABILITY:1,CATEGORY=Special Ability,Animal Companion	PRECLASS:1,Druid=1									
-SUBCLASSLEVEL:1			BONUS:VAR|CompLevel|CL									
+SUBCLASSLEVEL:1			BONUS:VAR|AnimalCompanionLVL|CL									
 SUBCLASS:Wild Plains Outrider ~ Special mount	COST:0	PREABILITY:1,CATEGORY=Special Ability,Special Mount	PRECLASS:1,Paladin=1									
-SUBCLASSLEVEL:1			BONUS:VAR|SMLevel|CL									
+SUBCLASSLEVEL:1			BONUS:VAR|SpecialMountLVL|CL									
 1				ABILITY:Special Ability|AUTOMATIC|Ride Bonus|Handle Animal Bonus|Wild Plains Outrider Ride Bonus|Wild Plains Stalker			BONUS:VAR|WildPlainsOutriderRideLVL|CL					
-2				ABILITY:Special Ability|AUTOMATIC|Wild Plains Swiftness			BONUS:VAR|WildPlainsSwiftness|CL					
+2				ABILITY:Special Ability|AUTOMATIC|Wild Plains Swiftness			BONUS:VAR|WildPlainsSwiftnessLVL|CL					
 3				ABILITY:Special Ability|AUTOMATIC|Wild Plain Offensive								

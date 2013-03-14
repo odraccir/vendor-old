@@ -21,23 +21,23 @@ CLASS:Amethist Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Di
 6														
 9									DR:5/Magic	DEFINE:DragonAge|2				
 12										DEFINE:DragonAge|3				
-15	ADD:SPELLCASTER|1|Kineticist			ABILITY:Special Ability|AUTOMATIC|Stomp						DEFINE:DragonAge|4				
-17	BONUS:PCLEVEL|Kineticist|1													
-18	BONUS:PCLEVEL|Kineticist|1							SR:19		DEFINE:DragonAge|5				
-20	BONUS:PCLEVEL|Kineticist|1													
-21	BONUS:PCLEVEL|Kineticist|1			ABILITY:Special Ability|AUTOMATIC|Explosive Gem|Dragon Amethyst Explosive Gem			BONUS:VAR|DragonAmethistExplosiveGemLVL|CL	SR:21		DEFINE:DragonAge|6			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Invisibility,13+CHA	
-23	BONUS:PCLEVEL|Kineticist|1													
-24	BONUS:PCLEVEL|Kineticist|1							SR:22	DR:10/Magic	DEFINE:DragonAge|7				
-26	BONUS:PCLEVEL|Kineticist|1													
-27	BONUS:PCLEVEL|Kineticist|1			ABILITY:Special Ability|AUTOMATIC|Body Equilibrum|Dragon Amethyst Body Equilibrium				SR:24		DEFINE:DragonAge|8				
-29	BONUS:PCLEVEL|Kineticist|1													
-30	BONUS:PCLEVEL|Kineticist|1							SR:25	DR:15/Magic	DEFINE:DragonAge|9				
-32	BONUS:PCLEVEL|Kineticist|1													
-33	BONUS:PCLEVEL|Kineticist|1							SR:27		DEFINE:DragonAge|10			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Suggestion,13+CHA	
-35	BONUS:PCLEVEL|Kineticist|1													
-36	BONUS:PCLEVEL|Kineticist|1							SR:29	DR:20/Magic	DEFINE:DragonAge|11				
-38	BONUS:PCLEVEL|Kineticist|1													
-39	BONUS:PCLEVEL|Kineticist|1			ABILITY:Special Ability|AUTOMATIC|Amethyst Telekinesis|Dragon Amethyst Amethyst Telekinesis				SR:31		DEFINE:DragonAge|12				
+15	ADD:SPELLCASTER|1|Psion.Kineticist[Psychokinesis]			ABILITY:Special Ability|AUTOMATIC|Stomp						DEFINE:DragonAge|4				
+17	BONUS:PCLEVEL|Psion|1													
+18	BONUS:PCLEVEL|Psion|1							SR:19		DEFINE:DragonAge|5				
+20	BONUS:PCLEVEL|Psion|1													
+21	BONUS:PCLEVEL|Psion|1			ABILITY:Special Ability|AUTOMATIC|Explosive Gem|Dragon Amethyst Explosive Gem			BONUS:VAR|DragonAmethistExplosiveGemLVL|CL	SR:21		DEFINE:DragonAge|6			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Invisibility,13+CHA	
+23	BONUS:PCLEVEL|Psion|1													
+24	BONUS:PCLEVEL|Psion|1							SR:22	DR:10/Magic	DEFINE:DragonAge|7				
+26	BONUS:PCLEVEL|Psion|1													
+27	BONUS:PCLEVEL|Psion|1			ABILITY:Special Ability|AUTOMATIC|Body Equilibrum|Dragon Amethyst Body Equilibrium				SR:24		DEFINE:DragonAge|8				
+29	BONUS:PCLEVEL|Psion|1													
+30	BONUS:PCLEVEL|Psion|1							SR:25	DR:15/Magic	DEFINE:DragonAge|9				
+32	BONUS:PCLEVEL|Psion|1													
+33	BONUS:PCLEVEL|Psion|1							SR:27		DEFINE:DragonAge|10			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Suggestion,13+CHA	
+35	BONUS:PCLEVEL|Psion|1													
+36	BONUS:PCLEVEL|Psion|1							SR:29	DR:20/Magic	DEFINE:DragonAge|11				
+38	BONUS:PCLEVEL|Psion|1													
+39	BONUS:PCLEVEL|Psion|1			ABILITY:Special Ability|AUTOMATIC|Amethyst Telekinesis|Dragon Amethyst Amethyst Telekinesis				SR:31		DEFINE:DragonAge|12				
 #														
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	FINE			
 # Class Name req	Requirements	FINE												
@@ -62,19 +62,19 @@ CLASS:Crystal Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Dip
 11										DEFINE:DragonAge|3				
 14										DEFINE:DragonAge|4				
 17									DR:5/Magic	DEFINE:DragonAge|5				
-20	ADD:SPELLCASTER|1|Telepath	BONUS:PCLEVEL|Telepath|4								DEFINE:DragonAge|6			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Charm Person,11+CHA	
-22	BONUS:PCLEVEL|Telepath|1													
-23	BONUS:PCLEVEL|Telepath|1								DR:10/Magic	DEFINE:DragonAge|7				
-25	BONUS:PCLEVEL|Telepath|1													
-26	BONUS:PCLEVEL|Telepath|1									DEFINE:DragonAge|8			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Color Spray,11+CHA	
-28	BONUS:PCLEVEL|Telepath|1													
-29	BONUS:PCLEVEL|Telepath|1								DR:15/Magic	DEFINE:DragonAge|9				
-31	BONUS:PCLEVEL|Telepath|1													
-32	BONUS:PCLEVEL|Telepath|1									DEFINE:DragonAge|10			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Dominate Person,15+CHA	
-34	BONUS:PCLEVEL|Telepath|1													
-35	BONUS:PCLEVEL|Telepath|1								DR:15/Magic	DEFINE:DragonAge|11				
-37	BONUS:PCLEVEL|Telepath|1													
-38	BONUS:PCLEVEL|Telepath|1									DEFINE:DragonAge|12			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Control Winds,15+CHA	
+20	ADD:SPELLCASTER|1|Psion.Telepath[Telepathy]	BONUS:PCLEVEL|Psion|4								DEFINE:DragonAge|6			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Charm Person,11+CHA	
+22	BONUS:PCLEVEL|Psion|1													
+23	BONUS:PCLEVEL|Psion|1								DR:10/Magic	DEFINE:DragonAge|7				
+25	BONUS:PCLEVEL|Psion|1													
+26	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|8			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Color Spray,11+CHA	
+28	BONUS:PCLEVEL|Psion|1													
+29	BONUS:PCLEVEL|Psion|1								DR:15/Magic	DEFINE:DragonAge|9				
+31	BONUS:PCLEVEL|Psion|1													
+32	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|10			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Dominate Person,15+CHA	
+34	BONUS:PCLEVEL|Psion|1													
+35	BONUS:PCLEVEL|Psion|1								DR:15/Magic	DEFINE:DragonAge|11				
+37	BONUS:PCLEVEL|Psion|1													
+38	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|12			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Control Winds,15+CHA	
 #														
 CLASS:Emerald Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					
 CLASS:Emerald Dragon	PRERACE:1,Dragon (Emerald%	PRERACETYPE:Dragon												
@@ -92,25 +92,25 @@ CLASS:Emerald Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Dip
 1				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic						DEFINE:DragonAge|1				
 6													SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DragonCL|Object Reading,12+CHA	
 9										DEFINE:DragonAge|2				
-12	ADD:SPELLCASTER|1|Seer									DEFINE:DragonAge|3			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Invisibility (Greater),15+CHA	
-14	BONUS:PCLEVEL|Seer|1													
-15	BONUS:PCLEVEL|Seer|1									DEFINE:DragonAge|4			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Fog Cloud,15+CHA	
-17	BONUS:PCLEVEL|Seer|1													
-18	BONUS:PCLEVEL|Seer|1								DR:5/Magic	DEFINE:DragonAge|5				
-20	BONUS:PCLEVEL|Seer|1													
-21	BONUS:PCLEVEL|Seer|1									DEFINE:DragonAge|6			SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DragonCL|Legend Lore,15+CHA	
-23	BONUS:PCLEVEL|Seer|1													
-24	BONUS:PCLEVEL|Seer|1								DR:10/Magic	DEFINE:DragonAge|7				
-26	BONUS:PCLEVEL|Seer|1													
-27	BONUS:PCLEVEL|Seer|1									DEFINE:DragonAge|8			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Nondetection,13+CHA	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Clairaudience/Clairvoyance,13+CHA
-29	BONUS:PCLEVEL|Seer|1													
-30	BONUS:PCLEVEL|Seer|1								DR:15/Magic	DEFINE:DragonAge|9				
-32	BONUS:PCLEVEL|Seer|1													
-33	BONUS:PCLEVEL|Seer|1									DEFINE:DragonAge|10			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Control Sound,12+CHA	
-35	BONUS:PCLEVEL|Seer|1													
-36	BONUS:PCLEVEL|Seer|1								DR:20/Magic	DEFINE:DragonAge|11				
-38	BONUS:PCLEVEL|Seer|1													
-39	BONUS:PCLEVEL|Seer|1			ABILITY:Special Ability|AUTOMATIC|Shield of Prudence|Dragon Emerald Shield Of Prudence						DEFINE:DragonAge|12				
+12	ADD:SPELLCASTER|1|Psion.Seer[Clairsentience]									DEFINE:DragonAge|3			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Invisibility (Greater),15+CHA	
+14	BONUS:PCLEVEL|Psion|1													
+15	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|4			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Fog Cloud,15+CHA	
+17	BONUS:PCLEVEL|Psion|1													
+18	BONUS:PCLEVEL|Psion|1								DR:5/Magic	DEFINE:DragonAge|5				
+20	BONUS:PCLEVEL|Psion|1													
+21	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|6			SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DragonCL|Legend Lore,15+CHA	
+23	BONUS:PCLEVEL|Psion|1													
+24	BONUS:PCLEVEL|Psion|1								DR:10/Magic	DEFINE:DragonAge|7				
+26	BONUS:PCLEVEL|Psion|1													
+27	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|8			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Nondetection,13+CHA	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Clairaudience/Clairvoyance,13+CHA
+29	BONUS:PCLEVEL|Psion|1													
+30	BONUS:PCLEVEL|Psion|1								DR:15/Magic	DEFINE:DragonAge|9				
+32	BONUS:PCLEVEL|Psion|1													
+33	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|10			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Control Sound,12+CHA	
+35	BONUS:PCLEVEL|Psion|1													
+36	BONUS:PCLEVEL|Psion|1								DR:20/Magic	DEFINE:DragonAge|11				
+38	BONUS:PCLEVEL|Psion|1													
+39	BONUS:PCLEVEL|Psion|1			ABILITY:Special Ability|AUTOMATIC|Shield of Prudence|Dragon Emerald Shield Of Prudence						DEFINE:DragonAge|12				
 #														
 CLASS:Sapphire Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					
 CLASS:Sapphire Dragon	PRERACE:1,Dragon (Sapphire%	PRERACETYPE:Dragon												
@@ -128,25 +128,25 @@ CLASS:Sapphire Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Di
 1				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity	ABILITY:Special Ability|AUTOMATIC|Spider Climb					DEFINE:DragonAge|1				
 5										DEFINE:DragonAge|2				
 8										DEFINE:DragonAge|3				
-11	ADD:SPELLCASTER|1|Nomad									DEFINE:DragonAge|4				
-13	BONUS:PCLEVEL|Nomad|1													
-14	BONUS:PCLEVEL|Nomad|1			ABILITY:Special Ability|AUTOMATIC|Sense Psychoportation						DEFINE:DragonAge|5				
-16	BONUS:PCLEVEL|Nomad|1													
-17	BONUS:PCLEVEL|Nomad|1								DR:5/Magic	DEFINE:DragonAge|6				
-19	BONUS:PCLEVEL|Nomad|1													
-20	BONUS:PCLEVEL|Nomad|1									DEFINE:DragonAge|7			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Skate,11+CHA	SPELLS:Innate|TIMES=2|CASTERLEVEL=DragonCL|Stone Shape,14+CHA
-22	BONUS:PCLEVEL|Nomad|1													
-23	BONUS:PCLEVEL|Nomad|1								DR:10/Magic	DEFINE:DragonAge|8				
-25	BONUS:PCLEVEL|Nomad|1													
-26	BONUS:PCLEVEL|Nomad|1									DEFINE:DragonAge|9			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Teleport,15+CHA	
-28	BONUS:PCLEVEL|Nomad|1													
-29	BONUS:PCLEVEL|Nomad|1								DR:15/Magic	DEFINE:DragonAge|10				
-31	BONUS:PCLEVEL|Nomad|1													
-32	BONUS:PCLEVEL|Nomad|1									DEFINE:DragonAge|11			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Wall of Stone,15+CHA	
-34	BONUS:PCLEVEL|Nomad|1													
-35	BONUS:PCLEVEL|Nomad|1								DR:20/Magic	DEFINE:DragonAge|12				
-37	BONUS:PCLEVEL|Nomad|1													
-38	BONUS:PCLEVEL|Nomad|1												SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Move Earth,16+CHA	
+11	ADD:SPELLCASTER|1|Psion.Nomad[Psychoportation]									DEFINE:DragonAge|4				
+13	BONUS:PCLEVEL|Psion|1													
+14	BONUS:PCLEVEL|Psion|1			ABILITY:Special Ability|AUTOMATIC|Sense Psychoportation						DEFINE:DragonAge|5				
+16	BONUS:PCLEVEL|Psion|1													
+17	BONUS:PCLEVEL|Psion|1								DR:5/Magic	DEFINE:DragonAge|6				
+19	BONUS:PCLEVEL|Psion|1													
+20	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|7			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Skate,11+CHA	SPELLS:Innate|TIMES=2|CASTERLEVEL=DragonCL|Stone Shape,14+CHA
+22	BONUS:PCLEVEL|Psion|1													
+23	BONUS:PCLEVEL|Psion|1								DR:10/Magic	DEFINE:DragonAge|8				
+25	BONUS:PCLEVEL|Psion|1													
+26	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|9			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Teleport,15+CHA	
+28	BONUS:PCLEVEL|Psion|1													
+29	BONUS:PCLEVEL|Psion|1								DR:15/Magic	DEFINE:DragonAge|10				
+31	BONUS:PCLEVEL|Psion|1													
+32	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|11			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Wall of Stone,15+CHA	
+34	BONUS:PCLEVEL|Psion|1													
+35	BONUS:PCLEVEL|Psion|1								DR:20/Magic	DEFINE:DragonAge|12				
+37	BONUS:PCLEVEL|Psion|1													
+38	BONUS:PCLEVEL|Psion|1												SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Move Earth,16+CHA	
 #														
 CLASS:Topaz Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					
 CLASS:Topaz Dragon	PRERACE:1,Dragon (Topaz%	PRERACETYPE:Dragon												
@@ -165,23 +165,23 @@ CLASS:Topaz Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Diplo
 7										DEFINE:DragonAge|2				
 10										DEFINE:DragonAge|3				
 13										DEFINE:DragonAge|4				
-16	ADD:SPELLCASTER|1|Egoist	BONUS:PCLEVEL|Egoist|2								DEFINE:DragonAge|5			SPELLS:Innate|TIMES=2|CASTERLEVEL=DragonCL|Feather Fall,11+CHA	
-18	BONUS:PCLEVEL|Egoist|1													
-19	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|6				
-21	BONUS:PCLEVEL|Egoist|1													
-22	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|7			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Fog Cloud,12+CHA	
-24	BONUS:PCLEVEL|Egoist|1													
-25	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|8				
-27	BONUS:PCLEVEL|Egoist|1													
-28	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|9			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Control Air,12+CHA	
-30	BONUS:PCLEVEL|Egoist|1													
-31	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|10				
-33	BONUS:PCLEVEL|Egoist|1													
-34	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|11			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Control Weather,17+CHA	
-36	BONUS:PCLEVEL|Egoist|1													
-37	BONUS:PCLEVEL|Egoist|1									DEFINE:DragonAge|12				
-39	BONUS:PCLEVEL|Egoist|1													
-40	BONUS:PCLEVEL|Egoist|1												SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Shapechange,19+CHA	
+16	ADD:SPELLCASTER|1|Psion.Egoist[Psychometabolism]	BONUS:PCLEVEL|Psion|2								DEFINE:DragonAge|5			SPELLS:Innate|TIMES=2|CASTERLEVEL=DragonCL|Feather Fall,11+CHA	
+18	BONUS:PCLEVEL|Psion|1													
+19	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|6				
+21	BONUS:PCLEVEL|Psion|1													
+22	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|7			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Fog Cloud,12+CHA	
+24	BONUS:PCLEVEL|Psion|1													
+25	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|8				
+27	BONUS:PCLEVEL|Psion|1													
+28	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|9			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Control Air,12+CHA	
+30	BONUS:PCLEVEL|Psion|1													
+31	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|10				
+33	BONUS:PCLEVEL|Psion|1													
+34	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|11			SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonCL|Control Weather,17+CHA	
+36	BONUS:PCLEVEL|Psion|1													
+37	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|12				
+39	BONUS:PCLEVEL|Psion|1													
+40	BONUS:PCLEVEL|Psion|1												SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Shapechange,19+CHA	
 #														
 CLASS:Grey Linnorm	HD:12	TYPE:Monster		MAXLEVEL:18	SOURCEPAGE:MM2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					
 CLASS:Grey Linnorm	PRERACE:1,Linnorm (Grey)	PRERACETYPE:Dragon												

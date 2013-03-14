@@ -275,7 +275,7 @@ SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL
 SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
 SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
 ###Block: Normal Progression																																							
-SUBSTITUTIONLEVEL:1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Nature Sense|Animal Companion|Wild Empathy|Spontaneous casting - Rejuvenating				BONUS:VAR|WildEmpathy|CL	BONUS:VAR|CompLevel|CL
+SUBSTITUTIONLEVEL:1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Nature Sense|Animal Companion|Wild Empathy|Spontaneous casting - Rejuvenating				BONUS:VAR|WildEmpathy|CL	BONUS:VAR|AnimalCompanionLVL|CL
 #																																							
 SUBSTITUTIONCLASS:Shapeshift																																							
 ###Block:Proficiencies																																							
@@ -310,7 +310,7 @@ SUBSTITUTIONLEVEL:16	BONUS:ABILITYPOOL|Fighter Feat|-1			ABILITY:Special Ability
 #																																							
 CLASS:Hexblade.MOD																																							
 SUBSTITUTIONCLASS:Dark Companion																																							
-SUBSTITUTIONLEVEL:4	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Dark Companion			BONUS:VAR|DCLevel|CL-3																																
+SUBSTITUTIONLEVEL:4	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Dark Companion			BONUS:VAR|DarkCompanionLVL|CL-3																																
 #																																							
 CLASS:Marshal.MOD																																							
 # non usata.																																							

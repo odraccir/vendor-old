@@ -177,7 +177,7 @@ CLASS:Dracolyte	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Heal|Jump|K
 2	ADD:SPELLCASTER|Divine										
 3	ADD:SPELLCASTER|Divine		VFEAT:Alertness								
 4	ADD:SPELLCASTER|Divine										
-5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Foster Dragon			BONUS:VAR|FosterDragon|1				
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Foster Dragon			BONUS:VAR|FosterDragonLVL|1				
 6	ADD:SPELLCASTER|Divine										
 7	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Paralysis							
 8	ADD:SPELLCASTER|Divine										
@@ -190,7 +190,7 @@ CLASS:Ex Dracolyte	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Heal|Jum
 2	ADD:SPELLCASTER|Divine										
 3	ADD:SPELLCASTER|Divine		VFEAT:Alertness								
 4	ADD:SPELLCASTER|Divine										
-5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Foster Dragon			BONUS:VAR|FosterDragon|1				
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Foster Dragon			BONUS:VAR|FosterDragonLVL|1				
 6	ADD:SPELLCASTER|Divine										
 7	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Paralysis							
 8	ADD:SPELLCASTER|Divine										

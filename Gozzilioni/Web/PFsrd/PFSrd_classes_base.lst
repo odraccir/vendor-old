@@ -1,0 +1,165 @@
+SOURCELONG:Pathfinder Srd	SOURCESHORT:PFSrd	SOURCEWEB:https://sites.google.com/site/pathfinderogc										
+#												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			
+# Class Name 4	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
+#(level number)	ADD:SPELLCASTER o CAST	ADD:FEAT Proficiencies	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Druid.MOD	CSKILL:Fly											
+CLASS:Sorcerer.MOD	CSKILL:Fly											
+CLASS:Wizard.MOD	CSKILL:Fly											
+#												
+###TODO: CONTIGUOUS:Sorcerer												
+CLASS:Sorcerer Bloodline	HD:6	TYPE:Base.PC	ABB:BSor	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		SERVESAS:CLASS|Sorcerer	
+#CLASS:Sorcerer Bloodline												
+CLASS:Sorcerer Bloodline	STARTSKILLPTS:2	CSKILL:Appraise|Bluff|TYPE.Craft|Fly|Intimidate|Knowledge (Arcana)|TYPE.Profession|Spellcraft|Use Magic Device										
+CLASS:Sorcerer Bloodline	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Sorcerer Bloodline|CL	SPELLLIST:Sorcerer						
+#												
+1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies									
+###Block: Bloodline												
+1	BONUS:VAR|BloodlineLVL|CL	ABILITY:Special Ability|AUTOMATIC|Sorcerer Bloodline										
+#												
+1	CAST:0,3	KNOWN:4,2	AUTO:FEAT|Eschew Material									
+2	CAST:0,4	KNOWN:5,2										
+3	CAST:0,5	KNOWN:5,3										
+4	CAST:0,6,3	KNOWN:6,3,1										
+5	CAST:0,6,4	KNOWN:6,4,2										
+6	CAST:0,6,5,3	KNOWN:7,4,2,1										
+7	CAST:0,6,6,4	KNOWN:7,5,3,2										
+8	CAST:0,6,6,5,3	KNOWN:8,5,3,2,1										
+9	CAST:0,6,6,6,4	KNOWN:8,5,4,3,2										
+10	CAST:0,6,6,6,5,3	KNOWN:9,5,4,3,2,1										
+11	CAST:0,6,6,6,6,4	KNOWN:9,5,5,4,3,2										
+12	CAST:0,6,6,6,6,5,3	KNOWN:9,5,5,4,3,2,1										
+13	CAST:0,6,6,6,6,6,4	KNOWN:9,5,5,4,4,3,2										
+14	CAST:0,6,6,6,6,6,5,3	KNOWN:9,5,5,4,4,3,2,1										
+15	CAST:0,6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,4,3,2										
+16	CAST:0,6,6,6,6,6,6,5,3	KNOWN:9,5,5,4,4,4,3,2,1										
+17	CAST:0,6,6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,4,3,3,2										
+18	CAST:0,6,6,6,6,6,6,6,5,3	KNOWN:9,5,5,4,4,4,3,3,2,1										
+19	CAST:0,6,6,6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,4,3,3,3,2										
+20	CAST:0,6,6,6,6,6,6,6,6,5	KNOWN:9,5,5,4,4,4,3,3,3,3										
+#												
+CLASS:Godling Adept	HD:8	TYPE:Base.PC.Godling	ABB:AGod	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
+#CLASS:Godling Adept												
+CLASS:Godling Adept	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Fly|Intimidate|TYPE.Knowledge|Speak Language|Spot|Listen|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Sleight of Hand|Spellcraft|Move Silently|Tumble|Use Magic Device										
+CLASS:Godling Adept	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Godling Adept|CL	DEFINE:GodlingLVL|0	DEFINE:GodlingAdeptLVL|0					
+1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies									
+1		AUTO:FEAT|Armor Proficiency (Light)	ABILITY:Special Ability|AUTOMATIC|Godling Adept Shield Proficiency									
+#												
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Choatic Ascendancy											
+1	PROHIBITSPELL:ALIGNMENT.Good|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Evil Ascendancy											
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Good Ascendancy											
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Lawful Ascendancy											
+#												
+1	CAST:0,1	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Choose Godling Spells|Godling Ascendancy			BONUS:ABILITYPOOL|Minor Ascendancy|1	BONUS:VAR|GodlingAscendancyLVL|CL	BONUS:VAR|GodlingLVL|CL|TYPE=Base	BONUS:VAR|GodlingAdeptLVL|CL|TYPE=Base		
+2	CAST:0,2	KNOWN:5,3		ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+3	CAST:0,3	KNOWN:6,4		ABILITY:Special Ability|AUTOMATIC|Godling Divine Trait			BONUS:ABILITYPOOL|Godling Divine Trait|1		BONUS:VAR|GodlingDivineTraitLVL|CL			
+4	CAST:0,3,1	KNOWN:6,4,2										
+5	CAST:0,4,2	KNOWN:6,4,3					BONUS:ABILITYPOOL|Minor Ascendancy|1					
+6	CAST:0,4,3	KNOWN:6,4,4										
+7	CAST:0,4,3,1	KNOWN:6,5,4,2					BONUS:ABILITYPOOL|Godling Divine Trait|2					
+8	CAST:0,4,4,2	KNOWN:6,5,4,3										
+9	CAST:0,5,4,3	KNOWN:6,5,4,4					BONUS:ABILITYPOOL|Minor Ascendancy|1					
+10	CAST:0,5,4,3,1	KNOWN:6,5,5,4,2										
+11	CAST:0,5,4,4,2	KNOWN:6,6,5,4,3					BONUS:ABILITYPOOL|Godling Divine Trait|3					
+12	CAST:0,5,5,4,3	KNOWN:6,6,5,4,4										
+13	CAST:0,5,5,4,3,1	KNOWN:6,6,5,5,4,2					BONUS:ABILITYPOOL|Major Ascendancy|1					
+14	CAST:0,5,5,4,4,2	KNOWN:6,6,6,5,4,3										
+15	CAST:0,5,5,5,4,3	KNOWN:6,6,6,5,4,4					BONUS:ABILITYPOOL|Godling Divine Trait|4					
+16	CAST:0,5,5,5,4,3,1	KNOWN:6,6,6,5,5,4,2										
+17	CAST:0,5,5,5,4,4,2	KNOWN:6,6,6,6,5,4,3					BONUS:ABILITYPOOL|Major Ascendancy|1					
+18	CAST:0,5,5,5,5,4,3	KNOWN:6,6,6,6,5,4,4										
+19	CAST:0,5,5,5,5,5,4	KNOWN:6,6,6,6,5,5,4					BONUS:ABILITYPOOL|Godling Divine Trait|5					
+20	CAST:0,5,5,5,5,5,5	KNOWN:6,6,6,6,6,5,5		TEMPLATE:Divine Rank|Divine Rank (1)								
+#												
+CLASS:Godling Clever	HD:8	TYPE:Base.PC.Godling	ABB:CGod	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
+#CLASS:Godling Clever												
+CLASS:Godling Clever	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|TYPE.Craft|Diplomacy|Disable Device|Disguise|Escape Artist|Handle Animal|Heal|Knowledge (Dungeoneering)|Knowledge (Architecture and Engineering)|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|Spot|Listen|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Sleight of Hand|Spellcraft|Move Silently|Tumble|Use Magic Device				DEFINE:GodlingLVL|0	DEFINE:GodlingCleverLVL|0					
+#												
+1		AUTO:FEAT|Martial Weapon Proficiency Output|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+1		AUTO:FEAT|Shield Proficiency										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Lineage Domain					BONUS:VAR|GodlingLVL|CL|TYPE=Base	BONUS:VAR|GodlingCleverLVL|CL|TYPE=Base		
+2				ABILITY:Special Ability|AUTOMATIC|Godling Divine Trait			BONUS:ABILITYPOOL|Godling Divine Trait|1					
+3							BONUS:ABILITYPOOL|Scion Talent|1					
+4							BONUS:FEAT|POOL|1					
+5							BONUS:ABILITYPOOL|Scion Talent|1					
+6							BONUS:ABILITYPOOL|Godling Divine Trait|2					
+7							BONUS:ABILITYPOOL|Scion Talent|1					
+8				ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+9							BONUS:ABILITYPOOL|Scion Talent|1					
+10							BONUS:ABILITYPOOL|Godling Divine Trait|3					
+11							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+12							BONUS:FEAT|POOL|1					
+13							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+14							BONUS:ABILITYPOOL|Godling Divine Trait|4					
+15							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+16				ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+17							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+18							BONUS:ABILITYPOOL|Godling Divine Trait|5					
+19							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+20				TEMPLATE:Divine Rank|Divine Rank (1)								
+#												
+CLASS:Godling Eldritch	HD:6	TYPE:Base.PC.Godling	ABB:EGod	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+#CLASS:Godling Eldritch												
+CLASS:Godling Eldritch	STARTSKILLPTS:2	CSKILL:Appraise|TYPE.Craft|Fly|Intimidate|Knowledge (Arcana)|Knowledge (History)|Knowledge (The Planes)|Knowledge (Religion)|Speak Language|TYPE.Profession|Spellcraft										
+CLASS:Godling Eldritch	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Godling Eldritch|CL	DEFINE:GodlingLVL|0	DEFINE:GodlingEldritchLVL|0					
+1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies									
+#												
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Choatic Ascendancy											
+1	PROHIBITSPELL:ALIGNMENT.Good|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Evil Ascendancy											
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Good Ascendancy											
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Lawful Ascendancy											
+#												
+1	CAST:0,2	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Choose Godling Spells|Godling Ascendancy			BONUS:ABILITYPOOL|Minor Ascendancy|1	BONUS:ABILITYPOOL|Major Ascendancy|1	BONUS:VAR|GodlingAscendancyLVL|CL	BONUS:VAR|GodlingLVL|CL|TYPE=Base	BONUS:VAR|GodlingEldritchLVL|CL|TYPE=Base	
+2	CAST:0,3	KNOWN:5,2		ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+3	CAST:0,4	KNOWN:5,3		ABILITY:Special Ability|AUTOMATIC|Godling Divine Trait			BONUS:ABILITYPOOL|Godling Divine Trait|1					
+4	CAST:0,5,2	KNOWN:6,3,1										
+5	CAST:0,5,3	KNOWN:6,4,2					BONUS:ABILITYPOOL|Minor Ascendancy|1					
+6	CAST:0,5,4,2	KNOWN:7,4,2,1										
+7	CAST:0,5,5,3	KNOWN:7,5,3,2					BONUS:ABILITYPOOL|Godling Divine Trait|1					
+8	CAST:0,5,5,4,2	KNOWN:8,5,3,2,1										
+9	CAST:0,5,5,5,3	KNOWN:8,5,4,3,2					BONUS:ABILITYPOOL|Minor Ascendancy|1					
+10	CAST:0,5,5,5,4,2	KNOWN:9,5,4,3,2,1										
+11	CAST:0,5,5,5,5,3	KNOWN:9,5,4,4,3,2					BONUS:ABILITYPOOL|Godling Divine Trait|1					
+12	CAST:0,5,5,5,5,4,2	KNOWN:9,5,4,4,3,2,1										
+13	CAST:0,5,5,5,5,5,3	KNOWN:9,5,4,4,4,3,2					BONUS:ABILITYPOOL|Major Ascendancy|1					
+14	CAST:0,5,5,5,5,5,4,2	KNOWN:9,5,4,4,4,3,2,1										
+15	CAST:0,5,5,5,5,5,5,2	KNOWN:9,5,4,4,4,4,3,2					BONUS:ABILITYPOOL|Godling Divine Trait|1					
+16	CAST:0,5,5,5,5,5,5,3,2	KNOWN:9,5,4,4,4,4,3,2,1										
+17	CAST:0,5,5,5,5,5,5,3,2	KNOWN:9,5,4,4,4,4,3,3,2					BONUS:ABILITYPOOL|Major Ascendancy|1					
+18	CAST:0,5,5,5,5,5,5,3,3,2	KNOWN:9,5,4,4,4,4,3,3,2,1										
+19	CAST:0,5,5,5,5,5,5,4,3,3	KNOWN:9,5,4,4,4,4,3,3,3,2					BONUS:ABILITYPOOL|Godling Divine Trait|1					
+20	CAST:0,5,5,5,5,5,5,4,4,4	KNOWN:9,5,4,4,4,4,3,3,3,3		TEMPLATE:Divine Rank|Divine Rank (1)								
+#												
+CLASS:Godling Mighty	HD:12	TYPE:Base.PC.Godling	ABB:MGod	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+#CLASS:Godling Mighty												
+CLASS:Godling Mighty	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|Spot|Listen|Ride|Sense Motive|Move Silently|Survival|Tumble|Swim										
+CLASS:Godling Mighty	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Godling Mighty|CL	DEFINE:GodlingLVL|0	DEFINE:GodlingMightyLVL|0					
+#												
+1		AUTO:FEAT|Martial Weapon Proficiency Output|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
+1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
+1		AUTO:FEAT|Shield Proficiency										
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Lineage Domain					BONUS:VAR|GodlingLVL|CL|TYPE=Base	BONUS:VAR|GodlingMightyLVL|CL|TYPE=Base		
+2				ABILITY:Special Ability|AUTOMATIC|Godling Divine Trait			BONUS:ABILITYPOOL|Godling Divine Trait|1					
+3							BONUS:ABILITYPOOL|Scion Talent|1					
+4							BONUS:ABILITYPOOL|Fighter Feat|1					
+5							BONUS:ABILITYPOOL|Scion Talent|1					
+6							BONUS:ABILITYPOOL|Godling Divine Trait|2					
+7							BONUS:ABILITYPOOL|Scion Talent|1					
+8				ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+9							BONUS:ABILITYPOOL|Scion Talent|1					
+10							BONUS:ABILITYPOOL|Godling Divine Trait|3					
+11							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+12							BONUS:ABILITYPOOL|Fighter Feat|1					
+13							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+14							BONUS:ABILITYPOOL|Godling Divine Trait|4					
+15							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+16				ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+17							BONUS:ABILITYPOOL|Godling Divine Trait|4					
+18							BONUS:ABILITYPOOL|Godling Divine Trait|5					
+19							BONUS:ABILITYPOOL|Godling Divine Trait|4					
+20				TEMPLATE:Divine Rank|Divine Rank (1)								

@@ -2,13 +2,13 @@ SOURCELONG:Player's Handbook 2	SOURCESHORT:PHB2	SOURCEWEB:http://www.gozzilioni.
 
 ###Block:Specific Animal Companions										
 # Class of the Master	Type				Hit Dice	Spell Res.	Ability																	Define		Combat bonus						Stat bonus
-FOLLOWER:DCLevel=1	TYPE:Dark Companion
+FOLLOWER:DarkCompanionLVL=1	TYPE:Dark Companion
 
 # Class of the Master	Type				Required Race					Apply Kit
-FOLLOWER:DCLevel=1	TYPE:Dark Companion	PRERACE:1,Panther	KIT:1|Panther Dark Companion
+FOLLOWER:DarkCompanionLVL=1	TYPE:Dark Companion	PRERACE:1,Panther	KIT:1|Panther Dark Companion
 
 ###Block:Specific Animal Companions										
 # Class of the Master	Type				Required Race					Apply Kit
-FOLLOWER:CompLevel=1	TYPE:Animal Companion	PRERACE:1,Brixashulty	KIT:1|Brixashulty Companion							
-FOLLOWER:CompLevel=4	TYPE:Animal Companion	PRERACE:1,Axebeak	KIT:1|Axebeak Companion							
-FOLLOWER:CompLevel=4	TYPE:Animal Companion	PRERACE:1,Chordevoc	KIT:1|Chordevoc Companion							
+FOLLOWER:AnimalCompanionLVL=1	TYPE:Animal Companion	PRERACE:1,Brixashulty	KIT:1|Brixashulty Companion							
+FOLLOWER:AnimalCompanionLVL=4	TYPE:Animal Companion	PRERACE:1,Axebeak	KIT:1|Axebeak Companion							
+FOLLOWER:AnimalCompanionLVL=4	TYPE:Animal Companion	PRERACE:1,Chordevoc	KIT:1|Chordevoc Companion							

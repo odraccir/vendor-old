@@ -5,13 +5,13 @@ SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilion
 Cancer Mage Armor Prof	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:BoVD
 																																
 # Ability Name																																
-Cancer Mage Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageSneakAttackLVL|0					BONUS:VAR|SneakAttack|(CancerMageSneakAttackLVL+3)/4																		SOURCEPAGE:BoVD
+Cancer Mage Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageSneakAttackLVL|0					BONUS:VAR|SneakAttackDice|(CancerMageSneakAttackLVL+3)/4																		SOURCEPAGE:BoVD
 Cancer Mage Infected Wound	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageInfectedWoundLVL|0					BONUS:VAR|InfectedWoundPerDay|CancerMageInfectedWoundLVL	BONUS:VAR|InfectedWoundDC|CancerMageInfectedWoundLVL																	SOURCEPAGE:BoVD
 Cancer Mage Disease Form	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|DiseaseFormPerDay|1																		SOURCEPAGE:BoVD
 Demonologist Summoning Mastery	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DemonologistSummoningMasteryLVL|0					BONUS:VAR|SummoningMasteryListAdvancement|1+(DemonologistSummoningMasteryLVL/3)																		SOURCEPAGE:BoVD
 Diabolist Diabolism	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiabolistDiabolismLVL|0					BONUS:VAR|Diabolism|DiabolistDiabolismLVL/5	BONUS:VAR|DiabolismPerDay|1+(DiabolistDiabolismLVL/3)	DEFINE:DiabolismDie|6																SOURCEPAGE:BoVD
 Disciple of Asmodeus Evil Authority	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiscipleOfAsmodeusEvilAuthorityLVL|0					BONUS:VAR|EvilAuthorityPerDay|1	BONUS:VAR|EvilAuthorityDC|DiscipleOfAsmodeusEvilAuthorityLVL																	SOURCEPAGE:BoVD
-Disciple of Baalzebul Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiscipleOfBaalzebulSneakAttackLVL|0					BONUS:VAR|SneakAttack|(DiscipleOfBaalzebulSneakAttackLVL+1)/3																		SOURCEPAGE:BoVD
+Disciple of Baalzebul Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiscipleOfBaalzebulSneakAttackLVL|0					BONUS:VAR|SneakAttackDice|(DiscipleOfBaalzebulSneakAttackLVL+1)/3																		SOURCEPAGE:BoVD
 Disciple of Baalzebul Beguiling Nature	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiscipleOfBaalzebulBeguilingNatureLVL|0					BONUS:VAR|BeguilingNaturePerDay|1	BONUS:VAR|BeguilingNatureDC|DiscipleOfBaalzebulBeguilingNatureLVL																	SOURCEPAGE:BoVD
 Disciple of Dispater Iron Power	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiscipleOfDispaterIronPowerLVL|0					BONUS:VAR|IronPowerBonus|DiscipleOfDispaterIronPowerLVL/4																		SOURCEPAGE:BoVD
 Disciple of Mammon Lie	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DiscipleOfMammonLieLVL|0					BONUS:VAR|LieSR|DiscipleOfMammonLieLVL																		SOURCEPAGE:BoVD

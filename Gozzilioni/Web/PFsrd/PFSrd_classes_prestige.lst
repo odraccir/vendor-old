@@ -1,0 +1,26 @@
+SOURCELONG:Pathfinder Srd	SOURCESHORT:PFSrd	SOURCEWEB:https://sites.google.com/site/pathfinderogc										
+#												
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name req	Requirements	FINE										
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Godling	HD:10	TYPE:Prestige.Godling	ABB:God	MAXLEVEL:10	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
+CLASS:Godling	PRESTAT:2,STR=16,DEX=16,CON=16,INT=16,WIS=16,CHA=16	PRESKILL:3,TYPE.Strength=5,TYPE.Dexterity=5,TYPE.Constitution=5,TYPE.Intelligence=5,TYPE.Wisdom=5,TYPE.Charisma=5										
+CLASS:Godling	STARTSKILLPTS:4	CSKILL:Tumble|Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disable Device|Disguise|Escape Artist|Handle Animal|Heal|Intimidate|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|Listen|Spot|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Sleight of Hand|Spellcraft|Move Silently|Survival|Swim|Use Magic Device				DEFINE:GodlingLVL|0						
+###Block: Turn Undead stuff												
+1	BONUS:ABILITYPOOL|Turn Undead|1|TYPE=ClassAbility	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|CL|TYPE=Level.REPLACE	ABILITY:Special Ability|AUTOMATIC|Basic Turning|Godling Turning									
+###Block: Spontaneous casting												
+1	ABILITY:Special Ability|VIRTUAL|Spontaneous casting - Cure spells|PREABILITY:1,CATEGORY=Special Ability,Turn Undead											
+1	ABILITY:Special Ability|VIRTUAL|Spontaneous casting - Inflict spells|PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead											
+#												
+1				ABILITY:Special Ability|AUTOMATIC|Godling Ascendancy|Lineage Domain			BONUS:VAR|GodlingAscendancyLVL|CL	BONUS:VAR|GodlingLVL|CL|TYPE=Base				
+2				ABILITY:Special Ability|AUTOMATIC|Godling Divine Trait			BONUS:ABILITYPOOL|Godling Divine Trait|1					
+3				ABILITY:Special Ability|AUTOMATIC|Scion Talent			BONUS:ABILITYPOOL|Scion Talent|1					
+4							BONUS:ABILITYPOOL|Scion Talent|1					
+5							BONUS:ABILITYPOOL|Godling Divine Trait|2					
+6							BONUS:ABILITYPOOL|Scion Talent|1					
+7							BONUS:ABILITYPOOL|Greater Scion Talent|1					
+8							BONUS:ABILITYPOOL|Godling Divine Trait|3					
+9				ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
+10							BONUS:ABILITYPOOL|Godling Divine Trait|4					

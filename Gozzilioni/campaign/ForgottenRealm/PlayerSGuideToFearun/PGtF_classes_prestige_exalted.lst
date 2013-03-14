@@ -29,7 +29,7 @@ CLASS:Celebrant of Sharess	HD:8	TYPE:Prestige	ABB:Cel	MAXLEVEL:10	SOURCEPAGE:PGt
 CLASS:Celebrant of Sharess	PREALIGN:CG	PRESKILL:1,Diplomacy=7	PRESKILL:1,TYPE.Perform=7	PREFEAT:2,Sacred Vow,Vow of Purity	PREDEITY:1,Sharess								
 CLASS:Celebrant of Sharess	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Disguise|Gather Information|Jump|Listen|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Spellcraft|Tumble											
 CLASS:Celebrant of Sharess	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Celebrant of Sharess|CL								
-1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Feline Familiar|Fascinate (Sp)|Flirtation			BONUS:VAR|FFLevel|CL*2	BONUS:VAR|FlirtationPerDay|CL		DEFINE:FlirtationPerDay|0			
+1	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Feline Familiar|Fascinate (Sp)|Flirtation			BONUS:VAR|FelineFamiliarLVL|CL*2	BONUS:VAR|FlirtationPerDay|CL		DEFINE:FlirtationPerDay|0			
 2	CAST:0,1	KNOWN:0,3		ABILITY:Special Ability|AUTOMATIC|Fury of the Tigress|Celebrant of Sharess Fury of Tigress			BONUS:VAR|CelebrantOfSharessFuryOfTigressTimesLVL|CL						
 3	CAST:0,2,0	KNOWN:0,3,2											
 4	CAST:0,3,1	KNOWN:0,4,3		ABILITY:Special Ability|AUTOMATIC|Flirtation ~ Suggestion (Sp)									
@@ -47,7 +47,7 @@ CLASS:Harper Paragon	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Dipl
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Aura of Good|Detect Evil			BONUS:VAR|AuraGood|CL	BONUS:VAR|DetectEvilLVL|CL					
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Paragon Harper Knowledge|Favored Enemy (Evil)|Favored Bonus__Evil			BONUS:VAR|HarperParagonHarperKnowledgeLVL|CL						
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Celestial Spell ~ archon|Celestial Spell ~ guardinal|Celestial Spell ~ eladrin									
-4	ADD:SPELLCASTER|ANY		VFEAT:Exalted Companion	ABILITY:Special Ability|AUTOMATIC|Animal Companion			BONUS:VAR|CompLevel|CL						
+4	ADD:SPELLCASTER|ANY		VFEAT:Exalted Companion	ABILITY:Special Ability|AUTOMATIC|Animal Companion			BONUS:VAR|AnimalCompanionLVL|CL						
 5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Basic Harper Favored Enemy|Harper Paragon Favored Enemy			BONUS:VAR|HarperParagonFavoredEnemyLVL|CL						
 6	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Smite Evil|Harper Paragon Smite Evil			BONUS:VAR|HarperParagonSmiteEvilLVL|CL						
 7	ADD:SPELLCASTER|ANY												

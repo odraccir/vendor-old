@@ -38,7 +38,7 @@ CLASS:Highway Rider	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Diplomacy|Disg
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Studied Foe|Knowledge ~ Roads			BONUS:VAR|KnowledgeRoadsBonus|2					
 2				ABILITY:Special Ability|AUTOMATIC|Mist Ways|Savoir-faire			BONUS:VAR|SavoirFaireBonus|CL/2					
-3				ABILITY:Special Ability|AUTOMATIC|Special Mount			BONUS:VAR|SMLevel|CL					
+3				ABILITY:Special Ability|AUTOMATIC|Special Mount			BONUS:VAR|SpecialMountLVL|CL					
 4				ABILITY:Special Ability|AUTOMATIC|Trick Rider|Notoriety								
 5												
 #												

@@ -9,7 +9,7 @@ CLASS:Puppeteer	HD:6	TYPE:Prestige.Nephandum	ABB:Pup	MAXLEVEL:10	SOURCEPAGE:Nep	
 CLASS:Puppeteer	PRESKILL:2,Craft (Leatherworking)=4,Knowledge (Arcana)=4	PRESKILL:1,Perform (Comedy)=8,Perform (Oratory)=8	PREFEAT:1,Craft Wondrous Item	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=2							
 CLASS:Puppeteer	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Concentration|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device										
 #												
-1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Create Puppet			BONUS:VAR|PuppetNumber|(CL+2)/3	BONUS:VAR|PupLevel|CL				
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Create Puppet			BONUS:VAR|PuppetNumber|(CL+2)/3	BONUS:VAR|PuppetLVL|CL				
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Store Spell								
 3	ADD:SPELLCASTER|Arcane											
 4	ADD:SPELLCASTER|Arcane											
@@ -47,7 +47,7 @@ CLASS:Scarlet Disciple	HD:6	TYPE:Prestige.Nephandum	ABB:Scd	MAXLEVEL:10	SOURCEPA
 CLASS:Scarlet Disciple	PRESKILL:1,Knowledge (Arcana)=8	PREALIGN:LN,LE,TN,NE,CN,CE	PREFEAT:2,Toughness,Great Fortitude	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3							
 CLASS:Scarlet Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|Listen|Spot|Spellcraft										
 #												
-1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Ability Enhancement (+2 Dex)			BONUS:VAR|FMLevel|(CL+1)/2					
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Ability Enhancement (+2 Dex)			BONUS:VAR|FamiliarLVL|(CL+1)/2					
 2				ABILITY:Special Ability|AUTOMATIC|Bloodshot Eyes								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Blood Link								
 4				ABILITY:Special Ability|AUTOMATIC|Cloak of Thorns			BONUS:VAR|CloakOfThornsDie|3	BONUS:VAR|CloakOfThornsDC|CL				

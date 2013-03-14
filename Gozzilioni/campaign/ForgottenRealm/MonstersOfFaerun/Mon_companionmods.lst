@@ -2,5 +2,5 @@ SOURCELONG:Monsters of Faerun	SOURCESHORT:Mon	SOURCEWEB:http://www.gozzilioni.ne
 																																	
 ###Block:Familiar																																	
 # Class of the Master	Type	Spell Res.	Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Special ABility				Define			Combat bonus													Main Race Type						
-FOLLOWER:FMLevel=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Spellray|PRERACE:1,Beholderkin (Eyeball)
+FOLLOWER:FamiliarLVL=1	TYPE:Familiar			ABILITY:Special Ability|AUTOMATIC|Spellray|PRERACE:1,Beholderkin (Eyeball)
 

@@ -64,7 +64,7 @@ CLASS:Darkrunner	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy
 CLASS:Fleshwarper	HD:4	TYPE:PC.Prestige	ABB:Flw	MAXLEVEL:10	SOURCEPAGE:LoM	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Fleshwarper	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:1,Heal=4	PRESKILL:1,Knowledge (Arcana)=8	PREFEAT:1,Graft Flesh	PREABILITY:1,CATEGORY=Special Ability,Summon Familiar							
 CLASS:Fleshwarper	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Heal|TYPE.Knowledge|Search|Speak Language|Spellcraft|Use Magic Device										
-1				ABILITY:Special Ability|AUTOMATIC|Aberrant Familiar|Graft Reserve			BONUS:VAR|AberrantFMLevel|CL					
+1				ABILITY:Special Ability|AUTOMATIC|Aberrant Familiar|Graft Reserve			BONUS:VAR|AberrantFamiliarLVL|CL					
 2	ADD:SPELLCASTER|ANY						BONUS:ABILITYPOOL|Elder Secret|(CL+1)/3					
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Graft Mastery			BONUS:VAR|GraftMastery|(CL-1)/2					
 4	ADD:SPELLCASTER|ANY											

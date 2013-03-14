@@ -53,7 +53,7 @@ Sacred Vengeance	TYPE:Divine	VISIBLE:YES																		PREABILITY:1,CATEGORY=
 Sacred Vitality	TYPE:Divine	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead				DESC:See Text																	SOURCEPAGE:LM	
 Spell Drain	TYPE:Monstrous	VISIBLE:YES			PRECLASS:1,SPELLCASTER=5	PREFEAT:1,Improved Energy Drain									PRESTAT:1,CHA=15					PREABILITY:1,CATEGORY=Special Ability,Energy Drain				DESC:See Text																	SOURCEPAGE:LM	
 Spurn Death Touch	TYPE:Divine	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Turn Undead				DESC:See Text																	SOURCEPAGE:LM	
-Stitched Flesh Familiar	TYPE:General	VISIBLE:YES																						DESC:See Text														BONUS:VAR|SFFLevel|FMLevel			SOURCEPAGE:LM	DEFINE:SFFLevel|0
+Stitched Flesh Familiar	TYPE:General	VISIBLE:YES																						DESC:See Text														BONUS:VAR|StitchedFleshFamiliarLVL|FamiliarLVL			SOURCEPAGE:LM	DEFINE:StitchedFleshFamiliarLVL|0
 Tomb Born Fortitude	TYPE:General	VISIBLE:YES	OUTPUTNAME:Tomb-Born Fortitude			PREFEAT:1,Tomb Tainted Soul														PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:LM	
 Tomb Born Resilience	TYPE:General	VISIBLE:YES	OUTPUTNAME:Tomb-Born Resilience			PREFEAT:1,Tomb Tainted Soul														PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:LM	
 Tomb Born Vitality	TYPE:General	VISIBLE:YES	OUTPUTNAME:Tomb-Born Vitality			PREFEAT:1,Tomb Tainted Soul														PREALIGN:LN,LE,TN,NE,CN,CE				DESC:See Text																	SOURCEPAGE:LM	

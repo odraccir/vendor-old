@@ -8,7 +8,7 @@ CLASS:Phaerimm	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:PGtFwe	BONUS:CHECK
 CLASS:Phaerimm	PRERACE:1,RACESUBTYPE=Phaerimm	PRERACETYPE:Aberration											
 CLASS:Phaerimm	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Knowledge (Arcana)|Listen|Search|Sense Motive|Spellcraft|Spot								MODTOSKILLS:YES			
 1							BONUS:COMBAT|AC|CL-1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|PhaerimmCL|max(PhaerimmAge,(var("BL=Sorcerer")+var("CL=Sorcerer")))			DEFINE:PhaerimmCL|0		
-1							BONUS:VAR|FMLevel|PhaerimmCL				DEFINE:FMLevel|0		
+1							BONUS:VAR|FamiliarLVL|PhaerimmCL				DEFINE:FamiliarLVL|0		
 ###Block: SA's													
 1	ABILITY:Special Ability|AUTOMATIC|Immunity To Polymorph												
 1	ABILITY:Special Ability|AUTOMATIC|Immunity To Petrification												

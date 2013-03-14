@@ -10,7 +10,7 @@ CLASS:Beholder Mage (Mon)	STARTSKILLPTS:2	CSKILL:Craft (Alchemy)|Appraise|Concen
 CLASS:Beholder Mage (Mon)	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Beholder Mage (Mon)|CL						
 1	CAST:6,3			ABILITY:Special Ability|AUTOMATIC|Sacrifice Eyestalk							
 2	CAST:6,5,3										
-3	CAST:6,6,5,3			ABILITY:Special Ability|AUTOMATIC|Summon Familiar			BONUS:VAR|FMLevel|CL				
+3	CAST:6,6,5,3			ABILITY:Special Ability|AUTOMATIC|Summon Familiar			BONUS:VAR|FamiliarLVL|CL				
 4	CAST:6,6,6,5,3										
 5	CAST:6,6,6,6,5,3										
 6	CAST:6,6,6,6,6,5,3										
