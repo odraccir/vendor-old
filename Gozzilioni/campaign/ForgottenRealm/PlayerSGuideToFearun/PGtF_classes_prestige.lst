@@ -314,7 +314,7 @@ CLASS:Shaaryan Hunter	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Heal
 CLASS:Shadow Adept	HD:4	TYPE:Prestige	ABB:Sha	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE				
 CLASS:Shadow Adept	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PREFEAT:1,Shadow Weave Magic	PREFEAT:1,TYPE=Metamagic	PRESPELLTYPE:1,Arcane=3,Divine=3								
 CLASS:Shadow Adept	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Hide|TYPE.Knowledge|TYPE.Profession|Spellcraft											
-1	ADD:SPELLCASTER|ANY		VFEAT:Insidious Magic|Pernicious Magic	BONUS:ABILITYPOOL|Tenacious Magic (FR) Choice|1									
+1	ADD:SPELLCASTER|ANY		AUTO:FEAT|Insidious Magic|Pernicious Magic	BONUS:ABILITYPOOL|Tenacious Magic Choice ~ FR|1									
 2	ADD:SPELLCASTER|ANY												VISION:Low-light
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Shadow Defense|Shadow Adept Shadow Defense			BONUS:VAR|ShadowAdeptShadowDefenseLVL|CL						
 4	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Shield of Shadows|Shadow Adept Shield of Shadows			BONUS:VAR|ShadowAdeptShieldOfShadowLVL|CL						
