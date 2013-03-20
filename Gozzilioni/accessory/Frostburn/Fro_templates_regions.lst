@@ -2,7 +2,8 @@ SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net
 				
 ###Block: Region				
 # Template Name	Visible	langauto	langbonus	region
-No Frostfell Regiun	VISIBLE:NO			REGION:No Frostfell region
+No Frostfell Region	VISIBLE:NO			REGION:No Frostfell Region
 #				
-# Human Region A/B				
+# Human Region				
 Human Frostfell Region	VISIBLE:NO			REGION:Frostfell
+Non Human Frostfell Region	VISIBLE:NO			REGION:Frostfell
