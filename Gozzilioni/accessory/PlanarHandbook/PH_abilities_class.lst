@@ -3,7 +3,6 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 #	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:?
-Fatemaker Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:WEAPONPROF|Longsword|Rapier|Sap|Sword (Short)|Shortbow|Whip																												
 Armored Casting (Fatemaker)	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:You may wear light armor without incurring the normal arcane spell failure chance.	OUTPUTNAME:Armored Casting																											SOURCEPAGE:PH
 																																
 # Ability Name																																

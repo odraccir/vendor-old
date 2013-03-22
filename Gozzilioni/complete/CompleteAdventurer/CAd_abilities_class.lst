@@ -2,13 +2,6 @@ SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.n
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Ninja Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Hand)|Kama|Kukri|Nunchaku|Sai|Shortbow|Sword (Short)|Shuriken|Siangham							ADD:FEAT|Exotic Weapon Proficiency(Sword (Bastard))																					
-Scout Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Handaxe|Axe (Throwing)|Sword (Short)|Shortbow																												
-Dread Pirate Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Sword (Short)|Sap|Pick (Light)|Kukri|Handaxe|Hammer (Light)|Axe (Throwing)|Rapier																												
-Vigilante Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Net																												
-CATEGORY=Special Ability|Monk Weapon Proficiencies.MOD			AUTO:WEAPONPROF|Longstaff																													
-																																
-# Ability Name																																
 Ninja AC	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:NinjaAC|0	DEFINE:NinjaACLVL|0				BONUS:COMBAT|AC|max(WIS,0)+NinjaAC|PREVAREQ:ENCUMBERANCE,0,var("COUNT[EQTYPE.ARMOR.EQUIPPED]"),0	BONUS:VAR|NinjaAC|(NinjaACLVL)/5																	SOURCEPAGE:CAd
 Ninja Ki Power	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:NinjaKiPowerLVL|0					BONUS:VAR|KiPowerPerDay|NinjaKiPowerLVL																		SOURCEPAGE:CAd
 Ninja Sudden Strike	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:NinjaSuddenStrikeLVL|0					BONUS:VAR|SuddenStrike|(NinjaSuddenStrikeLVL+1)/2																		SOURCEPAGE:CAd

@@ -26,6 +26,7 @@ ABILITY:G_abilities_class.lst
 ABILITY:G_abilities_guilds.lst
 ABILITY:G_abilities_list.lst
 ABILITY:G_abilities_regions.lst
+ABILITY:G_abilities_proficiencies.lst
 BIOSET:G_biosettings.lst
 #BIOSET:G_biosettings_dragons.lst
 CLASS:G_classes_hidden.lst

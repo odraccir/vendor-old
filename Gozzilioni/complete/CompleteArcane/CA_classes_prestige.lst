@@ -8,7 +8,6 @@ SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
 CLASS:Acolyte of the Skin	HD:8	TYPE:PC.Prestige	ABB:Aos	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Acolyte of the Skin	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (The Planes)=6	PRESPELLTYPE:1,Any=5	PRETEXT:Must have peacfull contact with a summoned Devil								
 CLASS:Acolyte of the Skin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft										
-#												
 1				ADD:ABILITY|Special Ability|VIRTUAL|Wear Skin	ABILITY:Special Ability|AUTOMATIC|Poison (Sp)		BONUS:VAR|PoisonLVL|CL	BONUS:VAR|PoisonPerDay|1				
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|10					
 3				ABILITY:Special Ability|AUTOMATIC|Fiendish Glare|Acolyte of the Skin Fiendish Glare			BONUS:VAR|AcolyteSkinFiendishGlareLVL|CL					
@@ -23,7 +22,6 @@ CLASS:Acolyte of the Skin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimi
 CLASS:Alienist	HD:4	TYPE:PC.Prestige	ABB:Ali	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Alienist	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:1,Knowledge (The Planes)=8	PREFEAT:1,Augment Summoning	PRESPELLSCHOOL:1,Summoning=3	PRETEXT:Must have peacfull contact with an alienist or a pseudonatural creature							
 CLASS:Alienist	STARTSKILLPTS:2	CSKILL:Concentration|Gather Information|TYPE.Knowledge|Listen|TYPE.Profession|Spellcraft|Spot										
-#												
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Summon Alien			BONUS:VAR|FamiliarLVL|CL					
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Alien Blessing								
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Metamagic Secret			BONUS:ABILITYPOOL|Metamagic Feat|1					
@@ -38,7 +36,6 @@ CLASS:Alienist	STARTSKILLPTS:2	CSKILL:Concentration|Gather Information|TYPE.Know
 CLASS:Argent Savant	HD:4	TYPE:PC.Prestige	ABB:Ars	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Argent Savant	PRESKILL:1,Knowledge (Arcana)=6	PRESKILL:1,Spellcraft=12	PREMULT:2,[PRESPELLDESCRIPTOR:5,Force=1],[PRESPELLDESCRIPTOR:1,Force=5]									
 CLASS:Argent Savant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Force Specialization								
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Force Armor								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Enduring Force								
@@ -48,7 +45,6 @@ CLASS:Argent Savant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowled
 CLASS:Blood Magus	HD:6	TYPE:PC.Prestige	ABB:Blm	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Blood Magus	PREALIGN:LN,LE,NG,TN,NE,CG,CN,CE	PRESKILL:1,Concentration=4	PREFEAT:2,Great Fortitude,Toughness	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=5	PRETEXT:The character must have been killed, then returned to life						
 CLASS:Blood Magus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Heal|Spellcraft	DEFINE:BlmHomunculus|0									
-#												
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Blood Component|Durable Casting|Stanch								
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Scarification								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Death Knell (Sp)			BONUS:VAR|DeathKnellPerDay|1	BONUS:VAR|DeathKnellLVL|CL				
@@ -63,7 +59,6 @@ CLASS:Blood Magus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Heal|Spe
 CLASS:Effigy Master	HD:4	TYPE:PC.Prestige	ABB:Efm	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Effigy Master	PRESKILL:1,Craft (Woodworking)=10,Craft (Leatherworking)=10,Craft (Metalworking)=10	PRESKILL:2,Knowledge (Arcana)=5,Spellcraft=5	PRESKILL:1,Use Magic Device=2	PREFEAT:1,Craft Wondrous Item	PRESPELL:1,Simulacrum							
 CLASS:Effigy Master	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Craft Effigy								
 2	ADD:SPELLCASTER|ANY											
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Improved Effigy								
@@ -73,7 +68,6 @@ CLASS:Effigy Master	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowled
 CLASS:Elemental Savant	HD:4	TYPE:PC.Prestige	ABB:Els	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	ALLOWBASECLASS:NO		
 CLASS:Elemental Savant	PRESKILL:1,Knowledge (Arcana)=8	PRESKILL:1,Knowledge (The Planes)=4	PREFEAT:1,Energy Substitution	PREMULT:1,[PRESPELLDESCRIPTOR:1,Acid=3],[PRESPELLDESCRIPTOR:1,Cold=3],[PRESPELLDESCRIPTOR:1,Electricity=3],[PRESPELLDESCRIPTOR:1,Fire=3]	PREMULT:1,[PRESPELLDESCRIPTOR:3,Acid=1],[PRESPELLDESCRIPTOR:3,Cold=1],[PRESPELLDESCRIPTOR:3,Electricity=1],[PRESPELLDESCRIPTOR:3,Fire=1]	PRETEXT:Must have made a pacific contract with an Elemental or Outsider that has an elemental subtype 						
 CLASS:Elemental Savant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft										
-#												
 SUBCLASS:Air Elemental Savant	COST:1	PROHIBITCOST:0	PREFEAT:1,Energy Substitution(Electricity)									
 SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance to Electricity|Elemental Savant Air Elemental Specialty			BONUS:VAR|ElectricityResistanceBonus|5					
 SUBCLASSLEVEL:4							BONUS:VAR|ElectricityResistanceBonus|5					
@@ -114,7 +108,6 @@ SUBCLASSLEVEL:10				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
 CLASS:Enlightened Fist	HD:8	TYPE:PC.Prestige	ABB:Enf	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Enlightened Fist	PRESKILL:1,Concentration=8	PRESKILL:2,Knowledge (Arcana)=5,Spellcraft=5	PREFEAT:3,Combat Casting,Improved Unarmed Strike,Stunning Fist	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3							
 CLASS:Enlightened Fist	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Spellcraft|Spot|Swim|Tumble										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Enlightened Fist AC			BONUS:VAR|EnlightnedFistACLVL|CL					
 1				ABILITY:Special Ability|AUTOMATIC|Enlightened Fist Flurry			BONUS:VAR|EnlightnedFistFlurryLVL|CL					
 #												
@@ -132,7 +125,6 @@ CLASS:Enlightened Fist	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.C
 CLASS:Fate Spinner	HD:4	TYPE:PC.Prestige	ABB:Fas	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Fate Spinner	PRESKILL:1,Knowledge (Arcana)=10	PRESKILL:1,Profession (Gambler)=5	PRESPELLSCHOOL:1,Divination=1	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=4							
 CLASS:Fate Spinner	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|Knowledge (Arcana)|TYPE.Profession|Sleight of Hand|Spellcraft										
-#												
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spin Fate|Fate Spinner Spin Fate			BONUS:VAR|FateSpinnerSinFateLVL|CL					
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Fickle Finger of Fate|Fate Spinner Fickle Finger of Fate								
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spin Destiny								
@@ -142,7 +134,6 @@ CLASS:Fate Spinner	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|Know
 CLASS:Geometer	HD:4	TYPE:PC.Prestige	ABB:Gem	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Geometer	PRESKILL:2,Decipher Script=9,Knowledge (Arcana)=9	PRESKILL:2,Disable Device=4,Search=4	PREFEAT:1,Scribe Scroll	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3	PRESPELLCAST:MEMORIZE=Y						
 CLASS:Geometer	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Ride|Balance|Intimidate|Sense Motive|TYPE.Profession|Gather Information|Use Rope|Appraise										
-#												
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Glyph of Warding|Spellglyph								
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Book of Geometry								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Sigilsight|Pass Sigil								
@@ -152,8 +143,7 @@ CLASS:Geometer	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Ride|Balance|Intimidate|Sense M
 CLASS:Green Star Adept	HD:8	TYPE:PC.Prestige	ABB:Gsa	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Green Star Adept	PREATT:4	PRESKILL:4,Decipher Script=2,Knowledge (Architecture and Engineering)=2,Knowledge (Geography)=2,Knowledge (History)=2	PRESKILL:1,Knowledge (Arcana)=8	PREFEAT:1,Combat Casting	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1	PRETEXT:Must acquire a piece of Starmetal weighting at least 2 ounces, powder it, and consume by drinking it in a specially prepared infusion. The infusion requires arcane reagents costing 1000Gp and takes one week to prepare.					
 CLASS:Green Star Adept	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Geography)|Knowledge (History)|TYPE.Profession|Spellcraft										
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Greenstar Adept
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Green Star Adept DR|Starmetal Dependency|Starmetal Rigor 1			BONUS:VAR|GreenStarAdeptDRLVL|CL	BONUS:ABILITYPOOL|Improved Caster Level|CL				
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Unnatural Metabolism			BONUS:VAR|GreenStarAdeptUnnaturalMetabolismLVL|CL			TEMPLATE:Green Star Adept Attacks		
@@ -169,7 +159,6 @@ CLASS:Green Star Adept	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|
 CLASS:Initiate of the Sevenfold Veil	HD:4	TYPE:PC.Prestige	ABB:Isv	MAXLEVEL:7	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Initiate of the Sevenfold Veil	PRESKILL:2,Knowledge (Arcana)=12,Spellcraft=12	PRESKILL:1,Knowledge (Nature)=4	PREFEAT:3,Greater Spell Focus(Abjuration),Spell Focus(Abjuration),Skill Focus(Spellcraft)	PRESPELLSCHOOL:2,Abjuration=4	PRESPELLSCHOOL:5,Abjuration=1							
 CLASS:Initiate of the Sevenfold Veil	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft										
-#												
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Warding|Initiate of the Sevenfold Veil Warding	ABILITY:Special Ability|AUTOMATIC|Veils ~ Red		BONUS:VAR|InitiateOfTheSevenfoldVeilWardingLVL|CL					
 1				ABILITY:Special Ability|AUTOMATIC|Unimpeachable Abjuration			BONUS:DC|SCHOOL.Abjuration|CL					
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Unanswerable Strike|Initiate of the Sevenfold Veil Unanswerable Strike Bonus	ABILITY:Special Ability|AUTOMATIC|Veils ~ Orange		BONUS:VAR|InitiateOfTheSevenfoldVeilUnanswerableStrikeLVL|CL					
@@ -198,7 +187,6 @@ CLASS:Mage of the Arcane Order	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|D
 CLASS:Master Transmogrifist	HD:4	TYPE:PC.Prestige	ABB:Mtr	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Master Transmogrifist	PRESKILL:1,Bluff=2	PRESKILL:1,Disguise=5	PREALIGN:NG,TN,NE,CG,CN,CE	PRESPELL:2,Alter Self,Polymorph								
 CLASS:Master Transmogrifist	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Knowledge (Arcana)|TYPE.Profession|Spellcraft										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Extended Change|Favored Shape|Master Transmogrif Favored Shape			BONUS:VAR|MasterTransmogrifFavoredShapeLVL|CL					
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Manifest Senses								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Battle Mastery|Master Transmogrif Battle Mastery			BONUS:VAR|MasterTransmogrifBattleMasteryLVL|CL					
@@ -213,7 +201,6 @@ CLASS:Master Transmogrifist	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craf
 CLASS:Mindbender	HD:4	TYPE:PC.Prestige	ABB:Mnd	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Mindbender	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:4,Bluff=4,Diplomacy=4,Intimidate=4,Sense Motive=4	PRESPELL:1,Charm Person	PRESPELLTYPE:1,Arcane=5	PRESPELLCAST:TYPE=Arcane							
 CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|TYPE.Knowledge|TYPE.Profession|Sense Motive|Spellcraft										
-#												
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Telepathy			BONUS:VAR|TelepathyRange|100	AUTO:LANG|Telepathy				
 2				ABILITY:Special Ability|AUTOMATIC|Skill Boost|Mindbender Skill Boost|Push the Weak Mind|Mindbender Push the Weak Mind			BONUS:VAR|MindbenderSkillBoostLVL|CL	BONUS:VAR|MindbenderPushTheWeakMindLVL|CL				
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Mindread|Mindbender Mindread			BONUS:VAR|MindbenderMindreadLVL|CL					
@@ -229,7 +216,6 @@ CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate
 CLASS:Seeker of the Song	HD:6	TYPE:PC.Prestige	ABB:Ses	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex Seeker of the Song		
 CLASS:Seeker of the Song	PRESKILL:1,Knowledge (Arcana)=13	PRESKILL:1,TYPE.Perform=13	PREFEAT:1,Skill Focus(TYPE.Perform)	PREABILITY:1,CATEGORY=Special Ability,Bardic Music	PRETEXT:Must have been exposed to the primal music by hearing another Seeker of the Song use a Seeker Music Ability							
 CLASS:Seeker of the Song	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Jump|Knowledge (Arcana)|Listen|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Spot|Swim										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Seeker Music			BONUS:VAR|SeekerMusicLvl|CL	BONUS:VAR|SeekerMusicTimes|CL				
 1				ABILITY:Special Ability|AUTOMATIC|Seeker Burning Melody|Seeker Burning Melody Refrain|PREVARGTEQ:SeekerMusicLvl,1|PRESKILL:1,TYPE.Perform=14								
 1				ABILITY:Special Ability|AUTOMATIC|Seeker Song of Unmaking|PREVARGTEQ:SeekerMusicLvl,2|PRESKILL:1,TYPE.Perform=15								
@@ -255,7 +241,6 @@ CLASS:Seeker of the Song	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|D
 #												
 CLASS:Ex Seeker of the Song	HD:6	TYPE:PC.Prestige	ABB:xSes	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	VISIBLE:NO		
 CLASS:Ex Seeker of the Song	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Jump|Knowledge (Arcana)|Listen|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Spot|Swim										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Seeker Music			BONUS:VAR|SeekerMusicLvl|CL	BONUS:VAR|SeekerMusicTimes|CL				
 1				ABILITY:Special Ability|AUTOMATIC|Seeker Burning Melody|Seeker Burning Melody Refrain|PREVARGTEQ:SeekerMusicLvl,1|PRESKILL:1,TYPE.Perform=14								
 1				ABILITY:Special Ability|AUTOMATIC|Seeker Song of Unmaking|PREVARGTEQ:SeekerMusicLvl,2|PRESKILL:1,TYPE.Perform=15								
@@ -283,7 +268,6 @@ CLASS:Sublime Chord	HD:6	TYPE:PC.Prestige	ABB:Sub	MAXLEVEL:10	SOURCEPAGE:CA	BONU
 CLASS:Sublime Chord	PRESKILL:2,Knowledge (Arcana)=13,Listen=13	PRESKILL:1,TYPE.Perform=10	PRESKILL:2,Profession (Astrologer)=6,Spellcraft=6	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3	PREABILITY:1,CATEGORY=Special Ability,Bardic Music						
 CLASS:Sublime Chord	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Diplomacy|TYPE.Knowledge|Listen|TYPE.Perform|TYPE.Profession|Search|Speak Language|Spellcraft|Spot										
 CLASS:Sublime Chord	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO			SPELLLIST:3|Bard|Sorcerer|Wizard						
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Bardic Knowledge			BONUS:VAR|BardicKnowledgeLvl|CL	BONUS:VAR|BardicKnowledge|BardicKnowledgeLvl				
 1				ABILITY:Special Ability|AUTOMATIC|Sublime Music			BONUS:VAR|SublimeMusicLvl|CL					
 #												
@@ -306,7 +290,6 @@ CLASS:Suel Arcanamach	HD:8	TYPE:PC.Prestige	ABB:Sua	MAXLEVEL:10	SOURCEPAGE:CA	BO
 CLASS:Suel Arcanamach	PREATT:6	PRESKILL:3,Concentration=4,Jump=4,Tumble=4	PRESKILL:1,Spellcraft=5	PREFEAT:2,Combat Casting,Iron Will	PRETEXT:Must be proficent with at least four martial or exotic weapon. Must read the Grimoire Arcanamacha, or study with a willing instructor who as done so.	PRELANG:1,Ancient Suloise						
 CLASS:Suel Arcanamach	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|TYPE.Craft|Disguise|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (History)|Knowledge (The Planes)|Listen|Move Silently|TYPE.Profession|Search|Spellcraft|Spot|Swim|Tumble|Use Rope										
 CLASS:Suel Arcanamach	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Suel Arcanamach|CL	SPELLLIST:1|Wizard						
-#												
 1	CAST:0,1	KNOWN:0,1		ABILITY:Special Ability|AUTOMATIC|Ignore Spell Failure|Suel Arcanamach Ignore Spell Failure|Tenacious Spells			BONUS:VAR|SuelArcanamachIgnoreSpellFailureLVL|CL					
 2	CAST:0,1,0	KNOWN:0,2,1		ABILITY:Special Ability|AUTOMATIC|Dispelling Strike|Suel Arcanamach Dispelling Strike			BONUS:VAR|SuelArcanamachDispellingStrikeLVL|CL					
 3	CAST:0,2,1	KNOWN:0,2,2		ABILITY:Special Ability|AUTOMATIC|Extended Spellstrength								
@@ -321,7 +304,6 @@ CLASS:Suel Arcanamach	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLE
 CLASS:Wayfarer Guide	HD:6	TYPE:PC.Prestige	ABB:Way	MAXLEVEL:3	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Wayfarer Guide	PRESKILL:2,Knowledge (Arcana)=10,Knowledge (Geography)=10	PRESPELL:1,Teleport	PRETEXT:A prospective wayfarer must join the Wayfarer Union									
 CLASS:Wayfarer Guide	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Speak Language|Spellcraft										
-#												
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Enhanced Capacity|Wayfarer Guide Enhanced Capacity|Improved Range			BONUS:VAR|WayfarerGuideEnhancedCapacityLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Extra Teleportation			BONUS:VAR|ExtraTeleportLVL|CL					
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Enhanced Accuracy								
@@ -329,7 +311,6 @@ CLASS:Wayfarer Guide	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowle
 CLASS:Wild Mage	HD:4	TYPE:PC.Prestige	ABB:Wil	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Wild Mage	PREALIGN:CG,CN,CE	PRESKILL:2,Knowledge (The Planes)=4,Use Magic Device=4	PRESKILL:1,Spellcraft=8	PREFEAT:1,Magical Aptitude	PREFEAT:1,TYPE.Metamagic	PRESPELLTYPE:1,Arcane=1	PRESPELLCAST:TYPE=Arcane					
 CLASS:Wild Mage	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Intimidate|TYPE.Knowledge|TYPE.Profession|Spellcraft|Use Magic Device										
-#												
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Wild Magic								
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Random Deflector|Wild Mage Random Deflector			BONUS:VAR|WildMageRandomDeflectorLVL|CL					
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Student of Chaos								
@@ -340,4 +321,3 @@ CLASS:Wild Mage	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Intimidate
 8	ADD:SPELLCASTER|Arcane											
 9	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Reckless Dweomer								
 10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Wildstrike|Wild Mage Wildstrike								
-#												

@@ -8,9 +8,7 @@ CLASS:Warlock	HD:6	TYPE:Base.PC	ABB:Wrl	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:CHECKS|B
 CLASS:Warlock	PREALIGN:LE,NE,CE,CG,CN											
 CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device										
 CLASS:Warlock									BONUS:CASTERLEVEL|Warlock|CL			
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Warlock Eldritch Blast Proficiency									
-1		AUTO:FEAT|Armor Proficiency (Light)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warlock|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockProficiencies
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Eldritch Blast|Warlock Eldritch Blast|Invocation|Warlock Invocation			BONUS:VAR|WarlockEldritchBlastLVL|CL	BONUS:ABILITYPOOL|Warlock Least Invocation|1	BONUS:VAR|WarlockInvocationLVL|CL			
 2				ABILITY:Special Ability|AUTOMATIC|Detect Magic (Sp at will)			BONUS:VAR|DetectMagicWillLVL|CL	BONUS:ABILITYPOOL|Warlock Least Invocation|1				
@@ -37,10 +35,7 @@ CLASS:Warmage	HD:6	TYPE:Base.PC	ABB:Wrm	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:CHECKS|B
 #CLASS:Warmage												
 CLASS:Warmage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (History)|TYPE.Profession|Spellcraft										
 CLASS:Warmage	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Warmage|CL							
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special ability|AUTOMATIC|All Automatic Proficiencies									
-1		AUTO:FEAT|Armor Proficiency (Light)										
-1			ABILITY:Special ability|AUTOMATIC|Warmage Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warmage|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageProficiencies
 #												
 1	CAST:5,3			ABILITY:Special Ability|AUTOMATIC|Armored Mage|Edge|Warmage Edge			BONUS:VAR|ArmoredMagePower|1	BONUS:VAR|WarmageEdgeLVL|CL				
 2	CAST:6,4											
@@ -67,8 +62,7 @@ CLASS:Wu Jen	HD:4	TYPE:Base.PC.Oriental	ABB:Wuj	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:
 CLASS:Wu Jen	PREALIGN:NG,TN,NE,CG,CN,CE											
 CLASS:Wu Jen	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft										
 CLASS:Wu Jen	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Wu Jen|CL							
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special ability|AUTOMATIC|All Automatic Proficiencies									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Wu Jen|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenProficiencies
 #												
 1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Watchful Spirit|Wu Jen Watchful Spirit			BONUS:ABILITYPOOL|Metamagic Feat|1	BONUS:ABILITYPOOL|Taboo|1				
 2	CAST:4,2											

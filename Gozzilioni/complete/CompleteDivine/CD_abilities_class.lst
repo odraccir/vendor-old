@@ -2,11 +2,6 @@ SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net
 																																	
 ###Block: Proficiencies																																	
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
-#Censure Demons	CATEGORY:Special Ability	TYPE:Turning.KnightSpecial	VISIBLE:NO	SAB:Censure Demons (Su) %1/day (Will DC %2) (max HD %3)|CensureTimesDemons|CensureDemonDC|CensureLevelDemons			DEFINE:CensurePowerLVL|0	DEFINE:CensureTimesDemons|0	DEFINE:CensureLevelDemons|0	DEFINE:CensureDemonDC|0	BONUS:VAR|CensureTimesDemons|CensurePowerLVL/2	BONUS:VAR|CensureLevelDemons|CensurePowerLVL*2	BONUS:VAR|CensureDemonDC|10+WIS+CensurePowerLVL																				
-Shugenja Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Sword (Short)																												SOURCEPAGE:CD	
-Spirit Shaman Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Dart|Handaxe|Javelin|Longspear|Quarterstaff|Spear|Shortspear|Axe (Throwing)|Sling|Shortbow																												SOURCEPAGE:CD	
-Temple Raider Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Rapier																												SOURCEPAGE:CD	
-#																																	
 Silver Damage Reduction	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural	VISIBLE:NO											BONUS:DR|10|Silver												PREALIGN:LG,LN,LE,NG,TN,NE	DR:0/Silver					SOURCEPAGE:CD	
 Cold Iron Damage Reduction	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural	VISIBLE:NO											BONUS:DR|10|Cold Iron												PREALIGN:CG,CN,CE,NG,TN,NE	DR:0/Cold Iron					SOURCEPAGE:CD	
 Spirit Shaman Guide	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	BONUS:ABILITYPOOL|Spirit Guide|1	VFEAT:Alertness																											SOURCEPAGE:CD	

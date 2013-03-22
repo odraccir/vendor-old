@@ -26,9 +26,7 @@ SUBSTITUTIONLEVEL:11				ABILITY:Special Ability|AUTOMATIC|Spontaneous casting ~ 
 #													
 CLASS:Ex Cleric		HD:8		TYPE:Base.PC	ABB:XClr			SOURCEPAGE:PH		BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	VISIBLE:NO
 CLASS:Ex Cleric	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Planes)|TYPE.Profession|Spellcraft											
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency											
-1												AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	
-1												AUTO:FEAT|Shield Proficiency	
+1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Cleric|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiences
 #													
 CLASS:Druid.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Resist Extraplanar Might													

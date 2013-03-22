@@ -1,9 +1,5 @@
 SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																														
 																																
-###Block: Proficiencies																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Cancer Mage Armor Prof	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:BoVD
-																																
 # Ability Name																																
 Cancer Mage Sneak Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageSneakAttackLVL|0					BONUS:VAR|SneakAttackDice|(CancerMageSneakAttackLVL+3)/4																		SOURCEPAGE:BoVD
 Cancer Mage Infected Wound	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:CancerMageInfectedWoundLVL|0					BONUS:VAR|InfectedWoundPerDay|CancerMageInfectedWoundLVL	BONUS:VAR|InfectedWoundDC|CancerMageInfectedWoundLVL																	SOURCEPAGE:BoVD

@@ -1,8 +1,6 @@
 SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																														
 ###Block: Rogue Special Abilities																																
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
-Hathran Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:WEAPONPROF|TYPE.Whip																												SOURCEPAGE:PGtF
-Maiden of Pain Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:WEAPONPROF|TYPE.Whip																												SOURCEPAGE:PGtF
 #																																#
 Token (spellguard)	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES	OUTPUTNAME:Token															AUTO:EQUIP|Adrath Token													SOURCEPAGE:PGtF										
 #

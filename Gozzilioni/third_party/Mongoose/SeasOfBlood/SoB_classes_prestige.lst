@@ -9,9 +9,7 @@ SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net
 CLASS:Buccaneer	HD:8	TYPE:NPC.Prestige	ABB:Buc	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Buccaneer	PREATT:3	PRESTAT:1,CHA=13	PRESKILL:3,Balance=6,Swim=6,Tumble=6									
 CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Seamanship)|Move Silently|Sense Motive|Swim|Tumble|Use Rope										
-#												
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
-1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Buccaneer
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Shipboard Climbing								
 2				ABILITY:Special Ability|AUTOMATIC|Up close and Personal								
@@ -27,9 +25,7 @@ CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Di
 CLASS:Reaver	HD:10	TYPE:NPC.Prestige	ABB:Rea	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Reaver	PREATT:4	PRESKILL:1,Swim=6	PREFEAT:2,Power Attack,Two Weapon Fighting									
 CLASS:Reaver	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Hide|Intimidate|Jump|Knowledge (Seamanship)|Swim|Use Rope										
-#												
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
-1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Reaver
 #												
 1		BONUS:ABILITYPOOL|Reaver Feat|((CL+2)/5)		ABILITY:Special Ability|AUTOMATIC|Armor Expertise|Reaver Armor Expertise			BONUS:VAR|ReaverArmorExpertiseLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Inspire Crew|Reaver Inspire Crew			BONUS:VAR|ReaverInspireCrewLVL|CL					

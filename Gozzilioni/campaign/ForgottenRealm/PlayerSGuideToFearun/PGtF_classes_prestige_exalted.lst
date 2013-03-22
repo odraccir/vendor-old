@@ -58,7 +58,7 @@ CLASS:Harper Paragon	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Dipl
 CLASS:Maiden of Pain	HD:6	TYPE:Prestige	ABB:Mop	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Maiden of Pain	PREGENDER:Female	PRESKILL:1,Intimidate=4	PREFEAT:1,Violate Spell	PRESPELL:2,Masochism,Sadism	PREDEITY:1,Loviatar	PRETEXT:The candidate must have used the drug Agony (Liquid Pain)							
 CLASS:Maiden of Pain	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Sense Motive|Spellcraft|Use Rope											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Maiden of Pain Weapon Proficiencies											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Maiden of Pain
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Agony Addiction|Lasher|Pain Touch|Maiden of Pain Pain Touch		DOMAIN:Pain		BONUS:VAR|MaidenOfPainPainTouchLVL|CL					
 2	ADD:SPELLCASTER|Cleric												

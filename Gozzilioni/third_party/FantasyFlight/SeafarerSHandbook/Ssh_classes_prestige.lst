@@ -8,7 +8,6 @@ SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.n
 CLASS:Reef Warrior	HD:10	TYPE:Prestige	ABB:Ree	MAXLEVEL:10	SOURCEPAGE:Ssh	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Reef Warrior	PRERACE:1,Elf (Coral)	PREALIGN:LN,NG,TN	PREFEAT:1,Skill Focus(Swim)	PRESKILL:1,Hide=4	PRESKILL:1,Swim=6							
 CLASS:Reef Warrior	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Heal|Hide|Intimidate|Listen|Search|Spot|Swim										
-#												
 1				ABILITY:Special Ability|AUTOMATIC|Reef Bonding								
 2				ABILITY:Special Ability|AUTOMATIC|Coral Skin|Reef Warrior Coral Skin			BONUS:VAR|ReefWarriorCoralSkinLVL|CL					
 3				ABILITY:Special Ability|AUTOMATIC|Sustenance			BONUS:ABILITYPOOL|Fighter Feat|CL/3					

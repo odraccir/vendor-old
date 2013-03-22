@@ -16,7 +16,6 @@ SUBSTITUTIONLEVEL:3	CAST:4,2,1	ABILITY:Special Ability|AUTOMATIC|Salt Synthesis
 CLASS:Sailor	HD:8	TYPE:NPC.Expert	ABB:Sai	MAXLEVEL:5	SOURCEPAGE:SoB	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Sailor	PRETEXT:Must live near the sea											
 CLASS:Sailor	STARTSKILLPTS:4	CSKILL:Balance|Climb|Jump|Knowledge (Seamanship)|Swim|Use Rope|Appraise|Profession (Navigator)										
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
-1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
+1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Sailor|!PREABILITY:1,CATEGORY=ACF,TYPE.SailorProficiencies
 #												
 1		ABILITY:Special Ability|AUTOMATIC|Base Skill Level|Sailor Skill Level								BONUS:VAR|SailorSkillLVL|CL

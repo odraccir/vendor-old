@@ -1174,7 +1174,7 @@ Eclectic Learning ~ Warmage	CATEGORY:Special Ability	TYPE:EclecticLearning.Speci
 																																			
 Extend Spell Ability	CATEGORY:Special Ability	TYPE:ExtendSpellAbility.SpecialQuality	VISIBLE:YES	DESC:%1/day|ExtendSpellPerDay	OUTPUTNAME:Extend Spell	PRECLASS:1,Harper Mage=3,Harper Priest=3		DEFINE:ExtendSpellPerDay|1+CHA							STACK:NO	MULT:YES	CHOOSE:NUMCHOICES=1|SKILLSNAMED|TYPE.Knowledge	SELECT:1	ADD:FEAT|Skill Focus(%LIST)													SOURCEPAGE:MoF			
 																																			
-Weapon Bond Ability	CATEGORY:Special Ability	TYPE:WeaponBondAbility.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST											STACK:NO	MULT:YES	CHOOSE:EQUIPMENT|PC[TYPE=Weapon]	SELECT:1														SOURCEPAGE:CW			
+Weapon Bond Ability	CATEGORY:Special Ability	TYPE:WeaponBondAbility.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST											STACK:NO	MULT:YES	CHOOSE:EQUIPMENT|OWNED[TYPE=Weapon]	SELECT:1														SOURCEPAGE:CW			
 																																			
 Skill Focus ~ Knowledge	CATEGORY:FEAT	TYPE:OghmaSInsight	VISIBLE:YES	DESC:%1|%LIST					ADD:FEAT|Skill Focus(%LIST)						STACK:NO	MULT:YES	CHOOSE:SKILL|PC[TYPE=Knowledge]	SELECT:1														SOURCEPAGE:MoF			
 																																			

@@ -7,7 +7,7 @@ SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.n
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Ninja	HD:6	TYPE:Base.PC.Oriental	ABB:Nin	MAXLEVEL:20	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Ninja	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Concentration|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble										
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Ninja Weapon Proficiencies									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Ninja|!PREABILITY:1,CATEGORY=ACF,TYPE.NinjaProficiencies
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Ninja AC			BONUS:VAR|NinjaACLVL|CL					
 #												
@@ -33,8 +33,7 @@ CLASS:Ninja	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Concentration|TYPE.Craft|
 #												
 CLASS:Scout	HD:8	TYPE:Base.PC	ABB:Sco	MAXLEVEL:20	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Scout	STARTSKILLPTS:8	CSKILL:Balance|Climb|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|Ride|Search|Sense Motive|Speak Language|Spot|Survival|Swim|Tumble|Use Rope										
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Scout Weapon Proficiencies									
-1		AUTO:FEAT|Armor Proficiency (Light)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Scout|!PREABILITY:1,CATEGORY=ACF,TYPE.ScoutProficiencies
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Skirmish Attack|Skirmish AC|Scout Skirmish|Trapfinding			BONUS:VAR|ScoutSkirmishLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Battle Fortitude|Scout Battle Fortitude	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base		BONUS:VAR|ScoutBattleFortitudeLVL|CL	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.STACK	BONUS:VAR|UncannyDodgeLevel|1			
@@ -60,8 +59,7 @@ CLASS:Scout	STARTSKILLPTS:8	CSKILL:Balance|Climb|TYPE.Craft|Escape Artist|Hide|J
 CLASS:Spellthief	HD:6	TYPE:Base.PC	ABB:Spt	MAXLEVEL:20	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
 CLASS:Spellthief	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE.Craft|Decipher Script|Disable Device|Escape Artist|Gather Information|Hide|Jump|Knowledge (Arcana)|Knowledge (Local)|Listen|Move Silently|Open Lock|Search|Speak Language|Spellcraft|Spot|Swim|Tumble|Use Magic Device										
 CLASS:Spellthief	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Spellthief|CL/2	BONUSSPELLSTAT:NONE		DEFINE:WarmageEdgeBonus|0				
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies									
-1		AUTO:FEAT|Armor Proficiency (Light)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Spellthief|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellthiefProficiencies
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Armored Casting (Bard)|Trapfinding	ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Spellthief Sneak Attack|Steal Spell|Spellthief Steal Spell		BONUS:VAR|SpellthiefSneakAttackLVL|CL	BONUS:VAR|SpellthiefStealSpellLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Detect Magic (Sp)|Spellgrace|Spellthief Spellgrace	ABILITY:Special Ability|AUTOMATIC|Steal Spell Effect|Spellthief Steal Spell Effect			BONUS:VAR|DetectMagicPerDay|max(1,CHA)	BONUS:VAR|DetectMagicLVL|CL	BONUS:VAR|SpellthiefSpellgraceLVL|CL	BONUS:VAR|SpellthiefStealSpellEffectLVL|CL	

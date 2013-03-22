@@ -8,9 +8,7 @@ CLASS:Gnome Artificer	HD:6	TYPE:PC.Prestige	ABB:Gar	MAXLEVEL:10	SOURCEPAGE:MoF	B
 CLASS:Gnome Artificer	PREMULT:1,[PRERACE:1,RACESUBTYPE=Gnome],[PREMULT:2,[PRERACE:1,RACESUBTYPE=Human],[PREREGION:1,Lantan]]	PRESKILL:1,Craft (Alchemy)=3	PRESKILL:1,Craft (Armorsmithing)=8,Craft (Blacksmithing)=8,Craft (Gemcutting)=8,Craft (Locksmithing)=8,Craft (Metalworking)=8,Craft (Trapmaking)=8,Craft (Weaponsmithing)=8	PRESKILL:3,Craft (Armorsmithing)=4,Craft (Blacksmithing)=4,Craft (Gemcutting)=4,Craft (Locksmithing)=4,Craft (Metalworking)=4,Craft (Trapmaking)=4,Craft (Weaponsmithing)=4	PRESKILL:1,Disable Device=2	PRESKILL:1,Knowledge (Architecture and Engineering)=4	PRESKILL:1,Profession (Apothecary)=3,Profession (Engineer)=3,Profession (Siege Engineer)=3	PREFEAT:1,Lightning Reflexes	PREFEAT:1,Skill Focus(Craft (Armorsmithing)),Skill Focus(Craft (Blacksmithing)),Skill Focus(Craft (Gemcutting)),Skill Focus(Craft (Locksmithing)),Skill Focus(Craft (Metalworking)),Skill Focus(Craft (Trapmaking)),Skill Focus(Craft (Weaponsmithing))	PRESPELLSCHOOL:1,Illusion=1	PRESPELLTYPE:1,Arcane=1
 CLASS:Gnome Artificer	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE.Craft|Disable Device|Knowledge (Architecture and Engineering)|Listen|TYPE.Profession|Search|Use Rope									
 CLASS:Gnome Artificer	SPELLSTAT:INT	SPELLTYPE:Mundane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Gnome Artificer|CL						
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Gnome Artificier
 #											
 1		KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Artificer Item							
 2		KNOWN:5,2		ABILITY:Special Ability|AUTOMATIC|Bonus Item|Gnome Artificer Bonus Item			BONUS:VAR|GnomeArtificerBonusItemLVL|CL				
@@ -41,7 +39,7 @@ CLASS:Guild Wizard of Waterdeep	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|
 CLASS:Harper Mage	HD:4	TYPE:PC.Prestige	ABB:Hmm	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
 CLASS:Harper Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=4	PRESKILL:1,TYPE.Knowledge=8	PRESKILL:2,TYPE.Knowledge=4	PRESKILL:1,Sense Motive=2	PRESKILL:1,Spellcraft=8	PREFEAT:3,Alertness,Education,Extend Spell	PRESPELLTYPE:1,Arcane=3	PRETEXT:Sponsorship by a member of the Harpers, approval of the High Harpers.		
 CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Gather Information|Heal|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Speak Language|Spellcraft|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Harper Mage
 #											
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Mage Harper Knowledge			BONUS:VAR|HarperMageHarperKnowledgeLVL|CL	BONUS:ABILITYPOOL|Oghma's Insight|1			
 2	ADD:SPELLCASTER|Arcane		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
@@ -53,9 +51,7 @@ CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher
 CLASS:Harper Priest	HD:8	TYPE:PC.Prestige	ABB:Hpr	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
 CLASS:Harper Priest	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREFEAT:2,Alertness,Iron Will	PRESPELLTYPE:1,Divine=3	PRETEXT:Sponsorship by a member of the Harpers, approval of the High Harpers.	
 CLASS:Harper Priest	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|TYPE.Knowledge|Listen|TYPE.Perform|Sense Motive|Spellcraft|Spot|Swim|Survival									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Harper Priest
 #											
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Blessing|Harper Priest Blessing	ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Priest Harper Knowledge		BONUS:ABILITYPOOL|Harper Priest Blessing|CL	BONUS:VAR|HarperPriestHarperKnowledgeLVL|CL			
 2	ADD:SPELLCASTER|Divine		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
@@ -108,7 +104,7 @@ CLASS:Mystic Wanderer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 CLASS:Spelldancer	HD:6	TYPE:PC.Prestige	ABB:Spd	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
 CLASS:Spelldancer	PRESKILL:2,Concentration=4,Tumble=4	PRESKILL:1,Perform (Dance)=6	PREFEAT:4,Combat Casting,Dodge,Endurance,Mobility	PRESPELLTYPE:1,ANY=3							
 CLASS:Spelldancer	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Jump|Knowledge (Arcana)|TYPE.Perform|TYPE.Profession|Spellcraft|Swim|Tumble									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Spelldancer
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Spelldance|Spelldancer Spelldance			BONUS:VAR|SpelldancerSpelldanceLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Enthralling Dance|Spelldancer Enthralling Dance|Evasion			BONUS:VAR|SpelldancerEnthrallingDanceLVL|CL	BONUS:VAR|EvasionUsable|1			
@@ -119,7 +115,7 @@ CLASS:Spelldancer	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Jump|Knowledge
 CLASS:Spellfire Channeler	HD:4	TYPE:PC.Prestige	ABB:Sfc	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
 CLASS:Spellfire Channeler	PRESKILL:1,Concentration=8	PRESKILL:2,Knowledge (Arcana)=2,Spellcraft=2	PREFEAT:2,Endurance,Spellfire Wielder								
 CLASS:Spellfire Channeler	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Heal|Intimidate|Knowledge (Arcana)|TYPE.Profession|Sense Motive|Spellcraft|Survival									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Spellfire Channeler
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Charged Item Drain|Increased Storage|Spellfire Channeler Increased Storage			BONUS:VAR|SpellfireChannelerIncreasedStorageLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Improved Healing							

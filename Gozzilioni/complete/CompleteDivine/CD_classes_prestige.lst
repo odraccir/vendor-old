@@ -8,7 +8,6 @@ CLASS:Black Flame Zealot	HD:6	TYPE:Prestige	ABB:Bfz	MAXLEVEL:10	SOURCEPAGE:CD	BO
 #CLASS:Black Flame Zealot	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:3,Hide=8,Knowledge (Religion)=8,Move Silently=8	PREFEAT:2,Exotic Weapon Proficiency(Kukri),Iron Will	PREVARGTEQ:SneakAttackDice,1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Y	PRETEXT:Must slay an enemy of the fait for no other reason than joining the Order of the Black Flame							
 CLASS:Black Flame Zealot	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:3,Hide=8,Knowledge (Religion)=8,Move Silently=8	PREFEAT:2,Martial Weapon Proficiency(Kukri),Iron Will	PREVARGTEQ:SneakAttackDice,1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Y	PRETEXT:Must slay an enemy of the fait for no other reason than joining the Order of the Black Flame							
 CLASS:Black Flame Zealot	STARTSKILLPTS:4	CSKILL:Balance|Climb|Escape Artist|Hide|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|TYPE.Profession|Search|Sleight of Hand|Spellcraft|Spot|Swim|Tumble|Use Rope													
-#															
 1				ABILITY:Special Ability|AUTOMATIC|Zelous Hearth|Death Attack			BONUS:VAR|DeathAttack|CL								
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Poison Use											
 3							BONUS:VAR|SneakAttackDice|CL/3								
@@ -23,7 +22,6 @@ CLASS:Black Flame Zealot	STARTSKILLPTS:4	CSKILL:Balance|Climb|Escape Artist|Hide
 CLASS:Blighter	HD:8	TYPE:Prestige	ABB:Bli	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Blighter	PREALIGN:LN,LE,TN,NE,CN,CE	PREATT:4	PRECLASS:1,Ex Druid=5												
 CLASS:Blighter	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Listen|Profession (Herbalist)|Spellcraft|Spot|Survival|Swim	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Blighter|CL+classlevel("Druid")			DEFINE:ContagiousTouchTimes|0	DEFINE:UnbondTimes|0	DEFINE:PlagueTimes|0			
-#															
 1	CAST:4,2			ABILITY:Special Ability|AUTOMATIC|Deforestation											
 2	CAST:5,3,0			ABILITY:Special Ability|AUTOMATIC|Blightfire (Su)|Blighter Blightfire|Sustenance			BONUS:VAR|BlighterBlightfireLVL|CL								
 3	CAST:5,3,1,0			ABILITY:Special Ability|AUTOMATIC|Undead Wild Shape|Blighter Undead Wild Shape|Blighter Undead Wild Shape Times|Blighter Undead Wild Shape Progression			BONUS:VAR|BlighterUndeadWildShape|CL								
@@ -53,7 +51,6 @@ CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 CLASS:Consecrated Harrier	HD:10	TYPE:Prestige	ABB:Coh	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE						
 CLASS:Consecrated Harrier	PREALIGN:LG,LN,LE	PREATT:5	PRESKILL:2,Disguise=5,Gather Information=5	PREFEAT:1,Track	PRETEXT:The candidate must accept an assignment from her church to locate and destroy some specific, individual enemy of the church. A character who fails must wait a year and a day before applying again. If she succeeds, the church accepts her as a consecrated harrier.										
 CLASS:Consecrated Harrier	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Diplomacy|Disguise|Gather Information|Intimidate|Knowledge (Local)|TYPE.Profession|Ride|Search|Use Rope	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Consecrated Harrier|CL	SPELLLIST:2|Consecrated Harrier|Ranger							
-#															
 1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Blessing of Scripture|Consecrated Harrier Blessing of the Scripture|Detect Chaos			BONUS:VAR|ConsecratedHarrierBlessingLVL|CL	BONUS:VAR|DetectChaosLVL|CL							
 2	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Sanctified Sight|Consecrated Harrier Sanctified Sight											
 3	CAST:0,1,0			ABILITY:Special Ability|AUTOMATIC|Dispel Magic|Consecrated Harrier Dispel Magic											
@@ -68,7 +65,6 @@ CLASS:Consecrated Harrier	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Diplomacy|Disguise|
 CLASS:Contemplative	HD:6	TYPE:Prestige	ABB:Con	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE						
 CLASS:Contemplative	PRESKILL:1,Knowledge (Religion)=13	PRESPELLCAST:TYPE=Divine	PRETEXT:Must have had direct contact with one's patron deity or a direct servant of that deity, or with an enlightened being embodying the highest principles of an alignment (a solar, for example).												
 CLASS:Contemplative	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Intimidate|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft													
-#															
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Divine Health		BONUS:DOMAIN|NUMBER|1									
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Slippery Mind											
 3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Divine Wholeness			BONUS:VAR|DivineWholenessLVL|CL								
@@ -102,13 +98,11 @@ CLASS:Divine Crusader	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 #															
 CLASS:Ex Divine Crusader	HD:8	TYPE:Prestige	ABB:xDic	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			VISIBLE:NO			
 CLASS:Ex Divine Crusader	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Jump|Knowledge (Religion)|Ride|Swim													
-#															
 1															
 #															
 CLASS:Divine Oracle	HD:6	TYPE:Prestige	ABB:Ora	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE						
 CLASS:Divine Oracle	PRESKILL:1,Knowledge (Religion)=8	PREFEAT:1,Skill Focus(Knowledge (Religion))	PRESPELLSCHOOL:2,Divination=1												
 CLASS:Divine Oracle	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
-#															
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Scry Bonus|Divine Oracle Scry Bonus		DOMAIN:Oracle	BONUS:DOMAIN|NUMBER|1								
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Trap Sense Ability|Divine Oracle Trap Sense|Prescient Sense			BONUS:VAR|DivineOracleTrapSenseLVL|CL								
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Divination Enhancement											
@@ -137,7 +131,6 @@ CLASS:Entropomancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intimid
 CLASS:Evangelist	HD:6	TYPE:Prestige	ABB:Eva	MAXLEVEL:5	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE						
 CLASS:Evangelist	PRESKILL:1,Bluff=8	PRESKILL:3,Gather Information=5,Knowledge (Religion)=5,Sense Motive=5	PRESKILL:1,Perform (Oratory)=6	PREFEAT:1,Negotiator,Persuasive											
 CLASS:Evangelist	STARTSKILLPTS:6	CSKILL:Bluff|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Intimidate|TYPE.Knowledge|Listen|TYPE.Perform|TYPE.Profession|Sense Motive|Speak Language													
-#															
 1				ABILITY:Special Ability|AUTOMATIC|Great Oratory ~ Base|Evangelist Great Oratory			BONUS:VAR|GreatOratoryLVL|CL	BONUS:ABILITYPOOL|Great Oratory|1							
 2				ABILITY:Special Ability|AUTOMATIC|Fast Talk											
 3								BONUS:ABILITYPOOL|Great Oratory|1							
@@ -147,7 +140,6 @@ CLASS:Evangelist	STARTSKILLPTS:6	CSKILL:Bluff|TYPE.Craft|Diplomacy|Disguise|Esca
 CLASS:Geomancer	HD:6	TYPE:Prestige	ABB:Geo	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE						
 CLASS:Geomancer	PRESKILL:2,Knowledge (Arcana)=6,Knowledge (Nature)=6	PRESPELLCAST:TYPE=Arcane,TYPE=Divine	PRESPELLTYPE:1,Arcane=1	PRESPELLTYPE:1,Divine=1											
 CLASS:Geomancer	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Arcana)|Knowledge (Nature)|Spellcraft|Survival|Swim													
-#															
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spell Versatility			BONUS:VAR|GeomancerSpellVersatilityLVL|CL	BONUS:ABILITYPOOL|Geomancer Drift|1							
 2	ADD:SPELLCASTER|ANY						BONUS:ABILITYPOOL|Geomancer Ley Line|1	BONUS:ABILITYPOOL|Geomancer Drift|1							
 3	ADD:SPELLCASTER|ANY							BONUS:ABILITYPOOL|Geomancer Drift|1							
@@ -162,9 +154,7 @@ CLASS:Geomancer	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|
 CLASS:Holy Liberator	HD:10	TYPE:Prestige	ABB:Hli	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Holy Liberator					
 CLASS:Holy Liberator	PREALIGN:CG	PREATT:5	PRESKILL:2,Diplomacy=5,Sense Motive=5	PREFEAT:1,Iron Will											
 CLASS:Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Holy Liberator|CL+classlevel("Paladin")+classlevel("Ex Paladin")	SPELLLIST:2|Holy Liberator|Paladin							
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Holy Liberator
 #															
 1	PROHIBITSPELL:ALIGNMENT.Lawful									DEFINE:AllowHolyAvenger|1					
 #															
@@ -181,19 +171,13 @@ CLASS:Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|H
 #															
 CLASS:Ex Holy Liberator	HD:10	TYPE:Prestige	ABB:xHli	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			VISIBLE:NO			
 CLASS:Ex Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive													
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Holy Liberator
 #															
 ###TODO CONTIGUOUS:Hospitaler|Paladin															
 CLASS:Hospitaler	HD:8	TYPE:Prestige	ABB:Hos	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Hospitaler					
 CLASS:Hospitaler	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:5	PRESKILL:2,Handle Animal=5,Ride=5	PREFEAT:1,Mounted Combat,Ride By Attack	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1									
 CLASS:Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Religion)|TYPE.Profession|Ride													
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hospitaler
 #															
 1				ABILITY:Special Ability|AUTOMATIC|Lay on Hands			BONUS:VAR|LayOnHandsLVL|CL	BONUS:ABILITYPOOL|Fighter Feat|1							
 2	ADD:SPELLCASTER|Divine														
@@ -209,9 +193,7 @@ CLASS:Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handl
 CLASS:Ex Hospitaler	HD:8	TYPE:Prestige	ABB:xHos	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			VISIBLE:NO			
 CLASS:Ex Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Religion)|TYPE.Profession|Ride													
 #															
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hospitaler
 #															
 CLASS:Pious Templar	HD:10	TYPE:Prestige	ABB:Pte	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					ALLOWBASECLASS:NO	
 CLASS:Pious Templar	PREATT:5	PRESKILL:1,Knowledge (Religion)=4	PREFEAT:2,True Believer,Weapon Focus	PRETEXT:Weapon focus in deity's favored weapon											
@@ -238,10 +220,7 @@ SUBCLASS:Pious Templar Blackguard	COST:0	PREALIGN:LE,LN,NE,TN,CE,CN	SPELLLIST:1|
 CLASS:Radiant Servant of Pelor	HD:6	TYPE:Prestige	ABB:Rsp	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Radiant Servant of Pelor	PREALIGN:NG	PRESKILL:1,Heal=5	PRESKILL:1,Knowledge (Religion)=9	PREFEAT:1,Extra Turning	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDOMAIN:1,Sun	PREDEITY:1,Pelor							
 CLASS:Radiant Servant of Pelor	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft													
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Radiant Servant of Pelor
 #															
 1				ABILITY:Special Ability|AUTOMATIC|Radiant Servant Turn Undead			BONUS:VAR|RspTurnUndeadLVL|CL								
 #															
@@ -259,7 +238,6 @@ CLASS:Radiant Servant of Pelor	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|D
 CLASS:Rainbow Servant	HD:4	TYPE:Prestige	ABB:Rai	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE						
 CLASS:Rainbow Servant	PREALIGN:LG,LN,NG,TN	PRESKILL:1,Knowledge (Arcana)=4	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3	PRETEXT:Must find the hidden jungle temple of the Couatls										
 CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Sense Motive|Spellcraft													
-#															
 1				ABILITY:Special Ability|AUTOMATIC|Detect Evil		DOMAIN:Good	BONUS:DOMAIN|NUMBER|1	BONUS:VAR|DetectEvilLVL|CL							
 2	ADD:SPELLCASTER|Arcane														
 3	ADD:SPELLCASTER|Arcane														
@@ -274,8 +252,7 @@ CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 CLASS:Sacred Exorcist	HD:8	TYPE:Prestige	ABB:Exo	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Sacred Exorcist	PREALIGN:LG,NG,CG	PRESKILL:1,Knowledge (The Planes)=10	PRESKILL:1,Knowledge (Religion)=7	PRESPELL:1,Dismissal,Dispel Evil	PRETEXT:Adopting this prestige class requires the sanction of a church or order that ordains sacred exorcists. Only characters judged by their church to be exemplary in faith and devotion, strong of will and upright in morality, are made sacred exorcists.										
 CLASS:Sacred Exorcist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Sacred Exorcist
 #															
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Exorcism|Basic Turning|Sacred Exorcist Turning			BONUS:VAR|TurnLevelBase|CL|TYPE=Level.REPLACE	BONUS:VAR|TurnDamagePlusBase|CL|TYPE=Level.REPLACE							
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Resist Possession|Detect Evil			BONUS:VAR|DetectEvilLVL|CL								
@@ -309,9 +286,7 @@ CLASS:Sacred Fist	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Escape Artist|Hea
 CLASS:Seeker of the Misty Isle	HD:8	TYPE:Prestige	ABB:See	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Seeker of the Misty Isle	PREMULT:1,[PRERACE:1,Elf%,Half-Elf],[PRERACE:1,RACESUBTYPE=Elf]	PRESKILL:1,Knowledge (Religion)=4	PRESKILL:1,Survival=8	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=2	PRETEXT:Must be inducted into the order by another member									
 CLASS:Seeker of the Misty Isle	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Hide|Jump|Knowledge (Geography)|Knowledge (Religion)|Listen|Move Silently|Ride|Speak Language|Spellcraft|Spot|Survival						DEFINE:FindThePathTimes|0	DEFINE:DiscernLocationTimes|0						
-#															
-1		AUTO:FEAT|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Seeker of the Misty Isle
 #															
 1	ADD:SPELLCASTER|Divine					DOMAIN:Travel	BONUS:DOMAIN|NUMBER|1								
 2	ADD:SPELLCASTER|Divine														
@@ -327,10 +302,7 @@ CLASS:Seeker of the Misty Isle	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentratio
 CLASS:Shining Blade of Heironeous	HD:10	TYPE:Prestige	ABB:Sbh	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE						
 CLASS:Shining Blade of Heironeous	PREALIGN:LG	PREATT:7	PRECHECKBASE:1,Will=3	PRESKILL:1,Knowledge (Religion)=7	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Heironeous								
 CLASS:Shining Blade of Heironeous	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Religion)|TYPE.Profession|Spellcraft						DEFINE:ShockBladeTimes|0	DEFINE:ShockBladeDuration|0						
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shining Blade of Heironeous
 #															
 1				ABILITY:Special Ability|AUTOMATIC|Shock Blade|Shining Blade Shock Blade			BONUS:VAR|ShiningShockBladeLVL|CL								
 2	ADD:SPELLCASTER|Divine														
@@ -346,7 +318,6 @@ CLASS:Shining Blade of Heironeous	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craf
 CLASS:Stormlord	HD:8	TYPE:Prestige	ABB:Sto	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Stormlord	PRECHECKBASE:1,Fortitude=4	PREFEAT:2,Endurance,Great Fortitude	PREFEAT:1,Weapon Focus(TYPE=Spear),Weapon Focus(TYPE=Javelin)	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=3	PREDEITY:1,Talos	PRETEXT:The character must have been hit by a bolt of lightning, whether a natural bolt or one created by magic, and survived.								
 CLASS:Stormlord	STARTSKILLPTS:2	CSKILL:Concentration|Disguise|Gather Information|Intimidate|Knowledge (Nature)|Knowledge (Religion)|Survival|Swim						DEFINE:EnhancedJavelinBonus|0	DEFINE:StormElementalFuryTimes|0						
-#															
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Enhanced Javelin|Stormlord Enhanced Javelin|Resistance To Electricity			BONUS:VAR|StormlordEnhancedJavelinLVL|CL	BONUS:VAR|ElectricityResistanceBonus|5							
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Shock Weapon											
 3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Storm Walk											
@@ -361,9 +332,7 @@ CLASS:Stormlord	STARTSKILLPTS:2	CSKILL:Concentration|Disguise|Gather Information
 CLASS:Temple Raider of Olidammara	HD:6	TYPE:Prestige	ABB:Tra	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Temple Raider of Olidammara	PREALIGN:CG,CN,CE	PREATT:5	PRESKILL:2,Disable Device=4,Open Lock=4	PRESKILL:1,Knowledge (Religion)=1	PRESKILL:1,Search=8	PREDEITY:1,Olidammara	PRETEXT:The character must be invited to join the ranks of the temple raiders by at least three current members of that prestige class.								
 CLASS:Temple Raider of Olidammara	STARTSKILLPTS:4	CSKILL:Appraise|Climb|TYPE.Craft|Decipher Script|Disable Device|Hide|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|Search|Spot|Tumble|Use Magic Device|Use Rope	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Temple Raider of Olidammara|CL								
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies|Temple Raider Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Temple Rider of Olidammara
 #															
 1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Trapfinding|Trap Sense Ability|Temple Raider Trap Sense			BONUS:VAR|TempleRaiderTrapSenseLVL|CL								
 2	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Temple Raider Sneak Attack			BONUS:VAR|TempleRaiderSneakAttackLVL|CL								
@@ -379,8 +348,7 @@ CLASS:Temple Raider of Olidammara	STARTSKILLPTS:4	CSKILL:Appraise|Climb|TYPE.Cra
 CLASS:Ur-Priest	HD:8	TYPE:Prestige	ABB:Urp	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Ur-Priest	PREALIGN:LE,NE,CE	PRECHECKBASE:2,Will=3,Fortitude=3	PRESKILL:1,Bluff=6	PRESKILL:2,Knowledge (Arcana)=5,Knowledge (The Planes)=5	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREFEAT:2,Iron Will,Spell Focus(Evil)	PRESPELLCAST:TYPE=Divine	PRETEXT:The character must be trained by another Ur-Priest							
 CLASS:Ur-Priest	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Ur-Priest|CL	SPELLLIST:1|Cleric							
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Ur-Priest
 #															
 1	CAST:4,2														
 2	CAST:5,3,0			ABILITY:Special Ability|AUTOMATIC|Basic Turning|Ur-Priest Turning			BONUS:ABILITYPOOL|Turn Undead|1|TYPE=ClassAbility	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|CL|TYPE=Level.REPLACE							
@@ -414,15 +382,11 @@ CLASS:Void Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|He
 CLASS:Warpriest	HD:10	TYPE:Prestige	ABB:Wrp	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE					
 CLASS:Warpriest	PREATT:5	PRESKILL:1,Diplomacy=8	PRESKILL:1,Sense Motive=5	PREFEAT:1,Combat Casting	PREDOMAIN:1,Destruction,Protection,Strength,War	PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead									
 CLASS:Warpriest	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Knowledge (History)|Ride|Sense Motive|Spellcraft|Swim							DEFINE:MassCureLightTimes|0		DEFINE:FearAuraTimes|0	DEFINE:FearAuraDuration|0	DEFINE:HeroesFeastTimes|0	DEFINE:HasteTimes|0	DEFINE:MassHealTimes|0
-#															
 SUBCLASS:Warpriest (Turn Undead)	COST:0	PREALIGN:LG,LN,NG,TN,CG,CN	PREABILITY:1,CATEGORY=Special Ability,Turn Undead												
 SUBCLASSLEVEL:1						DOMAIN:Glory	BONUS:DOMAIN|NUMBER|1								
 SUBCLASS:Warpriest (Rebuke Undead)	COST:0	PREALIGN:LE,LN,NE,TN,CE,CN	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead												
 SUBCLASSLEVEL:1						DOMAIN:Domination	BONUS:DOMAIN|NUMBER|1								
-#															
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies											
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)													
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency													
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warpriest
 #															
 1				ABILITY:Special Ability|AUTOMATIC|Warpriest Turn Undead|Rally			BONUS:VAR|WrpTurnUndeadLVL|CL	BONUS:VAR|RallyBonus|CL							
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Inflame|Warpriest Inflame			BONUS:VAR|WarpriestInflameLVL|CL								

@@ -36,9 +36,7 @@ CLASS:Disciple of Thrym	HD:10	TYPE:PC.Prestige.Frostfell	ABB:DiT	MAXLEVEL:10	SOU
 CLASS:Disciple of Thrym	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Intimidate=4	PRESKILL:1,Survival=8	PREATT:4	PREFEAT:1,Weapon Focus(Greataxe)	PREMULT:1,[PREFEAT:1,Cold Endurance],[PRERACE:1,RACESUBTYPE=Cold]					
 CLASS:Disciple of Thrym	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Survival									
 CLASS:Disciple of Thrym	SPELLSTAT:WIS	SPELLTYPE:Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4							
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output									
-1	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
-1	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Disciple of Thrym
 #											
 1	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Detect Fire (Sp/atwill/wis)|Protection of Winter			BONUS:VAR|DetectFireLVL|CL				
 2	CAST:0,2			ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|5				
@@ -106,7 +104,7 @@ CLASS:Primeval	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Intimida
 CLASS:Rimefire Witch	HD:6	TYPE:PC.Prestige.Frostfell	ABB:RiW	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	EXCLASS:Ex Rimefire Witch	
 CLASS:Rimefire Witch	PRESKILL:3,Concentration=6,Knowledge (History)=6,Spellcraft=6	PRESKILL:1,Knowledge (Religion)=9	PREFEAT:2,Iron Will,Mark of Hleid	PRESPELLTYPE:1,Divine=1	PRESPELLCAST:TYPE=Divine	PREDEITY:1,Hleid	PRETEXT:Must accept the bond of the rimefire eidolon.				
 CLASS:Rimefire Witch	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Diplomacy|Gather Information|Heal|Jump|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Sense Motive|Spellcraft|Swim									
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Rimefire Witch Weapon Proficiencies										
+1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Rimefire Witch
 #											
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Rimefire Bond|Detect Minion of Iborighu			BONUS:VAR|RimefireEidolonLVL|CL				
 2	ADD:SPELLCASTER|ANY										
@@ -158,8 +156,7 @@ CLASS:Stormsinger	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomac
 CLASS:Winterhaunt of Iborighu	HD:8	TYPE:PC.Prestige.Frostfell	ABB:WiI	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
 CLASS:Winterhaunt of Iborighu	PREALIGN:CN,CE,NE	PRESKILL:2,Concentration=8,Knowledge (Religion)=8	PRESKILL:1,Knowledge (Arcana)=5	PREFEAT:3,Chosen of Iborighu,Craft Wondrous Item,Piercing Cold	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PREDEITY:1,Iborighu	PRETEXT:Must create an Iceheart (either minor or major).			
 CLASS:Winterhaunt of Iborighu	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft									
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Winterhaunt Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
-1	AUTO:FEAT|Armor Proficiency (Light)										
+1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Winterhaunt of Iborighu
 #											
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Cloak of Winter's Chill			BONUS:VAR|CloakOfWinterChillPerDay|3+CHA	BONUS:VAR|CloakOfWinterChillDuration|CL+CHA			
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|5				

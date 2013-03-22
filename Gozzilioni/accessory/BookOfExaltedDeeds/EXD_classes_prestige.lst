@@ -7,9 +7,7 @@ SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni
 CLASS:Anointed Knight	HD:10	TYPE:PC.Prestige.Exalted	ABB:AnK	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Anointed Knight	PREALIGN:LG,NG,CG	PREATT:5	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:2,Knowledge (Arcana)=3,Spellcraft=3	PREFEAT:1,Ancestral Relic						
 CLASS:Anointed Knight	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Craft (Alchemy)|Heal|Jump|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (The Planes)|Ride|Spellcraft									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Annointed Knight								
 #											
 1							BONUS:ABILITYPOOL|Anoint Self|(CL+2)/3	BONUS:VAR|AnointSelf|CL+CHA		DEFINE:AnointSelf|0	
 2							BONUS:ABILITYPOOL|Anoint Ancestral Weapon|(CL+1)/3	BONUS:VAR|AnointAncestralWeapon|CL+CHA		DEFINE:AnointAncestralWeapon|0	
@@ -46,9 +44,7 @@ CLASS:Beloved of Valarian	HD:10	TYPE:PC.Prestige.Exalted	ABB:BVa	MAXLEVEL:10	SOU
 CLASS:Beloved of Valarian	PREGENDER:Female	PREALIGN:LG,NG,CG	PREATT:7	PRESKILL:1,Knowledge (Nature)=5	PRESKILL:1,Ride=10	PREFEAT:3,Mounted Combat,Sacred Vow,Vow of Chastity	PRETEXT:Must meditate at a druid's grove and fast until she saves the life of an animal in danger.				
 CLASS:Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense Motive|Survival									
 CLASS:Beloved of Valarian	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4							
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)									
-1		ABILITY:Special Ability|AUTOMATIC|Beloved Valarian Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Beloved of Valarian									
 #											
 1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Call Unicorn|Timelessness			BONUS:VAR|UnicornMountLVL|CL				
 2	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Ethereal Jaunt (Sp)			BONUS:VAR|EtherealJauntPerDay|1	BONUS:VAR|EtherealJauntLVL|CL			
@@ -68,9 +64,9 @@ CLASS:Celestial Mystic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Celestial Spell ~ archon							
 3	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Golden Heaven							
 4	ADD:SPELLCASTER|ANY										
-5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Pearly Heaven|Celestial Mystic Blessing of Pearly Heaven			BONUS:VAR|MysticalKnowledgeLVL|CL				
+5	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Pearly Heaven			BONUS:VAR|MysticalKnowledge|CL	BONUS:VAR|MysticalKnowledge|2|PRESKILL:1,Knowledge (History)=5
 6	ADD:SPELLCASTER|ANY										
-7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Crystal Heaven|Celestial Mystic Blessing of Crystal Heaven			BONUS:VAR|BlessingCrystalHeavenLVL|CL				
+7	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Crystal Heaven			BONUS:VAR|BlessingCrystalHeavenPF|3*CL				
 8	ADD:SPELLCASTER|ANY										
 9	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Glittering Heaven							
 10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Blessing of the Illuminated Heaven							
@@ -196,9 +192,7 @@ SUBCLASSLEVEL:4						SPELLLEVEL:CLASS|Warmage=8|Planar Ally (Greater),Holy Aura|
 CLASS:Fist of Raziel	HD:10	TYPE:PC.Prestige.Exalted	ABB:FiR	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Fist of Raziel	PREALIGN:LG	PREATT:6	PRESKILL:2,Diplomacy=5,Knowledge (Religion)=5	PREFEAT:2,Power Attack,Servant of the Heavens	PRESPELL:1,Divine Favor						
 CLASS:Fist of Raziel	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Fist of Raziel
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Magic Circle|Smite Evil|Fist of Raziel Smite Evil|Smite Evil ~ Fist of Raziel			BONUS:VAR|FistOfRazielSmiteEvilLVL|CL				
 2	ADD:SPELLCASTER|ANY										
@@ -290,9 +284,7 @@ CLASS:Sentinel of Bharrai	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|D
 CLASS:Skylord	HD:10	TYPE:PC.Prestige.Exalted	ABB:Skl	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Skylord	PREALIGN:LG,NG,CG	PRERACE:1,RACESUBTYPE=Elf	PREATT:7	PRESKILL:2,Handle Animal=10,Ride=10	PREFEAT:1,Mounted Combat	PREFEAT:1,Mounted Archery,Ride By Attack	PREFEAT:1,TYPE=Exalted	PRETEXT:must spend one week living and meditating atop a mountain.			
 CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE.Knowledge|Listen|Ride|Spot|Survival									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Skylord									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Call Flying Mount|Eyes of the Eagle			BONUS:VAR|FlyingMountLVL|CL				
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Ride the Wind EXD							
@@ -345,7 +337,7 @@ SUBCLASSLEVEL:7	CAST:0,1
 SUBCLASSLEVEL:8	CAST:0,1,0										
 SUBCLASSLEVEL:9	CAST:0,1,0										
 SUBCLASSLEVEL:10	CAST:0,1,1										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Stalker of Karash									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Scent of Evil							
 2				ABILITY:Special Ability|AUTOMATIC|Basic Karash Favored Enemy|Stalker of Karash Favored Enemy			BONUS:VAR|StalkerOfKarashFavoredEnemyLVL|CL				
@@ -403,9 +395,7 @@ CLASS:Vassal of Bahamut	HD:10	TYPE:PC.Prestige.Exalted	ABB:VoB	MAXLEVEL:10	SOURC
 CLASS:Vassal of Bahamut	PREALIGN:LG	PREATT:7	PRESKILL:2,Craft (Armorsmithing)=5,Diplomacy=5	PREFEAT:2,Sacred Vow,Vow of Obedience	PRETEXT:must have single handedly slain a juvenile (or older) red dragon.						
 CLASS:Vassal of Bahamut	STARTSKILLPTS:2	CSKILL:Bluff|Craft (Armorsmithing)|Craft (Weaponsmithing)|Diplomacy|Heal|Intimidate|Knowledge (Nobility and Royalty)|Knowledge (Religion)|Ride|Sense Motive									
 CLASS:Vassal of Bahamut	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Vassal of Bahamut|CL						
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Vassal of Bahamut									
 #											
 1	CAST:0			ABILITY:Special Ability|AUTOMATIC|Imperious Aura|Vassal of Bahamut Imperious Aura			BONUS:VAR|VassalOfBahamutImperiousAuraLVL|CL				
 2	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Shared Trove		VISION:Darkvision (120')|Keen Senses

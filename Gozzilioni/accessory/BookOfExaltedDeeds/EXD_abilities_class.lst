@@ -1,14 +1,8 @@
 SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																																																			
 																																																					
-###Block: Proficiencies																																																					
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page																					
-Beloved Valarian Shield Proficiency	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:SHIELDPROF|SHIELDTYPE=Buckler|SHIELDTYPE=Light	AUTO:WEAPONPROF|Shieldbash (Light)																											SOURCEPAGE:EXD																					
-																																																					
 # Ability Name																																																					
 Apostole of Peace Turning	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AllowExtraTurning|1	DEFINE:AllowImprovedTurning|1				BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base																	SOURCEPAGE:EXD																					
 Apostole of Peace Censuring	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|CensureTimesBase|3+CHA|TYPE=Base	BONUS:VAR|CensureCheckBase|CHA|TYPE=Base																	SOURCEPAGE:EXD																					
-Celestial Mystic Blessing of Pearly Heaven	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MysticalKnowledgeLVL|0					BONUS:VAR|MysticalKnowledge|MysticalKnowledgeLVL	BONUS:VAR|MysticalKnowledge|2|PRESKILL:1,Knowledge (History)=5																	SOURCEPAGE:EXD																					
-Celestial Mystic Blessing of Crystal Heaven	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:BlessingCrystalHeavenLVL|0					BONUS:VAR|BlessingCrystalHeavenPF|3*BlessingCrystalHeavenLVL																		SOURCEPAGE:EXD																					
 Champion of Gwynharwyf Rage	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ChampionOfGwynharwyfRageLVL|0						BONUS:VAR|BarbRageTimesLVL|ChampionOfGwynharwyfRageLVL	BONUS:VAR|BarbRagePowerLVL|ChampionOfGwynharwyfRageLVL																SOURCEPAGE:EXD																					
 Champion of Gwynharwyf Smite Evil	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ChampionOfGwynharwyfSmiteEvilLVL|0					BONUS:VAR|SmiteEvilDamage|ChampionOfGwynharwyfSmiteEvilLVL	BONUS:VAR|SmiteEvil|(ChampionOfGwynharwyfSmiteEvilLVL+3)/4																	SOURCEPAGE:EXD																					
 Champion of Gwynharwyf DR	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ChampionOfGwynharwyfDR|0	DEFINE:ChampionOfGwynharwyfDRLVL|0				BONUS:VAR|ChampionOfGwynharwyfDR|ChampionOfGwynharwyfDRLVL/2	BONUS:VAR|ChampionOfGwynharwyfDR|1|PREVAREQ:ChampionOfGwynharwyfDRLVL,3								DR:ChampionOfGwynharwyfDR/-									SOURCEPAGE:EXD																					

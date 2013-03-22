@@ -24,10 +24,7 @@ CLASS:Witch Hunter	HD:8	TYPE:Prestige.Nephandum	ABB:Wih	MAXLEVEL:10	SOURCEPAGE:N
 CLASS:Witch Hunter	PREALIGN:LG,LN,NG,TN,CG,CN	PREATT:5	PRESKILL:2,Gather Information=4,Knowledge (Arcana)=4	PREFEAT:2,Iron Will,Investigator								
 CLASS:Witch Hunter	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Gather Information|Listen|TYPE.Knowledge|TYPE.Profession|Search|Sense Motive|Spellcraft|Spot|Survival|Use Magic Device										
 CLASS:Witch Hunter	SPELLSTAT:INT	SPELLTYPE:Arcane			BONUS:CASTERLEVEL|Witch Hunter|CL							
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|Witch Hunter Weapon Proficiency									
-1		AUTO:FEAT|Armor Proficiency (Light)										
-1			ABILITY:Special Ability|AUTOMATIC|Witch Hunter Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Witch Hunter
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Forbidden Knowledge			BONUS:VAR|ForbiddenKnowledge|CL+BardicKnowledgeLvl	BONUS:VAR|ForbiddenKnowledge|SynergyBonus|PRESKILL:1,Knowledge (Arcana)=5|TYPE=Synergy.STACK				
 1				ABILITY:Special Ability|AUTOMATIC|Basic Dark Nemesi|Witch Hunter Dark Nemesi			BONUS:VAR|WitchHunterDarkNemesiLVL|CL					
@@ -61,10 +58,7 @@ CLASS:Scarlet Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Know
 CLASS:Divine Lightning	HD:8	TYPE:Prestige.Nephandum	ABB:Dil	MAXLEVEL:10	SOURCEPAGE:Nep	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Divine Lightning	PREALIGN:LG,NG,CG	PREATT:6	PREFEAT:2,Extra Turning,Improved Turning	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=2							
 CLASS:Divine Lightning	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Heal|Jump|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Tumble						DEFINE:DivineHeatDie|0				
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Divine Lightning
 #												
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Divine Heat|Divine Lightning Turn Undead			BONUS:VAR|DivineLightningTurnUndeadLVL|CL	BONUS:VAR|DivineHeat|(CL+2)/3				
 2				ABILITY:Special Ability|AUTOMATIC|Aura of Courage								
@@ -179,10 +173,7 @@ CLASS:Mimetist	STARTSKILLPTS:6	CSKILL:Tumble|TYPE.Craft|Escape Artist|Listen|Dis
 CLASS:Darkened	HD:10	TYPE:Prestige.Nephandum	ABB:Drk	MAXLEVEL:10	SOURCEPAGE:Nep	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Darkened	PREATT:6	PRESKILL:1,Hide=5	PREFEAT:3,Blind Fight,Improved Feint,Stealthy	PRETEXT:Must have defeated a Shadow								
 CLASS:Darkened	STARTSKILLPTS:4	CSKILL:Tumble|TYPE.Craft|Escape Artist|Balance|Move Silently|Hide|Spot|Sleight of Hand										
-#												
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies									
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)										
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Darkened
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Hide in Plain Sight (Su)								
 2				ABILITY:Special Ability|AUTOMATIC|Darkness (Sp)			BONUS:VAR|DarknessLVL|CL	BONUS:VAR|DarknessPerDay|1				
@@ -198,9 +189,7 @@ CLASS:Darkened	STARTSKILLPTS:4	CSKILL:Tumble|TYPE.Craft|Escape Artist|Balance|Mo
 CLASS:Implacable Bloodhound	HD:8	TYPE:Prestige.Nephandum	ABB:Imb	MAXLEVEL:10	SOURCEPAGE:Nep	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Implacable Bloodhound	PREATT:5	PRESKILL:1,Knowledge (Dungeoneering)=8,Knowledge (Local)=8	PRESKILL:1,Survival=8	PREFEAT:3,Track,Far Shot,Precise Shot								
 CLASS:Implacable Bloodhound	STARTSKILLPTS:4	CSKILL:TYPE.Craft|Listen|Search|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Local)|Knowledge (Nature)|Move Silently|Hide|Swim|Spot|Climb|Survival										
-#												
-1			ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Bloodhound Weapon Proficiency									
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Implacable Bloodhound
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Hit Weak Point			BONUS:VAR|HitWeakPoint|(CL+2)/3					
 2				ABILITY:Special Ability|AUTOMATIC|Expeditious Walk								

@@ -214,9 +214,7 @@ CLASS:Dragonkith	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|TYPE.Craft|Diplomacy|Inti
 CLASS:Dragonrider	HD:10	TYPE:Prestige	ABB:Drg	MAXLEVEL:5	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Dragonrider	PREATT:5	PREFEAT:1,Mounted Combat,Skill Focus(Ride)	PRESKILL:2,Diplomacy=4,Handle Animal=4	PRESKILL:1,Ride=8	PRELANG:1,Draconic						
 CLASS:Dragonrider	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Diplomacy|Handle Animal|Jump|Ride|Spot|Tumble									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Dragonrider Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragonrider									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Dragonriding|Dragonrider Dragonriding|Immunity To Frightful Presence ~ mount			BONUS:VAR|DragonriderDragonridingLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Mounted Spellcasting							
@@ -227,9 +225,7 @@ CLASS:Dragonrider	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Diplomacy|Handle 
 CLASS:Dragonslayer	HD:10	TYPE:Prestige	ABB:Drg	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Dragonslayer	PREATT:5	PREFEAT:1,Dodge,Iron Will	PRESKILL:1,Tumble=2								
 CLASS:Dragonslayer	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Arcana)|Jump|Search|Tumble									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragonslayer
 #											
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Aura of Courage|Immunity To Fear|Damage Bonus ~ dragons|Dragonslayer Damage Bonus			BONUS:VAR|DragonslayerDamageBonusLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Overcome Draconic Spell Resistance|Dragonslayer Overcome Draconic Spell Resistance			BONUS:VAR|DragonslayerOvercomeDraconicSpellResistanceLVL|0				
@@ -254,9 +250,7 @@ CLASS:Dragonsong Lyrist	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Di
 CLASS:Dragonstalker	HD:8	TYPE:Prestige	ABB:Dst	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Dragonstalker	PREATT:5	PREFEAT:2,Blind Fight,Track	PRESKILL:2,Gather Information=4,Knowledge (Arcana)=4	PRESKILL:3,Hide=6,Move Silently=6,Search=6	PRELANG:1,Draconic						
 CLASS:Dragonstalker	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Gather Information|Hide|Jump|Knowledge (Arcana)|Knowledge (Local)|Listen|Move Silently|Search|Spot|Survival									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Dragonstalker Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
-1		AUTO:FEAT|Armor Proficiency (Light)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragonstalker
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Hunting bonus|Dragonstalker Hunting Bonus			BONUS:VAR|DragonstalkerHuntingBonusLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Dragons Sneak Attack|Dragonstalker Dragons Sneak Attack			BONUS:VAR|DragonstalkerDragonsSneakAttackLVL|CL				
@@ -273,7 +267,7 @@ CLASS:Hoardstealer	HD:6	TYPE:Prestige	ABB:Hds	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:
 CLASS:Hoardstealer	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:4,Appraise=8,Hide=8,Move Silently=8,Search=8	PRESKILL:3,Disable Device=4,Escape Artist=4,Open Lock=4	PRETEXT:the characther must have partecipated in the locatio and recovery of a treasure hoard (dragon or otherwise) valued at 5'000 GP or more.							
 CLASS:Hoardstealer	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|Decipher Script|Disable Device|Escape Artist|Gather Information|Jump|Open Lock|Search|Swim|Use Magic Device|Use Rope									
 CLASS:Hoardstealer	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Hoardstealer|CL						
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hoardstealer
 #											
 1	CAST:0,0			ABILITY:Special Ability|AUTOMATIC|Trapfinding			VISION:Darkvision (0')	BONUS:VISION|Darkvision|30			
 2	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Hide from Dragons (Sp)			BONUS:VAR|HideFromDragonsPerDay|((CL+2)/4)	BONUS:VAR|HideFromDragonsLVL|CL			
@@ -303,9 +297,7 @@ CLASS:Initiate of the Draconic Myeteries	STARTSKILLPTS:4	CSKILL:Balance|Concentr
 CLASS:Platinum Light	HD:8	TYPE:Prestige	ABB:Plk	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Platinum Light	PREALIGN:LG,NG,CG	PREATT:5	PREFEAT:1,Dragonfriend	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRELANG:1,Draconic						
 CLASS:Platinum Light	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Intimidate|Knowledge (Arcana)|Ride|Sense Motive									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Platinum Light									
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Smite Evil Dragons|Platinum Knight Smite Evil Dragons|Immunity to Frightful Presence			BONUS:VAR|PlatinumKnightSmiteEvilDragonLVL|CL				
 2	ADD:SPELLCASTER|ANY						BONUS:VAR|PlatinumKnightPlatinumScalesLVL|CL				
@@ -321,9 +313,7 @@ CLASS:Platinum Light	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Intimid
 CLASS:Talon of Tiamat	HD:8	TYPE:Prestige	ABB:Tot	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
 CLASS:Talon of Tiamat	PREALIGN:LE,NE,CE	PREATT:4	PREFEAT:1,Dragonthrall	PRESKILL:3,Bluff=4,Intimidate=4,Knowledge (Arcana)=4	PRELANG:1,Draconic						
 CLASS:Talon of Tiamat	STARTSKILLPTS:2	CSKILL:Appraise|Bluff|Concentration|Intimidate|Knowledge (Arcana)|Ride|Search|Sense Motive|Spellcraft									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Talon of Tiamat
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Frost|Talon of Tiamat Breath Weapon							
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Voice of the Dragon|Talon of Tiamat Voice of the Dragon			BONUS:VAR|TalonOfTiamatVoiceOfTheDragonLVL|CL				

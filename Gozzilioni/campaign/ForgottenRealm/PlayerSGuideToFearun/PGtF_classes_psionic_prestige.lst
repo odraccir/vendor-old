@@ -9,8 +9,7 @@ CLASS:Cognition Thief	HD:4	TYPE:Prestige.Psionic	ABB:Cot	MAXLEVEL:10	SOURCEPAGE:
 CLASS:Cognition Thief	PRESKILL:2,Bluff=5,Disguise=5,Gather Information=5,Open Lock=5	PREFEAT:1,Inquisitor	PRESPELL:1,Psionic Blast									
 #CLASS:Cognition Thief	STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|TYPE.Craft|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Knowledge (Psionics)|Move Silently|Open Lock|TYPE.Profession|Psicraft|Sleight of Hand|Sense Motive|Stabilize Self										
 CLASS:Cognition Thief	STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|TYPE.Craft|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Knowledge (Psionics)|Move Silently|Open Lock|TYPE.Profession|Psicraft|Sleight of Hand|Sense Motive										
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
-1		AUTO:FEAT|Armor Proficiency (Light)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Cognition Thief
 #												
 1					ABILITY:Special Ability|AUTOMATIC|Read Thoughts (Sp)		BONUS:VAR|ReadThoughtsPower|1	BONUS:VAR|ReadThoughtsPower|CL/10	BONUS:VAR|ReadThoughtsPerDay|(CL+2)/3	BONUS:VAR|ReadThoughtsDC|max(INT,CHA)-INT+(CL/2)	BONUS:ABILITYPOOL|Bonus Power Known|(CL+2)/3*2	
 2	ADD:SPELLCASTER|Psionic											

@@ -1,8 +1,5 @@
 SOURCELONG:Player's Handbook 2	SOURCESHORT:PHB2	SOURCEWEB:http://www.gozzilioni.net																																																																				
 																																																																						
-###Block: Special Abilities																																																																						
-Beguiler Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Hand)|Rapier|Shortbow|Sword (Short)																												SOURCEPAGE:PHB2																																						
-																																																																						
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page																																						
 Beguiler Armored Mage	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO								BONUS:VAR|ArmoredMagePower|1																																																											
 Dragon Shaman Breath Weapon Line	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:DragonShamanBreathWeaponLineLVL|0	DEFINE:BreathWeaponDice|6		BONUS:VAR|BreathWeaponDice|(((DragonShamanBreathWeaponLineLVL-2)/2))	BONUS:VAR|BreathWeaponDC|DragonShamanBreathWeaponLineLVL/2	BONUS:VAR|BreathWeaponLine|min(90,(((DragonShamanBreathWeaponConeLVL+4)/8)*30))	BONUS:VAR|BreathWeaponLine|30|PREVARGTEQ:DragonShamanBreathWeaponLineLVL,20																																																								

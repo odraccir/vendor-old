@@ -1,10 +1,6 @@
 SOURCELONG:Nephandum	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net																														
 																																
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
-Witch Hunter Weapon Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Sword (Short)|Rapier|Whip|Crossbow (Hand)|Crossbow (Repeating Light)|Crossbow (Repeating Heavy)																												SOURCEPAGE:Nep
-Witch Hunter Shield Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:SHIELDPROF|SHIELDTYPE=Buckler																												SOURCEPAGE:Nep
-Bloodhound Weapon Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|TYPE.Bow																												SOURCEPAGE:Nep
-																																
 #Monk ability																																
 Sickening Fist	CATEGORY:Special Ability	TYPE:MonkBonusFeat	VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Stunning Fist	PREVARGTEQ:MonkBonusFeatLVL,2	VFEAT:Sickening Fist																										
 																																

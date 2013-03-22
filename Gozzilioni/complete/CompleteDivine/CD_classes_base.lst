@@ -8,9 +8,7 @@ CLASS:Favored Soul	HD:8	TYPE:Base.PC	ABB:Fso	MAXLEVEL:20	SOURCEPAGE:CD	BONUS:CHE
 CLASS:Favored Soul	PREDEITY:1,Y											
 CLASS:Favored Soul	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Jump|Knowledge (Arcana)|TYPE.Profession|Sense Motive|Spellcraft										
 CLASS:Favored Soul	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL|Favored Soul|CL	SPELLLIST:1|Cleric	BONUS:DC|CLASS.Favored Soul|(WIS-CHA)					
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:WEAPONPROF|DEITYWEAPONS	AUTO:FEAT|Simple Weapon Proficiency								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
-1		AUTO:FEAT|Shield Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Favored Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.FavoredSoulProficiencies
 #												
 1	CAST:5,3	KNOWN:4,3										
 2	CAST:6,4	KNOWN:5,3										
@@ -124,8 +122,7 @@ SUBCLASSLEVEL:17		KNOWN:5,3,3,2,2,2,2,2,1
 SUBCLASSLEVEL:18		KNOWN:5,3,3,2,2,2,2,2,1,1										
 SUBCLASSLEVEL:19		KNOWN:5,3,3,2,2,2,2,2,2,1										
 SUBCLASSLEVEL:20		KNOWN:5,3,3,2,2,2,2,2,2,2										
-#												
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Shugenja Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shugenja|!PREABILITY:1,CATEGORY=ACF,TYPE.ShugenjaProficiencies
 #												
 1	CAST:5,3	KNOWN:2,1		ABILITY:Special Ability|AUTOMATIC|Sense Elements								
 2	CAST:6,4	KNOWN:2,1										
@@ -151,9 +148,7 @@ SUBCLASSLEVEL:20		KNOWN:5,3,3,2,2,2,2,2,2,2
 CLASS:Spirit Shaman	HD:8	TYPE:Base.PC	ABB:Ssh	MAXLEVEL:20	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
 #CLASS:Spirit Shaman												
 CLASS:Spirit Shaman	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Spirit Shaman|CL	SPELLLIST:1|Druid	BONUS:DC|CLASS.Spirit Shaman|(CHA-WIS)			
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Spirit Shaman Weapon Proficiencies										
-1		AUTO:FEAT|Armor Proficiency (Light)										
-1		AUTO:FEAT|Shield Proficiency										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Spirit Shaman|!PREABILITY:1,CATEGORY=ACF,TYPE.SpiritShamanProficiencies
 #												
 1	CAST:3,2	KNOWN:3,1	ABILITY:Special Ability|AUTOMATIC|Spirit Shaman Guide|Spirit Shaman Spirits	ABILITY:Special Ability|AUTOMATIC|Wild Empathy			BONUS:VAR|WildEmpathy|CL					
 2	CAST:4,3	KNOWN:3,2		ABILITY:Special Ability|AUTOMATIC|Chastise Spirit|Spirit Shaman Chastise Spirit			BONUS:VAR|SpiritShamanLVL|CL					

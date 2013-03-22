@@ -8,7 +8,7 @@ CLASS:Prophet	HD:4	TYPE:NPC	ABB:Pro	MAXLEVEL:10	SOURCEPAGE:RLDMG	BONUS:CHECKS|BA
 #CLASS:Prophet											
 CLASS:Prophet	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Gather Information|TYPE.Knowledge|TYPE.Profession|Spellcraft|Use Magic Device									
 CLASS:Prophet	SPELLSTAT:WIS	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Prophet|CL	
-1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Prophet
 #											
 1							BONUS:ABILITYPOOL|Mark of Fate|1				
 2	CAST:2,0	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Augury (Sp)			BONUS:VAR|AuguryTimes|1	BONUS:VAR|AuguryLVL|CL			

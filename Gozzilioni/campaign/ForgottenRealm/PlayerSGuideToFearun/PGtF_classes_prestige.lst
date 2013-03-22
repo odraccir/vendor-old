@@ -18,7 +18,7 @@ CLASS:Arcane Devotee	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Sc
 CLASS:Divine Champion	HD:10	TYPE:Prestige	ABB:Chm	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE				
 CLASS:Divine Champion	PREATT:7	PRESKILL:1,Knowledge (Religion)=3	PREFEAT:1,Weapon Focus	PRETEXT:Weapon focus in deity's favored weapon	PREDEITY:1,Y								
 CLASS:Divine Champion	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Knowledge (Religion)|Ride|Swim											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Divine Champion
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Lay on Hands			BONUS:VAR|LayOnHandsLVL|CL						
 2				ABILITY:Special Ability|AUTOMATIC|Sacred Defense|Divine Champion Sacred Defense			BONUS:ABILITYPOOL|Divine Champion Feat|CL/2	BONUS:VAR|DivineChampionSacredDefenseLVL|CL					
@@ -39,8 +39,7 @@ CLASS:Divine Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 CLASS:Divine Seeker	HD:6	TYPE:Prestige	ABB:Skr	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Divine Seeker	PRESKILL:1,Hide=8	PRESKILL:1,Knowledge (Religion)=3	PRESKILL:1,Move Silently=10	PRESKILL:1,Spot=5	PREFEAT:1,Stealthy	PREDEITY:1,Y							
 CLASS:Divine Seeker	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Hide|Jump|Knowledge (Geography)|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency										
-1		AUTO:FEAT|Armor Proficiency (Light)											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Divine Seeker
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Sacred Stealth|Twart Magic Trap									
 2				ABILITY:Special Ability|AUTOMATIC|Sacred Defense|Divine Seeker Sacred Defense|Sneak Attack|Divine Seeker Sneak Attack			BONUS:VAR|DivineSeekerSacredDefenseLVL|CL	BONUS:VAR|DivineSeekerSneakAttackLVL|CL	BONUS:VAR|DivineSeekerUncannyDodgeLVL|CL				
@@ -77,9 +76,7 @@ CLASS:Eye of Horus-Re	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|TYPE.K
 CLASS:Hammer of Moradin	HD:10	TYPE:Prestige	ABB:Hom	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex-Hammer of Moradin			
 CLASS:Hammer of Moradin	PRERACE:1,RACESUBTYPE=Dwarf	PREREGION:1,Spine of the World	PREATT:7	PRESKILL:1,Craft (Weaponsmithing)=10	PREFEAT:2,Iron Will,Weapon Focus(Warhammer)	PRESPELLTYPE:1,Divine=2	PREDEITY:1,Moradin	PRETEXT:Member of the Hammers of Moradin	PRESPELLCAST:TYPE=Divine				
 CLASS:Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (Local)|Knowledge (The Planes)|TYPE.Profession|Spellcraft											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hammer of Moradin
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Aura of Courage|Hammer Throw									
 2				ABILITY:Special Ability|AUTOMATIC|Goblinkiller|Hammer Return									
@@ -94,9 +91,7 @@ CLASS:Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Kno
 #													
 CLASS:Ex-Hammer of Moradin	HD:10	TYPE:Prestige	ABB:XHom	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO			
 CLASS:Ex-Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (Local)|Knowledge (The Planes)|TYPE.Profession|Spellcraft											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)											
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hammer of Moradin
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Hammer Throw									
 2													
@@ -112,8 +107,7 @@ CLASS:Ex-Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|
 CLASS:Harper Agent	HD:6	TYPE:Prestige	ABB:Hra	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex-Harper Agent			
 CLASS:Harper Agent	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Diplomacy=8	PRESKILL:1,Knowledge (Local)=4	PRESKILL:2,Sense Motive=2,Survival=2	PREFEAT:1,Negotiator	PRETEXT:The candidate must be sponsored by a member in good standing of the Harpers and win approval from High Harpers.							
 CLASS:Harper Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Survival|Swim|Tumble											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency										
-1		AUTO:FEAT|Armor Proficiency (Light)											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Harper Agent
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Agent Harper Knowledge			BONUS:VAR|HarperAgentHarperKnowledgeLVL|CL						
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Deneyr's Eye|Lliira's Heart									
@@ -123,8 +117,7 @@ CLASS:Harper Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplom
 #													
 CLASS:Ex-Harper Agent	HD:6	TYPE:Prestige	ABB:XHra	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	VISIBLE:NO			
 CLASS:Ex-Harper Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Survival|Swim|Tumble											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency										
-1		AUTO:FEAT|Armor Proficiency (Light)											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Harper Agent
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Agent Harper Knowledge			BONUS:VAR|HarperAgentHarperKnowledgeLVL|CL						
 2	ADD:SPELLCASTER|ANY												
@@ -135,7 +128,7 @@ CLASS:Ex-Harper Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Dip
 CLASS:Hathran	HD:4	TYPE:Prestige	ABB:Hth	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	EXCLASS:Ex-Hathran			
 CLASS:Hathran	PREALIGN:LG,LN,NG	PREGENDER:1,Female	PREREGION:1,Rashemen	PRESKILL:1,Knowledge (Local)=4	PREFEAT:1,Ethran,Leadership	PRESPELLTYPE:1,Arcane=4,Divine=4	PREDEITY:1,Chauntea,Mielikki,Mystra	PREMULT:2,[PREFEAT:1,TYPE=ItemCreation],[PREFEAT:1,Scribe Scroll]	PRETEXT:The candidate must be a member in good standing of the Witches of Rashemen				
 CLASS:Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Swim|Speak Language|Spellcraft|Survival				SPELLLIST:1|Hathran							
-1		ABILITY:Special Ability|AUTOMATIC|Hathran Weapon Proficiencies											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hathran
 #													
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Hathran Leadership|Rashemi Spirit Magic			BONUS:ABILITYPOOL|Taboo|1						
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spirit Speech									
@@ -150,7 +143,7 @@ CLASS:Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|TYPE.Kno
 #													
 CLASS:Ex-Hathran	HD:4	TYPE:Prestige	ABB:XHth	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	VISIBLE:NO			
 CLASS:Ex-Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Swim|Speak Language|Spellcraft|Survival				SPELLLIST:1|Hathran							
-1		ABILITY:Special Ability|AUTOMATIC|Hathran Weapon Proficiencies											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hathran
 #													
 1	ADD:SPELLCASTER|ANY												
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spirit Speech									
@@ -197,7 +190,7 @@ SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Focused Studies ~ Transmute
 CLASS:Justiciar of Tyr	HD:8	TYPE:Prestige	ABB:Jot	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex-Justiciar of Tyr			
 CLASS:Justiciar of Tyr	PREALIGN:LG	PREATT:5	PRESKILL:1,Diplomacy=7	PRESKILL:1,Knowledge (Local)=4	PRESKILL:1,Knowledge (Religion)=6	PRESPELLTYPE:1,Divine=2	PREDEITY:1,Tyr						
 CLASS:Justiciar of Tyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Justiciar of Tyr
 #													
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Detect Chaos|Smite Anarchy|Justicar Smite Anarchy			BONUS:VAR|DetectChaosLVL|CL	BONUS:VAR|JusticarSmiteAnarchyLVL|CL					
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Bureaucratic Knowledge|Justicar Bureaucratic Knowledge			BONUS:VAR|JusticarBureaucraticKnowledgeLVL|CL						
@@ -212,7 +205,7 @@ CLASS:Justiciar of Tyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy
 #													
 CLASS:Ex-Justiciar of Tyr	HD:8	TYPE:Prestige	ABB:XJot	MAXLEVEL:10	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	VISIBLE:NO			
 CLASS:Ex-Justiciar of Tyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Justiciar of Tyr
 #													
 1	ADD:SPELLCASTER|Divine												
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Bureaucratic Knowledge|Justicar Bureaucratic Knowledge			BONUS:VAR|JusticarBureaucraticKnowledgeLVL|CL						
@@ -329,8 +322,7 @@ CLASS:Shadow Thief of Amn	HD:6	TYPE:Prestige	ABB:Sta	MAXLEVEL:5	SOURCEPAGE:PGtF	
 CLASS:Shadow Thief of Amn	PRESKILL:4,Bluff=3,Gather Information=3,Intimidate=3,Move Silently=3	PRESKILL:1,Hide=8	PREFEAT:1,Persuasive	PRETEXT:Must be a member of a Shadow Thieves' Guild									
 #CLASS:Shadow Thief of Amn	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disable Device|Forgery|Innuendo|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|Pick Pocket|TYPE.Profession|Search|Sense Motive|Spot|Use rope											
 CLASS:Shadow Thief of Amn	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disable Device|Forgery|Sense Motive|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Search|Sense Motive|Spot|Use Rope											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency										
-1		AUTO:FEAT|Armor Proficiency (Light)											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shadow Thief of Amn
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Doublespeak|Sneak Attack|Shadow Thief Sneak Attack			BONUS:VAR|ShadowThiefSneakAttackLVL|CL						
 2				ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base			BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.STACK	BONUS:VAR|UncannyDodgeLevel|1	BONUS:ABILITYPOOL|Shadow Thief Feat|CL/2				
@@ -358,9 +350,7 @@ CLASS:Ex-Spellguard of Silverymoon	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Cra
 CLASS:Zhentarim Spy	HD:6	TYPE:Prestige	ABB:Zsp	MAXLEVEL:5	SOURCEPAGE:PGtF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE				
 CLASS:Zhentarim Spy	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:4,Bluff=5,Disguise=5,Forgery=5,Gather Information=5	PREFEAT:1,Deceitful									
 CLASS:Zhentarim Spy	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Speak Language|Spot|Tumble|Use Magic Device|Use Rope											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency										
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)											
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency											
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Zhentarim Spy
 #													
 1				ABILITY:Special Ability|AUTOMATIC|Cover Identity									
 2				ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Zhentarim Spy Sneak Attack|Undetectable Alignment			BONUS:VAR|ZhentarimSpySneakAttackLVL|CL						

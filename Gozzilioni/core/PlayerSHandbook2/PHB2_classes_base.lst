@@ -9,8 +9,7 @@ CLASS:Beguiler	HD:6	TYPE:Base.PC	ABB:Beg	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECK
 #CLASS:Beguiler																																							
 CLASS:Beguiler	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|Knowledge (Arcana)|Knowledge (Local)|Listen|Move Silently|Open Lock|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Swim|Tumble|Use Magic Device																																					
 CLASS:Beguiler	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Beguiler|CL																																		
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Beguiler Weapon Proficiencies																																				
-1		AUTO:FEAT|Armor Proficiency (Light)																																					
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Beguiler|!PREABILITY:1,CATEGORY=ACF,TYPE.BeguilerProficiencies
 #																																							
 1	CAST:5,3	KNOWN:5,3		ABILITY:Special Ability|AUTOMATIC|Armored Mage|Beguiler Armored Mage|Trapfinding																																			
 2	CAST:6,4	KNOWN:6,4		ABILITY:Special Ability|AUTOMATIC|Cloaked Casting|Surprise Casting			BONUS:VAR|CloakedCastingDC|1	BONUS:VAR|CloakedCastingSR|2																															
@@ -96,9 +95,7 @@ SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Icewalking																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Cold																																			
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies																																				
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																					
-1		AUTO:FEAT|Shield Proficiency																																					
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragon Shaman|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonShamanProficiencies
 #																																							
 1				ABILITY:Special Ability|AUTOMATIC|Draconic Aura|Totem Dragon			BONUS:VAR|DraconicAuraBonus|1+(CL/5)	BONUS:ABILITYPOOL|Draconic Aura|min(1+((CL+3)/2),7)																															
 2																																							
@@ -118,16 +115,12 @@ SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 #																																							
 CLASS:Ex Dragon Shaman	HD:10	TYPE:Base.PC	ABB:xDsh	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	VISIBLE:NO																													
 CLASS:Ex Dragon Shaman	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Nature)|Search	LANGBONUS:Draconic																																				
-1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies																																				
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																					
-1		AUTO:FEAT|Shield Proficiency																																					
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragon Shaman|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonShamanProficiencies
 #																																							
 CLASS:Duskblade	HD:10	TYPE:Base.PC	ABB:Dsk	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE																														
 CLASS:Duskblade	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Nature)|Search																																					
 CLASS:Duskblade	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Duskblade|CL																																		
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
-1		AUTO:FEAT|Shield Proficiency																																					
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Duskblade|!PREABILITY:1,CATEGORY=ACF,TYPE.DuskbladeProficiencies
 #																																							
 1	CAST:3,2	KNOWN:2,2		ABILITY:Special Ability|AUTOMATIC|Arcane Attunement|Armored Mage|Duskblade Armored Mage			BONUS:VAR|DuskbladeArmoredMageLVL|CL	BONUS:ABILITYPOOL|Advanced Learning|CL																															
 2	CAST:4,3		VFEAT:Combat Casting																																				
@@ -153,9 +146,7 @@ CLASS:Duskblade	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Du
 CLASS:Knight	HD:12	TYPE:Base.PC	ABB:Kgt	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Knight																													
 CLASS:Knight	PREALIGN:LG,LN,LE																																						
 CLASS:Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowledge (Nobility and Royalty)|Ride|Swim																																					
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
-1		AUTO:FEAT|Shield Proficiency																																					
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Knight|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightProficiencies
 #																																							
 1				ABILITY:Special Ability|AUTOMATIC|Code of Conduct ~ Knight's Code|Knight's Challenge|Knight Knight Challenge			BONUS:VAR|KnightKnightChallengeLVL|CL	BONUS:ABILITYPOOL|Knight's Challenge|1+(CL/4)																															
 2			VFEAT:Mounted Combat	ABILITY:Special Ability|AUTOMATIC|Shield Block|Knight Shield Block			BONUS:VAR|KnightShieldBlockLVL|CL																																
@@ -180,9 +171,7 @@ CLASS:Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowledg
 #																																							
 CLASS:Ex Knight	HD:12	TYPE:Base.PC	ABB:xKgt	MAXLEVEL:20	SOURCEPAGE:PHB2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO																													
 CLASS:Ex Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowledge (Nobility and Royalty)|Ride|Swim																																					
-1		AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies																																				
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																					
-1		AUTO:FEAT|Shield Proficiency																																					
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Knight|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightProficiencies
 #																																							
 1																																							
 2			VFEAT:Mounted Combat	ABILITY:Special Ability|AUTOMATIC|Shield Block|Knight Shield Block			BONUS:VAR|KnightShieldBlockLVL|CL																																
@@ -210,9 +199,7 @@ CLASS:Ex Knight	STARTSKILLPTS:2	CSKILL:Climb|Handle Animal|Intimidate|Jump|Knowl
 CLASS:Barbarian.MOD																																							
 SUBSTITUTIONCLASS:Berserker Strength																																							
 ###Block:Proficiencies																																							
-SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output																																				
-SUBSTITUTIONLEVEL:1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																					
-SUBSTITUTIONLEVEL:1		AUTO:FEAT|Shield Proficiency																																					
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Barbarian|!PREABILITY:1,CATEGORY=ACF,TYPE.BarbarianProficiencies
 ###Block: Rage variables																																							
 SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Berserker Strength|Barbarian Berserk Strength				BONUS:VAR|BarbRagePowerLVL|CL																																
 ###Block: Illiteracy																																							
@@ -223,9 +210,7 @@ SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Barbarian Fast Movement
 CLASS:Bard.MOD																																							
 SUBSTITUTIONCLASS:Bardic Knack																																							
 ###Block:Proficiencies																																							
-SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Bard Weapon Proficiencies|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency																																					
-SUBSTITUTIONLEVEL:1	AUTO:FEAT|Armor Proficiency (Light)																																						
-SUBSTITUTIONLEVEL:1	AUTO:FEAT|Shield Proficiency																																						
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Bard|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies
 ###Block: Bardic abilities level definitions.																																							
 SUBSTITUTIONLEVEL:1	BONUS:VAR|BardicKnackLvl|CL/2	BONUS:VAR|BardicKnack|BardicKnackLvl		ABILITY:Special Ability|AUTOMATIC|Bardic Knack																																			
 SUBSTITUTIONLEVEL:1	BONUS:VAR|BardicMusicLvl|CL	BONUS:VAR|BardicMusicTimes|CL	BONUS:VAR|InspireDurationBase|5	ABILITY:Special Ability|AUTOMATIC|Bardic Music																																			
@@ -240,9 +225,7 @@ SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|VIRTUAL|Bardic Mass Suggestion|PREVA
 #																																							
 CLASS:Cleric.MOD																																							
 SUBSTITUTIONCLASS:Domain Casting																																							
-SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency																																			
-SUBSTITUTIONLEVEL:1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)																																				
-SUBSTITUTIONLEVEL:1			AUTO:FEAT|Shield Proficiency																																				
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Cleric|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiencies
 ###Block: Turn Undead stuff																																							
 SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Basic Turning|Cleric Turning			BONUS:ABILITYPOOL|Turn Undead|1|TYPE=ClassAbility	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|CL|TYPE=Level.REPLACE																															
 ###Block: Spontaneous casting																																							
@@ -264,9 +247,7 @@ SUBSTITUTIONLEVEL:1	CAST:3,1
 #																																							
 CLASS:Druid.MOD
 SUBSTITUTIONCLASS:Spontaneous Rejuvenation
-SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Druid Weapon Proficiencies|All Automatic Proficiencies																																				
-SUBSTITUTIONLEVEL:1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																				
-SUBSTITUTIONLEVEL:1			AUTO:FEAT|Shield Proficiency																																				
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Druid|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidProficiencies
 ###Block: Wildshape Abilities Block																																							
 SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Wild Shape|Druid Wild Shape|Druid Wild Shape Times|Druid Elemental Wild Shape Times|Druid Wild Shape Progression			BONUS:VAR|DruidWildShape|CL
 ###Block: Spell Alignment Restrictions																																							
@@ -279,9 +260,7 @@ SUBSTITUTIONLEVEL:1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Nature Sense|An
 #																																							
 SUBSTITUTIONCLASS:Shapeshift																																							
 ###Block:Proficiencies																																							
-SUBSTITUTIONLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Druid Weapon Proficiencies|All Automatic Proficiencies																																				
-SUBSTITUTIONLEVEL:1			AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)																																				
-SUBSTITUTIONLEVEL:1			AUTO:FEAT|Shield Proficiency																																				
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Druid|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidProficiencies
 ###Block: Shapechanger Abilities Block																																							
 SUBSTITUTIONLEVEL:1	BONUS:VAR|DruidShapechangerLVL|CL	ABILITY:SPECIAL Ability|AUTOMATIC|Shapechanger Druid Form					BONUS:ABILITYPOOL|Druid Shapeform|1																																
 ###Block: Spell Alignment Restrictions																																							
@@ -312,13 +291,13 @@ CLASS:Hexblade.MOD
 SUBSTITUTIONCLASS:Dark Companion																																							
 SUBSTITUTIONLEVEL:4	CAST:0,0	KNOWN:0,2		ABILITY:Special Ability|AUTOMATIC|Dark Companion			BONUS:VAR|DarkCompanionLVL|CL-3																																
 #																																							
-CLASS:Marshal.MOD																																							
+#CLASS:Marshal.MOD																																							
 # non usata.																																							
 #																																							
 CLASS:Monk.MOD																																							
 SUBSTITUTIONCLASS:Decisive Strike																																							
 ###Block:Proficiencies																																							
-SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Monk Weapon Proficiencies|All Automatic Proficiencies																																						
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Monk|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkProficiencies
 ###Block: Monk AC, Monk Movement, Flurry of Blows																																							
 SUBSTITUTIONLEVEL:1	BONUS:VAR|MonkACLVL|CL														ABILITY:Special Ability|AUTOMATIC|Monk AC																								
 SUBSTITUTIONLEVEL:1	BONUS:VAR|MonkMoveLVL|CL													ABILITY:Special Ability|AUTOMATIC|Monk Movement																									
@@ -348,7 +327,7 @@ SUBSTITUTIONLEVEL:11				ABILITY:Special Ability|AUTOMATIC|Scout Climb Movement
 #																																							
 CLASS:Sorcerer.MOD																																							
 SUBSTITUTIONCLASS:Metamagic Specialist																																							
-SUBSTITUTIONLEVEL:1		AUTO:FEAT|Simple Weapon Proficiency	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies																																				
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Sorcerer|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererProficiencies
 SUBSTITUTIONLEVEL:1	CAST:5,3	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Remove Summon Familiar (Sorcerer)|Quick Metamagic																																			
 #																																							
 CLASS:Swashbuckler.MOD																																							
@@ -372,5 +351,5 @@ SUBSTITUTIONLEVEL:16	CAST:6,6,6,6,6,6,6,5,3					BONUS:ABILITYPOOL|Eclectic Learn
 #																																							
 CLASS:Wizard.MOD																																							
 SUBSTITUTIONCLASS:Immediate Magic																																							
-SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Wizard Weapon Proficiencies|All Automatic Proficiencies																																			
+SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Wizard|!PREABILITY:1,CATEGORY=ACF,TYPE.WizardProficiencies
 SUBSTITUTIONLEVEL:1	CAST:3,1	BONUS:ABILITYPOOL|Wizard Feat|CL/5	AUTO:FEAT|Scribe Scroll	ABILITY:Special Ability|AUTOMATIC|Remove Summon Familiar (Wizard)|Immediate Magic|Wizard Immediate Magic			BONUS:VAR|WizardImmediateMagicLVL|CL																																

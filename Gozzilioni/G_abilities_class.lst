@@ -31,9 +31,9 @@ CATEGORY=Special Ability|Special Mount.MOD	COMPANIONLIST:Special Mount|Dragonnel
 CATEGORY=Special Ability|Svirfneblin Gnome Nondetection.MOD	SERVESAS:ABILITY=Special Ability|Nondetection																																									
 CATEGORY=Special Ability|All-Around Vision.MOD	DESC:Cannot be Flanked	BONUS:SKILL|Search,Spot|4|TYPE=Racial																																								
 CATEGORY=Special Ability|Skill Mastery.MOD	TYPE:SkillMastery																																									
-#
-CATEGORY=Special Ability|Keen Scent.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0
-#
+#																																										
+CATEGORY=Special Ability|Keen Scent.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0																																								
+#																																										
 # Racial Ability Name	CATEGORY	TYPE	VISIBLE	SAB:			DEFINE				BONUS				STACK	MULT	CHOOSE	SELECT																								
 Abishai Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES								BONUS:VAR|AcidResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10	BONUS:VAR|RegenerationRate|HD	BONUS:VAR|TelepathyRange|100					ABILITY:Special Ability|AUTOMATIC|Immunity To Fire|Immunity To Poison|Regeneration|Resistance To Acid|Resistance To Cold|See In Darkness|Summon Baatezu ~ Abishai|Telepathy|Vulnerability To Holy Water	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=HD|Animate Dead|Charm Person|Command|Desecrate|Detect Alignment|Disguise Self|Major Image|Scare|Suggestion												SOURCEPAGE:Mon										
 Abomination Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:Abomination do not eat/sleep/breathe. Immune to critical hits, they cannot be flanked,  and they never suffer sneak attack damage. Immune to disease, poison, stunning and sleep effects,  and death effects.							BONUS:ABILITYPOOL|Abomination Strenght|2	BONUS:ABILITYPOOL|Abomination Weakness|2							ABILITY:Special Ability|AUTOMATIC|Immunity To Mind-Affecting	ABILITY:Special Ability|AUTOMATIC|Immunity To Fear	ABILITY:Special Ability|AUTOMATIC|Immunity To Enchantment											SOURCEPAGE:DD										
@@ -326,6 +326,10 @@ Savage Dragon Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OU
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 																																										
+#Proficiencies																																										
+Shield Proficiency ~ Light	CATEGORY:Special Ability	TYPE:Internal.SpecialQuality	VISIBLE:NO																AUTO:SHIELDPROF|SHIELDTYPE=Buckler|SHIELDTYPE=Light	AUTO:WEAPONPROF|Shieldbash (Light)												SOURCEPAGE:G										
+Shield Proficiency ~ Heavy	CATEGORY:Special Ability	TYPE:Internal.SpecialQuality	VISIBLE:NO																AUTO:SHIELDPROF|SHIELDTYPE=Heavy	AUTO:WEAPONPROF|Shieldbash (Heavy)												SOURCEPAGE:G										
+																																										
 #other abilities																																										
 Curse of the Revenancer	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PGtF										
 Drug Addiction	CATEGORY:Special Ability		VISIBLE:NO	TEMPDESC:Adjust Drug Addiction up or down by assigning a possitive or negative number				DEFINE:DrugAddiction|0				TEMPBONUS:PC|VAR|DrugAddiction|%CHOICE						CHOOSE:NUMBER|MIN=-5|MAX=5|TITLE=Drug Addiction Adjustment	ABILITY:Special Ability|AUTOMATIC|Drug Addiction(Negligible)|PREVARLTEQ:DrugAddiction,1	ABILITY:Special Ability|AUTOMATIC|Drug Addiction(Low)|PREVAREQ:DrugAddiction,2	ABILITY:Special Ability|AUTOMATIC|Drug Addiction(Medium)|PREVAREQ:DrugAddiction,3	ABILITY:Special Ability|AUTOMATIC|Drug Addiction(High)|PREVAREQ:DrugAddiction,4	ABILITY:Special Ability|AUTOMATIC|Drug Addiction(Extreme)|PREVAREQ:DrugAddiction,5	ABILITY:Special Ability|AUTOMATIC|Drug Addiction(Vicious)|PREVARGTEQ:DrugAddiction,6								SOURCEPAGE:BoVD										
@@ -337,8 +341,8 @@ Drug Addiction(Medium)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	DE
 Drug Addiction(Negligible)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	DESC:Fort DC 4, Satiation 1 day, 1d3-2 DEX (can be 0).																												SOURCEPAGE:BoVD	ASPECT:Drug Addiction|Negligible									
 Drug Addiction(Vicious)	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:NO	DESC:Fort DC 36, Satiation 1 days, 1d8 DEX, 1d8 WIS, 1d6 CON, 1d6 STR.																												SOURCEPAGE:BoVD	ASPECT:Drug Addiction|Vicious									
 																																										
-
-CATEGORY=Special Ability|Immunity To Charm.MOD	ASPECT:Immunity|Charm
+																																										
+CATEGORY=Special Ability|Immunity To Charm.MOD	ASPECT:Immunity|Charm																																									
 Immunity To Air	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to Air effects.																												SOURCEPAGE:MM2	ASPECT:Immunity|Air									
 Immunity To Arcane Spells	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Immunity	VISIBLE:YES	DESC:You are never subject to arcane spells of %1 level.|ImmunityToSpellLevel				DEFINE:ImmunityToSpellLevel|0																								SOURCEPAGE:FFo	ASPECT:Immunity|Arcane Spells									
 Immunity To Backlash	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take backlash damage																												SOURCEPAGE:PGtF	ASPECT:Immunity|Backlash									
@@ -1082,7 +1086,7 @@ Consecrated Presence	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.Spe
 Constant Piercing Cold	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality.Metamagic	VISIBLE:YES			SERVESAS:ABILITY=FEAT|Piercing Cold													ADDSPELLLEVEL:0													SOURCEPAGE:Fro										
 Constitution Drain ~ Gravecrawler	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d2 Con drain (Fort DC %1)|GravecrawlerConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:GravecrawlerConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|GravecrawlerConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:SS										
 Constitution Drain ~ Icegaunt	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d6 Con drain (Fort DC %1)|IcegauntConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:IcegauntConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|IcegauntConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:Fro										
-CATEGORY=Special Ability|Constitution Drain ~ Wraith.MOD	DESC:permanent 1d6 Con drain (Fort DC %1)|WraithConstitutionDrainDC	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:WraithConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|WraithConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)
+CATEGORY=Special Ability|Constitution Drain ~ Wraith.MOD	DESC:permanent 1d6 Con drain (Fort DC %1)|WraithConstitutionDrainDC	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:WraithConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|WraithConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																																		
 Constitution Drain ~ Cranio Divoratore	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:permanent 1d4 Con drain (Fort DC %1)|CranioDivoratoreConstitutionDrainDC	OUTPUTNAME:Constitution Drain	SERVESAS:ABILITY=Special Ability|Constitution Drain		DEFINE:CranioDivoratoreConstitutionDrainDC|10+(HD/2)+CHA				BONUS:VAR|CranioDivoratoreConstitutionDrainDC|2|PREFEAT:1,Ability Focus(Constitution Drain)																				SOURCEPAGE:CdT										
 Constrict Ship	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Consume	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
@@ -3149,7 +3153,7 @@ Taklif Arrow	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES											
 Talking Puppet	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Nep										
 Targeted Dispel	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:Mon										
 Tatoo Power Base	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES					DEFINE:TatooPower|0	DEFINE:TattooNumber|0																							SOURCEPAGE:CW										
-Tatterdemalion	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																ABILITY:Special Ability|AUTOMATIC|Cancer Mage Armor Prof													SOURCEPAGE:BoVD										
+Tatterdemalion	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																ABILITY:Special Ability|AUTOMATIC|Cancer Mage Armor Proficiencies													SOURCEPAGE:BoVD										
 Teamwork	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Mon										
 Teamwork ~ hear/see allies	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+20 circumstance bonus to Listen and Spot checks to hear and see allies.																												SOURCEPAGE:CAd										
 Teamwork ~ infiltration	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1 Competence to Balance, Climb, Disable Device, Hide, Move Silently, Open Lock, Search and Tumble in an area studied.|TeamworkInfiltrationBonus				DEFINE:TeamworkInfiltrationBonus|0																								SOURCEPAGE:CAd										

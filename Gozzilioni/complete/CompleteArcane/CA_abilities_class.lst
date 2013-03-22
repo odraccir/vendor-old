@@ -2,9 +2,6 @@ SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Warmage Shield Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:SHIELDPROF|SHIELDTYPE=Buckler|SHIELDTYPE=Light	AUTO:WEAPONPROF|Shieldbash (Light)																											SOURCEPAGE:CA
-Warlock Eldritch Blast Proficiency	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Spells (Ray)																												SOURCEPAGE:CA
-#																																
 Warlock Eldritch Blast	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockEldritchBlastLVL|0					BONUS:VAR|EldritchBlast|(WarlockEldritchBlastLVL+1)/2																		SOURCEPAGE:CA
 Warlock Invocation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockInvocationLVL|0					BONUS:VAR|InvocationLVL|WarlockInvocationLVL																		SOURCEPAGE:CA
 Warlock Energy Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockEnergyResistanceLVL|0	DEFINE:WarlockBasicResistance|5				BONUS:VAR|WarlockBasicResistance|5|PREVARGTEQ:WarlockEnergyResistanceLVL,20																		SOURCEPAGE:CA

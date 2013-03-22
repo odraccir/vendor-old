@@ -9,9 +9,7 @@ CLASS:Monster Hunter	HD:6	TYPE:Prestige	ABB:Mhr	MAXLEVEL:5	SOURCEPAGE:RLPHB	BONU
 CLASS:Monster Hunter	PRESKILL:3,Gather Information=5,Knowledge (The Planes)=5,Sense Motive=5	PREFEAT:2,Iron Will,Track	PRETEXT:You must have an hostile encounter with a monster.									
 CLASS:Monster Hunter	STARTSKILLPTS:4	CSKILL:Concentration|Craft (Alchemy)|Decipher Script|Gather Information|Hide|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Local)|Knowledge (Nature)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spot|Survival										
 CLASS:Monster Hunter	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Monster Hunter|CL							
-#												
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Monster Hunter
 #												
 1	CAST:0,1			ABILITY:Special Ability|AUTOMATIC|Basic Studied Foe|Ranger Favored Enemy			BONUS:VAR|MonsterHunterStudiedFoeLVL|CL					
 2	CAST:0,1,0			ABILITY:Special Ability|AUTOMATIC|Monster Knowledge			BONUS:VAR|MonsterKnowledge|CL					
@@ -38,8 +36,7 @@ SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Hexbraker
 SUBCLASS:Specialty Hunter ~ Demon Hunter	ABB:Dhr											
 SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Scent Infernal			BONUS:VAR|ScentInfernalRadius|max(30,10+5*CL)					
 SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Censure Demons			BONUS:VAR|CensurePowerLVL|CL					
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency									
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)										
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Specialty Hunter
 #												
 1	CAST:0,2,1,1,0						BONUS:VAR|MonsterHunterStudiedFoeLVL|CL					
 2	CAST:0,2,2,1,1											

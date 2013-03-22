@@ -7,7 +7,8 @@ SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net
 CLASS:Emancipated Spawn	HD:12	TYPE:Monster.Prestige	ABB:Ems	MAXLEVEL:3	SOURCEPAGE:SS	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE		
 CLASS:Emancipated Spawn	!PRETEMPLATE:1,Mindless	PRERACE:1,RACETYPE=Undead	PREATT:3	PRETEXT:Must have been created as a spawn by an undead creature that has since been destroyed.	PREFEAT:1,Ancestral Relic						
 CLASS:Emancipated Spawn	STARTSKILLPTS:2	CSKILL:Bluff|Climb|Disguise|Hide|Intimidate|Jump|Listen|Move Silently|Search|Sense Motive|Spot									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
+#
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Emancipated Spawn
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Turn Resistance|Emancipated Spawn Turn Resistance|Recall Feats			BONUS:VAR|EmancipatedSpawnTurnResistanceLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Recall Class Feature							
@@ -46,9 +47,7 @@ CLASS:Scaled Horror	PRERACE:1,RACESUBTYPE=Aquatic,RACESUBTYPE=Reptilian	PREATT:5
 CLASS:Scaled Horror	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot|Survival|Swim									
 CLASS:Scaled Horror	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Scaled Horror|CL	SPELLLIST:1|Ranger					
 #											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Scaled Horror
 #											
 1	CAST:0			ABILITY:Special Ability|AUTOMATIC|Improved Grab|Keen Scent	BONUS:VAR|KeenScentRange|180|TYPE=Base	BONUS:VAR|KeenScentBloodRadius|1|TYPE=Base 						
 2	CAST:1			ABILITY:Special Ability|AUTOMATIC|Freedom of Movement							
@@ -115,9 +114,8 @@ CLASS:Sybil	STARTSKILLPTS:6	CSKILL:Concentration|TYPE.Craft|Diplomacy|Gather Inf
 CLASS:Waverider	HD:10	TYPE:Monster.Prestige	ABB:Ips	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Waverider	PRERACE:1,RACETYPE=Fey,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Aquatic	PREATT:5	PRESKILL:1,Ride=6	PREFEAT:2,Mounted Archery,Mounted Combat	PRETEXT:Ride skill related to an aquatic animal					
 CLASS:Waverider	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Jump|TYPE=Profession|Ride									
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output								
-1		AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)									
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+#
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Waverider
 #											
 1				ABILITY:Special Ability|AUTOMATIC|Mounted Weapon Bonus|Waverider Mounted Weapon Bonus Trident|Waverider Mounted Weapon Bonus Javelin|Trident Charge|Waverider Mount			BONUS:VAR|WaveriderMountedTridentLVL|CL	BONUS:VAR|WaveriderMountedJavelinLVL|CL	BONUS:VAR|WaveriderMountLVL|TL	BONUS:VAR|WaveriderMountClassLVL|CL	
 2				ABILITY:Special Ability|AUTOMATIC|Ride Bonus|Waverider Ride Bonus							
@@ -134,8 +132,7 @@ CLASS:Yuan-Ti Cultist	HD:4	TYPE:Monster.Prestige	ABB:Ytc	MAXLEVEL:10	SOURCEPAGE:
 CLASS:Yuan-Ti Cultist	PRERACE:1,RACESUBTYPE=Yuan-Ti Abomination,RACESUBTYPE=Yuan-Ti Half-Blood	PREALIGN:LE,NE,CE	PREDEITY:1,Merrshaulk	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:1,Knowledge (Religion)=10	PRESKILL:1,Perform (Chant)=1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=3			
 CLASS:Yuan-Ti Cultist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Religion)|Perform (Chant)|TYPE.Profession|Spellcraft									
 #											
-1		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								
-1		AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency									
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Yuan-Ti Cultist
 #											
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Outer Circle	ABILITY:Special Ability|AUTOMATIC|Spit Poison|PREABILITY:1,CATEGORY=Special Ability,Poison	DOMAIN:Suffering					
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Sticks to snakes (Sp)			BONUS:VAR|SticksToSnakesPerDay|1	BONUS:VAR|SticksToSnakesLVL|CL+classlevel("Cleric")			

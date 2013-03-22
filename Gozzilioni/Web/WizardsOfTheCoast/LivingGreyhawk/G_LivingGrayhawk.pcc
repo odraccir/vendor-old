@@ -14,7 +14,6 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Wizards Articles: Monster Mayhem
-ABILITY:LG_abilities_class.lst
 CLASS:LG_classes_prestige.lst
 SPELL:LG_classes_spells.lst
 

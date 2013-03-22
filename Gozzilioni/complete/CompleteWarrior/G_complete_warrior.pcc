@@ -20,7 +20,6 @@ FORWARDREF:SPELL|Visage of the Deity (Lesser)
 #Complete Warrior
 ABILITY:CW_abilities_class.lst
 CLASS:CW_classes_base.lst
-CLASS:CW_classes_mod.lst
 CLASS:CW_classes_prestige.lst
 CLASS:CW_classes_prestige_epic.lst
 SPELL:CW_classes_spells.lst
