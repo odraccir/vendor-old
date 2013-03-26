@@ -21,7 +21,8 @@ CLASS:Amethist Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Di
 6														
 9									DR:5/Magic	DEFINE:DragonAge|2				
 12										DEFINE:DragonAge|3				
-15	ADD:SPELLCASTER|1|Psion.Kineticist[Psychokinesis]			ABILITY:Special Ability|AUTOMATIC|Stomp						DEFINE:DragonAge|4				
+###TODO: livello 15 ADD:SPELLCASTER|1|Psion.Kineticist[Psychokinesis]
+15	ADD:SPELLCASTER|1|Psion			ABILITY:Special Ability|AUTOMATIC|Stomp						DEFINE:DragonAge|4				
 17	BONUS:PCLEVEL|Psion|1													
 18	BONUS:PCLEVEL|Psion|1							SR:19		DEFINE:DragonAge|5				
 20	BONUS:PCLEVEL|Psion|1													
@@ -62,7 +63,8 @@ CLASS:Crystal Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Dip
 11										DEFINE:DragonAge|3				
 14										DEFINE:DragonAge|4				
 17									DR:5/Magic	DEFINE:DragonAge|5				
-20	ADD:SPELLCASTER|1|Psion.Telepath[Telepathy]	BONUS:PCLEVEL|Psion|4								DEFINE:DragonAge|6			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Charm Person,11+CHA	
+###TODO: livello 20 ADD:SPELLCASTER|1|Psion.Telepath[Telepathy]
+20	ADD:SPELLCASTER|1|Psion	BONUS:PCLEVEL|Psion|4								DEFINE:DragonAge|6			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Charm Person,11+CHA	
 22	BONUS:PCLEVEL|Psion|1													
 23	BONUS:PCLEVEL|Psion|1								DR:10/Magic	DEFINE:DragonAge|7				
 25	BONUS:PCLEVEL|Psion|1													
@@ -92,7 +94,8 @@ CLASS:Emerald Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Dip
 1				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic						DEFINE:DragonAge|1				
 6													SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DragonCL|Object Reading,12+CHA	
 9										DEFINE:DragonAge|2				
-12	ADD:SPELLCASTER|1|Psion.Seer[Clairsentience]									DEFINE:DragonAge|3			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Invisibility (Greater),15+CHA	
+###TODO: livello 12 ADD:SPELLCASTER|1|Psion.Seer[Clairsentience]
+12	ADD:SPELLCASTER|1|Psion									DEFINE:DragonAge|3			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Invisibility (Greater),15+CHA	
 14	BONUS:PCLEVEL|Psion|1													
 15	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|4			SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Fog Cloud,15+CHA	
 17	BONUS:PCLEVEL|Psion|1													
@@ -128,7 +131,8 @@ CLASS:Sapphire Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Di
 1				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity	ABILITY:Special Ability|AUTOMATIC|Spider Climb					DEFINE:DragonAge|1				
 5										DEFINE:DragonAge|2				
 8										DEFINE:DragonAge|3				
-11	ADD:SPELLCASTER|1|Psion.Nomad[Psychoportation]									DEFINE:DragonAge|4				
+###TODO: livello 11 ADD:SPELLCASTER|1|Psion.Nomad[Psychoportation]
+11	ADD:SPELLCASTER|1|Psion									DEFINE:DragonAge|4				
 13	BONUS:PCLEVEL|Psion|1													
 14	BONUS:PCLEVEL|Psion|1			ABILITY:Special Ability|AUTOMATIC|Sense Psychoportation						DEFINE:DragonAge|5				
 16	BONUS:PCLEVEL|Psion|1													
@@ -165,7 +169,8 @@ CLASS:Topaz Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Diplo
 7										DEFINE:DragonAge|2				
 10										DEFINE:DragonAge|3				
 13										DEFINE:DragonAge|4				
-16	ADD:SPELLCASTER|1|Psion.Egoist[Psychometabolism]	BONUS:PCLEVEL|Psion|2								DEFINE:DragonAge|5			SPELLS:Innate|TIMES=2|CASTERLEVEL=DragonCL|Feather Fall,11+CHA	
+###TODO: livello 16 ADD:SPELLCASTER|1|Psion.Egoist[Psychometabolism]
+16	ADD:SPELLCASTER|1|Psion	BONUS:PCLEVEL|Psion|2								DEFINE:DragonAge|5			SPELLS:Innate|TIMES=2|CASTERLEVEL=DragonCL|Feather Fall,11+CHA	
 18	BONUS:PCLEVEL|Psion|1													
 19	BONUS:PCLEVEL|Psion|1									DEFINE:DragonAge|6				
 21	BONUS:PCLEVEL|Psion|1													

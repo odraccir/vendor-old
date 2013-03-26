@@ -66,9 +66,9 @@ SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Courage			BONUS:VAR|CourageBonus|2|TYPE=Morale					
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Sonic Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic								
-SUBCLASS:Chaos Dragon Shaman	COST:1	PREALIGN:CG,CN,CE										
-SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Move Silently										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
-SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Courage			BONUS:VAR|CourageBonus|2|TYPE=Morale					
-SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Random Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
-SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To 								
+#SUBCLASS:Chaos Dragon Shaman	COST:1	PREALIGN:CG,CN,CE										
+#SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Move Silently										
+#SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
+#SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Courage			BONUS:VAR|CourageBonus|2|TYPE=Morale					
+#SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Random Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
+#SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To 								

@@ -26,7 +26,8 @@ CATEGORY=Special Ability|Archmage Spell Power.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|
 CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBonus|0																															
 CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate
 #																																	
-CATEGORY=Special Ability|Special Mount.MOD	COMPANIONLIST:.CLEAR	COMPANIONLIST:Special Mount|RACETYPE=Animal																															
+###TODO: Special Mount COMPANIONLIST:.CLEAR
+CATEGORY=Special Ability|Special Mount.MOD		COMPANIONLIST:Special Mount|RACETYPE=Animal																															
 #
 Energon Trait	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Do not speack even among themselves.															ABILITY:Special Ability|AUTOMATIC|Explosion|Energy Ray	VISION:Darkvision (60')												SOURCEPAGE:MotP
 #
@@ -90,8 +91,13 @@ Summon Slaad ~ Green Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQualit
 Summon Slaad ~ Grey Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:2/day summon 1-2 red slaad or 1 blue slaad 60%% or 1 green slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
 Summon Slaad ~ Death Slaad	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES	DESC:2/day summon 1-2 red slaad or 1 blue slaad 60%% or 1-2 green slaad 40%%.	OUTPUTNAME:Summon Slaad																											SOURCEPAGE:MM	
 Vulnerability To Ranged Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.Weakness	VISIBLE:YES	DESC:You take half again as much (+50%%) damage as normal from magic ranged attack.																												SOURCEPAGE:MM	
-																																	
-																																	
+#
+###Block: Racial abilities
+Elf Immunity	CATEGORY:Special Ability	TYPE:SpecialQuality.Immunity	VISIBLE:YES		OUTPUTNAME:Immunity to magic sleep effects														ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep													SOURCEPAGE:Srd																																	
+Gnome Perception	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:+2 racial bonus on saving throws against illusions							BONUS:VAR|IllusionsResistanceBonus|2|TYPE=Racial							ABILITY:Special Ability|AUTOMATIC|Resistance To Illusions													SOURCEPAGE:Srd																																	
+Gnome Speak with Animals	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Speak with Animals (burrowing mammal only, duration 1 minute)														SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Speak with Burrowing Mammals,11+CHA													SOURCEPAGE:Srd																																	
+Stoneworking Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:NO		OUTPUTNAME:+2 racial bonus on Appraise and Craft checks that are related to stone or metal							TEMPBONUS:PC|SKILL|Appraise,TYPE.Craft|2|TYPE=Racial	BONUS:SKILL|Craft (Armorsmithing),Craft (Blacksmithing),Craft (Metalworking),Craft (Stonemasonry),Craft (Stoneworking),Craft (Weaponsmithing)|2|TYPE=Racial	TEMPDESC:Adjusts Appraise and Craft skill bonuses by 2
+
 ###Block: Dragon Breath Weapons																																	
 Breath Weapon ~ Cone of Scalding Steam	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0		DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' Cone of Scalding Steam %2d%3 cold DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC																					SOURCEPAGE:MMay	
 Breath Weapon ~ Line of Burning Light	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0		DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' Line of Burning Light %2d%3 fire DC %4|BreathWeaponLine|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC																					SOURCEPAGE:MMay	

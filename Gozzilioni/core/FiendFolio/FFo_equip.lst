@@ -39,7 +39,8 @@ Fiendish Graft (Fiendish Strong Leg)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graf
 Fiendish Graft (Fiendish Trampling Leg)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.FiendishGraft	COST:5000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Fiendish Flesh	PREFEAT:1,Graft Flesh		ABILITY:Special Ability|VIRTUAL|Trample	ABILITY:Special Ability|VIRTUAL|Fiendish Graft ~ Trampling Leg				
 Fiendish Graft (Fiendish Whip Tail)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.FiendishGraft	COST:8000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Fiendish Flesh	PREFEAT:1,Graft Flesh			ABILITY:Special Ability|VIRTUAL|Fiendish Graft ~ Whip Tail				
 Illithid Graft (Illithid Antennae)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.IllithidGraft	COST:20000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Illithid Flesh	PREFEAT:1,Graft Flesh		VISION:Tremorsense (60')					
-Illithid Graft (Illithid Climbing Legs)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.IllithidGraft	COST:4000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Illithid Flesh	PREFEAT:1,Graft Flesh	SPROP:act as Silppers of Spider Climbing.	MOVE:Climb,15	LEGS:4				
+###TODO:Illithid Graft (Illithid Climbing Legs) LEGS:4
+Illithid Graft (Illithid Climbing Legs)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.IllithidGraft	COST:4000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Illithid Flesh	PREFEAT:1,Graft Flesh	SPROP:act as Silppers of Spider Climbing.	MOVE:Climb,15
 Illithid Graft (Illithid Goring Horn)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.IllithidGraft	COST:8000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Illithid Flesh	PREFEAT:1,Graft Flesh		VFEAT:Improved Bull Rush	ABILITY:Special Ability|VIRTUAL|Illithid Graft ~ Goring Horn				
 																
 																

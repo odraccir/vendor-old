@@ -312,7 +312,7 @@ CLASS:Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craf
 #												
 CLASS:Ex Shadowbane Inquisitor	HD:10	TYPE:Prestige	ABB:XSbi	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	VISIBLE:NO		
 CLASS:Ex Shadowbane Inquisitor	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Decipher Script|Gather Information|Heal|Hide|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Search|Sense Motive|Swim										
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shadoebane Inquisitor
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shadowbane Inquisitor
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Pierce Shadows|Shadowbane Inquisitor Pierce Shadows			BONUS:VAR|ShadowbaneInquisitorPierceShadowsLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Sacred Stealth|Smite Corrupted|Shadowbane Inquisitor Smite Corrupted			BONUS:VAR|ShadowbaneInquisitorSmiteCorruptedLVL|CL	BONUS:VAR|ShadowbaneInquisitorSacredStealthLVL|CL				

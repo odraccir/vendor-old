@@ -212,7 +212,7 @@ CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate
 9	ADD:SPELLCASTER|Arcane											
 10				ABILITY:Special Ability|AUTOMATIC|Thrall			BONUS:ABILITYPOOL|Improved Caster Level|2					
 #												
-###TODO CONTIGUOUS:Seeker of the Song												
+###TODO CONTIGUOUS:Bard												
 CLASS:Seeker of the Song	HD:6	TYPE:PC.Prestige	ABB:Ses	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	EXCLASS:Ex Seeker of the Song		
 CLASS:Seeker of the Song	PRESKILL:1,Knowledge (Arcana)=13	PRESKILL:1,TYPE.Perform=13	PREFEAT:1,Skill Focus(TYPE.Perform)	PREABILITY:1,CATEGORY=Special Ability,Bardic Music	PRETEXT:Must have been exposed to the primal music by hearing another Seeker of the Song use a Seeker Music Ability							
 CLASS:Seeker of the Song	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Jump|Knowledge (Arcana)|Listen|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Spot|Swim										

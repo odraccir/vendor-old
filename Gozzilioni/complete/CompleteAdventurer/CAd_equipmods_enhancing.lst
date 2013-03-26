@@ -1,10 +1,14 @@
 SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																											
 																													
 # Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
-Weapon Capsule	KEY:CAPS_M	TYPE:Weapon.Melee		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee												CONTAINS:UNLIM|Capsule=1								ASSIGNTOALL:YES
-Weapon Capsule	KEY:CAPS_R	TYPE:Weapon.Ranged		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged												CONTAINS:UNLIM|Capsule=1								ASSIGNTOALL:YES
-Triple Weapon Capsule	KEY:TRI_CAPS_M	TYPE:Weapon.Melee		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee												CONTAINS:UNLIM|Capsule=3								ASSIGNTOALL:YES
-Triple Weapon Capsule	KEY:TRI_CAPS_R	TYPE:Weapon.Ranged		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged												CONTAINS:UNLIM|Capsule=3								ASSIGNTOALL:YES
+###TODO: Weapon Capsule/Melee CONTAINS:UNLIM|Capsule=1
+Weapon Capsule	KEY:CAPS_M	TYPE:Weapon.Melee		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee																				ASSIGNTOALL:YES
+###TODO: Weapon Capsule/Ranged CONTAINS:UNLIM|Capsule=1
+Weapon Capsule	KEY:CAPS_R	TYPE:Weapon.Ranged		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged																				ASSIGNTOALL:YES
+###TODO: Triple Weapon Capsule/Melee CONTAINS:UNLIM|Capsule=3
+Triple Weapon Capsule	KEY:TRI_CAPS_M	TYPE:Weapon.Melee		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee																				ASSIGNTOALL:YES
+###TODO: Triple Weapon Capsule/Ranged CONTAINS:UNLIM|Capsule=3
+Triple Weapon Capsule	KEY:TRI_CAPS_R	TYPE:Weapon.Ranged		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged																				ASSIGNTOALL:YES
 																													
 																													
 ###Block:Armor abilities																													

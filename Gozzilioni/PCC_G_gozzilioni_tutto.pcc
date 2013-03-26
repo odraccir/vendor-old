@@ -46,6 +46,7 @@ PCC:&/Gozzilioni/complete/CompleteDivine/G_complete_divine.pcc
 PCC:&/Gozzilioni/complete/CompleteWarrior/G_complete_warrior.pcc
 #Races
 PCC:&/Gozzilioni/Races/RaceOfEberron/G_races_of_eberron.pcc
+PCC:&/Gozzilioni/Races/RaceOfTheWild/G_races_of_the_wild.pcc
 #Third Party
 PCC:&/Gozzilioni/third_party/Avalanchepress/NobleSteed/G_Noble_Steed.pcc
 PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/G_Darkness_Dread.pcc
@@ -56,6 +57,7 @@ PCC:&/Gozzilioni/third_party/NecromancerGames/TomeOfHorror/G_necromancergames_to
 PCC:&/Gozzilioni/campaign/ForgottenRealm/PlayerSGuideToFearun/G_PlayerSGuideToFaerun.pcc
 PCC:&/Gozzilioni/campaign/ForgottenRealm/MagicOfFaerun/G_magicoffaerun.pcc
 PCC:&/Gozzilioni/campaign/ForgottenRealm/MonstersOfFaerun/G_MonstersOfFaerun.pcc
+PCC:&/Gozzilioni/campaign/ForgottenRealm/Underdark/G_Underdark.pcc
 #Nephandum
 PCC:&/Gozzilioni/campaign/Nephandum/CampaingSetting/G_nephandum.pcc
 PCC:&/Gozzilioni/campaign/Nephandum/CreatureDelTerrore/G_CreatureDelTerrore.pcc

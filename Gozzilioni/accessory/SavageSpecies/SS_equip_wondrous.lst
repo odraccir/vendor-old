@@ -2,7 +2,8 @@ SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net
 										
 ###Block										
 #Bag of Boulders		TYPE:Magic.Wondrous.Container	COST:1200			SOURCEPAGE:SS		MODS:NO	CONTAINS:UNLIM|SlingStone=4	
-Arms of the Naga		TYPE:Magic.Wondrous.Resizeable	COST:56000	WT:8		SOURCEPAGE:SS			HANDS:2	
+###TODO:Arms of the Naga HANDS:2
+Arms of the Naga		TYPE:Magic.Wondrous.Resizeable	COST:56000	WT:8		SOURCEPAGE:SS			
 Babbling Wheel		TYPE:Magic.Wondrous	COST:2000			SOURCEPAGE:SS				
 Circlet of Rest		TYPE:Magic.Wondrous.Headgear	COST:12500			SOURCEPAGE:SS			SPROP:+10 resistance bonus against Nightmare and Dream Casting.	ABILITY:Special Ability|AUTOMATIC|Immunity To Dream
 Cloak of Charms		TYPE:Magic.Wondrous.Cape	COST:54000	WT:1		SOURCEPAGE:SS			SPELLS:Cloak of Charms|TIMES=1|CASTERLEVEL=15|Charm Animal,11|Charm Person,11|Command Plants,14	

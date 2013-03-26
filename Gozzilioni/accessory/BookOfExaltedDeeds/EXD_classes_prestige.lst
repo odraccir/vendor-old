@@ -187,7 +187,8 @@ SUBCLASSLEVEL:4						SPELLLEVEL:CLASS|Warmage=8|Planar Ally (Greater),Holy Aura|
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Faster Consecrate							
 3	ADD:SPELLCASTER|Arcane						BONUS:ABILITYPOOL|Exalted Arcanist Feat|(CL-1)/2				
 4	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Faster Purify							
-5	ADD:SPELLCASTER|Arcane			SPELLLIST:1|Sanctified							
+###TODO: level 5 SPELLLIST:1|Sanctified
+5	ADD:SPELLCASTER|Arcane										
 #											
 CLASS:Fist of Raziel	HD:10	TYPE:PC.Prestige.Exalted	ABB:FiR	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 CLASS:Fist of Raziel	PREALIGN:LG	PREATT:6	PRESKILL:2,Diplomacy=5,Knowledge (Religion)=5	PREFEAT:2,Power Attack,Servant of the Heavens	PRESPELL:1,Divine Favor						
@@ -212,7 +213,7 @@ CLASS:Initiate of Pistis Sophia	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentrati
 1				ABILITY:Special Ability|AUTOMATIC|Flurry of Blows	ABILITY:Special Ability|VIRTUAL|Greater Flurry of Blows|PREVARGTEQ:GreaterFlurry,1		BONUS:VAR|MonkLVL|CL	BONUS:VAR|FlurryLVL,StunningFistMonkLVL|MonkLVL	DEFINE:MonkLVL|0		
 1				ABILITY:Special Ability|AUTOMATIC|Monk Movement			BONUS:VAR|MonkMoveLVL|CL				
 #											
-1				ABILITY:Special Ability|AUTOMATIC|Ki Strike|Monk Ki Strike Advancement			BONUS:VAR|KiStrikeLVL|CL				
+1				ABILITY:Class Ability|AUTOMATIC|Ki Strike	ABILITY:Internal|AUTOMATIC|Monk Ki Strike Advancement		BONUS:VAR|KiStrikeLVL|CL				
 #											
 1			AUTO:FEAT|Fist of the Heavens								
 2				ABILITY:Special Ability|AUTOMATIC|Detect Evil|Smite Evil|Initiate of Pistis Sophia Smite Evil			BONUS:VAR|DetectEvilLVL|CL				
@@ -385,7 +386,8 @@ CLASS:Troubadour of Stars	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Concentrati
 3				ABILITY:Special Ability|AUTOMATIC|Starmantle (Sp)			BONUS:VAR|StarmantlePerDay|1	BONUS:VAR|StarmantleLVL|CL			
 4	ADD:SPELLCASTER|ANY										
 5				ABILITY:Special Ability|AUTOMATIC|Song of Hope|PRESKILL:1,TYPE.Perform=11							
-6	ADD:SPELLCASTER|ANY			SPELLLIST:1|Sanctified							
+###TODO: level 6 SPELLLIST:1|Sanctified
+6	ADD:SPELLCASTER|ANY
 7				ABILITY:Special Ability|AUTOMATIC|Eladrin Form (Sp)			BONUS:VAR|EladrinFormPerDay|1	BONUS:VAR|EladrinFormLVL|CL			
 8	ADD:SPELLCASTER|ANY										
 9				ABILITY:Special Ability|AUTOMATIC|Celestial Symphony|PRESKILL:1,TYPE.Perform=15							

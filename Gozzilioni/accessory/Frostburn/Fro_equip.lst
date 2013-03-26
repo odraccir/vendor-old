@@ -6,7 +6,8 @@ Skull		OUTPUTNAME:[NAME]	TYPE:SkullTalisman.Resizable.Consumable	COST:0	WT:0		SO
 																				
 #goods																				
 Crampons			TYPE:Goods	COST:5	WT:1		SOURCEPAGE:Fro	BONUS:SKILL|Balance,Climb|2|TYPE=Circumstance												
-Fur Clothing			TYPE:Goods.Clothing.Resizable.Fur	COST:8	WT:10		SOURCEPAGE:Fro	SPROP:+10 circumstance bonus on Fortitude saving throws against exposure to cold weather.	BONUS:ARMORPROF=TYPE.Light|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Medium|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Heavy|ACCHECK|-2									
+###TODO: Fur Clothing:	BONUS:ARMORPROF=TYPE.Medium|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Light|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Heavy|ACCHECK|-2									
+Fur Clothing			TYPE:Goods.Clothing.Resizable.Fur	COST:8	WT:10		SOURCEPAGE:Fro	SPROP:+10 circumstance bonus on Fortitude saving throws against exposure to cold weather.	
 Hut (portable)		OUTPUTNAME:Hut, Portable	TYPE:Goods.General.Resizable	COST:125	WT:75		SOURCEPAGE:Fro													
 Skates			TYPE:Goods	COST:10	WT:3		SOURCEPAGE:Fro	SPROP:can be use only on icy surfaces.	PRESKILL:1,Balance=5											
 Skis and Poles			TYPE:Goods	COST:15	WT:6		SOURCEPAGE:Fro	SPROP:can be use only on icy or snowy surfaces.												

@@ -7,7 +7,7 @@ SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net
 #Dragonrider Armor	COST:26150																	
 																		
 # Equipment Name			Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
-Dragonarmor of Invincibility		PROFICIENCY:ARMOR|Barding (Heavy)	TYPE:Enhancement.Armor.Heavy.Specific.Barding.Mount	COST:1200	WT:50	ACCHECK:-7	EQMOD:STEEL.MWORKA.PLUS5A	MAXDEX:0	SOURCEPAGE:Drac	SPELLFAILURE:40	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE	BONUS:WEAPONPROF=TYPE.Natural|TOHIT|5|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|DAMAGE|5|TYPE=Enhancement					PRESIZEGTEQ:M
+Dragonarmor of Invincibility		PROFICIENCY:ARMOR|Barding (Half-Plate)	TYPE:Enhancement.Armor.Heavy.Specific.Barding.Mount	COST:1200	WT:50	ACCHECK:-7	EQMOD:STEEL.MWORKA.PLUS5A	MAXDEX:0	SOURCEPAGE:Drac	SPELLFAILURE:40	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE	BONUS:WEAPONPROF=TYPE.Natural|TOHIT|5|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|DAMAGE|5|TYPE=Enhancement					PRESIZEGTEQ:M
 																		
 # Equipment Name																		
 Armor of Dragonshape (Black)	OUTPUTNAME:[NAME] Armor of Dragonshape	PROFICIENCY:ARMOR|Hide	TYPE:Enhancement.Armor.Medium.Suit.Specific.Nonmetal	COST:15	WT:25	ACCHECK:-3	EQMOD:MWORKA.DRAGCRFTA_MED.DRAGCRFTA_MET_BLK.PLUS3A	MAXDEX:4	SOURCEPAGE:Drac	SPELLFAILURE:20	BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE	SPROP:You can change into a small or medium Black dragon|PREABILITY:1,CATEGORY=Special Ability,Wild Shape						

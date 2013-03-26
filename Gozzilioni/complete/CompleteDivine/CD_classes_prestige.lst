@@ -173,7 +173,7 @@ CLASS:Ex Holy Liberator	HD:10	TYPE:Prestige	ABB:xHli	MAXLEVEL:10	SOURCEPAGE:CD	B
 CLASS:Ex Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive													
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Holy Liberator
 #															
-###TODO CONTIGUOUS:Hospitaler|Paladin															
+###TODO CONTIGUOUS:Paladin															
 CLASS:Hospitaler	HD:8	TYPE:Prestige	ABB:Hos	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Hospitaler					
 CLASS:Hospitaler	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:5	PRESKILL:2,Handle Animal=5,Ride=5	PREFEAT:1,Mounted Combat,Ride By Attack	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1									
 CLASS:Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Religion)|TYPE.Profession|Ride													
@@ -247,7 +247,8 @@ CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 7				ABILITY:Special Ability|AUTOMATIC|Detect Chaos		DOMAIN:Law	BONUS:DOMAIN|NUMBER|1	BONUS:VAR|DetectChaosLVL|CL							
 8	ADD:SPELLCASTER|Arcane														
 9	ADD:SPELLCASTER|Arcane														
-10				ABILITY:Special Ability|AUTOMATIC|Detect Thoughts (Sp/atwill)		SPELLLIST:1|Cleric		BONUS:VAR|DetectThoughtsLVL|CL							
+###TODO level 10 SPELLLIST:1|Cleric
+10				ABILITY:Special Ability|AUTOMATIC|Detect Thoughts (Sp/atwill)				BONUS:VAR|DetectThoughtsLVL|CL							
 #															
 CLASS:Sacred Exorcist	HD:8	TYPE:Prestige	ABB:Exo	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE						
 CLASS:Sacred Exorcist	PREALIGN:LG,NG,CG	PRESKILL:1,Knowledge (The Planes)=10	PRESKILL:1,Knowledge (Religion)=7	PRESPELL:1,Dismissal,Dispel Evil	PRETEXT:Adopting this prestige class requires the sanction of a church or order that ordains sacred exorcists. Only characters judged by their church to be exemplary in faith and devotion, strong of will and upright in morality, are made sacred exorcists.										
@@ -265,7 +266,7 @@ CLASS:Sacred Exorcist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intim
 9	ADD:SPELLCASTER|ANY														
 10	ADD:SPELLCASTER|ANY														
 #															
-###TODO CONTIGUOUS:Sacred Fist															
+###TODO CONTIGUOUS:Monk															
 CLASS:Sacred Fist	HD:8	TYPE:Prestige	ABB:Saf	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE						
 CLASS:Sacred Fist	PREATT:4	PRESKILL:1,Knowledge (Religion)=8	PREFEAT:4,Combat Casting,Combat Reflexes,Improved Unarmed Strike,Stunning Fist	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1										
 CLASS:Sacred Fist	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Escape Artist|Heal|Jump|TYPE.Profession|Spellcraft|Tumble													

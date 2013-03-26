@@ -9,5 +9,6 @@ Shifter Instinct	TYPE:Shifter	VISIBLE:YES																		PRERACE:1,Shifter				
 Adamantine Body	TYPE:Warforged	VISIBLE:YES									PRELEVELMAX:1									PRERACE:1,Warforged				DESC:See Text																	SOURCEPAGE:MM3	AUTO:EQUIP|Composite Plating (Adamantine Body)	
 Improved Fortification	TYPE:Warforged	VISIBLE:YES		PREATT:6																PRERACE:1,Warforged				DESC:See Text																	SOURCEPAGE:MM3	ABILITY:Special Ability|AUTOMATIC|Immunity To Sneak Attack	
 Mithral Body	TYPE:Warforged	VISIBLE:YES									PRELEVELMAX:1									PRERACE:1,Warforged				DESC:See Text																	SOURCEPAGE:MM3	AUTO:EQUIP|Composite Plating (Mithral Body)	
-Mithral Fluidity	TYPE:Warforged	VISIBLE:YES				PREFEAT:1,Mithral Body														PRERACE:1,Warforged				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:MM3	BONUS:ARMORPROF=Composite Plating|MAXDEX|1	BONUS:ARMORPROF=Composite Plating|ACCHECK|-1
+###TODO: Mithral Fluidity:	BONUS:ARMORPROF=Composite Plating|MAXDEX|1	BONUS:ARMORPROF=Composite Plating|ACCHECK|-1
+Mithral Fluidity	TYPE:Warforged	VISIBLE:YES				PREFEAT:1,Mithral Body														PRERACE:1,Warforged				DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:MM3		
 Powerful Charge	TYPE:General	VISIBLE:YES		PREATT:1																PRESIZEGTEQ:M		SAB:Powerful charge +%d6|PowerfulCharge	DEFINE:PowerfulCharge|SIZE-4	DESC:See Text																	SOURCEPAGE:MM3	BONUS:VAR|PowerfulCharge|1|PRESIZEEQ:C	

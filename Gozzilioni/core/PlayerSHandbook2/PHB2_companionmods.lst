@@ -10,5 +10,5 @@ FOLLOWER:DarkCompanionLVL=1	TYPE:Dark Companion	PRERACE:1,Panther	KIT:1|Panther 
 ###Block:Specific Animal Companions										
 # Class of the Master	Type				Required Race					Apply Kit
 FOLLOWER:AnimalCompanionLVL=1	TYPE:Animal Companion	PRERACE:1,Brixashulty	KIT:1|Brixashulty Companion							
-FOLLOWER:AnimalCompanionLVL=4	TYPE:Animal Companion	PRERACE:1,Axebeak	KIT:1|Axebeak Companion							
-FOLLOWER:AnimalCompanionLVL=4	TYPE:Animal Companion	PRERACE:1,Chordevoc	KIT:1|Chordevoc Companion							
+FOLLOWER:AnimalCompanionLVL=1	TYPE:Animal Companion	PRERACE:1,Axebeak	KIT:1|Axebeak Companion							
+FOLLOWER:AnimalCompanionLVL=1	TYPE:Animal Companion	PRERACE:1,Chordevoc	KIT:1|Chordevoc Companion							

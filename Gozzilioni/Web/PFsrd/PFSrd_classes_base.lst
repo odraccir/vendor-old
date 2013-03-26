@@ -10,7 +10,7 @@ CLASS:Sorcerer.MOD	CSKILL:Fly
 CLASS:Wizard.MOD	CSKILL:Fly											
 #												
 ###TODO: CONTIGUOUS:Sorcerer												
-CLASS:Sorcerer Bloodline	HD:6	TYPE:Base.PC	ABB:BSor	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		SERVESAS:CLASS|Sorcerer	
+CLASS:Sorcerer Bloodline	HD:6	TYPE:Base.PC	ABB:BSor	MAXLEVEL:20	SOURCEPAGE:PFSrd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE
 #CLASS:Sorcerer Bloodline												
 CLASS:Sorcerer Bloodline	STARTSKILLPTS:2	CSKILL:Appraise|Bluff|TYPE.Craft|Fly|Intimidate|Knowledge (Arcana)|TYPE.Profession|Spellcraft|Use Magic Device										
 CLASS:Sorcerer Bloodline	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Sorcerer Bloodline|CL	SPELLLIST:1|Sorcerer						
@@ -18,7 +18,7 @@ CLASS:Sorcerer Bloodline	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTE
 ###Block: Bloodline												
 1	BONUS:VAR|BloodlineLVL|CL	ABILITY:Special Ability|AUTOMATIC|Sorcerer Bloodline										
 #												
-1	CAST:0,3	KNOWN:4,2	AUTO:FEAT|Eschew Material									
+1	CAST:0,3	KNOWN:4,2	AUTO:FEAT|Eschew Materials									
 2	CAST:0,4	KNOWN:5,2										
 3	CAST:0,5	KNOWN:5,3										
 4	CAST:0,6,3	KNOWN:6,3,1										

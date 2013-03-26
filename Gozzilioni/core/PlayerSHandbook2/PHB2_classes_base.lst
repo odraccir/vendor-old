@@ -231,10 +231,10 @@ SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Basic Turning|Cleric Tu
 ###Block: Spontaneous casting																																							
 SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|VIRTUAL|Spontaneous casting - Domain spells																																						
 ###Block: Spell Alignment Restrictions																																							
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
 ###Block: Aura strength																																							
 SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|VIRTUAL|Aura of Chaos|PREDEITYALIGN:CG,CN,CE			BONUS:VAR|AlignmentAuraBase|CL			DEFINE:AlignmentAuraBase|0																													
 SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|VIRTUAL|Aura of Evil|PREDEITYALIGN:LE,NE,CE																																			
@@ -251,10 +251,10 @@ SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficie
 ###Block: Wildshape Abilities Block																																							
 SUBSTITUTIONLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Wild Shape|Druid Wild Shape|Druid Wild Shape Times|Druid Elemental Wild Shape Times|Druid Wild Shape Progression			BONUS:VAR|DruidWildShape|CL
 ###Block: Spell Alignment Restrictions																																							
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
 ###Block: Normal Progression																																							
 SUBSTITUTIONLEVEL:1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Nature Sense|Animal Companion|Wild Empathy|Spontaneous casting - Rejuvenating				BONUS:VAR|WildEmpathy|CL	BONUS:VAR|AnimalCompanionLVL|CL
 #																																							
@@ -264,10 +264,10 @@ SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficie
 ###Block: Shapechanger Abilities Block																																							
 SUBSTITUTIONLEVEL:1	BONUS:VAR|DruidShapechangerLVL|CL	ABILITY:SPECIAL Ability|AUTOMATIC|Shapechanger Druid Form					BONUS:ABILITYPOOL|Druid Shapeform|1																																
 ###Block: Spell Alignment Restrictions																																							
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
-SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE																																					
+###TODO: SUBSTITUTIONLEVEL:1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE																																					
 ###Block: Normal Progression																																							
 SUBSTITUTIONLEVEL:1	CAST:3,1		ABILITY:Special Ability|AUTOMATIC|Nature Sense|Wild Empathy|Spontaneous casting - Summon Nature's Ally					BONUS:VAR|WildEmpathy|CL																															
 SUBSTITUTIONLEVEL:5	CAST:5,3,2,1						BONUS:ABILITYPOOL|Druid Shapeform|1																																
@@ -328,7 +328,7 @@ SUBSTITUTIONLEVEL:11				ABILITY:Special Ability|AUTOMATIC|Scout Climb Movement
 CLASS:Sorcerer.MOD																																							
 SUBSTITUTIONCLASS:Metamagic Specialist																																							
 SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Sorcerer|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererProficiencies
-SUBSTITUTIONLEVEL:1	CAST:5,3	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Remove Summon Familiar (Sorcerer)|Quick Metamagic																																			
+SUBSTITUTIONLEVEL:1	CAST:5,3	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Quick Metamagic	ABILITY:ACF|AUTOMATIC|Remove Summon Familiar (Sorcerer)																																		
 #																																							
 CLASS:Swashbuckler.MOD																																							
 SUBSTITUTIONCLASS:Shield of Blades																																							
@@ -352,4 +352,4 @@ SUBSTITUTIONLEVEL:16	CAST:6,6,6,6,6,6,6,5,3					BONUS:ABILITYPOOL|Eclectic Learn
 CLASS:Wizard.MOD																																							
 SUBSTITUTIONCLASS:Immediate Magic																																							
 SUBSTITUTIONLEVEL:1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Wizard|!PREABILITY:1,CATEGORY=ACF,TYPE.WizardProficiencies
-SUBSTITUTIONLEVEL:1	CAST:3,1	BONUS:ABILITYPOOL|Wizard Feat|CL/5	AUTO:FEAT|Scribe Scroll	ABILITY:Special Ability|AUTOMATIC|Remove Summon Familiar (Wizard)|Immediate Magic|Wizard Immediate Magic			BONUS:VAR|WizardImmediateMagicLVL|CL																																
+SUBSTITUTIONLEVEL:1	CAST:3,1	BONUS:ABILITYPOOL|Wizard Feat|CL/5	AUTO:FEAT|Scribe Scroll	ABILITY:Special Ability|AUTOMATIC|Immediate Magic|Wizard Immediate Magic	ABILITY:ACF|AUTOMATIC|Remove Summon Familiar (Wizard)		BONUS:VAR|WizardImmediateMagicLVL|CL																																
