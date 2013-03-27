@@ -1697,7 +1697,7 @@ Flirtation	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQualit
 Flirtation ~ Suggestion (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES	OUTPUTNAME:Suggestion (Sp)																												SOURCEPAGE:PGtF										
 Floating Head	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:MM3										
 Flyblown	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:SS										
-Flyby Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Any creature mounted is treated as having the Fly By Attack feat.																												SOURCEPAGE:Drac										
+Flyby Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Any creature mounted is treated as having the Flyby Attack feat.																												SOURCEPAGE:Drac										
 Flying Mount ~ Deadly Charge	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+2d6 during a charge.																												SOURCEPAGE:EXD										
 Flying Mount ~ Improved Fly Speed	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:MOVEADD|TYPE.Fly|10																					SOURCEPAGE:EXD										
 Flying Mount ~ Improved Natural Attacks	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Improved Natural Attacks							BONUS:WEAPONPROF=TYPE.Natural|DAMAGESIZE|1																					SOURCEPAGE:EXD										

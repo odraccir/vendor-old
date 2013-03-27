@@ -110,7 +110,7 @@ CLASS:Godling Eldritch	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERL
 1	PROHIBITSPELL:ALIGNMENT.Evil|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Good Ascendancy											
 1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREABILITY:1,CATEGORY=Special Ability,Minor Ascendancy ~ Lawful Ascendancy											
 #												
-1	CAST:0,2	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Choose Godling Spells|Godling Ascendancy			BONUS:ABILITYPOOL|Minor Ascendancy|1	BONUS:ABILITYPOOL|Major Ascendancy|1	BONUS:VAR|GodlingAscendancyLVL|CL	BONUS:VAR|GodlingLVL|CL|TYPE=Base	BONUS:VAR|GodlingEldritchLVL|CL|TYPE=Base	
+1	CAST:0,2	KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Godling Ascendancy			BONUS:ABILITYPOOL|Godling Spell List|1	BONUS:ABILITYPOOL|Minor Ascendancy|1	BONUS:ABILITYPOOL|Major Ascendancy|1	BONUS:VAR|GodlingAscendancyLVL|CL	BONUS:VAR|GodlingLVL|CL|TYPE=Base	BONUS:VAR|GodlingEldritchLVL|CL|TYPE=Base	
 2	CAST:0,3	KNOWN:5,2		ABILITY:Special Ability|AUTOMATIC|Lineage Domain								
 3	CAST:0,4	KNOWN:5,3		ABILITY:Special Ability|AUTOMATIC|Godling Divine Trait			BONUS:ABILITYPOOL|Godling Divine Trait|1					
 4	CAST:0,5,2	KNOWN:6,3,1										

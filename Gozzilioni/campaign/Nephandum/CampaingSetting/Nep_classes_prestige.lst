@@ -149,8 +149,7 @@ CLASS:Dark Reaper	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Ride|Balance|Intimidate|Sens
 4												
 5				ABILITY:Special Ability|AUTOMATIC|Expert Wrist								
 6												
-#7			VFEAT:Sanguinary Weapon(Scythe)									
-7			VFEAT:Sanguinary Weapon(Weapon Focus(Scythe))									
+7			AUTO:FEAT|Sanguinary Weapon(Scythe)									
 8												
 9												
 10				ABILITY:Special Ability|AUTOMATIC|Dance of the Scythe								
