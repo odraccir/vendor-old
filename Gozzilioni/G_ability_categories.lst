@@ -3,9 +3,15 @@
 #Categories										
 ABILITYCATEGORY:Warlock Invocation	CATEGORY:Warlock Invocation		VISIBLE:NO	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO			
 ABILITYCATEGORY:Wonderworker Bonus	CATEGORY:Wonderworker Bonus		VISIBLE:NO	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO			
+#
 ABILITYCATEGORY:Tenacious Magic Choice ~ FR	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT							ABILITYLIST:Tenacious Magic ~ FR	PLURAL:Tenacious Magic Choices ~ FR	DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Oghma's Insight	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT							ABILITYLIST:Skill Focus ~ Knowledge	PLURAL:Oghma's Insight	DISPLAYLOCATION:Feats
 #										
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Merfolk Racial Trait			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MerfolkRacialTrait								DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Half Merrow Racial Trait			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:HalfMerrowRacialTrait								DISPLAYLOCATION:Racial Abilities
+#
 #Abilitygroup:Category
 ABILITYCATEGORY:Warlock Dark Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation.DarkInvocation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Dark Invocations	DISPLAYLOCATION:Class Abilities	
 ABILITYCATEGORY:Warlock Greater Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Greater Invocations	DISPLAYLOCATION:Class Abilities	

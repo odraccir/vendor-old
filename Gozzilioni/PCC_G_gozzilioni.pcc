@@ -25,6 +25,7 @@ ABILITYCATEGORY:G_ability_categories.lst
 ABILITY:G_abilities_class.lst
 ABILITY:G_abilities_guilds.lst
 ABILITY:G_abilities_list.lst
+ABILITY:G_abilities_racial.lst
 ABILITY:G_abilities_regions.lst
 ABILITY:G_abilities_proficiencies.lst
 BIOSET:G_biosettings.lst
