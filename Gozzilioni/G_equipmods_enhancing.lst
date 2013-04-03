@@ -6,6 +6,7 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 Light Emitting				KEY:LGHT_EMIT		TYPE:Ammunition.Armor.Shield.Weapon					COST:0	VISIBLE:QUALIFY	ITYPE:LightSource								SOURCEPAGE:DMG		PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Ammunition,Armor,Shield,Weapon]																																																				SPROP:Emit light equivalent to that of a torch.				ASSIGNTOALL:NO
 ###TODO: Light Emitting 5' Permanent QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|Permanent
 Light Emitting 5' Permanent				KEY:LGHT_EMIT_5PR		TYPE:Ammunition.Armor.Shield.Weapon					COST:0	VISIBLE:QUALIFY	ITYPE:LightSource	REPLACES:LGHT_EMIT							SOURCEPAGE:DMG		PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Ammunition,Armor,Shield,Weapon]																																																				SPROP:Emit light.			ASSIGNTOALL:NO
+#
 Lock (Very Simple)	KEY:BK_LOCK_VS	TYPE:Spellbook	COST:20	VISIBLE:QUALIFY	SPROP:Lock DC 20	PRETYPE:1,Book,Spellbook																																																																																																																																																																											
 Lock (Average)	KEY:BK_LOCK_AV	TYPE:Spellbook	COST:40	VISIBLE:QUALIFY	SPROP:Lock DC 25	PRETYPE:1,Book,Spellbook																																																																																																																																																																											
 Lock (Good)	KEY:BK_LOCK_GO	TYPE:Spellbook	COST:80	VISIBLE:QUALIFY	SPROP:Lock DC 30	PRETYPE:1,Book,Spellbook																																																																																																																																																																											
@@ -13,6 +14,12 @@ Lock (Amazing)	KEY:BK_LOCK_AM	TYPE:Spellbook	COST:150	VISIBLE:QUALIFY	SPROP:Lock
 #
 Charges (use per day)	KEY:CHARGED_PER_DAY_5	PRETYPE:1,EQMOD=SPL_CMD		COST:((BASECOST/5)*%CHARGES)-BASECOST	VISIBLE:NO																							CHOOSE:NOCHOICE		CHARGES:1|50																																																																																																																																																			
 #
+###BLOCK:eqmod da eliminare nella 6.01
+Charges (1)	KEY:CHARGED_ITEM_1			COST:((BASECOST/1)*%CHARGES)-BASECOST	VISIBLE:NO																							CHOOSE:NOCHOICE		CHARGES:1|1
+Charges (7)	KEY:CHARGED_ITEM_7			COST:((BASECOST/7)*%CHARGES)-BASECOST	VISIBLE:NO																							CHOOSE:NOCHOICE		CHARGES:1|7																																																																																																																																																			
+Charges (9)	KEY:CHARGED_ITEM_9			COST:((BASECOST/9)*%CHARGES)-BASECOST	VISIBLE:NO																							CHOOSE:NOCHOICE		CHARGES:1|9																																																																																																																																																			
+#
+###BLOCK:Cariche
 Charges (14)	KEY:CHARGED_ITEM_14			COST:((BASECOST/14)*%CHARGES)-BASECOST	VISIBLE:NO																							CHOOSE:NOCHOICE		CHARGES:1|14																																																																																																																																																			
 Charges (1000)	KEY:CHARGED_ITEM_1000			COST:((BASECOST/1000)*%CHARGES)-BASECOST	VISIBLE:NO																							CHOOSE:NOCHOICE		CHARGES:1|1000																																																																																																																																																			
 #																																																																																																																																																																																	

@@ -1,5 +1,5 @@
 SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
 
 #Craft Stoneworking è nel rsrd_epic_skill, ma non contiene la classica penalità per un utilizzo senza attrezzi.
-Craft (Stoneworking).MOD	TEMPBONUS:PC|SKILL|Craft (Stoneworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StoneworkingTools	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used					
+Craft (Stoneworking).MOD	BONUS:SKILL|Craft (Stoneworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StoneworkingTools|PREAPPLY:PC	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used					
 Perform (Weapon Drill)	KEYSTAT:CHA	USEUNTRAINED:NO	TYPE:Charisma.Perform	SOURCEPAGE:CW	BONUS:SKILL|Perform (Weapon Drill)|2|TYPE=Circumstance|PREFEAT:1,Combat Expertise	BONUS:SKILL|Perform (Weapon Drill)|2|TYPE=Circumstance|PREFEAT:1,Greater Weapon Focus	BONUS:SKILL|Perform (Weapon Drill)|2|TYPE=Circumstance|PREFEAT:1,Quick Draw	BONUS:SKILL|Perform (Weapon Drill)|2|TYPE=Circumstance|PREFEAT:1,Two Weapon Fighting	BONUS:SKILL|Perform (Weapon Drill)|2|TYPE=Circumstance|PREFEAT:1,Weapon Focus	BONUS:SKILL|Perform (Weapon Drill)|2|TYPE=Circumstance|PREFEAT:1,Whirlwind Attack	BONUS:SKILL|Perform (Weapon Drill)|BAB/2|TYPE=Circumstance

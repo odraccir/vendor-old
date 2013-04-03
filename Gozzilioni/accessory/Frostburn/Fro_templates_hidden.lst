@@ -2,10 +2,10 @@ SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net
 																							
 ###Block: Stitched flesh Familiar																							
 # Template Name				Visible	Template																	Required Size	Natural Attacks
-Disease Damage (Cabin fever)		VISIBLE:NO	SOURCEPAGE:Fro	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Wisdom Damage		TEMPDESC:Infection DC 12 (Confinement), Incubation 24 hours, Damage 1d4 Wis.																
-Disease Damage (Coldfire ruin)		VISIBLE:NO	SOURCEPAGE:Fro	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=8|TITLE=Constitution Damage		TEMPDESC:Infection DC 20 (Exposure), Incubation 1 day, Damage 1d8 Con.																
-Disease Damage (Creeping frost)		VISIBLE:NO	SOURCEPAGE:Fro	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Dexterity Damage		TEMPDESC:Infection DC 16 (Injury), Incubation 1 day, Damage 1d4 Dex, Apply this temporary bonus each day the victim takes damage.																
-Disease Damage (Winter rot)		VISIBLE:NO	SOURCEPAGE:Fro	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=6|TITLE=Strength Damage		TEMPDESC:Infection DC 14 (Contact), Incubation 1d3 days, Damage 1d6 Strength, Apply this temporary bonus each day the victim takes damage.																
+Disease Damage (Cabin fever)		VISIBLE:NO	SOURCEPAGE:Fro	BONUS:STAT|WIS|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Wisdom Damage		TEMPDESC:Infection DC 12 (Confinement), Incubation 24 hours, Damage 1d4 Wis.																
+Disease Damage (Coldfire ruin)		VISIBLE:NO	SOURCEPAGE:Fro	BONUS:STAT|CON|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=8|TITLE=Constitution Damage		TEMPDESC:Infection DC 20 (Exposure), Incubation 1 day, Damage 1d8 Con.																
+Disease Damage (Creeping frost)		VISIBLE:NO	SOURCEPAGE:Fro	BONUS:STAT|DEX|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Dexterity Damage		TEMPDESC:Infection DC 16 (Injury), Incubation 1 day, Damage 1d4 Dex, Apply this temporary bonus each day the victim takes damage.																
+Disease Damage (Winter rot)		VISIBLE:NO	SOURCEPAGE:Fro	BONUS:STAT|STR|-1*(%CHOICE)|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=6|TITLE=Strength Damage		TEMPDESC:Infection DC 14 (Contact), Incubation 1d3 days, Damage 1d6 Strength, Apply this temporary bonus each day the victim takes damage.																
 # Template Name																							
 Favored of Iborighu		VISIBLE:NO	SOURCEPAGE:Fro	FAVOREDCLASS:Cleric																			
 Mark of Hleid		VISIBLE:NO	SOURCEPAGE:Fro	FAVOREDCLASS:Cleric																			
