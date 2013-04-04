@@ -239,7 +239,7 @@ CLASS:Sage	PRETEXT:In order to enter the sage class after 1st level, a character
 CLASS:Sage	STARTSKILLPTS:8	CSKILL:Concentration|TYPE.Knowledge|TYPE.Profession|Speak Language						DEFINE:BrilliantInsightPerDay|0				
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Sage
 #												
-1				ABILITY:Special Ability|VIRTUAL|Encyclopedic Knowledge			BONUS:ABILITYPOOL|Expert Class Skills|10	BONUS:VAR|SageLVL|CL-1	BONUS:ABILITYPOOL|Encyclopedic Knowledge|INT+1			
+1				ABILITY:Special Ability|AUTOMATIC|Encyclopedic Knowledge			BONUS:ABILITYPOOL|Expert Class Skills|10	BONUS:VAR|SageLVL|CL-1	BONUS:ABILITYPOOL|Encyclopedic Knowledge|INT+1			
 2												
 3				ABILITY:Special Ability|AUTOMATIC|Master of Forgotten Lore								
 4												

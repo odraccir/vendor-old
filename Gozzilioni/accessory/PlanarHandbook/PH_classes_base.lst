@@ -7,7 +7,7 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 CLASS:Barbarian.MOD	HASSUBSTITUTIONLEVEL:YES												
 SUBSTITUTIONCLASS:Portal Sense		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Portal Sense									
-SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Trap Sense Ability			BONUS:VAR|TrapSense|(CL/3)-1						
+SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Trap Sense Ability			BONUS:VAR|TrapSenseBonus|(CL/3)-1						
 SUBSTITUTIONCLASS:Planar DR		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONLEVEL:7				ABILITY:Special Ability|AUTOMATIC|Planar Damage Reduction									
 SUBSTITUTIONLEVEL:10				ABILITY:Special Ability|AUTOMATIC|Barbarian DR			BONUS:VAR|BarbarianDRLVL|CL-3						
@@ -70,7 +70,7 @@ SUBSTITUTIONLEVEL:13				ABILITY:Special Ability|AUTOMATIC|Planar Tracking (Sp)		
 #													
 CLASS:Rogue.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Breach Sense													
-SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Breach Sense			BONUS:VAR|TrapSense|-1						
+SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Breach Sense			BONUS:VAR|TrapSenseBonus|-1						
 #													
 CLASS:Sorcerer.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Force Charged Energy													

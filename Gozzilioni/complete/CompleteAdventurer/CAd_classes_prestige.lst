@@ -143,7 +143,7 @@ CLASS:Dread Pirate	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craf
 CLASS:Dungeon Delver	HD:6	TYPE:Prestige	ABB:Del	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Dungeon Delver	PRESKILL:4,Climb=10,Disable Device=10,Open Lock=10,Search=10	PRESKILL:4,Craft (Stonemasonry)=5,Hide=5,Knowledge (Dungeoneering)=5,Move Silently=5	PREFEAT:2,Alertness,Blind Fight	PREABILITY:1,CATEGORY=Special Ability,Trapfinding	PRETEXT:Must survive a great trial underground.see desc.							
 CLASS:Dungeon Delver	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Disable Device|Hide|Jump|Knowledge (Dungeoneering)|Listen|Move Silently|Open Lock|Search|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope										
-1				ABILITY:Special Ability|AUTOMATIC|Dungeon Delver Darkvision|Deep Survival|Dungeon Delver Deep Survival|Trap Sense Ability			BONUS:VAR|DungeonDelverDeepSurvivalLVL|CL	BONUS:VAR|TrapSense|(CL+2)/3				
+1				ABILITY:Special Ability|AUTOMATIC|Dungeon Delver Darkvision|Deep Survival|Dungeon Delver Deep Survival|Trap Sense Ability			BONUS:VAR|DungeonDelverDeepSurvivalLVL|CL	BONUS:VAR|TrapSenseBonus|(CL+2)/3				
 2				ABILITY:Special Ability|AUTOMATIC|Stonecunning|Reduce (Sp)						SPELLS:Reduce|TIMES=3|CASTERLEVEL=classlevel("Dungeon Delver")|Reduce Person		
 3				ABILITY:Special Ability|AUTOMATIC|Augury (Sp)			BONUS:ABILITYPOOL|Skill Mastery|3+INT	BONUS:VAR|AuguryTimes|CL/3	BONUS:VAR|AuguryLVL|CL				
 4				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion			BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite|PREEQUIP:1,TYPE=Medium,TYPE=Heavy					

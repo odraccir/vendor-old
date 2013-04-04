@@ -15,6 +15,8 @@ INFOTEXT:mancano le armi itelligenti. mancano i png unici del Celestial Hebdomad
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
+HIDETYPE:FEAT|CelestialAllegiance
+
 #Book of Exalted Deeds
 ABILITY:EXD_abilities_class.lst
 CLASS:EXD_classes_sanctified.lst

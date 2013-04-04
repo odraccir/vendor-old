@@ -14,6 +14,8 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
+HIDETYPE:FEAT|DraconicAllegiance
+
 #Draconomicon
 ABILITY:Drac_abilities_class.lst
 CLASS:Drac_classes_monster__dragons.lst
