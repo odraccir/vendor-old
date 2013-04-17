@@ -30,7 +30,7 @@ use English qw( -no_match_vars );	# No more funky punctuation variables
 # to the values shown on SVN for this revision.
 
 # Version information			# Converting to SVN Id parsing using array - Tir Gwaith
-my $SVN_id = '$Id: prettylst.pl 19091 2013-01-09 07:11:31Z amaitland $';
+my $SVN_id = '$Id: prettylst.pl 19790 2013-03-30 21:28:13Z zaister $';
 my @SVN_array = split ' ', $SVN_id;
 my $SVN_build = $SVN_array[2];
 my $SVN_date = $SVN_array[3];
@@ -2018,6 +2018,7 @@ my %master_order = (
 		'BONUSSPELLSTAT',
 		'SPELLTYPE',
 		'TYPE',
+		'CLASSTYPE',
 		'ABB',
 		'MAXLEVEL',
 		'CASTAS',
@@ -2878,6 +2879,8 @@ my %master_order = (
 		'HITDICEADVANCEMENT',
 		'LEVELADJUSTMENT',
 		'CR',
+		'CRMOD',
+		'ROLE',
 		@SOURCE_Tags,
 		'SPELL:*',
 		'SPELLS:*',
@@ -3967,6 +3970,7 @@ my %tagheader = (
 		'CONTAINS'			=> 'Contains',
 		'COST'			=> 'Cost',
 		'CR'				=> 'Challenge Rating',
+		'CRMOD'			=> 'CR Modifier',
 		'CRITMULT'			=> 'Critical Hit Multiplier',
 		'CRITRANGE'			=> 'Critical Hit Range',
 		'CSKILL:.CLEAR'		=> 'Remove Class Skill',
@@ -4189,6 +4193,7 @@ my %tagheader = (
 		'REMOVABLE'			=> 'Removable?',
 		'REMOVE'			=> 'Remove Object',
 		'REP'				=> 'Reputation',
+		'ROLE'			=> 'Monster Role',
 		'SA'				=> 'Special Ability',
 		'SA:.CLEAR'			=> 'Clear SAs',
 		'SAB:.CLEAR'		=> 'Clear Special ABility',
@@ -4278,6 +4283,7 @@ my %tagheader = (
 
 	'CLASS' => {
 		'000ClassName'		=> '# Class Name',
+		'CLASSTYPE'			=> 'Class Type',
 		'ABB'				=> 'Abbreviation',
 		'ALLOWBASECLASS',		=> 'Base class as subclass?',
 		'HASSUBSTITUTIONLEVEL'	=> 'Substitution levels?',
