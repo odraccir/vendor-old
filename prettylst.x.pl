@@ -2018,6 +2018,7 @@ my %master_order = (
         'BONUSSPELLSTAT',
         'SPELLTYPE',
         'TYPE',
+		'CLASSTYPE',
         'ABB',
         'MAXLEVEL',
         'CASTAS',
@@ -2883,6 +2884,8 @@ my %master_order = (
         'HITDICEADVANCEMENT',
         'LEVELADJUSTMENT',
         'CR',
+		'CRMOD',
+		'ROLE',
         @SOURCE_Tags,
         'SPELL:*',
         'SPELLS:*',
@@ -3972,6 +3975,7 @@ my %tagheader = (
         'CONTAINS'              => 'Contains',
         'COST'                  => 'Cost',
         'CR'                    => 'Challenge Rating',
+		'CRMOD'			=> 'CR Modifier',
         'CRITMULT'              => 'Critical Hit Multiplier',
         'CRITRANGE'             => 'Critical Hit Range',
         'CSKILL:.CLEAR'         => 'Remove Class Skill',
@@ -4194,6 +4198,7 @@ my %tagheader = (
         'REMOVABLE'             => 'Removable?',
         'REMOVE'                => 'Remove Object',
         'REP'                   => 'Reputation',
+		'ROLE'			=> 'Monster Role',
         'SA'                    => 'Special Ability',
         'SA:.CLEAR'             => 'Clear SAs',
         'SAB:.CLEAR'            => 'Clear Special ABility',
@@ -4283,6 +4288,7 @@ my %tagheader = (
 
     'CLASS' => {
         '000ClassName'          => '# Class Name',
+		'CLASSTYPE'			=> 'Class Type',
         'ABB'                   => 'Abbreviation',
         'ALLOWBASECLASS',       => 'Base class as subclass?',
         'HASSUBSTITUTIONLEVEL'  => 'Substitution levels?',
@@ -10350,7 +10356,6 @@ BEGIN {
 
         ceil    cl      classlevel      count   floor   min
         max     roll    skillinfo       var
-		charbonusto isgamemode		
     );
 
     # Definition of a valid Jep identifiers. Note that all functions are
