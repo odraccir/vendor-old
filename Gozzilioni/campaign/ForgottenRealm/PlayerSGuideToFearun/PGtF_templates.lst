@@ -2,8 +2,6 @@ SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzil
 #																									
 ###Block: Creature Subtypes																									
 # Template Name	Visible			Source Page		Special Ability																			
-#Dracolich	VISIBLE:YES				SOURCEPAGE:FRCS	PRERACE:1,RACETYPE=Dragon	PREALIGN:LE,NE,CE	SAB:Control Undead (Sp)	SAB:Paralyzing Gaze (Su) ~ Fort DC %|10+(HD/2)+CHA	SAB:Paralyzing Touch (Su)	SAB:Immune to polymorph	SAB:Immune to Cold	SAB:Immune to Electricity	BONUS:MISC|SR|3	BONUS:STAT|CHA|2	BONUS:MISC|CR|3									
+#Dracolich	vedi FRCS
 Shade	VISIBLE:YES				SOURCEPAGE:FRCS	PRERACE:1,RACETYPE=Humanoid	PREALIGN:LE,NE,CE	RACETYPE:Outsider	RACESUBTYPE:Shade	LEVELADJUSTMENT:5																	
-#Shade (in darkness)	VISIBLE:YES					PRERACE:1,RACESUBTYPE=Shade	PREALIGN:LE,NE,CE		BONUS:MOVEADD|TYPE.Walk|20	BONUS:COMBAT|AC|4|TYPE=Deflection	BONUS:COMBAT|TOHIT|2|TYPE=Competence	BONUS:COMBAT|DAMAGE|2|TYPE=Competence	SAB:Control Light (Sp)	SAB:Fast Healing 2 (Ex)	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=HD|Invisibility	VISION:Shadesight	SAB:Shadow Image (Sp)	LEVEL:8:SAB:Shadow Stride (Sp)	SAB:Shadow Travel (Sp)	SR:11+HD	BONUS:CHECKS|Fortitude,Reflex,Will|4|TYPE=Luck	BONUS:STAT|CON,CHA|4	BONUS:SKILL|Listen,Spot|4|TYPE=Racial	BONUS:SKILL|Hide,Move Silently|8|TYPE=Racial	BONUS:MISC|CR|2
-#Drow Male FR		VISIBLE:NO	SOURCEPAGE:MonstersE-F.rtf	PRERACE:1,Elf (Drow/FR)	FAVOREDCLASS:Wizard	GENDERLOCK:Male
-#Drow Female FR		VISIBLE:NO	SOURCEPAGE:MonstersE-F.rtf	PRERACE:1,Elf (Drow/FR)	FAVOREDCLASS:Cleric	GENDERLOCK:Female
+#Shade (in darkness)	vedi FRCS
