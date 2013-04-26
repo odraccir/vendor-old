@@ -18,7 +18,7 @@ Greater Cold Focus	TYPE:General	VISIBLE:YES				PREFEAT:1,Cold Focus													
 Icy Calling	TYPE:General	VISIBLE:YES				PREFEAT:1,Snowcasting									PRESTAT:1,CON=13									DESC:See Text																	SOURCEPAGE:Fro			
 Ice Harmonics	TYPE:General	VISIBLE:YES										PRESKILL:1,Perform (Sing)=6								PREABILITY:1,CATEGORY=Special Ability,Bardic Music				DESC:See Text																	SOURCEPAGE:Fro			
 Improved Cold Endurance	TYPE:General	VISIBLE:YES				PREFEAT:1,Cold Endurance														PRECHECKBASE:1,Fortitude=6	PREVARLTEQ:ColdResistanceBonus,15			DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|5
-Improved Frosty Touch	TYPE:General	VISIBLE:YES																		PREDEITY:1,Uldra				DESC:See Text																	SOURCEPAGE:Fro			BONUS:VAR|FrostyTouchDamage|1
+Improved Frosty Touch	TYPE:General	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Uldra				DESC:See Text																	SOURCEPAGE:Fro			BONUS:VAR|FrostyTouchDamage|1
 Mark of Hleid	TYPE:General	VISIBLE:YES																		PREDEITY:1,Hleid				DESC:See Text																	SOURCEPAGE:Fro			TEMPLATE:Mark of Hleid
 Mountaineer	TYPE:General	VISIBLE:YES																						DESC:See Text													BONUS:SKILL|Climb,Survival|2				SOURCEPAGE:Fro			
 Piercing Cold	TYPE:Metamagic	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:Fro	ADDSPELLLEVEL:1		

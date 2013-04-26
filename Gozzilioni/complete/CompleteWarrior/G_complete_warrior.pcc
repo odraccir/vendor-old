@@ -12,11 +12,6 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
-#PCC:@/d20ogl/srd35/rsrd.pcc
-FORWARDREF:SPELL|Visage of the Deity (Lesser)
-#SPELL:@/../vendor/Gozzilioni/CompleteDivine/CD_spells.lst|(INCLUDE:Visage of the Deity (Lesser))
-#SPELL:@/d20ogl/srd35/basics/srd_spells.lst|(INCLUDE:Invisibility to Animals)
-#
 #Complete Warrior
 ABILITY:CW_abilities_class.lst
 CLASS:CW_classes_base.lst
