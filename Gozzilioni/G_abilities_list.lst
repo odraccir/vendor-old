@@ -1451,3 +1451,7 @@ Skill Focus ~ Spot	CATEGORY:FEAT	TYPE:BloodlineFeatDeepEarth	VISIBLE:DISPLAY				
 Skill Focus ~ Swim	CATEGORY:FEAT	TYPE:BloodlineFeatAquatic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Swim)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Hide	CATEGORY:FEAT	TYPE:BloodlineFeatShadow	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Hide)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Move Silently	CATEGORY:FEAT	TYPE:BloodlineFeatShadow	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Move Silently)													SOURCEPAGE:PFSrd			
+																																			
+Bludgeoning	CATEGORY:Internal	TYPE:MeleeWeaponMastery	VISIBLE:YES	DESC:You gain a +2 bonus on attack rolls and a +2 bonus on damage rolls with melee bludgeoning weapon.	KEY:Bludgeoning ~ Melee Weapon Mastery						BONUS:WEAPONPROF=TYPE.MeleeBludgeoning|TOHIT,DAMAGE|2|WeaponMastery																					SOURCEPAGE:PHB2			
+Slashing	CATEGORY:Internal	TYPE:MeleeWeaponMastery	VISIBLE:YES	DESC:You gain a +2 bonus on attack rolls and a +2 bonus on damage rolls with melee slashing weapon.	KEY:Slashing ~ Melee Weapon Mastery						BONUS:WEAPONPROF=TYPE.MeleeSlashing|TOHIT,DAMAGE|2|WeaponMastery																					SOURCEPAGE:PHB2			
+Piercing	CATEGORY:Internal	TYPE:MeleeWeaponMastery	VISIBLE:YES	DESC:You gain a +2 bonus on attack rolls and a +2 bonus on damage rolls with melee piercing weapon.	KEY:Piercing ~ Melee Weapon Mastery						BONUS:WEAPONPROF=TYPE.MeleePiercing|TOHIT,DAMAGE|2|WeaponMastery																					SOURCEPAGE:PHB2			
