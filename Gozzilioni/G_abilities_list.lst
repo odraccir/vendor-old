@@ -809,7 +809,7 @@ Training ~ Girallon	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DES
 Training ~ Gray Render	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 10 if accepted. DC 33 young, DC 40 adult.	OUTPUTNAME:Trainable	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Training Level|1																									SOURCEPAGE:AaEG			
 Training ~ Ogre	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult.	OUTPUTNAME:Trainable	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Training Level|1																									SOURCEPAGE:AaEG			
 Training ~ Brixashulty	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Training Level|1																									SOURCEPAGE:RoW			
-Training ~ Chordevoc	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:all Handle Animal to teach, train or rear and all Ride checks during the ride are made with -5 circumstance penalty.	OUTPUTNAME:Trainable	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Training Level|1																									SOURCEPAGE:RoW
+Training ~ Chordevoc	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:all Handle Animal to teach, train or rear and all Ride checks during the ride are made with -5 circumstance penalty.	OUTPUTNAME:Trainable	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Training Level|1																									SOURCEPAGE:RoW			
 																																			
 Steed ~ Increased Movement	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+10-ft while running	OUTPUTNAME:Increased Movement																											SOURCEPAGE:Nob			
 Steed ~ Increased Movement 2	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+20-ft while running	OUTPUTNAME:Increased Movement 2																											SOURCEPAGE:Nob			
@@ -1175,7 +1175,7 @@ Deity Weapon Specialization	CATEGORY:Special Ability	TYPE:DeityWeaponProficiency
 Eclectic Learning ~ Warmage	CATEGORY:Special Ability	TYPE:EclecticLearning.SpecialQuality	VISIBLE:YES		OUTPUTNAME:Eclectic Learning		PRECLASS:1,Warmage=1				BONUS:SPELLKNOWN|CLASS=Warmage;LEVEL=%+1|1				STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Wizard[LEVELMIN=0;LEVELMAX=MAXCASTABLE-1]	SELECT:1														SOURCEPAGE:CAd			
 																																			
 Extend Spell Ability	CATEGORY:Special Ability	TYPE:ExtendSpellAbility.SpecialQuality	VISIBLE:YES	DESC:%1/day|ExtendSpellPerDay	OUTPUTNAME:Extend Spell	PRECLASS:1,Harper Mage=3,Harper Priest=3		DEFINE:ExtendSpellPerDay|1+CHA							STACK:NO	MULT:YES	CHOOSE:NUMCHOICES=1|SKILLSNAMED|TYPE.Knowledge	SELECT:1	ADD:FEAT|Skill Focus(%LIST)													SOURCEPAGE:MoF			
-
+																																			
 ###TODO: Weapon Bond Ability CHOOSE:EQUIPMENT|OWNED[TYPE=Weapon]																																			
 Weapon Bond Ability	CATEGORY:Special Ability	TYPE:WeaponBondAbility.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST											STACK:NO	MULT:YES	CHOOSE:NOCHOICE	SELECT:1														SOURCEPAGE:CW			
 																																			
@@ -1191,8 +1191,8 @@ Bonus Power Known ~ 7	CATEGORY:Special Ability	TYPE:BonusPowerKnown	VISIBLE:YES	
 Bonus Power Known ~ 8	CATEGORY:Special Ability	TYPE:BonusPowerKnown	VISIBLE:YES		OUTPUTNAME:Level 8							BONUS:SPELLKNOWN|CLASS=Cognition Thief;LEVEL=8|1					STACK:YES	MULT:YES	CHOOSE:SPELLS|SCHOOL=Telepathy,CLASSLIST=Psion[LEVELMIN=8;LEVELMAX=8]	SELECT:1														SOURCEPAGE:PGtF	
 Bonus Power Known ~ 9	CATEGORY:Special Ability	TYPE:BonusPowerKnown	VISIBLE:YES		OUTPUTNAME:Level 9							BONUS:SPELLKNOWN|CLASS=Cognition Thief;LEVEL=9|1					STACK:YES	MULT:YES	CHOOSE:SPELLS|SCHOOL=Telepathy,CLASSLIST=Psion[LEVELMIN=9;LEVELMAX=9]	SELECT:1														SOURCEPAGE:PGtF	
 																																			
-Choose Class Spell List	CATEGORY:Special Ability	TYPE:GodlingSpellList	VISIBLE:DISPLAY	DESC:An Godling Adept casts spells drawn from a spell list selected when the character is created. Adept godlings may choose the list of any class that grants access to 1st level spells at level 1.											STACK:NO	MULT:YES	CHOOSE:CLASS|ANY[SPELLCASTER]	SELECT:1														SOURCEPAGE:PFSrd										
-
+Choose Class Spell List	CATEGORY:Special Ability	TYPE:GodlingSpellList	VISIBLE:DISPLAY	DESC:An Godling Adept casts spells drawn from a spell list selected when the character is created. Adept godlings may choose the list of any class that grants access to 1st level spells at level 1.											STACK:NO	MULT:YES	CHOOSE:CLASS|ANY[SPELLCASTER]	SELECT:1														SOURCEPAGE:PFSrd			
+																																			
 Spark of Divinity ~ Godling Adept	CATEGORY:Special Ability	TYPE:GodlingClassType	VISIBLE:DISPLAY	DESC:Godling Adept	OUTPUTNAME:Godling Adept		PREVARLT:GodlingAdeptLVL,1	DEFINE:GodlingLVL|0	DEFINE:GodlingAdeptLVL|0		BONUS:VAR|GodlingAdeptLVL|TL	BONUS:VAR|GodlingLVL|TL																						SOURCEPAGE:PGtF	
 Spark of Divinity ~ Godling Clever	CATEGORY:Special Ability	TYPE:GodlingClassType	VISIBLE:DISPLAY	DESC:Godling Clever	OUTPUTNAME:Godling Clever		PREVARLT:GodlingCleverLVL,1	DEFINE:GodlingLVL|0	DEFINE:GodlingCleverLVL|0		BONUS:VAR|GodlingCleverLVL|TL	BONUS:VAR|GodlingLVL|TL																						SOURCEPAGE:PGtF	
 Spark of Divinity ~ Godling Eldritch	CATEGORY:Special Ability	TYPE:GodlingClassType	VISIBLE:DISPLAY	DESC:Godling Eldritch	OUTPUTNAME:Godling Eldritch		PREVARLT:GodlingEldritchLVL,1	DEFINE:GodlingLVL|0	DEFINE:GodlingEldritchLVL|0		BONUS:VAR|GodlingEldritchLVL|TL	BONUS:VAR|GodlingLVL|TL																						SOURCEPAGE:PGtF	
