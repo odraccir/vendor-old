@@ -46,9 +46,10 @@ Lurking Familiar.MOD	DESC:Familiar can hide in your square
 Mad Foam Rager.MOD	DESC:Once per rage or frenzy, delay spell or attack effect																																								
 Master Manipulator.MOD	DESC:Gain two new uses of Diplomacy skill																																								
 Melee Evasion.MOD	DESC:While fighting defensively, negate foe's attack																																								
-Melee Weapon Mastery (Bludgeoning).MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
-Melee Weapon Mastery (Piercing).MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
-Melee Weapon Mastery (Slashing).MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
+#Melee Weapon Mastery (Bludgeoning).MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
+#Melee Weapon Mastery (Piercing).MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
+#Melee Weapon Mastery (Slashing).MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
+Melee Weapon Mastery.MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
 Overwhelming Assault.MOD	DESC:Gain bonus against adjacent foe not attacking you																																								
 Penetrating Shot.MOD	DESC:Your ranged attack targets every foe in 60-ft line																																								
 Ranged Weapon Mastery.MOD	DESC:Gain Weapon Focus, Weapon Specialization benefits with multiple weapons																																								
