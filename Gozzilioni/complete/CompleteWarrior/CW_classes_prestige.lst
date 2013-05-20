@@ -332,7 +332,7 @@ CLASS:Order of the Bow Initiate	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Knowledg
 1				ABILITY:Special Ability|AUTOMATIC|Ranged Precision|Order Bow Initiate Ranged Precision			BONUS:VAR|OrderBowInitiateRangedPrecisionLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Close Combat Shot								
 3												
-4			ADD:VFEAT|Greater Weapon Focus(TYPE=Bow)	ABILITY:Special Ability|AUTOMATIC|Greater Weapon Focus Qualify								
+4							BONUS:ABILITYPOOL|Greater Weapon Focus|1					
 5												
 6			VFEAT:Sharp Shooting									
 7												
