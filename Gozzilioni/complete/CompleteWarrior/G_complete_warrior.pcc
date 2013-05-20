@@ -34,8 +34,8 @@ FEAT:CW_feats.lst
 FEAT:CW_feats_description.lst
 FEAT:CW_feats_epic.lst
 #FEAT:CW_feats_hidden.lst
-KIT:CW_kits_races_g_h.lst
-RACE:CW_races_g_h.lst
+KIT:CW_kits_races.lst
+RACE:CW_races.lst
 SKILL:CW_skills.lst
 SPELL:CW_spells.lst
 WEAPONPROF:CW_weaponprofs.lst

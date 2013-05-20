@@ -1,0 +1,4 @@
+#SOURCELONG:G	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Abishai Traits|PRERACE:1,RACESUBTYPE=Abishai																															
