@@ -6,6 +6,10 @@
 CATEGORY=Internal|Dwarf Racial Trait Default.MOD	ABILITY:Dwarf Racial Trait|AUTOMATIC|Dwarf Favored Class ~ Fighter|!PREABILITY:1,CATEGORY=Special Ability,TYPE.DwarfFavoredClass																																
 #Elf Racial Trait Default																																	
 CATEGORY=Internal|Elf Racial Trait Default.MOD	ABILITY:Elf Racial Trait|AUTOMATIC|Elf Favored Class ~ Wizard|!PREABILITY:1,CATEGORY=Special Ability,TYPE.ElfFavoredClass																																
+#Gnome Racial Trait Default																																	
+CATEGORY=Internal|Gnome Racial Trait Default.MOD	ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome Favored Class ~ Bard|!PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeFavoredClass																																
+#Half-Orc Racial Trait Default																																	
+CATEGORY=Internal|Half-Orc Racial Trait Default.MOD	ABILITY:Half-Orc Racial Trait|AUTOMATIC|Half-Orc Favored Class ~ Barbarian|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcFavoredClass																																
 #Halfling Racial Trait Default																																	
 CATEGORY=Internal|Halfling Racial Trait Default.MOD	ABILITY:Halfling Racial Trait|AUTOMATIC|Halfling Favored Class ~ Rogue|!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalflingFavoredClass																																
 																																	
@@ -118,8 +122,11 @@ CATEGORY=Internal|Tiefling FR Racial Trait Default.MOD	ABILITY:Tiefling FR Racia
 CATEGORY=Internal|Tiefling FR Racial Trait Default.MOD	ABILITY:Tiefling FR Racial Trait|AUTOMATIC|Skills ~ Tiefling FR|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TieflingFRSkillBonus																																
 CATEGORY=Internal|Tiefling FR Racial Trait Default.MOD	ABILITY:Tiefling FR Racial Trait|AUTOMATIC|Darkvision ~ Tiefling FR|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TieflnigFRRacialVision																																
 CATEGORY=Internal|Tiefling FR Racial Trait Default.MOD	ABILITY:Tiefling FR Racial Trait|AUTOMATIC|Tiefling FR Favored Class ~ Rogue|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TieflingFRFavoredClass																																
-																																	
-																																	
+Half-Vistani Racial Trait Default	CATEGORY:Internal																																SOURCEPAGE:RLPHB
+CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Skills ~ Half-Vistani|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniSkills																																
+CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Diluited Blood ~ Half-Vistani|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniDiluitedBlood																																
+CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Moon Madness ~ Half-Vistani|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniMoonMadness																																
+CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Half-Vistani Favored Class ~ Any|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniFavoredClass																																
 																																	
 ###Block: Sotto Razze ~ Specifiche																																	
 Dwarf Artic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Dwarf Favored Class ~ Ranger or Fighter													SOURCEPAGE:Mon
@@ -140,9 +147,11 @@ Genasi Water Racial Trait	CATEGORY:Internal																			ABILITY:Special Ab
 Gnome Deep Racial Trait	CATEGORY:Internal							DEFINE:SpellResistance|0				BONUS:VAR|SpellResistance|11+TL|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Darkvision ~ Gnome Deep|Gnome Deep Spell-Like Abilities|Gnome Deep Nondetection|Gnome Deep Spell Resistance|Gnome Deep Save Bonus|Gnome Deep Hide Skill													SOURCEPAGE:PGtF
 Gnome Fire Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Gnome Fire Stonecunning|Gnome Fire Caster Level|Immunity To Fire|Vulnerability To Cold|No Illusion Save|Darkvision ~ Gnome Fire|No Weapon Familiarity ~ Gnome|No Alchemy Skill|Gnome Fire Spell-Like Abilities													SOURCEPAGE:PH
 Gnome Ice Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Gnome Ice Spell-Like Abilities													SOURCEPAGE:Fro
+Gnome Lesser Deep Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Darkvision ~ Gnome Lesser Deep|Gnome Lesser Deep Stonecunning|Gnome Lesser Deep Save Bonus|Gnome Lesser Deep Dodge|Gnome Lesser Deep Spell-Like Abilities|Gnome Lesser Deep Hide Skill|Gnome Favored Class ~ Rogue													SOURCEPAGE:PGtF
 Half Merrow Racial Trait	CATEGORY:Internal																																SOURCEPAGE:SSh
 Half Merrow Tailed Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Tailed ~ Half Merrow|Half Merrow Skills ~ Tailed													SOURCEPAGE:SSh
 Half-Elf Drow FR Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Darkvision ~ Half-Elf Drow FR													SOURCEPAGE:PGtF
+Half-Vistani Racial Trait	CATEGORY:Internal							DEFINE:MoonMadnessDC|15				BONUS:ABILITYPOOL|Vistani Tribe|1																					SOURCEPAGE:RLPHB
 Halfling Ghostwise Racial Trait	CATEGORY:Internal											BONUS:VAR|TelepathyRange|20								ABILITY:Special Ability|AUTOMATIC|Telepathy|No Halfling Saves|Halfling Favored Class ~ Barbarian													SOURCEPAGE:PGtF
 Halfling Jerren Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Halfling Jerren Thrown Attacks|Halfling Jerren Skills													SOURCEPAGE:BoVD
 Halfling Strongheart Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Halfling Strongheart Bonus Feat|No Halfling Saves													SOURCEPAGE:PGtF
@@ -199,7 +208,6 @@ CATEGORY=Special Ability|Racial Traits ~ Dwarf.MOD				DESC:&nl;+4 racial bonus o
 CATEGORY=Special Ability|Racial Traits ~ Dwarf.MOD				DESC:&nl;+2 racial bonus on Hide and Move Silently checks.|PREABILITY:1,CATEGORY=Special Ability,Dwarf Lesser Gray Skills																													
 CATEGORY=Special Ability|Racial Traits ~ Dwarf.MOD				DESC:&nl;+2 racial bonus on saving throws against poison, phantasm and paralysis.|PREABILITY:1,CATEGORY=Special Ability,Dwarf Lesser Gray Skills																													
 																																	
-																																	
 #Elf																																	
 +2 racial bonus on Will saving throw against spells and spell-like abilities.	CATEGORY:Special Ability	TYPE:RacialTraits.ElfRacialTrait.ElfSaveBonus	VISIBLE:DISPLAY		KEY:Elf Drow Save Bonus																												SOURCEPAGE:PGtF
 +8 racial bonus on Swim checks.	CATEGORY:Special Ability	TYPE:RacialTraits.ElfRacialTrait.ElfAquaticSkills	VISIBLE:YES		KEY:Skills ~ Elf Coral							BONUS:SKILL|Swim|8|TYPE=Racial								CSKILL:Swim													SOURCEPAGE:SSh
@@ -223,18 +231,26 @@ CATEGORY=Special Ability|Racial Traits ~ Elf.MOD				DESC:&nl;+8 racial bonus on 
 CATEGORY=Special Ability|Racial Traits ~ Elf.MOD				DESC:&nl;+2 racial bonus on Will saving throw against spells and spell-like abilities.|PREABILITY:1,CATEGORY=Special Ability,Elf Drow Save Bonus																													
 																																	
 #Gnome																																	
++2 racial bonus on Will saving throw against spells and spell-like abilities.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.SaveBonus.GnomeSaveBonus	VISIBLE:DISPLAY		KEY:Gnome Lesser Deep Save Bonus																												SOURCEPAGE:PGtF
 +2 bonus caster level when casting spells or spell-like abilities with fire descriptor.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeIllusionDC	VISIBLE:YES		KEY:Gnome Fire Caster Level							BONUS:CASTERLEVEL|DESCRIPTOR.Fire|2																					SOURCEPAGE:PH
 +2 racial bonus on all saving throws.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSaveBonus	VISIBLE:YES		KEY:Gnome Deep Save Bonus							BONUS:CHECKS|ALL|2|TYPE=Racial																					SOURCEPAGE:PGtF
 +2 racial bonus on Hide checks.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeHideSkill	VISIBLE:YES	TEMPDESC:+4 racial bonus on Hide checks when in darkened areas underground.	KEY:Gnome Deep Hide Skill							BONUS:SKILL|Hide|2|TYPE=Racial	BONUS:SKILL|Hide|4|TYPE=Racial|PREAPPLY:PC																				SOURCEPAGE:PGtF
++2 racial bonus on Hide checks.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeHideSkill	VISIBLE:YES	TEMPDESC:+4 racial bonus on Hide checks when in darkened areas underground.	KEY:Gnome Lesser Deep Hide Skill							BONUS:SKILL|Hide|2|TYPE=Racial	BONUS:SKILL|Hide|4|TYPE=Racial|PREAPPLY:PC																				SOURCEPAGE:PGtF
 +4 dodge bonus to Armor Class against all creatures.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeDodge	VISIBLE:YES		KEY:Gnome Deep Dodge							BONUS:COMBAT|AC|4|TYPE=Dodge																					SOURCEPAGE:PGtF
++1 dodge bonus to Armor Class against all creatures.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeDodge	VISIBLE:YES		KEY:Gnome Lesser Deep Dodge							BONUS:COMBAT|AC|1|TYPE=Dodge																					SOURCEPAGE:PGtF
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialVision	VISIBLE:YES	DESC:Fire gnomes can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and gnome fire can function just fine with no light at all.	KEY:Darkvision ~ Gnome Fire							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PH
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialVision	VISIBLE:YES	DESC:Deep gnomes can see in the dark up to 120 feet.	KEY:Darkvision ~ Gnome Deep							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|120|TYPE=Base																				SOURCEPAGE:PGtF
+Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialVision	VISIBLE:YES	DESC:Lesser Deep gnomes can see in the dark up to 60 feet.	KEY:Darkvision ~ Gnome Lesser Deep							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PGtF
 Nondetection	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeNondetection	VISIBLE:YES	DESC:Deep gnomes have a continuous nondetection supernatural ability as the spell cast by a wizard of their character level.	KEY:Gnome Deep Nondetection																												SOURCEPAGE:PGtF
 Spell Resistance	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSpellResistance	VISIBLE:YES		KEY:Gnome Deep Spell Resistance			DEFINE:SpellResistance|0												SR:SpellResistance													SOURCEPAGE:PGtF
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSpellLikeAbilities	VISIBLE:YES	DESC:Spell-Like Abilities: 1/day-speak with animals (arctic mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day-dancing lights, prestidigitation and ray of frost. Caster level 1st; save DC 10 + gnome's Cha modifier + spell level.	KEY:Gnome Ice Spell-Like Abilities																SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Speak with Arctic Mammals,11+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Dancing Lights,10+CHA|Ray of Frost,10+CHA|Prestidigitation,10+CHA|PRESTAT:1,CHA=10											SOURCEPAGE:BoVD
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSpellLikeAbilities	VISIBLE:YES	DESC:Spell-Like Abilities: 1/day-heat metal and produce flame. Caster level equals fire gnome's character level; save DC 10 + gnome's Cha modifier + spell level.	KEY:Gnome Fire Spell-Like Abilities																SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Heat Metal,12+CHA|Produce Flame,11+CHA												SOURCEPAGE:PH
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSpellLikeAbilities	VISIBLE:YES	DESC:Spell-Like Abilities: 1/day-speak with animals (burrowing mammal only, duration 1 minute). 1/day-blindness, blur and change self. Caster level as wizard of deep gnome's level; save DC 10 + gnome's Int modifier + spell level.	KEY:Gnome Deep Spell-Like Abilities																SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Speak with Burrowing Mammals,11+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Blindness/Deafness,12+INT|Blur,12+INT|Disguise Self,11+INT											SOURCEPAGE:PGtF
+Spell-Like Abilities	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSpellLikeAbilities	VISIBLE:YES	DESC:Spell-Like Abilities: 1/day-speak with animals (burrowing mammal only, duration 1 minute). 1/day-resistance,daze and lullaby. Caster level as sorcerer of lesser deep gnome's level; save DC 10 + gnome's cha modifier + spell level.	KEY:Gnome Lesser Deep Spell-Like Abilities																SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Speak with Burrowing Mammals,11+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Resistance,10+CHA|Daze,10+CHA|Lullaby,10+CHA											SOURCEPAGE:PGtF
 Stonecunning	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeStonecunning	VISIBLE:YES	DESC:This ability grants a fire gnomes a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A fire gnome who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a fire gnome can use the Search skill to find stonework traps as a rogue can. A fire gnome can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.	KEY:Gnome Fire Stonecunning							BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=Racial																					SOURCEPAGE:PH
+Stonecunning	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeStonecunning	VISIBLE:YES	DESC:This ability grants a lesser deep gnomes a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A lesser deep gnome who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a lesser deep gnome can use the Search skill to find stonework traps as a rogue can. A lesser deep gnome can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.	KEY:Gnome Lesser Deep Stonecunning							BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=Racial																					SOURCEPAGE:PGtF
+Favored Class ~ Bard	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialDefault	VISIBLE:NO		KEY:Gnome Favored Class ~ Bard																												SOURCEPAGE:PGtF
+Favored Class ~ Rogue	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeFavoredClass	VISIBLE:NO		KEY:Gnome Favored Class ~ Rogue																												SOURCEPAGE:PGtF
 																																	
 No Illusion Save	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSaveBonus	VISIBLE:NO																														SOURCEPAGE:PH
 No Weapon Familiarity	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeWeaponFamiliarity	VISIBLE:NO		KEY:No Weapon Familiarity ~ Gnome																												SOURCEPAGE:PH
@@ -244,9 +260,15 @@ CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 bonus caster l
 CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+4 dodge bonus to Armor Class against all creatures.|PREABILITY:1,CATEGORY=Special Ability,Gnome Deep Dodge																													
 CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 racial bonus on all saving throws.|PREABILITY:1,CATEGORY=Special Ability,Gnome Deep Save Bonus																													
 CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 racial bonus on Hide checks.|PREABILITY:1,CATEGORY=Special Ability,Gnome Deep Hide Skill																													
+CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 racial bonus on Will saving throw against spells and spell-like abilities.|PREABILITY:1,CATEGORY=Special Ability,Gnome Lesser Deep Save Bonus																													
+CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+1 dodge bonus to Armor Class against all creatures.|PREABILITY:1,CATEGORY=Special Ability,Gnome Lesser Deep Dodge																													
+CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 racial bonus on Hide checks.|PREABILITY:1,CATEGORY=Special Ability,Gnome Deep Hide Skill																													
 																																	
 #Half-Elf																																	
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.HalfElfRacialTrait.HalfElfRacialVision	VISIBLE:YES	DESC:Half-Elf Drow can see in the dark up to 60 feet.	KEY:Darkvision ~ Half-Elf Drow FR							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PGtF
+																																	
+#Half-Orc																																	
+Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.HalfOrcRacialTrait.HalfOrcRacialDefault	VISIBLE:NO		KEY:Half-Orc Favored Class ~ Barbarian																												SOURCEPAGE:PHB
 																																	
 #Half Merrow																																	
 +6 racial bonus on Swim checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HalfMerrowRacialTrait.HalfMerrowRacialDefault	VISIBLE:YES		KEY:Half Merrow Skills							BONUS:SKILL|Swim|6|TYPE=Racial								CSKILL:Swim													SOURCEPAGE:SSh
@@ -421,6 +443,8 @@ Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.SpikerRacialTrait.Spi
 CATEGORY=Special Ability|Racial Traits ~ Spiker.MOD				DESC:&nl;+1 natural armor.|PREABILITY:1,CATEGORY=Special Ability,Natural Armor ~ Spiker																													
 CATEGORY=Special Ability|Racial Traits ~ Spiker.MOD				DESC:&nl;racial Resistance to Acid 5.|PREABILITY:1,CATEGORY=Special Ability,Resistance To Acid ~ Spiker																													
 																																	
+CATEGORY=Internal|Spiker Racial Trait Default.MOD																				ABILITY:Spiker Racial Trait|AUTOMATIC|Racial Traits ~ Spiker													SOURCEPAGE:PH
+																																	
 #Wildren																																	
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.WildrenRacialTrait.WildrenRacialDefault.RacialVision.WildrenDarkvision	VISIBLE:YES	DESC:Wildren can see in the dark up to 60 feet.	KEY:Darkvision ~ Wildren							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PH
 Scent	CATEGORY:Special Ability	TYPE:RacialTraits.WildrenRacialTrait.WildrenRacialDefault	VISIBLE:YES		KEY:Scent ~ Wildren																												SOURCEPAGE:PH
@@ -432,12 +456,14 @@ Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.WildrenRaci
 Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.WildrenRacialTrait.WildrenRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Wildren																												SOURCEPAGE:PH
 #CATEGORY=Special Ability|Racial Traits ~ Wildren.MOD				DESC:&nl;+1 natural armor.|PREABILITY:1,CATEGORY=Special Ability,Natural Armor ~ Spiker																													
 																																	
+CATEGORY=Internal|Wildren Racial Trait Default.MOD																				ABILITY:Wildren Racial Trait|AUTOMATIC|Racial Traits ~ Wildren													SOURCEPAGE:PH
+																																	
 #Fey'ri																																	
-CATEGORY=Special Ability|Elven Blood.MOD	TYPE:FeyriRacialTrait
-CATEGORY=Special Ability|Half-Elf Immunity.MOD	TYPE:FeyriRacialTrait
-CATEGORY=Special Ability|Half-Elf Resistance.MOD	TYPE:FeyriRacialTrait
-CATEGORY=Special Ability|Half-Elf Resistance.MOD	TYPE:FeyriRacialTrait
-CATEGORY=Special Ability|Low-Light Vision ~ Half-Elf.MOD	TYPE:FeyriRacialTrait
+CATEGORY=Special Ability|Elven Blood.MOD	TYPE:FeyriRacialTrait																																
+CATEGORY=Special Ability|Half-Elf Immunity.MOD	TYPE:FeyriRacialTrait																																
+CATEGORY=Special Ability|Half-Elf Resistance.MOD	TYPE:FeyriRacialTrait																																
+CATEGORY=Special Ability|Half-Elf Resistance.MOD	TYPE:FeyriRacialTrait																																
+CATEGORY=Special Ability|Low-Light Vision ~ Half-Elf.MOD	TYPE:FeyriRacialTrait																																
 Demonic Abilities	CATEGORY:Special Ability	TYPE:RacialTraits.FeyriRacialTrait.FeyriRacialDefault	VISIBLE:YES		KEY:Demonic Abilities ~ Fey'ri							BONUS:ABILITYPOOL|Fey'ri Demonic Ability|4																					SOURCEPAGE:Mon
 Alternate Form	CATEGORY:Special Ability	TYPE:RacialTraits.FeyriRacialTrait.FeyriRacialDefault	VISIBLE:YES	DESC:Like their succubus or incubus ancestors  fey'ri can change their shape at will, though they are limited to humanoid forms of approximately they own height and weight.	KEY:Alternate Form ~ Fey'ri																												SOURCEPAGE:Mon
 +2 racial bonus on Bluff, Hide, Listen, Search and Spot checks.	CATEGORY:Special Ability	TYPE:RacialTraits.FeyriRacialTrait.FeyriRacialDefault	VISIBLE:DISPLAY		KEY:Skills ~ Fei'ri							BONUS:SKILL|Bluff,Hide,Listen,Search,Spot|2|TYPE=Racial																					SOURCEPAGE:Mon
@@ -445,6 +471,8 @@ Favored Class ~ Sorcerer	CATEGORY:Special Ability	TYPE:RacialTraits.FeyriRacialT
 																																	
 Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.FeyriRacialTrait.FeyriRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Fey'ri																												SOURCEPAGE:Mon
 CATEGORY=Special Ability|Racial Traits ~ Fey'ri.MOD				DESC:&nl;+2 racial bonus on bluff, Hide, Listen, Search and Spot checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Fei'ri																													
+																																	
+CATEGORY=Internal|Fey'ri Racial Trait Default.MOD																				ABILITY:Fey'ri Racial Trait|AUTOMATIC|Racial Traits ~ Fey'ri													SOURCEPAGE:Mon
 																																	
 #Tanarukk																																	
 Control Flames	CATEGORY:Special Ability	TYPE:RacialTraits.TanarukkRacialTrait.TanarukkRacialDefault	VISIBLE:YES	DESC:twice per day.	KEY:Control Flames ~ Tanarukk																												SOURCEPAGE:Mon
@@ -457,6 +485,8 @@ Weapon Proficiency	CATEGORY:Special Ability	TYPE:RacialTraits.TanarukkRacialTrai
 Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.TanarukkRacialTrait.TanarukkRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Tanarukk																												SOURCEPAGE:Mon
 #CATEGORY=Special Ability|Racial Traits ~ Tanarukk.MOD				DESC:&nl;xxx.|PREABILITY:1,CATEGORY=Special Ability,xxxx																													
 																																	
+CATEGORY=Internal|Tanarukk Racial Trait Default.MOD																				ABILITY:Tanarukk Racial Trait|AUTOMATIC|Racial Traits ~ Tanarukk													SOURCEPAGE:Mon
+																																	
 #Aasimar FR																																	
 Resistance To Acid	CATEGORY:Special Ability	TYPE:RacialTraits.AasimarFRRacialTrait.AasimarFRRacialDefault	VISIBLE:DISPLAY		KEY:Resistance To Acid ~ Aasimar FR							BONUS:VAR|AcidResistanceBonus|5|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Resistance To Acid													SOURCEPAGE:FRCS
 Resistance To Cold	CATEGORY:Special Ability	TYPE:RacialTraits.AasimarFRRacialTrait.AasimarFRRacialDefault	VISIBLE:DISPLAY		KEY:Resistance To Cold ~ Aasimar FR							BONUS:VAR|ColdResistanceBonus|5|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold													SOURCEPAGE:FRCS
@@ -468,6 +498,8 @@ Favored Class ~ Paladin	CATEGORY:Special Ability	TYPE:RacialTraits.AasimarFRRaci
 																																	
 Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.AasimarFRRacialTrait.AasimarFRRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Aasimar FR																												SOURCEPAGE:FRCS
 CATEGORY=Special Ability|Racial Traits ~ Aasimar FR.MOD				DESC:&nl;+2 racial bonus on Listen and Spot checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Aasimar FR																													
+																																	
+CATEGORY=Internal|Aasimar FR Racial Trait Default.MOD																				ABILITY:Aasimar FR Racial Trait|AUTOMATIC|Racial Traits ~ Aasimar FR													SOURCEPAGE:FRCS
 																																	
 #Genasi FR																																	
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GenasiFRRacialTrait.GenasiFRRacialDefault.RacialVision.GenasiFRDarkvision	VISIBLE:YES	DESC:Genasi can see in the dark up to 60 feet.	KEY:Darkvision ~ Genasi FR							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:FRCS
@@ -496,6 +528,8 @@ CATEGORY=Special Ability|Racial Traits ~ Genasi FR.MOD				DESC:&nl;+1 racial bon
 CATEGORY=Special Ability|Racial Traits ~ Genasi FR.MOD				DESC:&nl;+1 racial bonus on all saving throw against Fire spells and spell-like abilities. This bonus increases by +1 every 5 class levels the genasi attains.|PREABILITY:1,CATEGORY=Special Ability,Save Bonus ~ Fire Genasi FR																													
 CATEGORY=Special Ability|Racial Traits ~ Genasi FR.MOD				DESC:&nl;+1 racial bonus on all saving throw against Water spells and spell-like abilities. This bonus increases by +1 every 5 class levels the genasi attains.|PREABILITY:1,CATEGORY=Special Ability,Save Bonus ~ Water Genasi FR																													
 																																	
+CATEGORY=Internal|Genasi FR Racial Trait Default.MOD																				ABILITY:Genasi FR Racial Trait|AUTOMATIC|Racial Traits ~ Genasi FR													SOURCEPAGE:FRCS
+																																	
 #Tiefling FR																																	
 Resistance To Fire	CATEGORY:Special Ability	TYPE:RacialTraits.TieflingFRRacialTrait.TieflingFRRacialDefault	VISIBLE:DISPLAY		KEY:Resistance To Fire ~ Tiefling FR							BONUS:VAR|FireResistanceBonus|5|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Resistance To Fire													SOURCEPAGE:FRCS
 Resistance To Cold	CATEGORY:Special Ability	TYPE:RacialTraits.TieflingFRRacialTrait.TieflingFRRacialDefault	VISIBLE:DISPLAY		KEY:Resistance To Cold ~ Tiefling FR							BONUS:VAR|ColdResistanceBonus|5|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold													SOURCEPAGE:FRCS
@@ -507,3 +541,23 @@ Favored Class ~ Rogue	CATEGORY:Special Ability	TYPE:RacialTraits.TieflingFRRacia
 																																	
 Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.TieflingFRRacialTrait.TieflingFRRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Tiefling FR																												SOURCEPAGE:FRCS
 CATEGORY=Special Ability|Racial Traits ~ Tiefling FR.MOD				DESC:&nl;+2 racial bonus on Bluff and Hide checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Tiefling FR																													
+																																	
+CATEGORY=Internal|Tiefling FR Racial Trait Default.MOD																				ABILITY:Tiefling FR Racial Trait|AUTOMATIC|Racial Traits ~ Tiefling FR													SOURCEPAGE:FRCS
+																																	
+#Half-Vistani																																	
++2 racial bonus on Survival checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniRacialDefault	VISIBLE:DISPLAY		KEY:Skills ~ Half-Vistani							BONUS:SKILL|Survival|2|TYPE=Racial																					SOURCEPAGE:RLPHB
+Diluited Blood	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniRacialDefault	VISIBLE:YES		KEY:Diluited Blood ~ Half-Vistani																												SOURCEPAGE:RLPHB
+Moon Madness	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniRacialDefault	VISIBLE:YES	DESC:Will DC %1|MoonMadnessDC	KEY:Moon Madness ~ Half-Vistani			DEFINE:MoonMadnessDC|0																									SOURCEPAGE:RLPHB
+Tribal Heritage	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniRacialDefault	VISIBLE:YES		KEY:Tribal Heritage ~ Half-Vistani																												
+Favored Class ~ Any	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniRacialDefault	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Any																												SOURCEPAGE:RLPHB
+Favored Class ~ Wizard	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniFavoredClass	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Wizard																												SOURCEPAGE:RLPHB
+Favored Class ~ Rogue	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniFavoredClass	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Rogue																												SOURCEPAGE:RLPHB
+Favored Class ~ Ranger	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniFavoredClass	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Ranger																												SOURCEPAGE:RLPHB
+Favored Class ~ Bard	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniFavoredClass	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Bard																												SOURCEPAGE:RLPHB
+Favored Class ~ Cleric	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniFavoredClass	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Cleric																												SOURCEPAGE:RLPHB
+Favored Class ~ Sorcerer	CATEGORY:Special Ability	TYPE:RacialTraits.HalfVistaniRacialTrait.HalfVistaniFavoredClass	VISIBLE:NO		KEY:Half-Vistani Favored Class ~ Sorcerer																												SOURCEPAGE:RLPHB
+																																	
+Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.HalfVistaniRacialTrait.HalfvistaniRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Half-Vistani																												SOURCEPAGE:RLPHB
+CATEGORY=Special Ability|Racial Traits ~ Half-Vistani.MOD				DESC:&nl;+2 racial bonus on Survival checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Half-Vistani																													
+																																	
+CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD																				ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Racial Traits ~ Half-Vistani													SOURCEPAGE:RLPHB

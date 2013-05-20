@@ -3,7 +3,7 @@ SOURCELONG:G	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 ###Block: Region								
 # Template Name	Visible							
 # Human Region A/B								
-Canjar Favored	VISIBLE:NO	FAVOREDCLASS:Wizard	SOURCEPAGE:RLPHB					
+Canjar Favored	VISIBLE:NO	FAVOREDCLASS:Wizard	SOURCEPAGE:RLPHB	
 Corvara Favored	VISIBLE:NO	FAVOREDCLASS:Rogue	SOURCEPAGE:RLPHB					
 Equaar Favored	VISIBLE:NO	FAVOREDCLASS:Ranger	SOURCEPAGE:RLPHB					
 Kanii Favored	VISIBLE:NO	FAVOREDCLASS:Rogue	SOURCEPAGE:RLPHB					
