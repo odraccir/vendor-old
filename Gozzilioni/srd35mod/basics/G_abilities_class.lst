@@ -26,8 +26,7 @@ CATEGORY=Special Ability|Archmage Spell Power.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|
 CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBonus|0																															
 CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate
 #																																	
-###TODO: Special Mount COMPANIONLIST:.CLEAR
-CATEGORY=Special Ability|Special Mount.MOD		COMPANIONLIST:Special Mount|RACETYPE=Animal																															
+Special Mount	CATEGORY:Internal	TYPE:SpecialMountSelection.SpecialMountAlternate	VISIBLE:YES	DESC:Special Mount	KEY:Special Mount ~ PHB															COMPANIONLIST:Special Mount|RACETYPE=Animal												SOURCEPAGE:PHB
 #
 Energon Trait	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Do not speack even among themselves.															ABILITY:Special Ability|AUTOMATIC|Explosion|Energy Ray	VISION:Darkvision (60')												SOURCEPAGE:MotP
 #
