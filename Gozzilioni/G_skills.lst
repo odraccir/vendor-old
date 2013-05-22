@@ -8,6 +8,7 @@ Craft (Iceworking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAG
 Craft (Locksmithing)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Locksmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=LocksmithingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Craft (Stonecarving)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Stonecarving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StonecarvingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Craft (Woodcarving)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Woodcarving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WoodcarvingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Weaving)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Weaving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WeavingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Knowledge (Tactics)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
 Knowledge (Underdark)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
 Knowledge (Lycanthrope Lore)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:Sottinteso						
@@ -41,6 +42,8 @@ Search (Notice unusual icework)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE
 Disable Device (Disable or bypass normal traps)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:G
 Disable Device (Disable or bypass magical traps)	KEYSTAT:INT	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:PGtF
 Disguise (Imitating Beholders)	KEYSTAT:CHA	USEUNTRAINED:NO					CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	SOURCEPAGE:G
+#
+Use Rope.MOD	BONUS:SKILL|Craft (Weaving)|SynergyBonus|PRESKILL:1,Use Rope=5|TYPE=Synergy.STACK
 #										
 # End										
 #										

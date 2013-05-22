@@ -1,3 +1,38 @@
 SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net					
+#
+Golem Manual (Calzone)											OUTPUTNAME:[NAME] Golem Manual	TYPE:Magic.Wondrous.Book.Consumable											COST:10000	WT:5										SOURCEPAGE:G, Something's Cooking
+#
+Laboratory (Glass Golem)						TYPE:Goods.Tools.Construct	COST:500		WT:40		SOURCEPAGE:MM2
+#
+#Golem ()			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:0	SIZE:	WT:0	SOURCEPAGE:G		SPROP:DC 15, .
+Golem (Calzone)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:10000	SIZE:M	WT:200	SOURCEPAGE:G, Something's Cooking		SPROP:Profession (Cook) DC 15, 250 Exp, Burning Hands, Grease, Major Creation and Stinking Cloud.
+Golem (Dragonbone)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:115000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Heal DC 20, Animate Dead, Cause Fear, Geas/Quest.
+Golem (Drakestone)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:175000	SIZE:L	WT:3000	SOURCEPAGE:G		SPROP:Craft (Sculpting or Masonry) DC 25, Animate Objects, Antimagic Field, Flesh to Stone, Geas/Quest.
+Golem (Ironwyrm)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:225000	SIZE:L	WT:5000	SOURCEPAGE:G		SPROP:Craft (Armorsmithing or Weaponsmithing) DC 30, Animate Objects, Antimagic Field, Geas/Quest, Incendiary Cloud, Limited Wish.
+Golem (Ice)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:60000	SIZE:L	WT:2000	SOURCEPAGE:G		SPROP:Craft (Sculpting) DC 15, Ice Shape, Wall of Ice and Animate Snow and Ice or cone of Ice.
+Golem (Grave Dirt)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:36500	SIZE:L	WT:800	SOURCEPAGE:G		SPROP:Craft (Sculpting) DC 15, Animate Objects, Commune, Resurrection.
+Golem (Tombstone)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:135000	SIZE:L	WT:2000	SOURCEPAGE:G		SPROP:Craft (Sculpting or Masonry) DC 17, Antimagic Field,Geas/Quest, Slay Living.
+Golem (Gemstone/Ruby)			OUTPUTNAME:Ruby Gemstone Golem	TYPE:Construct.Container	COST:65000	SIZE:L	WT:3000	SOURCEPAGE:G		SPROP:Craft (Gemworking) or Heal DC 15, Limited Wish, Move Earth, Polymorph any Object, Stone Shape.
+Golem (Emerald/Ruby)			OUTPUTNAME:Emerald Gemstone Golem	TYPE:Construct.Container	COST:70000	SIZE:L	WT:3000	SOURCEPAGE:G		SPROP:Craft (Gemworking) or Heal DC 15, Dimensional Anchor,Polymorph any object, Stone Shape, Teleportation Circle.
+Golem (Diamond/Ruby)			OUTPUTNAME:Diamond Gemstone Golem	TYPE:Construct.Container	COST:75000	SIZE:L	WT:3000	SOURCEPAGE:G		SPROP:Craft (Gemworking) or Heal DC 16, Dispel Magic, Limited Wish, Polymorph any Object, Stone Shape, Sunbeam.
+Golem (Thayan)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:0	SIZE:M	WT:0	SOURCEPAGE:G	PREREGION:Thay
+Golem (Blood)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:50000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Heal DC 15, Animate Objects, Bull's Strength, Gentle Repose, Heal.
+Golem (Brain)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:55000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Heal DC 15, Bull's Strength, Feeblemind, Geas/Quest, Limited Wish.
+Golem (Demonflesh)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:130000	SIZE:H	WT:0	SOURCEPAGE:G		SPROP:Heal DC 15, Darkness, Destruction, Geas/Quest, Horrid whilting, Planar Binding, Poison, Unholy Aura, Unholy Blight.
+Golem (Hellfire)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:125000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Craft (Sculpting) DC 20, 2500 exp, Burning Hands, Fireball, Flame Strike, Geas/Quest, Planar Ally, Produce Flame.
+Golem (Stained Glass)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:10000	SIZE:M	WT:50	SOURCEPAGE:G		SPROP:Craft (Glassmaking) DC 15, 200 exp, Geas/Quest, Limited Wish, Polimorph any Object.
+Golem (Brass)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:200000	SIZE:L	WT:1000	SOURCEPAGE:G		SPROP:Craft (Armorsmithing) DC 25 and Craft (Weaponsmithing) DC 25, 4000 exp, Geas/Quest, Limited Wish, Maze, Mordenkainen's Sword, Polymorph any Object.
+Golem (Dragonflesh)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:200000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Knowledge (Nature) DC 25 and Heal DC 25, 4000 exp, Geas/Quest, Limited Wish, Polymorph any Object.
+Golem (Chain)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:0	SIZE:M	WT:0	SOURCEPAGE:G
+Golem (Alchemical)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:70000	SIZE:L	WT:4000	SOURCEPAGE:G		SPROP:Craft (Alchemy) DC 20, Geas/Quest, Limited Wish,Poison, Polymorph any Object.
+Golem (Gloom)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:40000	SIZE:L	WT:950	SOURCEPAGE:G		SPROP:Knowledge (The Plane) DC 21, Crushing Despair, Limited Wish, Planar Binding, Polymorph any Object.
+Golem (Hangman)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:144000	SIZE:L	WT:600	SOURCEPAGE:G		SPROP:Craft (Weaving) DC 20, Animate Rope, Geas/Quest, Limited Wish, Polymorph any Object.
+Golem (Mud)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:65000	SIZE:M	WT:600	SOURCEPAGE:G		SPROP:Craft (Pottery or Sculpting) DC 15, Geas/Quest, Limited Wish, Transmute Rock to Mud.
+Golem (Prismatic)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:250000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Craft (Sculpting) DC 22 and Knowledge (The Planes) DC 22, Greater Planar Binding, Polymorph any Object, Prismatic Sphere, Wish.
+Golem (Shadesteel)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:130000	SIZE:M	WT:1500	SOURCEPAGE:G		SPROP:Craft (Armorsmithing) DC 30, Energy Drain, Geas/Quest, Limited wish, Polymorph any Object, Shades.
+Golem (Shadesteel/Greater)			OUTPUTNAME:Greater Shadesteel Golem	TYPE:Construct.Container	COST:156000	SIZE:L	WT:4000	SOURCEPAGE:G		SPROP:Craft (Armorsmithing) DC 30, Energy Drain, Geas/Quest, Limited wish, Polymorph any Object, Shades.
+Golem (Web)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:65000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Craft (Weaving) or Profession (Silkmaker) DC 20, Geas/Quest, Limited Wish, Poison, Polymorph any Object, Spider climb, Web.
+Golem (Equine)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:20000	SIZE:L	WT:0	SOURCEPAGE:G		SPROP:Craft (Woodworking) DC 13, 750 exp, Animate Objects, Geas/Quest, Limited wish, Phantom Steed, Shatter.
+Golem (Iron Horse)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:80000	SIZE:L	WT:4600	SOURCEPAGE:G		SPROP:Craft (Armorsmithing) DC 23, 1500 exp, Geas/Quest, Limited Wish, Polymorph any Objects.
+Golem (Terra Cotta Horse)			OUTPUTNAME:[Name] Golem	TYPE:Construct.Container	COST:60000	SIZE:L	WT:2000	SOURCEPAGE:G		SPROP:Craft (Sculpting or Masonry) DC 21, Animate Objects, Bless, Commune, Prayer, Summon Monster III.
 
-Golem Manual (Pizza)											OUTPUTNAME:[NAME] Golem Manual	TYPE:Magic.Wondrous.Book.Consumable											COST:10000	WT:5										SOURCEPAGE:G

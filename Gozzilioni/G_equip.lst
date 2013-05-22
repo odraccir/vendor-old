@@ -22,7 +22,7 @@ Acorn (6)		TYPE:Goods.Food.Consumable.Acorn	COST:0.06	WT:0.6		SOURCEPAGE:CD	BASE
 Bomb	TYPE:Goods.Consumable.Individual.Bomb	COST:150	WT:1	SOURCEPAGE:DMG	BASEQTY:1	SPROP:2d6 fire Damage, ranged touch attack, 10 ft range increment, 5ft-radius blast.																			
 Bomb (Smoke)	OUTPUTNAME:[NAME] Bomb	TYPE:Goods.Consumable.Individual.Bomb	COST:70	WT:1	SOURCEPAGE:DMG	BASEQTY:1	SPROP:Smoke, ranged touch attack, 10 ft range increment, 20ft-radius cloud of smoke.																		
 #																									
-#??																									
+#																									
 Gunpowder (Per Lb.)	TYPE:Goods.Consumable.Gunpowder		COST:1	WT:1		SOURCEPAGE:DMG																			
 Keg (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:15|Gunpowder=15	COST:250	WT:5		SOURCEPAGE:DMG																		
 Powderhorn (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:2|Gunpowder=2	COST:35	WT:0		SOURCEPAGE:DMG																		
@@ -31,3 +31,4 @@ Unholy Symbol (Wooden)			TYPE:Goods.Tools.DivineFocus													COST:1	WT:0			
 Unholy Symbol (Silver)			TYPE:Goods.Tools.DivineFocus													COST:25	WT:1								SOURCEPAGE:G
 #																									
 Scabbard		TYPE:Goods.Container	CONTAINS:UNLIM|Total=1|Weapon=1				COST:0.1	WT:1		SOURCEPAGE:G
+#
