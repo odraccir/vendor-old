@@ -1,0 +1,8 @@
+SOURCELONG:Power of Faerun	SOURCESHORT:PoF	SOURCEWEB:http://www.gozzilioni.net
+
+###Block:
+# Equipment Name			Type								Contains									Cost		Weight	Source Page				Bonus to skill					Quality and value
+Bloodpurge	TYPE:Goods.Alchemical.Consumable	COST:15	WT:0	SOURCEPAGE:PoF	SPROP:+2 alchemical bonus on Heal check to treat poisons.
+Bloodstaunch	TYPE:Goods.Alchemical.Consumable	COST:10	WT:0	SOURCEPAGE:PoF	SPROP:+2 alchemical bonus on Heal check to administer first aid.
+Fleshwort	TYPE:Goods.Alchemical.Consumable	COST:5	WT:0	SOURCEPAGE:PoF	SPROP:+2 alchemical bonus on Heal check to provide long-term care.
+Silverbark Sap	TYPE:Goods.Alchemical.Consumable	COST:20	WT:0	SOURCEPAGE:PoF	SPROP:+2 alchemical bonus on Fortitude saving throw against poison for 1 hour.

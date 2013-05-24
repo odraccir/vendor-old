@@ -1,0 +1,9 @@
+SOURCELONG:Power of Faerun	SOURCESHORT:PoF	SOURCEWEB:http://www.gozzilioni.net
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:	TYPE:	PANTHEON:	SOURCEPAGE:FRCS	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal|PREALIGN:NG,CG,CN	TYPE:	PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Cult of Shared Suffering	ALIGN:TN	DEITYWEAP:Unarmed Strike	DESC:Cult of Shared Suffering (Ilmater)	DOMAINS:Healing,Retribution,Strength FR,Suffering|PREALIGN:TN	TYPE:Heresy	PANTHEON:Faerun	SOURCEPAGE:PoF	PREFEAT:1,Heretic of the Faith
+Dark Moon Heresy	ALIGN:TN	DEITYWEAP:Mace (Heavy)|Chakram	DESC:Dark Moon Heresy (Selune or Shar)	DOMAINS:Cavern,Darkness,Knowledge,Moon,Protection,Travel|PREALIGN:LN,TN,CN	TYPE:Heresy	PANTHEON:Faerun	SOURCEPAGE:PoF	PREFEAT:1,Heretic of the Faith
+Risen Sun Heresy	ALIGN:LG	DEITYWEAP:Mace (Light)	DESC:Risen Sun Heresy (Lathander)	DOMAINS:Fire,Law,Nobility,Renewal,Sun,Time|PREALIGN:LG,LN	TYPE:Heresy	PANTHEON:Faerun	SOURCEPAGE:PoF	PREFEAT:1,Heretic of the Faith
+Three-Faced Sun Heresy	ALIGN:LN	DEITYWEAP:Mace (Light)|Scythe	DESC:Three-Faced Sun Heresy	DOMAINS:Death,Law,Renewal,Sun,Time|PREALIGN:LN	TYPE:Heresy	PANTHEON:Faerun	SOURCEPAGE:PoF	PREFEAT:1,Heretic of the Faith

@@ -1,0 +1,13 @@
+SOURCELONG:Power of Faerun	SOURCESHORT:PoF	SOURCEWEB:http://www.gozzilioni.net
+#																																																																																																																																																																																																																																																																																						
+Disease Damage (Blacklung Fever)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 16 (Inhaled), Incubation 1 day, Damage 1d4 Con.
+Disease Damage (Blacktongue)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 18 (Ingested), Incubation 1d4 days, Damage 1d4 Dex.
+Disease Damage (Darkrot)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 12 (Injury), Incubation 1 day, Damage 1d6 Dex. (Failed roll require a second save to avoid losing a limb, 1d4: 1 left leg, 2 right leg, 3 left arm, 4 right arm)
+Disease Damage (Featherlung)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 19 (Inhaled), Incubation 1d3 days, Damage 1d6 Con.
+Disease Damage (Flash Rot)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 15 (Contact), Incubation 1d4 days, Damage 1d4 Con.
+Disease Damage (Green Rot)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 20 (Injury), Incubation 1 day, Damage 1d6 Int.
+Disease Damage (Marsh Fever)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 15 (Injury), Incubation 3d6 days, Damage 1d6 Con.
+Disease Damage (Shacking Fever)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 13 (Contact), Incubation 2 days, Damage 1d4 Dex.
+Disease Damage (Spotted Plague)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 16 (Contact), Incubation 1 day, Damage 1d4 Cha.
+Disease Damage (Whitewasting)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 18 (Contact), Incubation 5 years, Damage 1d6 Dex.
+Disease Damage (Winterchill Fever)			VISIBLE:NO	SOURCEPAGE:PoF					TEMPDESC:Infection DC 12 (Inhaled), Incubation 1d6 days, Damage 1d4 Con.
