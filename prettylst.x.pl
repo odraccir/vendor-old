@@ -1807,6 +1807,7 @@ my @Global_BONUS_Tags = (
 	'BONUS:SLOTS:*',                # Global
 	'BONUS:SPELLCAST:*',            # Global
 	'BONUS:SPELLCASTMULT:*',        # Global
+	'BONUS:SPELLPOINTCOST:*',	# Global
 	'BONUS:SPELLKNOWN:*',           # Global
 	'BONUS:STAT:*',                 # Global
 	'BONUS:UDAM:*',                 # Global
@@ -2786,6 +2787,7 @@ my %master_order = (
         'COMPANIONLIST',        # [ 1672551 ] PCC tag COMPANIONLIST
         'REQSKILL',
 		'STATUS',
+		'FORWARDREF',
 
         # These tags load files
         'ABILITY',
@@ -3216,8 +3218,8 @@ my %master_order = (
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'EXCHANGELEVEL',
-#        'SPECIALS',                     # Deprecated
-#        'SPELL',                        # Deprecated
+#		'SPECIALS',			# Deprecated
+#		'SPELL',			# Deprecated
         'SPELLS:*',
         'TEMPLATE:.CLEAR',
         'TEMPLATE:*',

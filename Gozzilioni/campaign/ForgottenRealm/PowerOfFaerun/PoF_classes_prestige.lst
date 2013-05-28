@@ -6,7 +6,7 @@ SOURCELONG:Power of Faerun	SOURCESHORT:PoF	SOURCEWEB:http://www.gozzilioni.net
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Merchant Prince	HD:6	TYPE:Prestige	ABB:MeP	MAXLEVEL:5	SOURCEPAGE:PoF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
-CLASS:Merchant Prince	PRESKILL:4,Appraise=4,Bluff=4,Diplomacy=4,Sense Motive=4	PRESKILL:1,Profession (Merchant)=8	PREFEAT:2,Business Savvy,Favored in Guild	PREFEAT:1,Skill Focus(Profession (Merchant))	PRELANG:1,Common	PRELANG:3,ANY	!PREABILITY:1,Category=Special Ability,Illiteracy	PRETEXT:You must own a business.				
+CLASS:Merchant Prince	PRESKILL:4,Appraise=4,Bluff=4,Diplomacy=4,Sense Motive=4	PRESKILL:1,Profession (Merchant)=8	PREFEAT:2,Business Savvy,Favored in Guild	PREFEAT:1,Skill Focus(Profession (Merchant))	PREMULT:2,[PRELANG:1,Common],[PRELANG:3,ANY]	!PREABILITY:1,Category=Special Ability,Illiteracy	PRETEXT:You must own a business.				
 CLASS:Merchant Prince	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Forgery|Gather Information|Handle Animal|TYPE.Knowledge|TYPE.Profession|Ride|Sense motive|Speak Language|Spellcraft|Use Magic Device										
 CLASS:Merchant Prince	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Merchant Prince|CL							
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Merchant Prince										

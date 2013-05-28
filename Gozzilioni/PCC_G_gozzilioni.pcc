@@ -8,7 +8,7 @@ TYPE:Gozzilioni.Core
 PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
-SOURCELONG:Gozzilioni
+SOURCELONG:Gozzilioni Base
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2008-01
@@ -23,8 +23,10 @@ COPYRIGHT:Gozzilioni, Copyright 2008 by Me
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 ABILITYCATEGORY:G_ability_categories.lst
 ABILITY:G_abilities_class.lst
+ABILITY:G_abilities_common.lst
 ABILITY:G_abilities_guilds.lst
 ABILITY:G_abilities_list.lst
+ABILITY:G_abilities_monsters.lst
 ABILITY:G_abilities_racial.lst
 ABILITY:G_abilities_regions.lst
 ABILITY:G_abilities_proficiencies.lst

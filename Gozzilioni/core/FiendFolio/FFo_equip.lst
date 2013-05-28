@@ -43,12 +43,4 @@ Illithid Graft (Illithid Antennae)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.
 Illithid Graft (Illithid Climbing Legs)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.IllithidGraft	COST:4000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Illithid Flesh	PREFEAT:1,Graft Flesh	SPROP:act as Silppers of Spider Climbing.	MOVE:Climb,15
 Illithid Graft (Illithid Goring Horn)	OUTPUTNAME:[NAME]	TYPE:Goods.Resizable.Graft.IllithidGraft	COST:8000	WT:0.00	SOURCEPAGE:FFo			PREABILITY:1,CATEGORY=Special Ability,Graft Illithid Flesh	PREFEAT:1,Graft Flesh		VFEAT:Improved Bull Rush	ABILITY:Special Ability|VIRTUAL|Illithid Graft ~ Goring Horn				
 																
-																
-																
-																
-																
-																
-																
-																
-																
 Venomous Fire (Flask)	TYPE:Goods.Alchemical.Flask.Consumable		COST:220	WT:1.00	SOURCEPAGE:FFo											

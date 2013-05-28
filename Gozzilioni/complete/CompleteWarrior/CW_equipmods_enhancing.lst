@@ -1,23 +1,23 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
-
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																											
+																													
 ###Block:Armor abilities																													
 # Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
-Anti Impact	KEY:ANT_IMP	TYPE:Armor.Shield		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Blufgeoning damage that affect all or most of entire body (such constriction and falling damage) is halved					ASSIGNTOALL:NO
-Axeblock	KEY:AXE_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Bludgeoning or Piercing									SPROP:Axeblock					ASSIGNTOALL:NO
-Hammerblock	KEY:HAM_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Piercing or Slashing									SPROP:Hammerblock					ASSIGNTOALL:NO
-Spearblock	KEY:SPE_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Bludgeoning or Slashing									SPROP:Spearblock					ASSIGNTOALL:NO
-
+Anti Impact	KEY:ANT_IMP	TYPE:Armor.Shield		COST:2000	VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]															SPROP:Bludgeoning damage that affect all or most of entire body such constriction and falling damage is halved					ASSIGNTOALL:NO
+Axeblock	KEY:AXE_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Bludgeoning or Piercing									SPROP:gain damage reduction 5/Bludgeoning or Piercing					ASSIGNTOALL:NO
+Hammerblock	KEY:HAM_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Piercing or Slashing									SPROP:gain damage reduction 5/Piercing or Slashing					ASSIGNTOALL:NO
+Spearblock	KEY:SPE_BLK	TYPE:Armor.Shield	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]						DR:5/Bludgeoning or Slashing									SPROP:gain damage reduction 5/Bludgeoning or Slashing					ASSIGNTOALL:NO
+																													
 ###Block:Weapon abilities																													
-Blood Seeking	KEY:BLD_SEEK_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Bloodseeking					ASSIGNTOALL:NO
-Blood Seeking	KEY:BLD_SEEK_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Bloodseeking					ASSIGNTOALL:NO
-Deflecting	KEY:DEFLECT_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Deflecting					ASSIGNTOALL:NO
-Disarming	KEY:DISARM_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Disarming					ASSIGNTOALL:NO
-Disarming	KEY:DISARM_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Disarming					ASSIGNTOALL:NO
-Exit Wound	KEY:EXIT_WND_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Exit Wound					ASSIGNTOALL:NO
-Exit Wound	KEY:EXIT_WND_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Exit Wound					ASSIGNTOALL:NO
-Explosive	KEY:EXPLOSIVE_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Explosive					ASSIGNTOALL:NO
-Explosive	KEY:EXPLOSIVE_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Explosive					ASSIGNTOALL:NO
-Explosive	KEY:EXPLOSIVE_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Explosive					ASSIGNTOALL:NO
-Knockback	KEY:KNOCK_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Knockback					ASSIGNTOALL:NO
-Knockback	KEY:KNOCK_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Knockback					ASSIGNTOALL:NO
-Last Resort	KEY:LST_RES_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee	PREWIELD:1,Light														SPROP:Last Resort					ASSIGNTOALL:NO
+Blood Seeking	KEY:BLD_SEEK_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:Negate cover chance of the target living creature					ASSIGNTOALL:NO
+Blood Seeking	KEY:BLD_SEEK_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Negate cover chance of the target living creature					ASSIGNTOALL:NO
+Deflecting	KEY:DEFLECT_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Knock projectile aiming at the wielder 1/round with Ref DC 20+enhancement of the projectile					ASSIGNTOALL:NO
+Disarming	KEY:DISARM_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Ranged disarm vs enemy, she gain +4 bonus if has a weapon two-handed					ASSIGNTOALL:NO
+Disarming	KEY:DISARM_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Eliminate opponent bonus for size and two-handed weapon when disarming					ASSIGNTOALL:NO
+Exit Wound	KEY:EXIT_WND_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:+1d6 extra damage, can hit more than one target in a straight line					ASSIGNTOALL:NO
+Exit Wound	KEY:EXIT_WND_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+1d6 extra damage, can hit more than one target in a straight line					ASSIGNTOALL:NO
+Explosive	KEY:EXPLOSIVE_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:+2d4 damage to all target in a 5-ft radius burst including original target, Ref DC 15 half damage					ASSIGNTOALL:NO
+Explosive	KEY:EXPLOSIVE_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+2d4 damage to all target in a 5-ft radius burst including original target, Ref DC 15 half damage					ASSIGNTOALL:NO
+Explosive	KEY:EXPLOSIVE_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:+2d4 damage to all target in a 5-ft radius burst including original target, Ref DC 15 half damage					ASSIGNTOALL:NO
+Knockback	KEY:KNOCK_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:2,Enhancement,Ammunition															SPROP:The weapon Bull Rush the target, threat the projectile as Medium creature and +8 Str					ASSIGNTOALL:NO
+Knockback	KEY:KNOCK_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:The weapon Bull Rush the target, threat the projectile as Medium creature and +8 Str					ASSIGNTOALL:NO
+Last Resort	KEY:LST_RES_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CW	PRETYPE:3,Enhancement,Weapon,Melee	PREWIELD:1,Light														SPROP:+1d6 damage for every size category the target is bigger					ASSIGNTOALL:NO

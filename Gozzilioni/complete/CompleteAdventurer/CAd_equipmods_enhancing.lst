@@ -1,24 +1,24 @@
 SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net																											
 																													
 # Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
-###TODO: Weapon Capsule/Melee CONTAINS:UNLIM|Capsule=1
+###TODO: Weapon Capsule/Melee CONTAINS:UNLIM|Capsule=1																													
 Weapon Capsule	KEY:CAPS_M	TYPE:Weapon.Melee		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee																				ASSIGNTOALL:YES
-###TODO: Weapon Capsule/Ranged CONTAINS:UNLIM|Capsule=1
+###TODO: Weapon Capsule/Ranged CONTAINS:UNLIM|Capsule=1																													
 Weapon Capsule	KEY:CAPS_R	TYPE:Weapon.Ranged		COST:100	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged																				ASSIGNTOALL:YES
-###TODO: Triple Weapon Capsule/Melee CONTAINS:UNLIM|Capsule=3
+###TODO: Triple Weapon Capsule/Melee CONTAINS:UNLIM|Capsule=3																													
 Triple Weapon Capsule	KEY:TRI_CAPS_M	TYPE:Weapon.Melee		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee																				ASSIGNTOALL:YES
-###TODO: Triple Weapon Capsule/Ranged CONTAINS:UNLIM|Capsule=3
+###TODO: Triple Weapon Capsule/Ranged CONTAINS:UNLIM|Capsule=3																													
 Triple Weapon Capsule	KEY:TRI_CAPS_R	TYPE:Weapon.Ranged		COST:450	VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged																				ASSIGNTOALL:YES
 																													
 																													
 ###Block:Armor abilities																													
-Beastskin	KEY:BST_SKIN	TYPE:Armor	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Armor															SPROP:Wildshapoe with armor					
-Focused	KEY:FOCUS	TYPE:Shield	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Shield															SPROP:Focused					ASSIGNTOALL:NO
+Beastskin	KEY:BST_SKIN	TYPE:Armor	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Armor															SPROP:Wildshape with armor using one use of wildshape ability					
+Focused	KEY:FOCUS	TYPE:Shield	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Shield															SPROP:+10 circumstance bonus on Sense Motive checks that oppose a Bluff checks made to feint, the shield bonus to AC increas by +1 when the wielder is threatened by only one creature					ASSIGNTOALL:NO
 																													
 ###Block:Weapon abilities																													
-Sizeing	KEY:SIZE_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Ammunition															SPROP:Sizeing					ASSIGNTOALL:NO
-Sizeing	KEY:SIZE_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Sizeing					ASSIGNTOALL:NO
-Sizeing	KEY:SIZE_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Sizeing					ASSIGNTOALL:NO
-Deadly Precision	KEY:DEADLY_PRE_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Ammunition															SPROP:Deadly Precisioini					ASSIGNTOALL:NO
-Deadly Precision	KEY:DEADLY_PRE_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Deadly Precisioini					ASSIGNTOALL:NO
-Deadly Precision	KEY:DEADLY_PRE_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Deadly Precisioini					ASSIGNTOALL:NO
+Sizeing	KEY:SIZE_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Ammunition															SPROP:Change the size category of the weapon as standard action					ASSIGNTOALL:NO
+Sizeing	KEY:SIZE_M	TYPE:Weapon.Melee	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:Change the size category of the weapon as standard action					ASSIGNTOALL:NO
+Sizeing	KEY:SIZE_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:Change the size category of the weapon as standard action					ASSIGNTOALL:NO
+Deadly Precision	KEY:DEADLY_PRE_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:2,Enhancement,Ammunition															SPROP:+2d6 damage when succesful sneak attack	BONUS:VAR|SneakAttack|2|TYPE=DeadlyPrecision				ASSIGNTOALL:NO
+Deadly Precision	KEY:DEADLY_PRE_M	TYPE:Weapon.Melee	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Melee															SPROP:+2d6 damage when succesful sneak attack	BONUS:VAR|SneakAttack|2|TYPE=DeadlyPrecision				ASSIGNTOALL:NO
+Deadly Precision	KEY:DEADLY_PRE_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:CAd	PRETYPE:3,Enhancement,Weapon,Ranged															SPROP:+2d6 damage when succesful sneak attack	BONUS:VAR|SneakAttack|2|TYPE=DeadlyPrecision				ASSIGNTOALL:NO

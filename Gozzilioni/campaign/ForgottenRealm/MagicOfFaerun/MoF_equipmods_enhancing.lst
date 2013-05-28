@@ -9,15 +9,15 @@ SOURCELONG:Magic of Faerun	SOURCESHORT:Mon	SOURCEWEB:http://www.gozzilioni.net
 																														
 Self Identifying	KEY:SELF_ID	TYPE:Armor.Shield.Weapon.Amulet.Belt.Bracer.Cape.Glove.Headgear.Instrument.Mantle.Ring.Robe.Shirt.Eyegear.Boot.Staff.Rod		COST:0	VISIBLE:QUALIFY	ITYPE:SelfID		SOURCEPAGE:MoF	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield,Weapon,Amulet,Belt,Bracer,Cape,Glove,Headgear,Instrument,Mantle,Ring,Robe,Shirt,Eyegear,Boot,Staff,Rod]															SPROP:40%% chance the item is Self Identifying						
 																														
-Blueshine	KEY:BLUE_SHN	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor	PRETYPE:1,Metal								BONUS:SKILL|Hide|5|TYPE=Circumstance						SPROP:the armor is immune to acid and rust attack.						
+Blueshine	KEY:BLUE_SHN	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor	PRETYPE:1,Metal								BONUS:SKILL|Hide|5|TYPE=Circumstance						SPROP:The armor is immune to acid and rust attack						
 #Death Ward																														
-Everbright	KEY:EVR_BRGT	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor	PRETYPE:1,Metal											DEFINE:AcidResistanceBonus|5			SPROP:the armor is immune to acid and rust attack.	ABILITY:Special Ability|VIRTUAL|Resistance To Acid					
+Everbright	KEY:EVR_BRGT	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor	PRETYPE:1,Metal											DEFINE:AcidResistanceBonus|5			SPROP:The armor is immune to acid and rust attack	ABILITY:Special Ability|VIRTUAL|Resistance To Acid					
 #Magic Eating																														
-Negative Energy Protection	KEY:PRT_NRG_NEG	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor															SPROP:Negative Energy Protection 1/day						
-Nimbleness	KEY:NIMBLS	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor							BONUS:EQMARMOR|MAXDEX|2	BONUS:EQMARMOR|ACCHECK|-1													
+Negative Energy Protection	KEY:PRT_NRG_NEG	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor															SPROP:activate Negative Energy Protection automatically 1/day when the wearer is exposed to any negative energy attack	SPELLS:Negative Energy Protection|TIMES=1|CASTERLEVEL=5|Negative Energy Protection					
+Nimbleness	KEY:NIMBLS	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor							BONUS:EQMARMOR|MAXDEX|2	BONUS:EQMARMOR|ACCHECK|-1							SPROP:Maxdex increased by 2 and Armor check penalty decreases by 1						
 #Proof against Transmutation																														
-Strength	KEY:STRNGT_2	TYPE:Armor		COST:8000	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor										BONUS:STAT|STR|2|TYPE=Enhancement					SPROP:+2 enhancemento to Strength						
-Strength	KEY:STRNGT_4	TYPE:Armor		COST:32000	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor										BONUS:STAT|STR|4|TYPE=Enhancement					SPROP:+4 enhancemento to Strength						
+Strength	KEY:STRNGT_2	TYPE:Armor		COST:8000	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor										BONUS:STAT|STR|2|TYPE=Enhancement					SPROP:+2 enhancement to Strength						
+Strength	KEY:STRNGT_4	TYPE:Armor		COST:32000	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Armor										BONUS:STAT|STR|4|TYPE=Enhancement					SPROP:+4 enhancement to Strength						
 																														
 #Acidic Burst																														
 #Corrosive																														
@@ -25,32 +25,37 @@ Strength	KEY:STRNGT_4	TYPE:Armor		COST:32000	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PR
 #Dispelling																														
 #Domineering																														
 #Doomwarding																														
-Elemental Aura	KEY:ELEM_AURA_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:each round, choose +1d6 elemental damage (acid, cold, electricity, fire, sonic) as free action.						
-Elemental Aura	KEY:ELEM_AURA_M	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:each round, choose +1d6 elemental damage (acid, cold, electricity, fire, sonic) as free action.						
-Elemental Aura	KEY:ELEM_AURA_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:each round, choose +1d6 elemental damage (acid, cold, electricity, fire, sonic) as free action.						
-Everbright	KEY:EVR_BRGT_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:the weapon is immune to acid and rust attack. All in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds.						
-Everbright	KEY:EVR_BRGT_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:the weapon is immune to acid and rust attack. All in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds.						
-Everbright	KEY:EVR_BRGT_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:the weapon is immune to acid and rust attack. All in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds.						
-Flying	KEY:FLY_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Fly at 30-ft and is treated as an Animated Object.						
-Impact	KEY:IMPACT	TYPE:Weapon.Bludgeoning	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PREMULT:3,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon],[PRETYPE:1,Bludgeoning]							BONUS:EQMWEAPON|CRITRANGEDOUBLE|1|TYPE=NonStackingCrit								SPROP:threat range doubled						
-Jumping	KEY:JUMP_M	TYPE:Weapon.Melee.Thrown		COST:13750	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown								BONUS:SKILL|Jump|30						SPROP:the weapon is immune to acid and rust attack. All in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds.						
-Precise	KEY:PRECISE_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Thrown														SPROP:shot to an opponent engaged in melee without the standard -4 penalty.						
-Precise	KEY:PRECISE_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:shot to an opponent engaged in melee without the standard -4 penalty.						
-###TODO: Quick Loading CONTAINS:1|Bolt=100
-Quick Loading	KEY:QUICK_LOAD	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown																				
-Radiant Holding	KEY:RAD_HOLD_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:deals 1 energy point of damage instead of normal damage plus Will DC 17 or Hold Monster.						
+Elemental Aura	KEY:ELEM_AURA_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:Choose +1d6 elemental damage (acid, cold, electricity, fire, sonic) as free action each round						
+Elemental Aura	KEY:ELEM_AURA_M	TYPE:Weapon.Melee.Thrown	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Choose +1d6 elemental damage (acid, cold, electricity, fire, sonic) as free action each round						
+Elemental Aura	KEY:ELEM_AURA_R	TYPE:Weapon.Ranged	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Choose +1d6 elemental damage (acid, cold, electricity, fire, sonic) as free action each round						
+Everbright	KEY:EVR_BRGT_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:The weapon is immune to acid and rust attack, all in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds						
+Everbright	KEY:EVR_BRGT_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:The weapon is immune to acid and rust attack, all in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds						
+Everbright	KEY:EVR_BRGT_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:The weapon is immune to acid and rust attack, all in 20-ft radius must Reflex DC 14 or Blind 1d4 rounds						
+Flying	KEY:FLY_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Fly at 30-ft and is treated as an Animated Object						
+Impact	KEY:IMPACT	TYPE:Weapon.Bludgeoning	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PREMULT:3,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon],[PRETYPE:1,Bludgeoning]							BONUS:EQMWEAPON|CRITRANGEDOUBLE|1|TYPE=NonStackingCrit								SPROP:Threat range doubled						
+Jumping	KEY:JUMP_M	TYPE:Weapon.Melee.Thrown		COST:13750	VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown								BONUS:SKILL|Jump|30						SPROP:Jump with +30 bonus on jump check 1/3 rounds						
+#Knockback																														
+#Merciful																														
+Precise	KEY:PRECISE_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Thrown														SPROP:Shot to an opponent engaged in melee without the standard -4 penalty						
+Precise	KEY:PRECISE_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Shot to an opponent engaged in melee without the standard -4 penalty						
+###TODO: Quick Loading CONTAINS:1|Bolt=100																														
+Quick Loading	KEY:QUICK_LOAD	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY	ITYPE:Container		SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Load up to 100 bolts as free action if hand or light crossbow, move equivalent action if heavy crossbow						
+Radiant Holding	KEY:RAD_HOLD_A	TYPE:Ammunition	PLUS:3		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:Ranged touch attack, deals only 1 force point of damage instead of the normal damage plus Will DC 17 or Hold Monster						
 Screaming	KEY:SCREAM_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:+1d6 sonic damage						
 Screaming	KEY:SCREAM_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+1d6 sonic damage						
 Screaming	KEY:SCREAM_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:+1d6 sonic damage bestowed on ammunition						
-Sweeping	KEY:SWEEP_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+4 bonus on STR check made to Trip an opponent.						
-Vampiric	KEY:VAMP_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:Fort DC 16 or additional +1d4 damage (same amount added to wielder)						
-Vampiric	KEY:VAMP_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Fort DC 16 or additional +1d4 damage (same amount added to wielder)						
-Vampiric	KEY:VAMP_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Fort DC 16 or additional +1d4 damage (same amount added to wielder)						
-Venomous	KEY:VENOM_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:1/day Poison spell on target (Fort DC 14)						
-Venomous	KEY:VENOM_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:1/day Poison spell on target (Fort DC 14)						
-Venomous	KEY:VENOM_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:1/day Poison spell on target (Fort DC 14)						
-Warning	KEY:WARN_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Dex bonus to AC						
-Warning	KEY:WARN_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Dex bonus to AC						
+#Seeking																														
+#Spellblade																														
+#Sure Striking																														
+Sweeping	KEY:SWEEP_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:+4 bonus on STR check made to Trip an opponent						
+Vampiric	KEY:VAMP_A	TYPE:Ammunition	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:Fort DC 16 or additional +1d4 damage, the same amount added to wielder						
+Vampiric	KEY:VAMP_M	TYPE:Weapon.Melee.Thrown	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Fort DC 16 or additional +1d4 damage, the same amount added to wielder						
+Vampiric	KEY:VAMP_R	TYPE:Weapon.Ranged	PLUS:2		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Fort DC 16 or additional +1d4 damage, the same amount added to wielder						
+Venomous	KEY:VENOM_A	TYPE:Ammunition	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Ammunition															SPROP:1/day Poison spell on target with Fort DC 14						
+Venomous	KEY:VENOM_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:1/day Poison spell on target with Fort DC 14						
+Venomous	KEY:VENOM_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:1/day Poison spell on target with Fort DC 14						
+Warning	KEY:WARN_M	TYPE:Weapon.Melee.Thrown	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown														SPROP:Never loses Dex bonus to AC if caught flat-footed	ABILITY:Special Ability|VIRTUAL|Retain Dex To AC ~ Flat-footed					
+Warning	KEY:WARN_R	TYPE:Weapon.Ranged	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:MoF	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown														SPROP:Never loses Dex bonus to AC if caught flat-footed	ABILITY:Special Ability|VIRTUAL|Retain Dex To AC ~ Flat-footed					
 																														
 Rune	KEY:RUNE_M	TYPE:Weapon.Melee.Thrown			VISIBLE:NO			SOURCEPAGE:MoF	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown																		CHOOSE:STRING|Alhalbrin|Faerindyl|Thundaril|TITLE=Rune		
 Alhalbrin	KEY:RUNE_M_Alhalbrin			COST:8400	VISIBLE:NO																			SPROP:1/day Heat Metal upon target						

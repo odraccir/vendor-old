@@ -1,0 +1,17 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net									
+# Class Name	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Willpower)	Combat bonus	EXCLASS	FINE
+# Class Name	Requirements	FINE									
+# Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		
+# Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)						
+#(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)	
+CLASS:Vampire	HD:0	TYPE:PC.Template	ABB:Vmp	MAXLEVEL:8	SOURCEPAGE:SP						
+#CLASS:Vampire											
+#CLASS:Vampire											
+1			AUTO:FEAT|Alertness|Dodge	ABILITY:Special Ability|AUTOMATIC|Blood Drain (Lesser) ~ Vampire|Resistances ~ Vampire|Spawn Slavery ~ Vampire|Spider Climb ~ VAMPIRE TEMPLATE			BONUS:STAT|CON|-2	BONUS:VAR|VampireResistances|5			
+2			AUTO:FEAT|Improved Initiative|Lightning Reflexes	ABILITY:Special Ability|AUTOMATIC|Blood Drain (Moderate) ~ Vampire|Fortification|Skills ~ Vampire			BONUS:STAT|STR|2	BONUS:VAR|FortificationPower|1	BONUS:VAR|VampireSkills|(CL/2)*2		
+3				ABILITY:Special Ability|AUTOMATIC|Coffin Sanctuary (Lesser) ~ Vampire			BONUS:STAT|CHA|2	BONUS:VAR|VampireResistances|5			
+4				ABILITY:Special Ability|AUTOMATIC|Blood Drain ~ VAMPIRE TEMPLATE			BONUS:STAT|STR|2				
+5							BONUS:STAT|WIS|2				
+6							BONUS:STAT|STR|2	BONUS:STAT|INT|2			
+7							BONUS:STAT|DEX|2				
+8							BONUS:STAT|CHA|2				

@@ -9,7 +9,7 @@ Instant Summons.COPY=Drawmij's Instant Summons
 #Evard's																										
 Black Tentacles.COPY=Evard's Black Tentacles																										
 #Leomund																										
-Leomund's Trap			TYPE:Arcane			SCHOOL:Illusion	SUBSCHOOL:Glamer		COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Object touched		DURATION:Permanent	SAVEINFO:None	SPELLRES:No	DESC:	SOURCEPAGE:PHB		COST:50						
+Leomund's Trap			TYPE:Arcane			SCHOOL:Illusion	SUBSCHOOL:Glamer		COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Object touched		DURATION:Permanent	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:PHB		COST:50						
 Secure Shelter.COPY=Leomund's Secure Shelter																										
 Secret Chest.COPY=Leomund's Secret Chest																										
 Tiny Hut.COPY=Leomund's Tiny Hut																										

@@ -1,0 +1,10 @@
+#SOURCELONG:G	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
+###Vampire Class Template																																
+Blood Drain (Lesser)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1 Con damage.	KEY:Blood Drain (Lesser) ~ Vampire	SERVESAS:ABILITY=Special Ability|Blood Drain	!PREABILITY:1,CATEGORY=Special Ability,Blood Drain ~ VAMPIRE TEMPLATE,Blood Drain (Medium) ~ Vampire																									SOURCEPAGE:SP
+Blood Drain (Moderate)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1 Con drain.	KEY:Blood Drain (Medium) ~ Vampire	SERVESAS:ABILITY=Special Ability|Blood Drain	!PREABILITY:1,CATEGORY=Special Ability,Blood Drain ~ VAMPIRE,Blood Drain (Lesser) ~ Vampire																									SOURCEPAGE:SP
+Spawn Slavery	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES		KEY:Spawn Slavery ~ Vampire																											SOURCEPAGE:SP
+Resistances	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:DISPLAY		KEY:Resistances ~ Vampire			DEFINE:VampireResistances|0			BONUS:VAR|ColdResistanceBonus|VampireResistance	BONUS:VAR|ElectricityResistanceBonus|VampireResistance																				SOURCEPAGE:SP
+Skills	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:DISPLAY		KEY:Skills ~ Vampire			DEFINE:VampireSkills|0			BONUS:SKILL|Bluff,Hide,Listen,Move Silently,Search,Sense Motive,Spot|VampireSkills|TYPE=Racial																					
+Coffin Sanctuary (Lesser)	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Coffin Sanctuary (Lesser) ~ Vampire	SERVESAS:ABILITY=Special Ability|Coffin Sanctuary ~ Vampire	!PREABILITY:1,CATEGORY=Special Ability,Coffin Sanctuary ~ Vampire																									

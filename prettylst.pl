@@ -30,7 +30,7 @@ use English qw( -no_match_vars );	# No more funky punctuation variables
 # to the values shown on SVN for this revision.
 
 # Version information			# Converting to SVN Id parsing using array - Tir Gwaith
-my $SVN_id = '$Id: prettylst.pl 19790 2013-03-30 21:28:13Z zaister $';
+my $SVN_id = '$Id$';
 my @SVN_array = split ' ', $SVN_id;
 my $SVN_build = $SVN_array[2];
 my $SVN_date = $SVN_array[3];
@@ -1807,6 +1807,7 @@ my @Global_BONUS_Tags = (
 	'BONUS:SLOTS:*',			# Global
 	'BONUS:SPELLCAST:*',		# Global
 	'BONUS:SPELLCASTMULT:*',	# Global
+	'BONUS:SPELLPOINTCOST:*',	# Global
 	'BONUS:SPELLKNOWN:*',		# Global
 	'BONUS:STAT:*',			# Global
 	'BONUS:UDAM:*',			# Global
@@ -2781,6 +2782,7 @@ my %master_order = (
 		'COMPANIONLIST',		# [ 1672551 ] PCC tag COMPANIONLIST
 		'REQSKILL',
 		'STATUS',
+		'FORWARDREF',
 
 		# These tags load files
 		'ABILITY',
