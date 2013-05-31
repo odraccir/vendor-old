@@ -1,0 +1,13 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net									
+																																																																																																																																																																																																											
+###Block
+# Template Name			Output Name				Visible	Damage Reduction								Level Adjustment	Template																																		Source Page				Special ABility																																	Define				Required AL				Required Race																																Prohibited Race						Required Stat	Prohibited Template		Combat bonus						Damage reduction				Misc bonus												Stat bonus														Modify VAR										Feat			Apply Kit				Clone Movement		Spell Res.			Main Race Type		Race Subtype			Vision			Innate Spells
+Claw (Fine)	KEY:Claw (Fine) ~ Vampire			VISIBLE:NO	PRESIZEEQ:F									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1
+Claw (Diminutive)	KEY:Claw (Diminutive) ~ Vampire		VISIBLE:NO	PRESIZEEQ:D									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d2
+Claw (Tiny)	KEY:Claw (Tiny) ~ Vampire			VISIBLE:NO	PRESIZEEQ:T									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3
+Claw (Small)	KEY:Claw (Small) ~ Vampire		VISIBLE:NO	PRESIZEEQ:S									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4
+Claw (Medium)	KEY:Claw (Medium) ~ Vampire		VISIBLE:NO	PRESIZEEQ:M									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6
+Claw (Large)	KEY:Claw (Large) ~ Vampire		VISIBLE:NO	PRESIZEEQ:L									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d8
+Claw (Huge)	KEY:Claw (Huge) ~ Vampire			VISIBLE:NO	PRESIZEEQ:H									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d6
+Claw (Gargantuan)	KEY:Claw (Gargantuan) ~ Vampire		VISIBLE:NO	PRESIZEEQ:G									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d8
+Claw (Colossal)	KEY:Claw (Colossal) ~ Vampire		VISIBLE:NO	PRESIZEEQ:C									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,4d6

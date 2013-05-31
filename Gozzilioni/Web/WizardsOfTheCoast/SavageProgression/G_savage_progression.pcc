@@ -18,6 +18,8 @@ INFOTEXT:Articoli su Savage Progression della Wizards.
 #
 #Savage Progression
 CLASS:SP_classes_prestige.lst
+TEMPLATE:SP_templates.lst
+TEMPLATE:SP_templates_hidden.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst
