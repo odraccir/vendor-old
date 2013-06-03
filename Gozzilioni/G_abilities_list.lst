@@ -485,7 +485,7 @@ Motivate the Scum	CATEGORY:Special Ability	TYPE:FearsomeReputation.Extraordinary
 																																			
 Skill Artistry	CATEGORY:Special Ability	TYPE:SkillArtistry.SpecialQuality	VISIBLE:YES								BONUS:SKILL|%LIST|4|TYPE=Competence				STACK:NO	MULT:YES	CHOOSE:SKILL|RANKS=13	SELECT:1														SOURCEPAGE:CAd			
 																																			
-Spymaster Cover Identity	CATEGORY:Special Ability	TYPE:CoverIdentity.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST	OUTPUTNAME:Cover Identity										STACK:NO	MULT:YES	CHOOSE:USERINPUT|TITLE=Cover Identity	SELECT:1														SOURCEPAGE:CAd			
+Spymaster Cover Identity	CATEGORY:Special Ability	TYPE:CoverIdentity.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST	OUTPUTNAME:Cover Identity										STACK:NO	MULT:YES	CHOOSE:USERINPUT|1|TITLE=Cover Identity	SELECT:1														SOURCEPAGE:CAd			
 																																			
 Virtuoso Performance (persuasive)	CATEGORY:Special Ability	TYPE:VirtuosoPerformance.SpecialAttack	VISIBLE:YES	DESC:Persuasive: Sway attitude of his audience with Perform																												SOURCEPAGE:CAd			
 Virtuoso Performance (sustaining)	CATEGORY:Special Ability	TYPE:VirtuosoPerformance.SpecialAttack	VISIBLE:YES	DESC:Sustaining: Sustain unconscious character for 5 minutes or until Perform																												SOURCEPAGE:CAd			
