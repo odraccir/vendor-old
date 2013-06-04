@@ -17,7 +17,7 @@ INFOTEXT:Articoli su Savage Progression della Wizards.
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Savage Progression
-CLASS:SP_classes_prestige.lst
+CLASS:SP_classes_template.lst
 TEMPLATE:SP_templates_hidden.lst
 
 #BIOSET:my_biosettings.lst

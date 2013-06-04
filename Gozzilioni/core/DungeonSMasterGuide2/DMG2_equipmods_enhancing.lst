@@ -2,21 +2,21 @@ SOURCELONG:Dungeon's Master Guide 2	SOURCESHORT:DMG2	SOURCEWEB:http://www.gozzil
 																													
 ###Block:Armor abilities																													
 # Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads
-RST_ACD.MOD		ITYPE:AcidResistance																						DESC:Acid Resistance %1|ResistAcid	DEFINE:ResistAcid|0				BONUS:VAR|ResistAcid|10|TYPE=Base
-RES_ACD_GRT.MOD		ITYPE:AcidResistance																						DESC:Acid Resistance %1|ResistAcid	DEFINE:ResistAcid|0				BONUS:VAR|ResistAcid|30|TYPE=Base
-RST_ACD_IMP.MOD		ITYPE:AcidResistance																						DESC:Acid Resistance %1|ResistAcid	DEFINE:ResistAcid|0				BONUS:VAR|ResistAcid|20|TYPE=Base
-RST_CLD.MOD		ITYPE:ColdResistance																						DESC:Cold Resistance %1|ResistCold	DEFINE:ResistCold|0				BONUS:VAR|ResistCold|10|TYPE=Base
-RES_CLD_GRT.MOD		ITYPE:ColdResistance																						DESC:Cold Resistance %1|ResistCold	DEFINE:ResistCold|0				BONUS:VAR|ResistCold|30|TYPE=Base
-RST_CLD_IMP.MOD		ITYPE:ColdResistance																						DESC:Cold Resistance %1|ResistCold	DEFINE:ResistCold|0				BONUS:VAR|ResistCold|20|TYPE=Base
-RST_ELE.MOD		ITYPE:ElectricityResistance																						DESC:Electricity Resistance %1|ResistElectricity	DEFINE:ResistElectricity|0				BONUS:VAR|ResistElectricity|10|TYPE=Base
-RES_ELE_GRT.MOD		ITYPE:ElectricityResistance																						DESC:Electricity Resistance %1|ResistElectricity	DEFINE:ResistElectricity|0				BONUS:VAR|ResistElectricity|30|TYPE=Base
-RST_ELE_IMP.MOD		ITYPE:ElectricityResistance																						DESC:Electricity Resistance %1|ResistElectricity	DEFINE:ResistElectricity|0				BONUS:VAR|ResistElectricity|20|TYPE=Base
-RST_FR.MOD		ITYPE:FireResistance																						DESC:Fire Resistance %1|ResistFire	DEFINE:ResistFire|0				BONUS:VAR|ResistFire|10|TYPE=Base
-RES_FR_GRT.MOD		ITYPE:FireResistance																						DESC:Fire Resistance %1|ResistFire	DEFINE:ResistFire|0				BONUS:VAR|ResistFire|30|TYPE=Base
-RST_FR_IMP.MOD		ITYPE:FireResistance																						DESC:Fire Resistance %1|ResistFire	DEFINE:ResistFire|0				BONUS:VAR|ResistFire|20|TYPE=Base
-RST_SNC.MOD		ITYPE:SonicResistance																						DESC:Sonic Resistance %1|ResistSonic	DEFINE:ResistSonic|0				BONUS:VAR|ResistSonic|10|TYPE=Base
-RES_SNC_GRT.MOD		ITYPE:SonicResistance																						DESC:Sonic Resistance %1|ResistSonic	DEFINE:ResistSonic|0				BONUS:VAR|ResistSonic|30|TYPE=Base
-RST_SNC_IMP.MOD		ITYPE:SonicResistance																						DESC:Sonic Resistance %1|ResistSonic	DEFINE:ResistSonic|0				BONUS:VAR|ResistSonic|20|TYPE=Base
+RST_ACD.MOD		ITYPE:AcidResistance																						SPROP:Acid Resistance %1|ResistAcid	DEFINE:ResistAcid|0				BONUS:VAR|ResistAcid|10|TYPE=Base
+RES_ACD_GRT.MOD		ITYPE:AcidResistance																						SPROP:Acid Resistance %1|ResistAcid	DEFINE:ResistAcid|0				BONUS:VAR|ResistAcid|30|TYPE=Base
+RST_ACD_IMP.MOD		ITYPE:AcidResistance																						SPROP:Acid Resistance %1|ResistAcid	DEFINE:ResistAcid|0				BONUS:VAR|ResistAcid|20|TYPE=Base
+RST_CLD.MOD		ITYPE:ColdResistance																						SPROP:Cold Resistance %1|ResistCold	DEFINE:ResistCold|0				BONUS:VAR|ResistCold|10|TYPE=Base
+RES_CLD_GRT.MOD		ITYPE:ColdResistance																						SPROP:Cold Resistance %1|ResistCold	DEFINE:ResistCold|0				BONUS:VAR|ResistCold|30|TYPE=Base
+RST_CLD_IMP.MOD		ITYPE:ColdResistance																						SPROP:Cold Resistance %1|ResistCold	DEFINE:ResistCold|0				BONUS:VAR|ResistCold|20|TYPE=Base
+RST_ELE.MOD		ITYPE:ElectricityResistance																						SPROP:Electricity Resistance %1|ResistElectricity	DEFINE:ResistElectricity|0				BONUS:VAR|ResistElectricity|10|TYPE=Base
+RES_ELE_GRT.MOD		ITYPE:ElectricityResistance																						SPROP:Electricity Resistance %1|ResistElectricity	DEFINE:ResistElectricity|0				BONUS:VAR|ResistElectricity|30|TYPE=Base
+RST_ELE_IMP.MOD		ITYPE:ElectricityResistance																						SPROP:Electricity Resistance %1|ResistElectricity	DEFINE:ResistElectricity|0				BONUS:VAR|ResistElectricity|20|TYPE=Base
+RST_FR.MOD		ITYPE:FireResistance																						SPROP:Fire Resistance %1|ResistFire	DEFINE:ResistFire|0				BONUS:VAR|ResistFire|10|TYPE=Base
+RES_FR_GRT.MOD		ITYPE:FireResistance																						SPROP:Fire Resistance %1|ResistFire	DEFINE:ResistFire|0				BONUS:VAR|ResistFire|30|TYPE=Base
+RST_FR_IMP.MOD		ITYPE:FireResistance																						SPROP:Fire Resistance %1|ResistFire	DEFINE:ResistFire|0				BONUS:VAR|ResistFire|20|TYPE=Base
+RST_SNC.MOD		ITYPE:SonicResistance																						SPROP:Sonic Resistance %1|ResistSonic	DEFINE:ResistSonic|0				BONUS:VAR|ResistSonic|10|TYPE=Base
+RES_SNC_GRT.MOD		ITYPE:SonicResistance																						SPROP:Sonic Resistance %1|ResistSonic	DEFINE:ResistSonic|0				BONUS:VAR|ResistSonic|30|TYPE=Base
+RST_SNC_IMP.MOD		ITYPE:SonicResistance																						SPROP:Sonic Resistance %1|ResistSonic	DEFINE:ResistSonic|0				BONUS:VAR|ResistSonic|20|TYPE=Base
 SPELL_RES_13.MOD		ITYPE:SpellResistance												SR:ArmorSpellResistance											DEFINE:ArmorSpellResistance|13				
 SPELL_RES_15.MOD		ITYPE:SpellResistance												SR:ArmorSpellResistance											DEFINE:ArmorSpellResistance|15				
 SPELL_RES_17.MOD		ITYPE:SpellResistance												SR:ArmorSpellResistance											DEFINE:ArmorSpellResistance|17				

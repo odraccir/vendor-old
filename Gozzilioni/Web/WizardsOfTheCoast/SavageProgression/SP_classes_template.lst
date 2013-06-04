@@ -1,0 +1,64 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net										
+# Class Name	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Willpower)	Combat bonus	EXCLASS	FINE	
+# Class Name	Requirements	FINE										
+# Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			
+# Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
+#(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)		
+CLASS:Vampire		TYPE:PC.Monster.Template	ABB:Vmp	MAXLEVEL:8	SOURCEPAGE:SP							
+CLASS:Vampire	!PRETEMPLATE:1|Vampire	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humandoid										
+#CLASS:Vampire												
+1	BONUS:HP|CURRENTMAX|-CON		AUTO:FEAT|Alertness|Dodge	ABILITY:Special Ability|AUTOMATIC|Blood Drain (Lesser) ~ Vampire|Resistances ~ Vampire|Spawn Slavery ~ Vampire|Spider Climb ~ VAMPIRE TEMPLATE			BONUS:STAT|CON|-2	BONUS:VAR|VampireResistances|5				
+2	BONUS:HP|CURRENTMAX|-CON		AUTO:FEAT|Improved Initiative|Lightning Reflexes	ABILITY:Special Ability|AUTOMATIC|Blood Drain (Moderate) ~ Vampire|Fortification|Skills ~ Vampire			BONUS:STAT|STR|2	BONUS:VAR|FortificationPower|1	BONUS:VAR|VampireSkills|(CL/2)*2			
+3	BONUS:HP|CURRENTMAX|-CON			ABILITY:Special Ability|AUTOMATIC|Coffin Sanctuary (Lesser) ~ Vampire|Dominate (Lesser) ~ Vampire|Gaseous Form (Lesser) ~ Vampire	TEMPLATE:CHOOSE:Slam (Fine)|Slam (Diminutive)|Slam (Tiny)|Slam (Small)|Slam (Medium)|Slam (Large)|Slam (Huge)|Slam (Gargantuan)|Slam (Colossal)		BONUS:STAT|CHA|2	BONUS:VAR|VampireResistances|5	BONUS:VAR|DominatePerDay|1	BONUS:VAR|GaseousFormPerDay|1		
+4	BONUS:HP|CURRENTMAX|-CON			ABILITY:Special Ability|AUTOMATIC|Blood Drain ~ VAMPIRE TEMPLATE|Alternate Form|Vampire Aversions ~ Vampire			BONUS:STAT|STR|2	BONUS:VAR|DominatePerDay|2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK			
+5	BONUS:HP|CURRENTMAX|-CON			ABILITY:Special Ability|AUTOMATIC|Coffin Sanctuary ~ Vampire|Childrren of the Night (Lesser) ~ Vampire|Damage Reduction ~ Vampire|Vulnerability (Lesser) ~ Vampire			BONUS:STAT|WIS|2	BONUS:VAR|GaseousFormPerDay|2	BONUS:VAR|VampireDamageReduction|5			
+6	BONUS:HP|CURRENTMAX|-CON			ABILITY:Special Ability|AUTOMATIC|Fast Healing (Lesser) ~ Vampire			BONUS:STAT|STR|2	BONUS:STAT|INT|2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:VAR|FastHealing|1|TYPE=Racial		
+7	BONUS:HP|CURRENTMAX|-CON		PREALIGN:LE,NE,CE	ABILITY:Special Ability|AUTOMATIC|Dominate ~ VAMPIRE TEMPLATE|Gaseous Form ~ VAMPIRE TEMPLATE|Children of the Night ~ VAMPIRE TEMPLATE|Vampire Weaknesses ~ VAMPIRE TEMPLATE|Energy Drain (Lesser) ~ Vampire|Undeath ~ Vampire|Create Spawn (Lesser) ~ Vampire			BONUS:STAT|DEX|2					
+8	BONUS:HP|CURRENTMAX|-CON		PREALIGN:LE,NE,CE	ABILITY:Special Ability|AUTOMATIC|Energy Drain ~ VAMPIRE TEMPLATE|Create Spawn ~ VAMPIRE TEMPLATE|Turn Resistance ~ VAMPIRE TEMPLATE|Turn Resistance			BONUS:STAT|CHA|2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:VAR|VampireDamageReduction|5	BONUS:VAR|FastHealing|5|TYPE=Racial	BONUS:VAR|TurnResistBonus|4	
+# Class Name												
+CLASS:Half Dragon		TYPE:PC.Monster.Template	ABB:HDrg	MAXLEVEL:3	SOURCEPAGE:SP							
+CLASS:Half Dragon	!PREMULT:2,[PRETEMPLATE:1|Undead],[PRETEMPLATE:1,Incorporeal]											
+#CLASS:Half Dragon												
+SUBCLASS:Half Dragon (Black)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Acid			BONUS:VAR|AcidResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid								
+SUBCLASS:Half Dragon (Blue)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity			BONUS:VAR|ElectricityResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Electricity ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity								
+SUBCLASS:Half Dragon (Brass)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Fire ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire								
+SUBCLASS:Half Dragon (Bronze)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity			BONUS:VAR|ElectricityResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Electricity ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity								
+SUBCLASS:Half Dragon (Copper)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Acid			BONUS:VAR|AcidResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid								
+SUBCLASS:Half Dragon (Gold)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire								
+SUBCLASS:Half Dragon (Green)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Acid			BONUS:VAR|AcidResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Acid ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid								
+SUBCLASS:Half Dragon (Red)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire								
+SUBCLASS:Half Dragon (Silver)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold								
+SUBCLASS:Half Dragon (White)												
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Resistance To Cold			BONUS:VAR|ColdResistanceBonus|HalfDragonResistances					
+SUBCLASSLEVEL:2				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold ~ Half Dragon								
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold								
+1	BONUS:HP|CURRENTMAX|-CON	HITDIE:%up1|CLASS.TYPE=Monster		ABILITY:Special Ability|AUTOMATIC|Resistances (Lesser) ~ Half Dragon|Darkvision ~ Half Dragon|Low-Light Vision ~ Half Dragon			BONUS:STAT|STR|2	BONUS:STAT|INT|2	BONUS:VAR|HalfDragonResistances|10	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK		
+2				ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Paralysis		TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)	BONUS:STAT|STR|2	BONUS:STAT|CON|2	BONUS:VAR|HalfDragonResistances|10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:VAR|HalfDragonBreathDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDice|3
+3				ABILITY:Special Ability|AUTOMATIC|Dragonize ~ Half Dragon		TEMPLATE:CHOOSE:Half Dragon Wings ~ Normal|Half Dragon Wings ~ Fast	BONUS:STAT|STR|4	BONUS:STAT|CHA|2		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK		BONUS:VAR|BreathWeaponDice|3

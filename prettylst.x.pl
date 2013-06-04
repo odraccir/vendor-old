@@ -2913,6 +2913,7 @@ my %master_order = (
 		'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'KIT',
+        'SORTKEY',              # Gozzilioni
     ],
 
    'SHIELDPROF' => [
