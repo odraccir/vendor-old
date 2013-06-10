@@ -10,3 +10,13 @@ Kanii Favored	VISIBLE:NO	FAVOREDCLASS:Rogue	SOURCEPAGE:RLPHB
 Naiat Favored	VISIBLE:NO	FAVOREDCLASS:Bard	SOURCEPAGE:RLPHB					
 Vatraska Favored	VISIBLE:NO	FAVOREDCLASS:Cleric	SOURCEPAGE:RLPHB					
 Zarovan Favored	VISIBLE:NO	FAVOREDCLASS:Sorcerer	SOURCEPAGE:RLPHB					
+
+Bite (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1
+Bite (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2
+Bite (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3
+Bite (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
+Bite (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6
+Bite (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8
+Bite (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6
+Bite (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,3d6
+Bite (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6

@@ -1,0 +1,11 @@
+SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net																															
+#																																	
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+CATEGORY:Special Ability|Corrupting Touch.MOD	TYPE:GhostClassLesserAbility
+CATEGORY:Special Ability|Frightful Moan.MOD	TYPE:GhostClassLesserAbility
+CATEGORY:Special Ability|Telekinesis.MOD	TYPE:GhostClassLesserAbility
+CATEGORY:Special Ability|Corrupting Gaze.MOD	TYPE:GhostClassMajorAbility
+CATEGORY:Special Ability|Draining Touch.MOD	TYPE:GhostClassMajorAbility
+CATEGORY:Special Ability|Horrific Appearance.MOD	TYPE:GhostClassMajorAbility
+CATEGORY:Special Ability|Malevolence.MOD	TYPE:GhostClassMajorAbility
+2 lesser abilities	CATEGORY:Special Ability	TYPE:GhostClassMajorAbility	VISIBLE:YES	DESC:choose 2 lesser abilities.	KEY:Lesser Abilities ~ Ghost							BONUS:ABILITYPOOL|Ghost Class Ability Lesser|2																					SOURCEPAGE:SP

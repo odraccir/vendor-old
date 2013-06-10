@@ -49,6 +49,7 @@ SHIELDPROF:G_profs_shield.lst
 RACE:G_races__animals.lst
 SKILL:G_skills.lst
 SPELL:G_spells.lst
+TEMPLATE:G_templates.lst
 TEMPLATE:G_templates_hidden.lst
 TEMPLATE:G_templates_types.lst
 WEAPONPROF:G_weaponprofs.lst

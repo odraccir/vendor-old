@@ -26,6 +26,10 @@ ABILITYCATEGORY:Genasi FR Racial Trait			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:
 ABILITYCATEGORY:Tiefling FR Racial Trait			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:TieflingFRRacialTrait								DISPLAYLOCATION:Racial Abilities
 ABILITYCATEGORY:Half-Vistani Racial Trait			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:HalfVistaniRacialTrait								DISPLAYLOCATION:Racial Abilities
 #
+#Racial Monster Class
+ABILITYCATEGORY:Ghost Class Ability Lesser	CATEGORY:Special Ability	TYPE:GhostClassLesserAbility	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Ghost Lesser Abilities	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Ghost Class Ability Major	CATEGORY:Special Ability	TYPE:GhostClassMajorAbility	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Ghost Major Abilities	DISPLAYLOCATION:Class Abilities
+#
 #Abilitygroup:Category
 ABILITYCATEGORY:Warlock Dark Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation.DarkInvocation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Dark Invocations	DISPLAYLOCATION:Class Abilities	
 ABILITYCATEGORY:Warlock Greater Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Greater Invocations	DISPLAYLOCATION:Class Abilities	
