@@ -2,7 +2,7 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 								
 # Equipment Name								
 #	COST:							
-Planar Touchstone		TYPE:Magic.Goods.PlanarTouchstone	COST:250	WT:0	SOURCEPAGE:PH
+Planar Touchstone		TYPE:Magic.Goods.PlanarTouchstone.MaterialComponent	COST:250	WT:0	SOURCEPAGE:PH
 ###Block								
 Boots of Gravity		TYPE:Magic.Wondrous.Boot	COST:50400	WT:1		SOURCEPAGE:PH		MODS:NO
 Cloak of Shadow		TYPE:Magic.Wondrous.Cape	COST:75000	WT:1		SOURCEPAGE:PH		MODS:NO

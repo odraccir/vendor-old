@@ -23,6 +23,7 @@ CLASS:G_classes_prestige.lst
 CLASS:G_classes_monster.lst
 DOMAIN:G_domains.lst
 EQUIPMENT:G_equip.lst
+EQUIPMENT:G_equip_materials.lst
 EQUIPMENT:G_equip_poisons.lst
 EQUIPMENT:G_equip_wondrous.lst
 EQUIPMOD:G_equipmods_enhancing.lst

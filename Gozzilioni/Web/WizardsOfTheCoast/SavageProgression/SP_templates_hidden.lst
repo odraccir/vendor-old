@@ -4,6 +4,7 @@ Undeath ~ Vampire	VISIBLE:EXPORT	RACETYPE:Undead	SOURCEPAGE:SP
 Undeath ~ Lich	VISIBLE:EXPORT	RACETYPE:Undead	SOURCEPAGE:SP
 Undeath ~ Ghost	VISIBLE:EXPORT	RACETYPE:Undead	SOURCEPAGE:SP
 Dragonize ~ Half Dragon	VISIBLE:EXPORT	RACETYPE:Dragon	SOURCEPAGE:SP
+Monster HD ~ Half Dragon	VISIBLE:EXPORT	HITDIE:%up1|CLASS.TYPE=Monster	SOURCEPAGE:SP
 
 Natural Lycanthrope	VISIBLE:NO	KEY:Natural Lycanthrope ~ Template Class	PRECLASS:1,TYPE.Lycanthrope	!PRETEMPLATE:1,Afflicted Lycanthrope,Afflicted Lycanthrope ~ Template Class
 Afflicted Lycanthrope	VISIBLE:NO	KEY:Afflicted Lycanthrope ~ Template Class	PRECLASS:1,TYPE.Lycanthrope	!PRETEMPLATE:1,Natural Lycanthrope,Natural Lycanthrope ~ Template Class

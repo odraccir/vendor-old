@@ -1,7 +1,19 @@
 #SOURCELONG:G	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																															
 #																																	
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define				BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
-###General Monster																																	
+# Ability Name	Category of Ability	Type	visible	Special Ability			Restricted Ability	Define				BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
+###Mount																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PRERACE:1,RACETYPE=Animal,RACETYPE=Magical Beast,RACETYPE=Vermin																																
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Mount|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Mount]																																
+Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility											BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1																			SOURCEPAGE:G
+CATEGORY=Special Ability|Mount Traits.MOD	ABILITY:Training Level|AUTOMATIC|Wild|PRERACE:1,TYPE=Mount
+Mount Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait			KEY:Traits Output ~ Mount																												SOURCEPAGE:G
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:Wild creature commonly found around the world.|PREABILITY:1,CATEGORY=Training Level,Wild																																
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The creature can sustain the presence of a rider, but it's cannot be reliable during a combat.|PREABILITY:1,CATEGORY=Training Level,Rideable																																
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The mount is trained to perform some simple tricks.|PREABILITY:1,CATEGORY=Training Level,Basic Training																																
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The mount can advance into mount classes.|PREABILITY:1,CATEGORY=Training Level,Advanced Workout																																
+
+
+###General Lycanthrope																																	
 Control Shape	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		KEY:Control Shape ~ Lycanthrope															CSKILL:Control Shape													SOURCEPAGE:SP
 ###Wererat Class Template																																	
 Low Light	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:DISPLAY		KEY:Low-Light Vision ~ Wererat							BONUS:VAR|HasLowLightVision|1																					SOURCEPAGE:SP

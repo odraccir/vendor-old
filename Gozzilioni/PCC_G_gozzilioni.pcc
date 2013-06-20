@@ -20,6 +20,7 @@ COPYRIGHT:Gozzilioni, Copyright 2008 by Me
 #FORWARDREF:SPELL|Clarity of Mind
 
 #G_pointbuymethods_system.lst
+#G_biosettings_dragons.lst
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 ABILITYCATEGORY:G_ability_categories.lst
 ABILITY:G_abilities_class.lst
@@ -27,11 +28,10 @@ ABILITY:G_abilities_common.lst
 ABILITY:G_abilities_guilds.lst
 ABILITY:G_abilities_list.lst
 ABILITY:G_abilities_monsters.lst
+ABILITY:G_abilities_proficiencies.lst
 ABILITY:G_abilities_racial.lst
 ABILITY:G_abilities_regions.lst
-ABILITY:G_abilities_proficiencies.lst
 BIOSET:G_biosettings.lst
-#BIOSET:G_biosettings_dragons.lst
 CLASS:G_classes_hidden.lst
 CLASS:G_classes_monsters.lst
 DEITY:G_deities.lst

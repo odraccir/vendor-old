@@ -3,8 +3,10 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 ###Block
 # Template Name			Output Name				Visible	Damage Reduction								Level Adjustment	Template																																		Source Page				Special ABility																																	Define				Required AL				Required Race																																Prohibited Race						Required Stat	Prohibited Template		Combat bonus						Damage reduction				Misc bonus												Stat bonus														Modify VAR										Feat			Apply Kit				Clone Movement		Spell Res.			Main Race Type		Race Subtype			Vision			Innate Spells
 Trained	VISIBLE:NO				TEMPLATE:CHOOSE:Trained Animal|Trained Magical Beast|Trained Vermin|Trained Animal (Will)																																																																																																																																																																																																						
-Trained Animal	VISIBLE:NO	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
-Trained Magical Beast	VISIBLE:NO	PRECLASS:1,Magical Beast=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
-Trained Vermin	VISIBLE:NO	PRECLASS:1,Vermin=1			BONUS:VAR|BasicTrainingNumber|2	
-Trained Animal (Will)	VISIBLE:NO	PRECLASS:1,Animal (Will)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
-Trained Animal (Dire)	VISIBLE:NO	PRECLASS:1,Animal (Dire)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+#Trained Animal	VISIBLE:NO	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+# il numero di "trick" è assegnato fisso 
+Trained Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+Trained Magical Beast	VISIBLE:NO	PRERACE:1,RACETYPE=Magical Beast	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+Trained Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin			BONUS:VAR|BasicTrainingNumber|2	
+Trained Animal (Will)	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal (Will)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+Trained Animal (Dire)	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal (Dire)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)

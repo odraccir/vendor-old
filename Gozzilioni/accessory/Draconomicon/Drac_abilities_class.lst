@@ -2,6 +2,11 @@ SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Draconic Might|1	BONUS:CASTERLEVEL|SPELL.Dragon Ally|1
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragon Ally (Greater)|1	BONUS:CASTERLEVEL|SPELL.Dragon Ally (Lesser)|1
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragon Breath|1	BONUS:CASTERLEVEL|SPELL.Dragon Skin|1
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Flight of the Dragon|1	BONUS:CASTERLEVEL|SPELL.Voice of the Dragon|1
+#
 Bloodscaled Fury Draconic Fury	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:BloodscaledFuryDraconicFuryLVL|0					BONUS:VAR|DraconicFuryPower|((BloodscaledFuryDraconicFuryLVL+2)/4)	BONUS:VAR|TirelessRage|1|PREVARGTEQ:BloodscaledFuryDraconicFuryLVL,9																	SOURCEPAGE:Drac
 Bloodscaled Fury Scales Of Blood	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:BloodScaledFuryScalesOfBloodLVL|0					BONUS:VAR|ScalesOfBloodDR|5	BONUS:VAR|ScalesOfBloodPower|((BloodScaledFuryScalesOfBloodLVL-4)/3)	BONUS:VAR|ScalesOfBloodSR|BloodScaledFuryScalesOfBloodLVL																SOURCEPAGE:Drac
 Ashardalon Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AshardalonResistanceLVL|0					BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus|5+((AshardalonResistanceLVL/4)*5)																		SOURCEPAGE:Drac

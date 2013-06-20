@@ -11,3 +11,5 @@ Forbid Air Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRES
 Forbid Earth Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Earth Elementalist		DEFINE:ProhibitEarthElement|0						BONUS:VAR|ProhibitEarthElement|1
 Forbid Fire Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Fire Elementalist		DEFINE:ProhibitFireElement|0						BONUS:VAR|ProhibitFireElement|1
 Forbid Water Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Water Elementalist		DEFINE:ProhibitWaterElement|0						BONUS:VAR|ProhibitWaterElement|1
+#Sorcerer
+Casterlevel Bonus	CATEGORY:Special Ability	TYPE:Internal.SpecialQuality	VISIBLE:DISPLAY	DESC:Special: Sorcerer cast this spell at +1 casterlevel.	KEY:Casterlevel Bonus ~ Sorcerer																											SOURCEPAGE:G

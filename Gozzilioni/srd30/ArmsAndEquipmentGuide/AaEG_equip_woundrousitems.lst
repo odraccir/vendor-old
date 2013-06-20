@@ -7,9 +7,9 @@ Bracelet of Friends (Mount)		TYPE:Magic.Wondrous.Bracer.Mount	COST:19000	WT:0	SO
 # Equipment Name																					
 Bridle of Ease		TYPE:Magic.Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG								SPROP:+5 competence bonus to Handle Animal checks of the trainer when training a mount.								
 Bridle of Ease (Exotic)		TYPE:Magic.Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG								SPROP:+5 competence bonus to Handle Animal checks of the trainer when training an exotic mount.								
-Bridle (Clever/3 tricks)	OUTPUTNAME:Clever Bridle (3 tricks)	TYPE:Magic.Wondrous.Mount	COST:1000	WT:1	SOURCEPAGE:AaEG					BONUS:ABILITYPOOL|Training Trick|3											
-Bridle (Clever/6 tricks)	OUTPUTNAME:Clever Bridle (6 tricks)	TYPE:Magic.Wondrous.Mount	COST:4000	WT:1	SOURCEPAGE:AaEG					BONUS:ABILITYPOOL|Training Trick|6											
-Bridle (Clever/9 tricks)	OUTPUTNAME:Clever Bridle (9 tricks)	TYPE:Magic.Wondrous.Mount	COST:9000	WT:1	SOURCEPAGE:AaEG					BONUS:ABILITYPOOL|Training Trick|9											
+Bridle (Clever/3 tricks)	OUTPUTNAME:Clever Bridle (3 tricks)	TYPE:Magic.Wondrous.Mount	COST:1000	WT:1	SOURCEPAGE:AaEG					BONUS:ABILITYPOOL|Animal Trick|3											
+Bridle (Clever/6 tricks)	OUTPUTNAME:Clever Bridle (6 tricks)	TYPE:Magic.Wondrous.Mount	COST:4000	WT:1	SOURCEPAGE:AaEG					BONUS:ABILITYPOOL|Animal Trick|6											
+Bridle (Clever/9 tricks)	OUTPUTNAME:Clever Bridle (9 tricks)	TYPE:Magic.Wondrous.Mount	COST:9000	WT:1	SOURCEPAGE:AaEG					BONUS:ABILITYPOOL|Animal Trick|9											
 Saddle (Equestrian's)	OUTPUTNAME:[NAME] Saddle	TYPE:Magic.Wondrous.Mount.Saddle.Military	COST:2000	WT:30	SOURCEPAGE:AaEG								SPROP:+10 circumstance bonus to Ride checks of the rider.								
 Saddle (Horseless)	OUTPUTNAME:[NAME] Saddle	TYPE:Magic.Wondrous.Mount.Saddle	COST:43200	WT:25	SOURCEPAGE:AaEG								SPROP:Phantom Steed.								
 Horseshoes of Thunder		TYPE:Magic.Wondrous.Mount.Boot	COST:10080	WT:1	SOURCEPAGE:AaEG								SPROP:20'ft radius Shout (5/day)								
