@@ -24,6 +24,7 @@ PCC:&/Gozzilioni/srd35mod/monsters/G_RsrdMonsters.pcc
 #Vecchi
 PCC:&/Gozzilioni/srd30/G_old_srd.pcc
 PCC:&/Gozzilioni/srd30/ArmsAndEquipmentGuide/G_ArmsAndEquipmentGuide.pcc
+PCC:&/Gozzilioni/srd30/ManualOfThePlanes/G_ManualOfThePlanes.pcc
 #Core
 PCC:&/Gozzilioni/core/DungeonSMasterGuide2/G_dungeon_s_master_guide_2.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook2/G_player_s_handbook_2.pcc

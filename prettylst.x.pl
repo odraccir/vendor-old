@@ -1930,6 +1930,7 @@ my %master_order = (
         'ADD:VFEAT:*',
         'ADD:WEAPONPROFS',
         'ADDSPELLLEVEL',
+		'APPLIEDNAME',
         'REMOVE',
 #		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 #		'LANGAUTO:*',		# Deprecated - 6.0
@@ -2102,6 +2103,7 @@ my %master_order = (
         'UNENCUMBEREDMOVE',
 		'TEMPDESC:*',
 		'TEMPBONUS:*',
+        'ROLE',
     ],
 
     'CLASS Level' => [
@@ -2530,6 +2532,7 @@ my %master_order = (
         'ADD:VFEAT:*',
         'ADD:WEAPONPROFS',
         'ADDSPELLLEVEL',
+        'APPLIEDNAME',
 #		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 #		'LANGAUTO:*',		# Deprecated - 6.0
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
@@ -2914,6 +2917,7 @@ my %master_order = (
         'SPELLLEVEL:DOMAIN:*',
         'KIT',
         'SORTKEY',              # Gozzilioni
+        'TYPE:.CLEAR',          # Gozzilioni
     ],
 
    'SHIELDPROF' => [
@@ -3895,6 +3899,7 @@ my %tagheader = (
         'ADD:TEMPLATE'          => 'Add Template(s)',
         'ADDDOMAINS'            => 'Additional Divine Domain',
         'ADDSPELLLEVEL'         => 'Add Spell Lvl',
+		'APPLIEDNAME'		=> 'Applied Name',
         'AGE'                   => 'Age',
         'AGESET'                => 'Age Set',
         'ALIGN'                 => 'Alignment',
@@ -4303,6 +4308,7 @@ my %tagheader = (
         'MULTIPREREQS'          => 'MULTIPREREQS',
         'SPECIALS'              => 'Class Special Ability',     # Deprecated - Use SA
         'DEITY'                 => 'Deities allowed',
+		'ROLE'			=> 'Monster Role',
     },
 
     'CLASS Level' => {
