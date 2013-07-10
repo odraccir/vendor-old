@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni old SRD
+CAMPAIGN:Gozzilioni Manual of the Planes
 GAMEMODE:35e
 RANK:5
 TYPE:Gozzilioni.Core
 SETTING:Heroes
-SOURCELONG:Gozzilioni SRD
-SOURCESHORT:G
+SOURCELONG:Gozzilioni Manual of the Planes
+SOURCESHORT:MotP
 SOURCEWEB:http://www.gozzilioni.net
 #SOURCEDATE:2008-01
 ISOGL:NO
@@ -13,11 +13,15 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #INFOTEXT:Rsrd official addition and modification from the PHB or the forum
 
 #from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
-FEAT:G_feats.lst
-SPELL:G_spells.lst
-SPELL:RLVRA_spells.lst
-EQUIPMENT:srd_equip_weap_melee.lst
-WEAPONPROF:srd_weapprofs.lst
+ABILITY:MotP_abilities_class.lst
+EQUIPMENT:MotP_equip_potions_poisons.lst
+EQUIPMENT:MotP_equip_woundrousitems.lst
+FEAT:MotP_feats.lst
+RACE:MotP_races.lst
+SPELL:MotP_spells.lst
+SPELL:MotP_skills.lst
+TEMPLATE:MotP_templates_hidden.lst
+TEMPLATE:MotP_templates_type.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst
