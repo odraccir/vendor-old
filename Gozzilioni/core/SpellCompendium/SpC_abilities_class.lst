@@ -1,0 +1,6 @@
+SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net																															
+#																																	
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Draconic Might (SpC)|1	BONUS:CASTERLEVEL|SPELL.Dragon Ally (SpC)|1
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragon Ally (Greater/SpC)|1	BONUS:CASTERLEVEL|SPELL.Dragon Ally (Lesser/SpC)|1
+CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragonskin (SpC)|1	BONUS:CASTERLEVEL|SPELL.Flight of the Dragon|1

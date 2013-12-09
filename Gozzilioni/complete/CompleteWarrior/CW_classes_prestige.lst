@@ -472,7 +472,7 @@ CLASS:Thayan Knight	STARTSKILLPTS:2	CSKILL:Bluff|Climb|TYPE.Craft|Gather Informa
 CLASS:War Chanter	HD:8	TYPE:Prestige	ABB:Wch	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:War Chanter	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:4	PRESKILL:1,Perform (Sing)=6,Perform (Oratory)=6	PREFEAT:1,Combat Expertise	PREABILITY:1,CATEGORY=Special Ability,Bardic Inspire Courage	PREFEAT:1,CHECKMULT,Weapon Focus						
 CLASS:War Chanter	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Gather Information|Intimidate|Jump|TYPE.Perform|TYPE.Profession|Sense Motive|Swim										
-1				ABILITY:Special Ability|VIRTUAL|War Chanter Inspire Thoughness|PREVARGTEQ:WarChanterMusicLVL,1|PRESKILL:1,Perform (Sing)=9,Perform (Oratory)=9								
+1				ABILITY:Special Ability|VIRTUAL|War Chanter Inspire Toughness|PREVARGTEQ:WarChanterMusicLVL,1|PRESKILL:1,Perform (Sing)=9,Perform (Oratory)=9								
 1				ABILITY:Special Ability|VIRTUAL|War Chanter Inspire Recklessness|PREVARGTEQ:WarChanterMusicLVL,3|PRESKILL:1,TYPE.Perform=12								
 1				ABILITY:Special Ability|VIRTUAL|War Chanter Combine Song|PREVARGTEQ:WarChanterMusicLVL,5|PRESKILL:1,TYPE.Perform=12								
 1				ABILITY:Special Ability|VIRTUAL|War Chanter Inspire Awe|PREVARGTEQ:WarChanterMusicLVL,7|PRESKILL:1,TYPE.Perform=15								

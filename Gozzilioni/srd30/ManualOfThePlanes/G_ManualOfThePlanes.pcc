@@ -19,7 +19,7 @@ EQUIPMENT:MotP_equip_woundrousitems.lst
 FEAT:MotP_feats.lst
 RACE:MotP_races.lst
 SPELL:MotP_spells.lst
-SPELL:MotP_skills.lst
+SKILL:MotP_skills.lst
 TEMPLATE:MotP_templates_hidden.lst
 TEMPLATE:MotP_templates_type.lst
 

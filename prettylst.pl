@@ -1739,6 +1739,7 @@ my %double_PCC_tags = (
 	'BONUS:SKILLPOOL',	=> 1,
 	'BONUS:SKILLRANK',	=> 1,
 	'BONUS:SLOTS',		=> 1,
+	'BONUS:SPECIALTYSPELLKNOWN',		=> 1,
 	'BONUS:SPELLCAST',	=> 1,
 	'BONUS:SPELLCASTMULT',	=> 1,
 	'BONUS:SPELLKNOWN',	=> 1,
@@ -1805,6 +1806,7 @@ my @Global_BONUS_Tags = (
 	'BONUS:SKILLPOOL:*',		# Global
 	'BONUS:SKILLRANK:*',		# Global
 	'BONUS:SLOTS:*',			# Global
+	'BONUS:SPECIALTYSPELLKNOWN:*',			# Global
 	'BONUS:SPELLCAST:*',		# Global
 	'BONUS:SPELLCASTMULT:*',	# Global
 	'BONUS:SPELLPOINTCOST:*',	# Global
@@ -1859,6 +1861,7 @@ my @double_PCC_tags = (
 	'BONUS:SKILLPOOL:*',		
 	'BONUS:SKILLRANK:*',		
 	'BONUS:SLOTS:*',			
+	'BONUS:SPECIALTYSPELLKNOWN:*',
 	'BONUS:SPELLCAST:*',		
 	'BONUS:SPELLCASTMULT:*',	
 	'BONUS:SPELLKNOWN:*',		
@@ -1891,6 +1894,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'SPELL:*',
 		'SPELLS:*',
 		'DESCISPI',
@@ -1930,6 +1934,7 @@ my %master_order = (
 		'ADD:VFEAT:*',
 		'ADD:WEAPONPROFS',
 		'ADDSPELLLEVEL',
+		'APPLIEDNAME',
 		'REMOVE',
 		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 		'LANGAUTO:*',		# Deprecated - 6.0
@@ -2052,6 +2057,7 @@ my %master_order = (
 		'MULTIPREREQS',
 		'VISIBLE',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'AUTO:ARMORPROF:*',
 		'AUTO:EQUIP:*',
 		'AUTO:FEAT:*',
@@ -2100,7 +2106,8 @@ my %master_order = (
 		'SPELLLEVEL:CLASS',
 		'SPELLLEVEL:DOMAIN',
 		'UNENCUMBEREDMOVE',
-		'TEMPBONUS'
+		'TEMPBONUS',
+		'ROLE'
 	],
 
 	'CLASS Level' => [
@@ -2132,6 +2139,7 @@ my %master_order = (
 		'BONUS:WEAPON:*',
 		'TEMPDESC',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'CSKILL:.CLEAR',
 		'CSKILL',
 		'CCSKILL:.CLEAR',
@@ -2219,6 +2227,7 @@ my %master_order = (
 		'SAB:*',
 		'ADD:LANGUAGE',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
 		'RACETYPE',
 		'SWITCHRACE:*',
@@ -2252,6 +2261,7 @@ my %master_order = (
 		'APPEARANCE',
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'SR',
 		'DR',
 		'VFEAT:*',
@@ -2308,6 +2318,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
 		@SOURCE_Tags,
 		'DESCISPI',
@@ -2339,6 +2350,7 @@ my %master_order = (
 		@PRE_Tags,
 		@QUALIFY_Tags,
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'ACCHECK:*',
 		'BASEITEM',
 		'BASEQTY',
@@ -2461,6 +2473,7 @@ my %master_order = (
 		'ASSIGNTOALL',
 		'CHARGES',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'SPELL',
 		'SPELLS:*',
 		'RATEOFFIRE',
@@ -2485,6 +2498,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'SPELL:*',
 		'SPELLS:*',
 		'DESCISPI',
@@ -2525,6 +2539,7 @@ my %master_order = (
 		'ADD:VFEAT:*',
 		'ADD:WEAPONPROFS',
 		'ADDSPELLLEVEL',
+		'APPLIEDNAME',
 		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 		'LANGAUTO:*',		# Deprecated - 6.0
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
@@ -2863,6 +2878,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'HITDICE',
 		'SR',
 		'DR:.CLEAR',
@@ -2947,6 +2963,7 @@ my %master_order = (
 		'CHOOSE',
 		'SELECT',
 		'DEFINE',
+		'DEFINESTAT:*',
 		'VFEAT:*',
 		'AUTO:EQUIP:*',
 		'ABILITY',
@@ -3012,6 +3029,7 @@ my %master_order = (
 		'DESC:.CLEAR',
 		'DESC:*',
 		'DEFINE',
+		'DEFINESTAT:*',
 #		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
 		'BONUS:PPCOST',		# SPELL has a short list of BONUS tags
 		'BONUS:CASTERLEVEL:*',
@@ -3098,6 +3116,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE',
+		'DEFINESTAT:*',
 		@PRE_Tags,
 		'CSKILL:.CLEAR',
 		'CSKILL',
@@ -3156,6 +3175,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE',
+		'DEFINESTAT:*',
 		@PRE_Tags,
 		'CSKILL:.CLEAR',
 		'CSKILL',
@@ -3196,6 +3216,7 @@ my %master_order = (
 		'HITDIE',
 		'ABILITY:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'CSKILL:.CLEAR',
 		'CSKILL:*',
 		'CCSKILL:.CLEAR',
@@ -3268,6 +3289,7 @@ my %master_order = (
 		'HITDIE',
 		'ABILITY:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'CSKILL:.CLEAR',
 		'CSKILL',
 		'CCSKILL:.CLEAR',
@@ -3338,6 +3360,7 @@ my %master_order = (
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
+		'DEFINESTAT:*',
 		'LEVEL:*',
 		@PRE_Tags,
 		@QUALIFY_Tags,
@@ -3652,6 +3675,7 @@ my %token_BONUS_tag = map { $_ => 1 } (
 	'SKILLRANK',
 	'SLOTS',
 	'SPELL',
+	'SPECIALTYSPELLKNOWN',
 	'SPELLCAST',
 	'SPELLCASTMULT',
 	'SPELLKNOWN',
@@ -3691,6 +3715,7 @@ my %token_BONUS_MONSKILLPTS_types = map { $_ => 1 } (
 );
 
 # List of types that are valid in BONUS:SLOTS
+# 
 my %token_BONUS_SLOTS_types = map { $_ => 1 } (
 	'AMULET',
 	'ARMOR',
@@ -3889,6 +3914,7 @@ my %tagheader = (
 		'ADD:TEMPLATE'		=> 'Add Template(s)',
 		'ADDDOMAINS'		=> 'Additional Divine Domain',
 		'ADDSPELLLEVEL'		=> 'Add Spell Lvl',
+		'APPLIEDNAME'		=> 'Applied Name',
 		'AGE'				=> 'Age',
 		'AGESET'			=> 'Age Set',
 		'ALIGN'			=> 'Alignment',
@@ -3945,6 +3971,7 @@ my %tagheader = (
 		'BONUS:SKILLRANK'		=> 'Bonus to skill rank',
 		'BONUS:SLOTS'		=> 'Bonus to nb of slots',
 		'BONUS:SPELL'		=> 'Bonus to spell attribute',
+		'BONUS:SPECIALTYSPELLKNOWN'	=> 'Bonus to specialty spells class gets',
 		'BONUS:SPELLCAST'		=> 'Bonus to spell cast/day',
 		'BONUS:SPELLCASTMULT'	=> 'Multiply spell cast/day',
 		'BONUS:SPELLKNOWN'	=> 'Bonus to spell known/L',
@@ -3981,6 +4008,7 @@ my %tagheader = (
 		'DAMAGE'			=> 'Damage',
 		'DEF',			=> 'Def',
 		'DEFINE'			=> 'Define',
+		'DEFINESTAT'		=> 'Define a Stat',
 		'DEITY'			=> 'Deity',
 		'DESC'			=> 'Description',
 		'DESC:.CLEAR'		=> 'Clear Description',
@@ -4297,6 +4325,7 @@ my %tagheader = (
 		'MULTIPREREQS'		=> 'MULTIPREREQS',
 		'SPECIALS'			=> 'Class Special Ability',	# Deprecated - Use SA
 		'DEITY'			=> 'Deities allowed',
+		'ROLE'			=> 'Monster Role',
 	},
 
 	'CLASS Level' => {
@@ -11381,8 +11410,15 @@ sub validate_line {
 			);
 		}
 		elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:SPELLLEVEL/i ) {
-
-			# The CHOOSE:SPELLLEVEL is exampted from this particular rule.
+			# The CHOOSE:SPELLLEVEL is exempted from this particular rule.
+			$logging->ewarn(INFO,
+				qq(The MULT:YES tag is mandatory when CHOOSE is present in ABILITY "$line_ref->{'000AbilityName'}[0]"),
+				$file_for_error,
+				$line_for_error
+			);
+		}
+		elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:NUMBER/i ) {
+			# The CHOOSE:NUMBER is exempted from this particular rule.
 			$logging->ewarn(INFO,
 				qq(The MULT:YES tag is mandatory when CHOOSE is present in ABILITY "$line_ref->{'000AbilityName'}[0]"),
 				$file_for_error,
@@ -11486,6 +11522,15 @@ sub validate_line {
 		elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:SPELLLEVEL/i ) {
 
 			# The CHOOSE:SPELLLEVEL is exampted from this particular rule.
+			$logging->ewarn(INFO,
+				qq(The MULT:YES tag is mandatory when CHOOSE is present in FEAT "$line_ref->{'000FeatName'}[0]"),
+				$file_for_error,
+				$line_for_error
+			);
+		}
+		elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:NUMBER/i ) {
+
+			# The CHOOSE:NUMBER is exampted from this particular rule.
 			$logging->ewarn(INFO,
 				qq(The MULT:YES tag is mandatory when CHOOSE is present in FEAT "$line_ref->{'000FeatName'}[0]"),
 				$file_for_error,
@@ -13389,6 +13434,7 @@ BEGIN {
 				'BONUS:DC',				=> 1,  #[ 1037456 ] Move BONUS:DC on class line to the spellcasting portion
 				'BONUS:SCHOOL'			=> 1,
 				'BONUS:SPELL'			=> 1,
+				'BONUS:SPECIALTYSPELLKNOWN'	=> 1,
 				'BONUS:SPELLCAST'			=> 1,
 				'BONUS:SPELLCASTMULT'		=> 1,
 				'BONUS:SPELLKNOWN'		=> 1,

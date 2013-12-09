@@ -11,14 +11,17 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 # Gembomb - gems worth at least 1 gp					
 # Fool's Gold – a powedered gem of at least 5 gp					
 Amber (500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Simbul's Spell Matrix
+Amulet (Phoenix/150 gp)	TYPE:MaterialComponent.Focus	COST:150	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Fire Wings
 Bottle (Ornate/50)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:CD	SPROP:Focus for Bottle of Smoke
 Diamond (1000 gp)	TYPE:MaterialComponent.Focus.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Protection from Spells. Material Component for Invoke Magic.
 Diamond (1500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Simbul's Spell Trigger
 Feather (Phoenix/50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:EXD	SPROP:Focus for Phoenix Fire
+Glass Sphere (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Glowing Orb
 Hollow cone of brass and gold (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Horizikaul's Versatile Vibration
 Holy Water Font (100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Scrying
 Hourglass (Platinum and Crystal/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:CA	SPROP:Focus for Anticipate Teleportation (Greater)
 Hourglass (Platinum and Crystal/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:CA	SPROP:Focus for Anticipate Teleportation
+Heart of Stone (
 Iron Bars (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Repulsion
 Ivory Plaque (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Rary's Mnemonic Enhancer
 Jade Circlet (1500 gp)	TYPE:MaterialComponent.Focus.Headgear	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Shapechange
@@ -27,6 +30,8 @@ Marked Sticks (25 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB
 Miniature Chains (Platinum/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:PGtF	SPROP:Focus for Howling Chain
 Miniature of a blue ice Castle (20000 gp)	TYPE:MaterialComponent.Focus	COST:2000	WT:0	SOURCEPAGE:Fro	SPROP:Focus for Ice Castle
 Miniature of a Platinum Sword (250)	TYPE:MaterialComponent.Focus	COST:250	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Mordenkainen's Sword
+Miniature of a Silver Ladder (50)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Force Ladder
+Miniature of a Violin Bow (Platinum/250)	TYPE:MaterialComponent.Focus	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Fugue
 Mirror (Silver/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:BoVD	SPROP:Focus for Mirror Sending
 Nugget of Adamantine (100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Ironguard (Greater)
 Prayer Beads (500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Atonement
@@ -35,7 +40,7 @@ Ring (Platinum/50 gp)	TYPE:MaterialComponent.Focus.Ring	COST:50	WT:0	SOURCEPAGE:
 Ruby and Gold Lens (1500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Analyze Dweomer
 Set of 4 Pieces of Ivory (200 gp)	TYPE:MaterialComponent.Focus	COST:200	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Legend Lore
 Set of Minature Items (15 gp)	TYPE:MaterialComponent.Focus	COST:15	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Mordenkainen's Magnificent Mansion
-Snow Flake shaped Shuriken (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Zajimarn's Field of Icy Razors
+Snow Flake shaped Shuriken (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Zajimarn's Field of Icy Razors, Field of Icy Razors
 Statuette (Ivory/1500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Contingency, Elminter's Evasion
 Stewpot (Engraved/50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:EXD	SPROP:Focus for Estanna's Stew
 Pottery Vessel (25 gp)	TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:CD	SPROP:Focus for Creeping Cold
@@ -104,6 +109,9 @@ Aquamarine (100 gp)	TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:C
 Tourmaline (100 gp)	TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
 Garnet (100 gp)	TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
 Bloodstone (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Water to Poison
+Mix of Gems (250 gp)	TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
+Mix of Gems (1000 gp)	TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
+Mix of Gems (10000 gp)	TYPE:MaterialComponent.Consumable	COST:10000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
 					
 Incense (1000 gp)	TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Hallow, Unhallow
 Incense (25 gp)	TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Augury, Divine Favor, Commune with Greater Spirit
@@ -116,7 +124,7 @@ Oil (Rare/1000 gp)	TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:P
 					
 Dust (Diamond/100 gp)	TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Restoration, Diamond Spray, Protection from Positive Energy
 Dust (Diamond/250 gp)	TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Stoneskin
-Dust (Diamond/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Nondetection
+Dust (Diamond/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Nondetection, Diamondsteel
 Dust (Diamond/500 gp)	TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Revenance
 Dust (Gold/25 gp)	TYPE:MaterialComponent.Consumable	COST:25	WT:0.5	SOURCEPAGE:PHB	SPROP:Material Component for Arcane Lock
 Dust (Gold/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:1	SOURCEPAGE:PHB	SPROP:Material Component for Wall of Iron
@@ -158,6 +166,7 @@ Mix of Gems Dust (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPA
 Mix of Powder (Iron and Silver/25 gp)	TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PH	SPROP:Material Component for Anarchic Water
 Mix of Powder (Iron and Ruby/100 gp)	TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PH	SPROP:Material Component for Anarchic Water
 Paste of Ruby and Amber (2500 gp)	TYPE:MaterialComponent.Consumable	COST:2500	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Stone Walk
+Ointment (Diamond/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Hardening (for 10 cu.ft.)
 Ointment (250 gp)	TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for True Seeing
 Ointment (1000 gp)	TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:RoE	SPROP:Material Component for True Seeing (Mass)
 Pearls (Crushed/1500 gp)	TYPE:MaterialComponent.Consumable	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Sympathy
@@ -182,3 +191,4 @@ Foo Warrior (Terracotta/1 gp)	TYPE:MaterialComponent.Consumable	COST:1	WT:0	SOUR
 Statuette of a Celestial (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Chasing Perfection
 Statuette of a Fiend (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Chasing Perfection
 Die (Gold/20 gp)	TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Insight of Good Fortune
+Diamond chip embedded in charcoal (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Earth Lock

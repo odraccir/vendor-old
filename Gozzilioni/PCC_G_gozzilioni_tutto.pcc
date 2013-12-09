@@ -31,6 +31,7 @@ PCC:&/Gozzilioni/core/PlayerSHandbook2/G_player_s_handbook_2.pcc
 PCC:&/Gozzilioni/core/MonsterManual2/G_monster_manual_2.pcc
 PCC:&/Gozzilioni/core/MonsterManual3/G_monster_manual_3.pcc
 PCC:&/Gozzilioni/core/FiendFolio/G_fiend_folio.pcc
+PCC:&/Gozzilioni/core/SpellCompendium/G_spell_compendium.pcc
 #Accessories
 PCC:&/Gozzilioni/accessory/BookOfExaltedDeeds/G_bookofexalteddeeds.pcc
 PCC:&/Gozzilioni/accessory/BookOfVileDarkness/G_bookofviledarkness.pcc

@@ -1,0 +1,22 @@
+SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net																															
+#																																	
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWerebear|0	TEMPLATE:Bite of the Werebear
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWereboar|0	TEMPLATE:Bite of the Wereboar
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWererat|0	TEMPLATE:Bite of the Wererat
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWeretiger|0	TEMPLATE:Bite of the Weretiger
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWerewolf|0	TEMPLATE:Bite of the Werewolf
+CATEGORY=Internal|Default.MOD	DEFINE:SpellClawsOfTheBear|0	TEMPLATE:Claws of the Bear
+CATEGORY=Internal|Default.MOD	DEFINE:SpellClawsOfDarkness|0	TEMPLATE:Claws of Darkness
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDireHunger|0	TEMPLATE:Dire Hunger
+CATEGORY=Internal|Default.MOD	DEFINE:SpellEssenceOfTheRaptor|0	TEMPLATE:Essence of the Raptor
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFangsOfTheVampireKing|0	TEMPLATE:Fangs of the Vampire King
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFavorOfTheMartyr|0	TEMPLATE:Favor of the Martyr
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFistOfStone|0	TEMPLATE:Fist of Stone
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFortifyFamiliar|0	TEMPLATE:Fortify Familiar
+CATEGORY=Internal|Default.MOD	DEFINE:SpellGhostform|0	TEMPLATE:Ghostform
+CATEGORY=Internal|Default.MOD	DEFINE:SpellGirallonSBlessing|0	TEMPLATE:Girallon's Blessing
+CATEGORY=Internal|Default.MOD	DEFINE:SpellGoldenBarding|0	TEMPLATE:Golden Barding	DEFINE:SpellGoldenBardingLvl|0
+CATEGORY=Internal|Default.MOD	DEFINE:SpellHeartOfStone|0	TEMPLATE:Heart Of Stone
+
+Blood Drain ~ Fangs of the Vampire Lord	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1 Con damage.	OUTPUTNAME:Blood Drain	SERVESAS:ABILITY=Special Ability|Blood Drain																										SOURCEPAGE:SpC
