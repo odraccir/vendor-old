@@ -31,7 +31,6 @@ EQUIPMENT:CA_equip_rings.lst
 EQUIPMENT:CA_equip_rodsstaffswands.lst
 EQUIPMENT:CA_equip_wondrous.lst
 FEAT:CA_feats.lst
-FEAT:CA_feats_description.lst
 FEAT:CA_feats_epic.lst
 KIT:CA_kits_races.lst
 KIT:CA_kits_treasure_spell_object.lst

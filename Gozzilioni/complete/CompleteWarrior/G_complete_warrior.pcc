@@ -31,9 +31,7 @@ EQUIPMENT:CW_equip_weap_ranged_specific.lst
 EQUIPMOD:CW_equipmods_base.lst
 EQUIPMOD:CW_equipmods_enhancing.lst
 FEAT:CW_feats.lst
-FEAT:CW_feats_description.lst
 FEAT:CW_feats_epic.lst
-#FEAT:CW_feats_hidden.lst
 KIT:CW_kits_races.lst
 RACE:CW_races.lst
 SKILL:CW_skills.lst

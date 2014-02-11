@@ -16,8 +16,6 @@ INFOTEXT:Rsrd official addition and modification from the PHB or the forum
 #Manuale dei mostri
 LANGUAGE:mm_languages.lst
 RACE:mm_races.lst
-TEMPLATE:mm_templates.lst
-TEMPLATE:mm_templates_types.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

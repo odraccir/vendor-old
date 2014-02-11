@@ -7,7 +7,7 @@ Attune Gem	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=3							PRESKI
 #Energy Substitution																																										
 #Eschew Materials																																										
 #Reactive Counterspell																																										
-Spell Girding	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:MoF	
+Spell Girding	TYPE:General	VISIBLE:YES																						DESC:Your spells are particularly hardy, resisting dispel checks more readly than normal.																	SOURCEPAGE:MoF	
 #Spell Thematics																																										
-Spellfire Wielder	TYPE:General	VISIBLE:YES									PRELEVELMAX:1													DESC:See Text																	SOURCEPAGE:MoF	ABILITY:Special Ability|AUTOMATIC|Spellfire
+Spellfire Wielder	TYPE:General	VISIBLE:YES									PRELEVELMAX:1													DESC:You are una of the rare people who have the innate talent to control raw magic in the form of spellfire.																	SOURCEPAGE:MoF	ABILITY:Special Ability|AUTOMATIC|Spellfire
 #Widen Spell																																										

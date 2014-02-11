@@ -1,9 +1,9 @@
 SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net								
 										
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Modify VAR	Temporary effect description
-#Craft (Poisonmaking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	PBONUS:SKILL|Craft (Poisonmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PoisonmakingingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
-Craft (Clockmaking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:RLPHB	BONUS:SKILL|Craft (Clockmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ClockmakingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
-Craft (Gunsmithing)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:RLPHB	BONUS:SKILL|Craft (Gunsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=GunsmithingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+#Craft (Poisonmaking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	TEMPBONUS:PC|SKILL|Craft (Poisonmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PoisonmakingingTools					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Clockmaking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:RLPHB	TEMPBONUS:PC|SKILL|Craft (Clockmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ClockmakingTools					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
+Craft (Gunsmithing)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:RLPHB	TEMPBONUS:PC|SKILL|Craft (Gunsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=GunsmithingTools					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Knowledge (Monster Lore)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:RLPHB
 Knowledge (Ravenloft)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:RLPHB
 Knowledge (Folklore)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Knowledge	SOURCEPAGE:RLPHB

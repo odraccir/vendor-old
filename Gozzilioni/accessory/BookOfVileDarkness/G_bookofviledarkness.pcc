@@ -40,7 +40,6 @@ EQUIPMENT:BoVD_equip_weap_ranged.lst
 EQUIPMENT:BoVD_equip_wondrous.lst
 EQUIPMOD:BoVD_equipmods_enhancing.lst
 FEAT:BoVD_feats.lst
-#FEAT:BoVD_feats_description.lst
 KIT:BoVD_kits.lst
 ARMORPROF:BoVD_profs_armor.lst
 RACE:BoVD_races.lst
@@ -48,7 +47,6 @@ RACE:BoVD_races__base.lst
 SPELL:BoVD_spells.lst
 TEMPLATE:BoVD_templates.lst
 TEMPLATE:BoVD_templates_hidden.lst
-TEMPLATE:BoVD_templates_type.lst
 WEAPONPROF:BoVD_weaponprofs.lst
 
 #ABILITY:my_abilities.lst

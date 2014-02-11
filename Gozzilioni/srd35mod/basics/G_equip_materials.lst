@@ -21,7 +21,11 @@ Hollow cone of brass and gold (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	
 Holy Water Font (100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Scrying
 Hourglass (Platinum and Crystal/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:CA	SPROP:Focus for Anticipate Teleportation (Greater)
 Hourglass (Platinum and Crystal/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:CA	SPROP:Focus for Anticipate Teleportation
-Heart of Stone (
+Hourglass (Diamond/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:CA	SPROP:Focus for Hindsight
+Heart (Jade or obsidian or gold marbled/5000 gp)	TYPE:MaterialComponent.Focus	COST:5000	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Heart of Stone.
+Small Chain (Platinum/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Howling Chain
+Quartz (Clear/50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Icelance.
+
 Iron Bars (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Repulsion
 Ivory Plaque (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Rary's Mnemonic Enhancer
 Jade Circlet (1500 gp)	TYPE:MaterialComponent.Focus.Headgear	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Shapechange
@@ -33,7 +37,7 @@ Miniature of a Platinum Sword (250)	TYPE:MaterialComponent.Focus	COST:250	WT:0	S
 Miniature of a Silver Ladder (50)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Force Ladder
 Miniature of a Violin Bow (Platinum/250)	TYPE:MaterialComponent.Focus	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Fugue
 Mirror (Silver/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:BoVD	SPROP:Focus for Mirror Sending
-Nugget of Adamantine (100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Ironguard (Greater)
+Nugget of Adamantine (100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Ironguard, Ironguard (Greater)
 Prayer Beads (500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Atonement
 Reliquiary (500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Cloak of Chaos, Holy Aura, Unholy Aura, Shield of Law
 Ring (Platinum/50 gp)	TYPE:MaterialComponent.Focus.Ring	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Shield Other, Glory of the Martyr
@@ -48,9 +52,11 @@ Silver Loop (25 gp)	TYPE:MaterialComponent.Focus.Headgear	COST:25	WT:0	SOURCEPAG
 Statuette of an Unicorn (Ivory/25 gp)	TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:PHB2	SPROP:Focus for Melf's Unicorn Arrow
 Sapphire (1000 gp)	TYPE:MaterialComponent.Focus.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Simbul's Spell Sequencer. Material Component for Drawmij's Instant Summons. 
 Sculpture of humanoid (Glass/50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Acid Sheath.
+Sculpture of worg (25 gp)	TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Jaws of Worg.
 Bell (Crystall/100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Alarm (Greater).
 Goblet (Crystall/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Body Harmonic.
 Miniature Fiddle (Silver/30 gp)	TYPE:MaterialComponent.Focus	COST:30	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Bonefiddle.
+Onyx sphere mounted on a obsidian Stand (6-in/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Hide the Path.
 					
 Holy Symbol (Silver/Anathema)	TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
 Unholy Symbol (Silver/Anathema)	TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
@@ -161,6 +167,7 @@ Bar (Silver/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PH	
 Bar (Platinum/25 gp)	TYPE:MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:Drac	SPROP:Material Component for Antidragon Aura
 Miniature Chains (Cold Iron/500gp)	TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Binding
 Miniature Chains (Silver/500gp)	TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Binding
+Miniature Chains (Silver/10 gp)	TYPE:MaterialComponent.Consumable	COST:10	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Constricting Chain
 Mix of Gems Dust (5000 gp)	TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Temporal Stasis
 Mix of Gems Dust (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Khelben's Suspended Silence, Arrow of Bone
 Mix of Powder (Iron and Silver/25 gp)	TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PH	SPROP:Material Component for Anarchic Water
@@ -174,12 +181,12 @@ Pearl (100 gp)	TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:Drac	S
 Pearl (Black/500 gp)	TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Revive Undead
 Pearl (Black/200 gp)	TYPE:MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:Mon	SPROP:Material Component for Create Darkenbeast
 Pearl (Gray/100 gp)	TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Defenestrating Sphere
+
 Small Replica of Self (5 gp)	TYPE:MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Project Image
 Sphere (Amber/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Amber Sarcophagus
-Miniature Chains (Silver/10 gp)	TYPE:MaterialComponent.Consumable	COST:10	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Constricting Chain
 Hammer (Salt Crystal/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:Fro	SPROP:Material Component for Crack Ice
 Ship Model (Glass/200 gp)	TYPE:MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:Fro	SPROP:Material Component for Ice Ship
-Onyx (Carved/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Kiss of the Vampire
+Onyx (Carved/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Kiss of the Vampire.
 Mirror (Silver/50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Alamanther's Return
 Mix of Exotic herbs ground bones and onyx dust (50 gp)	OUTPUTNAME:Mix of Exotic herbs, ground bones and onyx dust (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Death Armor
 Wheel (Silver/1000 gp)	TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Spell Engine
@@ -192,3 +199,4 @@ Statuette of a Celestial (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	
 Statuette of a Fiend (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Chasing Perfection
 Die (Gold/20 gp)	TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Insight of Good Fortune
 Diamond chip embedded in charcoal (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Earth Lock
+Concotion (Demon skin and rare herbs/250 gp)	TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Instant Refuge.

@@ -20,10 +20,11 @@ Augmented (Undead)	VISIBLE:NO	RACESUBTYPE:Augmented|Augmented Undead
 Augmented (Vermin)	VISIBLE:NO	RACESUBTYPE:Augmented|Augmented Vermin																		
 #																				
 Horse Untrained	VISIBLE:NO
+#
 Assign Subtype ~ Mount														RACESUBTYPE:Mount
 Assign Subtype ~ Steed														RACESUBTYPE:Steed
+Assign Subtype ~ Acid														RACESUBTYPE:Acid
+Assign Subtype ~ Electricity														RACESUBTYPE:Electricity
 #
 Vampire.MOD	RACESUBTYPE:Vampire
 #
-Electricity	VISIBLE:NO	RACESUBTYPE:Electricity	ABILITY:Special Ability|AUTOMATIC|Electricity Traits
-Acid	VISIBLE:NO	RACESUBTYPE:Acid	ABILITY:Special Ability|AUTOMATIC|Acid Traits

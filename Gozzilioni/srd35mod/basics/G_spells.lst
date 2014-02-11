@@ -23,8 +23,8 @@ Mage's Sword.COPY=Mordenkainen's Sword
 #Nystul																										
 Magic Aura.COPY=Nystul's Magic Aura																										
 #Otiluke																										
-#Dispelling Screen.COPY=Otiluke's Dispelling Screen	SOURCEPAGE:CA																									
-#Dispelling Screen (Greater).COPY=Otiluke's Dispelling Screen (Greater)	OUTPUTNAME:Otiluke's Dispelling Screen, Greater	SOURCEPAGE:CA																								
+Dispelling Screen.COPY=Otiluke's Dispelling Screen																										
+Dispelling Screen (Greater).COPY=Otiluke's Dispelling Screen (Greater)																										
 Freezing Sphere.COPY=Otiluke's Freezing Sphere																										
 Resilient Sphere.COPY=Otiluke's Resilient Sphere																										
 #Otto																										

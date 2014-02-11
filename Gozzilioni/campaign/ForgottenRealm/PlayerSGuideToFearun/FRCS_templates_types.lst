@@ -1,5 +1,0 @@
-SOURCELONG:Forgotten Realms Campaign Setting	SOURCESHORT:FRCS	SOURCEWEB:http://www.gozzilioni.net					
-#							
-###Block: Creature Subtypes							
-# Template Name	Visible	Source Page	Special Ability				
-Rothe	VISIBLE:NO	SOURCEPAGE:FRCS				ABILITY:Special Ability|AUTOMATIC|Stampede	ABILITY:Special Ability|AUTOMATIC|Resistance To Enchantment

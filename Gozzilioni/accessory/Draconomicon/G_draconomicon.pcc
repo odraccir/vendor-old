@@ -35,13 +35,11 @@ EQUIPMENT:Drac_equip_weap_ranged_specific.lst
 EQUIPMENT:Drac_equip_wondrous.lst
 EQUIPMOD:Drac_equipmods_base.lst
 FEAT:Drac_feats.lst
-FEAT:Drac_feats_description.lst
 RACE:Drac_races.lst
 RACE:Drac_races__dragons.lst
 SPELL:Drac_spells.lst
 TEMPLATE:Drac_templates.lst
 TEMPLATE:Drac_templates_hidden.lst
-TEMPLATE:Drac_templates_types.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

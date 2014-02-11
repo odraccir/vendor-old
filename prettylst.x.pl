@@ -114,6 +114,7 @@ my %validfiletype = (
     'SOURCESHORT'  => 0,
     'SOURCEWEB'    => 0,
     'SOURCEDATE'   => 0,                  #[ 1584007 ] New Tag: SOURCEDATE in PCC
+	'SOURCELINK'	=> 0,
     'SPELL'        => \&FILETYPE_parse,
     'TEMPLATE'     => \&FILETYPE_parse,
     'WEAPONPROF'   => \&FILETYPE_parse,
@@ -553,6 +554,10 @@ my @valid_system_game_modes     = qw(
     SovereignStoneD20
     Spycraft
     Xcrawl
+	Gaslight
+	Darwins_World_2
+	Killshot
+	OSRIC
     
     CMP_D20_Fantasy_v30e
     CMP_D20_Fantasy_v35e
@@ -1578,6 +1583,8 @@ my @PRE_Tags = (
     '!PRELEVEL',
     'PRELEVELMAX',
     '!PRELEVELMAX',
+	'PREKIT',
+	'!PREKIT',
     'PREMOVE',
     '!PREMOVE',
     'PREMULT:*',
@@ -1758,6 +1765,7 @@ my @SOURCE_Tags = (
     'SOURCEWEB',
     'SOURCEPAGE:.CLEAR',
     'SOURCEPAGE',
+	'SOURCELINK',
 );
 
 my @QUALIFY_Tags = (
@@ -2034,7 +2042,7 @@ my %master_order = (
 		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
         'HASSUBCLASS',
         'ALLOWBASECLASS',
-        'HASSUBSTITUTIONLEVEL',
+#        'HASSUBSTITUTIONLEVEL',
         'EXCLASS',
         @SOURCE_Tags,
 #		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
@@ -2768,6 +2776,7 @@ my %master_order = (
     ],
 
     'PCC' => [
+		'ALLOWDUPES',
         'CAMPAIGN',
         'GAMEMODE',
         'GENRE',
@@ -2803,6 +2812,7 @@ my %master_order = (
         'REQSKILL',
 		'STATUS',
 		'FORWARDREF',
+		'OPTION',
 
         # These tags load files
         'ABILITY',
@@ -4130,6 +4140,8 @@ my %tagheader = (
         'PRELANG'               => 'Required Language',
         'PRELEVEL'              => 'Required Lvl',
         'PRELEVELMAX'           => 'Maximum Level',
+		'PREKIT'			=> 'Required Kit',
+		'!PREKIT'			=> 'Prohibited Kit',
         'PREMOVE'               => 'Required Movement Rate',
         '!PREMOVE'              => 'Prohibited Movement Rate',
         'PREMULT',              => 'Multiple Requirements',
@@ -4249,6 +4261,7 @@ my %tagheader = (
         'SOURCESHORT'           => 'Source, Short Desc.',
         'SOURCEWEB'             => 'Source URI',
         'SOURCEDATE'            => 'Source Pub. Date',
+		'SOURCELINK'		=> 'Source Pub Link',
         'SPELLBOOK'             => 'Spellbook',
         'SPELLFAILURE'          => '% of Spell Failure',
         'SPELLLIST'             => 'Use Spell List',
@@ -4323,7 +4336,7 @@ my %tagheader = (
 		'CLASSTYPE'			=> 'Class Type',
         'ABB'                   => 'Abbreviation',
         'ALLOWBASECLASS',       => 'Base class as subclass?',
-        'HASSUBSTITUTIONLEVEL'  => 'Substitution levels?',
+#        'HASSUBSTITUTIONLEVEL'  => 'Substitution levels?',
 #		'HASSPELLFORMULA'		=> 'Spell Fomulas?',		# [ 1893279 ] HASSPELLFORMULA Class Line tag # [ 1973497 ] HASSPELLFORMULA is deprecated
         'ITEMCREATE'            => 'Craft Level Mult.',
         'LEVELSPERFEAT'         => 'Levels per Feat',
@@ -4354,7 +4367,7 @@ my %tagheader = (
         '000DeityName'  => '# Deity Name',
         'DOMAINS'       => 'Domains',
         'FOLLOWERALIGN' => 'Clergy AL',
-        'DESC'          => 'Desciption of Deity/Title',
+		'DESC'			=> 'Description of Deity/Title',
         'SYMBOL'        => 'Holy Item',
         'DEITYWEAP'     => 'Deity Weapon',
         'TITLE'         => 'Deity Title',
@@ -6843,13 +6856,13 @@ sub parse_tag {
     # [ 1683231 ] CHOOSE:SCHOOLS does not have arguments
     # Warn if there are arguments passed to CHOOSE:SCHOOLS
 
-    if ($tag_text =~ '^CHOOSE:SCHOOLS\|') {
-        $logging->ewarn(WARNING,
-	       qq{Invalid format in "$tag_text", CHOOSE:SCHOOLS does not support any additional arguments or the pipe separator.},
-	       $file_for_error,
-	       $line_for_error
-	       );
-    }
+#    if ($tag_text =~ '^CHOOSE:SCHOOLS\|') {
+#        $logging->ewarn(WARNING,
+#	       qq{Invalid format in "$tag_text", CHOOSE:SCHOOLS does not support any additional arguments or the pipe separator.},
+#	       $file_for_error,
+#	       $line_for_error
+#	       );
+#    }
 
 
     # Special cases like ADD:... and BONUS:...

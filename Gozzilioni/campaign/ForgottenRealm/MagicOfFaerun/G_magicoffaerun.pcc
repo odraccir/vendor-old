@@ -32,9 +32,7 @@ EQUIPMENT:MoF_equip_wondrous.lst
 EQUIPMOD:MoF_equipmods_base.lst
 EQUIPMOD:MoF_equipmods_enhancing.lst
 FEAT:MoF_feats.lst
-FEAT:MoF_feats_description.lst
 LANGUAGE:MoF_languages.lst
-SPELL:MoF_spells.lst
 RACE:MoF_races.lst
 SPELL:MoF_spells.lst
 TEMPLATE:MoF_templates.lst

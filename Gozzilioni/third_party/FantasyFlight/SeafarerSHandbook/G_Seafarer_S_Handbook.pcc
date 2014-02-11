@@ -30,7 +30,6 @@ EQUIPMENT:Ssh_equip_wondrousitems.lst
 EQUIPMOD:Ssh_equipmods_base.lst
 EQUIPMOD:Ssh_equipmods_enhancing.lst
 FEAT:Ssh_feats.lst
-FEAT:Ssh_feats_description.lst
 LANGUAGE:Ssh_languages.lst
 ARMORPROF:Ssh_profs_armor.lst
 RACE:Ssh_races__base.lst

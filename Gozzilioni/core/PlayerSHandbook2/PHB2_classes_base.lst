@@ -334,7 +334,7 @@ CLASS:Swashbuckler.MOD
 SUBSTITUTIONCLASS:Shield of Blades																																							
 SUBSTITUTIONLEVEL:5				ABILITY:Special Ability|AUTOMATIC|Shield of Blades|Swashbuckler Shield of Blades			BONUS:VAR|SwashbucklerShieldOfBladesLVL|CL																																
 #																																							
-CLASS:Warlock.MOD	HASSUBSTITUTIONLEVEL:YES																																						
+CLASS:Warlock.MOD																																							
 SUBSTITUTIONCLASS:Fiendish Flamewrath
 SUBSTITUTIONLEVEL:8				ABILITY:Special Ability|AUTOMATIC|Fiendish Flamewrath			BONUS:ABILITYPOOL|Warlock Lesser Invocation|1	BONUS:VAR|FiendishFlamewrathPerDay|1	BONUS:VAR|FiendishFlamewrathDamage|max(2,((CL-3)/5))																														
 SUBSTITUTIONLEVEL:18							BONUS:ABILITYPOOL|Warlock Dark Invocation|1	BONUS:VAR|FiendishFlamewrathDamage|3																															

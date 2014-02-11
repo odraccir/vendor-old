@@ -6,7 +6,7 @@ SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilio
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
 CLASS:Charlatan	HD:6	TYPE:Prestige.NPC	ABB:Chl	MAXLEVEL:5	SOURCEPAGE:RLCoD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
-CLASS:Charlatan	PRESKILL:1,Bluff=8	PRESKILL:2,Diplomacy=6,Forgery=6	PRESKILL:2,Skill Focus(Bluff),Skill Focus(Diplomacy)									
+CLASS:Charlatan	PRESKILL:1,Bluff=8	PRESKILL:2,Diplomacy=6,Forgery=6	PREFEAT:2,Skill Focus(Bluff),Skill Focus(Diplomacy)									
 #CLASS:Charlatan	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Innuendo|Listen|TYPE.Perform|TYPE.Profession|Read Lips|Search|Sense Motive|Spot|Use Magic Device										
 CLASS:Charlatan	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Listen|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Spot|Use Magic Device										
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Charlatan

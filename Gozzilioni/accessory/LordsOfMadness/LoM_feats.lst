@@ -2,11 +2,10 @@ SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net
 																																													
 # BASICS																				[PREMULT:2,[PRERACE:1,RACESUBTYPE=Human],[PREREGION:1,Rashemen]]																									
 # Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page				
-#Arcane Preparation																																													
-Craft Aboleth Glyph	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=5															PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
-Death Frenzy	TYPE:General	VISIBLE:YES				PREFEAT:2,Diehard,Endurance														PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
-Enlarge Mucus Cloud	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=20					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
-Memory Eater	TYPE:General	VISIBLE:YES													PRESTAT:1,CHA=21					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
+Craft Aboleth Glyph	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=5															PRERACE:1,RACESUBTYPE=Aboleth				DESC:An aboleth with this feat can create magic glyphs that store spells or have specialized effects of their own.																	SOURCEPAGE:LoM				
+Death Frenzy	TYPE:General	VISIBLE:YES				PREFEAT:2,Diehard,Endurance														PRERACE:1,RACESUBTYPE=Aboleth				DESC:When an aboleth takes this feat, its sense of immortality rebels against the very concept of death. If threatened with death, the creature becomes frenzied with speed and fury.																	SOURCEPAGE:LoM				
+Enlarge Mucus Cloud	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=20					PRERACE:1,RACESUBTYPE=Aboleth				DESC:An aboleth with this feat can extend its mucus cloud into a wider area.																	SOURCEPAGE:LoM				
+Memory Eater	TYPE:General	VISIBLE:YES													PRESTAT:1,CHA=21					PRERACE:1,RACESUBTYPE=Aboleth				DESC:An aboleth with this feat is particularly adept at extracting memories and knowledge from the bodies of those it consumes.																	SOURCEPAGE:LoM				
 Powerful Bite	TYPE:General	VISIBLE:YES				PREFEAT:1,Weapon Focus(Aboleth Bite)									PRESTAT:1,STR=28					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text						BONUS:WEAPONPROF=Aboleth Bite|DAMAGESIZE|3											SOURCEPAGE:LoM				
 Quickslime	TYPE:General	VISIBLE:YES				PREFEAT:1,Ability Focus(Slime)														PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				
 Reach Bite	TYPE:General	VISIBLE:YES				PREFEAT:2,Powerful Bite,Weapon Focus(Aboleth Bite)									PRESTAT:1,STR=28					PRERACE:1,RACESUBTYPE=Aboleth				DESC:See Text																	SOURCEPAGE:LoM				

@@ -1,13 +1,14 @@
-CAMPAIGN:Gozzilioni Adventure
+CAMPAIGN:Gozzilioni Adv Cooking
 GAMEMODE:35e
 RANK:7
 TYPE:Gozzilioni.WebEnhancement
 SETTING:Heroes
-SOURCELONG:Gozzilioni 
-SOURCESHORT:Adv
-SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Adv Old Rock tower
+SOURCESHORT:ADV
+#SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
+SOURCEDATE:2010-07
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #

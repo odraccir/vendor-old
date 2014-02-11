@@ -18,6 +18,7 @@ ABILITY:FFo_abilities_class.lst
 CLASS:FFo_classes_monster_specific.lst
 CLASS:FFo_classes_prestige.lst
 SPELL:FFo_classes_spells.lst
+SPELL:FFo_spells.lst
 EQUIPMENT:FFo_equip.lst
 EQUIPMENT:FFo_equip_armorshields_specific.lst
 EQUIPMENT:FFo_equip_poisons.lst

@@ -31,7 +31,6 @@ EQUIPMENT:Nep_equip_weap_ranged_specific.lst
 EQUIPMENT:Nep_equip_wondrous.lst
 EQUIPMOD:Nep_equipmods_enhancing.lst
 FEAT:Nep_feats.lst
-FEAT:Nep_feats_description.lst
 KIT:Nep_kits_races.lst
 LANGUAGE:Nep_languages.lst
 RACE:Nep_races.lst

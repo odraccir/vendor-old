@@ -11,7 +11,4 @@ Tzanaar Bite Large	VISIBLE:NO	PRESIZEEQ:L					NATURALATTACKS:Bite,Weapon.Natural
 Tzanaar Bite Huge	VISIBLE:NO	PRESIZEEQ:H					NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Finesseable,*1,2d6																															
 Tzanaar Bite Gargantuan	VISIBLE:NO	PRESIZEEQ:G					NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Finesseable,*1,3d6																															
 Tzanaar Bite Colossal	VISIBLE:NO	PRESIZEEQ:C					NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Finesseable,*1,4d6																															
-Tzanaar Bite Colossal+	VISIBLE:NO	PRESIZEEQ:C+					NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Finesseable,*1,5d6																															
-#																																						
-# 																																						
-Piaga Funesta	VISIBLE:NO		VISION:Blindsight (150')	ABILITY:Special Ability|AUTOMATIC|Piaga Funesta Traits|Piaga Funesta Nondetection|Atavic Terror|Immunity To Polymorph|True Seeing	ABILITY:Special Ability|AUTOMATIC|Fast Healing	BONUS:VAR|FastHealing|20
+Tzanaar Bite Colossal+	VISIBLE:NO	PRESIZEEQ:P					NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Finesseable,*1,5d6																															

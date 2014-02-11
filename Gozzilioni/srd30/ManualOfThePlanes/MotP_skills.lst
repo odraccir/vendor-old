@@ -1,5 +1,4 @@
 SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																								
 										
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Modify VAR	Temporary effect description
-#Craft (Poisonmaking)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:Sottinteso	BONUS:SKILL|Craft (Poisonmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PoisonmakingingTools|PREAPPLY:PC					TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used
 Lucid Dreaming	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom	SOURCEPAGE:MotP	

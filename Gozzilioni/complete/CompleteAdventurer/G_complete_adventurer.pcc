@@ -26,12 +26,11 @@ EQUIPMENT:CAd_equip_poisons.lst
 EQUIPMENT:CAd_equip_weap_melee.lst
 EQUIPMOD:CAd_equipmods_enhancing.lst
 FEAT:CAd_feats.lst
-FEAT:CAd_feats_description.lst
 FEAT:CAd_feats_epic.lst
 FEAT:CAd_feats_hidden.lst
 SKILL:CAd_skills.lst
 SPELL:CAd_spells.lst
-TEMPLATE:CAd_templates_types.lst
+TEMPLATE:CAd_templates_hidden.lst
 WEAPONPROF:CAd_weaponprofs.lst
 
 #BIOSET:my_biosettings.lst

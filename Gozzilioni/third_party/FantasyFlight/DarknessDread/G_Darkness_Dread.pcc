@@ -20,7 +20,6 @@ SPELL:DD_classes_spells.lst
 FEAT:DD_feats.lst
 RACE:DD_races.lst
 SKILL:DD_skills.lst
-TEMPLATE:DD_templates_types.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

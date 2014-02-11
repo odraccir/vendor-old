@@ -25,6 +25,7 @@ PCC:&/Gozzilioni/srd35mod/monsters/G_RsrdMonsters.pcc
 PCC:&/Gozzilioni/srd30/G_old_srd.pcc
 PCC:&/Gozzilioni/srd30/ArmsAndEquipmentGuide/G_ArmsAndEquipmentGuide.pcc
 PCC:&/Gozzilioni/srd30/ManualOfThePlanes/G_ManualOfThePlanes.pcc
+PCC:&/Gozzilioni/srd30/SavageSpecies/G_savagespecies.pcc
 #Core
 PCC:&/Gozzilioni/core/DungeonSMasterGuide2/G_dungeon_s_master_guide_2.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook2/G_player_s_handbook_2.pcc
@@ -40,7 +41,6 @@ PCC:&/Gozzilioni/accessory/Frostburn/G_Frostburn.pcc
 PCC:&/Gozzilioni/accessory/LibrisMortis/G_libris_mortis.pcc
 PCC:&/Gozzilioni/accessory/LordsOfMadness/G_LordsOfMadness.pcc
 PCC:&/Gozzilioni/accessory/PlanarHandbook/G_planar_handbook.pcc
-PCC:&/Gozzilioni/accessory/SavageSpecies/G_savagespecies.pcc
 #Complete
 PCC:&/Gozzilioni/complete/CompleteAdventurer/G_complete_adventurer.pcc
 PCC:&/Gozzilioni/complete/CompleteArcane/G_complete_arcane.pcc

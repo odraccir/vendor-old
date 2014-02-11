@@ -36,7 +36,6 @@ RACE:LoM_races.lst
 SPELL:LoM_spells.lst
 TEMPLATE:LoM_templates.lst
 TEMPLATE:LoM_templates_hidden.lst
-TEMPLATE:LoM_templates_types.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

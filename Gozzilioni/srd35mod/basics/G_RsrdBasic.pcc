@@ -31,7 +31,6 @@ FEAT:G_feats.lst
 RACE:G_races__base.lst
 SPELL:G_spells.lst
 TEMPLATE:G_templates.lst
-TEMPLATE:G_templates_types.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

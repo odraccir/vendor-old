@@ -30,11 +30,10 @@ EQUIPMENT:SS_equip_weap_ranged.lst
 EQUIPMENT:SS_equip_weap_ranged_specific.lst
 EQUIPMENT:SS_equip_wondrous.lst
 FEAT:SS_feats.lst
-FEAT:SS_feats_description.lst
 RACE:SS_races.lst
 SPELL:SS_spells.lst
 TEMPLATE:SS_templates_hidden.lst
-TEMPLATE:SS_templates_types.lst
+TEMPLATE:SS_templates.lst
 WEAPONPROF:SS_weaponprofs.lst
 
 #ABILITY:my_abilities.lst

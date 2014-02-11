@@ -198,7 +198,7 @@ CLASS:Ex Dracolyte	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Heal|Jum
 10	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Summon Dragon|Dracolyte Summon Dragon							
 #											
 CLASS:Dragonkith	HD:8	TYPE:Prestige	ABB:Dkt	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Dragonkith	PREATT:6	PREFEAT:2,Alertness,Endurance	PRESKILL:1,Knowledge (Arcana)	PRELANG:1,Draconic	PRETEXT:Must be chosen by a dragon of the same alignment.						
+CLASS:Dragonkith	PREATT:6	PREFEAT:2,Alertness,Endurance	PRESKILL:1,Knowledge (Arcana)=4	PRELANG:1,Draconic	PRETEXT:Must be chosen by a dragon of the same alignment.						
 CLASS:Dragonkith	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|TYPE.Craft|Diplomacy|Intimidate|TYPE.Knowledge|TYPE.Profession|Search|Spot									
 1				ABILITY:Special Ability|AUTOMATIC|Scales|Dragonkith Scales|Telepathic Plea			BONUS:VAR|DragonkithScalesLVL|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Mighty Attack|Dragonkith Mighty Attack			BONUS:VAR|DragonkithMightyAttackLVL|CL				

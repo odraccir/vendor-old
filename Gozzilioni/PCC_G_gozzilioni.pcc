@@ -33,7 +33,6 @@ ABILITY:G_abilities_racial.lst
 ABILITY:G_abilities_regions.lst
 BIOSET:G_biosettings.lst
 CLASS:G_classes_hidden.lst
-CLASS:G_classes_monsters.lst
 DEITY:G_deities.lst
 EQUIPMENT:G_equip.lst
 EQUIPMENT:G_equip_armorshields.lst

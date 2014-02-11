@@ -14,7 +14,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Monster Manual 2
-ABILITY:mm2_abilities_class.lst	
+ABILITY:mm2_abilities_class.lst
 CLASS:mm2_classes_monster__dragons.lst
 CLASS:mm2_classes_monster_specific.lst
 COMPANIONMOD:mm2_companionmods.lst
@@ -33,7 +33,6 @@ RACE:mm2_races.lst
 RACE:mm2_races__dragons.lst
 SKILL:mm2_skills.lst
 TEMPLATE:mm2_templates.lst
-TEMPLATE:mm2_templates_types.lst
 WEAPONPROF:mm2_weaponprofs.lst
 
 #BIOSET:my_biosettings.lst

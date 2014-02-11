@@ -1,3 +1,0 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net															
-																	
-Kython		VISIBLE:YES	SOURCEPAGE:BoVD	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold|Resistance To Fire|Immunity To Electricity|Kython Traits	ABILITY:Special Ability|AUTOMATIC|Kython Weaponry|!PRERACE:1,Kython (Bloodling)	VISION:Blindsight (60')	BONUS:VAR|FireResistanceBonus|20	BONUS:VAR|ElectricityResistanceBonus|20	AUTO:WEAPONPROF|TYPE.Kython	AUTO:ARMORPROF|ARMORTYPE=Kython								

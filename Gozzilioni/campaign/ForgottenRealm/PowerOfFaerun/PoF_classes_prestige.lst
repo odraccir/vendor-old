@@ -36,5 +36,5 @@ CLASS:Court Herald	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL
 11	CAST:6,4,4,3,2,1,0	KNOWN:6,5,4,4,3,2,1		ABILITY:Class Ability|AUTOMATIC|True Lore								
 12	CAST:6,4,4,3,3,2,1	KNOWN:6,5,5,4,3,2,1		SR:CL								
 #
-###TODO:Sunmaster Prestige class
+###TODO:Sunmaster Prestige class from Lost Empire of Faerun
 CLASS:Sunmaster.MOD	PREMULT:1,[PREFEAT:1,Servant of the Fallen],[PREABILITY:1,CATEGORY=Guild Category,Risen Sun Heresy]

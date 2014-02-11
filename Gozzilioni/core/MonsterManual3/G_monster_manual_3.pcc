@@ -25,14 +25,12 @@ EQUIPMENT:mm3_equip_weap_melee_specific.lst
 EQUIPMENT:mm3_equip_weap_ranged.lst
 EQUIPMENT:mm3_equip_wondrous.lst
 FEAT:mm3_feats.lst
-FEAT:mm3_feats_description.lst
 LANGUAGE:mm3_languages.lst
 RACE:mm3_races.lst
 SKILL:mm3_skills.lst
 SPELL:mm3_spells.lst
 TEMPLATE:mm3_templates.lst
 TEMPLATE:mm3_templates_hidden.lst
-TEMPLATE:mm3_templates_types.lst
 WEAPONPROF:mm3_weaponprofs.lst
 
 #BIOSET:my_biosettings.lst

@@ -413,7 +413,7 @@ CLASS:Ronin	STARTSKILLPTS:2	CSKILL:Bluff|Disguise|Intimidate|Knowledge (History)
 10												
 #												
 CLASS:Spellsword	HD:8	TYPE:Prestige	ABB:Ssw	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-CLASS:Spellsword	PREATT:4	PRESKILL:1,Knowledge (Arcana)=6	PREFEAT:1,CHECKMULT,Simple Weapon Proficiency	PREFEAT:1,CHECKMULT,Martial Weapon Proficiency	PREFEAT:3|Armor Proficiency (Light),Armor Proficiency (Medium),Armor Proficiency (Heavy)	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=2	PRETEXT:Must have defeated an foe through force of arms alone, without recourse to spellcasting				
+CLASS:Spellsword	PREATT:4	PRESKILL:1,Knowledge (Arcana)=6	PREFEAT:1,CHECKMULT,Simple Weapon Proficiency	PREFEAT:1,CHECKMULT,Martial Weapon Proficiency	PREFEAT:3,Armor Proficiency (Light),Armor Proficiency (Medium),Armor Proficiency (Heavy)	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=2	PRETEXT:Must have defeated an foe through force of arms alone, without recourse to spellcasting				
 CLASS:Spellsword	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Knowledge|Jump|TYPE.Profession|Spellcraft										
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Ignore Spell Failure|Spellsword Ignore Spell Failure			BONUS:VAR|SpellswordIgnoreSpellFailureLVL|CL					
 2							BONUS:ABILITYPOOL|Spellsword Feat|1					

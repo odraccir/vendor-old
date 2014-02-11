@@ -6,7 +6,7 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 # Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)												
 #(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)							
 CLASS:Vampire		TYPE:PC.Monster.Template	ABB:Vmp	MAXLEVEL:8	SOURCEPAGE:SP												
-CLASS:Vampire	!PRETEMPLATE:1|Vampire	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humandoid															
+CLASS:Vampire	!PRETEMPLATE:1,Vampire	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humandoid															
 CLASS:Vampire	STARTSKILLPTS:0																
 1	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Vampire;LEVEL=1|-1|PRERACE:1,RACESUBTYPE=Human	AUTO:FEAT|Alertness|Dodge	ABILITY:Special Ability|AUTOMATIC|Blood Drain (Lesser) ~ Vampire|Resistances ~ Vampire|Spawn Slavery ~ Vampire|Spider Climb ~ VAMPIRE TEMPLATE	TEMPLATE:Assign Subtype ~ Vampire												
 2	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Vampire;LEVEL=2|-1|PRERACE:1,RACESUBTYPE=Human	AUTO:FEAT|Improved Initiative|Lightning Reflexes	ABILITY:Special Ability|AUTOMATIC|Blood Drain (Moderate) ~ Vampire|Fortification|Skills ~ Vampire			BONUS:STAT|STR|2	BONUS:VAR|FortificationPower|1	BONUS:VAR|VampireSkills|(CL/2)*2								
@@ -66,7 +66,7 @@ SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
 3	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Half Dragon;LEVEL=3|-1|PRERACE:1,RACESUBTYPE=Human		ABILITY:Special Ability|AUTOMATIC|Dragonize ~ Half Dragon		TEMPLATE:CHOOSE:Half Dragon Wings ~ Normal|Half Dragon Wings ~ Fast	BONUS:STAT|STR|4	BONUS:STAT|CHA|2		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK		BONUS:VAR|BreathWeaponDice|3					
 																	
 CLASS:Half Fiend		TYPE:PC.Monster.Template	ABB:HFnd	MAXLEVEL:4	SOURCEPAGE:SP												
-CLASS:Half Fiend	!PREMULT:2,[PRETEMPLATE:1|Undead],[PRETEMPLATE:1,Incorporeal]	!PRETEMPLATE:1,Half Fiend	PRESTAT:1,INT=4	PREALIGN:LE,NE,CE													
+CLASS:Half Fiend	!PREMULT:2,[PRETEMPLATE:1,Undead],[PRETEMPLATE:1,Incorporeal]	!PRETEMPLATE:1,Half Fiend	PRESTAT:1,INT=4	PREALIGN:LE,NE,CE													
 CLASS:Half Fiend	STARTSKILLPTS:0				DEFINE:SpellLikeCasterLVL|0	DEFINE:HalfFiendLVL|0	DEFINE:HalfFiendClassLVL|0										
 1							BONUS:VAR|SpellLikeCasterLVL|TL-CL	BONUS:VAR|HalfFiendLVL|CL	BONUS:VAR|HalfFiendClassLVL|TL-CL								
 #																	
@@ -76,7 +76,7 @@ CLASS:Half Fiend	STARTSKILLPTS:0				DEFINE:SpellLikeCasterLVL|0	DEFINE:HalfFiend
 4	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Half Fiend;LEVEL=4|-1|PRERACE:1,RACESUBTYPE=Human		ABILITY:Special Ability|AUTOMATIC|Bat Wings				BONUS:VAR|HalfFiendSpellResistance|min(TL-CL+10,35)|TYPE=Racial									
 																	
 CLASS:Lich		TYPE:PC.Monster.Template	ABB:Lch	MAXLEVEL:4	SOURCEPAGE:SP												
-CLASS:Lich	!PRETEMPLATE:1|Lich	PRERACE:1,RACETYPE=Humanoid	PREFEAT:1,Craft Wondrous Item	PRETEXT:Must have a caster level 11.													
+CLASS:Lich	!PRETEMPLATE:1,Lich	PRERACE:1,RACETYPE=Humanoid	PREFEAT:1,Craft Wondrous Item	PRETEXT:Must have a caster level 11.													
 CLASS:Lich	STARTSKILLPTS:0									DEFINE:LichAbilityDC|0	DEFINE:LichLVL|0	DEFINE:LichClassLVL|0					
 1	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Lich;LEVEL=1|-1|PRERACE:1,RACESUBTYPE=Human		ABILITY:Special Ability|AUTOMATIC|Resistances ~ Lich|Skills ~ Lich|Touch Attack (Lesser) ~ Lich|Paralyzing Touch (Lesser) ~ Lich			BONUS:STAT|INT|2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:VAR|LichResistances|5	BONUS:VAR|LichSkills|2	BONUS:VAR|LichAbilityDC|10+(LichClassLVL/2)+CHA	BONUS:VAR|LichLVL|CL	BONUS:VAR|LichClassLVL|TL-CL				
 2	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Lich;LEVEL=2|-1|PRERACE:1,RACESUBTYPE=Human		ABILITY:Special Ability|AUTOMATIC|Touch Attack ~ Lich|Paralyzing Touch (Medium) ~ Lich|Damage Reduction ~ Lich|Fear Aura|Fortification					BONUS:VAR|LichResistances|5	BONUS:VAR|LichSkills|2	BONUS:VAR|LichDamageReduction|5	BONUS:VAR|FearAuraRadius|10	BONUS:VAR|FearAuraDC|LichAbilityDC	BONUS:VAR|FortificationPower|1			
@@ -84,7 +84,7 @@ CLASS:Lich	STARTSKILLPTS:0									DEFINE:LichAbilityDC|0	DEFINE:LichLVL|0	DEFIN
 4	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Lich;LEVEL=4|-1|PRERACE:1,RACESUBTYPE=Human		ABILITY:Special Ability|AUTOMATIC|Paralyzing Touch ~ Lich Template|Turn Resistance|Immunity To Cold|Immunity To Electricity|Immunity To Polymorph		TEMPLATE:Undeath ~ Lich	BONUS:STAT|CHA|2	BONUS:COMBAT|AC|5|TYPE=NaturalArmor	BONUS:VAR|TurnResistBonus|4	BONUS:VAR|LichSkills|2	BONUS:VAR|LichDamageReduction|5	BONUS:VAR|FearAuraRadius|30					
 																	
 CLASS:Ghost		TYPE:PC.Monster.Template	ABB:Gho	MAXLEVEL:5	SOURCEPAGE:SP												
-CLASS:Ghost	!PRETEMPLATE:1|Ghost	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant	PRESTAT:1,CHA=6														
+CLASS:Ghost	!PRETEMPLATE:1,Ghost	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant	PRESTAT:1,CHA=6														
 CLASS:Ghost	STARTSKILLPTS:0							DEFINE:GhostAbilityDC|0									
 1	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Ghost;LEVEL=1|-1|PRERACE:1,RACESUBTYPE=Human	AUTO:FEAT|Alertness|Dodge	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Skills ~ Ghost|Manifestation	TEMPLATE:Assign Subtype ~ Incorporeal|Undeath ~ Ghost		BONUS:VAR|Maneuverability|5	BONUS:VAR|GhostSkill|2	BONUS:VAR|GhostAbilityDC|10+(TL-CL)/2+CHA								
 2				ABILITY:Special Ability|AUTOMATIC|Turn Resistance			BONUS:STAT|CHA|2	BONUS:VAR|TurnResistBonus|2	BONUS:ABILITYPOOL|Ghost Class Ability Lesser|1								
@@ -103,7 +103,7 @@ CLASS:Half Fey	STARTSKILLPTS:0				DEFINE:SpellLikeCasterLVL|0	DEFINE:HalfFeyLVL|
 4	BONUS:HP|CURRENTMAX|-CON	BONUS:SKILLPOOL|CLASS.Half Fiend;LEVEL=4|-1|PRERACE:1,RACESUBTYPE=Human		ABILITY:Special Ability|AUTOMATIC|Bat Wings				BONUS:VAR|HalfFiendSpellResistance|min(TL-CL+10,35)|TYPE=Racial									
 																	
 CLASS:Wererat		TYPE:PC.Monster.Template.Lycanthrope	ABB:LWRat	MAXLEVEL:3	SOURCEPAGE:SP												
-CLASS:Wererat	!PRETEMPLATE:1|Wererat|Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
+CLASS:Wererat	!PRETEMPLATE:1,Wererat,Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
 CLASS:Wererat	STARTSKILLPTS:0							DEFINE:NoTypeTraits|1									
 SUBCLASS:Wererat ~ Natural Lycanthrope																	
 SUBCLASSLEVEL:1						TEMPLATE:Natural Lycanthrope ~ Template Class											
@@ -123,7 +123,7 @@ CLASS:Dire Rat Lycanthrope	STARTSKILLPTS:2	CSKILL:Control Shape|Hide|Listen|Move
 1				ABILITY:Special Ability|VIRTUAL|Disease|PRETEMPLATE:1,Lycanthrope (Animal Form),Lycanthrope (Hybrid Form)			BONUS:MOVEADD|TYPE.Climb|-10|PRETEMPLATE:1,Lycanthrope (Animal Form)	BONUS:SKILL|Climb,Swim|DEX-STR|PRETEMPLATE:1,Lycanthrope (Animal Form),Lycanthrope (Hybrid Form)									
 																	
 CLASS:Wereboar		TYPE:PC.Monster.Template.Lycanthrope	ABB:LWBoar	MAXLEVEL:3	SOURCEPAGE:SP												
-CLASS:Wereboar	!PRETEMPLATE:1|Wereboar|Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
+CLASS:Wereboar	!PRETEMPLATE:1,Wereboar,Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
 CLASS:Wereboar	STARTSKILLPTS:0							DEFINE:NoTypeTraits|1									
 SUBCLASS:Wereboar ~ Natural Lycanthrope																	
 SUBCLASSLEVEL:1						TEMPLATE:Natural Lycanthrope ~ Template Class											
@@ -153,7 +153,7 @@ CLASS:Dire Boar Lycanthrope	STARTSKILLPTS:2	CSKILL:Control Shape|Listen|Spot				
 7												BONUS:VAR|AnimalSTR|4					
 																	
 CLASS:Werebear		TYPE:PC.Monster.Template.Lycanthrope	ABB:LWBear	MAXLEVEL:3	SOURCEPAGE:SP												
-CLASS:Werebear	!PRETEMPLATE:1|Werebear|Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
+CLASS:Werebear	!PRETEMPLATE:1,Werebear,Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
 CLASS:Werebear	STARTSKILLPTS:0							DEFINE:NoTypeTraits|1									
 SUBCLASS:Werebear ~ Natural Lycanthrope																	
 SUBCLASSLEVEL:1						TEMPLATE:Natural Lycanthrope ~ Template Class											
@@ -176,7 +176,7 @@ CLASS:Brown Bear Lycanthrope	STARTSKILLPTS:2	CSKILL:Control Shape|Listen|Spot|Sw
 6													BONUS:VAR|AnimalSTR|4			BONUS:VAR|AnimalHD|1	BONUS:VAR|AnimalSize|1
 																	
 CLASS:Weretiger		TYPE:PC.Monster.Template.Lycanthrope	ABB:LWTiger	MAXLEVEL:3	SOURCEPAGE:SP												
-CLASS:Weretiger	!PRETEMPLATE:1|Weretiger|Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
+CLASS:Weretiger	!PRETEMPLATE:1,Weretiger,Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
 CLASS:Weretiger	STARTSKILLPTS:0							DEFINE:NoTypeTraits|1									
 SUBCLASS:Weretiger ~ Natural Lycanthrope																	
 SUBCLASSLEVEL:1						TEMPLATE:Natural Lycanthrope ~ Template Class											
@@ -200,7 +200,7 @@ CLASS:Tiger Lycanthrope	STARTSKILLPTS:2	CSKILL:Control Shape|Balance|Hide|Listen
 6				ABILITY:Special Ability|VIRTUAL|Rake ~ Tiger|PRETEMPLATE:1,Lycanthrope (Animal Form)							BONUS:VAR|AnimalCon|2		BONUS:VAR|AnimalSTR|4			BONUS:VAR|AnimalHD|1	
 																	
 CLASS:Werewolf		TYPE:PC.Monster.Template.Lycanthrope	ABB:LWWolf	MAXLEVEL:3	SOURCEPAGE:SP												
-CLASS:Werewolf	!PRETEMPLATE:1|Werewolf|Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
+CLASS:Werewolf	!PRETEMPLATE:1,Werewolf,Lycanthrope	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant															
 CLASS:Werewolf	STARTSKILLPTS:0							DEFINE:NoTypeTraits|1									
 SUBCLASS:Werewolf ~ Natural Lycanthrope																	
 SUBCLASSLEVEL:1						TEMPLATE:Natural Lycanthrope ~ Template Class											

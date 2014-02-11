@@ -4,7 +4,7 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 # Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE				
 # Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)								
 #(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)			
-CLASS:Barbarian.MOD	HASSUBSTITUTIONLEVEL:YES												
+CLASS:Barbarian.MOD													
 SUBSTITUTIONCLASS:Portal Sense		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Portal Sense									
 SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Trap Sense Ability			BONUS:VAR|TrapSenseBonus|(CL/3)-1						
@@ -14,9 +14,7 @@ SUBSTITUTIONLEVEL:10				ABILITY:Special Ability|AUTOMATIC|Barbarian DR			BONUS:V
 SUBSTITUTIONCLASS:Menacing Rage		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONLEVEL:11				ABILITY:Special Ability|AUTOMATIC|Menacing Rage			BONUS:VAR|MenacingRageDC|CL/2	BONUS:VAR|GreaterRage|-1					
 #													
-#CLASS:Bard.MOD	HASSUBSTITUTIONLEVEL:YES												
-#													
-CLASS:Cleric.MOD	HASSUBSTITUTIONLEVEL:YES	EXCLASS:Ex Cleric											
+CLASS:Cleric.MOD		EXCLASS:Ex Cleric											
 SUBSTITUTIONCLASS:Planar Dismissal													
 SUBSTITUTIONLEVEL:4	CAST:5,3,2			ABILITY:Special Ability|AUTOMATIC|Planar Dismissal									
 SUBSTITUTIONCLASS:Planar Domain													
@@ -28,7 +26,7 @@ CLASS:Ex Cleric		HD:8		TYPE:Base.PC	ABB:XClr			SOURCEPAGE:PH		BONUS:CHECKS|BASE.
 CLASS:Ex Cleric	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Planes)|TYPE.Profession|Spellcraft											
 1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Cleric|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiences
 #													
-CLASS:Druid.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Druid.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Resist Extraplanar Might													
 SUBSTITUTIONLEVEL:4	CAST:5,3,2			ABILITY:Special Ability|AUTOMATIC|Resist Extraplanar Might									
 SUBSTITUTIONCLASS:Planar Tolerance													
@@ -36,7 +34,7 @@ SUBSTITUTIONLEVEL:9	CAST:6,4,4,3,2,1			ABILITY:Special Ability|AUTOMATIC|Planar 
 SUBSTITUTIONCLASS:Counter Summoning													
 SUBSTITUTIONLEVEL:13	CAST:6,5,5,4,4,3,2,1			ABILITY:Special Ability|AUTOMATIC|Counter Summoning									
 #													
-CLASS:Fighter.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Fighter.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Planar Study													
 SUBSTITUTIONLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Planar Study			BONUS:ABILITYPOOL|Fighter Feat|-1						
 SUBSTITUTIONCLASS:Align Puissance													
@@ -44,7 +42,7 @@ SUBSTITUTIONLEVEL:8				ABILITY:Special Ability|AUTOMATIC|Align Puissance			BONUS
 SUBSTITUTIONCLASS:Aura of Stability													
 SUBSTITUTIONLEVEL:12				ABILITY:Special Ability|AUTOMATIC|Aura of Stability			BONUS:ABILITYPOOL|Fighter Feat|-1						
 #													
-CLASS:Monk.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Monk.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Resistant Body													
 SUBSTITUTIONLEVEL:5		UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6					BONUS:ABILITYPOOL|Monk Resistance|1						
 SUBSTITUTIONCLASS:Axiomatic Soul													
@@ -52,7 +50,7 @@ SUBSTITUTIONLEVEL:13		UDAM:1d4,1d6,1d8,1d10,2d6,3d6,4d6,6d6,8d6		ABILITY:Special
 SUBSTITUTIONCLASS:Ki Strike													
 SUBSTITUTIONLEVEL:16		UDAM:1d6,1d8,1d10,2d6,2d8,3d8,4d8,6d8,8d8		ABILITY:Special Ability|AUTOMATIC|Monk Ki Strike Cold Iron									
 #													
-CLASS:Paladin.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Paladin.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Smite Evil Outsider													
 SUBSTITUTIONLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Smite Evil Outsider|Paladin Smite Evil Outsider			BONUS:VAR|PaladinSmiteEvilOutsidersLVL|CL						
 SUBSTITUTIONCLASS:Celestial Mount													
@@ -60,7 +58,7 @@ SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Remove Disease|Celestia
 SUBSTITUTIONCLASS:Alignment Purity													
 SUBSTITUTIONLEVEL:10				ABILITY:Special Ability|AUTOMATIC|Alignment Purity									
 #													
-CLASS:Ranger.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Ranger.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Planar Animal Companion													
 SUBSTITUTIONLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Planar Animal Companion			BONUS:VAR|RangerAnimalCompLVL|-1						
 SUBSTITUTIONCLASS:Portal Intuition													
@@ -68,11 +66,11 @@ SUBSTITUTIONLEVEL:8				ABILITY:Special Ability|AUTOMATIC|Portal Intuition
 SUBSTITUTIONCLASS:Planar Tracking													
 SUBSTITUTIONLEVEL:13				ABILITY:Special Ability|AUTOMATIC|Planar Tracking (Sp)			BONUS:VAR|PlanarTrackingLVL|CL	BONUS:VAR|PlanarTrackingTimes|1					
 #													
-CLASS:Rogue.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Rogue.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Breach Sense													
 SUBSTITUTIONLEVEL:6				ABILITY:Special Ability|AUTOMATIC|Breach Sense			BONUS:VAR|TrapSenseBonus|-1						
 #													
-CLASS:Sorcerer.MOD	HASSUBSTITUTIONLEVEL:YES	CSKILL:Knowledge (The Planes)											
+CLASS:Sorcerer.MOD		CSKILL:Knowledge (The Planes)											
 SUBSTITUTIONCLASS:Force Charged Energy													
 SUBSTITUTIONLEVEL:5	CAST:6,6,4	KNOWN:6,4,2		ABILITY:Special Ability|AUTOMATIC|Force Charged Energy			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=2|-1						
 SUBSTITUTIONCLASS:Extraplanar Spell Penetration													
@@ -80,7 +78,7 @@ SUBSTITUTIONLEVEL:9	CAST:6,6,6,6,4	KNOWN:8,5,4,3,2		ABILITY:Special Ability|AUTO
 SUBSTITUTIONCLASS:Extraplanar Spell Penetration													
 SUBSTITUTIONLEVEL:13	CAST:6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,3,2		ABILITY:Special Ability|AUTOMATIC|Spontaneous casting ~ Summon			BONUS:SPELLKNOWN|CLASS=Sorcerer;LEVEL=6|-1						
 #													
-CLASS:Wizard.MOD	HASSUBSTITUTIONLEVEL:YES												
+CLASS:Wizard.MOD													
 SUBSTITUTIONCLASS:Unimpeded Magic													
 SUBSTITUTIONLEVEL:6	CAST:4,3,3,2			ABILITY:Special Ability|AUTOMATIC|Unimpeded Magic			BONUS:SPELLCAST|CLASS=Wizard;LEVEL=3|-1						
 SUBSTITUTIONCLASS:Planar Spellcasting													

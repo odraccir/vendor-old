@@ -2,20 +2,20 @@ SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net/
 																				
 ###Block:Familiar																				
 # Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type					
-FOLLOWER:CelestialFamiliarLVL=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Celestial Famialir ~ Celestial|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Improved Evasion|Share Spells	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	DEFINE:LOCK.INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
-FOLLOWER:CelestialFamiliarLVL=3	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells						DEFINE:LOCK.INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
-FOLLOWER:CelestialFamiliarLVL=5	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master						DEFINE:LOCK.INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
-FOLLOWER:CelestialFamiliarLVL=7	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind						DEFINE:LOCK.INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
-FOLLOWER:CelestialFamiliarLVL=9	TYPE:Celestial Familiar									DEFINE:LOCK.INT|10		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
-FOLLOWER:CelestialFamiliarLVL=11	TYPE:Celestial Familiar		SR:16							DEFINE:LOCK.INT|11		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Celestial Famialir ~ Celestial|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Improved Evasion|Share Spells	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	DEFINESTAT:MINVALUE|INT|6		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE
+FOLLOWER:CelestialFamiliarLVL=3	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Deliver Touch Spells						DEFINESTAT:MINVALUE|INT|7		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=5	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Master						DEFINESTAT:MINVALUE|INT|8		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=7	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind						DEFINESTAT:MINVALUE|INT|9		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=9	TYPE:Celestial Familiar									DEFINESTAT:MINVALUE|INT|10		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=11	TYPE:Celestial Familiar		SR:16							DEFINESTAT:MINVALUE|INT|11		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CelestialFamiliarLVL=12	TYPE:Celestial Familiar		SR:17																	
-FOLLOWER:CelestialFamiliarLVL=13	TYPE:Celestial Familiar		SR:18	ABILITY:Special Ability|AUTOMATIC|Scry on Familiar						DEFINE:LOCK.INT|12		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=13	TYPE:Celestial Familiar		SR:18	ABILITY:Special Ability|AUTOMATIC|Scry on Familiar						DEFINESTAT:MINVALUE|INT|12		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CelestialFamiliarLVL=14	TYPE:Celestial Familiar		SR:19																	
-FOLLOWER:CelestialFamiliarLVL=15	TYPE:Celestial Familiar		SR:20							DEFINE:LOCK.INT|13		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=15	TYPE:Celestial Familiar		SR:20							DEFINESTAT:MINVALUE|INT|13		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CelestialFamiliarLVL=16	TYPE:Celestial Familiar		SR:21																	
-FOLLOWER:CelestialFamiliarLVL=17	TYPE:Celestial Familiar		SR:22							DEFINE:LOCK.INT|14		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=17	TYPE:Celestial Familiar		SR:22							DEFINESTAT:MINVALUE|INT|14		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CelestialFamiliarLVL=18	TYPE:Celestial Familiar		SR:23																	
-FOLLOWER:CelestialFamiliarLVL=19	TYPE:Celestial Familiar		SR:24							DEFINE:LOCK.INT|15		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
+FOLLOWER:CelestialFamiliarLVL=19	TYPE:Celestial Familiar		SR:24							DEFINESTAT:MINVALUE|INT|15		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE								
 FOLLOWER:CelestialFamiliarLVL=20	TYPE:Celestial Familiar		SR:25																	
 																				
 FOLLOWER:SpecialMountLVL=4	TYPE:Special Mount			ABILITY:Special Ability|AUTOMATIC|Celestial Companion ~ Mount|PREFEAT:1,Celestial Companion																

@@ -43,7 +43,7 @@ CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher
 #											
 1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Mage Harper Knowledge			BONUS:VAR|HarperMageHarperKnowledgeLVL|CL	BONUS:ABILITYPOOL|Oghma's Insight|1			
 2	ADD:SPELLCASTER|Arcane		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
-3	ADD:SPELLCASTER|Arcane					BONUS:ABILITYPOOL|Extend Spell Ability|1					
+3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Extend Spell (Ex)
 4	ADD:SPELLCASTER|Arcane		AUTO:FEAT|Eschew Materials								
 5	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Blessing ~ Mystra's Grace							
 #											
@@ -55,7 +55,7 @@ CLASS:Harper Priest	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Ha
 #											
 1	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Blessing|Harper Priest Blessing	ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Priest Harper Knowledge		BONUS:ABILITYPOOL|Harper Priest Blessing|CL	BONUS:VAR|HarperPriestHarperKnowledgeLVL|CL			
 2	ADD:SPELLCASTER|Divine		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
-3	ADD:SPELLCASTER|Divine					BONUS:ABILITYPOOL|Extend Spell Ability|1					
+3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Extend Spell (Ex)
 4	ADD:SPELLCASTER|Divine		AUTO:FEAT|Eschew Materials								
 5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Mystra's Grace							
 #											

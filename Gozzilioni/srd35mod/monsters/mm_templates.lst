@@ -1,7 +1,0 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
-#						
-###Block: Creature Subtypes						
-# Template Name	Visible	Source Page	Special Ability			
-#Ghost.MOD						LEVELADJUSTMENT:5
-#Lich.MOD						LEVELADJUSTMENT:4
-#Vampire.MOD						LEVELADJUSTMENT:8

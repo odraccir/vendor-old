@@ -27,7 +27,6 @@ RACE:Mon_races__base.lst
 RACE:Mon_races__dragons.lst
 SPELL:Mon_spells.lst
 TEMPLATE:Mon_templates.lst
-TEMPLATE:Mon_templates_types.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

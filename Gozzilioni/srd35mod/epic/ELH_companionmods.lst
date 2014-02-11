@@ -2,14 +2,14 @@ SOURCELONG:Epic Level Handbook	SOURCESHORT:ELH	SOURCEWEB:http://www.wizards.com
 																																		
 ###Block:Familiar																																		
 # Class of the Master	Type			Spell Res.	COPYMASTERBAB		COPYMASTERCHECK		COPYMASTERHP		USEMASTERSKILL		Special Ability									Define						Combat bonus						SWITCHRACE
-FOLLOWER:FamiliarLVL=21	TYPE:Familiar	BONUS:MISC|SR|FamiliarLVL-20																				DEFINE:LOCK.INT|16		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=23	TYPE:Familiar																					DEFINE:LOCK.INT|17		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=25	TYPE:Familiar																					DEFINE:LOCK.INT|18		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=27	TYPE:Familiar																					DEFINE:LOCK.INT|19		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=29	TYPE:Familiar																					DEFINE:LOCK.INT|20		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=31	TYPE:Familiar																					DEFINE:LOCK.INT|21		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=33	TYPE:Familiar																					DEFINE:LOCK.INT|22		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=35	TYPE:Familiar																					DEFINE:LOCK.INT|23		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=37	TYPE:Familiar																					DEFINE:LOCK.INT|24		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=39	TYPE:Familiar																					DEFINE:LOCK.INT|25		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
-FOLLOWER:FamiliarLVL=41	TYPE:Familiar																					DEFINE:LOCK.INT|26		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE										
+FOLLOWER:FamiliarLVL=21	TYPE:Familiar	BONUS:MISC|SR|FamiliarLVL-20																				DEFINESTAT:MINVALUE|INT|16		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=23	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|17		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=25	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|18		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=27	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|19		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=29	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|20		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=31	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|21		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=33	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|22		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=35	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|23		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=37	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|24		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=39	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|25		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									
+FOLLOWER:FamiliarLVL=41	TYPE:Familiar																					DEFINESTAT:MINVALUE|INT|26		BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:VAR|MasterLvl|1									

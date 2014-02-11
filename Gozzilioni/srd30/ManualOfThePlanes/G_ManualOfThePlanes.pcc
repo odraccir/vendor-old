@@ -21,7 +21,6 @@ RACE:MotP_races.lst
 SPELL:MotP_spells.lst
 SKILL:MotP_skills.lst
 TEMPLATE:MotP_templates_hidden.lst
-TEMPLATE:MotP_templates_type.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

@@ -31,7 +31,6 @@ EQUIPMENT:CD_equip_weap_melee_specific.lst
 EQUIPMENT:CD_equip_weap_ranged_specific.lst
 EQUIPMOD:CD_equipmods_enhancing.lst
 FEAT:CD_feats.lst
-FEAT:CD_feats_description.lst
 FEAT:CD_feats_epic.lst
 KIT:CD_kits_races.lst
 RACE:CD_races.lst

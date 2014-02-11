@@ -1,19 +1,14 @@
-SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net
-
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net																																								
+																																										
 # BASICS																																										
 # Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	
-#Bonus domain sembra più conforme. sostituito.
-Bonus Domain.MOD	TYPE:Epic	VISIBLE:YES	STACK:NO			SOURCEPAGE:CD
-Epic Devotion	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Iron Will					PRELEVEL:MIN=21				PRESTAT:1,WIS=21									DESC:See Text	STACK:NO	MULT:YES	CHOOSE:STRING|Law|Chaos|Good|Evil														SOURCEPAGE:CD	
-#holy strike è identico. saltato.
-#Holy Strike	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Smite Evil					PRELEVEL:MIN=21									PREALIGN:LG,NG,CG				DESC:See Text																	SOURCEPAGE:CD	
-Magical Beast Wild Shape.MOD	PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape	SOURCEPAGE:CD
-#Negative energy burst non ha il prerequisito. modificato.
-Negative Energy Burst.MOD	PRE:.CLEAR	PREALIGN:LE,NE,CE	PRELEVEL:MIN=21	PRESPELL:1,Inflict Critical Wounds	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	SOURCEPAGE:CD
-#Positive energy aura non ha il prerequisito. modificato.
-Positive Energy Aura.MOD	PRE:.CLEAR			PRELEVEL:MIN=21	PRESPELL:1,Dispel Evil	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability,Turn Undead	SOURCEPAGE:CD
-Spectral Strike.MOD	PRE:.CLEAR	PRELEVEL:MIN=21	PRESTAT:1,WIS=19	PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead	SOURCEPAGE:CD
-Undead Mastery.MOD	PRE:.CLEAR	PRELEVEL:MIN=21	PRESTAT:1,CHA=21	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	SOURCEPAGE:CD
-#Unholy strike è identico. saltato.
-#Unholy Strike	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Smite Good					PRELEVEL:MIN=21									PREALIGN:LE,NE,CE				DESC:See Text																	SOURCEPAGE:CD	
-Zone of Animation.MOD	PRE:.CLEAR	PREFEAT:1,Undead Mastery	PRELEVEL:MIN=21	PRESTAT:1,CHA=25	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead	SOURCEPAGE:CD
+Bonus Domain	TYPE:Epic	VISIBLE:YES							PRESPELLTYPE:1,Divine=9		PRELEVEL:MIN=21				PRESTAT:1,WIS=21									DESC:You can choose an additional domain from your deity's domain list and use it as normal.	STACK:NO	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:CD	BONUS:DOMAIN|NUMBER|1
+Epic Devotion	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Iron Will					PRELEVEL:MIN=21				PRESTAT:1,WIS=21									DESC:You are particularly resistant to spells with alignment.	STACK:NO	MULT:YES	CHOOSE:STRING|Lawful|Chaos|Good|Evil														SOURCEPAGE:CD	
+Holy Strike	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Smite Evil					PRELEVEL:MIN=21									PREALIGN:LG,NG,CG				DESC:Any weapon you wield is treated as a holy weapon.																	SOURCEPAGE:CD	
+Magical Beast Wild Shape	TYPE:Wild.Epic	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape		PRELEVEL:MIN=21	PRESKILL:1,Knowledge (Nature)=27			PRESTAT:1,WIS=25						PREVARGTEQ:WildShapeTimes,6			DESC:You can use your normal wild shape ability to take the form of a magical beast. The size limitation is the same as your limitation on animal size. You gain all supernatural abilities of the magical beast whose form you take.																	SOURCEPAGE:CD	
+Negative Energy Burst	TYPE:Divine.Epic	VISIBLE:YES						PREALIGN:LE,NE,CE	PRESPELL:1,Inflict Critical Wounds		PRELEVEL:MIN=21				PRESTAT:1,CHA=25						PREVARGTEQ:AllowExtraTurning,1			DESC:You can use one rebuke or command undead attempt to unleash a wave of negative energy in a 60-foot-burst.																	SOURCEPAGE:CD	
+Positive Energy Aura	TYPE:Divine.Epic	VISIBLE:YES						PREABILITY:1,CATEGORY=Special Ability,Turn Undead	PRESPELL:1,Dispel Evil		PRELEVEL:MIN=21				PRESTAT:1,CHA=25						PREVARGTEQ:AllowExtraTurning,1			DESC:Every undead creature that comes within 15 feet of you is automatically affected as if you had turned it.																	SOURCEPAGE:CD	
+Spectral Strike	TYPE:Epic	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,TYPE.TurnUndead		PRELEVEL:MIN=21				PRESTAT:1,WIS=19						PREVARGTEQ:AllowExtraTurning,1			DESC:Your attacks deal damage normally against incorporeal creatures.																	SOURCEPAGE:CD	
+Undead Mastery	TYPE:Divine.Epic	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead		PRELEVEL:MIN=21				PRESTAT:1,CHA=21						PREVARGTEQ:AllowExtraTurning,1			DESC:You may command up to ten times your level in HD of undead.																	SOURCEPAGE:CD	
+Unholy Strike	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Smite Good					PRELEVEL:MIN=21									PREALIGN:LE,NE,CE				DESC:Any weapon you wield is treated as an unholy weapon.																	SOURCEPAGE:CD	
+Zone of Animation	TYPE:Divine.Epic	VISIBLE:YES				PREFEAT:1,Undead Mastery			PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead		PRELEVEL:MIN=21				PRESTAT:1,CHA=25						PREVARGTEQ:AllowExtraTurning,1			DESC:You can use a rebuke or command undead attempt to animate corpses within range of your rebuke or command attempt.																	SOURCEPAGE:CD	

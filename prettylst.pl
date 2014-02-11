@@ -114,6 +114,7 @@ my %validfiletype = (
 	'SOURCESHORT'	=> 0,
 	'SOURCEWEB'		=> 0,
 	'SOURCEDATE'	=> 0,				#[ 1584007 ] New Tag: SOURCEDATE in PCC
+	'SOURCELINK'	=> 0,
 	'SPELL'		=> \&FILETYPE_parse,
 	'TEMPLATE'		=> \&FILETYPE_parse,
 	'WEAPONPROF'	=> \&FILETYPE_parse,
@@ -553,6 +554,10 @@ my @valid_system_game_modes  = qw(
 	SovereignStoneD20
 	Spycraft
 	Xcrawl
+	Gaslight
+	Darwins_World_2
+	Killshot
+	OSRIC
 
 	CMP_D20_Fantasy_v30e
 	CMP_D20_Fantasy_v35e
@@ -1578,6 +1583,8 @@ my @PRE_Tags = (
 	'!PRELEVEL',
 	'PRELEVELMAX',
 	'!PRELEVELMAX',
+	'PREKIT',
+	'!PREKIT',
 	'PREMOVE',
 	'!PREMOVE',
 	'PREMULT:*',
@@ -1758,6 +1765,7 @@ my @SOURCE_Tags = (
 	'SOURCEWEB',
 	'SOURCEPAGE:.CLEAR',
 	'SOURCEPAGE',
+	'SOURCELINK',
 );
 
 my @QUALIFY_Tags = (
@@ -2763,6 +2771,7 @@ my %master_order = (
 	],
 
 	'PCC' => [
+		'ALLOWDUPES',
 		'CAMPAIGN',
 		'GAMEMODE',
 		'GENRE',
@@ -2798,6 +2807,7 @@ my %master_order = (
 		'REQSKILL',
 		'STATUS',
 		'FORWARDREF',
+		'OPTION',
 
 		# These tags load files
 		'ABILITY',
@@ -4123,6 +4133,8 @@ my %tagheader = (
 		'PRELANG'			=> 'Required Language',
 		'PRELEVEL'			=> 'Required Lvl',
 		'PRELEVELMAX'		=> 'Maximum Level',
+		'PREKIT'			=> 'Required Kit',
+		'!PREKIT'			=> 'Prohibited Kit',
 		'PREMOVE'			=> 'Required Movement Rate',
 		'!PREMOVE'			=> 'Prohibited Movement Rate',
 		'PREMULT',			=> 'Multiple Requirements',
@@ -4242,6 +4254,7 @@ my %tagheader = (
 		'SOURCESHORT'		=> 'Source, Short Desc.',
 		'SOURCEWEB'			=> 'Source URI',
 		'SOURCEDATE'		=> 'Source Pub. Date',
+		'SOURCELINK'		=> 'Source Pub Link',
 		'SPELLBOOK'			=> 'Spellbook',
 		'SPELLFAILURE'		=> '% of Spell Failure',
 		'SPELLLIST'			=> 'Use Spell List',
@@ -4347,7 +4360,7 @@ my %tagheader = (
 		'000DeityName'		=> '# Deity Name',
 		'DOMAINS'			=> 'Domains',
 		'FOLLOWERALIGN'		=> 'Clergy AL',
-		'DESC'			=> 'Desciption of Deity/Title',
+		'DESC'			=> 'Description of Deity/Title',
 		'SYMBOL'			=> 'Holy Item',
 		'DEITYWEAP'			=> 'Deity Weapon',
 		'TITLE'			=> 'Deity Title',

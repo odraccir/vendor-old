@@ -18,7 +18,6 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 EQUIPMOD:DMG2_equipmods_base.lst
 EQUIPMOD:DMG2_equipmods_enhancing.lst
 FEAT:DMG2_feats.lst
-FEAT:DMG2_feats_descriptions.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

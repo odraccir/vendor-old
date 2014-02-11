@@ -1,45 +1,45 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																																										
 																																												
 # Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	ADDSPELLLEVEL	ability	
-Altitude Adaptation	TYPE:General	VISIBLE:YES																		PRECHECKBASE:1,Fortitude=2				DESC:See Text																	SOURCEPAGE:Fro			
-Arctic Priest	TYPE:General	VISIBLE:YES																		PREDOMAIN:1,Cold,Winter				DESC:See Text																	SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Spontaneous casting ~ Arctic Priest	
-Beckon the Frozen	TYPE:General	VISIBLE:YES				PREFEAT:2,Augment Summoning,Spell Focus(Conjuration)																		DESC:See Text																	SOURCEPAGE:Fro			
-Chosen of Iborighu	TYPE:General	VISIBLE:YES																		PREDEITY:1,Iborighu				DESC:See Text																	SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Cold Gaze	TEMPLATE:Favored of Iborighu
-Cold Endurance	TYPE:General	VISIBLE:YES																		PRECHECKBASE:1,Fortitude=2				DESC:See Text.+2 bonus on saving throw against cold damage and cold effects.																	SOURCEPAGE:Fro			
-Cold Focus	TYPE:General	VISIBLE:YES																						DESC:See Text										BONUS:DC|DESCRIPTOR.Cold|1|TYPE=ColdFocus							SOURCEPAGE:Fro			
-Cold Spell Specialization	TYPE:General	VISIBLE:YES				PREFEAT:2,Snowcasting,Frozen Magic									PRESTAT:1,CON=13									DESC:See Text +1 damage/die when cast spell in cold area < 4°C																	SOURCEPAGE:Fro			
-Craft Skull Talisman	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=6																			DESC:See Text																	SOURCEPAGE:Fro			
-Faith in the Frost	TYPE:General	VISIBLE:YES																	PREDOMAIN:1,Cold,Winter	PREABILITY:1,CATEGORY=Special Ability,TYPE.Turning				DESC:See Text. +%1 cold damage when succesfully turn or rebuke a creature.|CHA																	SOURCEPAGE:Fro			
-Frostfell Prodigy	TYPE:General	VISIBLE:YES				PREFEAT:3,Snowcasting,Frozen Magic,Cold Focus									PRESTAT:1,CON=13									DESC:See Text																	SOURCEPAGE:Fro			
-Frozen Berserker	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage				DESC:See Text																	SOURCEPAGE:Fro			
-Frozen Magic	TYPE:General	VISIBLE:YES				PREFEAT:1,Snowcasting									PRESTAT:1,CON=13									DESC:See Text																	SOURCEPAGE:Fro			
-Frozen Wild Shape	TYPE:General	VISIBLE:YES																	PRECHECKBASE:1,Fortitude=6	PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape				DESC:See Text																	SOURCEPAGE:Fro			
-Greater Cold Focus	TYPE:General	VISIBLE:YES				PREFEAT:1,Cold Focus																		DESC:See Text										BONUS:DC|DESCRIPTOR.Cold|2|TYPE=ColdFocus							SOURCEPAGE:Fro			
-Icy Calling	TYPE:General	VISIBLE:YES				PREFEAT:1,Snowcasting									PRESTAT:1,CON=13									DESC:See Text																	SOURCEPAGE:Fro			
-Ice Harmonics	TYPE:General	VISIBLE:YES										PRESKILL:1,Perform (Sing)=6								PREABILITY:1,CATEGORY=Special Ability,Bardic Music				DESC:See Text																	SOURCEPAGE:Fro			
-Improved Cold Endurance	TYPE:General	VISIBLE:YES				PREFEAT:1,Cold Endurance														PRECHECKBASE:1,Fortitude=6	PREVARLTEQ:ColdResistanceBonus,15			DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|5
-Improved Frosty Touch	TYPE:General	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Uldra				DESC:See Text																	SOURCEPAGE:Fro			BONUS:VAR|FrostyTouchDamage|1
-Mark of Hleid	TYPE:General	VISIBLE:YES																		PREDEITY:1,Hleid				DESC:See Text																	SOURCEPAGE:Fro			TEMPLATE:Mark of Hleid
-Mountaineer	TYPE:General	VISIBLE:YES																						DESC:See Text													BONUS:SKILL|Climb,Survival|2				SOURCEPAGE:Fro			
-Piercing Cold	TYPE:Metamagic	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:Fro	ADDSPELLLEVEL:1		
-Primeval Wild Shape	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape				DESC:See Text																	SOURCEPAGE:Fro			
-Primitive Caster	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:Fro			
-Sea Legs	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:Fro			
-Smite Fiery Foe	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.Smite				DESC:See Text																	SOURCEPAGE:Fro			
-Snowcasting	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=13									DESC:See Text																	SOURCEPAGE:Fro			
-Snowrunner	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Woodland Stride				DESC:See Text																	SOURCEPAGE:Fro			
-Snowflake Wardance	TYPE:General	VISIBLE:YES										PRESKILL:1,Perform (Dance)=6								PREABILITY:1,CATEGORY=Special Ability,Bardic Music				DESC:See Text																	SOURCEPAGE:Fro			
-Storm Magic	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:Fro			
-Sugliin Mastery	TYPE:General	VISIBLE:YES		PREATT:4		PREFEAT:1,Exotic Weapon Mastery(Sugliin)																		DESC:See Text																	SOURCEPAGE:Fro			
-Winter's Champion	TYPE:General	VISIBLE:YES			PRECLASS:1,Paladin=1																			DESC:See Text																	SOURCEPAGE:Fro			SPELLLEVEL:CLASS|Paladin=1|Chill Touch,Snowsight|Paladin=2|Chill Metal,Snow Walk|Paladin=3|Sleet Storm,Winter's Embrace|Paladin=4|Ice Storm
-Winter's Mount	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Special Mount				DESC:See Text																	SOURCEPAGE:Fro			
-Acrobatic.MOD	TYPE:CloudAnchoriteFeat
-Agile.MOD	TYPE:CloudAnchoriteFeat
-Athletic.MOD	TYPE:CloudAnchoriteFeat
-Cold Endurance.MOD	TYPE:CloudAnchoriteFeat
-Endurance.MOD	TYPE:CloudAnchoriteFeat
-Great Fortitude.MOD	TYPE:CloudAnchoriteFeat
-Improved Cold Endurance.MOD	TYPE:CloudAnchoriteFeat
-Self Sufficient.MOD	TYPE:CloudAnchoriteFeat
-Skill Focus.MOD	TYPE:CloudAnchoriteFeat
-Track.MOD	TYPE:CloudAnchoriteFeat
+Altitude Adaptation	TYPE:General	VISIBLE:YES																		PRECHECKBASE:1,Fortitude=2				DESC:+4 on Fort saves to avoid altitude sickness;																	SOURCEPAGE:Fro			
+Arctic Priest	TYPE:General	VISIBLE:YES																		PREDOMAIN:1,Cold,Winter				DESC:Can swap out prepared spells for a specialized list of spells. 																	SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Spontaneous casting ~ Arctic Priest	
+Beckon the Frozen	TYPE:General	VISIBLE:YES				PREFEAT:2,Augment Summoning,Spell Focus(Conjuration)																		DESC:Summoned creatures gain cold subtypoe and +1d6 cold damage to attacks.																	SOURCEPAGE:Fro			
+Chosen of Iborighu	TYPE:General	VISIBLE:YES																		PREDEITY:1,Iborighu				DESC:Cleric is favored class, cold damage gaze attack																	SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Cold Gaze	TEMPLATE:Favored of Iborighu
+Cold Endurance	TYPE:General	VISIBLE:YES																		PRECHECKBASE:1,Fortitude=2				DESC:+2 to cold saves, can exist comfortably in cold environments.																	SOURCEPAGE:Fro			
+Cold Focus	TYPE:General	VISIBLE:YES																						DESC:+1 bonus to save DC against cold spells.										BONUS:DC|DESCRIPTOR.Cold|1|TYPE=ColdFocus							SOURCEPAGE:Fro			
+Cold Spell Specialization	TYPE:General	VISIBLE:YES				PREFEAT:2,Snowcasting,Frozen Magic									PRESTAT:1,CON=13									DESC:+1 or +2 damage/die when cast spell in cold area.																	SOURCEPAGE:Fro			
+Craft Skull Talisman	TYPE:ItemCreation	VISIBLE:YES			PRECLASS:1,SPELLCASTER=6																			DESC:Create magic skull talismans.																	SOURCEPAGE:Fro			
+Faith in the Frost	TYPE:General	VISIBLE:YES																	PREDOMAIN:1,Cold,Winter	PREABILITY:1,CATEGORY=Special Ability,TYPE.Turning				DESC:+%1 cold damage when succesfully turn or rebuke a creature.|CHA																	SOURCEPAGE:Fro			
+Frostfell Prodigy	TYPE:General	VISIBLE:YES				PREFEAT:3,Snowcasting,Frozen Magic,Cold Focus									PRESTAT:1,CON=13									DESC:You gain additional bonus spells in cold weather.																	SOURCEPAGE:Fro			
+Frozen Berserker	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage				DESC:Gain cold subtype while raging.																	SOURCEPAGE:Fro			
+Frozen Magic	TYPE:General	VISIBLE:YES				PREFEAT:1,Snowcasting									PRESTAT:1,CON=13									DESC:Cold spells have higher caster levels in cold weather.																	SOURCEPAGE:Fro			
+Frozen Wild Shape	TYPE:General	VISIBLE:YES																	PRECHECKBASE:1,Fortitude=6	PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape				DESC:Wild shape into cold magical beast.																	SOURCEPAGE:Fro			
+Greater Cold Focus	TYPE:General	VISIBLE:YES				PREFEAT:1,Cold Focus																		DESC:+1 bonus to save DC against cold spells.										BONUS:DC|DESCRIPTOR.Cold|2|TYPE=ColdFocus							SOURCEPAGE:Fro			
+Icy Calling	TYPE:General	VISIBLE:YES				PREFEAT:1,Snowcasting									PRESTAT:1,CON=13									DESC:Summoned frostfell creatures are stronger in cold weather.																	SOURCEPAGE:Fro			
+Ice Harmonics	TYPE:General	VISIBLE:YES										PRESKILL:1,Perform (Sing)=6								PREABILITY:1,CATEGORY=Special Ability,Bardic Music				DESC:You can use your voice to shatter ice.																	SOURCEPAGE:Fro			
+Improved Cold Endurance	TYPE:General	VISIBLE:YES				PREFEAT:1,Cold Endurance														PRECHECKBASE:1,Fortitude=6	PREVARLTEQ:ColdResistanceBonus,15			DESC:Resistance to cold 5.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:Fro		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|5
+Improved Frosty Touch	TYPE:General	VISIBLE:YES																		PRERACE:1,RACESUBTYPE=Uldra				DESC:Your frosty touch causes more cold damage.																	SOURCEPAGE:Fro			BONUS:VAR|FrostyTouchDamage|1
+Mark of Hleid	TYPE:General	VISIBLE:YES																		PREDEITY:1,Hleid				DESC:Cleric is favored class, +2 sacred bonus to AC against evil cold cretures, immunity to rimefire.																	SOURCEPAGE:Fro			TEMPLATE:Mark of Hleid
+Mountaineer	TYPE:General	VISIBLE:YES																						DESC:+2 bonus on Climb and Survival checks.													BONUS:SKILL|Climb,Survival|2				SOURCEPAGE:Fro			
+Piercing Cold	TYPE:Metamagic	VISIBLE:YES																						DESC:Cold spells can damage creatures resistant or immune to cold.																	SOURCEPAGE:Fro	ADDSPELLLEVEL:1		
+Primeval Wild Shape	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.WildShape				DESC:Wild shape form gains +2 STR, +2 bonus natural armor, and resistance to col 10, but last for only 1 round/level.																	SOURCEPAGE:Fro			
+Primitive Caster	TYPE:General	VISIBLE:YES																						DESC:Add material components to spells to raise a spell's effective level.																	SOURCEPAGE:Fro			
+Sea Legs	TYPE:General	VISIBLE:YES																						DESC:+2 bonus on Balance and Tumble checks and +1 bonus on Initiative checks while on a ship.																	SOURCEPAGE:Fro			
+Smite Fiery Foe	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,TYPE.Smite				DESC:Add CHA modifier on attack roll and character level to damage againt creatures with fire subtype.																	SOURCEPAGE:Fro			
+Snowcasting	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=13									DESC:Add cold descriptor to spell.																	SOURCEPAGE:Fro			
+Snowrunner	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Woodland Stride				DESC:Move through snow at full speed, +5 competence bonus on Balance checks on ice.																	SOURCEPAGE:Fro			
+Snowflake Wardance	TYPE:General	VISIBLE:YES										PRESKILL:1,Perform (Dance)=6								PREABILITY:1,CATEGORY=Special Ability,Bardic Music				DESC:Add CHA modifier to attack rolls with one-handed slashing melee weapons.																	SOURCEPAGE:Fro			
+Storm Magic	TYPE:General	VISIBLE:YES																						DESC:All spells cast at caster level +1 during storms.																	SOURCEPAGE:Fro			
+Sugliin Mastery	TYPE:General	VISIBLE:YES		PREATT:4		PREFEAT:1,Exotic Weapon Mastery(Sugliin)																		DESC:Attacks with a Sugliin are a standard action.																	SOURCEPAGE:Fro			
+Winter's Champion	TYPE:General	VISIBLE:YES			PRECLASS:1,Paladin=1																			DESC:Gain additional frostfell spells on your paladin spell list.																	SOURCEPAGE:Fro			SPELLLEVEL:CLASS|Paladin=1|Chill Touch,Snowsight|Paladin=2|Chill Metal,Snow Walk|Paladin=3|Sleet Storm,Winter's Embrace|Paladin=4|Ice Storm
+Winter's Mount	TYPE:General	VISIBLE:YES																		PREABILITY:1,CATEGORY=Special Ability,Special Mount				DESC:Special mount gains cold subtype and +2 CON.																	SOURCEPAGE:Fro			
+Acrobatic.MOD	TYPE:CloudAnchoriteFeat																																											
+Agile.MOD	TYPE:CloudAnchoriteFeat																																											
+Athletic.MOD	TYPE:CloudAnchoriteFeat																																											
+Cold Endurance.MOD	TYPE:CloudAnchoriteFeat																																											
+Endurance.MOD	TYPE:CloudAnchoriteFeat																																											
+Great Fortitude.MOD	TYPE:CloudAnchoriteFeat																																											
+Improved Cold Endurance.MOD	TYPE:CloudAnchoriteFeat																																											
+Self Sufficient.MOD	TYPE:CloudAnchoriteFeat																																											
+Skill Focus.MOD	TYPE:CloudAnchoriteFeat																																											
+Track.MOD	TYPE:CloudAnchoriteFeat																																											

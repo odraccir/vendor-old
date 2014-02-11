@@ -14,15 +14,11 @@ Green Star Adept Attacks	VISIBLE:NO	TEMPLATE:CHOOSE:Green Star Adept Attacks Sma
 Green Star Adept Attacks Small	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4																																			
 Green Star Adept Attacks Medium	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d6																																			
 Green Star Adept Attacks Large	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d8																																			
-Emerald Perfection	VISIBLE:NO		PRECLASS:1,Green Star Adept=10	TEMPLATE:Construct	TYPE:Construct		RACETYPE:Construct	DEFINE:LOCK.CON|10	ABILITY:Special Ability|AUTOMATIC|Immunity To Poison|Immunity To Stunning|Immunity To Disease|Immunity To Death Effects|Immunity to Necromantic Effetcs|Immunity to Sneak Attack	BONUS:HP|CURRENTMAX|max(SIZE-2,0)*10	BONUS:HP|CURRENTMAX|max(SIZE-6,0)*10																											
+Emerald Perfection	VISIBLE:NO		PRECLASS:1,Green Star Adept=10	TEMPLATE:Construct	TYPE:Construct		RACETYPE:Construct	DEFINESTAT:NONSTAT|CON	ABILITY:Special Ability|AUTOMATIC|Immunity To Poison|Immunity To Stunning|Immunity To Disease|Immunity To Death Effects|Immunity to Necromantic Effetcs|Immunity to Sneak Attack	BONUS:HP|CURRENTMAX|max(SIZE-2,0)*10	BONUS:HP|CURRENTMAX|max(SIZE-6,0)*10																											
 #																																						
 # Master Transmogrifist																																						
 Transmogrifist Shapechanger	VISIBLE:NO	RACESUBTYPE:Shapechanger																																				
-																																						
-# Elemental Grue																																						
-Elemental Grue	VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Spell Disruption																																			
-																																						
-#																																						
+#
 Draconic Heritage ~ Claw (Small)	VISIBLE:NO	PRESIZELTEQ:S	NATURALATTACKS:Draconic Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d4																																			
 Draconic Heritage ~ Claw (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Draconic Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d6																																			
 Draconic Heritage ~ Claw (Large)	VISIBLE:NO	PRESIZEGTEQ:L	NATURALATTACKS:Draconic Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d8																																			

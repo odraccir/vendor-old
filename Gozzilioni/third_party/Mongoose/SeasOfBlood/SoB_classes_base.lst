@@ -6,7 +6,7 @@ SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net
 # Class Name 4	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)							
 #(level number)	ADD:SPELLCASTER o CAST	ADD:FEAT Proficiencies	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)		
 #
-CLASS:Druid.MOD	HASSUBSTITUTIONLEVEL:YES											
+CLASS:Druid.MOD												
 SUBSTITUTIONCLASS:Sea Druid	LANGBONUS:Aquan											
 SUBSTITUTIONLEVEL:2	CAST:4,2	ABILITY:Special Ability|AUTOMATIC|Speed of the Fish										
 SUBSTITUTIONLEVEL:3	CAST:4,2,1	ABILITY:Special Ability|AUTOMATIC|Salt Synthesis

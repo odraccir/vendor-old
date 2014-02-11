@@ -37,7 +37,6 @@ EQUIPMENT:Fro_equip_wondrous.lst
 EQUIPMOD:Fro_equipmods_base.lst
 EQUIPMOD:Fro_equipmods_enhancing.lst
 FEAT:Fro_feats.lst
-FEAT:Fro_feats_description.lst
 LANGUAGE:Fro_languages.lst
 RACE:Fro_races.lst
 RACE:Fro_races__base.lst

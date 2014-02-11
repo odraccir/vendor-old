@@ -2,65 +2,66 @@ SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilion
 																																												
 # BASICS																																												
 # Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page			
-Boost Spell Like Ability	TYPE:General	VISIBLE:YES	OUTPUTNAME:Boost Spell-Like Ability																					DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|BoostSpellLikeAbilityPerDay|3			SOURCEPAGE:BoVD	DEFINE:BoostSpellLikeAbilityPerDay|0	SAB:%/day|BoostSpellLikeAbilityPerDay	
-Boost Spell Resistance	TYPE:General	VISIBLE:YES												PREALIGN:LE,NE,CE										DESC:See Text														BONUS:MISC|SR|2			SOURCEPAGE:BoVD			
-#Corrupt Spell	vedi CD	#	TYPE:Metamagic	VISIBLE:YES												PREALIGN:LE,NE,CE										DESC:See Text																	SOURCEPAGE:BoVD	ADDSPELLLEVEL:1		
-Corrupt Spell Like Ability	TYPE:General	VISIBLE:YES	OUTPUTNAME:Corrupt Spell-Like Ability											PREALIGN:LE,NE,CE										DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|CorruptSpellLikeAbilityPerDay|3			SOURCEPAGE:BoVD	DEFINE:CorruptSpellLikeAbilityPerDay|0	SAB:%/day|CorruptSpellLikeAbilityPerDay	
-Dark Speech	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE	PRESTAT:2,INT=15,CHA=15					PRECHECKBASE:1,Will=5		ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Deformity (Clawed Hands)	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Willing Deformity								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,3d8,4d6		
-Deformity (Eyes)	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Willing Deformity								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text													BONUS:SKILL|Spot,Searc|-2|TYPE=Deformity				SOURCEPAGE:BoVD			
-Deformity (Face)	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Willing Deformity								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text													BONUS:SKILL|Intimidate|2|TYPE=Circumstance				SOURCEPAGE:BoVD			
-Deformity (Gaunt)	TYPE:Vile.VileDeformity	VISIBLE:YES				PREFEAT:1,Willing Deformity	!PREFEAT:1,TYPE=VileDeformity							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text													BONUS:SKILL|Escape Artist,Intimidate|2|TYPE=Circumstance				SOURCEPAGE:BoVD	BONUS:STAT|DEX|2|TYPE=Deformity	BONUS:STAT|CON|-2|TYPE=Deformity	
-Deformity (Obese)	TYPE:Vile.VileDeformity	VISIBLE:YES				PREFEAT:1,Willing Deformity	!PREFEAT:1,TYPE=VileDeformity							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text													BONUS:SKILL|Intimidate|2|TYPE=Circumstance	BONUS:VAR|PoisonResistanceBonus|2|TYPE=Circumstance			SOURCEPAGE:BoVD	BONUS:STAT|CON|2|TYPE=Deformity	BONUS:STAT|DEX|-2|TYPE=Deformity	ABILITY:Special Ability|VIRTUAL|Resistance To Poison
-Disciple of Darkness	TYPE:Vile.DemonicAllegiance	VISIBLE:YES					!PREFEAT:1,TYPE=DemonicAllegiance							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD	ADDSPELLLEVEL:1		
+Boost Spell Like Ability	TYPE:General	VISIBLE:YES	OUTPUTNAME:Boost Spell-Like Ability																					DESC:The save DC of your chosen spell-like ability is increased by +2, up to 3 times per day.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|BoostSpellLikeAbilityPerDay|3			SOURCEPAGE:BoVD	DEFINE:BoostSpellLikeAbilityPerDay|0	SAB:%/day|BoostSpellLikeAbilityPerDay	
+Boost Spell Resistance	TYPE:General	VISIBLE:YES												PREALIGN:LE,NE,CE										DESC:If you already have innate spell resistance, you gain a +2 profane bonus to it.														BONUS:MISC|SR|2			SOURCEPAGE:BoVD			
+Corrupt Spell	TYPE:Metamagic	VISIBLE:YES												PREALIGN:LE,NE,CE										DESC:This feat adds the evil descriptor to a spell. Furthermore, if the spell deals damage, half of the damage is unholy damage.																	SOURCEPAGE:BoVD	ADDSPELLLEVEL:1		
+Corrupt Spell Like Ability	TYPE:General	VISIBLE:YES	OUTPUTNAME:Corrupt Spell-Like Ability											PREALIGN:LE,NE,CE										DESC:This feat adds the evil descriptor to a spell-like ability. Furthermore, if the ability deals damage, half of the damage is unholy damage. Each of your spell-like abilities may be corrupted up to three times per day, for each time you have taken this feat.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|CorruptSpellLikeAbilityPerDay|3			SOURCEPAGE:BoVD	DEFINE:CorruptSpellLikeAbilityPerDay|0	SAB:%/day|CorruptSpellLikeAbilityPerDay	
+Dark Speech	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE	PRESTAT:2,INT=15,CHA=15					PRECHECKBASE:1,Will=5		ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You can use the Dark Speech to bring loathing and fear to others, to help cast evil spells and create evil magic items, and to weaken physical objects (see Dark Speech in Chapter 2).																	SOURCEPAGE:BoVD			
+Deformity (Clawed Hands)	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Willing Deformity								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You have the ability to deal 1d6 damage as an unarmed claw attack. You are considered armed even when unarmed.																	SOURCEPAGE:BoVD	UDAM:1d3,1d4,1d6,1d8,1d10,1d12,2d8,3d8,4d6		
+Deformity (Eyes)	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Willing Deformity								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:As a supernatural ability, you can see invisibility for 1 minute per day. You take a -2 deformity penalty on Spot and Search checks.													BONUS:SKILL|Spot,Searc|-2|TYPE=Deformity				SOURCEPAGE:BoVD			
+Deformity (Face)	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Willing Deformity								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You gain a +2 circumstance bonus on Intimidate checks and a +2 deformity bonus on Diplomacy checks dealing with evil creatures of a different type.													BONUS:SKILL|Intimidate|2|TYPE=Circumstance				SOURCEPAGE:BoVD			
+Deformity (Gaunt)	TYPE:Vile.VileDeformity	VISIBLE:YES				PREFEAT:1,Willing Deformity	!PREFEAT:1,TYPE=VileDeformity							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You gain a +2 deformity bonus to Dexterity and a -2 deformity penalty to Constitution. Furthermore, you gain a +2 circumstance bonus on Escape Artist and Intimidate checks.													BONUS:SKILL|Escape Artist,Intimidate|2|TYPE=Circumstance				SOURCEPAGE:BoVD	BONUS:STAT|DEX|2|TYPE=Deformity	BONUS:STAT|CON|-2|TYPE=Deformity	
+Deformity (Obese)	TYPE:Vile.VileDeformity	VISIBLE:YES				PREFEAT:1,Willing Deformity	!PREFEAT:1,TYPE=VileDeformity							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You gain a +2 deformity bonus to Dexterity and a -2 deformity penalty to Constitution. Furthermore, you gain a +2 circumstance bonus on Intimidate checks and saves against poison.													BONUS:SKILL|Intimidate|2|TYPE=Circumstance	BONUS:VAR|PoisonResistanceBonus|2|TYPE=Circumstance			SOURCEPAGE:BoVD	BONUS:STAT|CON|2|TYPE=Deformity	BONUS:STAT|DEX|-2|TYPE=Deformity	ABILITY:Special Ability|VIRTUAL|Resistance To Poison
+Disciple of Darkness	TYPE:Vile.DemonicAllegiance	VISIBLE:YES					!PREFEAT:1,TYPE=DemonicAllegiance							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Once per day while performing an evil act, you may call upon your diabolic patron to add a +1 luck bonus to any one die roll.																	SOURCEPAGE:BoVD	ADDSPELLLEVEL:1		
 #Empower Spell Like Ability																																												
-Evil Brand	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Lichloved	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Evil Brand								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text														BONUS:VAR|MindAffectingResistanceBonus,PoisonResistanceBonus,SleepResistanceBonus,ParalysisResistanceBonus,StunningResistanceBonus|1|TYPE=Circumstance			SOURCEPAGE:BoVD			ABILITY:Special Ability|VIRTUAL|Resistance To Poison|Resistance To Mind-Affecting|Resistance To Sleep|Resistance To Paralysis|Resistance To Stunning|Immunity to Non Magical Disease
-Malign Spell Focus	TYPE:General	VISIBLE:YES												PREALIGN:LE,NE,CE										DESC:See Text										BONUS:DC|DESCRIPTOR.Evil|2							SOURCEPAGE:BoVD			
-Mortalbane	TYPE:General	VISIBLE:YES																						DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|MortalbanePerDay|5			SOURCEPAGE:BoVD	DEFINE:MortalbanePerDay|0		
-#Poison Immunity	vedi SS	#	TYPE:General	VISIBLE:YES																						DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|PoisonResistanceBonus|1			SOURCEPAGE:BoVD	ABILITY:Special Ability|VIRTUAL|Resistance To Poison		
+Evil Brand	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Evil creatures now automatically recognize the symbol emblazoned upon you as a sign of your utter depravity. You gain a +2 circumstance bonus on Diplomacy and Intimidate checks against evil creatures.																	SOURCEPAGE:BoVD			
+Lichloved	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Evil Brand								PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Mindless undead now see you as an undead creature. You gain a +1 circumstance bonus on saves against mind-affecting effects, poison, sleep, paralysis, stunning, and disease.														BONUS:VAR|MindAffectingResistanceBonus,PoisonResistanceBonus,SleepResistanceBonus,ParalysisResistanceBonus,StunningResistanceBonus|1|TYPE=Circumstance			SOURCEPAGE:BoVD			ABILITY:Special Ability|VIRTUAL|Resistance To Poison|Resistance To Mind-Affecting|Resistance To Sleep|Resistance To Paralysis|Resistance To Stunning|Immunity to Non Magical Disease
+#Parte dello spell focus sul complete divine.																																												
+#Malign Spell Focus	TYPE:General	VISIBLE:YES												PREALIGN:LE,NE,CE										DESC:Add +2 to the save DC against any of your spells with the evil descriptor.										BONUS:DC|DESCRIPTOR.Evil|2							SOURCEPAGE:BoVD			
+Mortalbane	TYPE:General	VISIBLE:YES																						DESC:A mortalbane ability is a damaging spell-like ability that deals 2d6 additional damage when used against living nonoutsiders, but only half damage against outsiders, undead, and constructs. Mortalbane can be applied to the chosen spell-like ability up to three times per day.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|MortalbanePerDay|5			SOURCEPAGE:BoVD	DEFINE:MortalbanePerDay|0		
+Poison Immunity	TYPE:General	VISIBLE:YES																						DESC:You are immune to one specific poison. You also gain a +1 circumstance bonus on saves against other poisons.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|PoisonResistanceBonus|1			SOURCEPAGE:BoVD	ABILITY:Special Ability|VIRTUAL|Resistance To Poison		
 #Quicken Spell Like Ability																																												
-Sacrificial Mastery	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE	PRESTAT:1,WIS=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Thrall to Demon	TYPE:Vile.DemonicAllegiance	VISIBLE:YES					!PREFEAT:1,TYPE=DemonicAllegiance							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Verminfriend	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE	PRESTAT:1,CHA=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Vile Ki Strike	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike								PREALIGN:LE,NE,CE	PRESTAT:1,CHA=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Vile Martial Strike	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Weapon Focus								PREALIGN:LE,NE,CE	PRESTAT:1,CHA=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|FEAT=Weapon Focus														SOURCEPAGE:BoVD			
-Vile Natural Attack	TYPE:Vile	VISIBLE:YES		PREATT:5										PREALIGN:LE,NE,CE						PRETEXT:natural attack that deal at least 1d8 points of damage.		ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD			
-Violate Spell	TYPE:Metamagic	VISIBLE:YES												PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text																	SOURCEPAGE:BoVD	ADDSPELLLEVEL:1		
-Violate Spell Like Abilithy	TYPE:General	VISIBLE:YES	OUTPUTNAME:Violate Spell-Like Ability											PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|ViolateSpellLikeAbilityPerDay|5			SOURCEPAGE:BoVD	DEFINE:ViolateSpellLikeAbilityPerDay|0	SAB:%/day|ViolateSpellLikeAbilityPerDay	
-Willing Deformity	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:See Text													BONUS:SKILL|Intimidate|2|TYPE=Deformity				SOURCEPAGE:BoVD			
-#
-#Ambidexterity.MOD	TYPE:ViolentKnowledge
-Improved Bull Rush.MOD	TYPE:ViolentKnowledge
-Cleave.MOD	TYPE:ViolentKnowledge
-Deflect Arrows.MOD	TYPE:ViolentKnowledge
-Dodge.MOD	TYPE:ViolentKnowledge
-Exotic Weapon Proficiency.MOD	TYPE:ViolentKnowledge
-Far Shot.MOD	TYPE:ViolentKnowledge
-Great Cleave.MOD	TYPE:ViolentKnowledge
-Improved Critical.MOD	TYPE:ViolentKnowledge
-Improved Disarm.MOD	TYPE:ViolentKnowledge
-Improved Initiative.MOD	TYPE:ViolentKnowledge
-Improved Trip.MOD	TYPE:ViolentKnowledge
-Improved Two Weapon Fighting.MOD	TYPE:ViolentKnowledge
-Improved Unarmed Strike.MOD	TYPE:ViolentKnowledge
-Mobility.MOD	TYPE:ViolentKnowledge
-Mounted Archery.MOD	TYPE:ViolentKnowledge
-Mounted Combat.MOD	TYPE:ViolentKnowledge
-Point Blank Shot.MOD	TYPE:ViolentKnowledge
-Power Attack.MOD	TYPE:ViolentKnowledge
-Precise Shot.MOD	TYPE:ViolentKnowledge
-Quick Draw.MOD	TYPE:ViolentKnowledge
-Rapid Shot.MOD	TYPE:ViolentKnowledge
-Ride By Attack.MOD	TYPE:ViolentKnowledge
-Shot on the Run.MOD	TYPE:ViolentKnowledge
-Spirited Charge.MOD	TYPE:ViolentKnowledge
-Spring Attack.MOD	TYPE:ViolentKnowledge
-Stunning Fist.MOD	TYPE:ViolentKnowledge
-Improved Sunder.MOD	TYPE:ViolentKnowledge
-Trample.MOD	TYPE:ViolentKnowledge
-Two Weapon Fighting.MOD	TYPE:ViolentKnowledge
-Weapon Finesse.MOD	TYPE:ViolentKnowledge
-Weapon Focus.MOD	TYPE:ViolentKnowledge
-Weapon Specialization.MOD	TYPE:ViolentKnowledge
-Whirlwind Attack.MOD	TYPE:ViolentKnowledge
+Sacrificial Mastery	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE	PRESTAT:1,WIS=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You gain a +4 profane bonus on Knowledge (religion) checks made when performing a sacrifice.																	SOURCEPAGE:BoVD			
+Thrall to Demon	TYPE:Vile.DemonicAllegiance	VISIBLE:YES					!PREFEAT:1,TYPE=DemonicAllegiance							PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Once per day while performing an evil act, you may call upon your demonic patron to add a +1 luck bonus to any one die roll.																	SOURCEPAGE:BoVD			
+Verminfriend	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE	PRESTAT:1,CHA=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:If a vermin is about to attack you, you may make a Charisma check (DC 20). If the check succeeds, the vermin refuses to attack you for 24 hours.																	SOURCEPAGE:BoVD			
+Vile Ki Strike	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike								PREALIGN:LE,NE,CE	PRESTAT:1,CHA=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Each time you deal damage with your unarmed strike, you deal 1 additional point of vile damage.																	SOURCEPAGE:BoVD			
+Vile Martial Strike	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Weapon Focus								PREALIGN:LE,NE,CE	PRESTAT:1,CHA=15							ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Each time you deal damage with the chosen weapon, you deal 1 additional point of vile damage.	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|FEAT=Weapon Focus														SOURCEPAGE:BoVD			
+Vile Natural Attack	TYPE:Vile	VISIBLE:YES		PREATT:5										PREALIGN:LE,NE,CE						PRETEXT:natural attack that deal at least 1d8 points of damage.		ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:Each time you deal damage with your natural attack, you deal 1 additional point of vile damage.																	SOURCEPAGE:BoVD			
+Violate Spell	TYPE:Metamagic	VISIBLE:YES												PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:This feat adds the evil descriptor to a spell. Furthermore, if the spell deals damage, half of the damage is vile damage.																	SOURCEPAGE:BoVD	ADDSPELLLEVEL:1		
+Violate Spell Like Abilithy	TYPE:General	VISIBLE:YES	OUTPUTNAME:Violate Spell-Like Ability											PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:This feat adds the evil descriptor to a spell-like ability. Furthermore, if the ability deals damage, half of the damage is vile damage. The chosen spell-like ability may be violated up to twice per day.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|ViolateSpellLikeAbilityPerDay|5			SOURCEPAGE:BoVD	DEFINE:ViolateSpellLikeAbilityPerDay|0	SAB:%/day|ViolateSpellLikeAbilityPerDay	
+Willing Deformity	TYPE:Vile	VISIBLE:YES												PREALIGN:LE,NE,CE								ABILITY:Special Ability|VIRTUAL|Aura of Evil	DEFINE:AuraEvil|TL	DESC:You gain a +2 deformity bonus on Intimidate checks.													BONUS:SKILL|Intimidate|2|TYPE=Deformity				SOURCEPAGE:BoVD			
+#																																												
+#Ambidexterity.MOD	TYPE:ViolentKnowledge																																											
+Improved Bull Rush.MOD	TYPE:ViolentKnowledge																																											
+Cleave.MOD	TYPE:ViolentKnowledge																																											
+Deflect Arrows.MOD	TYPE:ViolentKnowledge																																											
+Dodge.MOD	TYPE:ViolentKnowledge																																											
+Exotic Weapon Proficiency.MOD	TYPE:ViolentKnowledge																																											
+Far Shot.MOD	TYPE:ViolentKnowledge																																											
+Great Cleave.MOD	TYPE:ViolentKnowledge																																											
+Improved Critical.MOD	TYPE:ViolentKnowledge																																											
+Improved Disarm.MOD	TYPE:ViolentKnowledge																																											
+Improved Initiative.MOD	TYPE:ViolentKnowledge																																											
+Improved Trip.MOD	TYPE:ViolentKnowledge																																											
+Improved Two Weapon Fighting.MOD	TYPE:ViolentKnowledge																																											
+Improved Unarmed Strike.MOD	TYPE:ViolentKnowledge																																											
+Mobility.MOD	TYPE:ViolentKnowledge																																											
+Mounted Archery.MOD	TYPE:ViolentKnowledge																																											
+Mounted Combat.MOD	TYPE:ViolentKnowledge																																											
+Point Blank Shot.MOD	TYPE:ViolentKnowledge																																											
+Power Attack.MOD	TYPE:ViolentKnowledge																																											
+Precise Shot.MOD	TYPE:ViolentKnowledge																																											
+Quick Draw.MOD	TYPE:ViolentKnowledge																																											
+Rapid Shot.MOD	TYPE:ViolentKnowledge																																											
+Ride By Attack.MOD	TYPE:ViolentKnowledge																																											
+Shot on the Run.MOD	TYPE:ViolentKnowledge																																											
+Spirited Charge.MOD	TYPE:ViolentKnowledge																																											
+Spring Attack.MOD	TYPE:ViolentKnowledge																																											
+Stunning Fist.MOD	TYPE:ViolentKnowledge																																											
+Improved Sunder.MOD	TYPE:ViolentKnowledge																																											
+Trample.MOD	TYPE:ViolentKnowledge																																											
+Two Weapon Fighting.MOD	TYPE:ViolentKnowledge																																											
+Weapon Finesse.MOD	TYPE:ViolentKnowledge																																											
+Weapon Focus.MOD	TYPE:ViolentKnowledge																																											
+Weapon Specialization.MOD	TYPE:ViolentKnowledge																																											
+Whirlwind Attack.MOD	TYPE:ViolentKnowledge																																											

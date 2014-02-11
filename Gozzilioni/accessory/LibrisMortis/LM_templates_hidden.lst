@@ -2,7 +2,7 @@ SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net
 																							
 ###Block: Stitched flesh Familiar																							
 # Template Name				Visible	Template																	Required Size	Natural Attacks
-Stitched Flesh Familiar	VISIBLE:NO	TEMPLATE:Undead	HITDIE:12	DEFINE:LOCK.CON|10																			
+Stitched Flesh Familiar	VISIBLE:NO	TEMPLATE:Undead	HITDIE:12	DEFINESTAT:NONSTAT|CON																			
 # Template Name																							
 Hunger ~ Bite	VISIBLE:NO	TEMPLATE:CHOOSE:Hunger ~ Bite (Fine)|Hunger ~ Bite (Diminutive)|Hunger ~ Bite (Tiny)|Hunger ~ Bite (Small)|Hunger ~ Bite (Medium)|Hunger ~ Bite (Large)|Hunger ~ Bite (Huge)|Hunger ~ Bite (Gargantuan)|Hunger ~ Bite (Colossal)																					
 Hunger ~ Bite (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1																				

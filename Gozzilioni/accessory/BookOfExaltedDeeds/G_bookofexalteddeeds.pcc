@@ -21,7 +21,6 @@ HIDETYPE:FEAT|CelestialAllegiance
 ABILITY:EXD_abilities_class.lst
 CLASS:EXD_classes_sanctified.lst
 CLASS:EXD_classes_base.lst
-CLASS:EXD_classes_monsters.lst
 CLASS:EXD_classes_monster_specific.lst
 CLASS:EXD_classes_prestige.lst
 SPELL:EXD_classes_spells.lst
@@ -42,14 +41,12 @@ EQUIPMENT:EXD_equip_weap_ranged_specific.lst
 EQUIPMENT:EXD_equip_wondrous.lst
 EQUIPMOD:EXD_equipmods_enhancing.lst
 FEAT:EXD_feats.lst
-FEAT:EXD_feats_description.lst
 LANGUAGE:EXD_languages.lst
 RACE:EXD_races.lst
 SPELL:EXD_spells.lst
 SPELL:EXD_spells_epic.lst
 TEMPLATE:EXD_templates.lst
 TEMPLATE:EXD_templates_hidden.lst
-TEMPLATE:EXD_templates_type.lst
 WEAPONPROF:EXD_weaponprofs.lst
 
 #ABILITY:my_abilities.lst

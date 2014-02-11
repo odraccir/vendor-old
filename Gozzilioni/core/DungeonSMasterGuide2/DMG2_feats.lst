@@ -2,8 +2,11 @@ SOURCELONG:Dungeon's Master Guide 2	SOURCESHORT:DMG2	SOURCEWEB:http://www.gozzil
 																																										
 # BASICS																																										
 # Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	
-Apprentice	TYPE:General	VISIBLE:YES			PRECLASSLEVELMAX:1,TYPE.Base=1															PRETEXT:Must have a Mentor.				DESC:See Text	STACK:NO	MULT:YES	CHOOSE:SKILL|CROSSCLASS	SELECT:2									BONUS:SKILLRANK|%LIST|2				SOURCEPAGE:DMG2	CSKILL:LIST
-Business Savvy	TYPE:General	VISIBLE:YES				PREFEAT:1,Negotiator																SAB:+2 profit check (DMG2,184).		DESC:See Text																	SOURCEPAGE:DMG2	
-Favored in Guild	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:DMG2	
-Guildmaster	TYPE:General	VISIBLE:YES				PREFEAT:2,Favored in Guild,Leadership														PRETEXT:One skill associated with the guild must be at maximum rank.				DESC:See Text																	SOURCEPAGE:DMG2	
-Truebond	TYPE:General	VISIBLE:YES			PRECLASS:1,ANY=6																			DESC:See Text																	SOURCEPAGE:DMG2	SPELLS:Locate bonded item|TIMES=ATWILL|CASTERLEVEL=TL|Locate Object
+#Apprentice	TYPE:General	VISIBLE:YES			PRECLASSLEVELMAX:1,TYPE.Base=1															PRETEXT:Must have a Mentor.				DESC:Gains 2 skill rank in a skill associated to the mentor.	STACK:NO	MULT:YES	CHOOSE:SKILL|CROSSCLASS	SELECT:2									BONUS:SKILLRANK|%LIST|2				SOURCEPAGE:DMG2, pag 176.	CSKILL:LIST	BONUS:ABILITYPOOL|Apprentice Feat Choice|1
+Apprentice	TYPE:General	VISIBLE:YES			PRECLASSLEVELMAX:1,TYPE.Base=1															PRETEXT:Must have a Mentor.				DESC:Gains 2 skill rank in a skill associated to the mentor.																	SOURCEPAGE:DMG2, pag 176.	BONUS:ABILITYPOOL|Apprentice Feat Choice|1	
+Mentor	TYPE:General	VISIBLE:YES																				SAB:+2 profit check (DMG2,184).		DESC:Gains some bonus when running a business.																	SOURCEPAGE:DMG2, pag 176.	
+Business Savvy	TYPE:General	VISIBLE:YES				PREFEAT:1,Negotiator																SAB:+2 profit check (DMG2,184).		DESC:Gains some bonus when running a business.																	SOURCEPAGE:DMG2, pag 184.	
+Favored in Guild	TYPE:General	VISIBLE:YES																						DESC:You are an active and valuued member of your guild.																	SOURCEPAGE:DMG2, pag 227.	
+Guildmaster	TYPE:General	VISIBLE:YES				PREFEAT:2,Favored in Guild,Leadership														PRETEXT:One skill associated with the guild must be at maximum rank.				DESC:You are one of the leaders of your guild.																	SOURCEPAGE:DMG2, pag 228.	
+Truebond	TYPE:General	VISIBLE:YES			PRECLASS:1,ANY=6																			DESC:Your bond to your chosen item become stronger.																	SOURCEPAGE:DMG2, pag 232.	SPELLS:Locate bonded item|TIMES=ATWILL|CASTERLEVEL=TL|Locate Object
+

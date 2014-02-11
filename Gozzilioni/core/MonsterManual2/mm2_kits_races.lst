@@ -230,8 +230,8 @@ FEAT:Improved Bull Rush
 FEAT:Improved Overrun
 FEAT:Power Attack
 
-STARTPACK:Default Cervidal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cervidal]
-RACE:Cervidal	!PRERACE:1,%		
+STARTPACK:Default Cervidal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Cervidal)]
+RACE:Guardinal (Cervidal)	!PRERACE:1,%		
 NAME:Cervidal
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 SKILL:Balance	RANK:6		
@@ -246,8 +246,8 @@ SKILL:Spot	RANK:7
 FEAT:Multiattack
 FEAT:Power Attack
 
-STARTPACK:Default Lupinal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Lupinal]
-RACE:Lupinal	!PRERACE:1,%		
+STARTPACK:Default Lupinal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Lupinal)]
+RACE:Guardinal (Lupinal)	!PRERACE:1,%		
 NAME:Lupinal
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 SKILL:Balance	RANK:11		

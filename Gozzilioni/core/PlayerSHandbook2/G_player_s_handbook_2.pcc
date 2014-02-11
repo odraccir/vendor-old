@@ -22,7 +22,6 @@ SPELL:PHB2_classes_spells.lst
 COMPANIONMOD:PHB2_companionmods.lst
 EQUIPMOD:PHB2_equipmods_enhancing.lst
 FEAT:PHB2_feats.lst
-FEAT:PHB2_feats_descriptions.lst
 KIT:PHB2_kits_races__animals.lst
 SKILL:PHB2_skills.lst
 SPELL:PHB2_spells.lst

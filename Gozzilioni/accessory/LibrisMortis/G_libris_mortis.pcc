@@ -29,7 +29,6 @@ EQUIPMENT:LM_equip_weap_ammo.lst
 EQUIPMENT:LM_equip_weap_melee.lst
 EQUIPMOD:LM_equipmods_enhancing.lst
 FEAT:LM_feats.lst
-FEAT:LM_feats_descriptions.lst
 LANGUAGE:LM_languages.lst
 RACE:LM_races.lst
 SPELL:LM_spells.lst

@@ -11,7 +11,7 @@ Wu Jen Watchful Spirit	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO								
 Acolyte of the Skin Fiendish Glare	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AcolyteSkinFiendishGlareLVL|0					BONUS:VAR|FiendishGlareDC|AcolyteSkinFiendishGlareLVL																		SOURCEPAGE:CA
 Acolyte of the Skin Glare of the Pit	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|GlareOfThePitPerDay|1																		SOURCEPAGE:CA
 Acolyte of the Skin Summon Fiend	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|SummonFiendPerDay|1																		SOURCEPAGE:CA
-Alienist Pseudonatural	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO															TEMPLATE:Pseudonatural (CA)													SOURCEPAGE:CA	
+Alienist Pseudonatural	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO															TEMPLATE:Pseudonatural													SOURCEPAGE:CA	
 Blood Magus Awaken Blood	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|AwakenBloodPerDay|1																		SOURCEPAGE:CA
 Blood Magus Bloodwalk	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|BloodwalkPerDay|1																		SOURCEPAGE:CA
 Elemental Savant Energy Penetration	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:ElementalSavantEnergyPenetrationLVL|0					BONUS:VAR|EnergyPenetrationBonus|((ElementalSavantEnergyPenetrationLVL+2)/5)*2																		SOURCEPAGE:CA

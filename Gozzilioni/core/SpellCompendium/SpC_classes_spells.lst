@@ -1,4 +1,4 @@
 SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net
 		
 #Teleport	CLASSES:Sorcerer,Wizard=5	TYPE:Arcane.Divine
-Fangs of the Vampire King.MOD	CLASSES:Deathbound=3
+#Fangs of the Vampire King.MOD	CLASSES:Deathbound=3

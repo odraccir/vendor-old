@@ -16,6 +16,9 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Spell Compendium
 ABILITY:SpC_abilities.lst
+ABILITY:SpC_abilities_class.lst
+SPELL:SPC_classes_spells.lst
+COMPANIONMOD:SpC_companionmods.lst
 RACE:SpC_races.lst
 SPELL:SPC_spells.lst
 TEMPLATE:SpC_templates_hidden.lst
