@@ -1,0 +1,13 @@
+SOURCELONG:Nephandum	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Witch Hunter																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Witch Hunter Weapon Proficiencies|Witch Hunter Shield Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)							SOURCEPAGE:Nep
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Divine Lightning																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency						SOURCEPAGE:Nep
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Darkened																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency						SOURCEPAGE:Nep
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Implacable Bloodhound																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Implacable Bloodhound Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)							SOURCEPAGE:Nep
+#																																
+###Block: Class Specific																																
+Witch Hunter Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Sword (Short)|Rapier|Whip|Crossbow (Hand)|Crossbow (Repeating Light)|Crossbow (Repeating Heavy)								SOURCEPAGE:Nep
+Witch Hunter Shield Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																							AUTO:SHIELDPROF|SHIELDTYPE=Buckler						SOURCEPAGE:Nep
+Implacable Bloodhound Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE.Bow								SOURCEPAGE:Nep

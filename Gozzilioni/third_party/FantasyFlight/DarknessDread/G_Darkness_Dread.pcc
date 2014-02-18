@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Darkness and Dread
 ABILITY:DD_abilities_class.lst
+ABILITY:DD_abilities_proficiencies.lst
 CLASS:DD_classes_base.lst
 SPELL:DD_classes_spells.lst
 FEAT:DD_feats.lst

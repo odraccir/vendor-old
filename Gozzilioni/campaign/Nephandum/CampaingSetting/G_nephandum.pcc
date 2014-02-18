@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Nephandum
 ABILITY:Nep_abilities_class.lst
+ABILITY:Nep_abilities_proficiencies.lst
 CLASS:Nep_classes_prestige.lst
 SPELL:Nep_classes_spells.lst
 COMPANIONMOD:Nep_companionmods.lst

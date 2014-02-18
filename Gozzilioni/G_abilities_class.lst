@@ -2,14 +2,5 @@
 #																																										
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:										
 #Godling Turning	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO								BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base																				SOURCEPAGE:PFSrd										
-#Wizard
-Air Elementalist Learning Bonus	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES		OUTPUTNAME:+2 bonus to Spellcraft when learning spells with Air descriptor																											SOURCEPAGE:Mon
-Earth Elementalist Learning Bonus	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES		OUTPUTNAME:+2 bonus to Spellcraft when learning spells with Earth descriptor																											SOURCEPAGE:Mon
-Fire Elementalist Learning Bonus	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES		OUTPUTNAME:+2 bonus to Spellcraft when learning spells with Fire descriptor																											SOURCEPAGE:Mon
-Water Elementalist Learning Bonus	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality	VISIBLE:YES		OUTPUTNAME:+2 bonus to Spellcraft when learning spells with Water descriptor																											SOURCEPAGE:Mon
-Forbid Air Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Air Elementalist		DEFINE:ProhibitAirElement|0						BONUS:VAR|ProhibitAirElement|1
-Forbid Earth Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Earth Elementalist		DEFINE:ProhibitEarthElement|0						BONUS:VAR|ProhibitEarthElement|1
-Forbid Fire Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Fire Elementalist		DEFINE:ProhibitFireElement|0						BONUS:VAR|ProhibitFireElement|1
-Forbid Water Element	CATEGORY:Special Ability	TYPE:WizardProhibitElement					!PRESUBCLASS:1,Water Elementalist		DEFINE:ProhibitWaterElement|0						BONUS:VAR|ProhibitWaterElement|1
 #Sorcerer
 Casterlevel Bonus	CATEGORY:Special Ability	TYPE:Internal.SpecialQuality	VISIBLE:DISPLAY	DESC:Special: Sorcerer cast this spell at +1 casterlevel.	KEY:Casterlevel Bonus ~ Sorcerer																											SOURCEPAGE:G

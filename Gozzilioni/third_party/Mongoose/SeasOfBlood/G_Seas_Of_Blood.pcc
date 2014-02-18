@@ -15,6 +15,7 @@ INFOTEXT:Seas Of Blood is D20 3ed. Use with cautions with 3.5ed. Updated and Mod
 #
 #Seas of blood
 ABILITY:SoB_abilities_class.lst
+ABILITY:SoB_abilities_proficiencies.lst
 ABILITYCATEGORY:SoB_ability_category.lst
 CLASS:SoB_classes_base.lst
 CLASS:SoB_classes_prestige.lst

@@ -1,0 +1,7 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Harper Scout																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)							SOURCEPAGE:FRCS
+#																																
+###Block: Class Specific																																

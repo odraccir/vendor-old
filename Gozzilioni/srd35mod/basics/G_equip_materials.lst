@@ -200,3 +200,4 @@ Statuette of a Fiend (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOUR
 Die (Gold/20 gp)	TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Insight of Good Fortune
 Diamond chip embedded in charcoal (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Earth Lock
 Concotion (Demon skin and rare herbs/250 gp)	TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Instant Refuge.
+Oil and Unguents (Rare/500 gp)	TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Last Breath.

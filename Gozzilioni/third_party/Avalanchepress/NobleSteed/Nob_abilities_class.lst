@@ -2,9 +2,24 @@ SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-#Cancer Mage Armor Prof	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:BoVD
+																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ Aughisky	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 15.	OUTPUTNAME:Trainable																											SOURCEPAGE:Nob
+Training ~ Fey Horse	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:Nob
+Training ~ Iron Horse	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:Nob
+Training ~ Terra Cotta	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:Nob
 																																
 # Ability Name																																
 Typical	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES	DESC:Typical breed.	SORTKEY:0001			!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass																								SOURCEPAGE:Nob
 Purebred	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES	DESC:Pureblood breed (+2 cha).	SORTKEY:0002			!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass						BONUS:STAT|CHA|2																		SOURCEPAGE:Nob
 Exceptional	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES	DESC:Exceptional breed (+2 cha,increased hd size)	SORTKEY:0003			!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass						BONUS:STAT|CHA|2									TEMPLATE:Exceptional Breed									SOURCEPAGE:Nob
+																																
+Increased Movement	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+10-ft while running	KEY:Steed ~ Increased Movement																											SOURCEPAGE:Nob
+Increased Movement 2	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+20-ft while running	KEY:Steed ~ Increased Movement 2																											SOURCEPAGE:Nob
+Increased Movement 3	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+30-ft while running	KEY:Steed ~ Increased Movement 3																											SOURCEPAGE:Nob
+Threaten	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Steed ~ Threaten						BONUS:WEAPONPROF=TYPE.Natural|CRITRANGEADD|1																					SOURCEPAGE:Nob
+Threaten 2	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Steed ~ Threaten 2						BONUS:WEAPONPROF=TYPE.Natural|CRITRANGEADD|1																					SOURCEPAGE:Nob
+Threaten 3	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Steed ~ Threaten 3						BONUS:WEAPONPROF=TYPE.Natural|CRITRANGEADD|1																					SOURCEPAGE:Nob
+Lounge	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Steed ~ Lounge	SERVESAS:ABILITY=Special Ability|Evasion																										SOURCEPAGE:Nob
+Swift Hooves	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Steed ~ Swift Hooves																											SOURCEPAGE:Nob
+Preternatural Awareness	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES		KEY:Steed ~ Preternatural Awareness	SERVESAS:ABILITY=Special Ability|Uncanny Dodge					BONUS:VAR|UncannyDodgeFlankingLevel|HD	BONUS:VAR|UncannyDodgeLevel|1							ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base													SOURCEPAGE:Nob

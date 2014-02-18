@@ -1,0 +1,7 @@
+SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Prophet																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								SOURCEPAGE:RLDMG
+#																																
+###Block: Class Specific																																

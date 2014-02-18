@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Magic of Faerun
 ABILITY:RLCoD_abilities_class.lst
+ABILITY:RLCoD_abilities_proficiencies.lst
 CLASS:RLCoD_classes_prestige.lst
 SPELL:RLCoD_classes_spells.lst
 DOMAIN:RLCoD_domains.lst

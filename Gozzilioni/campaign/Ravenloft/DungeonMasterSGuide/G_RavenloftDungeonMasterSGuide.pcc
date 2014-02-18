@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Ravenloft Dungeon Master's Guide
 ABILITY:RLDMG_abilities_class.lst
+ABILITY:RLDMG_abilities_proficiencies.lst
 CLASS:RLDMG_classes_prestige.lst
 SPELL:RLDMG_classes_spells.lst
 EQUIPMENT:RLDMG_equip.lst

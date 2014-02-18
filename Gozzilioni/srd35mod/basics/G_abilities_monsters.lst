@@ -66,6 +66,11 @@ CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Baatezu Tr
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Baatezu|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Baatezu]																																	
 Baatezu Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Baatezu																												SOURCEPAGE:MM	
 Baatezu Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:AcidResistanceBonus|10	DEFINE:ColdResistanceBonus|10			BONUS:VAR|DarkvisionRange|60|TYPE=Base								ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity To Poison|Resistance To Acid|Resistance To Cold|See in Darkness|Telepathy		AUTO:LANG|Infernal|Celestial|Draconic											SOURCEPAGE:MM	
+#Barghest																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Barghest Traits|PRERACE:1,RACESUBTYPE=Barghest																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Barghest|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Barghest]																																	
+Barghest Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Barghest																												SOURCEPAGE:MM	
+Barghest Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:AcidResistanceBonus|10	DEFINE:ColdResistanceBonus|10			BONUS:VAR|DarkvisionRange|60|TYPE=Base								ABILITY:Special Ability|AUTOMATIC|Natural Weapons ~ Barghest|Spell-Like Abilities ~ Barghest|Feed ~ Barghest|Change Shape ~ Barghest|Pass Without Trace ~ Barghest|Skills ~ Barghest		AUTO:LANG|Goblin|Worg|Infernal											SOURCEPAGE:MM	
 #Beholder																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Beholder Traits|PRERACE:1,RACESUBTYPE=Beholder																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Beholder|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Beholder]																																	
@@ -100,7 +105,7 @@ Deva Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILI
 #Desmodu's Bat																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Desmodu's Bat Traits|PRERACE:1,RACESUBTYPE=Desmodu's Bat																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Desmodu's Bat|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Desmodu's Bat]																																	
-Desmodu's Bat Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Deva																												SOURCEPAGE:MM2	
+Desmodu's Bat Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Desmodu's Bat																												SOURCEPAGE:MM2	
 Desmodu's Bat Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility										BONUS:VAR|BlindsightRange|120|TYPE=Base								ABILITY:Special Ability|AUTOMATIC|Immunity to Screech													SOURCEPAGE:MM2	
 #Eladrin																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Eladrin Traits|PRERACE:1,RACESUBTYPE=Eladrin																																	
@@ -110,7 +115,7 @@ Eladrin Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:ColdRes
 #Elemental Grue																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Elemental Grue Traits|PRERACE:1,RACESUBTYPE=Elemental Grue																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Elemental Grue|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Elemental Grue]																																	
-Elemental Grue Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Elemental Weird																												SOURCEPAGE:CA	
+Elemental Grue Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Elemental Grue																												SOURCEPAGE:CA	
 Elemental Grue Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Spell Disruption													SOURCEPAGE:CA	
 #Elemental Weird																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Elemental Weird Traits|PRERACE:1,RACESUBTYPE=Elemental Weird																																	
@@ -146,13 +151,33 @@ Skills	CATEGORY:Special Ability	TYPE:SpecialQuality		DESC:It can always take 10 
 #Formian																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Formian Traits|PRERACE:1,RACESUBTYPE=Formian																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Formian|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Formian]																																	
-Formian Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Flame Snake																												SOURCEPAGE:FFo	
+Formian Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Formian																												SOURCEPAGE:FFo	
 Formian Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:FireResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20	DEFINE:SonicResistanceBonus|20										ABILITY:Special Ability|AUTOMATIC|Hive Mind|Immunity To Cold|Immunity To Petrification|Immunity To Poison|Resistance To Electricity|Resistance To Fire|Resistance To Sonic													SOURCEPAGE:FFo	
+#Genie																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Genie Traits|PRERACE:1,RACESUBTYPE=Genie																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Genie|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Genie]																																	
+Genie Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Genie																												SOURCEPAGE:MM	
+Genie Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Plane Shift ~ Genie Shared													SOURCEPAGE:MM	
+#Giant																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACESUBTYPE=Giant																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Giant|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Giant]																																	
+Giant Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Giant																												SOURCEPAGE:MM	
+Giant Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Rock Catching ~ Giant Shared|Rock Throwing ~ Giant Shared													SOURCEPAGE:MM	
 #Guardinal																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Guardinal Traits|PRERACE:1,RACESUBTYPE=Guardinal																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Guardinal|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Guardinal]																																	
 Guardinal Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:+4 racial bonus on saving throws against poison.	KEY:Traits Output ~ Guardinal																												SOURCEPAGE:MM	
 Guardinal Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:ColdResistanceBonus|10	DEFINE:SonicResistanceBonus|10			BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial							ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification|Resistance To Cold|Resistance To Sonic|Lay on Hands|Speak with Animals|Vision ~ Low-Light|Resistance To Poison		AUTO:LANG|Celestial|Infernal|Draconic											SOURCEPAGE:MM	
+#Hag																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Hag Traits|PRERACE:1,RACESUBTYPE=Hag																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Hag|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Hag]																																	
+Hag Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Hag																												SOURCEPAGE:MM	
+Hag Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																				AUTO:LANG|Giant|Common											SOURCEPAGE:MM	
+#Hell Hound																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Hell Hound Traits|PRERACE:1,RACESUBTYPE=Hell Hound																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Hell Hound|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Hell Hound]																																	
+Hell Hound Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Hell Hound																												SOURCEPAGE:MM	
+Hell Hound Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:BreathWeaponCone|10	DEFINE:BreathWeaponDice|2	DEFINE:BreathWeaponDamageDie|4	DEFINE:BreathWeaponDC|10+(HD/2)+CON									ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Skills ~ Hell Hound|Immunity To Fire|Scent|Vulnerability To Cold	ABILITY:Special Ability|AUTOMATIC|Fiery Bite ~ Hell Hound|PRESIZEEQ:M	AUTO:LANG|Infernal	ABILITY:Special Ability|AUTOMATIC|Fiery Bite Large ~ Hell Hound|PRESIZEEQ:L	ABILITY:Special Ability|AUTOMATIC|Fiery Bite Huge ~ Hell Hound|PRESIZEEQ:H									SOURCEPAGE:MM	
 #Imp																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Imp Traits|PRERACE:1,RACESUBTYPE=Imp																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Imp|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Imp]																																	
@@ -212,7 +237,7 @@ Nerra Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABIL
 #Orcwort																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Orcwort Traits|PRERACE:1,RACESUBTYPE=Orcwort																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Orcwort|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Orcwort]																																	
-Orcwort Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Orcworth																												SOURCEPAGE:MM2	
+Orcwort Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Orcwort																												SOURCEPAGE:MM2	
 Orcwort Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Woodsense													SOURCEPAGE:MM2	
 #Phaerimm																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Phaerimm Traits|PRERACE:1,RACESUBTYPE=Phaerimm																																	
@@ -244,6 +269,11 @@ CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Rothe Trai
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Rothe|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Rothe]																																	
 Rothe Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Rothe																												SOURCEPAGE:PGtF	
 Rothe Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Stampede|Resistance To Enchantment													SOURCEPAGE:PGtF	
+#Salamander																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Salamander Traits|PRERACE:1,RACESUBTYPE=Salamander																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Salamander|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Salamander]																																	
+Salamander Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Salamander																												SOURCEPAGE:MM	
+Salamander Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility										BONUS:SKILL|Craft (Blacksmithing)|4|TYPE=Racial								ABILITY:Special Ability|AUTOMATIC|Constrict ~ Salamander|Heat ~ Salamander|Improved Grab ~ Salamander		AUTO:LANG|Ignan	AUTO:FEAT|Multiattack										SOURCEPAGE:MM	
 #Sarkrith																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Sarkrith Traits|PRERACE:1,RACESUBTYPE=Sarkrith																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Sarkrith|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Sarkrith]																																	
@@ -275,6 +305,20 @@ CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Out
 Yugoloth Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Yugoloth																												SOURCEPAGE:MM	
 Yugoloth Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:FireResistanceBonus|10	DEFINE:ColdResistanceBonus|10			BONUS:VAR|DarkvisionRange|60|TYPE=Base								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold|Resistance To Fire|Resistance To Electricity|Immunity To Poison|Immunity To Acid		AUTO:LANG|Abyssal|Draconic|Infernal|Telepathy											SOURCEPAGE:MM	
 																																		
+## MountSubType																																		
+#Mount																																		
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PRERACE:1,RACESUBTYPE=Mount																																	
+CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Mount|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Mount]																																	
+Mount Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Mount																												SOURCEPAGE:MM	
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:Wild creature commonly found around the world.|PREABILITY:1,CATEGORY=Training Level,Wild																																
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The creature can sustain the presence of a rider, but it's cannot be reliable during a combat.|PREABILITY:1,CATEGORY=Training Level,Rideable																																
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The mount is trained to perform some simple tricks.|PREABILITY:1,CATEGORY=Training Level,Basic Training																																
+CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The mount can advance into mount classes.|PREABILITY:1,CATEGORY=Training Level,Advanced Workout																																
+Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Training Level|AUTOMATIC|Wild													SOURCEPAGE:MM	
+Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+																																		
 ## ElementSubType																																		
 #Acid																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Acid Traits|PRERACE:1,RACESUBTYPE=Acid																																	
@@ -286,3 +330,8 @@ CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Electricit
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Electricity|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Electricity]																																	
 Electricity Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Electricity																												SOURCEPAGE:??	
 Electricity Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:Maneuverability|5												ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Immunity To Electricity|Vulnerability To Water													SOURCEPAGE:??	
+
+#Mount
+Wild	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:Wild creature.							BONUS:ABILITYPOOL|Training Level|1	BONUS:ABILITYPOOL|Animal Trick|-3|PRERACE:1,RACETYPE=Animal|!PREABILITY:1,CATEGORY=Special Ability,Animal Tricks and Training	BONUS:ABILITYPOOL|Animal Trick|-3|PRERACE:1,RACETYPE=Animal|PRESTAT:1,INT=2|!PREABILITY:1,CATEGORY=Special Ability,Animal Tricks and Training																			SOURCEPAGE:G			
+Rideable	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:Rideable creature			PREABILITY:1,CATEGORY=Special Ability,Wild				BONUS:ABILITYPOOL|Training Level|1																					SOURCEPAGE:G
+Basic Training	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:%1 tricks|BasicTrainingNumber			PREABILITY:1,CATEGORY=Special Ability,Rideable	DEFINE:BasicTrainingNumber|0			BONUS:ABILITYPOOL|Animal Trick|BasicTrainingNumber	BONUS:ABILITYPOOL|Training Level|1	BONUS:WEAPONPROF=Hoof|TOHIT|5|PRETEMPLATE:1,Horse Untrained 						TEMPLATE:Trained													SOURCEPAGE:PHB	

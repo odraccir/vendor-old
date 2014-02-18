@@ -7,6 +7,11 @@ CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPEL
 CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragon Breath|1	BONUS:CASTERLEVEL|SPELL.Dragonskin|1
 CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Flight of the Dragon|1	BONUS:CASTERLEVEL|SPELL.Voice of the Dragon|1
 #
+CATEGORY=Internal|Special Mount ~ PHB.MOD	COMPANIONLIST:Special Mount|Dragonnel|FOLLOWERADJUSTMENT:-4|PRECLASS:1,Paladin=9	COMPANIONLIST:Special Mount|Felldrake (Spiked)|FOLLOWERADJUSTMENT:-6|PRECLASS:1,Paladin=11
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ Dragonnel	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 30 young, DC 35 mature 3 years old.	OUTPUTNAME:Trainable																											SOURCEPAGE:Drac			
+Training ~ Hippocampus	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 mature.	OUTPUTNAME:Trainable																											SOURCEPAGE:Drac			
+#
 Bloodscaled Fury Draconic Fury	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:BloodscaledFuryDraconicFuryLVL|0					BONUS:VAR|DraconicFuryPower|((BloodscaledFuryDraconicFuryLVL+2)/4)	BONUS:VAR|TirelessRage|1|PREVARGTEQ:BloodscaledFuryDraconicFuryLVL,9																	SOURCEPAGE:Drac
 Bloodscaled Fury Scales Of Blood	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:BloodScaledFuryScalesOfBloodLVL|0					BONUS:VAR|ScalesOfBloodDR|5	BONUS:VAR|ScalesOfBloodPower|((BloodScaledFuryScalesOfBloodLVL-4)/3)	BONUS:VAR|ScalesOfBloodSR|BloodScaledFuryScalesOfBloodLVL																SOURCEPAGE:Drac
 Ashardalon Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AshardalonResistanceLVL|0					BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus|5+((AshardalonResistanceLVL/4)*5)																		SOURCEPAGE:Drac

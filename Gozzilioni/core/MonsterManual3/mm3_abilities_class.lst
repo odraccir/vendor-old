@@ -1,0 +1,13 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ Bearhound	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:MM3			
+Training ~ Battletitan	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 28	OUTPUTNAME:Trainable																											SOURCEPAGE:MM3			
+Training ~ Bloodstriker	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:all Handle Animal to teach, train or rear and all Ride checks during the ride are made with -4 circumstance penalty.	OUTPUTNAME:Trainable																											SOURCEPAGE:MM3			
+Training ~ Rage Drake	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:all Ride checks during a rage are made with -10 circumstance penalty.	OUTPUTNAME:Trainable																											SOURCEPAGE:MM3			
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Internal|Special Mount ~ PHB.MOD	COMPANIONLIST:Special Mount|Sea Tiger|FOLLOWERADJUSTMENT:-4|PRECLASS:1,Paladin=9
+CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Dinosaur (Swindlespitter)|PRECLASS:1,Druid=1	COMPANIONLIST:Animal Companion|Dinosaur (Fleshraker)|FOLLOWERADJUSTMENT:-3|PRECLASS:1,Druid=4	COMPANIONLIST:Animal Companion|Dinosaur (Bloodstriker),Sea Tiger|FOLLOWERADJUSTMENT:-9|PRECLASS:1,Druid=10,Ranger=20	COMPANIONLIST:Animal Companion|Mastodon|FOLLOWERADJUSTMENT:-15|PRECLASS:1,Druid=16

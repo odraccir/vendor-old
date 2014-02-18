@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Savage Species
 ABILITY:SS_abilities_monsters.lst
+ABILITY:SS_abilities_proficiencies.lst
 CLASS:SS_classes_prestige.lst
 COMPANIONMOD:SS_companionmods.lst
 EQUIPMENT:SS_equip.lst

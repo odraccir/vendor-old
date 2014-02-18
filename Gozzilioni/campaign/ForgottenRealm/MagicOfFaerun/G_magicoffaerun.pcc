@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Magic of Faerun
 ABILITY:MoF_abilities_class.lst
+ABILITY:MoF_abilities_proficiencies.lst
 CLASS:MoF_classes_base.lst
 CLASS:MoF_classes_prestige.lst
 SPELL:MoF_classes_spells.lst

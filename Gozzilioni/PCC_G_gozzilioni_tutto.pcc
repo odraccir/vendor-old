@@ -27,6 +27,9 @@ PCC:&/Gozzilioni/srd30/ArmsAndEquipmentGuide/G_ArmsAndEquipmentGuide.pcc
 PCC:&/Gozzilioni/srd30/ManualOfThePlanes/G_ManualOfThePlanes.pcc
 PCC:&/Gozzilioni/srd30/SavageSpecies/G_savagespecies.pcc
 #Core
+PCC:&/Gozzilioni/core/MonsterManual/G_monster_manual.pcc
+PCC:&/Gozzilioni/core/PlayerSHandbook/G_playershandbook.pcc
+#
 PCC:&/Gozzilioni/core/DungeonSMasterGuide2/G_dungeon_s_master_guide_2.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook2/G_player_s_handbook_2.pcc
 PCC:&/Gozzilioni/core/MonsterManual2/G_monster_manual_2.pcc

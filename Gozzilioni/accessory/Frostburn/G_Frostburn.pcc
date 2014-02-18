@@ -17,6 +17,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #Frostburn
 ABILITY:Fro_abilities_class.lst
 ABILITY:Fro_abilities_region.lst
+ABILITY:Fro_abilities_proficiencies.lst
 BIOSET:Fro_biosettings.lst
 CLASS:Fro_classes_monster_specific.lst
 CLASS:Fro_classes_prestige.lst

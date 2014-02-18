@@ -2,8 +2,6 @@
 #																																										
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:										
 # modification																																										
-CATEGORY=Internal|Special Mount ~ PHB.MOD	COMPANIONLIST:Special Mount|Dragonnel,Sea Tiger|FOLLOWERADJUSTMENT:-4|PRECLASS:1,Paladin=9	COMPANIONLIST:Special Mount|Felldrake (Spiked)|FOLLOWERADJUSTMENT:-6|PRECLASS:1,Paladin=11	COMPANIONLIST:Special Mount|Megaloceros|PRECLASS:1,Knight of the Iron Glacier=1																																							
-CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Fox	COMPANIONLIST:Animal Companion|Dinosaur (Swindlespitter)|PRECLASS:1,Druid=1	COMPANIONLIST:Animal Companion|Dinosaur (Fleshraker)|FOLLOWERADJUSTMENT:-3|PRECLASS:1,Druid=4	COMPANIONLIST:Animal Companion|Dinosaur (Bloodstriker),Sea Tiger|FOLLOWERADJUSTMENT:-9|PRECLASS:1,Druid=10,Ranger=20	COMPANIONLIST:Animal Companion|Mastodon|FOLLOWERADJUSTMENT:-15|PRECLASS:1,Druid=16																																					
 CATEGORY=Special Ability|Bardic Knowledge.MOD	TYPE:Lore																																									
 CATEGORY=Special Ability|Breath Fire ~ Hydra.MOD	SERVESAS:ABILITY=Special Ability|Breath Weapon																																									
 CATEGORY=Special Ability|Breath Frost ~ Hydra.MOD	SERVESAS:ABILITY=Special Ability|Breath Weapon																																									
@@ -155,6 +153,7 @@ Jungle Landwyrm Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	O
 Keeper Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened. They are not limited by size when determining the distance they can jump.																												SOURCEPAGE:FFo										
 Kelp Angler Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
 Kelpie Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:FFo										
+Kuo-Toa Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check even if distracted or endangered.																												SOURCEPAGE:MM										
 Kennelmaster Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel	VISIBLE:NO				DEFINE:KennelmasterSkillLVL|0				BONUS:VAR|SkillLVL|KennelmasterSkillLVL																					SOURCEPAGE:DD										
 Kuldurath Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:It can always take 10 on a climb check even if rushed or threatened.																												SOURCEPAGE:FFo										
 Legendary Eagle Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+12 racial bonus on Spot checks made in daylight.																												SOURCEPAGE:MM2										
@@ -273,6 +272,8 @@ Cranio Divoratore Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YE
 Criomorte Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+6 racial bonus on Hide check while in snow. +10 if its snowing instead.																												SOURCEPAGE:CdT										
 Savage Dragon Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+6 racial bonus on Hide checks when in forest.																												SOURCEPAGE:CdT										
 Chordevoc Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+4 racial bonus on Spot and Listen checks when if can use blindsense.																												SOURCEPAGE:RoW										
+Yuan Ti Pureblood Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+5 racial bonus on Disguise checks when impersonating a human.																												SOURCEPAGE:MM	
+Yuan Ti Abomination Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Can take 10 on Climb checks even when rushed or threatened.+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check.																												SOURCEPAGE:MM	
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES																													SOURCEPAGE:										
@@ -531,7 +532,7 @@ Acrobatic Skill Mastery	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary
 Acrobatics	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:+%1 to Climb, Jump, Tumble checks|AcrobaticsBonus				DEFINE:AcrobaticsBonus|0			BONUS:SKILL|Climb,Jump,Tumble|AcrobaticsBonus																					SOURCEPAGE:CAd										
 Adamantine Feathers	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:FFo										
 Adamantine Fists	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM3										
-Adamantine Plating	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ModifyAC	VISIBLE:YES	DESC:Cannot wear armors or robes.		SERVESAS:ABILITY=FEAT|Adamantine Body													AUTO:ARMORPROF|ARMORTYPE=AdamantinePlating													SOURCEPAGE:MM3										
+Adamantine Plating	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ModifyAC	VISIBLE:YES	DESC:Cannot wear armors or robes.		SERVESAS:FEAT|Adamantine Body													AUTO:ARMORPROF|ARMORTYPE=AdamantinePlating													SOURCEPAGE:MM3
 Adaptive Damage Reduction	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:DR 15/Special																												SOURCEPAGE:MM3										
 Adaptive Energy Resistance	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:20																												SOURCEPAGE:MM3										
 Adaptive Resistance	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Resistance %1|AdaptiveResistanceBonus				DEFINE:AdaptiveResistanceBonus|0																								SOURCEPAGE:FFo										
@@ -1053,6 +1054,7 @@ Confidence Artist	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Speci
 Confidence of the Fated	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day (+%2 to attack roll, weapon damage roll, saving throw or skill check)|ConfidenceOfTheFatedPerDay|ConfidenceOfTheFatedBonus				DEFINE:ConfidenceOfTheFatedPerDay|0	DEFINE:ConfidenceOfTheFatedBonus|0																							SOURCEPAGE:PH										
 Confined area advantage	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	DESC:Near walls (+2AC)																												SOURCEPAGE:CAd										
 Confusing Dance	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES	DESC:%1/day (Will DC %2)|ConfusingDancePerDay|ConfusingDanceDC				DEFINE:ConfusingDancePerDay|0	DEFINE:ConfusingDanceDC|10+CHA																							SOURCEPAGE:MoF										
+Confusing Gaze	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack.Gaze	VISIBLE:YES	DESC:Will DC %1|ConfusingGazeDC		SERVESAS:ABILITY=Special Ability|Gaze		DEFINE:ConfusingGazeDC|10+(HD/2)+CHA			BONUS:VAR|CongfusingGazeDC|2|PREFEAT:1,Ability Focus(Confusing Gaze)																					SOURCEPAGE:MM										
 Confusion	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:Nep										
 Confusion (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES	DESC:%1/day (Will DC %2)|ConfusionPerDay|ConfusionDC				DEFINE:ConfusionPerDay|0	DEFINE:ConfusionDC|10+INT										SPELLS:Innate|TIMES=ConfusionPerDay|CASTERLEVEL=ConfusionLVL|Confusion,13+INT													SOURCEPAGE:PGtF										
 Confusion (Sp/6 round)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES	DESC:once every 1d6					DEFINE:ConfusionLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=ConfusionLVL|Confusion,14+CHA													SOURCEPAGE:Mon										
@@ -2130,7 +2132,7 @@ Light Powerlessness	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	V
 Light Ray	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1d6 against evil, ranged touch|LightRayDice				DEFINE:LightRayDice|0																								SOURCEPAGE:EXD										
 Lightning	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialAttack	VISIBLE:YES	DESC:%1/day %2 rounds|LightningPerDay|LightningDuration				DEFINE:LightningPerDay|0	DEFINE:LightningDuration|0																							SOURCEPAGE:Nep										
 Lightning Bolt	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Once every 2 rounds %1-ft Ligntning Bolt %2d6 (Reflex DC %3)|LightningBoltRange|LightningBoltDamageDie|LigtningBoltDC				DEFINE:LightningBoltRange|0	DEFINE:LightningBoltDamageDie|0	DEFINE:LigtningBoltDC|13+CHA																						SOURCEPAGE:MM2										
-Lightning Bolt (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES		OUTPUTNAME:Lightning Bolt																											SOURCEPAGE:MM3										
+Lightning Bolt (Su)	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES		OUTPUTNAME:Lightning Bolt																											SOURCEPAGE:MM										
 Lightning Speed	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PH										
 Lightshard Strike	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:slam iterative attack with Ghost Touch ability plus Greater Dispel Magic (12th caster level)																												SOURCEPAGE:EXD										
 Limited Invisibility	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PH										

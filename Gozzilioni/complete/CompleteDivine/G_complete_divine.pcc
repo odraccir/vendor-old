@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Complete Divine
 ABILITY:CD_abilities_class.lst
+ABILITY:CD_abilities_proficiencies.lst
 CLASS:CD_classes_base.lst
 CLASS:CD_classes_prestige.lst
 CLASS:CD_classes_prestige_epic.lst

@@ -17,6 +17,7 @@ INFOTEXT:mancano livelli sostitutivi del bardo.
 #
 #Planar Handbook
 ABILITY:PH_abilities_class.lst
+ABILITY:PH_abilities_proficiencies.lst
 BIOSET:PH_biosettings.lst
 CLASS:PH_classes_base.lst
 CLASS:PH_classes_prestige.lst

@@ -1,0 +1,7 @@
+SOURCELONG:Monster of Faerun	SOURCESHORT:Mon	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ Giant Strider	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:Mon			

@@ -1,0 +1,11 @@
+SOURCELONG:Magic of Faerun	SOURCESHORT:MoF	SOURCEWEB:http://www.gozzilioni.net																														
+#																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Gnome Artificier																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency						SOURCEPAGE:MoF
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Harper Mage																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								SOURCEPAGE:MoF
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Harper Priest																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)	AUTO:FEAT|Shield Proficiency|Tower Shield Proficiency						SOURCEPAGE:MoF
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Spelldancer																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								SOURCEPAGE:MoF
+Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Spellfire Channeler																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								SOURCEPAGE:MoF
+#																																
+###Block: Class Specific																																

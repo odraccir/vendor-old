@@ -28,20 +28,20 @@ Spider Eater.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Spider Eater
 Unicorn.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Unicorn																																																															
 Vargouille.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Vargouille																																																															
 #																																																																
-Camel.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel	RACESUBTYPE:Camel	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Camel (Bactrian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel	RACESUBTYPE:Camel	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Elephant.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant	RACESUBTYPE:Elephant	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Elephant (Indian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant	RACESUBTYPE:Elephant	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Horse (Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Horse (Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Horse (Warhorse Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse	TYPE:.CLEAR	TYPE:Mount
-Horse (Warhorse Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse	TYPE:.CLEAR	TYPE:Mount
-Pony.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony	RACESUBTYPE:Pony	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
-Pony (War).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony	RACESUBTYPE:Pony	TYPE:.CLEAR	TYPE:Mount	TEMPLATE:Horse Untrained
+Camel.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel	RACESUBTYPE:Camel|Mount	TEMPLATE:Horse Untrained
+Camel (Bactrian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Camel	RACESUBTYPE:Camel|Mount	TEMPLATE:Horse Untrained
+Elephant.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant	RACESUBTYPE:Elephant|Mount	TEMPLATE:Horse Untrained
+Elephant (Indian).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Elephant	RACESUBTYPE:Elephant|Mount	TEMPLATE:Horse Untrained
+Horse (Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse|Mount	TEMPLATE:Horse Untrained
+Horse (Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse|Mount	TEMPLATE:Horse Untrained
+Horse (Warhorse Heavy).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse|Mount
+Horse (Warhorse Light).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Horse	RACESUBTYPE:Horse|Mount
+Pony.MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony	RACESUBTYPE:Pony|Mount	TEMPLATE:Horse Untrained
+Pony (War).MOD	ABILITY:Special Ability|AUTOMATIC|Training ~ Pony	RACESUBTYPE:Pony|Mount	TEMPLATE:Horse Untrained
 #
-Dire Animal (Dire Elephant).MOD	RACESUBTYPE:Elephant	TYPE:.CLEAR	TYPE:Mount																																																																						
-Dire Animal (Dire Horse).MOD	RACESUBTYPE:Horse	TYPE:.CLEAR	TYPE:Mount																																																																						
+Dire Animal (Dire Elephant).MOD	RACESUBTYPE:Elephant|Mount																																																																							
+Dire Animal (Dire Horse).MOD	RACESUBTYPE:Horse|Mount																																																																							
 #																																																																
-Dolphin			STARTFEATS:1	SIZE:M	MOVE:Swim,50	FACE:5	REACH:5	VISION:Blindsight (120')|Low-light		PREALIGN:TN			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Spot,Listen|4|TYPE=Racial				BONUS:STAT|STR|4	BONUS:STAT|DEX|8	BONUS:STAT|CON|2	BONUS:STAT|INT|-2	BONUS:STAT|WIS|6	BONUS:STAT|CHA|-2			MONCSKILL:Listen|Spot|Swim									LEGS:0	HANDS:0	BONUS:WEAPONPROF=Nose Slam|DAMAGE|max(0,(STR/2))			NATURALATTACKS:Nose Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d4|Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8			ABILITY:Special Ability|AUTOMATIC|Hold Breath			ABILITY:Special Ability|AUTOMATIC|Dolphin Skills|Training ~ Dolphin					MONSTERCLASS:Animal:2	RACETYPE:Animal		TYPE:Animal	TEMPLATE:Animal	TEMPLATE:Aquatic		HITDICEADVANCEMENT:4,6		LEVELADJUSTMENT:2	CR:1	SOURCEPAGE:Web
+Dolphin			STARTFEATS:1	SIZE:M	MOVE:Swim,50	FACE:5	REACH:5	VISION:Blindsight (120')|Low-light		PREALIGN:TN			BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:SKILL|Spot,Listen|4|TYPE=Racial				BONUS:STAT|STR|4	BONUS:STAT|DEX|8	BONUS:STAT|CON|2	BONUS:STAT|INT|-2	BONUS:STAT|WIS|6	BONUS:STAT|CHA|-2			MONCSKILL:Listen|Spot|Swim									LEGS:0	HANDS:0	BONUS:WEAPONPROF=Nose Slam|DAMAGE|max(0,(STR/2))			NATURALATTACKS:Nose Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d4|Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8			ABILITY:Special Ability|AUTOMATIC|Hold Breath			ABILITY:Special Ability|AUTOMATIC|Dolphin Skills|Training ~ Dolphin					MONSTERCLASS:Animal:2	RACETYPE:Animal	RACESUBTYPE:Aquatic	TYPE:Animal				HITDICEADVANCEMENT:4,6		LEVELADJUSTMENT:2	CR:1	SOURCEPAGE:Web
 # END																																																																
 #																																																																

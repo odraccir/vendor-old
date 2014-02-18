@@ -26,15 +26,8 @@ CATEGORY=Special Ability|Archmage Spell Power.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|
 CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBonus|0																															
 CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate
 #																																	
-Special Mount	CATEGORY:Internal	TYPE:SpecialMountSelection.SpecialMountAlternate	VISIBLE:YES	DESC:Special Mount	KEY:Special Mount ~ PHB															COMPANIONLIST:Special Mount|RACETYPE=Animal												SOURCEPAGE:PHB
-#
-Red Dragon Pact	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+4 racial bonus to Diplomacy checks when dealing with Red Dragons.																												SOURCEPAGE:MM	
-Yuan Ti Pureblood Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+5 racial bonus on Disguise checks when impersonating a human.																												SOURCEPAGE:MM	
-Yuan Ti Abomination Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:Can take 10 on Climb checks even when rushed or threatened.+8 racial bonus to any swim checks to perform some special action or avoid a hazard. It can always take 10 on a Swim check.																												SOURCEPAGE:MM	
-#																																	
 Alternate Form (Sp)	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
-Antimagic Cone	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES																													SOURCEPAGE:MM	
-Chameleon Power	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES	DESC:+10 circumstance bonus on Hide checks.																												SOURCEPAGE:MM	
+
 Circle Leader	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY								DEFINE:CircleLeaderPower|0								ABILITY:Special Ability|AUTOMATIC|Circle Leader Output|PREVARLTEQ:CircleLeaderPower,1	ABILITY:Special Ability|AUTOMATIC|Great Circle Leader Output|PREVARGTEQ:CircleLeaderPower,2												SOURCEPAGE:DMG	
 Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Circle Leader																												SOURCEPAGE:DMG	
 Great Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Great Circle Leader																												SOURCEPAGE:DMG	
@@ -102,4 +95,4 @@ Breath Weapon ~ Line of Caustic Slime	CATEGORY:Special Ability	TYPE:SpecialAttac
 Breath Weapon ~ Cloud of Nauseating Gas	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDuration|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Breath Weapon)	DESC:%1' radius Cloud of Nauseating Gas DC %2 for %3 rounds|BreathWeaponCloud|BreathWeaponDC|BreathWeaponDuration																					SOURCEPAGE:MMay	
 																																	
 # Ability Name																																	
-Red Dragon Domain Spell	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	SPELLLEVEL:CLASS|Sorcerer=1|Protection from Law,Protection from Good,Burning Hands|Sorcerer=2|Shatter,Desecrate,Produce Flame|Sorcerer=3|Magic Circle against Law,Magic Circle against Good,Resist Energy|Sorcerer=4|Chaos Hammer,Unholy Blight,Wall of Fire|Sorcerer=5|Dispel Law,Dispel Good,Fire Shield|Sorcerer=6|Animate Objects,Create Undead,Fire Seeds|Sorcerer=7|Word of Chaos,Blasphemy,Fire Storm|Sorcerer=8|Cloak of Chaos,Unholy Aura,Incendiary Cloud|Sorcerer=9|Summon Monster IX,Elemental Swarm																												SOURCEPAGE:MM	
+Red Dragon Domain Spell	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	SPELLLEVEL:CLASS|Sorcerer=1|Burning Hands,Protection from Good,Protection from Law|Sorcerer=2|Desecrate,Produce Flame,Shatter|Sorcerer=3|Magic Circle against Good,Magic Circle against Law,Resist Energy|Sorcerer=4|Chaos Hammer,Unholy Blight,Wall of Fire|Sorcerer=5|Dispel Good,Dispel Law,Fire Shield|Sorcerer=6|Animate Objects,Create Undead,Fire Seeds|Sorcerer=7|Blasphemy,Fire Storm,Word of Chaos|Sorcerer=8|Cloak of Chaos,Incendiary Cloud,Unholy Aura|Sorcerer=9|Elemental Swarm,Summon Monster IX																												SOURCEPAGE:MM

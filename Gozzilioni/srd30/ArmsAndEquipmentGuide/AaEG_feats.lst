@@ -2,5 +2,4 @@ SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzil
 																																									
 # BASICS																				[PREMULT:2,[PRERACE:1,RACESUBTYPE=Human],[PREREGION:1,Rashemen]]																					
 # Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
-#Arcane Preparation																																									
-Trainer	TYPE:General	VISIBLE:YES										PRESKILL:1,Handle Animal=8												DESC:See Text	STACK:NO	MULT:YES	CHOOSE:ABILITY|Special Ability|TYPE=TrainerAbilities	SELECT:1													SOURCEPAGE:AaEG
+Trainer	TYPE:General	VISIBLE:YES										PRESKILL:1,Handle Animal=8												DESC:See Text	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	BONUS:ABILITYPOOL|Trainer Ability Choice|1												SOURCEPAGE:AaEG

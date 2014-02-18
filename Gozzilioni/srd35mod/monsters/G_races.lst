@@ -1,0 +1,49 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																																																			
+																																																																					
+###Block: A																																																																					
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells					
+#Half-Ogre		FAVCLASS:Barbarian	STARTFEATS:1	SIZE:L	MOVE:Walk,30	FACE:5	REACH:5	VISION:Darkvision (60')			AUTO:LANG|Giant|Common	LANGBONUS:Draconic,Gnoll,Goblin,Orc,Abyssal	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE						BONUS:STAT|STR|6	BONUS:STAT|DEX|-2	BONUS:STAT|CON|2	BONUS:STAT|INT|-2		BONUS:STAT|CHA|-2																			ABILITY:Special Ability|AUTOMATIC|Giant Blood										RACETYPE:Monstrous Humanoid	RACESUBTYPE:Ogre	TYPE:Monstrous Humanoid	TEMPLATE:Monstrous Humanoid					LEVELADJUSTMENT:1		SOURCEPAGE:SS						
+Bralani.MOD	OUTPUTNAME:Eladrin, Bralani	RACESUBTYPE:Eladrin
+Demon (Retriever).MOD	BONUS:VAR|FastHealing|5																																																																				
+Dire Animal (Dire Ape).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Badger).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Bat).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Bear).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Boar).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Lion).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Rat).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Shark).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Tiger).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Weasel).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Wolf).MOD	RACESUBTYPE:Dire																																																																				
+Dire Animal (Dire Wolverine).MOD	RACESUBTYPE:Dire																																																																				
+Formian (Myrmarch).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
+Formian (Queen).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
+Formian (Taskmaster).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
+Formian (Warrior).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
+Formian (Worker).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
+Genie (Djinni).MOD	RACESUBTYPE:Genie
+Genie (Efreeti)	RACESUBTYPE:Genie
+Genie (Janni)	RACESUBTYPE:Genie
+Ghaele.MOD	OUTPUTNAME:Eladrin, Ghaele	RACESUBTYPE:Eladrin
+Ghoul (Ghast).MOD	LEVELADJUSTMENT:4																																																																				
+Ghoul.MOD	LEVELADJUSTMENT:3																																																																				
+Avoral.FORGET
+Leonal.FORGET
+Hag (Annis).MOD	RACESUBTYPE:Hag
+Hag (Green).MOD	RACESUBTYPE:Hag
+Hag (Sea).MOD	RACESUBTYPE:Hag
+Mephit (Air).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Dust).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Earth).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Fire).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Ice).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Magma).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Ooze).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Salt).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Steam).MOD	RACESUBTYPE:Mephit																																																																				
+Mephit (Water).MOD	RACESUBTYPE:Mephit																																																																				
+Mohrg.MOD	LEVELADJUSTMENT:6																																																																				
+Mummy.MOD	LEVELADJUSTMENT:5																																																																				
+Vampire Spawn.MOD	LEVELADJUSTMENT:4	RACESUBTYPE:Vampire																																																																			
+Wight.MOD	LEVELADJUSTMENT:4																																																																				

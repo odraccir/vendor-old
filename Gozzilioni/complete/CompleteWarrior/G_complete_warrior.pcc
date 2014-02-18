@@ -14,6 +14,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Complete Warrior
 ABILITY:CW_abilities_class.lst
+ABILITY:CW_abilities_proficiencies.lst
 CLASS:CW_classes_base.lst
 CLASS:CW_classes_prestige.lst
 CLASS:CW_classes_prestige_epic.lst

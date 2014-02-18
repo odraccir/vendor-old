@@ -1,5 +1,19 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																														
 																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ War Megaloceros	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+Training ~ Glyptodon	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult	OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+Training ~ Megaloceros	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 20 adult	OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+Training ~ Wolly Mammoth	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 young	OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+Training ~ Giant Raven	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25.	OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+Training ~ Tlalusk	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 30.	OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+Training ~ Reindeer	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:Fro			
+
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
+CATEGORY=Internal|Special Mount ~ PHB.MOD	COMPANIONLIST:Special Mount|Megaloceros|PRECLASS:1,Knight of the Iron Glacier=1
+#
 Frost Giant Mauler Rage	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO					DEFINE:BarbRageTimesLVL|HD			BONUS:VAR|RageTimes|1																					SOURCEPAGE:Fro
 Winterspawn Turning	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO								BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|12|TYPE=Level.REPLACE																			SOURCEPAGE:Fro

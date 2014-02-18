@@ -9,7 +9,7 @@ Analyze Opponent.MOD	OUTPUTNAME:Know Opponent
 Assay Resistance.MOD	OUTPUTNAME:Assay Spell Resistance																													
 Auril's Flowers.MOD	OUTPUTNAME:Ice Flowers																													
 Azuth's Exalted Triad.MOD	OUTPUTNAME:Triadspell																													
-Azuth's Spell Shield.MOD	OUTPUTNAME:Spell Resistance, Mass																												
+Azuth's Spell Shield.MOD	OUTPUTNAME:Spell Resistance, Mass																													
 Balagarn's Iron Horn.MOD	OUTPUTNAME:Ironthunder Horn																													
 Bane Bow.MOD	OUTPUTNAME:Foebane																													
 Barien's Crabwalk.MOD	OUTPUTNAME:Crabwalk																													
@@ -21,7 +21,7 @@ Chameleon.MOD	OUTPUTNAME:Camouflage
 Claws of the Beast.MOD	OUTPUTNAME:Claws of the Bear																													
 Climb.MOD	OUTPUTNAME:Climb Walls																													
 Curse of Petty Failing.MOD	OUTPUTNAME:Curse of Ill Fortune																													
-Curse of Petty Failing (Legion's).MOD	OUTPUTNAME:Curse of Ill Fortune, Mass																												
+Curse of Petty Failing (Legion's).MOD	OUTPUTNAME:Curse of Ill Fortune, Mass																													
 Darsson's Potion.MOD	OUTPUTNAME:Quick Potion																													
 Dhulark's Glassstrike.MOD	OUTPUTNAME:Glass Strike																													
 Eilistraee's Grace.MOD	OUTPUTNAME:Grace																													
@@ -50,7 +50,7 @@ Khelben's Suspended Silence.MOD	OUTPUTNAME:Suspended Silence
 Laeral's Cutting Hand.MOD	OUTPUTNAME:Cutting Hand																													
 Laogzed's Breath.MOD	OUTPUTNAME:Nauseating Breath																													
 Leomund's Hidden Lodge.MOD	OUTPUTNAME:Hidden Lodge																													
-Manifest (Mass).MOD	OUTPUTNAME:Make Manifest, Mass																												
+Manifest (Mass).MOD	OUTPUTNAME:Make Manifest, Mass																													
 Mestil's Acid Breath.MOD	OUTPUTNAME:Acid Breath																													
 Mestil's Acid Sheath.MOD	OUTPUTNAME:Acid Sheath																													
 Monstrous Regeneration.MOD	OUTPUTNAME:Vigor (Greater)																													
@@ -59,10 +59,10 @@ Mordenkainen's Force Missiles.MOD	OUTPUTNAME:Force Missiles
 Mystra's Miasma.MOD	OUTPUTNAME:Magic Miasma																													
 Nchaser's Glowing Orb.MOD	OUTPUTNAME:Glowing Orb																													
 Nybor's Gentle Reminder.MOD	OUTPUTNAME:Rebuke																													
-Nybor's Mild Admonishment.MOD	OUTPUTNAME:Rebuke, Greater																												
-Nybor's Stern Reproof.MOD	OUTPUTNAME:Rebuke, Final																												
+Nybor's Mild Admonishment.MOD	OUTPUTNAME:Rebuke, Greater																													
+Nybor's Stern Reproof.MOD	OUTPUTNAME:Rebuke, Final																													
 Nybor's Wrathful Castigation.MOD	OUTPUTNAME:Wrathful Castigation																													
-Otiluke's Dispelling Screen (Greater).MOD	OUTPUTNAME:Dispelling Screen, Greater																												
+Otiluke's Dispelling Screen (Greater).MOD	OUTPUTNAME:Dispelling Screen, Greater																													
 Otiluke's Dispelling Screen.MOD	OUTPUTNAME:Dispelling Screen																													
 Presper's Moonbow.MOD	OUTPUTNAME:Moonbow																													
 Rary's Interplanar Telepathic Bond.MOD	OUTPUTNAME:Interplanar Telepathic Bond																													
@@ -73,9 +73,9 @@ Rogue Wave.MOD	OUTPUTNAME:Tidal Surge
 Servitor (Minor).MOD	OUTPUTNAME:Awaken Construct																													
 Shelgarn's Persistent Blade.MOD	OUTPUTNAME:Persistent Blade																													
 Simbul's Skeletal Deliquescence.MOD	OUTPUTNAME:Corporeal Instability																													
-Simbul's Spell Matrix.MOD	OUTPUTNAME:Spell Matrix, Lesser																												
+Simbul's Spell Matrix.MOD	OUTPUTNAME:Spell Matrix, Lesser																													
 Simbul's Spell Sequencer.MOD	OUTPUTNAME:Spell Matrix																													
-Simbul's Spell Trigger.MOD	OUTPUTNAME:Spell Matrix, Greater																												
+Simbul's Spell Trigger.MOD	OUTPUTNAME:Spell Matrix, Greater																													
 Simbul's Synostodweomer.MOD	OUTPUTNAME:Synostodweomer																													
 Snilloc's Snowball Swarm.MOD	OUTPUTNAME:Snowball Swarm																													
 Tenser's Floating Disk (Greater).MOD	OUTPUTNAME:Floating Disk (Greater)																													
@@ -90,7 +90,7 @@ Deafening Breath.MOD				CLASSES:.CLEARALL	DOMAINS:.CLEARALL
 Shout (Great).MOD				CLASSES:.CLEARALL	DOMAINS:.CLEARALL																									
 Teleport (Mass).MOD				CLASSES:.CLEARALL	DOMAINS:.CLEARALL																									
 																														
-# Spell Name												TARGETAREA:																		
+# Spell Name												TARGETAREA:.																		
 Absorb Weapon			TYPE:Arcane	CLASSES:Assassin=2		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One touched weapon not in another creature's possession		DURATION:1 hour/level	SAVEINFO:Will negates (object); See text.	SPELLRES:Yes	DESC:You can harmlessy absorb a weapon you are touching into your arm.	SOURCEPAGE:SpC												
 Absorption			TYPE:Arcane	CLASSES:Sorcerer,Wizard=9		SCHOOL:Abjuration			COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.		DURATION:10 minutes/level or until expended	SAVEINFO:None	SPELLRES:No	DESC:Spells and spell-like effects that target you are absorbed, their energy stored to power spells of your own.	SOURCEPAGE:SpC												
 Abyssal Army			TYPE:Arcane.Divine	CLASSES:Cleric=9|Sorcerer,Wizard=9		SCHOOL:Conjuration	SUBSCHOOL:Summoning	DESCRIPTOR:Chaotic|Evil	COMPS:V, S	CASTTIME:10 minutes	RANGE:Medium	TARGETAREA:Two or more summoned creatures, no two of which are more than 30 ft. Apart.		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:This spell summons a pack of demons from the Abyss to serve you.	SOURCEPAGE:SpC												
@@ -596,3 +596,27 @@ Know Greatest Enemy			TYPE:Divine	CLASSES:Blackguard=1|Paladin=1		SCHOOL:Divinat
 Know Opponent			TYPE:Arcane.Divine	CLASSES:Bard=3|Cleric=3		SCHOOL:Divination			COMPS:S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.		DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Learn strengths or weaknesses of opponent; see text.	SOURCEPAGE:SpC												
 Know Vulnerabilities			TYPE:Arcane.Divine	CLASSES:Bard=2|Cleric=3|Sorcerer,Wizard=4		SCHOOL:Divination			COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.		DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Learn any vulnerabilities and resistances the target has.	SOURCEPAGE:SpC												
 Land Womb			TYPE:Divine	CLASSES:Druid=4|Ranger=4		SCHOOL:Abjuration			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You and one other creature/level.		DURATION:10 minutes/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Descend into a protective bubble in the earth below, others see you descend as if the earth opened up and swallowed you.	SOURCEPAGE:SpC												
+Languor			TYPE:Divine	CLASSES:Druid=4		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.		DURATION:1 round/level	SAVEINFO:Will partial	SPELLRES:Yes	DESC:You must succeed on a ranged touch attack with the ray to strike a target. This ray causes creatures it hits to become weak and slow for the spell's duration. A struck creature takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum 1d6+10). In addition, a subject that fails a Will save is slowed. The spell's slow effect counters and is countered by haste.	SOURCEPAGE:SpC												
+Last Breath			TYPE:Divine	CLASSES:Druid=4		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Dead creature touched.		DURATION:Instantaneous	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Creature killed within 1 round returns to 0 hp.	SOURCEPAGE:SpC		COST:500										
+Launch Bolt			TYPE:Arcane	CLASSES:Sorcerer,Wizard=0		SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One crossbow bolt in your possession.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Treat bolt as if fired from a light crossbow, including any bonuses, feats or enchantments.	SOURCEPAGE:SpC		COST:1										
+Launch Item			TYPE:Arcane	CLASSES:Sorcerer,Wizard=0		SCHOOL:Transmutation			COMPS:S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One fine item in your possession, weighting up to 10 lbs.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Launch an item safely to the target you specify where it will act normally upon impact.	SOURCEPAGE:SpC												
+Lawful Sword			TYPE:Divine	CLASSES:Paladin=4		SCHOOL:Evocation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Weapon touched.		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Like holy sword; weapon acts as +5 axiomatic [+5 enhancement bonus on attack and damage roll, lawful-aligned, deals an extra 2d6 of damage to chaotic]; see text.	SOURCEPAGE:SpC												
+Lay of the Land			TYPE:Arcane.Divine	CLASSES:Bard=4|Druid=4|Ranger=1		SCHOOL:Divination			COMPS:V, S, F/DF	CASTTIME:3 full round	RANGE:Personal	TARGETAREA:You.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Learn area of 50 miles radius; see text.	SOURCEPAGE:SpC												
+Life Bolt			TYPE:Arcane	CLASSES:Sorcerer,Wizard=2		SCHOOL:Necromancy			COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Up to five rays.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Subject becomes immune to the effects of positive energy; See text.	SOURCEPAGE:SpC												
+Life Ward			TYPE:Divine	CLASSES:Cleric=4		SCHOOL:Abjuration			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.		DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Draw your life force to make a ranged attack with a positive energy doing 1d12 damage to undead.	SOURCEPAGE:SpC												
+Life's Grace			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Abjuration			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.		DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Subjects become immune to all death spells, magical death effects, energy drain, and any negative energy effects; see text.	SOURCEPAGE:SpC												
+Light of Lunia			TYPE:Arcane.Divine	CLASSES:Cleric=1|Sorcerer,Wizard=1		SCHOOL:Evocation		DESCRIPTOR:Good|Light	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:You and up to two rays. See text.		DURATION:10 minutes/level or until discharged	SAVEINFO:None; See text	SPELLRES:Yes	DESC:Light radiating 30-ft. and 20-ft further of dim light, next round you can use the light as a ray attack dealing 1d6 [double against undead and outsiders]; see text.	SOURCEPAGE:SpC												
+Light of Mercuria			TYPE:Arcane.Divine	CLASSES:Cleric=2|Sorcerer,Wizard=2		SCHOOL:Evocation		DESCRIPTOR:Good|Light	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:You and up to two rays. See text.		DURATION:10 minutes/level or until discharged	SAVEINFO:None; See text	SPELLRES:Yes	DESC:Same as light of Lunia except damage is 2d6 or 4d6 vs. undead or outsiders.	SOURCEPAGE:SpC												
+Light of Venya			TYPE:Arcane.Divine	CLASSES:Cleric=3|Sorcerer,Wizard=3		SCHOOL:Evocation		DESCRIPTOR:Good|Light	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:You and up to two rays. See text.		DURATION:10 minutes/level or until discharged	SAVEINFO:None; See text	SPELLRES:Yes	DESC:Same as Light of Lunia except damage is 3d6 or 6d6 vs. undead or outsiders; see text.	SOURCEPAGE:SpC												
+Lightfoot			TYPE:Arcane.Divine	CLASSES:Assassin=1|Ranger=1		SCHOOL:Transmutation			COMPS:V	CASTTIME:1 swift action	RANGE:Personal	TARGETAREA:You.		DURATION:1 round	SAVEINFO:None	SPELLRES:No	DESC:You don't provoke attacks of opportunity when moving.	SOURCEPAGE:SpC												
+Lightning Ring			TYPE:Arcane	CLASSES:Sorcerer,Wizard=8		SCHOOL:Evocation		DESCRIPTOR:Electricity	COMPS:V, S, M	CASTTIME:1 full round	RANGE:Personal	TARGETAREA:You.		DURATION:1 round/2 levels	SAVEINFO:See text	SPELLRES:Yes	DESC:Creatures adjacent take 10d6 of damage or half on a save; see text.	SOURCEPAGE:SpC												
+Lionheart			TYPE:Divine	CLASSES:Paladin=1		SCHOOL:Abjuration		DESCRIPTOR:Mind-Affecting	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.		DURATION:1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Gain immunity to fear effects.	SOURCEPAGE:SpC												
+Lion's Charge			TYPE:Divine	CLASSES:Druid=3|Ranger=2		SCHOOL:Transmutation			COMPS:V	CASTTIME:1 swift action	RANGE:Personal	TARGETAREA:You.		DURATION:1 round	SAVEINFO:None	SPELLRES:No	DESC:Gain pounce ability [make full attack after a charge].	SOURCEPAGE:SpC									TEMPBONUS:PC|VAR|InspireCourageSaves,InspireCourageAttack,InspireCourageDamage|1	TEMPBONUS:PC|VAR|SpellLionSCharge|1		
+Lion's Roar			TYPE:Divine	CLASSES:Cleric=8		SCHOOL:Evocation		DESCRIPTOR:Sonic	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:120-ft.	TARGETAREA:120-ft-radius burst centered on you.		DURATION:Instantaneous or 1 minute/level	SAVEINFO:See text	SPELLRES:See text	DESC:Deals 1d8/caster level [max 10d8] sonic damage to enemies; allies get +1 on attack and saves against fear, plus temporary hp.	SOURCEPAGE:SpC												
+Listening Coin			TYPE:Arcane	CLASSES:Bard=3		SCHOOL:Divination		DESCRIPTOR:Scrying	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Magical sensor.		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Makes a scrying device from two coins.	SOURCEPAGE:SpC												
+Listening Lorecall			TYPE:Divine	CLASSES:Druid=2|Ranger=2		SCHOOL:Divination			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:Gain +4 insight bonus on Listen checks; see text.	SOURCEPAGE:SpC									TEMPBONUS:PC|SKILL|Listen|4|TYPE=Insight	TEMPBONUS:PC|VAR|BlindsenseRange|30|TYPE=Base|PREVARGTEQ:skillinfo("RANK", "Listen"),5	TEMPBONUS:PC|VAR|BlindsightRange|15|TYPE=Base|PREVARGTEQ:skillinfo("RANK", "Listen"),12	
+Lively Step			TYPE:Arcane	CLASSES:Bard=2|Sorcerer,Wizard=2		SCHOOL:Transmutation			COMPS:V, S, F	CASTTIME:1 standard action	RANGE:30-ft.	TARGETAREA:30-ft-radius emanation, centered on you.		DURATION:Up to 12 hours	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Allows you and allies within 30 ft to move 10 ft. greater than normal.	SOURCEPAGE:SpC												
+Living Prints			TYPE:Divine	CLASSES:Ranger=1		SCHOOL:Divination			COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:You perceive tracks as if they had just been made.	SOURCEPAGE:SpC												
+Living Undeath			TYPE:Divine	CLASSES:Cleric=2		SCHOOL:Necromancy			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.		DURATION:1 minute/level	SAVEINFO:Fort negates (harmless)	SPELLRES:Yes	DESC:Not subject to sneak attacks or criticals; -4 penalty to Cha score.	SOURCEPAGE:SpC										TEMPBONUS:PC|VAR|SpellLivingUndeath|1		
+Love's Lament			TYPE:Arcane	CLASSES:Bard=3		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V	CASTTIME:1 standard action	RANGE:60-ft.	TARGETAREA:Cone-shaped burst.		DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Creatures that fail the save take 1d6 Wis and are nauseated for 1d4 rounds.	SOURCEPAGE:SpC												
+Low-Light Vision			TYPE:Arcane.Divine	CLASSES:Assassin=1|Druid=1|Ranger=1|Sorcerer,Wizard=1		SCHOOL:Transmutation			COMPS:V, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.		DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Target gains low-light vision.	SOURCEPAGE:SpC									TEMPBONUS:PC|VAR|LowLightDistance|1|TYPE=Base			

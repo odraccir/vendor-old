@@ -17,6 +17,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 
 #Forgotten Realm
 CLASS:FRCS_classes_prestige.lst
+ABILITY:FRCS_abilities_proficiencies.lst
 DEITY:FRCS_deities.lst
 EQUIPMENT:FRCS_equip_coinsgems.lst
 EQUIPMENT:FRCS_equip_weap_melee.lst
@@ -32,6 +33,7 @@ WEAPONPROF:FRCS_weaponprofs.lst
 #Player's Guide to Faerun
 #
 ABILITY:PGtF_abilities_class.lst
+ABILITY:PGtF_abilities_proficiencies.lst
 ABILITY:PGtF_abilities_region.lst
 BIOSET:PGtF_biosettings.lst
 CLASS:PGtF_classes_prestige.lst

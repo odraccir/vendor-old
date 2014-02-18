@@ -11,14 +11,14 @@ CLASS:Gnome Artificer	SPELLSTAT:INT	SPELLTYPE:Mundane	SPELLBOOK:YES	KNOWNSPELLS:
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Gnome Artificier
 #											
 1		KNOWN:4,2		ABILITY:Special Ability|AUTOMATIC|Artificer Item							
-2		KNOWN:5,2		ABILITY:Special Ability|AUTOMATIC|Bonus Item|Gnome Artificer Bonus Item			BONUS:VAR|GnomeArtificerBonusItemLVL|CL				
+2		KNOWN:5,2		ABILITY:Special Ability|AUTOMATIC|Bonus Item			BONUS:VAR|BonusItemNumber|CL/2				
 3		KNOWN:5,3,1	AUTO:FEAT|Skill Focus(Disable Device)								
 4		KNOWN:6,3,2									
 5		KNOWN:6,4,2,1		ABILITY:Special Ability|AUTOMATIC|Salvage							
 6		KNOWN:7,4,3,2									
 7		KNOWN:7,5,3,2,1		ABILITY:Special Ability|AUTOMATIC|Prototype							
 8		KNOWN:8,5,4,3,2									
-9		KNOWN:8,5,4,3,2		ABILITY:Special Ability|AUTOMATIC|Shadow Effect|Gnome Artificer Shadow Effect							
+9		KNOWN:8,5,4,3,2		ABILITY:Special Ability|AUTOMATIC|Shadow Effect|Gnome Artificer ~ Shadow Effect
 10		KNOWN:9,5,5,4,3									
 #											
 CLASS:Guild Wizard of Waterdeep	HD:4	TYPE:PC.Prestige	ABB:Guw	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
@@ -26,7 +26,7 @@ CLASS:Guild Wizard of Waterdeep	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Craft (Alc
 CLASS:Guild Wizard of Waterdeep	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft									
 #											
 1	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Guild Member(Watchful Order of Magists and Protectors)|Improved Spell Acquisition							
-2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spellpool|Guild Wizard of Waterdeep Spellpool			BONUS:VAR|SpellpoolLimit|1	BONUS:VAR|GuildWizardOfWaterdeepSpellpoolLVL|CL			
+2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Spellpool			BONUS:VAR|SpellpoolLimit|min(9,(((CL+2)/4)*3))
 3	ADD:SPELLCASTER|ANY						BONUS:ABILITYPOOL|Guild Wizard of Waterdeep Feat|1				
 4	ADD:SPELLCASTER|ANY						ADD:LANGUAGE|1|TYPE=Spoken				
 5	ADD:SPELLCASTER|ANY		AUTO:FEAT|Improved Counterspell								
@@ -41,7 +41,7 @@ CLASS:Harper Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=4	PRESKILL
 CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Gather Information|Heal|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Speak Language|Spellcraft|Spot									
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Harper Mage
 #											
-1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge|Harper Mage Harper Knowledge			BONUS:VAR|HarperMageHarperKnowledgeLVL|CL	BONUS:ABILITYPOOL|Oghma's Insight|1			
+1	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Harper Knowledge			BONUS:VAR|HarperKnowledge|CL	BONUS:ABILITYPOOL|Oghma's Insight|1			
 2	ADD:SPELLCASTER|Arcane		ADD:FEAT|1|Skill Focus(Knowledge (Arcana)),Skill Focus(Spellcraft)								
 3	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Extend Spell (Ex)
 4	ADD:SPELLCASTER|Arcane		AUTO:FEAT|Eschew Materials								

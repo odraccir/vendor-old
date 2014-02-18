@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Complete Arcane
 ABILITY:CA_abilities_class.lst
+ABILITY:CA_abilities_proficiencies.lst
 CLASS:CA_classes_base.lst
 CLASS:CA_classes_epic.lst
 CLASS:CA_classes_prestige.lst

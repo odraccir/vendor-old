@@ -4,7 +4,13 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 #	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion																												SOURCEPAGE:?
 Armored Casting (Fatemaker)	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:You may wear light armor without incurring the normal arcane spell failure chance.	OUTPUTNAME:Armored Casting																											SOURCEPAGE:PH
-																																
+
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ Elsewhale	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			
+Training ~ Gaspar	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult.	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			
+Training ~ Pack Fiend	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult.	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			
+Training ~ Ur'Epona	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult.	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			
+
 # Ability Name																																
 Fighter Align Puissance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:FighterAlignPuissanceLVL|0					BONUS:VAR|AlignPuissancePerDay|1	BONUS:VAR|AlignPuissanceDuration|FighterAlignPuissanceLVL																	SOURCEPAGE:PH
 Monk Axiomatic Soul	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:MonkAxiomaticSoulLVL|0					BONUS:VAR|AxiomaticSoulSR|MonkAxiomaticSoulLVL																		SOURCEPAGE:PH

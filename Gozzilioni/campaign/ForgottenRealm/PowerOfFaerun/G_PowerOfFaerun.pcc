@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Power of Faerun
 ### TODO: pagina 61
+ABILITY:PoF_abilities_proficiencies.lst
 CLASS:PoF_classes_prestige.lst
 SPELL:PoF_classes_spells.lst
 DEITY:PoF_deities.lst

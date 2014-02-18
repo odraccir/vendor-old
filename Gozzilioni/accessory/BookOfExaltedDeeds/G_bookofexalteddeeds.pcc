@@ -19,6 +19,7 @@ HIDETYPE:FEAT|CelestialAllegiance
 
 #Book of Exalted Deeds
 ABILITY:EXD_abilities_class.lst
+ABILITY:EXD_abilities_proficiencies.lst
 CLASS:EXD_classes_sanctified.lst
 CLASS:EXD_classes_base.lst
 CLASS:EXD_classes_monster_specific.lst

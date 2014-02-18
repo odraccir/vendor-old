@@ -19,6 +19,7 @@ HIDETYPE:FEAT|DemonicAllegiance|VileDeformity
 
 #Book of Exalted Deeds
 ABILITY:BoVD_abilities_class.lst
+ABILITY:BoVD_abilities_proficiencies.lst
 CLASS:BoVD_classes_vile.lst
 CLASS:BoVD_classes_prestige.lst
 SPELL:BoVD_classes_spells.lst

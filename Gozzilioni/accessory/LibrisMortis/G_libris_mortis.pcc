@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Planar Handbook
 ABILITY:LM_abilities_class.lst
+ABILITY:LM_abilities_proficiencies.lst
 CLASS:LM_classes_prestige.lst
 CLASS:LM_classes_necroticcyst.lst
 SPELL:LM_classes_spells.lst

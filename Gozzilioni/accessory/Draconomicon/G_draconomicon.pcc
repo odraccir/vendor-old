@@ -18,6 +18,7 @@ HIDETYPE:FEAT|DraconicAllegiance
 
 #Draconomicon
 ABILITY:Drac_abilities_class.lst
+ABILITY:Drac_abilities_proficiencies.lst
 CLASS:Drac_classes_monster__dragons.lst
 CLASS:Drac_classes_prestige.lst
 SPELL:Drac_classes_spells.lst

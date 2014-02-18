@@ -14,6 +14,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Monster Manual 3
+ABILITY:mm3_abilities_class.lst
 ARMORPROF:mm3_armorprof.lst
 CLASS:mm3_classes_monster.lst
 CLASS:mm3_classes_monster_specific.lst

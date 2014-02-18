@@ -16,6 +16,7 @@ INFOTEXT:sito web.
 #
 #Random Encounter
 ABILITY:PFSrd_abilities_class.lst
+ABILITY:PFSrd_abilities_proficiencies.lst
 CLASS:PFSrd_classes_base.lst
 CLASS:PFSrd_classes_prestige.lst
 SPELL:PFSrd_classes_spells.lst

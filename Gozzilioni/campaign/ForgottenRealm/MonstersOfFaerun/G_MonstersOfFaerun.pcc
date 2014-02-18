@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Monsters of Faerun
+ABILITY:Mon_abilities_class.lst
 ARMORPROF:Mon_armorprof.lst
 CLASS:Mon_classes_monster__dragons.lst
 CLASS:Mon_classes_monster_specific.lst

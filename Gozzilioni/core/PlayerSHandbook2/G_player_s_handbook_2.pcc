@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Player's Handbook 2
 ABILITY:PHB2_abilities_class.lst
+ABILITY:PHB2_abilities_proficiencies.lst
 ABILITYCATEGORY:PHB2_ability_category.lst
 CLASS:PHB2_classes_base.lst
 SPELL:PHB2_classes_spells.lst

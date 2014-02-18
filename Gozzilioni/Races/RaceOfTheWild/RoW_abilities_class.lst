@@ -1,6 +1,11 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net																														
+SOURCELONG:Races of the Wild	SOURCESHORT:RoW	SOURCEWEB:http://www.gozzilioni.net																														
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	AUTO:ARMORPROF|Tatterdemalion	AUTO:WEAPONPROF|Longsword,Rapier,Sap,Sword (Short),Shortbow,Whip																											SOURCEPAGE:LM
+
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Training ~ Brixashulty	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Trainable																											SOURCEPAGE:RoW			
+Training ~ Chordevoc	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:all Handle Animal to teach, train or rear and all Ride checks during the ride are made with -5 circumstance penalty.	OUTPUTNAME:Trainable																											SOURCEPAGE:RoW			
+
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Brixashulty,Chordevoc|PRERACE:1,RACESUBTYPE=Halfling	COMPANIONLIST:Animal Companion|Brixashulty,Chordevoc|FOLLOWERADJUSTMENT:-3|!PRERACE:1,RACESUBTYPE=Halfling	

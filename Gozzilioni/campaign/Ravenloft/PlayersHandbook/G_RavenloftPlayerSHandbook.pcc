@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Ravenloft Player's Handbook
+ABILITY:RLPHB_abilities_proficiencies.lst
 ABILITY:RLPHB_abilities_region.lst
 CLASS:RLPHB_classes_prestige.lst
 SPELL:RLPHB_classes_spells.lst

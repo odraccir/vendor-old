@@ -12,10 +12,8 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 
 INFOTEXT:Rsrd official addition and modification from the PHB or the forum
 
-#SRD3.0 modificato
-#Manuale dei mostri
-LANGUAGE:mm_languages.lst
-RACE:mm_races.lst
+#SRD3.5 modificato
+RACE:G_races.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

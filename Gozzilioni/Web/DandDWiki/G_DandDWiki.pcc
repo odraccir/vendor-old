@@ -15,6 +15,7 @@ INFOTEXT:sito web.
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Random Encounter
+ABILITY:ddw_abilities_class.lst
 COMPANIONMOD:ddw_companionmods.lst
 RACE:ddw_races.lst
 SPELL:ddw_spells.lst

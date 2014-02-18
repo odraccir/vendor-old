@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Lords of Madness
 ABILITY:LoM_abilities_class.lst
+ABILITY:LoM_abilities_proficiencies.lst
 CLASS:LoM_classes_monster_specific.lst
 CLASS:LoM_classes_prestige.lst
 COMPANIONMOD:LoM_companionmods.lst

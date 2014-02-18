@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net			
+SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net			
 ###Block: Creature Subtypes					
 # Template Name	Visible	Source Page	Special Ability		
 Disease Damage (Slaad Fever/DEX)			VISIBLE:NO	SOURCEPAGE:MM	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Dexterity Damage		TEMPDESC:Infection DC 18 (Injury), Incubation 1 day, Damage 1d3 Dex and 1d3 Cha (The victim must make three successful Fortitude saving throws in a row to recover from slaad fever), Apply this temporary bonus each day the victim takes damage.	TEMPLATE:CHOOSE:Disease Damage (Slaad Fever/CHA)

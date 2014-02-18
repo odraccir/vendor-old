@@ -16,6 +16,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Complete Adventurer
 ABILITY:CAd_abilities_class.lst
+ABILITY:CAd_abilities_proficiencies.lst
 CLASS:CAd_classes_base.lst
 CLASS:CAd_classes_prestige.lst
 CLASS:CAd_classes_prestige_epic.lst

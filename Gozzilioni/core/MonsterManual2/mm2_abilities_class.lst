@@ -3,7 +3,11 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 #Ninja Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Hand)|Kama|Kukri|Nunchaku|Sai|Shortbow|Sword (Short)|Shuriken|Siangham						SAB:Daisho Proficiency (Ex)	ADD:FEAT|Exotic Weapon Proficiency(Sword (Bastard))																					SOURCEPAGE:MM2
-																																
+
+# Ability Name																																
+Training ~ Asperi	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult	OUTPUTNAME:Trainable																											SOURCEPAGE:MM2			
+Training ~ Corollax	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 23	OUTPUTNAME:Trainable																											SOURCEPAGE:MM2			
+
 # Ability Name																																
 #Ninja AC	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:NinjaAC|0	DEFINE:NinjaACLVL|0				BONUS:COMBAT|AC|max(WIS,0)+NinjaAC|PREVAREQ:ENCUMBERANCE,0,var("COUNT[EQTYPE.ARMOR.EQUIPPED]"),0	BONUS:VAR|NinjaAC|(NinjaACLVL)/5																	SOURCEPAGE:MM2
 Asperi Feather Fall	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FeatherFallPerDay|4	BONUS:VAR|FeatherFallLVL|4																	SOURCEPAGE:MM2

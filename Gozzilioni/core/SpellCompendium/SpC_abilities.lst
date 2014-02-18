@@ -1,31 +1,59 @@
 SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net																															
 #																																	
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWerebear|0	TEMPLATE:Bite of the Werebear
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWereboar|0	TEMPLATE:Bite of the Wereboar
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWererat|0	TEMPLATE:Bite of the Wererat
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWeretiger|0	TEMPLATE:Bite of the Weretiger
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWerewolf|0	TEMPLATE:Bite of the Werewolf
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellClawsOfTheBear|0	TEMPLATE:Claws of the Bear
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellClawsOfDarkness|0	TEMPLATE:Claws of Darkness
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellDireHunger|0	TEMPLATE:Dire Hunger
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellEssenceOfTheRaptor|0	TEMPLATE:Essence of the Raptor
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellFangsOfTheVampireKing|0	TEMPLATE:Fangs of the Vampire King
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellFavorOfTheMartyr|0	TEMPLATE:Favor of the Martyr
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellFistOfStone|0	TEMPLATE:Fist of Stone
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellFortifyFamiliar|0	TEMPLATE:Fortify Familiar
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellGhostform|0	TEMPLATE:Ghostform
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellGirallonSBlessing|0	TEMPLATE:Girallon's Blessing
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellGoldenBarding|0	TEMPLATE:Golden Barding	DEFINE:SpellGoldenBardingLvl|0
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellHeartOfStone|0	TEMPLATE:Heart Of Stone
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellHolyTransformationLesser|0	TEMPLATE:Holy Transformation Lesser
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellHolyTransformation|0	TEMPLATE:Holy Transformation
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellInfernalTransformationLesser|0	TEMPLATE:Infernal Transformation Lesser
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellInfernalTransformation|0	TEMPLATE:Infernal Transformation
-#CATEGORY=Internal|Default.MOD	DEFINE:SpellKissOfTheVampire|0	TEMPLATE:Kiss of the Vampire
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWerebear|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Bite of the Werebear|PREVARGTEQ:SpellBiteOfTheWerebear,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWereboar|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Bite of the Wereboar|PREVARGTEQ:SpellBiteOfTheWereboar,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWererat|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Bite of the Wererat|PREVARGTEQ:SpellBiteOfTheWererat,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWeretiger|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Bite of the Weretiger|PREVARGTEQ:SpellBiteOfTheWeretiger,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellBiteOfTheWerewolf|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Bite of the Werewolf|PREVARGTEQ:SpellBiteOfTheWerewolf,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellClawsOfTheBear|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Claws of the Bear|PREVARGTEQ:SpellClawsOfTheBear,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellClawsOfDarkness|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Claws of Darkness|PREVARGTEQ:SpellClawsOfDarkness,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDireHunger|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Dire Hunger|PREVARGTEQ:SpellDireHunger,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellEssenceOfTheRaptor|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Essence of the Raptor|PREVARGTEQ:SpellEssenceOfTheRaptor,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFangsOfTheVampireKing|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Fangs of the Vampire King|PREVARGTEQ:SpellFangsOfTheVampireKing,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFavorOfTheMartyr|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Favor of the Martyr|PREVARGTEQ:SpellFavorOfTheMartyr,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFistOfStone|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Fist of Stone|PREVARGTEQ:SpellFistOfStone,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellFortifyFamiliar|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Fortify Familiar|PREVARGTEQ:SpellFortifyFamiliar,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellGhostform|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Ghostform|PREVARGTEQ:SpellGhostform,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellGirallonSBlessing|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Girallon's Blessing|PREVARGTEQ:SpellGirallonSBlessing,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellGoldenBarding|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Golden Barding|PREVARGTEQ:SpellGoldenBarding,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellHeartOfStone|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Heart Of Stone|PREVARGTEQ:SpellHeartOfStone,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellHolyTransformationLesser|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Holy Transformation Lesser|PREVARGTEQ:SpellHolyTransformationLesser,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellHolyTransformation|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Holy Transformation|PREVARGTEQ:SpellHolyTransformation,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellInfernalTransformationLesser|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Infernal Transformation Lesser|PREVARGTEQ:SpellInfernalTransformationLesser,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellInfernalTransformation|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Infernal Transformation|PREVARGTEQ:SpellInfernalTransformation,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellKissOfTheVampire|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Kiss of the Vampire|PREVARGTEQ:SpellKissOfTheVampire,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellLionSCharge|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Lion's Charge
 
-Blood Drain		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1 Con damage.	SERVESAS:ABILITY=Special Ability|Blood Drain	KEY:Blood Drain ~ Fangs of the Vampire King																									SOURCEPAGE:SpC
-Enervation		CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Subject gains 1d4 negative levels.		KEY:Enervation ~ Kiss of the Vampire																										SOURCEPAGE:SpC
-Vampiric Touch	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Touch deals %1d6 damage; caster gains damage as hp.|KissOfTheVampireLVL		KEY:Vampiric Touch ~ Kiss of the Vampire																										SOURCEPAGE:SpC
-Charm Person	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Makes one person your friend.		KEY:Charm Person ~ Kiss of the Vampire																										SOURCEPAGE:SpC
-Gaseous Form	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Subject becomes insubstantial and can fly slowly.		KEY:Gaseous Form ~ Kiss of the Vampire																										SOURCEPAGE:SpC
+Bite of the Werebear	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Werebear	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Werebear ~ Claws ~ Bite (Small)|Bite of the Werebear ~ Claws ~ Bite (Medium)	VFEAT:Multiattack|Blind Fight|Power Attack	BONUS:WEAPONPROF=Bite|DAMAGE|-1*(max(0,(STR/2)))
+Bite of the Wereboar	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Wereboar	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Wereboar ~ Bite (Small)|Bite of the Wereboar ~ Bite (Medium)	VFEAT:Blind Fight|Power Attack	BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))
+Bite of the Wererat	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Wererat	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Wererat ~ Bite (Small)|Bite of the Wererat ~ Bite (Medium)	VFEAT:Weapon Finesse	BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))
+Bite of the Weretiger	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Weretiger	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Weretiger ~ Claws ~ Bite (Small)|Bite of the Weretiger ~ Claws ~ Bite (Medium)	VFEAT:Multiattack|Blind Fight|Power Attack	BONUS:WEAPONPROF=Bite|DAMAGE|-1*(max(0,(STR/2)))
+Bite of the Werewolf	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Werewolf	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Werewolf ~ Bite (Small)|Bite of the Werewolf ~ Bite (Medium)	VFEAT:Blind Fight	BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))
+Claws of the Bear	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Claws of the Bear	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Claws of the Bear ~ Claws (Small)|Claws of the Bear ~ Claws (Medium)|Claws of the Bear ~ Claws (Large)	BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))
+Claws of Darkness	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Claws of Darkness	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Claws of Darkness ~ Claws (Medium)
+Dire Hunger	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Dire Hunger	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Dire Hunger ~ Bite (Fine)|Dire Hunger ~ Bite (Diminutive)|Dire Hunger ~ Bite (Tiny)|Dire Hunger ~ Bite (Small)|Dire Hunger ~ Bite (Medium)|Dire Hunger ~ Bite (Large)|Dire Hunger ~ Bite (Huge)|Dire Hunger ~ Bite (Gargantuan)|Dire Hunger ~ Bite (Colossal)
+Essence of the Raptor	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Essence of the Raptor	SOURCEPAGE:SpC	MOVE:Walk,60	ABILITY:Special Ability|VIRTUAL|Scent
+Fangs of the Vampire King	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Fangs of the Vampire King	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Fangs of the Vampire King ~ Bite	ABILITY:Special Ability|VIRTUAL|Blood Drain ~ Fangs of the Vampire King
+Favor of the Martyr	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Favor of the Martyr	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Immunity To Non-lethal Damage|Immunity To Charm Effects|Immunity to Compulsion|Immunity To Daze|Immunity To Exhaustion|Immunity To Fatigue|Immunity To Nausea|Immunity To Sickness|Immunity To Stagger|Immunity To Stunning	VFEAT:Endurance
+Fist of Stone	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Fist of Stone	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Fist of Stone ~ Slam	BONUS:WEAPONPROF=Slam|DAMAGE|max(0,(STR/2))
+Fortify Familiar	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Fortify Familiar	SOURCEPAGE:SpC	
+Ghostform	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Ghostform	SOURCEPAGE:SpC	TEMPLATE:Incorporeal
+Girallon's Blessing	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Girallon's Blessing	SOURCEPAGE:SpC	TEMPLATE:Girallon's Blessing ~ Claw	ABILITY:Special Ability|VIRTUAL|Rend
+Golden Barding	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Golden Barding	SOURCEPAGE:SpC	DEFINE:SpellGoldenBardingLvl|0
+Heart Of Stone	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Heart Of Stone	SOURCEPAGE:SpC	DR:5/-	ABILITY:Special Ability|VIRTUAL|Resistance To Cold|Resistance To Fire|Resistance To Electricity	DEFINE:ColdResistanceBonus|5	DEFINE:FireResistanceBonus|5	DEFINE:ElectricityResistanceBonus|5
+Holy Transformation Lesser	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Holy Transformation Lesser	SOURCEPAGE:SpC	TEMPLATE:Holy Transformation Lesser ~ Outsider	BONUS:STAT|STR,CON|2|TYPE=Sacred	MOVE:Fly,60	DEFINE:FlightManeuverability|3	ABILITY:Special Ability|VIRTUAL|Flight Maneuverability	VISION:Darkvision (60')	BONUS:CHECKS|ALL|2|TYPE=Sacred	AUTO:LANG|Celestial
+Holy Transformation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Holy Transformation	SOURCEPAGE:SpC	TEMPLATE:Holy Transformation ~ Outsider	BONUS:STAT|STR,CON|4|TYPE=Sacred	VISION:Darkvision (60')	BONUS:CHECKS|ALL|4|TYPE=Sacred	AUTO:LANG|Celestial	DR:5/Evil
+Infernal Transformation Lesser	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Infernal Transformation Lesser	SOURCEPAGE:SpC	TEMPLATE:Infernal Transformation Lesser ~ Outsider	BONUS:STAT|STR,CON|2|TYPE=Profane	ABILITY:Special Ability|VIRTUAL|Beard ~ Bearded Devil	VISION:Darkvision (60')	BONUS:CHECKS|ALL|2|TYPE=Profane	AUTO:LANG|Infernal
+Infernal Transformation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Infernal Transformation	SOURCEPAGE:SpC	TEMPLATE:Infernal Transformation ~ Outsider	BONUS:STAT|STR,CON|4|TYPE=Profane	ABILITY:Special Ability|VIRTUAL|Poison ~ Bone Devil	VISION:Darkvision (60')	BONUS:CHECKS|ALL|2|TYPE=Profane	AUTO:LANG|Infernal	DR:5/Good
+Kiss of the Vampire	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Kiss of the Vampire	SOURCEPAGE:SpC	DR:10/Magic	ABILITY:Special Ability|VIRTUAL|Charm Person ~ Kiss of the Vampire|Enervation ~ Kiss of the Vampire|Gaseous Form ~ Kiss of the Vampire|Vampiric Touch ~ Kiss of the Vampire	TEMPLATE:Kiss of the Vampire ~ Vampiric Touch
+Lion's Charge	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Lion's Charge	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Pounce
+Living Undeath	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Living Undeath	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Immunity To Sneak Attack|Immunity To Critical Hits	BONUS:STAT|CHA|-4
+
+#
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+Blood Drain		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1 Con damage.	KEY:Blood Drain ~ Fangs of the Vampire King 	SERVESAS:ABILITY=Special Ability|Blood Drain																								SOURCEPAGE:SpC
+Enervation		CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Subject gains 1d4 negative levels.	KEY:Enervation ~ Kiss of the Vampire																											SOURCEPAGE:SpC
+Vampiric Touch	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Touch deals %1d6 damage; caster gains damage as hp.|KissOfTheVampireLVL	KEY:Vampiric Touch ~ Kiss of the Vampire																											SOURCEPAGE:SpC
+Charm Person	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Makes one person your friend.	KEY:Charm Person ~ Kiss of the Vampire																											SOURCEPAGE:SpC
+Gaseous Form	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Subject becomes insubstantial and can fly slowly.	KEY:Gaseous Form ~ Kiss of the Vampire																											SOURCEPAGE:SpC
