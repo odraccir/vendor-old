@@ -148,7 +148,7 @@ CLASS:Lifedrinker	STARTSKILLPTS:4	CSKILL:Bluff|Hide|Knowledge (Arcana)|Listen|Mo
 7				ABILITY:Special Ability|AUTOMATIC|Blood Drain (Greater)|Special Attack Boost (Maximize)							
 8				ABILITY:Special Ability|AUTOMATIC|Spell Boost (Quicken)							
 9				ABILITY:Special Ability|AUTOMATIC|Invigorate (Greater)							
-10				ABILITY:Special Ability|AUTOMATIC|Blood Revel		SPELLLEVEL:CLASS|Celebrant of Sharess=1|Bless,Vision of Heaven|Celebrant of Sharess=2|Consecrate,Zone of Truth|Celebrant of Sharess=3|Helping Hand,Searing Light					
+10				ABILITY:Special Ability|AUTOMATIC|Blood Revel
 #											
 CLASS:Mortal Hunter	HD:10	TYPE:PC.Prestige	ABB:Mor	MAXLEVEL:10	SOURCEPAGE:BoVD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
 #CLASS:Mortal Hunter	PRERACE:1,RACETYPE=Outsider	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Move Silently=3	PRESKILL:1,Wilderness Lore=5	PRELANG:1,Common	PREFEAT:3,Alertness,Mortalbane,Track				
