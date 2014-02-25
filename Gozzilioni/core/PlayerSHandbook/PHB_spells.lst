@@ -1,0 +1,215 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net																								
+																											
+###Block: AB																											
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	TARGETAREA:		Duration	Save Info	Spell Resistance	DESC:	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose	
+Summon Monster I.MOD	DESC:&nl;*Celestial Dog: See MM,p.00.&nl;
+Summon Monster I.MOD	DESC:&nl;*Celestial Owl: See MM,p.00.&nl;
+Summon Monster I.MOD	DESC:&nl;*Celestial Giant Fire Beetle: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Celestial Porpoise: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Celestial Badger: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Celestial Monkey: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Dire Rat: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Raven: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Monstrous Centipede (medium): See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Monstrous Scorpion (medium): See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Hawk: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Monstrous Spider (small): See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Octopus: See MM,p.00.
+Summon Monster I.MOD	DESC:&nl;*Fiendish Snake (viper/small): See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Celestial Giant Bee: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Celestial Giant Bombardier Beetle: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Riding Dog: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Celestial Eagle: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Devil (lemure): See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Squid: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Wolf: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Monstrous Centipede (large): See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Monstrous Scorpion (medium): See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Shark: See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Monstrous Spider (medium): See MM,p.00.
+Summon Monster II.MOD	DESC:&nl;*Fiendish Snake (viper/medium): See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Celestial Black Bear: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Celestial Bison: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Celestian Dire Badger: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Celestial Hippogrif: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Elemental (any/small): See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Ape: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Dire Weasel: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Hell Hound: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Snake (constrictor): See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Boar: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Dire Bat: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Monstrous Centipede (huge): See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Crocodile: See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Demon (dretch): See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Snake (viper/large): See MM,p.00.
+Summon Monster III.MOD	DESC:&nl;*Fiendish Wolverine: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Archon (lantern): See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Celestial Giant Owl: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Celestial Giant Eagle: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Celestial Lion: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Mephit (any): See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Fiendish Dire Wolf: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Fiendish Giant Wasp: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Fiendish Giant Prying Mantis: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Fiendish Shark (large): See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Yeth Hound: See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Fiendish Monstrous Spider (large): See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Fiendish Snake (viper/huge): See MM,p.00.
+Summon Monster IV.MOD	DESC:&nl;*Howler: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Archon (hound): See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Celestial Brown Bear: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Celestial Giant Stag Beetle: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Celestial Sea Cat: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Celestial Griffon: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Elemental (any/medium): See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Achaierai: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Devil (bearded): See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Deinonychus: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Dire Ape: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Dire Boar: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Shark (huge): See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Monstrous Scorpion (large): See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Shadow Mastiff: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Dire Wolverine: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Giant Crocodile: See MM,p.00.
+Summon Monster V.MOD	DESC:&nl;*Fiendish Tiger: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Celestial Polar Bear: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Celestial Orca Whale: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Eladrin (bralani): See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Celestial Dire Lion: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Elemental (any/large): See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Genie (janni): See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Chaos Beast: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Devil (chain): See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Xill: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Fiendish Monstrous Centipede (gargantuan): See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Fiendish Rhinoceros: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Fiendish Elasmosaurus: See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Fiendish Monstrous Spider (huge): See MM,p.00.
+Summon Monster VI.MOD	DESC:&nl;*Fiendish Snake (giant constrictor): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Celestial Elephant: See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Guardinal (avoral): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Celestial Baleen Whale: See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Genie (djinni): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Elemental (any/huge): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Invisible Stalker: See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Slaad (red): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Devil (bone): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Fiendish Megaraptor: See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Fiendish Monstrous Scorpion (huge): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Demon (babau): See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Fiendish Giant Octopus: See MM,p.00.
+Summon Monster VII.MOD	DESC:&nl;*Fiendish Girallon: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Celestial Dire Bear: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Celestial Cachalot Whale: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Celestial Triceratops: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Lillend: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Elemental (any/greater): See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Slaad (blue): See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Fiendish Giant Squid: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Hellcat: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Fiendish Monstrous Centipede (colossal): See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Fiendish Dire Tiger: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Fiendish Monstrous Spider (gargantuan): See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Fiendish Tyrannosaurus: See MM,p.00.
+Summon Monster VIII.MOD	DESC:&nl;*Demon (vrock): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Couatl: See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Guardinal (leonal): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Celestial Roc: See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Elemental (any/elder): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Slaad (green): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Devil (barbed): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Fiendish Dire Shark: See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Fiendish Monstrous Scorpion (gargantuan): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Night Hag: See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Demon (bebilith): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Fiendish Monstrous Spider (colossal): See MM,p.00.
+Summon Monster IX.MOD	DESC:&nl;*Demon (herzou): See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Dire Rat: See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Eagle: See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Monkey: See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Octopus: See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Owl: See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Porpoise: See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Snake (viper/small): See MM,p.00.
+Summon Nature's Ally I.MOD	DESC:&nl;*Wolf: See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Bear (black): See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Crocodile: See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Dire Badger: See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Dire Rat: See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Elemental (any/small): See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Hippogrif: See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Shark (medium): See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Snake (viper/medium): See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Squid: See MM,p.00.
+Summon Nature's Ally II.MOD	DESC:&nl;*Wolverine: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Ape: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Dire Weasel: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Dire Wolf: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Eagle, Giant: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Lion: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Owl, Giant: See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Satyr (without pipes): See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Shark (large): See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Snake (constrictor): See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Snake(viper/large): See MM,p.00.
+Summon Nature's Ally III.MOD	DESC:&nl;*Thoqqua: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Arrowhawk (juvenile): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Bear (brown): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Crocodile (giant): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Deinonychus: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Dire Ape: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Dire Boar: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Dire Wolverine: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Elemental (any/medium): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Salamander (flamebrother): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Sea Cat: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Shark (huge): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Snake (viper/huge): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Tiger: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Tojanida (juvenile): See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Unicorn: See MM,p.00.
+Summon Nature's Ally IV.MOD	DESC:&nl;*Xorn (minor): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Arrowhawk (adult): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Bear (polar): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Dire Lion: See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Elasmosaurus: See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Elemental (any/large): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Griffon: See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Genie (janni): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Rhinoceros: See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Satyr (with pipes): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Snake (giant constrictor): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Nixie: See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Tojanida (adult): See MM,p.00.
+Summon Nature's Ally V.MOD	DESC:&nl;*Whale (orca): See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Dire Bear: See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Elemental (any/huge): See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Elephant: See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Girallon: See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Megaraptor: See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Octopus (giant): See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Pixie (no special arrows): See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Salamander (average): See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Whale (baleen): See MM,p.00.
+Summon Nature's Ally VI.MOD	DESC:&nl;*Xorn (average): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Arrowhawk (elder): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Dire Tiger: See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Elemental (any/greater): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Genie (djinni): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Invisible Stalker: See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Pixie (with sleep arrows): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Squid (giant): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Triceratops: See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Tyrannosaurus: See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Whale (cachalot): See MM,p.00.
+Summon Nature's Ally VII.MOD	DESC:&nl;*Xorn (elder): See MM,p.00.
+Summon Nature's Ally VIII.MOD	DESC:&nl;*Dire Shark: See MM,p.00.
+Summon Nature's Ally VIII.MOD	DESC:&nl;*Roc: See MM,p.00.
+Summon Nature's Ally VIII.MOD	DESC:&nl;*Salamander (noble): See MM,p.00.
+Summon Nature's Ally VIII.MOD	DESC:&nl;*Tojanida (elder): See MM,p.00.
+Summon Nature's Ally IX.MOD	DESC:&nl;*Elemental (any/elder): See MM,p.00.
+Summon Nature's Ally IX.MOD	DESC:&nl;*Grig (with fiddle): See MM,p.00.
+Summon Nature's Ally IX.MOD	DESC:&nl;*Pixie (sprite/with sleep and memory loss arrows): See MM,p.00.
+Summon Nature's Ally IX.MOD	DESC:&nl;*Unicorn (celestial charger): See MM,p.00.

@@ -25,6 +25,8 @@ Hourglass (Diamond/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPA
 Heart (Jade or obsidian or gold marbled/5000 gp)	TYPE:MaterialComponent.Focus	COST:5000	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Heart of Stone.
 Small Chain (Platinum/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Howling Chain
 Quartz (Clear/50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Icelance.
+Crystal Prism (Clear/10 gp)	TYPE:MaterialComponent.Focus	COST:10	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Rainbow Beam.
+Crystal Prism (Clear/50 gp)	TYPE:MaterialComponent.Focus	COST:10	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Rainbow Blast.
 
 Iron Bars (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Repulsion
 Ivory Plaque (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Rary's Mnemonic Enhancer
@@ -44,6 +46,7 @@ Ring (Platinum/50 gp)	TYPE:MaterialComponent.Focus.Ring	COST:50	WT:0	SOURCEPAGE:
 Ruby and Gold Lens (1500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Analyze Dweomer
 Set of 4 Pieces of Ivory (200 gp)	TYPE:MaterialComponent.Focus	COST:200	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Legend Lore
 Set of Minature Items (15 gp)	TYPE:MaterialComponent.Focus	COST:15	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Mordenkainen's Magnificent Mansion
+Set of marked sticks (25 gp)	TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Omen of Peril.
 Snow Flake shaped Shuriken (50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Zajimarn's Field of Icy Razors, Field of Icy Razors
 Statuette (Ivory/1500 gp)	TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Contingency, Elminter's Evasion
 Stewpot (Engraved/50 gp)	TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:EXD	SPROP:Focus for Estanna's Stew
@@ -57,6 +60,9 @@ Bell (Crystall/100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:SpC
 Goblet (Crystall/500 gp)	TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Body Harmonic.
 Miniature Fiddle (Silver/30 gp)	TYPE:MaterialComponent.Focus	COST:30	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Bonefiddle.
 Onyx sphere mounted on a obsidian Stand (6-in/1000 gp)	TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Hide the Path.
+Ingot (gold/5 gp)	TYPE:MaterialComponent.Focus	COST:5	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Moon Lust.
+Quartz (engraved with the image of a tiny castle/100 gp)	TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Nature's Rampart.
+Tiny pewter figure of a warrior (10gp)	TYPE:MaterialComponent.Focus	COST:10	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Phantom Foe.
 					
 Holy Symbol (Silver/Anathema)	TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
 Unholy Symbol (Silver/Anathema)	TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
