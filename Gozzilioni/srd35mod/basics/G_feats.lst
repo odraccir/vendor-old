@@ -6,9 +6,9 @@ Dodge.MOD	DESC:.CLEAR		DESC:During your action, you designate an opponent and re
 Endurance.MOD	DESC:.CLEAR	DESC:You gain a +%1 bonus on checks relating to stamina or extended physical activity. Also, you may sleep in light or medium armor without becoming fatigued.|EnduranceBonus	DEFINE:EnduranceBonus|0	BONUS:VAR|EnduranceBonus|4|TYPE=Base	
 Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus			
 Skill Focus.MOD		BONUS:SKILL|LIST|-3	BONUS:SKILL|LIST|3|TYPE=Focus		
-Quicken Spell Like Ability.MOD	STACK:NO	MULT:YES	CHOOSE:USERINPUT|TITLE="Quicken Spell-Like Ability"		
+Quicken Spell Like Ability.MOD	STACK:NO	MULT:YES	CHOOSE:USERINPUT|TITLE=Quicken Spell-Like Ability		
 Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=WeaponFocus			
 #					
 Spell Mastery.MOD	TYPE:RedWizard				
 #
-Ability Focus.MOD	STACK:NO	MULT:YES	CHOOSE:STRING|Stunning Gaze|Aura of Menace|Paralyzing Gaze
+Ability Focus.MOD	STACK:NO	MULT:YES	CHOOSE:STRING|Aura of Menace|Paralyzing Gaze|Stunning Gaze

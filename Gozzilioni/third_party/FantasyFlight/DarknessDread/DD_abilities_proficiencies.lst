@@ -39,5 +39,5 @@ Ministrel Shield Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO
 Sage Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Dagger								SOURCEPAGE:DD
 Sewerjack Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Hammer (Light)|Handaxe|Pick (Light)|Battleaxe|Pick (Heavy)|Warhammer|Greataxe								SOURCEPAGE:DD
 Thief Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Crossbow (Light)|Rapier|Shortbow|Sword (Short)								SOURCEPAGE:DD
-Tracker Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE.Bow								SOURCEPAGE:DD
+Tracker Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE=Bow								SOURCEPAGE:DD
 Worker Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Hammer (Light)|Handaxe|Pick (Light)|Battleaxe|Pick (Heavy)|Warhammer|Greataxe								SOURCEPAGE:DD

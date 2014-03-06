@@ -14,8 +14,8 @@ Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQ
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Worldbreaker																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency								SOURCEPAGE:RLCoD
 #																																
 ###Block: Class Specific																																
-Charlatan Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE.Crossbow|Dagger|Dart|Mace (Light)|Rapier|Sap|Sword (Short)								SOURCEPAGE:RLCoD
-Highway Rider Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE.Crossbow|Dagger|Dart|Longsword|Rapier|Sap|Shortbow|Sword (Short)								SOURCEPAGE:RLCoD
+Charlatan Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Dagger|Dart|Mace (Light)|Rapier|Sap|Sword (Short)|TYPE=Crossbow								SOURCEPAGE:RLCoD
+Highway Rider Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Dagger|Dart|Longsword|Rapier|Sap|Shortbow|Sword (Short)|TYPE=Crossbow								SOURCEPAGE:RLCoD
 Manipulator Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Rapier								SOURCEPAGE:RLCoD
 Mesmerist Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Firearms								SOURCEPAGE:RLCoD
 Scourge Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Poker|Cat-o-nine-tail								SOURCEPAGE:RLCoD

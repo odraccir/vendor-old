@@ -23,8 +23,8 @@ Formian (Taskmaster).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extrapla
 Formian (Warrior).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
 Formian (Worker).MOD	OUTPUTNAME:Formian, [NAME]	RACESUBTYPE:Formian|Extraplanar|Lawful																						
 Genie (Djinni).MOD	RACESUBTYPE:Genie
-Genie (Efreeti)	RACESUBTYPE:Genie
-Genie (Janni)	RACESUBTYPE:Genie
+Genie (Efreeti).MOD	RACESUBTYPE:Genie
+Genie (Janni).MOD	RACESUBTYPE:Genie
 Ghaele.MOD	OUTPUTNAME:Eladrin, Ghaele	RACESUBTYPE:Eladrin
 Ghoul (Ghast).MOD	LEVELADJUSTMENT:4																																																																				
 Ghoul.MOD	LEVELADJUSTMENT:3																																																																				

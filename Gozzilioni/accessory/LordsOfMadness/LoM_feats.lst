@@ -31,7 +31,7 @@ Darkstalker	TYPE:General	VISIBLE:YES																						DESC:See Text									
 Deepspawn	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood															PREVARGTEQ:2,AberrantFeatNumber			DESC:See Text														BONUS:VAR|AberrantFeatNumber|1	BONUS:COMBAT|TOHIT.GRAPPLE|2|TYPE=Racial		SOURCEPAGE:LoM	TEMPLATE:Deepspawn ~ Tentacles			
 Durable Form	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text											BONUS:HP|CURRENTMAX|2*AberrantFeatNumber			BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM				
 Inhuman Reach	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text									BONUS:COMBAT|REACH|5					BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	BONUS:COMBAT|TOHIT|-1			
-Inhuman Vision	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text													BONUS:SKILL|Spot|AberrantFeatNumber|TYPE=Racial	BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	VISION:Darkvision (0')	BONUS:VISION|Darkvision|5*AberrantFeatNumber		
+Inhuman Vision	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text													BONUS:SKILL|Spot|AberrantFeatNumber|TYPE=Racial	BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	VISION:Darkvision	BONUS:VISION|Darkvision|5*AberrantFeatNumber		
 Music of the Outer Spheres	TYPE:General	VISIBLE:YES			PRECLASS:1,Bard=9							PRESKILL:1,TYPE.Perform=11												DESC:See Text																	SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Bardic Music Lull Aberration|Bardic Music Sick Aberration|Bardic Music Vitalize Aberration			
 Ocular Spell	TYPE:Metamagic	VISIBLE:YES										PRESKILL:1,Knowledge (Dungeoneering)=4								PRETEXT:Two or more eyes.				DESC:See Text																	SOURCEPAGE:LoM	ADDSPELLLEVEL:2			
 Parrying Shield	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Shield Proficiency																		DESC:See Text																	SOURCEPAGE:LoM				
@@ -41,22 +41,3 @@ Starspawn	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood															
 Thrall Bred	TYPE:General	VISIBLE:YES													PRESTAT:1,CON=13					PRERACE:1,RACETYPE=Humanoid				DESC:See Text																	SOURCEPAGE:LoM				
 Warped Mind	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood																		DESC:See Text														BONUS:VAR|AberrantFeatNumber|1			SOURCEPAGE:LoM	ABILITY:Special Ability|VIRTUAL|Resistance To Mind-Affecting	BONUS:VAR|MindAffectingResistanceBonus|AberrantFeatNumber/2	BONUS:VAR|BonusPowerPoints|AberrantFeatNumber	
 Waterspawn	TYPE:Aberrant	VISIBLE:YES				PREFEAT:1,Aberration Blood															PREVARGTEQ:2,AberrantFeatNumber			DESC:See Text																	SOURCEPAGE:LoM	MOVECLONE:Walk,Swim,*1	BONUS:SKILL|Swim|8|TYPE=Racial	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|5
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				
-#	TYPE:General	VISIBLE:YES																						DESC:See Text																	SOURCEPAGE:LoM				

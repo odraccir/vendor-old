@@ -16,12 +16,13 @@ PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
 #Base
-PCC:&/Gozzilioni/PCC_G_gozzilioni.pcc
+PCC:&/Gozzilioni/PCC_G_common.pcc
 PCC:&/Gozzilioni/PCC_G_option.pcc
+#PCC:@/35e/wizards_of_the_coast/srd35/rsrd.pcc
 PCC:&/Gozzilioni/srd35mod/basics/G_RsrdBasic.pcc
 PCC:&/Gozzilioni/srd35mod/epic/G_RsrdEpic.pcc
 PCC:&/Gozzilioni/srd35mod/monsters/G_RsrdMonsters.pcc
-#Vecchi
+#Srd3.0
 PCC:&/Gozzilioni/srd30/G_old_srd.pcc
 PCC:&/Gozzilioni/srd30/ArmsAndEquipmentGuide/G_ArmsAndEquipmentGuide.pcc
 PCC:&/Gozzilioni/srd30/ManualOfThePlanes/G_ManualOfThePlanes.pcc
@@ -29,7 +30,6 @@ PCC:&/Gozzilioni/srd30/SavageSpecies/G_savagespecies.pcc
 #Core
 PCC:&/Gozzilioni/core/MonsterManual/G_monster_manual.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook/G_playershandbook.pcc
-#
 PCC:&/Gozzilioni/core/DungeonSMasterGuide2/G_dungeon_s_master_guide_2.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook2/G_player_s_handbook_2.pcc
 PCC:&/Gozzilioni/core/MonsterManual2/G_monster_manual_2.pcc
@@ -83,7 +83,6 @@ PCC:&/Gozzilioni/Web/WizardsOfTheCoast/MonsterMayehm/G_MonsterMayehm.pcc
 PCC:&/Gozzilioni/Web/WizardsOfTheCoast/RandomEncounter/G_random_encounter.pcc
 PCC:&/Gozzilioni/Web/WizardsOfTheCoast/SavageProgression/G_savage_progression.pcc
 PCC:&/Gozzilioni/Web/PFsrd/G_PFSrd.pcc
-
 #
 #HIDDENFEATTYPES:
 

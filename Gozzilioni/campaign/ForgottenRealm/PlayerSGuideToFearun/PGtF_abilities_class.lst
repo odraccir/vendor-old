@@ -2,6 +2,12 @@ SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzil
 ###Block: Rogue Special Abilities																																
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
 #																																#
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Beholderkin (Eyeball)|PREALIGN:NE|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Bat (Deep/Night Hunter)|PREALIGN:NE|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Animal (Lizard/Spitting Crawler),Animal (Snake/Winged Viper),Lynx|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=3|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Osquip|PREALIGN:NE|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Animal (Tressym)|PREALIGN:NG|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Deathfang|PREALIGN:NE|PRECLASS:1,SPELLCASTER.Arcane=9|PREFEAT:1,Improved Familiar
 Token (spellguard)	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES	OUTPUTNAME:Token															AUTO:EQUIP|Adrath Token													SOURCEPAGE:PGtF										
 #
 Arcane Devotee Reach of the Holy	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO								BONUS:VAR|ReachOfTheHolyPerDay|max(1,1+CHA)																					SOURCEPAGE:PGtF

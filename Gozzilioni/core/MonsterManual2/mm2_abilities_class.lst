@@ -5,6 +5,8 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 #Ninja Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Hand)|Kama|Kukri|Nunchaku|Sai|Shortbow|Sword (Short)|Shuriken|Siangham						SAB:Daisho Proficiency (Ex)	ADD:FEAT|Exotic Weapon Proficiency(Sword (Bastard))																					SOURCEPAGE:MM2
 
 # Ability Name																																
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Fire Bat|FOLLOWERADJUSTMENT:-14|PRECLASS:1,SPELLCASTER.Arcane=15|PREFEAT:1,Improved Familiar|PRERACE:1,RACESUBTYPE=Fire
+CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Dire Animal (Dire Toad)|FOLLOWERADJUSTMENT:-3	COMPANIONLIST:Animal Companion|Dire Animal (Dire Hawk)|FOLLOWERADJUSTMENT:-6	COMPANIONLIST:Animal Companion|Dinosaur (Allosaurus),Dire Animal (Dire Horse),Dire Animal (Dire Snake)|FOLLOWERADJUSTMENT:-9	COMPANIONLIST:Animal Companion|Dinosaur (Ankylosaurus),Dire Animal (Dire Elk)|FOLLOWERADJUSTMENT:-12	COMPANIONLIST:Animal Companion|Dinosaur (Quetzalcoatlus),Dire Animal (Dire Elephant),Grizzly Mastodon|FOLLOWERADJUSTMENT:-15																											
 Training ~ Asperi	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult	OUTPUTNAME:Trainable																											SOURCEPAGE:MM2			
 Training ~ Corollax	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 23	OUTPUTNAME:Trainable																											SOURCEPAGE:MM2			
 
@@ -47,35 +49,5 @@ Dragon Amethyst Body Equilibrium	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:
 Dragon Amethyst Amethyst Telekinesis	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|AmethystTelekinesisPerDay|1																		SOURCEPAGE:MM2
 Dragon Emerald Shield Of Prudence	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|ShieldOfPrudence|3																		SOURCEPAGE:MM2
 Death Knight Fear Aura	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|FearAuraRadius|15	BONUS:VAR|FearAuraDC|10+(HD/2)+CHA																	SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
-#	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																													SOURCEPAGE:MM2
 																																
-Trick ~ Mimic Phrases	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO	PRERACE:1,Corollax													DESC:Mimics Phrase ~ DC 23 ~ A corollax can be trained to repeat a particular phrases. Up to 9 phrases can be memorized each one with a different Handle Animal check.	SOURCEPAGE:CAd													
-CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Dire Animal (Dire Toad)|FOLLOWERADJUSTMENT:-3	COMPANIONLIST:Animal Companion|Dire Animal (Dire Hawk)|FOLLOWERADJUSTMENT:-6	COMPANIONLIST:Animal Companion|Dinosaur (Allosaurus),Dire Animal (Dire Horse),Dire Animal (Dire Snake)|FOLLOWERADJUSTMENT:-9	COMPANIONLIST:Animal Companion|Dinosaur (Ankylosaurus),Dire Animal (Dire Elk)|FOLLOWERADJUSTMENT:-12	COMPANIONLIST:Animal Companion|Dire Animal (Dire Elephant),Grizzly Mastodon,Dinosaur (Quetzalcoatlus)|FOLLOWERADJUSTMENT:-15																											
+Trick ~ Mimic Phrases	CATEGORY:Special Ability	TYPE:TrainingTricks.SpecialQuality	VISIBLE:YES	MULT:NO	PRERACE:1,Corollax													DESC:Mimics Phrase ~ DC 23 ~ A corollax can be trained to repeat a particular phrases. Up to 9 phrases can be memorized each one with a different Handle Animal check.	SOURCEPAGE:MM2

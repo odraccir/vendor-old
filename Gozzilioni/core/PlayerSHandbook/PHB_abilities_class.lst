@@ -2,6 +2,6 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Special Mount	CATEGORY:Internal	TYPE:SpecialMountSelection.SpecialMountAlternate	VISIBLE:YES	DESC:Special Mount	KEY:Special Mount ~ PHB															COMPANIONLIST:Special Mount|RACETYPE=Animal												SOURCEPAGE:PHB
+Player's Handbook Choices	CATEGORY:Internal	TYPE:SpecialMountSelection.SpecialMountAlternate	VISIBLE:YES	DESC:Special Mount	KEY:Player's Handoob Choices ~ Special Mount																COMPANIONLIST:Special Mount|RACETYPE=Animal												SOURCEPAGE:PHB
 
 # Ability Name																																

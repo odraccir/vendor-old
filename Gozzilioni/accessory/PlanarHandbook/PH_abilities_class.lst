@@ -6,6 +6,9 @@ SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net
 Armored Casting (Fatemaker)	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:You may wear light armor without incurring the normal arcane spell failure chance.	OUTPUTNAME:Armored Casting																											SOURCEPAGE:PH
 
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Elemental (Air Small),Elemental (Earth Small),Elemental (Fire Small),Elemental (Water Small)|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Planar Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Archon (Lantern)|PRECLASS:1,SPELLCASTER.Arcane=7|PREFEAT:1,Planar Familiar
+CATEGORY=Special Ability|Summon Familiar.MOD	COMPANIONLIST:Familiar|Mephit (Air),Mephit (Dust),Mephit (Earth),Mephit (Fire),Mephit (Ice),Mephit (Magma),Mephit (Ooze),Mephit (Salt),Mephit (Steam),Mephit (Water)|PRECLASS:1,SPELLCASTER.Arcane=7|PREFEAT:1,Planar Familiar
 Training ~ Elsewhale	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			
 Training ~ Gaspar	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult.	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			
 Training ~ Pack Fiend	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 25 adult.	OUTPUTNAME:Trainable																											SOURCEPAGE:PH			

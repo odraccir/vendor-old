@@ -3,8 +3,17 @@ SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
 ###Block: Proficiencies																																	
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 Daisho Proficiency	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																				VFEAT:Exotic Weapon Proficiency(Sword (Bastard))									SOURCEPAGE:CW	
-#	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Dart|Handaxe|Javelin|Longspear|Quarterstaff|Spear|Shortspear|Axe (Throwing)|Sling|Shortbow																												SOURCEPAGE:CW	
-#	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Rapier																												SOURCEPAGE:CW	
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Krenshar|FOLLOWERADJUSTMENT:-2|PREALIGN:TN|PREATT:3|PRECLASS:1,SPELLCASTER.Arcane=3|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Worg|FOLLOWERADJUSTMENT:-2|PREALIGN:NE|PREATT:3|PRECLASS:1,SPELLCASTER.Arcane=3|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Blink Dog|FOLLOWERADJUSTMENT:-4|PREALIGN:LG|PREATT:5|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Hell Hound|FOLLOWERADJUSTMENT:-4|PREALIGN:LE|PREATT:5|PRECLASS:1,SPELLCASTER.Arcane=5|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Hippogriff|FOLLOWERADJUSTMENT:-6|PREALIGN:TN|PREATT:7|PRECLASS:1,SPELLCASTER.Arcane=7|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Howler|FOLLOWERADJUSTMENT:-6|PREALIGN:CE|PREATT:7|PRECLASS:1,SPELLCASTER.Arcane=7|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:Familiar|Winter Wolf|FOLLOWERADJUSTMENT:-6|PREALIGN:NE|PREATT:7|PRECLASS:1,SPELLCASTER.Arcane=7|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:GuardianFamiliar|Guardian (Spark)|FOLLOWERADJUSTMENT:-6|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=7|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:GuardianFamiliar|Guardian (Gauntlet)|FOLLOWERADJUSTMENT:-8|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=9|PREFEAT:1,Improved Familiar
+CATEGORY=Special Ability|Improved Familiar.MOD	COMPANIONLIST:GuardianFamiliar|Guardian (Blade)|FOLLOWERADJUSTMENT:-10|PREALIGN:TN|PRECLASS:1,SPELLCASTER.Arcane=11|PREFEAT:1,Improved Familiar
 #																																SOURCEPAGE:CW	
 Hexblade's Curse Level	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:HexbladeCurseLevel|0					BONUS:VAR|HexbladeCursePerDay|(HexbladeCurseLevel+3)/4	BONUS:VAR|HexbladeCurseDC|HexbladeCurseLevel/2	BONUS:VAR|HexbladeCursePenalty|2	BONUS:VAR|HexbladeGreaterCursePower|1|PREVARGTEQ:HexbladeCurseLevel,7	BONUS:VAR|HexbladeGreaterCursePower|1|PREVARGTEQ:HexbladeCurseLevel,19														SOURCEPAGE:CW	
 Hexblade Aura of Unluck	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:HexbladeAuraUnluckLVL|0					BONUS:VAR|AuraUnluckDuration|3+CHA	BONUS:VAR|AuraUnluckPerDay|(HexbladeAuraUnluckLVL/4)-2																	SOURCEPAGE:CW	

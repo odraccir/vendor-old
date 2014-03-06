@@ -10,4 +10,4 @@ Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQ
 ###Block: Class Specific																																
 Witch Hunter Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Sword (Short)|Rapier|Whip|Crossbow (Hand)|Crossbow (Repeating Light)|Crossbow (Repeating Heavy)								SOURCEPAGE:Nep
 Witch Hunter Shield Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																							AUTO:SHIELDPROF|SHIELDTYPE=Buckler						SOURCEPAGE:Nep
-Implacable Bloodhound Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE.Bow								SOURCEPAGE:Nep
+Implacable Bloodhound Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|TYPE=Bow								SOURCEPAGE:Nep

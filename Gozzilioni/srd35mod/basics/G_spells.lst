@@ -2,6 +2,8 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 																										
 # BASICS																										
 # Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
+Resistance.MOD																											TEMPBONUS:ANYPC|CHECKS|Reflex,Fortitude,Will|1|TYPE=Resistance
+# NAMED SPELL																										
 #Bigby																										
 Grasping Hand.COPY=Bigby's Grasping Hand																										
 #Drawmij																										

@@ -121,7 +121,7 @@ Elemental Grue Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility													
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Elemental Weird Traits|PRERACE:1,RACESUBTYPE=Elemental Weird																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Elemental Weird|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Elemental Weird]																																	
 Elemental Weird Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Elemental Weird																												SOURCEPAGE:MM2	
-Elemental Weird Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Elemental Command|Elemental Pool	SPELLS:Prescience|TIMES=ATWILL|CASTERLEVEL=16|Analyze Dweomer,16+CHA|Clairaudience/Clairvoyance,13+CHA|Contact Other Plane,15+CHA|Detect Thoughts,12+CHA|Discern Location,18+CHA|Find the Path,16+CHA|Foresight,19+CHA|Scrying (Greater),17+CHA|Legend Lore,16+CHA|Locate Creature,14+CHA|Locate Object,12+CHA|Tongues,13+CHA|True Seeing,16+CHA|Vision,17+CHA												SOURCEPAGE:MM2	
+Elemental Weird Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Elemental Command|Elemental Pool	SPELLS:Prescience|TIMES=ATWILL|CASTERLEVEL=16|Analyze Dweomer,16+CHA|Clairaudience/Clairvoyance,13+CHA|Contact Other Plane,15+CHA|Detect Thoughts,12+CHA|Discern Location,18+CHA|Find the Path,16+CHA|Foresight,19+CHA|Legend Lore,16+CHA|Locate Creature,14+CHA|Locate Object,12+CHA|Scrying (Greater),17+CHA|Tongues,13+CHA|True Seeing,16+CHA|Vision,17+CHA												SOURCEPAGE:MM2	
 #Energon																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Energon Traits|PRERACE:1,RACESUBTYPE=Energon																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Energon|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Energon]																																	
@@ -197,7 +197,7 @@ Kaorti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility										BONUS:VAR|D
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Kython Traits|PRERACE:1,RACESUBTYPE=Kython																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Kython|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Kython]																																	
 Kython Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Kython																												SOURCEPAGE:BoVD	
-Kython Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:FireResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20			BONUS:VAR|BlindsightRange|60|TYPE=Base								ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold|Resistance To Fire|Immunity To Electricity	ABILITY:Special Ability|AUTOMATIC|Kython Weaponry|!PRERACE:1,Kython (Bloodling)	AUTO:WEAPONPROF|TYPE.Kython	AUTO:ARMORPROF|ARMORTYPE=Kython										SOURCEPAGE:BoVD	
+Kython Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:FireResistanceBonus|20	DEFINE:ElectricityResistanceBonus|20			BONUS:VAR|BlindsightRange|60|TYPE=Base								ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold|Resistance To Fire|Immunity To Electricity	ABILITY:Special Ability|AUTOMATIC|Kython Weaponry|!PRERACE:1,Kython (Bloodling)	AUTO:WEAPONPROF|TYPE=Kython	AUTO:ARMORPROF|ARMORTYPE=Kython										SOURCEPAGE:BoVD	
 #Landwyrm																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Landwyrm Traits|PRERACE:1,RACESUBTYPE=Landwyrm																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Landwyrm|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Landwyrm]																																	
@@ -315,9 +315,9 @@ CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The creature can sustain
 CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The mount is trained to perform some simple tricks.|PREABILITY:1,CATEGORY=Training Level,Basic Training																																
 CATEGORY=Special Ability|Traits Output ~ Mount.MOD	DESC:The mount can advance into mount classes.|PREABILITY:1,CATEGORY=Training Level,Advanced Workout																																
 Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Training Level|AUTOMATIC|Wild													SOURCEPAGE:MM	
-Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
-Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
-Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+CATEGORY=Special Ability|Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+CATEGORY=Special Ability|Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+CATEGORY=Special Ability|Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
 																																		
 ## ElementSubType																																		
 #Acid																																		

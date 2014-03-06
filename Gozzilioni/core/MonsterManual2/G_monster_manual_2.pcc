@@ -24,8 +24,6 @@ EQUIPMENT:mm2_equip_weap_melee.lst
 EQUIPMENT:mm2_equip_weap_melee_specific.lst
 EQUIPMENT:mm2_equip_weap_ranged_specific.lst
 EQUIPMOD:mm2_equipmods_enhancing.lst
-FEAT:mm2_feats.lst
-FEAT:mm2_feats_descriptions.lst
 FEAT:mm2_feats_hidden.lst
 KIT:mm2_kits_races.lst
 LANGUAGE:mm2_languages.lst
