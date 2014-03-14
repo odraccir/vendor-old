@@ -243,61 +243,61 @@ Zajimarn's Field of Icy Razors			TYPE:Arcane	CLASSES:Sorcerer,Wizard=8		SCHOOL:E
 Zajimarn's Ice Claw Prison			TYPE:Arcane	CLASSES:Sorcerer,Wizard=7		SCHOOL:Evocation		DESCRIPTOR:Cold	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:10-ft ice claw		DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:Ice claw grapples and deals normal and cold damage.	SOURCEPAGE:MoF										
 #																												
 # Divine Version																												
-Forceward.COPY=Forceward	KEY:Forceward MoF ~ Helm			CLASSES:Cleric=3																							PREDEITY:1,Helm	
-Handfire.COPY=Handfire	KEY:Handfire MoF ~ Selune			CLASSES:Cleric=1																							PREDEITY:1,Selune	
-Holy Star.COPY=Holy Star	KEY:Holy Star MoF ~ Mystra			CLASSES:Cleric=7																							PREDEITY:1,Mystra	
-Know Greatest Enemy.COPY=Know Greatest Enemy	KEY:Know Greatest Enemy MoF ~ Savras			CLASSES:Paladin=3																							PREDEITY:1,Savras	
-Mace of Odo.COPY=Mace of Odo	KEY:Mace of Odo MoF ~ Helm			CLASSES:Cleric=3																							PREDEITY:1,Helm	
-Mystic Lash.COPY=Mystic Lash	KEY:Mystic Lash MoF ~ Bane			CLASSES:Cleric=3																							PREDEITY:1,Bane	
-Revenance.COPY=Revenance	KEY:Revenance MoF ~ Jergal			CLASSES:Cleric=4																							PREDEITY:1,Jergal	
-Rosemantle.COPY=Rosemantle	KEY:Rosemantle MoF ~ Lathander			CLASSES:Cleric=1																							PREDEITY:1,Lathander	
-Skull of Secrets.COPY=Skull of Secrets	KEY:Skull of Secrets MoF ~ Cyric			CLASSES:Cleric=4																							PREDEITY:1,Cyric	
-Spectral Stag.COPY=Spectral Stag	KEY:Spectral Stag MoF ~ Malar			CLASSES:Cleric=2																							PREDEITY:1,Malar	
-Spell Phylactery.COPY=Spell Phylactery	KEY:Spell Phylactery MoF ~ Mystra			CLASSES:Cleric=6																							PREDEITY:1,Mystra	
-Spell Shield.COPY=Spell Shield	KEY:Spell Shield MoF ~ Mystra			CLASSES:Cleric=2																							PREDEITY:1,Mystra	
-Spellmantle.COPY=Spellmantle	KEY:Spellmantle MoF ~ Mystra			CLASSES:Cleric=6																							PREDEITY:1,Mystra	
-Stone Walk.COPY=Stone Walk	KEY:Stone Walk MoF ~ Bane			CLASSES:Cleric=6																							PREDEITY:1,Bane	
-Stormrage.COPY=Stormrage	KEY:Stormrage MoF ~ Talos			CLASSES:Cleric=8																							PREDEITY:1,Talos	
-Strategic Charge.COPY=Strategic Charge	KEY:Strategic Charge MoF ~ Red Knight			CLASSES:Paladin=1																							PREDEITY:1,Red Knight	
-Undead Bane Weapon.COPY=Undead Bane Weapon	KEY:Undead Bane Weapon MoF ~ Kelemvor			CLASSES:Paladin=3																							PREDEITY:1,Kelemvor	
-Undeath after Death.COPY=Undeath after Death	KEY:Undeath after Death MoF ~ Bane			CLASSES:Cleric=7																							PREDEITY:1,Bane	
-Undeath's Eternal Foe.COPY=Undeath's Eternal Foe	KEY:Undead Bane Weapon MoF ~ Lathander			CLASSES:Cleric=9																							PREDEITY:1,Lathander	
-Understand Device.COPY=Understand Device	KEY:Understand Device MoF ~ Gond			CLASSES:Cleric=3																							PREDEITY:1,Gond	
-Warning Shout.Copy=Warning Shout	KEY:Warning Shout MoF ~ Arvoreen			CLASSES:Paladin=1																							PREDEITY:1,Arvoreen	
-Wieldskill.COPY=Wieldskill	KEY:Wieldskill MoF ~ Gond			CLASSES:Cleric=1																							PREDEITY:1,Gond	
+Forceward.COPY=Forceward	KEY:Forceward ~ Helm			CLASSES:Cleric=3																							PREDEITY:1,Helm	
+Handfire.COPY=Handfire	KEY:Handfire ~ Selune			CLASSES:Cleric=1																							PREDEITY:1,Selune	
+Holy Star.COPY=Holy Star	KEY:Holy Star ~ Mystra			CLASSES:Cleric=7																							PREDEITY:1,Mystra	
+Know Greatest Enemy.COPY=Know Greatest Enemy	KEY:Know Greatest Enemy ~ Savras			CLASSES:Paladin=3																							PREDEITY:1,Savras	
+Mace of Odo.COPY=Mace of Odo	KEY:Mace of Odo ~ Helm			CLASSES:Cleric=3																							PREDEITY:1,Helm	
+Mystic Lash.COPY=Mystic Lash	KEY:Mystic Lash ~ Bane			CLASSES:Cleric=3																							PREDEITY:1,Bane	
+Revenance.COPY=Revenance	KEY:Revenance ~ Jergal			CLASSES:Cleric=4																							PREDEITY:1,Jergal	
+Rosemantle.COPY=Rosemantle	KEY:Rosemantle ~ Lathander			CLASSES:Cleric=1																							PREDEITY:1,Lathander	
+Skull of Secrets.COPY=Skull of Secrets	KEY:Skull of Secrets ~ Cyric			CLASSES:Cleric=4																							PREDEITY:1,Cyric	
+Spectral Stag.COPY=Spectral Stag	KEY:Spectral Stag ~ Malar			CLASSES:Cleric=2																							PREDEITY:1,Malar	
+Spell Phylactery.COPY=Spell Phylactery	KEY:Spell Phylactery ~ Mystra			CLASSES:Cleric=6																							PREDEITY:1,Mystra	
+Spell Shield.COPY=Spell Shield	KEY:Spell Shield ~ Mystra			CLASSES:Cleric=2																							PREDEITY:1,Mystra	
+Spellmantle.COPY=Spellmantle	KEY:Spellmantle ~ Mystra			CLASSES:Cleric=6																							PREDEITY:1,Mystra	
+Stone Walk.COPY=Stone Walk	KEY:Stone Walk ~ Bane			CLASSES:Cleric=6																							PREDEITY:1,Bane	
+Stormrage.COPY=Stormrage	KEY:Stormrage ~ Talos			CLASSES:Cleric=8																							PREDEITY:1,Talos	
+Strategic Charge.COPY=Strategic Charge	KEY:Strategic Charge ~ Red Knight			CLASSES:Paladin=1																							PREDEITY:1,Red Knight	
+Undead Bane Weapon.COPY=Undead Bane Weapon	KEY:Undead Bane Weapon ~ Kelemvor			CLASSES:Paladin=3																							PREDEITY:1,Kelemvor	
+Undeath after Death.COPY=Undeath after Death	KEY:Undeath after Death ~ Bane			CLASSES:Cleric=7																							PREDEITY:1,Bane	
+Undeath's Eternal Foe.COPY=Undeath's Eternal Foe	KEY:Undead Bane Weapon ~ Lathander			CLASSES:Cleric=9																							PREDEITY:1,Lathander	
+Understand Device.COPY=Understand Device	KEY:Understand Device ~ Gond			CLASSES:Cleric=3																							PREDEITY:1,Gond	
+Warning Shout.Copy=Warning Shout	KEY:Warning Shout ~ Arvoreen			CLASSES:Paladin=1																							PREDEITY:1,Arvoreen	
+Wieldskill.COPY=Wieldskill	KEY:Wieldskill ~ Gond			CLASSES:Cleric=1																							PREDEITY:1,Gond	
 Azuth's Exalted Triad.COPY=Azuth's Exalted Triad	KEY:Azuth's Exalted Triad ~ Azuth			CLASSES:Cleric=6																							PREDEITY:1,Azuth	
 Azuth's Spell Shield.COPY=Azuth's Spell Shield	KEY:Azuth's Spell Shield ~ Azuth			CLASSES:Cleric=7																							PREDEITY:1,Azuth	
-Battletide.COPY=Battletide	KEY:Battletide MoF ~ Bane			CLASSES:Cleric=5																							PREDEITY:1,Bane	
-Battletide.COPY=Battletide	KEY:Battletide MoF ~ Xvim			CLASSES:Cleric=5																							PREDEITY:1,Xvim	
-Body Blades.COPY=Body Blades	KEY:Body Blades MoF ~ Loviatar			CLASSES:Cleric=2																							PREDEITY:1,Loviatar	
-Crawling Darkness.COPY=Crawling Darkness	KEY:Crowling Darkness MoF ~ Shar			CLASSES:Cleric=5																							PREDEITY:1,Shar	
-Curse of Ill Fortune.COPY=Curse of Ill Fortune	KEY:Curse of ll Fortune MoF ~ Beshaba			CLASSES:Cleric=2																							PREDEITY:1,Beshaba	
-Dark Way.COPY=Dark Way	KEY:Dark Way MoF ~ Mask			CLASSES:Cleric=3																							PREDEITY:1,Mask	
-Darkfire.COPY=Darkfire	KEY:Darkfire MoF ~ Drow			CLASSES:Cleric=3																							PREDEITY:1,PANTHEON.Drow	
-Deafening Clang.COPY=Deafening Clang	KEY:Deafening Clang MoF ~ Gaerdal Ironhand			CLASSES:Paladin=1																							PREDEITY:1,Gaerdal Ironhand	
-Death Pact.COPY=Death Pact	KEY:Death Pact MoF ~ Velsharoon			CLASSES:Cleric=8																							PREDEITY:1,Velsharoon	
+Battletide.COPY=Battletide	KEY:Battletide ~ Bane			CLASSES:Cleric=5																							PREDEITY:1,Bane	
+Battletide.COPY=Battletide	KEY:Battletide ~ Xvim			CLASSES:Cleric=5																							PREDEITY:1,Xvim	
+Body Blades.COPY=Body Blades	KEY:Body Blades ~ Loviatar			CLASSES:Cleric=2																							PREDEITY:1,Loviatar	
+Crawling Darkness.COPY=Crawling Darkness	KEY:Crowling Darkness ~ Shar			CLASSES:Cleric=5																							PREDEITY:1,Shar	
+Curse of Ill Fortune.COPY=Curse of Ill Fortune	KEY:Curse of ll Fortune ~ Beshaba			CLASSES:Cleric=2																							PREDEITY:1,Beshaba	
+Dark Way.COPY=Dark Way	KEY:Dark Way ~ Mask			CLASSES:Cleric=3																							PREDEITY:1,Mask	
+Darkfire.COPY=Darkfire	KEY:Darkfire ~ Drow			CLASSES:Cleric=3																							PREDEITY:1,PANTHEON.Drow	
+Deafening Clang.COPY=Deafening Clang	KEY:Deafening Clang ~ Gaerdal Ironhand			CLASSES:Paladin=1																							PREDEITY:1,Gaerdal Ironhand	
+Death Pact.COPY=Death Pact	KEY:Death Pact ~ Velsharoon			CLASSES:Cleric=8																							PREDEITY:1,Velsharoon	
 Death Symbol of Bane.COPY=Death Symbol of Bane	KEY:Death Symbol of Bane ~ Bane			CLASSES:Cleric=8																							PREDEITY:1,Bane	
-Doomtide.COPY=Doomtide	KEY:Doomtide MoF ~ Beshaba			CLASSES:Cleric=4																							PREDEITY:1,Beshaba	
-Favor of Ilmater.COPY=Favor of Ilmater	KEY:Favor of Ilmater MoF ~ Ilmater			CLASSES:Cleric=4																							PREDEITY:1,Ilmater	
-Fortunate Fate.COPY=Fortunate Fate	KEY:Fortunate Fate MoF ~ Tymora			CLASSES:Cleric=7																							PREDEITY:1,Tymora	
-General of Undeath.COPY=General of Undeath	KEY:General of Undeath MoF ~ Velsharoon			CLASSES:Cleric=8																							PREDEITY:1,Velsharoon	
-Hand of Torm.COPY=Hand of Torm	KEY:Hand of Torm MoF ~ Torm			CLASSES:Cleric=4|Paladin=4																							PREDEITY:1,Torm	
-Loyal Vassal.COPY=Loyal Vassal	KEY:Loyal Vassal MoF ~ Siamorphe			CLASSES:Paladin=3																							PREDEITY:1,Siamorphe	
-Seek Eternal Rest.COPY=Seek Eternal Rest	KEY:Seek Eternal Rest MoF ~ Jergal			CLASSES:Paladin=4																							PREDEITY:1,Jergal	
-Silverbeard.COPY=Silverbeard	KEY:Silverbeard MoF ~ Clangeddin Silverbeard			CLASSES:Paladin=1																							PREDEITY:1,Clangeddin Silverbeard	
-Strength of Stone.COPY=Strength of Stone	KEY:Strength of Stone MoF ~ Moradin			CLASSES:Paladin=2																							PREDEITY:1,Moradin	
-Suppress Glyph.COPY=Suppress Glyph	KEY:Suppress Glyph MoF ~ Deneir			CLASSES:Cleric=6																							PREDEITY:1,Deneir	
-Symbol of Spell Loss.COPY=Symbol of Spell Loss	KEY:Symbol of Spell Loss MoF ~ Bane			CLASSES:Cleric=8																							PREDEITY:1,Bane	
+Doomtide.COPY=Doomtide	KEY:Doomtide ~ Beshaba			CLASSES:Cleric=4																							PREDEITY:1,Beshaba	
+Favor of Ilmater.COPY=Favor of Ilmater	KEY:Favor of Ilmater ~ Ilmater			CLASSES:Cleric=4																							PREDEITY:1,Ilmater	
+Fortunate Fate.COPY=Fortunate Fate	KEY:Fortunate Fate ~ Tymora			CLASSES:Cleric=7																							PREDEITY:1,Tymora	
+General of Undeath.COPY=General of Undeath	KEY:General of Undeath ~ Velsharoon			CLASSES:Cleric=8																							PREDEITY:1,Velsharoon	
+Hand of Torm.COPY=Hand of Torm	KEY:Hand of Torm ~ Torm			CLASSES:Cleric=4|Paladin=4																							PREDEITY:1,Torm	
+Loyal Vassal.COPY=Loyal Vassal	KEY:Loyal Vassal ~ Siamorphe			CLASSES:Paladin=3																							PREDEITY:1,Siamorphe	
+Seek Eternal Rest.COPY=Seek Eternal Rest	KEY:Seek Eternal Rest ~ Jergal			CLASSES:Paladin=4																							PREDEITY:1,Jergal	
+Silverbeard.COPY=Silverbeard	KEY:Silverbeard ~ Clangeddin Silverbeard			CLASSES:Paladin=1																							PREDEITY:1,Clangeddin Silverbeard	
+Strength of Stone.COPY=Strength of Stone	KEY:Strength of Stone ~ Moradin			CLASSES:Paladin=2																							PREDEITY:1,Moradin	
+Suppress Glyph.COPY=Suppress Glyph	KEY:Suppress Glyph ~ Deneir			CLASSES:Cleric=6																							PREDEITY:1,Deneir	
+Symbol of Spell Loss.COPY=Symbol of Spell Loss	KEY:Symbol of Spell Loss ~ Bane			CLASSES:Cleric=8																							PREDEITY:1,Bane	
 #																												
 # Arcane Version																												
-Combust.COPY=Combust	KEY:Combust MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=2																							PRECLASS:1,Red Wizard=1	
-Fiendform.COPY=Fiendform	KEY:Fiendform MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=6																							PRECLASS:1,Red Wizard=1	
-Flame Dagger.COPY=Flame Dagger	KEY:Flame Dagger MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=2																							PRECLASS:1,Red Wizard=1	
-Flame Dagger.COPY=Flame Dagger	KEY:Flame Dagger MoF ~ Hatran			CLASSES:Sorcerer,Wizard=2																							PRECLASS:1,Hatran=1	
-Nybor's Gentle Reminder.COPY=Nybor Gentle Reminder	KEY:Nybor's Gentle Reminder MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=1																							PRECLASS:1,Red Wizard=1	
-Nybor's Mild Admonishment.COPY=Nybor's Mild Admonishment	KEY:Nybor's Mild Admonishment MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=3																							PRECLASS:1,Red Wizard=1	
-Nybor's Stern Reproof.COPY=Nybor's Stern Reproof	KEY:Nybor's Stern Reproof MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=7																							PRECLASS:1,Red Wizard=1	
-Nybor's Wrathful Castigation.COPY=Nybor's Wrathful Castigation	KEY:Nybor's Wratful Castigation MoF ~ Red Wizard			CLASSES:Sorcerer,Wizard=8																							PRECLASS:1,Red Wizard=1	
+Combust.COPY=Combust	KEY:Combust ~ Red Wizard			CLASSES:Sorcerer,Wizard=2																							PRECLASS:1,Red Wizard=1	
+Fiendform.COPY=Fiendform	KEY:Fiendform ~ Red Wizard			CLASSES:Sorcerer,Wizard=6																							PRECLASS:1,Red Wizard=1	
+Flame Dagger.COPY=Flame Dagger	KEY:Flame Dagger ~ Red Wizard			CLASSES:Sorcerer,Wizard=2																							PRECLASS:1,Red Wizard=1	
+Flame Dagger.COPY=Flame Dagger	KEY:Flame Dagger ~ Hatran			CLASSES:Sorcerer,Wizard=2																							PRECLASS:1,Hatran=1	
+Nybor's Gentle Reminder.COPY=Nybor Gentle Reminder	KEY:Nybor's Gentle Reminder ~ Red Wizard			CLASSES:Sorcerer,Wizard=1																							PRECLASS:1,Red Wizard=1	
+Nybor's Mild Admonishment.COPY=Nybor's Mild Admonishment	KEY:Nybor's Mild Admonishment ~ Red Wizard			CLASSES:Sorcerer,Wizard=3																							PRECLASS:1,Red Wizard=1	
+Nybor's Stern Reproof.COPY=Nybor's Stern Reproof	KEY:Nybor's Stern Reproof ~ Red Wizard			CLASSES:Sorcerer,Wizard=7																							PRECLASS:1,Red Wizard=1	
+Nybor's Wrathful Castigation.COPY=Nybor's Wrathful Castigation	KEY:Nybor's Wratful Castigation ~ Red Wizard			CLASSES:Sorcerer,Wizard=8																							PRECLASS:1,Red Wizard=1	
 #																												
 # Region version																												
-Scintillating Sphere.COPY=Scintillating Sphere	KEY:Scintillating Sphere MoF ~ Halruaa			CLASSES:Sorcerer,Wizard=3																							PREREGION:1,Halruaa	
+Scintillating Sphere.COPY=Scintillating Sphere	KEY:Scintillating Sphere ~ Halruaa			CLASSES:Sorcerer,Wizard=3																							PREREGION:1,Halruaa	

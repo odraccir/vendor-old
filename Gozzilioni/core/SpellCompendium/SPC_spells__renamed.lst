@@ -1,0 +1,87 @@
+SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net																												
+																														
+# Spell Name	OUTPUTNAME:	Spell Variations	TYPE:	CLASSES:	DOMAINS:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:		DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose				
+# Aganazzar's Scorcher.MOD	OUTPUTNAME:Scorch	KEY:Scorch																												
+# Air Bubble.MOD	OUTPUTNAME:Deep Breath	KEY:Deep Breath																												
+# Alamanther's Return.MOD	OUTPUTNAME:Replicate Casting	KEY:Replicate Casting																												
+# Alarm (Improved).MOD	OUTPUTNAME:Alarm, Greater	KEY:Alarm (Greater)																												
+# Analyze Opponent.MOD	OUTPUTNAME:Know Opponent	KEY:Know Opponent																												
+# Assay Resistance.MOD	OUTPUTNAME:Assay Spell Resistance	KEY:Assay Spell Resistance																												
+# Auril's Flowers.MOD	OUTPUTNAME:Ice Flowers	KEY:Ice Flowers																												
+# Azuth's Exalted Triad.MOD	OUTPUTNAME:Triadspell	KEY:Triadspell																												
+# Azuth's Spell Shield.MOD	OUTPUTNAME:Spell Resistance, Mass	KEY:Spell Resistance (Mass)																												
+# Balagarn's Iron Horn.MOD	OUTPUTNAME:Ironthunder Horn	KEY:Ironthunder Horn																												
+# Bane Bow.MOD	OUTPUTNAME:Foebane	KEY:Foebane																												
+# Barien's Crabwalk.MOD	OUTPUTNAME:Crabwalk	KEY:Crabwalk																												
+# Bigby's Slapping Hand.MOD	OUTPUTNAME:Slapping Hand	KEY:Slapping Hand																												
+# Bridge of Sound.MOD	OUTPUTNAME:Dark Way	KEY:Dark Way																												
+# Caligarde's Claw.MOD	OUTPUTNAME:Force Claw	KEY:Force Claw																												
+# Chamber.MOD	OUTPUTNAME:Ethereal Chamber	KEY:Ethereal Chamber																												
+# Chameleon ~ Spell.MOD	OUTPUTNAME:Camouflage	KEY:Camouflage																												
+# Claws of the Beast.MOD	OUTPUTNAME:Claws of the Bear	KEY:Claws of the Bear																												
+# Climb.MOD	OUTPUTNAME:Climb Walls	KEY:Climb Walls																												
+# Curse of Petty Failing.MOD	OUTPUTNAME:Curse of Ill Fortune	KEY:Curse of Ill Fortune																												
+# Curse of Petty Failing (Legion's).MOD	OUTPUTNAME:Curse of Ill Fortune, Mass	KEY:Curse of Ill Fortune (Mass)																												
+# Darsson's Potion.MOD	OUTPUTNAME:Quick Potion	KEY:Quick Potion																												
+# Dhulark's Glassstrike.MOD	OUTPUTNAME:Glass Strike	KEY:Glass Strike																												
+# Eilistraee's Grace.MOD	OUTPUTNAME:Grace	KEY:Grace																												
+# Elminster's Effulgent Epuration.MOD	OUTPUTNAME:Effulgent Epuration	KEY:Effulgent Epuration																												
+# Elminster's Evasion.MOD	OUTPUTNAME:Instant Refuge	KEY:Instant Refuge																												
+# Favor of Ilmater.MOD	OUTPUTNAME:Favor of the Martyr	KEY:Favor of the Martyr																												
+# Force Ram.MOD	OUTPUTNAME:Battering Ram	KEY:Battering Ram																												
+# Force Whip.MOD	OUTPUTNAME:Sonic Whip	KEY:Sonic Whip																												
+# Frost Finger.MOD	OUTPUTNAME:Frost Breath	KEY:Frost Breath																												
+# Fugue of Tvash-Prull.MOD	OUTPUTNAME:Fugue	KEY:Fugue																												
+# Gate Seal.MOD	OUTPUTNAME:Seal Portal	KEY:Seal Portal																												
+# Ghorus Toth's Metal Melt.MOD	OUTPUTNAME:Metal Melt	KEY:Metal Melt																												
+# Green Oath.MOD	OUTPUTNAME:Plant Body	KEY:Plant Body																												
+# Grimwald's Greymantle.MOD	OUTPUTNAME:Greymantle	KEY:Greymantle																												
+# Guided Arrow.MOD	OUTPUTNAME:Guided Shot	KEY:Guided Shot																												
+# Hand of Torm.MOD	OUTPUTNAME:Hand of the Faithful	KEY:Hand of the Faithful																												
+# Harmony.MOD	OUTPUTNAME:Inspirational Boost	KEY:Inspirational Boost																												
+# Horizikaul's Boom.MOD	OUTPUTNAME:Sonic Blast	KEY:Sonic Blast																												
+# Horizikaul's Cough.MOD	OUTPUTNAME:Sonic Snap	KEY:Sonic Snap																												
+# Horizikaul's Versatile Vibration.MOD	OUTPUTNAME:Sonic Rumble	KEY:Sonic Rumble																												
+# Igedrazaar's Miasma.MOD	OUTPUTNAME:Malevolent Miasma	KEY:Malevolent Miasma																												
+# Ironguard (Greater).MOD	OUTPUTNAME:Ironguard	KEY:Ironguard																												
+# Kaupaer's Skittish Nerves.MOD	OUTPUTNAME:Nerveskitter	KEY:Nerveskitter																												
+# Kelemvor's Grace.MOD	OUTPUTNAME:Life's Grace	KEY:Life's Grace																												
+# Khelben's Suspended Silence.MOD	OUTPUTNAME:Suspended Silence	KEY:Suspended Silence																												
+# Laeral's Cutting Hand.MOD	OUTPUTNAME:Cutting Hand	KEY:Cutting Hand																												
+# Laogzed's Breath.MOD	OUTPUTNAME:Nauseating Breath	KEY:Nauseating Breath																												
+# Leomund's Hidden Lodge.MOD	OUTPUTNAME:Hidden Lodge	KEY:Hidden Lodge																												
+# Manifest (Mass).MOD	OUTPUTNAME:Make Manifest, Mass	KEY:Make Manifest (Mass)																												
+# Mestil's Acid Breath.MOD	OUTPUTNAME:Acid Breath	KEY:Acid Breath																												
+# Mestil's Acid Sheath.MOD	OUTPUTNAME:Acid Sheath	KEY:Acid Sheath																												
+# Monstrous Regeneration.MOD	OUTPUTNAME:Vigor, Greater	KEY:Vigor (Greater)																												
+# Mordenkainen's Buzzing Bee.MOD	OUTPUTNAME:Buzzing Bee	KEY:Buzzing Bee																												
+# Mordenkainen's Force Missiles.MOD	OUTPUTNAME:Force Missiles	KEY:Force Missiles																												
+# Mystra's Miasma.MOD	OUTPUTNAME:Magic Miasma	KEY:Magic Miasma																												
+# Nchaser's Glowing Orb.MOD	OUTPUTNAME:Glowing Orb	KEY:Glowing Orb																												
+# Nybor's Gentle Reminder.MOD	OUTPUTNAME:Rebuke	KEY:Rebuke																												
+# Nybor's Mild Admonishment.MOD	OUTPUTNAME:Rebuke, Greater	KEY:Rebuke (Greater)																												
+# Nybor's Stern Reproof.MOD	OUTPUTNAME:Rebuke, Final	KEY:Rebuke (Final)																												
+# Nybor's Wrathful Castigation.MOD	OUTPUTNAME:Wrathful Castigation	KEY:Wrathful Castigation																												
+# Otiluke's Dispelling Screen (Greater).MOD	OUTPUTNAME:Dispelling Screen, Greater	KEY:Dispelling Screen (Greater)																												
+# Otiluke's Dispelling Screen.MOD	OUTPUTNAME:Dispelling Screen	KEY:Dispelling Screen																												
+# Presper's Moonbow.MOD	OUTPUTNAME:Moonbow	KEY:Moonbow																												
+# Rary's Interplanar Telepathic Bond.MOD	OUTPUTNAME:Interplanar Telepathic Bond	KEY:Interplanar Telepathic Bond																												
+# Recall Spirit.MOD	OUTPUTNAME:Revenance	KEY:Revenance																												
+# Reflection (Minor).MOD	OUTPUTNAME:Ray Deflection	KEY:Ray Deflection																												
+# Remedy Moderate Wounds.MOD	OUTPUTNAME:Vigor	KEY:Vigor																												
+# Rogue Wave.MOD	OUTPUTNAME:Tidal Surge	KEY:Tidal Surge																												
+# Servitor (Minor).MOD	OUTPUTNAME:Awaken Construct	KEY:Awaken Construct																												
+# Shelgarn's Persistent Blade.MOD	OUTPUTNAME:Persistent Blade	KEY:Persistent Blade																												
+# Simbul's Skeletal Deliquescence.MOD	OUTPUTNAME:Corporeal Instability	KEY:Corporeal Instability																												
+# Simbul's Spell Matrix.MOD	OUTPUTNAME:Spell Matrix, Lesser	KEY:Spell Matrix (Lesser)																												
+# Simbul's Spell Sequencer.MOD	OUTPUTNAME:Spell Matrix	KEY:Spell Matrix																												
+# Simbul's Spell Trigger.MOD	OUTPUTNAME:Spell Matrix, Greater	KEY:Spell Matrix (Greater)																												
+# Simbul's Synostodweomer.MOD	OUTPUTNAME:Synostodweomer	KEY:Synostodweomer																												
+# Snilloc's Snowball Swarm.MOD	OUTPUTNAME:Snowball Swarm	KEY:Snowball Swarm																												
+# Tenser's Floating Disk (Greater).MOD	OUTPUTNAME:Floating Disk, Greater	KEY:Floating Disk (Greater)																												
+# Tyrumael's Energy Spheres.MOD	OUTPUTNAME:Energy Sphere	KEY:Energy Sphere																												
+# Tvash-Prull's Bonefiddle.MOD	OUTPUTNAME:Bonefiddle	KEY:Bonefiddle																												
+# Undeniable Gravity.MOD	OUTPUTNAME:Earthbind	KEY:Earthbind																												
+# Vaeraun's Nightshield.MOD	OUTPUTNAME:Nightshield	KEY:Nightshield																												
+# Zajimarn's Avalanche.MOD	OUTPUTNAME:Obedient Avalanche	KEY:Obedient Avalanche																												
+# Zajimarn's Ice Claw Prison.MOD	OUTPUTNAME:Ice Claw	KEY:Ice Claw																												

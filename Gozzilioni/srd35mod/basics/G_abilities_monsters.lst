@@ -131,7 +131,7 @@ Energon Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility										BONUS:VAR|
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Ethergaunt Traits|PRERACE:1,RACESUBTYPE=Ethergaunt																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Ethergaunt|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Ethergaunt]																																	
 Ethergaunt Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES		KEY:Traits Output ~ Ethergaunt																												SOURCEPAGE:FFo	
-Ethergaunt Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:EthergauntLanguage|1												ABILITY:Special Ability|AUTOMATIC|Enslave|Immunity To Arcane Spells|Material Jaunt|Stupefying Gaze|Total Vision		AUTO:LANG|Khen-Zai	LANGBONUS:Common,Draconic,Dwarven,Elven										SOURCEPAGE:FFo	
+Ethergaunt Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility						DEFINE:EthergauntLanguage|1												ABILITY:Special Ability|AUTOMATIC|Enslave|Immunity To Arcane Spells|Material Jaunt|Stupefying Gaze|Total Vision		AUTO:LANG|Khen-Zai	TEMPLATE:Languages ~ Ethergaunt 										SOURCEPAGE:FFo	
 #Felldrake																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Felldrake Traits|PRERACE:1,RACESUBTYPE=Felldrake																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Felldrake|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Felldrake]																																	
@@ -187,12 +187,12 @@ Imp Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILIT
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Inevitable Traits|PRERACE:1,RACESUBTYPE=Inevitable																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Inevitable|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Inevitable]																																	
 Inevitable Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Inevitable																												SOURCEPAGE:FFo	
-Inevitable Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Fast Healing		AUTO:LANG|Abyssal|Celestial|Infernal	LANGBONUS:ALL										SOURCEPAGE:FFo	
+Inevitable Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility																		ABILITY:Special Ability|AUTOMATIC|Fast Healing		AUTO:LANG|Abyssal|Celestial|Infernal	TEMPLATE:Languages ~ Inevitable										SOURCEPAGE:FFo	
 #Kaorti																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Kaorti Traits|PRERACE:1,RACESUBTYPE=Kaorti																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Kaorti|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Kaorti]																																	
 Kaorti Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.RacialTrait	VISIBLE:YES	DESC:.	KEY:Traits Output ~ Kaorti																												SOURCEPAGE:FFo	
-Kaorti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility										BONUS:VAR|DarkvisionRange|60|TYPE=Base			BONUS:SKILL|Heal|8|TYPE=Racial					ABILITY:Special Ability|AUTOMATIC|Fast Healing		AUTO:LANG|Abyssal|Celestial|Infernal	LANGBONUS:ALL										SOURCEPAGE:FFo	
+Kaorti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility										BONUS:VAR|DarkvisionRange|60|TYPE=Base			BONUS:SKILL|Heal|8|TYPE=Racial					ABILITY:Special Ability|AUTOMATIC|Fast Healing		AUTO:LANG|Abyssal|Celestial|Infernal	TEMPLATE:Languages ~ Kaorti										SOURCEPAGE:FFo	
 #Kython																																		
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Kython Traits|PRERACE:1,RACESUBTYPE=Kython																																	
 CATEGORY=Internal|Master Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Kython|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACESUBTYPE=Kython]																																	

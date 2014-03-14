@@ -37,6 +37,10 @@ CATEGORY=Internal|Default.MOD	DEFINE:SpellShadowMask|0	ABILITY:Special Ability|A
 CATEGORY=Internal|Default.MOD	DEFINE:SpellShelteredVitality|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Sheltered Vitality|PREVARGTEQ:SpellShelteredVitality,1
 CATEGORY=Internal|Default.MOD	DEFINE:SpellSirineSGrace|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Sirine's Grace|PREVARGTEQ:SpellSirineSGrace,1
 CATEGORY=Internal|Default.MOD	DEFINE:SpellSniperSEye|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Sniper's Eye|PREVARGTEQ:SpellSniperSEye,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellSpiderskin|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Spiderskin|PREVARGTEQ:SpellSpiderskin,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellStoneBody|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Stone Body|PREVARGTEQ:SpellStoneBody,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellStormrage|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Stormrage|PREVARGTEQ:SpellStormrage,1
+CATEGORY=Internal|Default.MOD	DEFINE:SpellSwim|0	ABILITY:Special Ability|AUTOMATIC|Spell ~ Swim|PREVARGTEQ:SpellSwim,1
 
 Bite of the Werebear	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Werebear	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Werebear ~ Claws ~ Bite (Small)|Bite of the Werebear ~ Claws ~ Bite (Medium)	VFEAT:Blind Fight|Multiattack|Power Attack	BONUS:WEAPONPROF=Bite|DAMAGE|-1*(max(0,(STR/2)))
 Bite of the Wereboar	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Bite of the Wereboar	SOURCEPAGE:SpC	TEMPLATE:CHOOSE:Bite of the Wereboar ~ Bite (Small)|Bite of the Wereboar ~ Bite (Medium)	VFEAT:Blind Fight|Power Attack	BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))
@@ -62,8 +66,8 @@ Infernal Transformation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY
 Kiss of the Vampire	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Kiss of the Vampire	SOURCEPAGE:SpC	DR:10/Magic	ABILITY:Special Ability|VIRTUAL|Charm Person ~ Kiss of the Vampire|Enervation ~ Kiss of the Vampire|Gaseous Form ~ Kiss of the Vampire|Vampiric Touch ~ Kiss of the Vampire	TEMPLATE:Kiss of the Vampire ~ Vampiric Touch
 Lion's Charge	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Lion's Charge	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Pounce
 Living Undeath	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Living Undeath	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Immunity To Critical Hits|Immunity To Sneak Attack	BONUS:STAT|CHA|-4
-Mantle of the Icy Soul	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Mantle of the Icy Soul	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Assign Subtype ~ Cold
-Master Air	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Master Air	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Maneuverability	DEFINE:FlightManeuverability|4	MOVE:Fly,90	BONUS:MOVEADD|TYPE.Fly|-30|PREVARGTEQ:ENCUMBERANCE,1
+Mantle of the Icy Soul	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Mantle of the Icy Soul	SOURCEPAGE:SpC	TEMPLATE:Assign Subtype ~ Cold
+Master Air	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Master Air	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Flight Maneuverability	DEFINE:FlightManeuverability|4	MOVE:Fly,90	BONUS:MOVEADD|TYPE.Fly|-30|PREVARGTEQ:ENCUMBERANCE,1
 Mechanus Mind	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Mechanus Mind	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Resistance To Mind-Affecting	BONUS:VAR|MindAffectingResistanceBonus|4|TYPE=Resistance	BONUS:SKILL|TYPE=Intelligence|2|TYPE=Competence	BONUS:SKILL|TYPE=Charisma|-2
 Nightstalker's Transformation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Nightstalker's Transformation	SOURCEPAGE:SpC	ABILITY:FEAT|VIRTUAL|Simple Weapon Proficiency|Weapon Finesse	ABILITY:Special Ability|VIRTUAL|Evasion|Sneak Attack	AUTO:WEAPONPROF|Crossbow (Hand)|Rapier|Sap|Shortbow|Sword (Short)	BONUS:VAR|EvasionUsable|1	BONUS:VAR|SneakAttackDice|3	DEFINE:SneakAttackDieSize|6
 Plant Body	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Plant Body	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Immunity To Critical Hits|Immunity To Mind-Affecting|Immunity To Paralysis|Immunity To Poison|Immunity To Polymorph|Immunity To Sleep|Immunity To Stunning	ABILITY:Special Ability|VIRTUAL|Evasion|Sneak Attack	AUTO:WEAPONPROF|Crossbow (Hand)|Rapier|Sap|Shortbow|Sword (Short)	BONUS:VAR|EvasionUsable|1	BONUS:VAR|SneakAttackDice|3	DEFINE:SneakAttackDieSize|6
@@ -74,6 +78,11 @@ Shadow Mask	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Sha
 Sheltered Vitality	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Sheltered Vitality	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Immunity To Ability Damage|Immunity To Ability Drain|Immunity To Exhaustion|Immunity To Fatigue
 Sirine's Grace	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Sirine's Grace	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Water Breathing	MOVE:Swim,60
 Sniper's Eye	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Sniper's Eye	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Death Attack	VISION:Darkvision (60')
+Spiderskin	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Spiderskin	SOURCEPAGE:SpC	ABILITY:Special Ability|VIRTUAL|Resistance To Poison
+Stone Body	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Stone Body	SOURCEPAGE:SpC	DR:Adamantine/0	ABILITY:Special Ability|VIRTUAL|Immunity To Blindness|Immunity To Critical Hits|Immunity To Ability Damage|Immunity To Deafness|Immunity To Disease|Immunity To Poison|Immunity To Stunning
+Stormrage	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Stormrage	SOURCEPAGE:SpC	MOVE:Fly,40
+Strategic Charge	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Strategic Charge	SOURCEPAGE:SpC	VFEAT:Mobility
+Swim	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES			KEY:Spell ~ Swim	SOURCEPAGE:SpC	MOVE:Swim,30
 
 #
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	

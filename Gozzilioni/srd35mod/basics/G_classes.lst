@@ -6,7 +6,7 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)	
 ###TODO CONTIGUOUS:Paladin CW											
 CLASS:Paladin.MOD											
-1		ABILITY:Internal|AUTOMATIC|Special Mount ~ PHB
+1		ABILITY:Internal|AUTOMATIC|Player's Handbook Choices ~ Special Mount
 #											
 CLASS:Expert.MOD	TYPE:Expert										
 1		ABILITY:Special Ability|AUTOMATIC|Base Skill Level|Expert Skill Level		BONUS:VAR|ExpertSkillLVL|CL							

@@ -4,93 +4,93 @@ SOURCELONG:Forgotten Realms Campaing Setting	SOURCESHORT:FRCS	SOURCEWEB:http://w
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:	TYPE:	PANTHEON:	SOURCEPAGE:FRCS	
 #Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal|PREALIGN:NG,CG,CN	TYPE:	PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
 Akadi	ALIGN:TN	DEITYWEAP:Flail (Heavy)	DESC:Akadi (F)	DOMAINS:Air,Illusion,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Auril	ALIGN:NE	DEITYWEAP:Battleaxe	DESC:Auril ()	DOMAINS:Air,Cold FR,Evil,Storm|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Auril	ALIGN:NE	DEITYWEAP:Battleaxe	DESC:Auril ()	DOMAINS:Air,Cold,Evil,Storm|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Azuth	ALIGN:LN	DEITYWEAP:Quarterstaff	DESC:Azuth (M)	DOMAINS:Illusion,Magic,Knowledge,Law,Spell|PREALIGN:LG,LN,LE,TN	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Bane	ALIGN:LE	DEITYWEAP:Morningstar	DESC:Bane (M)	DOMAINS:Destruction,Evil,Hatred,Law,Tyranny FR|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Beshaba	ALIGN:CE	DEITYWEAP:Scourge	DESC:Beshaba ()	DOMAINS:Chaos,Evil,Fate FR,Luck,Trickery|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Bane	ALIGN:LE	DEITYWEAP:Morningstar	DESC:Bane (M)	DOMAINS:Destruction,Evil,Hatred,Law,Tyranny|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Beshaba	ALIGN:CE	DEITYWEAP:Scourge	DESC:Beshaba ()	DOMAINS:Chaos,Evil,Fate,Luck,Trickery|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Chauntea	ALIGN:NG	DEITYWEAP:Scythe	DESC:Chauntea ()	DOMAINS:Animal,Earth,Good,Plant,Protection,Renewal|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Cyric	ALIGN:CE	DEITYWEAP:Longsword	DESC:Cyric (M)	DOMAINS:Chaos,Destruction,Evil,Illusion,Trickery|PREALIGN:NE,CN,CE	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Deneir	ALIGN:NG	DEITYWEAP:Longsword	DESC:Deneir ()	DOMAINS:Good,Knowledge,Protection,Rune FR|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Deneir	ALIGN:NG	DEITYWEAP:Longsword	DESC:Deneir ()	DOMAINS:Good,Knowledge,Protection,Rune|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Eldath	ALIGN:NG	DEITYWEAP:Net	DESC:Eldath ()	DOMAINS:Family,Good,Plant,Protection,Water|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Finder Wyvernspur	ALIGN:CN	DEITYWEAP:Sword (Bastard)	DESC:Finder Wyvernspur ()	DOMAINS:Chaos,Charm FR,Renewal,Scalykind FR|PREALIGN:TN,CG,CN,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Garagos	ALIGN:CN	DEITYWEAP:Longsword	DESC:Garagos ()	DOMAINS:Chaos,Destruction,Strength FR,War|PREALIGN:TN,CG,CN,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Gargauth	ALIGN:LE	DEITYWEAP:Dagger	DESC:Gargauth ()	DOMAINS:Charm FR,Evil,Law,Trickery|PREALIGN:LN,LE,NE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Gond	ALIGN:TN	DEITYWEAP:Warhammer	DESC:Gond ()	DOMAINS:Craft,Earth,Fire,Knowledge,Metal,Planning FR|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Finder Wyvernspur	ALIGN:CN	DEITYWEAP:Sword (Bastard)	DESC:Finder Wyvernspur ()	DOMAINS:Chaos,Charm,Renewal,Scalykind|PREALIGN:TN,CG,CN,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Garagos	ALIGN:CN	DEITYWEAP:Longsword	DESC:Garagos ()	DOMAINS:Chaos,Destruction,Strength,War|PREALIGN:TN,CG,CN,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Gargauth	ALIGN:LE	DEITYWEAP:Dagger	DESC:Gargauth ()	DOMAINS:Charm,Evil,Law,Trickery|PREALIGN:LN,LE,NE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Gond	ALIGN:TN	DEITYWEAP:Warhammer	DESC:Gond ()	DOMAINS:Craft,Earth,Fire,Knowledge,Metal,Planning|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Grumbar	ALIGN:TN	DEITYWEAP:Warhammer	DESC:Grumbar ()	DOMAINS:Cavern,Earth,Metal,Time|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Gwaeron Windstorm	ALIGN:NG	DEITYWEAP:Greatsword	DESC:Gwaeron Windstorm ()	DOMAINS:Animal,Good,Knowledge,Plant,Travel|PREALIGN:LG,NG,TN,CG	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Helm	ALIGN:LN	DEITYWEAP:Sword (Bastard)	DESC:Helm ()	DOMAINS:Law,Planning FR,Protection,Strength FR|PREALIGN:LG,LN,LE,TN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Hoar	ALIGN:LN	DEITYWEAP:Javelin	DESC:Hoar ()	DOMAINS:Fate FR,Law,Retribution,Travel|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Ilmater	ALIGN:LG	DEITYWEAP:Unarmed Strike	DESC:Ilmater ()	DOMAINS:Good,Healing,Law,Strength FR,Suffering|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Helm	ALIGN:LN	DEITYWEAP:Sword (Bastard)	DESC:Helm ()	DOMAINS:Law,Planning,Protection,Strength|PREALIGN:LG,LN,LE,TN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Hoar	ALIGN:LN	DEITYWEAP:Javelin	DESC:Hoar ()	DOMAINS:Fate,Law,Retribution,Travel|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Ilmater	ALIGN:LG	DEITYWEAP:Unarmed Strike	DESC:Ilmater ()	DOMAINS:Good,Healing,Law,Strength,Suffering|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Istishia	ALIGN:TN	DEITYWEAP:Warhammer	DESC:Istishia ()	DOMAINS:Destruction,Ocean,Storm,Travel,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Jergal	ALIGN:LN	DEITYWEAP:Scythe	DESC:Jergal ()	DOMAINS:Fate FR,Law,Repose FR,Rune FR,Suffering|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Kelemvor	ALIGN:LN	DEITYWEAP:Sword (Bastard)	DESC:Kelemvor (M)	DOMAINS:Fate FR,Law,Protection,Repose FR,Travel|PREALIGN:LG,LN,LE,TN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Jergal	ALIGN:LN	DEITYWEAP:Scythe	DESC:Jergal ()	DOMAINS:Fate,Law,Repose,Rune,Suffering|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Kelemvor	ALIGN:LN	DEITYWEAP:Sword (Bastard)	DESC:Kelemvor (M)	DOMAINS:Fate,Law,Protection,Repose,Travel|PREALIGN:LG,LN,LE,TN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Kossuth	ALIGN:TN	DEITYWEAP:Chain (Spiked)	DESC:Kossuth ()	DOMAINS:Destruction,Fire,Renewal,Suffering|PREALIGN:LG,LN,LE,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Lathander	ALIGN:NG	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Lathander ()	DOMAINS:Good,Nobility FR,Protection,Renewal,Strength FR,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Lliira	ALIGN:CG	DEITYWEAP:Shuriken	DESC:Lliira ()	DOMAINS:Chaos,Charm FR,Family,Good,Travel|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Loviatar	ALIGN:LE	DEITYWEAP:Scourge	DESC:Loviatar (F)	DOMAINS:Evil,Law,Retribution,Strength FR,Suffering|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Lathander	ALIGN:NG	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Lathander ()	DOMAINS:Good,Nobility,Protection,Renewal,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Lliira	ALIGN:CG	DEITYWEAP:Shuriken	DESC:Lliira ()	DOMAINS:Chaos,Charm,Family,Good,Travel|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Loviatar	ALIGN:LE	DEITYWEAP:Scourge	DESC:Loviatar (F)	DOMAINS:Evil,Law,Retribution,Strength,Suffering|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Lurue	ALIGN:CG	DEITYWEAP:Shortspear	DESC:Lurue ()	DOMAINS:Animal,Chaos,Good,Healing|PREALIGN:NG,CG,CN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Malar	ALIGN:CE	DEITYWEAP:Claw Bracer	DESC:Malar ()	DOMAINS:Animal,Chaos,Evil,Moon,Strength FR|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Mask	ALIGN:NE	DEITYWEAP:Longsword	DESC:Mask ()	DOMAINS:Darkness FR,Evil,Luck,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Malar	ALIGN:CE	DEITYWEAP:Claw Bracer	DESC:Malar ()	DOMAINS:Animal,Chaos,Evil,Moon,Strength|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Mask	ALIGN:NE	DEITYWEAP:Longsword	DESC:Mask ()	DOMAINS:Darkness,Evil,Luck,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Mielikki	ALIGN:NG	DEITYWEAP:Scimitar	DESC:Mielikki ()	DOMAINS:Animal,Good,Plant,Travel|PREALIGN:LG,NG,TN,CG	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Milil	ALIGN:NG	DEITYWEAP:Rapier	DESC:Milil ()	DOMAINS:Charm FR,Good,Knowledge,Nobility FR|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Mystra	ALIGN:NG	DEITYWEAP:Shuriken	DESC:Mystra (F)	DOMAINS:Good,Illusion,Knowledge,Magic,Rune FR,Spell|PREALIGN:LG,LN,LE,NG,TN,CG	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Nobanion	ALIGN:LG	DEITYWEAP:Pick (Heavy)	DESC:Nobanion ()	DOMAINS:Animal,Good,Law,Nobility FR|PREALIGN:LG,LN,NG	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Oghma	ALIGN:TN	DEITYWEAP:Longsword	DESC:Oghma ()	DOMAINS:Charm FR,Knowledge,Luck,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Red Knight	ALIGN:LN	DEITYWEAP:Longsword	DESC:Red Knight (M)	DOMAINS:Law,Nobility FR,Planning FR,War|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Savras	ALIGN:LN	DEITYWEAP:Dagger	DESC:Savras ()	DOMAINS:Fate FR,Knowledge,Law,Magic,Spell|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Milil	ALIGN:NG	DEITYWEAP:Rapier	DESC:Milil ()	DOMAINS:Charm,Good,Knowledge,Nobility|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Mystra	ALIGN:NG	DEITYWEAP:Shuriken	DESC:Mystra (F)	DOMAINS:Good,Illusion,Knowledge,Magic,Rune,Spell|PREALIGN:LG,LN,LE,NG,TN,CG	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Nobanion	ALIGN:LG	DEITYWEAP:Pick (Heavy)	DESC:Nobanion ()	DOMAINS:Animal,Good,Law,Nobility|PREALIGN:LG,LN,NG	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Oghma	ALIGN:TN	DEITYWEAP:Longsword	DESC:Oghma ()	DOMAINS:Charm,Knowledge,Luck,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Red Knight	ALIGN:LN	DEITYWEAP:Longsword	DESC:Red Knight (M)	DOMAINS:Law,Nobility,Planning,War|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Savras	ALIGN:LN	DEITYWEAP:Dagger	DESC:Savras ()	DOMAINS:Fate,Knowledge,Law,Magic,Spell|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Selune	ALIGN:CG	DEITYWEAP:Mace (Heavy)	DESC:Selune (F)	DOMAINS:Chaos,Good,Moon,Protection,Travel|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Shar	ALIGN:NE	DEITYWEAP:Chakram	DESC:Shar (F)	DOMAINS:Cavern,Darkness FR,Evil,Knowledge|PREALIGN:LE,TN,NE,CE	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Sharess	ALIGN:CG	DEITYWEAP:Claw Bracer	DESC:Sharess ()	DOMAINS:Chaos,Charm FR,Good,Travel,Trickery|PREALIGN:NG,CG,CN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Shar	ALIGN:NE	DEITYWEAP:Chakram	DESC:Shar (F)	DOMAINS:Cavern,Darkness,Evil,Knowledge|PREALIGN:LE,TN,NE,CE	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Sharess	ALIGN:CG	DEITYWEAP:Claw Bracer	DESC:Sharess ()	DOMAINS:Chaos,Charm,Good,Travel,Trickery|PREALIGN:NG,CG,CN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Shaundakul	ALIGN:CN	DEITYWEAP:Greatsword	DESC:Shaundakul ()	DOMAINS:Air,Chaos,Portal,Protection,Trade,Travel|PREALIGN:TN,CG,CN,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Shiallia	ALIGN:NG	DEITYWEAP:Trident	DESC:Shiallia ()	DOMAINS:Animal,Good,Plant,Renewal|PREALIGN:LG,NG,TN,CG	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Siamorphe	ALIGN:LN	DEITYWEAP:Mace (Light)	DESC:Siamorphe ()	DOMAINS:Knowledge,Law,Nobility FR,Planning FR|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Siamorphe	ALIGN:LN	DEITYWEAP:Mace (Light)	DESC:Siamorphe ()	DOMAINS:Knowledge,Law,Nobility,Planning|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Silvanus	ALIGN:TN	DEITYWEAP:Maul	DESC:Silvanus (M)	DOMAINS:Animal,Plant,Protection,Renewal,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Sune	ALIGN:CG	DEITYWEAP:Whip	DESC:Sune (F)	DOMAINS:Chaos,Charm FR,Good,Protection|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Sune	ALIGN:CG	DEITYWEAP:Whip	DESC:Sune (F)	DOMAINS:Chaos,Charm,Good,Protection|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Talona	ALIGN:CE	DEITYWEAP:Unarmed Strike	DESC:Talona (F)	DOMAINS:Chaos,Destruction,Evil,Suffering|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Talos	ALIGN:CE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Talos ()	DOMAINS:Chaos,Destruction,Evil,Fire,Storm|PREALIGN:NE,CN,CE	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Tempus	ALIGN:CN	DEITYWEAP:Battleaxe	DESC:Tempus ()	DOMAINS:Chaos,Protection,Strength FR,War|PREALIGN:TN,CG,CN,CE	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Tiamat	ALIGN:LE	DEITYWEAP:Pick (Heavy)	DESC:Tiamat ()	DOMAINS:Evil,Law,Scalykind FR,Tyranny FR|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Torm	ALIGN:LG	DEITYWEAP:Greatsword	DESC:Torm (M)	DOMAINS:Good,Healing,Law,Protection,Strength FR|PREALIGN:LG,LN,NG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Tempus	ALIGN:CN	DEITYWEAP:Battleaxe	DESC:Tempus ()	DOMAINS:Chaos,Protection,Strength,War|PREALIGN:TN,CG,CN,CE	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Tiamat	ALIGN:LE	DEITYWEAP:Pick (Heavy)	DESC:Tiamat ()	DOMAINS:Evil,Law,Scalykind,Tyranny|PREALIGN:LN,LE,NE	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Torm	ALIGN:LG	DEITYWEAP:Greatsword	DESC:Torm (M)	DOMAINS:Good,Healing,Law,Protection,Strength|PREALIGN:LG,LN,NG	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Tymora	ALIGN:CG	DEITYWEAP:Shuriken	DESC:Tymora (F)	DOMAINS:Chaos,Good,Luck,Protection,Travel|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Tyr	ALIGN:LG	DEITYWEAP:Longsword	DESC:Tyr (M)	DOMAINS:Good,Knowledge,Law,Retribution,War|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Ubtao	ALIGN:TN	DEITYWEAP:Pick (Heavy)	DESC:Ubtao ()	DOMAINS:Planning FR,Plant,Protection,Scalykind FR|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Ulutiu	ALIGN:LN	DEITYWEAP:Longspear|Shortspear	DESC:Ulutiu ()	DOMAINS:Animal,Cold FR,Law,Ocean,Protection|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Ubtao	ALIGN:TN	DEITYWEAP:Pick (Heavy)	DESC:Ubtao ()	DOMAINS:Planning,Plant,Protection,Scalykind|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Ulutiu	ALIGN:LN	DEITYWEAP:Longspear|Shortspear	DESC:Ulutiu ()	DOMAINS:Animal,Cold,Law,Ocean,Protection|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Umberlee	ALIGN:CE	DEITYWEAP:Trident	DESC:Umberlee (F)	DOMAINS:Chaos,Destruction,Evil,Ocean,Storm,Weather|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Faerun	SOURCEPAGE:FRCS	
-Uthgar	ALIGN:CN	DEITYWEAP:Battleaxe	DESC:Uthgar ()	DOMAINS:Animal,Chaos,Retribution,Strength FR,War|PREALIGN:TN,CG,CN,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
+Uthgar	ALIGN:CN	DEITYWEAP:Battleaxe	DESC:Uthgar ()	DOMAINS:Animal,Chaos,Retribution,Strength,War|PREALIGN:TN,CG,CN,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Valkur	ALIGN:CG	DEITYWEAP:Sword (Cutlass)	DESC:Valkur ()	DOMAINS:Air,Chaos,Good,Ocean,Protection|PREALIGN:NG,CG,CN	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Velsharoon	ALIGN:NE	DEITYWEAP:Quarterstaff	DESC:Velsharoon (M)	DOMAINS:Death,Evil,Magic,Undeath|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 Waukeen	ALIGN:TN	DEITYWEAP:Nunchaku	DESC:Waukeen (F)	DOMAINS:Knowledge,Protection,Trade,Travel|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Faerun	SOURCEPAGE:FRCS	
 #								
-Anhur	ALIGN:CG	DEITYWEAP:Falchion	DESC:Anhur ()	DOMAINS:Chaos,Good,Strength FR,Storm,War|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Anhur	ALIGN:CG	DEITYWEAP:Falchion	DESC:Anhur ()	DOMAINS:Chaos,Good,Strength,Storm,War|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Geb	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Geb ()	DOMAINS:Cavern,Craft,Earth,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Hathor	ALIGN:NG	DEITYWEAP:Sword (Short)	DESC:Hathor ()	DOMAINS:Family,Fate FR,Good,Moon|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Horus-Re	ALIGN:LG	DEITYWEAP:Sword (Kopesh)	DESC:Horus-Re (M)	DOMAINS:Good,Law,Nobility FR,Retribution,Sun|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Hathor	ALIGN:NG	DEITYWEAP:Sword (Short)	DESC:Hathor ()	DOMAINS:Family,Fate,Good,Moon|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Horus-Re	ALIGN:LG	DEITYWEAP:Sword (Kopesh)	DESC:Horus-Re (M)	DOMAINS:Good,Law,Nobility,Retribution,Sun|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Isis	ALIGN:NG	DEITYWEAP:Dagger (Punching)	DESC:Isis (F)	DOMAINS:Family,Good,Magic,Storm,Water|PREALIGN:LG,NG,TN,CG	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 Nephthys	ALIGN:CG	DEITYWEAP:Whip	DESC:Nephthys (F)	DOMAINS:Chaos,Good,Protection,Trade|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Osiris	ALIGN:LG	DEITYWEAP:Flail|Flail (Heavy)	DESC:Osiris (M)	DOMAINS:Good,Law,Plant,Repose FR,Retribution|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Sebek	ALIGN:NE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Sebek ()	DOMAINS:Animal,Evil,Scalykind FR,Water|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Set	ALIGN:LE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Set (M)	DOMAINS:Air,Darkness FR,Evil,Hatred,Law,Magic,Scalykind FR|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
-Thoth	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Thoth ()	DOMAINS:Craft,Knowledge,Magic,Rune FR,Spell|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Osiris	ALIGN:LG	DEITYWEAP:Flail|Flail (Heavy)	DESC:Osiris (M)	DOMAINS:Good,Law,Plant,Repose,Retribution|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Sebek	ALIGN:NE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Sebek ()	DOMAINS:Animal,Evil,Scalykind,Water|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Set	ALIGN:LE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Set (M)	DOMAINS:Air,Darkness,Evil,Hatred,Law,Magic,Scalykind|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
+Thoth	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Thoth ()	DOMAINS:Craft,Knowledge,Magic,Rune,Spell|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Mulhorandi	SOURCEPAGE:FRCS	
 #								
-Eilistraee	ALIGN:CG	DEITYWEAP:Sword (Bastard)	DESC:Eilistraee (F)	DOMAINS:Chaos,Charm FR,Drow,Elf,Good,Moon,Portal|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Drow	SOURCEPAGE:FRCS	
+Eilistraee	ALIGN:CG	DEITYWEAP:Sword (Bastard)	DESC:Eilistraee (F)	DOMAINS:Chaos,Charm,Drow,Elf,Good,Moon,Portal|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Drow	SOURCEPAGE:FRCS	
 Ghaunadaur	ALIGN:CE	DEITYWEAP:Warhammer	DESC:Ghaunadaur ()	DOMAINS:Cavern,Chaos,Drow,Evil,Hatred,Slime|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Drow	SOURCEPAGE:FRCS	
 Kiaransalee	ALIGN:CE	DEITYWEAP:Dagger	DESC:Kiaransalee (F)	DOMAINS:Chaos,Drow,Evil,Retribution,Undeath|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Drow	SOURCEPAGE:FRCS	
-Lolth	ALIGN:CE	DEITYWEAP:Dagger	DESC:Llolth (F)	DOMAINS:Chaos,Darkness FR,Destruction,Drow,Evil,Spider,Trickery|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Drow	SOURCEPAGE:FRCS	
+Lolth	ALIGN:CE	DEITYWEAP:Dagger	DESC:Llolth (F)	DOMAINS:Chaos,Darkness,Destruction,Drow,Evil,Spider,Trickery|PREALIGN:NE,CN,CE	TYPE:Intermediate	PANTHEON:Drow	SOURCEPAGE:FRCS	
 Selvetarm	ALIGN:CE	DEITYWEAP:Mace (Heavy)	DESC:Selvetarm (M)	DOMAINS:Chaos,Drow,Evil,Spider,War|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Drow	SOURCEPAGE:FRCS	
 Vhaeraun	ALIGN:CE	DEITYWEAP:Sword (Short)	DESC:Vhaeraun (M)	DOMAINS:Chaos,Drow,Evil,Travel,Trickery|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Drow	SOURCEPAGE:FRCS	
 #								
 Abbathor	ALIGN:NE	DEITYWEAP:Dagger	DESC:Abbathor ()	DOMAINS:Dwarf,Evil,Luck,Trade,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Berronar Truesilver	ALIGN:LG	DEITYWEAP:Mace (Heavy)	DESC:Berronar Truesilver ()	DOMAINS:Dwarf,Family,Good,Healing,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
-Clangeddin Silverbeard	ALIGN:LG	DEITYWEAP:Battleaxe	DESC:Clangeddin Silverbeard ()	DOMAINS:Dwarf,Good,Law,Strength FR,War|PREALIGN:LG,LN,CG	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
+Clangeddin Silverbeard	ALIGN:LG	DEITYWEAP:Battleaxe	DESC:Clangeddin Silverbeard ()	DOMAINS:Dwarf,Good,Law,Strength,War|PREALIGN:LG,LN,CG	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Deep Duerra	ALIGN:LE	DEITYWEAP:Battleaxe	DESC:Deep Duerra ()	DOMAINS:Dwarf,Evil,Law,Mentalism,War|PREALIGN:LN,LE,NE	TYPE:Demigod	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
-Dugmaren Brightmantle	ALIGN:CG	DEITYWEAP:Sword (Short)	DESC:Dugmaren Brightmantle ()	DOMAINS:Chaos,Craft,Dwarf,Good,Knowledge,Rune FR|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
+Dugmaren Brightmantle	ALIGN:CG	DEITYWEAP:Sword (Short)	DESC:Dugmaren Brightmantle ()	DOMAINS:Chaos,Craft,Dwarf,Good,Knowledge,Rune|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Dumathoin	ALIGN:TN	DEITYWEAP:Maul	DESC:Dumathoin (M)	DOMAINS:Cavern,Craft,Dwarf,Earth,Knowledge,Metal,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Gorm Gulthyn	ALIGN:LG	DEITYWEAP:Battleaxe	DESC:Gorm Gulthyn ()	DOMAINS:Dwarf,Good,Law,Protection,War|PREALIGN:LG,LN,NG	TYPE:Lesser	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Haela Brightaxe	ALIGN:CG	DEITYWEAP:Greatsword	DESC:Haela Brightaxe ()	DOMAINS:Chaos,Dwarf,Good,Luck,War|PREALIGN:NG,CG,CN	TYPE:Demigod	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Laduguer	ALIGN:NG	DEITYWEAP:Warhammer	DESC:Laduguer (M)	DOMAINS:Craft,Dwarf,Evil,Law,Magic,Metal,Protection|PREALIGN:LN,LE,NE	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Marthannor Duin	ALIGN:NG	DEITYWEAP:Mace (Heavy)	DESC:Marthammor duin ()	DOMAINS:Dwarf,Good,Protection,Travel|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Moradin	ALIGN:LG	DEITYWEAP:Warhammer	DESC:Moradin (M)	DOMAINS:Craft,Dwarf,Earth,Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
-Sharindlar	ALIGN:CG	DEITYWEAP:Whip	DESC:Sharindlar ()	DOMAINS:Chaos,Charm FR,Dwarf,Good,Healing,Moon|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
+Sharindlar	ALIGN:CG	DEITYWEAP:Whip	DESC:Sharindlar ()	DOMAINS:Chaos,Charm,Dwarf,Good,Healing,Moon|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Thard Harr	ALIGN:CG	DEITYWEAP:Gauntlet (Spiked)	DESC:Thard Harr ()	DOMAINS:Animal,Chaos,Dwarf,Good,Plant|PREALIGN:NG,CG,CN	TYPE:Lesser	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 Vergadain	ALIGN:TN	DEITYWEAP:Longsword	DESC:Vergadain ()	DOMAINS:Dwarf,Luck,Trade,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Dwarven	SOURCEPAGE:FRCS	
 #								
@@ -100,7 +100,7 @@ Corellon Larethian	ALIGN:CG	DEITYWEAP:Longsword	DESC:Corellon Larethian (M)	DOMA
 Deep Sashelas	ALIGN:CG	DEITYWEAP:Trident	DESC:Deep Sashelas ()	DOMAINS:Chaos,Elf,Good,Knowledge,Ocean,Water|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
 Erevan Ilesere	ALIGN:CN	DEITYWEAP:Sword (Short)	DESC:Erevan Ilesere ()	DOMAINS:Chaos,Elf,Luck,Trickery|PREALIGN:TN,CG,CN,CE	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
 Fenmarel Mestarine	ALIGN:CN	DEITYWEAP:Dagger	DESC:Fenmarel Mestarine ()	DOMAINS:Animal,Chaos,Elf,Plant,Travel|PREALIGN:TN,CG,CN,CE	TYPE:Lesser	PANTHEON:Elf	SOURCEPAGE:FRCS	
-Hanali Celanil	ALIGN:CG	DEITYWEAP:Dagger	DESC:Hanali Celanil ()	DOMAINS:Chaos,Charm FR,Elf,Good,Magic,Protection|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
+Hanali Celanil	ALIGN:CG	DEITYWEAP:Dagger	DESC:Hanali Celanil ()	DOMAINS:Chaos,Charm,Elf,Good,Magic,Protection|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
 Labelas Enoreth	ALIGN:CG	DEITYWEAP:Quarterstaff	DESC:Labelas Enoreth ()	DOMAINS:Chaos,Elf,Good,Knowledge,Time|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
 Rillifane Rallathil	ALIGN:CG	DEITYWEAP:Quarterstaff	DESC:Rillifane Rallathil ()	DOMAINS:Chaos,Elf,Good,Plant,Protection|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
 Sehanine Moonbow	ALIGN:CG	DEITYWEAP:Quarterstaff	DESC:Sehanine Moonbow (F)	DOMAINS:Chaos,Elf,Good,Illusion,Knowledge,Moon,Travel|PREALIGN:NG,CG,CN	TYPE:Intermediate	PANTHEON:Elf	SOURCEPAGE:FRCS	
@@ -119,13 +119,13 @@ Urdlen	ALIGN:CE	DEITYWEAP:Claw Bracer	DESC:Urdlen ()	DOMAINS:Chaos,Earth,Evil,Gn
 Arvoreen	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Arvoreen ()	DOMAINS:Good,Halfling,Law,Protection,War|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 Brandobaris	ALIGN:TN	DEITYWEAP:Dagger	DESC:Brandobaris ()	DOMAINS:Halfling,Luck,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 Cyrrollalee	ALIGN:LG	DEITYWEAP:Quarterstaff|Club	DESC:Cyrrollalee ()	DOMAINS:Family,Good,Halfling,Law|PREALIGN:LG,LN,NG	TYPE:Intermediate	PANTHEON:Halfling	SOURCEPAGE:FRCS	
-Sheela Peryroyl	ALIGN:TN	DEITYWEAP:Sickle	DESC:Sheela Peryroyl ()	DOMAINS:Air,Charm FR,Halfling,Plant|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Halfling	SOURCEPAGE:FRCS	
-Urogalan	ALIGN:LN	DEITYWEAP:Flail (Dire)	DESC:Urogalan ()	DOMAINS:Earth,Halfling,Law,Protection,Repose FR|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Halfling	SOURCEPAGE:FRCS	
+Sheela Peryroyl	ALIGN:TN	DEITYWEAP:Sickle	DESC:Sheela Peryroyl ()	DOMAINS:Air,Charm,Halfling,Plant|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	PANTHEON:Halfling	SOURCEPAGE:FRCS	
+Urogalan	ALIGN:LN	DEITYWEAP:Flail (Dire)	DESC:Urogalan ()	DOMAINS:Earth,Halfling,Law,Protection,Repose|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 Yondalla	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Yondalla (F)	DOMAINS:Family,Good,Halfling,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:Halfling	SOURCEPAGE:FRCS	
 #								
-Baghtru	ALIGN:CE	DEITYWEAP:Gauntlet (Spiked)	DESC:Baghtru ()	DOMAINS:Chaos,Evil,Orc,Strength FR|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
-Gruumsh	ALIGN:CE	DEITYWEAP:Longspear|Shortspear	DESC:Gruumsh (M)	DOMAINS:Cavern,Chaos,Evil,Hatred,Orc,Strength FR,War|PREALIGN:NE,CN,CE	TYPE:Greater	PANTHEON:Orc	SOURCEPAGE:FRCS	
-Ilneval	ALIGN:CE	DEITYWEAP:Longsword	DESC:Ilneval ()	DOMAINS:Destruction,Evil,Orc,Planning FR,War|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
+Baghtru	ALIGN:CE	DEITYWEAP:Gauntlet (Spiked)	DESC:Baghtru ()	DOMAINS:Chaos,Evil,Orc,Strength|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
+Gruumsh	ALIGN:CE	DEITYWEAP:Longspear|Shortspear	DESC:Gruumsh (M)	DOMAINS:Cavern,Chaos,Evil,Hatred,Orc,Strength,War|PREALIGN:NE,CN,CE	TYPE:Greater	PANTHEON:Orc	SOURCEPAGE:FRCS	
+Ilneval	ALIGN:CE	DEITYWEAP:Longsword	DESC:Ilneval ()	DOMAINS:Destruction,Evil,Orc,Planning,War|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
 Luthic	ALIGN:NE	DEITYWEAP:Claw Bracer	DESC:Luthic ()	DOMAINS:Cavern,Earth,Evil,Family,Healing,Orc|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
-Shargaas	ALIGN:CE	DEITYWEAP:Sword (Short)	DESC:Shargaas ()	DOMAINS:Chaos,Darkness FR,Evil,Orc,Trickery|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
+Shargaas	ALIGN:CE	DEITYWEAP:Sword (Short)	DESC:Shargaas ()	DOMAINS:Chaos,Darkness,Evil,Orc,Trickery|PREALIGN:NE,CN,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
 Yurtrus	ALIGN:NE	DEITYWEAP:Unarmed Strike	DESC:Yurtrus ()	DOMAINS:Death,Destruction,Evil,Orc,Suffering|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	PANTHEON:Orc	SOURCEPAGE:FRCS	
