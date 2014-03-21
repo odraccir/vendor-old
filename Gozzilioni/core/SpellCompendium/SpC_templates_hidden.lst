@@ -5,6 +5,8 @@ Holy Transformation Lesser ~ Outsider			VISIBLE:NO										RACETYPE:Outsider	RA
 Holy Transformation ~ Outsider			VISIBLE:NO										RACETYPE:Outsider	RACESUBTYPE:Archon|Lawful|Good	SIZE:L
 Infernal Transformation Lesser ~ Outsider			VISIBLE:NO										RACETYPE:Outsider	RACESUBTYPE:Lawful|Evil	SIZE:M
 Infernal Transformation ~ Outsider			VISIBLE:NO										RACETYPE:Outsider	RACESUBTYPE:Baatezu|Lawful|Evil	SIZE:L	NATURALATTACKS:Sting,Weapon.Natural.Melee.Finesseable.Piercing.Poison,*1,3d4
+Visage of the Deity ~ Outsider			VISIBLE:NO										RACETYPE:Outsider			NATURALATTACKS:Sting,Weapon.Natural.Melee.Finesseable.Piercing.Poison,*1,3d4
+Wild Runner ~ Monstrous Humanoid			VISIBLE:NO										RACETYPE:Monstrous Humanoid	FACE:10	REACH:5	SIZE:L	LEGS:4	BONUS:MOVEADD|TYPE.Walk|50-MOVEBASE	BONUS:STAT|STR|18-STRSCORE.BASE	BONUS:STAT|DEX|14-DEXSCORE.BASE	BONUS:STAT|CON|15-CONSCORE.BASE
 
 
 Bite of the Werebear ~ Claws ~ Bite (Small)			VISIBLE:NO	PRESIZEEQ:S									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6
@@ -34,3 +36,5 @@ Fangs of the Vampire King ~ Bite			VISIBLE:NO										NATURALATTACKS:Bite,Weapo
 Fist of Stone ~ Slam			VISIBLE:NO										NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d6
 Girallon's Blessing ~ Claw			VISIBLE:NO										NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*4,1d4
 Kiss of the Vampire ~ Vampiric Touch			VISIBLE:NO										NATURALATTACKS:Vampiric Touch,Weapon.Natural.Melee.Finesseable.Touch,*1,0
+Visage of the Deity ~ Claws ~ Bite (Small)			VISIBLE:NO	PRESIZEEQ:S									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
+Visage of the Deity ~ Claws ~ Bite (Medium)			VISIBLE:NO	PRESIZEGTEQ:M									NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6

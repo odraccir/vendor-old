@@ -10,30 +10,66 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 # Gembomb - gems worth at least 1 gp						
 # Fool's Gold - a powedered gem of at least 5 gp						
 ###Materials Components						
-Agate (10 gp)		TYPE:MaterialComponent.Consumable	COST:10	WT:0	SOURCEPAGE:BoVD	SPROP:Material Component for Bestow Wound
-Amber (500 gp)		TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Simbul's Spell Matrix, Spell Matrix (Greater)
-Amethyst (10000 gp)		TYPE:MaterialComponent.Consumable	COST:10000	WT:0	SOURCEPAGE:BoVD	SPROP:Material Component for Evil Weather
-Amethyst (50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:Nep	SPROP:Material Component for Possessione delle Spoglie
-Amulet (Phoenix/150 gp)		TYPE:MaterialComponent.Focus	COST:150	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Fire Wings
-Aquamarine (100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
-Bar (Platinum/25 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:Drac	SPROP:Material Component for Antidragon Aura
-Bar (Silver/5 gp)		TYPE:MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Astral Projection
-Bar (Silver/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PH	SPROP:Material Component for Seal Portal, Gate Seal
-Bell (Crystall/100 gp)		TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Alarm (Greater).
-Bloodstone (50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Water to Poison
+Agate (10 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:10	WT:0	SOURCEPAGE:BoVD	SPROP:Material Component for Bestow Wound
+Amber (500 gp)		TYPE:MaterialComponent.Focus.Gem	COST:500	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Simbul's Spell Matrix, Spell Matrix (Greater)
+Amethyst (10000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:10000	WT:0	SOURCEPAGE:BoVD	SPROP:Material Component for Evil Weather
+Amethyst (50 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:50	WT:0	SOURCEPAGE:Nep	SPROP:Material Component for Possessione delle Spoglie
+Aquamarine (100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
+Bloodstone (50 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:50	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Water to Poison
+Bloodstone (500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Vile Death.
+Diamond (1000 gp)		TYPE:MaterialComponent.Focus.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Protection from Spells. Material Component for Invoke Magic, Revivify.
+Diamond (10000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:10000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Resurrection, Sanctify the Wicked
+Diamond (1500 gp)		TYPE:MaterialComponent.Focus.Gem	COST:1500	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Simbul's Spell Trigger, Spell Matrix (Greater)
+Diamond (2500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:2500	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Stone Walk
+Diamond (25000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:25000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for True Resurrection
+Diamond (500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Protection from Spells, Death  Pact, Revive Outsider
+Diamond (5000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:5000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Raise Dead, Barghest's Feast, Revive Outsider, Revive Undead.
+Emerald (1000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Emerald Burst
+Garnet (100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
+Jacynth (1000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Astral Projection
+Jade (5 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:5	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Hail of Stone
+Mix of Gems (1000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
+Mix of Gems (10000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:10000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
+Mix of Gems (250 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
+Onyx (25 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:25	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Animate Dead
+Onyx (50 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:50	WT:0	SOURCEPAGE:SS	SPROP:Material Component for Skeletal Guard, Kiss of the Vampire, Death Armor
+Onyx (500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:SS	SPROP:Material Component for Bodak's Glare
+Onyx (Black/50 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Create Undead, Undeath after Death
+Onyx (Carved/50 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:50	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Kiss of the Vampire.
+Opal (100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:100	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Crown of Brilliance, Invecchiare
+Opal (200 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:200	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Crown of Glory
+Opal (500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Binding
+Pearl (100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:100	WT:0	SOURCEPAGE:Drac	SPROP:Material Component for Contingent Energy Resistance, Summon Elemental Monolith
+Pearl (Black/200 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:200	WT:0	SOURCEPAGE:Mon	SPROP:Material Component for Create Darkenbeast
+Pearl (Black/500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Revive Undead
+Pearl (Gray/100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Defenestrating Sphere
+Quartz (Clear/50 gp)		TYPE:MaterialComponent.Focus.Gem	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Icelance.
+Ruby (1000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:PGtF	SPROP:Material Component for Ruby Ray of Reversal
+Ruby (20 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:20	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Bloodstar
+Ruby (30 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:30	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Bloodstar
+Ruby (500 gp)		TYPE:MaterialComponent.Focus.Gem	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Ruby Ray of Reversal.
+Sapphire (1000 gp)		TYPE:MaterialComponent.Focus.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Simbul's Spell Sequencer, Spell Matrix. Material Component for Drawmij's Instant Summons. 
+Sapphire (Black/100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:1000	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Plague of Undead
+Sapphire (Black/1000 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:10000	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Veil of Undeath
+Spinel (Deep Blue/500)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Undermaster.
+Topaz (500 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Crown of Renewal Pact.
+Tourmaline (100 gp)		TYPE:MaterialComponent.Consumable.Gem	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
+
+Holy Symbol (Silver/Anathema)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
+Unholy Symbol (Silver/Anathema)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
+
+Amulet (Phoenix/150 gp)		TYPE:MaterialComponent.Focus.Amulet	COST:150	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Fire Wings
+
+Bar (Platinum/25 gp)		TYPE:MaterialComponent.Consumable.Goods	COST:25	WT:1	SOURCEPAGE:Drac	SPROP:Material Component for Antidragon Aura
+Bar (Silver/5 gp)		TYPE:MaterialComponent.Consumable.Goods	COST:5	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Astral Projection
+Bar (Silver/50 gp)		TYPE:MaterialComponent.Consumable.Goods	COST:50	WT:0	SOURCEPAGE:PH	SPROP:Material Component for Seal Portal, Gate Seal
+Bell (Crystall/100 gp)		TYPE:Goods.General.MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Alarm (Greater).
 Bottle (Ornate/50)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:CD	SPROP:Focus for Bottle of Smoke
 Concotion (Demon skin and rare herbs/250 gp)		TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Instant Refuge.
-Hollow Cone (Brass and Gold/50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Sonic Rumble.
+Crown (Coral with pearl/5000 gp)		TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Tsunami.
 Crystal and Gold Lens (500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Programmed Amnesia
 Crystal Prism (Clear/10 gp)		TYPE:MaterialComponent.Focus	COST:10	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Rainbow Beam.
 Crystal Prism (Clear/50 gp)		TYPE:MaterialComponent.Focus	COST:10	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Rainbow Blast.
-Diamond (1000 gp)		TYPE:MaterialComponent.Focus.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Protection from Spells. Material Component for Invoke Magic, Revivify.
-Diamond (10000 gp)		TYPE:MaterialComponent.Consumable	COST:10000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Resurrection, Sanctify the Wicked
-Diamond (1500 gp)		TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Simbul's Spell Trigger, Spell Matrix (Greater)
-Diamond (2500 gp)		TYPE:MaterialComponent.Consumable	COST:2500	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Stone Walk
-Diamond (25000 gp)		TYPE:MaterialComponent.Consumable	COST:25000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for True Resurrection
-Diamond (500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Protection from Spells, Death  Pact, Revive Outsider
-Diamond (5000 gp)		TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Raise Dead, Barghest's Feast, Revive Outsider, Revive Undead.
 Diamond (Hourglass shaped/1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:CaD	SPROP:Material Component for Hindsight
 Diamond chip embedded in charcoal (50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Earth Lock
 Die (Gold/20 gp)		TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Insight of Good Fortune
@@ -55,7 +91,6 @@ Dust (Ruby/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB
 Dust (Ruby/500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Fire Spiders
 Dust (Silver/15 gp)		TYPE:MaterialComponent.Consumable	COST:15	WT:0	SOURCEPAGE:PHB2	SPROP:Material Component for Righteous Burst
 Dust (Silver/25 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Bless Water, Consacrate, Desecrate
-Emerald (1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Emerald Burst
 Emerald (Crushed/100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Sign of Sealing
 Emerald (Crushed/500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Sign of Sealing (Greater)
 Feather (Phoenix/50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:EXD	SPROP:Focus for Phoenix Fire
@@ -78,14 +113,12 @@ Forked Metal Rod (Plane of Fire)		TYPE:MaterialComponent.Focus	COST:0	WT:0	SOURC
 Forked Metal Rod (Plane of Water)		TYPE:MaterialComponent.Focus	COST:0	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Plane Shift, attuned to the Plane of Water
 Forked Metal Rod (Positive Energy Plane)		TYPE:MaterialComponent.Focus	COST:0	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Plane Shift, attuned to the Positive Energy Plane
 Forked Metal Rod (Shadow Plane)		TYPE:MaterialComponent.Focus	COST:0	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Plane Shift, attuned to the Shadow Plane
-Garnet (100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
 Glass Sphere (50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Glowing Orb
 Goblet (Crystall/500 gp)		TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Body Harmonic.
 Hammer (Salt Crystal/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:Fro	SPROP:Material Component for Crack Ice
 Heart (Jade or obsidian or gold marbled/5000 gp)		TYPE:MaterialComponent.Focus	COST:5000	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Heart of Stone.
 Hearth (Stone/5000 gp)		TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Heart Stone
-Hollow cone of brass and gold (50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Focus for Horizikaul's Versatile Vibration
-Holy Symbol (Silver/Anathema)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
+Hollow Cone (Brass and Gold/50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Horizikaul's Versatile Vibration. Material Component for Sonic Rumble.
 Holy Water Font (100 gp)		TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Scrying
 Hourglass (Diamond/1000 gp)		TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:CA	SPROP:Focus for Hindsight
 Hourglass (Platinum and Crystal/1000 gp)		TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:CA	SPROP:Focus for Anticipate Teleportation (Greater)
@@ -102,8 +135,6 @@ Ink (Silver Flecked/25 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURC
 Ink (Tatoo/100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PGtF	SPROP:Material Component for Create Magic Tatoo
 Iron Bars (50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Repulsion
 Ivory Plaque (50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Rary's Mnemonic Enhancer
-Jacynth (1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Astral Projection
-Jade (5 gp)		TYPE:MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Hail of Stone
 Jade Circlet (1500 gp)		TYPE:MaterialComponent.Focus.Headgear	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Shapechange
 Laboratory Supply (500 gp)		TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Clone
 Marked Sticks (25 gp)		TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Augury
@@ -122,9 +153,6 @@ Miniature Rudder Inlaid (Wood and Silver/2500 gp)		TYPE:MaterialComponent.Focus	
 Mirror (Silver/1000 gp)		TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:BoVD	SPROP:Focus for Mirror Sending
 Mirror (Silver/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Alamanther's Return
 Mix of Exotic herbs ground bones and onyx dust (50 gp)	OUTPUTNAME:Mix of Exotic herbs, ground bones and onyx dust (50 gp)	TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Death Armor
-Mix of Gems (1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
-Mix of Gems (10000 gp)		TYPE:MaterialComponent.Consumable	COST:10000	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
-Mix of Gems (250 gp)		TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Favorable Sacrifice
 Mix of Gems Dust (50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Khelben's Suspended Silence, Arrow of Bone, Suspended Silence
 Mix of Gems Dust (5000 gp)		TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Temporal Stasis
 Mix of Powder (Iron and Ruby/100 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PH	SPROP:Material Component for Anarchic Water
@@ -135,20 +163,8 @@ Oil and Unguents (Rare/500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	
 Ointment (1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:RoE	SPROP:Material Component for True Seeing (Mass)
 Ointment (250 gp)		TYPE:MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for True Seeing
 Ointment (Diamond/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Hardening (for 10 cu.ft.)
-Onyx (25 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Animate Dead
-Onyx (50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:SS	SPROP:Material Component for Skeletal Guard, Kiss of the Vampire, Death Armor
-Onyx (500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:SS	SPROP:Material Component for Bodak's Glare
-Onyx (Black/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Create Undead, Undeath after Death
-Onyx (Carved/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Kiss of the Vampire.
 Onyx sphere mounted on a obsidian Stand (6-in/1000 gp)		TYPE:MaterialComponent.Focus	COST:1000	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Hide the Path.
-Opal (100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Crown of Brilliance, Invecchiare
-Opal (200 gp)		TYPE:MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:EXD	SPROP:Material Component for Crown of Glory
-Opal (500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Binding
 Paste of Ruby and Amber (2500 gp)		TYPE:MaterialComponent.Consumable	COST:2500	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Stone Walk
-Pearl (100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:Drac	SPROP:Material Component for Contingent Energy Resistance, Summon Elemental Monolith
-Pearl (Black/200 gp)		TYPE:MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:Mon	SPROP:Material Component for Create Darkenbeast
-Pearl (Black/500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Revive Undead
-Pearl (Gray/100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Defenestrating Sphere
 Pearls (Crushed/1500 gp)		TYPE:MaterialComponent.Consumable	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Sympathy
 Pottery Vessel (25 gp)		TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:CD	SPROP:Focus for Creeping Cold
 Powder (Amber/1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Teleport Circle
@@ -165,21 +181,13 @@ Powder (Opal/1000 gp)		TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPA
 Powder (Opal/5000 gp)		TYPE:MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Symbol of Death, Symbol of Fear, Symbol of Persuasion, Symbol of Stunning, Symbol of Weakness, Amnesia
 Powder (Pearl/100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Identify 
 Powder (Ruby/100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Simulacrum
-Powder (Silver/25 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Bless Water, Curse Water
+Powder (Silver/25 gp)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PHB	SPROP:Material Component for Bless Water, Curse Water, Wall of Chaos, Wall of Evil, Wall of Good, Wall of Law.
 Prayer Beads (500 gp)		TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Atonement
-Quartz (Clear/50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Icelance.
 Quartz (engraved with the image of a tiny castle/100 gp)		TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Nature's Rampart.
 Reliquiary (500 gp)		TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Cloak of Chaos, Holy Aura, Unholy Aura, Shield of Law
 Ring (Platinum/50 gp)		TYPE:MaterialComponent.Focus.Ring	COST:50	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Shield Other, Glory of the Martyr
-Ruby (1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PGtF	SPROP:Material Component for Ruby Ray of Reversal
-Ruby (20 gp)		TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Bloodstar
-Ruby (30 gp)		TYPE:MaterialComponent.Consumable	COST:30	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Bloodstar
-Ruby (500 gp)		TYPE:MaterialComponent.Focus	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Ruby Ray of Reversal.
 Ruby (Crushed/500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:BoVD	SPROP:Material Component for Soul's Treasure Lost
 Ruby and Gold Lens (1500 gp)		TYPE:MaterialComponent.Focus	COST:1500	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Analyze Dweomer
-Sapphire (1000 gp)		TYPE:MaterialComponent.Focus.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Simbul's Spell Sequencer, Spell Matrix. Material Component for Drawmij's Instant Summons. 
-Sapphire (Black/100 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Plague of Undead
-Sapphire (Black/1000 gp)		TYPE:MaterialComponent.Consumable	COST:10000	WT:0	SOURCEPAGE:LM	SPROP:Material Component for Veil of Undeath
 Sculpture of humanoid (Glass/50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Acid Sheath.
 Sculpture of worg (25 gp)		TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Jaws of Worg.
 Set of 4 Pieces of Ivory (200 gp)		TYPE:MaterialComponent.Focus	COST:200	WT:0	SOURCEPAGE:PHB	SPROP:Focus for Legend Lore
@@ -198,8 +206,5 @@ Statuette of a Fiend (50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOU
 Statuette of an Unicorn (Ivory/25 gp)		TYPE:MaterialComponent.Focus	COST:25	WT:0	SOURCEPAGE:PHB2	SPROP:Focus for Melf's Unicorn Arrow
 Stewpot (Engraved/50 gp)		TYPE:MaterialComponent.Focus	COST:50	WT:0	SOURCEPAGE:EXD	SPROP:Focus for Estanna's Stew
 Tiny pewter figure of a warrior (10gp)		TYPE:MaterialComponent.Focus	COST:10	WT:0	SOURCEPAGE:SpC	SPROP:Focus for Phantom Foe.
-Topaz (500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Crown of Renewal Pact.
-Tourmaline (100 gp)		TYPE:MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:CA	SPROP:Material Component for Summon Elemental Monolith
-Unholy Symbol (Silver/Anathema)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	SPROP:Focus for Destruction
 Wheel (Silver/1000 gp)		TYPE:MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:MoF	SPROP:Material Component for Spell Engine.
 Wheel (Silver/500 gp)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:SpC	SPROP:Material Component for Spell Engine.

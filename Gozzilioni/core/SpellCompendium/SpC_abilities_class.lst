@@ -1,9 +1,7 @@
 SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net																															
 #																																	
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
-CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Draconic Might (SpC)|1	BONUS:CASTERLEVEL|SPELL.Dragon Ally (SpC)|1
-CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragon Ally (Greater/SpC)|1	BONUS:CASTERLEVEL|SPELL.Dragon Ally (Lesser/SpC)|1
-CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Dragonskin (SpC)|1	BONUS:CASTERLEVEL|SPELL.Flight of the Dragon (SpC)|1
+# CATEGORY=Special Ability|Casterlevel Bonus ~ Sorcerer.MOD	BONUS:CASTERLEVEL|SPELL.Voice of the Dragon|1
 #
 Fearsome Roar	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	DESC:%1' radius roar (Will DC %2)|FearsomeRoarRadius|FearsomeRoarDC				DEFINE:FearsomeRoarRadius|0	DEFINE:FearsomeRoarDC|10+(HD/2)+CON			BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus(Fearsome Roar)																				SOURCEPAGE:SpC										
 Cold Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:Extra 2d6 cold damage.																												SOURCEPAGE:SpC										

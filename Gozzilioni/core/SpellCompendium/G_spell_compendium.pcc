@@ -22,9 +22,9 @@ COMPANIONMOD:SpC_companionmods.lst
 RACE:SpC_races.lst
 SPELL:SPC_spells__renamed.lst
 SPELL:SPC_spells_a_e.lst
-SPELL:SPC_spells_f_l.lst
-SPELL:SPC_spells_m_r.lst
-SPELL:SPC_spells_s_z.lst
+SPELL:SPC_spells_f_o.lst
+SPELL:SPC_spells_p_s.lst
+SPELL:SPC_spells_t_z.lst
 TEMPLATE:SpC_templates_hidden.lst
 
 #BIOSET:my_biosettings.lst

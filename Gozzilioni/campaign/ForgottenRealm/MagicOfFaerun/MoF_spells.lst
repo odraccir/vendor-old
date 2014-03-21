@@ -261,7 +261,7 @@ Stormrage.COPY=Stormrage	KEY:Stormrage ~ Talos			CLASSES:Cleric=8															
 Strategic Charge.COPY=Strategic Charge	KEY:Strategic Charge ~ Red Knight			CLASSES:Paladin=1																							PREDEITY:1,Red Knight	
 Undead Bane Weapon.COPY=Undead Bane Weapon	KEY:Undead Bane Weapon ~ Kelemvor			CLASSES:Paladin=3																							PREDEITY:1,Kelemvor	
 Undeath after Death.COPY=Undeath after Death	KEY:Undeath after Death ~ Bane			CLASSES:Cleric=7																							PREDEITY:1,Bane	
-Undeath's Eternal Foe.COPY=Undeath's Eternal Foe	KEY:Undead Bane Weapon ~ Lathander			CLASSES:Cleric=9																							PREDEITY:1,Lathander	
+Undeath's Eternal Foe.COPY=Undeath's Eternal Foe	KEY:Undeath's Eternal Foe ~ Lathander			CLASSES:Cleric=9																							PREDEITY:1,Lathander	
 Understand Device.COPY=Understand Device	KEY:Understand Device ~ Gond			CLASSES:Cleric=3																							PREDEITY:1,Gond	
 Warning Shout.Copy=Warning Shout	KEY:Warning Shout ~ Arvoreen			CLASSES:Paladin=1																							PREDEITY:1,Arvoreen	
 Wieldskill.COPY=Wieldskill	KEY:Wieldskill ~ Gond			CLASSES:Cleric=1																							PREDEITY:1,Gond	
