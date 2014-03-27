@@ -19,6 +19,7 @@ ABILITY:SpC_abilities.lst
 ABILITY:SpC_abilities_class.lst
 SPELL:SPC_classes_spells.lst
 COMPANIONMOD:SpC_companionmods.lst
+DOMAIN:SpC_domains.lst
 RACE:SpC_races.lst
 SPELL:SPC_spells__renamed.lst
 SPELL:SPC_spells_a_e.lst

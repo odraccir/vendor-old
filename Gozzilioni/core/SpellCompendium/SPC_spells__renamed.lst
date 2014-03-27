@@ -5,15 +5,33 @@ Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Air	DESC:&nl;*Air spe
 Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Fire	DESC:&nl;*Fire spell only.
 Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Earth	DESC:&nl;*Earth spell only.
 Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Water	DESC:&nl;*Water spell only.
+#
+Summon Monster III.COPY=Summon Monster III	KEY:Summon Monster III ~ Chaotic Evil	DESC:&nl;* Chaotic Evil creatures only.
+Summon Monster III.COPY=Summon Monster III	KEY:Summon Monster III ~ Chaotic Good	DESC:&nl;* Chaotic Good creatures only.
+Summon Monster III.COPY=Summon Monster III	KEY:Summon Monster III ~ Lawful Evil	DESC:&nl;* Lawful Evil creatures only.
+Summon Monster III.COPY=Summon Monster III	KEY:Summon Monster III ~ Lawful Good	DESC:&nl;* Lawful Good creatures only.
+Summon Monster V.COPY=Summon Monster V	KEY:Summon Monster V ~ Chaotic Evil	DESC:&nl;* Chaotic Evil creatures only.
+Summon Monster V.COPY=Summon Monster V	KEY:Summon Monster V ~ Chaotic Good	DESC:&nl;* Chaotic Good creatures only.
+Summon Monster V.COPY=Summon Monster V	KEY:Summon Monster V ~ Lawful Evil	DESC:&nl;* Lawful Evil creatures only.
+Summon Monster V.COPY=Summon Monster V	KEY:Summon Monster V ~ Lawful Good	DESC:&nl;* Lawful Good creatures only.
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Air	DESC:&nl;* Air subtype creature.
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Fire	DESC:&nl;* Fire subtype creature.
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Earth	DESC:&nl;* Earth subtype creature.
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Water	DESC:&nl;* Water subtype creature.
+Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Chaotic Evil	DESC:&nl;* Chaotic Evil creatures only.
+Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Chaotic Good	DESC:&nl;* Chaotic Good creatures only.
+Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Lawful Evil	DESC:&nl;* Lawful Evil creatures only.
+Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Lawful Good	DESC:&nl;* Lawful Good creatures only.
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Chaotic Evil	DESC:&nl;* Chaotic Evil creatures only.
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Chaotic Good	DESC:&nl;* Chaotic Good creatures only.
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Lawful Evil	DESC:&nl;* Lawful Evil creatures only.
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Lawful Good	DESC:&nl;* Lawful Good creatures only.
+#
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Air	DESC:&nl;* Air elementals or animals only.
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Fire	DESC:&nl;* Fire elementals or animals only.
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Earth	DESC:&nl;* Earth elementals or animals only.
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Water	DESC:&nl;* Water elementals or animals only.
-
+#
 Planar Exchange (Lesser).MOD	DESC:&nl;*Celestial Brown Bear&colon; See MM, p.269.																												
 Planar Exchange (Lesser).MOD	DESC:&nl;*Celestial Griffon&colon; See MM, p.139.																												
 Planar Exchange (Lesser).MOD	DESC:&nl;*Fiendish Dire Ape&colon; See MM, p.62.																												

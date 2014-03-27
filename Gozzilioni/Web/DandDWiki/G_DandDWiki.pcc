@@ -17,6 +17,9 @@ INFOTEXT:sito web.
 #Random Encounter
 ABILITY:ddw_abilities_class.lst
 COMPANIONMOD:ddw_companionmods.lst
+EQUIPMENT:ddw_equip_armorshields.lst
+EQUIPMOD:ddw_equipmods_enhancing.lst
+FEAT:ddw_feats.lst
 RACE:ddw_races.lst
 SPELL:ddw_spells.lst
 
