@@ -7,7 +7,7 @@ Karaan	ALIGN:CE		DESC:Karaan (M)	DOMAINS:Bestial,Chaos,Destruction|PREALIGN:NE,C
 Rallaster	ALIGN:CE		DESC:Rallaster (M)	DOMAINS:Evil,Destruction,Pain|PREALIGN:NE,CN,CE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,wikipedia
 #The Patient One	ALIGN:	DEITYWEAP:	DESC:()	DOMAINS:Darkness,Destruction,Corruption|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,G	
 Scahrossar	ALIGN:LE		DESC:Scahrossar (F)	DOMAINS:Death,Evil,Pain|PREALIGN:LN,LE,NE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,wikipedia	
-Xammux	ALIGN:NE		DESC:Xammux (?)	DOMAINS:Inquisition,Darkness BoVD,Knowledge,Truth|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,google,xammux.txt
+Xammux	ALIGN:NE		DESC:Xammux (?)	DOMAINS:Inquisition,Darkness,Knowledge,Truth|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,google,xammux.txt
 #Yeathan	ALIGN:NE	DEITYWEAP:	DESC:()	DOMAINS:Evil,Destruction,Water|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD,google
 
 #	ALIGN:	DEITYWEAP:	DESC:()	DOMAINS:|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD	

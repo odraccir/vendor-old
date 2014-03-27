@@ -95,7 +95,7 @@ Wings of Air			TYPE:Arcane.Divine	CLASSES:Druid=2|Sorcerer,Wizard=2		SCHOOL:Tran
 Wings of Air (Greater)	OUTPUTNAME:Wings of Air		TYPE:Arcane.Divine	CLASSES:Druid=4|Sorcerer,Wizard=4		SCHOOL:Transmutation			COMPS:V	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Winged creature touched.		DURATION:1 minute/level	SAVEINFO:None (harmless)	SPELLRES:No	DESC:Manuverability improves by two steps.	SOURCEPAGE:SpC									TEMPBONUS:ANYPC|VAR|Maneuverability|2|TYPE=WingsOfAir		
 Wings of the Sea			TYPE:Arcane.Divine	CLASSES:Cleric=1|Druid=1|Ranger=1|Sorcerer,Wizard=1		SCHOOL:Transmutation			COMPS:S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.		DURATION:1 minute/level	SAVEINFO:Fort negates (harmless)	SPELLRES:Yes	DESC:Increases creatures swim speed by 30 ft.	SOURCEPAGE:SpC									TEMPBONUS:ANYPC|MOVEADD|TYPE.Swim|30		
 Winter Chill			TYPE:Divine	CLASSES:Druid=1		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.		DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Creature must suceed on save or take 1d6 points of cold damage and become fatigued.	SOURCEPAGE:SpC											
-Winter’s Embrace			TYPE:Divine	CLASSES:Druid=2		SCHOOL:Evocation		DESCRIPTOR:Cold	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.		DURATION:1 round/level	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Creature fails it's save takes 1d8 cold damage each round.	SOURCEPAGE:SpC											
+Winter's Embrace			TYPE:Divine	CLASSES:Druid=2		SCHOOL:Evocation		DESCRIPTOR:Cold	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.		DURATION:1 round/level	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Creature fails it's save takes 1d8 cold damage each round.	SOURCEPAGE:SpC											
 Wither Limb			TYPE:Divine			SCHOOL:Necromancy		DESCRIPTOR:Evil	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Limbs of one humanoid.		DURATION:Permanent	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Caster choose whether to wither the arms or legs	 legs force the victim prone and reduce movement to 5 ft.	 arms makes it impossible to cast somantic or use objects.	SOURCEPAGE:SpC									
 Withering Palm			TYPE:Divine	CLASSES:Cleric=7		SCHOOL:Necromancy			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.		DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Your touch deals 1 pt of damage to both Strength and Constitution per two caster levels.	SOURCEPAGE:SpC							TEMPBONUS:ANYPC|STAT|STR,CON|-1*(%CHOICE/2)	CHOOSE:NUMBER|MIN=1|MAX=20|TITLE=Choose Choose caster level			
 Wood Rot			TYPE:Divine	CLASSES:Druid=4		SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One nonmagical wooden object or a volume of wood or one plant creature.		DURATION:Instantaneous or 1 round/level.	SAVEINFO:None	SPELLRES:No	DESC:Deal damage to plants or destroy wooden objects.	SOURCEPAGE:SpC											
@@ -112,44 +112,3 @@ Zeal			TYPE:Divine	CLASSES:Blackguard=2|Paladin=2		SCHOOL:Abjuration			COMPS:V, 
 Zealot Pact			TYPE:Divine	CLASSES:Cleric=6		SCHOOL:Evocation			COMPS:V, S, DF, XP	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Willing living creature touched.		DURATION:Permanent until triggered, then 1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Gain +4 bonus and deal double damage against opposite alignment once spell is activated by first successful hit.	SOURCEPAGE:SpC			XPCOST:500								
 Zone of Respite			TYPE:Arcane.Divine	CLASSES:Cleric=5|Sorcerer,Wizard=5		SCHOOL:Abjuration			COMPS:V, S, M	CASTTIME:2 rounds	RANGE:20-ft.	TARGETAREA:20-ft-radius emanation centered on you.		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:Creates a region that is temporarily protected from interplanar intrusion.	SOURCEPAGE:SpC											
 Zone of Revelation			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Divination			COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:5-ft-radius/level emanation centered on a point in space.		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:All creatures and objects with a zone of relevation are made visible.	SOURCEPAGE:SpC											
-																													
-																													
-																													
-																													
-																													
-Planar Exchange (Lesser).MOD	DESC:&nl;*Celestial Brown Bear&colon; See MM, p.269.																												
-Planar Exchange (Lesser).MOD	DESC:&nl;*Celestial Griffon&colon; See MM, p.139.																												
-Planar Exchange (Lesser).MOD	DESC:&nl;*Fiendish Dire Ape&colon; See MM, p.62.																												
-Planar Exchange (Lesser).MOD	DESC:&nl;*Fiendish Tiger&colon; See MM, p.281.																												
-Planar Exchange (Greater).MOD	DESC:&nl;*Guardinal (leonal)&colon; See MM, p.142.																												
-Planar Exchange (Greater).MOD	DESC:&nl;*Devil (barbed)&colon; See MM, p.51.																												
-Planar Exchange (Greater).MOD	DESC:&nl;*Demon (herzou)&colon; See MM, p.44.																												
-Planar Exchange.MOD	DESC:&nl;*Guardinal (avoral)&colon; See MM, p.141.																												
-Planar Exchange.MOD	DESC:&nl;*Devil (bone)&colon; See MM, p.52.																												
-Planar Exchange.MOD	DESC:&nl;*Demon (babau)&colon; See MM, p.40.																												
-Summon Undead I.MOD	DESC:&nl;*Human warrior skeleton &colon; See MM, p.226.																												
-Summon Undead I.MOD	DESC:&nl;*Kobold zombie&colon; See MM, p.266.																												
-Summon Undead II.MOD	DESC:&nl;*Owlbear skeleton&colon; See MM, p.226.																												
-Summon Undead II.MOD	DESC:&nl;*Bugbear zombie&colon; See MM, p.267.																												
-Summon Undead III.MOD	DESC:&nl;*Ghoul&colon; See MM, p.118.																												
-Summon Undead III.MOD	DESC:&nl;*Troll skeleton&colon; See MM, p.227.																												
-Summon Undead III.MOD	DESC:&nl;*Ogre zombie&colon; See MM, p.267.																												
-Summon Undead IV.MOD	DESC:&nl;*Allip&colon; See MM, p.10.																												
-Summon Undead IV.MOD	DESC:&nl;*Ghast&colon; See MM, p.119.																												
-Summon Undead IV.MOD	DESC:&nl;*Wyvern zombie&colon; See MM, p.267.																												
-Summon Undead V.MOD	DESC:&nl;*Mummy&colon; See MM, p.190.																												
-Summon Undead V.MOD	DESC:&nl;*Shadow&colon; See MM, p.221.																												
-Summon Undead V.MOD	DESC:&nl;*Vampire spawn&colon; See MM, p.253.																												
-Summon Undead V.MOD	DESC:&nl;*Wight&colon; See MM, p.255.																												
-Vipergout.MOD	DESC:&nl;*Fiendish or Celestial medium Vipers&colon; See MM, p.280.																												
-#																													
-Weapon of Deity.MOD	DESC:&nl;* See SpC.																												
-Weapon of Deity.MOD	DESC:&nl;* See PgtF.																												
-Weapon of Deity.MOD	DESC:&nl;* See MoF.																												
-#																													
-###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL																												
-Deafening Breath.MOD	TYPE:Obsolete																												
-###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL																												
-Shout (Great).MOD	TYPE:Obsolete																												
-###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL																												
-Teleport (Mass).MOD	TYPE:Obsolete																												

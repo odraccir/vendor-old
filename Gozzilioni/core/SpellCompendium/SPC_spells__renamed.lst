@@ -1,6 +1,56 @@
 SOURCELONG:Spell Compendium	SOURCESHORT:SpC	SOURCEWEB:http://www.gozzilioni.net																												
 																														
 # Spell Name	OUTPUTNAME:	Spell Variations	TYPE:	CLASSES:	DOMAINS:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:		DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose				
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Air	DESC:&nl;*Air spell only.
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Fire	DESC:&nl;*Fire spell only.
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Earth	DESC:&nl;*Earth spell only.
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Water	DESC:&nl;*Water spell only.
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Air	DESC:&nl;* Air subtype creature.
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Fire	DESC:&nl;* Fire subtype creature.
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Earth	DESC:&nl;* Earth subtype creature.
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Water	DESC:&nl;* Water subtype creature.
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Air	DESC:&nl;* Air elementals or animals only.
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Fire	DESC:&nl;* Fire elementals or animals only.
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Earth	DESC:&nl;* Earth elementals or animals only.
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Water	DESC:&nl;* Water elementals or animals only.
+
+Planar Exchange (Lesser).MOD	DESC:&nl;*Celestial Brown Bear&colon; See MM, p.269.																												
+Planar Exchange (Lesser).MOD	DESC:&nl;*Celestial Griffon&colon; See MM, p.139.																												
+Planar Exchange (Lesser).MOD	DESC:&nl;*Fiendish Dire Ape&colon; See MM, p.62.																												
+Planar Exchange (Lesser).MOD	DESC:&nl;*Fiendish Tiger&colon; See MM, p.281.																												
+Planar Exchange (Greater).MOD	DESC:&nl;*Guardinal (leonal)&colon; See MM, p.142.																												
+Planar Exchange (Greater).MOD	DESC:&nl;*Devil (barbed)&colon; See MM, p.51.																												
+Planar Exchange (Greater).MOD	DESC:&nl;*Demon (herzou)&colon; See MM, p.44.																												
+Planar Exchange.MOD	DESC:&nl;*Guardinal (avoral)&colon; See MM, p.141.																												
+Planar Exchange.MOD	DESC:&nl;*Devil (bone)&colon; See MM, p.52.																												
+Planar Exchange.MOD	DESC:&nl;*Demon (babau)&colon; See MM, p.40.																												
+Summon Undead I.MOD	DESC:&nl;*Human warrior skeleton &colon; See MM, p.226.																												
+Summon Undead I.MOD	DESC:&nl;*Kobold zombie&colon; See MM, p.266.																												
+Summon Undead II.MOD	DESC:&nl;*Owlbear skeleton&colon; See MM, p.226.																												
+Summon Undead II.MOD	DESC:&nl;*Bugbear zombie&colon; See MM, p.267.																												
+Summon Undead III.MOD	DESC:&nl;*Ghoul&colon; See MM, p.118.																												
+Summon Undead III.MOD	DESC:&nl;*Troll skeleton&colon; See MM, p.227.																												
+Summon Undead III.MOD	DESC:&nl;*Ogre zombie&colon; See MM, p.267.																												
+Summon Undead IV.MOD	DESC:&nl;*Allip&colon; See MM, p.10.																												
+Summon Undead IV.MOD	DESC:&nl;*Ghast&colon; See MM, p.119.																												
+Summon Undead IV.MOD	DESC:&nl;*Wyvern zombie&colon; See MM, p.267.																												
+Summon Undead V.MOD	DESC:&nl;*Mummy&colon; See MM, p.190.																												
+Summon Undead V.MOD	DESC:&nl;*Shadow&colon; See MM, p.221.																												
+Summon Undead V.MOD	DESC:&nl;*Vampire spawn&colon; See MM, p.253.																												
+Summon Undead V.MOD	DESC:&nl;*Wight&colon; See MM, p.255.																												
+Vipergout.MOD	DESC:&nl;*Fiendish or Celestial medium Vipers&colon; See MM, p.280.																												
+#																													
+Weapon of Deity.MOD	DESC:&nl;* See SpC.																												
+Weapon of Deity.MOD	DESC:&nl;* See PgtF.																												
+Weapon of Deity.MOD	DESC:&nl;* See MoF.																												
+#																													
+###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL																												
+Deafening Breath.MOD	TYPE:Obsolete																												
+###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL																												
+Shout (Great).MOD	TYPE:Obsolete																												
+###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL																												
+Teleport (Mass).MOD	TYPE:Obsolete																												
+
 # Aganazzar's Scorcher.MOD	OUTPUTNAME:Scorch	KEY:Scorch																												
 # Air Bubble.MOD	OUTPUTNAME:Deep Breath	KEY:Deep Breath																												
 # Alamanther's Return.MOD	OUTPUTNAME:Replicate Casting	KEY:Replicate Casting																												

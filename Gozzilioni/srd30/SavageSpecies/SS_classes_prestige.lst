@@ -100,7 +100,7 @@ CLASS:Survivor	STARTSKILLPTS:2	CSKILL:ALL
 CLASS:Sybil	HD:4	TYPE:Monster.Prestige	ABB:Syb	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
 CLASS:Sybil	PREALIGN:TN	PRESKILL:1,Concentration=10	PRESKILL:2,Knowledge (Arcana)=8,Sense Motive=8	PREFEAT:1,Empower Spell Like Ability	PRETEXT:must have an innate spell-like divination ability						
 CLASS:Sybil	STARTSKILLPTS:6	CSKILL:Concentration|TYPE.Craft|Diplomacy|Gather Information|Hide|Knowledge (Arcana)|Knowledge (Religion)|Listen|TYPE.Profession|Sense Motive									
-1				ABILITY:Special Ability|AUTOMATIC|Divine Insight			BONUS:VAR|Insanity|CL				
+1				ABILITY:Special Ability|AUTOMATIC|Divine Insight|Insanity Score			BONUS:VAR|Insanity|CL				
 2				ABILITY:Special Ability|AUTOMATIC|Reclusive Insight							
 3				ABILITY:Special Ability|AUTOMATIC|Riddle ~ Conundrum|Sybil Riddle			BONUS:VAR|SybilRiddleLVL|CL				
 4				ABILITY:Special Ability|AUTOMATIC|Lesser Geas (Sp)|Mysterious Lore			BONUS:VAR|LesserGeasPerDay|1	BONUS:VAR|LesserGeasLVL|CL+classlevel("Cleric")	BONUS:VAR|MysteriousLore|Insanity		

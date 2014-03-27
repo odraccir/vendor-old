@@ -1323,7 +1323,7 @@ Bloodline Arcana ~ Undead	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:Y
 Bloodline Arcana ~ Verdant	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:Whenever you cast a spell with a range of personal, your skin toughens, granting you a natural armor bonus equal to the spell's level for 1d4 rounds. This bonus does not stack with any other natural armor bonuses you might have.	OUTPUTNAME:Bloodline Arcana																											SOURCEPAGE:PFSrd			
 																																			
 Skill Focus ~ Fly	CATEGORY:FEAT	TYPE:BloodlineFeatDraconic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Fly)													SOURCEPAGE:PFSrd			
-Skill Focus ~ Craft	CATEGORY:FEAT	TYPE:BloodlineFeatProtean	VISIBLE:DISPLAY												STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE=Craft	SELECT:1	AUTO:FEAT|Skill Focus(%LIST)													SOURCEPAGE:PFSrd			
+Skill Focus ~ Craft	CATEGORY:FEAT	TYPE:SkillFocusFeatCraft.BloodlineFeatProtean	VISIBLE:DISPLAY												STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE=Craft	SELECT:1	AUTO:FEAT|Skill Focus(%LIST)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Intimidate	CATEGORY:FEAT	TYPE:BloodlineFeatBoreal	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Intimidate)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Knowledge Arcana	CATEGORY:FEAT	TYPE:BloodlineFeatArcane.BllodlineFeatDraconic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (Arcana))													SOURCEPAGE:PFSrd			
 Skill Focus ~ Knowledge Dungeoneering	CATEGORY:FEAT	TYPE:BloodlineFeatAberrant	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Knowledge (Dungeoneering))													SOURCEPAGE:PFSrd			
@@ -1337,6 +1337,9 @@ Skill Focus ~ Spot	CATEGORY:FEAT	TYPE:BloodlineFeatDeepEarth	VISIBLE:DISPLAY				
 Skill Focus ~ Swim	CATEGORY:FEAT	TYPE:BloodlineFeatAquatic	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Swim)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Hide	CATEGORY:FEAT	TYPE:BloodlineFeatShadow	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Hide)													SOURCEPAGE:PFSrd			
 Skill Focus ~ Move Silently	CATEGORY:FEAT	TYPE:BloodlineFeatShadow	VISIBLE:DISPLAY																AUTO:FEAT|Skill Focus(Move Silently)													SOURCEPAGE:PFSrd			
+
+Weapon Focus ~ Light Hammer	CATEGORY:FEAT	TYPE:WeaponFocusFeatMetal	VISIBLE:DISPLAY																AUTO:FEAT|Martial Weapon Proficiency(Hammer (Light))|Weapon Focus(Hammer (Light))													SOURCEPAGE:SpC			
+Weapon Focus ~ Warammer	CATEGORY:FEAT	TYPE:WeaponFocusFeatMetal	VISIBLE:DISPLAY																AUTO:FEAT|Martial Weapon Proficiency(Warhammer)|Weapon Focus(Warhammer)													SOURCEPAGE:SpC			
 																																			
 Bludgeoning	CATEGORY:Internal	TYPE:MeleeWeaponMastery	VISIBLE:YES	DESC:You gain a +2 bonus on attack rolls and a +2 bonus on damage rolls with melee bludgeoning weapon.	KEY:Bludgeoning ~ Melee Weapon Mastery						BONUS:WEAPONPROF=TYPE.MeleeBludgeoning|TOHIT,DAMAGE|2|WeaponMastery																					SOURCEPAGE:PHB2			
 Slashing	CATEGORY:Internal	TYPE:MeleeWeaponMastery	VISIBLE:YES	DESC:You gain a +2 bonus on attack rolls and a +2 bonus on damage rolls with melee slashing weapon.	KEY:Slashing ~ Melee Weapon Mastery						BONUS:WEAPONPROF=TYPE.MeleeSlashing|TOHIT,DAMAGE|2|WeaponMastery																					SOURCEPAGE:PHB2			
