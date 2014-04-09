@@ -77,7 +77,7 @@ CLASS:Chaos Dragon	STARTSKILLPTS:6	CSKILL:Listen|Search|Spot|Concentration|Diplo
 ###Block: Frightful Presence													
 1	ABILITY:Special Ability|AUTOMATIC|Frightful Presence						BONUS:VAR|FrightfulPresRange|DragonAge*30|PREVARGTEQ:DragonAge,5						
 ###Block: Normal Progression													
-1				ABILITY:Special Ability|AUTOMATIC|Immunity to Compulsion Effects									
+1				ABILITY:Special Ability|AUTOMATIC|Immunity to Compulsion									
 6										DEFINE:DragonAge|1			
 9										DEFINE:DragonAge|2	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonCL|Protection from Law		
 12									DR:5/Magic	DEFINE:DragonAge|3			

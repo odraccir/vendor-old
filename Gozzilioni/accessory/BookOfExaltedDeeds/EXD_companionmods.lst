@@ -33,7 +33,7 @@ FOLLOWER:UnicornMountLVL=6	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|
 																				
 FOLLOWER:FlyingMountLVL=1	TYPE:Flying Mount	HD:2		ABILITY:Special Ability|AUTOMATIC|Celestial Flying Mount|Empathic Link	ABILITY:Special Ability|AUTOMATIC|Share Spells|Flying Mount ~ Improved Natural Attacks							BONUS:COMBAT|AC|4|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
 FOLLOWER:FlyingMountLVL=4	TYPE:Flying Mount	HD:2		ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Improved Fly Speed|Flying Mount ~ Deadly Charge								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
-FOLLOWER:FlyingMountLVL=7	TYPE:Flying Mount	HD:2	SR:12	ABILITY:Special Ability|AUTOMATIC|Immunity To Hold Effects|Immunity To Paralysis|Immunity To Sleep|Immunity To Charm Effects|Immunity to Compulsion Effects								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
+FOLLOWER:FlyingMountLVL=7	TYPE:Flying Mount	HD:2	SR:12	ABILITY:Special Ability|AUTOMATIC|Immunity To Hold Effects|Immunity To Paralysis|Immunity To Sleep|Immunity To Charm Effects|Immunity to Compulsion								BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						
 FOLLOWER:FlyingMountLVL=8	TYPE:Flying Mount		SR:13																	
 FOLLOWER:FlyingMountLVL=9	TYPE:Flying Mount		SR:14																	
 FOLLOWER:FlyingMountLVL=10	TYPE:Flying Mount	HD:2	SR:15									BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		BONUS:STAT|STR|1						BONUS:ABILITYPOOL|Flying Mount Feat|1

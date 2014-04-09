@@ -10,10 +10,7 @@ CATEGORY=Special Ability|Rebuke Water.MOD	TYPE:TurnElemental
 CATEGORY=Special Ability|Turn Fire.MOD	TYPE:TurnElemental																																
 CATEGORY=Special Ability|Rebuke Fire.MOD	TYPE:TurnElemental																																
 CATEGORY=Special Ability|Wild Shape.MOD	TYPE:WildShape																																
-CATEGORY=Special Ability|Aura of Menace.MOD	DESC:Will DC %1|AuraMenaceDC	DEFINE:AuraMenaceDC|10+(HD/2)+CHA	BONUS:VAR|AuraMenaceDC|2|PREFEAT:1,Ability Focus(Aura of Menace)																														
-CATEGORY=Special Ability|Wild Shape.MOD	TYPE:WildShape																																
 CATEGORY=Special Ability|Rage.MOD	TYPE:Rage																																
-CATEGORY=Special Ability|Paralyzing Gaze.MOD	DEFINE:ParalyzingGazeDC|0	DESC:DC %1|ParalyzingGazeDC|PREVARGT:ParalyzingGazeDC,0	BONUS:VAR|ParalyzingGazeDC|2|PREFEAT:1,Ability Focus(Paralyzing Gaze)																														
 CATEGORY=Special Ability|Curse of Lycanthropy.MOD	DEFINE:CurseOfLycanthropyDC|15	DESC:Fort DC %1|CurseOfLycanthropyDC																															
 CATEGORY=Special Ability|Whirlwind.MOD	DESC:Ref DC %1|WhirlwindDC	DEFINE:WhirlwindDC|10+(HD/2)+STR	BONUS:VAR|WhirlwindDC|2|PREFEAT:1,Ability Focus(Whirlwind)																														
 CATEGORY=Special Ability|Burn.MOD	DESC:Ref DC %1|BurnDC	DEFINE:BurnDC|10+(HD/2)+CON	BONUS:VAR|BurnDC|2|PREFEAT:1,Ability Focus(Burn)																														
@@ -27,7 +24,7 @@ CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBo
 CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate
 #																																	
 Alternate Form (Sp)	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
-
+Aura of Menace	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Aura	VISIBLE:YES	DESC:Will DC %1|AuraMenaceDC	DEFINE:AuraMenaceDC|10+(HD/2)+CHA	BONUS:VAR|AuraMenaceDC|2|PREFEAT:1,Ability Focus(Aura of Menace)																									SOURCEPAGE:MM	
 Circle Leader	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY								DEFINE:CircleLeaderPower|0								ABILITY:Special Ability|AUTOMATIC|Circle Leader Output|PREVARLTEQ:CircleLeaderPower,1	ABILITY:Special Ability|AUTOMATIC|Great Circle Leader Output|PREVARGTEQ:CircleLeaderPower,2												SOURCEPAGE:DMG	
 Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Circle Leader																												SOURCEPAGE:DMG	
 Great Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Great Circle Leader																												SOURCEPAGE:DMG	
@@ -49,6 +46,7 @@ Immunity to Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordi
 Inertial Armor (Sp)	CATEGORY:Special Ability	TYPE:SpecialQuality.SpellLike	VISIBLE:YES	DESC:+4armor bonus to AC as long as remain conscious.																												SOURCEPAGE:MM	
 Mist Form	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You have the supernatural ability to assume a misty form.																												SOURCEPAGE:MMay	
 Negative Energy Lash	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:MotP
+Paralyzing Gaze	CATEGORY:Special Ability	TYPE:TYPE:SpecialAttack.Supernatural	VISIBLE:YES	DESC:DC %1|ParalyzingGazeDC|PREVARGT:ParalyzingGazeDC,0	DEFINE:ParalyzingGazeDC|0	BONUS:VAR|ParalyzingGazeDC|2|PREFEAT:1,Ability Focus(Paralyzing Gaze)																														SOURCEPAGE:MM	
 Produce Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
 Protected Sight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES		DESC:+3 racial bonus on saving throw against any light or pattern effect.																											SOURCEPAGE:MM	
 Resistance To Ranged Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO					DEFINE:RangedAttackResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Ranged Attack Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Ranged Attack,Vulnerability To Ranged Attack													SOURCEPAGE:MM	

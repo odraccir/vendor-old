@@ -14,4 +14,4 @@ Shimmaryn			TYPE:Artifact.Gem	COST:0	WT:0.5													SOURCEPAGE:MoF		SPROP:gl
 #MAJOR ARTIFACTS																																						
 # Equipment Name	Output Name		Type	Cost																																		
 Crown of Horns			TYPE:Artifact.Headgear	COST:0	WT:2													SOURCEPAGE:MoF																				
-Naga Crown			TYPE:Artifact.Headgear	COST:0	WT:2							EQMOD:SELF_ID						SOURCEPAGE:MoF			ABILITY:Special Ability|VIRTUAL|See Invisibility (Sp at will)	DEFINE:SeeInvisibilityLVL|15																
+Naga Crown			TYPE:Artifact.Headgear	COST:0	WT:2							EQMOD:SELF_ID						SOURCEPAGE:MoF			ABILITY:Special Ability|VIRTUAL|See Invisibility (Sp/atwill)	DEFINE:SeeInvisibilityLVL|15																

@@ -37,68 +37,58 @@ CLASS:Dragon Shaman	PREALIGN:LG,LN,LE,NG,NE,CG,CN,CE
 CLASS:Dragon Shaman	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Nature)|Search	LANGBONUS:Draconic																																				
 SUBCLASS:Black Dragon Shaman	COST:1	PREALIGN:NE,CE,CN																																					
 SUBCLASSLEVEL:1		CSKILL:Hide|Move Silently|Swim																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Acid																																			
 SUBCLASS:Blue Dragon Shaman	COST:1	PREALIGN:NE,LE,LN																																					
 SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Spellcraft																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=CL|Ventriloquism																													
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Lightning|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity																																			
 SUBCLASS:Brass Dragon Shaman	COST:1	PREALIGN:NG,CG,CN																																					
 SUBCLASSLEVEL:1		CSKILL:Bluff|Gather Information|Survival																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=CL|Endure Elements																													
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Fire|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Fire																																			
 SUBCLASS:Bronze Dragon Shaman	COST:1	PREALIGN:NG,LG,LN																																					
 SUBCLASSLEVEL:1		CSKILL:Disguise|Survival|Swim																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Lightning|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity																																			
 SUBCLASS:Copper Dragon Shaman	COST:1	PREALIGN:NG,CG,CN																																					
 SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Jump																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=CL|Spider Climb																													
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Acid																																			
 SUBCLASS:Gold Dragon Shaman	COST:1	PREALIGN:NG,LG,LN																																					
 SUBCLASSLEVEL:1		CSKILL:Disguise|Heal|Swim																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Fire																																			
 SUBCLASS:Green Dragon Shaman	COST:1	PREALIGN:NE,LE,LN																																					
 SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Move Silently																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Acid|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Acid																																			
 SUBCLASS:Red Dragon Shaman	COST:1	PREALIGN:NE,CE,CN																																					
 SUBCLASSLEVEL:1		CSKILL:Appraise|Bluff|Jump																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Treasure Seeker																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Fire																																			
 SUBCLASS:Silver Dragon Shaman	COST:1	PREALIGN:NG,LG,LN																																					
 SUBCLASSLEVEL:1		CSKILL:Bluff|Disguise|Jump																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=CL|Feather Fall																													
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Cold																																			
 SUBCLASS:White Dragon Shaman	COST:1	PREALIGN:NE,CE,CN																																					
 SUBCLASSLEVEL:1		CSKILL:Hide|Move Silently|Swim																																					
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																					
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Icewalking																																			
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL																																
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Cold																																			
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragon Shaman|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonShamanProficiencies
 #																																							
 1				ABILITY:Special Ability|AUTOMATIC|Draconic Aura|Totem Dragon			BONUS:VAR|DraconicAuraBonus|1+(CL/5)	BONUS:ABILITYPOOL|Draconic Aura|min(1+((CL+3)/2),7)																															
-2																																							
+2							BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)																																
 3																																							
 4				ABILITY:Special Ability|AUTOMATIC|Immunity To Paralysis|Immunity To Sleep																																			
 5																																							

@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Monster Manual
 ABILITY:PHB_abilities_class.lst
+FEAT:PHB_feats.lst
 SPELL:PHB_spells.lst
 
 #BIOSET:my_biosettings.lst

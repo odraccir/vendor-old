@@ -81,7 +81,7 @@ CLASS:Champion of Gwynharwyf	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSP
 4	CAST:0,1,1			ABILITY:Special Ability|AUTOMATIC|Fearsome Fury							
 5	CAST:0,1,1,0			ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity			BONUS:VAR|AcidResistanceBonus|5	BONUS:VAR|ColdResistanceBonus|5	BONUS:VAR|ElectricityResistanceBonus|5		
 6	CAST:0,1,1,1										
-7	CAST:0,2,1,1,0			ABILITY:Special Ability|AUTOMATIC|Immunity To Charm Effects|Immunity to Compulsion Effects							
+7	CAST:0,2,1,1,0			ABILITY:Special Ability|AUTOMATIC|Immunity To Charm Effects|Immunity to Compulsion							
 8	CAST:0,2,1,1,1										
 9	CAST:0,2,2,1,1										
 10	CAST:0,2,2,2,1						BONUS:VAR|AcidResistanceBonus|5	BONUS:VAR|ColdResistanceBonus|5	BONUS:VAR|ElectricityResistanceBonus|5		

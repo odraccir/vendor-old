@@ -31,6 +31,7 @@ ABILITYCATEGORY:Ghost Class Ability Lesser	CATEGORY:Special Ability	TYPE:GhostCl
 ABILITYCATEGORY:Ghost Class Ability Major	CATEGORY:Special Ability	TYPE:GhostClassMajorAbility	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Ghost Major Abilities	DISPLAYLOCATION:Class Abilities
 #
 #Abilitygroup:Category
+ABILITYCATEGORY:Warlock Epic Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation.DarkInvocation.EpicInvocation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Epic Invocations	DISPLAYLOCATION:Class Abilities	
 ABILITYCATEGORY:Warlock Dark Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation.DarkInvocation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Dark Invocations	DISPLAYLOCATION:Class Abilities	
 ABILITYCATEGORY:Warlock Greater Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation.LesserInvocation.GreaterInvocation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Greater Invocations	DISPLAYLOCATION:Class Abilities	
 ABILITYCATEGORY:Warlock Least Invocation	CATEGORY:Warlock Invocation	TYPE:LeastInvocation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Warlock Least Invocations	DISPLAYLOCATION:Class Abilities	

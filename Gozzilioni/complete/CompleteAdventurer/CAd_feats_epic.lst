@@ -5,9 +5,7 @@ SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.n
 Augmented Alchemy	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21	PRESKILL:1,Craft (Alchemy)=24			PRESTAT:1,INT=21									DESC:You can create alchemical items and substances that are much more powerful than normal.																	SOURCEPAGE:CAd	
 Augmented Alchemy.MOD	SOURCEPAGE:CAd
 Epic Dodge	TYPE:Epic	VISIBLE:YES				PREFEAT:1,Dodge					PRELEVEL:MIN=21	PRESKILL:1,Tumble=30			PRESTAT:1,DEX=25					PREABILITY:1,CATEGORY=Special Ability,Improved Evasion		PREABILITY:1,CATEGORY=Special Ability,Defensive Roll		DESC:You are able to evade attacks with exceptional agility.																	SOURCEPAGE:CAd	
-Epic Dodge.MOD	SOURCEPAGE:CAd
 Epic Reputation	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21													DESC:Your reputation provides great bonuses on interaction with others													BONUS:SKILL|Bluff,Diplomacy,Gather Information,TYPE=Perform|4				SOURCEPAGE:CAd	
-Epic Reputation.MOD	SOURCEPAGE:CAd
 #Epic Skill Focus																																										
 Group Inspiration	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21	PRESKILL:1,TYPE.Perform=30										PREABILITY:1,CATEGORY=Special Ability,Bardic Music		DESC:Your bardic powers can inspire more allies than normal																	SOURCEPAGE:CAd	
 Improved Skirmish	TYPE:Epic	VISIBLE:YES									PRELEVEL:MIN=21										PREMULT:2,[PREVARGTEQ:SkirmishDamage,4],[PREVARGTEQ:SkirmishAC,4]	PREABILITY:1,CATEGORY=Special Ability,Skirmish Attack		DESC:Your combat mobility improves																	SOURCEPAGE:CAd	

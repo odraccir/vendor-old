@@ -40,7 +40,7 @@ CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Immunity To Charm Effects											
 3	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Pierce Illusion											
 4	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Pierce Disguise											
-5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Immunity To Compulsion Effects											
+5	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Immunity To Compulsion											
 6	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Force Shapechange											
 7	ADD:SPELLCASTER|Divine														
 8	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Immunity to Possession											

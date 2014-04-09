@@ -24,7 +24,7 @@ CLASS:Acolyte	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:YES	KNOWNSPELLS:LEVEL=0|LE
 10	CAST:4,3,2,2			ABILITY:Special Ability|AUTOMATIC|Strength of the Faithful								
 #
 CLASS:Alchemist	HD:4	TYPE:Base.NPC.Academic	ABB:Acs	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
-CLASS:Alchemist	PRETEXT:In order to enter the alchemist class after 1st level, a character must work as an apprentice to a master of this art. The character must spend 1d4 months working as the master’s servant. After this time, he may advance in this class as normal.											
+CLASS:Alchemist	PRETEXT:In order to enter the alchemist class after 1st level, a character must work as an apprentice to a master of this art. The character must spend 1d4 months working as the master's servant. After this time, he may advance in this class as normal.											
 CLASS:Alchemist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|TYPE.Profession|Speak Language|Use Magic Device										
 CLASS:Alchemist	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Alchemist|CL/2							
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Alchemist
@@ -52,7 +52,7 @@ CLASS:Antiquarian	STARTSKILLPTS:6	CSKILL:Appraise|Concentration|Decipher Script|
 5				ABILITY:Special Ability|AUTOMATIC|Catalogue Knowledge								
 #
 CLASS:Apprentice	HD:4	TYPE:Base.NPC.Academic	ABB:App	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
-CLASS:Apprentice	PRETEXT:In order to enter the apprentice class after 1st level, a character must serve a wizard and learn arcane lore from him. The character must spend 1d4 months working as the master’s servant. After this time, he may advance in this class as normal.											
+CLASS:Apprentice	PRETEXT:In order to enter the apprentice class after 1st level, a character must serve a wizard and learn arcane lore from him. The character must spend 1d4 months working as the master's servant. After this time, he may advance in this class as normal.											
 CLASS:Apprentice	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|TYPE.Profession|Speak Language|Spellcraft|Use Magic Device										
 CLASS:Apprentice	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Apprentice|CL*3/4							
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Apprentice
@@ -136,7 +136,7 @@ CLASS:Grifter	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Disguise|Gather Information
 5				ABILITY:Special Ability|AUTOMATIC|Confidence Artist								
 #
 CLASS:Herbalist	HD:6	TYPE:Base.NPC.Academic	ABB:Hrb	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
-CLASS:Herbalist	PRETEXT:In order to enter the herbalist class after 1st level, a character must serve as an apprentice to a master of this profession. The character must spend 1d4 months working as the master’s apprentice. After this time, he may advance in this class as normal. Alternatively, a character with ranks in Profession (herbalist) equal to his total character level + 3 can enter this class.											
+CLASS:Herbalist	PRETEXT:In order to enter the herbalist class after 1st level, a character must serve as an apprentice to a master of this profession. The character must spend 1d4 months working as the master's apprentice. After this time, he may advance in this class as normal. Alternatively, a character with ranks in Profession (herbalist) equal to his total character level + 3 can enter this class.											
 CLASS:Herbalist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|TYPE.Profession|Profession (Herbalist)|Speak Language|Survival										
 CLASS:Herbalist		SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Herbalist|CL							
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Herbalist
@@ -164,7 +164,7 @@ CLASS:Kennelmaster	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimid
 5				ABILITY:Special Ability|AUTOMATIC|Feral Bond								
 #
 CLASS:Medium	HD:6	TYPE:Base.NPC.Orator	ABB:Med	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
-CLASS:Medium	PRETEXT:In order to enter the medium class after 1st level, a character must have ranks in Sense Motive equal to her total character level + 3. In addition, she must have failed at least one Will save against a fear-based effect created by an undead creature or an outsider. Exposure to the supernatural is sometimes key to awakening a person’s innate abilities.											
+CLASS:Medium	PRETEXT:In order to enter the medium class after 1st level, a character must have ranks in Sense Motive equal to her total character level + 3. In addition, she must have failed at least one Will save against a fear-based effect created by an undead creature or an outsider. Exposure to the supernatural is sometimes key to awakening a person's innate abilities.											
 CLASS:Medium	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|Sense Motive|Sleight of Hand|Spellcraft|Use Magic Device										
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Medium
 #												
@@ -246,7 +246,7 @@ CLASS:Sage	STARTSKILLPTS:8	CSKILL:Concentration|TYPE.Knowledge|TYPE.Profession|S
 5				ABILITY:Special Ability|AUTOMATIC|Brilliant Insight								
 #
 CLASS:Sewerjack	HD:12	TYPE:Base.NPC.Laborer	ABB:Sjk	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
-CLASS:Sewerjack	PRETEXT:In order to enter the sewerjack class after 1st level, a character must have the Toughness feat. In addition, he must work in a city’s sewer system as a laborer for at least two months. After this time, he acquires the experience and endurance necessary to enter this class.											
+CLASS:Sewerjack	PRETEXT:In order to enter the sewerjack class after 1st level, a character must have the Toughness feat. In addition, he must work in a city's sewer system as a laborer for at least two months. After this time, he acquires the experience and endurance necessary to enter this class.											
 CLASS:Sewerjack	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Escape Artist|Intimidate|Jump|TYPE.Profession|Survival|Swim										
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Sewerjack
 #												

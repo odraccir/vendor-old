@@ -20,7 +20,7 @@ Monocle of Perusal		TYPE:Magic.Wondrous.Eyegear	COST:6500	WT:0		SOURCEPAGE:CAd		
 Papyrus of Deception		TYPE:Magic.Wondrous.Documents	COST:2000	WT:0		SOURCEPAGE:CAd					BONUS:SKILL|Forgery|5|TYPE=Competence				
 Lenses of Darkness		TYPE:Magic.Wondrous.Eyegear	COST:7700	WT:0		SOURCEPAGE:CAd									
 Pendant of Draconic Empathy		TYPE:Magic.Wondrous.Amulet	COST:3300	WT:0		SOURCEPAGE:CAd				SPROP:use Handle Animal checks rather Diplomacy checks to influence Dragons with less than 11 Int.					
-Possum Pouch		TYPE:Magic.Wondrous.Container	COST:1800	WT:1		SOURCEPAGE:CAd	CONTAINS:UNLIM|Any=UNLIM			SPROP:when placed against a humanoid’s abdomen and sealed there with a command word, it blends in unobtrusively with the surrounding skin, requiring a DC 30 Search check to detect.					
+Possum Pouch		TYPE:Magic.Wondrous.Container	COST:1800	WT:1		SOURCEPAGE:CAd	CONTAINS:UNLIM|Any=UNLIM			SPROP:when placed against a humanoid's abdomen and sealed there with a command word, it blends in unobtrusively with the surrounding skin, requiring a DC 30 Search check to detect.					
 Rope of Stone		TYPE:Magic.Wondrous	COST:2800	WT:5		SOURCEPAGE:CAd									
 Sandals of Harmonious Balance		TYPE:Magic.Wondrous.Boot	COST:14000	WT:0		SOURCEPAGE:CAd				SPROP:Can Balance even on liquids, semisolid surfaces.|PRESKILL:1,Balance=10	BONUS:SKILL|Balance|10|TYPE=Insight				
 Scarf of Warmth		TYPE:Magic.Wondrous.Amulet	COST:250	WT:0		SOURCEPAGE:CAd				SPROP:+5 bonus on Fortitude saves made to resist the effect of cold weather.					

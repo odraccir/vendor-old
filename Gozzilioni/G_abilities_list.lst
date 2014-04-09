@@ -322,7 +322,6 @@ Voidsense (Sp)	CATEGORY:Warlock Invocation	TYPE:LesserInvocation.SpellLike.Speci
 Voracious Dispelling (Sp)	CATEGORY:Warlock Invocation	TYPE:LesserInvocation.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Use Dispel Magic, causing damage to creatures whose effects are dispelled.																												SOURCEPAGE:CA			
 Walk Unseen (Sp)	CATEGORY:Warlock Invocation	TYPE:LesserInvocation.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Use Invisibility.																												SOURCEPAGE:CA			
 Wall of Gloom (Sp)	CATEGORY:Warlock Invocation	TYPE:LesserInvocation.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Use Wall of Gloom.																												SOURCEPAGE:CA			
-Extra Least Invocation	CATEGORY:Warlock Invocation	TYPE:LesserInvocation.SpellLike.SpecialQuality	VISIBLE:DISPLAY	DESC:add 1 Least Invocation.			PREABILITY:1,CATEGORY=Warlock Invocation,TYPE=LesserInvocation				BONUS:ABILITYPOOL|Warlock Least Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE																		
 																																			
 Bewitching Blast (Sp)	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Essence ~ target become confused (Will DC %1)|InvocationDC																												SOURCEPAGE:CA			
 Chilling Tentacles (Sp)	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
@@ -335,7 +334,6 @@ Tenacious Plague (Sp)	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLi
 Vitriolic Blast (Sp)	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Essence ~ target take acid damage (acid damage %1/rnd)|WarlockInvocationLVL/5																												SOURCEPAGE:CA			
 Wall of Perilous Flame (Sp)	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
 Warlock's Call (Sp)	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
-Extra Lesser Invocation	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:DISPLAY				PREABILITY:1,CATEGORY=Warlock Invocation,TYPE=GreaterInvocation				BONUS:ABILITYPOOL|Warlock Lesser Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE																		
 																																			
 Dark Discorporation (Sp)	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
 Dark Foresight (Sp)	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
@@ -344,8 +342,12 @@ Path of Shadow (Sp)	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.Sp
 Retributive Invisibility (Sp)	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
 Utterdark Blast (Sp)	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Essence ~ target gain 2 negative levels (Fort DC %1)|InvocationDC																												SOURCEPAGE:CA			
 Word of Changing (Sp)	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA			
+
+Extra Lesser Invocation	CATEGORY:Warlock Invocation	TYPE:GreaterInvocation.SpellLike.SpecialQuality	VISIBLE:DISPLAY				PREABILITY:1,CATEGORY=Warlock Invocation,TYPE=GreaterInvocation				BONUS:ABILITYPOOL|Warlock Lesser Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE																		
+Extra Least Invocation	CATEGORY:Warlock Invocation	TYPE:LesserInvocation.SpellLike.SpecialQuality	VISIBLE:DISPLAY	DESC:add 1 Least Invocation.			PREABILITY:1,CATEGORY=Warlock Invocation,TYPE=LesserInvocation				BONUS:ABILITYPOOL|Warlock Least Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE																		
 Extra Greater Invocation	CATEGORY:Warlock Invocation	TYPE:DarkInvocation.SpellLike.SpecialQuality	VISIBLE:DISPLAY				PREABILITY:1,CATEGORY=Warlock Invocation,TYPE=DarkInvocation				BONUS:ABILITYPOOL|Warlock Greater Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE																		
-																																			
+Extra Dark Invocation	CATEGORY:Warlock Invocation	TYPE:EpicInvocationSpellLike.SpecialQuality	VISIBLE:DISPLAY				PREFEAT:1,Epic Invocation				BONUS:ABILITYPOOL|Warlock Dark Invocation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE																																																					
+
 Taboo 1	CATEGORY:Special Ability	TYPE:Taboo.SpecialQuality	VISIBLE:YES	OUTPUTNAME:With the exception of Scribe Scroll feat, no hathran may select item creation feat			PRECLASS:1,Hathran=1																									SOURCEPAGE:PGtF			
 Taboo 2	CATEGORY:Special Ability	TYPE:Taboo.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Cannot eat meat.			PRECLASS:1,Wu Jen=1																									SOURCEPAGE:CA			
 Taboo 3	CATEGORY:Special Ability	TYPE:Taboo.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Cannot own more than can carry.			PRECLASS:1,Wu Jen=1																									SOURCEPAGE:CA			

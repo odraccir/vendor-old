@@ -8,67 +8,151 @@ SOURCELONG:Physics	SOURCESHORT:Phs	SOURCEWEB:http://www.physics.mcgill.ca/~frey/
 CLASS:Dragon Shaman.MOD												
 SUBCLASS:Mercury Dragon Shaman	COST:1	PREALIGN:NG,CG,CN										
 SUBCLASSLEVEL:1		CSKILL:Bluff|Disguise|Survival										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Protected Sight								
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Burning Light|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Fire								
 SUBCLASS:Steel Dragon Shaman	COST:1	PREALIGN:LG,NG,LN,NE										
 SUBCLASSLEVEL:1		CSKILL:Bluff|Disguise|TYPE.Profession										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Resistance To Poison			BONUS:VAR|PoisonResistanceBonus|2					
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Acid								
 SUBCLASS:Brown Dragon Shaman	COST:1	PREALIGN:LE,NE,CE										
 SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Survival										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Endure Elements (Sp/atwill)						DEFINE:EndureElementsLVL|CL		
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity to Acid								
 SUBCLASS:Amethyst Dragon Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE										
 SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Move Silently										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Body Equilibrium (Sp/at will)						DEFINE:BodyEquilibriumLVL|CL		
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Concussive Force|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Force Resistant								
 SUBCLASS:Crystal Dragon Shaman	COST:1	PREALIGN:CG,CN,CE										
 SUBCLASSLEVEL:1		CSKILL:Gather Information|Jump|Swim										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Resistance To Enchantment								
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Brilliant Light|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold								
 SUBCLASS:Emerald Dragon Shaman	COST:1	PREALIGN:LG,LN,LE										
 SUBCLASSLEVEL:1		CSKILL:Gather Information|Hide|Swim										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Defensive Precognition (Sp/at will)						DEFINE:DefensivePrecognitionLVL|CL		
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Keening Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic								
 SUBCLASS:Sapphire Dragon Shaman	COST:1	PREALIGN:LG,LN,LE										
 SUBCLASSLEVEL:1		CSKILL:Jump|Knowledge (History)|Move Silently										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Spider Climb								
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Sonic Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic								
 SUBCLASS:Topaz Dragon Shaman	COST:1	PREALIGN:CG,CN,CE										
 SUBCLASSLEVEL:1		CSKILL:Hide|Survival|Swim										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing								
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Dehydratation|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold								
-#SUBCLASS:Obsidian Dragon Shaman	COST:1	PREALIGN:LE,NE,CE										
-#SUBCLASSLEVEL:1		CSKILL:Appraise|Psicraft|Survival										
-#SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
-#SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Inertial Armor (Sp/at will)						DEFINE:InertialArmorLVL|CL		
-#SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
-#SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire								
+# SUBCLASS:Obsidian Dragon Shaman	COST:1	PREALIGN:LE,NE,CE										
+# SUBCLASSLEVEL:1		CSKILL:Appraise|Psicraft|Survival										
+# SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Inertial Armor (Sp/at will)						DEFINE:InertialArmorLVL|CL		
+# SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
+# SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire								
 SUBCLASS:Battle Dragon Shaman	COST:1	PREALIGN:LG,NG,CG										
 SUBCLASSLEVEL:1		CSKILL:Concentration|Diplomacy|TYPE.Perform										
-SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
 SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Courage			BONUS:VAR|CourageBonus|2|TYPE=Morale					
 SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Sonic Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic								
-#SUBCLASS:Chaos Dragon Shaman	COST:1	PREALIGN:CG,CN,CE										
-#SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Move Silently										
-#SUBCLASSLEVEL:2		BONUS:ABILITYPOOL|Dragon Shaman Feat|1+(CL/8)										
-#SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Courage			BONUS:VAR|CourageBonus|2|TYPE=Morale					
+SUBCLASS:Chaos Dragon Shaman	COST:1	PREALIGN:CG,CN,CE										
+SUBCLASSLEVEL:1		CSKILL:Bluff|Hide|Move Silently
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Enthropic Shield (Sp/atwill)	BONUS:VAR|EnthropicShieldLVL|CL
 #SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Random Energy|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL					
 #SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To 								
+SUBCLASS:Ethereal Dragon Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Appraise|Hide|Spot										
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Ethereal Vision
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Force|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL	BONUS:VAR|BreathWeaponDice|-2				
+#SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To 								
+SUBCLASS:Howling Dragon Shaman	COST:1	PREALIGN:CN,CE,NE
+SUBCLASSLEVEL:1		CSKILL:Bluff|Listen|Move Silently
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Feral Hunter
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Sonic|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Sonic
+SUBCLASS:Oceanus Dragon Shaman	COST:1	PREALIGN:LG,NG,CG
+SUBCLASSLEVEL:1		CSKILL:Spot|Survival|Swim
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Electricity|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity
+SUBCLASS:Pyroclastic Dragon Shaman	COST:1	PREALIGN:LN,LE,NE,CE
+SUBCLASSLEVEL:1		CSKILL:Bluff|Jump|Spot
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Resist Energy (Sp/atwill)
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Ash|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire
+SUBCLASS:Radiant Dragon Shaman	COST:1	PREALIGN:LG,NG,LN
+SUBCLASSLEVEL:1		CSKILL:Diplomacy|Heal|Sense Motive
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Protection from Evil (Sp/atwill)	BONUS:VAR|ProtectionFromEvilLVL|CL
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Force|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL	BONUS:VAR|BreathWeaponDice|-2
+# SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Force
+SUBCLASS:Rust Dragon Shaman	COST:1	PREALIGN:LG,LN,LE,NE
+SUBCLASSLEVEL:1		CSKILL:Knowledge (Dungeoneering)|Move Silently
+SUBCLASSLEVEL:3				AUTO:FEAT|Improved Sunder
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid
+SUBCLASS:Styx Dragon Shaman	COST:1	PREALIGN:LE,NE,CE
+SUBCLASSLEVEL:1		CSKILL:Spot|Survival|Swim
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid
+SUBCLASS:Tarterian Dragon Shaman	COST:1	PREALIGN:LE,NE,CE,CN
+SUBCLASSLEVEL:1		CSKILL:Bluff|Diplomacy|Sense Motive
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Strength of Will
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Force|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL	BONUS:VAR|BreathWeaponDice|-2
+# SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Force
+SUBCLASS:Deep Dragon Shaman	COST:1	PREALIGN:CN,NE,CE
+SUBCLASSLEVEL:1		CSKILL:Hide|Move Silently|Swim
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Treasure Seeker
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Acid|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid
+SUBCLASS:Fang Dragon Shaman	COST:1	PREALIGN:CG,CN,CE
+SUBCLASSLEVEL:1		CSKILL:Bluff|Jump|Survival
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Ventriloquism (Sp/atwill)	BONUS:VAR|VentriloquismLVL|CL
+SUBCLASSLEVEL:4				
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Ability Drain
+SUBCLASS:Shadow Dragon Shaman	COST:1	PREALIGN:CN,NE,CE
+SUBCLASSLEVEL:1		CSKILL:Hide|Jump|Move Silently
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Mirror Image (Sp/atwill)	BONUS:VAR|MirrorImageLVL|CL
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Energy Drain|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Energy Drain
+SUBCLASS:Song Dragon Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Bluff|Disguise|Jump
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Feather Fall (Sp/atwill)	BONUS:VAR|FeatherFallLVL|CL
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Electricity|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity
+SUBCLASS:Mist Dragon Shaman	COST:1	PREALIGN:LN,LE,LE
+SUBCLASSLEVEL:1		CSKILL:Spellcraft|Survival|Swim
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
+SUBCLASS:Force Dragon Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Concentration|Knowledge (The Planes)|Spellcraft
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Mage Armor (Sp/atwill)
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Force|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL	BONUS:VAR|BreathWeaponDice|-2
+# SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Force
+SUBCLASS:Prismatic Dragon Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Knowledge (Arcana)|PERFORM (Singing)|Perform (Oratory)|Search
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Mage Armor (Sp/atwill)
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Light|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Blindness|Immunity to Light
+SUBCLASS:Ankheg Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Jump|listen|Knowledge (Geografy)
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|See Invisibility (Sp/atwill)
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Acid
+SUBCLASS:Behir Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Hide|Spot|Survival
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Spider climb (Sp/atwill)
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Electricity|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponLineLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity
+SUBCLASS:Frost Worm Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Hide|Listen|Perform (Vocal)
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Endure Elements (Sp/atwill)
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Cold|Dragon Shaman Breath Weapon Line			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
+SUBCLASS:Pyrohydra Shaman	COST:1	PREALIGN:NG,LN,TN,CN,NE
+SUBCLASSLEVEL:1		CSKILL:Spot|Survival|Swim
+SUBCLASSLEVEL:3				ABILITY:Special Ability|AUTOMATIC|Water Breathing
+SUBCLASSLEVEL:4				ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Dragon Shaman Breath Weapon Cone			BONUS:VAR|DragonShamanBreathWeaponConeLVL|CL
+SUBCLASSLEVEL:9				ABILITY:Special Ability|AUTOMATIC|Immunity To Fire
