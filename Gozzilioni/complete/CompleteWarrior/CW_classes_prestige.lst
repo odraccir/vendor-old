@@ -220,7 +220,7 @@ CLASS:Justicar	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Disguise|Gather Information|He
 CLASS:Kensai	HD:10	TYPE:Prestige	ABB:Ken	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Kensai	PREALIGN:LG,LN,LE	PREATT:5	PRESKILL:3,Concentration=5,Diplomacy=5,Ride=5	PREFEAT:1,Combat Expertise	PREFEAT:1,CHECKMULT,Weapon Focus(TYPE=ANY)	PRETEXT:Must complete an oath of service to either an overlord or an ideal						
 CLASS:Kensai	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Intimidate|Jump|Knowledge (Local)|Knowledge (Nobility and Royalty)|Ride|Sense Motive										
-1				ADD:ABILITY|Special Ability|VIRTUAL|Signature Weapon								
+1							BONUS:ABILITYPOOL|Signature Weapon|1					
 2				ABILITY:Special Ability|AUTOMATIC|Power Surge								
 3												
 4				ABILITY:Special Ability|AUTOMATIC|Ki Projection|Kensai Ki Projection			BONUS:VAR|KensaiKiProjectionLVL|CL					

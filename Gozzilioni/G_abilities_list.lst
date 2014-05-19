@@ -623,12 +623,6 @@ Sudden Enlarge	CATEGORY:Special Ability	TYPE:WarmageSudden	VISIBLE:DISPLAY			!PR
 Sudden Widen	CATEGORY:Special Ability	TYPE:WarmageSudden	VISIBLE:DISPLAY			!PREFEAT:1,Sudden Widen	PRECLASS:1,Warmage=15												AUTO:FEAT|Sudden Widen													SOURCEPAGE:CA			
 Sudden Maximize	CATEGORY:Special Ability	TYPE:WarmageSudden	VISIBLE:DISPLAY			!PREFEAT:1,Sudden Maximize	PRECLASS:1,Warmage=20												AUTO:FEAT|Sudden Maximize													SOURCEPAGE:CA			
 																																			
-Warlock Acid Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:DISPLAY	OUTPUTNAME:Acid Resistance							BONUS:VAR|AcidResistanceBonus|WarlockBasicResistance								ABILITY:Special Ability|AUTOMATIC|Resistance To Acid																
-Warlock Cold Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:DISPLAY	OUTPUTNAME:Cold Resistance							BONUS:VAR|ColdResistanceBonus|WarlockBasicResistance								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold																
-Warlock Electricity Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:DISPLAY	OUTPUTNAME:Electricity Resistance							BONUS:VAR|ElectricityResistanceBonus|WarlockBasicResistance								ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity																
-Warlock Fire Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:DISPLAY	OUTPUTNAME:Fire Resistance							BONUS:VAR|FireResistanceBonus|WarlockBasicResistance								ABILITY:Special Ability|AUTOMATIC|Resistance To Fire																
-Warlock Sonic Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:DISPLAY	OUTPUTNAME:Sonic Resistance							BONUS:VAR|SonicResistanceBonus|WarlockBasicResistance								ABILITY:Special Ability|AUTOMATIC|Resistance To Sonic																
-																																			
 Chimeric Black Dragon	CATEGORY:Special Ability	TYPE:SpecialQuality.ChimericDragon	VISIBLE:DISPLAY					DEFINE:BreathWeaponLine|40	DEFINE:BreathWeaponDice|3	DEFINE:BreathWeaponDamageDie|8									ABILITY:Special Ability|VIRTUAL|Breath Weapon ~ Line of Acid													SOURCEPAGE:MM2			
 Chimeric Blue Dragon	CATEGORY:Special Ability	TYPE:SpecialQuality.ChimericDragon	VISIBLE:DISPLAY					DEFINE:BreathWeaponLine|40	DEFINE:BreathWeaponDice|3	DEFINE:BreathWeaponDamageDie|8									ABILITY:Special Ability|VIRTUAL|Breath Weapon ~ Line of Lightning													SOURCEPAGE:MM2			
 Chimeric Green Dragon	CATEGORY:Special Ability	TYPE:SpecialQuality.ChimericDragon	VISIBLE:DISPLAY					DEFINE:BreathWeaponCone|20	DEFINE:BreathWeaponDice|3	DEFINE:BreathWeaponDamageDie|8									ABILITY:Special Ability|VIRTUAL|Breath Weapon ~ Cone of Corrosive Gas													SOURCEPAGE:MM2			
@@ -724,12 +718,6 @@ Abomination ~ Sensitivity	CATEGORY:Special Ability	TYPE:AbominationWeakness.Spec
 +1 Int Score	CATEGORY:Special Ability	TYPE:SteedAbility	VISIBLE:YES		KEY:+1 Int Score ~ Steed						BONUS:STAT|STR|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1													SOURCEPAGE:Nob			
 +1 Wis Score	CATEGORY:Special Ability	TYPE:SteedAbility	VISIBLE:YES		KEY:+1 Wis Score ~ Steed						BONUS:STAT|STR|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1													SOURCEPAGE:Nob			
 +1 Cha Score	CATEGORY:Special Ability	TYPE:SteedAbility	VISIBLE:YES		KEY:+1 Cha Score ~ Steed						BONUS:STAT|STR|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1													SOURCEPAGE:Nob			
-																																			
-Fso Acid Resistance 10	CATEGORY:Special Ability	TYPE:FsoEnergyResistance	VISIBLE:YES	OUTPUTNAME:Acid Resistance 10							BONUS:VAR|AcidResistanceBonus|10								ABILITY:Special Ability|AUTOMATIC|Resistance To Acid													SOURCEPAGE:CD			
-Fso Cold Resistance 10	CATEGORY:Special Ability	TYPE:FsoEnergyResistance	VISIBLE:YES	OUTPUTNAME:Cold Resistance 10							BONUS:VAR|ColdResistanceBonus|10								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold													SOURCEPAGE:CD			
-Fso Electricity Resistance 10	CATEGORY:Special Ability	TYPE:FsoEnergyResistance	VISIBLE:YES	OUTPUTNAME:Electricity Resistance 10							BONUS:VAR|ElectricityResistanceBonus|10								ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity													SOURCEPAGE:CD			
-Fso Fire Resistance 10	CATEGORY:Special Ability	TYPE:FsoEnergyResistance	VISIBLE:YES	OUTPUTNAME:Fire Resistance 10							BONUS:VAR|FireResistanceBonus|10								ABILITY:Special Ability|AUTOMATIC|Resistance To Fire													SOURCEPAGE:CD			
-Fso Sonic Resistance 10	CATEGORY:Special Ability	TYPE:FsoEnergyResistance	VISIBLE:YES	OUTPUTNAME:Sonic Resistance 10							BONUS:VAR|SonicResistanceBonus|10								ABILITY:Special Ability|AUTOMATIC|Resistance To Sonic													SOURCEPAGE:CD			
 																																			
 Draconic Heritage Black	CATEGORY:Special Ability	TYPE:DraconicHeritageAncestor	VISIBLE:YES	DESC:Acid							BONUS:VAR|DraconicHeritageBonus|1								CSKILL:Hide													SOURCEPAGE:CA			
 Draconic Heritage Blue	CATEGORY:Special Ability	TYPE:DraconicHeritageAncestor	VISIBLE:YES	DESC:Electricity							BONUS:VAR|DraconicHeritageBonus|1								CSKILL:Listen													SOURCEPAGE:CA			

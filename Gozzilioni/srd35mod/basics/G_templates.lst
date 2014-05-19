@@ -2,6 +2,3 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 ###Block: Creature Subtypes					
 # Template Name	Visible	Source Page	Special Ability		
 Lich.MOD	PRE:.CLEAR	PREALIGN:LE,NE,CE	PRERACE:1,RACETYPE=Humanoid	PREFEAT:1,Craft Wondrous Item	PRECLASS:1,SPELLCASTER=11
-Languages ~ Ethergaunt	VISIBLE:NO	LANGBONUS:Common,Draconic,Dwarven,Elven
-Languages ~ Inevitable	VISIBLE:NO	LANGBONUS:ALL
-Languages ~ Kaorti	VISIBLE:NO	LANGBONUS:ALL

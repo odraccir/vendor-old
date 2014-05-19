@@ -8,28 +8,28 @@ CLASS:Favored Soul	HD:8	TYPE:Base.PC	ABB:Fso	MAXLEVEL:20	SOURCEPAGE:CD	BONUS:CHE
 CLASS:Favored Soul	PREDEITY:1,Y											
 CLASS:Favored Soul	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Jump|Knowledge (Arcana)|TYPE.Profession|Sense Motive|Spellcraft										
 CLASS:Favored Soul	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL|Favored Soul|CL	SPELLLIST:1|Cleric	BONUS:DC|CLASS.Favored Soul|(WIS-CHA)					
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Favored Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.FavoredSoulProficiencies
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Favored Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.FavoredSoulProficiencies										
 #												
 1	CAST:5,3	KNOWN:4,3										
 2	CAST:6,4	KNOWN:5,3										
 3	CAST:6,5	KNOWN:5,4				BONUS:ABILITYPOOL|Deity Weapon Proficiency|1						
 4	CAST:6,6,3	KNOWN:6,4,3										
-5	CAST:6,6,4	KNOWN:6,5,3					BONUS:ABILITYPOOL|Favored Soul Resistance|1					
+5	CAST:6,6,4	KNOWN:6,5,3					BONUS:ABILITYPOOL|Favored Soul Energy Resistance|1	BONUS:VAR|FavoredSoulResistanceBonus|10|TYPE=Base		DEFINE:FavoredSoulResistanceBonus|0		
 6	CAST:6,6,5,3	KNOWN:7,5,4,3										
 7	CAST:6,6,6,4	KNOWN:7,6,4,3										
 8	CAST:6,6,6,5,3	KNOWN:8,6,5,4,3										
 9	CAST:6,6,6,6,4	KNOWN:8,6,5,4,3										
-10	CAST:6,6,6,6,5,3	KNOWN:9,6,6,5,4,3					BONUS:ABILITYPOOL|Favored Soul Resistance|1					
+10	CAST:6,6,6,6,5,3	KNOWN:9,6,6,5,4,3					BONUS:ABILITYPOOL|Favored Soul Energy Resistance|1					
 11	CAST:6,6,6,6,6,4	KNOWN:9,6,6,5,4,3										
 12	CAST:6,6,6,6,6,5,3	KNOWN:9,6,6,6,5,4,3				BONUS:ABILITYPOOL|Deity Weapon Proficiency|1	BONUS:VAR|WeapSpecQualify|CL					
 13	CAST:6,6,6,6,6,6,4	KNOWN:9,6,6,6,5,4,3										
 14	CAST:6,6,6,6,6,6,5,3	KNOWN:9,6,6,6,6,5,4,3										
-15	CAST:6,6,6,6,6,6,6,4	KNOWN:9,6,6,6,6,5,4,3					BONUS:ABILITYPOOL|Favored Soul Resistance|1					
+15	CAST:6,6,6,6,6,6,6,4	KNOWN:9,6,6,6,6,5,4,3					BONUS:ABILITYPOOL|Favored Soul Energy Resistance|1					
 16	CAST:6,6,6,6,6,6,6,5,3	KNOWN:9,6,6,6,6,6,5,4,3										
 17	CAST:6,6,6,6,6,6,6,6,4	KNOWN:9,6,6,6,6,6,5,4,3		ABILITY:Special Ability|AUTOMATIC|Wings			MOVE:Fly,60					
 18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:9,6,6,6,6,6,6,5,4,3										
 19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:9,6,6,6,6,6,6,5,4,3										
-20	CAST:6,6,6,6,6,6,6,6,6,6	KNOWN:9,6,6,6,6,6,6,6,5,4		ADD:ABILITY|1|Special Ability|VIRTUAL|Silver Damage Reduction,Cold Iron Damage Reduction			BONUS:ABILITYPOOL|Favored Soul Resistance|1
+20	CAST:6,6,6,6,6,6,6,6,6,6	KNOWN:9,6,6,6,6,6,6,6,5,4					BONUS:ABILITYPOOL|Favored Soul Energy Resistance|1	BONUS:ABILITYPOOL|Favored Soul Damage Reduction|1	BONUS:VAR|FavoredSoulDR|10|TYPE=Base	DEFINE:FavoredSoulDR|0		
 #												
 CLASS:Shugenja	HD:6	TYPE:Base.PC.Oriental	ABB:Shu	MAXLEVEL:20	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 CLASS:Shugenja		ALLOWBASECLASS:NO	BONUS:DOMAIN|NUMBER|1									
@@ -122,7 +122,7 @@ SUBCLASSLEVEL:17		KNOWN:5,3,3,2,2,2,2,2,1
 SUBCLASSLEVEL:18		KNOWN:5,3,3,2,2,2,2,2,1,1										
 SUBCLASSLEVEL:19		KNOWN:5,3,3,2,2,2,2,2,2,1										
 SUBCLASSLEVEL:20		KNOWN:5,3,3,2,2,2,2,2,2,2										
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shugenja|!PREABILITY:1,CATEGORY=ACF,TYPE.ShugenjaProficiencies
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Shugenja|!PREABILITY:1,CATEGORY=ACF,TYPE.ShugenjaProficiencies										
 #												
 1	CAST:5,3	KNOWN:2,1		ABILITY:Special Ability|AUTOMATIC|Sense Elements								
 2	CAST:6,4	KNOWN:2,1										
@@ -148,15 +148,15 @@ SUBCLASSLEVEL:20		KNOWN:5,3,3,2,2,2,2,2,2,2
 CLASS:Spirit Shaman	HD:8	TYPE:Base.PC	ABB:Ssh	MAXLEVEL:20	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/3*4|TYPE=Base.REPLACE			
 #CLASS:Spirit Shaman												
 CLASS:Spirit Shaman	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Spirit Shaman|CL	SPELLLIST:1|Druid	BONUS:DC|CLASS.Spirit Shaman|(CHA-WIS)			
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Spirit Shaman|!PREABILITY:1,CATEGORY=ACF,TYPE.SpiritShamanProficiencies
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Spirit Shaman|!PREABILITY:1,CATEGORY=ACF,TYPE.SpiritShamanProficiencies										
 #												
 1	CAST:3,2	KNOWN:3,1	ABILITY:Special Ability|AUTOMATIC|Spirit Shaman Guide|Spirit Shaman Spirits	ABILITY:Special Ability|AUTOMATIC|Wild Empathy			BONUS:VAR|WildEmpathy|CL					
-2	CAST:4,3	KNOWN:3,2		ABILITY:Special Ability|AUTOMATIC|Chastise Spirit|Spirit Shaman Chastise Spirit			BONUS:VAR|SpiritShamanLVL|CL					
-3	CAST:5,4,2	KNOWN:3,2,1		ABILITY:Special Ability|AUTOMATIC|Detect Spirits			BONUS:VAR|DetectSpiritLVL|CL					
+2	CAST:4,3	KNOWN:3,2		ABILITY:Special Ability|AUTOMATIC|Chastise Spirit			BONUS:VAR|ChastiseSpiritDamage|CL	BONUS:VAR|ChastiseSpiritDC|CL				
+3	CAST:5,4,2	KNOWN:3,2,1		ABILITY:Special Ability|AUTOMATIC|Detect Spirits (Sp/wis)			BONUS:VAR|DetectSpiritLVL|CL					
 4	CAST:6,5,3	KNOWN:3,3,1		ABILITY:Special Ability|AUTOMATIC|Blessing of the Spirits								
 5	CAST:6,6,4,2	KNOWN:3,3,1,1		ABILITY:Special Ability|AUTOMATIC|Follow the Guide								
 6	CAST:6,6,5,3	KNOWN:3,3,2,1		ABILITY:Special Ability|AUTOMATIC|Ghost Warrior								
-7	CAST:6,6,6,4,2	KNOWN:3,3,2,1,1		ABILITY:Special Ability|AUTOMATIC|Warding of the Spirits|Spirit Shaman Warding of the spirit								
+7	CAST:6,6,6,4,2	KNOWN:3,3,2,1,1		ABILITY:Special Ability|AUTOMATIC|Warding of the Spirits			BONUS:VAR|WardingOfTheSpiritsTimes|1					
 8	CAST:6,6,6,5,3	KNOWN:3,3,2,2,1										
 9	CAST:6,6,6,6,4,2	KNOWN:3,3,3,2,1,1		ABILITY:Special Ability|AUTOMATIC|Spirit Form|Spirit Shaman Spirit Form			BONUS:VAR|SpiritFormLVL|CL					
 10	CAST:6,6,6,6,5,3	KNOWN:3,3,3,2,2,1		ABILITY:Special Ability|AUTOMATIC|Guide Magic								

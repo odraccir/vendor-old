@@ -8,7 +8,7 @@ SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
 CLASS:Acolyte of the Skin	HD:8	TYPE:PC.Prestige	ABB:Aos	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
 CLASS:Acolyte of the Skin	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (The Planes)=6	PRESPELLTYPE:1,Any=5	PRETEXT:Must have peacfull contact with a summoned Devil								
 CLASS:Acolyte of the Skin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft										
-1				ADD:ABILITY|Special Ability|VIRTUAL|Wear Skin	ABILITY:Special Ability|AUTOMATIC|Poison (Sp)		BONUS:VAR|PoisonLVL|CL	BONUS:VAR|PoisonPerDay|1				
+1				ABILITY:Special Ability|AUTOMATIC|Wear Skin|Poison (Sp)			BONUS:ABILITYPOOL|Wear Skin Type|1	BONUS:VAR|PoisonLVL|CL	BONUS:VAR|PoisonPerDay|1				
 2	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Resistance To Fire			BONUS:VAR|FireResistanceBonus|10					
 3				ABILITY:Special Ability|AUTOMATIC|Fiendish Glare|Acolyte of the Skin Fiendish Glare			BONUS:VAR|AcolyteSkinFiendishGlareLVL|CL					
 4	ADD:SPELLCASTER|ANY											

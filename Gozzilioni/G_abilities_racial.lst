@@ -127,6 +127,16 @@ CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Rac
 CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Diluited Blood ~ Half-Vistani|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniDiluitedBlood																																
 CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Moon Madness ~ Half-Vistani|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniMoonMadness																																
 CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD	ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Half-Vistani Favored Class ~ Any|!PREABILITY:1,CATEGORY=Special Ability,TYPE=HalfVistaniFavoredClass																																
+Goblin Racial Trait Default	CATEGORY:Internal																																SOURCEPAGE:UA
+CATEGORY=Internal|Goblin Racial Trait Default.MOD	ABILITY:Goblin Racial Trait|AUTOMATIC|Skills ~ Goblin|!PREABILITY:1,CATEGORY=Special Ability,TYPE=GoblinSkills																																
+CATEGORY=Internal|Goblin Racial Trait Default.MOD	ABILITY:Goblin Racial Trait|AUTOMATIC|Goblin Favored Class ~ Rogue|!PREABILITY:1,CATEGORY=Special Ability,TYPE=GoblinFavoredClass																																
+Kobold Racial Trait Default	CATEGORY:Internal																																SOURCEPAGE:UA
+CATEGORY=Internal|Kobold Racial Trait Default.MOD	ABILITY:Kobold Racial Trait|AUTOMATIC|Skills ~ Kobold|!PREABILITY:1,CATEGORY=Special Ability,TYPE=KoboldSkills																																
+CATEGORY=Internal|Kobold Racial Trait Default.MOD	ABILITY:Kobold Racial Trait|AUTOMATIC|Light Sensitivity ~ Kobold|!PREABILITY:1,CATEGORY=Special Ability,TYPE=KoboldLightSensitivity																																
+CATEGORY=Internal|Kobold Racial Trait Default.MOD	ABILITY:Kobold Racial Trait|AUTOMATIC|Kobold Favored Class ~ Sorcerer|!PREABILITY:1,CATEGORY=Special Ability,TYPE=KoboldFavoredClass																																
+Orc Racial Trait Default	CATEGORY:Internal																																SOURCEPAGE:UA
+CATEGORY=Internal|Orc Racial Trait Default.MOD	ABILITY:Orc Racial Trait|AUTOMATIC|Light Sensitivity ~ Orc|!PREABILITY:1,CATEGORY=Special Ability,TYPE=OrcLightSensitivity																																
+CATEGORY=Internal|Orc Racial Trait Default.MOD	ABILITY:Orc Racial Trait|AUTOMATIC|Orc Favored Class ~ Barbarian|!PREABILITY:1,CATEGORY=Special Ability,TYPE=OrcFavoredClass																																
 																																	
 ###Block: Sotto Razze ~ Specifiche																																	
 Dwarf Artic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Dwarf Favored Class ~ Ranger or Fighter													SOURCEPAGE:Mon
@@ -148,17 +158,22 @@ Gnome Deep Racial Trait	CATEGORY:Internal							DEFINE:SpellResistance|0				BONU
 Gnome Fire Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Gnome Fire Stonecunning|Gnome Fire Caster Level|Immunity To Fire|Vulnerability To Cold|No Illusion Save|Darkvision ~ Gnome Fire|No Weapon Familiarity ~ Gnome|No Alchemy Skill|Gnome Fire Spell-Like Abilities													SOURCEPAGE:PH
 Gnome Ice Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Gnome Ice Spell-Like Abilities													SOURCEPAGE:Fro
 Gnome Lesser Deep Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Darkvision ~ Gnome Lesser Deep|Gnome Lesser Deep Stonecunning|Gnome Lesser Deep Save Bonus|Gnome Lesser Deep Dodge|Gnome Lesser Deep Spell-Like Abilities|Gnome Lesser Deep Hide Skill|Gnome Favored Class ~ Rogue													SOURCEPAGE:PGtF
+Gnome Aquatic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Well Traveled ~ Gnome Aquatic|Gnome Aquatic Attacks|No Listen Skill|No Alchemy Skill													SOURCEPAGE:UA
 Half Merrow Racial Trait	CATEGORY:Internal																																SOURCEPAGE:SSh
 Half Merrow Tailed Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Tailed ~ Half Merrow|Half Merrow Skills ~ Tailed													SOURCEPAGE:SSh
 Half-Elf Drow FR Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Darkvision ~ Half-Elf Drow FR													SOURCEPAGE:PGtF
+Half-Elf Aquatic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Half-Elf Aquatic Persuasion|Half-Elf Aquatic Survival													SOURCEPAGE:UA
+Half-Orc Aquatic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Emissaries ~ Half-Orc Aquatic													SOURCEPAGE:UA
 Half-Vistani Racial Trait	CATEGORY:Internal							DEFINE:MoonMadnessDC|15				BONUS:ABILITYPOOL|Vistani Tribe|1																					SOURCEPAGE:RLPHB
 Halfling Ghostwise Racial Trait	CATEGORY:Internal											BONUS:VAR|TelepathyRange|20								ABILITY:Special Ability|AUTOMATIC|Telepathy|No Halfling Saves|Halfling Favored Class ~ Barbarian													SOURCEPAGE:PGtF
 Halfling Jerren Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Halfling Jerren Thrown Attacks|Halfling Jerren Skills													SOURCEPAGE:BoVD
 Halfling Strongheart Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Halfling Strongheart Bonus Feat|No Halfling Saves													SOURCEPAGE:PGtF
 Halfling Tundra Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Halfling Tundra Skills|Halfling Favored Class ~ Ranger													SOURCEPAGE:Fro
+Halfling Aquatic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Low-Light Vision ~ Halfling Aquatic 													SOURCEPAGE:UA
 Human Everfrost Barbarian Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Human Favored Class ~ Barbarian													SOURCEPAGE:Fro
 Human Mountain Folk Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Human Favored Class ~ Ranger													SOURCEPAGE:Fro
 Human Neanderthal Racial Trait	CATEGORY:Internal							DEFINE:IllteracyLVL|0				BONUS:VAR|IllteracyLVL|1								ABILITY:Special Ability|AUTOMATIC|Primitive Weapon Mastery|Human Neandertal Skills|Climate Tolerant|Human Neandertal Blood	ABILITY:Special Ability|VIRTUAL|Illiteracy|PREVAREQ:TL,IlliteracyLVL												SOURCEPAGE:Fro
+Human Aquatic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Low-Light Vision ~ Human Aquatic													SOURCEPAGE:UA
 Mephling Air Racial Trait	CATEGORY:Internal											BONUS:VAR|BreathWeaponDice|1	BONUS:VAR|BreathWeaponDamageDie|8|TYPE=Base	BONUS:VAR|BreathWeaponDC|10+(TL/2)+CON|TYPE=Base	BONUS:VAR|BreathWeaponCone|15|TYPE=Base					ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Air Mephling|Bonus Casterlevel ~ Mephling Air|Mephling Favored Class ~ Bard|Flight Maneuverability	BONUS:VAR|Maneuverability|5|TYPE=Base												SOURCEPAGE:PH
 Mephling Earth Racial Trait	CATEGORY:Internal											BONUS:VAR|BreathWeaponDice|1	BONUS:VAR|BreathWeaponDamageDie|8|TYPE=Base	BONUS:VAR|BreathWeaponDC|10+(TL/2)+CON|TYPE=Base	BONUS:VAR|BreathWeaponCone|15|TYPE=Base					ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Earth Mephling|Bonus Casterlevel ~ Mephling Earth|Mephling Favored Class ~ Druid													SOURCEPAGE:PH
 Mephling Fire Racial Trait	CATEGORY:Internal											BONUS:VAR|BreathWeaponDice|1	BONUS:VAR|BreathWeaponDamageDie|8|TYPE=Base	BONUS:VAR|BreathWeaponDC|10+(TL/2)+CON|TYPE=Base	BONUS:VAR|BreathWeaponCone|15|TYPE=Base					ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Fire Mephling|Bonus Casterlevel ~ Mephling Fire|Mephling Favored Class ~ Sorcerer													SOURCEPAGE:PH
@@ -166,6 +181,9 @@ Mephling Water Racial Trait	CATEGORY:Internal											BONUS:VAR|BreathWeaponDi
 Merfolk Deep Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Merfolk Favored Class ~ Barbarian													SOURCEPAGE:SSh
 Merfolk Shelf Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Merfolk Favored Class ~ Fighter													SOURCEPAGE:SSh
 Merfolk Shore Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Merfolk Favored Class ~ Bard													SOURCEPAGE:SSh
+Goblin Aquatic Racial Trait	CATEGORY:Internal																			ABILITY:Special Ability|AUTOMATIC|Goblin Aquatic Skills													SOURCEPAGE:UA
+Kobold Aquatic Racial Trait	CATEGORY:Internal																																SOURCEPAGE:UA
+Orc Aquatic Racial Trait	CATEGORY:Internal																																SOURCEPAGE:UA
 																																	
 #Dwarf																																	
 +1 racial bonus on attack rolls against aberrations	CATEGORY:Special Ability	TYPE:RacialTraits.DwarfRacialTrait.DwarfRacialCombatBonus	VISIBLE:YES	DESC:+%1 racial bonus on attack rolls against aberrations|DwarfRacialCombatBonus	KEY:Dwarf Gold Attacks			DEFINE:DwarfRacialCombatBonus|1																									SOURCEPAGE:PGtF
@@ -238,6 +256,7 @@ CATEGORY=Special Ability|Racial Traits ~ Elf.MOD				DESC:&nl;+2 racial bonus on 
 +2 racial bonus on Hide checks.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeHideSkill	VISIBLE:YES	TEMPDESC:+4 racial bonus on Hide checks when in darkened areas underground.	KEY:Gnome Lesser Deep Hide Skill							BONUS:SKILL|Hide|2|TYPE=Racial	TEMPBONUS:PC|SKILL|Hide|4|TYPE=Racial																				SOURCEPAGE:PGtF
 +4 dodge bonus to Armor Class against all creatures.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeDodge	VISIBLE:YES		KEY:Gnome Deep Dodge							BONUS:COMBAT|AC|4|TYPE=Dodge																					SOURCEPAGE:PGtF
 +1 dodge bonus to Armor Class against all creatures.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeDodge	VISIBLE:YES		KEY:Gnome Lesser Deep Dodge							BONUS:COMBAT|AC|1|TYPE=Dodge																					SOURCEPAGE:PGtF
++1 racial bonus on attack rolls against goblinoids.	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeAttacks	VISIBLE:YES	DESC:+%1 racial bonus on attack rolls against kobolds and goblinoids|GnomeAttackBonus	KEY:Gnome Aquatic Attacks				DEFINE:GnomeAttackBonus|1										ASPECT:Name|+%1 racial bonus on attack rolls against goblinoids|GnomeAttackBonus														SOURCEPAGE:UA
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialVision	VISIBLE:YES	DESC:Fire gnomes can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and gnome fire can function just fine with no light at all.	KEY:Darkvision ~ Gnome Fire							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PH
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialVision	VISIBLE:YES	DESC:Deep gnomes can see in the dark up to 120 feet.	KEY:Darkvision ~ Gnome Deep							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|120|TYPE=Base																				SOURCEPAGE:PGtF
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialVision	VISIBLE:YES	DESC:Lesser Deep gnomes can see in the dark up to 60 feet.	KEY:Darkvision ~ Gnome Lesser Deep							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PGtF
@@ -251,10 +270,12 @@ Stonecunning	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSt
 Stonecunning	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeStonecunning	VISIBLE:YES	DESC:This ability grants a lesser deep gnomes a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A lesser deep gnome who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a lesser deep gnome can use the Search skill to find stonework traps as a rogue can. A lesser deep gnome can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.	KEY:Gnome Lesser Deep Stonecunning							BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=Racial																					SOURCEPAGE:PGtF
 Favored Class ~ Bard	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeRacialDefault	VISIBLE:NO		KEY:Gnome Favored Class ~ Bard																												SOURCEPAGE:PGtF
 Favored Class ~ Rogue	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeFavoredClass	VISIBLE:NO		KEY:Gnome Favored Class ~ Rogue																												SOURCEPAGE:PGtF
+Well Traveled	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeWellTraveled	VISIBLE:YES	DESC:They always know when their welcome is wearing out.	KEY:Well Traveled ~ Gnome Aquatic							BONUS:SKILL|Sense Motive,Gather Information|2|TYPE=Racial																					SOURCEPAGE:UA
 																																	
 No Illusion Save	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeSaveBonus	VISIBLE:NO																														SOURCEPAGE:PH
 No Weapon Familiarity	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeWeaponFamiliarity	VISIBLE:NO		KEY:No Weapon Familiarity ~ Gnome																												SOURCEPAGE:PH
 No Alchemy Skill	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeAlchemySkill	VISIBLE:NO																														SOURCEPAGE:PH
+No Listen Skill	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeListenSkill	VISIBLE:NO																														SOURCEPAGE:UA
 																																	
 CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 bonus caster level when casting spells or spell-like abilities with fire descriptor.|PREABILITY:1,CATEGORY=Special Ability,Gnome Fire Caster Level																													
 CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+4 dodge bonus to Armor Class against all creatures.|PREABILITY:1,CATEGORY=Special Ability,Gnome Deep Dodge																													
@@ -265,10 +286,18 @@ CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+1 dodge bonus to
 CATEGORY=Special Ability|Racial Traits ~ Gnome.MOD				DESC:&nl;+2 racial bonus on Hide checks.|PREABILITY:1,CATEGORY=Special Ability,Gnome Deep Hide Skill																													
 																																	
 #Half-Elf																																	
++2 racial bonus on Diplomacy checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HalfElfRacialTrait.HalfElfPersuasion	VISIBLE:YES		KEY:Half-Elf Aquatic Persuasion							BONUS:SKILL|Diplomacy|2|TYPE=Racial																					SOURCEPAGE:UA
++2 racial bonus on Survival checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HalfElfRacialTrait.HalfElfSurvival	VISIBLE:YES		KEY:Half-Elf Aquatic Survival							BONUS:SKILL|Survival|2|TYPE=Racial																					SOURCEPAGE:UA
 Darkvision	CATEGORY:Special Ability	TYPE:RacialTraits.HalfElfRacialTrait.HalfElfRacialVision	VISIBLE:YES	DESC:Half-Elf Drow can see in the dark up to 60 feet.	KEY:Darkvision ~ Half-Elf Drow FR							BONUS:VAR|RacialVision|1	BONUS:VAR|DarkvisionRange|60|TYPE=Base																				SOURCEPAGE:PGtF
+
+CATEGORY=Special Ability|Racial Traits ~ Half-Elf.MOD				DESC:&nl;+2 racial bonus on Diplomacy checks.|PREABILITY:1,CATEGORY=Special Ability,Half-Elf Aquatic Persuasion
+CATEGORY=Special Ability|Racial Traits ~ Half-Elf.MOD				DESC:&nl;+2 racial bonus on Survival checks.|PREABILITY:1,CATEGORY=Special Ability,Half-Elf Aquatic Survival
 																																	
 #Half-Orc																																	
++2 racial bonus on Diplomacy and Gather Information checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HalfOrcRacialTrait.HalfOrcEmissaries	VISIBLE:YES		KEY:Emissaries ~ Half-Orc Aquatic							BONUS:SKILL|Diplomacy,Gather Information|2|TYPE=Racial																					SOURCEPAGE:UA
 Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.HalfOrcRacialTrait.HalfOrcRacialDefault	VISIBLE:NO		KEY:Half-Orc Favored Class ~ Barbarian																												SOURCEPAGE:PHB
+
+CATEGORY=Special Ability|Racial Traits ~ Half-Orc.MOD				DESC:&nl;+2 racial bonus on Diplomacy and Gather Information checks.|PREABILITY:1,CATEGORY=Special Ability,Emissaries ~ Half-Orc Aquatic
 																																	
 #Half Merrow																																	
 +6 racial bonus on Swim checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HalfMerrowRacialTrait.HalfMerrowRacialDefault	VISIBLE:YES		KEY:Half Merrow Skills							BONUS:SKILL|Swim|6|TYPE=Racial								CSKILL:Swim													SOURCEPAGE:SSh
@@ -294,6 +323,7 @@ CATEGORY=Internal|Half Merrow Racial Trait Default.MOD																				ABILIT
 Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.HalflingRacialTrait.HalflingFavoredClass	VISIBLE:NO		KEY:Halfling Favored Class ~ Barbarian																												SOURCEPAGE:PGtF
 Favored Class ~ Ranger	CATEGORY:Special Ability	TYPE:RacialTraits.HalflingRacialTrait.HalflingFavoredClass	VISIBLE:NO		KEY:Halfling Favored Class ~ Ranger																												SOURCEPAGE:Fro
 Favored Class ~ Rogue	CATEGORY:Special Ability	TYPE:RacialTraits.HalflingRacialTrait.HalflingRacialDefault	VISIBLE:NO		KEY:Halfling Favored Class ~ Rogue																												SOURCEPAGE:PGtF
+Low-Light Vision	CATEGORY:Special Ability	TYPE:RacialTraits.HalflingRacialTrait.HalflingRacialVision	VISIBLE:DISPLAY	DESC:Aquatic Halfling see four times as far as human in condition of dim light.	KEY:Low-Light Vision ~ Halfling Aquatic							BONUS:VAR|HasLowLightVision|1	BONUS:VAR|LowLightDistance|2|TYPE=Racial																				SOURCEPAGE:UA
 																																	
 No Halfling Saves	CATEGORY:Special Ability	TYPE:RacialTraits.HalflingRacialTrait.HalflingSaves	VISIBLE:NO																														SOURCEPAGE:PGtF
 																																	
@@ -309,6 +339,7 @@ Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacial
 Favored Class ~ Ranger	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanFavoredClass	VISIBLE:NO		KEY:Human Favored Class ~ Ranger																												SOURCEPAGE:Fro
 Human Blood	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanBlood.SpecialQuality	VISIBLE:YES	DESC:For all effects related to race, a Neandertal is considered an Human.	KEY:Human Neandertal Blood																												SOURCEPAGE:Fro
 Primitive Weapon Mastery	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanAttacks.SpecialQuality.Extraordinary	VISIBLE:YES									BONUS:WEAPONPROF=TYPE.PrimitiveMelee|TOHIT|1																					SOURCEPAGE:Fro
+Low-Light Vision	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanRacialVision	VISIBLE:DISPLAY	DESC:Aquatic Human see four times as far as a nonaquatic human in condition of dim light.	KEY:Low-Light Vision ~ Human Aquatic							BONUS:VAR|HasLowLightVision|1	BONUS:VAR|LowLightDistance|2|TYPE=Racial																				SOURCEPAGE:UA
 																																	
 Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.HumanRacialTrait.HumanRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Human																												
 CATEGORY=Special Ability|Racial Traits ~ Human.MOD				DESC:&nl;1 extra feat at 1st level.|PREABILITY:1,CATEGORY=Special Ability,Human Bonus Feat																													SOURCEPAGE:BoVD
@@ -561,3 +592,34 @@ Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.HalfVistaniRacialTrai
 CATEGORY=Special Ability|Racial Traits ~ Half-Vistani.MOD				DESC:&nl;+2 racial bonus on Survival checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Half-Vistani																													
 																																	
 CATEGORY=Internal|Half-Vistani Racial Trait Default.MOD																				ABILITY:Half-Vistani Racial Trait|AUTOMATIC|Racial Traits ~ Half-Vistani													SOURCEPAGE:RLPHB
+
+#Goblin
++4 racial bonus to Move Silently and Ride checks.	CATEGORY:Special Ability	TYPE:RacialTraits.GoblinRacialTrait.GoblinRacialDefault	VISIBLE:YES	DESC:Goblins have a +4 racial bonus on Move Silently and Ride checks. Goblin cavalry (mounted on worgs) usually select the Mounted Combat feat in place of the Alertness feat, which reduces their Spot and Listen check modifiers from +3 to +1.	KEY:Skills ~ Goblin										BONUS:SKILL|Move Silently,Ride|4|TYPE=Racial																		SOURCEPAGE:UA
++2 racial bonus to Move Silently and Ride checks.	CATEGORY:Special Ability	TYPE:RacialTraits.GoblinRacialTrait.GoblinSkills	VISIBLE:YES	DESC:Goblins have a +2 racial bonus on Move Silently and Ride checks. Goblin cavalry (mounted on medium sharks) usually select the Mounted Combat feat in place of the Alertness feat, which reduces their Spot and Listen check modifiers from +3 to +1.	KEY:Goblin Aquatic Skills										BONUS:SKILL|Move Silently,Ride|2|TYPE=Racial																		SOURCEPAGE:UA
+Thievery	CATEGORY:Special Ability	TYPE:RacialTraits.GoblinRacialTrait.GoblinThievery	VISIBLE:YES	DESC:Aquatic Goblins have a +2 racial bonus on Disable Device and Sleight of Hand checks.	KEY:Thievery ~ Goblin Aquatic										BONUS:SKILL|Disable Device,Sleight of Hand|2|TYPE=Racial																		SOURCEPAGE:UA
+Favored Class ~ Rogue	CATEGORY:Special Ability	TYPE:RacialTraits.GoblinRacialTrait.GoblinRacialDefault	VISIBLE:NO		KEY:Goblin Favored Class ~ Rogue																												SOURCEPAGE:UA
+
+Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.GoblinRacialTrait.GoblinRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Goblin																												SOURCEPAGE:UA
+CATEGORY=Special Ability|Racial Traits ~ Goblin.MOD				DESC:&nl;+4 racial bonus on Move Silently and Ride checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Goblin
+CATEGORY=Special Ability|Racial Traits ~ Goblin.MOD				DESC:&nl;+2 racial bonus to Move Silently and Ride checks.|PREABILITY:1,CATEGORY=Special Ability,Goblin Aquatic Skills
+																																	
+CATEGORY=Internal|Goblin Racial Trait Default.MOD																				ABILITY:Goblin Racial Trait|AUTOMATIC|Racial Traits ~ Goblin													SOURCEPAGE:UA
+
+#Kobold
++2 racial bonus on Craft (trapmaking), Profession (miner), and Search checks.	CATEGORY:Special Ability	TYPE:RacialTraits.KoboldRacialTrait.KoboldRacialDefault	VISIBLE:YES	DESC:Kobolds have a +2 racial bonus on Craft (trapmaking), Profession (miner), and Search checks.	KEY:Skills ~ Kobold										BONUS:SKILL|Craft (Trapmaking),Profession (Miner),Search|2|TYPE=Racial																		SOURCEPAGE:UA
+Light Sensitivity	CATEGORY:Special Ability	TYPE:RacialTraits.KoboldRacialTrait.KoboldRacialDefault	VISIBLE:YES	DESC:Kobolds are dazzled in bright sunlight or within the radius of a daylight spell.	KEY:Light Sensitivity ~ Kobold																												SOURCEPAGE:UA
+Favored Class ~ Sorcerer	CATEGORY:Special Ability	TYPE:RacialTraits.KoboldRacialTrait.KoboldRacialDefault	VISIBLE:NO		KEY:Kobold Favored Class ~ Sorcerer																												SOURCEPAGE:UA
+
+Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.KoboldRacialTrait.KoboldRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Kobold																												SOURCEPAGE:UA
+CATEGORY=Special Ability|Racial Traits ~ Kobold.MOD				DESC:&nl;+2 racial bonus on Craft (trapmaking), Profession (miner), and Search checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Kobold
+																																	
+CATEGORY=Internal|Kobold Racial Trait Default.MOD																				ABILITY:Kobold Racial Trait|AUTOMATIC|Racial Traits ~ Kobold													SOURCEPAGE:UA
+
+#Orc
+Light Sensitivity	CATEGORY:Special Ability	TYPE:RacialTraits.OrcRacialTrait.OrcRacialDefault	VISIBLE:YES	DESC:Orcs are dazzled in bright sunlight or within the radius of a daylight spell.	KEY:Light Sensitivity ~ Orc																												SOURCEPAGE:UA
+Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.OrcRacialTrait.OrcRacialDefault	VISIBLE:NO		KEY:Orc Favored Class ~ Barbarian																												SOURCEPAGE:UA
+
+Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.OrcRacialTrait.OrcRacialDefault	VISIBLE:EXPORT		KEY:Racial Traits ~ Orc																												SOURCEPAGE:UA
+#CATEGORY=Special Ability|Racial Traits ~ Orc.MOD				DESC:&nl;+2 racial bonus on Craft (trapmaking), Profession (miner), and Search checks.|PREABILITY:1,CATEGORY=Special Ability,Skills ~ Kobold
+																																	
+CATEGORY=Internal|Orc Racial Trait Default.MOD																				ABILITY:Orc Racial Trait|AUTOMATIC|Racial Traits ~ Orc													SOURCEPAGE:UA

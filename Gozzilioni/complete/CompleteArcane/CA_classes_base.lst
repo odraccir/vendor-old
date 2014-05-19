@@ -8,18 +8,18 @@ CLASS:Warlock	HD:6	TYPE:Base.PC	ABB:Wrl	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:CHECKS|B
 CLASS:Warlock	PREALIGN:LE,NE,CE,CG,CN											
 CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device										
 CLASS:Warlock									BONUS:CASTERLEVEL|Warlock|CL			
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warlock|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockProficiencies
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warlock|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockProficiencies										
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Eldritch Blast|Warlock Eldritch Blast|Invocation|Warlock Invocation			BONUS:VAR|WarlockEldritchBlastLVL|CL	BONUS:ABILITYPOOL|Warlock Least Invocation|1	BONUS:VAR|WarlockInvocationLVL|CL			
 2				ABILITY:Special Ability|AUTOMATIC|Detect Magic (Sp at will)			BONUS:VAR|DetectMagicWillLVL|CL	BONUS:ABILITYPOOL|Warlock Least Invocation|1				
-3						DR:0/Cold Iron	DEFINE:WarlockDR|(CL+1)/4		BONUS:DR|Cold Iron|WarlockDR					
+3						DR:0/Cold Iron	DEFINE:WarlockDR|(CL+1)/4		BONUS:DR|Cold Iron|WarlockDR			
 4				ABILITY:Special Ability|AUTOMATIC|Deceive Item				BONUS:ABILITYPOOL|Warlock Least Invocation|1				
 5												
 6								BONUS:ABILITYPOOL|Warlock Lesser Invocation|1				
 7												
 8				ABILITY:Special Ability|AUTOMATIC|Fiendish Resiliency				BONUS:ABILITYPOOL|Warlock Lesser Invocation|1				
 9												
-10				ABILITY:Special Ability|VIRTUAL|Warlock Energy Resistance				BONUS:ABILITYPOOL|Warlock Lesser Invocation|1	BONUS:ABILITYPOOL|Warlock Energy Resistance|2	BONUS:VAR|WarlockEnergyResistanceLVL|CL		
+10								BONUS:ABILITYPOOL|Warlock Lesser Invocation|1	BONUS:ABILITYPOOL|Warlock Energy Resistance|2	DEFINE:WarlockResistanceBonus|0	BONUS:VAR|WarlockResistanceBonus|5	
 11								BONUS:ABILITYPOOL|Warlock Greater Invocation|1				
 12				ABILITY:Special Ability|AUTOMATIC|Imbue Item								
 13								BONUS:ABILITYPOOL|Warlock Greater Invocation|1				
@@ -29,17 +29,17 @@ CLASS:Warlock									BONUS:CASTERLEVEL|Warlock|CL
 17												
 18								BONUS:ABILITYPOOL|Warlock Dark Invocation|1				
 19												
-20								BONUS:ABILITYPOOL|Warlock Dark Invocation|1				
+20								BONUS:ABILITYPOOL|Warlock Dark Invocation|1	BONUS:VAR|WarlockResistanceBonus|5			
 #												
 CLASS:Warmage	HD:6	TYPE:Base.PC	ABB:Wrm	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
 #CLASS:Warmage												
 CLASS:Warmage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (History)|TYPE.Profession|Spellcraft										
 CLASS:Warmage	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Warmage|CL							
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warmage|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageProficiencies
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Warmage|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageProficiencies										
 #												
 1	CAST:5,3			ABILITY:Special Ability|AUTOMATIC|Armored Mage|Edge|Warmage Edge			BONUS:VAR|ArmoredMagePower|1	BONUS:VAR|WarmageEdgeLVL|CL				
 2	CAST:6,4											
-3	CAST:6,5					BONUS:ABILITYPOOL|Advanced Learning|(CL+4)/5
+3	CAST:6,5					BONUS:ABILITYPOOL|Advanced Learning|(min(CL,20)+4)/5						
 4	CAST:6,6,3											
 5	CAST:6,6,4											
 6	CAST:6,6,5,3											
@@ -62,7 +62,7 @@ CLASS:Wu Jen	HD:4	TYPE:Base.PC.Oriental	ABB:Wuj	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:
 CLASS:Wu Jen	PREALIGN:NG,TN,NE,CG,CN,CE											
 CLASS:Wu Jen	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft										
 CLASS:Wu Jen	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Wu Jen|CL							
-1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Wu Jen|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenProficiencies
+1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Wu Jen|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenProficiencies										
 #												
 1	CAST:3,1			ABILITY:Special Ability|AUTOMATIC|Watchful Spirit|Wu Jen Watchful Spirit			BONUS:ABILITYPOOL|Metamagic Feat|1	BONUS:ABILITYPOOL|Taboo|1				
 2	CAST:4,2											

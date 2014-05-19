@@ -73,7 +73,6 @@ CLASS:Artisan	PRETEXT:In order to enter the artisan class after 1st level, a cha
 CLASS:Artisan	STARTSKILLPTS:8	CSKILL:Appraise|TYPE.Craft|Diplomacy|Forgery|Gather Information|Knowledge (Local)|TYPE.Profession|Sense Motive
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Artisan
 #												
-#1				ADD:ABILITY|Special Ability|VIRTUAL|Artisan Master Craftman	ABILITY:Special Ability|AUTOMATIC|Base Skill Level|Artisan Skill Level		BONUS:ABILITYPOOL|Expert Class Skills|2		BONUS:VAR|ArtisanSkillLVL|CL			
 1				ABILITY:Special Ability|AUTOMATIC|Artisan Master Craftman	ABILITY:Special Ability|AUTOMATIC|Base Skill Level|Artisan Skill Level		BONUS:ABILITYPOOL|Expert Class Skills|2		BONUS:VAR|ArtisanSkillLVL|CL	
 2												
 3				ABILITY:Special Ability|AUTOMATIC|Man About Town								

@@ -2,12 +2,20 @@ SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Acid Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:YES		KEY:Warlock ~ Acid Resistance							BONUS:VAR|AcidResistanceBonus|WarlockResistanceBonus								ABILITY:Special Ability|AUTOMATIC|Resistance To Acid													SOURCEPAGE:CW			
+Cold Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:YES		KEY:Warlock ~ Cold Resistance							BONUS:VAR|ColdResistanceBonus|WarlockResistanceBonus								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold													SOURCEPAGE:CW			
+Electricity Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:YES		KEY:Warlock ~ Electricity Resistance							BONUS:VAR|ElectricityResistanceBonus|WarlockResistanceBonus								ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity													SOURCEPAGE:CW			
+Fire Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:YES		KEY:Warlock ~ Fire Resistance							BONUS:VAR|FireResistanceBonus|WarlockResistanceBonus								ABILITY:Special Ability|AUTOMATIC|Resistance To Fire													SOURCEPAGE:CW			
+Sonic Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:YES		KEY:Warlock ~ Sonic Resistance							BONUS:VAR|SonicResistanceBonus|WarlockResistanceBonus								ABILITY:Special Ability|AUTOMATIC|Resistance To Sonic													SOURCEPAGE:CW			
 Warlock Eldritch Blast	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockEldritchBlastLVL|0					BONUS:VAR|EldritchBlast|(WarlockEldritchBlastLVL+1)/2																		SOURCEPAGE:CA
 Warlock Invocation	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockInvocationLVL|0					BONUS:VAR|InvocationLVL|WarlockInvocationLVL																		SOURCEPAGE:CA
-Warlock Energy Resistance	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarlockEnergyResistanceLVL|0	DEFINE:WarlockBasicResistance|5				BONUS:VAR|WarlockBasicResistance|5|PREVARGTEQ:WarlockEnergyResistanceLVL,20																		SOURCEPAGE:CA
 Warmage Edge	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:WarmageEdgeLVL|0																							SOURCEPAGE:CA
 Wu Jen Watchful Spirit	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|WatchfulSpiritPerDay|1																		SOURCEPAGE:CA
 #																																
+Demon Skin	CATEGORY:Special Ability	TYPE:WearSkinType	VISIBLE:YES		KEY:Acolyte of the Skin ~ Wear Skin ~ Demon Skin																											SOURCEPAGE:CA										
+Devil Skin	CATEGORY:Special Ability	TYPE:WearSkinType	VISIBLE:YES		KEY:Acolyte of the Skin ~ Wear Skin ~ Devil Skin																											SOURCEPAGE:CA										
+Yugoloth Skin	CATEGORY:Special Ability	TYPE:WearSkinType	VISIBLE:YES		KEY:Acolyte of the Skin ~ Wear Skin ~ Yougoloth Skin																											SOURCEPAGE:CA										
+Other Skin	CATEGORY:Special Ability	TYPE:WearSkinType	VISIBLE:YES		KEY:Acolyte of the Skin ~ Wear Skin ~ Other Skin																											SOURCEPAGE:CA										
 Acolyte of the Skin Fiendish Glare	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:AcolyteSkinFiendishGlareLVL|0					BONUS:VAR|FiendishGlareDC|AcolyteSkinFiendishGlareLVL																		SOURCEPAGE:CA
 Acolyte of the Skin Glare of the Pit	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|GlareOfThePitPerDay|1																		SOURCEPAGE:CA
 Acolyte of the Skin Summon Fiend	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|SummonFiendPerDay|1																		SOURCEPAGE:CA

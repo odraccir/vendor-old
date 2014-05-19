@@ -17,14 +17,14 @@ CLASS:Emancipated Spawn	STARTSKILLPTS:2	CSKILL:Bluff|Climb|Disguise|Hide|Intimid
 CLASS:Illithid Savant	HD:4	TYPE:Monster.Prestige	ABB:Ils	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE		
 CLASS:Illithid Savant	PRERACE:1,Mind Flayer	PRESKILL:1,Knowledge (Arcana)=10	PRETEXT:Must have consumed the brain of a creature of CR 9 or greater.								
 CLASS:Illithid Savant	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Hide|Intimidate|TYPE.Knowledge|Listen|Move Silently|Search|Sense Motive									
-1				ABILITY:Special Ability|AUTOMATIC|Lore|Illithid Savant Lore	ADD:ABILITY|1|Special Ability|VIRTUAL|Acquire Skill		BONUS:VAR|IllithidSavantLoreLVL|CL				
+1				ABILITY:Special Ability|AUTOMATIC|Lore|Illithid Savant Lore			BONUS:ABILITYPOOL|Acquire Skill|1	BONUS:VAR|IllithidSavantLoreLVL|CL				
 2							BONUS:ABILITYPOOL|Feat|min(4,CL/2)				
 3				ABILITY:Special Ability|AUTOMATIC|Acquire Class Feature							
-4					ADD:ABILITY|1|Special Ability|VIRTUAL|Acquire Skill						
+4								BONUS:ABILITYPOOL|Acquire Skill|1				
 5				ABILITY:Special Ability|AUTOMATIC|Acquire Special Attack or Quality							
-6					ADD:ABILITY|1|Special Ability|VIRTUAL|Acquire Skill						
-7				ABILITY:Special Ability|AUTOMATIC|Acquire Class Feature							
-8					ADD:ABILITY|1|Special Ability|VIRTUAL|Acquire Skill						
+6								BONUS:ABILITYPOOL|Acquire Skill|1				
+7				ABILITY:Special Ability|AUTOMATIC|Acquire Class Feature								
+8								BONUS:ABILITYPOOL|Acquire Skill|1				
 9				ABILITY:Special Ability|AUTOMATIC|Acquire Special Attack or Quality							
 10				ABILITY:Special Ability|AUTOMATIC|Acquire Class Feature							
 #											

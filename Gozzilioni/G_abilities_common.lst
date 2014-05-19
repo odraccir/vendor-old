@@ -535,7 +535,7 @@ Acidic Hooves	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:Y
 Acidic Slime	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:%1d%2 acid damage.|AcidicSlimeDice|AcidicSlimeDamageDie				DEFINE:AcidicSlimeDice|0	DEFINE:AcidicSlimeDamageDie|0																							SOURCEPAGE:FFo										
 Acidic Touch	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:%1d%2 acid damage.|AcidicTouchDice|AcidicTouchDamageDie				DEFINE:AcidicTouchDice|0	DEFINE:AcidicTouchDamageDie|0																							SOURCEPAGE:MM3										
 Acquire Class Feature	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:SS										
-Acquire Skill	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES												STACK:NO	MULT:YES	CHOOSE:SKILL|QUALIFIED 	SELECT:1														SOURCEPAGE:SS	CSKILL:LIST									
+Acquire Skill	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.AcquireSkill	VISIBLE:YES												STACK:NO	MULT:YES	CHOOSE:SKILL|QUALIFIED 	SELECT:1														SOURCEPAGE:SS	CSKILL:LIST									
 Acquire Special Attack or Quality	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:SS										
 Acrobatic Defence	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:SoB										
 Acrobatic Skill Mastery	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
@@ -991,7 +991,7 @@ Charm Monster (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQ
 Charm Person (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:CharmPersonPerDay|0	DEFINE:CharmPersonLVL|0										SPELLS:Innate|TIMES=CharmPersonPerDay|CASTERLEVEL=CharmPersonLVL|Charm Person,11+CHA													SOURCEPAGE:EXD										
 Charmer	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:RLCoD										
 Charming Song	CATEGORY:Special Ability	TYPE:SpellLike.SpecialAttack	VISIBLE:YES	DESC:Will DC %1|CharmingSongDC				DEFINE:CharmingSongDC|11+CHA																								SOURCEPAGE:MM2										
-Chastise Spirit	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day %2d6 (Will DC %3)|ChastiseSpiritTimes|ChastiseSpiritDamage|ChastiseSpiritDC				DEFINE:ChastiseSpiritTimes|0	DEFINE:ChastiseSpiritDamage|0	DEFINE:ChastiseSpiritDC|0	BONUS:VAR|ChastiseSpiritTimes|3+CHA	BONUS:VAR|ChastiseSpiritDC|10+CHA																				SOURCEPAGE:CD										
+Chastise Spirit	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialAttack	VISIBLE:YES	DESC:%1/day %2d6 (Will DC %3)|ChastiseSpiritTimes|ChastiseSpiritDamage|ChastiseSpiritDC					DEFINE:ChastiseSpiritTimes|0	DEFINE:ChastiseSpiritDamage|0	DEFINE:ChastiseSpiritDC|0			BONUS:VAR|ChastiseSpiritTimes|3+CHA	BONUS:VAR|ChastiseSpiritDC|10+CHA																	SOURCEPAGE:CD
 Cheat (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:CheatPerDay|0	DEFINE:CheatLVL|0										SPELLS:Innate|TIMES=CheatPerDay|CASTERLEVEL=CheatLVL|Cheat,11+CHA													SOURCEPAGE:BoVD										
 Chill	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Fro										
 Chitin	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES					DEFINE:ChitinAC|0			BONUS:COMBAT|AC|ChitinAC|TYPE=NaturalArmor																					SOURCEPAGE:BoVD										
@@ -1278,7 +1278,7 @@ Detect Minion of Iborighu	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality
 Detect Mortals (Sp)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:BoVD										
 Detect Poison (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES						DEFINE:DetectPoisonLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DetectPoisonLVL|Detect Poison													SOURCEPAGE:FFo										
 Detect Snares and Pits (Sp always active)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality.Sense	VISIBLE:YES	DESC:always active	OUTPUTNAME:Detect Snares and Pits (Sp)																											SOURCEPAGE:MM2										
-Detect Spirits	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality.Sense	VISIBLE:YES						DEFINE:DetectSpiritLVL|0																						SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DetectSpiritLVL|Detect Spirits,11+WIS	SOURCEPAGE:CD										
+Detect Spirits (Sp/wis)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality.Sense	VISIBLE:YES						DEFINE:DetectSpiritLVL|0																						SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DetectSpiritLVL|Detect Spirits,11+WIS	SOURCEPAGE:CD										
 Detect Thoughts (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:DetectThoughtsPerDay|0	DEFINE:DetectThoughtsLVL|0										SPELLS:Innate|TIMES=DetectThoughtsPerDay|CASTERLEVEL=DetectThoughtsLVL|Detect Thoughts,11+CHA													SOURCEPAGE:Mon										
 Detect Thoughts (Sp/atwill)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality.Sense	VISIBLE:YES						DEFINE:DetectThoughtsLVL|0										SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=DetectThoughtsLVL|Detect Thoughts,11+CHA													SOURCEPAGE:CD										
 Detect Thoughts (Sp/Scourge)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES		OUTPUTNAME:Detect Thoughts (Sp)	SERVESAS:ABILITY=Special Ability|Detect Thoughts (Sp)		DEFINE:DetectThoughtsPerDay|0	DEFINE:DetectThoughtsLVL|0	DEFINE:DetectThoughtsDC|0									SPELLS:Innate|TIMES=DetectThoughtsPerDay|CASTERLEVEL=DetectThoughtsLVL|Detect Thoughts,11+CHA+DetectThoughtsDC													SOURCEPAGE:RLCoD										
@@ -2665,7 +2665,6 @@ Seize	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES				
 Seize Concentration	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PGtF										
 Selective Spell	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1/day|SelectiveSpellPerDay				DEFINE:SelectiveSpellPerDay|max(1,INT)																								SOURCEPAGE:PGtF										
 Self Spawn	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:LM										
-Sense Elements	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CD										
 Sense Group Dynamics	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:RLCoD										
 Sense Link	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES	DESC:Will DC %1|SenseLinkDC				DEFINE:SenseLinkDC|13+CHA																								SOURCEPAGE:PH										
 Sense Lycanthrope	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.Sense	VISIBLE:YES																													SOURCEPAGE:RLCoD										
@@ -2734,7 +2733,7 @@ Sickening Slime	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Special
 Sight of Gruumsh	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.ModifyAC	VISIBLE:YES								BONUS:COMBAT|AC|2|TYPE=Morale	BONUS:CHECKS|ALL|2|TYPE=Morale																				SOURCEPAGE:CW										
 Sightless	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																ABILITY:Special Ability|AUTOMATIC|Immunity To Gaze													SOURCEPAGE:LoM										
 Sigilsight	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CA										
-Signature Weapon	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:Signature Weapon (Su) %1|%LIST											STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC[FEAT=Weapon Focus]	SELECT:1														SOURCEPAGE:CW										
+Signature Weapon	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality.SignatureWeapon	VISIBLE:YES	DESC:Signature Weapon (Su) %1|%LIST											STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC[FEAT=Weapon Focus]	SELECT:1														SOURCEPAGE:CW										
 Silence	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:MoF										
 Silent	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ModifyMovement	VISIBLE:YES	DESC:move in absolute silence and make no noise.																												SOURCEPAGE:FFo										
 Silent Guardian	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PGtF										
@@ -3379,7 +3378,7 @@ Weapon Cloud	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YE
 Weapon Power	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Mon										
 Weapon Use	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Martial Weapon Proficiency Output|Simple Weapon Proficiency																											SOURCEPAGE:MM2										
 Wear Flesh	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:LoM										
-Wear Skin	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST							BONUS:COMBAT|AC|1|TYPE=NaturalArmor	BONUS:STAT|DEX|2|TYPE=Inherent			STACK:NO	MULT:YES	CHOOSE:STRING|Demon|Devil|Other|Yugholoth	SELECT:1	VISION:Darkvision (60')													SOURCEPAGE:CA										
+Wear Skin	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES								BONUS:COMBAT|AC|1|TYPE=NaturalArmor	BONUS:STAT|DEX|2|TYPE=Inherent							VISION:Darkvision (60')													SOURCEPAGE:CA										
 Weather Predict	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:SoB										
 Web Movement	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality.ModifyMovement	VISIBLE:YES																													SOURCEPAGE:MM3										
 Weeping Dirge	CATEGORY:Special Ability	TYPE:Supernatural.SpecialQuality	VISIBLE:YES	DESC:Will DC %1|WeepingDirgeDC				DEFINE:WeepingDirgeDC|10+(HD/2)+CHA																								SOURCEPAGE:LM										
@@ -3511,6 +3510,8 @@ Ventriloquism (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality
 Mirror Image (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:MirrorImageLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=MirrorImageLVL|Mirror Image													SOURCEPAGE:Phs										
 Mage Armor (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:MageArmorLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=MageArmorLVL|Mage Armor													SOURCEPAGE:Phs										
 Spider Climb (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:SpiderClimbLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=SpiderClimbLVL|Spider Climb													SOURCEPAGE:Phs										
+Enthropic Shield (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:EnthropicShieldLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=EnthropicShieldLVL|Enthropic Shield													SOURCEPAGE:Phs										
+Feather Fall (Sp/atwill)	CATEGORY:Special Ability	TYPE:SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:FeatherFallLVL|0											SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=FeatherFallLVL|Feather Fall													SOURCEPAGE:Phs										
 #	CATEGORY:Special Ability	TYPE:	VISIBLE:	DESC:																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:	VISIBLE:	DESC:																												SOURCEPAGE:										
 #	CATEGORY:Special Ability	TYPE:	VISIBLE:	DESC:																												SOURCEPAGE:										

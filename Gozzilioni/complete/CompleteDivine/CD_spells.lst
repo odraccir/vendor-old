@@ -131,7 +131,7 @@ Wrack			TYPE:Arcane.Divine	CLASSES:Cleric=3|Sorcerer,Wizard=4		SCHOOL:Necromancy
 Zeal			TYPE:Divine	CLASSES:Blackguard=2|Paladin=2		SCHOOL:Abjuration			COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You move through foes to attack the enemy you want	SOURCEPAGE:CD								
 Zealot Pact			TYPE:Divine	CLASSES:Cleric=6		SCHOOL:Evocation			COMPS:V, S, DF, XP	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Willing living creature touched		DURATION:Permanent until triggered, then 1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You automatically gain combat bonuses when you attack someone of opposite alignment	SOURCEPAGE:CD			XPCOST:500					
 #																										
-Detect Undead.COPY=Detect Spirits																										
+Detect Undead.COPY=Detect Spirits	KEY:Detect Spirits																									
 Tidal Surge.COPY=Master of the Rolling River
 #																										
 ###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL

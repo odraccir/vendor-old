@@ -6,7 +6,7 @@ CLASS:Warlock.MOD		MAXLEVEL:NOLIMIT
 #			
 # Class Name			
 CLASS:Warmage.MOD		MAXLEVEL:NOLIMIT	
-21:REPEATLEVEL:4		ADD:ABILITY|Special Ability|VIRTUAL|Advanced Learning ~ Warmage	
+21:REPEATLEVEL:4		BONUS:ABILITYPOOL|Advanced Learning|1	
 23:REPEATLEVEL:3		BONUS:ABILITYPOOL|Epic Warmage Feat|1	
 #			
 # Class Name			
