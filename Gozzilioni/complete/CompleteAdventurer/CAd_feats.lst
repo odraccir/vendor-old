@@ -21,7 +21,7 @@ Devoted Performer	TYPE:General	VISIBLE:YES					PREABILITY:2,CATEGORY=Special Abi
 Devoted Tracker	TYPE:General	VISIBLE:YES				PREFEAT:1,Track	PREABILITY:2,CATEGORY=Special Ability,Smite Evil,Wild Empathy																	DESC:Special mount become animal companion, and paladin and ranger levels stack for smite evil and wild empathy														BONUS:VAR|SmiteEvilDamage|classlevel("Ranger")			SOURCEPAGE:CAd	BONUS:VAR|WildEmpathy|classlevel("Paladin")			
 Disguise Sepll	TYPE:General	VISIBLE:YES						PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=9											DESC:Cast spells unobtrusively as part of performance																	SOURCEPAGE:CAd				
 Dive For Cover	TYPE:General	VISIBLE:YES																		PRECHECKBASE:1,Reflex=4				DESC:Make one retry on failed Reflex save, but end up prone																	SOURCEPAGE:CAd				
-Dual Strike	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Improved Two Weapon Fighting,Two Weapon Fighting																		DESC:Attack once with each hand as a standard action																	SOURCEPAGE:CAd				
+Dual Strike	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Improved Two-Weapon Fighting,Two-Weapon Fighting																		DESC:Attack once with each hand as a standard action																	SOURCEPAGE:CAd				
 Expert Tactician	TYPE:General	VISIBLE:YES		PREATT:2		PREFEAT:1,Combat Reflexes									PRESTAT:1,DEX=13									DESC:All allies gain +2 attack and damage bonus for a round against a target you've hit with an attack of opportunity																	SOURCEPAGE:CAd				
 Extra Music	TYPE:General	VISIBLE:YES							PREABILITY:1,CATEGORY=Special Ability,Bardic Music															DESC:Gain 4 uses per day of bardic music	STACK:YES	MULT:YES	CHOOSE:NOCHOICE											BONUS:VAR|BardicMusicTimes|4			SOURCEPAGE:Cad				
 Extraordinary Concentration	TYPE:General	VISIBLE:YES										PRESKILL:1,Concentration=15												DESC:Concentrate on a spell as a move action or swift action																	SOURCEPAGE:CAd				
@@ -29,7 +29,7 @@ Extraordinary Spell Aim	TYPE:General	VISIBLE:YES										PRESKILL:1,Spellcraft=
 Force of Personality	TYPE:General	VISIBLE:YES													PRESTAT:1,CHA=13									DESC:Add CHA modifier, rather than WIS modifier, to Will saves								BONUS:CHECKS|Will|max(WIS,CHA)-WIS									SOURCEPAGE:CAd				
 Goad	TYPE:General.Fighter	VISIBLE:YES		PREATT:1											PRESTAT:1,CHA=13									DESC:Causes target to attack only you																	SOURCEPAGE:CAd				
 Green Ear	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Bardic Music					PRESKILL:1,TYPE.Perform=10									PREVARGTEQ:BardicMusicTimes,1			DESC:Affect plants with your bardic music ability																	SOURCEPAGE:CAd				
-Hear The Unseen	TYPE:General	VISIBLE:YES				PREFEAT:1,Blind Fight						PRESKILL:1,Listen=5												DESC:Pinpoint a target's location by sound, not sight																	SOURCEPAGE:CAd				
+Hear The Unseen	TYPE:General	VISIBLE:YES				PREFEAT:1,Blind-Fight						PRESKILL:1,Listen=5												DESC:Pinpoint a target's location by sound, not sight																	SOURCEPAGE:CAd				
 Improved Diversion	TYPE:General.Fighter	VISIBLE:YES										PRESKILL:1,Bluff=4												DESC:Use Bluff to create a diversion, then hide as a move action																	SOURCEPAGE:CAd				
 Improved Flight	TYPE:General	VISIBLE:YES																		PRETEXT:Ability to fly (naturally, magically or trough shapechange)				DESC:Flight maneuverability improves by one step																	SOURCEPAGE:CAd				
 Improved Swimming	TYPE:General	VISIBLE:YES										PRESKILL:1,Swim=6												DESC:Double your swimming speed																	SOURCEPAGE:CAd				
@@ -41,7 +41,7 @@ Mobile Casting Spell	TYPE:General	VISIBLE:YES										PRESKILL:1,Concentration=
 Natural Bond	TYPE:General	VISIBLE:YES																						DESC:Add +3 to effective druid leven when determining animal companion's abilities														BONUS:VAR|AnimalCompanionLVL|min(3,classlevel("Druid")-AnimalCompanionLVL)			SOURCEPAGE:CAd				
 Obscure Lore	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,TYPE=Lore																	DESC:Gain +4 bonus on bardic knowledge or lore checks																	SOURCEPAGE:CAd				
 Open Minded.MOD	BONUS:SKILLPOOL|CLASS=%;LEVEL=%|5	SOURCEPAGE:CAd																						DESC:Immediately gain 5 skill points																					
-Oversized Two Weapon Fighting	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Oversized Two-Weapon Fighting			PREFEAT:1,Two Weapon Fighting									PRESTAT:1,STR=13									DESC:Treat one-handed weapon in off-hand as if light weapon															BONUS:COMBAT|TOHIT-SECONDARY|2|PREEQUIPSECONDARY:1,WIELDCATEGORY=Light		SOURCEPAGE:CAd				
+Oversized Two-Weapon Fighting	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Oversized Two-Weapon Fighting			PREFEAT:1,Two-Weapon Fighting									PRESTAT:1,STR=13									DESC:Treat one-handed weapon in off-hand as if light weapon															BONUS:COMBAT|TOHIT-SECONDARY|2|PREEQUIPSECONDARY:1,WIELDCATEGORY=Light		SOURCEPAGE:CAd				
 Power Throw	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:2,Brutal Throw,Power Attack									PRESTAT:1,STR=13									DESC:Power attack with thrown weapons																	SOURCEPAGE:CAd				
 Quick Reconnoiter	TYPE:General	VISIBLE:YES										PRESKILL:2,Listen=5,Spot=5												DESC:Spot and Listen as free action, +2 on initiative checks									BONUS:COMBAT|INITIATIVE|2								SOURCEPAGE:CAd				
 Razing Strike	TYPE:General	VISIBLE:YES					PREABILITY:1,CATEGORY=Special Ability,Sneak Attack							PRECLASS:1,SPELLCASTER=5							PREVARGTEQ:SneakAttackDice,1			DESC:Spend a spell uses to gain attack and damage bonuses against constructs or undead																	SOURCEPAGE:CAd				
@@ -65,7 +65,7 @@ Acrobatic.MOD	TYPE:Scout
 Agile.MOD	TYPE:Scout																																												
 Alertness.MOD	TYPE:Scout																																												
 Athletic.MOD	TYPE:Scout																																												
-Blind Fight.MOD	TYPE:Scout																																												
+Blind-Fight.MOD	TYPE:Scout																																												
 Brachiation.MOD	TYPE:Scout																																												
 Combat Expertise.MOD	TYPE:Scout																																												
 Danger Sense.MOD	TYPE:Scout																																												
@@ -93,7 +93,7 @@ Agile.MOD	TYPE:Exemplar
 Alertness.MOD	TYPE:Exemplar																																												
 Animal Affinity.MOD	TYPE:Exemplar																																												
 Athletic.MOD	TYPE:Exemplar																																												
-Blind Fight.MOD	TYPE:Exemplar																																												
+Blind-Fight.MOD	TYPE:Exemplar																																												
 Combat Casting.MOD	TYPE:Exemplar																																												
 Combat Expertise.MOD	TYPE:Exemplar																																												
 Deceitful.MOD	TYPE:Exemplar																																												
@@ -107,7 +107,7 @@ Negotiator.MOD	TYPE:Exemplar
 Nimble Fingers.MOD	TYPE:Exemplar																																												
 Open Minded.MOD	TYPE:Exemplar																																												
 Persuasive.MOD	TYPE:Exemplar																																												
-Self Sufficient.MOD	TYPE:Exemplar																																												
+Self-Sufficient.MOD	TYPE:Exemplar																																												
 Skill Focus.MOD	TYPE:Exemplar																																												
 Stealthy.MOD	TYPE:Exemplar																																												
 Track.MOD	TYPE:Exemplar																																												

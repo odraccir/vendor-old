@@ -1827,7 +1827,7 @@ Greater Psionic Focus	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.Sp
 Greater Spellsong	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Greater Teleport (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:GreaterTeleportPerDay|0	DEFINE:GreaterTeleportLVL|0										SPELLS:Innate|TIMES=GreaterTeleportPerDay|CASTERLEVEL=GreaterTeleportLVL|Teleport (Greater),17+CHA													SOURCEPAGE:LoM										
 Greater Tunnelport (Sp)	CATEGORY:Special Ability	TYPE:ClassAbility.SpellLike.SpecialQuality	VISIBLE:YES					DEFINE:GreaterTunnelportPerDay|0	DEFINE:GreaterTunnelportLVL|0		BONUS:VAR|GreaterTeleportPerDay|GreaterTunnelportPerDay	BONUS:VAR|GreaterTeleportLVL|2*GreaterTunnelportLVL							ABILITY:Special Ability|VIRTUAL|Greater Teleport (Sp)													SOURCEPAGE:LoM										
-Greater Two Swords as One	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Greater Two Weapon Fighting|PREEQUIP:2,Sword (Katana),Sword (Wakizashi)													SOURCEPAGE:CW										
+Greater Two Swords as One	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Greater Two-Weapon Fighting|PREEQUIP:2,Sword (Katana),Sword (Wakizashi)													SOURCEPAGE:CW										
 Greater Weapon Afrost	CATEGORY:Special Ability	TYPE:PsiLike.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Fro										
 Greensickness	CATEGORY:Special Ability	TYPE:Supernatural.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:MM3										
 Grind	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES	DESC:1d6+%1|STR																												SOURCEPAGE:Nep										
@@ -2012,7 +2012,7 @@ Improved Spell Acquisition	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQua
 Improved Staredown	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Improved Stonecunning	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Stonecunning				BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=Racial	BONUS:SKILL|Search (Notice unusual stonework)|2|TYPE=Racial.STACK|PREABILITY:1,CATEGORY=Special Ability,Stonecunning	BONUS:VAR|StonecunningLevel|1|TYPE=ImprovedStonecunning																			SOURCEPAGE:CW										
 Improved Summoning	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:LM										
-Improved Two Swords as One	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Improved Two Weapon Fighting|PREEQUIP:2,Sword (Katana),Sword (Wakizashi)													SOURCEPAGE:CW										
+Improved Two Swords as One	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Improved Two-Weapon Fighting|PREEQUIP:2,Sword (Katana),Sword (Wakizashi)													SOURCEPAGE:CW										
 Improved Vile Natural Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:PGtF										
 Improved Violent Thrust	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CW										
 Improved Voice of Wrath	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES				PREFEAT:1,Voice of Wrath				BONUS:VAR|VoiceOfWrathBonus|2																					SOURCEPAGE:RLCoD										
@@ -2389,7 +2389,7 @@ Pierce Disguise	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.Special
 Pierce Illusion	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:CD										
 Pierce Shadows	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:1 turn use for Bright light %1 feet radius dor %2 minutes|PierceShadowsRadius|PierceShadowsDuration				DEFINE:PierceShadowsRadius|20	DEFINE:PierceShadowsDuration|0																							SOURCEPAGE:CAd										
 Pierce the Veil	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES					DEFINE:PierceTheVeilLVL|0	DEFINE:PierceTheVeilTimes|0					SPELLS:Innate|TIMES=PierceTheVeilLVL|CASTERLEVEL=PierceTheVeilLVL|Speak with Dead,13+CHA																		SOURCEPAGE:DD										
-Piercing Sight	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:Ignore miss chance created by darkness spells or effects							BONUS:SKILL|Spot|5								VFEAT:Blind Fight													SOURCEPAGE:PGtF										
+Piercing Sight	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:Ignore miss chance created by darkness spells or effects							BONUS:SKILL|Spot|5								AUTO:FEAT|Blind-Fight													SOURCEPAGE:PGtF										
 Pin	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Mon										
 Pin Down	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:FFo										
 Pinning	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	VISIBLE:YES																													SOURCEPAGE:LoM										
@@ -3239,7 +3239,7 @@ Turn Resistance ~ increased	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordi
 Twart Magic Trap	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES								BONUS:SKILL|Search (Magical traps),Disable Device (Disable or bypass magical traps)|3																					SOURCEPAGE:PGtF										
 Twilight Reality	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:Nep										
 Two Personas	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																													SOURCEPAGE:BoVD										
-Two Swords as One	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Two Weapon Fighting|PREEQUIP:2,Sword (Katana),Sword (Wakizashi)													SOURCEPAGE:CW										
+Two Swords as One	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES																VFEAT:Two-Weapon Fighting|PREEQUIP:2,Sword (Katana),Sword (Wakizashi)													SOURCEPAGE:CW										
 Two Weapon Spring Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Two-Weapon Spring Attack																												SOURCEPAGE:CAd										
 Two Weapon Versatility	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality	VISIBLE:YES	OUTPUTNAME:Two-Weapon Versatility																												SOURCEPAGE:CAd										
 Tymora's Smile	CATEGORY:Special Ability	TYPE:ClassAbility.Supernatural.SpecialQuality	VISIBLE:YES	DESC:+2 sacred bonus on any single saving throw once a day.																												SOURCEPAGE:PGtF										

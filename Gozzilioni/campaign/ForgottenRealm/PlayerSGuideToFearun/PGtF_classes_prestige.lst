@@ -66,7 +66,7 @@ CLASS:Eye of Horus-Re	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|TYPE.K
 3	ADD:SPELLCASTER|Cleric			ABILITY:Special Ability|AUTOMATIC|Touch of the Sun (good)									
 4	ADD:SPELLCASTER|Cleric												
 5	ADD:SPELLCASTER|Cleric					BONUS:DOMAIN|NUMBER|1							
-6	ADD:SPELLCASTER|Cleric		VFEAT:Blind Fight	ABILITY:Special Ability|AUTOMATIC|Piercing Sight									
+6	ADD:SPELLCASTER|Cleric		VFEAT:Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Piercing Sight									
 7	ADD:SPELLCASTER|Cleric												
 8	ADD:SPELLCASTER|Cleric			ABILITY:Special Ability|AUTOMATIC|Positive Energy Burst|Eye Horus Re Positive Energy Burst			BONUS:VAR|EyeHorusRePositiveBurstLVL|CL						
 9	ADD:SPELLCASTER|Cleric												

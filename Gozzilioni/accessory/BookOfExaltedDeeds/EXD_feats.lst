@@ -56,7 +56,7 @@ Vow of Poverty	TYPE:Exalted	VISIBLE:YES				PREFEAT:1,Sacred Vow								PREALIGN:
 Vow of Purity	TYPE:Exalted	VISIBLE:YES				PREFEAT:1,Sacred Vow								PREALIGN:LG,NG,CG								ABILITY:Special Ability|VIRTUAL|Aura of Good	DEFINE:AuraGood|TL	DESC:+4 perfection bonus on Fort saves against disease and death effects.																	SOURCEPAGE:EXD				
 Words of Creation	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:2,CHA=15,INT=15					PRECHECKBASE:1,Will=5		ABILITY:Special Ability|VIRTUAL|Aura of Good	DEFINE:AuraGood|TL	DESC:Ability to use Words of Creation.																	SOURCEPAGE:EXD				
 #																																													
-Blind Fight.MOD	TYPE:AnointedKnight																																												
+Blind-Fight.MOD	TYPE:AnointedKnight																																												
 Cleave.MOD	TYPE:AnointedKnight																																												
 Endurance.MOD	TYPE:AnointedKnight																																												
 Exalted Smite.MOD	TYPE:AnointedKnight																																												
@@ -85,7 +85,7 @@ Flyby Attack.MOD	TYPE:FlyingMount
 Hover.MOD	TYPE:FlyingMount																																												
 Multiattack.MOD	TYPE:FlyingMount																																												
 Wingover.MOD	TYPE:FlyingMount																																												
-Blind Fight.MOD	TYPE:VassalBahamut																																												
+Blind-Fight.MOD	TYPE:VassalBahamut																																												
 Cleave.MOD	TYPE:VassalBahamut																																												
 Combat Reflexes.MOD	TYPE:VassalBahamut																																												
 Exalted Smite.MOD	TYPE:VassalBahamut																																												

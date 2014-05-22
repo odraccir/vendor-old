@@ -47,7 +47,7 @@ Improved Sunder.MOD	TYPE:BloodlineFeatAbyssal
 Power Attack.MOD	TYPE:BloodlineFeatAbyssal
 #	
 Alertness.MOD	TYPE:BloodlineFeatAccursed
-Blind Fight.MOD	TYPE:BloodlineFeatAccursed
+Blind-Fight.MOD	TYPE:BloodlineFeatAccursed
 Combat Casting.MOD	TYPE:BloodlineFeatAccursed
 Deceitful.MOD	TYPE:BloodlineFeatAccursed
 Defensive Combat Training.MOD	TYPE:BloodlineFeatAccursed
@@ -84,7 +84,7 @@ Extend Spell.MOD	TYPE:BloodlineFeatCelestial
 Iron Will.MOD	TYPE:BloodlineFeatCelestial
 Mobility.MOD	TYPE:BloodlineFeatCelestial
 Mounted Combat.MOD	TYPE:BloodlineFeatCelestial
-Ride By Attack.MOD	TYPE:BloodlineFeatCelestial
+Ride-By Attack.MOD	TYPE:BloodlineFeatCelestial
 Weapon Finesse.MOD	TYPE:BloodlineFeatCelestial
 #	
 Diehard.MOD	TYPE:BloodlineFeatDemonic
@@ -98,7 +98,7 @@ Toughness.MOD	TYPE:BloodlineFeatDemonic
 #	
 Acrobatic Steps.MOD	TYPE:BloodlineFeatDeepEarth
 Alertness.MOD	TYPE:BloodlineFeatDeepEarth
-Blind Fight.MOD	TYPE:BloodlineFeatDeepEarth
+Blind-Fight.MOD	TYPE:BloodlineFeatDeepEarth
 Forge Ring.MOD	TYPE:BloodlineFeatDeepEarth
 Nimble Moves.MOD	TYPE:BloodlineFeatDeepEarth
 Stealthy.MOD	TYPE:BloodlineFeatDeepEarth
@@ -120,7 +120,7 @@ Lightning Reflexes.MOD	TYPE:BloodlineFeatDjinni
 Power Attack.MOD	TYPE:BloodlineFeatDjinni
 Weapon Finesse.MOD	TYPE:BloodlineFeatDjinni
 #	
-Blind Fight.MOD	TYPE:BloodlineFeatDraconic
+Blind-Fight.MOD	TYPE:BloodlineFeatDraconic
 Great Fortitude.MOD	TYPE:BloodlineFeatDraconic
 Improved Initiative.MOD	TYPE:BloodlineFeatDraconic
 Power Attack.MOD	TYPE:BloodlineFeatDraconic
@@ -150,7 +150,7 @@ Point Blank Shot.MOD	TYPE:BloodlineFeatFey
 Precise Shot.MOD	TYPE:BloodlineFeatFey
 Quicken Spell.MOD	TYPE:BloodlineFeatFey
 #	
-Blind Fight.MOD	TYPE:BloodlineFeatInfernal
+Blind-Fight.MOD	TYPE:BloodlineFeatInfernal
 Combat Expertise.MOD	TYPE:BloodlineFeatInfernal
 Deceitful.MOD	TYPE:BloodlineFeatInfernal
 Extend Spell.MOD	TYPE:BloodlineFeatInfernal
@@ -167,7 +167,7 @@ Silent Spell.MOD	TYPE:BloodlineFeatProtean
 Stealthy.MOD	TYPE:BloodlineFeatProtean
 #	
 Acrobatic.MOD	TYPE:BloodlineFeatShadow
-Blind Fight.MOD	TYPE:BloodlineFeatShadow
+Blind-Fight.MOD	TYPE:BloodlineFeatShadow
 Dodge.MOD	TYPE:BloodlineFeatShadow
 Quick Draw.MOD	TYPE:BloodlineFeatShadow
 Silent Spell.MOD	TYPE:BloodlineFeatShadow

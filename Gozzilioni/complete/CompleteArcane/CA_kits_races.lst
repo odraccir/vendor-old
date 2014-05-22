@@ -54,7 +54,7 @@ SKILL:Sense Motive	RANK:13
 SKILL:Spot	RANK:39		
 SKILL:Tumble	RANK:13		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Combat Reflexes
 FEAT:Dodge
@@ -105,7 +105,7 @@ SKILL:Sense Motive	RANK:13
 SKILL:Spot	RANK:39		
 SKILL:Tumble	RANK:15		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Combat Reflexes
 FEAT:Dodge

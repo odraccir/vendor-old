@@ -44,7 +44,7 @@ Eye of Winking			TYPE:Magic.Wondrous.Amulet	COST:120000	WT:0		SOURCEPAGE:MoF
 Fanged Mask			TYPE:Magic.Wondrous.Eyegear	COST:8302	WT:1		SOURCEPAGE:MoF				SPROP:Bite +1 enhancement/1d4 damage + stun 1 round (Fort DC 13)								
 Gauntlet of Fury			TYPE:Magic.Wondrous.Weapon.Melee.Finesseable.Simple.Standard.Bludgeoning.Unarmed.Gauntlet	COST:22000	WT:2		SOURCEPAGE:MoF					BONUS:COMBAT|AC|2|TYPE=Armor	PROFICIENCY:WEAPON|Gauntlet	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	WIELD:Light	SIZE:M
 Gloves of Lightning			TYPE:Magic.Wondrous.Glove	COST:8000	WT:0		SOURCEPAGE:MoF				SPROP:3/day ranged touch 30-ft 1d8+5 electrical damage (+3 to hit if target is wearing metal armor)								
-Gloves of the Balanced Hands			TYPE:Magic.Wondrous.Glove	COST:18000	WT:0		SOURCEPAGE:MoF				SPROP:Act as if he has Two Weapon Fighting feat or if he already has it, Improved Two Weapon Fighting feat.								
+Gloves of the Balanced Hands			TYPE:Magic.Wondrous.Glove	COST:18000	WT:0		SOURCEPAGE:MoF				SPROP:Act as if he has Two-Weapon Fighting feat or if he already has it, Improved Two-Weapon Fighting feat.								
 #Golden Chalice of Lathander			TYPE:Magic.Wondrous	COST:29500	WT:2		SOURCEPAGE:MoF			EQMOD:CHARGED_ITEM_3|CHARGES[3]	SPROP:continual Daylight. Healing Circle 1 charges.								
 Golden Chalice of Lathander			TYPE:Magic.Wondrous	COST:29500	WT:2		SOURCEPAGE:MoF			EQMOD:CHARGED_ITEM_3|CHARGES[3]	SPROP:continual Daylight. Cure Light Wounds (Mass) 1 charges.								
 Gwaeron's Belt			TYPE:Magic.Wondrous.Belt	COST:60500	WT:1		SOURCEPAGE:MoF				SPROP:1/day can command his weapon to become +1 flaming for 12 rounds.	SPELLS:Gwaeron's Belt|TIMES=1|CASTERLEVEL=12|Wind Walk							

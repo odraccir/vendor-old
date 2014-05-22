@@ -37,7 +37,7 @@ CLASS:Bladesinger	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Jump|Knowledge (A
 #												
 ###TODO CONTIGUOUS:Paladin												
 CLASS:Cavalier	HD:10	TYPE:Prestige	ABB:Cav	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-CLASS:Cavalier	PREALIGN:LG,LN,LE	PREATT:8	PRESKILL:2,Handle Animal=4,Knowledge (Nobility and Royalty)=4	PRESKILL:1,Ride=6	PREFEAT:4,Spirited Charge,Weapon Focus(Lance),Mounted Combat,Ride By Attack							
+CLASS:Cavalier	PREALIGN:LG,LN,LE	PREATT:8	PRESKILL:2,Handle Animal=4,Knowledge (Nobility and Royalty)=4	PRESKILL:1,Ride=6	PREFEAT:4,Spirited Charge,Weapon Focus(Lance),Mounted Combat,Ride-By Attack							
 CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowledge (Nobility and Royalty)|TYPE.Profession|Ride										
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Cavalier										
 #												
@@ -53,7 +53,7 @@ CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowled
 10				ABILITY:Special Ability|AUTOMATIC|Unstoppable Charge								
 #												
 CLASS:Dark Hunter	HD:8	TYPE:Prestige	ABB:DHu	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-CLASS:Dark Hunter	PREATT:5	PRESKILL:1,Craft (Trapmaking)=5	PRESKILL:3,Knowledge (Dungeoneering)=2,Move Silently=2,Survival=2	PREFEAT:2,Blind Fight,Track								
+CLASS:Dark Hunter	PREATT:5	PRESKILL:1,Craft (Trapmaking)=5	PRESKILL:3,Knowledge (Dungeoneering)=2,Move Silently=2,Survival=2	PREFEAT:2,Blind-Fight,Track								
 CLASS:Dark Hunter	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Disable Device|Hide|Knowledge (Dungeoneering)|Listen|Move Silently|TYPE.Profession|Spot|Survival|Swim|Use Rope										
 1				ABILITY:Special Ability|AUTOMATIC|Stonecunning ~ Base			DEFINE:StonecunningLevel|2					
 2				ABILITY:Special Ability|AUTOMATIC|Enhanced Darkvision			BONUS:VISION|DarkVision|30					
@@ -114,7 +114,7 @@ CLASS:Exotic Wepon Master	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Intimidate|TYPE.Prof
 CLASS:Eye of Gruumsh	HD:12	TYPE:Prestige	ABB:Eye	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
 CLASS:Eye of Gruumsh	PREMULT:1,[PRERACE:1,Orc%,Half-Orc],[PRERACE:1,RACESUBTYPE=Orc]	PREALIGN:CE,CN,NE	PREATT:6	PREFEAT:2,Exotic Weapon Proficiency(Axe (Orc Double)),Weapon Focus(Axe (Orc Double))	PREDEITY:1,Gruumsh	PRETEXT:Must pop out his own right eye in a special ritual						
 CLASS:Eye of Gruumsh	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Ride|Survival|Swim										
-1			VFEAT:Blind Fight	ABILITY:Special Ability|AUTOMATIC|Command the Horde								
+1			VFEAT:Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Command the Horde								
 1				ABILITY:Special Ability|AUTOMATIC|Rage|Eye of Gruumsh Rage			BONUS:VAR|EyeGruumshRageTimesLVL,EyeGruumshRagePowerLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Swing Blindly								
 3				ABILITY:Special Ability|AUTOMATIC|Ritual Scarring|Eye of Gruumsh Ritual Scarring			BONUS:VAR|EyeGruumshRitualScarringLVL|CL					

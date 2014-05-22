@@ -68,8 +68,8 @@ Steadfast Determination	TYPE:General	VISIBLE:YES				PREFEAT:1,Endurance									
 Telling Blow	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Skirmish Attack																		DESC:Gain Skirmish or Sneak Attack damage on critical hits																	SOURCEPAGE:PHB2							
 Trophy Collector	TYPE:General	VISIBLE:YES										PRESKILL:1,Craft (Taxidermy)=6												DESC:Gain bonuses from trophies you create and wear																	SOURCEPAGE:PHB2							
 Tumbling Feint	TYPE:General.Fighter	VISIBLE:YES										PRESKILL:2,Bluff=4,Tumble=4												DESC:+5 on feint attempt after succesful tumble																	SOURCEPAGE:PHB2							
-Two Weapon Pounce	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Two-Weapon Pounce	PREATT:6		PREFEAT:1,Two Weapon Fighting									PRESTAT:1,DEX=15									DESC:Attack with both weapons when charging																	SOURCEPAGE:PHB2							
-Two Weapon Rend	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Two-Weapon Rend	PREATT:11		PREFEAT:1,Two Weapon Fighting									PRESTAT:1,DEX=15									DESC:Gain bonus damage if you hit with both weapons																	SOURCEPAGE:PHB2							
+Two Weapon Pounce	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Two-Weapon Pounce	PREATT:6		PREFEAT:1,Two-Weapon Fighting									PRESTAT:1,DEX=15									DESC:Attack with both weapons when charging																	SOURCEPAGE:PHB2							
+Two Weapon Rend	TYPE:General.Fighter	VISIBLE:YES	OUTPUTNAME:Two-Weapon Rend	PREATT:11		PREFEAT:1,Two-Weapon Fighting									PRESTAT:1,DEX=15									DESC:Gain bonus damage if you hit with both weapons																	SOURCEPAGE:PHB2							
 Vatic Gaze	TYPE:General	VISIBLE:YES											PRECLASS:1,SPELLCASTER.Arcane=9											DESC:Detect Magic at will, use Sense Motive to determine foe's highest-level spell																	SOURCEPAGE:PHB2	SPELLS:Vatic Gaze|TIMES=ATWILL|CASTERLEVEL=TL|Detect Magic						
 Versatile Unarmed Strike	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Improved Unarmed Strike																		DESC:Deal bludgeoning, piercing or slashing damage with unarmed strikes																	SOURCEPAGE:PHB2							
 Vexing Flanker	TYPE:General.Fighter	VISIBLE:YES				PREFEAT:1,Combat Reflexes																		DESC:+4 on attacks when flanking																	SOURCEPAGE:PHB2							
@@ -80,7 +80,7 @@ Weapon Supremacy	TYPE:General	VISIBLE:YES				PREFEAT:4,Greater Weapon Focus,Grea
 Ritual Blessing	TYPE:General.Ceremony	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4								PREALIGN:LG,NG,CG				DESC:See Text																	SOURCEPAGE:PHB2							
 Ritual Blood Bonds	TYPE:General.Ceremony	VISIBLE:YES										PRESKILL:1,Knowledge (Religion)=4								PREMULT:1,[PRERACE:1,Orc%,Half-Orc],[PRERACE:1,RACESUBTYPE=Orc]				DESC:See Text																	SOURCEPAGE:PHB2							
 # Combat Form																								DESC:See Text																	SOURCEPAGE:PHB2							
-Combat Awareness	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:12		PREFEAT:2,Combat Focus,Blind Fight									PRESTAT:1,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2	VFEAT:Combat Awareness Blindsight|PREVARGTEQ:CombatFocusFeats,3						
+Combat Awareness	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:12		PREFEAT:2,Combat Focus,Blind-Fight									PRESTAT:1,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2	VFEAT:Combat Awareness Blindsight|PREVARGTEQ:CombatFocusFeats,3						
 Combat Defense	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:6		PREFEAT:2,Combat Focus,Dodge									PRESTAT:2,DEX=13,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2	BONUS:VAR|DodgeBonusAC|1|PREVARGTEQ:CombatFocusFeats,3						
 Combat Focus	TYPE:General.Fighter.CombatForm	VISIBLE:YES													PRESTAT:1,WIS=13							SAB:Combat Focus ~ % rounds|CombatFocusDuration	DEFINE:CombatFocusFeats|0	DESC:See Text								TEMPBONUS:PC|CHECKS|Will|CombatFocusMorale									SOURCEPAGE:PHB2	DEFINE:CombatFocusMorale|0	DEFINE:CombatFocusDuration|0	BONUS:VAR|CombatFocusDuration|10+CombatFocusFeats	DEFINE:CombatFocused|0	BONUS:VAR|CombatFocusMorale|2	BONUS:VAR|CombatFocusMorale|2|PREVARGTEQ:CombatFocusFeats,3	TEMPBONUS:PC|VAR|CombatFocused|1
 Combat Stability	TYPE:General.Fighter.CombatForm	VISIBLE:YES		PREATT:3		PREFEAT:1,Combat Focus									PRESTAT:1,WIS=13									DESC:See Text														BONUS:VAR|CombatFocusFeats|1			SOURCEPAGE:PHB2							
@@ -127,7 +127,7 @@ Endurance.MOD	TYPE:Knight
 Great Fortitude.MOD	TYPE:Knight																																															
 Iron Will.MOD	TYPE:Knight																																															
 Quick Draw.MOD	TYPE:Knight																																															
-Ride By Attack.MOD	TYPE:Knight																																															
+Ride-By Attack.MOD	TYPE:Knight																																															
 Spirited Charge.MOD	TYPE:Knight																																															
 Trample.MOD	TYPE:Knight																																															
 Weapon Focus.MOD	TYPE:Knight																																															

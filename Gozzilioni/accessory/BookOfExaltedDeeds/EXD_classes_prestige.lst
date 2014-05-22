@@ -283,7 +283,7 @@ CLASS:Sentinel of Bharrai	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|D
 10	ADD:SPELLCASTER|ANY			ABILITY:Special Ability|AUTOMATIC|Quickened Call Lightning Storm (Sp)			BONUS:VAR|QuickCallLightningStormPerDay|1	BONUS:VAR|QuickCallLightningStormLVL|CL			
 #											
 CLASS:Skylord	HD:10	TYPE:PC.Prestige.Exalted	ABB:Skl	MAXLEVEL:10	SOURCEPAGE:EXD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Skylord	PREALIGN:LG,NG,CG	PRERACE:1,RACESUBTYPE=Elf	PREATT:7	PRESKILL:2,Handle Animal=10,Ride=10	PREFEAT:1,Mounted Combat	PREFEAT:1,Mounted Archery,Ride By Attack	PREFEAT:1,TYPE=Exalted	PRETEXT:must spend one week living and meditating atop a mountain.			
+CLASS:Skylord	PREALIGN:LG,NG,CG	PRERACE:1,RACESUBTYPE=Elf	PREATT:7	PRESKILL:2,Handle Animal=10,Ride=10	PREFEAT:1,Mounted Combat	PREFEAT:1,Mounted Archery,Ride-By Attack	PREFEAT:1,TYPE=Exalted	PRETEXT:must spend one week living and meditating atop a mountain.			
 CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE.Knowledge|Listen|Ride|Spot|Survival									
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Skylord									
 #											

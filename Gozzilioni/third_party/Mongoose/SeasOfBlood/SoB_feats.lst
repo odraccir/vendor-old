@@ -3,7 +3,7 @@ SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net
 # BASICS																																										
 # Feat Name	Type	visible		Req. Att.	Required Class	Required Feat			Special Ability	Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat		Save checks bonus			Combat bonus	Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	ADDSPELLLEVEL
 #Ambidexterity.MOD	TYPE:Reaver																																									
-Two Weapon Fighting.MOD	TYPE:Reaver
+Two-Weapon Fighting.MOD	TYPE:Reaver
 Combat Reflexes.MOD	TYPE:Reaver																																									
 Dodge.MOD	TYPE:Reaver																																									
 Exotic Weapon Proficiency.MOD	TYPE:Reaver																																									

@@ -333,7 +333,7 @@ CATEGORY=Special Ability|Racial Traits ~ Halfling.MOD				DESC:&nl;+2 racial bonu
 																																	
 #Human																																	
 +2 racial bonus on Listen Spot and Survival checks.	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanSkills	VISIBLE:YES		KEY:Human Neandertal Skills	OUTPUTNAME:+2 racial bonus on Listen, Spot and Survival checks.						BONUS:SKILL|Listen,Spot,Survival|2|TYPE=Racial																					SOURCEPAGE:BoVD
-1 extra vile feat at 1st level.	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanBonusFeat	VISIBLE:YES	DESC:1 extra vile feat at 1st level.	KEY:Human Vasharan Bonus Feat							BONUS:ABILITYPOOL|Vile Feat|1																					SOURCEPAGE:BoVD
+#1 extra vile feat at 1st level.	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanBonusFeat	VISIBLE:YES	DESC:1 extra vile feat at 1st level.	KEY:Human Vasharan Bonus Feat							BONUS:ABILITYPOOL|Vile Feat|1																					SOURCEPAGE:BoVD
 Climate Tolerant	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait	VISIBLE:YES			SERVESAS:ABILITY=FEAT|Cold Endurance																											SOURCEPAGE:Fro
 Favored Class ~ Barbarian	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanFavoredClass	VISIBLE:NO		KEY:Human Favored Class ~ Barbarian																												SOURCEPAGE:Fro
 Favored Class ~ Ranger	CATEGORY:Special Ability	TYPE:RacialTraits.HumanRacialTrait.HumanFavoredClass	VISIBLE:NO		KEY:Human Favored Class ~ Ranger																												SOURCEPAGE:Fro

@@ -26,7 +26,7 @@ Daggerspell Wild Shape	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DE
 Daggerspell Wild Shape Times	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:DaggerspellWildShape,2	BONUS:VAR|WildShapeProgression|1|PREVARGTEQ:DaggerspellWildShape,4																	SOURCEPAGE:CAd
 Daggerspell Wild Shape Progression	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VAR|WildShapeTimes|1+((DaggerspellWildShape)/5)																		SOURCEPAGE:CAd
 Dread Pirate Seamanship	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DreadPirateSeamanshipLVL|0					BONUS:VAR|SeamanshipBonus|DreadPirateSeamanshipLVL																		SOURCEPAGE:CAd
-Dread Pirate Two Weapon Fighting	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																				VFEAT:Two Weapon Fighting|!PREEQUIP:1,TYPE=Armor.Medium,TYPE=Armor.Heavy									SOURCEPAGE:CAd
+Dread Pirate Two-Weapon Fighting	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																				VFEAT:Two-Weapon Fighting|!PREEQUIP:1,TYPE=Armor.Medium,TYPE=Armor.Heavy									SOURCEPAGE:CAd
 #Dungeon Delver Darkvision	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											VISION:Darkvision (60')|PREVISION:1,Darkvision=0	BONUS:VISION|Darkvision|30|PREVISION:1,Darkvision=1																	SOURCEPAGE:CAd
 Dungeon Delver Darkvision	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO											BONUS:VISION|Darkvision|30|PREVISION:1,Darkvision=1																	SOURCEPAGE:CAd	
 Dungeon Delver Deep Survival	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO						DEFINE:DungeonDelverDeepSurvivalLVL|0					BONUS:VAR|DeepSurvivalBonus|DungeonDelverDeepSurvivalLVL																		SOURCEPAGE:CAd

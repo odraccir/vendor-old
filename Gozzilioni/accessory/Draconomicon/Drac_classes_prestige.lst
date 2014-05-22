@@ -248,7 +248,7 @@ CLASS:Dragonsong Lyrist	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Di
 5				ABILITY:Special Ability|AUTOMATIC|Greater Dragonsong ~ Song of Healing							
 #											
 CLASS:Dragonstalker	HD:8	TYPE:Prestige	ABB:Dst	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Dragonstalker	PREATT:5	PREFEAT:2,Blind Fight,Track	PRESKILL:2,Gather Information=4,Knowledge (Arcana)=4	PRESKILL:3,Hide=6,Move Silently=6,Search=6	PRELANG:1,Draconic						
+CLASS:Dragonstalker	PREATT:5	PREFEAT:2,Blind-Fight,Track	PRESKILL:2,Gather Information=4,Knowledge (Arcana)=4	PRESKILL:3,Hide=6,Move Silently=6,Search=6	PRELANG:1,Draconic						
 CLASS:Dragonstalker	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Gather Information|Hide|Jump|Knowledge (Arcana)|Knowledge (Local)|Listen|Move Silently|Search|Spot|Survival									
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dragonstalker
 #											

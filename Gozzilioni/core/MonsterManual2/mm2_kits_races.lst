@@ -118,7 +118,7 @@ SKILL:Search	RANK:29
 SKILL:Spot	RANK:29		
 SKILL:Tumble	RANK:29		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Expertise
 FEAT:Combat Reflexes
 FEAT:Dodge
@@ -279,7 +279,7 @@ SKILL:Spot	RANK:20
 SKILL:Survival	RANK:18		
 FEAT:Ability Focus
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Reflexes
 FEAT:Dodge
 FEAT:Flyby Attack
@@ -383,7 +383,7 @@ SKILL:Jump	RANK:14
 SKILL:Listen	RANK:30		
 SKILL:Search	RANK:30		
 SKILL:Spot	RANK:30		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Great Cleave
 FEAT:Great Fortitude
@@ -430,7 +430,7 @@ SKILL:Jump	RANK:31
 SKILL:Listen	RANK:33		
 SKILL:Move Silently	RANK:27		
 SKILL:Spot	RANK:33		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Combat Reflexes
 FEAT:Great Cleave
@@ -438,8 +438,8 @@ FEAT:Improved Bull Rush
 FEAT:Improved Critical(Flail)
 FEAT:Improved Sunder
 FEAT:Power Attack
-FEAT:Two Weapon Defense
-FEAT:Two Weapon Fighting
+FEAT:Two-Weapon Defense
+FEAT:Two-Weapon Fighting
 FEAT:Weapon Focus(Flail)
 GEAR:Flail	SIZE:PC	LOCATION:Carried	
 GEAR:Flail	SIZE:PC	LOCATION:Carried	
@@ -572,11 +572,11 @@ SKILL:Sense Motive	RANK:15
 SKILL:Sleight of Hand	RANK:1		
 SKILL:Spellcraft	RANK:15		
 SKILL:Spot	RANK:15		
-FEAT:Greater Two Weapon Fighting
+FEAT:Greater Two-Weapon Fighting
 FEAT:Improved Feint
 FEAT:Improved Initiative
-FEAT:Improved Two Weapon Fighting
-FEAT:Two Weapon Fighting
+FEAT:Improved Two-Weapon Fighting
+FEAT:Two-Weapon Fighting
 
 STARTPACK:Default Desmodu	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu]
 RACE:Desmodu	!PRERACE:1,%		
@@ -878,7 +878,7 @@ SKILL:Search	RANK:30
 SKILL:Spot	RANK:30		
 SKILL:Tumble	RANK:30		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Expertise
 FEAT:Great Fortitude
 FEAT:Improved Critical(Incorporeal touch)
@@ -972,7 +972,7 @@ SKILL:Listen	RANK:10
 SKILL:Sense Motive	RANK:11		
 SKILL:Spot	RANK:12		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Expertise
 FEAT:Dodge
 FEAT:Improved Initiative
@@ -1005,7 +1005,7 @@ SKILL:Jump	RANK:35
 SKILL:Listen	RANK:35		
 SKILL:Search	RANK:35		
 SKILL:Spot	RANK:35		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Combat Expertise
 FEAT:Great Cleave
@@ -1172,7 +1172,7 @@ SKILL:Listen	RANK:1
 SKILL:Move Silently	RANK:7		
 SKILL:Spot	RANK:1		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Improved Critical(Claw)
 FEAT:Multiattack
 FEAT:Stealthy
@@ -1277,7 +1277,7 @@ RACE:Golem (Stained Glass)	!PRERACE:1,%
 NAME:Golem (Stained Glass)
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 SKILL:Hide	RANK:0		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Great Cleave
 FEAT:Power Attack
@@ -1288,7 +1288,7 @@ RACE:Golem (Brass)	!PRERACE:1,%
 NAME:Golem (Brass)
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 SKILL:Survival	RANK:0		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Great Cleave
 FEAT:Power Attack
@@ -1331,7 +1331,7 @@ SKILL:Sense Motive	RANK:14
 SKILL:Spot	RANK:0		
 SKILL:Tumble	RANK:14		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Reflexes
 FEAT:Dodge
 FEAT:Improved Critical(Bite)
@@ -1720,7 +1720,7 @@ SKILL:Listen	RANK:18
 SKILL:Spellcraft	RANK:18		
 SKILL:Spot	RANK:18		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Expertise
 FEAT:Improved Critical(Tentacle Rake)
 FEAT:Improved Initiative
@@ -1746,7 +1746,7 @@ SKILL:Listen	RANK:10
 SKILL:Spellcraft	RANK:10		
 SKILL:Spot	RANK:10		
 SKILL:Swim	RANK:0		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Dodge
 FEAT:Improved Initiative
 
@@ -1933,7 +1933,7 @@ SKILL:Spot	RANK:33
 SKILL:Survival	RANK:33		
 SKILL:Swim	RANK:33		
 FEAT:Alertness
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Combat Expertise
 FEAT:Dodge
@@ -1961,7 +1961,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 SKILL:Hide	RANK:35		
 SKILL:Move Silently	RANK:35		
 FEAT:Awesome Blow
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Cleave
 FEAT:Endurance
 FEAT:Great Cleave
@@ -2092,7 +2092,7 @@ SKILL:Listen	RANK:34
 SKILL:Search	RANK:34		
 SKILL:Spot	RANK:34		
 SKILL:Tumble	RANK:34		
-FEAT:Blind Fight
+FEAT:Blind-Fight
 FEAT:Combat Expertise
 FEAT:Combat Reflexes
 FEAT:Dodge

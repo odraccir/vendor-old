@@ -12,7 +12,7 @@ Xammux	ALIGN:NE		DESC:Xammux (?)	DOMAINS:Inquisition,Darkness,Knowledge,Truth|PR
 
 #	ALIGN:	DEITYWEAP:	DESC:()	DOMAINS:|PREALIGN:	TYPE:Demigod	PANTHEON:Vile	SOURCEPAGE:BoVD	
 Demogorgon	ALIGN:CE		DESC:Demogorgon (M)	DOMAINS:Corruption,Demonic,Evil|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
-Graz'zt	ALIGN:CE		DESC:Graz'zt (M)	DOMAINS:Darkness BoVD,Demonic,Evil|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
+Graz'zt	ALIGN:CE		DESC:Graz'zt (M)	DOMAINS:Darkness,Demonic,Evil|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
 Juiblex	ALIGN:CE		DESC:Juiblex (M)		TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
 Orcus	ALIGN:CE		DESC:Orcus (M)	DOMAINS:Chaos,Evil,Death|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	
 Yeenoghu	ALIGN:CE		DESC:Yeenoghu (M)	DOMAINS:Bestial,Chaos,Demonic|PREALIGN:NE,CN,CE	TYPE:Demon	PANTHEON:Demonlord	SOURCEPAGE:BoVD	

@@ -175,7 +175,7 @@ CLASS:Ex Holy Liberator	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomac
 #															
 ###TODO CONTIGUOUS:Paladin															
 CLASS:Hospitaler	HD:8	TYPE:Prestige	ABB:Hos	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCLASS:Ex Hospitaler					
-CLASS:Hospitaler	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:5	PRESKILL:2,Handle Animal=5,Ride=5	PREFEAT:1,Mounted Combat,Ride By Attack	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1									
+CLASS:Hospitaler	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:5	PRESKILL:2,Handle Animal=5,Ride=5	PREFEAT:1,Mounted Combat,Ride-By Attack	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1									
 CLASS:Hospitaler	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Religion)|TYPE.Profession|Ride													
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Hospitaler
 #															

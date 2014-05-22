@@ -74,7 +74,7 @@ CLASS:Frostrager	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Survival|Sw
 #											
 ###TODO: CONTIGUOUS:Paladin											
 CLASS:Knight of the Iron Glacier	HD:10	TYPE:PC.Prestige.Frostfell	ABB:KIG	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Knight of the Iron Glacier	PREALIGN:LG,LN	PRESKILL:1,Handle Animal=5	PRESKILL:1,Ride=9	PRESKILL:1,Survival=2	PREFEAT:4,Animal Affinity,Exotic Weapon Proficiency(Sword (Bastard)),Mounted Combat,Ride By Attack	PRETEXT:Must prove to the order that her intentions are noble and true.					
+CLASS:Knight of the Iron Glacier	PREALIGN:LG,LN	PRESKILL:1,Handle Animal=5	PRESKILL:1,Ride=9	PRESKILL:1,Survival=2	PREFEAT:4,Animal Affinity,Exotic Weapon Proficiency(Sword (Bastard)),Mounted Combat,Ride-By Attack	PRETEXT:Must prove to the order that her intentions are noble and true.					
 CLASS:Knight of the Iron Glacier	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Listen|Ride|Sense Motive|Spot|Survival									
 1				ABILITY:Special Ability|AUTOMATIC|Warmount			BONUS:VAR|SpecialMountLVL|CL	BONUS:VAR|WarmountLVL|CL			
 2				ABILITY:Special Ability|AUTOMATIC|Frostfell Awareness			BONUS:VAR|FrostfellAwarenessBonus|(CL+1)/3				
@@ -88,7 +88,7 @@ CLASS:Knight of the Iron Glacier	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Han
 10				ABILITY:Special Ability|AUTOMATIC|Overwhelming Odds							
 #											
 CLASS:Primeval	HD:10	TYPE:PC.Prestige.Frostfell	ABB:Pri	MAXLEVEL:10	SOURCEPAGE:Fro	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE		
-CLASS:Primeval	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:8	PRESKILL:3,Handle Animal=5,Knowledge (Nature)=5,Survival=5	PREFEAT:3,Endurance,Self Sufficient,Toughness							
+CLASS:Primeval	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:8	PRESKILL:3,Handle Animal=5,Knowledge (Nature)=5,Survival=5	PREFEAT:3,Endurance,Self-Sufficient,Toughness							
 CLASS:Primeval	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Intimidate|Jump|Knowledge (Nature)|Listen|Spot|Survival|Swim									
 1				ABILITY:Special Ability|AUTOMATIC|Primeval Form			BONUS:VAR|PrimevalFormPerDay|(CL+2)/3				
 2				ABILITY:Special Ability|AUTOMATIC|Animal Empathy|Regression			BONUS:VAR|AnimalEmpathyBonus|4	BONUS:VAR|RegressionBonus|min(3,((CL+1)/3))		VISION:Low-Light	

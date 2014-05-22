@@ -97,7 +97,7 @@ CLASS:Bloodhound	STARTSKILLPTS:6	CSKILL:Bluff|Climb|Diplomacy|Disguise|Gather In
 10				ABILITY:Special Ability|AUTOMATIC|Find the Path (Sp)			BONUS:VAR|FindThePathPerDay|2	BONUS:VAR|FindThePathLVL|CL				
 #												
 CLASS:Daggerspell Mage	HD:6	TYPE:Prestige	ABB:Dgm	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
-CLASS:Daggerspell Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PREFEAT:2,Weapon Focus(Dagger),Two Weapon Fighting	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=5	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack							
+CLASS:Daggerspell Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PREFEAT:2,Weapon Focus(Dagger),Two-Weapon Fighting	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=5	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack							
 CLASS:Daggerspell Mage	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Arcana)|Listen|Move Silently|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim|Tumble										
 1				ABILITY:Special Ability|AUTOMATIC|Daggercast								
 2	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Invocation of the Knife								
@@ -111,7 +111,7 @@ CLASS:Daggerspell Mage	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE.C
 10	ADD:SPELLCASTER|Arcane			ABILITY:Special Ability|AUTOMATIC|Daggerspell Flurry								
 #												
 CLASS:Daggerspell Shaper	HD:6	TYPE:Prestige	ABB:Dgs	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
-CLASS:Daggerspell Shaper	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=8	PREFEAT:2,Weapon Focus(Dagger),Two Weapon Fighting	PREABILITY:1,CATEGORY=Special Ability,TYPE=WildShape	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Skirmish Attack							
+CLASS:Daggerspell Shaper	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=8	PREFEAT:2,Weapon Focus(Dagger),Two-Weapon Fighting	PREABILITY:1,CATEGORY=Special Ability,TYPE=WildShape	PREABILITY:1,CATEGORY=Special Ability,Sneak Attack,Skirmish Attack							
 CLASS:Daggerspell Shaper	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Nature)|Listen|Move Silently|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim|Tumble										
 1				ABILITY:Special Ability|AUTOMATIC|Daggercast								
 2	ADD:SPELLCASTER|Divine			ABILITY:Special Ability|AUTOMATIC|Daggerspell Wild Shape|Daggerspell Wild Shape Times|Daggerspell Wild Shape Progression	ABILITY:Special Ability|AUTOMATIC|Dagger Claws		BONUS:VAR|DaggerspellWildShape|CL					
@@ -130,7 +130,7 @@ CLASS:Dread Pirate	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craf
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Dread Pirate
 #												
 1				ABILITY:Special Ability|AUTOMATIC|Seamanship|Dread Pirate Seamanship|Code of Conduct ~ Dread Pirate			BONUS:VAR|DreadPirateSeamanshipLVL|CL					
-2				ABILITY:Special Ability|AUTOMATIC|Dread Pirate Two Weapon Fighting|Fearsome Reputation			BONUS:VAR|FearsomeReputationLVL|CL	BONUS:ABILITYPOOL|Fearsome Reputation|(CL+1)/2				
+2				ABILITY:Special Ability|AUTOMATIC|Dread Pirate Two-Weapon Fighting|Fearsome Reputation			BONUS:VAR|FearsomeReputationLVL|CL	BONUS:ABILITYPOOL|Fearsome Reputation|(CL+1)/2				
 3												
 4				ABILITY:Special Ability|AUTOMATIC|Acrobatic Charge|Steady Stance								
 5												
@@ -141,7 +141,7 @@ CLASS:Dread Pirate	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craf
 10				ABILITY:Special Ability|AUTOMATIC|Pirate King								
 #												
 CLASS:Dungeon Delver	HD:6	TYPE:Prestige	ABB:Del	MAXLEVEL:10	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE			
-CLASS:Dungeon Delver	PRESKILL:4,Climb=10,Disable Device=10,Open Lock=10,Search=10	PRESKILL:4,Craft (Stonemasonry)=5,Hide=5,Knowledge (Dungeoneering)=5,Move Silently=5	PREFEAT:2,Alertness,Blind Fight	PREABILITY:1,CATEGORY=Special Ability,Trapfinding	PRETEXT:Must survive a great trial underground.see desc.							
+CLASS:Dungeon Delver	PRESKILL:4,Climb=10,Disable Device=10,Open Lock=10,Search=10	PRESKILL:4,Craft (Stonemasonry)=5,Hide=5,Knowledge (Dungeoneering)=5,Move Silently=5	PREFEAT:2,Alertness,Blind-Fight	PREABILITY:1,CATEGORY=Special Ability,Trapfinding	PRETEXT:Must survive a great trial underground.see desc.							
 CLASS:Dungeon Delver	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Climb|TYPE.Craft|Disable Device|Hide|Jump|Knowledge (Dungeoneering)|Listen|Move Silently|Open Lock|Search|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope										
 1				ABILITY:Special Ability|AUTOMATIC|Dungeon Delver Darkvision|Deep Survival|Dungeon Delver Deep Survival|Trap Sense Ability			BONUS:VAR|DungeonDelverDeepSurvivalLVL|CL	BONUS:VAR|TrapSenseBonus|(CL+2)/3				
 2				ABILITY:Special Ability|AUTOMATIC|Stonecunning|Reduce (Sp)						SPELLS:Reduce|TIMES=3|CASTERLEVEL=classlevel("Dungeon Delver")|Reduce Person		
@@ -365,7 +365,7 @@ CLASS:Streetfighter	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Disable Device|Hide|Intim
 5				ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base			BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.STACK	BONUS:VAR|UncannyDodgeLevel|1				
 #												
 CLASS:Tempest	HD:10	TYPE:Prestige	ABB:Tmp	MAXLEVEL:5	SOURCEPAGE:CAd	BONUS:CHECKS|BASE.Fortitude|CL/2+2	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-CLASS:Tempest	PREATT:6	PREFEAT:5,Dodge,Improved Two Weapon Fighting,Mobility,Spring Attack,Two Weapon Fighting										
+CLASS:Tempest	PREATT:6	PREFEAT:5,Dodge,Improved Two-Weapon Fighting,Mobility,Spring Attack,Two-Weapon Fighting										
 CLASS:Tempest	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE.Craft|Jump|Sleight of Hand|Tumble										
 1				ABILITY:Special Ability|AUTOMATIC|Tempest Defense|Tempest Tempest Defense			BONUS:VAR|TempestTempestDefenseLVL|CL					
 2				ABILITY:Special Ability|AUTOMATIC|Ambidexterity|Tempest Ambidexterity			BONUS:VAR|TempestAmbidexterityLVL|CL					

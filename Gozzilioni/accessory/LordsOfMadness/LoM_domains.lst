@@ -1,4 +1,4 @@
 SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net		
 				
 #		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|		
-Vile Darkness	SOURCEPAGE:LoM	SPELLLEVEL:DOMAIN|Vile Darkness=1|Darkvision|Vile Darkness=2|Darkbolt|Vile Darkness=3|Deeper Darkness|Vile Darkness=4|Damning Darkness|Vile Darkness=5|Black Tentacles|Vile Darkness=6|Wall of Force|Vile Darkness=7|Shadow Walk|Vile Darkness=8|Utterdark (LoM)|Vile Darkness=9|Screen	DESC:You gain the Blind Fight feat.	VFEAT:Blind Fight
+Vile Darkness	SOURCEPAGE:LoM	SPELLLEVEL:DOMAIN|Vile Darkness=1|Darkvision|Vile Darkness=2|Darkbolt|Vile Darkness=3|Deeper Darkness|Vile Darkness=4|Damning Darkness|Vile Darkness=5|Black Tentacles|Vile Darkness=6|Wall of Force|Vile Darkness=7|Shadow Walk|Vile Darkness=8|Utterdark (LoM)|Vile Darkness=9|Screen	DESC:You gain the Blind-Fight feat.	VFEAT:Blind-Fight

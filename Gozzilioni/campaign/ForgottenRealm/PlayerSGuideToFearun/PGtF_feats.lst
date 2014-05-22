@@ -104,7 +104,7 @@ Touch of Hate	TYPE:Vile	VISIBLE:YES				PREFEAT:1,Violate Spell											PREDEIT
 Acrobatic.MOD	TYPE:ShadowThief																																														
 Agile.MOD	TYPE:ShadowThief																																														
 Alertness.MOD	TYPE:ShadowThief																																														
-Blind Fight.MOD	TYPE:ShadowThief																																														
+Blind-Fight.MOD	TYPE:ShadowThief																																														
 Combat Expertise.MOD	TYPE:ShadowThief																																														
 Deceitful.MOD	TYPE:ShadowThief																																														
 Deft Hands.MOD	TYPE:ShadowThief																																														
@@ -123,7 +123,7 @@ Still Spell.MOD	TYPE:ShadowThief
 Weapon Finesse.MOD	TYPE:ShadowThief																																														
 Weapon Focus.MOD	TYPE:ShadowThief																																														
 #																																															
-Blind Fight.MOD	TYPE:DivineChampion																																														
+Blind-Fight.MOD	TYPE:DivineChampion																																														
 Combat Expertise.MOD	TYPE:DivineChampion																																														
 Combat Reflexes.MOD	TYPE:DivineChampion																																														
 Exotic Weapon Proficiency.MOD	TYPE:DivineChampion																																														

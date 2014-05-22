@@ -170,7 +170,7 @@ CLASS:Mimetist	STARTSKILLPTS:6	CSKILL:Tumble|TYPE.Craft|Escape Artist|Listen|Dis
 10				ABILITY:Special Ability|AUTOMATIC|Artificial Mimesis			BONUS:VAR|ArtificialMimesisPerDay|1					
 #												
 CLASS:Darkened	HD:10	TYPE:Prestige.Nephandum	ABB:Drk	MAXLEVEL:10	SOURCEPAGE:Nep	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE			
-CLASS:Darkened	PREATT:6	PRESKILL:1,Hide=5	PREFEAT:3,Blind Fight,Improved Feint,Stealthy	PRETEXT:Must have defeated a Shadow								
+CLASS:Darkened	PREATT:6	PRESKILL:1,Hide=5	PREFEAT:3,Blind-Fight,Improved Feint,Stealthy	PRETEXT:Must have defeated a Shadow								
 CLASS:Darkened	STARTSKILLPTS:4	CSKILL:Tumble|TYPE.Craft|Escape Artist|Balance|Move Silently|Hide|Spot|Sleight of Hand										
 1		ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Darkened
 #												

@@ -1,7 +1,6 @@
 SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net			
 					
 Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus			
-Quicken Spell Like Ability.MOD	STACK:NO	MULT:YES	CHOOSE:USERINPUT|TITLE=Quicken Spell-Like Ability		
 Skill Focus.MOD		BONUS:SKILL|LIST|-3	BONUS:SKILL|LIST|3|TYPE=Focus		
 Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=WeaponFocus			
 #					

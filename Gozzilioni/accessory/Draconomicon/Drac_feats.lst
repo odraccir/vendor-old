@@ -72,7 +72,7 @@ Overhead Thrust	TYPE:General	VISIBLE:YES		PREATT:6		PREFEAT:2,Close Quarters Fig
 Sense Weakness	TYPE:General	VISIBLE:YES				PREFEAT:2,Combat Expertise,Weapon Focus									PRESTAT:1,INT=13									DESC:Your attacks more easily overcome damage reduction or hardness.																	SOURCEPAGE:Drac					
 																																														
 Mounted Archery.MOD	TYPE:Dragonrider																																													
-Ride By Attack.MOD	TYPE:Dragonrider																																													
+Ride-By Attack.MOD	TYPE:Dragonrider																																													
 Spirited Charge.MOD	TYPE:Dragonrider																																													
 Trample.MOD	TYPE:Dragonrider																																													
 Weapon Focus.MOD	TYPE:Dragonrider																																													

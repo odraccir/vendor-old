@@ -15,7 +15,7 @@ Lookout	TYPE:General																							DESC:You are capable of spotting crea
 Naval Heritage	TYPE:General										PREPCLEVEL:MAX=1													DESC:You come from a family with a proud tradition of service aboard seagoing vessels																	SOURCEPAGE:Ssh				
 Notorious	TYPE:General																							DESC:You are well known as a dangerous cutthroat not to be trifled with																	SOURCEPAGE:Ssh				
 Parry	TYPE:General			PREATT:3		PREFEAT:1,Combat Expertise									PRESTAT:1,DEX=13									DESC:You can deflect a melee attack against you with your own weapon																	SOURCEPAGE:Ssh				
-Parrying Weapon	TYPE:General					PREFEAT:1,Two Weapon Fighting																		DESC:You can use an off-hand weapon as if it were a shield																	SOURCEPAGE:Ssh				
+Parrying Weapon	TYPE:General					PREFEAT:1,Two-Weapon Fighting																		DESC:You can use an off-hand weapon as if it were a shield																	SOURCEPAGE:Ssh				
 Polar Bear Skin	TYPE:General																							DESC:Your skin is better able to withstand the affects of extremely cold water than the average person's																	SOURCEPAGE:Ssh				
 Port Savvy	TYPE:General																							DESC:You know all the ins and outs of life in the seedy ports of call that sailors use as stopover points in their journeys																	SOURCEPAGE:Ssh				
 Pressure Survival	TYPE:General											PRESKILL:1,Swim=1												DESC:You are extremely tolerant to the pressures of the deep																	SOURCEPAGE:Ssh				
