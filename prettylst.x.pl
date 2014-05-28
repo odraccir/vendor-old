@@ -164,11 +164,11 @@ my %conversion_enable =
      # After PCGEN 2.7.3
      'ALL: 4.3.3 Weapon name change'      => 0,               # Bunch of name changed for SRD compliance
      'EQUIPMENT: remove ATTACKS'          => 0,               #[ 686169 ] remove ATTACKS: tag
-     'EQUIPMENT: SLOTS:2 for plurals'     => 0,               #[ 695677 ] EQUIPMENT: SLOTS for gloves, bracers and boots
+     'EQUIPMENT: SLOTS:2 for plurals'     => 1,               #[ 695677 ] EQUIPMENT: SLOTS for gloves, bracers and boots
      'PCC:GAME to GAMEMODE'               => 0,               #[ 707325 ] PCC: GAME is now GAMEMODE
      'ALL: , to | in VISION'              => 0,               #[ 699834 ] Incorrect loading of multiple vision types
                                                               #[ 728038 ] BONUS:VISION must replace VISION:.ADD
-     'ALL:PRESTAT needs a ,'              => 0,               # PRESTAT now only accepts the format PRESTAT:1,<stat>=<n>
+     'ALL:PRESTAT needs a ,'              => 1,               # PRESTAT now only accepts the format PRESTAT:1,<stat>=<n>
      'ALL:BONUS:MOVE convertion'          => 0,               #[ 711565 ] BONUS:MOVE replaced with BONUS:MOVEADD
      'ALL:PRECLASS needs a ,'             => 0,               #[ 731973 ] ALL: new PRECLASS syntax
      'ALL:COUNT[FEATTYPE=...'             => 0,               #[ 737718 ] COUNT[FEATTYPE] data change
@@ -180,7 +180,7 @@ my %conversion_enable =
      'WEAPONPROF:No more SIZE'            => 0,               #[ 845853 ] SIZE is no longer valid in the weaponprof files
      'EQUIP:no more MOVE'                 => 0,               #[ 865826 ] Remove the deprecated MOVE tag in EQUIPMENT files
      'ALL:EQMOD has new keys'             => 0,               #[ 892746 ] KEYS entries were changed in the main files
-     'CLASS:CASTERLEVEL for all casters'  => 0,               #[ 876536 ] All spell casting classes need CASTERLEVEL
+     'CLASS:CASTERLEVEL for all casters'  => 1,               #[ 876536 ] All spell casting classes need CASTERLEVEL
      'ALL:MOVE:nn to MOVE:Walk,nn'        => 0,               #[ 1006285 ] Convertion MOVE:<number> to MOVE:Walk,<Number>
      'ALL:Convert SPELL to SPELLS'        => 0,               #[ 1070084 ] Convert SPELL to SPELLS
      'TEMPLATE:HITDICESIZE to HITDIE'     => 0,               #[ 1070344 ] HITDICESIZE to HITDIE in templates.lst
@@ -206,7 +206,7 @@ my %conversion_enable =
      'ALL:Find Willpower'                 => 1,               #Find the tags that use Willpower so that we can
                                                               # plan the conversion to Will
      'RACE:TYPE to RACETYPE'              => 0,               # [ 1353255 ] TYPE to RACETYPE conversion
-     'ALL:CMP NatAttack fix'              => 0,               # Fix STR bonus for Natural Attacks in CMP files
+     'ALL:CMP NatAttack fix'              => 1,               # Fix STR bonus for Natural Attacks in CMP files
      'ALL:CMP remove PREALIGN'            => 0,               # Remove the PREALIGN tag everywhere (to help my CMP friends)
      'RACE:Fix PREDEFAULTMONSTER bonuses' => 0,               #[1514765] Conversion to remove old defaultmonster tags
      'ALL:Fix Common Extended ASCII'      => 0, #[1324519 ] ASCII characters
@@ -2047,7 +2047,7 @@ my %master_order = (
         'MEMORIZE',
         'KNOWNSPELLS',
         'SPELLBOOK',
-		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
+#		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
         'HASSUBCLASS',
         'ALLOWBASECLASS',
 #        'HASSUBSTITUTIONLEVEL',
