@@ -1,9 +1,0 @@
-SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net																								
-																										
-####Block: Simple Weapons																										
-#------light---------																										
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Bayonet		PROFICIENCY:WEAPON|Bayonet	TYPE:Weapon.Simple.Melee.Standard.Piercing.TooSmall.Finesseable.Dagger	COST:1	WT:0.5	WIELD:TooSmall		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:RLPHB								
-Straight Razor		PROFICIENCY:WEAPON|Straight Razor	TYPE:Weapon.Simple.Melee.Standard.Piercing.Light.Finesseable.Dagger	COST:2	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL						SOURCEPAGE:RLPHB								
-#
-Rapier (Parthian)	OUTPUTNAME:Rapier, Parthian	PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Exotic.Melee.Standard.Piercing.OneHanded.Finesseable.Sword.Container.Bullet.Pistol	COST:300	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:RLPHB	RANGE:50			BONUS:WEAPON|DAMAGEMULT:2|-0.5	CONTAINS:1|Bullet=1|Gunpowder=1		SPROP:1d10/20/x3 when fires.	

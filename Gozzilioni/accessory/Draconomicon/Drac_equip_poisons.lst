@@ -1,5 +1,0 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net					
-							
-#Potions							
-# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	
-Poison (Dracolich Brew)	OUTPUTNAME:[NAME]		TYPE:Goods.Poison.Consumable	COST:5000	WT:0	SOURCEPAGE:Drac	SPROP:Ingestion DC 25, Init.:2d6 CON, Sec.:2d6 CON. Brew Potion.

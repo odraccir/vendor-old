@@ -1,8 +1,0 @@
-SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net									
-											
-###Block: Specific Armors											
-#	COST:276350										
-											
-# Equipment Name											
-Rot Reaver's Full Plate		PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:0	WT:50	ACCHECK:-6	EQMOD:STEEL.MWORKA.PLUS1A	MAXDEX:1	SOURCEPAGE:MM3	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE
-Thorn's Leaf Armor		PROFICIENCY:ARMOR|Leather	TYPE:Armor.Light.Suit.Specific.Nonmetal	COST:10	WT:15	ACCHECK:0	EQMOD:LEATHER	MAXDEX:6	SOURCEPAGE:MM3	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE

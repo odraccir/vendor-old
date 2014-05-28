@@ -1,4 +1,0 @@
-SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net																									
-																											
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
-Bullet (Sling/Priest's)	OUTPUTNAME:Bullet, Priest's		TYPE:Ammunition.Standard.Bullet.Container	COST:20	WT:0.5													SOURCEPAGE:LM									CONTAINS:1|Liquid=1

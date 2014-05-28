@@ -1,5 +1,0 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
-###Block: Specific Armors																	
-
-# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
-Armor of Unending Hunt	PROFICIENCY:ARMOR|Chain Shirt	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:100	WT:20	ACCHECK:-2	EQMOD:MITHRAL_ARMR_LT.PLUS2A.MAGIC_COST|16400	MAXDEX:4	SOURCEPAGE:CW	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:Immunity to fatigue and exhaustion						

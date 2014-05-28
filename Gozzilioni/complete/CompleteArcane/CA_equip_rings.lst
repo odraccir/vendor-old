@@ -1,7 +1,0 @@
-SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net											
-													
-# Equipment Name	Output Name	Type	Cost	Weight	Source Page	Ability		Combat bonus		Bonus to skill		Multiply spell cast/day	Special Property
-Ring of Arcane Might		TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:CA	SPROP:+1 arcane caster level to spell penetration, caster level check and all level-based variables of arcane spell. 	BONUS:CASTERLEVEL|TYPE.Arcane|1						
-Ring of Lore		TYPE:Magic.Ring	COST:23500	WT:0	SOURCEPAGE:CA	ABILITY:Special Ability|VIRTUAL|Trap Sense Ability							SPELLS:Innate|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=12|Stone Tell|Legend Lore
-Ring of Spell Battle	OUTPUTNAME:Ring of Spell-Battle	TYPE:Magic.Ring	COST:67600	WT:0	SOURCEPAGE:CA	SPROP:60-ft radius knowledge of all spellcasted spells.							
-Ring of Theurgy		TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:CA								

@@ -1,6 +1,0 @@
-SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net												
-														
-# Raptor Arrow	COST:14500													
-														
-# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property			
-Raptor Arrow			TYPE:Enhancement.Ammunition.Specific.Arrow.Individual.Relic	COST:.05	WT:.15		EQMOD:STEEL.WOOD.MWORKW.PLUS3W		SOURCEPAGE:CD			ABILITY:Special Ability|VIRTUAL|Raptor Arrow Ability	MODS:NO	PREDEITY:1,Obad-Hai

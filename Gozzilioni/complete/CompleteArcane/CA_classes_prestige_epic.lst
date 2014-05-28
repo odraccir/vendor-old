@@ -1,7 +1,0 @@
-SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net	
-#
-# Class Name		Max Level	
-CLASS:Mage of the Arcane Order.MOD		MAXLEVEL:NOLIMIT	
-14		ABILITY:Special Ability|AUTOMATIC|Spellpool ~ Epic	
-11:REPEATLEVEL:1		ADD:SPELLCASTER|Arcane	
-14:REPEATLEVEL:4		ADD:LANGUAGE|1|TYPE=Spoken	BONUS:ABILITYPOOL|Epic Feat|1

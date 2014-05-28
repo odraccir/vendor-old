@@ -1,9 +1,0 @@
-SOURCELONG:Seas Of blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net																																																																				
-																																																																						
-###Block: Special Abilities																																																																						
-# Ability Name	Category of Ability		Type											Visible		Special ABility												Define				Description																								Stackable?	Multiple?	Selections		Choose			BONUS:FEAT		Modify VAR					Source Page
-Buccaneer Superb Seaman	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO											DEFINE:BuccaneerSuperSeamanLVL|0				BONUS:VAR|SuperSeamanBonus|(BuccaneerSuperSeamanLVL*2)/4																																																				SOURCEPAGE:SoB
-Reaver Armor Expertise	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:ReaverArmorExpertiseLVL|0				BONUS:VAR|ArmorExpertise|((ReaverArmorExpertiseLVL-1)/4)																																																										SOURCEPAGE:SoB
-Reaver Inspire Crew	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:ReaverInspireCrewLVL|0				BONUS:VAR|InspireCrew|((ReaverInspireCrewLVL+2)/4)																																																										
-Reaver Instil Fear	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:ReaverIInstilFearLVL|0				BONUS:VAR|InstilFearRadius|5*ReaverIInstilFearLVL	BONUS:VAR|InstilFearCD|ReaverIInstilFearLVL	BONUS:VAR|InstilFearPerDay|1																																																								
-Navigator Wizard Intuitive Seamanshi	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO					DEFINE:NavigatorWizardIntuitiveSeamanshipLVL|0				BONUS:VAR|IntuitiveSeamanshipBonus|((NavigatorWizardIntuitiveSeamanshipLVL/3)*2)																																																										

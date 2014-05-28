@@ -1,3 +1,0 @@
-SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net																																																																																																			
-																																																																																																					
-Bane (Drow)						KEY:BANE_M_DR		TYPE:Weapon.Melee.Thrown	PLUS:1			VISIBLE:NO									SOURCEPAGE:CD																PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown																																							SPROP:+2 enhancement bonus and does +2d6 bonus damage vs. %CHOICE																								CHOOSE:STRING|Humanoids (Drow elf)|TITLE=Designated Foe

@@ -1,5 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net																		
-																				
-#Poisons																				
-# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
-Poison (Keeper poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0		SOURCEPAGE:FFo	SPROP:Contanct DC 14, Init.:nauseated for 2d6 rounds, Sec: 2d6 CON. Craft DC 20.													

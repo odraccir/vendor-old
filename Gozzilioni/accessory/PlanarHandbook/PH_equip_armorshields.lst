@@ -1,8 +1,0 @@
-SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net										
-												
-# Equipment Name	outputname	Required Proficiency	Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	
-#Light Armor												
-Hooked Armor		PROFICIENCY:ARMOR|Hooked Armor	TYPE:Armor.Light.Suit.Standard	COST:65	WT:20	ACCHECK:-2	EQMOD:STEEL	MAXDEX:4	SOURCEPAGE:PH	SPELLFAILURE:15	BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE	BONUS:SKILL|Climb|5
-Mechanus Gear		PROFICIENCY:ARMOR|Mechanus Gear	TYPE:Armor.Heavy.Suit.Standard	COST:1750	WT:75	ACCHECK:-10	EQMOD:STEEL	MAXDEX:0	SOURCEPAGE:PH	SPELLFAILURE:50	BONUS:COMBAT|AC|10|TYPE=Armor.REPLACE	BONUS:MOVEADD|TYPE.Walk|-5
-Sectioned Armor		PROFICIENCY:ARMOR|Sectioned Armor	TYPE:Masterwork.Armor.Heavy.Suit.Standard	COST:3000	WT:60	ACCHECK:-6	EQMOD:STEEL	MAXDEX:1	SOURCEPAGE:PH	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor.REPLACE	BONUS:EQMARMOR|ACCHECK|1|TYPE=Enhancement
-Breastplate.MOD	TYPE:Breastplate

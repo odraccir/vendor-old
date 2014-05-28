@@ -1,0 +1,11 @@
+SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																		
+#
+Manacles (Small)			TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	COST:15	WT:2
+Manacles (Medium)			TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	COST:15	WT:2
+Manacles (Large)			TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	COST:150	WT:8
+Manacles (Huge)			TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	COST:1500	WT:32
+Manacles (Masterwork/Small)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW	COST:50	WT:2
+Manacles (Masterwork/Medium)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW	COST:50	WT:2
+Manacles (Masterwork/Large)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW	COST:500	WT:8
+Manacles (Masterwork/Huge)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW	COST:5000	WT:32
+

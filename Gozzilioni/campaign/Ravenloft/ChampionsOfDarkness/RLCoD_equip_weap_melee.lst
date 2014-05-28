@@ -1,6 +1,0 @@
-SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net																								
-																										
-####Block: Simple Weapons																										
-#------light---------																										
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Poker		PROFICIENCY:WEAPON|Poker	TYPE:Weapon.Exotic.Melee.Standard.Piercing.OneHanded	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:RLCoD							SPROP:+2 Fire damage for 5 rounds if thorougly heated.	

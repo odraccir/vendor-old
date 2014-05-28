@@ -1,5 +1,0 @@
-SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																								
-						
-#Poisons						
-# Equipment Name	Output Name	Type	Cost	Weight	Source Page	SPROP
-Poison (Sinmaker's Surprise)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:4400	WT:0	SOURCEPAGE:MotP, pag 106	SPROP:Injury DC 24 or Ingested DC 18, Init.: 2d6 Con damage and Acid damage 1d6 damage/round for 3 round, Sec.: 2d6 Con damage.

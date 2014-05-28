@@ -1,6 +1,0 @@
-#SOURCELONG:G	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																								
-#																																										
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:										
-#Godling Turning	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO								BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base																				SOURCEPAGE:PFSrd										
-#Sorcerer
-Casterlevel Bonus	CATEGORY:Special Ability	TYPE:Internal.SpecialQuality	VISIBLE:DISPLAY	DESC:Special: Sorcerer cast this spell at +1 casterlevel.	KEY:Casterlevel Bonus ~ Sorcerer																											SOURCEPAGE:G

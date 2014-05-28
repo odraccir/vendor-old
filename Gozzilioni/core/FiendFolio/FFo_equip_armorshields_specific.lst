@@ -1,9 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net																
-###Block: Specific Armors																		
-#Resin Suit	COST:250																	
-																		
-# Equipment Name			Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
-Resin Suit	BASEITEM:Scale Mail	EQMOD:KRESIN_ARMR_MED																
-Rilmani Aurumach Full Plate	OUTPUTNAME:Full Plate	BASEITEM:Full Plate	EQMOD:PLUS4A
-Rilmani Ferrumach Full Plate	OUTPUTNAME:Full Plate	BASEITEM:Full Plate	EQMOD:PLUS1A
-Rilmani Ferrumach Shield	OUTPUTNAME:Shield (Heavy/Metal)	BASEITEM:Shield (Heavy/Metal)	EQMOD:PLUS1A

@@ -1,4 +1,0 @@
-SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																																									
-																																											
-# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	spelllevel	ability
-Create Portal	TYPE:ItemCreation.Wizard	VISIBLE:YES				PREFEAT:1,Craft Wondrous Item																		DESC:See Text																	SOURCEPAGE:FRCS		

@@ -1,7 +1,0 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																
-###Block: Specific Armors																		
-#Dragonarmor of Invincibility	COST:276350																	
-																		
-# Equipment Name			Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
-Winterspawn Scale Mail	BASEITEM:Scale Mail	EQMOD:PLUS3A	PRERACE:1,Winterspawn
-Tundra Cloak (Frost Giant)	BASEITEM:Chain Shirt	EQMOD:PLUS4A	PRERACE:1,Giant (Frost/Tundra Scout)

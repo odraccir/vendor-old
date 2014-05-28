@@ -1,8 +1,0 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net																																											
-																																													
-# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
-Claws of the Ripper			TYPE:Magic.Ring.Resizable	COST:2000	WT:10	SOURCEPAGE:Drac	BONUS:WEAPONPROF=Claw|CRITMULTADD|2		PRESIZEGTEQ:L																																				
-																																													
-# Equipment Name																																													
-Ring of Dragon Friendship			TYPE:Magic.Ring	COST:28750	WT:0	SOURCEPAGE:Drac																																							
-Ring of Dragon Shape			TYPE:Magic.Ring	COST:23000	WT:0	SOURCEPAGE:Drac																																							

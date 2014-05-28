@@ -1,7 +1,0 @@
-SOURCELONG:Pathfinder Srd	SOURCESHORT:PFSrd	SOURCEWEB:https://sites.google.com/site/pathfinderogc
-#
-# Skill Name					Key Stat	Untrained?		Skill Penalty Apply	Type					Visible		Bonus to skill																																										Source Page						Choose			Bonus to skill rank																																																																Modify VAR										Temporary effect description
-Fly	KEYSTAT:DEX	USEUNTRAINED:NO	ACHECK:YES	TYPE:Desterity	SOURCEPAGE:PFSrd	BONUS:SKILL|Fly|3|TYPE=ClassSkill|PRECSKILL:1,Fly|PRESKILL:1,Fly=1	BONUS:SKILL|Fly|3|TYPE=SkillFocus|PREFEAT:1,Skill Focus (Fly)	BONUS:SKILL|Fly|6|TYPE=SkillFocus|PREFEAT:1,Skill Focus (Fly)|PRESKILL:1,Fly=10	BONUS:SKILL|Fly|2*(SIZE-4)|TYPE=SizeModifier																																																																																																																																						
-#																																																																																																																																													
-# End																																																																																																																																													
-#																																																																																																																																													

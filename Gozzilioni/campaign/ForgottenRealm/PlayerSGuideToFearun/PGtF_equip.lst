@@ -1,5 +1,0 @@
-SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net
-
-###Block:Goods
-# Equipment Name			Type								Contains									Cost		Weight	Source Page				Bonus to skill					Quality and value
-Adrath Token				TYPE:Goods.General	COST:0	WT:0		SOURCEPAGE:PGtF

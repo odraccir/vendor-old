@@ -1,5 +1,0 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net																								
-																					
-# Equipment Name	Required Proficiency			Type									Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
-#Light Armor																					
-Extra Armor	PROFICIENCY:ARMOR|Kython Armor	TYPE:Armor.Kython.Suit.Standard.Nonmetal	COST:0	WT:0	ACCHECK:0	EQMOD:STEEL	MAXDEX:99	SOURCEPAGE:BoVD		BONUS:COMBAT|AC|2|TYPE=NaturalArmor											

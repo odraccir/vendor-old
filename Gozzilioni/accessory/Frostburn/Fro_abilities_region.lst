@@ -1,8 +1,0 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																														
-																																
-###Block: Rogue Special Abilities																																
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
-Frostfell Generic Region	CATEGORY:Regional	TYPE:FrostfellRegion	VISIBLE:YES	OUTPUTNAME:Frostfell Generic Region															TEMPLATE:No Frostfell Region													SOURCEPAGE:Fro
-#																																
-Human Frostfell Region	CATEGORY:Regional	TYPE:FrostfellRegion	VISIBLE:YES	OUTPUTNAME:Human Frostfell		PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Human Frostfell Region													SOURCEPAGE:Fro
-Non Human Frostfell Region	CATEGORY:Regional	TYPE:FrostfellRegion	VISIBLE:YES	OUTPUTNAME:Non Human Frostfell		!PRERACE:1,RACESUBTYPE=Human													TEMPLATE:Non Human Frostfell Region													SOURCEPAGE:Fro

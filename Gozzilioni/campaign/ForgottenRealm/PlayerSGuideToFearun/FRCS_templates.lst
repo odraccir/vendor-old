@@ -1,9 +1,0 @@
-SOURCELONG:Forgotten Realms Campaign Setting	SOURCESHORT:FRCS	SOURCEWEB:http://www.gozzilioni.net																									
-#																											
-###Block: Creature Subtypes																											
-# Template Name	Visible			Source Page		Special Ability																					
-Dracolich	VISIBLE:YES				SOURCEPAGE:FRCS	PRERACE:1,RACETYPE=Dragon	PREALIGN:LE,NE,CE	ABILITY:Special Ability|AUTOMATIC|Control Undead (Sp)	ABILITY:Special Ability|AUTOMATIC|Paralyzing Gaze	ABILITY:Special Ability|AUTOMATIC|Paralyzing Touch	ABILITY:Special Ability|AUTOMATIC|Immunity To Polymorph	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity	BONUS:MISC|SR|3	BONUS:STAT|CHA|2	BONUS:MISC|CR|3	ABILITY:Special Ability|AUTOMATIC|Gaze	BONUS:VAR|ParalyzingGazeDC|10+(HD/2)+CHA									
-#Shade	vedi PGtF
-Shade (in darkness)	VISIBLE:YES					PRERACE:1,RACESUBTYPE=Shade	PREALIGN:LE,NE,CE		BONUS:MOVEADD|TYPE.Walk|20	BONUS:COMBAT|AC|4|TYPE=Deflection	BONUS:COMBAT|TOHIT|2|TYPE=Competence	BONUS:COMBAT|DAMAGE|2|TYPE=Competence	ABILITY:Special Ability|AUTOMATIC|Control Light (Sp)		SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=HD|Invisibility	VISION:Shadesight	ABILITY:Special Ability|AUTOMATIC|Shadow Image (Sp)	LEVEL:8:ABILITY:Special Ability|AUTOMATIC|Shadow Stride (Sp)	ABILITY:Special Ability|AUTOMATIC|Shadow Travel (Sp)	SR:11+HD	BONUS:CHECKS|Fortitude,Reflex,Will|4|TYPE=Luck	BONUS:STAT|CON,CHA|4	BONUS:SKILL|Listen,Spot|4|TYPE=Racial	BONUS:SKILL|Hide,Move Silently|8|TYPE=Racial	BONUS:MISC|CR|2	ABILITY:Special Ability|AUTOMATIC|Fast Healing	BONUS:VAR|FastHealing|2
-Drow FR Male		VISIBLE:NO	SOURCEPAGE:MonstersE-F.rtf	PRERACE:1,RACESUBTYPE=Drow	FAVOREDCLASS:Wizard	GENDERLOCK:Male																					
-Drow FR Female		VISIBLE:NO	SOURCEPAGE:MonstersE-F.rtf	PRERACE:1,RACESUBTYPE=Drow	FAVOREDCLASS:Cleric	GENDERLOCK:Female																					

@@ -1,8 +1,0 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net																					
-																							
-#Blade of Dragndoom	COST:34350																						
-#Longspear of Piercing	COST:28305																						
-																							
-# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	damage	critrange	critmult	eqmod		alttype	damage	critrange	critmult	eqmod					
-Blade of Dragondoom		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Slashing.TwoHanded.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS3W							SPROP:Special smite Dragon, +1d6/each category size greater than Medium, 3/day	SOURCEPAGE:Drac	MODS:NO		
-Longspear of Piercing		PROFICIENCY:WEAPON|Longspear	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Piercing.TwoHanded.Reach.Spear	COST:5	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.PLUS3W	REACHMULT:2						SPROP:3/day can ignore natural armor (deciding to use the ability is free action, before attack roll)	SOURCEPAGE:Drac	MODS:NO		

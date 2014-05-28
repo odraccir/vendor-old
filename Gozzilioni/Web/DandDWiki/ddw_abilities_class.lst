@@ -1,5 +1,0 @@
-SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net																														
-																																
-###Block: Proficiencies																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Fox

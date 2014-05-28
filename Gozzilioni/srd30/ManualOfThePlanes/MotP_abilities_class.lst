@@ -1,6 +1,0 @@
-SOURCELONG:Manual of The Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																															
-#																																	
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
-Xag Ya Turning	CATEGORY:Special Ability	TYPE:Internal					VISIBLE:NO	DEFINE:AllowExtraTurning|1	DEFINE:AllowImprovedTurning|1			BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|5|TYPE=Level.REPLACE
-Xeg Yi Turning	CATEGORY:Special Ability	TYPE:Internal					VISIBLE:NO	DEFINE:AllowExtraTurning|1	DEFINE:AllowImprovedTurning|1			BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|5|TYPE=Level.REPLACE
-Explode	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:20'ft radius explosion 1d8+9 damage (Ref DC 16)																												SOURCEPAGE:MotP

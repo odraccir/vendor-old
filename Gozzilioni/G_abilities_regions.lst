@@ -1,8 +1,0 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																															
-#																																	
-CATEGORY=Internal|Default.MOD	BONUS:ABILITYPOOL|Generic Region|1
-#
-No Specific Region	CATEGORY:Regional	TYPE:NoRegion	VISIBLE:YES																													SOURCEPAGE:PGtF	
-Faerunian Region	CATEGORY:Regional	TYPE:NoRegion	VISIBLE:YES								BONUS:ABILITYPOOL|Faerun Region|1																					SOURCEPAGE:PGtF
-Ravenloft Region	CATEGORY:Regional	TYPE:NoRegion	VISIBLE:YES								BONUS:ABILITYPOOL|Ravenloft Region|1																					SOURCEPAGE:RLDMG
-Frostfell Region	CATEGORY:Regional	TYPE:NoRegion	VISIBLE:YES								BONUS:ABILITYPOOL|Frostfell Region|1																					SOURCEPAGE:Fro

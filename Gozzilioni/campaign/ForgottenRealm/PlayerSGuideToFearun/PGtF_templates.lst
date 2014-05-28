@@ -1,7 +1,0 @@
-SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																							
-#																									
-###Block: Creature Subtypes																									
-# Template Name	Visible			Source Page		Special Ability																			
-#Dracolich	vedi FRCS
-Shade	VISIBLE:YES				SOURCEPAGE:FRCS	PRERACE:1,RACETYPE=Humanoid	PREALIGN:LE,NE,CE	RACETYPE:Outsider	RACESUBTYPE:Shade	LEVELADJUSTMENT:5																	
-#Shade (in darkness)	vedi FRCS

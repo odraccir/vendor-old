@@ -1,6 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net														
-#																
-###Block: Creature Subtypes																
-# Template Name	outputname	Visible	Source Page	Special Ability	NATURALATTACKS:	ABILITY:Special Ability|AUTOMATIC|	AUTO:LANG|	LANGBONUS:	VISION:							
-Maurezhi		VISIBLE:NO	SOURCEPAGE:FFo	PRERACE:1,Tanar'ri (Maurezhi)	HD:8-9:SR:20	HD:10-14:SR:21	HD:15-19:SR:22	HD:20+:SR:23	HD:8-9:CR:1	HD:10-14:CR:2	HD:15-19:CR:3	HD:20+:CR:4	HD:8-9:DR:10/Good	HD:10-14:DR:15/Good	HD:15-19:DR:15/Good	HD:20+:DR:15/Good and Magic
-#

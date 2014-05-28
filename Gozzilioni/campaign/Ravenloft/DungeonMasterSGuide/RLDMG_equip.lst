@@ -1,5 +1,0 @@
-SOURCELONG:Ravenloft Dungeon Master's Guide	SOURCESHORT:RLDMG	SOURCEWEB:http://www.gozzilioni.net																		
-																				
-# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
-#																				
-Fur		OUTPUTNAME:Fur	TYPE:Goods.Clothing.Resizable.Fur	COST:0	WT:2		SOURCEPAGE:G	MODS:REQUIRED												

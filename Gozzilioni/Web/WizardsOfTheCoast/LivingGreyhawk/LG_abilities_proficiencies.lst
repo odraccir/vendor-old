@@ -1,8 +1,0 @@
-SOURCELONG:Living Greyhawk	SOURCESHORT:LG	SOURCEWEB:http://www.gozzilioni.net																														
-#																																
-###Block: Proficiencies																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality			KEY:Weapon and Armor Proficiency ~ Avenger																		ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Avenger Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency	AUTO:FEAT|Armor Proficiency (Light)							SOURCEPAGE:LG
-#																																
-###Block: Class Specific																																
-Avenger Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO																					AUTO:WEAPONPROF|Crossbow (Hand)|Crossbow (Light)|Crossbow (Heavy)|Dagger|Dart|Rapier|Sap|Shortbow|Sword (Short)								SOURCEPAGE:LG

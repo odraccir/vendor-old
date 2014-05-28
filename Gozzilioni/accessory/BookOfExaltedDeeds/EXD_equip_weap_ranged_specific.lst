@@ -1,9 +1,0 @@
-SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																								
-																										
-#Bow of the Solars	COST:100100																									
-#Dart of the Phoenix	COST:99400																									
-																										
-###Block: Ranged																										
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-#Bow of the Solars	see EXD
-Dart of the Phoenix		PROFICIENCY:WEAPON|Dart	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Light.Thrown.Dart	COST:0.5	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS1W.RETRN						SOURCEPAGE:EXD	RANGE:20						SPROP:throwing the dart requires a sacrifice of 1d4 STR damage, creature struck must Fort DC 20 or die. If successfull 13d6 fire damage. The creature reform after 2d6 rounds.	

@@ -1,7 +1,0 @@
-SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net																								
-																										
-###Block: AB																										
-# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
-# Amnesia			TYPE:Arcane.Divine	CLASSES:Cleric=9|Sorcerer,Wizard=9		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V, S, M, XP	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One creature		DURATION:Permanent	SAVEINFO:Will negates	SPELLRES:Yes	DESC:I ricordi della vittima vengono cancellati permanentemente	SOURCEPAGE:Nep		COST:5000	XPCOST:1000					
-Mage Armor.COPY=Ebon Mage Armor																										
-Ebon Mage Armor.MOD	DESC:.CLEAR																DESC:Creates an illusion of the standard Gargoyle Armor.	SOURCEPAGE:RLCoD, pag 64	PREABILITY:1,CATEGORY=Guild Category,The Order of the Ebon Gargoyle							

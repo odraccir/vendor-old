@@ -1,6 +1,0 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																								
-# queste armi sono della 3.0 edizione. non dovrebbero probabilmente nemmeno esserci,																										
-# ma sembrano ancora usati in giro per classi e mostri.																										
-
-Halfspear		PROFICIENCY:WEAPON|Halfspear	TYPE:Weapon.Simple.Melee.Ranged.Standard.Piercing.OneHanded.Thrown.Spear	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:SRD	RANGE:20
-Lance (Light)		PROFICIENCY:WEAPON|Lance (Light)	TYPE:Weapon.Martial.Melee.Standard.Piercing.TwoHanded.Reach.Lance	COST:6	WT:5	WIELD:TwoHanded		SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:SRD

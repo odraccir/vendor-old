@@ -1,6 +1,0 @@
-SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net											
-													
-# Equipment Name	Output Name	Type	Cost	Weight	Source Page	Ability		Combat bonus		Bonus to skill		Multiply spell cast/day	Special Property
-Ring of Growth		TYPE:Magic.Ring	COST:18000	WT:0	SOURCEPAGE:SS	TEMPBONUS:PC|SIZEMOD|NUMBER|1	SPROP:Growth 1/day						
-Ring of Shrinking		TYPE:Magic.Ring	COST:3600	WT:0	SOURCEPAGE:SS	TEMPBONUS:PC|SIZEMOD|NUMBER|-1	SPROP:Shrink 1/day						
-Ring of Wordtwisting		TYPE:Magic.Ring	COST:23508	WT:0	SOURCEPAGE:SS	BONUS:SKILL|Bluff,Diplomacy,Sense motive|2|TYPE=Insight							

@@ -1,5 +1,0 @@
-SOURCELONG:Nephandum Campaign Setting	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net																	
-
-#Poisons
-# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
-Poison (Coagulum Blood)				OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0		SOURCEPAGE:Nep	SPROP:Ingested DC 16, Init.:1d2 CCON, Sec.:1d2 CON

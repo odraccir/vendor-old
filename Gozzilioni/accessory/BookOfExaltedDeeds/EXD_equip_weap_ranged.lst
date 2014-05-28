@@ -1,5 +1,0 @@
-SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																								
-																										
-###Block: Ranged																										
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Lasso		PROFICIENCY:WEAPON|Lasso	TYPE:Weapon.Exotic.Ranged.Standard.OneHanded.Subdual	COST:1	WT:3	WIELD:OneHanded		SIZE:M				EQMOD:LEATHER						SOURCEPAGE:EXD	RANGE:10						SPROP:Entangling weapon	

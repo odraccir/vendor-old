@@ -1,5 +1,15 @@
-SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net																														
-																																
+SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net																															
+#																																	
+
+Displacer Beast Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to Hide.																												SOURCEPAGE:MM	
+Distortion	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:50%% concealment																												SOURCEPAGE:MM	
+
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+Alternate Form (Sp)	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
+Detect Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
+Energy Ray	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:20'ft range.																												SOURCEPAGE:MotP
+Extract	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:MM	
+
 ###Block: Vision Modes
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 Keen Sight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	VISIBLE:YES	DESC:The eyesight is so keen that can spot a moving objector creature even if it is invisible or ethereal.|KeenSightRange	KEY:Keen Sight	DESC:Range %1;|KeenSightRange|PREVARGTEQ:KeenSightRange,1		DEFINE:KeenSightRange|0								VISION:Keen Sight (KeenSightRange)																SOURCEPAGE:MM	ASPECT:Vision|Keen Sight %1'|KeenSightRange

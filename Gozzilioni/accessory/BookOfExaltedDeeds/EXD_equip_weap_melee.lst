@@ -1,6 +1,0 @@
-SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net																								
-																										
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Turcheon		PROFICIENCY:WEAPON|Turcheon	TYPE:Weapon.Martial.Melee.Standard.Bludgeoning.OneHanded.Finesseable.Subdual.Sap	COST:2	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:EXD								
-Entangling Pole		PROFICIENCY:WEAPON|Entangling Pole	TYPE:Weapon.Exotic.Melee.Standard.Piercing.Reach.TwoHanded.Polearm	COST:4	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:EXD			REACHMULT:2				SPROP:entangle with a grapple check without attack of opportunity.	
-Grasping Pole		PROFICIENCY:WEAPON|Grasping Pole	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Subdual.Polearm	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:EXD			REACHMULT:2					

@@ -1,3 +1,0 @@
-SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net																									
-																											
-Yuan-Ti Outsider	VISIBLE:EXPORT	OUTPUTNAME:Outsider	PRECLASS:1,Yuan-Ti Cultist=10	RACETYPE:Outsider	SR:20+WIS	ABILITY:Special Ability|AUTOMATIC|Telepathy|Command Yuan-Ti	BONUS:VAR|TelepathyRange|100	AUTO:LANG|Telepathy	

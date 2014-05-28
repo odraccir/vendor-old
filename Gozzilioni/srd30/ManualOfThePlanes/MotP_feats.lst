@@ -1,6 +1,0 @@
-SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																								
-																																									
-# BASICS																				[PREMULT:2,[PRERACE:1,RACESUBTYPE=Human],[PREREGION:1,Rashemen]]																					
-# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
-#Arcane Preparation																																									
-Create Astral Ship	TYPE:General.ItemCreation	VISIBLE:YES				PRERACE:1,Githyanki																		DESC:You can create an Astra Ship.																	SOURCEPAGE:MotP, desumed

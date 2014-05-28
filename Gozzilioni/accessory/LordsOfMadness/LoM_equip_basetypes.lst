@@ -1,5 +1,0 @@
-SOURCELONG:Lords of Madness	SOURCESHORT:LoM	SOURCEWEB:http://www.gozzilioni.net																																																																																																																																																																											
-#																																																																																																																																																																													
-###Block:Book abilities																																																																																																																																																																													
-# Modifier Name				Unique Key		Type						Plus		Cost		Visible		Type granted	Keys to replace			Source Page					Multiple Requirements										Required Type							Prohibited Type	Spell Res.	Damage Reduction	BONUS:EQM				BONUS:EQMWEAPON								Bonus to skill						Modify VAR						Special Property																			Virtual Feat		Choose																																																																																	Apply to both heads
-Glyph of Warding		TYPE:AbolethGlyph			COST:0	WT:0				MODS:REQUIRED		SOURCEPAGE:LoM

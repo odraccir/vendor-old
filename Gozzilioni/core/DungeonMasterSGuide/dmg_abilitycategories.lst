@@ -1,0 +1,5 @@
+# Prestige Classes
+## Class Features
+ABILITYCATEGORY:Red Wizard Class Feature	CATEGORY:Special Ability	TYPE:RedWizardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO													PLURAL:Red Wizard Class Features			DISPLAYLOCATION:Class Features
+## Feats
+ABILITYCATEGORY:Red Wizard Feat	CATEGORY:FEAT	TYPE:RedWizard.ItemCreation.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Red Wizard Feats			DISPLAYLOCATION:Feats

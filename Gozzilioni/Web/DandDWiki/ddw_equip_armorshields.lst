@@ -1,5 +1,0 @@
-SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net																								
-																					
-# Equipment Name	Required Proficiency			Type									Cost		Weight	AC Penalty Check	Maximum DEX Bonus	Source Page		% of Spell Failure	Combat bonus
-#Light Armor																					
-Composite Plating (Darkvood Body)	PROFICIENCY:ARMOR|Composite Plating	TYPE:Armor.CompositePlating.Light.Suit.Standard	COST:0	WT:0	ACCHECK:-2	EQMOD:DARKWOOD_ARMR_LT	MAXDEX:5	SOURCEPAGE:ddw	SPELLFAILURE:15	BONUS:COMBAT|AC|5|TYPE=Armor	PRERACE:1,RACESUBTYPE=Warforged

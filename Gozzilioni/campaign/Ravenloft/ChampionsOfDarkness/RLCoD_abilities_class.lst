@@ -1,6 +1,0 @@
-SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net																														
-###Block: Rogue Special Abilities																																
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														Source Page
-#																																#
-Master of Curses Turn Undead	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO					DEFINE:AllowImprovedTurning|1	DEFINE:AllowExtraTurning|1	DEFINE:MasterOfCursesTurnLVL|0	BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|MasterOfCursesTurnLVL|TYPE=Level.REPLACE																			SOURCEPAGE:RLCoD
-Night Lord Turning	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO					DEFINE:AllowImprovedTurning|1	DEFINE:AllowExtraTurning|1	DEFINE:NightLordTurnLVL|0	BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|TurnCheckBase|CHA|TYPE=Base	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|NightLordTurnLVL-2|TYPE=Level.REPLACE																			SOURCEPAGE:RLCoD

@@ -1,6 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net																																								
-																																										
-# BASICS																																										
-# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page	
-Exotic Weapon Proficiency.COPY=Shard Weapon Specialty
-Shard Weapon Specialty.MOD	VISIBLE:NO	TYPE:NerraFeat	CHOOSE:WEAPONPROFICIENCY|!PC[TYPE=Shard]	AUTO:WEAPONPROF|%LIST

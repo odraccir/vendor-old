@@ -1,6 +1,0 @@
-SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net																					
-###Block: Specific Armors																							
-																							
-# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory						
-Captain Aerad's Shield	PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Enhancement.Shield.Heavy.Specific.Metal	COST:20	WT:15	ACCHECK:-2	EQMOD:STEEL.MWORKA.PLUS3A		SOURCEPAGE:PGtF	SPELLFAILURE:15	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE								CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4		WIELD:OneHanded	SIZE:M
-Dragonheart Armor	PROFICIENCY:ARMOR|Scale Mail	TYPE:Enhancement.Armor.Medium.Suit.Specific.Metal	COST:50	WT:30	ACCHECK:-4	EQMOD:STEEL.MWORKA.DRACO.PLUS1A	MAXDEX:3	SOURCEPAGE:PGtF	SPELLFAILURE:25	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE	SPROP:Red Dragonhide, Resistance To Fire 10												

@@ -1,5 +1,0 @@
-SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net										
-#												
-###Block:Book abilities												
-Beautiful	KEY:BEAUTY_A	TYPE:Barding	COST:BASECOST*2	VISIBLE:QUALIFY	SOURCEPAGE:Nob	SPROP:Never rust, grows dirty or rips, alway appear to be in top condition regardless the damage taken	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Barding]					
-Featherlight	KEY:FEATHER_A	TYPE:Barding	COST:BASECOST*3	VISIBLE:QUALIFY	SOURCEPAGE:Nob	SPROP:Doesn't encumber the wielder	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Barding]					BONUS:EQM|WEIGHTMULT|0

@@ -1,7 +1,0 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
-
-# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
-Desmodu's Studded Leather	BASEITEM:Studded Leather					EQMOD:MWORKA		SOURCEPAGE:MM2									
-Dread Guard's Banded Mail	BASEITEM:Banded Mail					EQMOD:MWORKA		SOURCEPAGE:MM2									
-Dread Guard's Small Shield	BASEITEM:Shield (Light/Metal)					EQMOD:MWORKA		SOURCEPAGE:MM2									
-Firbolg's Studded Leather	BASEITEM:Studded Leather					EQMOD:MWORKA		SOURCEPAGE:MM2									

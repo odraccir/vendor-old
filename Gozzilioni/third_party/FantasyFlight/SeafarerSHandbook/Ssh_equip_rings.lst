@@ -1,5 +1,0 @@
-SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net											
-													
-# Equipment Name	Output Name	Type	Cost	Weight	Source Page	Ability		Combat bonus		Bonus to skill		Multiply spell cast/day	Special Property
-Ring of Aquatic Survival		TYPE:Magic.Ring	COST:130000	WT:0	SOURCEPAGE:Ssh								
-Ring of Wind Protection		TYPE:Magic.Ring	COST:2000	WT:0	SOURCEPAGE:Ssh								

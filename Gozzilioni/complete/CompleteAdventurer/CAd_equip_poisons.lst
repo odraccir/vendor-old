@@ -1,5 +1,0 @@
-SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																		
-																				
-#Poisons																				
-# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
-Poison (Carrion Crawler brain juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0		SOURCEPAGE:CAd	SPROP:Contact DC 13, Init.:paralysis, Sec.:0. Craft DC 15.													

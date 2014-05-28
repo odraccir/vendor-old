@@ -1,5 +1,0 @@
-SOURCELONG:Ravenloft Player's Handbook	SOURCESHORT:RLPHB	SOURCEWEB:http://www.gozzilioni.net										
-
-###Block:Weapon/Armor abilities
-# Modifier Name				Unique Key		Type					Plus		Cost		Visible		Type granted	Keys to replace			Source Page					Multiple Requirements											Required Type							Prohibited Type	Spell Res.	Damage Reduction	Bonus to skill						Modify VAR						Bonus Equipment Modifiers	Bonus Weapon Modifiers							Special Property																			Ability								Virtual Feat		Choose																																																																																	Apply to both heads
-|Talisman (Single Use/Use Activated)	KEY:TAL_1USE	NAMEOPT:SPELL	TYPE:Potion																				COST:(50*(max(%SPELLLEVEL,(1/2)))*%CASTERLEVEL)+%SPELLCOST+(5*%SPELLXPCOST)			VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Consumable	SOURCEPAGE:RLPHB																																																																																CHOOSE:EQBUILDER.SPELL

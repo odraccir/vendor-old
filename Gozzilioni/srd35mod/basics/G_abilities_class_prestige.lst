@@ -1,9 +1,0 @@
-SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																																											
-																																													
-###Block:Archmage High Arcana Class Abilities																																													
-# Ability Name			Category of Ability		Type								Visible	Required Class		Req. Spell Type		Special ABility								Define			Stackable?	Multiple?	Choose							Bonus to spell cast/day				Modify VAR			Source Page
-#																																													
-Red Wizard Circle Leader	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO								DEFINE:RedWizardCircleLeaderLVL|0		BONUS:VAR|CircleLeaderPower|RedWizardCircleLeaderLVL/5																																
-#																																													
-#EOF
-#

@@ -1,6 +1,0 @@
-SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net																									
-																											
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
-Flindbar		PROFICIENCY:WEAPON|Flindbar	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.OneHanded.Nunchaku	COST:30	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:MM3							SPROP:+2 bonus on opposed attack rolls made to disarm. free disarm attempt when wielder threatens a critical hit.
-Greatsword.COPY=Adamantine Blade
-Adamantine Blade.MOD	PROFICIENCY:WEAPON|Adamantine Blade	TYPE:Weapon.Exotic.Melee.Standard.Slashing.TwoHanded.Sword	SOURCEPAGE:MM3

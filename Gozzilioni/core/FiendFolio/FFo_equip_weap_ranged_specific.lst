@@ -1,6 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net																					
-#
-###Block: Ranged																																														
-# Equipment Name		Required Proficiency	Type															Contains			Cost		Weight	Slot Needed	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier	Range		Size		Source Page				Weapon prop. bonus									Special Property
-Rilmani Cuprilach Longbow	BASEITEM:Longbow	EQMOD:PLUS1W.SPEED
-#

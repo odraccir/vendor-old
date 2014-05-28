@@ -1,5 +1,0 @@
-SOURCELONG:Noble Steed	SOURCESHORT:Nob	SOURCEWEB:http://www.gozzilioni.net																																																																																																																																																																																																									
-																																																																																																																																																																																																											
-###Block
-# Template Name			Output Name				Visible	Damage Reduction								Level Adjustment	Template																																		Source Page				Special ABility																																	Define				Required AL				Required Race																																Prohibited Race						Required Stat	Prohibited Template		Combat bonus						Damage reduction				Misc bonus												Stat bonus														Modify VAR										Feat			Apply Kit				Clone Movement		Spell Res.			Main Race Type		Race Subtype			Vision			Innate Spells
-Exceptional Breed	VISIBLE:NO	HITDIE:%up1

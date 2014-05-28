@@ -1,5 +1,0 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
-
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:CW	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Darts (Blowgun/10)	OUTPUTNAME:Darts, Blowgun (10)		TYPE:Ammunition.Standard.Dart	COST:10	WT:5							EQMOD:STEEL.WOOD						SOURCEPAGE:G					BASEQTY:10			
-Dart (Blowgun)	OUTPUTNAME:Dart, [NAME]		TYPE:Ammunition.Standard.Dart	COST:1	WT:0.5							EQMOD:STEEL.WOOD						SOURCEPAGE:G								

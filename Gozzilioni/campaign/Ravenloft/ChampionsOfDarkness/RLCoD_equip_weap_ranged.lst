@@ -1,5 +1,0 @@
-SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net																																																	
-																																																			
-#Exotic Ranged																																																			
-# Equipment Name			Output Name					Required Proficiency					Type															Contains			Cost		Weight	Slot Needed	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier			Wield Category	Requires Modification?	Range		Size		Source Page				Weapon prop. bonus
-Cat-o-Nine-Tail		PROFICIENCY:WEAPON|Cat-o-Nine-Tail	TYPE:Weapon.Exotic.Ranged.Standard.Slashing.OneHanded.Whip	COST:40	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:RLCoD	RANGE:10																																

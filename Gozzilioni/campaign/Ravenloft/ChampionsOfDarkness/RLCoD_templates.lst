@@ -1,5 +1,0 @@
-SOURCELONG:Champions of Darkness	SOURCESHORT:RLCoD	SOURCEWEB:http://www.gozzilioni.net		
-#																										
-#
-Darkling	VISIBLE:YES		PRERACE:1,Vistani	PREALIGN:LE,NE,CE	SOURCEPAGE:RLCoD	ABILITY:Special Ability|AUTOMATIC|Poison Use	BONUS:SKILL|Knowledge (Poison)|4		ABILITY:Special Ability|AUTOMATIC|Foreseeing|Landlocked	BONUS:CHECKS|Fortitude,Reflex|8|TYPE=Insight	BONUS:SKILL|Listen,Spot|8|TYPE=insight	BONUS:SKILL|Hide,Move Silently|4|TYPE=Insight	BONUS:MISC|CR|1
-Skeletal Dread Companion	PREALIGN:LE,NE,CE	VISIBLE:YES	RACETYPE:Undead	HITDIE:12	DEFINESTAT:NONSTAT|CON	BONUS:MISC|CR|1

@@ -1,7 +1,0 @@
-SOURCELONG:Book of Exalted Deeds	SOURCESHORT:EXD	SOURCEWEB:http://www.gozzilioni.net									
-											
-#Hellpiercer	COST:4007										
-											
-# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property
-Hellpiercer			TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:0.05	WT:0.15	BASEQTY:1	EQMOD:ALCHM.WOOD.MWORKW.PLUS3W.SHK_BR_A	MODS:NO	SOURCEPAGE:EXD		SPROP:Ravage (Purified Couatl venom)
-Hellpiercer (20)			TYPE:Enhancement.Ammunition.Specific.Arrow	COST:1	WT:0.3	BASEQTY:20	EQMOD:ALCHM.WOOD.MWORKW.PLUS3W.SHK_BR_A	MODS:NO	SOURCEPAGE:EXD		SPROP:Ravage (Purified Couatl venom)

@@ -1,3 +1,0 @@
-SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																							
-																									
-Disease Damage (Gray Wasting)	VISIBLE:NO	SOURCEPAGE:MotP, pag 110	TEMPBONUS:ANYPC|STAT|CHA|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Charisma drain	TEMPDESC:Contact DC 20, Incubation 1 day, Damage 1d4 Cha drain, Apply this temporary bonus for the charisma damage each day the victim takes damage.

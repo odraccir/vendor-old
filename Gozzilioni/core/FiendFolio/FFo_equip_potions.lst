@@ -1,5 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FFo	SOURCEWEB:http://www.gozzilioni.net					
-							
-#Potions							
-# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	
-Potion (Night Extract)	OUTPUTNAME:[NAME]		TYPE:Magic.Potion.Consumable	COST:50	WT:0	SOURCEPAGE:FFo	SPROP:reduce ambient light to that of startlight in a 20-foot radius. Only magical light function in the area.

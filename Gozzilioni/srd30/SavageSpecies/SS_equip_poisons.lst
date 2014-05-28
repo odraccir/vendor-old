@@ -1,5 +1,0 @@
-SOURCELONG:Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net					
-							
-#Potions							
-# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	
-Poison (Aboleth Mucus)	OUTPUTNAME:[NAME]		TYPE:Goods.Poison.Consumable	COST:20	WT:1	SOURCEPAGE:SS	SPROP:Contact/Inhaled DC 19, Init.:lose ability to breath for 3 hours. Craft DC 19.

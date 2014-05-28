@@ -1,6 +1,0 @@
-SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net														
-																
-# Equipment Name	Output Name	Type	Cost	Weight	Source Page	Ability		Combat bonus		Bonus to skill		Multiply spell cast/day	Special Property			
-Akkabar's Battleblade Ring		TYPE:Magic.Ring	COST:25920	WT:0	SOURCEPAGE:PGtF								SPELLS:Akkabar's Battleblade Ring|TIMES=1|CASTERLEVEL=12|Blade Barrier			
-Annulus Conflagros		TYPE:Magic.Ring	COST:92340	WT:0	SOURCEPAGE:PGtF	ABILITY:Special Ability|VIRTUAL|Resistance to Fire	BONUS:VAR|FireResistanceBonus|10						SPELLS:Annulus Conflagros|TIMES=ATWILL|CASTERLEVEL=6|Pyrotechnics	SPELLS:Annulus Conflagros|TIMES=3|CASTERLEVEL=6|Burning Hands	SPELLS:Annulus Conflagros|TIMES=2|CASTERLEVEL=6|Fireball	SPELLS:Annulus Conflagros|TIMES=1|CASTERLEVEL=6|Wall of Fire
-Velsharoon's Binding		TYPE:Magic.Ring	COST:33500	WT:0	SOURCEPAGE:PGtF								SPROP:protect against Undead beings as if via Protection from Evil. Also +3 resistance bonus against spells of the necromancy school			

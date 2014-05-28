@@ -1,6 +1,0 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
-
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Desmodu's Notbora	BASEITEM:Notbora					EQMOD:MWORKW		SOURCEPAGE:MM2																		
-Desmodu's Heavy Lance	BASEITEM:Lance					EQMOD:MWORKW		SOURCEPAGE:MM2																		
-Mountain Giant Club	BASEITEM:Giantclub					EQMOD:MWORKW		SOURCEPAGE:MM2																		

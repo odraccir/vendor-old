@@ -1,3 +1,0 @@
-SOURCELONG:Nephandum Campaign Setting	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net											
-													
-FOLLOWER:PuppetLVL=1	TYPE:Puppet		COPYMASTERCHECK:MASTER				ABILITY:Special Ability|AUTOMATIC|Evasion|Improved Evasion|Share Spells|Empathic Link				DEFINE:EvasionUsable|0		BONUS:VAR|EvasionUsable,ImprovedEvasionUsable|1|TYPE=Prerequisite

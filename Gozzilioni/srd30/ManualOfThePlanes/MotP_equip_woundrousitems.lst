@@ -1,8 +1,0 @@
-SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																								
-
-# Equipment Name								
-#	COST:							
-Dimensional Sextant	TYPE:Magic.Wondrous	COST:21600	WT:2	SOURCEPAGE:MotP
-Ethereal Tapestry	TYPE:MAgic.Wondrous	COST:47520	WT:87	SOURCEPAGE:MotP
-#
-Astral Carrack		TYPE:Goods.Construct.Transportation.Ships.Container	CONTAINS:300000|Any	COST:30000	WT:0		SOURCEPAGE:MotP

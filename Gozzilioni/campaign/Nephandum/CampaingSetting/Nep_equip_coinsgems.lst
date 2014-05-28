@@ -1,5 +1,0 @@
-SOURCELONG:Nephandum Campaign Setting	SOURCESHORT:Nep	SOURCEWEB:http://www.gozzilioni.net																														
-																																
-###Block:Goods																																
-# Equipment Name			Type								Contains									Cost		Weight	Source Page				Bonus to skill					Quality and value
-Gem (Siamese)				OUTPUTNAME:[NAME] Gem			TYPE:Goods.Gem.Consumable.LightSource	COST:80	WT:0		SOURCEPAGE:Nep			QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|1 hr.																	

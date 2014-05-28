@@ -1,9 +1,0 @@
-SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																									
-																											
-#Crossbow of the Sea God	COST:18335																										
-#Trident of the Sea	COST:18000																										
-																											
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
-Staff of the Kuo Toa	OUTPUTNAME:Staff of the Kuo-Toa	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Enhancement.Weapon.Exotic.Melee.Specific.Slashing.TwoHanded.Double.Reach.Quarterstaff	COST:2240	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW	ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.MWORKW	SOURCEPAGE:Ssh			REACHMULT:2			MODS:NO	SPROP:keen vision, +4 competence bonus on Spot and Search		BONUS:SKILL|Spot,Search|4|TYPE=Competence
-Crossbow of the Sea God		PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Container.Projectile.Crossbow	COST:35	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS3W						SOURCEPAGE:Ssh	RANGE:80					MODS:NO	SPROP:can fire bolts underwater without penalties.		CONTAINS:1|Bolt=1
-Trident of the Sea		PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Martial.Ranged.Thrown.Specific.Piercing.Trident	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.RETRN						SOURCEPAGE:Ssh	RANGE:20						SPROP:+2 enhancement bonus vs. unintelligent aquatic creatures.		

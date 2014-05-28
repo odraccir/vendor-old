@@ -1,5 +1,0 @@
-SOURCELONG:Complete Adventurer	SOURCESHORT:CAd	SOURCEWEB:http://www.gozzilioni.net																																											
-																																													
-# Equipment Name	Output Name	Unique Key	Type	Cost	Weight	Source Page	Ability																									Combat bonus				Bonus to skill					Multiply spell cast/day				Special Property
-Ring of Filcher's Friend			TYPE:Magic.Ring	COST:2500	WT:0	SOURCEPAGE:CAd	SPROP:+5 bonus on Sleight of Hand checks involving metal objects.																																						
-Ring of Lockpicking			TYPE:Magic.Ring	COST:4500	WT:0	SOURCEPAGE:CAd	SPELLS:Ring of Lockpicking|TIMES=1|CASTERLEVEL=3|Knock,10	BONUS:SKILL|Open Lock|5|TYPE=Competence																																					

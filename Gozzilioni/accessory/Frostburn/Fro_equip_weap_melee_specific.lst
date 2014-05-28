@@ -1,8 +1,0 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net																	
-																			
-#Pick of Iceparting	COST:30000																		
-																			
-# Equipment Name	Output Name		Type	Cost	Weight	Base Quantity	Modifier	Requires Modification?	Source Page	Weapon prop. bonus	Special Property								
-Pick of Iceparting		PROFICIENCY:WEAPON|Pick (Heavy)	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Piercing.OneHanded.Pick	COST:8	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.PLUS2W.BANE_M_SBT|Subtype (Cold)						SOURCEPAGE:Fro	MODS:NO
-Winterspawn Longsword	BASEITEM:Longsword	EQMOD:PLUS2W.KEEN.ICE_BR_M	PRERACE:1,Winterspawn
-Winterspawn Javelin	BASEITEM:Javelin	EQMOD:PLUS2W.RETRN.ICE_BR_M	PRERACE:1,Winterspawn

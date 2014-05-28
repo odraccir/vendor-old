@@ -1,5 +1,0 @@
-SOURCELONG:Pathfinder Srd	SOURCESHORT:PFSrd	SOURCEWEB:https://sites.google.com/site/pathfinderogc																														
-																																
-###Block: Proficiencies																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-CATEGORY=Special Ability|Flight Maneuverability.MOD														BONUS:SKILL|Fly|4*(Maneuverability-3)|TYPE=FlyingManeuverability									CSKILL:Fly									

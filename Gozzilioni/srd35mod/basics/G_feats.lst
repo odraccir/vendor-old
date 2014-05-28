@@ -1,9 +1,0 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net			
-					
-Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus			
-Skill Focus.MOD		BONUS:SKILL|LIST|-3	BONUS:SKILL|LIST|3|TYPE=Focus		
-Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=WeaponFocus			
-#					
-Spell Mastery.MOD	TYPE:RedWizard				
-#
-Ability Focus.MOD	STACK:NO	MULT:YES	CHOOSE:STRING|Aura of Menace|Paralyzing Gaze|Stunning Gaze
