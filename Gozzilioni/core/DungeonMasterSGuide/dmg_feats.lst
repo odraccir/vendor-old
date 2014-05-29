@@ -1,5 +1,5 @@
 SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																															
 #					
-Tatoo Focus	 	TYPE:Special	VISIBLE:YES																	PRETEXT:Specialized in a school of magic	PREREGION:1,Thay				DESC:Gain +1 to save DC and spell penetration with specialized school.	STACK:NO	MULT:YES	CHOOSE:SCHOOLS|ALL	SELECT:1						BONUS:DC|SCHOOL.%LIST|1							SOURCEPAGE:DMG						
+Tatoo Focus		TYPE:Special	VISIBLE:YES																	PRETEXT:Specialized in a school of magic	PREREGION:1,Thay				DESC:Gain +1 to save DC and spell penetration with specialized school.	STACK:NO	MULT:YES	CHOOSE:SCHOOLS|ALL	SELECT:1						BONUS:DC|SCHOOL.%LIST|1							SOURCEPAGE:DMG						
 #
 Spell Mastery.MOD	TYPE:RedWizard				

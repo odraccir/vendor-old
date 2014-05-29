@@ -1,0 +1,9 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+#Ninja Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Hand)|Kama|Kukri|Nunchaku|Sai|Shortbow|Sword (Short)|Shuriken|Siangham						SAB:Daisho Proficiency (Ex)	ADD:FEAT|Exotic Weapon Proficiency(Sword (Bastard))																					SOURCEPAGE:MM2
+
+# Ability Name																																
+CATEGORY=Special Ability|Familiar ~ Standard Selection.MOD	COMPANIONLIST:Familiar|Fire Bat|FOLLOWERADJUSTMENT:-14|PRECLASS:1,SPELLCASTER.Arcane=15|PREFEAT:1,Improved Familiar|PRERACE:1,RACESUBTYPE=Fire
+CATEGORY=Special Ability|Animal Companion.MOD	COMPANIONLIST:Animal Companion|Dire Animal (Dire Toad)|FOLLOWERADJUSTMENT:-3	COMPANIONLIST:Animal Companion|Dire Animal (Dire Hawk)|FOLLOWERADJUSTMENT:-6	COMPANIONLIST:Animal Companion|Dinosaur (Allosaurus),Dire Animal (Dire Horse),Dire Animal (Dire Snake)|FOLLOWERADJUSTMENT:-9	COMPANIONLIST:Animal Companion|Dinosaur (Ankylosaurus),Dire Animal (Dire Elk)|FOLLOWERADJUSTMENT:-12	COMPANIONLIST:Animal Companion|Dinosaur (Quetzalcoatlus),Dire Animal (Dire Elephant),Grizzly Mastodon|FOLLOWERADJUSTMENT:-15																											

@@ -1,4 +1,4 @@
-SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																															
+SOURCELONG:Gozzilioni Rsrd Modifications	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																															
 #																																	
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
 CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																																
