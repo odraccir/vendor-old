@@ -8375,7 +8375,6 @@ BEGIN {
                                  ];
                         }
                         else {
-
                             # No DC present, the whole param is the spell name
                             push @spells, $param;
 
@@ -12638,11 +12637,17 @@ BEGIN {
                 }
             }
             else {
+				my $messagetype = $line_ref->{'TYPE'};
+				$logging->ewarn( DEBUG,
+                    qq{$equipment_name has TYPE:$messagetype},
+                    $file_for_error,
+                    $line_for_error
+                ) unless (( $equipment_name =~ /.MOD$/i ) or ( $equipment_name =~ /.COPY$/i ));;
                 $logging->ewarn( WARNING,
                     qq{$equipment_name has no TYPE.},
                     $file_for_error,
                     $line_for_error
-                ) unless $equipment_name =~ /.MOD$/i;
+                ) unless (( $equipment_name =~ /.MOD$/i ) or ( $equipment_name =~ /.COPY$/i ));
             }
         }
 
