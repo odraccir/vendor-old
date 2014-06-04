@@ -8375,14 +8375,15 @@ BEGIN {
                                  ];
                         }
                         else {
+
                             # No DC present, the whole param is the spell name
                             push @spells, $param;
 
-                            $logging->ewarn(INFO,
-                                  qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
-                                  $file_for_error,
-                                  $line_for_error
-                            );
+                            # $logging->ewarn(INFO,
+                                  # qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
+                                  # $file_for_error,
+                                  # $line_for_error
+                            # );
                         }
                     }
                 }
@@ -9826,6 +9827,7 @@ BEGIN {
         'max',
         'roll',
         'var',
+		'mastervar',
     );
 
     sub add_to_xcheck_tables {
@@ -10411,7 +10413,7 @@ BEGIN {
         abs     rand    mod     sqrt    sum     if      str
 
         ceil    cl      classlevel      count   floor   min
-        max     roll    skillinfo       var
+        max     roll    skillinfo       var 	mastervar
         charbonusto
     );
 
