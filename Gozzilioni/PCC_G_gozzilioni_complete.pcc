@@ -8,7 +8,7 @@ BOOKTYPE:Campaign
 SOURCELONG:Gozzilioni Campaing Set
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2005-03
+SOURCEDATE:2007-01
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
 PUBNAMELONG:Gozzilioni
@@ -17,6 +17,7 @@ PUBNAMEWEB:http://www.gozzilioni.net
 
 #PCC:@/35e/wizards_of_the_coast/srd35/rsrd.pcc
 PCC:&/Gozzilioni/srd35mod/_rsrdmod.pcc
+PCC:&/Gozzilioni/srd30/_srd30.pcc
 #Core
 PCC:&/Gozzilioni/core/DungeonMasterSGuide/_dungeonsmastersguide.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook/_playershandbook.pcc

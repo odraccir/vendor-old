@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Monster Manual
+CAMPAIGN:Gozzilioni Srd 3.0
 GAMEMODE:35e
 RANK:6
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
-SOURCELONG:Gozzilioni Monster Manual
-SOURCESHORT:MM
+SOURCELONG:Gozzilioni Srd 3.0
+SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
@@ -14,21 +14,8 @@ SOURCEDATE:2003-07
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
-#Monster Manual
-ABILITYCATEGORY:mm_abilitycategories.lst
-ABILITY:mm_abilities_class.lst
-ABILITY:mm_abilities_races.lst
-CLASS:mm_classes_monster.lst
-EQUIPMENT:mm_equip_weap_melee.lst
-EQUIPMENT:mm_equip_wondrous.lst
-FEAT:mm_feats.lst
-KIT:mm_kits.lst
-LANGUAGE:mm_languages.lst
-RACE:mm_races.lst
-SKILL:mm_skills.lst
-TEMPLATE:mm_templates.lst
-TEMPLATE:mm_templates_hidden.lst
-WEAPONPROF:mm_weaponprofs.lst
+#Rsrd
+SPELL:srd_spells.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

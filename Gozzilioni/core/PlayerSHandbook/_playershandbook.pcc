@@ -19,6 +19,7 @@ ABILITY:phb_abilities_class.lst
 CLASS:PHB_classes.lst
 EQUIPMENT:PHB_equip_materials.lst
 FEAT:PHB_feats.lst
+KIT:phb_kits_companion.lst
 SPELL:PHB_spells.lst
 
 #BIOSET:my_biosettings.lst

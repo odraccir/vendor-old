@@ -18,7 +18,25 @@ SOURCEDATE:2003-07
 ABILITY:basics/G_abilities_class.lst
 ABILITYCATEGORY:basics/G_ability_categories.lst
 
+ABILITY:monsters/G_abilities.lst
+ABILITY:monsters/G_abilities_races.lst
 RACE:monsters/G_races.lst
+
+HIDETYPE:SKILL|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Decipher Script|Diplomacy
+HIDETYPE:SKILL|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal
+HIDETYPE:SKILL|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Ride|Search|Sense Motive|Sleight of Hand
+HIDETYPE:SKILL|Speak Language|Spellcraft|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope
+HIDETYPE:SKILL|Craft (Alchemy)|Craft (Armorsmithing)|Craft (Blacksmithing)|Craft (Bowmaking)|Craft (Carpentry)|Craft (Leatherworking)|Craft (Painting)
+HIDETYPE:SKILL|Craft (Pottery)|Craft (Sculpting)|Craft (Shipmaking)|Craft (Stonemasonry)|Craft (Stoneworking)|Craft (Trapmaking)|Craft (Weaponsmithing)
+HIDETYPE:SKILL|Craft (Woodworking)
+HIDETYPE:SKILL|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Dungeoneering)|Knowledge (Geography)
+HIDETYPE:SKILL|Knowledge (History)|Knowledge (Local)|Knowledge (Nature)|Knowledge (Nobility and Royalty)
+HIDETYPE:SKILL|Knowledge (Religion)|Knowledge (The Planes)
+HIDETYPE:SKILL|Perform (Act)|Perform (Comedy)|Perform (Dance)|Perform (Keyboard Instruments)|Perform (Oratory)|Perform (Percussion Instruments)
+HIDETYPE:SKILL|Perform (Sing)|Perform (String Instruments)|Perform (Wind Instruments)
+HIDETYPE:SKILL|Profession (Hunter)|Profession (Miner)|Profession (Siege Engineer)
+
+HIDETYPE:SKILL|Literacy|Language
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

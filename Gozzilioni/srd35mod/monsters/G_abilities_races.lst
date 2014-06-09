@@ -1,0 +1,29 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0																													
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																															
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																															
+																																
+CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy																															
+																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Guardinal Traits|PRERACE:1,RACESUBTYPE=Guardinal																															
+Guardinal Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Celestial|Infernal|Draconic	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|HasLowlightVision|1	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification|Resistance To Cold|Resistance To Sonic|Resistance To Poison|Guardinal ~ Lay on Hands|Guardinal ~ Speak with Animals								BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial																SOURCEPAGE:MM
+Lay on Hands	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:A Guardinal can heal an amount of damage equal to its full normal hit poins.	KEY:Guardinal ~ Lay on Hands																											SOURCEPAGE:MM
+Speak with Animals	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:Like Speak with Animals spell (caster level 8th) but its a free action and doesn't require sound.	KEY:Guardinal ~ Speak with Animals																											SOURCEPAGE:MM
+																																
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Slaad Traits|PRERACE:1,RACESUBTYPE=Slaad																															
+Slaad Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Slaad	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Immunity To Sonic|Slaad ~ Summon Slaad								BONUS:VAR|AcidResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ElectricityResistanceBonus|5|TYPE=Racial	BONUS:VAR|FireResistanceBonus|5|TYPE=Racial																	SOURCEPAGE:MM
+Summon Slaad	CATEGORY:Special Ability	TYPE:SlaadSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:Slaadi can summon other slaadi much as though casting Summon Monster spell.	KEY:Slaad ~ Summon Slaad																											SOURCEPAGE:MM
+																																
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Xorn Traits|PRERACE:1,RACESUBTYPE=Xorn																															
+Xorn Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Common|Terran	ABILITY:Special Ability|AUTOMATIC|Xorn ~ MM ~ All-Around Vision|Xorn ~ MM ~ Earth Glide																												SOURCEPAGE:MM
+All-Around Vision	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn's symmetrically placed eyes allow it to look in any direction, providing a +4 racial bonus on Spot and Search checks. A xorn can't be flanked.	KEY:Xorn ~ MM ~ All-Around Vision							BONUS:SKILL|Spot,Search|4|TYPE=Racial																				SOURCEPAGE:MM
+Earth Glide	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A move earth spell cast on an area containing a burrowing xorn flings the xorn back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.	KEY:Xorn ~ MM ~ Earth Glide																											SOURCEPAGE:MM
+																																
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti Traits|PRERACE:1,RACESUBTYPE=Yuan-Ti																															
+Yuan-Ti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Yuan-Ti|Common|Draconic|Abyssal	AUTO:FEAT|Alertness|Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti ~ Alternate Form|Yuan-Ti ~ Detect Poison																												SOURCEPAGE:MM
+Alternate Form	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti can assume the form of a Tiny to Large Viper as a psionic ability.	KEY:Yuan-Ti ~ Alternate Form																											SOURCEPAGE:MM
+Detect Poison	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti have the psionic ability to Detect Poison as the spell (caster level 6th).	KEY:Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM

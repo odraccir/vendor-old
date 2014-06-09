@@ -3,6 +3,7 @@ SOURCELONG:Gozzilioni Rsrd Modifications	SOURCESHORT:G	SOURCEWEB:http://www.gozz
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
 CATEGORY=Special Ability|Dwarf ~ Stonecunning.MOD	BONUS:VAR|StonecunningLevel|1|TYPE=Stonecunning																															
 
+Base Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel.SkillLevelBase.SpecialQuality	VISIBLE:YES	DESC:Skill Level %1|SkillLVL	DESC:Apprentice|PREVARLTEQ:SkillLVL,4	DESC:Journeyman|PREMULT:2,[PREVARGTEQ:SkillLVL,5],[PREVARLTEQ:SkillLVL,11]	DESC:Master|PREMULT:2,[PREVARGTEQ:SkillLVL,12],[PREVARLTEQ:SkillLVL,15]	DESC:Grand Master|PREVARGTEQ:SkillLVL,16	DESC:Helpers %1|(SkillLVL-4)|PREVARGTEQ:SkillLVL,5	DEFINE:SkillLVL|0																						SOURCEPAGE:DD										
 # CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																																
 # CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																																
 # CATEGORY=Special Ability|Turn Earth.MOD	TYPE:TurnElemental																																

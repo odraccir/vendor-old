@@ -1,6 +1,7 @@
 SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																															
 #																																	
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+Expert Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel	VISIBLE:NO				DEFINE:ExpertSkillLVL|0				BONUS:VAR|SkillLVL|ExpertSkillLVL																					SOURCEPAGE:DMG										
 Circle Leader	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY								DEFINE:CircleLeaderPower|0								ABILITY:Special Ability|AUTOMATIC|Circle Leader Output|PREVARLTEQ:CircleLeaderPower,1	ABILITY:Special Ability|AUTOMATIC|Great Circle Leader Output|PREVARGTEQ:CircleLeaderPower,2												SOURCEPAGE:DMG	
 Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Circle Leader																												SOURCEPAGE:DMG	
 Great Circle Leader Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:EXPORT	OUTPUTNAME:Great Circle Leader																												SOURCEPAGE:DMG	
