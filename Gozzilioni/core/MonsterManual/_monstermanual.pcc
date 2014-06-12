@@ -16,7 +16,7 @@ SOURCEDATE:2003-07
 #
 #Monster Manual
 ABILITYCATEGORY:mm_abilitycategories.lst
-ABILITY:mm_abilities_class.lst
+ABILITY:mm_abilities.lst
 ABILITY:mm_abilities_races.lst
 CLASS:mm_classes_monster.lst
 EQUIPMENT:mm_equip_weap_melee.lst

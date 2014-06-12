@@ -4,3 +4,103 @@ SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net
 # STARTPACK:Leonal Default.FORGET
 # STARTPACK:Avoral Default.FORGET
 # STARTPACK:Avoral with Treasure Default.FORGET
+#
+# STARTPACK:Beholder Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder]
+# RACE:Beholder	!PRERACE:1,%
+# NAME:Beholder
+# STAT:STR=10|DEX=10|CHA=10|CON=10|INT=10|WIS=10
+STARTPACK:Beholder Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder]
+RACE:Beholder	!PRERACE:1,%
+NAME:Beholder
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Beholder (Gauth) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder (Gauth)]
+RACE:Beholder (Gauth)	!PRERACE:1,%
+NAME:Beholder Gauth
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Carrion Crawler Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Carrion Crawler]
+RACE:Carrion Crawler	!PRERACE:1,%
+NAME:Carrion Crawler
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Githyanki Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Githyanki]
+RACE:Githyanki	!PRERACE:1,%
+NAME:Githyanki
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Githzerai Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Githzerai]
+RACE:Githzerai	!PRERACE:1,%
+NAME:Githzerai
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Guardinal (Avoral) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Avoral)]
+RACE:Guardinal (Avoral)	!PRERACE:1,%
+NAME:Guardinal Avoral
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Guardinal (Leonal) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Leonal)]
+RACE:Guardinal (Leonal)	!PRERACE:1,%
+NAME:Guardinal Leonal
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Hell Hound (Nessian Warhound) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Hell Hound (Nessian Warhound)]
+RACE:Hell Hound (Nessian Warhound)	!PRERACE:1,%
+NAME:Hell Hound (Nessian Warhound)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Kuo-Toa Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kuo-Toa]
+RACE:Kuo-Toa	!PRERACE:1,%
+NAME:Kuo-Toa
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Mind Flayer Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mind Flayer]
+RACE:Mind Flayer	!PRERACE:1,%
+NAME:Mind Flayer
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Slaad (Red) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Slaad (Red)]
+RACE:Slaad (Red)	!PRERACE:1,%
+NAME:Red Slaad
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Slaad (Blue) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Slaad (Blue)]
+RACE:Slaad (Blue)	!PRERACE:1,%
+NAME:Blue Slaad
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Slaad (Green) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Slaad (Green)]
+RACE:Slaad (Green)	!PRERACE:1,%
+NAME:Green Slaad
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Slaad (Gray) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Slaad (Gray)]
+RACE:Slaad (Gray)	!PRERACE:1,%
+NAME:Gray Slaad
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Slaad (Death) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Slaad (Death)]
+RACE:Slaad (Death)	!PRERACE:1,%
+NAME:Death Slaad
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Umber Hulk Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Umber Hulk]
+RACE:Umber Hulk	!PRERACE:1,%
+NAME:Umber Hulk
+STAT:STR=11|DEX=11|CON=11|INT=11|WIS=11|CHA=11
+
+STARTPACK:Yuan Ti (Pureblood) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yuan Ti (Pureblood)]
+RACE:Yuan Ti (Pureblood)	!PRERACE:1,%
+NAME:Pureblood Yuan Ti
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Yuan Ti (Half Blood) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yuan Ti (Half Blood)]
+RACE:Yuan Ti (Half Blood)	!PRERACE:1,%
+NAME:Half Blood Yuan Ti
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Yuan Ti (Abomination) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yuan Ti (Abomination)]
+RACE:Yuan Ti (Abomination)	!PRERACE:1,%
+NAME:Abomination Yuan Ti
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+

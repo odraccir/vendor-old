@@ -1,6 +1,11 @@
 SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net																															
 #																																	
-
+# Yuan-Ti variants
+Common	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Common									BONUS:WEAPONPROF=Bite|DAMAGE|STR/2									NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6	TEMPLATE:Yuan-Ti Halfblood ~ 2 arms|Yuan-Ti Halfblood ~ 2 legs								SOURCEPAGE:MM
+Human Head, arms are snakes	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Snake Arms																		NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*2,1d4	TEMPLATE:Yuan-Ti Halfblood ~ 2 snakes|Yuan-Ti Halfblood ~ 2 legs								SOURCEPAGE:MM
+Snake tail in addition to human legs.	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Snake Tail									BONUS:WEAPONPROF=Bite|DAMAGE|STR/2									NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6	TEMPLATE:Yuan-Ti Halfblood ~ 2 arms|Yuan-Ti Halfblood ~ 2 legs	ABILITY:Special Ability|VIRTUAL|Yuan-Ti Halfblood ~ Constrict	MOVE:Swim,15						SOURCEPAGE:MM
+Snake tail instead of human legs.	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Half Snake									BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	BONUS:MOVEADD|TYPE.Walk|-10								NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6	TEMPLATE:Yuan-Ti Halfblood ~ 2 arms|Yuan-Ti Halfblood ~ 1 tail	ABILITY:Special Ability|VIRTUAL|Yuan-Ti Halfblood ~ Constrict	MOVE:Swim,15,Climb,15						SOURCEPAGE:MM
+																																
 # Displacer Beast Skill	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	OUTPUTNAME:+8 racial bonus to Hide.																												SOURCEPAGE:MM	
 # Distortion	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:50%% concealment																												SOURCEPAGE:MM	
 
