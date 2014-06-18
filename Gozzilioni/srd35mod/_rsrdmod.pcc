@@ -1,6 +1,6 @@
 CAMPAIGN:Gozzilioni Rsrd modifications
 GAMEMODE:35e
-RANK:6
+RANK:3
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
 SOURCELONG:Gozzilioni Rsrd Modifications
@@ -20,6 +20,7 @@ ABILITYCATEGORY:basics/G_ability_categories.lst
 
 ABILITY:monsters/G_abilities.lst
 ABILITY:monsters/G_abilities_races.lst
+FEAT:monsters/G_feats.lst
 RACE:monsters/G_races.lst
 
 HIDETYPE:SKILL|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Decipher Script|Diplomacy
@@ -35,8 +36,9 @@ HIDETYPE:SKILL|Knowledge (Religion)|Knowledge (The Planes)
 HIDETYPE:SKILL|Perform (Act)|Perform (Comedy)|Perform (Dance)|Perform (Keyboard Instruments)|Perform (Oratory)|Perform (Percussion Instruments)
 HIDETYPE:SKILL|Perform (Sing)|Perform (String Instruments)|Perform (Wind Instruments)
 HIDETYPE:SKILL|Profession (Hunter)|Profession (Miner)|Profession (Siege Engineer)
-
 HIDETYPE:SKILL|Literacy|Language
+
+HIDETYPE:CLASS|Psionic|Expert|Base
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

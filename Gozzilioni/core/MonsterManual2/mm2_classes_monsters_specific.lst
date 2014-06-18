@@ -1,0 +1,43 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
+# Class Name	Hit Dice	Type			Class Type		Max Level	Source Page					Save checks bonus								Combat bonus
+CLASS:Abeil Queen	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:14	SOURCEPAGE:MM2	ABILITY:Special Ability|AUTOMATIC|Monstrous Humanoid Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:CHECKS|BASE.Will,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/3)
+# Class Name	Required Race			Reg. Race Type
+CLASS:Abeil Queen	PRERACE:1,Abeil (Queen)	PRERACETYPE:Monstrous Humanoid
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Abeil Queen	STARTSKILLPTS:8	MODTOSKILLS:YES	OUTPUTNAME:Monstrous Humanoid
+1	ADD:SPELLCASTER|Druid
+2	BONUS:PCLEVEL|Druid|1
+3	BONUS:PCLEVEL|Druid|1
+4	BONUS:PCLEVEL|Druid|1
+5	BONUS:PCLEVEL|Druid|1
+6	BONUS:PCLEVEL|Druid|1
+7	BONUS:PCLEVEL|Druid|1	BONUS:PCLEVEL|Druid|1
+8	BONUS:PCLEVEL|Druid|1
+9	BONUS:PCLEVEL|Druid|1
+10	BONUS:PCLEVEL|Druid|1
+11	BONUS:PCLEVEL|Druid|1
+12	BONUS:PCLEVEL|Druid|1
+13	BONUS:PCLEVEL|Druid|1
+14	BONUS:PCLEVEL|Druid|1	BONUS:PCLEVEL|Druid|1
+
+CLASS:Naga (Bone)	HD:12	TYPE:Monster	MAXLEVEL:15	SOURCEPAGE:MM2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE			
+# Class Name	Required Race		Reg. Race Type								
+CLASS:Naga (Bone)		PRERACE:1,Naga (Bone)	PRERACETYPE:Undead								
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?									
+CLASS:Naga (Bone)	STARTSKILLPTS:4	MODTOSKILLS:NO	OUTPUTNAME:Undead
+1
+2	ADD:SPELLCASTER|1|Sorcerer 									
+3	BONUS:PCLEVEL|Sorcerer|1										
+4	BONUS:PCLEVEL|Sorcerer|1										
+5	BONUS:PCLEVEL|Sorcerer|1										
+6	BONUS:PCLEVEL|Sorcerer|1										
+7	BONUS:PCLEVEL|Sorcerer|1										
+8	BONUS:PCLEVEL|Sorcerer|1										
+9	BONUS:PCLEVEL|Sorcerer|1										
+10	BONUS:PCLEVEL|Sorcerer|1										
+11	BONUS:PCLEVEL|Sorcerer|1										
+12	BONUS:PCLEVEL|Sorcerer|1										
+13	BONUS:PCLEVEL|Sorcerer|1										
+14	BONUS:PCLEVEL|Sorcerer|1										
+15	BONUS:PCLEVEL|Sorcerer|1										
+

@@ -1,0 +1,56 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																																																																			
+																																																																					
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells					
+# STARTPACK:Leonal Default.FORGET
+# STARTPACK:Avoral Default.FORGET
+# STARTPACK:Avoral with Treasure Default.FORGET
+#
+# STARTPACK:Beholder Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder]
+# RACE:Beholder	!PRERACE:1,%
+# NAME:Beholder
+# STAT:STR=10|DEX=10|CHA=10|CON=10|INT=10|WIS=10
+STARTPACK:Abeil (Vassal) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Vassal)]
+RACE:Abeil (Vassal)	!PRERACE:1,%
+NAME:Vassal Abeil
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Abeil (Soldier) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Soldier)]
+RACE:Abeil (Soldier)	!PRERACE:1,%
+NAME:Soldier Abeil
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Abeil (Queen) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Queen)]
+RACE:Abeil (Queen)	!PRERACE:1,%
+NAME:Queen Abeil
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Ash Rat Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ash Rat]
+RACE:Ash Rat	!PRERACE:1,%
+NAME:Ash Rat
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Asperi Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Asperi]
+RACE:Asperi	!PRERACE:1,%
+NAME:Asperi
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Avolakia Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Avolakia]
+RACE:Avolakia	!PRERACE:1,%
+NAME:Avolakia
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Banshee Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Banshee]
+RACE:Banshee	!PRERACE:1,%
+NAME:Banshee
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Bladeling Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bladeling]
+RACE:Bladeling	!PRERACE:1,%
+NAME:Bladeling
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Blood Ape Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Blood Ape]
+RACE:Blood Ape	!PRERACE:1,%
+NAME:Blood Ape
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+

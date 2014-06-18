@@ -2,11 +2,11 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0
-CATEGORY=Internal|Default.MOD	DEFINE:HorrificAppearanceRadius|0
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS
-CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0
+CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																												
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																															
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																															
+CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																															
+CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|STR*3/2																															
 																																
 CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy																															
 																																
@@ -26,17 +26,16 @@ All-Around Vision	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQualit
 Earth Glide	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A move earth spell cast on an area containing a burrowing xorn flings the xorn back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.	KEY:Xorn ~ MM ~ Earth Glide																											SOURCEPAGE:MM
 																																
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti Traits|PRERACE:1,RACESUBTYPE=Yuan-Ti																															
-Yuan-Ti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Yuan-Ti|Common|Draconic|Abyssal	AUTO:FEAT|Alertness|Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti ~ Alternate Form|Yuan-Ti ~ Detect Poison																												SOURCEPAGE:MM
+Yuan-Ti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Yuan-Ti|Common|Draconic|Abyssal	AUTO:FEAT|Alertness|Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti ~ Alternate Form|Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM
 Alternate Form	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti can assume the form of a Tiny to Large Viper as a psionic ability.	KEY:Yuan-Ti ~ Alternate Form																											SOURCEPAGE:MM
 Detect Poison	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti have the psionic ability to Detect Poison as the spell (caster level 6th).	KEY:Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM
-
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Abeil Traits|PRERACE:1,RACESUBTYPE=Abeil
+																																
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Abeil Traits|PRERACE:1,RACESUBTYPE=Abeil																															
 Abeil Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Common|Elven|Sylvan	ABILITY:Special Ability|AUTOMATIC|Abeil ~ Drone|Abeil ~ Improved Grab|Abeil ~ Hive Mind																												SOURCEPAGE:MM2
-Drone	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:As full-round action an abeil can beat its wings to create a droning buzz in a 60-ft spread. Will DC %1 or fall asleep as Sleep spell.|DefaultDCCha	KEY:Abeil ~ Drone																											SOURCEPAGE:MM2
+Drone	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:As full-round action an abeil can beat its wings to create a droning buzz in a 60-ft spread. Will DC %1 or fall asleep as Sleep spell.|DroneDC	KEY:Abeil ~ Drone				DEFINE:DroneDC|0					BONUS:VAR|DroneDC|DefaultDCCha	BONUS:VAR|DroneDC|2|PREFEAT:1,Ability Focus(Drone)																	SOURCEPAGE:MM2
 Improved Grab	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:To use this ability, an Abeil must hit a single target of at least one size category smaller than itself with both claws attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and deals automatically damage from both claws and the sting.	KEY:Abeil ~ Improved Grab																											SOURCEPAGE:MM2
 Hive Mind	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:As full-round action an Abeil can beat its wings to create a droning buzz in a 60-ft spread. Will DC %1 or fall asleep as Sleep spell.|DefaultDCCha	KEY:Abeil ~ Hive Mind																											SOURCEPAGE:MM2
-
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Automaton Traits|PRERACE:1,RACESUBTYPE=Automaton
-Automaton Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Automaton ~ Unrealiable																												SOURCEPAGE:MM2
+																																
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Automaton Traits|PRERACE:1,RACESUBTYPE=Automaton																															
+Automaton Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Automaton ~ Unreliable																												SOURCEPAGE:MM2	
 Unreliable	CATEGORY:Special Ability	TYPE:AutomatonSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The shadow consciousness of an Automaton is only quasi real, like the consciousness of a creation such as a simulacrum. The creature is thus sometimes slow to react to the changing environment around it. At the beginning of each round in which an Automaton attempts to act, roll 1d20. On a results of 11 or better, it acts normally, otherwise it takes no action.	KEY:Automaton ~ Unreliable																											SOURCEPAGE:MM2
-

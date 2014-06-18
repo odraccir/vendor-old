@@ -1,8 +1,0 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
-
-# Equipment Name		Type	Cost	Weight	AC Penalty Check	Modifier	Maximum DEX Bonus	Source Page	% of Spell Failure	Combat bonus	Special Property	Virtual Feat	Damage Reduction	Innate Spells	Bonus to skill	Modify VAR	Automaticaly Added to Inventory
-Desmodu's Studded Leather		PROFICIENCY:ARMOR|Studded Leather	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:25	WT:20	ACCHECK:-1	EQMOD:STEEL.MWORKA	MAXDEX:5	SOURCEPAGE:MM2	SPELLFAILURE:15	BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE	
-Dread Guard's Banded Mail	PROFICIENCY:ARMOR|Banded Mail	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:250	WT:35	ACCHECK:-6	EQMOD:STEEL.MWORKA	MAXDEX:1	SOURCEPAGE:MM2	SPELLFAILURE:35	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE	
-Dread Guard's Small Shield		PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Light.Shield.Specific.Metal	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA		SOURCEPAGE:MM2	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield.REPLACE								CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	WIELD:Light	SIZE:M		
-Firbolg's Studded Leather		PROFICIENCY:ARMOR|Studded Leather	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:25	WT:20	ACCHECK:-1	EQMOD:STEEL.MWORKA	MAXDEX:5	SOURCEPAGE:MM2	SPELLFAILURE:15	BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE	
-

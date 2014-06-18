@@ -5,7 +5,7 @@ RANK:3
 TYPE:Gozzilioni.Complete
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Campaing Set
+SOURCELONG:Gozzilioni Campaing Full Set
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2007-01
@@ -22,6 +22,7 @@ PCC:&/Gozzilioni/srd30/_srd30.pcc
 PCC:&/Gozzilioni/core/DungeonMasterSGuide/_dungeonsmastersguide.pcc
 PCC:&/Gozzilioni/core/PlayerSHandbook/_playershandbook.pcc
 PCC:&/Gozzilioni/core/MonsterManual/_monstermanual.pcc
+PCC:&/Gozzilioni/core/MonsterManual2/_monstermanual2.pcc
 PCC:&/Gozzilioni/core/EpicLevelHandbook/_epiclevelhandbook.pcc
 #Third Party
 PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/_darknessdread.pcc

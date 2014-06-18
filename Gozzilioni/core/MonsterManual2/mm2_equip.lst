@@ -1,17 +1,18 @@
 SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
-#Headgear							
+
+Bogun		TYPE:Construct.Container	COST:2000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 4th; Prerequisite: Craft Construct or Craft Wondrous Item, Control Plants, Wood Shape and Beget Bogun; Market Price: 2000 gp (never sold); Cost to create: 1050 gp +78 xp.
 
 ###Block:Alchemical Stuff and Liquids							
-Air Supply		TYPE:Goods.Alchemical.Liquid.Airsupply	COST:950	WT:1.00		SOURCEPAGE:MM2	
-Frostfire		TYPE:Goods.Alchemical.Liquid	COST:39.97	WT:1.00		SOURCEPAGE:MM2	
-Frostfire (Flask)		TYPE:Goods.Alchemical.Flask.Consumable	COST:40	WT:1.00		SOURCEPAGE:MM2	
+# Air Supply		TYPE:Goods.Alchemical.Liquid.Airsupply	COST:950	WT:1.00		SOURCEPAGE:MM2	
+# Frostfire		TYPE:Goods.Alchemical.Liquid	COST:39.97	WT:1.00		SOURCEPAGE:MM2	
+# Frostfire (Flask)		TYPE:Goods.Alchemical.Flask.Consumable	COST:40	WT:1.00		SOURCEPAGE:MM2	
 
 ###Block:Clothing							
 # Equipment Name	Output Name	Type	Cost	Weight		Source Page	Special Property
-Breathing Mask		TYPE:Goods.Clothing.Resizable.Headgear.Container	COST:50	WT:4		SOURCEPAGE:MM2	CONTAINS:UNLIM|Airsupply=1
+# Breathing Mask		TYPE:Goods.Clothing.Resizable.Headgear.Container	COST:50	WT:4		SOURCEPAGE:MM2	CONTAINS:UNLIM|Airsupply=1
 
 ###Block:Goods							
-Cable (Metal/100 Ft.)		TYPE:Goods.General.Cable	COST:50	WT:4		SOURCEPAGE:MM2	BONUS:SKILL|Use Rope|-2|TYPE=Circumstance
-Harness		TYPE:Goods.Container.Nonmetal.Barding.Mount.Resizable	COST:20	WT:2		SOURCEPAGE:MM2	CONTAINS:UNLIM|Cablespool=1|Weapon=2|Any=UNLIM
-Kinship Badge		TYPE:Goods.General	COST:5	WT:0		SOURCEPAGE:MM2	SPROP:Ultrasonic tone when Desmodu's Echolocation sound strikes it.
-Cablespool		TYPE:Goods.Container.Cablespool	COST:125	WT:2		SOURCEPAGE:MM2	CONTAINS:UNLIM|Cable=2
+# Cable (Metal/100 Ft.)		TYPE:Goods.General.Cable	COST:50	WT:4		SOURCEPAGE:MM2	BONUS:SKILL|Use Rope|-2|TYPE=Circumstance
+# Harness		TYPE:Goods.Container.Nonmetal.Barding.Mount.Resizable	COST:20	WT:2		SOURCEPAGE:MM2	CONTAINS:UNLIM|Cablespool=1|Weapon=2|Any=UNLIM
+# Kinship Badge		TYPE:Goods.General	COST:5	WT:0		SOURCEPAGE:MM2	SPROP:Ultrasonic tone when Desmodu's Echolocation sound strikes it.
+# Cablespool		TYPE:Goods.Container.Cablespool	COST:125	WT:2		SOURCEPAGE:MM2	CONTAINS:UNLIM|Cable=2

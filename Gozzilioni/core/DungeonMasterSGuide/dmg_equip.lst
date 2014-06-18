@@ -9,3 +9,9 @@ Manacles (Masterwork/Medium)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic
 Manacles (Masterwork/Large)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW	COST:500	WT:8
 Manacles (Masterwork/Huge)			TYPE:Goods.General.Masterwork.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW	COST:5000	WT:32
 
+Bomb	TYPE:Goods.Consumable.Individual.Bomb	COST:150	WT:1	SOURCEPAGE:DMG	BASEQTY:1	SPROP:2d6 fire Damage, ranged touch attack, 10 ft range increment, 5ft-radius blast.																			
+Bomb (Smoke)	OUTPUTNAME:[NAME] Bomb	TYPE:Goods.Consumable.Individual.Bomb	COST:70	WT:1	SOURCEPAGE:DMG	BASEQTY:1	SPROP:Smoke, ranged touch attack, 10 ft range increment, 20ft-radius cloud of smoke.																		
+
+Gunpowder (Per Lb.)	TYPE:Goods.Consumable.Gunpowder		COST:1	WT:1		SOURCEPAGE:DMG																			
+Keg (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:15|Gunpowder=15	COST:250	WT:5		SOURCEPAGE:DMG																		
+Powderhorn (Gunpowder)	TYPE:Goods.Container.General.Resizable		CONTAINS:2|Gunpowder=2	COST:35	WT:0		SOURCEPAGE:DMG																		

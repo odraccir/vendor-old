@@ -1,6 +1,4 @@
 SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
-Profession (Boater)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Profession (Boater)	SOURCEPAGE:MM2							
-Profession (Farmer)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Profession (Farmer)	SOURCEPAGE:MM2							
-Profession (Herbalist)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Profession (Herbalist)	SOURCEPAGE:MM2
-Profession (Scribe)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Profession (Scribe)	SOURCEPAGE:MM2
+Hide.MOD		SITUATION:Smoky area
+Hide.MOD		SITUATION:Foggy area

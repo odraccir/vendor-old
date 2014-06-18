@@ -17,22 +17,29 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 ABILITYCATEGORY:mm2_abilitycategories.lst
 ABILITY:mm2_abilities.lst
 ABILITY:mm2_abilities_races.lst
-CLASS:mm2_classes_monster__dragons.lst
-CLASS:mm2_classes_monster_specific.lst
-COMPANIONMOD:mm2_companionmods.lst
+CLASS:mm2_classes_monsters_specific.lst
 EQUIPMENT:mm2_equip.lst
-EQUIPMENT:mm2_equip_armorshields_specific.lst
-EQUIPMENT:mm2_equip_weap_melee.lst
-EQUIPMENT:mm2_equip_weap_melee_specific.lst
-EQUIPMENT:mm2_equip_weap_ranged_specific.lst
-EQUIPMOD:mm2_equipmods_enhancing.lst
-FEAT:mm2_feats_hidden.lst
+KIT:mm2_kits.lst
 LANGUAGE:mm2_languages.lst
 RACE:mm2_races.lst
-RACE:mm2_races__dragons.lst
 SKILL:mm2_skills.lst
-TEMPLATE:mm2_templates.lst
-WEAPONPROF:mm2_weaponprofs.lst
+SPELL:mm2_spells.lst
+
+
+# CLASS:mm2_classes_monster__dragons.lst
+# COMPANIONMOD:mm2_companionmods.lst
+# EQUIPMENT:mm2_equip.lst
+# EQUIPMENT:mm2_equip_armorshields_specific.lst
+# EQUIPMENT:mm2_equip_weap_melee.lst
+# EQUIPMENT:mm2_equip_weap_melee_specific.lst
+# EQUIPMENT:mm2_equip_weap_ranged_specific.lst
+# EQUIPMOD:mm2_equipmods_enhancing.lst
+# FEAT:mm2_feats_hidden.lst
+# LANGUAGE:mm2_languages.lst
+# RACE:mm2_races__dragons.lst
+# SKILL:mm2_skills.lst
+# TEMPLATE:mm2_templates.lst
+# WEAPONPROF:mm2_weaponprofs.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst
