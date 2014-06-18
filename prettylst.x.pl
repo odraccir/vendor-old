@@ -124,6 +124,7 @@ my %validfiletype = (
     'WEAPONPROF'   => \&FILETYPE_parse,
     'ARMORPROF'    => \&FILETYPE_parse,
     'SHIELDPROF'   => \&FILETYPE_parse,
+	'VARIABLE'		=> \&FILETYPE_parse,
     '#EXTRAFILE'   => 1,
 );
 
@@ -155,6 +156,7 @@ my %writefiletype = (
     'ARMORPROF'    => 1,
     'SHIELDPROF'   => 1,
     '#EXTRAFILE'   => 0,
+	'VARIABLE'		=> 1,
 );
 
 # The active conversions
@@ -1481,6 +1483,19 @@ my %master_file_type = (
             ValidateKeep    => YES,
         },
    ],
+
+	VARIABLE => [
+		\%SOURCE_file_type_def,
+		{ Linetype	=> 'VARIABLE',
+			RegEx			=> qr(^([^\t:]+)),
+			Mode			=> MAIN,
+			Format		=> BLOCK,
+			Header		=> BLOCK_HEADER,
+			ValidateKeep	=> YES,
+		},
+	],
+
+
 );
 
 # The PRExxx tags. They are used in many of the line types.
@@ -1954,7 +1969,7 @@ my %master_order = (
         'REMOVE',
 #		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 #		'LANGAUTO:*',		# Deprecated - 6.0
-	@Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
+	@Global_BONUS_Tags,		# [ 1956340 ] Centralize global BONUS tags
         'FOLLOWERS',
         'CHANGEPROF',
         'COMPANIONLIST:*',
@@ -3483,6 +3498,12 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
     ],
+
+	'VARIABLE' => [
+		'000VariableName',
+		'EXPLANATION',			
+	],
+
 );
 
 #################################################################
@@ -3644,6 +3665,10 @@ my %column_with_no_tag = (
         '000WeaponName',
     ],
 
+	'VARIABLE' => [
+		'000VariableName',
+	],
+
 );
 
 my %token_ADD_tag = map { $_ => 1 } (
@@ -3670,7 +3695,7 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'CASTERLEVEL',
     'CHECKS',
     'COMBAT',
-    'DAMAGE',               # Deprecated 4.3.8 - Remove 5.16.0 - Use BONUS:COMBAT|DAMAGE.x|y
+    # 'DAMAGE',               # Deprecated 4.3.8 - Remove 5.16.0 - Use BONUS:COMBAT|DAMAGE.x|y
     'DC',
     'DOMAIN',
     'DR',
@@ -3686,7 +3711,7 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'LANGUAGES',    # Not listed in the Docs
     'MISC',
     'MONSKILLPTS',
-    'MOVE',         # Deprecated 4.3.8 - Remove 5.16.0 - Use BONUS:MOVEADD or BONUS:POSTMOVEADD
+    # 'MOVE',         # Deprecated 4.3.8 - Remove 5.16.0 - Use BONUS:MOVEADD or BONUS:POSTMOVEADD
     'MOVEADD',
     'MOVEMULT',
     'POSTRANGEADD',
@@ -3696,7 +3721,8 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'RANGEMULT',
     'REPUTATION',   # Not listed in the Docs
     'SIZEMOD',
-    'SKILL',
+	'SKILL',
+    'SITUATION',
     'SKILLPOINTS',
     'SKILLPOOL',
     'SKILLRANK',
@@ -3708,7 +3734,7 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'SPELLKNOWN',
     'VISION',
     'STAT',
-    'TOHIT',                # Deprecated 5.3.12 - Remove 5.16.0 - Use BONUS:COMBAT|TOHIT|x
+    # 'TOHIT',                # Deprecated 5.3.12 - Remove 5.16.0 - Use BONUS:COMBAT|TOHIT|x
     'UDAM',
     'VAR',
     'WEAPON',
@@ -3931,6 +3957,9 @@ my %tagheader = (
 	'000ArmorName'          => '# Armor Name',
         '000ShieldName'         => '# Shield Name',
 
+		'000VariableName'		=> '# Variable Name',
+
+
         'ABILITY'               => 'Ability',
         'ACCHECK'               => 'AC Penalty Check',
         'ACHECK'                => 'Skill Penalty Apply',
@@ -3994,6 +4023,7 @@ my %tagheader = (
         'BONUS:REPUTATION'      => 'Bonus to Reputation',
         'BONUS:SIZEMOD'         => 'Adjust PC Size',
         'BONUS:SKILL'           => 'Bonus to skill',
+		'BONUS:SITUATION'		=> 'Bonus to Situation',
         'BONUS:SKILLPOINTS'     => 'Bonus to skill point/L',
         'BONUS:SKILLPOOL'       => 'Bonus to skill point for a level',
         'BONUS:SKILLRANK'       => 'Bonus to skill rank',
@@ -4052,6 +4082,7 @@ my %tagheader = (
 #       'EFFECTS'               => 'Description',               # Deprecated a long time ago for TARGETAREA
         'EQMOD'                 => 'Modifier',
         'EXCLASS'               => 'Ex Class',
+		'EXPLANATION'			=> 'Explanation',
         'FACE'                  => 'Face/Space',
         'FEAT'                  => 'Feat',
         'FEATAUTO'              => 'Feat Auto',
@@ -4181,6 +4212,8 @@ my %tagheader = (
         'PRESIZELT'             => 'Must be Smaller',
         'PRESIZELTEQ'           => 'Maximum Size',
         'PRESKILL'              => 'Required Skill',
+		'!PRESITUATION'			=> 'Prohibited Situation',
+		'PRESITUATION'			=> 'Required Situation',
 	'!PRESKILL'             => 'Prohibited Skill',
         'PRESKILLMULT'          => 'Special Required Skill',
         'PRESKILLTOT'           => 'Total Skill Points Req.',
@@ -4491,6 +4524,11 @@ my %tagheader = (
         'FAVOREDCLASS'          => 'Favored Class',
         'GENDERLOCK'            => 'Lock Gender Selection',
     },
+
+	'VARIABLE' => {
+		'000VariableName'		=> '# Variable Name',
+		'EXPLANATION'			=> 'Explanation',
+	},
 
 );
 
@@ -8959,7 +8997,8 @@ BEGIN {
                 my @parameters = split ',', $entry;
 
                 # Must have 4 parameters
-                if ( scalar @parameters == 4 ) {
+                # if ( scalar @parameters == 4 ) {
+                if ( scalar @parameters == 4 || scalar @parameters == 5 ) {
 
                     # Parameter 3 is a number
                     $logging->ewarn( NOTICE,
@@ -9545,6 +9584,8 @@ sub validate_pre_tag {
                  ];
         }
     }
+
+	# No Check for Variable File #
 
     # Check for PRExxx that do not exist. We only check the
     # tags that are embeded since parse_tag already took care
@@ -12241,12 +12282,14 @@ BEGIN {
                         my @Types    = split '\.', $Types;
                         my $IsMelee  = 0;
                         my $IsRanged = 0;
+                        my $IsTouch = 0;
                         for my $type (@Types) {
                             $IsMelee  = 1 if uc($type) eq 'MELEE';
                             $IsRanged = 1 if uc($type) eq 'RANGED';
+                            $IsTouch = 1 if uc($type) eq 'TOUCH';
                         }
 
-                        if ( $IsMelee && !$IsRanged ) {
+                        if ( $IsMelee && !$IsRanged && !$IsTouch) {
 
                             # We have a winner!!!
                             ($NatAttackName) = ( $NatAttackName =~ /:(.*)/ );

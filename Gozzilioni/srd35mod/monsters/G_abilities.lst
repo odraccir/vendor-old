@@ -1,8 +1,63 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																														
-																																
-###Block: Proficiencies																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Resistance To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:PoisonResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Poison Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Poison,Vulnerability To Poison													SOURCEPAGE:MM
-Resistance To Poison Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Poison	DESC:You get a +%1 bonus on Fort saving throws against poison.|PoisonResistanceBonus	ASPECT:Resistance|Poison	ASPECT:Ability Benefit|%1|PoisonResistanceBonus																									SOURCEPAGE:MM
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																		
+																																				
+###Block: Proficiencies																																				
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
+Resistance To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:PoisonResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Poison Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Poison,Vulnerability To Poison													SOURCEPAGE:MM				
+Resistance To Poison Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Poison	DESC:You get a +%1 bonus on Fort saving throws against poison.|PoisonResistanceBonus	ASPECT:Resistance|Poison	ASPECT:Ability Benefit|%1|PoisonResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Poison				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take poison damage				ASPECT:Immunity|Poison																									SOURCEPAGE:MM
-Vulnerability To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to poison.																												SOURCEPAGE:MM
+Vulnerability To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to poison.																												SOURCEPAGE:MM				
+																																				
+Resistance To Rust	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:RustResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Rust Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Rust,Vulnerability To Rust													SOURCEPAGE:MM				
+Resistance To Rust Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Rust	DESC:You get a +%1 bonus on Fort saving throws against Rust.|RustResistanceBonus	ASPECT:Resistance|Rust	ASPECT:Ability Benefit|%1|RustResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Rust				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Rust damage				ASPECT:Immunity|Rust																									SOURCEPAGE:MM
+Vulnerability To Rust	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Rust.																												SOURCEPAGE:MM				
+																																				
+# Ability Focus ability pool																																				
+# Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening|Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																				
+# Basic
+Breath Weapon	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Breath Weapon																													SOURCEPAGE:MM		
+Charming Gaze	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Charming Gaze																													SOURCEPAGE:MM		
+Constrict	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Constrict																													SOURCEPAGE:MM		
+Corrupting Gaze	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Corrupting Gaze																													SOURCEPAGE:MM		
+Corrupting Touch	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Corrupting Touch																													SOURCEPAGE:MM		
+Crush	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Crush																													SOURCEPAGE:MM		
+Death Gaze	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Death Gaze																													SOURCEPAGE:MM		
+Draining Touch	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Draining Touch																													SOURCEPAGE:MM		
+Fists	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Fists																													SOURCEPAGE:MM		
+Frightful Moan	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Frightful Moan																													SOURCEPAGE:MM		
+Frightful Presence	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Frightful Presence																													SOURCEPAGE:MM		
+Gaze	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Gaze																													SOURCEPAGE:MM		
+Horrific Appearance	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Horrific Appearance																													SOURCEPAGE:MM		
+# Improved Grab	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Improved Grab																													SOURCEPAGE:MM		
+Keening	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Keening																													SOURCEPAGE:MM		
+Malevolence	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Malevolence																													SOURCEPAGE:MM		
+Paralysis	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Paralysis																													SOURCEPAGE:MM		
+Paralyzing Touch	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Paralyzing Touch																													SOURCEPAGE:MM		
+Poison	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Poison																													SOURCEPAGE:MM		
+Pounce	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Pounce																													SOURCEPAGE:MM		
+Rake	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Rake																													SOURCEPAGE:MM		
+Ray	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Ray																													SOURCEPAGE:MM		
+Roar	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Roar																													SOURCEPAGE:MM		
+Seduction	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Seduction																													SOURCEPAGE:MM		
+Soul Portal	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Soul Portal																													SOURCEPAGE:MM		
+Sound Imitation	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Sound Imitation																													SOURCEPAGE:MM		
+Stench	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Stench																													SOURCEPAGE:MM		
+Swallow Whole	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Swallow Whole																													SOURCEPAGE:MM		
+Tail Sweep	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Tail Sweep																													SOURCEPAGE:MM		
+Telekinesis	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Telekinesis																													SOURCEPAGE:MM		
+Trample	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Trample																													SOURCEPAGE:MM		
+# MM
+Confusing Gaze	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Confusing Gaze																													SOURCEPAGE:MM		
+Implant	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Implant																													SOURCEPAGE:MM		
+Lightning Bolt	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Lightning Bolt																													SOURCEPAGE:MM		
+Stun	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Stun																													SOURCEPAGE:MM		
+# MM2
+Stormwing	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Stormwing																													SOURCEPAGE:MM2		
+Charisma Drain	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Charisma Drain																													SOURCEPAGE:MM2		
+Wail	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Wail																													SOURCEPAGE:MM2		
+Razor Storm	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Razor Storm																													SOURCEPAGE:MM2		
+Bone Meld	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Bone Meld																													SOURCEPAGE:MM2		
+Engulf	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Engulf																													SOURCEPAGE:MM2		
+Wounding	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Wounding																													SOURCEPAGE:MM2		
+Mind Blast	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Mind Blast																													SOURCEPAGE:MM2		
+Drone	CATEGORY:Internal	TYPE:AbilityFocus	VISIBLE:YES		KEY:Ability Focus ~ Drone																													SOURCEPAGE:MM2		
