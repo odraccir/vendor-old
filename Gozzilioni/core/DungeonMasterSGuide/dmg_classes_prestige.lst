@@ -1,11 +1,11 @@
 SOURCELONG:Dungeons Master guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net										
 #
-# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE
 # Class Name req	Requirements	FINE										
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
-CLASS:Red Wizard	HD:4	TYPE:Prestige	ABB:Red	MAXLEVEL:10	SOURCEPAGE:DMG	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL/2|TYPE=Base.REPLACE	
+CLASS:Red Wizard	HD:4	TYPE:Prestige	ABB:Red	MAXLEVEL:10	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE	
 CLASS:Red Wizard	PRERACE:1,RACESUBTYPE=Human	PREREGION:1,Thay	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Spellcraft=8	PREFEAT:1,Tatoo Focus	PREMULT:1,[PREFEAT:3,TYPE.ItemCreation],[PREFEAT:3,TYPE.Metamagic]	PRESPELLTYPE:1,Arcane=3					
 CLASS:Red Wizard	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Intimidate|TYPE.Knowledge|TYPE.Profession|Spellcraft										ALLOWBASECLASS:NO
 SUBCLASS:Red Wizard ~ Abjurer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Abjuration									

@@ -1,7 +1,7 @@
 CAMPAIGN:Gozzilioni Campaing Full Set
 PRECAMPAIGN:1,BOOKTYPE=Core Rules,3.5 RSRD
 GAMEMODE:35e
-RANK:3
+RANK:1
 TYPE:Gozzilioni.Complete
 SETTING:Heroes
 BOOKTYPE:Campaign
@@ -24,6 +24,8 @@ PCC:&/Gozzilioni/core/PlayerSHandbook/_playershandbook.pcc
 PCC:&/Gozzilioni/core/MonsterManual/_monstermanual.pcc
 PCC:&/Gozzilioni/core/MonsterManual2/_monstermanual2.pcc
 PCC:&/Gozzilioni/core/EpicLevelHandbook/_epiclevelhandbook.pcc
+#Accessory
+PCC:&/Gozzilioni/accessory/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
 #Third Party
 PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/_darknessdread.pcc
 #

@@ -1814,7 +1814,7 @@ my @Global_BONUS_Tags = (
 
 	'BONUS:ABILITYPOOL:*',          # Global
 	'BONUS:CASTERLEVEL:*',          # Global
-	'BONUS:CHECKS:*',               # Global
+	# 'BONUS:CHECKS:*',               # Global [Deprecated 6.03.01]
 	'BONUS:COMBAT:*',               # Global
 	'BONUS:DC:*',                   # Global
 	'BONUS:DOMAIN:*',               # Global
@@ -1830,6 +1830,7 @@ my @Global_BONUS_Tags = (
 	'BONUS:POSTRANGEADD:*',         # Global
 	'BONUS:RANGEADD:*',             # Global
 	'BONUS:RANGEMULT:*',            # Global
+	'BONUS:SAVE:*',		# Global
 	'BONUS:SITUATION:*',		# Global
 	'BONUS:SIZEMOD:*',              # Global
 	'BONUS:SKILL:*',                # Global
@@ -3720,6 +3721,7 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'RANGEADD',
     'RANGEMULT',
     'REPUTATION',   # Not listed in the Docs
+    'SAVE',
     'SIZEMOD',
 	'SKILL',
     'SITUATION',
@@ -14333,7 +14335,8 @@ sub embedded_coma_split {
                     push @verified_alignments, $alingment;
                 }
                 # ex. CHECKNAME:Fortitude   BONUS:CHECKS|Fortitude|CON
-                elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:CHECKS [|] ( [^\t|]* ) /xms ) ) {
+                # elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:CHECKS [|] ( [^\t|]* ) /xms ) ) {
+                elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:SAVE [|] ( [^\t|]* ) /xms ) ) {
                     # The check name used by PCGen is actually the one defined with the first BONUS:CHECKS.
                     # CHECKNAME:Sagesse     BONUS:CHECKS|Will|WIS would display Sagesse but use Will internaly.
                     push @verified_check_names, $check_name;

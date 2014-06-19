@@ -21,7 +21,6 @@ ABILITY:mm_abilities_races.lst
 CLASS:mm_classes_monster.lst
 EQUIPMENT:mm_equip_weap_melee.lst
 EQUIPMENT:mm_equip_wondrous.lst
-FEAT:mm_feats.lst
 KIT:mm_kits.lst
 LANGUAGE:mm_languages.lst
 RACE:mm_races.lst
