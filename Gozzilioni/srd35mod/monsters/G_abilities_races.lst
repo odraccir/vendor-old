@@ -5,10 +5,12 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																												
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																															
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																															
-CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																															
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|10+(HD/2)+STR																															
 CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|STR*3/2																															
 																																
+																																
 CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy																															
+CATEGORY=Special Ability|Traits Output ~ Incorporeal.MOD	DEFINESTAT:NONSTAT|STR
 																																
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Guardinal Traits|PRERACE:1,RACESUBTYPE=Guardinal																															
@@ -17,7 +19,7 @@ Lay on Hands	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.
 Speak with Animals	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:Like Speak with Animals spell (caster level 8th) but its a free action and doesn't require sound.	KEY:Guardinal ~ Speak with Animals																											SOURCEPAGE:MM
 																																
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Slaad Traits|PRERACE:1,RACESUBTYPE=Slaad																															
-Slaad Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Slaad	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Immunity To Sonic|Slaad ~ Summon Slaad								BONUS:VAR|AcidResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ElectricityResistanceBonus|5|TYPE=Racial	BONUS:VAR|FireResistanceBonus|5|TYPE=Racial																	SOURCEPAGE:MM
+Slaad Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Slaad	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Immunity To Sonic|Slaad ~ Summon Slaad								BONUS:VAR|AcidResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|5|TYPE=Resistance																	SOURCEPAGE:MM
 Summon Slaad	CATEGORY:Special Ability	TYPE:SlaadSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:Slaadi can summon other slaadi much as though casting Summon Monster spell.	KEY:Slaad ~ Summon Slaad																											SOURCEPAGE:MM
 																																
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Xorn Traits|PRERACE:1,RACESUBTYPE=Xorn																															
@@ -39,3 +41,13 @@ Hive Mind	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialQuality.Extraor
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Automaton Traits|PRERACE:1,RACESUBTYPE=Automaton																															
 Automaton Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Automaton ~ Unreliable																												SOURCEPAGE:MM2	
 Unreliable	CATEGORY:Special Ability	TYPE:AutomatonSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The shadow consciousness of an Automaton is only quasi real, like the consciousness of a creation such as a simulacrum. The creature is thus sometimes slow to react to the changing environment around it. At the beginning of each round in which an Automaton attempts to act, roll 1d20. On a results of 11 or better, it acts normally, otherwise it takes no action.	KEY:Automaton ~ Unreliable																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Clockwork Horror Traits|PRERACE:1,RACESUBTYPE=Clockwork Horror
+Clockwork Horror Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Clockwork	ABILITY:Special Ability|AUTOMATIC|Clockwork Horror ~ Linked Mind|Clockwork Horror ~ Spell Vulnerability|Immunity To Electricity																												SOURCEPAGE:MM2	
+Linked Mind	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:All Clockwork Horror within 10 miles of a gold, platinum or adamantine horror are in constant communication. If one is aware of a particular danger, they all are. If one in a particular group is not flat-footed, none of them are. No clockwork horror in such a group is considered flanked unless they all are.	KEY:Clockwork Horror ~ Linked Mind																											SOURCEPAGE:MM2
+Spell Vulnerability	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A Clockwork Horro is susceptible to the Shatter spell, which blinds it for 1d4+1 rounds.	KEY:Clockwork Horror ~ Spell Vulnerability																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Tanar'ri Traits|PRERACE:1,RACESUBTYPE=Tanar'ri
+Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Abyssal|Celestial|Draconic	ABILITY:Special Ability|AUTOMATIC|Tanar'ri ~ Telepathy|Immunity To Electricity|Immunity To Poison|Resistance To Acid|Resistance to Cold|Resistance to Fire|Tanar'ri ~ Summon Tanar'ri								BONUS:VAR|AcidResistanceBonus|20|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|20|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|20|TYPE=Resistance																		SOURCEPAGE:MM2
+Telepathy	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Tanar'ri can communicate telepathically with any creature within %1 feet that has a language.|TelepathyRange	KEY:Tanar'ri ~ Telepathy									BONUS:VAR|TelepathyRange|100									ABILITY:Special Ability|VIRTUAL|Telepathy									SOURCEPAGE:MM2
+Summon Tanar'ri	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All Tanar'ri can summon other tanar'ri much as though casting Summon Monster spell.	KEY:Tanar'ri ~ Summon Tanar'ri																											SOURCEPAGE:MM2

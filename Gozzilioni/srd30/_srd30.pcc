@@ -16,6 +16,7 @@ SOURCEDATE:2003-07
 #
 #Rsrd
 SPELL:srd_spells.lst
+FEAT:motw_feats.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

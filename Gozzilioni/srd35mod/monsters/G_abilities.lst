@@ -12,6 +12,11 @@ Resistance To Rust Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordi
 Immunity To Rust				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Rust damage				ASPECT:Immunity|Rust																									SOURCEPAGE:MM
 Vulnerability To Rust	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Rust.																												SOURCEPAGE:MM				
 																																				
+Resistance To Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:RangedAttackResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Ranged Attack Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Ranged Attack,Vulnerability To Ranged Attack													SOURCEPAGE:MM2
+Resistance To Ranged Attack Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Ranged Attack	DESC:You get a +%1 bonus on Fort saving throws against Ranged Attack.|RangedAttackResistanceBonus	ASPECT:Resistance|Ranged Attack	ASPECT:Ability Benefit|%1|RangedAttackResistanceBonus																									SOURCEPAGE:MM2
+Immunity To Ranged Attack				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Ranged Attack damage				ASPECT:Immunity|Ranged Attack																									SOURCEPAGE:MM2
+Vulnerability To Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Ranged Attack.																												SOURCEPAGE:MM				
+																																				
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
@@ -56,12 +61,17 @@ Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																						
 Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Drone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Mind Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Negative Energy Burst	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Prismatic Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Razor Storm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Steal Breath	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Wounding	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		

@@ -1,0 +1,5 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net			
+
+# BASICS																																									
+# Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
+Multidexterity	TYPE:General	VISIBLE:YES								PREHANDSGTEQ:3					PRESTAT:1,DEX=15									DESC:The creature ignores all penalties for using an off hand.									BONUS:COMBAT|TOHIT-PRIMARY,TOHIT-SECONDARY|4|PREEQUIPSECONDARY:1,TYPE=Natural								SOURCEPAGE:MM2

@@ -28,6 +28,8 @@ PCC:&/Gozzilioni/core/EpicLevelHandbook/_epiclevelhandbook.pcc
 PCC:&/Gozzilioni/accessory/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
 #Third Party
 PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/_darknessdread.pcc
+#Web
+PCC:&/Gozzilioni/web/spelljammer/_spelljammer.pcc
 #
 
 #ABILITY:my_abilities.lst

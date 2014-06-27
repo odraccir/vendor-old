@@ -1,0 +1,4 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
+
+Death Ray	KEY:Catoblepas ~ Death Ray	PROFICIENCY:WEAPON|Spells (Ray)		TYPE:Weapon.Natural.Ranged.Finesseable.Ray	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2					RANGE:160		SOURCEPAGE:MM2	MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Catoblepas ~ Death Ray																										
+Pressure Dart	KEY:Clockwork Horror ~ Pressure Dart	PROFICIENCY:WEAPON|Pressure Dart		TYPE:Weapon.Natural.Ranged.Finesseable.Thrown.Dart	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2					RANGE:20		SOURCEPAGE:MM2	MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Electrum Clockwork Horror ~ Pressure Dart																										
