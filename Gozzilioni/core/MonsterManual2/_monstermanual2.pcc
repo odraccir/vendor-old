@@ -20,6 +20,8 @@ ABILITY:mm2_abilities_races.lst
 CLASS:mm2_classes_monsters_specific.lst
 EQUIPMENT:mm2_equip.lst
 EQUIPMENT:mm2_equip_natural.lst
+EQUIPMENT:mm2_equip_weap_melee_specific.lst
+EQUIPMOD:mm2_equipmods_enhancing.lst
 FEAT:mm2_feats.lst
 KIT:mm2_kits.lst
 LANGUAGE:mm2_languages.lst
@@ -27,6 +29,7 @@ RACE:mm2_races.lst
 SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
 WEAPONPROF:mm2_profs_natural.lst
+WEAPONPROF:mm2_profs_weapon.lst
 
 # CLASS:mm2_classes_monster__dragons.lst
 # COMPANIONMOD:mm2_companionmods.lst

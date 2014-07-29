@@ -168,3 +168,48 @@ STARTPACK:Deathbringer Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPB
 RACE:Deathbringer	!PRERACE:1,%																																																															
 NAME:Deathbringer																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
+																																																																
+STARTPACK:Demon (Abyssal Maw) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Maw)]																																																												
+RACE:Demon (Abyssal Maw)	!PRERACE:1,%																																																															
+NAME:Abyssal Maw																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
+																																																																
+STARTPACK:Demon (Abyssal Skulker) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Skulker)]																																																												
+RACE:Demon (Abyssal Skulker)	!PRERACE:1,%																																																															
+NAME:Abyssal Skulker																																																																
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
+																																																																
+STARTPACK:Demon (Abyssal Ravager) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Ravager)]																																																												
+RACE:Demon (Abyssal Ravager)	!PRERACE:1,%																																																															
+NAME:Abyssal Sravager																																																																
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Demon (Jovoc) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jovoc)]																																																												
+RACE:Demon (Jovoc)	!PRERACE:1,%																																																															
+NAME:Jovoc																																																																
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
+																																																																
+STARTPACK:Demon (Palrethee) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Palrethee)]																																																												
+RACE:Demon (Palrethee)	!PRERACE:1,%																																																															
+NAME:Palrethee																																																																
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11																																																																
+																																																																
+STARTPACK:Demon (Zovvut) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Zovvut)]																																																												
+RACE:Demon (Zovvut)	!PRERACE:1,%																																																															
+NAME:Zovvut																																																																
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Demon (Jarilith) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jarilith)]																																																												
+RACE:Demon (Jarilith)	!PRERACE:1,%																																																															
+NAME:Jarilith																																																																
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Demon (Kelvezu) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Kelvezu)]																																																												
+RACE:Demon (Kelvezu)	!PRERACE:1,%																																																															
+NAME:Kelvezu																																																																
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Desmodu Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu]																																																												
+RACE:Desmodu	!PRERACE:1,%																																																															
+NAME:Desmodu																																																																
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11																																																																

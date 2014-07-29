@@ -2965,7 +2965,6 @@ my %master_order = (
         'SPELLLEVEL:DOMAIN:*',
         'KIT',
         'SORTKEY',              # Gozzilioni
-        'TYPE:.CLEAR',          # Gozzilioni
     ],
 
    'SHIELDPROF' => [
@@ -3814,41 +3813,55 @@ my @token_AUTO_tag = (
 # validate the different CHOOSE types.
 my %token_CHOOSE_tag = map { $_ => 1 } (
     'ABILITY',
-#	'ARMORPROF',			# Deprecated 5.15 - Remove 6.0
+	'ABILITYSELECTION',
+	'ALIGNMENT',
 	'ARMORPROFICIENCY',
-    'ARMORTYPE',
-#    'CCSKILLLIST',          # Deprecated 5.13.9 - Remove 5.16. Use CHOOSE:SKILLSNAMED instead.
-    'CSKILLS',
-#    'COUNT',                        # Deprecated 5.13.9 - Remove 5.16 Use SELECT instead.
+	'CHECK',
+	'CLASS',
+	'DEITY',
     'DOMAIN',
-    'EQBUILDER.SPELL',
+	'EQBUILDER.SPELL',		# EQUIPMENT ONLY
     'EQUIPMENT',
-    'EQUIPTYPE',
     'FEAT',
-#	'FEATADD',				# Deprecated 5.15 - Remove 6.00
-#	'FEATLIST',				# Deprecated 5.15 - Remove 6.00
-#	'FEATSELECT',			# Deprecated 5.15 - Remove 6.00
-#	'HP',					# Deprecated 6.00 - Remove 6.02
+	'FEATSELECTION',
+	'LANG',
+	'LANGAUTO',
     'NOCHOICE',
     'NUMBER',
     'NUMCHOICES',
-    'PROFICIENCY',
+	'PCSTAT',
     'RACE',
-#	'SALIST',			# Deprecated 6.00 - Remove 6.02
     'SCHOOLS',
-    'SHIELDPROF',
+	'SHIELDPROFICIENCY',
+	'SIZE',
     'SKILL',
-    'SKILLSNAMED',
-    'SPELLCLASSES',
+	'SKILLBONUS',
     'SPELLLEVEL',
-    'SPELLLIST',
     'SPELLS',
-    'STAT',
+	'STATBONUS',		# EQUIPMENT ONLY
     'STRING',
+	'TEMPLATE',
     'USERINPUT',
     'WEAPONFOCUS',
-    'WEAPONPROF',
-    'WEAPONPROFS',
+	'WEAPONPROFICIENCY',
+#	'STAT',					# Deprecated
+#	'WEAPONPROF',			# Deprecated
+#	'WEAPONPROFS',			# Deprecated
+#	'SPELLLIST',			# Deprecated
+#	'SPELLCLASSES',			# Deprecated
+#	'PROFICIENCY',			# Deprecated
+#	'SHIELDPROF',			# Deprecated
+#	'EQUIPTYPE',			# Deprecated
+#	'CSKILLS',				# Deprecated
+#	'HP',					# Deprecated 6.00 - Remove 6.02
+#	'CCSKILLLIST',			# Deprecated 5.13.9 - Remove 5.16. Use CHOOSE:SKILLSNAMED instead.
+#	'ARMORTYPE',			# Deprecated 
+#	'ARMORPROF',			# Deprecated 5.15 - Remove 6.0
+#	'SKILLSNAMED',			# Deprecated
+#	'SALIST',				# Deprecated 6.00 - Remove 6.02
+#	'FEATADD',				# Deprecated 5.15 - Remove 6.00
+#	'FEATLIST',				# Deprecated 5.15 - Remove 6.00
+#	'FEATSELECT',			# Deprecated 5.15 - Remove 6.00
 );
 
 my %master_mult;        # Will hold the tags that can be there more then once
@@ -6907,13 +6920,13 @@ sub parse_tag {
     # [ 1683231 ] CHOOSE:SCHOOLS does not have arguments
     # Warn if there are arguments passed to CHOOSE:SCHOOLS
 
-#    if ($tag_text =~ '^CHOOSE:SCHOOLS\|') {
-#        $logging->ewarn(WARNING,
-#	       qq{Invalid format in "$tag_text", CHOOSE:SCHOOLS does not support any additional arguments or the pipe separator.},
-#	       $file_for_error,
-#	       $line_for_error
-#	       );
-#    }
+#	if ($tag_text =~ '^CHOOSE:SCHOOLS\|') {
+#		$logging->ewarn(WARNING,
+#			qq{Invalid format in "$tag_text", CHOOSE:SCHOOLS does not support any additional arguments or the pipe separator.},
+#			$file_for_error,
+#			$line_for_error
+#			);
+#	}
 
 
     # Special cases like ADD:... and BONUS:...
@@ -8419,11 +8432,11 @@ BEGIN {
                             # No DC present, the whole param is the spell name
                             push @spells, $param;
 
-                            # $logging->ewarn(INFO,
-                                  # qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
-                                  # $file_for_error,
-                                  # $line_for_error
-                            # );
+#					$logging->ewarn(INFO,
+#						qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
+#						$file_for_error,
+#						$line_for_error
+#					);
                         }
                     }
                 }
@@ -8999,7 +9012,6 @@ BEGIN {
                 my @parameters = split ',', $entry;
 
                 # Must have 4 parameters
-                # if ( scalar @parameters == 4 ) {
                 if ( scalar @parameters == 4 || scalar @parameters == 5 ) {
 
                     # Parameter 3 is a number
@@ -10457,7 +10469,6 @@ BEGIN {
 
         ceil    cl      classlevel      count   floor   min
         max     roll    skillinfo       var 	mastervar
-        charbonusto
     );
 
     # Definition of a valid Jep identifiers. Note that all functions are
@@ -14335,7 +14346,6 @@ sub embedded_coma_split {
                     push @verified_alignments, $alingment;
                 }
                 # ex. CHECKNAME:Fortitude   BONUS:CHECKS|Fortitude|CON
-                # elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:CHECKS [|] ( [^\t|]* ) /xms ) ) {
                 elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:SAVE [|] ( [^\t|]* ) /xms ) ) {
                     # The check name used by PCGen is actually the one defined with the first BONUS:CHECKS.
                     # CHECKNAME:Sagesse     BONUS:CHECKS|Will|WIS would display Sagesse but use Will internaly.

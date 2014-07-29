@@ -1,0 +1,5 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+Scimitar	KEY:Kelvezu ~ Scimitar	PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:15	WT:1	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.WOUND_GRT						SOURCEPAGE:MM2									MODS:NO
+Dagger	KEY:Kelvezu ~ Dagger	PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Specific.Piercing.Slashing.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.WOUND						SOURCEPAGE:MM2	RANGE:10								MODS:NO

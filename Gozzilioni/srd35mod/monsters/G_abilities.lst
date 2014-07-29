@@ -1,7 +1,24 @@
 SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																		
-																																				
-###Block: Proficiencies																																				
+
+###Block: Variables																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																												
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																															
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																															
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|10+(HD/2)+STR																															
+CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|STR*3/2																															
+
+Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange
+See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange
+#
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0
+
+###Block: Abilities																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
+CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy																															
+CATEGORY=Special Ability|Traits Output ~ Incorporeal.MOD	DEFINESTAT:NONSTAT|STR
+
 Resistance To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:PoisonResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Poison Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Poison,Vulnerability To Poison													SOURCEPAGE:MM				
 Resistance To Poison Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Poison	DESC:You get a +%1 bonus on Fort saving throws against poison.|PoisonResistanceBonus	ASPECT:Resistance|Poison	ASPECT:Ability Benefit|%1|PoisonResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Poison				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take poison damage				ASPECT:Immunity|Poison																									SOURCEPAGE:MM
@@ -58,8 +75,11 @@ Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																			
 Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 # MM2																																				
+Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Demonic Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Draining Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Drone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -69,6 +89,8 @@ Mind Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																
 Negative Energy Burst	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Prismatic Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Razor Storm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Sonic Abilities	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Steal Breath	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
