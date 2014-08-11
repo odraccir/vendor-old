@@ -37,6 +37,17 @@ Linked Mind	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQua
 Spell Vulnerability	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A Clockwork Horro is susceptible to the Shatter spell, which blinds it for 1d4+1 rounds.	KEY:Clockwork Horror ~ Spell Vulnerability																											SOURCEPAGE:MM2
 
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Tanar'ri Traits|PRERACE:1,RACESUBTYPE=Tanar'ri
-Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Tanar'ri ~ Telepathy|Immunity To Electricity|Immunity To Poison|Resistance To Acid|Resistance to Cold|Resistance to Fire|Tanar'ri ~ Summon Tanar'ri								BONUS:VAR|AcidResistanceBonus|20|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|20|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|20|TYPE=Resistance																		SOURCEPAGE:MM2
+Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Tanar'ri ~ Telepathy|Immunity To Electricity|Immunity To Poison|Resistance To Acid|Resistance to Cold|Resistance to Fire|Tanar'ri ~ Summon Tanar'ri								BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance																		SOURCEPAGE:MM2
 Telepathy	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Tanar'ri can communicate telepathically with any creature within %1 feet that has a language.|TelepathyRange	KEY:Tanar'ri ~ Telepathy									BONUS:VAR|TelepathyRange|100									ABILITY:Special Ability|VIRTUAL|Telepathy									SOURCEPAGE:MM2
 Summon Tanar'ri	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All Tanar'ri can summon other tanar'ri much as though casting Summon Monster spell.	KEY:Tanar'ri ~ Summon Tanar'ri																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Desmodu Bat Traits|PRERACE:1,RACESUBTYPE=Desmodu Bat																															
+Desmodu Bat Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	BONUS:VAR|BlindsenseRange|120	ABILITY:Special Ability|AUTOMATIC|Immunity To Desmodu Screech																												SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Baatezu Traits|PRERACE:1,RACESUBTYPE=Baatezu
+Baatezu Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Baatezu ~ Telepathy|Baatezu ~ Summon Baatezu|Immunity To Fire|Immunity To Poison|Resistance To Acid|Resistance To Cold								BONUS:VAR|HasSeeInDarknessVision|1	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance																		SOURCEPAGE:MM2
+Telepathy	CATEGORY:Special Ability	TYPE:BaatezuSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Baatezu can communicate telepathically with any creature within %1 feet that has a language.|TelepathyRange	KEY:Baatezu ~ Telepathy									BONUS:VAR|TelepathyRange|100									ABILITY:Special Ability|VIRTUAL|Telepathy									SOURCEPAGE:MM2
+Summon Baatezu	CATEGORY:Special Ability	TYPE:BaatezuSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All Baatezu can summon other baatezu much as though casting Summon Monster spell.	KEY:Baatezu ~ Summon Baatezu																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Dinosaur Traits|PRERACE:1,RACESUBTYPE=Dinosaur
+Dinosaur Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Scent																												SOURCEPAGE:MM2

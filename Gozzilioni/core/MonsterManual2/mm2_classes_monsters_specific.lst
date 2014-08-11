@@ -26,7 +26,7 @@ CLASS:Naga (Bone)		PRERACE:1,Naga (Bone)	PRERACETYPE:Undead
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?									
 CLASS:Naga (Bone)	STARTSKILLPTS:4	MODTOSKILLS:NO	OUTPUTNAME:Undead
 1
-2	ADD:SPELLCASTER|1|Sorcerer 									
+2	ADD:SPELLCASTER|Sorcerer 
 3	BONUS:PCLEVEL|Sorcerer|1										
 4	BONUS:PCLEVEL|Sorcerer|1										
 5	BONUS:PCLEVEL|Sorcerer|1										

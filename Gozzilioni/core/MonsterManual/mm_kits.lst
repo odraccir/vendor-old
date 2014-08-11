@@ -103,4 +103,3 @@ STARTPACK:Yuan Ti (Abomination) Default	TYPE:DefaultMonster.Aberration	VISIBLE:Q
 RACE:Yuan Ti (Abomination)	!PRERACE:1,%
 NAME:Abomination Yuan Ti
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
-

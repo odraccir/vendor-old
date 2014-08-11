@@ -2,3 +2,4 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
 Hide.MOD		SITUATION:Smoky area
 Hide.MOD		SITUATION:Foggy area
+Spot.MOD		SITUATION:Daylight

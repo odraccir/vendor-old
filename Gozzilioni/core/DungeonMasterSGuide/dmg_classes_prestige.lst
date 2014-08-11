@@ -32,7 +32,7 @@ SUBCLASSLEVEL:2			ABILITY:Red Wizard Class Feature|AUTOMATIC|Spell Power ~ Necro
 SUBCLASS:Red Wizard ~ Transmuter	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Transmutation									
 SUBCLASSLEVEL:1			ABILITY:Red Wizard Class Feature|AUTOMATIC|Specialist Defense ~ Transmutation	
 SUBCLASSLEVEL:2			ABILITY:Red Wizard Class Feature|AUTOMATIC|Spell Power ~ Transmutation									
-1	ADD:SPELLCASTER|Arcane	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense|Red Wizard ~ Enhanced Specialization					BONUS:VAR|SpecialistDefenseBonus|1					
+1	ADD:SPELLCASTER|Arcane	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Enhanced Specialization|Red Wizard ~ Specialist Defense					BONUS:VAR|SpecialistDefenseBonus|1
 2	ADD:SPELLCASTER|Arcane	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power					BONUS:VAR|SpellPowerLVL|CL					
 3	ADD:SPELLCASTER|Arcane						BONUS:VAR|SpecialistDefenseBonus|1					
 4	ADD:SPELLCASTER|Arcane											

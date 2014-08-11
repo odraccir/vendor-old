@@ -213,3 +213,39 @@ STARTPACK:Desmodu Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	
 RACE:Desmodu	!PRERACE:1,%																																																															
 NAME:Desmodu																																																																
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11																																																																
+
+STARTPACK:Desmodu Hunting Bat Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (Hunting Bat)]																																																												
+RACE:Desmodu (Hunting Bat)	!PRERACE:1,%																																																															
+NAME:Hunting Bat																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
+
+STARTPACK:Desmodu Guard Bat Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (Guard Bat)]																																																												
+RACE:Desmodu (Guard Bat)	!PRERACE:1,%																																																															
+NAME:Guard Bat																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
+
+STARTPACK:Desmodu War Bat Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (War Bat)]																																																												
+RACE:Desmodu (War Bat)	!PRERACE:1,%																																																															
+NAME:War Bat																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
+
+STARTPACK:Devil (Advespa) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Advespa)]																																																												
+RACE:Devil (Advespa)	!PRERACE:1,%																																																															
+NAME:Advespa																																																																
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
+
+STARTPACK:Devil (Amnizu) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Amnizu)]																																																												
+RACE:Devil (Amnizu)	!PRERACE:1,%																																																															
+NAME:Amnizu																																																																
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
+
+STARTPACK:Devil (Malebranche) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Malebranche)]																																																												
+RACE:Devil (Malebranche)	!PRERACE:1,%																																																															
+NAME:Malebranche																																																																
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
+
+STARTPACK:Dragon (Amethyst) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Amethyst)]																																																												
+RACE:Dragon (Amethyst)	!PRERACE:1,%																																																															
+NAME:Amethyst Dragon																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+

@@ -1,11 +1,11 @@
-CAMPAIGN:Gozzilioni Campaing Full Set
+CAMPAIGN:Gozzilioni Campaing Test Ability Focus
 PRECAMPAIGN:1,BOOKTYPE=Core Rules,3.5 RSRD
 GAMEMODE:35e
 RANK:1
-TYPE:Gozzilioni.Complete
+TYPE:Gozzilioni.Test
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Campaing Full Set
+SOURCELONG:Gozzilioni Campaing Test Ability Focus
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2007-01
@@ -16,22 +16,9 @@ PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
 #PCC:@/35e/wizards_of_the_coast/srd35/rsrd.pcc
-PCC:&/Gozzilioni/srd35mod/_rsrdmod.pcc
-PCC:&/Gozzilioni/srd30/_srd30.pcc
-PCC:&/Gozzilioni/houserules/_houserules.pcc
-#Core
-PCC:&/Gozzilioni/core/DungeonMasterSGuide/_dungeonsmastersguide.pcc
-PCC:&/Gozzilioni/core/PlayerSHandbook/_playershandbook.pcc
-PCC:&/Gozzilioni/core/MonsterManual/_monstermanual.pcc
-PCC:&/Gozzilioni/core/MonsterManual2/_monstermanual2.pcc
-PCC:&/Gozzilioni/core/EpicLevelHandbook/_epiclevelhandbook.pcc
-#Accessory
-PCC:&/Gozzilioni/accessory/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
-#Third Party
-PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/_darknessdread.pcc
-#Web
-PCC:&/Gozzilioni/web/spelljammer/_spelljammer.pcc
-#
+ABILITYCATEGORY:&/Gozzilioni/srd35mod/basics/G_ability_categories.lst
+ABILITY:&/Gozzilioni/srd35mod/monsters/G_abilities.lst
+FEAT:&/Gozzilioni/srd35mod/monsters/G_feats.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst
