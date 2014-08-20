@@ -33,3 +33,5 @@ Outsider (Native)	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus	VISIBLE:DISPLA
 Plant	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus	VISIBLE:DISPLAY		KEY:Special Enemy Bonus ~ Plant	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy ~ Plant								BONUS:VAR|FavoredEnemyBonusPlant|3					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:MM2
 Undead	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus	VISIBLE:DISPLAY		KEY:Special Enemy Bonus ~ Undead	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy ~ Undead								BONUS:VAR|FavoredEnemyBonusUndead|3					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:MM2
 Vermin	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus	VISIBLE:DISPLAY		KEY:Special Enemy Bonus ~ Vermin	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy ~ Vermin								BONUS:VAR|FavoredEnemyBonusVermin|3					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:MM2
+#
+CATEGORY=Internal|Standard Selection ~ Familiar.MOD	COMPANIONLIST:Familiar|Companion ~ Fire Bat|FOLLOWERADJUSTMENT:-14|PRECLASS:1,SPELLCASTER.Arcane=15|PRERACE:1,RACESUBTYPE=Fire|PREFEAT:1,Improved Familiar

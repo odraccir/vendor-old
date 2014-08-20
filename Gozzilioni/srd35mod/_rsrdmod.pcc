@@ -17,6 +17,7 @@ SOURCEDATE:2003-07
 #Rsrd
 ABILITY:basics/G_abilities_class.lst
 ABILITYCATEGORY:basics/G_ability_categories.lst
+CLASS:basics/G_classes_monster.lst
 
 ABILITY:monsters/G_abilities.lst
 ABILITY:monsters/G_abilities_races.lst

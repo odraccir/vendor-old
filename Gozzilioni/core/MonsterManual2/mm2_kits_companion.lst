@@ -1,0 +1,14 @@
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																																																														
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+# Monster Abilities
+STARTPACK:Fire Bat Familiar	TYPE:Companion	VISIBLE:NO
+RACE:Companion ~ Fire Bat	!PRERACE:1,%
+ALIGN:NE
+SKILL:Hide	RANK:3
+SKILL:Listen	RANK:3
+SKILL:Spot	RANK:3
+FEAT:Dodge
+FEAT:Weapon Finesse
+FEAT:Flyby Attack
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11

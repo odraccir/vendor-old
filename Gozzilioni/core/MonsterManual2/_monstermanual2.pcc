@@ -18,13 +18,16 @@ ABILITYCATEGORY:mm2_abilitycategories.lst
 ABILITY:mm2_abilities.lst
 ABILITY:mm2_abilities_races.lst
 CLASS:mm2_classes_monsters_specific.lst
+COMPANIONMOD:mm2_companionmods.lst
 EQUIPMENT:mm2_equip.lst
 EQUIPMENT:mm2_equip_arms_and_armor.lst
 EQUIPMOD:mm2_equipmods_enhancing.lst
 FEAT:mm2_feats.lst
 KIT:mm2_kits.lst
+KIT:mm2_kits_companion.lst
 LANGUAGE:mm2_languages.lst
 RACE:mm2_races.lst
+RACE:mm2_races_companion.lst
 SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
 WEAPONPROF:mm2_profs_natural.lst

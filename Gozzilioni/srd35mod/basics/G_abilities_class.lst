@@ -2,8 +2,13 @@ SOURCELONG:Gozzilioni Rsrd Modifications	SOURCESHORT:G	SOURCEWEB:http://www.gozz
 #																																	
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
 CATEGORY=Special Ability|Dwarf ~ Stonecunning.MOD	BONUS:VAR|StonecunningLevel|1|TYPE=Stonecunning																															
+CATEGORY=Special Ability|Psionic.MOD	DESC:; Manifester Level %1|PsionML
 
 Base Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel.SkillLevelBase.SpecialQuality	VISIBLE:YES	DESC:Skill Level %1|SkillLVL	DESC:Apprentice|PREVARLTEQ:SkillLVL,4	DESC:Journeyman|PREMULT:2,[PREVARGTEQ:SkillLVL,5],[PREVARLTEQ:SkillLVL,11]	DESC:Master|PREMULT:2,[PREVARGTEQ:SkillLVL,12],[PREVARLTEQ:SkillLVL,15]	DESC:Grand Master|PREVARGTEQ:SkillLVL,16	DESC:Helpers %1|(SkillLVL-4)|PREVARGTEQ:SkillLVL,5	DEFINE:SkillLVL|0																						SOURCEPAGE:DD										
+
+Shield Prof ~ Light			CATEGORY:Internal		TYPE:ShieldProfTower.ShieldProf.ShieldProfLight	SERVESAS:FEAT|Shield Proficiency		AUTO:SHIELDPROF|SHIELDTYPE=Light
+Shield Prof ~ Buckler			CATEGORY:Internal		TYPE:ShieldProfTower.ShieldProf.ShieldProfLight.ShieldProfBuckler	SERVESAS:FEAT|Shield Proficiency		AUTO:SHIELDPROF|SHIELDTYPE=Buckler
+
 # CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																																
 # CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																																
 # CATEGORY=Special Ability|Turn Earth.MOD	TYPE:TurnElemental																																

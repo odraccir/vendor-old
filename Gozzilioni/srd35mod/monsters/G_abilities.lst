@@ -1,29 +1,31 @@
 SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																		
-
-###Block: Variables																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																												
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																															
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																															
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|10+(HD/2)+STR																															
-CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|STR*3/2																															
-CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0
-
-Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange
-See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange
-See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange
-#
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See In Darkness Vision|PREMULT:1,[PREVARGTEQ:SeeInDarknessRange,1],[PREVARGTEQ:HasSeeInDarknessVision,1]	DEFINE:HasSeeInDarknessVision|0
-#
-# CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Regeneration|PREMULT:1,[PREVARGTEQ:RegenerationRate,1],[PREVARGTEQ:HasRegeneration,1]	DEFINE:HasRegeneration|0
-
+																																				
+###Block: Variables																																				
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
+CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																															
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																																			
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																																			
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|10+(HD/2)+STR																																			
+CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|STR*3/2																																			
+CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																																			
+																																				
+Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange																											
+See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange																											
+See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange																											
+Breathsense Vision	KEY:Breathsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:BreathsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|BreathsenseRange	VISION:Breathsense (BreathsenseRange)			ASPECT:Vision|Breathsense %1'|BreathsenseRange																											
+#																																				
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0																																		
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0																																		
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See In Darkness Vision|PREMULT:1,[PREVARGTEQ:SeeInDarknessRange,1],[PREVARGTEQ:HasSeeInDarknessVision,1]	DEFINE:HasSeeInDarknessVision|0																																		
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breathsense Vision|PREMULT:1,[PREVARGTEQ:BreathsenseRange,1],[PREVARGTEQ:HasBreathsenseVision,1]	DEFINE:HasBreathsenseVision|0																																		
+#																																				
+# CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Regeneration|PREMULT:1,[PREVARGTEQ:RegenerationRate,1],[PREVARGTEQ:HasRegeneration,1]	DEFINE:HasRegeneration|0																																		
+																																				
 ###Block: Abilities																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
-CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy																															
-CATEGORY=Special Ability|Traits Output ~ Incorporeal.MOD	DEFINESTAT:NONSTAT|STR
-
+CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy																																			
+CATEGORY=Special Ability|Traits Output ~ Incorporeal.MOD	DEFINESTAT:NONSTAT|STR																																			
+																																				
 Resistance To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:PoisonResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Poison Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Poison,Vulnerability To Poison													SOURCEPAGE:MM				
 Resistance To Poison Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Poison	DESC:You get a +%1 bonus on Fort saving throws against poison.|PoisonResistanceBonus	ASPECT:Resistance|Poison	ASPECT:Ability Benefit|%1|PoisonResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Poison				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take poison damage				ASPECT:Immunity|Poison																									SOURCEPAGE:MM
@@ -34,22 +36,22 @@ Resistance To Rust Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordi
 Immunity To Rust				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Rust damage				ASPECT:Immunity|Rust																									SOURCEPAGE:MM
 Vulnerability To Rust	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Rust.																												SOURCEPAGE:MM				
 																																				
-Resistance To Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:RangedAttackResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Ranged Attack Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Ranged Attack,Vulnerability To Ranged Attack													SOURCEPAGE:MM2
-Resistance To Ranged Attack Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Ranged Attack	DESC:You get a +%1 bonus on Fort saving throws against Ranged Attack.|RangedAttackResistanceBonus	ASPECT:Resistance|Ranged Attack	ASPECT:Ability Benefit|%1|RangedAttackResistanceBonus																									SOURCEPAGE:MM2
+Resistance To Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:RangedAttackResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Ranged Attack Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Ranged Attack,Vulnerability To Ranged Attack													SOURCEPAGE:MM2				
+Resistance To Ranged Attack Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Ranged Attack	DESC:You get a +%1 bonus on Fort saving throws against Ranged Attack.|RangedAttackResistanceBonus	ASPECT:Resistance|Ranged Attack	ASPECT:Ability Benefit|%1|RangedAttackResistanceBonus																									SOURCEPAGE:MM2				
 Immunity To Ranged Attack				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Ranged Attack damage				ASPECT:Immunity|Ranged Attack																									SOURCEPAGE:MM2
 Vulnerability To Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Ranged Attack.																												SOURCEPAGE:MM				
-
+																																				
 Resistance To Desmodu Screech	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DesmoduScreechResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Desmodu Screech Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Desmodu Screech,Vulnerability To Desmodu Screech													SOURCEPAGE:MM				
 Resistance To Desmodu Screech Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Desmodu Screech	DESC:You get a +%1 bonus on Fort saving throws against Desmodu Screech.|DesmoduScreechResistanceBonus	ASPECT:Resistance|Desmodu Screech	ASPECT:Ability Benefit|%1|DesmoduScreechResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Desmodu Screech				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Desmodu's Screech damage				ASPECT:Immunity|DesmoduScreech																									SOURCEPAGE:MM
 Vulnerability To Desmodu Screech	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Desmodu Screech.																												SOURCEPAGE:MM				
-
-Resistance To Force	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:ForceResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Force Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Force,Vulnerability To Force													SOURCEPAGE:MM2
-Resistance To Force Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Force	DESC:You get a +%1 bonus on saving throws against Force-based effects.|ForceResistanceBonus	ASPECT:Resistance|Force	ASPECT:Ability Benefit|%1|ForceResistanceBonus																									SOURCEPAGE:MM2
+																																				
+Resistance To Force	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:ForceResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Force Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Force,Vulnerability To Force													SOURCEPAGE:MM2				
+Resistance To Force Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Force	DESC:You get a +%1 bonus on saving throws against Force-based effects.|ForceResistanceBonus	ASPECT:Resistance|Force	ASPECT:Ability Benefit|%1|ForceResistanceBonus																									SOURCEPAGE:MM2				
 Immunity To Force				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Force-based effects damage				ASPECT:Immunity|Force																									SOURCEPAGE:MM2
 Vulnerability To Force	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Force-based effects.																												SOURCEPAGE:MM				
-
-
+																																				
+																																				
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
@@ -91,18 +93,28 @@ Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																			
 Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 # MM2																																				
+Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Aura of Pain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Death Rift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Demonic Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Draining Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Drone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Disease	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Elemental Command	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Energy Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Feeblemind Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Kiss of Death	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Mind Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Negative Energy Burst	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Prismatic Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		

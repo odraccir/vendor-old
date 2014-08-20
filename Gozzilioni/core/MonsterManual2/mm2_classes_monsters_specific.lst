@@ -20,9 +20,9 @@ CLASS:Abeil Queen	STARTSKILLPTS:8	MODTOSKILLS:YES	OUTPUTNAME:Monstrous Humanoid
 13	BONUS:PCLEVEL|Druid|1
 14	BONUS:PCLEVEL|Druid|1	BONUS:PCLEVEL|Druid|1
 
-CLASS:Naga (Bone)	HD:12	TYPE:Monster	MAXLEVEL:15	SOURCEPAGE:MM2	BONUS:SAVE|BASE.Fortitude|CL/3	BONUS:SAVE|BASE.Reflex|CL/3	BONUS:SAVE|BASE.Will|CL/2+2	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE			
+CLASS:Naga (Bone)	HD:12	TYPE:Monster	MAXLEVEL:15	SOURCEPAGE:MM2	ABILITY:Special Ability|AUTOMATIC|Undead Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Required Race		Reg. Race Type								
-CLASS:Naga (Bone)		PRERACE:1,Naga (Bone)	PRERACETYPE:Undead								
+CLASS:Naga (Bone)	PRERACE:1,Naga (Bone)	PRERACETYPE:Undead								
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?									
 CLASS:Naga (Bone)	STARTSKILLPTS:4	MODTOSKILLS:NO	OUTPUTNAME:Undead
 1
@@ -41,3 +41,88 @@ CLASS:Naga (Bone)	STARTSKILLPTS:4	MODTOSKILLS:NO	OUTPUTNAME:Undead
 14	BONUS:PCLEVEL|Sorcerer|1										
 15	BONUS:PCLEVEL|Sorcerer|1										
 
+# Class Name			Output Name			Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus								Misc bonus					Bonus
+CLASS:Air Weird	HD:8	TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:15	SOURCEPAGE:MM2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name			Reg. Race Type
+CLASS:Air Weird	PRERACE:1,Elemental Weird (Air Weird)	PRERACETYPE:Elemental
+# Class Name			Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Air Weird	STARTSKILLPTS:2	MODTOSKILLS:YES	OUTPUTNAME:Elemental
+1	ADD:SPELLCASTER|Sorcerer/Domain	BONUS:VAR|AirDomainAllowed|1	BONUS:VAR|TravelDomainAllowed|1
+2	BONUS:PCLEVEL|Sorcerer/Domain|1										
+3	BONUS:PCLEVEL|Sorcerer/Domain|1										
+4	BONUS:PCLEVEL|Sorcerer/Domain|1										
+5	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+6	BONUS:PCLEVEL|Sorcerer/Domain|1										
+7	BONUS:PCLEVEL|Sorcerer/Domain|1										
+8	BONUS:PCLEVEL|Sorcerer/Domain|1										
+9	BONUS:PCLEVEL|Sorcerer/Domain|1										
+10	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+11	BONUS:PCLEVEL|Sorcerer/Domain|1										
+12	BONUS:PCLEVEL|Sorcerer/Domain|1										
+13	BONUS:PCLEVEL|Sorcerer/Domain|1										
+14	BONUS:PCLEVEL|Sorcerer/Domain|1										
+15	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+
+# Class Name			Output Name			Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus								Misc bonus					Bonus
+CLASS:Earth Weird	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name			Reg. Race Type
+CLASS:Earth Weird	PRERACE:1,Elemental Weird (Earth Weird)	PRERACETYPE:Elemental
+# Class Name			Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Earth Weird	STARTSKILLPTS:2	MODTOSKILLS:YES	OUTPUTNAME:Elemental
+1	ADD:SPELLCASTER|Sorcerer/Domain	BONUS:VAR|EarthDomainAllowed|1	BONUS:VAR|DestructionDomainAllowed|1
+2	BONUS:PCLEVEL|Sorcerer/Domain|1										
+3	BONUS:PCLEVEL|Sorcerer/Domain|1										
+4	BONUS:PCLEVEL|Sorcerer/Domain|1										
+5	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+6	BONUS:PCLEVEL|Sorcerer/Domain|1										
+7	BONUS:PCLEVEL|Sorcerer/Domain|1										
+8	BONUS:PCLEVEL|Sorcerer/Domain|1										
+9	BONUS:PCLEVEL|Sorcerer/Domain|1										
+10	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+11	BONUS:PCLEVEL|Sorcerer/Domain|1										
+12	BONUS:PCLEVEL|Sorcerer/Domain|1										
+13	BONUS:PCLEVEL|Sorcerer/Domain|1										
+14	BONUS:PCLEVEL|Sorcerer/Domain|1										
+15	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+
+CLASS:Fire Weird	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name			Reg. Race Type
+CLASS:Fire Weird	PRERACE:1,Elemental Weird (Fire Weird)	PRERACETYPE:Elemental
+# Class Name			Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Fire Weird	STARTSKILLPTS:2	MODTOSKILLS:YES	OUTPUTNAME:Elemental
+1	ADD:SPELLCASTER|Sorcerer/Domain	BONUS:VAR|FireDomainAllowed|1	BONUS:VAR|SunDomainAllowed|1
+2	BONUS:PCLEVEL|Sorcerer/Domain|1										
+3	BONUS:PCLEVEL|Sorcerer/Domain|1										
+4	BONUS:PCLEVEL|Sorcerer/Domain|1										
+5	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+6	BONUS:PCLEVEL|Sorcerer/Domain|1										
+7	BONUS:PCLEVEL|Sorcerer/Domain|1										
+8	BONUS:PCLEVEL|Sorcerer/Domain|1										
+9	BONUS:PCLEVEL|Sorcerer/Domain|1										
+10	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+11	BONUS:PCLEVEL|Sorcerer/Domain|1										
+12	BONUS:PCLEVEL|Sorcerer/Domain|1										
+13	BONUS:PCLEVEL|Sorcerer/Domain|1										
+14	BONUS:PCLEVEL|Sorcerer/Domain|1										
+15	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+
+CLASS:Water Weird	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:Improving_Monsters.rtf	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name			Reg. Race Type
+CLASS:Water Weird	PRERACE:1,Elemental Weird (Water Weird)	PRERACETYPE:Elemental
+# Class Name			Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Water Weird	STARTSKILLPTS:2	MODTOSKILLS:YES	OUTPUTNAME:Elemental
+1	ADD:SPELLCASTER|Sorcerer/Domain	BONUS:VAR|WaterDomainAllowed|1	BONUS:VAR|HealingDomainAllowed|1
+2	BONUS:PCLEVEL|Sorcerer/Domain|1										
+3	BONUS:PCLEVEL|Sorcerer/Domain|1										
+4	BONUS:PCLEVEL|Sorcerer/Domain|1										
+5	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+6	BONUS:PCLEVEL|Sorcerer/Domain|1										
+7	BONUS:PCLEVEL|Sorcerer/Domain|1										
+8	BONUS:PCLEVEL|Sorcerer/Domain|1										
+9	BONUS:PCLEVEL|Sorcerer/Domain|1										
+10	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									
+11	BONUS:PCLEVEL|Sorcerer/Domain|1										
+12	BONUS:PCLEVEL|Sorcerer/Domain|1										
+13	BONUS:PCLEVEL|Sorcerer/Domain|1										
+14	BONUS:PCLEVEL|Sorcerer/Domain|1										
+15	BONUS:PCLEVEL|Sorcerer/Domain|1	BONUS:PCLEVEL|Sorcerer/Domain|1									

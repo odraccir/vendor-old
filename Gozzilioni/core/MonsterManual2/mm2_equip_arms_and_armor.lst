@@ -5,16 +5,43 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 # Natural																												
 Death Ray	KEY:Catoblepas ~ Death Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Finesseable.Ray	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM2	RANGE:160								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Catoblepas ~ Death Ray
 Pressure Dart	KEY:Clockwork Horror ~ Pressure Dart	PROFICIENCY:WEAPON|Pressure Dart	TYPE:Weapon.Natural.Ranged.Finesseable.Thrown.Dart	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM2	RANGE:20								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Electrum Clockwork Horror ~ Pressure Dart
-																												
+Spit	KEY:Spitting Felldrake ~ Spit	PROFICIENCY:WEAPON|Spit	TYPE:Weapon.Natural.Ranged.Finesseable.Touch.Acid	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM2	RANGE:30			SPROP:Acid 2d4					MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Spitting Felldrake ~ Spit
+
 # Melee 																												
 Notbora		PROFICIENCY:WEAPON|Notbora	TYPE:Weapon.Exotic.Melee.Standard.Slashing.TwoHanded.Double.Quarterstaff	COST:20	WT:2	WIELD:TwoHanded	SLOTS:2	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	ALTTYPE:Melee.Exotic.Slashing.Quarterstaff	ALTDAMAGE:2d6	ALTCRITRANGE:2	ALTCRITMULT:x2	ALTEQMOD:STEEL	SOURCEPAGE:MM2										
 																												
+# Ranged																												
+																												
+# Armor 
+
+# Shield
+
+###Block:Weapons																												
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus		
 # Melee Specific Weapons																												
+Flail	KEY:Deathbringer ~ Flail	PROFICIENCY:WEAPON|Flail	TYPE:Weapon.Melee.Martial.Specific.Bludgeoning.Flail	COST:8	WT:5	WIELD:OneHanded		SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:MM2
+Flail (Heavy)	KEY:Fomorian ~ Flail	PROFICIENCY:WEAPON|Flail (Heavy)	TYPE:Weapon.Melee.Martial.Specific.Bludgeoning.Flail	COST:15	WT:10	WIELD:TwoHanded		SIZE:H	DAMAGE:2d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:MM2
+Greatclub	KEY:Braxat ~ Greatclub	PROFICIENCY:WEAPON|Greatclub	TYPE:Weapon.Melee.Martial.Specific.Bludgeoning.Club	COST:5	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:MM2
+Greatsword	KEY:Firbolg ~ Greatsword	PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Standard.Slashing.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:L	DAMAGE:2d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW						SOURCEPAGE:MM2
+Notbora	KEY:Desmodu ~ Notbora	PROFICIENCY:WEAPON|Notbora	TYPE:Weapon.Exotic.Melee.Specific.Slashing.TwoHanded.Double.Quarterstaff	COST:20	WT:2	WIELD:TwoHanded	SLOTS:2	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW	ALTTYPE:Melee.Exotic.Slashing.Quarterstaff	ALTDAMAGE:2d6	ALTCRITRANGE:2	ALTCRITMULT:x2	ALTEQMOD:STEEL.MWORKW	SOURCEPAGE:MM2
+Lance	KEY:Desmodu ~ Lance	PROFICIENCY:WEAPON|Lance	TYPE:Weapon.Melee.Martial.Reach.Specific.Piercing.Lance	COST:10	WT:10	WIELD:OneHanded	REACHMULT:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:MM2	SPROP:One Handed when mounted, Two Handed otherwise.
+Ranseur	KEY:Abeil Soldier ~ Ranseur	PROFICIENCY:WEAPON|Ranseur	TYPE:Weapon.Melee.Martial.Reach.Specific.Piercing.Polearm	COST:10	WT:12	WIELD:TwoHanded	REACHMULT:2	SIZE:H	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL						SOURCEPAGE:MM2									MODS:NO
 Scimitar	KEY:Kelvezu ~ Scimitar	PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:15	WT:1	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.WOUND_GRT						SOURCEPAGE:MM2									MODS:NO	
 Dagger	KEY:Kelvezu ~ Dagger	PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Finesseable.Ranged.Thrown.Simple.Specific.Piercing.Slashing.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.WOUND						SOURCEPAGE:MM2	RANGE:10								MODS:NO	
 Trident	KEY:Malebranche ~ Trident	PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Martial.Ranged.Thrown.Specific.Piercing.Trident	COST:15	WT:4	WIELD:OneHanded		SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW						SOURCEPAGE:MM2	RANGE:10								MODS:NO	
-																												
-# Ranged																												
-																												
-																												
+
 # Ranged Specific Weapons																												
+Longbow (Composite)	KEY:Abeil Soldier ~ Composite Longbow	OUTPUTNAME:[NAME] Longbow STR	PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3		SLOTS:2	SIZE:H	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.BOWSTR|6						SOURCEPAGE:MM2	RANGE:110								MODS:NO	BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow
+Longbow (Composite)	KEY:Abeil Queen ~ Composite Longbow	OUTPUTNAME:[NAME] Longbow STR	PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3		SLOTS:2	SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.BOWSTR|4						SOURCEPAGE:MM2	RANGE:110								MODS:NO	BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow
+Longbow (Composite)	KEY:Desmodu ~ Composite Longbow	OUTPUTNAME:[NAME] Longbow STR	PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3		SLOTS:2	SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.BOWSTR|4						SOURCEPAGE:MM2	RANGE:110								MODS:NO	BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow
+
+# Monster Specific Armors&Shields
+Hide	KEY:Fomorian ~ Hide	PROFICIENCY:ARMOR|Hide	TYPE:Armor.Medium.Suit.Specific.Nonmetal	COST:15	WT:25	ACCHECK:-3	MAXDEX:4	SOURCEPAGE:MM2	SPELLFAILURE:20	BONUS:COMBAT|AC|3|TYPE=Armor	SIZE:H
+Studded Leather	KEY:Desmodu ~ Studded Leather	PROFICIENCY:ARMOR|Studded Leather	TYPE:Armor.Light.Suit.Specific	COST:25	WT:20	ACCHECK:-1	EQMOD:STEEL.MWORKA	MAXDEX:5	SOURCEPAGE:MM2	SPELLFAILURE:15	BONUS:COMBAT|AC|3|TYPE=Armor	SIZE:L
+Studded Leather	KEY:Firbolg ~ Studded Leather	PROFICIENCY:ARMOR|Studded Leather	TYPE:Armor.Light.Suit.Specific	COST:25	WT:20	ACCHECK:-1	EQMOD:STEEL.MWORKA	MAXDEX:5	SOURCEPAGE:MM2	SPELLFAILURE:15	BONUS:COMBAT|AC|3|TYPE=Armor	SIZE:L
+
+# Armor Specific
+Banded Mail	KEY:Dread Guard ~ Banded Mail	PROFICIENCY:ARMOR|Banded Mail	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:250	WT:35	ACCHECK:-6	EQMOD:STEEL.MWORKA	MAXDEX:1	SOURCEPAGE:MM2	SPELLFAILURE:35	BONUS:COMBAT|AC|6|TYPE=Armor
+
+# Shield Specific
+Shield, Light Metal	KEY:Dread Guard ~ Shield	PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Shield.Light.Specific.Metal	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA	SOURCEPAGE:MM2	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield	SIZE:M							CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	WIELD:Light
