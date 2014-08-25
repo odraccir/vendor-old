@@ -13,11 +13,13 @@ Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:Specia
 See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange																											
 See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange																											
 Breathsense Vision	KEY:Breathsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:BreathsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|BreathsenseRange	VISION:Breathsense (BreathsenseRange)			ASPECT:Vision|Breathsense %1'|BreathsenseRange																											
+Woodsense Vision	KEY:Woodsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:WoodsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|WoodsenseRange	VISION:Woodsense (WoodsenseRange)			ASPECT:Vision|Woodsense %1'|WoodsenseRange																											
 #																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See In Darkness Vision|PREMULT:1,[PREVARGTEQ:SeeInDarknessRange,1],[PREVARGTEQ:HasSeeInDarknessVision,1]	DEFINE:HasSeeInDarknessVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breathsense Vision|PREMULT:1,[PREVARGTEQ:BreathsenseRange,1],[PREVARGTEQ:HasBreathsenseVision,1]	DEFINE:HasBreathsenseVision|0																																		
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Woodsense Vision|PREMULT:1,[PREVARGTEQ:WoodsenseRange,1],[PREVARGTEQ:HasWoodsenseVision,1]	DEFINE:HasWoodsenseVision|0																																		
 #																																				
 # CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Regeneration|PREMULT:1,[PREVARGTEQ:RegenerationRate,1],[PREVARGTEQ:HasRegeneration,1]	DEFINE:HasRegeneration|0																																		
 																																				
@@ -56,75 +58,75 @@ Vulnerability To Force	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinar
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
 # Basic																																				
+# Improved Grab	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Aura of Pain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Breath Weapon	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Calcifying Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charming Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Confusing Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Constrict	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Constitution Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Corrupting Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Corrupting Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Crush	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Death Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Draining Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Fists	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Frightful Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-# Improved Grab	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Keening	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Malevolence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Paralysis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Paralyzing Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Poison	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Pounce	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Rake	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Roar	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Seduction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Soul Portal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Sound Imitation	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Stench	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Swallow Whole	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Tail Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Telekinesis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Trample	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-# MM																																				
-Confusing Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-# MM2																																				
-Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Aura of Pain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Death Rift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Demonic Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Draining Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Drone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Disease	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Draining Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Draining Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Drone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Elemental Command	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Empathy	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Energy Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Feeblemind Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Fists	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Frightful Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Keening	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Kiss of Death	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Malevolence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Mind Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Negative Energy Burst	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Paralysis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Paralyzing Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Poison	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Pounce	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Prismatic Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Rake	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Razor Storm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Roar	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Seduction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Sonic Abilities	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Soul Portal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Sound Imitation	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Steal Breath	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Stench	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Stomp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
-Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Swallow Whole	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Tail Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Telekinesis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Trample	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Wounding	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		

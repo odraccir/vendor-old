@@ -2,9 +2,12 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 
 # Construct
 Bogun		TYPE:Construct.Container	COST:2000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 4th; Prerequisite: Craft Construct or Craft Wondrous Item, Control Plants, Wood Shape and Beget Bogun; Market Price: 2000 gp (never sold); Cost to create: 1050 gp + 78 xp.
-Bronze Serpent		TYPE:Construct.Container	COST:200000	WT:1000	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Whish, Polymorph Any Object and Shocking Grasp; Market Price: 90000 gp; Cost to create: 46500 gp + 3540 xp.
+Bronze Serpent		TYPE:Construct.Container	COST:90000	WT:1000	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Whish, Polymorph Any Object and Shocking Grasp; Market Price: 90000 gp; Cost to create: 46500 gp + 3540 xp.
+Golem (Brass)		TYPE:Construct.Container	COST:90000	WT:1000	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Whish, Maze, Mordenkainen's Sword and Polymorph Any Object; Market Price: 90000 gp; Cost to create: 33820 gp (includes +3 wounding greataxe) + 2247 xp.
 Golem (Chain)		TYPE:Construct.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Kytons are the only beings known to be capable of creating chain golems, and they go to treat lengths to keep the method od construction a secret from all other creatures, including other devils.
-Dread Guard		TYPE:Construct.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 5th; Prerequisite: Craft Construct, Fabricate, Geas/Quest and Polymorph Any Object; Market Price: 5000 gp; Cost to create: 3059 gp (includes masterwork banded mail and masterwork light steel shield) + 178 xp.
+Golem (Dragonflesh)		TYPE:Construct.Container	COST:175000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Whish, Polymorph Any Object; Market Price: 175000 gp; Cost to create: 92500 gp + 6800 xp.
+Golem (Stained Glass)		TYPE:Construct.Container	COST:28000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Whish, Polymorph Any Object; Market Price: 28000 gp; Cost to create: 15000 gp + 1080 xp.
+Dread Guard		TYPE:Construct.Container	COST:5000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 5th; Prerequisite: Craft Construct, Fabricate, Geas/Quest and Polymorph Any Object; Market Price: 5000 gp; Cost to create: 3059 gp (includes masterwork banded mail and masterwork light steel shield) + 178 xp.
 
 ## Demons
 Abyssal Maw		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any

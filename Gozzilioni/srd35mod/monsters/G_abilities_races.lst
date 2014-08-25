@@ -65,3 +65,11 @@ Felldrake Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Draconi
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Fihyr Traits|PRERACE:1,RACESUBTYPE=Fihyr
 Fihyr Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Fihyr ~ Frightful Presence|Fihyr ~ Vulnerable to Sunlight																													SOURCEPAGE:MM2
 Frightful Presence	CATEGORY:Special Ability	TYPE:FihyrSubRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Any creature that witnesses a Fihyr attacking must make a Will save (DC %1) or become panicked.|FrightfulPresenceDC	KEY:Fihyr ~ Frightful Presence				DEFINE:FrightfulPresenceRange|0	DEFINE:FrightfulPresenceDC|0				BONUS:VAR|FrightfulPresenceDC|DefaultDCCha	BONUS:VAR|FrightfulPresenceDC|2|PREFEAT:1,Ability Focus(Frightful Presence)								ABILITY:Ability Focus|AUTOMATIC|Frightful Presence									SOURCEPAGE:MM2
+
+#CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACETYPE=Giant
+#Giant Traits	CATEGORY:Special Ability	TYPE:TraitAbility	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing							BONUS:VAR|HasLowLightVision|1																						SOURCEPAGE:MM2
+CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Golem Traits|PRERACE:1,RACESUBTYPE=Golem
+Golem Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Golem Shared ~ Immunity To Magic																													SOURCEPAGE:MM
+# CATEGORY=Special Ability|Construct Traits.MOD	ABILITY:Special Ability|
