@@ -68,7 +68,7 @@ Frightful Presence	CATEGORY:Special Ability	TYPE:FihyrSubRaceTrait.SpecialAttack
 
 #CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACETYPE=Giant
 #Giant Traits	CATEGORY:Special Ability	TYPE:TraitAbility	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing							BONUS:VAR|HasLowLightVision|1																						SOURCEPAGE:MM2
-CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10
+CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10
 
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Golem Traits|PRERACE:1,RACESUBTYPE=Golem
 Golem Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Golem Shared ~ Immunity To Magic																													SOURCEPAGE:MM

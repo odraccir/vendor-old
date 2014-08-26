@@ -19,6 +19,8 @@ Zovvut		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Jarilith		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Kelvezu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 
+Ice Rune		TYPE:IceRune	COST:0	WT:0	SOURCEPAGE:MM2	MODS:REQUIRED
+
 ###Block:Alchemical Stuff and Liquids							
 Air Supply		TYPE:Goods.Alchemical.Liquid.Airsupply	COST:950	WT:1.00		SOURCEPAGE:MM2	
 Frostfire		TYPE:Goods.Alchemical.Liquid	COST:39.97	WT:1.00		SOURCEPAGE:MM2	

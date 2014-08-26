@@ -17,6 +17,7 @@ SOURCEDATE:2003-07
 #Rsrd
 ABILITYCATEGORY:h_abilitycategories.lst
 ABILITY:h_abilities_dragons.lst
+ABILITY:h_abilities_races.lst
 CLASS:h_classes_monster.lst
 KIT:h_kits.lst
 RACE:h_races.lst

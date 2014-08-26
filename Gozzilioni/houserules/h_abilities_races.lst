@@ -1,0 +1,22 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PRERACE:1,RACESUBTYPE=Mount
+Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Training Level|AUTOMATIC|Wild	ABILITY:Special Ability|AUTOMATIC|Mount ~ Wild|PREABILITY:1,CATEGORY=Training Level,Wild	ABILITY:Special Ability|AUTOMATIC|Mount ~ Rideable|PREABILITY:1,CATEGORY=Training Level,Rideable	ABILITY:Special Ability|AUTOMATIC|Mount ~ Basic Training|PREABILITY:1,CATEGORY=Training Level,Basic Training																											SOURCEPAGE:MM
+Wild	CATEGORY:Special Ability	TYPE:MountSubRaceTrait.SpecialQuality	DESC:Wild creature commonly found around the world.	KEY:Mount ~ Wild																												SOURCEPAGE:MM
+Rideable	CATEGORY:Special Ability	TYPE:MountSubRaceTrait.SpecialQuality	DESC:The creature can sustain the presence of a rider, but it's cannot be reliable during a combat.	KEY:Mount ~ Rideable																												SOURCEPAGE:MM
+Basic Training	CATEGORY:Special Ability	TYPE:MountSubRaceTrait.SpecialQuality	DESC:The mount is trained to perform some simple tricks.	KEY:Mount ~ Basic Training																												SOURCEPAGE:MM
+
+CATEGORY=Special Ability|Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+CATEGORY=Special Ability|Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+CATEGORY=Special Ability|Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+
+#Mount
+Wild	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:Wild creature.							BONUS:ABILITYPOOL|Training Level|1	BONUS:ABILITYPOOL|Animal Trick|-3|PRERACE:1,RACETYPE=Animal|!PREABILITY:1,CATEGORY=Special Ability,Animal Tricks and Training	BONUS:ABILITYPOOL|Animal Trick|-3|PRERACE:1,RACETYPE=Animal|PRESTAT:1,INT=2|!PREABILITY:1,CATEGORY=Special Ability,Animal Tricks and Training																			SOURCEPAGE:G			
+Rideable	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:Rideable creature			PREABILITY:1,CATEGORY=Special Ability,Wild				BONUS:ABILITYPOOL|Training Level|1																					SOURCEPAGE:G
+Basic Training	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:%1 tricks|BasicTrainingNumber			PREABILITY:1,CATEGORY=Special Ability,Rideable	DEFINE:BasicTrainingNumber|0			BONUS:ABILITYPOOL|Animal Trick|BasicTrainingNumber	BONUS:ABILITYPOOL|Training Level|1	BONUS:WEAPONPROF=Hoof|TOHIT|5|PRETEMPLATE:1,Horse Untrained 						TEMPLATE:Trained													SOURCEPAGE:PHB	
+
+#Breed Class
+Typical	CATEGORY:Special Ability	TYPE:BreedClass	VISIBLE:YES	DESC:Typical breed.				!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedClass																								SOURCEPAGE:MM	SORTKEY:Breed Class 1
+
+#Breed Quality
+Average	CATEGORY:Special Ability	TYPE:BreedQuality	VISIBLE:YES	DESC:Average.				!PREABILITY:1,CATEGORY=Special Ability,TYPE.BreedQuality																								SOURCEPAGE:MM	SORTKEY:Breed Quality 000

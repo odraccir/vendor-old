@@ -9,6 +9,20 @@ Base Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel.SkillLevelBase.Special
 Shield Prof ~ Light			CATEGORY:Internal		TYPE:ShieldProfTower.ShieldProf.ShieldProfLight	SERVESAS:FEAT|Shield Proficiency		AUTO:SHIELDPROF|SHIELDTYPE=Light
 Shield Prof ~ Buckler			CATEGORY:Internal		TYPE:ShieldProfTower.ShieldProf.ShieldProfLight.ShieldProfBuckler	SERVESAS:FEAT|Shield Proficiency		AUTO:SHIELDPROF|SHIELDTYPE=Buckler
 
+CATEGORY=Special Ability|Animal Trick ~ Attack.MOD	DESC:Attack ~ DC 20 ~ The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals.																																	
+CATEGORY=Special Ability|Animal Trick ~ Attack II.MOD	DESC:Attack ~ DC 20 ~ The animal attacks apparent enemies. You may point to a particular creature (including such unnatural creatures as undead and aberrations) that you wish the animal to attack, and it will comply if able.																																	
+CATEGORY=Special Ability|Animal Trick ~ Come.MOD	DESC:Come  ~ DC 15 ~ The animal comes to you, even if it normally would not do so.																																	
+CATEGORY=Special Ability|Animal Trick ~ Defend.MOD	DESC:Defend ~ DC 20 ~ The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend a specific other character.																																	
+CATEGORY=Special Ability|Animal Trick ~ Down.MOD	DESC:Down ~ DC 20 ~ The animal breaks off from combat or otherwise backs down.																																	
+CATEGORY=Special Ability|Animal Trick ~ Fetch.MOD	DESC:Fetch ~ DC 15 ~ The animal goes and gets something. If you do not point out a specific item, the animal fetches some random object.																																	
+CATEGORY=Special Ability|Animal Trick ~ Guard.MOD	DESC:Guard ~ DC 20 ~ The animal stays in place and prevents others from approaching.																																	
+CATEGORY=Special Ability|Animal Trick ~ Heel.MOD	DESC:Heel ~ DC 15 ~ The animal follows you closely, even to places where it normally would not go.																																	
+CATEGORY=Special Ability|Animal Trick ~ Perform.MOD	DESC:Perform ~ DC 15 ~ The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.																																	
+CATEGORY=Special Ability|Animal Trick ~ Seek.MOD	DESC:Seek ~ DC 15 ~ The animal moves into an area and looks around for anything that is obviously alive or animate.																																	
+CATEGORY=Special Ability|Animal Trick ~ Stay.MOD	DESC:Stay ~ DC 20 ~ The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.																																	
+CATEGORY=Special Ability|Animal Trick ~ Track.MOD	DESC:Track ~ DC 20 ~ The animal tracks the scent presented to it.	PREABILITY:1,CATEGORY=Special Ability,Scent																																
+CATEGORY=Special Ability|Animal Trick ~ Work.MOD	DESC:Work ~ DC 15 ~ The animal pulls or pushes a medium or heavy load.																																	
+
 # CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																																
 # CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																																
 # CATEGORY=Special Ability|Turn Earth.MOD	TYPE:TurnElemental																																

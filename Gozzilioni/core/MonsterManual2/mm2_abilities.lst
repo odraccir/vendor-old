@@ -35,3 +35,5 @@ Undead	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus	VISIBLE:DISPLAY		KEY:Spec
 Vermin	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus	VISIBLE:DISPLAY		KEY:Special Enemy Bonus ~ Vermin	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy ~ Vermin								BONUS:VAR|FavoredEnemyBonusVermin|3					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:MM2
 #
 CATEGORY=Internal|Standard Selection ~ Familiar.MOD	COMPANIONLIST:Familiar|Companion ~ Fire Bat|FOLLOWERADJUSTMENT:-14|PRECLASS:1,SPELLCASTER.Arcane=15|PRERACE:1,RACESUBTYPE=Fire|PREFEAT:1,Improved Familiar
+#
+Mimic Phrases	CATEGORY:Special Ability	TYPE:AnimalTrick.AnimalTrickMimicPhrases		DESC:Mimics Phrase ~ DC 23 ~ A corollax can be trained to repeat a particular phrases. Up to 9 phrases can be memorized each one with a different Handle Animal check.	KEY:Animal Trick ~ Mimic Phrases	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Animal Trick ~ Mimic Phrases],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AnimalTrickMimicPhrases]	PRERACE:1,Corollax																									SOURCEPAGE:MM2

@@ -1,35 +1,6 @@
 SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#dragons support template copied from BD/pcgen what is missing from pcgen rsrd.
 # Template Name		Visible	Define				Modify VAR
-
-###Block: Size Mods for Automatic Changes
-# Template Name		Size		Face/Space	Reach		Visible	Level Adjustment
-REACH_0							REACH:0	VISIBLE:NO
-REACH_5							REACH:5	VISIBLE:NO
-REACH_10							REACH:10	VISIBLE:NO
-REACH_15							REACH:15	VISIBLE:NO
-REACH_20							REACH:20	VISIBLE:NO
-REACH_30							REACH:30	VISIBLE:NO
-#
-FACE_0					FACE:0			VISIBLE:NO
-FACE_1					FACE:1			VISIBLE:NO
-FACE_2					FACE:2.5			VISIBLE:NO
-FACE_5					FACE:5			VISIBLE:NO
-FACE_10					FACE:10			VISIBLE:NO
-FACE_15					FACE:15			VISIBLE:NO
-FACE_20					FACE:20			VISIBLE:NO
-FACE_30					FACE:30			VISIBLE:NO
-#
-SIZE_F			SIZE:F					VISIBLE:NO
-SIZE_D			SIZE:D					VISIBLE:NO
-SIZE_T			SIZE:T					VISIBLE:NO
-SIZE_S			SIZE:S					VISIBLE:NO
-SIZE_M			SIZE:M					VISIBLE:NO
-SIZE_L			SIZE:L					VISIBLE:NO
-SIZE_H			SIZE:H					VISIBLE:NO
-SIZE_G			SIZE:G					VISIBLE:NO
-SIZE_C			SIZE:C					VISIBLE:NO
-SIZE_C+			SIZE:C+					VISIBLE:NO
-#
 LEVEL_ADJUSTMENT_1							VISIBLE:NO	LEVELADJUSTMENT:1
 LEVEL_ADJUSTMENT_2							VISIBLE:NO	LEVELADJUSTMENT:2
 LEVEL_ADJUSTMENT_3							VISIBLE:NO	LEVELADJUSTMENT:3
@@ -40,8 +11,7 @@ LEVEL_ADJUSTMENT_7							VISIBLE:NO	LEVELADJUSTMENT:7
 LEVEL_ADJUSTMENT_8							VISIBLE:NO	LEVELADJUSTMENT:8
 LEVEL_ADJUSTMENT_9							VISIBLE:NO	LEVELADJUSTMENT:9
 
-###TODO: these aren not used...
-#
+###TODO: these are not used...
 Base Dragon HD (3)			TEMPLATE:Dragon Size HD (3)								HD:3-4:TEMPLATE:Wyrmling	HD:5-6:TEMPLATE:Very Young	HD:7-8:TEMPLATE:Young	HD:9-10:TEMPLATE:Juvenile	HD:11-12:TEMPLATE:Young Adult	HD:13-14:TEMPLATE:Adult	HD:15-16:TEMPLATE:Mature Adult	HD:17-18:TEMPLATE:Old	HD:19-20:TEMPLATE:Very Old	HD:21-22:TEMPLATE:Ancient	HD:23-24:TEMPLATE:Wyrm	HD:25+:TEMPLATE:Great Wyrm
 Base Dragon HD (4)			TEMPLATE:Dragon Size HD (4)								HD:4-5:TEMPLATE:Wyrmling	HD:6-7:TEMPLATE:Very Young	HD:8-9:TEMPLATE:Young	HD:10-11:TEMPLATE:Juvenile	HD:12-13:TEMPLATE:Young Adult	HD:14-15:TEMPLATE:Adult	HD:16-17:TEMPLATE:Mature Adult	HD:18-19:TEMPLATE:Old	HD:20-21:TEMPLATE:Very Old	HD:22-23:TEMPLATE:Ancient	HD:24-25:TEMPLATE:Wyrm	HD:26+:TEMPLATE:Great Wyrm
 Base Dragon HD (5)			TEMPLATE:Dragon Size HD (5)								HD:5-6:TEMPLATE:Wyrmling	HD:7-8:TEMPLATE:Very Young	HD:9-10:TEMPLATE:Young	HD:11-12:TEMPLATE:Juvenile	HD:13-14:TEMPLATE:Young Adult	HD:15-16:TEMPLATE:Adult	HD:17-18:TEMPLATE:Mature Adult	HD:19-20:TEMPLATE:Old	HD:21-22:TEMPLATE:Very Old	HD:23-24:TEMPLATE:Ancient	HD:25-26:TEMPLATE:Wyrm	HD:27+:TEMPLATE:Great Wyrm
@@ -95,3 +65,18 @@ Dragon Attacks (Large)						VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Weapon
 Dragon Attacks (Huge)						VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d8	NATURALATTACKS:Claws,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Piercing.Slashing,*2,2d6|Wings,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning,*2,1d8|Tail Slap,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning,*1,2d6
 Dragon Attacks (Gargantuan)					VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6	NATURALATTACKS:Claws,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Piercing.Slashing,*2,2d8|Wings,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning,*2,2d6|Tail Slap,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning,*1,2d8
 Dragon Attacks (Colossal)					VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d8	NATURALATTACKS:Claws,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Piercing.Slashing,*2,4d6|Wings,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning,*2,2d8|Tail Slap,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Bludgeoning,*1,4d6
+####
+
+#
+Assign Subtype ~ Mount							RACESUBTYPE:Mount
+
+# Horse Untrained	VISIBLE:NO
+
+Trained	VISIBLE:NO				TEMPLATE:CHOOSE:Trained Animal|Trained Magical Beast|Trained Vermin|Trained Animal (Will)																																																																																																																																																																																																						
+#Trained Animal	VISIBLE:NO	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+# il numero di "trick" è assegnato fisso 
+Trained Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+Trained Magical Beast	VISIBLE:NO	PRERACE:1,RACETYPE=Magical Beast	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+Trained Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin			BONUS:VAR|BasicTrainingNumber|2	
+Trained Animal (Will)	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal (Will)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+Trained Animal (Dire)	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal (Dire)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
