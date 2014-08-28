@@ -1,7 +1,0 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																																																														
-																																																																
-# Kits granted to Familiar
-FOLLOWER:FamiliarLVL=1	TYPE:Familiar	PRERACE:1,Companion ~ Fire Bat	KIT:1|Fire Bat Familiar
-
-# abilities that Familiars grant to master
-# MASTERBONUSRACE:Companion ~ Fire Bat	TYPE:Familiar

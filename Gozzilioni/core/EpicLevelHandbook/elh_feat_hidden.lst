@@ -1,4 +1,0 @@
-SOURCELONG:Epic Level Handbook	SOURCESHORT:ELH	SOURCEWEB:http://www.wizards.com																															
-																																	
-# Feat Name	Type	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook	Required Stat	Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
-Familiar Spell ~ Epic	TYPE:Epic								PRELEVEL:MIN=21			PRESTAT:1,INT=25,CHA=25				DESC:Your familiar can cast an epic spell once per day as a spell-like ability	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Arcane[KNOWN=YES;LEVELMAX=10]														SOURCEPAGE:ELH

@@ -1,4 +1,0 @@
-SOURCELONG:Monster Manual	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
-
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-Pincerstaff		PROFICIENCY:WEAPON|Pincerstaff	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Quarterstaff.Polearm	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:MM								

@@ -1,8 +1,0 @@
-SOURCELONG:Spelljammer	SOURCESHORT:SPJ	SOURCEWEB:http://www.gozzilioni.net																														
-																																
-###Block: Proficiencies																																
-# Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Race Traits ~ Copper Clockwork Horror	CATEGORY:Internal	TYPE:Special																														
-																																
-Race Traits ~ Silver Clockwork Horror	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|Silver Clockwork Horror ~ Pressure Dart																													
-Pressure Dart	CATEGORY:Special Ability	TYPE:SilverClockworkHorrorRaceTrait.SpecialAttack	VISIBLE:YES		KEY:Silver Clockwork Horror ~ Pressure Dart																		AUTO:WEAPONPROF|Pressure Dart	AUTO:EQUIP|Clockwork Horror ~ Pressure Dart								SOURCEPAGE:SPJ
