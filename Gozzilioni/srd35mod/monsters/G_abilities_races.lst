@@ -73,3 +73,7 @@ CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Gian
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Golem Traits|PRERACE:1,RACESUBTYPE=Golem
 Golem Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Golem Shared ~ Immunity To Magic																													SOURCEPAGE:MM
 # CATEGORY=Special Ability|Construct Traits.MOD	ABILITY:Special Ability|
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Legendary Animal Traits|PRERACE:1,RACESUBTYPE=LegendaryAnimal
+Legendary Animal Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Legendary Animal ~ Saving Throws																													SOURCEPAGE:MM2
+Saving Throws	CATEGORY:Special Ability	TYPE:LegendaryAnimalSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:A legendary animal has all good saves.	KEY:Legendary Animal ~ Saving Throws																											SOURCEPAGE:MM2

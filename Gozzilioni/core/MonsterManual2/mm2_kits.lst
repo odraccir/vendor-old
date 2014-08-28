@@ -2,7 +2,7 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
 																																																																
 # Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
 # Monster Abilities																																																																
-STARTPACK:Fiendwurm's Demonic Belch	TYPE:NPC	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0																																																												
+STARTPACK:Fiendwurm's Demonic Belch	TYPE:SpecialAttack	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0																																																												
 SELECT:roll("1d100")																																																																
 GEAR:Jovoc						OPTION:1,50																																																										
 GEAR:Quasit						OPTION:51,75																																																										
@@ -382,8 +382,8 @@ RACE:Forest Sloth	!PRERACE:1,%
 NAME:Forest Sloth																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Frost Salamander Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Frost Salamander]																																																												
-RACE:Frost Salamander	!PRERACE:1,%																																																															
+STARTPACK:Frost Salamander Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Salamander (Frost)]																																																												
+RACE:Salamander (Frost)	!PRERACE:1,%																																																															
 NAME:Frost Salamander																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11																																																																
 																																																																
@@ -497,3 +497,18 @@ STARTPACK:Jahi Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PRE
 RACE:Jahi	!PRERACE:1,%																																																															
 NAME:Jahi																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
+
+STARTPACK:Jermlaine Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Jermlaine]																																																												
+RACE:Jermlaine	!PRERACE:1,%																																																															
+NAME:Jermlaine																																																																
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11																																																																
+
+STARTPACK:Julajimus Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Julajimus]																																																												
+RACE:Julajimus	!PRERACE:1,%																																																															
+NAME:Julajimus																																																																
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
+
+STARTPACK:Kopru Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kopru]																																																												
+RACE:Kopru	!PRERACE:1,%																																																															
+NAME:Kopru																																																																
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
