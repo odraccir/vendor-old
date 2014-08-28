@@ -8,8 +8,10 @@ Hide.MOD		SITUATION:Wooded area
 Hide.MOD		SITUATION:Desert area
 Hide.MOD		SITUATION:Motionless in window frame
 Hide.MOD		SITUATION:Subterran area
+Hide.MOD		SITUATION:Tall grass area
 Move Silently.MOD		SITUATION:Forested area
 Spot.MOD		SITUATION:Daylight
 Spot.MOD		SITUATION:Forested area
 Survival.MOD		SITUATION:Follow designated foe
 Survival.MOD		SITUATION:Follow designated foe/inside maze
+Survival.MOD		SITUATION:Track by scent

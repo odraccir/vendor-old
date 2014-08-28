@@ -17,3 +17,10 @@ How To Make Good Pull Request
 > git branch -D my-feature-branch
 > git push origin :my-feature-branch
 * Smile and wave, just smile and wave... 
+
+Git Commands
+============
+sends all the branches to [remote] repository
+> git push [remote] --all
+change tue current branch to [branch]
+> git checkout [branch]

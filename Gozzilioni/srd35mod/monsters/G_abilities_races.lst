@@ -1,57 +1,40 @@
 SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																														
-																																
-#																																
+
+#
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Guardinal Traits|PRERACE:1,RACESUBTYPE=Guardinal																															
-Guardinal Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Celestial|Infernal|Draconic	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|HasLowlightVision|1	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification|Resistance To Cold|Resistance To Sonic|Resistance To Poison|Guardinal ~ Lay on Hands|Guardinal ~ Speak with Animals								BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial																SOURCEPAGE:MM
-Lay on Hands	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:A Guardinal can heal an amount of damage equal to its full normal hit poins.	KEY:Guardinal ~ Lay on Hands																											SOURCEPAGE:MM
-Speak with Animals	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:Like Speak with Animals spell (caster level 8th) but its a free action and doesn't require sound.	KEY:Guardinal ~ Speak with Animals																											SOURCEPAGE:MM
-																																
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Slaad Traits|PRERACE:1,RACESUBTYPE=Slaad																															
-Slaad Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Slaad	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Immunity To Sonic|Slaad ~ Summon Slaad								BONUS:VAR|AcidResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|5|TYPE=Resistance																	SOURCEPAGE:MM
-Summon Slaad	CATEGORY:Special Ability	TYPE:SlaadSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:Slaadi can summon other slaadi much as though casting Summon Monster spell.	KEY:Slaad ~ Summon Slaad																											SOURCEPAGE:MM
-																																
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Xorn Traits|PRERACE:1,RACESUBTYPE=Xorn																															
-Xorn Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Common|Terran	ABILITY:Special Ability|AUTOMATIC|Xorn ~ MM ~ All-Around Vision|Xorn ~ MM ~ Earth Glide																												SOURCEPAGE:MM
-All-Around Vision	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn's symmetrically placed eyes allow it to look in any direction, providing a +4 racial bonus on Spot and Search checks. A xorn can't be flanked.	KEY:Xorn ~ MM ~ All-Around Vision							BONUS:SKILL|Spot,Search|4|TYPE=Racial																				SOURCEPAGE:MM
-Earth Glide	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A move earth spell cast on an area containing a burrowing xorn flings the xorn back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.	KEY:Xorn ~ MM ~ Earth Glide																											SOURCEPAGE:MM
-																																
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti Traits|PRERACE:1,RACESUBTYPE=Yuan-Ti																															
-Yuan-Ti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Yuan-Ti|Common|Draconic|Abyssal	AUTO:FEAT|Alertness|Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti ~ Alternate Form|Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM
-Alternate Form	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti can assume the form of a Tiny to Large Viper as a psionic ability.	KEY:Yuan-Ti ~ Alternate Form																											SOURCEPAGE:MM
-Detect Poison	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti have the psionic ability to Detect Poison as the spell (caster level 6th).	KEY:Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM
-																																
+#CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACETYPE=Giant
+#Giant Traits	CATEGORY:Special Ability	TYPE:TraitAbility	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing							BONUS:VAR|HasLowLightVision|1																						SOURCEPAGE:MM2
+CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Abeil Traits|PRERACE:1,RACESUBTYPE=Abeil																															
+
+#
+#
+
 Abeil Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Common|Elven|Sylvan	ABILITY:Special Ability|AUTOMATIC|Abeil ~ Drone|Abeil ~ Improved Grab|Abeil ~ Hive Mind																												SOURCEPAGE:MM2
 Drone	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:As full-round action an abeil can beat its wings to create a droning buzz in a 60-ft spread. Will DC %1 or fall asleep as Sleep spell.|DroneDC	KEY:Abeil ~ Drone				DEFINE:DroneDC|0					BONUS:VAR|DroneDC|DefaultDCCha	BONUS:VAR|DroneDC|2|PREFEAT:1,Ability Focus(Drone)								ABILITY:Ability Focus|AUTOMATIC|Drone									SOURCEPAGE:MM2
 Improved Grab	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:To use this ability, an Abeil must hit a single target of at least one size category smaller than itself with both claws attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and deals automatically damage from both claws and the sting.	KEY:Abeil ~ Improved Grab																											SOURCEPAGE:MM2
 Hive Mind	CATEGORY:Special Ability	TYPE:AbeilSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:As full-round action an Abeil can beat its wings to create a droning buzz in a 60-ft spread. Will DC %1 or fall asleep as Sleep spell.|DefaultDCCha	KEY:Abeil ~ Hive Mind																											SOURCEPAGE:MM2
-																																
+
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Automaton Traits|PRERACE:1,RACESUBTYPE=Automaton																															
 Automaton Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Automaton ~ Unreliable																													SOURCEPAGE:MM2
 Unreliable	CATEGORY:Special Ability	TYPE:AutomatonSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The shadow consciousness of an Automaton is only quasi real, like the consciousness of a creation such as a simulacrum. The creature is thus sometimes slow to react to the changing environment around it. At the beginning of each round in which an Automaton attempts to act, roll 1d20. On a results of 11 or better, it acts normally, otherwise it takes no action.	KEY:Automaton ~ Unreliable																											SOURCEPAGE:MM2
-																																
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Clockwork Horror Traits|PRERACE:1,RACESUBTYPE=Clockwork Horror																															
-Clockwork Horror Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Clockwork	ABILITY:Special Ability|AUTOMATIC|Clockwork Horror ~ Linked Mind|Clockwork Horror ~ Spell Vulnerability|Immunity To Electricity																												SOURCEPAGE:MM2
-Linked Mind	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:All Clockwork Horror within 10 miles of a gold, platinum or adamantine horror are in constant communication. If one is aware of a particular danger, they all are. If one in a particular group is not flat-footed, none of them are. No clockwork horror in such a group is considered flanked unless they all are.	KEY:Clockwork Horror ~ Linked Mind																											SOURCEPAGE:MM2
-Spell Vulnerability	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A Clockwork Horro is susceptible to the Shatter spell, which blinds it for 1d4+1 rounds.	KEY:Clockwork Horror ~ Spell Vulnerability																											SOURCEPAGE:MM2
-																																
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Tanar'ri Traits|PRERACE:1,RACESUBTYPE=Tanar'ri																															
-Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Tanar'ri ~ Telepathy|Immunity To Electricity|Immunity To Poison|Resistance To Acid|Resistance to Cold|Resistance to Fire|Tanar'ri ~ Summon Tanar'ri								BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance																			SOURCEPAGE:MM2
-Telepathy	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Tanar'ri can communicate telepathically with any creature within %1 feet that has a language.|TelepathyRange	KEY:Tanar'ri ~ Telepathy									BONUS:VAR|TelepathyRange|100									ABILITY:Special Ability|VIRTUAL|Telepathy									SOURCEPAGE:MM2
-Summon Tanar'ri	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All Tanar'ri can summon other tanar'ri much as though casting Summon Monster spell.	KEY:Tanar'ri ~ Summon Tanar'ri																											SOURCEPAGE:MM2
-																																
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Desmodu Bat Traits|PRERACE:1,RACESUBTYPE=Desmodu Bat																															
-Desmodu Bat Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	BONUS:VAR|BlindsenseRange|120	ABILITY:Special Ability|AUTOMATIC|Immunity To Desmodu Screech																												SOURCEPAGE:MM2
-																																
+
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Baatezu Traits|PRERACE:1,RACESUBTYPE=Baatezu																															
 Baatezu Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Baatezu ~ Telepathy|Baatezu ~ Summon Baatezu|Immunity To Fire|Immunity To Poison|Resistance To Acid|Resistance To Cold								BONUS:VAR|HasSeeInDarknessVision|1	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance																			SOURCEPAGE:MM2
 Telepathy	CATEGORY:Special Ability	TYPE:BaatezuSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Baatezu can communicate telepathically with any creature within %1 feet that has a language.|TelepathyRange	KEY:Baatezu ~ Telepathy									BONUS:VAR|TelepathyRange|100									ABILITY:Special Ability|VIRTUAL|Telepathy									SOURCEPAGE:MM2
 Summon Baatezu	CATEGORY:Special Ability	TYPE:BaatezuSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All Baatezu can summon other baatezu much as though casting Summon Monster spell.	KEY:Baatezu ~ Summon Baatezu																											SOURCEPAGE:MM2
-																																
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Clockwork Horror Traits|PRERACE:1,RACESUBTYPE=Clockwork Horror																															
+Clockwork Horror Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Clockwork	ABILITY:Special Ability|AUTOMATIC|Clockwork Horror ~ Linked Mind|Clockwork Horror ~ Spell Vulnerability|Immunity To Electricity																												SOURCEPAGE:MM2
+Linked Mind	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:All Clockwork Horror within 10 miles of a gold, platinum or adamantine horror are in constant communication. If one is aware of a particular danger, they all are. If one in a particular group is not flat-footed, none of them are. No clockwork horror in such a group is considered flanked unless they all are.	KEY:Clockwork Horror ~ Linked Mind																											SOURCEPAGE:MM2
+Spell Vulnerability	CATEGORY:Special Ability	TYPE:ClockworkHorrorSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A Clockwork Horro is susceptible to the Shatter spell, which blinds it for 1d4+1 rounds.	KEY:Clockwork Horror ~ Spell Vulnerability																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Desmodu Bat Traits|PRERACE:1,RACESUBTYPE=Desmodu Bat																															
+Desmodu Bat Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	BONUS:VAR|BlindsenseRange|120	ABILITY:Special Ability|AUTOMATIC|Immunity To Desmodu Screech																												SOURCEPAGE:MM2
+
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Dinosaur Traits|PRERACE:1,RACESUBTYPE=Dinosaur																															
 Dinosaur Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Scent																													SOURCEPAGE:MM2
-																																
+
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Elemental Weird Traits|PRERACE:1,RACESUBTYPE=Elemental Weird																															
 Elemental Weird Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Elemental Weird ~ Comunication|Elemental Weird ~ Elemental Command|Elemental Weird ~ Elemental Pool|Elemental Weird ~ Prescience																													SOURCEPAGE:MM2
 Comunication	CATEGORY:Special Ability	TYPE:ElementalWeirdSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Elemental Weird can communicate with any creature that has a language.	KEY:Elemental Weird ~ Comunication																											SOURCEPAGE:MM2
@@ -66,14 +49,33 @@ CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Fihyr Trai
 Fihyr Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Fihyr ~ Frightful Presence|Fihyr ~ Vulnerable to Sunlight																													SOURCEPAGE:MM2
 Frightful Presence	CATEGORY:Special Ability	TYPE:FihyrSubRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Any creature that witnesses a Fihyr attacking must make a Will save (DC %1) or become panicked.|FrightfulPresenceDC	KEY:Fihyr ~ Frightful Presence				DEFINE:FrightfulPresenceRange|0	DEFINE:FrightfulPresenceDC|0				BONUS:VAR|FrightfulPresenceDC|DefaultDCCha	BONUS:VAR|FrightfulPresenceDC|2|PREFEAT:1,Ability Focus(Frightful Presence)								ABILITY:Ability Focus|AUTOMATIC|Frightful Presence									SOURCEPAGE:MM2
 
-#CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACETYPE=Giant
-#Giant Traits	CATEGORY:Special Ability	TYPE:TraitAbility	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing							BONUS:VAR|HasLowLightVision|1																						SOURCEPAGE:MM2
-CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10
-
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Golem Traits|PRERACE:1,RACESUBTYPE=Golem
 Golem Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Golem Shared ~ Immunity To Magic																													SOURCEPAGE:MM
-# CATEGORY=Special Ability|Construct Traits.MOD	ABILITY:Special Ability|
 
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Legendary Animal Traits|PRERACE:1,RACESUBTYPE=LegendaryAnimal
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Guardinal Traits|PRERACE:1,RACESUBTYPE=Guardinal																															
+Guardinal Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Celestial|Infernal|Draconic	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|HasLowlightVision|1	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Petrification|Resistance To Cold|Resistance To Sonic|Resistance To Poison|Guardinal ~ Lay on Hands|Guardinal ~ Speak with Animals								BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial																SOURCEPAGE:MM
+Lay on Hands	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:A Guardinal can heal an amount of damage equal to its full normal hit poins.	KEY:Guardinal ~ Lay on Hands																											SOURCEPAGE:MM
+Speak with Animals	CATEGORY:Special Ability	TYPE:GuardinalSubRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:Like Speak with Animals spell (caster level 8th) but its a free action and doesn't require sound.	KEY:Guardinal ~ Speak with Animals																											SOURCEPAGE:MM
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Legendary Animal Traits|PRERACE:1,RACESUBTYPE=Legendary Animal
 Legendary Animal Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Legendary Animal ~ Saving Throws																													SOURCEPAGE:MM2
 Saving Throws	CATEGORY:Special Ability	TYPE:LegendaryAnimalSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:A legendary animal has all good saves.	KEY:Legendary Animal ~ Saving Throws																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Tanar'ri Traits|PRERACE:1,RACESUBTYPE=Tanar'ri																															
+Tanar'ri Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Special Ability|AUTOMATIC|Tanar'ri ~ Telepathy|Immunity To Electricity|Immunity To Poison|Resistance To Acid|Resistance to Cold|Resistance to Fire|Tanar'ri ~ Summon Tanar'ri								BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance																			SOURCEPAGE:MM2
+Telepathy	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Tanar'ri can communicate telepathically with any creature within %1 feet that has a language.|TelepathyRange	KEY:Tanar'ri ~ Telepathy									BONUS:VAR|TelepathyRange|100									ABILITY:Special Ability|VIRTUAL|Telepathy									SOURCEPAGE:MM2
+Summon Tanar'ri	CATEGORY:Special Ability	TYPE:Tanar'riSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All Tanar'ri can summon other tanar'ri much as though casting Summon Monster spell.	KEY:Tanar'ri ~ Summon Tanar'ri																											SOURCEPAGE:MM2
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Slaad Traits|PRERACE:1,RACESUBTYPE=Slaad																															
+Slaad Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Slaad	ABILITY:Special Ability|AUTOMATIC|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Immunity To Sonic|Slaad ~ Summon Slaad								BONUS:VAR|AcidResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|5|TYPE=Resistance																	SOURCEPAGE:MM
+Summon Slaad	CATEGORY:Special Ability	TYPE:SlaadSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:Slaadi can summon other slaadi much as though casting Summon Monster spell.	KEY:Slaad ~ Summon Slaad																											SOURCEPAGE:MM
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti Traits|PRERACE:1,RACESUBTYPE=Yuan-Ti																															
+Yuan-Ti Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Yuan-Ti|Common|Draconic|Abyssal	AUTO:FEAT|Alertness|Blind-Fight	ABILITY:Special Ability|AUTOMATIC|Yuan-Ti ~ Alternate Form|Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM
+Alternate Form	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti can assume the form of a Tiny to Large Viper as a psionic ability.	KEY:Yuan-Ti ~ Alternate Form																											SOURCEPAGE:MM
+Detect Poison	CATEGORY:Special Ability	TYPE:YuanTiSubRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:All yuan-ti have the psionic ability to Detect Poison as the spell (caster level 6th).	KEY:Yuan-Ti ~ Detect Poison																											SOURCEPAGE:MM
+
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Xorn Traits|PRERACE:1,RACESUBTYPE=Xorn																															
+Xorn Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Common|Terran	ABILITY:Special Ability|AUTOMATIC|Xorn ~ MM ~ All-Around Vision|Xorn ~ MM ~ Earth Glide																												SOURCEPAGE:MM
+All-Around Vision	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn's symmetrically placed eyes allow it to look in any direction, providing a +4 racial bonus on Spot and Search checks. A xorn can't be flanked.	KEY:Xorn ~ MM ~ All-Around Vision							BONUS:SKILL|Spot,Search|4|TYPE=Racial																				SOURCEPAGE:MM
+Earth Glide	CATEGORY:Special Ability	TYPE:XornMMSubRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A xorn can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A move earth spell cast on an area containing a burrowing xorn flings the xorn back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.	KEY:Xorn ~ MM ~ Earth Glide																											SOURCEPAGE:MM

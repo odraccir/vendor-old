@@ -3,10 +3,10 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 ###Block: Variables																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
 CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																															
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|10+CHA																																			
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|10+(HD/2)+WIS																																			
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|10+(HD/2)+STR																																			
-CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|STR*3/2																																			
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|0	BONUS:VAR|DefaultSpellDCCha|10+CHA|TYPE=Base																																			
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|0	BONUS:VAR|DefaultDCWis|10+(HD/2)+WIS|TYPE=Base																																			
+CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|0	BONUS:VAR|DefaultDCStr|10+(HD/2)+STR|TYPE=Base																																			
+CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|0	BONUS:VAR|RenBonusDamage|STR*3/2|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																																			
 																																				
 Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange																											
@@ -14,12 +14,15 @@ See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYP
 See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange																											
 Breathsense Vision	KEY:Breathsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:BreathsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|BreathsenseRange	VISION:Breathsense (BreathsenseRange)			ASPECT:Vision|Breathsense %1'|BreathsenseRange																											
 Woodsense Vision	KEY:Woodsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:WoodsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|WoodsenseRange	VISION:Woodsense (WoodsenseRange)			ASPECT:Vision|Woodsense %1'|WoodsenseRange																											
+CATEGORY=Special Ability|Keen Sense.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0
+
 #																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See In Darkness Vision|PREMULT:1,[PREVARGTEQ:SeeInDarknessRange,1],[PREVARGTEQ:HasSeeInDarknessVision,1]	DEFINE:HasSeeInDarknessVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breathsense Vision|PREMULT:1,[PREVARGTEQ:BreathsenseRange,1],[PREVARGTEQ:HasBreathsenseVision,1]	DEFINE:HasBreathsenseVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Woodsense Vision|PREMULT:1,[PREVARGTEQ:WoodsenseRange,1],[PREVARGTEQ:HasWoodsenseVision,1]	DEFINE:HasWoodsenseVision|0																																		
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Keen Scent|PREMULT:1,[PREVARGTEQ:KeenScentBloodRadius,1],[PREVARGTEQ:HasKeenScent,1]	DEFINE:HasKeenScent|0																																		
 #																																				
 # CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Regeneration|PREMULT:1,[PREVARGTEQ:RegenerationRate,1],[PREVARGTEQ:HasRegeneration,1]	DEFINE:HasRegeneration|0																																		
 																																				
@@ -120,6 +123,7 @@ Fists	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																					
 Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Frightful Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Gulp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Keening	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -134,6 +138,7 @@ Poison	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																				
 Pounce	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Prismatic Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Rake	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Ramming	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Razor Storm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Roar	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
