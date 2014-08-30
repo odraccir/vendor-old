@@ -1,5 +1,5 @@
-SOURCELONG:Gozzilioni Rsrd Modifications	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																															
-#																																	
+SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
 CATEGORY=Special Ability|Dwarf ~ Stonecunning.MOD	BONUS:VAR|StonecunningLevel|1|TYPE=Stonecunning																															
 CATEGORY=Special Ability|Psionic.MOD	DESC:; Manifester Level %1|PsionML

@@ -1,4 +1,4 @@
-SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																															
+SOURCELONG:Gozzilioni Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																																	
 # Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
 Expert Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel	VISIBLE:NO				DEFINE:ExpertSkillLVL|0				BONUS:VAR|SkillLVL|ExpertSkillLVL																					SOURCEPAGE:DMG										

@@ -1,4 +1,4 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 # Demons
 Babau		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM	CONTAINS:UNLIM|Any

@@ -1,4 +1,5 @@
-SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 #
 STARTPACK:Dragon Default Stat Array
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10

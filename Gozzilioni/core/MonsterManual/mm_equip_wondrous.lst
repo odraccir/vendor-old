@@ -1,4 +1,4 @@
-SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net																		
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #
 Phylactery (Full/Lich)			OUTPUTNAME:[NAME] Phylactery, Full	TYPE:Magic.Wondrous	COST:120000	WT:5	PREFEAT:1,Craft Wondrous Item									SOURCEPAGE:MM
 Phylactery (Contenitor/Lich)			OUTPUTNAME:[NAME] Phylactery, Contenitor	TYPE:Magic.Wondrous.Container	COST:0	WT:5	PREFEAT:1,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM	CONTAINS:UNLIM|Total=3|PhylacteryPart1=1|PhylacteryPart2=1|PhylacteryPart3=1

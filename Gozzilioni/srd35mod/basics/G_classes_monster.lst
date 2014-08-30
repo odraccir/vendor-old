@@ -1,4 +1,5 @@
-SOURCELONG:Gozzilioni Rsrd Modifications	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																															
+SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 #
 CLASS:Sorcerer/Domain	VISIBLE:NO
 # Class Name				Spell Stat		Spell Type		Memorize	Caster level						Use Spell List

@@ -1,4 +1,5 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Monster Manuale 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
 
+# Weapon Name	Type
 Pressure Dart	TYPE:Natural.Primary.Ranged.Thrown.Piercing.RangedPiercing.Dart
 Spit	TYPE:Natural.Primary.Ranged.Touch.RangedTouch

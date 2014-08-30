@@ -3,19 +3,18 @@ GAMEMODE:35e
 RANK:6
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
-SOURCELONG:Gozzilioni Srd 3.0
-SOURCESHORT:G
+SOURCELONG:Gozzilioni Masters of the Wild
+SOURCESHORT:MotW
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
-SOURCEDATE:2003-07
+SOURCEDATE:2002-02
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Rsrd
-SPELL:srd_spells.lst
 FEAT:motw_feats.lst
 
 #BIOSET:my_biosettings.lst

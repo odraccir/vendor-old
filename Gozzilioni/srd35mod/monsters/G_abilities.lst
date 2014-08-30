@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																		
+SOURCELONG:Gozzilioni Rsrd Modifications monster	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																				
 ###Block: Variables																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
@@ -14,7 +14,7 @@ See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYP
 See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange																											
 Breathsense Vision	KEY:Breathsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:BreathsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|BreathsenseRange	VISION:Breathsense (BreathsenseRange)			ASPECT:Vision|Breathsense %1'|BreathsenseRange																											
 Woodsense Vision	KEY:Woodsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:WoodsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|WoodsenseRange	VISION:Woodsense (WoodsenseRange)			ASPECT:Vision|Woodsense %1'|WoodsenseRange																											
-CATEGORY=Special Ability|Keen Sense.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0
+CATEGORY=Special Ability|Keen Scent.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0
 
 #																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0																																		

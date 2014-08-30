@@ -1,4 +1,4 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Monster Manuale 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
 
 # Construct
 Bogun		TYPE:Construct.Container	COST:2000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 4th; Prerequisite: Craft Construct or Craft Wondrous Item, Control Plants, Wood Shape and Beget Bogun; Market Price: 2000 gp (never sold); Cost to create: 1050 gp + 78 xp.

@@ -1,4 +1,5 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net																																																																																																																																																																									
+SOURCELONG:Gozzilioni Monster Manuale 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
+
 #
 ###Block:Weapon/Armor abilities																																																																																																																																																																											
 # Modifier Name				Unique Key		Type					Plus		Cost		Visible		Type granted	Keys to replace			Source Page					Multiple Requirements										Required Type						Prohibited Type			Spell Res.	Damage Reduction	BONUS:EQM				BONUS:EQMWEAPON								Bonus to skill						Modify VAR						Special Property																			Virtual Feat		Choose																																																																															Apply to both heads

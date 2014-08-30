@@ -6,9 +6,9 @@ SETTING:Heroes
 SOURCELONG:Gozzilioni Dungeon Master's Guide
 SOURCESHORT:DMG
 SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-07
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
-SOURCEDATE:2003-07
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
@@ -25,6 +25,7 @@ EQUIPMENT:dmg_equip.lst
 EQUIPMENT:dmg_equip_poisons.lst
 EQUIPMOD:dmg_equipmods_enhancing.lst
 FEAT:dmg_feats.lst
+WEAPONPROF:dmg_profs_weapon.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

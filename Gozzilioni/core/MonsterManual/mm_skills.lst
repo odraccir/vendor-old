@@ -1,4 +1,5 @@
-SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
 Survival.MOD		SITUATION:Track by Scent		
 Swim.MOD			SITUATION:Perform some special action or avoid hazard

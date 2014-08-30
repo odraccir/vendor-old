@@ -1,28 +1,23 @@
-CAMPAIGN:Gozzilioni Rsrd modifications
+CAMPAIGN:Gozzilioni Rsrd modifications Basic
 GAMEMODE:35e
 RANK:1
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
-SOURCELONG:Gozzilioni Rsrd Modifications
+SOURCELONG:Gozzilioni Rsrd Modifications Basic
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-07
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
-SOURCEDATE:2003-07
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Rsrd
-ABILITY:basics/G_abilities_class.lst
-ABILITYCATEGORY:basics/G_ability_categories.lst
-CLASS:basics/G_classes_monster.lst
-
-ABILITY:monsters/G_abilities.lst
-ABILITY:monsters/G_abilities_races.lst
-FEAT:monsters/G_feats.lst
-RACE:monsters/G_races.lst
+ABILITY:G_abilities.lst
+ABILITYCATEGORY:G_ability_categories.lst
+CLASS:G_classes_monster.lst
 
 HIDETYPE:SKILL|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Decipher Script|Diplomacy
 HIDETYPE:SKILL|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal

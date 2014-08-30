@@ -1,4 +1,4 @@
-SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net			
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 ###Block: Creature Subtypes					
 # Template Name	Visible	Source Page	Special Ability		
 # Languages ~ Ethergaunt	VISIBLE:NO	LANGBONUS:Common,Draconic,Dwarven,Elven

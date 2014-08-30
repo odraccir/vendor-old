@@ -1,4 +1,5 @@
-SOURCELONG:Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net																															
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 #																																	
 # Yuan-Ti variants
 Common	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Common									BONUS:WEAPONPROF=Bite|DAMAGE|STR/2									NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6	TEMPLATE:Yuan-Ti Halfblood ~ 2 Arms|Yuan-Ti Halfblood ~ 2 Legs								SOURCEPAGE:MM

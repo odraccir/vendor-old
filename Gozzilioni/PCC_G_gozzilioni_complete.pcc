@@ -16,8 +16,11 @@ PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
 #PCC:@/35e/wizards_of_the_coast/srd35/rsrd.pcc
-PCC:&/Gozzilioni/srd35mod/_rsrdmod.pcc
-PCC:&/Gozzilioni/srd30/_srd30.pcc
+# PCC:&/Gozzilioni/srd35mod/_rsrdmod.pcc
+PCC:&/Gozzilioni/srd35mod/basics/_basicmod.pcc
+PCC:&/Gozzilioni/srd35mod/monsters/_monstermod.pcc
+PCC:&/Gozzilioni/srd30/Srd/_srd30.pcc
+PCC:&/Gozzilioni/srd30/MasterOfTheWild/_masterofthewild.pcc
 PCC:&/Gozzilioni/houserules/_houserules.pcc
 #Core
 PCC:&/Gozzilioni/core/DungeonMasterSGuide/_dungeonsmastersguide.pcc

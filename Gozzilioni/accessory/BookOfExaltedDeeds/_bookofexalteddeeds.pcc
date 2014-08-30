@@ -18,7 +18,7 @@ INFOTEXT:mancano le armi itelligenti. mancano i png unici del Celestial Hebdomad
 HIDETYPE:FEAT|CelestialAllegiance
 
 #Book of Exalted Deeds
-CLASS:EXD_classes_monster.LST
+CLASS:exd_classes_monster.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

@@ -1,4 +1,4 @@
-SOURCELONG:Dungeon Master Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net																		
+SOURCELONG:Gozzilioni Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #
 Manacles (Small)			TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	COST:15	WT:2
 Manacles (Medium)			TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	PROFICIENCY:WEAPON|Manacles	WIELD:OneHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	COST:15	WT:2

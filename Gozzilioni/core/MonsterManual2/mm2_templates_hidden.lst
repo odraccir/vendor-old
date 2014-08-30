@@ -1,0 +1,9 @@
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+###Block: Creature Subtypes					
+# Template Name	Visible	Source Page	Special Ability		
+# Languages ~ Ethergaunt	VISIBLE:NO	LANGBONUS:Common,Draconic,Dwarven,Elven
+# Languages ~ Inevitable	VISIBLE:NO	LANGBONUS:ALL
+# Languages ~ Kaorti	VISIBLE:NO	LANGBONUS:ALL
+#
+Disease Damage (Linnorm Fever/DEX)			VISIBLE:NO	SOURCEPAGE:MM	CHOOSE:NUMBER|MIN=1|MAX=6|TITLE=Strength Damage	TEMPDESC:Infection DC (Special) (Breath WEapon), Incubation 12 hours, Damage 1d6 Str and 1d3 Con (The victim must make three successful Fortitude saving throws in a row to recover from linnorm fever), Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)	TEMPLATE:CHOOSE:Disease Damage (Slaad Fever/CON)
+Disease Damage (Linnorm Fever/CON)			VISIBLE:NO	SOURCEPAGE:MM	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Constitution Damage	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)

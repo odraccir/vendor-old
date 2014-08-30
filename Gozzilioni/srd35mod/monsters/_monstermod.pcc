@@ -1,26 +1,24 @@
-CAMPAIGN:Gozzilioni Player's Handbook
+CAMPAIGN:Gozzilioni Rsrd modifications monster
 GAMEMODE:35e
-RANK:6
+RANK:1
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
-SOURCELONG:Gozzilioni Player's Handbook
-SOURCESHORT:PHB
+SOURCELONG:Gozzilioni Rsrd Modifications monster
+SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-07
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
-SOURCEDATE:2003-07
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
-#Player's Hanbook
-ABILITY:phb_abilities_class.lst
-CLASS:phb_classes.lst
-EQUIPMENT:phb_equip_materials.lst
-FEAT:phb_feats.lst
-KIT:phb_kits_companion.lst
-SPELL:phb_spells.lst
+#Rsrd
+ABILITY:G_abilities.lst
+ABILITY:G_abilities_races.lst
+FEAT:G_feats.lst
+RACE:G_races.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

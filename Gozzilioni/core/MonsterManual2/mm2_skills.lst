@@ -1,4 +1,5 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	
+SOURCELONG:Gozzilioni Monster Manuale 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
+
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
 Disguise.MOD		SITUATION:Polymorph Self
 Climb.MOD		SITUATION:Forested area

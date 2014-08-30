@@ -1,4 +1,5 @@
-SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 #dragons support template copied from BD/pcgen what is missing from pcgen rsrd.
 # Template Name		Visible	Define				Modify VAR
 LEVEL_ADJUSTMENT_1							VISIBLE:NO	LEVELADJUSTMENT:1

@@ -6,6 +6,7 @@ SETTING:Heroes
 SOURCELONG:Gozzilioni Monster Manuale 2
 SOURCESHORT:MM2
 SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2002-09
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
 
@@ -32,6 +33,7 @@ SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
 WEAPONPROF:mm2_profs_natural.lst
 WEAPONPROF:mm2_profs_weapon.lst
+WEAPONPROF:mm2_template_hidded.lst
 
 # CLASS:mm2_classes_monster__dragons.lst
 # COMPANIONMOD:mm2_companionmods.lst

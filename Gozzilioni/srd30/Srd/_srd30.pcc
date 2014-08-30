@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Player's Handbook
+CAMPAIGN:Gozzilioni Srd 3.0
 GAMEMODE:35e
 RANK:6
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
-SOURCELONG:Gozzilioni Player's Handbook
-SOURCESHORT:PHB
+SOURCELONG:Gozzilioni Srd 3.0
+SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
@@ -14,13 +14,8 @@ SOURCEDATE:2003-07
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
-#Player's Hanbook
-ABILITY:phb_abilities_class.lst
-CLASS:phb_classes.lst
-EQUIPMENT:phb_equip_materials.lst
-FEAT:phb_feats.lst
-KIT:phb_kits_companion.lst
-SPELL:phb_spells.lst
+#Rsrd
+SPELL:srd_spells.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

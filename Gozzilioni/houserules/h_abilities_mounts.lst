@@ -1,4 +1,5 @@
-SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
 #
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PRERACE:1,RACESUBTYPE=Mount
 Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	ABILITY:Training Level|AUTOMATIC|Wild	ABILITY:Special Ability|AUTOMATIC|Mount ~ Wild|PREABILITY:1,CATEGORY=Training Level,Wild	ABILITY:Special Ability|AUTOMATIC|Mount ~ Rideable|PREABILITY:1,CATEGORY=Training Level,Rideable	ABILITY:Special Ability|AUTOMATIC|Mount ~ Basic Training|PREABILITY:1,CATEGORY=Training Level,Basic Training																											SOURCEPAGE:MM
