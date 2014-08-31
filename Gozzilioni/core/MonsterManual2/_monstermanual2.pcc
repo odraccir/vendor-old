@@ -33,7 +33,7 @@ SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
 WEAPONPROF:mm2_profs_natural.lst
 WEAPONPROF:mm2_profs_weapon.lst
-WEAPONPROF:mm2_template_hidded.lst
+TEMPLATE:mm2_templates_hidden.lst
 
 # CLASS:mm2_classes_monster__dragons.lst
 # COMPANIONMOD:mm2_companionmods.lst
