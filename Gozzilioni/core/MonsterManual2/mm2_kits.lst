@@ -567,3 +567,43 @@ STARTPACK:Dragon (Grey Linnorm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALI
 RACE:Dragon (Grey Linnorm)	!PRERACE:1,%			
 NAME:Grey Linnorm
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11				
+
+STARTPACK:Dragon (Dread Linnorm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Dread Linnorm)]
+RACE:Dragon (Dread Linnorm)	!PRERACE:1,%			
+NAME:Dread Linnorm
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11				
+
+STARTPACK:Dragon (Corpse Tearer Linnorm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Corpse Tearer Linnorm)]
+RACE:Dragon (Corpse Tearer Linnorm)	!PRERACE:1,%			
+NAME:Corpse Tearer Linnorm
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11				
+
+STARTPACK:Loxo Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Loxo]
+RACE:Loxo	!PRERACE:1,%			
+NAME:Loxo
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10				
+
+STARTPACK:Marrash Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Marrash]
+RACE:Marrash	!PRERACE:1,%			
+NAME:Marrash
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10				
+
+STARTPACK:Meenlock Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Meenlock]
+RACE:Meenlock	!PRERACE:1,%			
+NAME:Meenlock
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11				
+
+STARTPACK:Megalodon Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Megalodon]
+RACE:Megalodon	!PRERACE:1,%			
+NAME:Megalodon
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10				
+
+STARTPACK:Moonbeast Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Moonbeast]
+RACE:Moonbeast	!PRERACE:1,%			
+NAME:Moonbeast
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10				
+
+STARTPACK:Mooncalf Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mooncalf]
+RACE:Mooncalf	!PRERACE:1,%			
+NAME:Mooncalf
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11				

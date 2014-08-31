@@ -17,6 +17,8 @@ Mace (Heavy).COPY=Giantclub
 																												
 # Shield																												
 																												
+# Arrows
+Taklif Arrow		TYPE:Magic.Enhancement.Ammunition.SpecificArrow.Individual	COST:0	WT:0.15							EQMOD:STEEL.WOOD						SOURCEPAGE:MM2	RANGE:20			SPROP:Any creature hit by a Taklif arrow must succed at a Fort save (DC 14) or contract a disease similar to the Marrash variant of filt fever. However, a creature that fails any Fortitude saving throw after its initial infection dies instantly, and neither raise dead nor resurrection can restore it to life. The corpse rises as a new marrash 1d6 days later.
 ###Block:Weapons																												
 ###TODO: it's better to copy the original and modify the copy or not?																												
 # Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus		
@@ -31,8 +33,10 @@ Greatclub	KEY:Braxat ~ Greatclub	PROFICIENCY:WEAPON|Greatclub	TYPE:Weapon.Melee.
 Greatclub	KEY:Forest Giant ~ Greatclub	PROFICIENCY:WEAPON|Greatclub	TYPE:Weapon.Melee.Martial.Specific.Bludgeoning.Club	COST:5	WT:8	WIELD:TwoHanded		SIZE:H	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:MM2										
 Greatsword	KEY:Firbolg ~ Greatsword	PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Specific.Slashing.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:L	DAMAGE:2d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW						SOURCEPAGE:MM2										
 Greataxe	KEY:Brass Golem ~ Greataxe	PROFICIENCY:WEAPON|Greataxe	TYPE:Weapon.Melee.Martial.Specific.Slashing.Axe	COST:20	WT:12	WIELD:TwoHanded		SIZE:L	DAMAGE:3d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.PLUS3W.WOUND																
+Javelin	KEY:Loxo ~ Javelin	PROFICIENCY:WEAPON|Javelin	TYPE:Weapon.Simple.Ranged.Specific.Piercing.Thrown.Javelin	COST:1	WT:2				DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD						SOURCEPAGE:MM2	RANGE:30
 Lance	KEY:Desmodu ~ Lance	PROFICIENCY:WEAPON|Lance	TYPE:Weapon.Melee.Martial.Reach.Specific.Piercing.Lance	COST:10	WT:10	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:MM2			REACHMULT:2				SPROP:One Handed when mounted, Two Handed otherwise.			
 Longspear	KEY:Sun Giant ~ Longspear	PROFICIENCY:WEAPON|Longspear	TYPE:Weapon.Melee.TwoHanded.Simple.Reach.Specific.Piercing.Spear	COST:5	WT:9	WIELD:TwoHanded		SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD						SOURCEPAGE:MM2			REACHMULT:2							
+Morningstar	KEY:Loxo ~ Morningstar	PROFICIENCY:WEAPON|Morningstar	TYPE:Weapon.Melee.Simple.Specific.Bludgeoning.Piercing.Mace	COST:8	WT:6	WIELD:OneHanded		SIZE:L	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:MM2
 Notbora	KEY:Desmodu ~ Notbora	PROFICIENCY:WEAPON|Notbora	TYPE:Weapon.Exotic.Melee.Specific.Slashing.TwoHanded.Double.Quarterstaff	COST:20	WT:2	WIELD:TwoHanded	SLOTS:2	SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW	ALTTYPE:Melee.Exotic.Slashing.Quarterstaff	ALTDAMAGE:2d6	ALTCRITRANGE:2	ALTCRITMULT:x2	ALTEQMOD:STEEL.MWORKW	SOURCEPAGE:MM2										
 Ranseur	KEY:Abeil Soldier ~ Ranseur	PROFICIENCY:WEAPON|Ranseur	TYPE:Weapon.Melee.Martial.Reach.Specific.Piercing.Polearm	COST:10	WT:12	WIELD:TwoHanded		SIZE:H	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL						SOURCEPAGE:MM2			REACHMULT:2							
 Scimitar	KEY:Kelvezu ~ Scimitar	PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:15	WT:1	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.WOUND_GRT						SOURCEPAGE:MM2										
