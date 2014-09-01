@@ -29,7 +29,6 @@ KIT:mm2_kits_companion.lst
 LANGUAGE:mm2_languages.lst
 RACE:mm2_races.lst
 RACE:mm2_races_companion.lst
-SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
 WEAPONPROF:mm2_profs_natural.lst
 WEAPONPROF:mm2_profs_weapon.lst

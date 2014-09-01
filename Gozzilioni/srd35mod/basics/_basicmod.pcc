@@ -18,6 +18,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 ABILITYCATEGORY:g_ability_categories.lst
 ABILITY:g_abilities.lst
 CLASS:g_classes_monster.lst
+SKILL:g_skills.lst
 
 HIDETYPE:SKILL|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Decipher Script|Diplomacy
 HIDETYPE:SKILL|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal
