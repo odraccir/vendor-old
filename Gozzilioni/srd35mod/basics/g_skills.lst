@@ -10,6 +10,7 @@ Hide.MOD		SITUATION:Desert area
 Hide.MOD		SITUATION:Motionless in window frame
 Hide.MOD		SITUATION:Subterran area
 Hide.MOD		SITUATION:Tall grass area
+Hide.MOD		SITUATION:Water area
 Move Silently.MOD		SITUATION:Forested area
 Spot.MOD		SITUATION:Daylight
 Spot.MOD		SITUATION:Forested area

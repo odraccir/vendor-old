@@ -10,7 +10,7 @@ Golem (Jaggernaut)		TYPE:Construct.Container.Transportation	COST:140000	WT:50000
 Golem (Stained Glass)		TYPE:Construct.Container	COST:28000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Whish, Polymorph Any Object; Market Price: 28000 gp; Cost to create: 15000 gp + 1080 xp.
 Dread Guard		TYPE:Construct.Container	COST:5000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 5th; Prerequisite: Craft Construct, Fabricate, Geas/Quest and Polymorph Any Object; Market Price: 5000 gp; Cost to create: 3059 gp (includes masterwork banded mail and masterwork light steel shield) + 178 xp.
 
-## Demons
+# Demons
 Abyssal Maw		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Abyssal Skulker		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Abyssal Ravager		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
@@ -20,6 +20,12 @@ Zovvut		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Jarilith		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Kelvezu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 
+# Devils
+Advespa		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
+Amnizu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
+Malebranche		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
+
+# Monster objects
 Ice Rune		TYPE:IceRune	COST:0	WT:0	SOURCEPAGE:MM2	MODS:REQUIRED
 Moonstone	KEY:Moonbeast ~ Moonstone	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:MM2, pag. 150	SPROP:A moonstone slowly and insidiously works its way into its owner’s psyche. After 1d6+3 weeks, the owner must succeed at a Will save (DC 30) or become so attached to the item containing the moonstone that he or she would refuse to relinquish it under any circumstances. At some point, however, the moonbeast that is linked to that moonstone awakens, leaves its lair, and begins tracking down the gem. Its ultimate goal is to recover the moonstone, slay the owner, and then return to its lair. Oddly, the monster seems to care nothing for the moonstone itself; it desires only that absolutely no one else possess it. In fact, the moonbeast is quite likely to abandon the recovered moonstone item somewhere during its return trip.
 
