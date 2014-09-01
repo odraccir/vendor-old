@@ -211,13 +211,14 @@ my %conversion_enable =
      'ALL:CMP NatAttack fix'              => 1,               # Fix STR bonus for Natural Attacks in CMP files
      'ALL:CMP remove PREALIGN'            => 0,               # Remove the PREALIGN tag everywhere (to help my CMP friends)
      'RACE:Fix PREDEFAULTMONSTER bonuses' => 0,               #[1514765] Conversion to remove old defaultmonster tags
-     'ALL:Fix Common Extended ASCII'      => 0, #[1324519 ] ASCII characters
+     'ALL:Fix Common Extended ASCII'      => 1, #[1324519 ] ASCII characters
      'ALL:Weaponauto simple conversion'   => 0, #[ 1223873 ] WEAPONAUTO is no longer valid
      'DEITY:Followeralign conversion'     => 0, #[ 1689538 ] Conversion: Deprecation of FOLLOWERALIGN
        'ALL:ADD Syntax Fix'                 => 0,               #[1678577 ] ADD: syntax no longer uses parens
        'ALL:PRESPELLTYPE Syntax'            => 0,               #[1678570 ] Correct PRESPELLTYPE syntax
      'ALL:Convert ADD:SA to ADD:SAB'      => 0,               #[ 1864711 ] Convert ADD:SA to ADD:SAB
 	'CLASS:no more HASSPELLFORMULA'	=> 0,			#[ 1973497 ] HASSPELLFORMULA is deprecated
+	'No extra Tab'	=> 1,			# Gozzilioni - no adding unwanted tabs when reformetting
 
 );
 
@@ -479,6 +480,9 @@ if ( $cl_options{convert} ) {
     elsif ( $cl_options{convert} eq 'gmconv' ) {
         $conversion_enable{'PCC:GAMEMODE Add to the CMP DnD_'} = 1;
     }
+    elsif ( $cl_options{convert} eq 'extratab' ) {
+        $conversion_enable{'No extra Tab'} = 1;
+    }
     else {
         $error_message .= "\nUnknown convertion option: $cl_options{convert}\n";
         $cl_options{help} = 1;
@@ -549,22 +553,25 @@ my @valid_system_alignments  = qw( LG  LN  LE  NG  TN  NE  CG  CN  CE  NONE  Dei
 my @valid_system_check_names = qw( Fortitude Reflex Will );
 
 my @valid_system_game_modes     = qw(
+
+# Main PCGen Release
     35e
     3e
     Deadlands
-    DnD
+	Darwins_World_2
+	FantasyCraft
+	Gaslight
+	Killshot
     LoE
     Modern
     Pathfinder
     Sidewinder
-    SovereignStoneD20
     Spycraft
     Xcrawl
-	Gaslight
-	Darwins_World_2
-	Killshot
 	OSRIC
     
+# Third Party/Homebrew Support
+	DnD
     CMP_D20_Fantasy_v30e
     CMP_D20_Fantasy_v35e
     CMP_D20_Fantasy_v35e_Kalamar
@@ -577,6 +584,8 @@ my @valid_system_game_modes     = qw(
     CMP_DnD_Oriental_Adventures_v30e
     CMP_DnD_Oriental_Adventures_v35e
     CMP_HARP
+	SovereignStoneD20
+
 );
 
 my @valid_system_stats          = qw(
@@ -616,6 +625,7 @@ my @valid_system_var_names      = qw(
     MOVEBASE                                SHIELDACCHECK           SIZE
     SKILLRANK                               SKILLTOTAL                      SPELLFAILURE
     SR                                      TL                              LIST
+	MASTERVAR	APPLIEDAS
     
 );
 
@@ -652,6 +662,23 @@ my %valid_game_modes = map { $_ => 1 } (
     'CMP_D20_Fantasy_v35e_Kalamar',
     'DnD_v3.5e_VPWP',,
     'CMP_D20_Fantasy_v35e_VPWP',
+
+    # 
+	'4e',
+	'5e',
+	'DnDNext',
+#
+	'AE',
+	'Arcana_Evolved',
+	'Dragon_Age',
+	'MC_WoD',
+	'MutantsAndMasterminds3e',
+	'Starwars_SE',
+	'SWSE',
+	'Starwars_Edge',
+	'T20',
+	'Traveller20',
+
 
 );
 
@@ -1701,6 +1728,8 @@ my @PRE_Tags = (
     '!PRETEXT',
     'PRETYPE:*',
     '!PRETYPE:*',
+	'PRETOTALAB:*',
+	'!PRETOTALAB:*',
     'PREUATT',
     '!PREUATT',
     'PREVAREQ:*',
@@ -1830,7 +1859,7 @@ my @Global_BONUS_Tags = (
 	'BONUS:POSTRANGEADD:*',         # Global
 	'BONUS:RANGEADD:*',             # Global
 	'BONUS:RANGEMULT:*',            # Global
-	'BONUS:SAVE:*',		# Global
+	'BONUS:SAVE:*',				# Global	Replacement for CHECKS
 	'BONUS:SITUATION:*',		# Global
 	'BONUS:SIZEMOD:*',              # Global
 	'BONUS:SKILL:*',                # Global
@@ -1887,6 +1916,7 @@ my @double_PCC_tags = (
 	'BONUS:POSTRANGEADD:*',		
 	'BONUS:RANGEADD:*',		
 	'BONUS:RANGEMULT:*',		
+	'BONUS:SAVE:*',			
 	'BONUS:SIZEMOD:*',		
 	'BONUS:SKILL:*',			
 	'BONUS:SKILLPOINTS:*',		
@@ -1921,8 +1951,6 @@ my %master_order = (
         @PRE_Tags,
         @QUALIFY_Tags,
         'SERVESAS',
-        'SA:.CLEAR',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
@@ -1960,7 +1988,6 @@ my %master_order = (
         'ADD:FORCEPOINT',
         'ADD:LANGUAGE:*',
         'ADD:SKILL:*',
-#        'ADD:SPECIAL',         # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -1968,8 +1995,6 @@ my %master_order = (
         'ADDSPELLLEVEL',
 		'APPLIEDNAME',
         'REMOVE',
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
 	@Global_BONUS_Tags,		# [ 1956340 ] Centralize global BONUS tags
         'FOLLOWERS',
         'CHANGEPROF',
@@ -1994,6 +2019,11 @@ my %master_order = (
         'UNENCUMBEREDMOVE',
 		'TEMPDESC:*',
 		'TEMPBONUS:*',
+        'SA:.CLEAR',		# Deprecated
+		'SA:*',				# Deprecated
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
     ],
 
     'ABILITYCATEGORY' => [
@@ -2021,10 +2051,10 @@ my %master_order = (
 	@PRE_Tags,
 	@SOURCE_Tags,
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
-	'SA:.CLEAR',
-	'SA:*',
 	'SAB:.CLEAR',
 	'SAB:*',
+#		'SA:.CLEAR',	# Deprecated
+#		'SA:*',			# Deprecated
     ],
 
     'BIOSET AGESET' => [
@@ -2063,14 +2093,11 @@ my %master_order = (
         'MEMORIZE',
         'KNOWNSPELLS',
         'SPELLBOOK',
-#		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
         'HASSUBCLASS',
         'ALLOWBASECLASS',
 #        'HASSUBSTITUTIONLEVEL',
         'EXCLASS',
         @SOURCE_Tags,
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
         'LANGBONUS:.CLEAR',
         'LANGBONUS:*',
         'WEAPONBONUS',
@@ -2103,7 +2130,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -2141,6 +2167,10 @@ my %master_order = (
 		'TEMPDESC:*',
 		'TEMPBONUS:*',
         'ROLE',
+#		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+#		'LANGAUTO:*',		# Deprecated - 6.0
     ],
 
     'CLASS Level' => [
@@ -2183,7 +2213,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'REMOVE',
@@ -2210,14 +2239,10 @@ my %master_order = (
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
 	'CHANGEPROF:*',
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
         'ADDDOMAINS',                   # [ 1973660 ] ADDDOMAINS is supported on Class Level lines
         @QUALIFY_Tags,
         'SERVESAS',
         'WEAPONBONUS',
-#		'FEATAUTO:.CLEAR',	# Deprecated - 6.0
-#		'FEATAUTO:*',		# Deprecated - 6.0
         'SUBCLASS',
 		'SPELLKNOWN:CLASS:*',
 		'SPELLKNOWN:DOMAIN:*',
@@ -2228,6 +2253,11 @@ my %master_order = (
         'UNENCUMBEREDMOVE',
         'TEMPDESC:*',
 		'TEMPBONUS:*',
+#       'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#	    'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+#		'LANGAUTO:*',		# Deprecated - 6.0
+#		'FEATAUTO:.CLEAR',	# Deprecated - 6.0
+#		'FEATAUTO:*',		# Deprecated - 6.0
     ],
 
     'COMPANIONMOD' => [
@@ -2339,7 +2369,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -2350,7 +2379,6 @@ my %master_order = (
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'FEATAUTO',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
@@ -2363,6 +2391,8 @@ my %master_order = (
 		'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:DOMAIN',
         'UNENCUMBEREDMOVE',
+#		'SA:*',		# Deprecated 
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'EQUIPMENT' => [
@@ -2397,7 +2427,6 @@ my %master_order = (
         'CRITMULT',
         'CRITRANGE',
         'ALTCRITMULT',
-#        'ALTCRITICAL',        # Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
         'ALTCRITRANGE',
         'FUMBLERANGE',
         'DAMAGE',
@@ -2423,7 +2452,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -2447,8 +2475,6 @@ my %master_order = (
         'QUALITY:*',                    # [ 1593868 ] New equipment tag "QUALITY"
         'SPROP:.CLEAR',
         'SPROP:*',
-        'SA:.CLEAR',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'CSKILL:.CLEAR',
@@ -2463,6 +2489,10 @@ my %master_order = (
 		'ICON',
 		'TEMPDESC:*',
 		'TEMPBONUS:*',
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'SA:.CLEAR',		# Deprecated - replaced by SAB
+#		'SA:*',				# Deprecated
+#		'ALTCRITICAL',		# Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
     ],
 
     'EQUIPMOD' => [
@@ -2570,15 +2600,12 @@ my %master_order = (
         'ADD:FORCEPOINT',
         'ADD:LANGUAGE:*',
         'ADD:SKILL',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'ADD:WEAPONPROFS',
         'ADDSPELLLEVEL',
         'APPLIEDNAME',
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'BONUS:WEAPON:*',
         'CHANGEPROF:*',
@@ -2605,6 +2632,9 @@ my %master_order = (
         'UNENCUMBEREDMOVE',
         'TEMPDESC:*',
 		'TEMPBONUS:*',
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+#		'LANGAUTO:*',		# Deprecated - 6.0
     ],
 
     'KIT ALIGN' => [
@@ -2886,8 +2916,6 @@ my %master_order = (
         @PRE_Tags,
         @QUALIFY_Tags,
         'SERVESAS',
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
         'LANGBONUS:.CLEAR',
         'LANGBONUS:*',
         'WEAPONBONUS:*',
@@ -2913,8 +2941,6 @@ my %master_order = (
         'HANDS',
         'GENDER',
         'NATURALATTACKS:*',
-        'SA:.CLEAR',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
@@ -2953,7 +2979,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -2965,6 +2990,11 @@ my %master_order = (
         'SPELLLEVEL:DOMAIN:*',
         'KIT',
         'SORTKEY',              # Gozzilioni
+#		'SA:.CLEAR',		# Deprecated
+#		'SA:*',				# Deprecated
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+#		'LANGAUTO:*',		# Deprecated - 6.0
     ],
 
    'SHIELDPROF' => [
@@ -2977,10 +3007,10 @@ my %master_order = (
 	@PRE_Tags,
 	@SOURCE_Tags,
 	@Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
-	'SA:.CLEAR',
-	'SA:*',
 	'SAB:.CLEAR',
 	'SAB:*',
+#   'SA:.CLEAR',	# Deprecated
+#   'SA:*',			# Deprecated
 	],
 
     'SKILL' => [
@@ -3016,13 +3046,13 @@ my %master_order = (
 	'CCSKILL:.CLEAR',
 	'CCSKILL',
         'REQ',
-        'SA:.CLEAR:*',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'DESC',
         'TEMPDESC:*',
 		'TEMPBONUS:*',
+#		'SA:.CLEAR:*',		# Deprecated
+#		'SA:*',				# Deprecated
     ],
 
     'SOURCE' => [
@@ -3037,6 +3067,7 @@ my %master_order = (
         'KEY',                       # [ 1695877 ] KEY tag is global
         'NAMEISPI',
         'OUTPUTNAME',
+		'TYPE',
         'CLASSES:.CLEARALL',
         'CLASSES:*',
         'DOMAINS',
@@ -3050,7 +3081,6 @@ my %master_order = (
         'DESCRIPTOR:*',
         'VARIANTS:.CLEAR',
         'VARIANTS:*',
-        'TYPE',
         'COMPS',
         'CASTTIME:.CLEAR',
         'CASTTIME:*',
@@ -3141,7 +3171,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -3153,8 +3182,6 @@ my %master_order = (
         'PROHIBITED',
         'PROHIBITSPELL:*',
         'STARTSKILLPTS',
-        'SA:.CLEAR:*',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE',
@@ -3168,6 +3195,9 @@ my %master_order = (
         'ADDDOMAINS',
         'UNENCUMBEREDMOVE',
         @SOURCE_Tags,
+#		'SA:.CLEAR:*',		# Deprecated
+#		'SA:*',				# Deprecated
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'SUBSTITUTIONCLASS' => [
@@ -3200,7 +3230,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:SPELLCASTER:*',
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
@@ -3212,8 +3241,6 @@ my %master_order = (
         'PROHIBITED',
         'PROHIBITSPELL:*',
         'STARTSKILLPTS',
-        'SA:.CLEAR:*',
-        'SA:*',
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE',
@@ -3226,6 +3253,9 @@ my %master_order = (
         'ADDDOMAINS',
         'UNENCUMBEREDMOVE',
         @SOURCE_Tags,
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'SA:.CLEAR:*',		# Deprecated
+#		'SA:*',				# Deprecated
     ],
 
     'SUBCLASSLEVEL' => [
@@ -3263,8 +3293,6 @@ my %master_order = (
         'CSKILL:*',
         'CCSKILL:.CLEAR',
         'CCSKILL:*',
-#		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
-#		'LANGAUTO:*',		# Deprecated - Remove 6.0
         'ADD:.CLEAR',
         'ADD:*',
         'ADD:ABILITY:*',
@@ -3272,12 +3300,9 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'EXCHANGELEVEL',
-#		'SPECIALS',			# Deprecated
-#		'SPELL',			# Deprecated
         'SPELLS:*',
         'TEMPLATE:.CLEAR',
         'TEMPLATE:*',
@@ -3297,6 +3322,11 @@ my %master_order = (
         'SPELLLIST',
         'NATURALATTACKS',
         'UNENCUMBEREDMOVE',
+#		'SPECIALS',			# Deprecated
+#		'SPELL',			# Deprecated
+#		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
+#		'LANGAUTO:*',		# Deprecated - Remove 6.0
+#       'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'SUBSTITUTIONLEVEL' => [
@@ -3336,8 +3366,6 @@ my %master_order = (
         'CSKILL',
         'CCSKILL:.CLEAR',
         'CCSKILL',
-#		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
-#		'LANGAUTO:*',		# Deprecated - Remove 6.0
         'ADD:.CLEAR',
         'ADD:*',
         'ADD:ABILITY:*',
@@ -3345,7 +3373,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'EXCHANGELEVEL',
@@ -3370,6 +3397,9 @@ my %master_order = (
         'SPELLLIST',
         'NATURALATTACKS',
         'UNENCUMBEREDMOVE',
+#		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
+#		'LANGAUTO:*',		# Deprecated - Remove 6.0
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'SWITCHRACE' => [
@@ -3427,7 +3457,6 @@ my %master_order = (
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
         'ADD:LANGUAGE:*',
-#        'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'FAVOREDCLASS',
@@ -3442,10 +3471,7 @@ my %master_order = (
         'AUTO:WEAPONPROF:*',
         'REMOVE:*',
         'CHANGEPROF:*',
-#               'HEIGHT',               # Deprecated
         'KIT',
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
         'LANGBONUS:.CLEAR',
         'LANGBONUS:*',
         'MOVE',
@@ -3462,11 +3488,9 @@ my %master_order = (
         'TYPE',
         'ADDLEVEL',
         'VISION',
-#               'WEIGHT',               # Deprecated
         'HD:*',
         'WEAPONBONUS',
         'GENDERLOCK',
-#        'SPELL:*',                     # Deprecated 5.x.x - Remove 6.0 - use SPELLS
         'SPELLS:*',
 		'SPELLKNOWN:CLASS:*',
 		'SPELLKNOWN:DOMAIN:*',
@@ -3481,6 +3505,12 @@ my %master_order = (
 	'DESC:*',
         'TEMPDESC:*',
 		'TEMPBONUS:*',
+#		'SPELL:*',		# Deprecated 5.x.x - Remove 6.0 - use SPELLS
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'HEIGHT',		# Deprecated
+#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+#		'LANGAUTO:*',		# Deprecated - 6.0
+#		'WEIGHT',		# Deprecated
     ],
 
     'WEAPONPROF' => [
@@ -3493,10 +3523,10 @@ my %master_order = (
         @PRE_Tags,
         @SOURCE_Tags,
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
+		'SAB:.CLEAR',
+		'SAB:*',
         'SA:.CLEAR',
         'SA:*',
-        'SAB:.CLEAR',
-        'SAB:*',
     ],
 
 	'VARIABLE' => [
@@ -3964,7 +3994,7 @@ my %tagheader = (
         'KEYSTAT'               => 'Key Stat',
         'EXCLUSIVE'             => 'Exclusive?',
         'USEUNTRAINED'          => 'Untrained?',
-		'SITUATION'			=> 'Situational Skill Use',
+		'SITUATION'			=> 'Situational Skill',
 
 #               '000TemplateName'       => '# Template Name',
 
@@ -3977,56 +4007,57 @@ my %tagheader = (
 
         'ABILITY'               => 'Ability',
         'ACCHECK'               => 'AC Penalty Check',
-        'ACHECK'                => 'Skill Penalty Apply',
+		'ACHECK'					=> 'Skill Penalty?',
         'ADD'                   => 'Add ',
-        'ADD:EQUIP'             => 'Choose Equipment',
-        'ADD:FEAT'              => 'Choose a Feat',
-        'ADD:SAB'               => 'Choose a Special Ability',
-        'ADD:SKILL'             => 'Choose a Skill',
-        'ADD:TEMPLATE'          => 'Add Template(s)',
-        'ADDDOMAINS'            => 'Additional Divine Domain',
+		'ADD:EQUIP'					=> 'Add Equipment',
+		'ADD:FEAT'					=> 'Add Feat',
+		'ADD:SAB'					=> 'Add Special Ability',
+		'ADD:SKILL'					=> 'Add Skill',
+		'ADD:TEMPLATE'				=> 'Add Template',
+		'ADDDOMAINS'				=> 'Add Divine Domain',
         'ADDSPELLLEVEL'         => 'Add Spell Lvl',
 		'APPLIEDNAME'		=> 'Applied Name',
         'AGE'                   => 'Age',
         'AGESET'                => 'Age Set',
-        'ALIGN'                 => 'Alignment',
-        'ALTCRITMULT'           => 'Alternative Critical',
+		'ALIGN'						=> 'Align',
+		'ALTCRITMULT'				=> 'Alt Crit Mult',
 #        'ALTCRITICAL'           => 'Alternative Critical',
-        'ALTCRITRANGE'          => 'Alternative Critical Range',
-        'ALTDAMAGE'             => 'Alternative Damage',
-        'ALTEQMOD'              => 'Alternative Modifier',
-        'ALTTYPE'               => 'Alternative Type',
+		'ALTCRITRANGE'				=> 'Alt Crit Range',
+		'ALTDAMAGE'					=> 'Alt Damage',
+		'ALTEQMOD'					=> 'Alt EQModifier',
+		'ALTTYPE'					=> 'Alt Type',
         'ATTACKCYCLE'           => 'Attack Cycle',
 		'ASPECT'			=> 'Aspects',
         'AUTO'                  => 'Auto',
-        'AUTO:ARMORPROF'        => 'Automatically Gained Armor Prof.',
-        'AUTO:EQUIP'            => 'Automatically Added to Inventory',
-        'AUTO:FEAT'             => 'Automatically Gained Feat',
-		'AUTO:LANG'			=> 'Automatically Gained Language',
-        'AUTO:SHIELDPROF'       => 'Automatically Gained Shield Prof.',
-        'AUTO:WEAPONPROF'       => 'Automatically Gained Weapon Prof.',
+		'AUTO:ARMORPROF'			=> 'Auto Armor Prof',
+		'AUTO:EQUIP'				=> 'Auto Equip',
+		'AUTO:FEAT'					=> 'Auto Feat',
+		'AUTO:LANG'					=> 'Auto Language',
+		'AUTO:SHIELDPROF'			=> 'Auto Shield Prof',
+		'AUTO:WEAPONPROF'			=> 'Auto Weapon Prof',
         'BASEQTY'               => 'Base Quantity',
-        'BENEFIT'               => 'Description of the Benefits',
+		'BENEFIT'					=> 'Benefits',
         'BONUS'                 => 'Bonus',
-        'BONUSSPELLSTAT'        => 'Stat for Bonus Spells',
-        'BONUS:ABILITYPOOL'   => 'Bonus to Ability Pool',
+		'BONUSSPELLSTAT'			=> 'Spell Stat Bonus',
+		'BONUS:ABILITYPOOL'			=> 'Bonus Ability Pool',
         'BONUS:CASTERLEVEL'     => 'Caster level',
         'BONUS:CHECKS'          => 'Save checks bonus',
+		'BONUS:SAVE'				=> 'Save bonus',
         'BONUS:COMBAT'          => 'Combat bonus',
         'BONUS:DAMAGE'          => 'Weapon damage bonus',
         'BONUS:DOMAIN'          => 'Add domain number',
-        'BONUS:DC'              => 'Bonus to DC',
-        'BONUS:DR'              => 'Damage reduction',
-        'BONUS:EQMARMOR'        => 'Bonus Armor Modifiers',
-        'BONUS:EQM'             => 'Bonus Equipment Modifiers',
-        'BONUS:EQMWEAPON'       => 'Bonus Weapon Modifiers',
+		'BONUS:DC'					=> 'Bonus DC',
+		'BONUS:DR'					=> 'Bonus DR',
+		'BONUS:EQMARMOR'			=> 'Bonus Armor Mods',
+		'BONUS:EQM'					=> 'Bonus Equip Mods',
+		'BONUS:EQMWEAPON'			=> 'Bonus Weapon Mods',
         'BONUS:ESIZE'           => 'Modify size',
-        'BONUS:FEAT'            => 'Bonus Number of Feats',
-        'BONUS:FOLLOWERS'       => 'Bonus Number of Followers',
+		'BONUS:FEAT'				=> 'Number of Feats',
+		'BONUS:FOLLOWERS'			=> 'Number of Followers',
         'BONUS:HD'              => 'Modify HD type',
         'BONUS:HP'              => 'Bonus to HP',
         'BONUS:ITEMCOST'        => 'Modify the item cost',
-        'BONUS:LANGUAGES'       => 'More language',
+		'BONUS:LANGUAGES'			=> 'Bonus language',
         'BONUS:MISC'            => 'Misc bonus',
         'BONUS:MOVEADD'         => 'Add to base move',
         'BONUS:MOVEMULT'        => 'Multiply base move',
@@ -4044,7 +4075,7 @@ my %tagheader = (
         'BONUS:SKILLRANK'       => 'Bonus to skill rank',
         'BONUS:SLOTS'           => 'Bonus to nb of slots',
         'BONUS:SPELL'           => 'Bonus to spell attribute',
-		'BONUS:SPECIALTYSPELLKNOWN'	=> 'Bonus to specialty spells class gets',
+		'BONUS:SPECIALTYSPELLKNOWN'	=> 'Bonus Specialty spells',
         'BONUS:SPELLCAST'       => 'Bonus to spell cast/day',
         'BONUS:SPELLCASTMULT'   => 'Multiply spell cast/day',
         'BONUS:SPELLKNOWN'      => 'Bonus to spell known/L',
@@ -4073,21 +4104,21 @@ my %tagheader = (
         'COST'                  => 'Cost',
         'CR'                    => 'Challenge Rating',
 		'CRMOD'			=> 'CR Modifier',
-        'CRITMULT'              => 'Critical Hit Multiplier',
-        'CRITRANGE'             => 'Critical Hit Range',
+		'CRITMULT'					=> 'Crit Mult',
+		'CRITRANGE'					=> 'Crit Range',
         'CSKILL:.CLEAR'         => 'Remove Class Skill',
         'CSKILL'                => 'Class Skill',
         'CT'                    => 'Casting Threshold',
         'DAMAGE'                => 'Damage',
         'DEF',                  => 'Def',
         'DEFINE'                => 'Define',
-		'DEFINESTAT'		=> 'Define a Stat',
+		'DEFINESTAT'				=> 'Define Stat',
         'DEITY'                 => 'Deity',
         'DESC'                  => 'Description',
         'DESC:.CLEAR'           => 'Clear Description',
         'DESCISPI'              => 'Desc is PI?',
         'DESCRIPTOR:.CLEAR'     => 'Clear Spell Descriptors',
-        'DESCRIPTOR'            => 'Spell Descriptors',
+		'DESCRIPTOR'				=> 'Descriptor',
         'DOMAIN'                => 'Domain',
         'DOMAINS'               => 'Domains',
         'DR:.CLEAR'             => 'Remove Damage Reduction',
@@ -4118,8 +4149,8 @@ my %tagheader = (
         'KIT'                   => 'Apply Kit',
         'KNOWN'                 => 'Known',
         'KNOWNSPELLS'           => 'Automatically Known Spell Levels',
-        'LANGAUTO'              => 'Automatic Languages',
-        'LANGAUTO:.CLEAR'       => 'Clear Automatic Languages',
+		'LANGAUTO'					=> 'Automatic Languages',				# Deprecated
+		'LANGAUTO:.CLEAR'			=> 'Clear Automatic Languages',			# Deprecated
         'LANGBONUS'             => 'Bonus Languages',
         'LANGBONUS:.CLEAR'      => 'Clear Bonus Languages',
         'LEGS'                  => 'Nb Legs',
@@ -4364,7 +4395,7 @@ my %tagheader = (
         'WEIGHT'                => 'Weight',
         'WT'                    => 'Weight',
         'XPCOST'                => 'XP Cost',
-        'XTRAFEATS'             => 'Starting Feats',
+		'XTRAFEATS'					=> 'Extra Feats',
     },
 
     'ABILITYCATEGORY' => {
@@ -6268,14 +6299,14 @@ sub FILETYPE_parse {
                         ? $header_length
                         : $col_length{$tag};
 
-                    # Round the col_length up to the next tab
+					# Round the col_length up to the next tab
                     $col_length = $tablength * ( int( $col_length / $tablength ) + 1 );
 
                     # The header
-                    my $tab_to_add = int( ( $col_length - $header_length ) / $tablength )
-                        + ( ( $col_length - $header_length ) % $tablength ? 1 : 0 );
-                    $header_line .= $header_text . $sep x $tab_to_add;
-
+				    my $tab_to_add = int( ( $col_length - $header_length ) / $tablength )
+                            + ( ( $col_length - $header_length ) % $tablength ? 1 : 0 );
+				    $header_line .= $header_text . $sep x $tab_to_add;
+                    
                     # The line
                     $tab_to_add = int( ( $col_length - $col_length{$tag} ) / $tablength )
                         + ( ( $col_length - $col_length{$tag} ) % $tablength ? 1 : 0 );
@@ -6339,10 +6370,13 @@ sub FILETYPE_parse {
                     splice( @newlines, $line_index - 1, 0, '' );
                     $line_index++;
                 }
-
-                # Replace the array with the new line
-                $newlines[$line_index] = $newline;
-                next CORE_LINE;
+                if ($conversion_enable{'No extra Tab'}) {
+				   next CORE_LINE;
+				} else {
+                   # Replace the array with the new line
+                   $newlines[$line_index] = $newline;
+                   next CORE_LINE;
+				}
             }
             else {
 
@@ -9883,6 +9917,7 @@ BEGIN {
         'roll',
         'var',
 		'mastervar',
+		'APPLIEDAS',
     );
 
     sub add_to_xcheck_tables {
@@ -10468,7 +10503,7 @@ BEGIN {
         abs     rand    mod     sqrt    sum     if      str
 
         ceil    cl      classlevel      count   floor   min
-        max     roll    skillinfo       var 	mastervar
+		max	roll	skillinfo	var	mastervar	APPLIEDAS
     );
 
     # Definition of a valid Jep identifiers. Note that all functions are
