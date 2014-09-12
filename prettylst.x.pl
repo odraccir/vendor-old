@@ -18,13 +18,13 @@
 # See perldoc prettylst.pl for more details
 
 # COMMENTS: Begin revamping prettyLST to reduce it's massive bulk. Will split out the older conversion stuff to it's own version.
-#			All Conversion forward from 5.16 is handled by the PCGen Converter
+#            All Conversion forward from 5.16 is handled by the PCGen Converter
 
-use 5.008_001;				# Perl 5.8.1 or better is now mandantory
+use 5.008_001;                # Perl 5.8.1 or better is now mandantory
 use strict;
 # use warnings;
-use Fatal qw( open close );		# Force some built-ins to die on error
-use English qw( -no_match_vars );	# No more funky punctuation variables
+use Fatal qw( open close );        # Force some built-ins to die on error
+use English qw( -no_match_vars );    # No more funky punctuation variables
 
 # If you you downloaded PrettyLst from SVN but you do not have an SVN Client
 # you will need to revise the line starting with my $SVN_id = . At the end of that line
@@ -33,16 +33,16 @@ use English qw( -no_match_vars );	# No more funky punctuation variables
 # Change the old build number and the date and time values
 # to the values shown on SVN for this revision.
 
-# Version information			# Converting to SVN Id parsing using array - Tir Gwaith
-my $SVN_id = '$Id: prettylst.pl xxxxx 2013-01-09 07:11:31Z ricky $';
+# Version information            # Converting to SVN Id parsing using array - Tir Gwaith
+my $SVN_id = '$Id$';
 my @SVN_array = split ' ', $SVN_id;
 my $SVN_build = $SVN_array[2];
 my $SVN_date = $SVN_array[3];
 $SVN_date =~ tr{-}{.};
-my $VERSION		= "1.51 (build $SVN_build)";
-my $VERSION_DATE	= $SVN_date;
-my ($SCRIPTNAME)	= ( $PROGRAM_NAME =~ m{ ( [^/\\]* ) \z }xms );
-my $VERSION_LONG	= "$SCRIPTNAME version: $VERSION -- $VERSION_DATE";
+my $VERSION        = "1.51 (build $SVN_build)";
+my $VERSION_DATE    = $SVN_date;
+my ($SCRIPTNAME)    = ( $PROGRAM_NAME =~ m{ ( [^/\\]* ) \z }xms );
+my $VERSION_LONG    = "$SCRIPTNAME version: $VERSION -- $VERSION_DATE";
 
 my $today = localtime;
 our $logging;
@@ -50,11 +50,11 @@ our $logging;
 use Carp;
 use Getopt::Long;
 use FileHandle;
-use Pod::Html	();	# We do not import any function for
-use Pod::Text	();	# the modules other than "system" modules
-use Pod::Usage	();
-use Data::Dumper	();
-use File::Find	();
+use Pod::Html    ();    # We do not import any function for
+use Pod::Text    ();    # the modules other than "system" modules
+use Pod::Usage    ();
+use Data::Dumper    ();
+use File::Find    ();
 use File::Basename ();
 use Text::Balanced ();
 use lib '.';
@@ -118,13 +118,13 @@ my %validfiletype = (
     'SOURCESHORT'  => 0,
     'SOURCEWEB'    => 0,
     'SOURCEDATE'   => 0,                  #[ 1584007 ] New Tag: SOURCEDATE in PCC
-	'SOURCELINK'	=> 0,
+    'SOURCELINK'    => 0,
     'SPELL'        => \&FILETYPE_parse,
     'TEMPLATE'     => \&FILETYPE_parse,
     'WEAPONPROF'   => \&FILETYPE_parse,
     'ARMORPROF'    => \&FILETYPE_parse,
     'SHIELDPROF'   => \&FILETYPE_parse,
-	'VARIABLE'		=> \&FILETYPE_parse,
+    'VARIABLE'        => \&FILETYPE_parse,
     '#EXTRAFILE'   => 1,
 );
 
@@ -156,7 +156,7 @@ my %writefiletype = (
     'ARMORPROF'    => 1,
     'SHIELDPROF'   => 1,
     '#EXTRAFILE'   => 0,
-	'VARIABLE'		=> 1,
+    'VARIABLE'        => 1,
 );
 
 # The active conversions
@@ -201,7 +201,7 @@ my %conversion_enable =
      'CLASSSPELL convertion to SPELL'     => 0,               #[ 641912 ] Convert CLASSSPELL to SPELL
      'SPELL:Add TYPE tags'                => 0,               #[ 653596 ] Add a TYPE tag for all SPELLs
      'BIOSET:generate the new files'      => 0,               #[ 663491 ] RACE: Convert AGE, HEIGHT and WEIGHT tags
-     'EQUIPMENT: generate EQMOD'          => 0,               #[ 677962 ] The DMG wands have no charge.
+     'EQUIPMENT: generate EQMOD'          => 1,               #[ 677962 ] The DMG wands have no charge.
      'CLASS: SPELLLIST from Spell.MOD'    => 0,               #[ 779341 ] Spell Name.MOD to CLASS's SPELLLEVEL
      'PCC:GAMEMODE Add to the CMP DnD_'   => 0,               #In order for the CMP files to work with the
                                                               # normal PCGEN files
@@ -217,8 +217,8 @@ my %conversion_enable =
        'ALL:ADD Syntax Fix'                 => 0,               #[1678577 ] ADD: syntax no longer uses parens
        'ALL:PRESPELLTYPE Syntax'            => 0,               #[1678570 ] Correct PRESPELLTYPE syntax
      'ALL:Convert ADD:SA to ADD:SAB'      => 0,               #[ 1864711 ] Convert ADD:SA to ADD:SAB
-	'CLASS:no more HASSPELLFORMULA'	=> 0,			#[ 1973497 ] HASSPELLFORMULA is deprecated
-	'No extra Tab'	=> 1,			# Gozzilioni - no adding unwanted tabs when reformetting
+    'CLASS:no more HASSPELLFORMULA'    => 0,            #[ 1973497 ] HASSPELLFORMULA is deprecated
+    'No extra Tab'    => 1,            # Gozzilioni - no adding unwanted tabs when reformetting
 
 );
 
@@ -365,9 +365,9 @@ if ( $cl_options{convert} ) {
     if ( $cl_options{convert} eq 'ADD:SAB' ) {
        $conversion_enable{'ALL:Convert ADD:SA to ADD:SAB'} = 1;
        }
-	elsif ( $cl_options{convert} eq 'pcgen60' ) {
-	$conversion_enable{'CLASS:no more HASSPELLFORMULA'} = 1;
-	}
+    elsif ( $cl_options{convert} eq 'pcgen60' ) {
+    $conversion_enable{'CLASS:no more HASSPELLFORMULA'} = 1;
+    }
     elsif ( $cl_options{convert} eq 'RACETYPE' ) {
         $conversion_enable{'RACE:TYPE to RACETYPE'} = 1;
     }
@@ -397,7 +397,7 @@ if ( $cl_options{convert} ) {
 
     }
     elsif ( $cl_options{convert} eq 'pcgen595' ) {
-	#		$conversion_enable{'ALL:PRERACE needs a ,'} = 1;
+    #        $conversion_enable{'ALL:PRERACE needs a ,'} = 1;
     }
     elsif ( $cl_options{convert} eq 'pcgen580' ) {
         $conversion_enable{'ALL:PREALIGN conversion'} = 1;
@@ -558,20 +558,20 @@ my @valid_system_game_modes     = qw(
     35e
     3e
     Deadlands
-	Darwins_World_2
-	FantasyCraft
-	Gaslight
-	Killshot
+    Darwins_World_2
+    FantasyCraft
+    Gaslight
+    Killshot
     LoE
     Modern
     Pathfinder
     Sidewinder
     Spycraft
     Xcrawl
-	OSRIC
+    OSRIC
     
 # Third Party/Homebrew Support
-	DnD
+    DnD
     CMP_D20_Fantasy_v30e
     CMP_D20_Fantasy_v35e
     CMP_D20_Fantasy_v35e_Kalamar
@@ -584,7 +584,7 @@ my @valid_system_game_modes     = qw(
     CMP_DnD_Oriental_Adventures_v30e
     CMP_DnD_Oriental_Adventures_v35e
     CMP_HARP
-	SovereignStoneD20
+    SovereignStoneD20
 
 );
 
@@ -625,7 +625,7 @@ my @valid_system_var_names      = qw(
     MOVEBASE                                SHIELDACCHECK           SIZE
     SKILLRANK                               SKILLTOTAL                      SPELLFAILURE
     SR                                      TL                              LIST
-	MASTERVAR	APPLIEDAS
+    MASTERVAR    APPLIEDAS
     
 );
 
@@ -664,20 +664,20 @@ my %valid_game_modes = map { $_ => 1 } (
     'CMP_D20_Fantasy_v35e_VPWP',
 
     # 
-	'4e',
-	'5e',
-	'DnDNext',
+    '4e',
+    '5e',
+    'DnDNext',
 #
-	'AE',
-	'Arcana_Evolved',
-	'Dragon_Age',
-	'MC_WoD',
-	'MutantsAndMasterminds3e',
-	'Starwars_SE',
-	'SWSE',
-	'Starwars_Edge',
-	'T20',
-	'Traveller20',
+    'AE',
+    'Arcana_Evolved',
+    'Dragon_Age',
+    'MC_WoD',
+    'MutantsAndMasterminds3e',
+    'Starwars_SE',
+    'SWSE',
+    'Starwars_Edge',
+    'T20',
+    'Traveller20',
 
 
 );
@@ -714,7 +714,7 @@ my %tag_fix_value = (
     STACK          => { YES => 1, NO => 1 },
     SPELLBOOK      => { YES => 1, NO => 1 },
     SPELLSTAT      => { map { $_ => 1 } ( @valid_system_stats, 'SPELL', 'NONE', 'OTHER' ) },
-	TIMEUNIT		=> { map { $_ => 1 } ( 'Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Round', 'Encounter', 'Charges' ) },
+    TIMEUNIT        => { map { $_ => 1 } ( 'Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Round', 'Encounter', 'Charges' ) },
     USEUNTRAINED   => { YES => 1, NO => 1 },
     USEMASTERSKILL => { YES => 1, NO => 1 },
     VISIBLE        => { YES => 1, NO => 1, EXPORT => 1, DISPLAY => 1, QUALIFY => 1, CSHEET => 1, GUI => 1 }, #[ 1593907 ] False warning: Invalid value "CSHEET" for tag "VISIBLE"
@@ -810,7 +810,7 @@ my %PREALIGN_conversion_5715 = qw(
 ) if $conversion_enable{'ALL:PREALIGN conversion'};
 
 my %Key_conversion_56 = qw(
-	BIND		BLIND
+    BIND        BLIND
 ) if $conversion_enable{'ALL:EQMOD has new keys'};
 #  ABENHABON     BNS_ENHC_AB
 #  ABILITYMINUS    BNS_ENHC_AB
@@ -1321,19 +1321,19 @@ my %master_file_type = (
         {   Linetype        => 'KIT FEAT',
             RegEx           => qr{^FEAT:([^\t]*)},
             Mode            => SUB,
- 	    Format          => BLOCK,
+         Format          => BLOCK,
             Header          => NO_HEADER,
         },
-	{   Linetype        => 'KIT FUNDS',
-	    RegEx           => qr{^FUNDS:([^\t]*)},
-	    Mode            => SUB,
+    {   Linetype        => 'KIT FUNDS',
+        RegEx           => qr{^FUNDS:([^\t]*)},
+        Mode            => SUB,
             Format          => BLOCK,
             Header          => NO_HEADER,
         },
         {   Linetype        => 'KIT GEAR',
             RegEx           => qr{^GEAR:([^\t]*)},
             Mode            => SUB,
-	    Format          => BLOCK,
+        Format          => BLOCK,
             Header          => NO_HEADER,
         },
         {   Linetype        => 'KIT GENDER',
@@ -1354,12 +1354,12 @@ my %master_file_type = (
             Format          => FIRST_COLUMN,
             Header          => NO_HEADER,
         },
-		{ Linetype	=> 'KIT LANGBONUS',
-			RegEx		=> qr{^LANGBONUS:([^\t]*)},
-			Mode		=> SUB,
-			Format	=> FIRST_COLUMN,
-			Header	=> NO_HEADER,
-		},
+        { Linetype    => 'KIT LANGBONUS',
+            RegEx        => qr{^LANGBONUS:([^\t]*)},
+            Mode        => SUB,
+            Format    => FIRST_COLUMN,
+            Header    => NO_HEADER,
+        },
         {   Linetype        => 'KIT LEVELABILITY',
             RegEx           => qr{^LEVELABILITY:([^\t]*)},
             Mode            => SUB,
@@ -1511,16 +1511,16 @@ my %master_file_type = (
         },
    ],
 
-	VARIABLE => [
-		\%SOURCE_file_type_def,
-		{ Linetype	=> 'VARIABLE',
-			RegEx			=> qr(^([^\t:]+)),
-			Mode			=> MAIN,
-			Format		=> BLOCK,
-			Header		=> BLOCK_HEADER,
-			ValidateKeep	=> YES,
-		},
-	],
+    VARIABLE => [
+        \%SOURCE_file_type_def,
+        { Linetype    => 'VARIABLE',
+            RegEx            => qr(^([^\t:]+)),
+            Mode            => MAIN,
+            Format        => BLOCK,
+            Header        => BLOCK_HEADER,
+            ValidateKeep    => YES,
+        },
+    ],
 
 
 );
@@ -1563,8 +1563,8 @@ my @PRE_Tags = (
     '!PRECHECKBASE',
     'PRECITY',
     '!PRECITY',
-	'PRECHARACTERTYPE',
-	'!PRECHARACTERTYPE',
+    'PRECHARACTERTYPE',
+    '!PRECHARACTERTYPE',
     'PRECLASS',
     '!PRECLASS',
     'PRECLASSLEVELMAX',
@@ -1629,18 +1629,18 @@ my @PRE_Tags = (
     '!PRELEVEL',
     'PRELEVELMAX',
     '!PRELEVELMAX',
-	'PREKIT',
-	'!PREKIT',
+    'PREKIT',
+    '!PREKIT',
     'PREMOVE',
     '!PREMOVE',
     'PREMULT:*',
     '!PREMULT:*',
     'PREPCLEVEL',
     '!PREPCLEVEL',
-	'PREPROFWITHARMOR',
-	'!PREPROFWITHARMOR',
-	'PREPROFWITHSHIELD',
-	'!PREPROFWITHSHIELD',
+    'PREPROFWITHARMOR',
+    '!PREPROFWITHARMOR',
+    'PREPROFWITHSHIELD',
+    '!PREPROFWITHSHIELD',
     'PRERACE:*',
     '!PRERACE:*',
     'PREREACH',
@@ -1662,8 +1662,8 @@ my @PRE_Tags = (
     '!PRERULE',
     'PRESA',
     '!PRESA',
-	'PRESITUATION',
-	'!PRESITUATION',
+    'PRESITUATION',
+    '!PRESITUATION',
     'PRESHIELDPROF',
     '!PRESHIELDPROF',
     'PRESIZEEQ',
@@ -1728,8 +1728,8 @@ my @PRE_Tags = (
     '!PRETEXT',
     'PRETYPE:*',
     '!PRETYPE:*',
-	'PRETOTALAB:*',
-	'!PRETOTALAB:*',
+    'PRETOTALAB:*',
+    '!PRETOTALAB:*',
     'PREUATT',
     '!PREUATT',
     'PREVAREQ:*',
@@ -1756,7 +1756,7 @@ my @PRE_Tags = (
 
 # Hash used by validate_pre_tag to verify if a PRExxx tag exists
 my %PRE_Tags = (
-	'PREAPPLY'		=> 1,	# Only valid when embeded - THIS IS DEPRECATED
+    'PREAPPLY'        => 1,    # Only valid when embeded - THIS IS DEPRECATED
 # Uncommenting until conversion for monster kits is done to prevent error messages.
     'PREDEFAULTMONSTER' => 1,    # Only valid when embeded
 );
@@ -1772,41 +1772,41 @@ for my $pre_tag (@PRE_Tags) {
 }
 
 my %double_PCC_tags = (
-	'BONUS:ABILITYPOOL',	=> 1,
-	'BONUS:CASTERLEVEL',	=> 1,
-	'BONUS:CHECKS',		=> 1,
-	'BONUS:COMBAT',		=> 1,
-	'BONUS:DC',			=> 1,
-	'BONUS:DOMAIN',		=> 1,
-	'BONUS:DR',			=> 1,
-	'BONUS:FEAT',		=> 1,
-	'BONUS:FOLLOWERS',	=> 1,
-	'BONUS:HP',			=> 1,
-	'BONUS:MISC',		=> 1,
-	'BONUS:MOVEADD',		=> 1,
-	'BONUS:MOVEMULT',		=> 1,
-	'BONUS:PCLEVEL',		=> 1,
-	'BONUS:POSTMOVEADD',	=> 1,
-	'BONUS:POSTRANGEADD',	=> 1,
-	'BONUS:RANGEADD',		=> 1,
-	'BONUS:RANGEMULT',	=> 1,
-	'BONUS:SITUATION',		=> 1,
-	'BONUS:SIZEMOD',		=> 1,
-	'BONUS:SKILL',		=> 1,
-	'BONUS:SKILLPOINTS',	=> 1,
-	'BONUS:SKILLPOOL',	=> 1,
-	'BONUS:SKILLRANK',	=> 1,
-	'BONUS:SLOTS',		=> 1,
-	'BONUS:SPECIALTYSPELLKNOWN',		=> 1,
-	'BONUS:SPELLCAST',	=> 1,
-	'BONUS:SPELLCASTMULT',	=> 1,
-	'BONUS:SPELLKNOWN',	=> 1,
-	'BONUS:STAT',		=> 1,
-	'BONUS:UDAM',		=> 1,
-	'BONUS:VAR',		=> 1,
-	'BONUS:VISION',		=> 1,
-	'BONUS:WEAPONPROF',	=> 1,
-	'BONUS:WIELDCATEGORY',	=> 1,
+    'BONUS:ABILITYPOOL',    => 1,
+    'BONUS:CASTERLEVEL',    => 1,
+    'BONUS:CHECKS',        => 1,
+    'BONUS:COMBAT',        => 1,
+    'BONUS:DC',            => 1,
+    'BONUS:DOMAIN',        => 1,
+    'BONUS:DR',            => 1,
+    'BONUS:FEAT',        => 1,
+    'BONUS:FOLLOWERS',    => 1,
+    'BONUS:HP',            => 1,
+    'BONUS:MISC',        => 1,
+    'BONUS:MOVEADD',        => 1,
+    'BONUS:MOVEMULT',        => 1,
+    'BONUS:PCLEVEL',        => 1,
+    'BONUS:POSTMOVEADD',    => 1,
+    'BONUS:POSTRANGEADD',    => 1,
+    'BONUS:RANGEADD',        => 1,
+    'BONUS:RANGEMULT',    => 1,
+    'BONUS:SITUATION',        => 1,
+    'BONUS:SIZEMOD',        => 1,
+    'BONUS:SKILL',        => 1,
+    'BONUS:SKILLPOINTS',    => 1,
+    'BONUS:SKILLPOOL',    => 1,
+    'BONUS:SKILLRANK',    => 1,
+    'BONUS:SLOTS',        => 1,
+    'BONUS:SPECIALTYSPELLKNOWN',        => 1,
+    'BONUS:SPELLCAST',    => 1,
+    'BONUS:SPELLCASTMULT',    => 1,
+    'BONUS:SPELLKNOWN',    => 1,
+    'BONUS:STAT',        => 1,
+    'BONUS:UDAM',        => 1,
+    'BONUS:VAR',        => 1,
+    'BONUS:VISION',        => 1,
+    'BONUS:WEAPONPROF',    => 1,
+    'BONUS:WIELDCATEGORY',    => 1,
  );
 
 
@@ -1816,7 +1816,7 @@ my @SOURCE_Tags = (
     'SOURCEWEB',
     'SOURCEPAGE:.CLEAR',
     'SOURCEPAGE',
-	'SOURCELINK',
+    'SOURCELINK',
 );
 
 my @QUALIFY_Tags = (
@@ -1841,43 +1841,43 @@ my @QUALIFY_Tags = (
 # BONUSes only valid for specific line types are listed on those line types
 my @Global_BONUS_Tags = (
 
-	'BONUS:ABILITYPOOL:*',          # Global
-	'BONUS:CASTERLEVEL:*',          # Global
-	# 'BONUS:CHECKS:*',               # Global [Deprecated 6.03.01]
-	'BONUS:COMBAT:*',               # Global
-	'BONUS:DC:*',                   # Global
-	'BONUS:DOMAIN:*',               # Global
-	'BONUS:DR:*',                   # Global
-	'BONUS:FEAT:*',                 # Global
-	'BONUS:FOLLOWERS',              # Global
-	'BONUS:HP:*',                   # Global
-	'BONUS:MISC:*',                 # Global
-	'BONUS:MOVEADD:*',              # Global
-	'BONUS:MOVEMULT:*',             # Global
-	'BONUS:PCLEVEL:*',              # Global
-	'BONUS:POSTMOVEADD:*',          # Global
-	'BONUS:POSTRANGEADD:*',         # Global
-	'BONUS:RANGEADD:*',             # Global
-	'BONUS:RANGEMULT:*',            # Global
-	'BONUS:SAVE:*',				# Global	Replacement for CHECKS
-	'BONUS:SITUATION:*',		# Global
-	'BONUS:SIZEMOD:*',              # Global
-	'BONUS:SKILL:*',                # Global
-	'BONUS:SKILLPOINTS:*',          # Global
-	'BONUS:SKILLPOOL:*',            # Global
-	'BONUS:SKILLRANK:*',            # Global
-	'BONUS:SLOTS:*',                # Global
-	'BONUS:SPECIALTYSPELLKNOWN:*',			# Global
-	'BONUS:SPELLCAST:*',            # Global
-	'BONUS:SPELLCASTMULT:*',        # Global
-	'BONUS:SPELLPOINTCOST:*',	# Global
-	'BONUS:SPELLKNOWN:*',           # Global
-	'BONUS:STAT:*',                 # Global
-	'BONUS:UDAM:*',                 # Global
-	'BONUS:VAR:*',                  # Global
-	'BONUS:VISION:*',               # Global
-	'BONUS:WEAPONPROF:*',           # Global
-	'BONUS:WIELDCATEGORY:*',        # Global
+    'BONUS:ABILITYPOOL:*',          # Global
+    'BONUS:CASTERLEVEL:*',          # Global
+    # 'BONUS:CHECKS:*',               # Global [Deprecated 6.03.01]
+    'BONUS:COMBAT:*',               # Global
+    'BONUS:DC:*',                   # Global
+    'BONUS:DOMAIN:*',               # Global
+    'BONUS:DR:*',                   # Global
+    'BONUS:FEAT:*',                 # Global
+    'BONUS:FOLLOWERS',              # Global
+    'BONUS:HP:*',                   # Global
+    'BONUS:MISC:*',                 # Global
+    'BONUS:MOVEADD:*',              # Global
+    'BONUS:MOVEMULT:*',             # Global
+    'BONUS:PCLEVEL:*',              # Global
+    'BONUS:POSTMOVEADD:*',          # Global
+    'BONUS:POSTRANGEADD:*',         # Global
+    'BONUS:RANGEADD:*',             # Global
+    'BONUS:RANGEMULT:*',            # Global
+    'BONUS:SAVE:*',                # Global    Replacement for CHECKS
+    'BONUS:SITUATION:*',        # Global
+    'BONUS:SIZEMOD:*',              # Global
+    'BONUS:SKILL:*',                # Global
+    'BONUS:SKILLPOINTS:*',          # Global
+    'BONUS:SKILLPOOL:*',            # Global
+    'BONUS:SKILLRANK:*',            # Global
+    'BONUS:SLOTS:*',                # Global
+    'BONUS:SPECIALTYSPELLKNOWN:*',            # Global
+    'BONUS:SPELLCAST:*',            # Global
+    'BONUS:SPELLCASTMULT:*',        # Global
+    'BONUS:SPELLPOINTCOST:*',    # Global
+    'BONUS:SPELLKNOWN:*',           # Global
+    'BONUS:STAT:*',                 # Global
+    'BONUS:UDAM:*',                 # Global
+    'BONUS:VAR:*',                  # Global
+    'BONUS:VISION:*',               # Global
+    'BONUS:WEAPONPROF:*',           # Global
+    'BONUS:WIELDCATEGORY:*',        # Global
 #       'BONUS:DAMAGE:*',               # Deprecated
 #       'BONUS:DEFINE:*',               # Not listed in the Docs
 #       'BONUS:EQM:*',                  # Equipment and EquipMod files only
@@ -1898,42 +1898,42 @@ my @Global_BONUS_Tags = (
 
 # Global tags allowed in PCC files.
 my @double_PCC_tags = (
-	'BONUS:ABILITYPOOL:*',		
-	'BONUS:CASTERLEVEL:*',		
-	'BONUS:CHECKS:*',			
-	'BONUS:COMBAT:*',			
-	'BONUS:DC:*',			
-	'BONUS:DOMAIN:*',			
-	'BONUS:DR:*',			
-	'BONUS:FEAT:*',			
-	'BONUS:FOLLOWERS',		
-	'BONUS:HP:*',			
-	'BONUS:MISC:*',			
-	'BONUS:MOVEADD:*',		
-	'BONUS:MOVEMULT:*',		
-	'BONUS:PCLEVEL:*',		
-	'BONUS:POSTMOVEADD:*',		
-	'BONUS:POSTRANGEADD:*',		
-	'BONUS:RANGEADD:*',		
-	'BONUS:RANGEMULT:*',		
-	'BONUS:SAVE:*',			
-	'BONUS:SIZEMOD:*',		
-	'BONUS:SKILL:*',			
-	'BONUS:SKILLPOINTS:*',		
-	'BONUS:SKILLPOOL:*',		
-	'BONUS:SKILLRANK:*',		
-	'BONUS:SLOTS:*',			
-	'BONUS:SPECIALTYSPELLKNOWN:*',
-	'BONUS:SPELLCAST:*',		
-	'BONUS:SPELLCASTMULT:*',	
-	'BONUS:SPELLKNOWN:*',		
-	'BONUS:STAT:*',			
-	'BONUS:UDAM:*',			
-	'BONUS:VAR:*',			
-	'BONUS:VISION:*',			
-	'BONUS:WEAPONPROF:*',		
-	'BONUS:WIELDCATEGORY:*',	
-);	
+    'BONUS:ABILITYPOOL:*',        
+    'BONUS:CASTERLEVEL:*',        
+    'BONUS:CHECKS:*',            
+    'BONUS:COMBAT:*',            
+    'BONUS:DC:*',            
+    'BONUS:DOMAIN:*',            
+    'BONUS:DR:*',            
+    'BONUS:FEAT:*',            
+    'BONUS:FOLLOWERS',        
+    'BONUS:HP:*',            
+    'BONUS:MISC:*',            
+    'BONUS:MOVEADD:*',        
+    'BONUS:MOVEMULT:*',        
+    'BONUS:PCLEVEL:*',        
+    'BONUS:POSTMOVEADD:*',        
+    'BONUS:POSTRANGEADD:*',        
+    'BONUS:RANGEADD:*',        
+    'BONUS:RANGEMULT:*',        
+    'BONUS:SAVE:*',            
+    'BONUS:SIZEMOD:*',        
+    'BONUS:SKILL:*',            
+    'BONUS:SKILLPOINTS:*',        
+    'BONUS:SKILLPOOL:*',        
+    'BONUS:SKILLRANK:*',        
+    'BONUS:SLOTS:*',            
+    'BONUS:SPECIALTYSPELLKNOWN:*',
+    'BONUS:SPELLCAST:*',        
+    'BONUS:SPELLCASTMULT:*',    
+    'BONUS:SPELLKNOWN:*',        
+    'BONUS:STAT:*',            
+    'BONUS:UDAM:*',            
+    'BONUS:VAR:*',            
+    'BONUS:VISION:*',            
+    'BONUS:WEAPONPROF:*',        
+    'BONUS:WIELDCATEGORY:*',    
+);    
 
 
 # Order for the tags for each line type.
@@ -1941,7 +1941,7 @@ my %master_order = (
     'ABILITY' => [
         '000AbilityName',
         'KEY',
-		'SORTKEY',
+        'SORTKEY',
         'NAMEISPI',
         'OUTPUTNAME',
         'CATEGORY',
@@ -1954,7 +1954,7 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'SPELL:*',
         'SPELLS:*',
         'DESCISPI',
@@ -1971,7 +1971,7 @@ my %master_order = (
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'UDAM',
@@ -1993,9 +1993,9 @@ my %master_order = (
         'ADD:VFEAT:*',
         'ADD:WEAPONPROFS',
         'ADDSPELLLEVEL',
-		'APPLIEDNAME',
+        'APPLIEDNAME',
         'REMOVE',
-	@Global_BONUS_Tags,		# [ 1956340 ] Centralize global BONUS tags
+    @Global_BONUS_Tags,        # [ 1956340 ] Centralize global BONUS tags
         'FOLLOWERS',
         'CHANGEPROF',
         'COMPANIONLIST:*',
@@ -2011,50 +2011,50 @@ my %master_order = (
         @SOURCE_Tags,
         'NATURALATTACKS',
         'ASPECT:*',
-		'BENEFIT:*',
-		'SPELLKNOWN:CLASS:*',
-		'SPELLKNOWN:DOMAIN:*',
+        'BENEFIT:*',
+        'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'UNENCUMBEREDMOVE',
-		'TEMPDESC:*',
-		'TEMPBONUS:*',
-        'SA:.CLEAR',		# Deprecated
-		'SA:*',				# Deprecated
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
+        'TEMPDESC:*',
+        'TEMPBONUS:*',
+        'SA:.CLEAR',        # Deprecated
+        'SA:*',                # Deprecated
+        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
+        'LANGAUTO:*',        # Deprecated - 6.0
     ],
 
     'ABILITYCATEGORY' => [
-	'000AbilityCategory',
-	'VISIBLE',
-	'EDITABLE',
-	'EDITPOOL',
-	'FRACTIONALPOOL',
-	'POOL',
-	'CATEGORY',
-	'TYPE',
-		'ABILITYLIST',
-	'PLURAL',
-	'DISPLAYNAME',
-	'DISPLAYLOCATION',
-	],  	 
+    '000AbilityCategory',
+    'VISIBLE',
+    'EDITABLE',
+    'EDITPOOL',
+    'FRACTIONALPOOL',
+    'POOL',
+    'CATEGORY',
+    'TYPE',
+        'ABILITYLIST',
+    'PLURAL',
+    'DISPLAYNAME',
+    'DISPLAYLOCATION',
+    ],       
 
     'ARMORPROF' => [
         '000ArmorName',
         'KEY',
         'NAMEISPI',
-	'OUTPUTNAME',
-	'TYPE',
-	'HANDS',
-	@PRE_Tags,
-	@SOURCE_Tags,
+    'OUTPUTNAME',
+    'TYPE',
+    'HANDS',
+    @PRE_Tags,
+    @SOURCE_Tags,
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
-	'SAB:.CLEAR',
-	'SAB:*',
-#		'SA:.CLEAR',	# Deprecated
-#		'SA:*',			# Deprecated
+    'SAB:.CLEAR',
+    'SAB:*',
+#        'SA:.CLEAR',    # Deprecated
+#        'SA:*',            # Deprecated
     ],
 
     'BIOSET AGESET' => [
@@ -2086,7 +2086,7 @@ my %master_order = (
         'BONUSSPELLSTAT',
         'SPELLTYPE',
         'TYPE',
-		'CLASSTYPE',
+        'CLASSTYPE',
         'ABB',
         'MAXLEVEL',
         'CASTAS',
@@ -2111,16 +2111,16 @@ my %master_order = (
         'PROHIBITED',
         'PROHIBITSPELL:*',
         'LEVELSPERFEAT',
-	'ABILITY:*',
+    'ABILITY:*',
         'VFEAT:*',
         'MULTIPREREQS',
         'VISIBLE',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'ADD:.CLEAR',
@@ -2159,18 +2159,18 @@ my %master_order = (
         'CCSKILL',
         'MONSKILL',
         'MONNONSKILLHD:*',
-		'SPELLKNOWN:CLASS:*',
-		'SPELLKNOWN:DOMAIN:*',
+        'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS',
         'SPELLLEVEL:DOMAIN',
         'UNENCUMBEREDMOVE',
-		'TEMPDESC:*',
-		'TEMPBONUS:*',
+        'TEMPDESC:*',
+        'TEMPBONUS:*',
         'ROLE',
-#		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
+#        'HASSPELLFORMULA',        # [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
+#        'LANGAUTO:*',        # Deprecated - 6.0
     ],
 
     'CLASS Level' => [
@@ -2201,7 +2201,7 @@ my %master_order = (
          @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'BONUS:WEAPON:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'CSKILL:.CLEAR',
         'CSKILL',
         'CCSKILL:.CLEAR',
@@ -2235,29 +2235,29 @@ my %master_order = (
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
-	'CHANGEPROF:*',
+    'CHANGEPROF:*',
         'ADDDOMAINS',                   # [ 1973660 ] ADDDOMAINS is supported on Class Level lines
         @QUALIFY_Tags,
         'SERVESAS',
         'WEAPONBONUS',
         'SUBCLASS',
-		'SPELLKNOWN:CLASS:*',
-		'SPELLKNOWN:DOMAIN:*',
+        'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS',
         'SPELLLEVEL:DOMAIN',
         'SPELLLIST',
         'NATURALATTACKS',
         'UNENCUMBEREDMOVE',
         'TEMPDESC:*',
-		'TEMPBONUS:*',
-#       'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#	    'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
-#		'FEATAUTO:.CLEAR',	# Deprecated - 6.0
-#		'FEATAUTO:*',		# Deprecated - 6.0
+        'TEMPBONUS:*',
+#       'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
+#        'LANGAUTO:*',        # Deprecated - 6.0
+#        'FEATAUTO:.CLEAR',    # Deprecated - 6.0
+#        'FEATAUTO:*',        # Deprecated - 6.0
     ],
 
     'COMPANIONMOD' => [
@@ -2282,7 +2282,7 @@ my %master_order = (
         'GENDER',
         'PRERACE',
         '!PRERACE',
-	'MOVE',
+    'MOVE',
         'KIT',
         'AUTO:ARMORPROF:*',
         'SA:.CLEAR',
@@ -2291,11 +2291,11 @@ my %master_order = (
         'SAB:*',
         'ADD:LANGUAGE',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'RACETYPE',
         'SWITCHRACE:*',
-		'TEMPLATE:*',		# [ 2946558 ] TEMPLATE can be used in COMPANIONMOD lines
+        'TEMPLATE:*',        # [ 2946558 ] TEMPLATE can be used in COMPANIONMOD lines
         'STACK',
         'MULT',
         'CHOOSE',
@@ -2326,7 +2326,7 @@ my %master_order = (
         'APPEARANCE',
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'SR',
         'DR',
         'VFEAT:*',
@@ -2375,24 +2375,24 @@ my %master_order = (
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'FEATAUTO',
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         @SOURCE_Tags,
         'DESCISPI',
         'DESC:.CLEAR',
         'DESC:*',
-		'SPELLKNOWN:DOMAIN:*',
+        'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:DOMAIN',
         'UNENCUMBEREDMOVE',
-#		'SA:*',		# Deprecated 
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'SA:*',        # Deprecated 
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'EQUIPMENT' => [
@@ -2400,9 +2400,9 @@ my %master_order = (
         'KEY',
         'NAMEISPI',
         'OUTPUTNAME',
-		'PROFICIENCY:WEAPON',
-		'PROFICIENCY:ARMOR',
-		'PROFICIENCY:SHIELD',
+        'PROFICIENCY:WEAPON',
+        'PROFICIENCY:ARMOR',
+        'PROFICIENCY:SHIELD',
         'TYPE:.CLEAR',
         'TYPE:*',
         'ALTTYPE',
@@ -2416,7 +2416,7 @@ my %master_order = (
         @PRE_Tags,
         @QUALIFY_Tags,
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'ACCHECK:*',
         'BASEITEM',
         'BASEQTY',
@@ -2486,13 +2486,13 @@ my %master_order = (
         'AUTO:WEAPONPROF:*',
         'DESC:*',
         'UNENCUMBEREDMOVE',
-		'ICON',
-		'TEMPDESC:*',
-		'TEMPBONUS:*',
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#		'SA:.CLEAR',		# Deprecated - replaced by SAB
-#		'SA:*',				# Deprecated
-#		'ALTCRITICAL',		# Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
+        'ICON',
+        'TEMPDESC:*',
+        'TEMPBONUS:*',
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'SA:.CLEAR',        # Deprecated - replaced by SAB
+#        'SA:*',                # Deprecated
+#        'ALTCRITICAL',        # Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
     ],
 
     'EQUIPMOD' => [
@@ -2540,7 +2540,7 @@ my %master_order = (
         'ASSIGNTOALL',
         'CHARGES',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'SPELL',
         'SPELLS:*',
         'RATEOFFIRE',
@@ -2565,7 +2565,7 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'SPELL:*',
         'SPELLS:*',
         'DESCISPI',
@@ -2583,7 +2583,7 @@ my %master_order = (
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'UDAM',
@@ -2623,18 +2623,18 @@ my %master_order = (
         'KIT',
         @SOURCE_Tags,
         'NATURALATTACKS',
-		'ASPECT:*',
-		'BENEFIT:*',
-		'SPELLKNOWN:CLASS:*',
-		'SPELLKNOWN:DOMAIN:*',
+        'ASPECT:*',
+        'BENEFIT:*',
+        'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'UNENCUMBEREDMOVE',
         'TEMPDESC:*',
-		'TEMPBONUS:*',
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
+        'TEMPBONUS:*',
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
+#        'LANGAUTO:*',        # Deprecated - 6.0
     ],
 
     'KIT ALIGN' => [
@@ -2669,14 +2669,14 @@ my %master_order = (
     'KIT ABILITY' => [
         'ABILITY',
         'FREE',
-	'OPTION',
-	@PRE_Tags,
-	],
+    'OPTION',
+    @PRE_Tags,
+    ],
 
     'KIT FUNDS' => [
-	'FUNDS',
-	'QTY',
-	'OPTION',
+    'FUNDS',
+    'QTY',
+    'OPTION',
          @PRE_Tags,
     ],
 
@@ -2695,11 +2695,11 @@ my %master_order = (
     ],
     
     'KIT GENDER' => [
-	'GENDER',
-	'OPTION',
-	@PRE_Tags,
-	],
-	
+    'GENDER',
+    'OPTION',
+    @PRE_Tags,
+    ],
+    
     'KIT KIT' => [
         'KIT',
         'OPTION',
@@ -2751,7 +2751,7 @@ my %master_order = (
         'FREE',
         'COUNT',
         'OPTION',
-		'SELECTION',
+        'SELECTION',
         @PRE_Tags,
     ],
 
@@ -2820,7 +2820,7 @@ my %master_order = (
         'BONUS:UDAM:*',
         'BONUS:VAR:*',
         'ADD:LANGUAGE',
-		'ABILITY:*',			# [ 2596967 ] ABILITY not recognized for MASTERBONUSRACE
+        'ABILITY:*',            # [ 2596967 ] ABILITY not recognized for MASTERBONUSRACE
         'VFEAT:*',
         'SA:.CLEAR',
         'SA:*',
@@ -2830,12 +2830,12 @@ my %master_order = (
     ],
 
     'PCC' => [
-		'ALLOWDUPES',
+        'ALLOWDUPES',
         'CAMPAIGN',
         'GAMEMODE',
         'GENRE',
         'BOOKTYPE',
-		'KEY',				# KEY is allowed
+        'KEY',                # KEY is allowed
         'PUBNAMELONG',
         'PUBNAMESHORT',
         'PUBNAMEWEB',
@@ -2865,9 +2865,9 @@ my %master_order = (
         'HIDETYPE',
         'COMPANIONLIST',        # [ 1672551 ] PCC tag COMPANIONLIST
         'REQSKILL',
-		'STATUS',
-		'FORWARDREF',
-		'OPTION',
+        'STATUS',
+        'FORWARDREF',
+        'OPTION',
 
         # These tags load files
         'ABILITY',
@@ -2893,9 +2893,9 @@ my %master_order = (
         'TEMPLATE',
         'WEAPONPROF',
         '#EXTRAFILE',           # Fix #EXTRAFILE so it recognizes #EXTRAFILE references (so OGL is a known referenced file again.)
-		
-		#These tags are normal file global tags....
-		@double_PCC_tags,		#Global tags that are double - $tag does not end with ':'
+        
+        #These tags are normal file global tags....
+        @double_PCC_tags,        #Global tags that are double - $tag does not end with ':'
     ],
 
     'RACE' => [
@@ -2930,7 +2930,7 @@ my %master_order = (
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'VFEAT:*',
@@ -2944,7 +2944,7 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'HITDICE',
         'SR',
         'DR:.CLEAR',
@@ -2963,8 +2963,8 @@ my %master_order = (
         'HITDICEADVANCEMENT',
         'LEVELADJUSTMENT',
         'CR',
-		'CRMOD',
-		'ROLE',
+        'CRMOD',
+        'ROLE',
         @SOURCE_Tags,
         'SPELL:*',
         'SPELLS:*',
@@ -2984,34 +2984,34 @@ my %master_order = (
         'ADD:VFEAT:*',
         'REGION',
         'SUBREGION',
-		'SPELLKNOWN:CLASS:*',
-		'SPELLKNOWN:DOMAIN:*',
-		'SPELLLEVEL:CLASS:*',
+        'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:DOMAIN:*',
+        'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'KIT',
         'SORTKEY',              # Gozzilioni
-#		'SA:.CLEAR',		# Deprecated
-#		'SA:*',				# Deprecated
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
+#        'SA:.CLEAR',        # Deprecated
+#        'SA:*',                # Deprecated
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
+#        'LANGAUTO:*',        # Deprecated - 6.0
     ],
 
    'SHIELDPROF' => [
-	'000ShieldName',
-	'KEY',
-	'NAMEISPI',
-	'OUTPUTNAME',
-	'TYPE',
-	'HANDS',
-	@PRE_Tags,
-	@SOURCE_Tags,
-	@Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
-	'SAB:.CLEAR',
-	'SAB:*',
-#   'SA:.CLEAR',	# Deprecated
-#   'SA:*',			# Deprecated
-	],
+    '000ShieldName',
+    'KEY',
+    'NAMEISPI',
+    'OUTPUTNAME',
+    'TYPE',
+    'HANDS',
+    @PRE_Tags,
+    @SOURCE_Tags,
+    @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
+    'SAB:.CLEAR',
+    'SAB:*',
+#   'SA:.CLEAR',    # Deprecated
+#   'SA:*',            # Deprecated
+    ],
 
     'SKILL' => [
         '000SkillName',
@@ -3033,26 +3033,26 @@ my %master_order = (
         'MULT',
         'CHOOSE',
         'SELECT',
-		'SITUATION',
+        'SITUATION',
         'DEFINE',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'VFEAT:*',
         'AUTO:EQUIP:*',
         'ABILITY',
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'BONUS:WEAPON:*',
- 	'CSKILL:.CLEAR',
-	'CSKILL',
-	'CCSKILL:.CLEAR',
-	'CCSKILL',
+     'CSKILL:.CLEAR',
+    'CSKILL',
+    'CCSKILL:.CLEAR',
+    'CCSKILL',
         'REQ',
         'SAB:.CLEAR',
         'SAB:*',
         'DESC',
         'TEMPDESC:*',
-		'TEMPBONUS:*',
-#		'SA:.CLEAR:*',		# Deprecated
-#		'SA:*',				# Deprecated
+        'TEMPBONUS:*',
+#        'SA:.CLEAR:*',        # Deprecated
+#        'SA:*',                # Deprecated
     ],
 
     'SOURCE' => [
@@ -3067,13 +3067,13 @@ my %master_order = (
         'KEY',                       # [ 1695877 ] KEY tag is global
         'NAMEISPI',
         'OUTPUTNAME',
-		'TYPE',
+        'TYPE',
         'CLASSES:.CLEARALL',
         'CLASSES:*',
         'DOMAINS',
         'STAT:*',
         'PPCOST',
-		'SPELLPOINTCOST',			# Delay implementing this until SPELLPOINTCOST is documented
+        'SPELLPOINTCOST',            # Delay implementing this until SPELLPOINTCOST is documented
         'SCHOOL:.CLEAR',
         'SCHOOL:*',
         'SUBSCHOOL',
@@ -3098,7 +3098,7 @@ my %master_order = (
         'XPCOST',
         @PRE_Tags,
         'DEFINE',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
 #       @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'BONUS:PPCOST',         # SPELL has a short list of BONUS tags
         'BONUS:CASTERLEVEL:*',
@@ -3129,11 +3129,11 @@ my %master_order = (
         'CHOOSE',
         'SELECT',
         @SOURCE_Tags,
-		'DESCISPI',
-		'DESC:.CLEAR',
-		'DESC:*',
-		'TEMPDESC:*',
-		'TEMPBONUS:*',
+        'DESCISPI',
+        'DESC:.CLEAR',
+        'DESC:*',
+        'TEMPDESC:*',
+        'TEMPBONUS:*',
     ],
 
     'SUBCLASS' => [
@@ -3185,7 +3185,7 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         @PRE_Tags,
         'CSKILL:.CLEAR',
         'CSKILL',
@@ -3195,9 +3195,9 @@ my %master_order = (
         'ADDDOMAINS',
         'UNENCUMBEREDMOVE',
         @SOURCE_Tags,
-#		'SA:.CLEAR:*',		# Deprecated
-#		'SA:*',				# Deprecated
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'SA:.CLEAR:*',        # Deprecated
+#        'SA:*',                # Deprecated
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'SUBSTITUTIONCLASS' => [
@@ -3244,7 +3244,7 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         @PRE_Tags,
         'CSKILL:.CLEAR',
         'CSKILL',
@@ -3253,9 +3253,9 @@ my %master_order = (
         'ADDDOMAINS',
         'UNENCUMBEREDMOVE',
         @SOURCE_Tags,
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#		'SA:.CLEAR:*',		# Deprecated
-#		'SA:*',				# Deprecated
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'SA:.CLEAR:*',        # Deprecated
+#        'SA:*',                # Deprecated
     ],
 
     'SUBCLASSLEVEL' => [
@@ -3267,7 +3267,7 @@ my %master_order = (
         'UDAM',
         'UMULT',
         'ADD:SPELLCASTER:*',
-		'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:CLASS:*',
         'SPELLLEVEL:CLASS:*',
         'CAST',
         'KNOWN',
@@ -3288,7 +3288,7 @@ my %master_order = (
         'HITDIE',
         'ABILITY:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'CSKILL:.CLEAR',
         'CSKILL:*',
         'CCSKILL:.CLEAR',
@@ -3322,10 +3322,10 @@ my %master_order = (
         'SPELLLIST',
         'NATURALATTACKS',
         'UNENCUMBEREDMOVE',
-#		'SPECIALS',			# Deprecated
-#		'SPELL',			# Deprecated
-#		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
-#		'LANGAUTO:*',		# Deprecated - Remove 6.0
+#        'SPECIALS',            # Deprecated
+#        'SPELL',            # Deprecated
+#        'LANGAUTO.CLEAR',    # Deprecated - Remove 6.0
+#        'LANGAUTO:*',        # Deprecated - Remove 6.0
 #       'ADD:SPECIAL',          # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
@@ -3340,7 +3340,7 @@ my %master_order = (
         'UDAM',
         'UMULT',
         'ADD:SPELLCASTER',
-		'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:CLASS:*',
         'SPELLLEVEL:CLASS:*',
         'CAST',
         'KNOWN',
@@ -3361,7 +3361,7 @@ my %master_order = (
         'HITDIE',
         'ABILITY:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'CSKILL:.CLEAR',
         'CSKILL',
         'CCSKILL:.CLEAR',
@@ -3397,9 +3397,9 @@ my %master_order = (
         'SPELLLIST',
         'NATURALATTACKS',
         'UNENCUMBEREDMOVE',
-#		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
-#		'LANGAUTO:*',		# Deprecated - Remove 6.0
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'LANGAUTO.CLEAR',    # Deprecated - Remove 6.0
+#        'LANGAUTO:*',        # Deprecated - Remove 6.0
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
     ],
 
     'SWITCHRACE' => [
@@ -3432,7 +3432,7 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DEFINE:*',
-		'DEFINESTAT:*',
+        'DEFINESTAT:*',
         'LEVEL:*',
         @PRE_Tags,
         @QUALIFY_Tags,
@@ -3448,11 +3448,11 @@ my %master_order = (
         'SELECT',
         'CSKILL:.CLEAR',
         'CSKILL',
-	'CCSKILL:.CLEAR',
-	'CCSKILL',
-	'ADD:.CLEAR',
-	'ADD:*',
-	'ADD:ABILITY:*',
+    'CCSKILL:.CLEAR',
+    'CCSKILL',
+    'ADD:.CLEAR',
+    'ADD:*',
+    'ADD:ABILITY:*',
         'ADD:CLASSSKILLS',
         'ADD:EQUIP:*',
         'ADD:FEAT:*',
@@ -3460,13 +3460,13 @@ my %master_order = (
         'ADD:TEMPLATE:*',
         'ADD:VFEAT:*',
         'FAVOREDCLASS',
-	'ABILITY:*',
+    'ABILITY:*',
         'FEAT:*',
         'VFEAT:*',
         'AUTO:ARMORPROF:*',
         'AUTO:EQUIP:*',
         'AUTO:FEAT:*',
-		'AUTO:LANG:*',
+        'AUTO:LANG:*',
         'AUTO:SHIELDPROF:*',
         'AUTO:WEAPONPROF:*',
         'REMOVE:*',
@@ -3492,25 +3492,25 @@ my %master_order = (
         'WEAPONBONUS',
         'GENDERLOCK',
         'SPELLS:*',
-		'SPELLKNOWN:CLASS:*',
-		'SPELLKNOWN:DOMAIN:*',
+        'SPELLKNOWN:CLASS:*',
+        'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS:*',
-		'SPELLLEVEL:DOMAIN:*',
+        'SPELLLEVEL:DOMAIN:*',
         'ADD:SPELLCASTER',
         'NATURALATTACKS:*',
         'UNENCUMBEREDMOVE',
-	'COMPANIONLIST',
-	'FOLLOWERS',
-	'DESC:.CLEAR',
-	'DESC:*',
+    'COMPANIONLIST',
+    'FOLLOWERS',
+    'DESC:.CLEAR',
+    'DESC:*',
         'TEMPDESC:*',
-		'TEMPBONUS:*',
-#		'SPELL:*',		# Deprecated 5.x.x - Remove 6.0 - use SPELLS
-#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#		'HEIGHT',		# Deprecated
-#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-#		'LANGAUTO:*',		# Deprecated - 6.0
-#		'WEIGHT',		# Deprecated
+        'TEMPBONUS:*',
+#        'SPELL:*',        # Deprecated 5.x.x - Remove 6.0 - use SPELLS
+#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#        'HEIGHT',        # Deprecated
+#        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
+#        'LANGAUTO:*',        # Deprecated - 6.0
+#        'WEIGHT',        # Deprecated
     ],
 
     'WEAPONPROF' => [
@@ -3523,16 +3523,16 @@ my %master_order = (
         @PRE_Tags,
         @SOURCE_Tags,
         @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
-		'SAB:.CLEAR',
-		'SAB:*',
+        'SAB:.CLEAR',
+        'SAB:*',
         'SA:.CLEAR',
         'SA:*',
     ],
 
-	'VARIABLE' => [
-		'000VariableName',
-		'EXPLANATION',			
-	],
+    'VARIABLE' => [
+        '000VariableName',
+        'EXPLANATION',            
+    ],
 
 );
 
@@ -3556,7 +3556,7 @@ if ( $conversion_enable{'ALL:Convert ADD:SA to ADD:SAB'} ) {
         push @{ $master_order{'WEAPONPROF'} },    'ADD:SA';
 }
 if ( $conversion_enable{'EQUIP: ALTCRITICAL to ALTCRITMULT'} ) {
-	push @{ $master_order{'EQUIPMENT'} }, 'ALTCRITICAL';
+    push @{ $master_order{'EQUIPMENT'} }, 'ALTCRITICAL';
 }
 
 if ( $conversion_enable{'BIOSET:generate the new files'} ) {
@@ -3620,7 +3620,7 @@ my %column_with_no_tag = (
     ],
 
     'ARMORPROF' => [
-	'000ArmorName',
+    '000ArmorName',
     ],
     
     'CLASS' => [
@@ -3668,9 +3668,9 @@ my %column_with_no_tag = (
     ],
 
     'SHIELDPROF' => [
-	'000ShieldName',
+    '000ShieldName',
     ],
- 	  	 
+            
     'SKILL' => [
         '000SkillName',
     ],
@@ -3695,9 +3695,9 @@ my %column_with_no_tag = (
         '000WeaponName',
     ],
 
-	'VARIABLE' => [
-		'000VariableName',
-	],
+    'VARIABLE' => [
+        '000VariableName',
+    ],
 
 );
 
@@ -3712,7 +3712,7 @@ my %token_ADD_tag = map { $_ => 1 } (
     'ADD:INIT',
     'ADD:LANGUAGE',
     'ADD:SAB',
-	'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats or Abilities.
+    'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats or Abilities.
     'ADD:SPELLCASTER',
     'ADD:SKILL',
     'ADD:TEMPLATE',
@@ -3752,14 +3752,14 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'REPUTATION',   # Not listed in the Docs
     'SAVE',
     'SIZEMOD',
-	'SKILL',
+    'SKILL',
     'SITUATION',
     'SKILLPOINTS',
     'SKILLPOOL',
     'SKILLRANK',
     'SLOTS',
     'SPELL',
-	'SPECIALTYSPELLKNOWN',
+    'SPECIALTYSPELLKNOWN',
     'SPELLCAST',
     'SPELLCASTMULT',
     'SPELLKNOWN',
@@ -3774,9 +3774,9 @@ my %token_BONUS_tag = map { $_ => 1 } (
 );
 
 my %token_PROFICIENCY_tag = map { $_ => 1 } (
-	'WEAPON',
-	'ARMOR',
-	'SHIELD',
+    'WEAPON',
+    'ARMOR',
+    'SHIELD',
 );
 
 my %token_QUALIFY_tag = map { $_ => 1 } (
@@ -3833,7 +3833,7 @@ my @token_AUTO_tag = (
     'ARMORPROF',
     'EQUIP',
     'FEAT',
-	'LANG',
+    'LANG',
     'SHIELDPROF',
     'WEAPONPROF',
 );
@@ -3843,55 +3843,55 @@ my @token_AUTO_tag = (
 # validate the different CHOOSE types.
 my %token_CHOOSE_tag = map { $_ => 1 } (
     'ABILITY',
-	'ABILITYSELECTION',
-	'ALIGNMENT',
-	'ARMORPROFICIENCY',
-	'CHECK',
-	'CLASS',
-	'DEITY',
+    'ABILITYSELECTION',
+    'ALIGNMENT',
+    'ARMORPROFICIENCY',
+    'CHECK',
+    'CLASS',
+    'DEITY',
     'DOMAIN',
-	'EQBUILDER.SPELL',		# EQUIPMENT ONLY
+    'EQBUILDER.SPELL',        # EQUIPMENT ONLY
     'EQUIPMENT',
     'FEAT',
-	'FEATSELECTION',
-	'LANG',
-	'LANGAUTO',
+    'FEATSELECTION',
+    'LANG',
+    'LANGAUTO',
     'NOCHOICE',
     'NUMBER',
     'NUMCHOICES',
-	'PCSTAT',
+    'PCSTAT',
     'RACE',
     'SCHOOLS',
-	'SHIELDPROFICIENCY',
-	'SIZE',
+    'SHIELDPROFICIENCY',
+    'SIZE',
     'SKILL',
-	'SKILLBONUS',
+    'SKILLBONUS',
     'SPELLLEVEL',
     'SPELLS',
-	'STATBONUS',		# EQUIPMENT ONLY
+    'STATBONUS',        # EQUIPMENT ONLY
     'STRING',
-	'TEMPLATE',
+    'TEMPLATE',
     'USERINPUT',
     'WEAPONFOCUS',
-	'WEAPONPROFICIENCY',
-#	'STAT',					# Deprecated
-#	'WEAPONPROF',			# Deprecated
-#	'WEAPONPROFS',			# Deprecated
-#	'SPELLLIST',			# Deprecated
-#	'SPELLCLASSES',			# Deprecated
-#	'PROFICIENCY',			# Deprecated
-#	'SHIELDPROF',			# Deprecated
-#	'EQUIPTYPE',			# Deprecated
-#	'CSKILLS',				# Deprecated
-#	'HP',					# Deprecated 6.00 - Remove 6.02
-#	'CCSKILLLIST',			# Deprecated 5.13.9 - Remove 5.16. Use CHOOSE:SKILLSNAMED instead.
-#	'ARMORTYPE',			# Deprecated 
-#	'ARMORPROF',			# Deprecated 5.15 - Remove 6.0
-#	'SKILLSNAMED',			# Deprecated
-#	'SALIST',				# Deprecated 6.00 - Remove 6.02
-#	'FEATADD',				# Deprecated 5.15 - Remove 6.00
-#	'FEATLIST',				# Deprecated 5.15 - Remove 6.00
-#	'FEATSELECT',			# Deprecated 5.15 - Remove 6.00
+    'WEAPONPROFICIENCY',
+#    'STAT',                    # Deprecated
+#    'WEAPONPROF',            # Deprecated
+#    'WEAPONPROFS',            # Deprecated
+#    'SPELLLIST',            # Deprecated
+#    'SPELLCLASSES',            # Deprecated
+#    'PROFICIENCY',            # Deprecated
+#    'SHIELDPROF',            # Deprecated
+#    'EQUIPTYPE',            # Deprecated
+#    'CSKILLS',                # Deprecated
+#    'HP',                    # Deprecated 6.00 - Remove 6.02
+#    'CCSKILLLIST',            # Deprecated 5.13.9 - Remove 5.16. Use CHOOSE:SKILLSNAMED instead.
+#    'ARMORTYPE',            # Deprecated 
+#    'ARMORPROF',            # Deprecated 5.15 - Remove 6.0
+#    'SKILLSNAMED',            # Deprecated
+#    'SALIST',                # Deprecated 6.00 - Remove 6.02
+#    'FEATADD',                # Deprecated 5.15 - Remove 6.00
+#    'FEATLIST',                # Deprecated 5.15 - Remove 6.00
+#    'FEATSELECT',            # Deprecated 5.15 - Remove 6.00
 );
 
 my %master_mult;        # Will hold the tags that can be there more then once
@@ -3960,9 +3960,9 @@ for my $stat (@valid_system_stats) {
     $valid_entities{'DEFINE Variable'}{ $stat . 'SCORE' }++;
 }
 # Add the magical values 'ATWILL' fot the SPELLS tag's TIMES= component.
-	$valid_entities{'DEFINE Variable'}{ 'ATWILL' }++;
+    $valid_entities{'DEFINE Variable'}{ 'ATWILL' }++;
 # Add the magical values 'UNLIM' fot the CONTAINS tag.
-	$valid_entities{'DEFINE Variable'}{ 'UNLIM'  }++;
+    $valid_entities{'DEFINE Variable'}{ 'UNLIM'  }++;
 
 
 ################################################################################
@@ -3994,70 +3994,70 @@ my %tagheader = (
         'KEYSTAT'               => 'Key Stat',
         'EXCLUSIVE'             => 'Exclusive?',
         'USEUNTRAINED'          => 'Untrained?',
-		'SITUATION'			=> 'Situational Skill',
+        'SITUATION'            => 'Situational Skill',
 
 #               '000TemplateName'       => '# Template Name',
 
         '000WeaponName'         => '# Weapon Name',
-	'000ArmorName'          => '# Armor Name',
+    '000ArmorName'          => '# Armor Name',
         '000ShieldName'         => '# Shield Name',
 
-		'000VariableName'		=> '# Variable Name',
+        '000VariableName'        => '# Variable Name',
 
 
         'ABILITY'               => 'Ability',
         'ACCHECK'               => 'AC Penalty Check',
-		'ACHECK'					=> 'Skill Penalty?',
+        'ACHECK'                    => 'Skill Penalty?',
         'ADD'                   => 'Add ',
-		'ADD:EQUIP'					=> 'Add Equipment',
-		'ADD:FEAT'					=> 'Add Feat',
-		'ADD:SAB'					=> 'Add Special Ability',
-		'ADD:SKILL'					=> 'Add Skill',
-		'ADD:TEMPLATE'				=> 'Add Template',
-		'ADDDOMAINS'				=> 'Add Divine Domain',
+        'ADD:EQUIP'                    => 'Add Equipment',
+        'ADD:FEAT'                    => 'Add Feat',
+        'ADD:SAB'                    => 'Add Special Ability',
+        'ADD:SKILL'                    => 'Add Skill',
+        'ADD:TEMPLATE'                => 'Add Template',
+        'ADDDOMAINS'                => 'Add Divine Domain',
         'ADDSPELLLEVEL'         => 'Add Spell Lvl',
-		'APPLIEDNAME'		=> 'Applied Name',
+        'APPLIEDNAME'        => 'Applied Name',
         'AGE'                   => 'Age',
         'AGESET'                => 'Age Set',
-		'ALIGN'						=> 'Align',
-		'ALTCRITMULT'				=> 'Alt Crit Mult',
+        'ALIGN'                        => 'Align',
+        'ALTCRITMULT'                => 'Alt Crit Mult',
 #        'ALTCRITICAL'           => 'Alternative Critical',
-		'ALTCRITRANGE'				=> 'Alt Crit Range',
-		'ALTDAMAGE'					=> 'Alt Damage',
-		'ALTEQMOD'					=> 'Alt EQModifier',
-		'ALTTYPE'					=> 'Alt Type',
+        'ALTCRITRANGE'                => 'Alt Crit Range',
+        'ALTDAMAGE'                    => 'Alt Damage',
+        'ALTEQMOD'                    => 'Alt EQModifier',
+        'ALTTYPE'                    => 'Alt Type',
         'ATTACKCYCLE'           => 'Attack Cycle',
-		'ASPECT'			=> 'Aspects',
+        'ASPECT'            => 'Aspects',
         'AUTO'                  => 'Auto',
-		'AUTO:ARMORPROF'			=> 'Auto Armor Prof',
-		'AUTO:EQUIP'				=> 'Auto Equip',
-		'AUTO:FEAT'					=> 'Auto Feat',
-		'AUTO:LANG'					=> 'Auto Language',
-		'AUTO:SHIELDPROF'			=> 'Auto Shield Prof',
-		'AUTO:WEAPONPROF'			=> 'Auto Weapon Prof',
+        'AUTO:ARMORPROF'            => 'Auto Armor Prof',
+        'AUTO:EQUIP'                => 'Auto Equip',
+        'AUTO:FEAT'                    => 'Auto Feat',
+        'AUTO:LANG'                    => 'Auto Language',
+        'AUTO:SHIELDPROF'            => 'Auto Shield Prof',
+        'AUTO:WEAPONPROF'            => 'Auto Weapon Prof',
         'BASEQTY'               => 'Base Quantity',
-		'BENEFIT'					=> 'Benefits',
+        'BENEFIT'                    => 'Benefits',
         'BONUS'                 => 'Bonus',
-		'BONUSSPELLSTAT'			=> 'Spell Stat Bonus',
-		'BONUS:ABILITYPOOL'			=> 'Bonus Ability Pool',
+        'BONUSSPELLSTAT'            => 'Spell Stat Bonus',
+        'BONUS:ABILITYPOOL'            => 'Bonus Ability Pool',
         'BONUS:CASTERLEVEL'     => 'Caster level',
         'BONUS:CHECKS'          => 'Save checks bonus',
-		'BONUS:SAVE'				=> 'Save bonus',
+        'BONUS:SAVE'                => 'Save bonus',
         'BONUS:COMBAT'          => 'Combat bonus',
         'BONUS:DAMAGE'          => 'Weapon damage bonus',
         'BONUS:DOMAIN'          => 'Add domain number',
-		'BONUS:DC'					=> 'Bonus DC',
-		'BONUS:DR'					=> 'Bonus DR',
-		'BONUS:EQMARMOR'			=> 'Bonus Armor Mods',
-		'BONUS:EQM'					=> 'Bonus Equip Mods',
-		'BONUS:EQMWEAPON'			=> 'Bonus Weapon Mods',
+        'BONUS:DC'                    => 'Bonus DC',
+        'BONUS:DR'                    => 'Bonus DR',
+        'BONUS:EQMARMOR'            => 'Bonus Armor Mods',
+        'BONUS:EQM'                    => 'Bonus Equip Mods',
+        'BONUS:EQMWEAPON'            => 'Bonus Weapon Mods',
         'BONUS:ESIZE'           => 'Modify size',
-		'BONUS:FEAT'				=> 'Number of Feats',
-		'BONUS:FOLLOWERS'			=> 'Number of Followers',
+        'BONUS:FEAT'                => 'Number of Feats',
+        'BONUS:FOLLOWERS'            => 'Number of Followers',
         'BONUS:HD'              => 'Modify HD type',
         'BONUS:HP'              => 'Bonus to HP',
         'BONUS:ITEMCOST'        => 'Modify the item cost',
-		'BONUS:LANGUAGES'			=> 'Bonus language',
+        'BONUS:LANGUAGES'            => 'Bonus language',
         'BONUS:MISC'            => 'Misc bonus',
         'BONUS:MOVEADD'         => 'Add to base move',
         'BONUS:MOVEMULT'        => 'Multiply base move',
@@ -4069,13 +4069,13 @@ my %tagheader = (
         'BONUS:REPUTATION'      => 'Bonus to Reputation',
         'BONUS:SIZEMOD'         => 'Adjust PC Size',
         'BONUS:SKILL'           => 'Bonus to skill',
-		'BONUS:SITUATION'		=> 'Bonus to Situation',
+        'BONUS:SITUATION'        => 'Bonus to Situation',
         'BONUS:SKILLPOINTS'     => 'Bonus to skill point/L',
         'BONUS:SKILLPOOL'       => 'Bonus to skill point for a level',
         'BONUS:SKILLRANK'       => 'Bonus to skill rank',
         'BONUS:SLOTS'           => 'Bonus to nb of slots',
         'BONUS:SPELL'           => 'Bonus to spell attribute',
-		'BONUS:SPECIALTYSPELLKNOWN'	=> 'Bonus Specialty spells',
+        'BONUS:SPECIALTYSPELLKNOWN'    => 'Bonus Specialty spells',
         'BONUS:SPELLCAST'       => 'Bonus to spell cast/day',
         'BONUS:SPELLCASTMULT'   => 'Multiply spell cast/day',
         'BONUS:SPELLKNOWN'      => 'Bonus to spell known/L',
@@ -4087,7 +4087,7 @@ my %tagheader = (
         'BONUS:WEAPON'          => 'Weapon prop. bonus',
         'BONUS:WEAPONPROF'      => 'Weapon prof. bonus',
         'BONUS:WIELDCATEGORY'   => 'Wield Category bonus',
-		'TEMPBONUS'				=> 'Temporary Bonus',
+        'TEMPBONUS'                => 'Temporary Bonus',
         'CAST'                  => 'Cast',
         'CASTAS'                => 'Cast As',
         'CASTTIME:.CLEAR'               => 'Clear Casting Time',
@@ -4103,22 +4103,22 @@ my %tagheader = (
         'CONTAINS'              => 'Contains',
         'COST'                  => 'Cost',
         'CR'                    => 'Challenge Rating',
-		'CRMOD'			=> 'CR Modifier',
-		'CRITMULT'					=> 'Crit Mult',
-		'CRITRANGE'					=> 'Crit Range',
+        'CRMOD'            => 'CR Modifier',
+        'CRITMULT'                    => 'Crit Mult',
+        'CRITRANGE'                    => 'Crit Range',
         'CSKILL:.CLEAR'         => 'Remove Class Skill',
         'CSKILL'                => 'Class Skill',
         'CT'                    => 'Casting Threshold',
         'DAMAGE'                => 'Damage',
         'DEF',                  => 'Def',
         'DEFINE'                => 'Define',
-		'DEFINESTAT'				=> 'Define Stat',
+        'DEFINESTAT'                => 'Define Stat',
         'DEITY'                 => 'Deity',
         'DESC'                  => 'Description',
         'DESC:.CLEAR'           => 'Clear Description',
         'DESCISPI'              => 'Desc is PI?',
         'DESCRIPTOR:.CLEAR'     => 'Clear Spell Descriptors',
-		'DESCRIPTOR'				=> 'Descriptor',
+        'DESCRIPTOR'                => 'Descriptor',
         'DOMAIN'                => 'Domain',
         'DOMAINS'               => 'Domains',
         'DR:.CLEAR'             => 'Remove Damage Reduction',
@@ -4128,7 +4128,7 @@ my %tagheader = (
 #       'EFFECTS'               => 'Description',               # Deprecated a long time ago for TARGETAREA
         'EQMOD'                 => 'Modifier',
         'EXCLASS'               => 'Ex Class',
-		'EXPLANATION'			=> 'Explanation',
+        'EXPLANATION'            => 'Explanation',
         'FACE'                  => 'Face/Space',
         'FEAT'                  => 'Feat',
         'FEATAUTO'              => 'Feat Auto',
@@ -4149,8 +4149,8 @@ my %tagheader = (
         'KIT'                   => 'Apply Kit',
         'KNOWN'                 => 'Known',
         'KNOWNSPELLS'           => 'Automatically Known Spell Levels',
-		'LANGAUTO'					=> 'Automatic Languages',				# Deprecated
-		'LANGAUTO:.CLEAR'			=> 'Clear Automatic Languages',			# Deprecated
+        'LANGAUTO'                    => 'Automatic Languages',                # Deprecated
+        'LANGAUTO:.CLEAR'            => 'Clear Automatic Languages',            # Deprecated
         'LANGBONUS'             => 'Bonus Languages',
         'LANGBONUS:.CLEAR'      => 'Clear Bonus Languages',
         'LEGS'                  => 'Nb Legs',
@@ -4178,7 +4178,7 @@ my %tagheader = (
         'PREABILITY'            => 'Required Ability',
         '!PREABILITY'           => 'Restricted Ability',
         'PREAGESET'             => 'Minimum Age',
-	'!PREAGESET'            => 'Maximum Age',
+    '!PREAGESET'            => 'Maximum Age',
         'PREALIGN'              => 'Required AL',
         '!PREALIGN'             => 'Restricted AL',
         'PREATT'                => 'Req. Att.',
@@ -4196,8 +4196,8 @@ my %tagheader = (
         'PRECHECK'              => 'Required Check',
         '!PRECHECK'             => 'Prohibited Check',
         'PRECHECKBASE'          => 'Required Check Base',
-	'PRECITY'               => 'Required City',
-	'!PRECITY'              => 'Prohibited City',
+    'PRECITY'               => 'Required City',
+    '!PRECITY'              => 'Prohibited City',
         'PRECLASS'              => 'Required Class',
         '!PRECLASS'             => 'Prohibited Class',
         'PRECLASSLEVELMAX'      => 'Maximum Level Allowed',
@@ -4205,40 +4205,40 @@ my %tagheader = (
         'PRECSKILL'             => 'Required Class Skill',
         '!PRECSKILL'            => 'Prohibited Class SKill',
         'PREDEITY'              => 'Required Deity',
-	'!PREDEITY'             => 'Prohibited Deity',
+    '!PREDEITY'             => 'Prohibited Deity',
         'PREDEITYDOMAIN'        => 'Required Deitys Domain',
         'PREDOMAIN'             => 'Required Domain',
         '!PREDOMAIN'            => 'Prohibited Domain',
         'PREDSIDEPTS'           => 'Req. Dark Side',
         'PREDR'                 => 'Req. Damage Resistance',
-	'!PREDR'                => 'Prohibited Damage Resistance',
+    '!PREDR'                => 'Prohibited Damage Resistance',
         'PREEQUIP'              => 'Req. Equipement',
         'PREEQMOD'              => 'Req. Equipment Mod.',
         '!PREEQMOD'             => 'Prohibited Equipment Mod.',
         'PREFEAT'               => 'Required Feat',
         '!PREFEAT'              => 'Prohibited Feat',
         'PREGENDER'             => 'Required Gender',
-	'!PREGENDER'            => 'Prohibited Gender',
+    '!PREGENDER'            => 'Prohibited Gender',
         'PREHANDSEQ'            => 'Req. nb of Hands',
         'PREHANDSGT'            => 'Min. nb of Hands',
-   	'PREHANDSGTEQ'          => 'Min. nb of Hands',
-   	'PREHD'                 => 'Required Hit Dice',
-   	'PREHP'                 => 'Required Hit Points',
+       'PREHANDSGTEQ'          => 'Min. nb of Hands',
+       'PREHD'                 => 'Required Hit Dice',
+       'PREHP'                 => 'Required Hit Points',
         'PREITEM'               => 'Required Item',
         'PRELANG'               => 'Required Language',
         'PRELEVEL'              => 'Required Lvl',
         'PRELEVELMAX'           => 'Maximum Level',
-		'PREKIT'			=> 'Required Kit',
-		'!PREKIT'			=> 'Prohibited Kit',
+        'PREKIT'            => 'Required Kit',
+        '!PREKIT'            => 'Prohibited Kit',
         'PREMOVE'               => 'Required Movement Rate',
         '!PREMOVE'              => 'Prohibited Movement Rate',
         'PREMULT',              => 'Multiple Requirements',
         '!PREMULT'              => 'Multiple Prohibitions',
         'PREPCLEVEL'            => 'Required Non-Monster Lvl',
-		'PREPROFWITHARMOR'	=> 'Required Armor Proficiencies',
-		'!PREPROFWITHARMOR'	=> 'Prohibited Armor Proficiencies',
-		'PREPROFWITHSHIELD'	=> 'Required Shield Proficiencies',
-		'!PREPROFWITHSHIELD'	=> 'Prohbited Shield Proficiencies',
+        'PREPROFWITHARMOR'    => 'Required Armor Proficiencies',
+        '!PREPROFWITHARMOR'    => 'Prohibited Armor Proficiencies',
+        'PREPROFWITHSHIELD'    => 'Required Shield Proficiencies',
+        '!PREPROFWITHSHIELD'    => 'Prohbited Shield Proficiencies',
         'PRERACE'               => 'Required Race',
         '!PRERACE'              => 'Prohibited Race',
         'PRERACETYPE'           => 'Reg. Race Type',
@@ -4246,10 +4246,10 @@ my %tagheader = (
         'PREREACHEQ'            => 'Required Reach',
         'PREREACHGT'            => 'Minimum Reach',
         'PREREGION'             => 'Required Region',
-	'!PREREGION'            => 'Prohibited Region',
+    '!PREREGION'            => 'Prohibited Region',
         'PRERULE'               => 'Req. Rule (in options)',
         'PRESA'                 => 'Req. Special Ability',
-	'!PRESA'                => 'Prohibite Special Ability',
+    '!PRESA'                => 'Prohibite Special Ability',
         'PRESHIELDPROF'         => 'Req. Shield Prof.',
         '!PRESHIELDPROF'        => 'Prohibited Shield Prof.',
         'PRESIZEEQ'             => 'Required Size',
@@ -4258,16 +4258,16 @@ my %tagheader = (
         'PRESIZELT'             => 'Must be Smaller',
         'PRESIZELTEQ'           => 'Maximum Size',
         'PRESKILL'              => 'Required Skill',
-		'!PRESITUATION'			=> 'Prohibited Situation',
-		'PRESITUATION'			=> 'Required Situation',
-	'!PRESKILL'             => 'Prohibited Skill',
+        '!PRESITUATION'            => 'Prohibited Situation',
+        'PRESITUATION'            => 'Required Situation',
+    '!PRESKILL'             => 'Prohibited Skill',
         'PRESKILLMULT'          => 'Special Required Skill',
         'PRESKILLTOT'           => 'Total Skill Points Req.',
         'PRESPELL'              => 'Req. Known Spell',
         'PRESPELLBOOK'          => 'Req. Spellbook',
-		'PRESPELLBOOK'		=> 'Req. Spellbook',
+        'PRESPELLBOOK'        => 'Req. Spellbook',
         'PRESPELLCAST'          => 'Required Casting Type',
-		'!PRESPELLCAST'		=> 'Prohibited Casting Type',
+        '!PRESPELLCAST'        => 'Prohibited Casting Type',
         'PRESPELLDESCRIPTOR'    => 'Required Spell Descriptor',
         '!PRESPELLDESCRIPTOR'   => 'Prohibited Spell Descriptor',
         'PRESPELLSCHOOL'        => 'Required Spell School',
@@ -4282,15 +4282,15 @@ my %tagheader = (
         'PRESRNEQ'              => 'Prohibited SR Value',
         'PRESTAT'               => 'Required Stat',
         '!PRESTAT',             => 'Prohibited Stat',
-	'PRESUBCLASS'           => 'Required Subclass',
-	'!PRESUBCLASS'          => 'Prohibited Subclass',
+    'PRESUBCLASS'           => 'Required Subclass',
+    '!PRESUBCLASS'          => 'Prohibited Subclass',
         'PRETEMPLATE'           => 'Required Template',
         '!PRETEMPLATE'          => 'Prohibited Template',
         'PRETEXT'               => 'Required Text',
         'PRETYPE'               => 'Required Type',
         '!PRETYPE'              => 'Prohibited Type',
-		'PREVAREQ'			=> 'Required Var. value',
-		'!PREVAREQ'			=> 'Prohibited Var. Value',
+        'PREVAREQ'            => 'Required Var. value',
+        '!PREVAREQ'            => 'Prohibited Var. Value',
         'PREVARGT'              => 'Var. Must Be Grater',
         'PREVARGTEQ'            => 'Var. Min. Value',
         'PREVARLT'              => 'Var. Must Be Lower',
@@ -4302,9 +4302,9 @@ my %tagheader = (
         '!PREWEAPONPROF'        => 'Prohibited Weapond Prof.',
         'PREWIELD'              => 'Required Wield Category',
         '!PREWIELD'             => 'Prohibited Wield Category',
-		'PROFICIENCY:WEAPON'	=> 'Required Weapon Proficiency',
-		'PROFICIENCY:ARMOR'	=> 'Required Armor Proficiency',
-		'PROFICIENCY:SHIELD'	=> 'Required Shield Proficiency',
+        'PROFICIENCY:WEAPON'    => 'Required Weapon Proficiency',
+        'PROFICIENCY:ARMOR'    => 'Required Armor Proficiency',
+        'PROFICIENCY:SHIELD'    => 'Required Shield Proficiency',
         'PROHIBITED'            => 'Spell Scoll Prohibited',
         'PROHIBITSPELL'         => 'Group of Prohibited Spells',
         'QUALIFY:CLASS'         => 'Qualify for Class',
@@ -4332,7 +4332,7 @@ my %tagheader = (
         'REMOVABLE'             => 'Removable?',
         'REMOVE'                => 'Remove Object',
         'REP'                   => 'Reputation',
-		'ROLE'			=> 'Monster Role',
+        'ROLE'            => 'Monster Role',
         'SA'                    => 'Special Ability',
         'SA:.CLEAR'             => 'Clear SAs',
         'SAB:.CLEAR'            => 'Clear Special ABility',
@@ -4344,6 +4344,7 @@ my %tagheader = (
         'SERVESAS'              => 'Serves As',
         'SIZE'                  => 'Size',
         'SKILLLIST'             => 'Use Class Skill List',
+        'SORTKEY'                => 'Sort order',
         'SOURCE'                => 'Source Index',
         'SOURCEPAGE:.CLEAR'     => 'Clear Source Page',
         'SOURCEPAGE'            => 'Source Page',
@@ -4351,12 +4352,12 @@ my %tagheader = (
         'SOURCESHORT'           => 'Source, Short Desc.',
         'SOURCEWEB'             => 'Source URI',
         'SOURCEDATE'            => 'Source Pub. Date',
-		'SOURCELINK'		=> 'Source Pub Link',
+        'SOURCELINK'        => 'Source Pub Link',
         'SPELLBOOK'             => 'Spellbook',
         'SPELLFAILURE'          => '% of Spell Failure',
         'SPELLLIST'             => 'Use Spell List',
-		'SPELLKNOWN:CLASS'	=> 'List of Known Class Spells by Level',
-		'SPELLKNOWN:DOMAIN'	=> 'List of Known Domain Spells by Level',
+        'SPELLKNOWN:CLASS'    => 'List of Known Class Spells by Level',
+        'SPELLKNOWN:DOMAIN'    => 'List of Known Domain Spells by Level',
         'SPELLLEVEL:CLASS'      => 'List of Class Spells by Level',
         'SPELLLEVEL:DOMAIN'     => 'List of Domain Spells by Level',
         'SPELLRES'              => 'Spell Resistance',
@@ -4371,8 +4372,8 @@ my %tagheader = (
         'STARTSKILLPTS'         => 'Skill Pts/Lvl',
         'STAT'                  => 'Key Attribute',
         'SUBCLASSLEVEL'         => 'Subclass Level',
-	'SUBRACE'               => 'Subrace',
-	'SUBREGION'             => 'Subregion',
+    'SUBRACE'               => 'Subrace',
+    'SUBREGION'             => 'Subregion',
         'SUBSCHOOL'             => 'Sub-School',
         'SUBSTITUTIONLEVEL'     => 'Substitution Level',
         'SYNERGY'               => 'Synergy Skill',
@@ -4395,7 +4396,7 @@ my %tagheader = (
         'WEIGHT'                => 'Weight',
         'WT'                    => 'Weight',
         'XPCOST'                => 'XP Cost',
-		'XTRAFEATS'					=> 'Extra Feats',
+        'XTRAFEATS'                    => 'Extra Feats',
     },
 
     'ABILITYCATEGORY' => {
@@ -4403,13 +4404,13 @@ my %tagheader = (
         'CATEGORY'              => 'Category of Object',
         'DISPLAYLOCATION'       => 'Display Location',
         'DISPLAYNAME'           => 'Display where?',
-		'EDITABLE'			=> 'Editable?',
+        'EDITABLE'            => 'Editable?',
         'EDITPOOL'              => 'Change Pool?',
         'FRACTIONALPOOL'        => 'Fractional values?',
         'PLURAL'                => 'Plural description for UI',
         'POOL'                  => 'Base Pool number',
         'TYPE'                  => 'Type of Object',
-		'ABILITYLIST'		=> 'Specific choices list',
+        'ABILITYLIST'        => 'Specific choices list',
         'VISIBLE'               => 'Visible',
     },
 
@@ -4423,11 +4424,11 @@ my %tagheader = (
 
     'CLASS' => {
         '000ClassName'          => '# Class Name',
-		'CLASSTYPE'			=> 'Class Type',
+        'CLASSTYPE'            => 'Class Type',
         'ABB'                   => 'Abbreviation',
         'ALLOWBASECLASS',       => 'Base class as subclass?',
 #        'HASSUBSTITUTIONLEVEL'  => 'Substitution levels?',
-#		'HASSPELLFORMULA'		=> 'Spell Fomulas?',		# [ 1893279 ] HASSPELLFORMULA Class Line tag # [ 1973497 ] HASSPELLFORMULA is deprecated
+#        'HASSPELLFORMULA'        => 'Spell Fomulas?',        # [ 1893279 ] HASSPELLFORMULA Class Line tag # [ 1973497 ] HASSPELLFORMULA is deprecated
         'ITEMCREATE'            => 'Craft Level Mult.',
         'LEVELSPERFEAT'         => 'Levels per Feat',
         'MODTOSKILLS'           => 'Add INT to Skill Points?',
@@ -4435,7 +4436,7 @@ my %tagheader = (
         'MULTIPREREQS'          => 'MULTIPREREQS',
         'SPECIALS'              => 'Class Special Ability',     # Deprecated - Use SA
         'DEITY'                 => 'Deities allowed',
-		'ROLE'			=> 'Monster Role',
+        'ROLE'            => 'Monster Role',
     },
 
     'CLASS Level' => {
@@ -4457,7 +4458,7 @@ my %tagheader = (
         '000DeityName'  => '# Deity Name',
         'DOMAINS'       => 'Domains',
         'FOLLOWERALIGN' => 'Clergy AL',
-		'DESC'			=> 'Description of Deity/Title',
+        'DESC'            => 'Description of Deity/Title',
         'SYMBOL'        => 'Holy Item',
         'DEITYWEAP'     => 'Deity Weapon',
         'TITLE'         => 'Deity Title',
@@ -4493,41 +4494,41 @@ my %tagheader = (
     },
 
     'KIT STARTPACK' => {
-		'STARTPACK'			=> '# Kit Name',
+        'STARTPACK'            => '# Kit Name',
         'APPLY'       => 'Apply method to char',              #[ 1593879 ] New Kit tag: APPLY
     },
 
     'KIT CLASS' => {
-		'CLASS'			=> '# Class',
+        'CLASS'            => '# Class',
     },
 
     'KIT FUNDS' => {
-		'FUNDS'			=> '# Funds',
+        'FUNDS'            => '# Funds',
     },
 
     'KIT GEAR' => {
-		'GEAR'			=> '# Gear',
-	},
+        'GEAR'            => '# Gear',
+    },
 
-	'KIT LANGBONUS' => {
-		'LANGBONUS'			=> '# Bonus Language',
+    'KIT LANGBONUS' => {
+        'LANGBONUS'            => '# Bonus Language',
     },
 
     'KIT NAME' => {
-		'NAME'			=> '# Name',
+        'NAME'            => '# Name',
     },
 
     'KIT RACE' => {
-		'RACE'			=> '# Race',
+        'RACE'            => '# Race',
     },
 
     'KIT SELECT' => {
-		'SELECT'			=> '# Select choice',
+        'SELECT'            => '# Select choice',
     },
 
     'KIT SKILL' => {
-		'SKILL'			=> '# Skill',
-		'SELECTION'             => 'Selections',
+        'SKILL'            => '# Skill',
+        'SELECTION'             => 'Selections',
     },
 
     'KIT TABLE' => {
@@ -4541,8 +4542,8 @@ my %tagheader = (
 
     'RACE' => {
         '000RaceName' => '# Race Name',
-	'FAVCLASS'     => 'Favored Class',
-	'SKILLMULT'    => 'Skill Multiplier',
+    'FAVCLASS'     => 'Favored Class',
+    'SKILLMULT'    => 'Skill Multiplier',
         'MONCSKILL'   => 'Racial HD Class Skills',
         'MONCCSKILL'  => 'Racial HD Cross-class Skills',
         'MONSTERCLASS' => 'Monster Class Name and Starting Level',
@@ -4571,10 +4572,10 @@ my %tagheader = (
         'GENDERLOCK'            => 'Lock Gender Selection',
     },
 
-	'VARIABLE' => {
-		'000VariableName'		=> '# Variable Name',
-		'EXPLANATION'			=> 'Explanation',
-	},
+    'VARIABLE' => {
+        '000VariableName'        => '# Variable Name',
+        'EXPLANATION'            => 'Explanation',
+    },
 
 );
 
@@ -4685,7 +4686,7 @@ if ($cl_options{input_path}) {
         # Will hold the list of all spells found in SPELL filetypes
         open $filehandle_for{SPELL}, '>', 'G_export_spell.csv';
         print { $filehandle_for{SPELL} } qq{"Spell Name","Classes","Domain","Descriptor","Type","Source Page","Line","Filename","Desc","Save"\n};
-		
+        
         # Will hold the list of all templates found in TEMPLATE filetypes
         open $filehandle_for{TEMPLATE}, '>', 'G_export_template.csv';
         print { $filehandle_for{TEMPLATE} } qq{"Tempate Name","Sourcepage","Line","Filename"\n};
@@ -4731,7 +4732,7 @@ if ($cl_options{input_path}) {
         qr(\.rar$)i,
         qr(\.jpg$),               # JPEG image files present in the directories
         qr(\.png$),               # PNG image files present in the directories
-#		gr(Thumbs\.db$),		# thumbnails image files used with Win32 OS
+#        gr(Thumbs\.db$),        # thumbnails image files used with Win32 OS
         qr(readme\.txt$),         # Readme files
 #       qr(notes\.txt$),          # Notes files
         qr(\.bak$),               # Backup files
@@ -4743,7 +4744,7 @@ if ($cl_options{input_path}) {
         qr(\.DS_Store$),          # Used with Mac OS
     );
 
-	# Regular expressions for the directory that must be skiped by mywanted
+    # Regular expressions for the directory that must be skiped by mywanted
     my @dirtoskip = (
         qr(cvs$)i,                # /cvs directories
         qr([.]svn[/])i,           # All .svn directories
@@ -4814,13 +4815,13 @@ if ($cl_options{input_path}) {
 
                 # The parse_tag function modified the values.
                 $must_write = YES;
-			if ( $double_PCC_tags{$tag} ) {
-				$pcc_lines[-1] = "$tag$value";
-			}
-			else { 
+            if ( $double_PCC_tags{$tag} ) {
+                $pcc_lines[-1] = "$tag$value";
+            }
+            else { 
                 $pcc_lines[-1] = "$tag:$value";
             }
-		}
+        }
 
             if ($tag) {
                 if ( $validfiletype{$tag} ) {
@@ -5068,10 +5069,12 @@ if ($cl_options{input_path}) {
             # We keep track of the files we modify
             push @modified_files, $pcc_file_name;
 
-            # We add a CVS revision number is not present
-            print {$new_pcc_fh}
+            if ( !$conversion_enable{'No extra Tab'} ) {
+#               We add a CVS revision number is not present
+                print {$new_pcc_fh}
                 "# CVS \$Revision\$ \$Author\$ -- $today -- reformated by $SCRIPTNAME v$VERSION\n"
-                if $pcc_lines[0] !~ / \A [#] .* CVS .* Revision /xmsi;
+                    if $pcc_lines[0] !~ / \A [#] .* CVS .* Revision /xmsi;
+            }
 
             for my $line (@pcc_lines) {
                 print {$new_pcc_fh} "$line\n";
@@ -5198,21 +5201,21 @@ FILE_TO_PARSE:
 for my $file (@files_to_parse_sorted) {
     my $numberofcf = 0;    # Number of extra CF found in the file.
 
-	my $filetype = "tab-based";   # can be either 'tab-based' or 'multi-line'
+    my $filetype = "tab-based";   # can be either 'tab-based' or 'multi-line'
 
     if ( $file eq "STDIN" ) {
 
         # We read from STDIN
-		# henkslaaf - Multiline parsing
-		#       1) read all to a buffer (files are not so huge that it is a memory hog)
-		#       2) send the buffer to a method that splits based on the type of file
-		#       3) let the method return split and normalized entries
-		#       4) let the method return a variable that says what kind of file it is (multi-line, tab-based)
-		local $/ = undef; # read all from buffer
-		my $buffer = <>;
+        # henkslaaf - Multiline parsing
+        #       1) read all to a buffer (files are not so huge that it is a memory hog)
+        #       2) send the buffer to a method that splits based on the type of file
+        #       3) let the method return split and normalized entries
+        #       4) let the method return a variable that says what kind of file it is (multi-line, tab-based)
+        local $/ = undef; # read all from buffer
+        my $buffer = <>;
 
-		(my $lines, $filetype) = normalize_file($buffer);
-		@lines = @$lines;
+        (my $lines, $filetype) = normalize_file($buffer);
+        @lines = @$lines;
     }
     else {
 
@@ -5221,21 +5224,21 @@ for my $file (@files_to_parse_sorted) {
 
         # We try to read the file and continue to the next one even if we
         # encounter problems
-		#
-		# henkslaaf - Multiline parsing
-		#       1) read all to a buffer (files are not so huge that it is a memory hog)
-		#       2) send the buffer to a method that splits based on the type of file
-		#       3) let the method return split and normalized entries
-		#       4) let the method return a variable that says what kind of file it is (multi-line, tab-based)
+        #
+        # henkslaaf - Multiline parsing
+        #       1) read all to a buffer (files are not so huge that it is a memory hog)
+        #       2) send the buffer to a method that splits based on the type of file
+        #       3) let the method return split and normalized entries
+        #       4) let the method return a variable that says what kind of file it is (multi-line, tab-based)
 
         eval {
-			local $/ = undef; # read all from buffer
+            local $/ = undef; # read all from buffer
             open my $lst_fh, '<', $file;
-			my $buffer = <$lst_fh>;
+            my $buffer = <$lst_fh>;
             close $lst_fh;
 
-			(my $lines, $filetype) = normalize_file($buffer);
-			@lines = @$lines;
+            (my $lines, $filetype) = normalize_file($buffer);
+            @lines = @$lines;
         };
 
         if ( $EVAL_ERROR ) {
@@ -5295,13 +5298,13 @@ for my $file (@files_to_parse_sorted) {
             $line =~ s/\s+$//;
         }
 
-		# henkslaaf - we need to handle this in multi-line object files
-		#       take the multi-line variable and use it to determine
-		#	if we should skip writing this file
+        # henkslaaf - we need to handle this in multi-line object files
+        #       take the multi-line variable and use it to determine
+        #    if we should skip writing this file
 
         # Some file types are never written
-		warn "SKIP rewrite for $file because it is a multi-line file" if $filetype eq 'multi-line';
-		next FILE_TO_PARSE if $filetype eq 'multi-line';		# we still need to implement rewriting for multi-line
+        warn "SKIP rewrite for $file because it is a multi-line file" if $filetype eq 'multi-line';
+        next FILE_TO_PARSE if $filetype eq 'multi-line';        # we still need to implement rewriting for multi-line
         next FILE_TO_PARSE if !$writefiletype{ $files_to_parse{$file} };
 
         # We compare the result with the orginal file.
@@ -5347,9 +5350,11 @@ for my $file (@files_to_parse_sorted) {
             $write_fh = *STDOUT;
         }
 
-        # The first line of the new file will be a comment line.
-        print {$write_fh} "$cvs_line -- $today -- reformated by $SCRIPTNAME v$VERSION\n"
-            if $cl_options{output_path} || ( *NEWFILE eq *STDOUT );
+        if ( !$conversion_enable{'No extra Tab'} ) {
+            # The first line of the new file will be a comment line.
+            print {$write_fh} "$cvs_line -- $today -- reformated by $SCRIPTNAME v$VERSION\n"
+                if $cl_options{output_path} || ( *NEWFILE eq *STDOUT );
+        }
 
         # We print the result
         LINE:
@@ -5586,7 +5591,7 @@ if ( $cl_options{xcheck} ) {
             }
             else {
                 unless ( exists $valid_entities{$linetype}{$entry} ) {
-	# push @{$referer{$FileType}{$entry}}, [$tags{$column}, $file_for_error, $line_for_error]
+    # push @{$referer{$FileType}{$entry}}, [$tags{$column}, $file_for_error, $line_for_error]
                     for my $array ( @{ $referer{$linetype}{$entry} } ) {
                         push @{ $to_report{ $array->[1] } },
                             [ $array->[2], $linetype, $array->[0] ];
@@ -5606,12 +5611,12 @@ if ( $cl_options{xcheck} ) {
     # that was added to to_report.
     for my $file ( sort keys %to_report ) {
         for my $line_ref ( sort { $a->[0] <=> $b->[0] } @{ $to_report{$file} } ) {
-	    my $message = qq{No $line_ref->[1] entry for "$line_ref->[2]"};
+        my $message = qq{No $line_ref->[1] entry for "$line_ref->[2]"};
 
-	    # If it is an EQMOD Key missing, it is less severe
-	    my $message_level = $line_ref->[1] eq 'EQUIPMOD Key' ? INFO : NOTICE;
-	    $logging->ewarn( $message_level,  $message, $file, $line_ref->[0] );
-	}
+        # If it is an EQMOD Key missing, it is less severe
+        my $message_level = $line_ref->[1] eq 'EQUIPMOD Key' ? INFO : NOTICE;
+        $logging->ewarn( $message_level,  $message, $file, $line_ref->[0] );
+    }
     }
 
     ###############################################
@@ -5739,41 +5744,41 @@ if ($cl_options{output_error}) {
 ###
 
 sub normalize_file($) {
-	# TODO: handle empty buffers, other corner-cases
-	my $buffer = shift || "";    # default to empty line when passed undef
-	my $filetype;
-	my @lines;
+    # TODO: handle empty buffers, other corner-cases
+    my $buffer = shift || "";    # default to empty line when passed undef
+    my $filetype;
+    my @lines;
 
-	# first, we clean out empty lines that contain only white-space. Otherwise, we could have
-	# false positives on the filetype
-	$buffer =~ s/^\s*$//g;    # simply remove all whitespace that is alone on its line
+    # first, we clean out empty lines that contain only white-space. Otherwise, we could have
+    # false positives on the filetype
+    $buffer =~ s/^\s*$//g;    # simply remove all whitespace that is alone on its line
 
-	# detect file-type multi-line
+    # detect file-type multi-line
 
-	if ($buffer =~ /^\t+\S/m) {   # having a tab as a first character on a non-whitespace line is a sign of a multi-line file
-		# This is a multi-line file
+    if ($buffer =~ /^\t+\S/m) {   # having a tab as a first character on a non-whitespace line is a sign of a multi-line file
+        # This is a multi-line file
 
-		$filetype = "multi-line";
+        $filetype = "multi-line";
 
-		# Normalize to tab-based
-		# 1) All lines that start with a tab belong to the previous line.
-		# 2) Copy the lines as-is to the end of the previous line
-		#
-		# We use a regexp that just removes the newlines, which is easier than copying
+        # Normalize to tab-based
+        # 1) All lines that start with a tab belong to the previous line.
+        # 2) Copy the lines as-is to the end of the previous line
+        #
+        # We use a regexp that just removes the newlines, which is easier than copying
 
-		$buffer =~ s/\n\t/\t/mg;
+        $buffer =~ s/\n\t/\t/mg;
 
-		@lines = split /\n/, $buffer;
-	}
-	else {
-		$filetype = "tab-based";
-	}
+        @lines = split /\n/, $buffer;
+    }
+    else {
+        $filetype = "tab-based";
+    }
 
-	# The buffer iw not normalized. Split on newline
-	@lines = split /\n/, $buffer;
+    # The buffer iw not normalized. Split on newline
+    @lines = split /\n/, $buffer;
 
-	# return a arrayref so we are a little more efficient
-	return (\@lines, $filetype);
+    # return a arrayref so we are a little more efficient
+    return (\@lines, $filetype);
 }
 
 
@@ -5815,7 +5820,7 @@ sub FILETYPE_parse {
     for my $line (@ {$lines_ref} ) {
         my $line_info;
         my $new_line = $line;    # We work on a copy
-	study $new_line;         # Make the substitution work.
+    study $new_line;         # Make the substitution work.
 
         # Remove spaces at the end of the line
         $new_line =~ s/\s+$//;
@@ -5823,28 +5828,36 @@ sub FILETYPE_parse {
         # Remove spaces at the begining of the line
         $new_line =~ s/^\s+//;
 
-	## Gawaine42
-	## [ 1324519 ] ASCII characters
-	## Start by replacing the smart quotes and other similar characters.
-	if ($conversion_enable{'ALL:Fix Common Extended ASCII'}) {
-	    $new_line =~ s/\x82/,/g;
-	    $new_line =~ s/\x84/,,/g;
-	    $new_line =~ s/\x85/.../g;
-	    $new_line =~ s/\x88/^/g;
-	    $new_line =~ s/\x8B/</g;
-	    $new_line =~ s/\x8C/Oe/g;
-	    $new_line =~ s/\x91/\'/g;
-	    $new_line =~ s/\x92/\'/g;
-	    $new_line =~ s/\x93/\"/g;
-	    $new_line =~ s/\x94/\"/g;
-	    $new_line =~ s/\x95/*/g;
-	    $new_line =~ s/\x96/-/g;
-	    $new_line =~ s/\x97/-/g;
-	    $new_line =~ s-\x98-<sup>~</sup>-g;
-	    $new_line =~ s-\x99-<sup>TM</sup>-g;
-	    $new_line =~ s/\x9B/>/g;
-	    $new_line =~ s/\x9C/oe/g;
-	}
+    ## Gawaine42
+    ## [ 1324519 ] ASCII characters
+    ## Start by replacing the smart quotes and other similar characters.
+    if ($conversion_enable{'ALL:Fix Common Extended ASCII'}) {
+        my $old_line = $new_line;
+        $new_line =~ s/\x82/,/g;
+        $new_line =~ s/\x84/,,/g;
+        $new_line =~ s/\x85/.../g;
+        $new_line =~ s/\x88/^/g;
+        $new_line =~ s/\x8B/</g;
+        $new_line =~ s/\x8C/Oe/g;
+        $new_line =~ s/\x91/\'/g;
+        $new_line =~ s/\x92/\'/g;
+        $new_line =~ s/\x93/\"/g;
+        $new_line =~ s/\x94/\"/g;
+        $new_line =~ s/\x95/*/g;
+        $new_line =~ s/\x96/-/g;
+        $new_line =~ s/\x97/-/g;
+        $new_line =~ s-\x98-<sup>~</sup>-g;
+        $new_line =~ s-\x99-<sup>TM</sup>-g;
+        $new_line =~ s/\x9B/>/g;
+        $new_line =~ s/\x9C/oe/g;
+        if (!(length($new_line) == 0) && !($new_line = $old_line) ) {
+        $logging->ewarn(WARNING,
+            qq("$new_line" contains illegal charachter),
+            $file_for_error,
+            $line_for_error
+            );
+        }
+    }
 
         # Skip comments and empty lines
         if ( length($new_line) == 0 || $new_line =~ /^\#/ ) {
@@ -6006,7 +6019,7 @@ sub FILETYPE_parse {
                                     );
                                 }
                             }
-			    $valid_entities{$curent_linetype}{$entry}++;
+                $valid_entities{$curent_linetype}{$entry}++;
 
                             # Check to see if the entry must be recorded for other
                             # entry types.
@@ -6054,8 +6067,8 @@ sub FILETYPE_parse {
         ############################################################
         ######################## Conversion ########################
         # We manipulate the tags for the line here
-	# This function call will parse individual lines, which will
-	# in turn parse the tags within the lines.
+    # This function call will parse individual lines, which will
+    # in turn parse the tags within the lines.
 
         additionnal_line_parsing(\%line_tokens,
                                  $curent_linetype,
@@ -6174,6 +6187,7 @@ sub FILETYPE_parse {
     # No reformating needed?
     return $lines_ref unless $cl_options{output_path} && $writefiletype{$file_type};
 
+    # if (!$conversion_enable{'No extra Tab'}) {
     # Now on to all the non header lines.
     CORE_LINE:
     for ( my $line_index = 0; $line_index < @newlines; $line_index++ ) {
@@ -6193,6 +6207,7 @@ sub FILETYPE_parse {
         # If the separator is not a tab, with just join the
         # tag in order
         my $sep = $line_info->{Sep} || "\t";
+        
         if ( $sep ne "\t" ) {
 
             # First, the tag known in master_order
@@ -6246,7 +6261,7 @@ sub FILETYPE_parse {
                         delete $line_tokens->{$tag};
                     }
                 }
-
+                
                 # The remaining tag are not in the master_order list
                 for my $tag ( sort keys %$line_tokens ) {
                     $newline .= join $sep, @{ $line_tokens->{$tag} };
@@ -6299,13 +6314,13 @@ sub FILETYPE_parse {
                         ? $header_length
                         : $col_length{$tag};
 
-					# Round the col_length up to the next tab
+                    # Round the col_length up to the next tab
                     $col_length = $tablength * ( int( $col_length / $tablength ) + 1 );
 
                     # The header
-				    my $tab_to_add = int( ( $col_length - $header_length ) / $tablength )
+                    my $tab_to_add = int( ( $col_length - $header_length ) / $tablength )
                             + ( ( $col_length - $header_length ) % $tablength ? 1 : 0 );
-				    $header_line .= $header_text . $sep x $tab_to_add;
+                    $header_line .= $header_text . $sep x $tab_to_add;
                     
                     # The line
                     $tab_to_add = int( ( $col_length - $col_length{$tag} ) / $tablength )
@@ -6370,14 +6385,11 @@ sub FILETYPE_parse {
                     splice( @newlines, $line_index - 1, 0, '' );
                     $line_index++;
                 }
-                if ($conversion_enable{'No extra Tab'}) {
-				   next CORE_LINE;
-				} else {
+
                    # Replace the array with the new line
                    $newlines[$line_index] = $newline;
                    next CORE_LINE;
-				}
-            }
+                }
             else {
 
                 # Invalid option
@@ -6772,7 +6784,8 @@ sub FILETYPE_parse {
     }
 
     return \@newlines;
-
+    # } else {
+    # }
 }
 
 ###############################################################
@@ -6810,16 +6823,16 @@ sub parse_ADD_tag {
 
     # Old Format
     if ($tag =~ /\s*ADD:([^\(]+)\((.+)\)(\d*)/) {
-	($token, $therest, $num_count) = ($1, $2, $3);
-	if (!$num_count) { $num_count = 1; }
+    ($token, $therest, $num_count) = ($1, $2, $3);
+    if (!$num_count) { $num_count = 1; }
         # Is it a known token?
         if ( exists $token_ADD_tag{"ADD:$token"} ) {
-	    return ( 1, "ADD:$token", $therest, $num_count );
+        return ( 1, "ADD:$token", $therest, $num_count );
         }
         # Is it the right form? => ADD:any text(any text)
         # Note that no check is done to see if the () are balanced.
         # elsif ( $therest =~ /^\((.*)\)(\d*)\s*$/ ) {
-	else {
+    else {
             return ( 2, "ADD:$token", $therest, $num_count);
         }
     }
@@ -6828,15 +6841,15 @@ sub parse_ADD_tag {
 #    if ($tag =~ /\s*ADD:([^\|]+)(\|[^\|]*)\|(.+)/) {
     if ($tag =~ /\s*ADD:([^\|]+)(\|\d+)?\|(.+)/) {
 
-	($token, $num_count, $optionlist) = ($1, $2, $3);
-	if (!$num_count) { $num_count = 1; }
+    ($token, $num_count, $optionlist) = ($1, $2, $3);
+    if (!$num_count) { $num_count = 1; }
 
-	if ( exists $token_ADD_tag{"ADD:$token"}) {
-	    return ( 3, "ADD:$token", $optionlist, $num_count);
-	}
-	else {
-	    return ( 4, "ADD:$token", $optionlist, $num_count);
-	}
+    if ( exists $token_ADD_tag{"ADD:$token"}) {
+        return ( 3, "ADD:$token", $optionlist, $num_count);
+    }
+    else {
+        return ( 4, "ADD:$token", $optionlist, $num_count);
+    }
     }
 
     # Not a good ADD tag.
@@ -6909,40 +6922,40 @@ sub parse_tag {
     # cause a spurious error. I've added them to valid entities to prevent
     # that.
     if ($tag eq 'STARTPACK') {
-	$valid_entities{'KIT STARTPACK'}{"KIT:$value"}++;
-	$valid_entities{'KIT STARTPACK'}{"$value"}++;
+    $valid_entities{'KIT STARTPACK'}{"KIT:$value"}++;
+    $valid_entities{'KIT STARTPACK'}{"$value"}++;
     }
 
     # [ 1678570 ] Correct PRESPELLTYPE syntax
     # PRESPELLTYPE conversion
     if ($conversion_enable{'ALL:PRESPELLTYPE Syntax'} &&
-	$tag eq 'PRESPELLTYPE' &&
-	$tag_text =~ /^PRESPELLTYPE:([^\d]+),(\d+),(\d+)/)
+    $tag eq 'PRESPELLTYPE' &&
+    $tag_text =~ /^PRESPELLTYPE:([^\d]+),(\d+),(\d+)/)
     {
-	my ($spelltype, $num_spells, $num_levels) = ($1, $2, $3);
-	#$tag_text =~ /^PRESPELLTYPE:([^,\d]+),(\d+),(\d+)/;
-	$value = "$num_spells,";
-	# Common homebrew mistake is to include Arcade|Divine, since the
-	# 5.8 documentation had an example that showed this. Might
-	# as well handle it while I'm here.
-	my @spelltypes = split(/\|/,$spelltype);
-	foreach my $st (@spelltypes) {
-	    $value .= "$st=$num_levels";
-	}
-	$logging->ewarn( NOTICE,
-	       qq{Invalid standalone PRESPELLTYPE tag "$tag_text" found and converted in $linetype.},
-	       $file_for_error,
-	       $line_for_error
-	       );
+    my ($spelltype, $num_spells, $num_levels) = ($1, $2, $3);
+    #$tag_text =~ /^PRESPELLTYPE:([^,\d]+),(\d+),(\d+)/;
+    $value = "$num_spells,";
+    # Common homebrew mistake is to include Arcade|Divine, since the
+    # 5.8 documentation had an example that showed this. Might
+    # as well handle it while I'm here.
+    my @spelltypes = split(/\|/,$spelltype);
+    foreach my $st (@spelltypes) {
+        $value .= "$st=$num_levels";
+    }
+    $logging->ewarn( NOTICE,
+           qq{Invalid standalone PRESPELLTYPE tag "$tag_text" found and converted in $linetype.},
+           $file_for_error,
+           $line_for_error
+           );
     }
     # Continuing the fix - fix it anywhere. This is meant to address PRE tags
     # that are on the end of other tags or in PREMULTS.
     # I'll leave out the pipe-delimited error here, since it's more likely
     # to end up with confusion when the tag isn't standalone.
     elsif ($conversion_enable{'ALL:PRESPELLTYPE Syntax'}
-	&& $tag_text =~ /PRESPELLTYPE:([^\d]+),(\d+),(\d+)/)
+    && $tag_text =~ /PRESPELLTYPE:([^\d]+),(\d+),(\d+)/)
     {
-	$value =~ s/PRESPELLTYPE:([^\d,]+),(\d+),(\d+)/PRESPELLTYPE:$2,$1=$3/g;
+    $value =~ s/PRESPELLTYPE:([^\d,]+),(\d+),(\d+)/PRESPELLTYPE:$2,$1=$3/g;
                 $logging->ewarn( NOTICE,
                     qq{Invalid embedded PRESPELLTYPE tag "$tag_text" found and converted $linetype.},
                     $file_for_error,
@@ -6954,19 +6967,19 @@ sub parse_tag {
     # [ 1683231 ] CHOOSE:SCHOOLS does not have arguments
     # Warn if there are arguments passed to CHOOSE:SCHOOLS
 
-#	if ($tag_text =~ '^CHOOSE:SCHOOLS\|') {
-#		$logging->ewarn(WARNING,
-#			qq{Invalid format in "$tag_text", CHOOSE:SCHOOLS does not support any additional arguments or the pipe separator.},
-#			$file_for_error,
-#			$line_for_error
-#			);
-#	}
+#    if ($tag_text =~ '^CHOOSE:SCHOOLS\|') {
+#        $logging->ewarn(WARNING,
+#            qq{Invalid format in "$tag_text", CHOOSE:SCHOOLS does not support any additional arguments or the pipe separator.},
+#            $file_for_error,
+#            $line_for_error
+#            );
+#    }
 
 
     # Special cases like ADD:... and BONUS:...
     if ( $tag eq 'ADD' ) {
         my ( $type, $addtag, $therest, $add_count )
-	    = parse_ADD_tag( $tag_text );
+        = parse_ADD_tag( $tag_text );
             #   Return code 0 = no valid ADD tag found,
             #               1 = old format token ADD tag found,
             #               2 = old format adlib ADD tag found.
@@ -6979,12 +6992,12 @@ sub parse_tag {
                 $tag   = $addtag;
                 $value = "($therest)$add_count";
             }
-	    if ((($type == 1) || ($type == 2)) && ($conversion_enable{'ALL:ADD Syntax Fix'}))
-	    {
-		$tag = "ADD:";
-		$addtag =~ s/ADD://;
-		$value = "$addtag|$add_count|$therest";
-	    }
+        if ((($type == 1) || ($type == 2)) && ($conversion_enable{'ALL:ADD Syntax Fix'}))
+        {
+        $tag = "ADD:";
+        $addtag =~ s/ADD://;
+        $value = "$addtag|$add_count|$therest";
+        }
         }
         else {
             unless ( index( $tag_text, '#' ) == 0 ) {
@@ -7007,25 +7020,25 @@ sub parse_tag {
             $value =~ s/^$qualify_type(.*)/$1/;
        }
        elsif ($qualify_type) {
-       	# No valid Qualify type found
-	   $count_tags{"Invalid"}{"Total"}{"$tag:$qualify_type"}++;
-	   $count_tags{"Invalid"}{$linetype}{"$tag:$qualify_type"}++;
-	   $logging->ewarn( NOTICE,
-		  qq{Invalid QUALIFY:$qualify_type tag "$tag_text" found in $linetype.},
-		  $file_for_error,
-		  $line_for_error
-		  );
-	   $no_more_error = 1;
+           # No valid Qualify type found
+       $count_tags{"Invalid"}{"Total"}{"$tag:$qualify_type"}++;
+       $count_tags{"Invalid"}{$linetype}{"$tag:$qualify_type"}++;
+       $logging->ewarn( NOTICE,
+          qq{Invalid QUALIFY:$qualify_type tag "$tag_text" found in $linetype.},
+          $file_for_error,
+          $line_for_error
+          );
+       $no_more_error = 1;
        }
        else {
-	   $count_tags{"Invalid"}{"Total"}{"QUALIFY"}++;
-	   $count_tags{"Invalid"}{$linetype}{"QUALIFY"}++;
-	   $logging->ewarn( NOTICE,
-		  qq{Invalid QUALIFY tag "$tag_text" found in $linetype},
-		  $file_for_error,
-		  $line_for_error
-		  );
-	   $no_more_error = 1;
+       $count_tags{"Invalid"}{"Total"}{"QUALIFY"}++;
+       $count_tags{"Invalid"}{$linetype}{"QUALIFY"}++;
+       $logging->ewarn( NOTICE,
+          qq{Invalid QUALIFY tag "$tag_text" found in $linetype},
+          $file_for_error,
+          $line_for_error
+          );
+       $no_more_error = 1;
        }
    }
 
@@ -7062,38 +7075,38 @@ sub parse_tag {
         }
     }
 
-	if ( $tag eq 'PROFICIENCY' ) {
-		my ($prof_type) = ( $value =~ /^([^=:|]+)/ );
+    if ( $tag eq 'PROFICIENCY' ) {
+        my ($prof_type) = ( $value =~ /^([^=:|]+)/ );
 
-		if ( $prof_type && exists $token_PROFICIENCY_tag{$prof_type} ) {
+        if ( $prof_type && exists $token_PROFICIENCY_tag{$prof_type} ) {
 
-			# Is it valid for the curent file type?
-			$tag .= ':' . $prof_type;
-			$value =~ s/^$prof_type(.*)/$1/;
-		}
-		elsif ($prof_type) {
+            # Is it valid for the curent file type?
+            $tag .= ':' . $prof_type;
+            $value =~ s/^$prof_type(.*)/$1/;
+        }
+        elsif ($prof_type) {
 
-			# No valid bonus type was found
-			$count_tags{"Invalid"}{"Total"}{"$tag:$prof_type"}++;
-			$count_tags{"Invalid"}{$linetype}{"$tag:$prof_type"}++;
-			$logging->ewarn( NOTICE,
-				qq{Invalid PROFICIENCY:$prof_type tag "$tag_text" found in $linetype.},
-				$file_for_error,
-				$line_for_error
-			);
-			$no_more_error = 1;
-		}
-		else {
-			$count_tags{"Invalid"}{"Total"}{"PROFICIENCY"}++;
-			$count_tags{"Invalid"}{$linetype}{"PROFICIENCY"}++;
-			$logging->ewarn( NOTICE,
-				qq{Invalid PROFICIENCY tag "$tag_text" found in $linetype},
-				$file_for_error,
-				$line_for_error
-			);
-			$no_more_error = 1;
-		}
-	}
+            # No valid bonus type was found
+            $count_tags{"Invalid"}{"Total"}{"$tag:$prof_type"}++;
+            $count_tags{"Invalid"}{$linetype}{"$tag:$prof_type"}++;
+            $logging->ewarn( NOTICE,
+                qq{Invalid PROFICIENCY:$prof_type tag "$tag_text" found in $linetype.},
+                $file_for_error,
+                $line_for_error
+            );
+            $no_more_error = 1;
+        }
+        else {
+            $count_tags{"Invalid"}{"Total"}{"PROFICIENCY"}++;
+            $count_tags{"Invalid"}{$linetype}{"PROFICIENCY"}++;
+            $logging->ewarn( NOTICE,
+                qq{Invalid PROFICIENCY tag "$tag_text" found in $linetype},
+                $file_for_error,
+                $line_for_error
+            );
+            $no_more_error = 1;
+        }
+    }
 
 
     # [ 832171 ] AUTO:* needs to be separate tags
@@ -7173,40 +7186,40 @@ sub parse_tag {
         }
     }
 
-	# [ 2544134 ] New Token - SPELLKNOWN
+    # [ 2544134 ] New Token - SPELLKNOWN
 
-	if ( $tag eq 'SPELLKNOWN' ) {
-		if ( $value =~ s/^CLASS(?=\|)// ) {
-			# It's a SPELLKNOWN:CLASS tag
-			$tag = "SPELLKNOWN:CLASS";
-		}
-		elsif ( $value =~ s/^DOMAIN(?=\|)// ) {
-			# It's a SPELLKNOWN:DOMAIN tag
-			$tag = "SPELLKNOWN:DOMAIN";
-		}
-		else {
-			# No valid SPELLKNOWN subtag was found
-			if ( $value =~ /^([^=:|]+)/ ) {
-				$count_tags{"Invalid"}{"Total"}{"$tag:$1"}++;
-				$count_tags{"Invalid"}{$linetype}{"$tag:$1"}++;
-				$logging->ewarn( NOTICE,
-					qq{Invalid SPELLKNOWN:$1 tag "$tag_text" found in $linetype.},
-					$file_for_error,
-					$line_for_error
-				);
-			}
-			else {
-				$count_tags{"Invalid"}{"Total"}{"SPELLKNOWN"}++;
-				$count_tags{"Invalid"}{$linetype}{"SPELLKNOWN"}++;
-				$logging->ewarn( NOTICE,
-					qq{Invalid SPELLKNOWN tag "$tag_text" found in $linetype},
-					$file_for_error,
-					$line_for_error
-				);
-			}
-			$no_more_error = 1;
-		}
-	}
+    if ( $tag eq 'SPELLKNOWN' ) {
+        if ( $value =~ s/^CLASS(?=\|)// ) {
+            # It's a SPELLKNOWN:CLASS tag
+            $tag = "SPELLKNOWN:CLASS";
+        }
+        elsif ( $value =~ s/^DOMAIN(?=\|)// ) {
+            # It's a SPELLKNOWN:DOMAIN tag
+            $tag = "SPELLKNOWN:DOMAIN";
+        }
+        else {
+            # No valid SPELLKNOWN subtag was found
+            if ( $value =~ /^([^=:|]+)/ ) {
+                $count_tags{"Invalid"}{"Total"}{"$tag:$1"}++;
+                $count_tags{"Invalid"}{$linetype}{"$tag:$1"}++;
+                $logging->ewarn( NOTICE,
+                    qq{Invalid SPELLKNOWN:$1 tag "$tag_text" found in $linetype.},
+                    $file_for_error,
+                    $line_for_error
+                );
+            }
+            else {
+                $count_tags{"Invalid"}{"Total"}{"SPELLKNOWN"}++;
+                $count_tags{"Invalid"}{$linetype}{"SPELLKNOWN"}++;
+                $logging->ewarn( NOTICE,
+                    qq{Invalid SPELLKNOWN tag "$tag_text" found in $linetype},
+                    $file_for_error,
+                    $line_for_error
+                );
+            }
+            $no_more_error = 1;
+        }
+    }
 
     # All the .CLEAR must be separated tags to help with the
     # tag ordering. That is, we need to make sure the .CLEAR
@@ -7216,7 +7229,7 @@ sub parse_tag {
     #ewarn( DEBUG, qq{parse_tag:$tag_text}, $file_for_error, $line_for_error );
     if ( defined $value && $value =~ /^.CLEAR/i ) {
         if ( exists $valid_tags{$linetype}{"$tag:.CLEARALL"} ) {
-			# Nothing to see here. Move on.
+            # Nothing to see here. Move on.
            }
         elsif ( !exists $valid_tags{$linetype}{"$tag:.CLEAR"} ) {
             $logging->ewarn( NOTICE,
@@ -7238,22 +7251,22 @@ sub parse_tag {
     my $real_tag = ( $negate_pre ? "!" : "" ) . $tag;
 
     if ( !$no_more_error && !exists $valid_tags{$linetype}{$tag} && index( $tag_text, '#' ) != 0 ) {
-	my $do_warn = 1;
-	if ($tag_text =~ /^ADD:([^\(\|]+)[\|\(]+/) {
-	    my $tag_text = ($1);
-	    if (exists $valid_tags{$linetype}{"ADD:$tag_text"}) {
-		$do_warn = 0;
-	    }
-	}
-	if ($do_warn) {
-	    $logging->ewarn( NOTICE,
-		   qq{The tag "$tag" from "$tag_text" is not in the $linetype tag list\n},
-		   $file_for_error,
-		   $line_for_error
-		   );
-	    $count_tags{"Invalid"}{"Total"}{$real_tag}++;
-	    $count_tags{"Invalid"}{$linetype}{$real_tag}++;
-	}
+    my $do_warn = 1;
+    if ($tag_text =~ /^ADD:([^\(\|]+)[\|\(]+/) {
+        my $tag_text = ($1);
+        if (exists $valid_tags{$linetype}{"ADD:$tag_text"}) {
+        $do_warn = 0;
+        }
+    }
+    if ($do_warn) {
+        $logging->ewarn( NOTICE,
+           qq{The tag "$tag" from "$tag_text" is not in the $linetype tag list\n},
+           $file_for_error,
+           $line_for_error
+           );
+        $count_tags{"Invalid"}{"Total"}{$real_tag}++;
+        $count_tags{"Invalid"}{$linetype}{$real_tag}++;
+    }
     }
     elsif ( exists $valid_tags{$linetype}{$tag} ) {
 
@@ -7432,18 +7445,18 @@ BEGIN {
 
     sub validate_tag {
         my ( $tag_name, $tag_value, $linetype, $file_for_error, $line_for_error ) = @_;
-	study $tag_value;
+    study $tag_value;
 
-	if ($tag_name eq 'STARTPACK')
-	{
-	    $valid_entities{'KIT STARTPACK'}{"KIT:$tag_value"}++;
-	    $valid_entities{'KIT'}{"KIT:$tag_value"}++;
-	}
+    if ($tag_name eq 'STARTPACK')
+    {
+        $valid_entities{'KIT STARTPACK'}{"KIT:$tag_value"}++;
+        $valid_entities{'KIT'}{"KIT:$tag_value"}++;
+    }
 
         elsif ( $tag_name =~ /^\!?PRE/ ) {
-        	
+            
             # It's a PRExxx tag, we delegate
-			return validate_pre_tag( $tag_name,
+            return validate_pre_tag( $tag_name,
                                     $tag_value,
                                     "",
                                     $linetype,
@@ -7451,9 +7464,9 @@ BEGIN {
                                     $line_for_error
                    );
         }
-		elsif (index( $tag_name, 'PROFICIENCY' ) == 0 ) {
-			
-		}
+        elsif (index( $tag_name, 'PROFICIENCY' ) == 0 ) {
+            
+        }
         elsif ( index( $tag_name, 'BONUS' ) == 0 ) {
 
             # Are there any PRE tags in the BONUS tag.
@@ -7837,9 +7850,9 @@ BEGIN {
             }
             elsif (   $linetype eq 'DEITY' ) {
                 # Only DOMAINS in DEITY
-		if ($tag_value =~ /\|/ ) {
-			$tag_value = substr($tag_value, 0, rindex($tag_value, "\|"));
-		}
+        if ($tag_value =~ /\|/ ) {
+            $tag_value = substr($tag_value, 0, rindex($tag_value, "\|"));
+        }
                 DOMAIN_FOR_DEITY:
                 for my $domain ( split ',', $tag_value ) {
 
@@ -8246,38 +8259,38 @@ BEGIN {
                 }
             }
         }
-		elsif ( $tag_name eq 'MOVECLONE' ) {
-		# MOVECLONE:A,B,formula  A and B must be valid move types.
-			if ( $tag_value =~ /^(.*),(.*),(.*)/ ) {
-				# Error if more parameters (Which will show in the first group)
-				if ( $1 =~ /,/ ) {
-					$logging->ewarn( WARNING,
-					qq{Found too many parameters in "$tag_name:$tag_value"},
-					$file_for_error,
-					$line_for_error
-					);
-				} 
-				else {
-					# Cross check for used MOVE Types.
-					push @xcheck_to_process,
-						[
-						'MOVE Type', $tag_name, 
-						$file_for_error, $line_for_error,
-						$1, $2
-						];
-				}
-			}
-			else {
-				# Report missing requisite parameters.
-				$logging->ewarn( WARNING,
-				qq{Missing a parameter in in "$tag_name:$tag_value"},
-				$file_for_error,
-				$line_for_error
-				);
-			}
+        elsif ( $tag_name eq 'MOVECLONE' ) {
+        # MOVECLONE:A,B,formula  A and B must be valid move types.
+            if ( $tag_value =~ /^(.*),(.*),(.*)/ ) {
+                # Error if more parameters (Which will show in the first group)
+                if ( $1 =~ /,/ ) {
+                    $logging->ewarn( WARNING,
+                    qq{Found too many parameters in "$tag_name:$tag_value"},
+                    $file_for_error,
+                    $line_for_error
+                    );
+                } 
+                else {
+                    # Cross check for used MOVE Types.
+                    push @xcheck_to_process,
+                        [
+                        'MOVE Type', $tag_name, 
+                        $file_for_error, $line_for_error,
+                        $1, $2
+                        ];
+                }
+            }
+            else {
+                # Report missing requisite parameters.
+                $logging->ewarn( WARNING,
+                qq{Missing a parameter in in "$tag_name:$tag_value"},
+                $file_for_error,
+                $line_for_error
+                );
+            }
 
 
-		}
+        }
         elsif ( $tag_name eq 'RACE' && $linetype ne 'PCC' ) {
             # There is only one race per RACE tag
             push @xcheck_to_process,
@@ -8380,11 +8393,11 @@ BEGIN {
                 my $nb_casterlevel = 0;
                 my $AtWill_Flag    = NO;
                 for my $param (@list_of_param) {
-   		    if ( $param =~ /^(TIMES)=(.*)/ || $param =~ /^(TIMEUNIT)=(.*)/ || $param =~ /^(CASTERLEVEL)=(.*)/ ) {
-					if ( $1 eq 'TIMES' ) {
-#						$param =~ s/TIMES=-1/TIMES=ATWILL/g;   # SPELLS:xxx|TIMES=-1 to SPELLS:xxx|TIMES=ATWILL conversion
-						$AtWill_Flag = $param =~ /TIMES=ATWILL/;
-						$nb_times++;
+               if ( $param =~ /^(TIMES)=(.*)/ || $param =~ /^(TIMEUNIT)=(.*)/ || $param =~ /^(CASTERLEVEL)=(.*)/ ) {
+                    if ( $1 eq 'TIMES' ) {
+#                        $param =~ s/TIMES=-1/TIMES=ATWILL/g;   # SPELLS:xxx|TIMES=-1 to SPELLS:xxx|TIMES=ATWILL conversion
+                        $AtWill_Flag = $param =~ /TIMES=ATWILL/;
+                        $nb_times++;
                         push @xcheck_to_process,
                              [
                                 'DEFINE Variable',
@@ -8400,32 +8413,32 @@ BEGIN {
                              ];
                         }
                         elsif ( $1 eq 'TIMEUNIT' ) {
-			    $nb_timeunit++;
-			    # Is it a valid alignment?
-			    if (!exists $tag_fix_value{$1}{$2}) {
-			    	$logging->ewarn( NOTICE,
-			    	   qq{Invalid value "$2" for tag "$1"},
-			    	   $file_for_error,
-			    	   $line_for_error
-			    	);
+                $nb_timeunit++;
+                # Is it a valid alignment?
+                if (!exists $tag_fix_value{$1}{$2}) {
+                    $logging->ewarn( NOTICE,
+                       qq{Invalid value "$2" for tag "$1"},
+                       $file_for_error,
+                       $line_for_error
+                    );
 #                           $is_valid = 0;
                             }
-			}
+            }
                         else {
                             $nb_casterlevel++;
-												push @xcheck_to_process,
-							[
-								'DEFINE Variable',
-								qq(@@" in "$tag_name:$tag_value),
-								$file_for_error,
-								$line_for_error,
-								parse_jep(
-									$2,
-									"$tag_name:$tag_value",
-									$file_for_error,
-									$line_for_error
-								)
-							];
+                                                push @xcheck_to_process,
+                            [
+                                'DEFINE Variable',
+                                qq(@@" in "$tag_name:$tag_value),
+                                $file_for_error,
+                                $line_for_error,
+                                parse_jep(
+                                    $2,
+                                    "$tag_name:$tag_value",
+                                    $file_for_error,
+                                    $line_for_error
+                                )
+                            ];
                         }
                     }
                     elsif ( $param =~ /^(PRE[A-Z]+):(.*)/ ) {
@@ -8466,11 +8479,11 @@ BEGIN {
                             # No DC present, the whole param is the spell name
                             push @spells, $param;
 
-#					$logging->ewarn(INFO,
-#						qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
-#						$file_for_error,
-#						$line_for_error
-#					);
+#                    $logging->ewarn(INFO,
+#                        qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
+#                        $file_for_error,
+#                        $line_for_error
+#                    );
                         }
                     }
                 }
@@ -8514,12 +8527,12 @@ BEGIN {
                        # Nothing to see here. Move along.
                        }
                        else {
-						# [ 1997408 ] False positive: TIMEUNIT= parameter is missing
-						# $logging->ewarn( INFO,
-						#	qq(the TIMEUNIT= parameter is missing in "$tag_name:$tag_value"),
-						#	$file_for_error,
-						#	$line_for_error
-						# );
+                        # [ 1997408 ] False positive: TIMEUNIT= parameter is missing
+                        # $logging->ewarn( INFO,
+                        #    qq(the TIMEUNIT= parameter is missing in "$tag_name:$tag_value"),
+                        #    $file_for_error,
+                        #    $line_for_error
+                        # );
                        }
                    }
                 }
@@ -8597,24 +8610,24 @@ BEGIN {
                 }
             }
         }
-		elsif ( index( $tag_name, 'SPELLLEVEL:' ) == 0 
-			|| index( $tag_name, 'SPELLKNOWN:' ) == 0
-		) {
+        elsif ( index( $tag_name, 'SPELLLEVEL:' ) == 0 
+            || index( $tag_name, 'SPELLKNOWN:' ) == 0
+        ) {
 
             # [ 813504 ] SPELLLEVEL:DOMAIN in domains.lst
-		# [ 2544134 ] New Token - SPELLKNOWN
+        # [ 2544134 ] New Token - SPELLKNOWN
             # -------------------------------------------
             # There are two different SPELLLEVEL tags that must
             # be x-check. SPELLLEVEL:CLASS and SPELLLEVEL:DOMAIN.
             #
             # The CLASS type have CLASSes and SPELLs to check and
             # the DOMAIN type have DOMAINs and SPELLs to check.
-		#
-		# SPELLKNOWN has exact same syntax as SPELLLEVEL, so doing both checks at once.
+        #
+        # SPELLKNOWN has exact same syntax as SPELLLEVEL, so doing both checks at once.
 
-		if ( $tag_name eq "SPELLLEVEL:CLASS" 
-			|| $tag_name eq "SPELLKNOWN:CLASS"
-		) {
+        if ( $tag_name eq "SPELLLEVEL:CLASS" 
+            || $tag_name eq "SPELLKNOWN:CLASS"
+        ) {
 
                 # The syntax for SPELLLEVEL:CLASS is
                 # SPELLLEVEL:CLASS|<class-list of spells>
@@ -8688,9 +8701,9 @@ BEGIN {
                     );
                 }
             }
-		if ( $tag_name eq "SPELLLEVEL:DOMAIN" 
-			|| $tag_name eq "SPELLKNOWN:DOMAIN"
-		) {
+        if ( $tag_name eq "SPELLLEVEL:DOMAIN" 
+            || $tag_name eq "SPELLKNOWN:DOMAIN"
+        ) {
 
               # The syntax for SPELLLEVEL:DOMAIN is
               # SPELLLEVEL:CLASS|<domain-list of spells>
@@ -9074,8 +9087,8 @@ BEGIN {
         }
         elsif ( $tag_name eq 'CHANGEPROF' ) {
 
-		# "CHANGEPROF:" <list of weapons> "=" <new prof> { "|"  <list of weapons> "=" <new prof> }*
-		# <list of weapons> := ( <weapon> | "TYPE=" <weapon type> ) { "," ( <weapon> | "TYPE=" <weapon type> ) }*
+        # "CHANGEPROF:" <list of weapons> "=" <new prof> { "|"  <list of weapons> "=" <new prof> }*
+        # <list of weapons> := ( <weapon> | "TYPE=" <weapon type> ) { "," ( <weapon> | "TYPE=" <weapon type> ) }*
 
             for my $entry ( split '\|', $tag_value ) {
                 if ( $entry =~ /^([^=]+)=([^=]+)$/ ) {
@@ -9271,9 +9284,9 @@ sub validate_pre_tag {
                     $tag_name,
                     $file_for_error,
                     $line_for_error,
-		  # Pull off the first number.
-		  # [ 1776500 ] PREDEITY needs updated
-		  (split /[,]/, $tag_value)[1,-1],
+          # Pull off the first number.
+          # [ 1776500 ] PREDEITY needs updated
+          (split /[,]/, $tag_value)[1,-1],
                  ];
         }
     }
@@ -9322,8 +9335,8 @@ sub validate_pre_tag {
     }
     elsif ( $pretag eq 'PREABILITY' ) {
 
-	# [ 1671407 ] xcheck PREABILITY tag
-	# Shamelessly copied from the above FEAT code.
+    # [ 1671407 ] xcheck PREABILITY tag
+    # Shamelessly copied from the above FEAT code.
         # PREABILITY:number,feat,feat,TYPE=type,CATEGORY=category
 
         # We get the list of abilities and ability types
@@ -9522,38 +9535,38 @@ sub validate_pre_tag {
                            $line_for_error
                     );
                 }
-		else {
-		    # Don't bother warning if it matches everything.
-		    # For now, we warn and do nothing else.
-		    if ($race_wild eq '') {
-			## Matches everything, no reason to warn.
-		    }
-		    elsif ($valid_entities{'RACE'}{$race_wild}) {
-			## Matches an existing race, no reason to warn.
-		    }
-		    elsif ($race_partial_match{$race_wild}) {
-			## Partial match already confirmed, no need to confirm.
-		    }
-		    else {
-			my $found = 0;
+        else {
+            # Don't bother warning if it matches everything.
+            # For now, we warn and do nothing else.
+            if ($race_wild eq '') {
+            ## Matches everything, no reason to warn.
+            }
+            elsif ($valid_entities{'RACE'}{$race_wild}) {
+            ## Matches an existing race, no reason to warn.
+            }
+            elsif ($race_partial_match{$race_wild}) {
+            ## Partial match already confirmed, no need to confirm.
+            }
+            else {
+            my $found = 0;
 
-			while (($found == 0)
-			       && ((my $check_race,my $val) = each(%{$valid_entities{'RACE'}})))
-			{
-			    if ( $check_race =~ m/^\Q$race_wild/) {
-				$found=1;
-				$race_partial_match{$race_wild} = 1;
-			    }
-			}
-			if ($found == 0) {
-			    $logging->ewarn( INFO,
-				   qq{Not able to validate "$race" in "PRERACE:$tag_value." This warning is order dependent. If the race is defined in a later file, this warning may not be accurate.},
-				   $file_for_error,
-				   $line_for_error
-				   );
-			}
-		    }
-		}
+            while (($found == 0)
+                   && ((my $check_race,my $val) = each(%{$valid_entities{'RACE'}})))
+            {
+                if ( $check_race =~ m/^\Q$race_wild/) {
+                $found=1;
+                $race_partial_match{$race_wild} = 1;
+                }
+            }
+            if ($found == 0) {
+                $logging->ewarn( INFO,
+                   qq{Not able to validate "$race" in "PRERACE:$tag_value." This warning is order dependent. If the race is defined in a later file, this warning may not be accurate.},
+                   $file_for_error,
+                   $line_for_error
+                   );
+            }
+            }
+        }
             }
             else {
                 push @races, $race;
@@ -9633,7 +9646,7 @@ sub validate_pre_tag {
         }
     }
 
-	# No Check for Variable File #
+    # No Check for Variable File #
 
     # Check for PRExxx that do not exist. We only check the
     # tags that are embeded since parse_tag already took care
@@ -9690,14 +9703,14 @@ sub scan_for_deprecated_tags {
           );
      }
 
-	# [ 1973497 ] HASSPELLFORMULA is deprecated
-	if ( $line =~ /\sHASSPELLFORMULA/ ) {
-		$logging->ewarn( WARNING,
-			qq{HASSPELLFORMULA is no longer needed and is deprecated in PCGen 5.15},
-			$file_for_error,
-			$line_for_error
-		);
-	}
+    # [ 1973497 ] HASSPELLFORMULA is deprecated
+    if ( $line =~ /\sHASSPELLFORMULA/ ) {
+        $logging->ewarn( WARNING,
+            qq{HASSPELLFORMULA is no longer needed and is deprecated in PCGen 5.15},
+            $file_for_error,
+            $line_for_error
+        );
+    }
 
      if ( $line =~ /[\d+|\)]MAX\d+/ ) {
           $logging->ewarn( $error_level,
@@ -9817,41 +9830,41 @@ sub scan_for_deprecated_tags {
           );
      }
 
-	# [ NEWTAG-19 ] CHOOSE:ARMORPROF= is deprecated
-	if ( $line =~ /\sCHOOSE:ARMORPROF\=/) {
-		$logging->ewarn( $error_level,
-			qq{CHOOSE:ARMORPROF= is deprecated 5.15 - Remove 6.0. Use CHOOSE:ARMORPROFICIENCY instead},
-			$file_for_error,
-			$line_for_error
-		);
-	}
+    # [ NEWTAG-19 ] CHOOSE:ARMORPROF= is deprecated
+    if ( $line =~ /\sCHOOSE:ARMORPROF\=/) {
+        $logging->ewarn( $error_level,
+            qq{CHOOSE:ARMORPROF= is deprecated 5.15 - Remove 6.0. Use CHOOSE:ARMORPROFICIENCY instead},
+            $file_for_error,
+            $line_for_error
+        );
+    }
 
-	# [ NEWTAG-17 ] CHOOSE:FEATADD= is deprecated
-	if ( $line =~ /\sCHOOSE:FEATADD\=/) {
-		$logging->ewarn( $error_level,
-			qq{CHOOSE:FEATADD= is deprecated 5.15 - Remove 6.0. Use CHOOSE:FEAT instead},
-			$file_for_error,
-			$line_for_error
-		);
-	}
+    # [ NEWTAG-17 ] CHOOSE:FEATADD= is deprecated
+    if ( $line =~ /\sCHOOSE:FEATADD\=/) {
+        $logging->ewarn( $error_level,
+            qq{CHOOSE:FEATADD= is deprecated 5.15 - Remove 6.0. Use CHOOSE:FEAT instead},
+            $file_for_error,
+            $line_for_error
+        );
+    }
 
-	# [ NEWTAG-17 ] CHOOSE:FEATLIST= is deprecated
-	if ( $line =~ /\sCHOOSE:FEATLIST\=/) {
-		$logging->ewarn( $error_level,
-			qq{CHOOSE:FEATLIST= is deprecated 5.15 - Remove 6.0. Use CHOOSE:FEAT instead},
-			$file_for_error,
-			$line_for_error
-		);
-	}
+    # [ NEWTAG-17 ] CHOOSE:FEATLIST= is deprecated
+    if ( $line =~ /\sCHOOSE:FEATLIST\=/) {
+        $logging->ewarn( $error_level,
+            qq{CHOOSE:FEATLIST= is deprecated 5.15 - Remove 6.0. Use CHOOSE:FEAT instead},
+            $file_for_error,
+            $line_for_error
+        );
+    }
 
-	# [ NEWTAG-17 ] CHOOSE:FEATSELECT= is deprecated
-	if ( $line =~ /\sCHOOSE:FEATSELECT\=/) {
-		$logging->ewarn( $error_level,
-			qq{CHOOSE:FEATSELECT= is deprecated 5.15 - Remove 6.0. Use CHOOSE:FEAT instead},
-			$file_for_error,
-			$line_for_error
-		);
-	}
+    # [ NEWTAG-17 ] CHOOSE:FEATSELECT= is deprecated
+    if ( $line =~ /\sCHOOSE:FEATSELECT\=/) {
+        $logging->ewarn( $error_level,
+            qq{CHOOSE:FEATSELECT= is deprecated 5.15 - Remove 6.0. Use CHOOSE:FEAT instead},
+            $file_for_error,
+            $line_for_error
+        );
+    }
 
 
      # [ 1888288 ] CHOOSE:COUNT= is deprecated
@@ -9864,7 +9877,7 @@ sub scan_for_deprecated_tags {
      }
 }
 ### end of the function scan_for_deprecated_tags
-	  	 
+           
 ###############################################################
 # add_to_xcheck_tables
 # --------------------
@@ -9916,8 +9929,8 @@ BEGIN {
         'max',
         'roll',
         'var',
-		'mastervar',
-		'APPLIEDAS',
+        'mastervar',
+        'APPLIEDAS',
     );
 
     sub add_to_xcheck_tables {
@@ -10042,9 +10055,9 @@ BEGIN {
             }
         }
         elsif ( $entry_type eq 'FEAT' ) {
-	    # Note - ABILITY code is below. If you need to make changes here
-	    # to the FEAT code, please also review the ABILITY code to ensure
-	    # that your changes aren't needed there.
+        # Note - ABILITY code is below. If you need to make changes here
+        # to the FEAT code, please also review the ABILITY code to ensure
+        # that your changes aren't needed there.
             FEAT:
             for my $feat (@list) {
 
@@ -10105,9 +10118,9 @@ BEGIN {
             }
         }
         elsif ( $entry_type eq 'ABILITY' ) {
-	    #[ 1671407 ] xcheck PREABILITY tag
-	    # Note - shamelessly cut/pasting from the FEAT code, as it's
-	    # fairly similar.
+        #[ 1671407 ] xcheck PREABILITY tag
+        # Note - shamelessly cut/pasting from the FEAT code, as it's
+        # fairly similar.
             ABILITY:
             for my $feat (@list) {
 
@@ -10161,10 +10174,10 @@ BEGIN {
                     push @{ $referer_types{'ABILITY'}{$1} },
                         [ $message_name, $file_for_error, $line_for_error ];
                 }
-		elsif ( $feat =~ /^CATEGORY[=.](.*)/ ) {
-		    push @{ $referer_categories{'ABILITY'}{$1} },
-		       [ $message_name, $file_for_error, $line_for_error ];
-		}
+        elsif ( $feat =~ /^CATEGORY[=.](.*)/ ) {
+            push @{ $referer_categories{'ABILITY'}{$1} },
+               [ $message_name, $file_for_error, $line_for_error ];
+        }
                 else {
                     push @{ $referer{'ABILITY'}{$feat} },
                         [ $message_name, $file_for_error, $line_for_error ];
@@ -10439,9 +10452,9 @@ sub extract_var_name {
                 $line_for_error
             );
         }
-	# [ 1104117 ] BL is a valid variable, like CL
-	elsif ( $values[0] eq 'BL' || $values[0] eq 'CL' ||
-	        $values[0] eq 'CLASS' || $values[0] eq 'CLASSLEVEL' ) { 
+    # [ 1104117 ] BL is a valid variable, like CL
+    elsif ( $values[0] eq 'BL' || $values[0] eq 'CL' ||
+            $values[0] eq 'CLASS' || $values[0] eq 'CLASSLEVEL' ) { 
         # Convert {} to () for proper validation
         $values[1] =~ tr/{}/()/;
         push @xcheck_to_process,
@@ -10503,7 +10516,7 @@ BEGIN {
         abs     rand    mod     sqrt    sum     if      str
 
         ceil    cl      classlevel      count   floor   min
-		max	roll	skillinfo	var	mastervar	APPLIEDAS
+        max    roll    skillinfo    var    mastervar    APPLIEDAS
     );
 
     # Definition of a valid Jep identifiers. Note that all functions are
@@ -10766,9 +10779,9 @@ BEGIN {
                 # Spaces are allowed in Jep expressions, we simply ignore them
             }
             else {
-            	if ( $formula =~ /\G\[.+\]/gc ) {
-					# Allow COUNT[something]
-        	}
+                if ( $formula =~ /\G\[.+\]/gc ) {
+                    # Allow COUNT[something]
+            }
                 else {
                     # If we are here, all is not well
                     my ($bogus_text) = ( $formula =~ / \G (.*) /xmsgc );
@@ -10818,34 +10831,34 @@ sub additionnal_tag_parsing {
     # Bonuses associated with a PREDEFAULTMONSTER:N are retained without
     #       the PREDEFAULTMONSTER:N
     if ( $conversion_enable{'RACE:Fix PREDEFAULTMONSTER bonuses'}
-	 && $tag_name =~ /BONUS/ ) {
-	if ($tag_value =~ /PREDEFAULTMONSTER:N/ ) {
-	    $_[1] =~ s/[|]PREDEFAULTMONSTER:N//;
-	    $logging->ewarn ( WARNING,
-		    qq(Replacing "$tag_name:$tag_value" by "$_[0]:$_[1]"),
-		    $file_for_error,
-		    $line_for_error
-		    );
-	}
+     && $tag_name =~ /BONUS/ ) {
+    if ($tag_value =~ /PREDEFAULTMONSTER:N/ ) {
+        $_[1] =~ s/[|]PREDEFAULTMONSTER:N//;
+        $logging->ewarn ( WARNING,
+            qq(Replacing "$tag_name:$tag_value" by "$_[0]:$_[1]"),
+            $file_for_error,
+            $line_for_error
+            );
+    }
     }
 
     if ( $conversion_enable{'ALL:Weaponauto simple conversion'}
-	 && $tag_name =~ /WEAPONAUTO/)
-	 {
-	     $_[0] = 'AUTO';
-	     $_[1] =~ s/Simple/TYPE.Simple/;
-	     $_[1] =~ s/Martial/TYPE.Martial/;
-	     $_[1] =~ s/Exotic/TYPE.Exotic/;
-	     $_[1] =~ s/SIMPLE/TYPE.Simple/;
-	     $_[1] =~ s/MARTIAL/TYPE.Martial/;
-	     $_[1] =~ s/EXOTIC/TYPE.Exotic/;
-	     $_[1] = "WEAPONPROF|$_[1]";
-	     $logging->ewarn ( WARNING,
-		     qq(Replacing "$tag_name:$tag_value" by "$_[0]:$_[1]"),
-		     $file_for_error,
-		     $line_for_error
-		     );
-	 }
+     && $tag_name =~ /WEAPONAUTO/)
+     {
+         $_[0] = 'AUTO';
+         $_[1] =~ s/Simple/TYPE.Simple/;
+         $_[1] =~ s/Martial/TYPE.Martial/;
+         $_[1] =~ s/Exotic/TYPE.Exotic/;
+         $_[1] =~ s/SIMPLE/TYPE.Simple/;
+         $_[1] =~ s/MARTIAL/TYPE.Martial/;
+         $_[1] =~ s/EXOTIC/TYPE.Exotic/;
+         $_[1] = "WEAPONPROF|$_[1]";
+         $logging->ewarn ( WARNING,
+             qq(Replacing "$tag_name:$tag_value" by "$_[0]:$_[1]"),
+             $file_for_error,
+             $line_for_error
+             );
+     }
 
     ##################################################################
     # [ 1398237 ] ALL: Convert Willpower to Will
@@ -11536,15 +11549,15 @@ sub validate_line {
             );
         }
         elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:SPELLLEVEL/i ) {
-			# The CHOOSE:SPELLLEVEL is exempted from this particular rule.
-			$logging->ewarn(INFO,
-				qq(The MULT:YES tag is mandatory when CHOOSE is present in ABILITY "$line_ref->{'000AbilityName'}[0]"),
-				$file_for_error,
-				$line_for_error
-			);
-		}
-		elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:NUMBER/i ) {
-			# The CHOOSE:NUMBER is exempted from this particular rule.
+            # The CHOOSE:SPELLLEVEL is exempted from this particular rule.
+            $logging->ewarn(INFO,
+                qq(The MULT:YES tag is mandatory when CHOOSE is present in ABILITY "$line_ref->{'000AbilityName'}[0]"),
+                $file_for_error,
+                $line_for_error
+            );
+        }
+        elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:NUMBER/i ) {
+            # The CHOOSE:NUMBER is exempted from this particular rule.
             $logging->ewarn(INFO,
                   qq(The MULT:YES tag is mandatory when CHOOSE is present in ABILITY "$line_ref->{'000AbilityName'}[0]"),
                   $file_for_error,
@@ -11611,22 +11624,22 @@ sub validate_line {
 
     elsif ( $linetype eq "FEAT" ) {
 
-	# [ 1671410 ] xcheck CATEGORY:Feat in Feat object.
-	my $hasCategory = 0;
-	$hasCategory = 1 if exists $line_ref->{'CATEGORY'};
-	if ($hasCategory) {
-	    if ($line_ref->{'CATEGORY'}[0] eq "CATEGORY:Feat" ||
-	      $line_ref->{'CATEGORY'}[0] eq "CATEGORY:Special Ability") {
-		# Good
-	    }
-	    else {
-		$logging->ewarn(INFO,
-		      qq(The CATEGORY tag must have the value of Feat or Special Ability when present on a FEAT. Remove or replace "$line_ref->{'CATEGORY'}[0]"),
-		      $file_for_error,
-		      $line_for_error
-		      );
-	    }
-	}
+    # [ 1671410 ] xcheck CATEGORY:Feat in Feat object.
+    my $hasCategory = 0;
+    $hasCategory = 1 if exists $line_ref->{'CATEGORY'};
+    if ($hasCategory) {
+        if ($line_ref->{'CATEGORY'}[0] eq "CATEGORY:Feat" ||
+          $line_ref->{'CATEGORY'}[0] eq "CATEGORY:Special Ability") {
+        # Good
+        }
+        else {
+        $logging->ewarn(INFO,
+              qq(The CATEGORY tag must have the value of Feat or Special Ability when present on a FEAT. Remove or replace "$line_ref->{'CATEGORY'}[0]"),
+              $file_for_error,
+              $line_for_error
+              );
+        }
+    }
 
         # On a FEAT line type:
         # 1) if it has MULT:YES, it  _has_ to have CHOOSE
@@ -11654,15 +11667,15 @@ sub validate_line {
                   $line_for_error
             );
         }
-		elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:NUMBER/i ) {
+        elsif ( $hasCHOOSE && !$hasMULT && $line_ref->{'CHOOSE'}[0] !~ /CHOOSE:NUMBER/i ) {
 
-			# The CHOOSE:NUMBER is exampted from this particular rule.
-			$logging->ewarn(INFO,
-				qq(The MULT:YES tag is mandatory when CHOOSE is present in FEAT "$line_ref->{'000FeatName'}[0]"),
-				$file_for_error,
-				$line_for_error
-			);
-		}
+            # The CHOOSE:NUMBER is exampted from this particular rule.
+            $logging->ewarn(INFO,
+                qq(The MULT:YES tag is mandatory when CHOOSE is present in FEAT "$line_ref->{'000FeatName'}[0]"),
+                $file_for_error,
+                $line_for_error
+            );
+        }
 
         if ( $hasSTACK && !$hasMULT ) {
             $logging->ewarn(INFO,
@@ -11743,82 +11756,82 @@ sub validate_line {
             }
         }
         else {
-	    # [ 1368562 ] .FORGET / .MOD don\'t need KEY entries
-	    my $report_tag = $line_ref->{$column_with_no_tag{'EQUIPMOD'}[0]}[0];
-	    if ($report_tag =~ /.FORGET$|.MOD$/) {
-	    }
-	    else {
-		$logging->ewarn(INFO,
-		      qq(No KEY tag found for "$report_tag"),
-		      $file_for_error,
-		      $line_for_error
-		      );
-	    }
+        # [ 1368562 ] .FORGET / .MOD don\'t need KEY entries
+        my $report_tag = $line_ref->{$column_with_no_tag{'EQUIPMOD'}[0]}[0];
+        if ($report_tag =~ /.FORGET$|.MOD$/) {
         }
-		if ( exists $line_ref->{'CHOOSE'} ) {               # [ 1870825 ] EqMod CHOOSE Changes
-			my $choose = $line_ref->{'CHOOSE'}[0];
-			my $eqmod_name = $line_ref->{'000ModifierName'}[0];
-			$eqmod_name =~ s/.MOD$//;
-			if ( $choose =~ /^CHOOSE:(NUMBER[^|]*)/ ) {
-			# Valid: CHOOSE:NUMBER|MIN=1|MAX=99129342|TITLE=Whatever
-			# Valid: CHOOSE:NUMBER|1|2|3|4|5|6|7|8|TITLE=Whatever
-			# Valid: CHOOSE:NUMBER|MIN=1|MAX=99129342|INCREMENT=5|TITLE=Whatever
-			# Valid: CHOOSE:NUMBER|MAX=99129342|INCREMENT=5|MIN=1|TITLE=Whatever
-			# Only testing for TITLE= for now.
-				# Test for TITLE= and warn if not present.
-				if ( $choose !~ /(TITLE[=])/ ) {
-					$logging->ewarn(INFO,
-					qq(TITLE= is missing in CHOOSE:NUMBER for "$choose"),
-					$file_for_error,
-					$line_for_error
-					);
-				}
-			}
-			# Only CHOOSE:NOCHOICE is Valid
-			elsif ( $choose =~ /^CHOOSE:NOCHOICE/ ) {
-			}
-			# CHOOSE:STRING|Foo|Bar|Monkey|Poo|TITLE=these are choices
-			elsif ( $choose =~ /^CHOOSE:?(STRING)[^|]*/ ) {
-				# Test for TITLE= and warn if not present.
-				if ( $choose !~ /(TITLE[=])/ ) {
-					$logging->ewarn(INFO,
-					qq(TITLE= is missing in CHOOSE:STRING for "$choose"),
-					$file_for_error,
-					$line_for_error
-					);
-				}
-			}
-			# CHOOSE:STATBONUS|statname|MIN=2|MAX=5|TITLE=Enhancement Bonus
-			# Statname is what I'd want to check to verify against the defined stats, but since it is optional....
-			elsif ( $choose =~ /^CHOOSE:?(STATBONUS)[^|]*/ ) {
-#				my $checkstat = $choose;
-#				$checkstat =~ s/(CHOOSE:STATBONUS)// ;
-#				$checkstat =~ s/[|]MIN=[-]?\d+\|MAX=\d+\|TITLE=.*//;
-			}
-			elsif ( $choose =~ /^CHOOSE:?(SKILLBONUS)[^|]*/ ) {
-			}
-			elsif ( $choose =~ /^CHOOSE:?(SKILL)[^|]*/ ) {
-				if ( $choose !~ /(TITLE[=])/ ) {
-					$logging->ewarn(INFO,
-					qq(TITLE= is missing in CHOOSE:SKILL for "$choose"),
-					$file_for_error,
-					$line_for_error
-					);
-				}
-			}
-			elsif ( $choose =~ /^CHOOSE:?(EQBUILDER.SPELL)[^|]*/ ) {
-			}
-			elsif ( $choose =~ /^CHOOSE:?(EQBUILDER.EQTYPE)[^|]*/ ) {
-			}
-			# If not above, invaild CHOOSE for equipmod files.
-			else {
-					$logging->ewarn(WARNING,
-					qq(Invalid CHOOSE for Equipmod spells for "$choose"),
-					$file_for_error,
-					$line_for_error
-					);
-			}
-		}
+        else {
+        $logging->ewarn(INFO,
+              qq(No KEY tag found for "$report_tag"),
+              $file_for_error,
+              $line_for_error
+              );
+        }
+        }
+        if ( exists $line_ref->{'CHOOSE'} ) {               # [ 1870825 ] EqMod CHOOSE Changes
+            my $choose = $line_ref->{'CHOOSE'}[0];
+            my $eqmod_name = $line_ref->{'000ModifierName'}[0];
+            $eqmod_name =~ s/.MOD$//;
+            if ( $choose =~ /^CHOOSE:(NUMBER[^|]*)/ ) {
+            # Valid: CHOOSE:NUMBER|MIN=1|MAX=99129342|TITLE=Whatever
+            # Valid: CHOOSE:NUMBER|1|2|3|4|5|6|7|8|TITLE=Whatever
+            # Valid: CHOOSE:NUMBER|MIN=1|MAX=99129342|INCREMENT=5|TITLE=Whatever
+            # Valid: CHOOSE:NUMBER|MAX=99129342|INCREMENT=5|MIN=1|TITLE=Whatever
+            # Only testing for TITLE= for now.
+                # Test for TITLE= and warn if not present.
+                if ( $choose !~ /(TITLE[=])/ ) {
+                    $logging->ewarn(INFO,
+                    qq(TITLE= is missing in CHOOSE:NUMBER for "$choose"),
+                    $file_for_error,
+                    $line_for_error
+                    );
+                }
+            }
+            # Only CHOOSE:NOCHOICE is Valid
+            elsif ( $choose =~ /^CHOOSE:NOCHOICE/ ) {
+            }
+            # CHOOSE:STRING|Foo|Bar|Monkey|Poo|TITLE=these are choices
+            elsif ( $choose =~ /^CHOOSE:?(STRING)[^|]*/ ) {
+                # Test for TITLE= and warn if not present.
+                if ( $choose !~ /(TITLE[=])/ ) {
+                    $logging->ewarn(INFO,
+                    qq(TITLE= is missing in CHOOSE:STRING for "$choose"),
+                    $file_for_error,
+                    $line_for_error
+                    );
+                }
+            }
+            # CHOOSE:STATBONUS|statname|MIN=2|MAX=5|TITLE=Enhancement Bonus
+            # Statname is what I'd want to check to verify against the defined stats, but since it is optional....
+            elsif ( $choose =~ /^CHOOSE:?(STATBONUS)[^|]*/ ) {
+#                my $checkstat = $choose;
+#                $checkstat =~ s/(CHOOSE:STATBONUS)// ;
+#                $checkstat =~ s/[|]MIN=[-]?\d+\|MAX=\d+\|TITLE=.*//;
+            }
+            elsif ( $choose =~ /^CHOOSE:?(SKILLBONUS)[^|]*/ ) {
+            }
+            elsif ( $choose =~ /^CHOOSE:?(SKILL)[^|]*/ ) {
+                if ( $choose !~ /(TITLE[=])/ ) {
+                    $logging->ewarn(INFO,
+                    qq(TITLE= is missing in CHOOSE:SKILL for "$choose"),
+                    $file_for_error,
+                    $line_for_error
+                    );
+                }
+            }
+            elsif ( $choose =~ /^CHOOSE:?(EQBUILDER.SPELL)[^|]*/ ) {
+            }
+            elsif ( $choose =~ /^CHOOSE:?(EQBUILDER.EQTYPE)[^|]*/ ) {
+            }
+            # If not above, invaild CHOOSE for equipmod files.
+            else {
+                    $logging->ewarn(WARNING,
+                    qq(Invalid CHOOSE for Equipmod spells for "$choose"),
+                    $file_for_error,
+                    $line_for_error
+                    );
+            }
+        }
     }
     elsif ( $linetype eq "CLASS" ) {
 
@@ -11888,36 +11901,36 @@ BEGIN {
        if (exists $line_ref->{'TYPE'}
            && $line_ref->{'TYPE'}[0] =~ /Spellbook/)
        {
-	   if (exists $line_ref->{'NUMPAGES'}
-	       && exists $line_ref->{'PAGEUSAGE'}) {
-	       #Nothing to see here, move along.
-	   }
-	   else {
+       if (exists $line_ref->{'NUMPAGES'}
+           && exists $line_ref->{'PAGEUSAGE'}) {
+           #Nothing to see here, move along.
+       }
+       else {
                $logging->ewarn (INFO,
-		      qq{You have a Spellbook defined without providing NUMPAGES or PAGEUSAGE. If you want a spellbook of finite capacity, consider adding these tags.},
-		      $file_for_error,
-		      $line_for_error
-		      );
-	   }
+              qq{You have a Spellbook defined without providing NUMPAGES or PAGEUSAGE. If you want a spellbook of finite capacity, consider adding these tags.},
+              $file_for_error,
+              $line_for_error
+              );
+       }
        }
        else {
 
-	   if (exists $line_ref->{'NUMPAGES'} )
-	   {
-	       $logging->ewarn (WARNING,
-		      qq{Invalid use of NUMPAGES tag in a non-spellbook. Remove this tag, or correct the TYPE.},
-		      $file_for_error,
-		      $line_for_error
-		      );
-	   }
-	   if  (exists $line_ref->{'PAGEUSAGE'})
-	   {
-	       $logging->ewarn (WARNING,
-		      qq{Invalid use of PAGEUSAGE tag in a non-spellbook. Remove this tag, or correct the TYPE.},
-		      $file_for_error,
-		      $line_for_error
-		      );
-	   }
+       if (exists $line_ref->{'NUMPAGES'} )
+       {
+           $logging->ewarn (WARNING,
+              qq{Invalid use of NUMPAGES tag in a non-spellbook. Remove this tag, or correct the TYPE.},
+              $file_for_error,
+              $line_for_error
+              );
+       }
+       if  (exists $line_ref->{'PAGEUSAGE'})
+       {
+           $logging->ewarn (WARNING,
+              qq{Invalid use of PAGEUSAGE tag in a non-spellbook. Remove this tag, or correct the TYPE.},
+              $file_for_error,
+              $line_for_error
+              );
+       }
        }
        #################################################################
        #  Do the same for Type Container with and without CONTAINS
@@ -11952,12 +11965,12 @@ BEGIN {
     # In most files, take ADD:SA and replace with ADD:SAB
 
     if (   $conversion_enable{'ALL:Convert ADD:SA to ADD:SAB'}
-    	    && exists $line_ref->{'ADD:SA'}
+            && exists $line_ref->{'ADD:SA'}
     ) {
-    	    $logging->ewarn( WARNING,
-    	            qq{Change ADD:SA for ADD:SAB in "$line_ref->{'ADD:SA'}[0]"},
-    	            $file_for_error,
-    	            $line_for_error
+            $logging->ewarn( WARNING,
+                    qq{Change ADD:SA for ADD:SAB in "$line_ref->{'ADD:SA'}[0]"},
+                    $file_for_error,
+                    $line_for_error
             );
             my $satag;
             $satag = $line_ref->{'ADD:SA'}[0];
@@ -11974,24 +11987,24 @@ BEGIN {
     # Bonuses associated with a PREDEFAULTMONSTER:Y need to be removed
     # This should remove the whole tag.
     if ($conversion_enable{'RACE:Fix PREDEFAULTMONSTER bonuses'}
-	 	&& $filetype eq "RACE"
-	) {
-	for my $key ( keys %$line_ref ) {
-	    my $ary = $line_ref->{$key};
-	    my $iCount = 0;
-	    foreach (@$ary) {
-		my $ttag = $$ary[$iCount];
-		if ($ttag =~ /PREDEFAULTMONSTER:Y/) {
-		    $$ary[$iCount] = "";
-		    $logging->ewarn (WARNING,
-			   qq{Removing "$ttag".},
-			   $file_for_error,
-			   $line_for_error
-			   );
-		}
-		$iCount++;
-	    }
-	}
+         && $filetype eq "RACE"
+    ) {
+    for my $key ( keys %$line_ref ) {
+        my $ary = $line_ref->{$key};
+        my $iCount = 0;
+        foreach (@$ary) {
+        my $ttag = $$ary[$iCount];
+        if ($ttag =~ /PREDEFAULTMONSTER:Y/) {
+            $$ary[$iCount] = "";
+            $logging->ewarn (WARNING,
+               qq{Removing "$ttag".},
+               $file_for_error,
+               $line_for_error
+               );
+        }
+        $iCount++;
+        }
+    }
     }
 
 
@@ -12079,61 +12092,61 @@ BEGIN {
                 }
          }
 
-	#######################################################
-	## [ 1689538 ] Conversion: Deprecation of FOLLOWERALIGN
-	## Gawaine42
-	## Note: Makes simplifying assumption that FOLLOWERALIGN
-	## will occur only once in a given line, although DOMAINS may
-	## occur multiple times.
-	if (($conversion_enable{'DEITY:Followeralign conversion'})
-	    && $filetype eq "DEITY"
-	    && (exists $line_ref->{'FOLLOWERALIGN'}))
-	{
-	    my $followeralign = $line_ref->{'FOLLOWERALIGN'}[0];
-	    $followeralign =~ s/^FOLLOWERALIGN://;
-	    my $newprealign = "";
-	    my $aligncount = 0;
+    #######################################################
+    ## [ 1689538 ] Conversion: Deprecation of FOLLOWERALIGN
+    ## Gawaine42
+    ## Note: Makes simplifying assumption that FOLLOWERALIGN
+    ## will occur only once in a given line, although DOMAINS may
+    ## occur multiple times.
+    if (($conversion_enable{'DEITY:Followeralign conversion'})
+        && $filetype eq "DEITY"
+        && (exists $line_ref->{'FOLLOWERALIGN'}))
+    {
+        my $followeralign = $line_ref->{'FOLLOWERALIGN'}[0];
+        $followeralign =~ s/^FOLLOWERALIGN://;
+        my $newprealign = "";
+        my $aligncount = 0;
 
-	    for my $align (split //, $followeralign) {
+        for my $align (split //, $followeralign) {
                 # Is it a number?
                 my $number;
                 if ( (($number) = ($align =~ / \A (\d+) \z /xms))
-		     && $number >= 0
-		     && $number < scalar @valid_system_alignments)
-		{
+             && $number >= 0
+             && $number < scalar @valid_system_alignments)
+        {
                     my $newalign = $valid_system_alignments[$number];
-		    if ($aligncount > 0) {
-			$newprealign .= ',';
-		    }
-		    $aligncount++;
-		    $newprealign .= "$newalign";
-                }
-		else {
-                    $logging->ewarn( NOTICE,
-			   qq{Invalid value "$align" for tag "$line_ref->{'FOLLOWERALIGN'}[0]"},
-			   $file_for_error,
-			   $line_for_error
-			   );
-
-		}
+            if ($aligncount > 0) {
+            $newprealign .= ',';
             }
-	    my $dom_count=0;
+            $aligncount++;
+            $newprealign .= "$newalign";
+                }
+        else {
+                    $logging->ewarn( NOTICE,
+               qq{Invalid value "$align" for tag "$line_ref->{'FOLLOWERALIGN'}[0]"},
+               $file_for_error,
+               $line_for_error
+               );
 
-	    if (exists $line_ref->{'DOMAINS'}) {
-		for my $line ($line_ref->{'DOMAINS'})
-		{
-		    $line_ref->{'DOMAINS'}[$dom_count] .= "|PREALIGN:$newprealign";
-		    $dom_count++;
-		}
-		$logging->ewarn( NOTICE,
-		       qq{Adding PREALIGN to domain information and removing "$line_ref->{'FOLLOWERALIGN'}[0]"},
-		       $file_for_error,
-		       $line_for_error
-		       );
+        }
+            }
+        my $dom_count=0;
 
-		delete $line_ref->{'FOLLOWERALIGN'};
-	    }
-	}
+        if (exists $line_ref->{'DOMAINS'}) {
+        for my $line ($line_ref->{'DOMAINS'})
+        {
+            $line_ref->{'DOMAINS'}[$dom_count] .= "|PREALIGN:$newprealign";
+            $dom_count++;
+        }
+        $logging->ewarn( NOTICE,
+               qq{Adding PREALIGN to domain information and removing "$line_ref->{'FOLLOWERALIGN'}[0]"},
+               $file_for_error,
+               $line_for_error
+               );
+
+        delete $line_ref->{'FOLLOWERALIGN'};
+        }
+    }
 
         ##################################################################
         # [ 1353255 ] TYPE to RACETYPE conversion
@@ -12150,7 +12163,7 @@ BEGIN {
             # .MOD / .FORGET / .COPY don't need RACETYPE or TYPE'
             my $race_name = $line_ref->{'000RaceName'}[0];
            if ($race_name =~ /\.(FORGET|MOD|COPY=.+)$/) {
-	   } else { $logging->ewarn (WARNING,
+       } else { $logging->ewarn (WARNING,
               qq{Race entry missing both TYPE and RACETYPE.},
                   $file_for_error,
                   $line_for_error
@@ -12402,14 +12415,14 @@ BEGIN {
             delete $line_ref->{'MOVE'};
         }
 
-		if (   $conversion_enable{'CLASS:no more HASSPELLFORMULA'}
-		&& $filetype eq "CLASS"
-		&& exists $line_ref->{'HASSPELLFORMULA'} )
-		{
-		$logging->ewarn( WARNING, qq{Removed deprecated HASSPELLFORMULA tags}, $file_for_error, $line_for_error );
-		delete $line_ref->{'HASSPELLFORMULA'};
-		}
-		 
+        if (   $conversion_enable{'CLASS:no more HASSPELLFORMULA'}
+        && $filetype eq "CLASS"
+        && exists $line_ref->{'HASSPELLFORMULA'} )
+        {
+        $logging->ewarn( WARNING, qq{Removed deprecated HASSPELLFORMULA tags}, $file_for_error, $line_for_error );
+        delete $line_ref->{'HASSPELLFORMULA'};
+        }
+         
 
         ##################################################################
         # Every RACE that has a Climb or a Swim MOVE must have a
@@ -12730,8 +12743,8 @@ BEGIN {
                 }
             }
             else {
-				my $messagetype = $line_ref->{'TYPE'};
-				$logging->ewarn( DEBUG,
+                my $messagetype = $line_ref->{'TYPE'};
+                $logging->ewarn( DEBUG,
                     qq{$equipment_name has TYPE:$messagetype},
                     $file_for_error,
                     $line_for_error
@@ -12968,25 +12981,25 @@ BEGIN {
                 my $spellname  = $line_ref->{'000SpellName'}[0];
                 my $sourcepage = "";
                 $sourcepage  = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0] if exists $line_ref->{'SOURCEPAGE'};
-				my $type = "";
-				$type  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0] 
-					if exists $line_ref->{'TYPE'};
-				my $spellclass = "";
-				$spellclass  = ( $line_ref->{'CLASSES'}[0] =~ /^CLASSES:(.*)/ )[0]
-					if exists $line_ref->{'CLASSES'};
-				my $spelldomains = "";
-				$spelldomains = ( $line_ref->{'DOMAINS'}[0] =~ /^DOMAINS:(.*)/ )[0]
-					if exists $line_ref->{'DOMAINS'};
-				my $spelldesc = "";
-				$spelldesc  = ( $line_ref->{'DESC'}[0] =~ /^DESC:(.*)/ )[0]
-					if exists $line_ref->{'DESC'};
-				my $spellsave = "";
-				$spellsave  = ( $line_ref->{'SAVEINFO'}[0] =~ /^SAVEINFO:(.*)/ )[0]
-					if exists $line_ref->{'SAVEINFO'};
-				my $descriptor= "";
-				$descriptor = ( $line_ref->{'DESCRIPTOR'}[0] =~ /^DESCRIPTOR:(.*)/ )[0]
-					if exists $line_ref->{'DESCRIPTOR'};
-		
+                my $type = "";
+                $type  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0] 
+                    if exists $line_ref->{'TYPE'};
+                my $spellclass = "";
+                $spellclass  = ( $line_ref->{'CLASSES'}[0] =~ /^CLASSES:(.*)/ )[0]
+                    if exists $line_ref->{'CLASSES'};
+                my $spelldomains = "";
+                $spelldomains = ( $line_ref->{'DOMAINS'}[0] =~ /^DOMAINS:(.*)/ )[0]
+                    if exists $line_ref->{'DOMAINS'};
+                my $spelldesc = "";
+                $spelldesc  = ( $line_ref->{'DESC'}[0] =~ /^DESC:(.*)/ )[0]
+                    if exists $line_ref->{'DESC'};
+                my $spellsave = "";
+                $spellsave  = ( $line_ref->{'SAVEINFO'}[0] =~ /^SAVEINFO:(.*)/ )[0]
+                    if exists $line_ref->{'SAVEINFO'};
+                my $descriptor= "";
+                $descriptor = ( $line_ref->{'DESCRIPTOR'}[0] =~ /^DESCRIPTOR:(.*)/ )[0]
+                    if exists $line_ref->{'DESCRIPTOR'};
+        
                 # Write to file
                 print { $filehandle_for{SPELL} }
                     qq{"$spellname","$spellclass","$spelldomains","$descriptor","$type","$sourcepage","$line_for_error","$filename","$spelldesc","$spellsave"\n};
@@ -12997,44 +13010,44 @@ BEGIN {
                 my $type  = "";
                 my $sourcepage = "";
                 my $spelltype = "";
-				
+                
                 $class = ( $line_ref->{'000ClassName'}[0] =~ /^CLASS:(.*)/ )[0];
                 $abb = ( $line_ref->{'ABB'}[0] =~ /^ABB:(.*)/ )[0]
-					if exists $line_ref->{'ABB'};
+                    if exists $line_ref->{'ABB'};
                 $type = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
-                	if exists $line_ref->{'TYPE'};
+                    if exists $line_ref->{'TYPE'};
                 $sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-                	if exists $line_ref->{'SOURCEPAGE'};
+                    if exists $line_ref->{'SOURCEPAGE'};
                 $spelltype = ( $line_ref->{'SPELLTYPE'}[0] =~ /^SPELLTYPE:(.*)/ )[0]
-                	if exists $line_ref->{'SPELLTYPE'};
-					
+                    if exists $line_ref->{'SPELLTYPE'};
+                    
                 print { $filehandle_for{CLASS} } qq{"$class","$abb","$spelltype","$type","$sourcepage","$line_for_error","$filename"\n}
                     if $class_name ne $class;
                 $class_name = $class;
             }
 
             if ( $filetype eq 'DEITY' ) {
-		my $pantheon = "";
-		$pantheon = ( $line_ref->{'PANTHEON'}[0] =~ /^PANTHEON:(.*)/ )[0]
-			if exists $line_ref->{'PANTHEON'};
-		my $sourcepage = "";
+        my $pantheon = "";
+        $pantheon = ( $line_ref->{'PANTHEON'}[0] =~ /^PANTHEON:(.*)/ )[0]
+            if exists $line_ref->{'PANTHEON'};
+        my $sourcepage = "";
                 $sourcepage = $line_ref->{'SOURCEPAGE'}[0] if exists $line_ref->{'SOURCEPAGE'};
-		
+        
                 print { $filehandle_for{DEITY} }
                     qq{"$line_ref->{'000DeityName'}[0]","$pantheon","$sourcepage","$line_for_error","$filename"\n};
             }
 
             if ( $filetype eq 'DOMAIN' ) {
-		my $sourcepage = "";
-		$sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-			if exists $line_ref->{'SOURCEPAGE'};
+        my $sourcepage = "";
+        $sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
+            if exists $line_ref->{'SOURCEPAGE'};
                 print { $filehandle_for{DOMAIN} }
                     qq{"$line_ref->{'000DomainName'}[0]","$sourcepage","$line_for_error","$filename"\n};
             }
-	
+    
             if ( $filetype eq 'EQUIPMENT' ) {
-            	my $sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-			if exists $line_ref->{'SOURCEPAGE'};
+                my $sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
+            if exists $line_ref->{'SOURCEPAGE'};
                 my $equipname  = $line_ref->{ $master_order{$filetype}[0] }[0];
                 my $outputname = "";
                 $outputname = substr( $line_ref->{'OUTPUTNAME'}[0], 11 )
@@ -13055,14 +13068,14 @@ BEGIN {
                 $type = substr( $line_ref->{'TYPE'}[0], 5 ) if exists $line_ref->{'TYPE'};
 
                 my $sourcepage = "";
-		$sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-			if exists $line_ref->{'SOURCEPAGE'};
-		my $type1 = "";
-		$type1  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
-			if exists $line_ref->{'TYPE'};
-		my $key1 = "";
-		$key1 = ( $line_ref->{'KEY'}[0] =~ /^KEY:(.*)/ )[0]
-			if exists $line_ref->{'KEY'};
+        $sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
+            if exists $line_ref->{'SOURCEPAGE'};
+        my $type1 = "";
+        $type1  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
+            if exists $line_ref->{'TYPE'};
+        my $key1 = "";
+        $key1 = ( $line_ref->{'KEY'}[0] =~ /^KEY:(.*)/ )[0]
+            if exists $line_ref->{'KEY'};
                 print { $filehandle_for{EQUIPMOD} }
                     qq{"$equipmodname","$key","$type","$key1","$type1","$sourcepage","$line_for_error","$filename"\n};
             }
@@ -13071,13 +13084,13 @@ BEGIN {
                 my $featname = $line_ref->{ $master_order{$filetype}[0] }[0];
                 my $description = "";
                 $description = ( $line_ref->{'DESC'}[0] =~ /^DESC:(.*)/ )[0]
-			if exists $line_ref->{'DESC'};
+            if exists $line_ref->{'DESC'};
                 my $sourcepage = "";
                 $sourcepage  = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-			if exists $line_ref->{'SOURCEPAGE'};
+            if exists $line_ref->{'SOURCEPAGE'};
                 my $type = "";
                 $type  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
-			if exists $line_ref->{'TYPE'};
+            if exists $line_ref->{'TYPE'};
                 print { $filehandle_for{FEAT} } qq{"$featname","$type","$sourcepage","$description","$line_for_error","$filename"\n};
             }
 
@@ -13109,25 +13122,25 @@ BEGIN {
                 $race_sub_type = $line_ref->{'RACESUBTYPE'}[0] if exists $line_ref->{'RACESUBTYPE'};
                 $race_sub_type =~ s{ \A RACESUBTYPE: }{}xms;
 
-		my $sourcepage = "";
-		my $gs = "";
+        my $sourcepage = "";
+        my $gs = "";
                   #$sourcepage = $line_ref->{'SOURCEPAGE'}[0] if exists $line_ref->{'SOURCEPAGE'};
                 $sourcepage  = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-			if exists $line_ref->{'SOURCEPAGE'};
-		$gs  = ( $line_ref->{'GS'}[0] =~ /^GS:(.*)/ )[0]
-			if exists $line_ref->{'GS'};
+            if exists $line_ref->{'SOURCEPAGE'};
+        $gs  = ( $line_ref->{'GS'}[0] =~ /^GS:(.*)/ )[0]
+            if exists $line_ref->{'GS'};
                 print { $filehandle_for{RACE} }
                     qq{"$racename","$race_type","$race_sub_type","$gs","$sourcepage","$line_for_error","$filename"\n};
             }
 
             if ( $filetype eq 'SKILL' ) {
                 my $skillname = $line_ref->{ $master_order{$filetype}[0] }[0];
-		my $sourcepage = "";
+        my $sourcepage = "";
                 $sourcepage  = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-			if exists $line_ref->{'SOURCEPAGE'};
+            if exists $line_ref->{'SOURCEPAGE'};
                 my $keystat= "";
                 $keystat  = ( $line_ref->{'KEYSTAT'}[0] =~ /^KEYSTAT:(.*)/ )[0]
-			if exists $line_ref->{'KEYSTAT'};
+            if exists $line_ref->{'KEYSTAT'};
                 print { $filehandle_for{SKILL} } qq{"$skillname","$sourcepage","$keystat","$line_for_error","$filename"\n};
             }
 
@@ -13135,14 +13148,14 @@ BEGIN {
                 my $template_name = $line_ref->{ $master_order{$filetype}[0] }[0];
                 my $sourcepage = "";
                 $sourcepage  = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
-				if exists $line_ref->{'SOURCEPAGE'};
+                if exists $line_ref->{'SOURCEPAGE'};
                 print { $filehandle_for{TEMPLATE} } qq{"$template_name","$sourcepage","$line_for_error","$filename"\n};
             }
-			if ( $filetype eq 'WEAPONPROF' ) {
+            if ( $filetype eq 'WEAPONPROF' ) {
                 my $weaponprof_name = $line_ref->{ $master_order{$filetype}[0] }[0];
-				my $weponprof_type= "";
+                my $weponprof_type= "";
                 $weponprof_type  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
-				if exists $line_ref->{'TYPE'};
+                if exists $line_ref->{'TYPE'};
                 print { $filehandle_for{WEAPONPROF} } qq{"$weaponprof_name","$line_for_error","$filename","$weponprof_type"\n};
             }
         }
@@ -13654,7 +13667,7 @@ BEGIN {
                         'BONUS:DC',                 => 1,  #[ 1037456 ] Move BONUS:DC on class line to the spellcasting portion
                         'BONUS:SCHOOL'              => 1,
                         'BONUS:SPELL'               => 1,
-				'BONUS:SPECIALTYSPELLKNOWN'	=> 1,
+                'BONUS:SPECIALTYSPELLKNOWN'    => 1,
                         'BONUS:SPELLCAST'           => 1,
                         'BONUS:SPELLCASTMULT'       => 1,
                         'BONUS:SPELLKNOWN'          => 1,
@@ -13666,7 +13679,7 @@ BEGIN {
                         HASSPELLFORMULA             => 1, # [ 1893279 ] HASSPELLFORMULA Class Line tag
                         PROHIBITED                  => 1,
                         SPELLBOOK                   => 1,
-				SPELLKNOWN				=> 1,
+                SPELLKNOWN                => 1,
                         SPELLLEVEL                  => 1,
                         SPELLLIST                   => 1,
                         SPELLSTAT                   => 1,
@@ -14962,17 +14975,17 @@ my $_is_first_line      = YES;
 
 sub getWarning
 {
-	my $self = shift;
-	my $level = shift;
-	my %warning_level_prefix = (
-	       7   => "DBG",   # DEBUG
-	       6   => "  -",   # INFO
-	       5   => "   ",   # NOTICE
-	       4   => "*=>",   # WARNING
-	       3   => "***",   # ERROR
-	);
+    my $self = shift;
+    my $level = shift;
+    my %warning_level_prefix = (
+           7   => "DBG",   # DEBUG
+           6   => "  -",   # INFO
+           5   => "   ",   # NOTICE
+           4   => "*=>",   # WARNING
+           3   => "***",   # ERROR
+    );
 
-	return $warning_level_prefix{$level};
+    return $warning_level_prefix{$level};
 
 }
 
@@ -15146,7 +15159,7 @@ work.
   # by applaying the convertion pcgen5713. The output is redirected
   # to ERROR_FILE
   perl prettylst.pl -inputpath=<PATH> -outputpath=<NEWPATH> \
-				-outputerror=<ERROR_FILE> -convert=pcgen5713
+                -outputerror=<ERROR_FILE> -convert=pcgen5713
   perl prettylst.pl -i=<PATH> -o=<NEWPATH> -e=<ERROR_FILE> -c=pcgen5713
 
   # display the usage guide lines

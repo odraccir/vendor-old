@@ -15,7 +15,17 @@ Update repository and send new versions
 
 Update repository ignoring any discrepancy 
 
-> $ git push {remotename} {master|branch} -force 
+> $ git push {remotename} {master|branch} --force
+
+Move all local modification on top of the master branch
+
+> $ git pull --rebase {remotename} {master}
+
+delete an unwanted branch
+
+> $ git push origin --delete {branch}
+
+> $ git push {remotename} {master|branch} --force 
 
 Check modified files
 
