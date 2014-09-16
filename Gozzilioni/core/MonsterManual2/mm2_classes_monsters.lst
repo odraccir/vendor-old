@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																													
+																																
+# Class Name	Hit Dice	Type			Class Type		Max Level	Source Page					Save checks bonus								Combat bonus											
+CLASS:Plant.MOD	DEFINE:PlantLVL|0	BONUS:VAR|PlantLVL|CL

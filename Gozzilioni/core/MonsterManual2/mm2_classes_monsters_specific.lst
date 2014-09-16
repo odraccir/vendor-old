@@ -244,3 +244,16 @@ CLASS:Corpse Tearer Linnorm	STARTSKILLPTS:6	MODTOSKILLS:YES	OUTPUTNAME:Dragon	DE
 32	BONUS:PCLEVEL|Cleric|1																															
 33																																
 34	BONUS:PCLEVEL|Cleric|1																															
+
+# Class Name	Hit Dice	Type			Class Type		Max Level	Source Page		Visible
+CLASS:Myconid	HD:1		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:6	SOURCEPAGE:MM2	VISIBLE:NO
+# Class Name	Required Race	Reg. Race Type
+CLASS:Myconid	PRERACE:1,Myconid	PRERACETYPE:Plant																														
+# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels				Caster level
+CLASS:Myconid	SPELLSTAT:OTHER	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Myconid|CL
+1	CAST:0,0
+2	CAST:0,0,0
+3	CAST:0,0,0
+4	CAST:0,0,0,0
+5	CAST:0,0,0,0
+6	CAST:0,0,0,0,0

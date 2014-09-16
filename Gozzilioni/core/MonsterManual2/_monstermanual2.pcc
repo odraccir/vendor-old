@@ -18,6 +18,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 ABILITYCATEGORY:mm2_abilitycategories.lst
 ABILITY:mm2_abilities.lst
 ABILITY:mm2_abilities_races.lst
+CLASS:mm2_classes_monsters.lst
 CLASS:mm2_classes_monsters_specific.lst
 COMPANIONMOD:mm2_companionmods.lst
 EQUIPMENT:mm2_equip.lst
@@ -30,6 +31,7 @@ LANGUAGE:mm2_languages.lst
 RACE:mm2_races.lst
 RACE:mm2_races_companion.lst
 SPELL:mm2_spells.lst
+SKILL:mm2_skills.lst
 WEAPONPROF:mm2_profs_natural.lst
 WEAPONPROF:mm2_profs_weapon.lst
 TEMPLATE:mm2_templates_hidden.lst

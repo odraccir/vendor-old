@@ -85,10 +85,12 @@ Vulnerability To Ability Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extr
 # Basic																																				
 # Improved Grab	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Allure	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Aura of Pain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Blood Drink	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Beguille	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Breath Weapon	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -103,6 +105,7 @@ Constitution Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES								
 Corrupting Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Corrupting Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Crush	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Dance of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Death Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Death Rift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -115,11 +118,13 @@ Elemental Command	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES									
 Empathy	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Energy Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Entangle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Feeblemind Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fists	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Flurry of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Frightful Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -130,10 +135,13 @@ Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																			
 Keening	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Kiss of Death	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Lilitu's Gift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
+Lingering Flame	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Malevolence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Mind Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Mind Rend	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Negative Energy Burst	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Nightmarish Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Paralysis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Paralyzing Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Poison	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -150,6 +158,7 @@ Sonic Abilities	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES											
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Soul Portal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Sound Imitation	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Spores	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Squash	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Steal Breath	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stench	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -162,4 +171,5 @@ Tail Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																
 Telekinesis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Trample	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Web of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Wounding	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		

@@ -4,6 +4,25 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 # Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
 Beget Bogun			TYPE:Divine	CLASSES:Druid=1		SCHOOL:Conjuration	SUBSCHOOL:Creation		COMPS:V, S, M, XP	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Tiny construct		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You create a Tiny nature servant	SOURCEPAGE:MM2			XPCOST:25					
 
+Cure Light Wounds.MOD	CLASSES:Myconid=1
+Endure Elements.MOD	CLASSES:Myconid=1
+Hide from Animals.MOD	CLASSES:Myconid=1
+Magic Fang.MOD	CLASSES:Myconid=1
+Bull's Strength.MOD	CLASSES:Myconid=2
+Cure Moderate Wounds.MOD	CLASSES:Myconid=2
+Delay Poison.MOD	CLASSES:Myconid=2
+Bear's Endurance.MOD	CLASSES:Myconid=2
+Restoration (Lesser).MOD	CLASSES:Myconid=2
+Remove Paralysis.MOD	CLASSES:Myconid=2
+Resist Energy.MOD	CLASSES:Myconid=2
+Cure Serious Wounds.MOD	CLASSES:Myconid=3
+Magic Fang (Greater).MOD	CLASSES:Myconid=3
+Neutralize Poison.MOD	CLASSES:Myconid=3
+Protection from Energy.MOD	CLASSES:Myconid=3
+Remove Blindness/Deafness.MOD	CLASSES:Myconid=3
+Remove Disease.MOD	CLASSES:Myconid=3
+Death Ward.MOD	CLASSES:Myconid=4
+
 ###Block: Spell Like abilities
 Animate Objects.COPY=Animate Objects ~ Galeb Duhr
 Crushing Despair.COPY=Emotion Control ~ Fihyr
