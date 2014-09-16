@@ -657,17 +657,14 @@ my %valid_game_modes = map { $_ => 1 } (
     'CMP_D20_Modern',
     'CMP_DnD_Oriental_Adventures_v30e',
     'CMP_DnD_Oriental_Adventures_v35e',
-    'CMP_D20_Fantasy_v30e',,
-    'CMP_D20_Fantasy_v35e',,
+	'CMP_D20_Fantasy_v30e',
+	'CMP_D20_Fantasy_v35e',
     'CMP_D20_Fantasy_v35e_Kalamar',
-    'DnD_v3.5e_VPWP',,
+	'DnD_v3.5e_VPWP',
     'CMP_D20_Fantasy_v35e_VPWP',
-
-    # 
     '4e',
     '5e',
     'DnDNext',
-#
     'AE',
     'Arcana_Evolved',
     'Dragon_Age',
@@ -678,7 +675,6 @@ my %valid_game_modes = map { $_ => 1 } (
     'Starwars_Edge',
     'T20',
     'Traveller20',
-
 
 );
 
@@ -1840,7 +1836,6 @@ my @QUALIFY_Tags = (
 # line type will get the same sort order.
 # BONUSes only valid for specific line types are listed on those line types
 my @Global_BONUS_Tags = (
-
     'BONUS:ABILITYPOOL:*',          # Global
     'BONUS:CASTERLEVEL:*',          # Global
     # 'BONUS:CHECKS:*',               # Global [Deprecated 6.03.01]
@@ -1886,7 +1881,7 @@ my @Global_BONUS_Tags = (
 #       'BONUS:ESIZE:*',                # Not listed in the Docs
 #       'BONUS:HD',                     # Class Lines
 #       'BONUS:LANGUAGES:*',            # Not listed in the Docs
-#       'BONUS:LANG:*'                  # BONUS listed in the Code which is to be used instead of the deprecated BONUS:LANGNUM tag.
+#	    'BONUS:LANG:*',			        # BONUS listed in the Code which is to be used instead of the deprecated BONUS:LANGNUM tag.
 #       'BONUS:MONSKILLPTS',            # Templates
 #       'BONUS:REPUTATION:*',           # Not listed in the Docs
 #       'BONUS:RING:*',                 # Not listed in the Docs
@@ -4110,7 +4105,7 @@ my %tagheader = (
         'CSKILL'                => 'Class Skill',
         'CT'                    => 'Casting Threshold',
         'DAMAGE'                => 'Damage',
-        'DEF',                  => 'Def',
+		'DEF'						=> 'Def',
         'DEFINE'                => 'Define',
         'DEFINESTAT'                => 'Define Stat',
         'DEITY'                 => 'Deity',
@@ -4133,7 +4128,7 @@ my %tagheader = (
         'FEAT'                  => 'Feat',
         'FEATAUTO'              => 'Feat Auto',
         'FOLLOWERS'             => 'Allow Follower',
-        'FREE',                 => 'Free',
+		'FREE'						=> 'Free',
         'FUMBLERANGE'           => 'Fumble Range',
         'GENDER'                => 'Gender',
         'HANDS'                 => 'Nb Hands',
@@ -4232,7 +4227,7 @@ my %tagheader = (
         '!PREKIT'            => 'Prohibited Kit',
         'PREMOVE'               => 'Required Movement Rate',
         '!PREMOVE'              => 'Prohibited Movement Rate',
-        'PREMULT',              => 'Multiple Requirements',
+		'PREMULT'					=> 'Multiple Requirements',
         '!PREMULT'              => 'Multiple Prohibitions',
         'PREPCLEVEL'            => 'Required Non-Monster Lvl',
         'PREPROFWITHARMOR'    => 'Required Armor Proficiencies',
@@ -4400,7 +4395,7 @@ my %tagheader = (
     },
 
     'ABILITYCATEGORY' => {
-        '000AbilityCategory',   => '# Ability Category',
+		'000AbilityCategory'	=> '# Ability Category',
         'CATEGORY'              => 'Category of Object',
         'DISPLAYLOCATION'       => 'Display Location',
         'DISPLAYNAME'           => 'Display where?',
@@ -6207,7 +6202,6 @@ sub FILETYPE_parse {
         # If the separator is not a tab, with just join the
         # tag in order
         my $sep = $line_info->{Sep} || "\t";
-        
         if ( $sep ne "\t" ) {
 
             # First, the tag known in master_order
@@ -12743,17 +12737,21 @@ BEGIN {
                 }
             }
             else {
-                my $messagetype = $line_ref->{'TYPE'};
-                $logging->ewarn( DEBUG,
-                    qq{$equipment_name has TYPE:$messagetype},
-                    $file_for_error,
-                    $line_for_error
-                ) unless (( $equipment_name =~ /.MOD$/i ) or ( $equipment_name =~ /.COPY$/i ));;
-                $logging->ewarn( WARNING,
-                    qq{$equipment_name has no TYPE.},
-                    $file_for_error,
-                    $line_for_error
-                ) unless (( $equipment_name =~ /.MOD$/i ) or ( $equipment_name =~ /.COPY$/i ));
+                if (!(( $equipment_name =~ /.MOD$/i ) && ( $equipment_name =~ /.COPY$/i ))) {
+                    ;
+                } else {
+                    my $messagetype = $line_ref->{'TYPE'};
+                    $logging->ewarn( WARNING,
+                        qq{$equipment_name has TYPE:$messagetype},
+                        $file_for_error,
+                        $line_for_error
+                    );
+                    $logging->ewarn( WARNING,
+                        qq{$equipment_name has no TYPE.},
+                        $file_for_error,
+                        $line_for_error
+                    );
+                }
             }
         }
 
@@ -13664,7 +13662,7 @@ BEGIN {
                     my %spell_tags = (
                         BONUSSPELLSTAT              => 1,
                         'BONUS:CASTERLEVEL'         => 1,
-                        'BONUS:DC',                 => 1,  #[ 1037456 ] Move BONUS:DC on class line to the spellcasting portion
+				'BONUS:DC'				=> 1,  #[ 1037456 ] Move BONUS:DC on class line to the spellcasting portion
                         'BONUS:SCHOOL'              => 1,
                         'BONUS:SPELL'               => 1,
                 'BONUS:SPECIALTYSPELLKNOWN'    => 1,

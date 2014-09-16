@@ -17,5 +17,24 @@ CLASS:Animal (Legendary)	!PRECLASS:1,Animal (Will)=1,Animal=1	PRERACETYPE:Animal
 CLASS:Animal (Legendary)	STARTSKILLPTS:3	MODTOSKILLS:YES
 
 #
+
+# Class Name			Required Template
+CLASS:Construct (Mindless)	PRETEMPLATE:1,Mindless
+#
+
+# Class Name	Define			Modify VAR
 CLASS:Dragon.MOD	DEFINE:DragonLVL|0	BONUS:VAR|DragonLVL|CL
+# Class Name	Required Var. value
 CLASS:Dragon.MOD	PREVAREQ:DragonAdvancementCap,0
+#
+
+# Class Name				Required Template
+CLASS:Elemental (Mindless).MOD	PRETEMPLATE:1,Mindless
+#
+
+# Class Name			Required Template
+CLASS:Plant (Mindless).MOD	PRETEMPLATE:1,Mindless
+#
+
+# Class Name			Required Template
+CLASS:Undead (Mindless).MOD	PRETEMPLATE:1,Mindless

@@ -5,10 +5,10 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzili
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
-CLASS:Lycanthrope (Generic).MOD	TYPE:Monster
-CLASS:Lycanthrope (Werebear).MOD	TYPE:Monster
-CLASS:Lycanthrope (Wereboar).MOD	TYPE:Monster
-CLASS:Lycanthrope (Wererat).MOD	TYPE:Monster
-CLASS:Lycanthrope (Weretiger).MOD	TYPE:Monster
-CLASS:Lycanthrope (Werewolf).MOD	TYPE:Monster
-CLASS:Lycanthrope (Dire Wereboar).MOD	TYPE:Monster
+CLASS:Lycanthrope (Generic).MOD	TYPE:Monster	VISIBLE:NO
+CLASS:Lycanthrope (Werebear).MOD	TYPE:Monster	VISIBLE:NO
+CLASS:Lycanthrope (Wereboar).MOD	TYPE:Monster	VISIBLE:NO
+CLASS:Lycanthrope (Wererat).MOD	TYPE:Monster	VISIBLE:NO
+CLASS:Lycanthrope (Weretiger).MOD	TYPE:Monster	VISIBLE:NO
+CLASS:Lycanthrope (Werewolf).MOD	TYPE:Monster	VISIBLE:NO
+CLASS:Lycanthrope (Dire Wereboar).MOD	TYPE:Monster	VISIBLE:NO
