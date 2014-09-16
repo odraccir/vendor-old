@@ -30,3 +30,7 @@ delete an unwanted branch
 Check modified files
 
 > $ git status -s
+
+Extract a file from a branch replace the actual file
+
+> git checkout {branch} -- filename.ext

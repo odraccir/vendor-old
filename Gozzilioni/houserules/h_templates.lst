@@ -75,7 +75,7 @@ Assign Subtype ~ Mount							RACESUBTYPE:Mount
 
 Trained	VISIBLE:NO				TEMPLATE:CHOOSE:Trained Animal|Trained Magical Beast|Trained Vermin|Trained Animal (Will)																																																																																																																																																																																																						
 #Trained Animal	VISIBLE:NO	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
-# il numero di "trick" è assegnato fisso 
+# il numero di "trick" viene assegnato fisso 
 Trained Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
 Trained Magical Beast	VISIBLE:NO	PRERACE:1,RACETYPE=Magical Beast	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
 Trained Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin			BONUS:VAR|BasicTrainingNumber|2	

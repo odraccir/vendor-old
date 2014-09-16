@@ -1,21 +1,21 @@
-CAMPAIGN:Gozzilioni Rsrd modifications Basic
+CAMPAIGN:Gozzilioni Rsrd Modifications Basic
 GAMEMODE:35e
-RANK:1
+RANK:5
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
 SOURCELONG:Gozzilioni Rsrd Modifications Basic
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2003-07
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
+SOURCEDATE:2003-07
 
 #INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Rsrd
-ABILITYCATEGORY:g_ability_categories.lst
+ABILITYCATEGORY:g_abilitycategories.lst
 ABILITY:g_abilities.lst
 CLASS:g_classes_monster.lst
 SKILL:g_skills.lst

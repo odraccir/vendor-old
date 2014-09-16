@@ -169,41 +169,41 @@ CLASS:Grey Linnorm	STARTSKILLPTS:6	MODTOSKILLS:YES	OUTPUTNAME:Dragon	DEFINE:Drag
 16	BONUS:PCLEVEL|Cleric|1	BONUS:PCLEVEL|Cleric|1																														
 17	BONUS:PCLEVEL|Cleric|1																															
 18	BONUS:PCLEVEL|Cleric|1																															
-
+																																
 # Class Name	Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus							Misc bonus					Bonus						
 CLASS:Dread Linnorm	HD:12		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE		BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2		BONUS:MISC|CR|floor((HD-BASEHD)/2)																			
 # Class Name	Reg. Race Type																															
 CLASS:Dread Linnorm	PRERACE:1,Dragon (Dread Linnorm)	PRERACETYPE:Dragon																														
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																														
 CLASS:Dread Linnorm	STARTSKILLPTS:6	MODTOSKILLS:YES	OUTPUTNAME:Dragon	DEFINE:DragonLVL|0																												
-1		BONUS:VAR|DragonLVL|classlevel()																											
-2	ADD:SPELLCASTER|Sorcerer
+1		BONUS:VAR|DragonLVL|classlevel()																														
+2	ADD:SPELLCASTER|Sorcerer																															
 3	BONUS:PCLEVEL|Sorcerer|1																															
-4	BONUS:PCLEVEL|Sorcerer|1	
+4	BONUS:PCLEVEL|Sorcerer|1																															
 5	BONUS:PCLEVEL|Sorcerer|1																															
 6	BONUS:PCLEVEL|Sorcerer|1																															
-7	BONUS:PCLEVEL|Sorcerer|1	
+7	BONUS:PCLEVEL|Sorcerer|1																															
 8	BONUS:PCLEVEL|Sorcerer|1																															
 9	BONUS:PCLEVEL|Sorcerer|1																															
-10	BONUS:PCLEVEL|Sorcerer|1	
-11	
+10	BONUS:PCLEVEL|Sorcerer|1																															
+11																																
 12	BONUS:PCLEVEL|Sorcerer|1																															
-13	BONUS:PCLEVEL|Sorcerer|1	
+13	BONUS:PCLEVEL|Sorcerer|1																															
 14	BONUS:PCLEVEL|Sorcerer|1																															
 15	BONUS:PCLEVEL|Sorcerer|1																															
-16	BONUS:PCLEVEL|Sorcerer|1	
+16	BONUS:PCLEVEL|Sorcerer|1																															
 17	BONUS:PCLEVEL|Sorcerer|1																															
 18	BONUS:PCLEVEL|Sorcerer|1																															
 19	BONUS:PCLEVEL|Sorcerer|1																															
 20	BONUS:PCLEVEL|Sorcerer|1																															
-21	
+21																																
 22	BONUS:PCLEVEL|Sorcerer|1																															
 23	BONUS:PCLEVEL|Sorcerer|1																															
 18	BONUS:PCLEVEL|Sorcerer|1																															
 24	BONUS:PCLEVEL|Sorcerer|1																															
 25	BONUS:PCLEVEL|Sorcerer|1																															
 26	BONUS:PCLEVEL|Sorcerer|1																															
-
+																																
 # Class Name	Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus							Misc bonus					Bonus						
 CLASS:Corpse Tearer Linnorm	HD:12		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE		BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2		BONUS:MISC|CR|floor((HD-BASEHD)/2)																			
 # Class Name	Reg. Race Type																															
@@ -239,8 +239,8 @@ CLASS:Corpse Tearer Linnorm	STARTSKILLPTS:6	MODTOSKILLS:YES	OUTPUTNAME:Dragon	DE
 27																																
 28	BONUS:PCLEVEL|Cleric|1																															
 29	BONUS:PCLEVEL|Cleric|1																															
-30	
+30																																
 31	BONUS:PCLEVEL|Cleric|1																															
 32	BONUS:PCLEVEL|Cleric|1																															
-33	
+33																																
 34	BONUS:PCLEVEL|Cleric|1																															
