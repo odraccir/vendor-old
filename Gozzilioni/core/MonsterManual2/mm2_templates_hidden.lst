@@ -17,3 +17,6 @@ Elder Worker	VISIBLE:NO	KEY:Myconid ~ Elder Worker	SUBRACE:Elder Worker
 Guard	VISIBLE:NO	KEY:Myconid ~ Guard	SUBRACE:Guard					
 Circle Leader	VISIBLE:NO	KEY:Myconid ~ Circle Leader	SUBRACE:Circle Leader					
 Sovereign	VISIBLE:NO	KEY:Myconid ~ Sovereign	SUBRACE:Sovereign					
+
+Spawn	VISIBLE:NO	KEY:Neogi ~ Spawn	SUBRACE:Spawn
+Adult	VISIBLE:NO	KEY:Neogi ~ Adult	SUBRACE:Adult

@@ -8,7 +8,7 @@ CLASS:Deepspawn Mother	PRERACE:1,Deepspawn
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
 CLASS:Deepspawn Mother	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|Diplomacy|Escape Artist|Hide|Listen|TYPE=Knowledge|Move Silently|Spot|Survival|Swim																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
-1				ABILITY:Deepspawn Mother Class Feature|AUTOMATIC|Deepspawn Mother ~ Mother Body|Deepspawn Mother ~ Gene Devour|Deepspawn Mother ~ Spawn Child			BONUS:STAT|INT|1																				
+1				ABILITY:Deepspawn Mother Class Feature|AUTOMATIC|Deepspawn Mother ~ Gene Devour|Deepspawn Mother ~ Mother Body|Deepspawn Mother ~ Spawn Child			BONUS:STAT|INT|1
 2							BONUS:STAT|CON|1																				
 3				ABILITY:Deepspawn Mother Class Feature|AUTOMATIC|Deepspawn Mother ~ Favorite Child																							
 4				ABILITY:Deepspawn Mother Class Feature|AUTOMATIC|Deepspawn Mother ~ Treasure Dungeon			BONUS:STAT|INT|1	BONUS:STAT|CON|1																			
@@ -24,7 +24,7 @@ CLASS:Fiery Eagle	PRERACE:1,Eagle (Giant)
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
 CLASS:Fiery Eagle	STARTSKILLPTS:2	CSKILL:Intimidate|Knowledge (Nature)|Listen|Sense Motive|Spot|Survival																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
-1				ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Swift Fly|Fiery Eagle ~ Screech|Fiery Eagle ~ Powerful Build			BONUS:COMBAT|CA|CON|TYPE=NaturalArmor	BONUS:VAR|SwiftFlyLVL|CL																			
+1				ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Powerful Build|Fiery Eagle ~ Screech|Fiery Eagle ~ Swift Fly			BONUS:COMBAT|CA|CON|TYPE=NaturalArmor	BONUS:VAR|SwiftFlyLVL|CL
 2			AUTO:FEAT|Flyby Attack	ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Improved Evasion																							
 3			AUTO:FEAT|Improved Flyby Attack	ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Diving Blitz|Fiery Eagle ~ Ideal Cohort																							
 																											
@@ -33,7 +33,7 @@ CLASS:Needle Fighter	HD:8		TYPE:Monster.Prestige	CLASSTYPE:Monster	MAXLEVEL:5	SO
 # Class Name	Prohibited Class			Reg. Race Type																							
 CLASS:Needle Fighter	PRERACE:1,Carrionette	PREVARGTEQ:SneakAttackDice,2	PRESKILL:4,Balance=4,Climb=4,Tumble=4,Use Rope=4																								
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
-CLASS:Needle Fighter	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Escape Artist|Disguise|Hide|Intimidate|jump|Move Silently|Sleight of Hand|Tumble|Use Rope																									
+CLASS:Needle Fighter	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Escape Artist|Disguise|Hide|Intimidate|Jump|Move Silently|Sleight of Hand|Tumble|Use Rope
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
 1				ABILITY:Needle Fighter Class Feature|AUTOMATIC|Needle Fighter ~ Toy Acrobat			BONUS:VAR|SneakAttackDice|1																				
 2				ABILITY:Needle Fighter Class Feature|AUTOMATIC|Needle Fighter ~ Entangle|Needle Fighter ~ Impromptu Tripwire																							
@@ -61,8 +61,8 @@ CLASS:Pleasure Devil	PRERACE:1,Devil (Erinyes)	PRECLASS:1,Fury=5
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
 CLASS:Pleasure Devil	STARTSKILLPTS:6	CSKILL:Bluff|Diplomacy|Intimidate|TYPE=Knowledge|Concentration|Hide|Move Silently|Search|Spot|Listen|Sense Motive|Use Rope|TYPE=Profession|Disguise																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
-1				ABILITY:Pleasure Devil Class Feature|AUTOMATIC|Pleasure Devil ~ Body of Pleasure|Pleasure Devil ~ Regeneration|Pleasure Devil ~ Tongues|Pleasure Devil ~ Sadism Master|Pleasure Devil ~ Sweet Poison			BONUS:VAR|PleasureDevilLVL|CL																				
-2				ABILITY:Pleasure Devil Class Feature|AUTOMATIC|Pleasure Devil ~ Dark Mistress|Pleasure Devil ~ Beguille																							
+1				ABILITY:Pleasure Devil Class Feature|AUTOMATIC|Pleasure Devil ~ Body of Pleasure|Pleasure Devil ~ Regeneration|Pleasure Devil ~ Sadism Master|Pleasure Devil ~ Sweet Poison|Pleasure Devil ~ Tongues			BONUS:VAR|PleasureDevilLVL|CL
+2				ABILITY:Pleasure Devil Class Feature|AUTOMATIC|Pleasure Devil ~ Beguille|Pleasure Devil ~ Dark Mistress
 3				ABILITY:Pleasure Devil Class Feature|AUTOMATIC|Pleasure Devil ~ Forbidden Pleasure|Pleasure Devil ~ Summon Slaves																							
 																											
 # Class Name	Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus								Misc bonus					Bonus
@@ -72,11 +72,11 @@ CLASS:Lilitu	PRERACE:1,Demon (Succubus)	PRECLASS:1,Cleric=1	PRETEXT:Must perform
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
 CLASS:Lilitu	STARTSKILLPTS:8	CSKILL:Bluff|Diplomacy|Disguise|Intimidate|TYPE=Knowledge|Concentration|Hide|Move Silently|Search|Spot|Listen|Sense Motive|Use Rope|TYPE=Perform|TYPE=Profession																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
-1				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Body of Heresy|Lilitu ~ Mock Divinity|Lilitu ~ Shroud Alignment|Lilitu ~ Mock Artifact			BONUS:VAR|LilituLVL|CL				EXCHANGELEVEL:Cleric|1|5|1																
-2				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Lilitu's Gift|Lilitu ~ Corrupter Mistress																							
-3				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Stingers|Lilitu ~ Decay Poison																							
-4				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Stingers|Lilitu ~ Irresistible Corrupter																							
-5				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Stingers|Lilitu ~ Mocking Dance																							
+1				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Body of Heresy|Lilitu ~ Mock Artifact|Lilitu ~ Mock Divinity|Lilitu ~ Shroud Alignment			BONUS:VAR|LilituLVL|CL				EXCHANGELEVEL:Cleric|1|5|1
+2				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Corrupter Mistress|Lilitu ~ Lilitu's Gift
+3				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Decay Poison|Lilitu ~ Stingers
+4				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Irresistible Corrupter|Lilitu ~ Stingers
+5				ABILITY:Lilitu Class Feature|AUTOMATIC|Lilitu ~ Mocking Dance|Lilitu ~ Stingers
 																											
 # Class Name	Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus								Misc bonus					Bonus
 CLASS:Nightmare Steed	HD:8		TYPE:Monster.Prestige	CLASSTYPE:Monster	MAXLEVEL:3	SOURCEPAGE:ROC	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2																	
@@ -85,7 +85,7 @@ CLASS:Nightmare Steed	PRERACE:1,Nightmare
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
 CLASS:Nightmare Steed	STARTSKILLPTS:4	CSKILL:Concentration|Diplomacy|Hide|Intimidate|Jump|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spot|Survival																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
-1				ABILITY:Nightmare Steed Class Feature|AUTOMATIC|Nightmare Steed ~ Body of Heresy|Nightmare Steed ~ Phantom Step			BONUS:VAR|BurningBodyLVL|CL																				
+1				ABILITY:Nightmare Steed Class Feature|AUTOMATIC|Nightmare Steed ~ Burning Body|Nightmare Steed ~ Phantom Step			BONUS:VAR|BurningBodyLVL|CL																				
 2				ABILITY:Nightmare Steed Class Feature|AUTOMATIC|Nightmare Steed ~ Smoke Breath|Nightmare Steed ~ Water Walk																							
 3				ABILITY:Nightmare Steed Class Feature|AUTOMATIC|Nightmare Steed ~ Ideal Cohort|!PREABILITY:1,CATEGORY=ACF,TYPE.NightmareSteedIdealCohort																							
 3				ABILITY:Nightmare Steed Class Feature|AUTOMATIC|Nightmare Steed ~ Planar Gallop																							
@@ -101,7 +101,7 @@ CLASS:Cauchemar	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Diplomacy|Disguise|In
 2				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Improved Smoke Breath			BONUS:VAR|SmokeBreathLVL|CL																				
 2				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Teamwork|!PREABILITY:1,CATEGORY=ACF,TYPE.CauchemarTeamwork																							
 3				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Lingering Flames																							
-4				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Swift|Cauchemar ~ Greater Smoke Breath																							
+4				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Greater Smoke Breath|Cauchemar ~ Swift
 5				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Flame Cloak|!PREABILITY:1,CATEGORY=ACF,TYPE.CauchemarFlameCloak																							
 5				ABILITY:Cauchemar Class Feature|AUTOMATIC|Cauchemar ~ Fire Immunity																							
 6																											
@@ -118,6 +118,6 @@ CLASS:Faun	PRERACE:1,Satyr
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?																									
 CLASS:Faun	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Disguise|Diplomacy|Hide|Intimidate|Listen|TYPE=Perform|Move Silently|Search|Sense Motive|Spot|Tumble|TYPE=Profession|Use Rope																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
-1				ABILITY:Faun Class Feature|AUTOMATIC|Faun ~ Party Started|Faun ~ Hedonism			BONUS:VAR|FaunLVL|CL																				
-2				ABILITY:Faun Class Feature|AUTOMATIC|Faun ~ Satyr Hide|Faun ~ Pan Pipes																							
+1				ABILITY:Faun Class Feature|AUTOMATIC|Faun ~ Hedonism|Faun ~ Party Started			BONUS:VAR|FaunLVL|CL
+2				ABILITY:Faun Class Feature|AUTOMATIC|Faun ~ Pan Pipes|Faun ~ Satyr Hide
 3				ABILITY:Faun Class Feature|AUTOMATIC|Faun ~ Wild Musician																							

@@ -878,3 +878,27 @@ Spores	CATEGORY:Special Ability	TYPE:MyconidRaceTrait.SpecialAttack.Extraordinar
 Spores	CATEGORY:Special Ability	TYPE:MyconidRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Hallucination: These spores are released as a 40-foot ray. The target must make a Fortitude saving throw (DC %1) or suffer powerful hallucinations that duplicate the effects of a confusion spell for 1 hour..|SporesDC	KEY:Myconid Circle Leader ~ Hallucination																											SOURCEPAGE:MM2
 Spores	CATEGORY:Special Ability	TYPE:MyconidRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Animation: When released over a dead body, animation spores begin a process that covers the corpse with purple fungus. After 1d4 days, the corpse reanimates as a servant. A servant has all the characteristics of a zombie of the same size, except that it retains its previous creature type and it cannot be turned or otherwise affected as an undead. Over the course of 1d6 weeks, a myconid-animated corpse slowly decays. At the end of that period it simply disintegrates into dust.|SporesDC	KEY:Myconid Sovereign ~ Animation																											SOURCEPAGE:MM2
 Potion Making	CATEGORY:Special Ability	TYPE:MyconidRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:A myconid Sovereign can create various potions that mimic cleric and druid spells.	KEY:Myconid Sovereign ~ Potion Making									ADD:SPELLCASTER|Myconid	BONUS:PCLEVEL|Myconid|5								AUTO:FEAT|Brew Potion									SOURCEPAGE:MM2
+																																
+Race Traits ~ Needlefolk	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=NeedlefolkRaceTrait	AUTO:LANG|Sylvan																			AUTO:WEAPONPROF|Needles	AUTO:EQUIP|Needlefolk ~ Needles								
+Skills	CATEGORY:Special Ability	TYPE:NeedlefolkRaceTrait.SpecialQuality	VISIBLE:YES	DESC:* A Needlefolk's coloration and needles give it eexcellent camouflage in the forest. While there it has a +16 racial bonus on Hide checks when stationary. This bonus drops to +8 if it moves at up to half-speed.	KEY:Needlefolk ~ Skills																											SOURCEPAGE:MM2
+																																
+Race Traits ~ Neogi	CATEGORY:Internal	TYPE:Special												BONUS:VAR|NeogiAgeCategory|1	BONUS:VAR|NeogiAgeCategory|1|PREVARGTEQ:AberrationLVL,2								MOVE:Walk,20,Climb,20	BONUS:MOVEADD|TYPE.Walk|10|PREVARGTEQ:NeogiAgeCategory,2	ABILITY:Special Ability|AUTOMATIC|Neogi Spawn ~ Poison|PREVAREQ:NeogiAgeCategory,1	ABILITY:Special Ability|AUTOMATIC|Neogi Adult ~ Poison|Neogi Adult ~ Enslave|PREVARGTEQ:NeogiAgeCategory,2						SOURCEPAGE:MM2
+#cr																																
+CATEGORY=Internal|Race Traits ~ Neogi.MOD															BONUS:MISC|CR|4|PREVARGTEQ:NeogiAgeCategory,2																	
+#leveladjust																																
+CATEGORY=Internal|Race Traits ~ Neogi.MOD															BONUS:VAR|NeogiLevelAdjustment|5|PREVARGTEQ:NeogiAgeCategory,2																	
+#size																																
+CATEGORY=Internal|Race Traits ~ Neogi.MOD														BONUS:VAR|NeogiSizeTracker|1|PREVARGTEQ:NeogiAgeCategory,1	BONUS:VAR|NeogiSizeTracker|1|PREVARGTEQ:NeogiAgeCategory,2																	
+#stats																																
+CATEGORY=Internal|Race Traits ~ Neogi.MOD														BONUS:STAT|STR|-8|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,1	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,2																	
+CATEGORY=Internal|Race Traits ~ Neogi.MOD														BONUS:STAT|DEX|6|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,1																		
+CATEGORY=Internal|Race Traits ~ Neogi.MOD														BONUS:STAT|CON|-2|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,1																		
+CATEGORY=Internal|Race Traits ~ Neogi.MOD														BONUS:STAT|INT|-8|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,1	BONUS:STAT|INT|12|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,2																	
+CATEGORY=Internal|Race Traits ~ Neogi.MOD															BONUS:STAT|WIS|4|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,2																	
+CATEGORY=Internal|Race Traits ~ Neogi.MOD														BONUS:STAT|CHA|-8|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,1	BONUS:STAT|CHA|14|TYPE=Racial.STACK|PREVARGTEQ:NeogiAgeCategory,2																	
+#AC / DR																																
+CATEGORY=Internal|Race Traits ~ Neogi.MOD															BONUS:COMBAT|AC|3|TYPE=NaturalArmor.STACK|PREVARGTEQ:NeogiSizeTracker,2																	
+#Abilities																																
+Poison	CATEGORY:Special Ability	TYPE:NeogiRaceTrait.SpecialQuality	VISIBLE:YES	DESC:* +5 natural bonus on poison DC	KEY:Neogi Spawn ~ Poison									BONUS:VAR|PoisonDC|5|TYPE=Racial																		SOURCEPAGE:MM2
+Poison	CATEGORY:Special Ability	TYPE:NeogiRaceTrait.SpecialQuality	VISIBLE:YES	DESC:* +3 natural bonus on poison DC	KEY:Neogi Adult ~ Poison									BONUS:VAR|PoisonDC|3|TYPE=Racial																		SOURCEPAGE:MM2
+Enslave	CATEGORY:Special Ability	TYPE:NeogiRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1/day a neogi can attempt to enslave any one livinh creature within 30-feet. This ability functions similarly to a Dominate Monster spell (caster level 16th, Will save DC %2).|EnslaveTimes|EnslaveDC	KEY:Neogi Adult ~ Enslave				DEFINE:EnslaveDC|0	DEFINE:EnslaveTimes|0				BONUS:VAR|EnslaveDC|DefaultDCCha	BONUS:VAR|EnslaveDC|2|PREFEAT:1,Ability Focus (Enslave)	BONUS:VAR|EnslaveTimes|3							ABILITY:Ability Focus|AUTOMATIC|Enslave									SOURCEPAGE:MM2
