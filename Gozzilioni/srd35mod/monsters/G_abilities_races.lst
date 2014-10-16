@@ -5,7 +5,6 @@ SOURCELONG:Gozzilioni Rsrd Modifications monster	SOURCESHORT:G	SOURCEWEB:http://
 #CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACETYPE=Giant																																													
 #Giant Traits	CATEGORY:Special Ability	TYPE:TraitAbility	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing							BONUS:VAR|HasLowLightVision|1																						SOURCEPAGE:MM2														
 CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10																																											
-																																														
 #																																														
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Abeil Traits|PRERACE:1,RACESUBTYPE=Abeil																																													
 Abeil Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility	AUTO:LANG|Common|Elven|Sylvan	ABILITY:Special Ability|AUTOMATIC|Abeil ~ Drone|Abeil ~ Hive Mind|Abeil ~ Improved Grab																												SOURCEPAGE:MM2														
@@ -100,5 +99,5 @@ Poison	CATEGORY:Special Ability	TYPE:NeogiSubRaceTrait.SpecialAttack.Extraordina
 Skills	CATEGORY:Special Ability	TYPE:NeogiSubRaceTrait.SpecialQuality	VISIBLE:YES	DESC:A Neogi uses its Dex score instead of its Str score for Climb and Jump checks.	KEY:Neogi ~ Skills									BONUS:SKILL|Climb,Jump|max(STR,DEX)-STR																		SOURCEPAGE:MM2														
 Spawn	CATEGORY:Internal	VISIBLE:NO	KEY:Neogi ~ Spawn	TEMPLATE:Neogi ~ Spawn										AUTO:FEAT|Weapon Finesse																																
 Adult	CATEGORY:Internal	VISIBLE:NO	KEY:Neogi ~ Adult	TEMPLATE:Neogi ~ Adult										AUTO:FEAT|Weapon Finesse									ABILITY:Internal|AUTOMATIC|TYPE.WeaponProfSimple																							
-NEOGI_ATTACKS_T	CATEGORY:Internal	VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3											BONUS:WEAPONPROF=Bite|DAMAGE|STR/2																																
+NEOGI_ATTACKS_T	CATEGORY:Internal	VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3											BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))																																
 NEOGI_ATTACKS_S	CATEGORY:Internal	VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d3																																											
