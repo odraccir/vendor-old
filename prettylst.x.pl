@@ -2393,6 +2393,7 @@ my %master_order = (
     'EQUIPMENT' => [
         '000EquipmentName',
         'KEY',
+		'SORTKEY',
         'NAMEISPI',
         'OUTPUTNAME',
         'PROFICIENCY:WEAPON',
@@ -2802,7 +2803,7 @@ my %master_order = (
         'TYPE',
         'BONUS:ABILITYPOOL:*',
         'BONUS:CASTERLEVEL:*',
-        'BONUS:CHECKS:*',
+#        'BONUS:CHECKS:*', # deprecated
         'BONUS:COMBAT:*',
         'BONUS:DC:*',
         'BONUS:FEAT:*',
@@ -2810,6 +2811,7 @@ my %master_order = (
         'BONUS:HP:*',
         'BONUS:MOVEMULT:*',
         'BONUS:POSTMOVEADD:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
         'BONUS:SKILL:*',
         'BONUS:STAT:*',
         'BONUS:UDAM:*',
@@ -3108,6 +3110,7 @@ my %master_order = (
         'BONUS:MOVEMULT:*',
         'BONUS:POSTMOVEADD',
         'BONUS:RANGEMULT:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
         'BONUS:SIZEMOD',
         'BONUS:SKILL:*',
         'BONUS:STAT:*',
@@ -3154,6 +3157,7 @@ my %master_order = (
         'BONUS:DC:*',
         'BONUS:FEAT:*',
         'BONUS:HD:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
         'BONUS:SKILL:*',
         'BONUS:UDAM:*',
         'BONUS:VAR:*',
@@ -3213,6 +3217,7 @@ my %master_order = (
         'BONUS:DC:*',
         'BONUS:FEAT:*',
         'BONUS:HD:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
         'BONUS:SKILL:*',
         'BONUS:UDAM:*',
         'BONUS:VAR:*',
@@ -5064,8 +5069,8 @@ if ($cl_options{input_path}) {
             # We keep track of the files we modify
             push @modified_files, $pcc_file_name;
 
-            if ( !$conversion_enable{'No extra Tab'} ) {
 #               We add a CVS revision number is not present
+            if ( !$conversion_enable{'No extra Tab'} ) {
                 print {$new_pcc_fh}
                 "# CVS \$Revision\$ \$Author\$ -- $today -- reformated by $SCRIPTNAME v$VERSION\n"
                     if $pcc_lines[0] !~ / \A [#] .* CVS .* Revision /xmsi;
@@ -5845,6 +5850,7 @@ sub FILETYPE_parse {
         $new_line =~ s-\x99-<sup>TM</sup>-g;
         $new_line =~ s/\x9B/>/g;
         $new_line =~ s/\x9C/oe/g;
+        $new_line =~ s/[^!-~\s]//g;
         if (!(length($new_line) == 0) && !($new_line = $old_line) ) {
         $logging->ewarn(WARNING,
             qq("$new_line" contains illegal charachter),
@@ -12354,7 +12360,7 @@ BEGIN {
                                 my $AlreadyThere = 0;
                                 FIND_BONUS:
                                 for my $bonus ( @{ $line_ref->{'BONUS:WEAPONPROF'} } ) {
-                                    if ( $bonus eq "BONUS:WEAPONPROF=$NatAttackName|DAMAGE|STR/2" )
+                                    if ( $bonus eq "BONUS:WEAPONPROF=$NatAttackName|DAMAGE|max(0,(STR/2))" )
                                     {
                                         $AlreadyThere = 1;
                                         last FIND_BONUS;
@@ -12363,9 +12369,9 @@ BEGIN {
 
                                 unless ($AlreadyThere) {
                                     push @{ $line_ref->{'BONUS:WEAPONPROF'} },
-                                        "BONUS:WEAPONPROF=$NatAttackName|DAMAGE|STR/2";
+                                        "BONUS:WEAPONPROF=$NatAttackName|DAMAGE|max(0,(STR/2))";
                                     $logging->ewarn( WARNING,
-                                        qq{Added "$line_ref->{'BONUS:WEAPONPROF'}[0]"}
+                                        qq{Added new "$line_ref->{'BONUS:WEAPONPROF'}[0]"}
                                             . qq{ to go with "$line_ref->{'NATURALATTACKS'}[0]"},
                                         $file_for_error,
                                         $line_for_error
@@ -12374,9 +12380,9 @@ BEGIN {
                             }
                             else {
                                 $line_ref->{'BONUS:WEAPONPROF'}
-                                    = ["BONUS:WEAPONPROF=$NatAttackName|DAMAGE|STR/2"];
+                                    = ["BONUS:WEAPONPROF=$NatAttackName|DAMAGE|max(0,(STR/2))"];
                                 $logging->ewarn( WARNING,
-                                    qq{Added "$line_ref->{'BONUS:WEAPONPROF'}[0]"}
+                                    qq{Added missing "$line_ref->{'BONUS:WEAPONPROF'}[0]"}
                                         . qq{to go with "$line_ref->{'NATURALATTACKS'}[0]"},
                                     $file_for_error,
                                     $line_for_error
@@ -14388,8 +14394,8 @@ sub embedded_coma_split {
                     }
                 }
                 # ex. ALIGNMENTNAME:Lawful Good ABB:LG
-                elsif ( my ($alingment) = ( $line =~ / \A ALIGNMENTNAME: .* ABB: ( [^\t]* ) /xms ) ) {
-                    push @verified_alignments, $alingment;
+			elsif ( my ($alignment) = ( $line =~ / \A ALIGNMENTNAME: .* ABB: ( [^\t]* ) /xms ) ) {
+				push @verified_alignments, $alignment;
                 }
                 # ex. CHECKNAME:Fortitude   BONUS:CHECKS|Fortitude|CON
                 elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:SAVE [|] ( [^\t|]* ) /xms ) ) {

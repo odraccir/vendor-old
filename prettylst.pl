@@ -124,6 +124,7 @@ my %validfiletype = (
 	'WEAPONPROF'	=> \&FILETYPE_parse,
 	'ARMORPROF'		=> \&FILETYPE_parse,
 	'SHIELDPROF'	=> \&FILETYPE_parse,
+	'VARIABLE'		=> \&FILETYPE_parse,
 	'#EXTRAFILE'	=> 1,
 );
 
@@ -155,6 +156,7 @@ my %writefiletype = (
 	'ARMORPROF'		=> 1,
 	'SHIELDPROF'	=> 1,
 	'#EXTRAFILE'	=> 0,
+	'VARIABLE'		=> 1,
 );
 
 # The active conversions
@@ -547,22 +549,25 @@ my @valid_system_alignments  = qw( LG  LN  LE  NG  TN  NE  CG  CN  CE  NONE  Dei
 my @valid_system_check_names = qw( Fortitude Reflex Will );
 
 my @valid_system_game_modes  = qw(
+
+# Main PCGen Release
 	35e
 	3e
 	Deadlands
-	DnD
+	Darwins_World_2
+	FantasyCraft
+	Gaslight
+	Killshot
 	LoE
 	Modern
 	Pathfinder
 	Sidewinder
-	SovereignStoneD20
 	Spycraft
 	Xcrawl
-	Gaslight
-	Darwins_World_2
-	Killshot
 	OSRIC
 
+# Third Party/Homebrew Support
+	DnD
 	CMP_D20_Fantasy_v30e
 	CMP_D20_Fantasy_v35e
 	CMP_D20_Fantasy_v35e_Kalamar
@@ -575,6 +580,8 @@ my @valid_system_game_modes  = qw(
 	CMP_DnD_Oriental_Adventures_v30e
 	CMP_DnD_Oriental_Adventures_v35e
 	CMP_HARP
+	SovereignStoneD20
+
 );
 
 my @valid_system_stats		= qw(
@@ -614,6 +621,7 @@ my @valid_system_var_names	= qw(
 	MOVEBASE				SHIELDACCHECK		SIZE
 	SKILLRANK				SKILLTOTAL			SPELLFAILURE
 	SR					TL				LIST
+	MASTERVAR	APPLIEDAS
 
 );
 
@@ -645,11 +653,24 @@ my %valid_game_modes = map { $_ => 1 } (
 	'CMP_D20_Modern',
 	'CMP_DnD_Oriental_Adventures_v30e',
 	'CMP_DnD_Oriental_Adventures_v35e',
-	'CMP_D20_Fantasy_v30e',,
-	'CMP_D20_Fantasy_v35e',,
+	'CMP_D20_Fantasy_v30e',
+	'CMP_D20_Fantasy_v35e',
 	'CMP_D20_Fantasy_v35e_Kalamar',
-	'DnD_v3.5e_VPWP',,
+	'DnD_v3.5e_VPWP',
 	'CMP_D20_Fantasy_v35e_VPWP',
+	'4e',
+	'5e',
+	'DnDNext',
+	'AE',
+	'Arcana_Evolved',
+	'Dragon_Age',
+	'MC_WoD',
+	'MutantsAndMasterminds3e',
+	'Starwars_SE',
+	'SWSE',
+	'Starwars_Edge',
+	'T20',
+	'Traveller20',
 
 );
 
@@ -1481,6 +1502,19 @@ my %master_file_type = (
 			ValidateKeep	=> YES,
 		},
 	],
+
+	VARIABLE => [
+		\%SOURCE_file_type_def,
+		{ Linetype	=> 'VARIABLE',
+			RegEx			=> qr(^([^\t:]+)),
+			Mode			=> MAIN,
+			Format		=> BLOCK,
+			Header		=> BLOCK_HEADER,
+			ValidateKeep	=> YES,
+		},
+	],
+
+
 );
 
 # The PRExxx tags. They are used in many of the line types.
@@ -1686,6 +1720,8 @@ my @PRE_Tags = (
 	'!PRETEXT',
 	'PRETYPE:*',
 	'!PRETYPE:*',
+	'PRETOTALAB:*',
+	'!PRETOTALAB:*',
 	'PREUATT',
 	'!PREUATT',
 	'PREVAREQ:*',
@@ -1796,10 +1832,9 @@ my @QUALIFY_Tags = (
 # line type will get the same sort order.
 # BONUSes only valid for specific line types are listed on those line types
 my @Global_BONUS_Tags = (
-
 	'BONUS:ABILITYPOOL:*',		# Global
 	'BONUS:CASTERLEVEL:*',		# Global
-	'BONUS:CHECKS:*',			# Global
+	'BONUS:CHECKS:*',			# Global	DEPRECATED
 	'BONUS:COMBAT:*',			# Global
 	'BONUS:DC:*',			# Global
 	'BONUS:DOMAIN:*',			# Global
@@ -1815,6 +1850,7 @@ my @Global_BONUS_Tags = (
 	'BONUS:POSTRANGEADD:*',		# Global
 	'BONUS:RANGEADD:*',		# Global
 	'BONUS:RANGEMULT:*',		# Global
+	'BONUS:SAVE:*',				# Global	Replacement for CHECKS
 	'BONUS:SITUATION:*',		# Global
 	'BONUS:SIZEMOD:*',		# Global
 	'BONUS:SKILL:*',			# Global
@@ -1841,7 +1877,7 @@ my @Global_BONUS_Tags = (
 #	'BONUS:ESIZE:*',			# Not listed in the Docs
 #	'BONUS:HD',				# Class Lines
 #	'BONUS:LANGUAGES:*',		# Not listed in the Docs
-#	'BONUS:LANG:*'			# BONUS listed in the Code which is to be used instead of the deprecated BONUS:LANGNUM tag.
+#	'BONUS:LANG:*',			# BONUS listed in the Code which is to be used instead of the deprecated BONUS:LANGNUM tag.
 #	'BONUS:MONSKILLPTS',		# Templates
 #	'BONUS:REPUTATION:*',		# Not listed in the Docs
 #	'BONUS:RING:*',			# Not listed in the Docs
@@ -1871,6 +1907,7 @@ my @double_PCC_tags = (
 	'BONUS:POSTRANGEADD:*',		
 	'BONUS:RANGEADD:*',		
 	'BONUS:RANGEMULT:*',		
+	'BONUS:SAVE:*',			
 	'BONUS:SIZEMOD:*',		
 	'BONUS:SKILL:*',			
 	'BONUS:SKILLPOINTS:*',		
@@ -1905,8 +1942,6 @@ my %master_order = (
 		@PRE_Tags,
 		@QUALIFY_Tags,
 		'SERVESAS',
-		'SA:.CLEAR',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
@@ -1944,7 +1979,6 @@ my %master_order = (
 		'ADD:FORCEPOINT',
 		'ADD:LANGUAGE:*',
 		'ADD:SKILL:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -1952,8 +1986,6 @@ my %master_order = (
 		'ADDSPELLLEVEL',
 		'APPLIEDNAME',
 		'REMOVE',
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
 		'FOLLOWERS',
 		'CHANGEPROF',
@@ -1977,7 +2009,12 @@ my %master_order = (
 		'SPELLLEVEL:CLASS:*',
 		'SPELLLEVEL:DOMAIN:*',
 		'UNENCUMBEREDMOVE',
-		'TEMPBONUS'
+		'TEMPBONUS',
+		'SA:.CLEAR',		# Deprecated
+		'SA:*',				# Deprecated
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
 	],
 
 	'ABILITYCATEGORY' => [
@@ -2005,10 +2042,10 @@ my %master_order = (
 		@PRE_Tags,
 		@SOURCE_Tags,
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
-		'SA:.CLEAR',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
+		'SA:.CLEAR',	# Deprecated
+		'SA:*',			# Deprecated
 	],
 
 	'BIOSET AGESET' => [
@@ -2047,14 +2084,11 @@ my %master_order = (
 		'MEMORIZE',
 		'KNOWNSPELLS',
 		'SPELLBOOK',
-		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
 		'HASSUBCLASS',
 		'ALLOWBASECLASS',
 		'HASSUBSTITUTIONLEVEL',
 		'EXCLASS',
 		@SOURCE_Tags,
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
 		'LANGBONUS:.CLEAR',
 		'LANGBONUS:*',
 		'WEAPONBONUS',
@@ -2087,7 +2121,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -2123,7 +2156,11 @@ my %master_order = (
 		'SPELLLEVEL:DOMAIN',
 		'UNENCUMBEREDMOVE',
 		'TEMPBONUS',
-		'ROLE'
+		'ROLE',
+		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
 	],
 
 	'CLASS Level' => [
@@ -2167,7 +2204,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
 		'REMOVE',
@@ -2194,14 +2230,10 @@ my %master_order = (
 		'AUTO:SHIELDPROF:*',
 		'AUTO:WEAPONPROF:*',
 		'CHANGEPROF:*',
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
 		'ADDDOMAINS',			# [ 1973660 ] ADDDOMAINS is supported on Class Level lines
 		@QUALIFY_Tags,
 		'SERVESAS',
 		'WEAPONBONUS',
-		'FEATAUTO:.CLEAR',	# Deprecated - 6.0
-		'FEATAUTO:*',		# Deprecated - 6.0
 		'SUBCLASS',
 		'SPELLKNOWN:CLASS:*',
 		'SPELLKNOWN:DOMAIN:*',
@@ -2210,6 +2242,11 @@ my %master_order = (
 		'SPELLLIST',
 		'NATURALATTACKS',
 		'UNENCUMBEREDMOVE',
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
+		'FEATAUTO:.CLEAR',	# Deprecated - 6.0
+		'FEATAUTO:*',		# Deprecated - 6.0
 	],
 
 	'COMPANIONMOD' => [
@@ -2319,7 +2356,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -2330,7 +2366,6 @@ my %master_order = (
 		'AUTO:SHIELDPROF:*',
 		'AUTO:WEAPONPROF:*',
 		'FEATAUTO',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
@@ -2343,11 +2378,14 @@ my %master_order = (
 		'SPELLKNOWN:DOMAIN:*',
 		'SPELLLEVEL:DOMAIN',
 		'UNENCUMBEREDMOVE',
+		'SA:*',		# Deprecated 
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 	],
 
 	'EQUIPMENT' => [
 		'000EquipmentName',
 		'KEY',
+		'SORTKEY',
 		'NAMEISPI',
 		'OUTPUTNAME',
 		'PROFICIENCY:WEAPON',
@@ -2377,7 +2415,6 @@ my %master_order = (
 		'CRITMULT',
 		'CRITRANGE',
 		'ALTCRITMULT',
-#		'ALTCRITICAL',		# Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
 		'ALTCRITRANGE',
 		'FUMBLERANGE',
 		'DAMAGE',
@@ -2403,7 +2440,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -2427,8 +2463,6 @@ my %master_order = (
 		'QUALITY:*',		# [ 1593868 ] New equipment tag "QUALITY"
 		'SPROP:.CLEAR',
 		'SPROP:*',
-		'SA:.CLEAR',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'CSKILL:.CLEAR',
@@ -2442,6 +2476,10 @@ my %master_order = (
 		'TEMPDESC',
 		'UNENCUMBEREDMOVE',
 		'ICON',
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'SA:.CLEAR',		# Deprecated - replaced by SAB
+		'SA:*',				# Deprecated
+#		'ALTCRITICAL',		# Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
 	],
 
 	'EQUIPMOD' => [
@@ -2549,15 +2587,12 @@ my %master_order = (
 		'ADD:FORCEPOINT',
 		'ADD:LANGUAGE:*',
 		'ADD:SKILL',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
 		'ADD:WEAPONPROFS',
 		'ADDSPELLLEVEL',
 		'APPLIEDNAME',
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
 		'BONUS:WEAPON:*',
 		'CHANGEPROF:*',
@@ -2584,6 +2619,9 @@ my %master_order = (
 		'SPELLLEVEL:DOMAIN:*',
 		'UNENCUMBEREDMOVE',
 		'TEMPBONUS',
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
 	],
 
 	'KIT ALIGN' => [
@@ -2764,6 +2802,7 @@ my %master_order = (
 		'BONUS:HP:*',
 		'BONUS:MOVEMULT:*',
 		'BONUS:POSTMOVEADD:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
 		'BONUS:SKILL:*',
 		'BONUS:STAT:*',
 		'BONUS:UDAM:*',
@@ -2865,8 +2904,6 @@ my %master_order = (
 		@PRE_Tags,
 		@QUALIFY_Tags,
 		'SERVESAS',
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
 		'LANGBONUS:.CLEAR',
 		'LANGBONUS:*',
 		'WEAPONBONUS:*',
@@ -2892,8 +2929,6 @@ my %master_order = (
 		'HANDS',
 		'GENDER',
 		'NATURALATTACKS:*',
-		'SA:.CLEAR',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE:*',
@@ -2932,7 +2967,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -2943,6 +2977,11 @@ my %master_order = (
 		'SPELLLEVEL:CLASS:*',
 		'SPELLLEVEL:DOMAIN:*',
 		'KIT',
+		'SA:.CLEAR',		# Deprecated
+		'SA:*',				# Deprecated
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
 	],
 
 	'SHIELDPROF' => [
@@ -2955,10 +2994,10 @@ my %master_order = (
 		@PRE_Tags,
 		@SOURCE_Tags,
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
-		'SA:.CLEAR',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
+		'SA:.CLEAR',	# Deprecated
+		'SA:*',			# Deprecated
 	],
 
 	'SKILL' => [
@@ -2994,13 +3033,13 @@ my %master_order = (
 		'CCSKILL:.CLEAR',
 		'CCSKILL',
 		'REQ',
-		'SA:.CLEAR:*',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DESC',
 		'TEMPDESC',
 		'TEMPBONUS',
+		'SA:.CLEAR:*',		# Deprecated
+		'SA:*',				# Deprecated
 	],
 
 	'SOURCE' => [
@@ -3015,6 +3054,7 @@ my %master_order = (
 		'KEY',				# [ 1695877 ] KEY tag is global
 		'NAMEISPI',
 		'OUTPUTNAME',
+		'TYPE',
 		'CLASSES:.CLEARALL',
 		'CLASSES:*',
 		'DOMAINS',
@@ -3028,7 +3068,6 @@ my %master_order = (
 		'DESCRIPTOR:*',
 		'VARIANTS:.CLEAR',
 		'VARIANTS:*',
-		'TYPE',
 		'COMPS',
 		'CASTTIME:.CLEAR',
 		'CASTTIME:*',
@@ -3061,6 +3100,7 @@ my %master_order = (
 		'BONUS:MOVEMULT:*',
 		'BONUS:POSTMOVEADD',
 		'BONUS:RANGEMULT:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
 		'BONUS:SIZEMOD',
 		'BONUS:SKILL:*',
 		'BONUS:STAT:*',
@@ -3107,6 +3147,7 @@ my %master_order = (
 		'BONUS:DC:*',
 		'BONUS:FEAT:*',
 		'BONUS:HD:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
 		'BONUS:SKILL:*',
 		'BONUS:UDAM:*',
 		'BONUS:VAR:*',
@@ -3119,7 +3160,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -3131,8 +3171,6 @@ my %master_order = (
 		'PROHIBITED',
 		'PROHIBITSPELL:*',
 		'STARTSKILLPTS',
-		'SA:.CLEAR:*',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE',
@@ -3146,6 +3184,9 @@ my %master_order = (
 		'ADDDOMAINS',
 		'UNENCUMBEREDMOVE',
 		@SOURCE_Tags,
+		'SA:.CLEAR:*',		# Deprecated
+		'SA:*',				# Deprecated
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 	],
 
 	'SUBSTITUTIONCLASS' => [
@@ -3166,6 +3207,7 @@ my %master_order = (
 		'BONUS:DC:*',
 		'BONUS:FEAT:*',
 		'BONUS:HD:*',
+		'BONUS:SAVE:*',				# Global	Replacement for CHECKS
 		'BONUS:SKILL:*',
 		'BONUS:UDAM:*',
 		'BONUS:VAR:*',
@@ -3178,7 +3220,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:SPELLCASTER:*',
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
@@ -3190,8 +3231,6 @@ my %master_order = (
 		'PROHIBITED',
 		'PROHIBITSPELL:*',
 		'STARTSKILLPTS',
-		'SA:.CLEAR:*',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
 		'DEFINE',
@@ -3204,6 +3243,9 @@ my %master_order = (
 		'ADDDOMAINS',
 		'UNENCUMBEREDMOVE',
 		@SOURCE_Tags,
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'SA:.CLEAR:*',		# Deprecated
+		'SA:*',				# Deprecated
 	],
 
 	'SUBCLASSLEVEL' => [
@@ -3254,8 +3296,6 @@ my %master_order = (
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
 		'EXCHANGELEVEL',
-		'SPECIALS',			# Deprecated
-		'SPELL',			# Deprecated
 		'SPELLS:*',
 		'TEMPLATE:.CLEAR',
 		'TEMPLATE:*',
@@ -3275,6 +3315,8 @@ my %master_order = (
 		'SPELLLIST',
 		'NATURALATTACKS',
 		'UNENCUMBEREDMOVE',
+		'SPECIALS',			# Deprecated
+		'SPELL',			# Deprecated
 	],
 
 	'SUBSTITUTIONLEVEL' => [
@@ -3314,8 +3356,6 @@ my %master_order = (
 		'CSKILL',
 		'CCSKILL:.CLEAR',
 		'CCSKILL',
-		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
-		'LANGAUTO:*',		# Deprecated - Remove 6.0
 		'ADD:.CLEAR',
 		'ADD:*',
 		'ADD:ABILITY:*',
@@ -3323,7 +3363,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
 		'EXCHANGELEVEL',
@@ -3348,6 +3387,9 @@ my %master_order = (
 		'SPELLLIST',
 		'NATURALATTACKS',
 		'UNENCUMBEREDMOVE',
+		'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
+		'LANGAUTO:*',		# Deprecated - Remove 6.0
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 	],
 
 	'SWITCHRACE' => [
@@ -3405,7 +3447,6 @@ my %master_order = (
 		'ADD:EQUIP:*',
 		'ADD:FEAT:*',
 		'ADD:LANGUAGE:*',
-		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		'ADD:TEMPLATE:*',
 		'ADD:VFEAT:*',
 		'FAVOREDCLASS',
@@ -3420,10 +3461,7 @@ my %master_order = (
 		'AUTO:WEAPONPROF:*',
 		'REMOVE:*',
 		'CHANGEPROF:*',
-#		'HEIGHT',		# Deprecated
 		'KIT',
-		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
-		'LANGAUTO:*',		# Deprecated - 6.0
 		'LANGBONUS:.CLEAR',
 		'LANGBONUS:*',
 		'MOVE',
@@ -3440,11 +3478,9 @@ my %master_order = (
 		'TYPE',
 		'ADDLEVEL',
 		'VISION',
-#		'WEIGHT',		# Deprecated
 		'HD:*',
 		'WEAPONBONUS',
 		'GENDERLOCK',
-		'SPELL:*',		# Deprecated 5.x.x - Remove 6.0 - use SPELLS
 		'SPELLS:*',
 		'SPELLKNOWN:CLASS:*',
 		'SPELLKNOWN:DOMAIN:*',
@@ -3459,6 +3495,12 @@ my %master_order = (
 		'DESC:*',
 		'TEMPDESC',
 		'TEMPBONUS',
+		'SPELL:*',		# Deprecated 5.x.x - Remove 6.0 - use SPELLS
+		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'HEIGHT',		# Deprecated
+		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+		'LANGAUTO:*',		# Deprecated - 6.0
+#		'WEIGHT',		# Deprecated
 	],
 
 	'WEAPONPROF' => [
@@ -3471,11 +3513,17 @@ my %master_order = (
 		@PRE_Tags,
 		@SOURCE_Tags,
 		@Global_BONUS_Tags,	# [ 1956340 ] Centralize global BONUS tags
-		'SA:.CLEAR',
-		'SA:*',
 		'SAB:.CLEAR',
 		'SAB:*',
+		'SA:.CLEAR',
+		'SA:*',
 	],
+
+	'VARIABLE' => [
+		'000VariableName',
+		'EXPLANATION',			
+	],
+
 );
 
 #################################################################
@@ -3637,6 +3685,10 @@ my %column_with_no_tag = (
 		'000WeaponName',
 	],
 
+	'VARIABLE' => [
+		'000VariableName',
+	],
+
 );
 
 my %token_ADD_tag = map { $_ => 1 } (
@@ -3689,7 +3741,9 @@ my %token_BONUS_tag = map { $_ => 1 } (
 	'RANGEMULT',
 	'REPUTATION',	# Not listed in the Docs
 	'SIZEMOD',
+	'SAVE',
 	'SKILL',
+	'SITUATION',
 	'SKILLPOINTS',
 	'SKILLPOOL',
 	'SKILLRANK',
@@ -3779,41 +3833,55 @@ my @token_AUTO_tag = (
 # validate the different CHOOSE types.
 my %token_CHOOSE_tag = map { $_ => 1 } (
 	'ABILITY',
-	'ARMORPROF',			# Deprecated 5.15 - Remove 6.0
+	'ABILITYSELECTION',
+	'ALIGNMENT',
 	'ARMORPROFICIENCY',
-	'ARMORTYPE',
-	'CCSKILLLIST',		# Deprecated 5.13.9 - Remove 5.16. Use CHOOSE:SKILLSNAMED instead.
-	'CSKILLS',
-	'COUNT',			# Deprecated 5.13.9 - Remove 5.16 Use SELECT instead.
+	'CHECK',
+	'CLASS',
+	'DEITY',
 	'DOMAIN',
-	'EQBUILDER.SPELL',
+	'EQBUILDER.SPELL',		# EQUIPMENT ONLY
 	'EQUIPMENT',
-	'EQUIPTYPE',
 	'FEAT',
-	'FEATADD',				# Deprecated 5.15 - Remove 6.00
-	'FEATLIST',				# Deprecated 5.15 - Remove 6.00
-	'FEATSELECT',			# Deprecated 5.15 - Remove 6.00
-	'HP',					# Deprecated 6.00 - Remove 6.02
+	'FEATSELECTION',
+	'LANG',
+	'LANGAUTO',
 	'NOCHOICE',
 	'NUMBER',
 	'NUMCHOICES',
-	'PROFICIENCY',
+	'PCSTAT',
 	'RACE',
-	'SALIST',			# Deprecated 6.00 - Remove 6.02
 	'SCHOOLS',
-	'SHIELDPROF',
+	'SHIELDPROFICIENCY',
+	'SIZE',
 	'SKILL',
-	'SKILLSNAMED',
-	'SPELLCLASSES',
+	'SKILLBONUS',
 	'SPELLLEVEL',
-	'SPELLLIST',
 	'SPELLS',
-	'STAT',
+	'STATBONUS',		# EQUIPMENT ONLY
 	'STRING',
+	'TEMPLATE',
 	'USERINPUT',
 	'WEAPONFOCUS',
-	'WEAPONPROF',
-	'WEAPONPROFS',
+	'WEAPONPROFICIENCY',
+	'STAT',					# Deprecated
+	'WEAPONPROF',			# Deprecated
+	'WEAPONPROFS',			# Deprecated
+	'SPELLLIST',			# Deprecated
+	'SPELLCLASSES',			# Deprecated
+	'PROFICIENCY',			# Deprecated
+	'SHIELDPROF',			# Deprecated
+	'EQUIPTYPE',			# Deprecated
+	'CSKILLS',				# Deprecated
+	'HP',					# Deprecated 6.00 - Remove 6.02
+	'CCSKILLLIST',			# Deprecated 5.13.9 - Remove 5.16. Use CHOOSE:SKILLSNAMED instead.
+	'ARMORTYPE',			# Deprecated 
+	'ARMORPROF',			# Deprecated 5.15 - Remove 6.0
+	'SKILLSNAMED',			# Deprecated
+	'SALIST',				# Deprecated 6.00 - Remove 6.02
+	'FEATADD',				# Deprecated 5.15 - Remove 6.00
+	'FEATLIST',				# Deprecated 5.15 - Remove 6.00
+	'FEATSELECT',			# Deprecated 5.15 - Remove 6.00
 );
 
 my %master_mult;		# Will hold the tags that can be there more then once
@@ -3916,7 +3984,7 @@ my %tagheader = (
 		'KEYSTAT'			=> 'Key Stat',
 		'EXCLUSIVE'			=> 'Exclusive?',
 		'USEUNTRAINED'		=> 'Untrained?',
-		'SITUATION'			=> 'Situational Skill Use',
+		'SITUATION'			=> 'Situational Skill',
 
 #		'000TemplateName'		=> '# Template Name',
 
@@ -3924,396 +3992,404 @@ my %tagheader = (
 		'000ArmorName'		=> '# Armor Name',
 		'000ShieldName'		=> '# Shield Name',
 
-		'ABILITY'			=> 'Ability',
-		'ACCHECK'			=> 'AC Penalty Check',
-		'ACHECK'			=> 'Skill Penalty Apply',
-		'ADD'				=> 'Add ',
-		'ADD:EQUIP'			=> 'Choose Equipment',
-		'ADD:FEAT'			=> 'Choose a Feat',
-		'ADD:SAB'			=> 'Choose a Special Ability',
-		'ADD:SKILL'			=> 'Choose a Skill',
-		'ADD:TEMPLATE'		=> 'Add Template(s)',
-		'ADDDOMAINS'		=> 'Additional Divine Domain',
-		'ADDSPELLLEVEL'		=> 'Add Spell Lvl',
-		'APPLIEDNAME'		=> 'Applied Name',
-		'AGE'				=> 'Age',
-		'AGESET'			=> 'Age Set',
-		'ALIGN'			=> 'Alignment',
-		'ALTCRITMULT'		=> 'Alternative Critical',
-#		'ALTCRITICAL'		=> 'Alternative Critical',
-		'ALTCRITRANGE'		=> 'Alternative Critical Range',
-		'ALTDAMAGE'			=> 'Alternative Damage',
-		'ALTEQMOD'			=> 'Alternative Modifier',
-		'ALTTYPE'			=> 'Alternative Type',
-		'ATTACKCYCLE'		=> 'Attack Cycle',
-		'ASPECT'			=> 'Aspects',
-		'AUTO'			=> 'Auto',
-		'AUTO:ARMORPROF'		=> 'Automatically Gained Armor Prof.',
-		'AUTO:EQUIP'		=> 'Automatically Added to Inventory',
-		'AUTO:FEAT'			=> 'Automatically Gained Feat',
-		'AUTO:LANG'			=> 'Automatically Gained Language',
-		'AUTO:SHIELDPROF'		=> 'Automatically Gained Shield Prof.',
-		'AUTO:WEAPONPROF'		=> 'Automatically Gained Weapon Prof.',
-		'BASEQTY'			=> 'Base Quantity',
-		'BENEFIT'			=> 'Description of the Benefits',
-		'BONUS'			=> 'Bonus',
-		'BONUSSPELLSTAT'		=> 'Stat for Bonus Spells',
-		'BONUS:ABILITYPOOL'	=> 'Bonus to Ability Pool',
-		'BONUS:CASTERLEVEL'	=> 'Caster level',
-		'BONUS:CHECKS'		=> 'Save checks bonus',
-		'BONUS:COMBAT'		=> 'Combat bonus',
-		'BONUS:DAMAGE'		=> 'Weapon damage bonus',
-		'BONUS:DOMAIN'		=> 'Add domain number',
-		'BONUS:DC'			=> 'Bonus to DC',
-		'BONUS:DR'			=> 'Damage reduction',
-		'BONUS:EQMARMOR'		=> 'Bonus Armor Modifiers',
-		'BONUS:EQM'			=> 'Bonus Equipment Modifiers',
-		'BONUS:EQMWEAPON'		=> 'Bonus Weapon Modifiers',
-		'BONUS:ESIZE'		=> 'Modify size',
-		'BONUS:FEAT'		=> 'Bonus Number of Feats',
-		'BONUS:FOLLOWERS'		=> 'Bonus Number of Followers',
-		'BONUS:HD'			=> 'Modify HD type',
-		'BONUS:HP'			=> 'Bonus to HP',
-		'BONUS:ITEMCOST'		=> 'Modify the item cost',
-		'BONUS:LANGUAGES'		=> 'More language',
-		'BONUS:MISC'		=> 'Misc bonus',
-		'BONUS:MOVEADD'		=> 'Add to base move',
-		'BONUS:MOVEMULT'		=> 'Multiply base move',
-		'BONUS:POSTMOVEADD'	=> 'Add to magical move',
-		'BONUS:PCLEVEL'		=> 'Caster level bonus',
-		'BONUS:POSTRANGEADD'	=> 'Bonus to Range',
-		'BONUS:RANGEADD'		=> 'Bonus to base range',
-		'BONUS:RANGEMULT'		=> '% bonus to range',
-		'BONUS:REPUTATION'	=> 'Bonus to Reputation',
-		'BONUS:SIZEMOD'		=> 'Adjust PC Size',
-		'BONUS:SKILL'		=> 'Bonus to skill',
-		'BONUS:SKILLPOINTS'	=> 'Bonus to skill point/L',
-		'BONUS:SKILLPOOL'		=> 'Bonus to skill point for a level',
-		'BONUS:SKILLRANK'		=> 'Bonus to skill rank',
-		'BONUS:SLOTS'		=> 'Bonus to nb of slots',
-		'BONUS:SPELL'		=> 'Bonus to spell attribute',
-		'BONUS:SPECIALTYSPELLKNOWN'	=> 'Bonus to specialty spells class gets',
-		'BONUS:SPELLCAST'		=> 'Bonus to spell cast/day',
-		'BONUS:SPELLCASTMULT'	=> 'Multiply spell cast/day',
-		'BONUS:SPELLKNOWN'	=> 'Bonus to spell known/L',
-		'BONUS:STAT'		=> 'Stat bonus',
-		'BONUS:TOHIT'		=> 'Attack roll bonus',
-		'BONUS:UDAM'		=> 'Unarmed Damage Level bonus',
-		'BONUS:VAR'			=> 'Modify VAR',
-		'BONUS:VISION'		=> 'Add to vision',
-		'BONUS:WEAPON'		=> 'Weapon prop. bonus',
-		'BONUS:WEAPONPROF'	=> 'Weapon prof. bonus',
-		'BONUS:WIELDCATEGORY'	=> 'Wield Category bonus',
-		'TEMPBONUS'				=> 'Temporary Bonus',
-		'CAST'			=> 'Cast',
-		'CASTAS'			=> 'Cast As',
-		'CASTTIME:.CLEAR'		=> 'Clear Casting Time',
-		'CASTTIME'			=> 'Casting Time',
-		'CATEGORY'			=> 'Category of Ability',
-		'CCSKILL:.CLEAR'		=> 'Remove Cross-Class Skill',
-		'CCSKILL'			=> 'Cross-Class Skill',
-		'CHANGEPROF'		=> 'Change Weapon Prof. Category',
-		'CHOOSE'			=> 'Choose',
-		'CLASSES'			=> 'Classes',
-		'COMPANIONLIST'		=> 'Allowed Companions',
-		'COMPS'			=> 'Components',
-		'CONTAINS'			=> 'Contains',
-		'COST'			=> 'Cost',
-		'CR'				=> 'Challenge Rating',
-		'CRMOD'			=> 'CR Modifier',
-		'CRITMULT'			=> 'Critical Hit Multiplier',
-		'CRITRANGE'			=> 'Critical Hit Range',
-		'CSKILL:.CLEAR'		=> 'Remove Class Skill',
-		'CSKILL'			=> 'Class Skill',
-		'CT'				=> 'Casting Threshold',
-		'DAMAGE'			=> 'Damage',
-		'DEF',			=> 'Def',
-		'DEFINE'			=> 'Define',
-		'DEFINESTAT'		=> 'Define a Stat',
-		'DEITY'			=> 'Deity',
-		'DESC'			=> 'Description',
-		'DESC:.CLEAR'		=> 'Clear Description',
-		'DESCISPI'			=> 'Desc is PI?',
-		'DESCRIPTOR:.CLEAR'	=> 'Clear Spell Descriptors',
-		'DESCRIPTOR'		=> 'Spell Descriptors',
-		'DOMAIN'			=> 'Domain',
-		'DOMAINS'			=> 'Domains',
-		'DR:.CLEAR'			=> 'Remove Damage Reduction',
-		'DR'				=> 'Damage Reduction',
-		'DURATION:.CLEAR'		=> 'Clear Duration',
-		'DURATION'			=> 'Duration',
-#		'EFFECTS'			=> 'Description',		# Deprecated a long time ago for TARGETAREA
-		'EQMOD'			=> 'Modifier',
-		'EXCLASS'			=> 'Ex Class',
-		'FACE'			=> 'Face/Space',
-		'FEAT'			=> 'Feat',
-		'FEATAUTO'			=> 'Feat Auto',
-		'FOLLOWERS'			=> 'Allow Follower',
-		'FREE',			=> 'Free',
-		'FUMBLERANGE'		=> 'Fumble Range',
-		'GENDER'			=> 'Gender',
-		'HANDS'			=> 'Nb Hands',
-		'HASSUBCLASS'		=> 'Subclass?',
-		'ALLOWBASECLASS'		=> 'Base class as subclass?',
-		'HD'				=> 'Hit Dice',
-		'HEIGHT'			=> 'Height',
-		'HITDIE'			=> 'Hit Dice Size',
-		'HITDICEADVANCEMENT'	=> 'Hit Dice Advancement',
-		'HITDICESIZE'		=> 'Hit Dice Size',
-		'ITEM'			=> 'Item',
-		'KEY'				=> 'Unique Key',
-		'KIT'				=> 'Apply Kit',
-		'KNOWN'			=> 'Known',
-		'KNOWNSPELLS'		=> 'Automatically Known Spell Levels',
-		'LANGAUTO'			=> 'Automatic Languages',
-		'LANGAUTO:.CLEAR'		=> 'Clear Automatic Languages',
-		'LANGBONUS'			=> 'Bonus Languages',
-		'LANGBONUS:.CLEAR'	=> 'Clear Bonus Languages',
-		'LEGS'			=> 'Nb Legs',
-		'LEVEL'			=> 'Level',
-		'LEVELADJUSTMENT'		=> 'Level Adjustment',
-#		'LONGNAME'			=> 'Long Name',				# Deprecated in favor of OUTPUTNAME
-		'MAXCOST'			=> 'Maximum Cost',
-		'MAXDEX'			=> 'Maximum DEX Bonus',
-		'MAXLEVEL'			=> 'Max Level',
-		'MEMORIZE'			=> 'Memorize',
-		'MFEAT'			=> 'Default Monster Feat',
-		'MONSKILL'			=> 'Monster Initial Skill Points',
-		'MOVE'			=> 'Move',
-		'MOVECLONE'			=> 'Clone Movement',
-		'MULT'			=> 'Multiple?',
-		'NAMEISPI'			=> 'Product Identity?',
-		'NATURALARMOR'		=> 'Natural Armor',
-		'NATURALATTACKS'		=> 'Natural Attacks',
-		'NUMPAGES'			=> 'Number of Pages',			# [ 1450980 ] New Spellbook tags
-		'OUTPUTNAME'		=> 'Output Name',
-		'PAGEUSAGE'			=> 'Page Usage',				# [ 1450980 ] New Spellbook tags
-		'PANTHEON'			=> 'Pantheon',
-		'PPCOST'			=> 'Power Points',			# [ 1814797 ] PPCOST needs to added as valid tag in SPELLS
-		'PRE:.CLEAR'		=> 'Clear Prereq.',
-		'PREABILITY'		=> 'Required Ability',
-		'!PREABILITY'		=> 'Restricted Ability',
-		'PREAGESET'			=> 'Minimum Age',
-		'!PREAGESET'		=> 'Maximum Age',
-		'PREALIGN'			=> 'Required AL',
-		'!PREALIGN'			=> 'Restricted AL',
-		'PREATT'			=> 'Req. Att.',
-		'PREARMORPROF'		=> 'Req. Armor Prof.',
-		'!PREARMORPROF'		=> 'Prohibited Armor Prof.',
-		'PREBASESIZEEQ'		=> 'Required Base Size',
-		'!PREBASESIZEEQ'		=> 'Prohibited Base Size',
-		'PREBASESIZEGT'		=> 'Minimum Base Size',
-		'PREBASESIZEGTEQ'		=> 'Minimum Size',
-		'PREBASESIZELT'		=> 'Maximum Base Size',
-		'PREBASESIZELTEQ'		=> 'Maximum Size',
-		'PREBASESIZENEQ'		=> 'Prohibited Base Size',
-		'PRECAMPAIGN'		=> 'Required Campaign(s)',
-		'!PRECAMPAIGN'		=> 'Prohibited Campaign(s)',
-		'PRECHECK'			=> 'Required Check',
-		'!PRECHECK'			=> 'Prohibited Check',
-		'PRECHECKBASE'		=> 'Required Check Base',
-		'PRECITY'			=> 'Required City',
-		'!PRECITY'			=> 'Prohibited City',
-		'PRECLASS'			=> 'Required Class',
-		'!PRECLASS'			=> 'Prohibited Class',
-		'PRECLASSLEVELMAX'	=> 'Maximum Level Allowed',
-		'!PRECLASSLEVELMAX'	=> 'Should use PRECLASS',
-		'PRECSKILL'			=> 'Required Class Skill',
-		'!PRECSKILL'		=> 'Prohibited Class SKill',
-		'PREDEITY'			=> 'Required Deity',
-		'!PREDEITY'			=> 'Prohibited Deity',
-		'PREDEITYDOMAIN'		=> 'Required Deitys Domain',
-		'PREDOMAIN'			=> 'Required Domain',
-		'!PREDOMAIN'		=> 'Prohibited Domain',
-		'PREDSIDEPTS'		=> 'Req. Dark Side',
-		'PREDR'			=> 'Req. Damage Resistance',
-		'!PREDR'			=> 'Prohibited Damage Resistance',
-		'PREEQUIP'			=> 'Req. Equipement',
-		'PREEQMOD'			=> 'Req. Equipment Mod.',
-		'!PREEQMOD'			=> 'Prohibited Equipment Mod.',
-		'PREFEAT'			=> 'Required Feat',
-		'!PREFEAT'			=> 'Prohibited Feat',
-		'PREGENDER'			=> 'Required Gender',
-		'!PREGENDER'		=> 'Prohibited Gender',
-		'PREHANDSEQ'		=> 'Req. nb of Hands',
-		'PREHANDSGT'		=> 'Min. nb of Hands',
-		'PREHANDSGTEQ'		=> 'Min. nb of Hands',
-		'PREHD'			=> 'Required Hit Dice',
-		'PREHP'			=> 'Required Hit Points',
-		'PREITEM'			=> 'Required Item',
-		'PRELANG'			=> 'Required Language',
-		'PRELEVEL'			=> 'Required Lvl',
-		'PRELEVELMAX'		=> 'Maximum Level',
-		'PREKIT'			=> 'Required Kit',
-		'!PREKIT'			=> 'Prohibited Kit',
-		'PREMOVE'			=> 'Required Movement Rate',
-		'!PREMOVE'			=> 'Prohibited Movement Rate',
-		'PREMULT',			=> 'Multiple Requirements',
-		'!PREMULT'			=> 'Multiple Prohibitions',
-		'PREPCLEVEL'		=> 'Required Non-Monster Lvl',
-		'PREPROFWITHARMOR'	=> 'Required Armor Proficiencies',
-		'!PREPROFWITHARMOR'	=> 'Prohibited Armor Proficiencies',
-		'PREPROFWITHSHIELD'	=> 'Required Shield Proficiencies',
-		'!PREPROFWITHSHIELD'	=> 'Prohbited Shield Proficiencies',
-		'PRERACE'			=> 'Required Race',
-		'!PRERACE'			=> 'Prohibited Race',
-		'PRERACETYPE'		=> 'Reg. Race Type',
-		'PREREACH'			=> 'Minimum Reach',
-		'PREREACHEQ'		=> 'Required Reach',
-		'PREREACHGT'		=> 'Minimum Reach',
-		'PREREGION'			=> 'Required Region',
-		'!PREREGION'		=> 'Prohibited Region',
-		'PRERULE'			=> 'Req. Rule (in options)',
-		'PRESA'			=> 'Req. Special Ability',
-		'!PRESA'			=> 'Prohibite Special Ability',
-		'PRESHIELDPROF'		=> 'Req. Shield Prof.',
-		'!PRESHIELDPROF'		=> 'Prohibited Shield Prof.',
-		'PRESIZEEQ'			=> 'Required Size',
-		'PRESIZEGT'			=> 'Must be Larger',
-		'PRESIZEGTEQ'		=> 'Minimum Size',
-		'PRESIZELT'			=> 'Must be Smaller',
-		'PRESIZELTEQ'		=> 'Maximum Size',
-		'PRESKILL'			=> 'Required Skill',
-		'!PRESKILL'			=> 'Prohibited Skill',
-		'PRESKILLMULT'		=> 'Special Required Skill',
-		'PRESKILLTOT'		=> 'Total Skill Points Req.',
-		'PRESPELL'			=> 'Req. Known Spell',
-		'PRESPELLBOOK'		=> 'Req. Spellbook',
-		'PRESPELLBOOK'		=> 'Req. Spellbook',
-		'PRESPELLCAST'		=> 'Required Casting Type',
-		'!PRESPELLCAST'		=> 'Prohibited Casting Type',
-		'PRESPELLDESCRIPTOR'	=> 'Required Spell Descriptor',
-		'!PRESPELLDESCRIPTOR'	=> 'Prohibited Spell Descriptor',
-		'PRESPELLSCHOOL'		=> 'Required Spell School',
-		'PRESPELLSCHOOLSUB'	=> 'Required Sub-school',
-		'!PRESPELLSCHOOLSUB'	=> 'Prohibited Sub-school',
-		'PRESPELLTYPE'		=> 'Req. Spell Type',
-		'PRESREQ'			=> 'Req. Spell Resist',
-		'PRESRGT'			=> 'SR Must be Greater',
-		'PRESRGTEQ'			=> 'SR Min. Value',
-		'PRESRLT'			=> 'SR Must be Lower',
-		'PRESRLTEQ'			=> 'SR Max. Value',
-		'PRESRNEQ'			=> 'Prohibited SR Value',
-		'PRESTAT'			=> 'Required Stat',
-		'!PRESTAT',			=> 'Prohibited Stat',
-		'PRESUBCLASS'		=> 'Required Subclass',
-		'!PRESUBCLASS'		=> 'Prohibited Subclass',
-		'PRETEMPLATE'		=> 'Required Template',
-		'!PRETEMPLATE'		=> 'Prohibited Template',
-		'PRETEXT'			=> 'Required Text',
-		'PRETYPE'			=> 'Required Type',
-		'!PRETYPE'			=> 'Prohibited Type',
-		'PREVAREQ'			=> 'Required Var. value',
-		'!PREVAREQ'			=> 'Prohibited Var. Value',
-		'PREVARGT'			=> 'Var. Must Be Grater',
-		'PREVARGTEQ'		=> 'Var. Min. Value',
-		'PREVARLT'			=> 'Var. Must Be Lower',
-		'PREVARLTEQ'		=> 'Var. Max. Value',
-		'PREVARNEQ'			=> 'Prohibited Var. Value',
-		'PREVISION'			=> 'Required Vision',
-		'!PREVISION'		=> 'Prohibited Vision',
-		'PREWEAPONPROF'		=> 'Req. Weapond Prof.',
-		'!PREWEAPONPROF'		=> 'Prohibited Weapond Prof.',
-		'PREWIELD'			=> 'Required Wield Category',
-		'!PREWIELD'			=> 'Prohibited Wield Category',
-		'PROFICIENCY:WEAPON'	=> 'Required Weapon Proficiency',
-		'PROFICIENCY:ARMOR'	=> 'Required Armor Proficiency',
-		'PROFICIENCY:SHIELD'	=> 'Required Shield Proficiency',
-		'PROHIBITED'		=> 'Spell Scoll Prohibited',
-		'PROHIBITSPELL'		=> 'Group of Prohibited Spells',
-		'QUALIFY:CLASS'		=> 'Qualify for Class',
-		'QUALIFY:DEITY'		=> 'Qualify for Deity',
-		'QUALIFY:DOMAIN'		=> 'Qualify for Domain',
-		'QUALIFY:EQUIPMENT'	=> 'Qualify for Equipment',
-		'QUALIFY:EQMOD'		=> 'Qualify for Equip Modifier',
-		'QUALIFY:FEAT'		=> 'Qualify for Feat',
-		'QUALIFY:RACE'		=> 'Qualify for Race',
-		'QUALIFY:SPELL'		=> 'Qualify for Spell',
-		'QUALIFY:SKILL'		=> 'Qualify for Skill',
-		'QUALIFY:TEMPLATE'	=> 'Qualify for Template',
-		'QUALIFY:WEAPONPROF'	=> 'Qualify for Weapon Proficiency',
-		'RACESUBTYPE:.CLEAR'	=> 'Clear Racial Subtype',
-		'RACESUBTYPE'		=> 'Race Subtype',
-		'RACETYPE:.CLEAR'		=> 'Clear Main Racial Type',
-		'RACETYPE'			=> 'Main Race Type',
-		'RANGE:.CLEAR'		=> 'Clear Range',
-		'RANGE'			=> 'Range',
-		'RATEOFFIRE'		=> 'Rate of Fire',
-		'REACH'			=> 'Reach',
-		'REACHMULT'			=> 'Reach Multiplier',
-		'REGION'			=> 'Region',
-		'REPEATLEVEL'		=> 'Repeat this Level',
-		'REMOVABLE'			=> 'Removable?',
-		'REMOVE'			=> 'Remove Object',
-		'REP'				=> 'Reputation',
-		'ROLE'			=> 'Monster Role',
-		'SA'				=> 'Special Ability',
-		'SA:.CLEAR'			=> 'Clear SAs',
-		'SAB:.CLEAR'		=> 'Clear Special ABility',
-		'SAB'				=> 'Special ABility',
-		'SAVEINFO'			=> 'Save Info',
-		'SCHOOL:.CLEAR'		=> 'Clear School',
-		'SCHOOL'			=> 'School',
-		'SELECT'			=> 'Selections',
-		'SERVESAS'			=> 'Serves As',
-		'SIZE'			=> 'Size',
-		'SKILLLIST'			=> 'Use Class Skill List',
-		'SOURCE'			=> 'Source Index',
-		'SOURCEPAGE:.CLEAR'	=> 'Clear Source Page',
-		'SOURCEPAGE'		=> 'Source Page',
-		'SOURCELONG'		=> 'Source, Long Desc.',
-		'SOURCESHORT'		=> 'Source, Short Desc.',
-		'SOURCEWEB'			=> 'Source URI',
-		'SOURCEDATE'		=> 'Source Pub. Date',
-		'SOURCELINK'		=> 'Source Pub Link',
-		'SPELLBOOK'			=> 'Spellbook',
-		'SPELLFAILURE'		=> '% of Spell Failure',
-		'SPELLLIST'			=> 'Use Spell List',
-		'SPELLKNOWN:CLASS'	=> 'List of Known Class Spells by Level',
-		'SPELLKNOWN:DOMAIN'	=> 'List of Known Domain Spells by Level',
-		'SPELLLEVEL:CLASS'	=> 'List of Class Spells by Level',
-		'SPELLLEVEL:DOMAIN'	=> 'List of Domain Spells by Level',
-		'SPELLRES'			=> 'Spell Resistance',
-		'SPELL'			=> 'Deprecated Spell tag',
-		'SPELLS'			=> 'Innate Spells',
-		'SPELLSTAT'			=> 'Spell Stat',
-		'SPELLTYPE'			=> 'Spell Type',
-		'SPROP:.CLEAR'		=> 'Clear Special Property',
-		'SPROP'			=> 'Special Property',
-		'SR'				=> 'Spell Res.',
-		'STACK'			=> 'Stackable?',
-		'STARTSKILLPTS'		=> 'Skill Pts/Lvl',
-		'STAT'			=> 'Key Attribute',
-		'SUBCLASSLEVEL'		=> 'Subclass Level',
-		'SUBRACE'			=> 'Subrace',
-		'SUBREGION'			=> 'Subregion',
-		'SUBSCHOOL'			=> 'Sub-School',
-		'SUBSTITUTIONLEVEL'	=> 'Substitution Level',
-		'SYNERGY'			=> 'Synergy Skill',
-		'TARGETAREA:.CLEAR'	=> 'Clear Target Area or Effect',
-		'TARGETAREA'		=> 'Target Area or Effect',
-		'TEMPDESC'			=> 'Temporary effect description',
-		'TEMPLATE'			=> 'Template',
-		'TEMPLATE:.CLEAR'		=> 'Clear Templates',
-		'TYPE'			=> 'Type',
-		'TYPE:.CLEAR'		=> 'Clear Types',
-		'UDAM'			=> 'Unarmed Damage',
-		'UMULT'			=> 'Unarmed Multiplier',
-		'UNENCUMBEREDMOVE'	=> 'Ignore Encumberance',
-		'VARIANTS'			=> 'Spell Variations',
-		'VFEAT'			=> 'Virtual Feat',
-		'VFEAT:.CLEAR'		=> 'Clear Virtual Feat',
-		'VISIBLE'			=> 'Visible',
-		'VISION'			=> 'Vision',
-		'WEAPONBONUS'		=> 'Optionnal Weapon Prof.',
-		'WEIGHT'			=> 'Weight',
-		'WT'				=> 'Weight',
-		'XPCOST'			=> 'XP Cost',
-		'XTRAFEATS'			=> 'Starting Feats',
+		'000VariableName'		=> '# Variable Name',
+
+
+		'ABILITY'					=> 'Ability',
+		'ACCHECK'					=> 'AC Penalty Check',
+		'ACHECK'					=> 'Skill Penalty?',
+		'ADD'						=> 'Add ',
+		'ADD:EQUIP'					=> 'Add Equipment',
+		'ADD:FEAT'					=> 'Add Feat',
+		'ADD:SAB'					=> 'Add Special Ability',
+		'ADD:SKILL'					=> 'Add Skill',
+		'ADD:TEMPLATE'				=> 'Add Template',
+		'ADDDOMAINS'				=> 'Add Divine Domain',
+		'ADDSPELLLEVEL'				=> 'Add Spell Lvl',
+		'APPLIEDNAME'				=> 'Applied Name',
+		'AGE'						=> 'Age',
+		'AGESET'					=> 'Age Set',
+		'ALIGN'						=> 'Align',
+		'ALTCRITMULT'				=> 'Alt Crit Mult',
+#		'ALTCRITICAL'				=> 'Alternative Critical',
+		'ALTCRITRANGE'				=> 'Alt Crit Range',
+		'ALTDAMAGE'					=> 'Alt Damage',
+		'ALTEQMOD'					=> 'Alt EQModifier',
+		'ALTTYPE'					=> 'Alt Type',
+		'ATTACKCYCLE'				=> 'Attack Cycle',
+		'ASPECT'					=> 'Aspects',
+		'AUTO'						=> 'Auto',
+		'AUTO:ARMORPROF'			=> 'Auto Armor Prof',
+		'AUTO:EQUIP'				=> 'Auto Equip',
+		'AUTO:FEAT'					=> 'Auto Feat',
+		'AUTO:LANG'					=> 'Auto Language',
+		'AUTO:SHIELDPROF'			=> 'Auto Shield Prof',
+		'AUTO:WEAPONPROF'			=> 'Auto Weapon Prof',
+		'BASEQTY'					=> 'Base Quantity',
+		'BENEFIT'					=> 'Benefits',
+		'BONUS'						=> 'Bonus',
+		'BONUSSPELLSTAT'			=> 'Spell Stat Bonus',
+		'BONUS:ABILITYPOOL'			=> 'Bonus Ability Pool',
+		'BONUS:CASTERLEVEL'			=> 'Caster level',
+		'BONUS:CHECKS'				=> 'Save checks bonus',
+		'BONUS:SAVE'				=> 'Save bonus',
+		'BONUS:COMBAT'				=> 'Combat bonus',
+		'BONUS:DAMAGE'				=> 'Weapon damage bonus',
+		'BONUS:DOMAIN'				=> 'Add domain number',
+		'BONUS:DC'					=> 'Bonus DC',
+		'BONUS:DR'					=> 'Bonus DR',
+		'BONUS:EQMARMOR'			=> 'Bonus Armor Mods',
+		'BONUS:EQM'					=> 'Bonus Equip Mods',
+		'BONUS:EQMWEAPON'			=> 'Bonus Weapon Mods',
+		'BONUS:ESIZE'				=> 'Modify size',
+		'BONUS:FEAT'				=> 'Number of Feats',
+		'BONUS:FOLLOWERS'			=> 'Number of Followers',
+		'BONUS:HD'					=> 'Modify HD type',
+		'BONUS:HP'					=> 'Bonus to HP',
+		'BONUS:ITEMCOST'			=> 'Modify the item cost',
+		'BONUS:LANGUAGES'			=> 'Bonus language',
+		'BONUS:MISC'				=> 'Misc bonus',
+		'BONUS:MOVEADD'				=> 'Add to base move',
+		'BONUS:MOVEMULT'			=> 'Multiply base move',
+		'BONUS:POSTMOVEADD'			=> 'Add to magical move',
+		'BONUS:PCLEVEL'				=> 'Caster level bonus',
+		'BONUS:POSTRANGEADD'		=> 'Bonus to Range',
+		'BONUS:RANGEADD'			=> 'Bonus to base range',
+		'BONUS:RANGEMULT'			=> '% bonus to range',
+		'BONUS:REPUTATION'			=> 'Bonus to Reputation',
+		'BONUS:SIZEMOD'				=> 'Adjust PC Size',
+		'BONUS:SKILL'				=> 'Bonus to skill',
+		'BONUS:SITUATION'			=> 'Bonus to Situation',
+		'BONUS:SKILLPOINTS'			=> 'Bonus to skill point/L',
+		'BONUS:SKILLPOOL'			=> 'Bonus to skill point for a level',
+		'BONUS:SKILLRANK'			=> 'Bonus to skill rank',
+		'BONUS:SLOTS'				=> 'Bonus to nb of slots',
+		'BONUS:SPELL'				=> 'Bonus to spell attribute',
+		'BONUS:SPECIALTYSPELLKNOWN'	=> 'Bonus Specialty spells',
+		'BONUS:SPELLCAST'			=> 'Bonus to spell cast/day',
+		'BONUS:SPELLCASTMULT'		=> 'Multiply spell cast/day',
+		'BONUS:SPELLKNOWN'			=> 'Bonus to spell known/L',
+		'BONUS:STAT'				=> 'Stat bonus',
+		'BONUS:TOHIT'				=> 'Attack roll bonus',
+		'BONUS:UDAM'				=> 'Unarmed Damage Level bonus',
+		'BONUS:VAR'					=> 'Modify VAR',
+		'BONUS:VISION'				=> 'Add to vision',
+		'BONUS:WEAPON'				=> 'Weapon prop. bonus',
+		'BONUS:WEAPONPROF'			=> 'Weapon prof. bonus',
+		'BONUS:WIELDCATEGORY'		=> 'Wield Category bonus',
+		'TEMPBONUS'					=> 'Temporary Bonus',
+		'CAST'						=> 'Cast',
+		'CASTAS'					=> 'Cast As',
+		'CASTTIME:.CLEAR'			=> 'Clear Casting Time',
+		'CASTTIME'					=> 'Casting Time',
+		'CATEGORY'					=> 'Category of Ability',
+		'CCSKILL:.CLEAR'			=> 'Remove Cross-Class Skill',
+		'CCSKILL'					=> 'Cross-Class Skill',
+		'CHANGEPROF'				=> 'Change Weapon Prof. Category',
+		'CHOOSE'					=> 'Choose',
+		'CLASSES'					=> 'Classes',
+		'COMPANIONLIST'				=> 'Allowed Companions',
+		'COMPS'						=> 'Components',
+		'CONTAINS'					=> 'Contains',
+		'COST'						=> 'Cost',
+		'CR'						=> 'Challenge Rating',
+		'CRMOD'						=> 'CR Modifier',
+		'CRITMULT'					=> 'Crit Mult',
+		'CRITRANGE'					=> 'Crit Range',
+		'CSKILL:.CLEAR'				=> 'Remove Class Skill',
+		'CSKILL'					=> 'Class Skill',
+		'CT'						=> 'Casting Threshold',
+		'DAMAGE'					=> 'Damage',
+		'DEF'						=> 'Def',
+		'DEFINE'					=> 'Define',
+		'DEFINESTAT'				=> 'Define Stat',
+		'DEITY'						=> 'Deity',
+		'DESC'						=> 'Description',
+		'DESC:.CLEAR'				=> 'Clear Description',
+		'DESCISPI'					=> 'Desc is PI?',
+		'DESCRIPTOR:.CLEAR'			=> 'Clear Spell Descriptors',
+		'DESCRIPTOR'				=> 'Descriptor',
+		'DOMAIN'					=> 'Domain',
+		'DOMAINS'					=> 'Domains',
+		'DR:.CLEAR'					=> 'Remove Damage Reduction',
+		'DR'						=> 'Damage Reduction',
+		'DURATION:.CLEAR'			=> 'Clear Duration',
+		'DURATION'					=> 'Duration',
+#		'EFFECTS'					=> 'Description',		# Deprecated a long time ago for TARGETAREA
+		'EQMOD'						=> 'Modifier',
+		'EXCLASS'					=> 'Ex Class',
+		'EXPLANATION'				=> 'Explanation',
+		'FACE'						=> 'Face/Space',
+		'FEAT'						=> 'Feat',
+		'FEATAUTO'					=> 'Feat Auto',
+		'FOLLOWERS'					=> 'Allow Follower',
+		'FREE'						=> 'Free',
+		'FUMBLERANGE'				=> 'Fumble Range',
+		'GENDER'					=> 'Gender',
+		'HANDS'						=> 'Nb Hands',
+		'HASSUBCLASS'				=> 'Subclass?',
+		'ALLOWBASECLASS'			=> 'Base class as subclass?',
+		'HD'						=> 'Hit Dice',
+		'HEIGHT'					=> 'Height',
+		'HITDIE'					=> 'Hit Dice Size',
+		'HITDICEADVANCEMENT'		=> 'Hit Dice Advancement',
+		'HITDICESIZE'				=> 'Hit Dice Size',
+		'ITEM'						=> 'Item',
+		'KEY'						=> 'Unique Key',
+		'KIT'						=> 'Apply Kit',
+		'KNOWN'						=> 'Known',
+		'KNOWNSPELLS'				=> 'Automatically Known Spell Levels',
+		'LANGAUTO'					=> 'Automatic Languages',				# Deprecated
+		'LANGAUTO:.CLEAR'			=> 'Clear Automatic Languages',			# Deprecated
+		'LANGBONUS'					=> 'Bonus Languages',
+		'LANGBONUS:.CLEAR'			=> 'Clear Bonus Languages',
+		'LEGS'						=> 'Nb Legs',
+		'LEVEL'						=> 'Level',
+		'LEVELADJUSTMENT'			=> 'Level Adjustment',
+#		'LONGNAME'					=> 'Long Name',				# Deprecated in favor of OUTPUTNAME
+		'MAXCOST'					=> 'Maximum Cost',
+		'MAXDEX'					=> 'Maximum DEX Bonus',
+		'MAXLEVEL'					=> 'Max Level',
+		'MEMORIZE'					=> 'Memorize',
+		'MFEAT'						=> 'Default Monster Feat',
+		'MONSKILL'					=> 'Monster Initial Skill Points',
+		'MOVE'						=> 'Move',
+		'MOVECLONE'					=> 'Clone Movement',
+		'MULT'						=> 'Multiple?',
+		'NAMEISPI'					=> 'Product Identity?',
+		'NATURALARMOR'				=> 'Natural Armor',
+		'NATURALATTACKS'			=> 'Natural Attacks',
+		'NUMPAGES'					=> 'Number of Pages',			# [ 1450980 ] New Spellbook tags
+		'OUTPUTNAME'				=> 'Output Name',
+		'PAGEUSAGE'					=> 'Page Usage',				# [ 1450980 ] New Spellbook tags
+		'PANTHEON'					=> 'Pantheon',
+		'PPCOST'					=> 'Power Points',			# [ 1814797 ] PPCOST needs to added as valid tag in SPELLS
+		'PRE:.CLEAR'				=> 'Clear Prereq.',
+		'PREABILITY'				=> 'Required Ability',
+		'!PREABILITY'				=> 'Restricted Ability',
+		'PREAGESET'					=> 'Minimum Age',
+		'!PREAGESET'				=> 'Maximum Age',
+		'PREALIGN'					=> 'Required AL',
+		'!PREALIGN'					=> 'Restricted AL',
+		'PREATT'					=> 'Req. Att.',
+		'PREARMORPROF'				=> 'Req. Armor Prof.',
+		'!PREARMORPROF'				=> 'Prohibited Armor Prof.',
+		'PREBASESIZEEQ'				=> 'Required Base Size',
+		'!PREBASESIZEEQ'			=> 'Prohibited Base Size',
+		'PREBASESIZEGT'				=> 'Minimum Base Size',
+		'PREBASESIZEGTEQ'			=> 'Minimum Size',
+		'PREBASESIZELT'				=> 'Maximum Base Size',
+		'PREBASESIZELTEQ'			=> 'Maximum Size',
+		'PREBASESIZENEQ'			=> 'Prohibited Base Size',
+		'PRECAMPAIGN'				=> 'Required Campaign(s)',
+		'!PRECAMPAIGN'				=> 'Prohibited Campaign(s)',
+		'PRECHECK'					=> 'Required Check',
+		'!PRECHECK'					=> 'Prohibited Check',
+		'PRECHECKBASE'				=> 'Required Check Base',
+		'PRECITY'					=> 'Required City',
+		'!PRECITY'					=> 'Prohibited City',
+		'PRECLASS'					=> 'Required Class',
+		'!PRECLASS'					=> 'Prohibited Class',
+		'PRECLASSLEVELMAX'			=> 'Maximum Level Allowed',
+		'!PRECLASSLEVELMAX'			=> 'Should use PRECLASS',
+		'PRECSKILL'					=> 'Required Class Skill',
+		'!PRECSKILL'				=> 'Prohibited Class SKill',
+		'PREDEITY'					=> 'Required Deity',
+		'!PREDEITY'					=> 'Prohibited Deity',
+		'PREDEITYDOMAIN'			=> 'Required Deitys Domain',
+		'PREDOMAIN'					=> 'Required Domain',
+		'!PREDOMAIN'				=> 'Prohibited Domain',
+		'PREDSIDEPTS'				=> 'Req. Dark Side',
+		'PREDR'						=> 'Req. Damage Resistance',
+		'!PREDR'					=> 'Prohibited Damage Resistance',
+		'PREEQUIP'					=> 'Req. Equipement',
+		'PREEQMOD'					=> 'Req. Equipment Mod.',
+		'!PREEQMOD'					=> 'Prohibited Equipment Mod.',
+		'PREFEAT'					=> 'Required Feat',
+		'!PREFEAT'					=> 'Prohibited Feat',
+		'PREGENDER'					=> 'Required Gender',
+		'!PREGENDER'				=> 'Prohibited Gender',
+		'PREHANDSEQ'				=> 'Req. nb of Hands',
+		'PREHANDSGT'				=> 'Min. nb of Hands',
+		'PREHANDSGTEQ'				=> 'Min. nb of Hands',
+		'PREHD'						=> 'Required Hit Dice',
+		'PREHP'						=> 'Required Hit Points',
+		'PREITEM'					=> 'Required Item',
+		'PRELANG'					=> 'Required Language',
+		'PRELEVEL'					=> 'Required Lvl',
+		'PRELEVELMAX'				=> 'Maximum Level',
+		'PREKIT'					=> 'Required Kit',
+		'!PREKIT'					=> 'Prohibited Kit',
+		'PREMOVE'					=> 'Required Movement Rate',
+		'!PREMOVE'					=> 'Prohibited Movement Rate',
+		'PREMULT'					=> 'Multiple Requirements',
+		'!PREMULT'					=> 'Multiple Prohibitions',
+		'PREPCLEVEL'				=> 'Required Non-Monster Lvl',
+		'PREPROFWITHARMOR'			=> 'Required Armor Proficiencies',
+		'!PREPROFWITHARMOR'			=> 'Prohibited Armor Proficiencies',
+		'PREPROFWITHSHIELD'			=> 'Required Shield Proficiencies',
+		'!PREPROFWITHSHIELD'		=> 'Prohbited Shield Proficiencies',
+		'PRERACE'					=> 'Required Race',
+		'!PRERACE'					=> 'Prohibited Race',
+		'PRERACETYPE'				=> 'Reg. Race Type',
+		'PREREACH'					=> 'Minimum Reach',
+		'PREREACHEQ'				=> 'Required Reach',
+		'PREREACHGT'				=> 'Minimum Reach',
+		'PREREGION'					=> 'Required Region',
+		'!PREREGION'				=> 'Prohibited Region',
+		'PRERULE'					=> 'Req. Rule (in options)',
+		'PRESA'						=> 'Req. Special Ability',
+		'!PRESA'					=> 'Prohibite Special Ability',
+		'PRESHIELDPROF'				=> 'Req. Shield Prof.',
+		'!PRESHIELDPROF'			=> 'Prohibited Shield Prof.',
+		'PRESIZEEQ'					=> 'Required Size',
+		'PRESIZEGT'					=> 'Must be Larger',
+		'PRESIZEGTEQ'				=> 'Minimum Size',
+		'PRESIZELT'					=> 'Must be Smaller',
+		'PRESIZELTEQ'				=> 'Maximum Size',
+		'PRESKILL'					=> 'Required Skill',
+		'!PRESITUATION'				=> 'Prohibited Situation',
+		'PRESITUATION'				=> 'Required Situation',
+		'!PRESKILL'					=> 'Prohibited Skill',
+		'PRESKILLMULT'				=> 'Special Required Skill',
+		'PRESKILLTOT'				=> 'Total Skill Points Req.',
+		'PRESPELL'					=> 'Req. Known Spell',
+		'PRESPELLBOOK'				=> 'Req. Spellbook',
+		'PRESPELLBOOK'				=> 'Req. Spellbook',
+		'PRESPELLCAST'				=> 'Required Casting Type',
+		'!PRESPELLCAST'				=> 'Prohibited Casting Type',
+		'PRESPELLDESCRIPTOR'		=> 'Required Spell Descriptor',
+		'!PRESPELLDESCRIPTOR'		=> 'Prohibited Spell Descriptor',
+		'PRESPELLSCHOOL'			=> 'Required Spell School',
+		'PRESPELLSCHOOLSUB'			=> 'Required Sub-school',
+		'!PRESPELLSCHOOLSUB'		=> 'Prohibited Sub-school',
+		'PRESPELLTYPE'				=> 'Req. Spell Type',
+		'PRESREQ'					=> 'Req. Spell Resist',
+		'PRESRGT'					=> 'SR Must be Greater',
+		'PRESRGTEQ'					=> 'SR Min. Value',
+		'PRESRLT'					=> 'SR Must be Lower',
+		'PRESRLTEQ'					=> 'SR Max. Value',
+		'PRESRNEQ'					=> 'Prohibited SR Value',
+		'PRESTAT'					=> 'Required Stat',
+		'!PRESTAT',					=> 'Prohibited Stat',
+		'PRESUBCLASS'				=> 'Required Subclass',
+		'!PRESUBCLASS'				=> 'Prohibited Subclass',
+		'PRETEMPLATE'				=> 'Required Template',
+		'!PRETEMPLATE'				=> 'Prohibited Template',
+		'PRETEXT'					=> 'Required Text',
+		'PRETYPE'					=> 'Required Type',
+		'!PRETYPE'					=> 'Prohibited Type',
+		'PREVAREQ'					=> 'Required Var. value',
+		'!PREVAREQ'					=> 'Prohibited Var. Value',
+		'PREVARGT'					=> 'Var. Must Be Grater',
+		'PREVARGTEQ'				=> 'Var. Min. Value',
+		'PREVARLT'					=> 'Var. Must Be Lower',
+		'PREVARLTEQ'				=> 'Var. Max. Value',
+		'PREVARNEQ'					=> 'Prohibited Var. Value',
+		'PREVISION'					=> 'Required Vision',
+		'!PREVISION'				=> 'Prohibited Vision',
+		'PREWEAPONPROF'				=> 'Req. Weapond Prof.',
+		'!PREWEAPONPROF'			=> 'Prohibited Weapond Prof.',
+		'PREWIELD'					=> 'Required Wield Category',
+		'!PREWIELD'					=> 'Prohibited Wield Category',
+		'PROFICIENCY:WEAPON'		=> 'Required Weapon Proficiency',
+		'PROFICIENCY:ARMOR'			=> 'Required Armor Proficiency',
+		'PROFICIENCY:SHIELD'		=> 'Required Shield Proficiency',
+		'PROHIBITED'				=> 'Spell Scoll Prohibited',
+		'PROHIBITSPELL'				=> 'Group of Prohibited Spells',
+		'QUALIFY:CLASS'				=> 'Qualify for Class',
+		'QUALIFY:DEITY'				=> 'Qualify for Deity',
+		'QUALIFY:DOMAIN'			=> 'Qualify for Domain',
+		'QUALIFY:EQUIPMENT'			=> 'Qualify for Equipment',
+		'QUALIFY:EQMOD'				=> 'Qualify for Equip Modifier',
+		'QUALIFY:FEAT'				=> 'Qualify for Feat',
+		'QUALIFY:RACE'				=> 'Qualify for Race',
+		'QUALIFY:SPELL'				=> 'Qualify for Spell',
+		'QUALIFY:SKILL'				=> 'Qualify for Skill',
+		'QUALIFY:TEMPLATE'			=> 'Qualify for Template',
+		'QUALIFY:WEAPONPROF'		=> 'Qualify for Weapon Proficiency',
+		'RACESUBTYPE:.CLEAR'		=> 'Clear Racial Subtype',
+		'RACESUBTYPE'				=> 'Race Subtype',
+		'RACETYPE:.CLEAR'			=> 'Clear Main Racial Type',
+		'RACETYPE'					=> 'Main Race Type',
+		'RANGE:.CLEAR'				=> 'Clear Range',
+		'RANGE'						=> 'Range',
+		'RATEOFFIRE'				=> 'Rate of Fire',
+		'REACH'						=> 'Reach',
+		'REACHMULT'					=> 'Reach Multiplier',
+		'REGION'					=> 'Region',
+		'REPEATLEVEL'				=> 'Repeat this Level',
+		'REMOVABLE'					=> 'Removable?',
+		'REMOVE'					=> 'Remove Object',
+		'REP'						=> 'Reputation',
+		'ROLE'						=> 'Monster Role',
+		'SA'						=> 'Special Ability',
+		'SA:.CLEAR'					=> 'Clear SAs',
+		'SAB:.CLEAR'				=> 'Clear Special ABility',
+		'SAB'						=> 'Special ABility',
+		'SAVEINFO'					=> 'Save Info',
+		'SCHOOL:.CLEAR'				=> 'Clear School',
+		'SCHOOL'					=> 'School',
+		'SELECT'					=> 'Selections',
+		'SERVESAS'					=> 'Serves As',
+		'SIZE'						=> 'Size',
+		'SKILLLIST'					=> 'Use Class Skill List',
+		'SOURCE'					=> 'Source Index',
+		'SOURCEPAGE:.CLEAR'			=> 'Clear Source Page',
+		'SOURCEPAGE'				=> 'Source Page',
+		'SOURCELONG'				=> 'Source, Long Desc.',
+		'SOURCESHORT'				=> 'Source, Short Desc.',
+		'SOURCEWEB'					=> 'Source URI',
+		'SOURCEDATE'				=> 'Source Pub. Date',
+		'SOURCELINK'				=> 'Source Pub Link',
+		'SPELLBOOK'					=> 'Spellbook',
+		'SPELLFAILURE'				=> '% of Spell Failure',
+		'SPELLLIST'					=> 'Use Spell List',
+		'SPELLKNOWN:CLASS'			=> 'List of Known Class Spells by Level',
+		'SPELLKNOWN:DOMAIN'			=> 'List of Known Domain Spells by Level',
+		'SPELLLEVEL:CLASS'			=> 'List of Class Spells by Level',
+		'SPELLLEVEL:DOMAIN'			=> 'List of Domain Spells by Level',
+		'SPELLRES'					=> 'Spell Resistance',
+		'SPELL'						=> 'Deprecated Spell tag',
+		'SPELLS'					=> 'Innate Spells',
+		'SPELLSTAT'					=> 'Spell Stat',
+		'SPELLTYPE'					=> 'Spell Type',
+		'SPROP:.CLEAR'				=> 'Clear Special Property',
+		'SPROP'						=> 'Special Property',
+		'SR'						=> 'Spell Res.',
+		'STACK'						=> 'Stackable?',
+		'STARTSKILLPTS'				=> 'Skill Pts/Lvl',
+		'STAT'						=> 'Key Attribute',
+		'SUBCLASSLEVEL'				=> 'Subclass Level',
+		'SUBRACE'					=> 'Subrace',
+		'SUBREGION'					=> 'Subregion',
+		'SUBSCHOOL'					=> 'Sub-School',
+		'SUBSTITUTIONLEVEL'			=> 'Substitution Level',
+		'SYNERGY'					=> 'Synergy Skill',
+		'TARGETAREA:.CLEAR'			=> 'Clear Target Area or Effect',
+		'TARGETAREA'				=> 'Target Area or Effect',
+		'TEMPDESC'					=> 'Temporary effect description',
+		'TEMPLATE'					=> 'Template',
+		'TEMPLATE:.CLEAR'			=> 'Clear Templates',
+		'TYPE'						=> 'Type',
+		'TYPE:.CLEAR'				=> 'Clear Types',
+		'UDAM'						=> 'Unarmed Damage',
+		'UMULT'						=> 'Unarmed Multiplier',
+		'UNENCUMBEREDMOVE'			=> 'Ignore Encumberance',
+		'VARIANTS'					=> 'Spell Variations',
+		'VFEAT'						=> 'Virtual Feat',
+		'VFEAT:.CLEAR'				=> 'Clear Virtual Feat',
+		'VISIBLE'					=> 'Visible',
+		'VISION'					=> 'Vision',
+		'WEAPONBONUS'				=> 'Optionnal Weapon Prof.',
+		'WEIGHT'					=> 'Weight',
+		'WT'						=> 'Weight',
+		'XPCOST'					=> 'XP Cost',
+		'XTRAFEATS'					=> 'Extra Feats',
 	},
 
 	'ABILITYCATEGORY' => {
-		'000AbilityCategory',	=> '# Ability Category',
+		'000AbilityCategory'	=> '# Ability Category',
 		'CATEGORY'			=> 'Category of Object',
 		'DISPLAYLOCATION'		=> 'Display Location',
 		'DISPLAYNAME'		=> 'Display where?',
@@ -4385,9 +4461,9 @@ my %tagheader = (
 		'BASEITEM'			=> 'Base Item for EQMOD',
 		'RESIZE'			=> 'Can be Resized',
 		'QUALITY'			=> 'Quality and value',
-		'SLOTS'			=> 'Slot Needed',
-		'WIELD'			=> 'Wield Category',
-		'MODS'			=> 'Requires Modification?',
+		'SLOTS'				=> 'Slot Needed',
+		'WIELD'				=> 'Wield Category',
+		'MODS'				=> 'Requires Modification?',
 	},
 
 	'EQUIPMOD' => {
@@ -4399,54 +4475,54 @@ my %tagheader = (
 		'COSTPRE'			=> 'Cost before resizing',
 		'FORMATCAT'			=> 'Naming Format',			#[ 1594671 ] New tag: equipmod FORMATCAT
 		'IGNORES'			=> 'Keys to ignore',
-		'ITYPE'			=> 'Type granted',
+		'ITYPE'				=> 'Type granted',
 		'KEY'				=> 'Unique Key',
 		'NAMEOPT'			=> 'Naming Option',
-		'PLUS'			=> 'Plus',
+		'PLUS'				=> 'Plus',
 		'REPLACES'			=> 'Keys to replace',
 	},
 
 	'KIT STARTPACK' => {
-		'STARTPACK'			=> '# Kit Name',
-		'APPLY'			=> 'Apply method to char',			#[ 1593879 ] New Kit tag: APPLY
+		'STARTPACK'				=> '# Kit Name',
+		'APPLY'					=> 'Apply method to char',			#[ 1593879 ] New Kit tag: APPLY
 	},
 
 	'KIT CLASS' => {
-		'CLASS'			=> '# Class',
+		'CLASS'					=> '# Class',
 	},
 
 	'KIT FUNDS' => {
-		'FUNDS'			=> '# Funds',
+		'FUNDS'					=> '# Funds',
 	},
 
 	'KIT GEAR' => {
-		'GEAR'			=> '# Gear',
+		'GEAR'					=> '# Gear',
 	},
 
 	'KIT LANGBONUS' => {
-		'LANGBONUS'			=> '# Bonus Language',
+		'LANGBONUS'				=> '# Bonus Language',
 	},
 
 	'KIT NAME' => {
-		'NAME'			=> '# Name',
+		'NAME'					=> '# Name',
 	},
 
 	'KIT RACE' => {
-		'RACE'			=> '# Race',
+		'RACE'					=> '# Race',
 	},
 
 	'KIT SELECT' => {
-		'SELECT'			=> '# Select choice',
+		'SELECT'				=> '# Select choice',
 	},
 
 	'KIT SKILL' => {
-		'SKILL'			=> '# Skill',
-		'SELECTION'             => 'Selections',
+		'SKILL'					=> '# Skill',
+		'SELECTION'				=> 'Selections',
 	},
 
 	'KIT TABLE' => {
-		'TABLE'			=> '# Table name',
-		'VALUES'			=> 'Table Values',
+		'TABLE'					=> '# Table name',
+		'VALUES'				=> 'Table Values',
 	},
 
 	'MASTERBONUSRACE' => {
@@ -4483,6 +4559,11 @@ my %tagheader = (
 		'BONUSFEATS'		=> 'Number of Bonus Feats',
 		'FAVOREDCLASS'		=> 'Favored Class',
 		'GENDERLOCK'		=> 'Lock Gender Selection',
+	},
+
+	'VARIABLE' => {
+		'000VariableName'		=> '# Variable Name',
+		'EXPLANATION'			=> 'Explanation',
 	},
 
 );
@@ -9535,6 +9616,8 @@ sub validate_pre_tag {
 		}
 	}
 
+	# No Check for Variable File #
+
 	# Check for PRExxx that do not exist. We only check the
 	# tags that are embeded since parse_tag already took care
 	# of the PRExxx tags on the entry lines.
@@ -9817,6 +9900,7 @@ BEGIN {
 		'roll',
 		'var',
 		'mastervar',
+		'APPLIEDAS',
 	);
 
 	sub add_to_xcheck_tables {
@@ -10402,7 +10486,7 @@ BEGIN {
 		abs	rand	mod	sqrt	sum	if	str
 
 		ceil	cl	classlevel	count	floor	min
-		max	roll	skillinfo	var	mastervar
+		max	roll	skillinfo	var	mastervar	APPLIEDAS
 	);
 
 	# Definition of a valid Jep identifiers. Note that all functions are
@@ -13456,7 +13540,7 @@ BEGIN {
 				my %spell_tags = (
 				BONUSSPELLSTAT			=> 1,
 				'BONUS:CASTERLEVEL'		=> 1,
-				'BONUS:DC',				=> 1,  #[ 1037456 ] Move BONUS:DC on class line to the spellcasting portion
+				'BONUS:DC'				=> 1,  #[ 1037456 ] Move BONUS:DC on class line to the spellcasting portion
 				'BONUS:SCHOOL'			=> 1,
 				'BONUS:SPELL'			=> 1,
 				'BONUS:SPECIALTYSPELLKNOWN'	=> 1,
@@ -14182,8 +14266,8 @@ sub embedded_coma_split {
 				}
 			}
 			# ex. ALIGNMENTNAME:Lawful Good ABB:LG
-			elsif ( my ($alingment) = ( $line =~ / \A ALIGNMENTNAME: .* ABB: ( [^\t]* ) /xms ) ) {
-				push @verified_alignments, $alingment;
+			elsif ( my ($alignment) = ( $line =~ / \A ALIGNMENTNAME: .* ABB: ( [^\t]* ) /xms ) ) {
+				push @verified_alignments, $alignment;
 			}
 			# ex. CHECKNAME:Fortitude   BONUS:CHECKS|Fortitude|CON
 			elsif ( my ($check_name) = ( $line =~ / \A CHECKNAME: .* BONUS:CHECKS [|] ( [^\t|]* ) /xms ) ) {
