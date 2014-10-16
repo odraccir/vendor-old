@@ -1,0 +1,95 @@
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Race Traits ~ Beetle Buckler	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=BeetleBucklerRaceTrait																													
+Deflect Arrows	CATEGORY:Special Ability	TYPE:BeetleBucklerRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:When detached from its shield position, a beetle buckler darts about in its owner's space, blocking one ranged attack per round as the Deflect Arrows feat.	KEY:Beetle Buckler ~ Deflect Arrows	SERVESAS:FEAT|Deflect Arrows																										SOURCEPAGE:AaEG
+																																
+Race Traits ~ Climbdog	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=ClimbdogRaceTrait|Scent																													
+Training	CATEGORY:Special Ability	TYPE:ClimbdogRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 10 young, DC 17 adult.	KEY:Climbdog ~ Training																											SOURCEPAGE:AaEG
+Skills	CATEGORY:Special Ability	TYPE:ClimbdogRaceTrait	VISIBLE:YES		KEY:Climbdog ~ Skills									BONUS:SKILL|Climb|4|TYPE=Racial																		SOURCEPAGE:AaEG
+																																
+Race Traits ~ Thudhunter	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=ThudhuhnterRaceTrait																													
+Improved Grab	CATEGORY:Special Ability	TYPE:ThudhunterRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:If a Thudhunter hits an opponent with a Claw attack, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity.	KEY:Thudhunter ~ Improved Grab																											SOURCEPAGE:AaEG
+Thud	CATEGORY:Special Ability	TYPE:ThudhunterRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Their thick, stumpy legs loudly stomp the ground when thudhunters prowl. Creatures with tremorsense within 120 feet are driven to distraction by the disruptive vibrations, and are forced to surface unless they succeed on a Will save (DC %1). Once they do surface, they must succeed on a second Will save (DC %1) or be stunned for 1 round.|ThudDC	KEY:Thudhunter ~ Thud				DEFINE:ThudDC|0					BONUS:VAR|ThudDC|DefaultDCStr	BONUS:VAR|ThudDC|2|PREFEAT:1,Ability Focus (Thud)								ABILITY:Ability Focus|AUTOMATIC|Thud									SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:ThudhunterRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult.	KEY:Thudhunter ~ Training																											SOURCEPAGE:AaEG
+Skills	CATEGORY:Special Ability	TYPE:ThudhunterRaceTrait	VISIBLE:YES		KEY:Thudhunter ~ Skills									BONUS:SKILL|Jump|5|TYPE=Racial																		SOURCEPAGE:AaEG
+																																
+Race Traits ~ Riding Lizard	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=RidingLizardRaceTrait																													
+Light Blindness	CATEGORY:Special Ability	TYPE:RidingLizardRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Abrupt exposure to bright light (such as sunlight or a daylight spell) blinds drow for 1 round. On subsequent rounds, they are dazzled as long as they remain in the affected area.	KEY:Riding Lizard ~ Light Blindness																											SOURCEPAGE:AaEG, p. 82
+Sticky Pads	CATEGORY:Special Ability	TYPE:RidingLizardRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES	DESC:A riding lizard has large, circular pads on its toes that exude adhesive. At will, a riding lizard can stick to any vertical or inverted surface as Spider Climb spell cast by a 20th-level sorcerer.	KEY:Riding Lizard ~ Sticky Pads																											SOURCEPAGE:AaEG, p. 82
+Training	CATEGORY:Special Ability	TYPE:RidingLizardRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 20 young, DC 27 adult	KEY:Riding Lizard ~ Training																											SOURCEPAGE:AaEG, p. 82
+																																
+Race Traits ~ Axebeak	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AxebeakRaceTrait																													
+Training	CATEGORY:Special Ability	TYPE:AxebeakRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 11 young, DC 18 adult	KEY:Axebeak ~ Training																											SOURCEPAGE:AaEG, p. 83
+Skills	CATEGORY:Special Ability	TYPE:AxebeakRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Axebeak ~ Skills									BONUS:SITUATION|Spot=Daylight|8|TYPE=Racial																		SOURCEPAGE:AaEG, p. 83
+Speed	CATEGORY:Special Ability	TYPE:AxebeakRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Axebeaks move five times their normal speed when running instead of four times the speed.																												SOURCEPAGE:AaEG, p. 83
+																																
+Race Traits ~ Hippocampus	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=HippocampusRaceTrait	AUTO:LANG|Aquan																												
+Training	CATEGORY:Special Ability	TYPE:HippocampusRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult	KEY:Hippocampus ~ Training																											SOURCEPAGE:AaEG, p. 84
+																																
+Race Traits ~ Equine Golem	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=EquineGolemRaceTrait																													
+Shatter	CATEGORY:Special Ability	TYPE:EquineGolemRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:3/days an equine golem can emit an ear-splitting whinny, which acts as a Shatter spell cast by a 10th level sorcerer.	KEY:Equine Golem ~ Shatter																											SOURCEPAGE:AaEG, p. 87
+Magic Immunity	CATEGORY:Special Ability	TYPE:EquineGolemRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A Chain Golem is immune to any spell or spell-like ability that allows spell resistance. A Warp Wood or Wood Shape spell slows it (as the Slow spell) for 2d6 rounds. Arepel Wood spell pushes it back normally, but if the golem resists the spell, it can hold its ground. This spell never splinters or breaks any part of the construct.	KEY:Equine Golem ~ Magic Immunity																											SOURCEPAGE:AaEG, p. 87
+																																
+Race Traits ~ Zaratan	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=ZaratanRaceTrait	AUTO:LANG|Aquan																												
+Fin Sweep	CATEGORY:Special Ability	TYPE:ZaratanRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:The zaratan thrashes all four of its fins simultaneously, affecting everything in the water in a 40-foot radius. Objects and creatures within the swept area automatically take 2d8+16 points of bludgeoning damage. Affected creatures can attempt a Reflex save (DC %1) to take half damage.|FinSweepDC	KEY:Zaratan ~ Fin Sweep				DEFINE:FinSweepDC|0					BONUS:VAR|FinSweepDC|DefaultDCCon	BONUS:VAR|FinSweepDC|2|PREFEAT:1,Ability Focus (Fin Sweep)								ABILITY:Ability Focus|AUTOMATIC|Fin Sweep									SOURCEPAGE:AaEG, p. 88
+Training	CATEGORY:Special Ability	TYPE:ZaratanRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 25 young, DC 32 adult.	KEY:Zaratan ~ Training																											SOURCEPAGE:AaEG, p. 88
+																																
+Race Traits ~ Soarwhale	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=SoarwhaleRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|4																		
+Breath Weapon	CATEGORY:Special Ability	TYPE:SoarwhaleRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1' Cone of Paralysing Gas Fort DC %2 half|BreathWeaponCone|BreathWeaponDC	KEY:Soarwhale ~ Breath Weapon									BONUS:VAR|BreathWeaponCone|10			BONUS:VAR|BreathWeaponDC|DefaultDCCon	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus (Breath Weapon)					ABILITY:Ability Focus|AUTOMATIC|Breath Weapon									SOURCEPAGE:AaEG, p. 89
+Training	CATEGORY:Special Ability	TYPE:SoarwhaleRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 18 young, DC 25 adult.	KEY:Soarwhale ~ Training																											SOURCEPAGE:AaEG, p. 89
+																																
+Race Traits ~ Giant Dragonfly	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=GiantDragonflyRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|4																		
+Training	CATEGORY:Special Ability	TYPE:GiantDragonflyRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 30 adult.	KEY:Giant Dragonfly ~ Training																											SOURCEPAGE:AaEG, p. 90
+																																
+Race Traits ~ Giant Firefly	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=GiantFireflyRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|4																		
+Glow	CATEGORY:Special Ability	TYPE:GiantFireflyRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The abdomen glows a soft yellow or green and shed light in a 10-ft radius.	KEY:Giant Firefly ~ Glow																											SOURCEPAGE:AaEG, p. 90
+Training	CATEGORY:Special Ability	TYPE:GiantFireflyRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 30 adult.	KEY:Giant Firefly ~ Training																											SOURCEPAGE:AaEG, p. 90
+																																
+Race Traits ~ Jade Locust	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=JadeLocustRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|4																		
+																																
+# Ability Name																																
+Training	CATEGORY:Special Ability	TYPE:Blink DogRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Guard. DC 22 young, DC 29 adult.	KEY:Blink Dog ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Ethereal MarauderRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Guard. DC 20 young, DC 27 adult	KEY:Ethereal Marauder ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Hell HoundRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult	KEY:Hell Hound ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:KrensharRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 20 young, DC 27 adult	KEY:Krenshar ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:ManticoreRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 24 young, DC 31 adult	KEY:Manticore ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:OtyughRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 24 young, DC 31 adult	KEY:Otyugh ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:OwlbearRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 23 young, DC 30 adult	KEY:Owlbear ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Phantom FungusRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 27 adult	KEY:Phantom Fungus ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Rust MonsterRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 23 young, DC 30 adult	KEY:Rust Monster ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Sea CatRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 24 young, DC 31 adult	KEY:Sea Cat ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Shadow MastiffRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult	KEY:Shadow Mastiff ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Shocker LizardRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 20 young, DC 27 adult	KEY:Shocker Lizard ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:VargouilleRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 26 adult	KEY:Vargouille ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Dire BadgerRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 16 young, DC 23 adult.	KEY:Dire Badger ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Dire BatRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 17 young, DC 24 adult.	KEY:Dire Bat ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Dire BoarRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 20 young, DC 27 adult.	KEY:Dire Boar ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Riding DogRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 10 young, DC 17 adult.	KEY:Riding Dog ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:PorpoiseRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 15 young, DC 22 adult.	KEY:Porpoise ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:RhinocerosRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 21 young, DC 28 adult.	KEY:Rhinoceros ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:DeinonychusRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult.	KEY:Deinonychus ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:MegaraptorRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult.	KEY:Megaraptor ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:TriceratopsRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 36 young, DC 41 adult.	KEY:Triceratops ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:WorgRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult.	KEY:Worg ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:CouatlRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 27 young.	KEY:Couatl ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Gelatinous CubeRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 29 adult.	KEY:Gelatinous Cube ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:HieracosphinxRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 27 young, DC 34 adult.	KEY:Hieracosphinx ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:HydraRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC %1 young, DC %2 adult.|18+HydraHeadCount|25+HydraHeadCount	KEY:Hydra ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:NightmareRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 28 young, DC 35 adult.	KEY:Nightmare ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Purple Worm.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 34 young, DC 41 adult.	KEY:Purple Worm ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:TendriculosRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 27 young.	KEY:Tendriculos ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:WyvernRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 25 young, DC 32 adult.	KEY:Wyvern ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:GirallonRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 25 young, DC 32 adult.	KEY:Girallon ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:Gray RenderRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 10 if accepted. DC 33 young, DC 40 adult.	KEY:Gray Render ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:OgreRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 adult.	KEY:Ogre ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:LamaRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 10 young, DC 17 adult.	KEY:Lama ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:ClimbingLizardRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 20 young, DC 27 adult	KEY:Climbing Lizard~ Training																											SOURCEPAGE:AaEG
+# Training ~ Dolphin	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:DC 15 young, DC 22 adult.	OUTPUTNAME:Trainable																											SOURCEPAGE:Web
+Training	CATEGORY:Special Ability	TYPE:GiantWorkerAntRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 27 adult with pheromone admixtures.	KEY:Giant Worker Ant ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:GiantSoldierAntRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 27 adult with pheromone admixtures.	KEY:Giant Soldier Ant ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:GiantPrayingMantisRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 29 adult.	KEY:Giant Praying Mantis ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:GiantWaspRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 30 adult.	KEY:Giant Wasp ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:MonstrousScorpionRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 41 adult.	KEY:Monstrous Scorpion ~ Training																											SOURCEPAGE:AaEG
+Training	CATEGORY:Special Ability	TYPE:MonstrousSpiderRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 35 adult.	KEY:Monstrous Spider ~ Training																											SOURCEPAGE:AaEG

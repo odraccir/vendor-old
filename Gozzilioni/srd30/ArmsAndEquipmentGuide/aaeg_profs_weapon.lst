@@ -1,0 +1,50 @@
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03
+		
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+
+# Weapon Name			Type
+Battlepick (Gnome)	TYPE:Martial.Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded	
+Gauntlet (Bladed)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+Bracers (Claw)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+Chain and Dagger	TYPE:Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded.Reach	
+Chakram	TYPE:Exotic.Ranged.Slashing.Light.RangedSlashing.RangedLight	
+Duom	TYPE:Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded.Reach	
+Fullblade	TYPE:Exotic.Martial.Melee.Slashing.TwoHanded.MeleeSlashing.MeleeTwoHanded	
+Greatsword (Mercurial)	TYPE:Exotic.Melee.Slashing.TwoHanded.MeleeSlashing.MeleeTwoHanded	
+Gyrspike	TYPE:Exotic.Melee.Bludgeoning.TwoHanded.MeleeBludgeoning.MeleeTwoHanded.DoubleWeapon	
+Kopesh	TYPE:Exotic.Melee.Slashing.OneHanded.MeleeSlashing.MeleeOneHanded	
+Sword (Mercurial)	TYPE:Exotic.Melee.Slashing.OneHanded.MeleeSlashing.MeleeOneHanded	
+Hammer (Lucerne)	TYPE:Martial.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded	
+Mace (Double)	TYPE:Exotic.Melee.Bludgeoning.TwoHanded.MeleeBludgeoning.MeleeTwoHanded.DoubleWeapon	
+Manti	TYPE:Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded	
+Maul	TYPE:Martial.Melee.Bludgeoning.TwoHanded.MeleeBludgeoning.MeleeTwoHanded	
+Sai	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+Sapara	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.MeleeLight	
+Scimitar (Double)	TYPE:Exotic.Melee.Slashing.TwoHanded.MeleeSlashing.MeleeTwoHanded.DoubleWeapon	
+Knife (Stump)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+Sword (Butterfly)	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.MeleeLight	
+Staff (Three Section)	TYPE:Exotic.Melee.Bludgeoning.TwoHanded.MeleeBludgeoning.MeleeTwoHanded	
+Tonfa	TYPE:Exotic.Melee.Bludgeoning.Light.MeleeBludgeoning.MeleeLight	
+Dagger (Triple)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+War Fan	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.MeleeLight	
+Gauntlet (Ward Cestus)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+Whip Dagger	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.MeleeLight.Reach	
+Bolas (Two Ball)	TYPE:Exotic.Ranged.Bludgeoning.Light.RangedBludgeoning.RangedLight.Thrown	
+Calculus (Gnome)	TYPE:Exotic.Ranged.Bludgeoning.Light.RangedBludgeoning.RangedLight	
+Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.TwoHanded.RangedPiercing.RangedTwoHanded	
+Bow (Double/Elven)	TYPE:Exotic.Martial.Ranged.Piercing.TwoHanded.RangedPiercing.RangedTwoHanded	
+Fukimi Bari	TYPE:Exotic.Ranged.Piercing.Light.RangedPiercing.RangedLight	
+Gauntlet (Spring Loaded)	TYPE:Exotic.Melee.Ranged.Piercing.OneHanded.MeleePiercing.RangedPiercing.MeleeOneHanded.RangedOneHanded	
+Harpoon	TYPE:Exotic.Ranged.Piercing.TwoHanded.RangedPiercing.RangedTwoHanded	
+Javelin (Spinning)	TYPE:Exotic.Ranged.Piercing.OneHanded.RangedPiercing.RangedOneHanded.Thrown	
+Shotput (Orc)	TYPE:Exotic.Melee.Bludgeoning.OneHanded.MeleeBludgeoning.MeleeOneHanded	
+Skiprock	TYPE:Exotic.Ranged.Bludgeoning.Light.RangedBludgeoning.RangedLight	
+Throwing Iron	TYPE:Exotic.Ranged.Slashing.Light.RangedSlashing.RangedLight.Thrown	
+#
+Bladed Crossbow	TYPE:Exotic.Melee.Slashing.OneHanded.MeleeSlashing.MeleeOneHanded

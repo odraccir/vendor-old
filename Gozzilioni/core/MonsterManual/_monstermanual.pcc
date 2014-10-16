@@ -25,7 +25,6 @@ EQUIPMENT:mm_equip_wondrous.lst
 KIT:mm_kits.lst
 LANGUAGE:mm_languages.lst
 RACE:mm_races.lst
-SKILL:mm_skills.lst
 TEMPLATE:mm_templates.lst
 TEMPLATE:mm_templates_hidden.lst
 WEAPONPROF:mm_profs_weapon.lst

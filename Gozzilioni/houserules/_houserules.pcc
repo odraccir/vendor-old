@@ -15,10 +15,12 @@ SOURCEDATE:2003-07
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Rsrd
-ABILITYCATEGORY:h_abilitycategories.lst
 ABILITY:h_abilities_dragons.lst
 ABILITY:h_abilities_mounts.lst
+ABILITYCATEGORY:h_abilitycategories.lst
 CLASS:h_classes_monster.lst
+EQUIPMENT:h_equip.lst
+EQUIPMOD:h_equipmods.lst
 KIT:h_kits.lst
 RACE:h_races.lst
 TEMPLATE:h_templates.lst

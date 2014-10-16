@@ -1,19 +1,27 @@
 SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 # Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
-Disguise.MOD		SITUATION:Polymorph Self
+Appraise.MOD	SITUATION:By weight
+Bluff.MOD		SITUATION:Feint
 Climb.MOD		SITUATION:Forested area
-Hide.MOD		SITUATION:Smoky area
-Hide.MOD		SITUATION:Foggy area
-Hide.MOD		SITUATION:Wooded area
+Disguise.MOD			SITUATION:Impersonating a Human
+Disguise.MOD		SITUATION:Polymorph Self
 Hide.MOD		SITUATION:Desert area
+Hide.MOD		SITUATION:Foggy area
 Hide.MOD		SITUATION:Motionless in window frame
+Hide.MOD		SITUATION:Smoky area
 Hide.MOD		SITUATION:Subterran area
 Hide.MOD		SITUATION:Tall grass area
 Hide.MOD		SITUATION:Water area
+Hide.MOD		SITUATION:Wooded area
+Knowledge (Dungeoneering).MOD		SITUATION:Navigate underground
 Move Silently.MOD		SITUATION:Forested area
 Spot.MOD		SITUATION:Daylight
 Spot.MOD		SITUATION:Forested area
 Survival.MOD		SITUATION:Follow designated foe
 Survival.MOD		SITUATION:Follow designated foe/inside maze
+Survival.MOD		SITUATION:Navigate in darkness
+Survival.MOD		SITUATION:Orientation
+Survival.MOD		SITUATION:Start or maintain fires
 Survival.MOD		SITUATION:Track by scent
+Swim.MOD			SITUATION:Perform some special action or avoid hazard

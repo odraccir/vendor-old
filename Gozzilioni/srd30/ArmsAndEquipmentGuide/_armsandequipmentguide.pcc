@@ -1,40 +1,34 @@
-CAMPAIGN:Gozzilioni Campaing Full Set
-PRECAMPAIGN:1,BOOKTYPE=Core Rules,3.5 RSRD
+CAMPAIGN:Gozzilioni Arms and Equipment Guide
 GAMEMODE:35e
-RANK:1
-TYPE:Gozzilioni.Complete
+RANK:6
+TYPE:Gozzilioni.Partial.Accessory
 SETTING:Heroes
-BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Campaing Full Set
-SOURCESHORT:G
+SOURCELONG:Gozzilioni Arms and Equipment Guide
+SOURCESHORT:AaEG
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2007-01
+SOURCEDATE:2003-03
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
-PUBNAMELONG:Gozzilioni
-PUBNAMESHORT:Gozzilioni
-PUBNAMEWEB:http://www.gozzilioni.net
 
-PCC:&/Gozzilioni/srd35mod/basics/_basicmod.pcc
-PCC:&/Gozzilioni/srd35mod/monsters/_monstermod.pcc
-PCC:&/Gozzilioni/srd30/Srd/_srd30.pcc
-PCC:&/Gozzilioni/srd30/MasterOfTheWild/_masterofthewild.pcc
-PCC:&/Gozzilioni/srd30/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
-PCC:&/Gozzilioni/houserules/_houserules.pcc
-#Core
-PCC:&/Gozzilioni/core/DungeonMasterSGuide/_dungeonsmastersguide.pcc
-PCC:&/Gozzilioni/core/PlayerSHandbook/_playershandbook.pcc
-PCC:&/Gozzilioni/core/MonsterManual/_monstermanual.pcc
-PCC:&/Gozzilioni/core/MonsterManual2/_monstermanual2.pcc
-PCC:&/Gozzilioni/core/EpicLevelHandbook/_epiclevelhandbook.pcc
-#Accessory
-PCC:&/Gozzilioni/accessory/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
-#Third Party
-PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/_darknessdread.pcc
-#Web
-PCC:&/Gozzilioni/web/spelljammer/_spelljammer.pcc
-PCC:&/Gozzilioni/web/ruleofcool/_ruleofcool.pcc
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
 #
+#PCC:@/d20ogl/srd35/rsrd.pcc
+#
+#Arms and Equipment Guide
+ABILITY:aaeg_abilities.lst
+ABILITY:aaeg_abilities_class.lst
+ABILITY:aaeg_abilities_races.lst
+ABILITYCATEGORY:aaeg_abilitycategories.lst
+EQUIPMENT:aaeg_equip.lst
+EQUIPMENT:aaeg_equip_arms_and_armor.lst
+EQUIPMENT:aaeg_equip_magic_items.lst
+EQUIPMOD:aaeg_equipmods.lst
+FEAT:aaeg_feats.lst
+ARMORPROF:aaeg_profs_armor.lst
+SHIELDPROF:aaeg_profs_shield.lst
+WEAPONPROF:aaeg_profs_weapon.lst
+RACE:aaeg_races.lst
+SKILL:aaeg_skills.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

@@ -1,0 +1,37 @@
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#						
+Pouch (Leather)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:1	WT:0.5	SOURCEPAGE:H	CONTAINS:UNLIM|Any	EQMOD:LEATHER
+Scabbard (Light)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER
+Scabbard (OneHanded)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:2	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER
+Scabbard (TwoHanded)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:4	WT:2	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER
+Scabbard (Oversize)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:8	WT:2	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER
+Sheat (Dagger)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:0.6	WT:0.5	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER
+
+###
+Jar (2oz)	TYPE:Goods.Container.General.Jar	COST:0.03	WT:0	SOURCEPAGE:H	CONTAINS:0.1|Total=0.1|Liquid=0.1|Powder=0.1|Jar=0.1
+Jar (4oz)	TYPE:Goods.Container.General.Jar	COST:0.04	WT:0	SOURCEPAGE:H	CONTAINS:0.2|Total=0.2|Liquid=0.2|Powder=0.2|Jar=0.2
+Jar (6oz)	TYPE:Goods.Container.General.Jar	COST:0.05	WT:0	SOURCEPAGE:H	CONTAINS:0.3|Total=0.3|Liquid=0.3|Powder=0.3|Jar=0.3
+Jar (8oz)	TYPE:Goods.Container.General.Jar	COST:0.06	WT:0.5	SOURCEPAGE:H	CONTAINS:0.4|Total=0.4|Liquid=0.4|Powder=0.4|Jar=0.4
+Jar (10oz)	TYPE:Goods.Container.General.Jar	COST:0.07	WT:0.5	SOURCEPAGE:H	CONTAINS:0.5|Total=0.5|Liquid=0.5|Powder=0.5|Jar=0.5
+Jar (1 lb)	TYPE:Goods.Container.General.Jar	COST:0.1	WT:0.5	SOURCEPAGE:H	CONTAINS:1|Total=1|Liquid=1|Powder=1|Jar=1
+Jar (2 lb)	TYPE:Goods.Container.General.Jar	COST:0.2	WT:1	SOURCEPAGE:H	CONTAINS:2|Total=2|Liquid=2|Powder=2|Jar=2
+Jar (3 lb)	TYPE:Goods.Container.General.Jar	COST:0.5	WT:2	SOURCEPAGE:H	CONTAINS:3|Total=3|Liquid=3|Powder=3|Jar=3
+Jar (1 gallon)	TYPE:Goods.Container.General.Jar	COST:1	WT:3	SOURCEPAGE:H	CONTAINS:6|Total=6|Liquid=6|Powder=6|Jar=6
+
+
+Ladle (Iron)	TYPE:Goods.General	COST:0.01	WT:0	SOURCEPAGE:H
+Skewer	TYPE:Goods.General	COST:0.01	WT:0	SOURCEPAGE:H
+Cutting Board (Woodden)	TYPE:Goods.General	COST:0.01	WT:0	SOURCEPAGE:H
+Cutting Knife	TYPE:Goods.General	COST:0.01	WT:0	SOURCEPAGE:H
+Tripod (Iron)	TYPE:Goods.General	COST:0.1	WT:0	SOURCEPAGE:H
+Pole (Fishing)	TYPE:Goods.General	COST:0.1	WT:1	SOURCEPAGE:H
+Box (Fishing)	TYPE:Goods.Container.General	COST:0.1	WT:0.5	SOURCEPAGE:H	SPROP:Contains Lines, Sinkers, Floats and Lures.	CONTAINS:UNLIM|Any
+Stake (Wood)	TYPE:Goods.General	COST:0.01	WT:0.3	SOURCEPAGE:H
+Necklace (Garlic)	TYPE:Goods.Food	COST:0.1	WT:0.5	SOURCEPAGE:H
+
+Brandy (Common/Bottle)	TYPE:Goods.Food.Consumable	COST:10	WT:0.5	SOURCEPAGE:H
+Bottle (Glass/Brandy)	TYPE:Goods.Container.General.Resizable	COST:2	WT:0	SOURCEPAGE:H	CONTAINS:0.5|Liquid=1
+
+Blanket (Saddle)	TYPE:Goods.General.Resizable.Mount	COST:0.5	WT:3	SOURCEPAGE:H
+
+Garlic (Per Lb.)	TYPE:Goods.Trade	COST:0.01	WT:1	SOURCEPAGE:H

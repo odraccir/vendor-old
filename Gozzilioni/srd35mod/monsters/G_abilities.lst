@@ -8,6 +8,8 @@ CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|0	BONUS:VAR|DefaultDCWis|10+(H
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|0	BONUS:VAR|DefaultDCStr|10+(HD/2)+STR|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:RendBonusDamage|0	BONUS:VAR|RenBonusDamage|STR*3/2|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:SmiteGood|0	DEFINE:SmiteGoodDamage|0																																		
+CATEGORY=Internal|Default.MOD	DEFINE:SmiteEvil|0	DEFINE:SmiteEvilDamage|0																																		
 																																				
 Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange																											
 See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange																											
@@ -78,6 +80,16 @@ Resistance To Ability Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.
 Immunity To Ability Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Ability Drain-based effects damage				ASPECT:Immunity|Ability Drain																									SOURCEPAGE:MM2
 Vulnerability To Ability Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Ability Drain-based effects.																												SOURCEPAGE:MM				
 
+Resistance To Fear	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:FearResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Fear Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Fear,Vulnerability To Fear													SOURCEPAGE:MM				
+Resistance To Fear Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Fear	DESC:You get a +%1 bonus on Fort saving throws against Fear.|FearResistanceBonus	ASPECT:Resistance|Fear	ASPECT:Ability Benefit|%1|FearResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Fear				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are immune to Fear effects				ASPECT:Immunity|Fear																									SOURCEPAGE:MM
+Vulnerability To Fear	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Fear.																												SOURCEPAGE:MM				
+																																				
+Resistance To Domination	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DominationResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Domination Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Domination,Vulnerability To Domination													SOURCEPAGE:MM2				
+Resistance To Domination Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Domination	DESC:You get a +%1 bonus on saving throws against Domination-based effects.|DominationResistanceBonus	ASPECT:Resistance|Domination	ASPECT:Ability Benefit|%1|DominationResistanceBonus																									SOURCEPAGE:MM2				
+Immunity To Domination	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Domination-based effects damage				ASPECT:Immunity|Domination																									SOURCEPAGE:MM2
+Vulnerability To Domination	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Domination-based effects.																												SOURCEPAGE:MM				
+
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
@@ -124,6 +136,7 @@ Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES													
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Feeblemind Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Fin Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:AaEG
 Fists	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Flurry of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -166,10 +179,10 @@ Stench	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																				
 Stomp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Swallow Whole	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Tail Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Telekinesis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Thud	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:AaEG
 Trample	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Web of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC

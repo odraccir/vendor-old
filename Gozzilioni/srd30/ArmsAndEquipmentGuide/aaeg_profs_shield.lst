@@ -1,0 +1,8 @@
+SOURCELONG:Arms and Equiment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net																			
+
+#Armor Groupings used to facilitate homebrews:
+#Buckler
+Buckler (Beetle)	TYPE:Shield.Buckler
+
+#Light
+Shield (Stiletto)	TYPE:Shield.Light

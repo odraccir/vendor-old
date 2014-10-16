@@ -1,0 +1,51 @@
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03
+														
+# Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property	
+###Block: Magical Augmentations														
+Bridle (Burden-Bearing +2)		TYPE:Magic.Wondrous.Mount.Collar.Animal	COST:4000	WT:0	SOURCEPAGE:AaEG	SPROP:Increase STR score of the harnessed creature, enabling it to pull heavier loads.								
+Bridle (Burden-Bearing +4)		TYPE:Magic.Wondrous.Mount.Collar.Animal	COST:16000	WT:0	SOURCEPAGE:AaEG	SPROP:Increase STR score of the harnessed creature, enabling it to pull heavier loads.								
+Bridle (Burden-Bearing +6)		TYPE:Magic.Wondrous.Mount.Collar.Animal	COST:36000	WT:0	SOURCEPAGE:AaEG	SPROP:Increase STR score of the harnessed creature, enabling it to pull heavier loads.								
+Captain's Table		TYPE:Magic.Wondrous	COST:72000	WT:16	SOURCEPAGE:AaEG	SPROP:duplicates the effects of heroes' feast for up to twelve crew members.								
+Catapult Stone (Becalming)		TYPE:Magic.Wondrous	COST:2500	WT:16	SOURCEPAGE:AaEG	SPROP:Eliminate the trace of a breeze within 400-ft-radius.								
+Charts of Certainty		TYPE:Magic.Wondrous.Paper	COST:47520	WT:1	SOURCEPAGE:AaEG									
+Cloud Keel		TYPE:Magic.Wondrous.Transportation	COST:200000	WT:1000	SOURCEPAGE:AaEG	SPROP:give Fly speed (40 ft, clumsy) to a vessel.								
+Earth Keel		TYPE:Magic.Wondrous.Transportation	COST:150000	WT:1000	SOURCEPAGE:AaEG	SPROP:enables a water vessel to move across the land as if it were on water.								
+Eldritch Exhaust (Fog Cloud)		TYPE:Magic.Wondrous.Transportation	COST:2160	WT:10	SOURCEPAGE:AaEG	SPROP:1/day expels a mass of vapor from its rear.								
+Eldritch Exhaust (Cloudkill)		TYPE:Magic.Wondrous.Transportation	COST:16200	WT:10	SOURCEPAGE:AaEG	SPROP:1/day expels a mass of vapor from its rear.								
+Eldritch Exhaust (Acid Fog)		TYPE:Magic.Wondrous.Transportation	COST:23760	WT:10	SOURCEPAGE:AaEG	SPROP:1/day expels a mass of vapor from its rear.								
+Fharlanghn's Lines		TYPE:Magic.Wondrous.Transportation	COST:8100	WT:5	SOURCEPAGE:AaEG	SPROP:Reduce required crew needed by the vessel by 5.								
+Lightning Turbine		TYPE:Magic.Wondrous.Transportation	COST:90000	WT:300	SOURCEPAGE:AaEG	SPROP:During storms, can double the vehicle's speed or give speed of 90 feet, whichever is greater.								
+Nondimensional Trunk		TYPE:Magic.Wondrous.Transportation.Container	COST:30000	WT:200	SOURCEPAGE:AaEG	SPROP:Up to two tons of cargo can fit in the nondimensional trunk, which weight no more than 200 pounds.	CONTAINS:*4000|Any							
+Planar Sails		TYPE:Magic.Wondrous.Transportation	COST:72000	WT:600	SOURCEPAGE:AaEG	SPROP:Enable a vehicle to sails to another plane (5 minutes and a successful Knowledge (The Planes) check DC 20)								
+Self Propelled		TYPE:Magic.Wondrous.Transportation	COST:132000	WT:0	SOURCEPAGE:AaEG	SPROP:Any vehicle Large size or less gain speed 60 feet.								
+Skyrider's Platform		TYPE:Magic.Wondrous.Transportation	COST:56000	WT:20	SOURCEPAGE:AaEG	SPROP:This plate for a single or double chariot enables ir to be pulled by flying creatures.								
+Smuggler's Hold		TYPE:Magic.Wondrous.Transportation.Container	COST:90000	WT:200	SOURCEPAGE:AaEG	SPROP:Up to two tons of cargo can fit in the nondimensional trunk, which weight no more than 200 pounds. the lid and latch of the trunk are magically hidden until a command word reveals them for 1 round.	CONTAINS:*4000|Any							
+Speedy Wheels		TYPE:Magic.Wondrous.Transportation	COST:100	WT:20	SOURCEPAGE:AaEG	SPROP:This pair of wheels increase the speed of one wheeled vehicle by 10 feet.								
+Summoner's Bridle (Mount)		TYPE:Magic.Wondrous.Mount	COST:2160	WT:0	SOURCEPAGE:AaEG	SPROP:1/day Summon a light horse, like Mount spell.								
+Summoner's Bridle (Phantom Steed)		TYPE:Magic.Wondrous.Mount	COST:12960	WT:0	SOURCEPAGE:AaEG	SPROP:1/day Summon a steed, like Phantom Steed spell.								
+Veil of Obscurity		TYPE:Magic.Wondrous.Transportation	COST:25000	WT:0	SOURCEPAGE:AaEG	SPROP:Disguises a vehicle from curious eyes, making the vehicle appear to be part of the surrounding terrain.								
+Wind-Favored Sails (Lesser)		TYPE:Magic.Wondrous.Transportation	COST:40500	WT:600	SOURCEPAGE:AaEG	SPROP:Raising these sails ensure the wind speed is always heavy (21-30 mph, speed multiplier x3)								
+Wind-Favored Sails (Greater)		TYPE:Magic.Wondrous.Transportation	COST:67500	WT:600	SOURCEPAGE:AaEG	SPROP:Raising these sails ensure the wind speed is always heavy (21-30 mph, speed multiplier x3) and let the driver set the wind direction within 600-feet of the vehicle with a command word.								
+														
+###Block: Wondrous Items														
+Amulet of Ooze Riding		TYPE:Magic.Wondrous.Amulet	COST:28000	WT:0	SOURCEPAGE:AaEG, p. 85	SPROP:An energy sphere protect the wearer and prevent from direct attacks by the oozes								
+Bracelets of Friends (Mount)		TYPE:Magic.Wondrous.Bracer.Mount	COST:19000	WT:0	SOURCEPAGE:AaEG		EQMOD:CHARGED_ITEM_4|CHARGES[4]	SLOTS:2						
+Bridle (Clever/3 tricks)	OUTPUTNAME:Clever Bridle (3 tricks)	TYPE:Magic.Wondrous.Mount	COST:1000	WT:1	SOURCEPAGE:AaEG		BONUS:ABILITYPOOL|Animal Trick|3							
+Bridle (Clever/6 tricks)	OUTPUTNAME:Clever Bridle (6 tricks)	TYPE:Magic.Wondrous.Mount	COST:4000	WT:1	SOURCEPAGE:AaEG		BONUS:ABILITYPOOL|Animal Trick|6							
+Bridle (Clever/9 tricks)	OUTPUTNAME:Clever Bridle (9 tricks)	TYPE:Magic.Wondrous.Mount	COST:9000	WT:1	SOURCEPAGE:AaEG		BONUS:ABILITYPOOL|Animal Trick|9							
+Bridle of Ease		TYPE:Magic.Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG	SPROP:+5 competence bonus to Handle Animal checks of the trainer when training a mount.								
+Bridle of Ease (Exotic)		TYPE:Magic.Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG	SPROP:+5 competence bonus to Handle Animal checks of the trainer when training an exotic mount.								
+Collar of Material Entrapment		TYPE:Magic.Wondrous.Mount.Collar.Animal	COST:30000	WT:1	SOURCEPAGE:AaEG, 74	SPROP:Barred from extradimensional voyage								
+Horseshoes of Thunder		TYPE:Magic.Wondrous.Mount.Boot	COST:10080	WT:1	SOURCEPAGE:AaEG	SPROP:20'ft radius Shout (5/day)	SLOTS:2							
+Saddle (Equestrian's)	OUTPUTNAME:[NAME] Saddle	TYPE:Magic.Wondrous.Mount.Saddle.Military	COST:2000	WT:30	SOURCEPAGE:AaEG	SPROP:+10 circumstance bonus to Ride checks of the rider.								
+Saddle (Horseless)	OUTPUTNAME:[NAME] Saddle	TYPE:Magic.Wondrous.Mount.Saddle	COST:43200	WT:25	SOURCEPAGE:AaEG	SPROP:Phantom Steed.								
+Saddlebags of Holding		TYPE:Magic.Wondrous.Mount.Saddle.Container	COST:5000	WT:30	SOURCEPAGE:AaEG		CONTAINS:*250							
+Saddlebags of Providing		TYPE:Magic.Wondrous.Mount.Saddle.Container	COST:8000	WT:16	SOURCEPAGE:AaEG		CONTAINS:*83							
+Shielding Blinders		TYPE:Magic.Wondrous.Mount.Eyegear	COST:12000	WT:2	SOURCEPAGE:AaEG		ABILITY:Special Ability|VIRTUAL|Immunity To Gaze							
+Shrink Collar		TYPE:Magic.Wondrous.Mount.Amulet	COST:10000	WT:1	SOURCEPAGE:AaEG	SPROP:reduce the creature to Small size.	BONUS:SIZEMOD|NUMBER|-1|PRESIZEEQ:M	BONUS:SIZEMOD|NUMBER|-2|PRESIZEEQ:L	BONUS:SIZEMOD|NUMBER|-3|PRESIZEEQ:H	BONUS:SIZEMOD|NUMBER|-4|PRESIZEEQ:G	BONUS:SIZEMOD|NUMBER|-5|PRESIZEEQ:C			
+Whip of Obeyance		TYPE:Magic.Wondrous.Weapon.Melee.Exotic.Reach.Finesseable.Subdual.Slashing	COST:2000	WT:2	SOURCEPAGE:AaEG	PROFICIENCY:WEAPON|Whip	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	BONUS:SKILL|Handle Animal|10|TYPE=Circumstance	EQMOD:LEATHER.MWORKW	WIELD:OneHanded	REACH:15	SIZE:M
+Emerald Caltrop	TYPE:Magic.Wondrous	COST:166	WT:2	SOURCEPAGE:AaEG, p. 106	SPROP:+1 To hit (Any creature struck by the caltrops takes an additional +1 point of damage and 1d6 points of acid damage).
+
+###Block: Potion														
+Potion (Queen Pheromon Admixture)	OUTPUTNAME:Potion of [NAME]	TYPE:Magic.Potion	COST:300	WT:0	SOURCEPAGE:AaEG, 90	SPROP:The drinker exudes queen ant pheromones.								
+

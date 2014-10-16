@@ -2,4 +2,5 @@ SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.goz
 																																
 ###Block: 
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-Player's Handbook Choices	CATEGORY:Internal	TYPE:SpecialMountSelection.SpecialMountAlternate	KEY:Player's Handbook Choices ~ Special Mount																COMPANIONLIST:Special Mount|RACETYPE=Animal												SOURCEPAGE:PHB	COST:0
+Player's Handbook Choices	CATEGORY:Internal	TYPE:SpecialMountSelection.SpecialMountAlternate	VISIBLE:YES		KEY:Player's Handbook Choices ~ Special Mount																COMPANIONLIST:Special Mount|RACETYPE=Animal												SOURCEPAGE:PHB	COST:0
+#
