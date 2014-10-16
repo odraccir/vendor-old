@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Pathfinder PRD	SOURCESHORT:PRD	SOURCEWEB:http://paizo.com/pathfinderRPG/prd/	SOURCEDATE:2013-01
+#						
+Grappling Arrow	TYPE:Ammunition.SpecificArrow.Individual	COST:1	WT:0.5	SOURCEPAGE:PRD	SPROP:This small grappling hook is designed to be tied to a silk rope and fired from a bow. When fired, it has a range increment of 30 feet.	EQMOD:STEEL.WOOD
+Grappling Bolt	TYPE:Ammunition.SpecificBolt.Individual	COST:1	WT:0.5	SOURCEPAGE:PRD	SPROP:This small grappling hook is designed to be tied to a silk rope and fired from a crossbow. When fired, it has a range increment of 30 feet.	EQMOD:STEEL.WOOD
+
+Earth Breaker		PROFICIENCY:WEAPON|Earth Breaker	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Hammer	COST:40	WT:14	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:PRD										

@@ -1,0 +1,433 @@
+SOURCELONG:Gozzilioni Pathfinder PRD	SOURCESHORT:PRD	SOURCEWEB:http://paizo.com/pathfinderRPG/prd/	SOURCEDATE:2013-01
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+STARTPACK:Alchemist's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Alchemy Crafting Kit
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Inkpen
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Barbarian's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Pouch (Belt)
+GEAR:Blanket (Winter)
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Bard's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Inkpen
+GEAR:Ink (1 Oz. Vial)
+GEAR:Pot (Iron)
+GEAR:Journal
+GEAR:Mess Kit
+GEAR:Mirror (Small/Steel)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Campfire's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Bedroll	QTY:4
+GEAR:Blanket (Winter)	QTY:4
+GEAR:Firewood (Per Day)
+GEAR:Flint and Steel
+GEAR:Tindertwig
+GEAR:Mess Kit	QTY:4
+GEAR:Cooking Kit
+GEAR:Rations (Trail/Per Day)	QTY:8
+
+STARTPACK:Cavalier's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Feed (Per Day)	QTY:5
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Bit and Bridle
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Saddle (Riding)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Saddlebags
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Chirurgeon's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Pouch (Leather)
+GEAR:Healer's Kit
+GEAR:Bottle (Glass/Brandy)
+GEAR:Potion (Cure Light Wounds)
+GEAR:Vial
+GEAR:Alchemist's Kindness	QTY:2
+GEAR:Antiplague (Vial)	QTY:2
+GEAR:Antitoxin (Vial)	QTY:2
+GEAR:Bloodblock (Vial)	QTY:2
+GEAR:Soothe Syrup (Vial)	QTY:2
+
+STARTPACK:Chronicler's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Case (Map or Scroll)
+GEAR:Ink (1 Oz. Vial)	QTY:2
+GEAR:Inkpen	QTY:2
+GEAR:Paper (Sheet)	QTY:10
+GEAR:Journal	QTY:2
+#GEAR:fine powder
+#GEAR:measuring cord
+
+STARTPACK:Cleric's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Candle	QTY:10
+GEAR:Holy Text (Cheap)
+GEAR:Flint and Steel
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Spell Component Pouch
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+GEAR:Holy Symbol (Wooden)
+
+STARTPACK:Cooking Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Pot (Iron)
+GEAR:Skillet (Common)
+GEAR:Ladle (Iron)
+GEAR:Skewer
+GEAR:Cutting Board (Woodden)
+GEAR:Cutting Knife
+GEAR:Tripod (Iron)
+
+STARTPACK:Dragonslayer's Kit (Fire)	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Potion (Cure Moderate Wounds)
+GEAR:Potion(Oil of Bless Weapon)
+GEAR:Longspear
+GEAR:Backpack
+GEAR:Sack	QTY:3
+GEAR:Sunrod
+GEAR:Shield (Tower/Wood)
+GEAR:Alchemist's Fire (Flask)	QTY:5
+
+STARTPACK:Dragonslayer's Kit (Acid)	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Potion (Cure Moderate Wounds)
+GEAR:Potion(Oil of Bless Weapon)
+GEAR:Longspear
+GEAR:Backpack
+GEAR:Sack	QTY:3
+GEAR:Sunrod
+GEAR:Shield (Tower/Wood)
+GEAR:Acid (Flask)	QTY:5
+
+STARTPACK:Druid's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Feed (Per Day)	QTY:5
+GEAR:Backpack
+GEAR:Pouch (Belt)
+GEAR:Blanket (Winter)
+GEAR:Flint and Steel
+GEAR:Holly and Mistletoe
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Soap (Per Lb.)
+GEAR:Spell Component Pouch
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Dungeoneering's Kit (Common)	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Candle	QTY:2
+GEAR:Chalk (1 piece)
+GEAR:Hammer
+GEAR:Piton	QTY:4
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Lantern (Hooded)
+GEAR:Oil (1 Pt. Flask)	QTY:5
+GEAR:Sack	QTY:2
+GEAR:Torch	QTY:2
+GEAR:Tindertwig	QTY:4
+
+STARTPACK:Dungeoneering's Kit (Deluxe)	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Candle	QTY:2
+GEAR:Chalk (1 piece)
+GEAR:Hammer
+GEAR:Piton	QTY:4
+GEAR:Rope (Silk/50 Ft.)
+GEAR:Sack	QTY:2
+GEAR:Sunrod	QTY:3
+GEAR:Tindertwig	QTY:4
+GEAR:Everburning Torch
+
+STARTPACK:Fighter's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Fishing's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Pole (Fishing)
+GEAR:Box (Fishing)
+GEAR:Fishhook
+
+STARTPACK:Gunslinger's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Gunsmith's Kit
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Powderhorn (Gunpowder)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Inquisitor's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Candle	QTY:10
+GEAR:Holy Text (Cheap)
+GEAR:Flint and Steel
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Manacles (Medium)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Spell Component Pouch
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+GEAR:Holy Symbol (Wooden)
+
+STARTPACK:Magus's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Inkpen
+GEAR:Ink (1 Oz. Vial)
+GEAR:Mess Kit
+GEAR:Pot (Iron)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Spell Component Pouch
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Monk's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Pouch (Belt)
+GEAR:Blanket (Winter)
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Oracle's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Torch	QTY:10
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Paladin's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Holy Text (Cheap)
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+GEAR:Holy Symbol (Wooden)
+
+STARTPACK:Pathfinder's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Mug (Clay)
+GEAR:Dagger
+GEAR:Fishhook	QTY:2
+GEAR:Flint and Steel
+GEAR:Sewing Needle
+GEAR:Signal Whistle
+GEAR:String (50 Ft.)
+GEAR:Thread (50 Ft.)
+GEAR:Waterskin
+GEAR:Rations (Trail/Per Day)	QTY:7
+GEAR:Whetstone
+
+STARTPACK:Ranger's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Riding Kit (Common)	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Bit and Bridle
+GEAR:Saddle (Riding)
+GEAR:Blanket (Saddle)
+GEAR:Saddlebags	QTY:2
+GEAR:Feed (Per Day)	QTY:2
+
+STARTPACK:Riding Kit (Exotic)	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Bit and Bridle
+GEAR:Saddle (Exotic Riding)
+GEAR:Blanket (Saddle)
+GEAR:Saddlebags	QTY:2
+GEAR:Feed (Per Day)	QTY:2
+
+STARTPACK:Rogue's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Caltrops
+GEAR:Chalk (1 piece)	QTY:10
+GEAR:Flint and Steel
+GEAR:Grappling Hook
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Mirror (Small/Steel)
+GEAR:Piton	QTY:10
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Soap (Per Lb.)
+GEAR:Thieves' Tools
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Sorcerer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Spelunking's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Lantern (Hooded)
+GEAR:Oil (1 Pt. Flask)	QTY:4
+GEAR:Hammer
+GEAR:Piton	QTY:8
+GEAR:Rope (Silk/50 Ft.)	QTY:2
+GEAR:Grappling Hook
+GEAR:Climber's Kit
+
+STARTPACK:Summoner's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Sorcerer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Soap (Per Lb.)
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Troll Slayer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Alchemist's Fire (Flask)
+GEAR:Acid (Flask)
+GEAR:Torch	QTY:10
+GEAR:Tindertwig
+GEAR:Oil (1 Pt. Flask)	QTY:5
+
+STARTPACK:Undead Slayer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Holy Symbol (Wooden)
+GEAR:Hammer
+GEAR:Stake (Wood)
+GEAR:Holy Water (Flask)	QTY:2
+GEAR:Sunrod
+GEAR:Potion (Lesser Restoration)
+GEAR:Potion (Protection from Evil)
+GEAR:Necklace (Garlic)
+
+STARTPACK:Witch's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Candle	QTY:10
+GEAR:Chalk (1 piece)	QTY:10
+GEAR:Flint and Steel
+GEAR:Inkpen
+GEAR:Ink (1 Oz. Vial)
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Soap (Per Lb.)
+GEAR:Spell Component Pouch
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin
+
+STARTPACK:Wizard's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Bedroll
+GEAR:Pouch (Belt)
+GEAR:Flint and Steel
+GEAR:Inkpen
+GEAR:Ink (1 Oz. Vial)
+GEAR:Pot (Iron)
+GEAR:Mess Kit
+GEAR:Soap (Per Lb.)
+GEAR:Spell Component Pouch
+GEAR:Torch	QTY:10
+GEAR:Rations (Trail/Per Day)	QTY:5
+GEAR:Waterskin

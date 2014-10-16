@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Pathfinder PRD	SOURCESHORT:PRD	SOURCEWEB:http://paizo.com/pathfinderRPG/prd/	SOURCEDATE:2013-01
+
+# Skill Name	Key Stat	Untrained?	Type	Source Page	Skill Penalty Apply	Visible	Bonus to skill	Choose	Bonus to skill rank	Modify VAR	Temporary effect description
+Profession (Fortune-teller)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Base.Profession (Fortune-teller)	SOURCEPAGE:PRD
+Profession (Gambler)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Base.Profession (Gambler)	SOURCEPAGE:PRD
+Profession (Medium)	KEYSTAT:WIS	USEUNTRAINED:NO	TYPE:Wisdom.Profession.Base.Profession (Medium)	SOURCEPAGE:PRD

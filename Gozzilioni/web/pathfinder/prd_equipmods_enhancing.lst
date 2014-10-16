@@ -1,0 +1,29 @@
+SOURCELONG:Gozzilioni Pathfinder PRD	SOURCESHORT:PRD	SOURCEWEB:http://paizo.com/pathfinderRPG/prd/	SOURCEDATE:2013-01
+
+###Block:Weapon/Armor abilities
+# Modifier Name				Unique Key		Type					Plus		Cost		Visible		Type granted	Keys to replace			Source Page					Multiple Requirements											Required Type							Prohibited Type	Spell Res.	Damage Reduction	Bonus to skill						Modify VAR						Bonus Equipment Modifiers	Bonus Weapon Modifiers							Special Property																			Ability								Virtual Feat		Choose																																																																																	Apply to both heads
+###TODO: Hollowed Pommel	CONTAINS:UNLIM|Total=1|Flask=1|Paper=1|Documents=1|Scroll=1
+Hollowed Pommel	KEY:HOLLOWED	TYPE:Weapon	COST:5	VISIBLE:QUALIFY	ITYPE:Hollowed.Container	SOURCEPAGE:PRD	PRETYPE:1,Weapon	SPROP:Hollwed Pommel.
+Sawback	KEY:SAWBACK	TYPE:Weapon	COST:5	VISIBLE:QUALIFY	ITYPE:Sawback	SOURCEPAGE:PRD	PRETYPE:1,Weapon	SPROP:This is a modification to any light or heavy blade rather than a unique weapon type. The saw blade on the back of the sword lets you use it to perform crude carpentry.
+###TODO: Comparment	CONTAINS:UNLIM|Total=1|Torch=1
+Shield Sconce	KEY:SHLD_SCONCE	TYPE:Shield	COST:1	BONUS:EQM|WEIGHTADD|0.5	VISIBLE:QUALIFY	ITYPE:Sconce.Container.LightSource	SOURCEPAGE:PRD	PREMULT:2,[PRETYPE:1,Shield],[PRETYPE:1,Light,Heavy,Tower]	SPROP:This metal frame holds a torch and is designed to be strapped to the front of a light, heavy, or tower shield, allowing you to carry a torch without giving up your shield or occupying your weapon hand.
+
+###TODO: Comparment	CONTAINS:UNLIM|Total=1|Vial=1|Potion=1|Poison=1
+Compartment	KEY:COMPART	TYPE:DivineFocus	COST:5	VISIBLE:QUALIFY	ITYPE:Container	SOURCEPAGE:PRD	PRETYPE:1,DivineFocus	SPROP:Designed and approved by a member of the appropriate religion, this modification to a holy symbol creates a secret compartment large enough to hold a potion vial. Detecting the compartment requires a DC 20 Perception check.
+###TODO: Comparment	CONTAINS:UNLIM|Total=1|Vial=1|Potion=1|Poison=1
+Flask	KEY:FLASK	TYPE:DivineFocus	COST:10	VISIBLE:QUALIFY	ITYPE:Container	SOURCEPAGE:PRD	PRETYPE:1,DivineFocus	SPROP:This version of a standard holy symbol is oversized and has a watertight compartment that can hold 1 pint (the same volume as a flask of holy water). Adventurers normally use the compartment to hold holy water or alcohol. A holy symbol flask is not meant for you to throw at enemies and is not fragile like a flask or vial. Like using holy water on incorporeal opponent, you unstopper the flask and pour the contents onto an adjacent target. Detecting the compartment requires a successful DC 10 Perception check.	
+
+###TODO: Comparment	CONTAINS:UNLIM|Total=1|Poison=1
+Poison Pill	KEY:PSN_PILL	TYPE:Ring	COST:20	VISIBLE:QUALIFY	SOURCEPAGE:PRD	PRETYPE:1,Ring	SPROP:This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a move action; doing so unseen requires a DC 20 Sleight of Hand check.
+
+Poisoning Sheath	KEY:PSN_SHEAT	TYPE:Scabbard	COST:50	VISIBLE:QUALIFY	SOURCEPAGE:PRD	PRETYPE:1,Scabbard	SPROP:This scabbard contains strips of natural sea sponges on its interior. By carefully pouring a dose of poison into the empty scabbard (a full-round action), you saturate the sponges with the toxin, which keeps it viable and wet for up to 4 hours. Preparing the scabbard carries the normal risk of poisoning yourself, just like poisoning a weapon. The next weapon you draw from the scabbard is automatically poisoned as if you had directly applied poison to it (but does not risk poisoning you); this consumes the poison in the scabbard. A scabbard only fits one type of bladed weapon, such as a dagger, shortsword, or longsword. This kind of item is usually illegal in areas that outlaw poison.	
+Waterproof	KEY:WATERPROOF	TYPE:Lantern	ITYPE:Waterproof	COST:5	VISIBLE:QUALIFY	SOURCEPAGE:PRD	PRETYPE:1,Lantern	SPROP:Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark.
+
+
+#Tattoo
+Tattoo (Coin-Sized)	KEY:TATTOO_SZ_C	TYPE:Tattoo	COST:0.01	VISIBLE:QUALIFY	ITYPE:TATTOO_SZ.TATTOO_SZ_C	SOURCEPAGE:PRD	PRETYPE:1,Tattoo	SPROP:Coin-Size
+Tattoo (Hand-Sized)	KEY:TATTOO_SZ_H	TYPE:Tattoo	COST:0.1	VISIBLE:QUALIFY	ITYPE:TATTOO_SZ.TATTOO_SZ_H	REPLACES:TATTOO_SZ_C	SOURCEPAGE:PRD	PRETYPE:1,Tattoo	SPROP:Hand-Size
+Tattoo (Back-Sized)	KEY:TATTOO_SZ_B	TYPE:Tattoo	COST:10	VISIBLE:QUALIFY	ITYPE:TATTOO_SZ.TATTOO_SZ_B	REPLACES:TATTOO_SZ_C,TATTOO_SZ_H	SOURCEPAGE:PRD	PRETYPE:1,Tattoo	SPROP:Back-Size
+Tattoo (1 color)	KEY:TATTOO_CL_C	TYPE:Tattoo	COST:0.01	VISIBLE:QUALIFY	ITYPE:TATTOO_CL.TATTOO_CL_C	SOURCEPAGE:PRD	PRETYPE:1,Tattoo.TATTOO_SZ_C
+Tattoo (1 color)	KEY:TATTOO_CL_H	TYPE:Tattoo	COST:0.1	VISIBLE:QUALIFY	ITYPE:TATTOO_CL.TATTOO_CL_H	REPLACES:TATTOO_CL_C	SOURCEPAGE:PRD	PRETYPE:1,Tattoo.TATTOO_SZ_H
+Tattoo (1 color)	KEY:TATTOO_CL_B	TYPE:Tattoo	COST:10	VISIBLE:QUALIFY	ITYPE:TATTOO_CL.TATTOO_CL_B	REPLACES:TATTOO_SZ_C,TATTOO_CL_H	SOURCEPAGE:PRD	PRETYPE:1,Tattoo.TATTOO_SZ_B

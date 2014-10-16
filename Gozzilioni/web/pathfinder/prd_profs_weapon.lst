@@ -1,0 +1,12 @@
+SOURCELONG:Gozzilioni Pathfinder PRD	SOURCESHORT:PRD	SOURCEWEB:http://paizo.com/pathfinderRPG/prd/	SOURCEDATE:2013-01
+						
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+						
+# -- 2-handers						
+Earth Breaker	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Hammer
