@@ -12,6 +12,7 @@ SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http:/
 Battlepick (Gnome)	TYPE:Martial.Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded	
 Gauntlet (Bladed)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
 Bracers (Claw)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
+Bracers (Claw/Tiger)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.MeleeLight	
 Chain and Dagger	TYPE:Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded.Reach	
 Chakram	TYPE:Exotic.Ranged.Slashing.Light.RangedSlashing.RangedLight	
 Duom	TYPE:Exotic.Melee.Piercing.TwoHanded.MeleePiercing.MeleeTwoHanded.Reach	
@@ -48,3 +49,4 @@ Skiprock	TYPE:Exotic.Ranged.Bludgeoning.Light.RangedBludgeoning.RangedLight
 Throwing Iron	TYPE:Exotic.Ranged.Slashing.Light.RangedSlashing.RangedLight.Thrown	
 #
 Bladed Crossbow	TYPE:Exotic.Melee.Slashing.OneHanded.MeleeSlashing.MeleeOneHanded
+Halfspear	TYPE:Simple.Melee.Ranged.Piercing.OneHanded.MeleePiercing.MeleeOneHanded.RangedPiercing.RangedOneHanded.Thrown

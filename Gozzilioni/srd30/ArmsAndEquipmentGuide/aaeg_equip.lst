@@ -169,7 +169,7 @@ Crane Portable (str 22)		TYPE:Goods.General.Resizable	COST:30	WT:75		SOURCEPAGE:
 Crane Portable (str 24)		TYPE:Goods.General.Resizable	COST:60	WT:120		SOURCEPAGE:AaEG								
 Crane Portable (str 28)		TYPE:Goods.General.Resizable	COST:120	WT:3250		SOURCEPAGE:AaEG								
 Earplug		TYPE:Goods.General.Resizable	COST:0.3	WT:0		SOURCEPAGE:AaEG	SPROP:+1 circumstance on saves against sonic attacks		BONUS:SKILL|Listen|-4|TYPE=Circumstance					
-Finger Blades		TYPE:Goods.General.Resizable.Glove	COST:20	WT:0		SOURCEPAGE:AaEG		SLOTS:2	BONUS:SKILL|Pick Pocket|1|TYPE=Circumstance					
+Finger Blades		TYPE:Goods.General.Resizable.Glove	COST:20	WT:0		SOURCEPAGE:AaEG		SLOTS:2	BONUS:SKILL|Sleight of Hand|1|TYPE=Circumstance					
 Fishing Tackle		TYPE:Goods.General.Resizable	COST:20	WT:5		SOURCEPAGE:AaEG	SPROP:+1 circumstance on Survival check when gathering food around bodies of water that contains fish.							
 Flotation Bags		TYPE:Goods.General.Resizable	COST:5	WT:1		SOURCEPAGE:AaEG			BONUS:SKILL|Swim|2|TYPE=Circcumstance					
 Fowler's Snare		TYPE:Goods.General.Resizable	COST:20	WT:5		SOURCEPAGE:AaEG	SPROP:+1 circumstance on Survival check when capturing birds and other small animals							
@@ -183,7 +183,7 @@ Hammock		TYPE:Goods.General.Resizable	COST:5	WT:1		SOURCEPAGE:AaEG
 Heat Mat		TYPE:Goods.General.Resizable	COST:45	WT:0		SOURCEPAGE:AaEG								
 Helmet (Thieving)		TYPE:Goods.General.Resizable.Headgear	COST:10	WT:1		SOURCEPAGE:AaEG			BONUS:SKILL|Listen|1|TYPE=Circumstance					
 Holy Text		TYPE:Goods.Tools.Sacred	COST:10	WT:3		SOURCEPAGE:AaEG								
-Housebreaker Harness		TYPE:Goods.General.Resizable	COST:20	WT:2		SOURCEPAGE:AaEG			BONUS:SKILL|Climb|1|TYPE=Circumstance	BONUS:SKILL|Balance,Escape Artist,Hide,Jump,Pick Pocket,Tumble|-2|TYPE=Circumstance				
+Housebreaker Harness		TYPE:Goods.General.Resizable	COST:20	WT:2		SOURCEPAGE:AaEG			BONUS:SKILL|Climb|1|TYPE=Circumstance	BONUS:SKILL|Balance,Escape Artist,Hide,Jump,Sleight of Hand,Tumble|-2|TYPE=Circumstance				
 Ice Axe		TYPE:Goods.General.Resizable	COST:10	WT:5		SOURCEPAGE:AaEG	SPROP:+1 circumstance on Climb check when climbing icy surfaces							
 Insect Netting		TYPE:Goods.General.Resizable	COST:200	WT:5		SOURCEPAGE:AaEG								
 Jeweler's Loupe		TYPE:Goods.General.Resizable.Eyegear	COST:20	WT:0		SOURCEPAGE:AaEG			BONUS:SKILL|Appraise|1|TYPE=Circumstance					
@@ -410,64 +410,64 @@ Walnuts (Black)		TYPE:Goods.Food.Resizable	COST:100	WT:1	SOURCEPAGE:AaEG
 														
 ###Block:Poisons														
 Poison (Alforna)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 1d2 STR, Sec.: Fatigue. Craft DC 15.								
-Poison (Banelar Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 2d4 CON, Sec.: Unconscious. Craft DC 15.								
-Poison (Black Adder Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 12, Init. 0, Sec.: 1d6 STR. Craft DC 15.								
+Poison (Banelar essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 2d4 CON, Sec.: Unconscious. Craft DC 15.								
+Poison (Black adder venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 12, Init. 0, Sec.: 1d6 STR. Craft DC 15.								
 Poison (Bloodroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 12, Init. 0, Sec.: 1d4 CON + 1d3 WIS. Craft DC 15.								
-Poison (Blue Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init. 1 CON, Sec.: Unconscious. Craft DC 15.								
-Poison (Choldrith Toxin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 15, Init.:Paralysis, Sec.: 2d4 CON. Craft DC 20.								
+Poison (Blue whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init. 1 CON, Sec.: Unconscious. Craft DC 15.								
+Poison (Choldrith toxin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 15, Init.:Paralysis, Sec.: 2d4 CON. Craft DC 20.								
 Poison (Deathblade)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1800	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 20, Init.:1d6 CON, Sec.: 2d6 CON. Craft DC 25.								
-Poison (Fang Dragon Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 15, Init.: 1 CON perm, Sec.: 0. Craft DC 20.								
-Poison (Giant Wasp Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 18, Init.: 1d6 DEX, Sec.: 1d6 DEX. Craft DC 20.								
-Poison (Gray Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 20, Init.: 1d4 CON, Sec.: Paralysis. Craft DC 20.								
-Poison (Greenblood Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 13, Init.: 1 CON, Sec.: 1d2 CON. Craft DC 15.								
+Poison (Fang dragon venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 15, Init.: 1 CON perm, Sec.: 0. Craft DC 20.								
+Poison (Giant wasp poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 18, Init.: 1d6 DEX, Sec.: 1d6 DEX. Craft DC 20.								
+Poison (Gray whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 20, Init.: 1d4 CON, Sec.: Paralysis. Craft DC 20.								
+Poison (Greenblood oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 13, Init.: 1 CON, Sec.: 1d2 CON. Craft DC 15.								
 Poison (Haluroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:15	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 13, Init.: 1d2 WIS | 1d2 WIS. Craft DC 15.								
-Poison (Large Scorpion Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 18, Init.: 1d6 STR | 1d6 STR. Craft DC 20.								
-Poison (Medium-size Scorpion Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init.: 1d4 STR, Sec.: 1d6 STR. Craft DC 15.								
-Poison (Purple Worm Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:700	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 24, Init.: 1d6 STR, Sec.: 1d6 STR. Craft DC 20.								
-Poison (Redek Vine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 2d6 DEX, Sec.: 0. Craft DC 25.								
-Poison (Rill Leaf)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init.: 1d2 CHA, Sec.: 1d4 CHA. Craft DC 15.								
-Poison (Shadow Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 1 STR perm, Sec.: 2d6 STR. Craft DC 20.								
-Poison (Shreef Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 12, Init.: 1d2 STR 1d2 DEX, Sec.: 1d2 STR. Craft DC 15.								
-Poison (Small Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 1d2 DEX, Sec.: 1d2 DEX. Craft DC 15.								
-Poison (Vapid Leaf Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 16, Init.: Dazed (Euphoric), Sec.: 2d6 INT. Craft DC 20.								
-Poison (Wyvern Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 2d6 CON, Sec.: 2d6 CON. Craft DC 25.								
-Poison (Aboleth Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 19, Init.: 0, Sec.: Transform. Craft DC 30.								
+Poison (Large scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 18, Init.: 1d6 STR | 1d6 STR. Craft DC 20.								
+Poison (Medium-size scorpion venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init.: 1d4 STR, Sec.: 1d6 STR. Craft DC 15.								
+Poison (Purple worm poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:700	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 24, Init.: 1d6 STR, Sec.: 1d6 STR. Craft DC 20.								
+Poison (Redek vine extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 2d6 DEX, Sec.: 0. Craft DC 25.								
+Poison (Rill leaf)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init.: 1d2 CHA, Sec.: 1d4 CHA. Craft DC 15.								
+Poison (Shadow essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 1 STR perm, Sec.: 2d6 STR. Craft DC 20.								
+Poison (Shreef oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 12, Init.: 1d2 STR 1d2 DEX, Sec.: 1d2 STR. Craft DC 15.								
+Poison (Small centipede poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 1d2 DEX, Sec.: 1d2 DEX. Craft DC 15.								
+Poison (Vapid leaf extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 16, Init.: Dazed (Euphoric), Sec.: 2d6 INT. Craft DC 20.								
+Poison (Wyvern poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 2d6 CON, Sec.: 2d6 CON. Craft DC 25.								
+Poison (Aboleth oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 19, Init.: 0, Sec.: Transform. Craft DC 30.								
 Poison (Anemis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d4 STR, Sec.: 2d4 STR. Craft DC 20.								
-Poison (Black Lotus Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:4500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 20, Init.: 3d6 CON, Sec.: 3d6 CON. Craft DC 35.								
-Poison (Carrion Crawler Brain Juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Paralysis, Sec.: 0. Craft DC 15.								
-Poison (Crippling Vine)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:180	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: 1d4 STR 1d4 CON, Sec.: 0. Craft DC 15.								
-Poison (Dragon Bile)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 26, Init.: 3d6 STR, Sec.: 0. Craft DC 30.								
-Poison (Horror Weed Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:600	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 20, Init.: 1 WIS, Sec.: 2d4 WIS. Craft DC 25.								
-Poison (Malyss Root Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1 DEX, Sec.: 2d4 DEX. Craft DC 20.								
-Poison (Mesmer Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: Dazzled, Sec.: 1d4 INT. Craft DC 20.								
+Poison (Black lotus extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:4500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 20, Init.: 3d6 CON, Sec.: 3d6 CON. Craft DC 35.								
+Poison (Carrion vrawler brain juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Paralysis, Sec.: 0. Craft DC 15.								
+Poison (Crippling vine)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:180	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: 1d4 STR 1d4 CON, Sec.: 0. Craft DC 15.								
+Poison (Dragon bile)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 26, Init.: 3d6 STR, Sec.: 0. Craft DC 30.								
+Poison (Horror weed extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:600	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 20, Init.: 1 WIS, Sec.: 2d4 WIS. Craft DC 25.								
+Poison (Malyss root paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1 DEX, Sec.: 2d4 DEX. Craft DC 20.								
+Poison (Mesmer paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: Dazzled, Sec.: 1d4 INT. Craft DC 20.								
 Poison (Nitharit)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:650	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: 0, Sec.: 3d6 CON. Craft DC 20.								
-Poison (Sassone Leaf Residue)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Slowed, Sec.: 1d4 DEX. Craft DC 20.								
-Poison (Sleeping Weed)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Slowed, Sec.: 1d4 DEX. Craft DC 15.								
-Poison (Tennav Root)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d6 DEX, Sec.: 2d6 DEX. Craft DC 25.								
-Poison (Thever Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 12, Init.: 0, Sec.: Blindness. Craft DC 25.								
-Poison (Wraith Sheen)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d2 CON, Sec.: 1d2 CON. Craft DC 15.								
-Poison (Adlevine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 WIS gain +2 CON bonus, Sec.: 1d6 CON. Craft DC 20.								
+Poison (Sassone leaf residue)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Slowed, Sec.: 1d4 DEX. Craft DC 20.								
+Poison (Sleeping weed)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Slowed, Sec.: 1d4 DEX. Craft DC 15.								
+Poison (Tennav root)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d6 DEX, Sec.: 2d6 DEX. Craft DC 25.								
+Poison (Thever paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 12, Init.: 0, Sec.: Blindness. Craft DC 25.								
+Poison (Wraith sheen)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d2 CON, Sec.: 1d2 CON. Craft DC 15.								
+Poison (Adlevine extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 WIS gain +2 CON bonus, Sec.: 1d6 CON. Craft DC 20.								
 Poison (Arsenic)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 13, Init.: 1 CON, Sec.: 1d8 CON. Craft DC 15.								
-Poison (Cretel Leaf Residue)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 CON gain +2 DEX bonus, Sec.: 1d6 CON. Craft DC 20.								
-Poison (Culum Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 12, Init.: 1 DEX, Sec.: 1d4 DEX. Craft DC 15.								
-Poison (Dark Reaver Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 18, Init.: 2d6 CON, Sec.: 1d6 CON 1d6 STR. Craft DC 15.								
+Poison (Cretel leaf residue)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 CON gain +2 DEX bonus, Sec.: 1d6 CON. Craft DC 20.								
+Poison (Culum powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 12, Init.: 1 DEX, Sec.: 1d4 DEX. Craft DC 15.								
+Poison (Dark reaver powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 18, Init.: 2d6 CON, Sec.: 1d6 CON 1d6 STR. Craft DC 15.								
 Poison (Faralin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 DEX gain +2 STR, Sec.: 1d6 CON. Craft DC 20.								
-Poison (Id Moss)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:125	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 INT, Sec.: 2d6 INT. Craft DC 15.								
+Poison (Id moss)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:125	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 INT, Sec.: 2d6 INT. Craft DC 15.								
 Poison (Lich dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 17, Init.: 2d6 STR, Sec.: 1d6 STR. Craft DC 20.								
 Poison (Lockjaw)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 11, Init.: Can't Speak, Sec.: 2d6 CON. Craft DC 15.								
-Poison (Oil of Taggit)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 15, Init.: 0, Sec.: Unconscious. Craft DC 15.								
+Poison (Oil of taggit)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 15, Init.: 0, Sec.: Unconscious. Craft DC 15.								
 Poison (Retch)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 15, Init.: Nausea, Sec.: 1d4 CON. Craft DC 15.								
-Poison (Striped Toadstool)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:180	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 11, Init.: 1 WIS, Sec.: 2d6 WIS 1d4 INT. Craft DC 15.								
+Poison (Striped toadstool)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:180	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 11, Init.: 1 WIS, Sec.: 2d6 WIS 1d4 INT. Craft DC 15.								
 Poison (Asabi mist)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 12, Init.: 1d4 CON, Sec.: 1d4 CON. Craft DC 20.								
-Poison (Brain Dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1300	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 12, Init.: Confusion , Sec.: 1d4 CON. Craft DC 20.								
-Poison (Burnt Othur Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2100	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: 1 CON perm, Sec.: 3d6 CON. Craft DC 25.								
-Poison (Insanity Mist)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d4 WIS , Sec.: 2d6 WIS. Craft DC 20.								
-Poison (Raeliss Smoke)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d6 CHA, Sec.: 1d6 CHA. Craft DC 25.								
-Poison (Roshon Vapor)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3100	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d4 INT, Sec.: 1d6 DEX 1 DEX perm. Craft DC 25.								
-Poison (Scorcher Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:800	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: Lose Scent, Sec.: 1d4 WIS. Craft DC 20.								
-Poison (Thever Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: 0, Sec.: Blindness. Craft DC 35.								
-Poison (Ungol Dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1 CHA, Sec.: 1d6 CHA 1 CHA perm. Craft DC 20.								
-Poison (Spider Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:AaEG, p.94	SPROP:Injury DC 11, Init.: 1d3 STR, Sec.: 1d3 STR.
+Poison (Brain dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1300	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 12, Init.: Confusion , Sec.: 1d4 CON. Craft DC 20.								
+Poison (Burnt othur fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2100	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: 1 CON perm, Sec.: 3d6 CON. Craft DC 25.								
+Poison (Insanity mist)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d4 WIS , Sec.: 2d6 WIS. Craft DC 20.								
+Poison (Raeliss smoke)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d6 CHA, Sec.: 1d6 CHA. Craft DC 25.								
+Poison (Roshon vapor)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3100	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d4 INT, Sec.: 1d6 DEX 1 DEX perm. Craft DC 25.								
+Poison (Scorcher fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:800	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: Lose Scent, Sec.: 1d4 WIS. Craft DC 20.								
+Poison (Thever fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: 0, Sec.: Blindness. Craft DC 35.								
+Poison (Ungol dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1 CHA, Sec.: 1d6 CHA 1 CHA perm. Craft DC 20.								
+Poison (Spider poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:AaEG, p.94	SPROP:Injury DC 11, Init.: 1d3 STR, Sec.: 1d3 STR.
 														
 ###Block:Siege Engines														
 Firing Castle		TYPE:Goods.SiegeEngine	COST:550	WT:4000	SOURCEPAGE:AaEG	SPROP:4 man crew								
@@ -609,13 +609,13 @@ Hireling (Vintner)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (W
 Hireling (Weaponsmithing)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Weaponsmithing)								
 Hireling (Weaver)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Weaving)								
 Hireling (Wheelwright)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Wheelmaking)								
-Spellcaster (Teleport, very familiar area)		TYPE:Service	COST:900		SOURCEPAGE:AaEG									
-Spellcaster (Teleport, studied area)		TYPE:Service	COST:1080		SOURCEPAGE:AaEG									
-Spellcaster (Teleport, area seen occasionally)		TYPE:Service	COST:1260		SOURCEPAGE:AaEG									
-Spellcaster (Teleport, area viewed once)		TYPE:Service	COST:1440		SOURCEPAGE:AaEG									
-Spellcaster (Teleport, description of area only)		TYPE:Service	COST:1820		SOURCEPAGE:AaEG									
+Spellcaster (Teleport/very familiar area)		TYPE:Service	COST:900		SOURCEPAGE:AaEG									
+Spellcaster (Teleport/studied area)		TYPE:Service	COST:1080		SOURCEPAGE:AaEG									
+Spellcaster (Teleport/area seen occasionally)		TYPE:Service	COST:1260		SOURCEPAGE:AaEG									
+Spellcaster (Teleport/area viewed once)		TYPE:Service	COST:1440		SOURCEPAGE:AaEG									
+Spellcaster (Teleport/description of area only)		TYPE:Service	COST:1820		SOURCEPAGE:AaEG									
 Spellcaster (Teleport without error)		TYPE:Service	COST:1820		SOURCEPAGE:AaEG									
-Spellcaster (Teleport circle, very familiar area)		TYPE:Service	COST:3060		SOURCEPAGE:AaEG									
+Spellcaster (Teleport circle/very familiar area)		TYPE:Service	COST:3060		SOURCEPAGE:AaEG									
 Trainer (training DC 15-19)		TYPE:Service	COST:125		SOURCEPAGE:AaEG									
 Trainer (training DC 20-24)		TYPE:Service	COST:250		SOURCEPAGE:AaEG									
 Trainer (training DC 25-29)		TYPE:Service	COST:500		SOURCEPAGE:AaEG									

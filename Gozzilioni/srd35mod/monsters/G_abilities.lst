@@ -90,6 +90,11 @@ Resistance To Domination Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Ext
 Immunity To Domination	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Domination-based effects damage				ASPECT:Immunity|Domination																									SOURCEPAGE:MM2
 Vulnerability To Domination	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Domination-based effects.																												SOURCEPAGE:MM				
 
+Resistance To Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:GazeResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Gaze Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Gaze,Vulnerability To Gaze													SOURCEPAGE:MM2				
+Resistance To Gaze Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Gaze	DESC:You get a +%1 bonus on saving throws against Gaze-based effects.|GazeResistanceBonus	ASPECT:Resistance|Gaze	ASPECT:Ability Benefit|%1|GazeResistanceBonus																									SOURCEPAGE:MM2				
+Immunity To Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Gaze-based effects damage				ASPECT:Immunity|Gaze																									SOURCEPAGE:MM2
+Vulnerability To Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Gaze-based effects.																												SOURCEPAGE:MM				
+
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
