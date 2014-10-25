@@ -50,3 +50,5 @@ Throwing Iron	TYPE:Exotic.Ranged.Slashing.Light.RangedSlashing.RangedLight.Throw
 #
 Bladed Crossbow	TYPE:Exotic.Melee.Slashing.OneHanded.MeleeSlashing.MeleeOneHanded
 Halfspear	TYPE:Simple.Melee.Ranged.Piercing.OneHanded.MeleePiercing.MeleeOneHanded.RangedPiercing.RangedOneHanded.Thrown
+#
+Sword (Kopesh)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword

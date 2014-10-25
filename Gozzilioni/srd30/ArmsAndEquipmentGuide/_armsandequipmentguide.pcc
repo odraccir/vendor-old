@@ -19,6 +19,7 @@ ABILITY:aaeg_abilities.lst
 ABILITY:aaeg_abilities_class.lst
 ABILITY:aaeg_abilities_races.lst
 ABILITYCATEGORY:aaeg_abilitycategories.lst
+COMPANIONMOD:aaeg_companionmods.lst
 EQUIPMENT:aaeg_equip.lst
 EQUIPMENT:aaeg_equip_arms_and_armor.lst
 EQUIPMENT:aaeg_equip_magic_items.lst
@@ -29,6 +30,7 @@ SHIELDPROF:aaeg_profs_shield.lst
 WEAPONPROF:aaeg_profs_weapon.lst
 RACE:aaeg_races.lst
 SKILL:aaeg_skills.lst
+SPELL:aaeg_spells.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

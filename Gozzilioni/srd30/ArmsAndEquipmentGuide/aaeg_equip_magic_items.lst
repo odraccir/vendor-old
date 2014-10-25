@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03											
 														
 # Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property	
 ###Block: Magical Augmentations														
@@ -44,8 +44,175 @@ Saddlebags of Providing		TYPE:Magic.Wondrous.Mount.Saddle.Container	COST:8000	WT
 Shielding Blinders		TYPE:Magic.Wondrous.Mount.Eyegear	COST:12000	WT:2	SOURCEPAGE:AaEG		ABILITY:Special Ability|VIRTUAL|Immunity To Gaze							
 Shrink Collar		TYPE:Magic.Wondrous.Mount.Amulet	COST:10000	WT:1	SOURCEPAGE:AaEG	SPROP:reduce the creature to Small size.	BONUS:SIZEMOD|NUMBER|-1|PRESIZEEQ:M	BONUS:SIZEMOD|NUMBER|-2|PRESIZEEQ:L	BONUS:SIZEMOD|NUMBER|-3|PRESIZEEQ:H	BONUS:SIZEMOD|NUMBER|-4|PRESIZEEQ:G	BONUS:SIZEMOD|NUMBER|-5|PRESIZEEQ:C			
 Whip of Obeyance		TYPE:Magic.Wondrous.Weapon.Melee.Exotic.Reach.Finesseable.Subdual.Slashing	COST:2000	WT:2	SOURCEPAGE:AaEG	PROFICIENCY:WEAPON|Whip	CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	BONUS:SKILL|Handle Animal|10|TYPE=Circumstance	EQMOD:LEATHER.MWORKW	WIELD:OneHanded	REACH:15	SIZE:M
-Emerald Caltrop	TYPE:Magic.Wondrous	COST:166	WT:2	SOURCEPAGE:AaEG, p. 106	SPROP:+1 To hit (Any creature struck by the caltrops takes an additional +1 point of damage and 1d6 points of acid damage).
-
+Emerald Caltrop		TYPE:Magic.Wondrous	COST:166	WT:2	SOURCEPAGE:AaEG, p. 106	SPROP:+1 To hit (Any creature struck by the caltrops takes an additional +1 point of damage and 1d6 points of acid damage).								
+														
 ###Block: Potion														
 Potion (Queen Pheromon Admixture)	OUTPUTNAME:Potion of [NAME]	TYPE:Magic.Potion	COST:300	WT:0	SOURCEPAGE:AaEG, 90	SPROP:The drinker exudes queen ant pheromones.								
-
+Potion (Animal Sense)	OUTPUTNAME:Potion of [NAME]	TYPE:Magic.Potion	COST:380	WT:0	SOURCEPAGE:AaEG	SPROP:+2 Circumstance bonus on Listen checks for 1 hour. Low-light vision. Scent ability.								
+Potion (Watery Breath)	OUTPUTNAME:Potion of [NAME]	TYPE:Magic.Potion	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:same as Fire Breath								
+														
+###Block: Elixir														
+Elixir Armor (Beetle)	OUTPUTNAME:[NAME] Elixir	TYPE:Magic.Elixir	COST:8300	WT:0	SOURCEPAGE:AaEG	SPROP:+2 Natural Bonus on CA. Darkvision.	TEMPBONUS:PC|COMBAT|AC|2|TYPE=Natural	TEMPBONUS:PC|VAR|DarkvisionRange|60|TYPE=Base						
+Elixir Armor (Electric Eel)	OUTPUTNAME:[NAME] Elixir	TYPE:Magic.Elixir	COST:2050	WT:0	SOURCEPAGE:AaEG	SPROP:+1 Natural Bonus on CA. 1d8+1 Electricity damage with touch attack. +3 Circumstance on touch attack if target wear metal armor.	TEMPBONUS:PC|COMBAT|AC|1|TYPE=Natural							
+Elixir Armor (Porcupine)	OUTPUTNAME:[NAME] Elixir	TYPE:Magic.Elixir	COST:2300	WT:0	SOURCEPAGE:AaEG	SPROP:+1 Natural Bonus on CA. 1d6 piercing damage during grapple.	TEMPBONUS:PC|COMBAT|AC|1|TYPE=Natural							
+Elixir Armor (Rhino)	OUTPUTNAME:[NAME] Elixir	TYPE:Magic.Elixir	COST:17500	WT:0	SOURCEPAGE:AaEG	SPROP:+3 Natural Bonus on CA. Normal vision decrease at 30 feet.	TEMPBONUS:PC|COMBAT|AC|3|TYPE=Natural							
+														
+###Block: Rings														
+Ring of Alignment Command (Chaotic)	OUTPUTNAME:Ring of Alignment Command, [NAME]	TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG	SPELLS:Ring|TIMES=ATWILL|CASTERLEVEL=15|Random Action|Shatter	SPELLS:Ring|TIMES=2|CASTERLEVEL=15|Chaos Hammer	SPELLS:Ring|TIMES=1|CASTERLEVEL=15|Dispel Law	SPELLS:Ring|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Animate Objects					
+Ring of Alignment Command (Evil)	OUTPUTNAME:Ring of Alignment Command, [NAME]	TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG	SPELLS:Ring|TIMES=ATWILL|CASTERLEVEL=15|Bane|Desecrate	SPELLS:Ring|TIMES=2|CASTERLEVEL=15|Unholy Blight	SPELLS:Ring|TIMES=1|CASTERLEVEL=15|Dispel Good	SPELLS:Ring|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Create Undead					
+Ring of Alignment Command (Good)	OUTPUTNAME:Ring of Alignment Command, [NAME]	TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG	SPELLS:Ring|TIMES=ATWILL|CASTERLEVEL=15|Bless|Aid	SPELLS:Ring|TIMES=2|CASTERLEVEL=15|Holy Smite	SPELLS:Ring|TIMES=1|CASTERLEVEL=15|Dispel Evil	SPELLS:Ring|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Blade Barrier					
+Ring of Alignment Command (Lawful)	OUTPUTNAME:Ring of Alignment Command, [NAME]	TYPE:Magic.Ring	COST:20000	WT:0	SOURCEPAGE:AaEG	SPELLS:Ring|TIMES=ATWILL|CASTERLEVEL=15|Command|Calm Emotions	SPELLS:Ring|TIMES=2|CASTERLEVEL=15|Order's Wrath	SPELLS:Ring|TIMES=1|CASTERLEVEL=15|Dispel Chaos	SPELLS:Ring|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Hold Monster					
+Ring of Filcher's Friend		TYPE:Magic.Ring	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:draws any loose metal object within 1 foot and weight no more than 1 ounce. +5 circumstance bonus on Sleight of Hand checks involving metal objects.								
+Rings of Force Armor		TYPE:Magic.Ring	COST:45000	WT:0	SOURCEPAGE:AaEG	SPROP:Unarmed damage deals additional 1d4 points of damage.	SLOTS:2	BONUS:COMBAT|AC|4|TYPE=Armor	BONUS:WEAPONPROF=TYPE.Unharmed|TOHIT|1|TYPE=Enhancement					
+Ring of Greater Counterspelling		TYPE:Magic.Ring	COST:16000	WT:0	SOURCEPAGE:AaEG									
+Ring of Hive Mind		TYPE:Magic.Ring	COST:180000	WT:0	SOURCEPAGE:AaEG	ABILITY:Special Ability|VIRTUAL|Ring ~ Ring of Hive Mind ~ Hive Mind								
+Ring of Lockpicking		TYPE:Magic.Ring	COST:7700	WT:0	SOURCEPAGE:AaEG	SPELLS:Ring|TIMES=3|CASTERLEVEL=12|Knock	BONUS:SKILL|Open Lock|5|TYPE=Competence							
+Ring of Magic Fang +1		TYPE:Magic.Ring	COST:6000	WT:0	SOURCEPAGE:AaEG	SPROP:+1 enhancement bonus on a single natural weapon.								
+Ring of Misdirection		TYPE:Magic.Ring	COST:7000	WT:0	SOURCEPAGE:AaEG	SPROP:The wearer is under continuous Misdirection effect.								
+Ring of Thunderclaps		TYPE:Magic.Ring	COST:11200	WT:0	SOURCEPAGE:AaEG	SPELLS:Ring|TIMES=3|CASTERLEVEL=7|Shocking Grasp	SPELLS:Ring|TIMES=1|CASTERLEVEL=7|Shout,16							
+Ring (Energy Resistance/Universal/Minor)	OUTPUTNAME:Minor Ring of Energy Resistance (Universal)	TYPE:Magic.Ring	COST:144000	WT:0	SOURCEPAGE:AaEG	SPROP:Absorbs 15 points of elemental energy damage per round.								
+														
+###Block: Rods														
+Rod of Construct Control		TYPE:Magic.Rod	COST:68850	WT:5	SOURCEPAGE:AaEG		BASEITEM:Rod							
+Rod of Embassy		TYPE:Magic.Rod.PlanarAttuned	COST:20000	WT:5	SOURCEPAGE:AaEG		BASEITEM:Rod	MODS:REQUIRED						
+Rod of Force		TYPE:Magic.Rod	COST:125000	WT:5	SOURCEPAGE:AaEG	SPROP:for a total of 5/day:&nl;Blast of Force 10d6 ranged touch attack,&nl;Wall of Force,&nl;Blade of Force 10 rnds +1 brilliant energy longsword.	BASEITEM:Rod							
+Rod of Ghost		TYPE:Magic.Rod.Weapon.Natural.Melee.Unarmed	COST:50000	WT:5	SOURCEPAGE:AaEG	SPROP:touch attack incorporeal creature deal 2d4 points of damage.	BASEITEM:Rod	PROFICIENCY:WEAPON|Grapple		CRITRANGE:1	CRITMULT:x2	WIELD:Light	SIZE:M	
+Rod of Mimicry		TYPE:Magic.Rod	COST:30000	WT:5	SOURCEPAGE:AaEG	SPROP:mimicry any voice (Wll DC 17 to disbelief).	BASEITEM:Rod	BONUS:SKILL|Disguise,Forgery,Use Magic Device|10|TYPE=Competence	SPELLS:Rod|TIMES=ATWILL|CASTERLEVEL=6|Ventriloquism					
+Rod of Paralysis		TYPE:Magic.Rod	COST:22000	WT:5	SOURCEPAGE:AaEG	SPROP:Anyone struck by the rod must succeed on a Fort save (DC 25) or be Paralyzed. The wielder can also expend a charge to cast 2/day Hold Person, Hold Animal and 1/day Hold Monster.	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Rod of Tentacles (Lesser)	OUTPUTNAME:Rod of Tentacles, Lesser	TYPE:Magic.Rod	COST:21000	WT:5	SOURCEPAGE:AaEG	SPROP:3 Tentacles +9, STR 16.	BASEITEM:Rod							
+Rod of Tentacles (Greater)	OUTPUTNAME:Rod of Tentacles, Greater	TYPE:Magic.Rod	COST:21000	WT:5	SOURCEPAGE:AaEG	SPROP:6 Tentacles +15, STR 22.	BASEITEM:Rod							
+Rods of Tracking		TYPE:Magic.Rod	COST:37800	WT:5	SOURCEPAGE:AaEG	SPROP:taking a full round action the wielder can determine the exact distance and direction of the linked Rod of Tracking.	BASEITEM:Rod							
+Rod of Trees		TYPE:Magic.Rod	COST:120000	WT:5	SOURCEPAGE:AaEG	SPROP:you can animate trees within 180 feet, controlling up to two trees at a time, and no more than two trees per day.	BASEITEM:Rod							
+Rod of Warning		TYPE:Magic.Rod	COST:58000	WT:5	SOURCEPAGE:AaEG		BASEITEM:Rod							
+														
+###Block: Staff														
+Staff of Artisan		TYPE:Magic.Staff	COST:69800	WT:5	SOURCEPAGE:AaEG	SPROP:Minor Creation (1 charge), Major Creation (1 charge), Fabricate (1 charge), Mending (1 charge)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Assassin		TYPE:Magic.Staff	COST:24000	WT:5	SOURCEPAGE:AaEG	SPROP:Obscuring Mist (1 charge), Pass Without Trace (1 charge), Greater Invisibility (2 charges), Poison (2 charges, DC 16)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Cacophony		TYPE:Magic.Staff	COST:60000	WT:5	SOURCEPAGE:AaEG	SPROP:Shatter (1 charge, DC 13), Sound Burst (1 charge, DC 13), Tasha's Hideous Laughter (1 charge, DC 13), Sculpt Sound (1 charge, DC 14), Shout (1 charge, DC 16)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Creation		TYPE:Magic.Staff	COST:45000	WT:5	SOURCEPAGE:AaEG	SPROP:Create Food and Water (1 charge), Minor Creation (1 charge), Major Creation (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Destruction		TYPE:Magic.Staff	COST:98500	WT:5	SOURCEPAGE:AaEG	SPROP:Shatter (1 charge, DC 13), Disintegrate (1 charge, DC 20), Earthquake (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of the Fallen		TYPE:Magic.Staff	COST:24000	WT:5	SOURCEPAGE:AaEG	SPROP:Doom (1 charge, DC 11), Shatter (1 charge, DC 13), Contagion (2 charges, DC 14), Summon Monster IV (evil creature only, 2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Fellowship		TYPE:Magic.Staff	COST:80000	WT:5	SOURCEPAGE:AaEG	SPROP:Calm Emotion (1 charge, DC 11), Shield Other (1 charge), Status (1 charge), Rary's Telepathic Bond (1 charge), Heroes' Feast (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Glory		TYPE:Magic.Staff	COST:80000	WT:5	SOURCEPAGE:AaEG	SPROP:Daylight (1 charge), Searing Light (1 charge, DC 14), Holy Smite (1 charge, DC 16), Sunbeam (2 charges, DC 20)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Goblin Lord		TYPE:Magic.Staff	COST:26625	WT:5	SOURCEPAGE:AaEG	SPROP:Prtection from Law (1 charge), Confusion (1 charge, DC 16), Unholy Blight (1 charge, DC 16)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]		BONUS:STAT|CHA|2|TYPE=Enhancement|PREMULT:1,[PRERACE:1,RACESUBTYPE=Goblin],[PRERACE:1,RACESUBTYPE=Orc]				
+Staff of Liberation		TYPE:Magic.Staff	COST:45000	WT:5	SOURCEPAGE:AaEG	SPROP:Remove Fear (1 charge), Remove Paralysis (1 charge), Remove Curse (1 charge), Freedom of Movement (2 charges), Break Enchantment (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Madness		TYPE:Magic.Staff	COST:110000	WT:5	SOURCEPAGE:AaEG	SPROP:Random Action (1 charge), Confusion (1 charge, DC 16), Insanity (2 charges, DC 20), Weird (2 charges, DC 23)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Righteusness		TYPE:Magic.Staff	COST:34000	WT:5	SOURCEPAGE:AaEG	SPROP:Divine Favor (1 charge), Prayer (1 charge), Dispel Evil (1 charges), Holy Sword (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Sacred Fire		TYPE:Magic.Staff.DivineFocus	COST:60000	WT:5	SOURCEPAGE:AaEG	SPROP:Flame Strike (1 charge, DC 16), Fire Storm (2 charges, DC 20)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Spider		TYPE:Magic.Staff	COST:42600	WT:5	SOURCEPAGE:AaEG	SPROP:Spider CLimb (1 charge), Web (1 charges, DC 13), Summon Swarm (spiders only, 1 charge), Poison (1 charge), Insect Plague (2 charges, DC 17)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of Undying		TYPE:Magic.Staff	COST:27375	WT:5	SOURCEPAGE:AaEG	SPROP:Animate Dead (1 charge), Create Undead (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+														
+###Block: Wondrous Items														
+Armband of Reduction		TYPE:Magic.Wondrous.Bracer	COST:2000	WT:1	SOURCEPAGE:AaEG	SPROP:At command reduces the wearer to half its height. 2 hours duration.								
+Bag of Endless Caltrop		TYPE:Magic.Wondrous	COST:2300	WT:0	SOURCEPAGE:AaEG	SPROP:Endless supply of normal Caltrops. Each standard action enaugh to fill a 5-ft square								
+Banner of Valor		TYPE:Magic.Wondrous	COST:61000	WT:10	SOURCEPAGE:AaEG		SPELLS:Banner of Valor|TIMES=ATWILL|CASTERLEVEL=9|Remove Fear	SPELLS:Banner of Valor|TIMES=3|CASTERLEVEL=9|Cure Light Wounds (Mass),17						
+Belt of Endurance		TYPE:Magic.Wondrous.Belt	COST:10000	WT:1	SOURCEPAGE:AaEG		BONUS:STAT|CON|2|TYPE=Enhancement	VFEAT:Great Fortitude						
+Blindfold of True Darkness		TYPE:Magic.Wondrous.Eyegear	COST:9000	WT:0	SOURCEPAGE:AaEG		BONUS:VAR|BlindsightRange|60|TYPE=Base	ABILITY:Special Ability|VIRTUAL|Immunity To Gaze						
+Bracers of Exit		TYPE:Magic.Wondrous.Bracer	COST:11200	WT:1	SOURCEPAGE:AaEG	SPROP:Negate one Dimensional Anchor per day								
+Boots of Mountain King		TYPE:Magic.Wondrous.Boot	COST:48810	WT:1	SOURCEPAGE:AaEG	SPROP:Full movement on rocky, rugged or mountain terrain.	SPELLS:Boots of Mountain|TIMES=2|CASTERLEVEL=12|Stoneskin,16							
+Boots of the Sea		TYPE:Magic.Wondrous.Boot	COST:56500	WT:1	SOURCEPAGE:AaEG		BONUS:SKILL|Swim|10|TYPE=Competence	SPELLS:Boots of the Sea|TIMES=ATWILL|CASTERLEVEL=5|Water Walk|Water Breathing						
+Boots (Steadfast)	OUTPUTNAME:[NAME] Boots	TYPE:Magic.Wondrous.Boot	COST:6000	WT:1	SOURCEPAGE:AaEG	SPROP:Cannot be tripped or pushed back by Bull Rush. If the wearer has a Medium or greater weapon also count as being set against a charge.								
+Boots of Tracklessness		TYPE:Magic.Wondrous.Boot	COST:33500	WT:1	SOURCEPAGE:AaEG	SPROP:Pass without Trace always active	SPELLS:Boots of Tracklessness|TIMES=3|CASTERLEVEL=7|Invisibility (Greater),16							
+Boots of Woodland Striding		TYPE:Magic.Wondrous.Boot	COST:23600	WT:1	SOURCEPAGE:AaEG	SPROP:Full movement in forest or jungle.	SPELLS:Boots of Woodland Striding|TIMES=ATWILL|CASTERLEVEL=12|Detect Snares and Pits	SPELLS:Boots of Woodland Striding|TIMES=3|CASTERLEVEL=12|Tree Stride,16						
+Candle of Icy Death		TYPE:Magic.Wondrous.Candle.Consumable.LightSource	COST:34800	WT:1	SOURCEPAGE:AaEG	SPROP:Every minute that the candle burn, the temperature in 20-ft radius lower by 1 F degree until 0 F degree. Prevent natural and magical healing.	QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|1 hr.						
+Chocker of Eloquence (Lesser)		TYPE:Magic.Wondrous.Amulet	COST:1500	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Diplomacy,Innuendo,Bluff,Perform (Oratory)|5|TYPE=Competence							
+Chocker of Eloquence (Greater)		TYPE:Magic.Wondrous.Amulet	COST:6000	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Diplomacy,Innuendo,Bluff,Perform (Oratory)|10|TYPE=Competence							
+Cinders of the Inferno		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small fire elementals leaps from.								
+Clasp of the Elder		TYPE:Magic.Wondrous.Amulet	COST:6000	WT:10	SOURCEPAGE:AaEG		BONUS:SKILL|Competence|1|TYPE=Enhamcement|!PRERACE:1,RACESUBTYPE=Dwarf	BONUS:SKILL|Diplomacy,Intimidate|5|TYPE=Competence|PRERACE:1,RACESUBTYPE=Dwarf	BONUS:STAT|WIS|2|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Dwarf					
+Cloak of Shelter		TYPE:Magic.Wondrous.Cape	COST:12080	WT:1	SOURCEPAGE:AaEG	SPROP:On command the cloak transform into a 4-person tent. The tent includes an Alarm spell.								
+Coin of Eternal Rest		TYPE:Magic.Wondrous.Coin	COST:6000	WT:0	SOURCEPAGE:AaEG	SPROP:Prevent a corpse beins Resurrected, Raised or turned into undead.								
+Dimensional Chalk Holder		TYPE:Magic.Wondrous	COST:22950	WT:0	SOURCEPAGE:AaEG	SPROP:A normal chalk is imbued the ability to draw in air 1d4+1 times. The draws are a Gate to whenever wish.	EQMOD:CHARGED_ITEM_5|CHARGES[5]							
+Dragonfly Medallion		TYPE:Magic.Wondrous.Amulet	COST:29760	WT:0	SOURCEPAGE:AaEG		VFEAT:Improved Initiative|!PREFEAT:1,Improved Initiative	BONUS:COMBAT|INITIATIVE|1|TYPE=Enhancement|PREFEAT:1,Improved Initiative						
+Droplets of the Storm		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small water elementals leaps from.								
+Dust of Zephyr		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small air elementals leaps from.								
+Dimensional Prism		TYPE:Magic.Wondrous	COST:17600	WT:0	SOURCEPAGE:AaEG	SPROP:Shatter to the floor to force any being in 30-ft in transitive planes ti Will save DC 30 or forced into Material plane for 1d6 rounds								
+Everfull Mug		TYPE:Magic.Wondrous	COST:800	WT:0	SOURCEPAGE:AaEG	SPROP:3/day fills the mug with 12 ounce of water, cheap ale or watery wine.								
+Everlasting Feedbag		TYPE:Magic.Wondrous	COST:15000	WT:1	SOURCEPAGE:AaEG	SPROP:When on the muzzle of Horse, Donkey or other equine it produces an unlimited amount of suitable feed.								
+Eversoaking Sponge		TYPE:Magic.Wondrous	COST:26400	WT:0	SOURCEPAGE:AaEG	SPROP:Absorbs 1000 gallons of water per rounds. For other liquids functions as a normal sponge.								
+Fan Furious Flame		TYPE:Magic.Wondrous	COST:18750	WT:1	SOURCEPAGE:AaEG	SPROP:3/day the fan create a cone 30-ft long that causes any open flames to explodes (Ref DC 15 for half)								
+Fruit Blossom Spike		TYPE:Magic.Wondrous	COST:5800	WT:0	SOURCEPAGE:AaEG	SPROP:When driven or hammered into a fruit tree, it causes the tree to go through fast rejuvenation, growing extremely healthy and producing enormous fruit. After one full round wither and die.								
+Gloves of Brachiation		TYPE:Magic.Wondrous.Glove	COST:4000	WT:0	SOURCEPAGE:AaEG		MOVECLONE:Walk,Brachiation,*1	BONUS:SKILL|Jump|10|TYPE=Circumstance						
+Googles of the Day		TYPE:Magic.Wondrous.Eyegear	COST:4000	WT:0	SOURCEPAGE:AaEG	SPROP:No penalty in bright light such Flare, Sunbeam or Sunburst spells.								
+Hammersphere		TYPE:Magic.Wondrous	COST:2500	WT:0	SOURCEPAGE:AaEG	SPROP:Once per day function as Spiritual Weapon, but does 3d6 hp damage.								
+Hat of Anonymity		TYPE:Magic.Wondrous.Headgear	COST:34050	WT:0	SOURCEPAGE:AaEG	SPROP:Nondetection always active.	BONUS:SKILL|Hide|10|TYPE=Circumstance							
+Horned Helm		TYPE:Magic.Wondrous.Headgear	COST:38000	WT:1	SOURCEPAGE:AaEG	SPROP:Horned helm, +2 Enhancement to hit with horns and 1d8 damage. 	BONUS:MOVEMULT|TYPE.Walk|2							
+Idol of False Vision		TYPE:Magic.Wondrous	COST:54500	WT:400	SOURCEPAGE:AaEG		SPELLS:Idol of False Vision|TIMES=3|CASTERLEVEL=10|False Vision,17							
+Incense of the Gorgon		TYPE:Magic.Wondrous	COST:6600	WT:0	SOURCEPAGE:AaEG	SPROP:When burned all creature in 10-ft radius must Fort save DC 19 or be turned to stone								
+Insatiable Locust		TYPE:Magic.Wondrous	COST:29975	WT:10	SOURCEPAGE:AaEG	SPROP:Jade Locust tiny construct.								
+Ioun Stone of Resistance +1		TYPE:Magic.Wondrous.IounStone	COST:2000	WT:0	SOURCEPAGE:AaEG	SPROP:+1 Resistance on all saving throw	BONUS:CHECKS|Fortitude,Will,Reflex|1|TYPE=Resistance							
+Ioun Stone of Resistance +2		TYPE:Magic.Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:AaEG	SPROP:+2 Resistance on all saving throw	BONUS:CHECKS|Fortitude,Will,Reflex|2|TYPE=Resistance							
+Ioun Stone of Resistance +3		TYPE:Magic.Wondrous.IounStone	COST:18000	WT:0	SOURCEPAGE:AaEG	SPROP:+3 Resistance on all saving throw	BONUS:CHECKS|Fortitude,Will,Reflex|3|TYPE=Resistance							
+Ioun Stone of Resistance +4		TYPE:Magic.Wondrous.IounStone	COST:32000	WT:0	SOURCEPAGE:AaEG	SPROP:+4 Resistance on all saving throw	BONUS:CHECKS|Fortitude,Will,Reflex|4|TYPE=Resistance							
+Ioun Stone of Resistance +5		TYPE:Magic.Wondrous.IounStone	COST:50000	WT:0	SOURCEPAGE:AaEG	SPROP:+5 Resistance on all saving throw	BONUS:CHECKS|Fortitude,Will,Reflex|5|TYPE=Resistance							
+Lantern of Brightness		TYPE:Magic.Wondrous.LightSource	COST:66520	WT:3	SOURCEPAGE:AaEG	SPROP:Permanent Light spell.	SPELLS:Lantern of Brightness|TIMES=2|CASTERLEVEL=13|Sunbeam,18							
+Libram of Flesh		TYPE:Magic.Wondrous.Book	COST:178500	WT:5	SOURCEPAGE:AaEG	SPROP:Details the creation of a Golem	EQMOD:CHARGED_ITEM_7|CHARGES[7]							
+Magebane Manacles		TYPE:Magic.Wondrous.Masterwork.Bracer	COST:132000	WT:2	SOURCEPAGE:AaEG	SPROP:The manacles has an Antimagic Fields that extends to anyone locked with them including the object is carrying	EQMOD:MWORKI							
+Mask of Lies		TYPE:Magic.Wondrous.Headgear	COST:17000	WT:0	SOURCEPAGE:AaEG	SPROP:Undetectable Alignment always active.	BONUS:SKILL|Bluff|5	SPELLS:Mask of Lies|TIMES=-1|CASTERLEVEL=5|Alter Self,11						
+Mask of the Feather Queen		TYPE:Magic.Wondrous.Headgear	COST:27120	WT:0	SOURCEPAGE:AaEG		SPELLS:Mask of the Feather Queen|TIMES=ATWILL|CASTERLEVEL=12|Levitate|Charm Animal	SPELLS:Mask of the Feather Queen|TIMES=1|CASTERLEVEL=12|Fly,14						
+Medallion of Contact		TYPE:Magic.Wondrous.Amulet	COST:5000	WT:0	SOURCEPAGE:AaEG	SPROP:Once per day on command forge a telepathic bond for 1 minute with one person within 1 mile.								
+Medallion of the Lycanthrope		TYPE:Magic.Wondrous.Amulet	COST:44200	WT:0	SOURCEPAGE:AaEG	SPROP:Once per day can cast Antipathy against Lycanthrope. Any weapon carried damage Lycanthrope as if they where silver								
+Mirror of Secrets Revealed		TYPE:Magic.Wondrous	COST:95000	WT:.5	SOURCEPAGE:AaEG		SPELLS:Mirror of Secrets Revealed|TIMES=1|CASTERLEVEL=11|Analyze Dweomer,19	SPELLS:Mirror of Secrets Revealed|TIMES=2|CASTERLEVEL=11|True Seeing,17						
+Neckalce of the Marauding Beast (Raging Bear)		TYPE:Magic.Wondrous.Amulet	COST:11840	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:VAR|RageDuration|1						
+Neckalce of the Marauding Beast (Frenzied Shark)		TYPE:Magic.Wondrous.Amulet	COST:12160	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:VAR|RageDuration|1	BONUS:SKILL|Swim|4|TYPE=Circumstance					
+Neckalce of the Marauding Beast (Rampaging Boar)		TYPE:Magic.Wondrous.Amulet	COST:12440	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|CON|1|TYPE=Enhancement	BONUS:VAR|RageDuration|1	VFEAT:Improved Sunder					
+Necklace of the Wild Beast		TYPE:Magic.Wondrous.Amulet.Container	COST:0	WT:0	SOURCEPAGE:AaEG		CONTAINS:UNLIM|Bead=6|BeadOfWildBeast=6							
+Bead of Calming		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Calm Animals once	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL|1						
+Bead of Servitude		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Dominate Animal once	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL|1						
+Bead of the Fang		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Greater Magic Fang once.	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL|1						
+Bead of Beckoning		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:2000	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Summon Nature's Ally IV  once.	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL|1						
+Bead of the Great Beast		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:2500	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Animal Growth once.	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL|1						
+Bead of Awakening		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:3750	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Awaken once.	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL|1						
+Oracle Beads		TYPE:Magic.Wondrous.Amulet.Bead	COST:19192	WT:0	SOURCEPAGE:AaEG	SPROP:+5 insight bonus during scrying check.	BONUS:DC|SPELL.Scry|5|TYPE=Insight	SPELLS:Oracle Beads|TIMES=1|CASTERLEVEL=7|Divination,16|PRESPELLCAST:TYPE=Arcane	SPELLS:Oracle Beads|TIMES=2|CASTERLEVEL=7|Divination,16|PRESPELLCAST:TYPE=Divine					
+Pelt of Animal Senses		TYPE:Magic.Wondrous.Cape	COST:30080	WT:1	SOURCEPAGE:AaEG		BONUS:SKILL|Listen|2|TYPE=Circumstance	ABILITY:Special Ability|VIRTUAL|Scent	BONUWS:VAR|HasLowLightVision|1					
+Phylactery of Change		TYPE:Magic.Wondrous	COST:11200	WT:0	SOURCEPAGE:AaEG	SPROP:Change Self once per day. The new form is mantained for indefinite times.								
+Pitons (Burrowing)		TYPE:Magic.Wondrous.Consumable	COST:380	WT:.5	SOURCEPAGE:AaEG	SPROP:1d8 points of damage (x3 critical) against stone or clay golems or earth elementals	BONUS:SKILL|Climb|2|TYPE=Circumstance	EQMOD:CHARGED_ITEM_1|1						
+Pixie Dust		TYPE:Magic.Wondrous.Powder	COST:2700	WT:0	SOURCEPAGE:AaEG									
+Bridge (Portable//50-ft)		TYPE:Magic.Wondrous	COST:36000	WT:1	SOURCEPAGE:AaEG	SPROP:On command the statue of the bridge turn into a bridge 5-ft wide and 5-ft to 50-ft length								
+Jar (Preserving)		TYPE:Magic.Wondrous.Container.Jar	COST:3000	WT:2	SOURCEPAGE:AaEG		CONTAINS:12|Total=12|Liquid=12|Powder=12|Jar=12							
+Restricting Band		TYPE:Magic.Wondrous.Bracer	COST:5400	WT:2	SOURCEPAGE:AaEG	SPROP:Grows and Shriks on command. Escape Artist DC 30 to escape.								
+Rope (Stone/50 Ft.)		TYPE:Magic.Wondrous	COST:11800	WT:5	SOURCEPAGE:AaEG	SPROP:On command the rope become hard as stone.								
+Saddle of Growth		TYPE:Magic.Wondrous.Mount.Saddle	COST:48600	WT:25	SOURCEPAGE:AaEG	SPROP:On command the saddle causes a horses mule or donkey to increase size by one size category.								
+Saddle of the Pegasus		TYPE:Magic.Wondrous.Mount.Saddle.Resizable	COST:16875	WT:25	SOURCEPAGE:AaEG		SPELLS:Saddle of the Pegasus|TIMES=3|CASTERLEVEL=5|Fly,14							
+Saddle of Weather Protection		TYPE:Magic.Wondrous.Mount.Saddle	COST:5400	WT:25	SOURCEPAGE:AaEG	SPROP:Feel normal temperature between 0F and 110F degree .	SPELLS:Saddle of Weather Protection|TIMES=1|CASTERLEVEL=5|Protection from Energy,14							
+Saw of Prodigious Cutting		TYPE:Magic.Wondrous.Enhancement.Weapon.Martial.Melee.Slashing.Specific	COST:2000	WT:3	SOURCEPAGE:AaEG	SPROP:As weapon can be used only against Plant creature or backfire against wielder	CRITMULT:x2	CRITRANGE:1	DAMAGE:4d6	EQMOD:STEEL	BONUS:WEAPON|TOHIT|-4			
+Seeds of the Treants		TYPE:Magic.Wondrous	COST:15300	WT:0	SOURCEPAGE:AaEG	SPROP:2 full round after planted a Treant grows.								
+Shards of the Fissure		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small earth elementals leaps from.								
+Singing Bowl		TYPE:Magic.Wondrous	COST:19440	WT:4	SOURCEPAGE:AaEG		SPELLS:Singing Bowl|TIMES=1|CASTERLEVEL=12|Shatter|Blindness/Deafness							
+Sparring Dummy of the Master		TYPE:Magic.Wondrous	COST:30000	WT:40	SOURCEPAGE:AaEG	SPROP:Training with this Dummy for 4 week, 8 hours a day uninterrupted, the monk is allowed to make a 10-foot adjustment instead 5-ft step.								
+Stalwart Eye		TYPE:Magic.Wondrous	COST:10000	WT:2	SOURCEPAGE:AaEG									
+Steadfast Stone		TYPE:Magic.Wondrous	COST:32400	WT:1	SOURCEPAGE:AaEG	SPROP:Two times per day when throw upon ground the stone create as a Wall of Stone cast by a 9th level cleric.								
+Stove of Everlasting Flame		TYPE:Magic.Wondrous	COST:2400	WT:1	SOURCEPAGE:AaEG	SPROP:Continual Flame inside a metal sphere.								
+Stylus of the Masterful Hand		TYPE:Magic.Wondrous	COST:3000	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Forgery|5|TYPE=Competence							
+Testing Chalice		TYPE:Magic.Wondrous	COST:4000	WT:.5	SOURCEPAGE:AaEG	SPROP:The color of the chalice varies depending on the liquid pured into it.								
+Thurible of Divining		TYPE:Magic.Wondrous	COST:77000	WT:1	SOURCEPAGE:AaEG									
+Thurible of Retribution		TYPE:Magic.Wondrous	COST:77000	WT:1	SOURCEPAGE:AaEG									
+Thurible of Warding		TYPE:Magic.Wondrous	COST:77000	WT:1	SOURCEPAGE:AaEG									
+Triton Shell (without air)		TYPE:Magic.Wondrous.Container	COST:3000	WT:3	SOURCEPAGE:AaEG		CONTAINS:3|Any=3							
+Triton Shell (with air)		TYPE:Magic.Wondrous.Container	COST:18000	WT:3	SOURCEPAGE:AaEG		CONTAINS:3|Any=3							
+Trumpeter's Gift		TYPE:Magic.Wondrous	COST:12200	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Perform (Wind Instruments)|5|TYPE=Competence	SPELLS:Trumpeter's Gift|TIMES=1|CASTERLEVEL=7|Shout,16						
+Weightless Scabbard		TYPE:Magic.Wondrous.Resizable.Container.Leather.Scabbard	COST:1600	WT:1	SOURCEPAGE:AaEG		CONTAINS:*UNLIM|Weapon=1	EQMOD:LEATHER						
+Yondalla's Wagon Wheel		TYPE:Magic.Wondrous.Amulet	COST:92880	WT:1	SOURCEPAGE:AaEG	SPROP:Once per day the wheel creates Leomund's Secure Shelter.								
+														
+###Block: Cursed														
+Amulet of Sickliness		TYPE:Magic.Wondrous.Amulet.Cursed	COST:1300	WT:0	SOURCEPAGE:AaEG	SPROP:Appears to be an Amulet of Health +6	BONUS:STAT|CON|-6							
+Belt of Cat's Strength		TYPE:Magic.Wondrous.Belt.Cursed	COST:1300	WT:1	SOURCEPAGE:AaEG	SPROP:Appears to be an Belt of Giant	BONUS:STAT|STR|-6							
+Cloak of Affront		TYPE:Magic.Wondrous.Cape.Cursed	COST:1300	WT:1	SOURCEPAGE:AaEG		BONUS:STAT|CHA|-6							
+Googles of the Nightblindness		TYPE:Magic.Wondrous.Eyegear.Cursed	COST:1000	WT:0	SOURCEPAGE:AaEG	SPROP:You can see only in condition of bright light.								
+Headband of Hostility		TYPE:Magic.Wondrous.Headgear.Cursed	COST:13000	WT:0	SOURCEPAGE:AaEG	SPROP:when casting any Conjuration (Summoning) or Conjuration (Calling) the conjured creature is hostile to the caster.	BONUS:STAT|INT|4							
+Periapt of Hostility		TYPE:Magic.Wondrous.Amulet.Cursed	COST:13000	WT:0	SOURCEPAGE:AaEG	SPROP:when casting any Conjuration (Summoning) or Conjuration (Calling) the conjured creature is hostile to the caster.	BONUS:STAT|WIS|4							
+Headband of Simplemindness		TYPE:Magic.Wondrous.Headgear.Cursed	COST:1300	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|INT|-6							
+Necklace of the Vampire		TYPE:Magic.Wondrous.Amulet.Cursed	COST:90000	WT:0	SOURCEPAGE:AaEG									
+Periapt of Oblivion		TYPE:Magic.Wondrous.Amulet.Cursed	COST:1300	WT:0	SOURCEPAGE:AaEG	SPROP:Appears to be a Periapt of Wisdom +6.	BONUS:STAT|WIS|-6							
+														
+###Block: Artifact														
+The Crystal of the Ebon Flame		TYPE:Artifact.Magic	COST:0	WT:0	SOURCEPAGE:AaEG	SPROP:1/day Mind Blank or Protection from Spells.	BONUS:DC|SPELL.Scry,SPELL.Scry (Greater)|10|TYPE=Circumstance	SPELLS:Crystal of the Ebon Blade|TIMES=1|CASTERLEVEL=20|Discern Location|Scrying (Greater),25|Vision						
+Daoud's Wondrous Lantern		TYPE:Artifact.Magic.LightSource	COST:0	WT:0	SOURCEPAGE:AaEG	SPROP:consumes 10'000 gp of transparent gems, each gems cannot be valued less than 500 gp.	EQMOD:CHARGED_ITEM_100|100							
+Iron Flask of Tuweny the Merciless		TYPE:Artifact.Magic.Container	COST:0	WT:0	SOURCEPAGE:AaEG		CONTAINS:*UNLIM|Demon=100							
+Jacinth of Inestimable Beauty		TYPE:Artifact.Magic.Gem	COST:0	WT:0	SOURCEPAGE:AaEG									
+Johydee's Mask		TYPE:Artifact.Magic.Headgear	COST:0	WT:0	SOURCEPAGE:AaEG		ABILITY:Special Ability|VIRTUAL|Immunity To Gaze|Immunity To Mind-Affecting	SPELLS:Johydee's Mask|TIMES=ATWILL|CASTERLEVEL=3|Alter Self						
+Crown of Evil		TYPE:Artifact.Magic.Headgear	COST:0	WT:0	SOURCEPAGE:AaEG	SPROP:Unnerving Gaze at will (Will DC 15). 3/day Burst of Hellfire in 5-ft mradius 3d6 damage (No saving throw).	ABILITY:Special Ability|VIRTUAL|Regalia of Evil|Immunity To Fire	BONUS:VAR|RegaliaOfEvilLVL|1	BONUS:STAT|STR|4|Enhancement	BONUS:COMBAT|AC|4|TYPE=Deflection	SPELLS:Crown of Evil|TIMES=3|CASTERLEVEL=20|Create Undead|Wall of Fire			
+Scepter of Evil		TYPE:Artifact.Magic.Rod	COST:0	WT:0	SOURCEPAGE:AaEG		ABILITY:Special Ability|VIRTUAL|Regalia of Evil	BONUS:VAR|RegaliaOfEvilLVL|1	BONUS:STAT|CHA|4|TYPE=Enhancement	SPELLS:Scepter of Evil|TIMES=3|CASTERLEVEL=20|Fear,19|Fireball ~ Scepter of Evil,18|Contagion,18|Enervation,19				
+Orb of Evil		TYPE:Artifact.Magic	COST:0	WT:0	SOURCEPAGE:AaEG	SPROP:Absorbs spells.	ABILITY:Special Ability|VIRTUAL|Regalia of Evil|Basic Turning|Rebuke Undead	BONUS:VAR|RegaliaOfEvilLVL|1	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|15|TYPE=Base	BONUS:STAT|WIS|4|TYPE=Enhancement				
+Crown of Good		TYPE:Artifact.Magic.Headgear	COST:0	WT:0	SOURCEPAGE:AaEG	DESC:Wearer cannot speak any lies.	ABILITY:Special Ability|VIRTUAL|Regalia of Good|Immunity To Electricity	BONUS:VAR|RegaliaOfGoodLVL|1	BONUS:STAT|WIS|4|TYPE=Enhancement	BONUS:COMBAT|AC|4|TYPE=Deflection	SR:20	SPELLS:Crown of Good|TIMES=ATWILL|CASTERLEVEL=20|Guidance	SPELLS:Crown of Good|TIMES=3|CASTERLEVEL=20|Heroes' Feast|Sending|Status	SPELLS:Crown of Good|TIMES=1|CASTERLEVEL=20|Globe of Invulnerability
+Scepter of Good		TYPE:Artifact.Magic.Rod	COST:0	WT:0	SOURCEPAGE:AaEG	DESC:Reclaim loyalty of 300 HD of creature. Cannot refuse pleas for help, no matter how desperate the cause.	ABILITY:Special Ability|VIRTUAL|Regalia of Good|Immunity To Mind-Affecting	BONUS:VAR|RegaliaOfGoodLVL|1	BONUS:STAT|CHA|4|TYPE=Enhancement	SPELLS:Scepter of GoodTIMES=3|CASTERLEVEL=20|Holy Smite,19|Searing Light,18				
+Orb of Good		TYPE:Artifact.Magic	COST:0	WT:0	SOURCEPAGE:AaEG	DESC:Can be used as a Crystall Ball for Scry spell with added ability of Detect Thoughts.	ABILITY:Special Ability|VIRTUAL|Regalia of Good|Basic Turning|Turn Undead	BONUS:VAR|RegaliaOfGoodLVL|1	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|15|TYPE=Base	BONUS:STAT|INT|4|TYPE=Enhancement	SPELLS:Orb of Good|TIMES=1|CASTERLEVEL=20|Heal			

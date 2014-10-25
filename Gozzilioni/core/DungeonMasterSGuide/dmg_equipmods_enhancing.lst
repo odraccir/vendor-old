@@ -6,4 +6,4 @@ CRYS_MUN.MOD	ASSIGNTOALL:NO
 CRYS_DEEP.MOD	ASSIGNTOALL:NO
 
 ###TODO: Light Emitting QUALITY:Bright Illumination|20 ft. QUALITY:Shadowy Illumination|40 ft. QUALITY:Duration|Permanent
-Light Emitting				KEY:LGHT_EMIT		TYPE:Ammunition.Armor.Shield.Weapon					COST:0	VISIBLE:QUALIFY	ITYPE:LightSource								SOURCEPAGE:DMG		PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Ammunition,Armor,Shield,Weapon]																																																SOURCEPAGE:DMG				SPROP:Emit light equivalent to that of a torch.	QUALITY:Bright Illumination|20 ft. QUALITY:Shadowy Illumination|40 ft. QUALITY:Duration|Permanent	ASSIGNTOALL:NO
+Light Emitting				KEY:LGHT_EMIT		TYPE:Ammunition.Armor.Shield.Weapon					COST:0	VISIBLE:QUALIFY	ITYPE:LightSource								SOURCEPAGE:DMG		PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Ammunition,Armor,Shield,Weapon]	SPROP:Emit light equivalent to that of a torch.	QUALITY:Bright Illumination|20 ft. QUALITY:Shadowy Illumination|40 ft. QUALITY:Duration|Permanent	ASSIGNTOALL:NO

@@ -252,8 +252,8 @@ Animal Trainer's Kit		TYPE:Goods.Tools.Resizable	COST:50	WT:5	SOURCEPAGE:AaEG			
 Forger's Kit		TYPE:Goods.Tools.Resizable	COST:25	WT:2	SOURCEPAGE:AaEG			BONUS:SKILL|Forgery|2|TYPE=Circumstance						
 Jester's Kit		TYPE:Goods.Tools.Resizable	COST:10	WT:5	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on Perform (Comedy), Perform (Buffoonery) or Disguise								
 Navigator's Kit		TYPE:Goods.Tools.Resizable	COST:250	WT:8	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on Intuit Direction and Wilderness Lore while at sea, and Profession (Cartographer) checks to make maps		BONUS:SKILL|Forgery|2|TYPE=Circumstance						
-Scryer's Kit		TYPE:Goods.Tools.Resizable	COST:40	WT:2	SOURCEPAGE:AaEG			BONUS:SKILL|Scry|2|TYPE=Circumstance						
-Swimmer's Kit		TYPE:Goods.Tools.Resizable	COST:15	WT:5	SOURCEPAGE:AaEG			BONUS:SKILL|Swim|2|TYPE=Circumstance						
+Scryer's Kit		TYPE:Goods.Tools.Resizable	COST:40	WT:2	SOURCEPAGE:AaEG	BONUS:DC|SPELL.Scry|2|TYPE=Circumstance
+Swimmer's Kit		TYPE:Goods.Tools.Resizable	COST:15	WT:5	SOURCEPAGE:AaEG	BONUS:DC|SPELL.Scry|2|TYPE=Circumstance
 Billhook		TYPE:Goods.Tools.Farming.Resizable	COST:5	WT:2	SOURCEPAGE:AaEG									
 Hoe		TYPE:Goods.Tools.Farming.Resizable	COST:3	WT:2	SOURCEPAGE:AaEG									
 Pitchfork		TYPE:Goods.Tools.Farming.Resizable	COST:2	WT:4	SOURCEPAGE:AaEG									
@@ -625,3 +625,8 @@ Trainer (extra/Difficult special ability)		TYPE:Service	COST:500		SOURCEPAGE:AaE
 Trainer (extra/Vicious or Virtuous Creature)		TYPE:Service	COST:1000		SOURCEPAGE:AaEG									
 Trainer (extra/Assistant Required)		TYPE:Service	COST:100		SOURCEPAGE:AaEG									
 Trainer (extra/Charm Monster)		TYPE:Service	COST:700		SOURCEPAGE:AaEG									
+
+#other 
+Lockpicks (Masterwork)	KEY:Gnome's Toolkit ~ Lockpicks (Masterwork)	TYPE:GnomesToolkit.Masterwork.Consumable	COST:0	WT:0	SOURCEPAGE:AaEG, p. 108	PREEQUIP:1,Gnome's Toolkit
+Magnifying Glass	KEY:Gnome's Toolkit ~ Magnifying Glass	TYPE:GnomesToolkit.Consumable	COST:0	WT:0	SOURCEPAGE:AaEG, p. 108	PREEQUIP:1,Gnome's Toolkit	SPROP:a +2 circumstance bonus on Appraise checks involving any item that is small or highly detailed.
+Mirror (Small/Silver)	KEY:Gnome's Toolkit ~ Mirror (Small/Silver)	TYPE:GnomesToolkit.Consumable	COST:0	WT:0	SOURCEPAGE:AaEG, p. 108	PREEQUIP:1,Gnome's Toolkit

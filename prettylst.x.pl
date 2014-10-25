@@ -5851,6 +5851,7 @@ sub FILETYPE_parse {
         $new_line =~ s/\x9B/>/g;
         $new_line =~ s/\x9C/oe/g;
         $new_line =~ s/[^!-~\s]//g;
+        $new_line =~ s/[^\x00-\x7F]//g; 
         if (!(length($new_line) == 0) && !($new_line = $old_line) ) {
         $logging->ewarn(WARNING,
             qq("$new_line" contains illegal charachter),

@@ -1,0 +1,13 @@
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03
+											
+# Kits granted to Familiar											
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Special Mount										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Fiendish Servant										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Undead Companion										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Familiar										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Animal Companion										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Shadow Companion										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+FOLLOWER:WeaponLanceOfBravery=1	TYPE:Mount										ABILITY:Special Ability|VIRTUAL|Immunity To Fear
+											
+# abilities that Familiars grant to master											
+# MASTERBONUSRACE:Companion ~ Fire Bat	TYPE:Familiar										
