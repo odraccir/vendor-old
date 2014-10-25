@@ -16,6 +16,7 @@ See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYP
 See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange																											
 Breathsense Vision	KEY:Breathsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:BreathsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|BreathsenseRange	VISION:Breathsense (BreathsenseRange)			ASPECT:Vision|Breathsense %1'|BreathsenseRange																											
 Woodsense Vision	KEY:Woodsense Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:WoodsenseRange|0	DESC:Can automatically sense the location of any breathing creature within %1'.|WoodsenseRange	VISION:Woodsense (WoodsenseRange)			ASPECT:Vision|Woodsense %1'|WoodsenseRange																											
+True Seeing Vision	KEY:True Seeing Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:TrueSeeingRange|0	DESC:As True Seeing spell within %1'.|TrueSeeingRange	VISION:True Seeing (TrueSeeingRange)			ASPECT:Vision|True Seeing %1'|TrueSeeingRange																											
 CATEGORY=Special Ability|Keen Scent.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0
 
 #																																				
@@ -24,6 +25,7 @@ CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See In Darkness Vision|PREMULT:1,[PREVARGTEQ:SeeInDarknessRange,1],[PREVARGTEQ:HasSeeInDarknessVision,1]	DEFINE:HasSeeInDarknessVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breathsense Vision|PREMULT:1,[PREVARGTEQ:BreathsenseRange,1],[PREVARGTEQ:HasBreathsenseVision,1]	DEFINE:HasBreathsenseVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Woodsense Vision|PREMULT:1,[PREVARGTEQ:WoodsenseRange,1],[PREVARGTEQ:HasWoodsenseVision,1]	DEFINE:HasWoodsenseVision|0																																		
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|True Seeing Vision|PREMULT:1,[PREVARGTEQ:TrueSeeingRange,1],[PREVARGTEQ:HasTrueSeeingVision,1]	DEFINE:HasTrueSeeingVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Keen Scent|PREMULT:1,[PREVARGTEQ:KeenScentBloodRadius,1],[PREVARGTEQ:HasKeenScent,1]	DEFINE:HasKeenScent|0																																		
 #																																				
 # CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Regeneration|PREMULT:1,[PREVARGTEQ:RegenerationRate,1],[PREVARGTEQ:HasRegeneration,1]	DEFINE:HasRegeneration|0																																		
@@ -94,6 +96,12 @@ Resistance To Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Re
 Resistance To Gaze Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Gaze	DESC:You get a +%1 bonus on saving throws against Gaze-based effects.|GazeResistanceBonus	ASPECT:Resistance|Gaze	ASPECT:Ability Benefit|%1|GazeResistanceBonus																									SOURCEPAGE:MM2				
 Immunity To Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Gaze-based effects damage				ASPECT:Immunity|Gaze																									SOURCEPAGE:MM2
 Vulnerability To Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Gaze-based effects.																												SOURCEPAGE:MM				
+
+Resistance To Stun	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:StunResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Stun Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Stun,Vulnerability To Stun													SOURCEPAGE:MM				
+Resistance To Stun Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Stun	DESC:You get a +%1 bonus on Fort saving throws against Stun.|StunResistanceBonus	ASPECT:Resistance|Stun	ASPECT:Ability Benefit|%1|StunResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Stun	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Stun damage				ASPECT:Immunity|Stun																									SOURCEPAGE:MM
+Vulnerability To Stun	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Stun.																												SOURCEPAGE:MM				
+
 
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			

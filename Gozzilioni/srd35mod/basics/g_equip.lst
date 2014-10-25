@@ -1,6 +1,8 @@
 SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 # Equipment Name				Type
+Net.MOD	TYPE:Net
+# Equipment Name				Type
 Ioun Stone (Dull Grey).MOD		TYPE:IounStone																			
 Ioun Stone (Clear).MOD		TYPE:IounStone																			
 Ioun Stone (Dusty Rose).MOD		TYPE:IounStone																			
