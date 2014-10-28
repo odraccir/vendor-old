@@ -10,7 +10,7 @@ ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
 SOURCEDATE:2003-07
 
-#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+INFOTEXT:Things we changed, things we found that are missing and needed, everything that comes without a source.
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #

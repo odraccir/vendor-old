@@ -18,7 +18,7 @@ Lawful Water (Flask)		TYPE:Goods.Flask	COST:25	WT:1	SOURCEPAGE:AaEG
 Bladefire		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG									
 Bullet (Acid)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:10	WT:0.6	SOURCEPAGE:AaEG
 Bullet (Flame)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:20	WT:0.6	SOURCEPAGE:AaEG
-Blullet (Priest's)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:25	WT:0.6	SOURCEPAGE:AaEG
+Bullet (Priest's)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:25	WT:0.6	SOURCEPAGE:AaEG
 Candle (Focusing)		TYPE:Goods.Alchemical.Sacred.Candle	COST:100	WT:1	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.					
 Candle (Restful)		TYPE:Goods.Alchemical.Sacred.Candle	COST:100	WT:1	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.					
 Clearbreath		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG									
@@ -36,7 +36,7 @@ Longbreath		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG
 Motelight		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:Distract								
 Nature's Draught		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG									
 Polar Skin		TYPE:Goods.Alchemical.Flask	COST:25	WT:1	SOURCEPAGE:AaEG									
-Signal Torch		TYPE:Goods.Alchemical	COST:1	WT:1	SOURCEPAGE:AaEG									
+Signal Torch		TYPE:Goods.Alchemical.Toch.LightSource	COST:1	WT:1	SOURCEPAGE:AaEG									
 Sparkstone		TYPE:Goods.Alchemical	COST:50	WT:1	SOURCEPAGE:AaEG	SPROP:1d6 Hp in 5-ft radius								
 Stonebreaker Acid		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:3d10 Hp damage to stone objects								
 Verminbane		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG									

@@ -1,0 +1,80 @@
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																																																													
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+# Monster Abilities																																																																
+STARTPACK:AaEG ~ A-2 Treasure Table Mundane and Alchemical Items	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0																																																												
+SELECT:roll("1d100")																																																																
+GEAR:Bark Armor		OPTION:01,02				OPTION:1,50																																																										
+GEAR:Ring Armor		OPTION:03,04				OPTION:51,75																																																										
+GEAR:Shell Armor		OPTION:05																																																														
+GEAR:Coral Armor		OPTION:06,08																																																														
+GEAR:Stone Armor (Dwarven)		OPTION:09																																																														
+GEAR:Shield (Stiletto)		OPTION:10																																																														
+GEAR:Bondleaf Wrap		OPTION:11																																																														
+GEAR:Wicker Armor		OPTION:12,13																																																														
+GEAR:Moonivy Armor		OPTION:14																																																														
+GEAR:Moonivy Armor		OPTION:15	EQMOD:MOONIVY_EXPLOSIVE																																																													
+GEAR:Moonivy Armor		OPTION:16	EQMOD:MOONIVY_POISON																																																													
+GEAR:Moonivy Armor		OPTION:17	EQMOD:MOONIVY_PHEROM																																																													
+GEAR:Bone Armor		OPTION:18																																																														
+GEAR:Cord Armor		OPTION:19																																																														
+GEAR:Wood Armor		OPTION:20																																																														
+GEAR:Leather Scale Armor		OPTION:21																																																														
+GEAR:Brigandine Armor		OPTION:22																																																														
+GEAR:Lamellar Armor		OPTION:23,25																																																														
+GEAR:Dastana		OPTION:26																																																														
+GEAR:Dendritic Armor		OPTION:27																																																														
+GEAR:Animal Call		OPTION:28																																																														
+GEAR:Armor Maintenance Kit		OPTION:29																																																														
+GEAR:Ascender/Slider		OPTION:30																																																														
+GEAR:Bolt Cutters		OPTION:31																																																														
+GEAR:Brewmaker (Dwarven)		OPTION:32																																																														
+GEAR:Candle (insectbane)		OPTION:33																																																														
+GEAR:Darkvision Powder		OPTION:34,35																																																														
+GEAR:Finger Blades		OPTION:36																																																														
+GEAR:Glass Cutter		OPTION:37																																																														
+GEAR:Grappling Hook (collapsible)		OPTION:38																																																														
+GEAR:Hacksaw (Common)		OPTION:39																																																														
+GEAR:Housebreaker Harness		OPTION:40																																																														
+GEAR:Ice Axe		OPTION:41,42																																																														
+GEAR:Lantern (Fog-cutter)		OPTION:43																																																														
+GEAR:Marbles		OPTION:44,45																																																														
+GEAR:Percolator		OPTION:46																																																														
+GEAR:Periscope		OPTION:47																																																														
+GEAR:Quiver (Scabbard)		OPTION:48																																																														
+GEAR:Rope (Elven/20 Ft.)		OPTION:49																																																														
+GEAR:Saw (Folding)		OPTION:50																																																														
+GEAR:Shoes (Silent)		OPTION:51																																																														
+GEAR:Sparker		OPTION:52,53																																																														
+GEAR:Spider Poles		OPTION:54,55																																																														
+GEAR:Springwall		OPTION:56																																																														
+GEAR:Helmet (Thieving)		OPTION:57																																																														
+GEAR:Twine (Roll/50-ft)		OPTION:58,59																																																														
+GEAR:Lawful Water (Flask)		OPTION:60,61																																																														
+GEAR:Chaotic Water (Flask)		OPTION:62,63																																																														
+GEAR:Boots (Smuggler's)		OPTION:64,65																																																														
+GEAR:Bullet (Acid)	QTY:roll("1d4")	OPTION:66																																																														
+GEAR:Bullet (Flame)	QTY:roll("1d4")	OPTION:67																																																														
+GEAR:Hawk's Ointment	QTY:roll("1d4")	OPTION:68																																																														
+GEAR:Vicious Bleeder	QTY:roll("1d4")	OPTION:69																																																														
+GEAR:Candle (Focusing)	QTY:roll("1d10")	OPTION:70,72																																																														
+GEAR:Candle (Restful)	QTY:roll("1d10")	OPTION:73,75																																																														
+GEAR:Clearbreath	QTY:roll("1d4")	OPTION:76																																																														
+GEAR:Defoliator	QTY:roll("1d4")	OPTION:77																																																														
+GEAR:Dehydratated Food	QTY:roll("2d10")	OPTION:78																																																														
+GEAR:Dwarfblind	QTY:roll("1d4")	OPTION:79																																																														
+GEAR:Farflame Oil		OPTION:80																																																														
+GEAR:Motelight		OPTION:81																																																														
+GEAR:Fleetfoot	QTY:roll("1d4")	OPTION:82																																																														
+GEAR:Gravebane	QTY:roll("1d4")	OPTION:83																																																														
+GEAR:Instant Rope		OPTION:84																																																														
+GEAR:Longbreath	QTY:roll("1d4")	OPTION:85																																																														
+GEAR:Nature's Draught	QTY:roll("1d4")	OPTION:86																																																														
+GEAR:Ghostoil	QTY:roll("1d4")	OPTION:87																																																														
+GEAR:Bullet (Priest's)		OPTION:88,89																																																														
+GEAR:Signal Torch	QTY:roll("2d6")	OPTION:90,91																																																														
+GEAR:Sparkstone	QTY:roll("2d6")	OPTION:92,94																																																														
+GEAR:Stonebreaker Acid	QTY:roll("1d4")	OPTION:95																																																														
+GEAR:Bladefire	QTY:roll("1d4")	OPTION:96																																																														
+GEAR:Verminbane	QTY:roll("1d4")	OPTION:97																																																														
+#KIT:AaEG ~ A-14 Treasure Table 																																																																

@@ -1,0 +1,64 @@
+CAMPAIGN:Gozzilioni Arms and Equipment Guide
+GAMEMODE:35e
+RANK:6
+TYPE:Gozzilioni.Partial.Accessory
+SETTING:Heroes
+SOURCELONG:Gozzilioni Arms and Equipment Guide
+SOURCESHORT:AaEG
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-03
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2005 by me
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+#
+#PCC:@/d20ogl/srd35/rsrd.pcc
+#
+#Arms and Equipment Guide
+ABILITY:aaeg_abilities.lst
+ABILITY:aaeg_abilities_class.lst
+ABILITY:aaeg_abilities_races.lst
+ABILITYCATEGORY:aaeg_abilitycategories.lst
+COMPANIONMOD:aaeg_companionmods.lst
+EQUIPMENT:aaeg_equip.lst
+EQUIPMENT:aaeg_equip_arms_and_armor.lst
+EQUIPMENT:aaeg_equip_magic_items.lst
+EQUIPMOD:aaeg_equipmods.lst
+FEAT:aaeg_feats.lst
+ARMORPROF:aaeg_profs_armor.lst
+SHIELDPROF:aaeg_profs_shield.lst
+WEAPONPROF:aaeg_profs_weapon.lst
+RACE:aaeg_races.lst
+SKILL:aaeg_skills.lst
+SPELL:aaeg_spells.lst
+
+#ABILITY:my_abilities.lst
+#ABILITYCATEGORY:my_ability_categories.lst
+#BIOSET:my_biosettings.lst
+#CLASS:my_classes.lst
+#COMPANIONMOD:my_companionmods.lst
+#DEITY:my_deities.lst
+#DOMAIN:my_domains.lst
+#EQUIPMENT:my_equipment.lst
+#EQUIPMOD:my_equipmods.lst
+#FEAT:my_feats.lst
+#KIT:my_kits.lst
+#LANGUAGE:my_languages.lst
+#RACE:my_races.lst
+#SKILL:my_skills.lst
+#SPELL:my_spells.lst
+#TEMPLATE:my_templates.lst
+#WEAPONPROF:my_weaponprofs.lst
+
+### You can hide TYPEs in the GUI - TYPEs are handy for organization, but some are only used for internal functions.
+#HIDETYPE:EQUIP|SpecialSuppressor
+#HIDETYPE:SKILL|Science
+#HIDETYPE:FEAT|Leadership
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want.
+#Options in the Open Source data are 3e, 35e, Modern, Deadlands, Sidewinder, Spycraft, or Xcrawl.
+
+#If you use this framework to set up a dataset of your own, then you may want to rename the folder and files to something
+#different. Otherwise if you ever should install a newer version of PCGen into your existing directory or needed to re-install
+#your existing installation of PCGen, your changes would get overwritten and thus be lost.
