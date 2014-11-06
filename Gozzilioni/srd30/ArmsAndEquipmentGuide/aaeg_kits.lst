@@ -1,11 +1,11 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																																																													
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03
 																																																																
 # Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
 # Monster Abilities																																																																
 STARTPACK:AaEG ~ A-2 Treasure Table Mundane and Alchemical Items	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0																																																												
 SELECT:roll("1d100")																																																																
-GEAR:Bark Armor		OPTION:01,02				OPTION:1,50																																																										
-GEAR:Ring Armor		OPTION:03,04				OPTION:51,75																																																										
+GEAR:Bark Armor		OPTION:01,02																																																														
+GEAR:Ring Armor		OPTION:03,04																																																														
 GEAR:Shell Armor		OPTION:05																																																														
 GEAR:Coral Armor		OPTION:06,08																																																														
 GEAR:Stone Armor (Dwarven)		OPTION:09																																																														
