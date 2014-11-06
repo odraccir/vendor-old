@@ -1,0 +1,14 @@
+SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+# Monster Abilities
+STARTPACK:Xag-Ya Energon Companion	TYPE:Companion	VISIBLE:NO
+RACE:Companion ~ Xag-Ya	!PRERACE:1,%
+ALIGN:TN
+SKILL:Hide	RANK:7
+SKILL:Search	RANK:5
+SKILL:Sense Motive	RANK:8
+SKILL:Spot	RANK:8
+FEAT:Combat Reflexes
+FEAT:Extra Turning
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10

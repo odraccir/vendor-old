@@ -1,0 +1,14 @@
+SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
+																																																																
+###Block:Familiar
+# Class of the Master	Type			Spell Res.		Ability														Copy Masters BAB		Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define Stat									Combat bonus										Template
+FOLLOWER:EnergonCompanionLVL=1	TYPE:Energon Companion				ABILITY:Special Ability|AUTOMATIC|Energon Companion ~ Empathic Link
+FOLLOWER:EnergonCompanionLVL=8	TYPE:Energon Companion				HD:2
+
+###Block: Specific Familiars
+# Class of the Master	Type			Required Race					Apply Kit
+FOLLOWER:EnergonCompanionLVL=1	TYPE:Energon Companion	PRERACE:1,Companion ~ Xag-Ya			KIT:1|Xag-Ya Energon Companion
+
+###Block:Familiar Bonuses to Master
+# Race of familiar					Type			Bonus to HP			Save bonus			Bonus to skill			Virtual Feat
+MASTERBONUSRACE:Companion ~ Xag-Ya	TYPE:Energon Companion
