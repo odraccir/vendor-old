@@ -102,6 +102,40 @@ Resistance To Stun Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordi
 Immunity To Stun	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Stun damage				ASPECT:Immunity|Stun																									SOURCEPAGE:MM
 Vulnerability To Stun	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Stun.																												SOURCEPAGE:MM				
 
+Resistance To Sleep	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:SleepResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Sleep Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Sleep,Vulnerability To Sleep													SOURCEPAGE:MM				
+Resistance To Sleep Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Sleep	DESC:You get a +%1 bonus on Fort saving throws against Sleep.|SleepResistanceBonus	ASPECT:Resistance|Sleep	ASPECT:Ability Benefit|%1|SleepResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Sleep	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Sleep damage				ASPECT:Immunity|Sleep																									SOURCEPAGE:MM
+Vulnerability To Sleep	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Sleep.																												SOURCEPAGE:MM				
+
+Resistance To Paralysis	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:ParalysisResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Paralysis Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Paralysis,Vulnerability To Paralysis													SOURCEPAGE:MM				
+Resistance To Paralysis Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Paralysis	DESC:You get a +%1 bonus on Fort saving throws against Paralysis.|ParalysisResistanceBonus	ASPECT:Resistance|Paralysis	ASPECT:Ability Benefit|%1|ParalysisResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Paralysis	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Paralysis damage				ASPECT:Immunity|Paralysis																									SOURCEPAGE:MM
+Vulnerability To Paralysis	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Paralysis.																												SOURCEPAGE:MM				
+
+Resistance To Mind-Affecting	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:MindAffectingResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Mind-Affecting Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Mind-Affecting,Vulnerability To Mind-Affecting													SOURCEPAGE:MM				
+Resistance To Mind-Affecting Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Mind-Affecting	DESC:You get a +%1 bonus on Fort saving throws against Mind-Affecting.|MindAffectingResistanceBonus	ASPECT:Resistance|MindAffecting	ASPECT:Ability Benefit|%1|MindAffectingResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Mind-Affecting	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Mind-Affecting damage				ASPECT:Immunity|Mind-Affecting																									SOURCEPAGE:MM
+Vulnerability To Mind-Affecting	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Mind-Affecting.																												SOURCEPAGE:MM				
+
+Resistance To Death Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DeathEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Death Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Death Effects,Vulnerability To Death Effects													SOURCEPAGE:MM				
+Resistance To Death Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Death Effects	DESC:You get a +%1 bonus on Fort saving throws against Death Effects.|DeathEffectsResistanceBonus	ASPECT:Resistance|Death Effects	ASPECT:Ability Benefit|%1|DeathEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Death Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Death Effects damage				ASPECT:Immunity|Death Effects																									SOURCEPAGE:MM
+Vulnerability To Death Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Death Effects.																												SOURCEPAGE:MM				
+
+Resistance To Necromantic Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:NecromanticEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Necromantic Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Necromantic Effects,Vulnerability To Necromantic Effects													SOURCEPAGE:MM				
+Resistance To Necromantic Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Necromantic Effects	DESC:You get a +%1 bonus on Fort saving throws against Necromantic Effects.|NecromanticEffectsResistanceBonus	ASPECT:Resistance|Necromantic Effects	ASPECT:Ability Benefit|%1|NecromanticEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Necromantic Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Necromantic Effects damage				ASPECT:Immunity|Necromantic Effects																									SOURCEPAGE:MM
+Vulnerability To Necromantic Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Necromantic Effects.																												SOURCEPAGE:MM				
+
+Resistance To Disease	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DiseaseResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Disease Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Disease,Vulnerability To Disease													SOURCEPAGE:MM				
+Resistance To Disease Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Disease	DESC:You get a +%1 bonus on Fort saving throws against Disease.|DiseaseResistanceBonus	ASPECT:Resistance|Disease	ASPECT:Ability Benefit|%1|DiseaseResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Disease	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Disease damage				ASPECT:Immunity|Disease																									SOURCEPAGE:MM
+Vulnerability To Disease	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Disease.																												SOURCEPAGE:MM				
+
+Resistance To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:EnergyDrainResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Energy Drain Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Energy Drain,Vulnerability To Energy Drain													SOURCEPAGE:MM2				
+Resistance To Energy Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Energy Drain	DESC:You get a +%1 bonus on saving throws against Energy Drain-based effects.|EnergyDrainResistanceBonus	ASPECT:Resistance|Energy Drain	ASPECT:Ability Benefit|%1|EnergyDrainResistanceBonus																									SOURCEPAGE:MM2				
+Immunity To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Energy Drain-based effects damage				ASPECT:Immunity|Energy Drain																									SOURCEPAGE:MM2
+Vulnerability To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Energy Drain-based effects.																												SOURCEPAGE:MM				
 
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
@@ -145,6 +179,7 @@ Energy Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES														
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Entangle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Enslave	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
+Explosion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DaD
 Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		

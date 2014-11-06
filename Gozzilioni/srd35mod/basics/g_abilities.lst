@@ -1,71 +1,50 @@
-SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
-
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:	
+SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																													
+																																
+# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
 CATEGORY=Special Ability|Dwarf ~ Stonecunning.MOD	BONUS:VAR|StonecunningLevel|1|TYPE=Stonecunning																															
-CATEGORY=Special Ability|Psionic.MOD	DESC:; Manifester Level %1|PsionML
-
-Base Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel.SkillLevelBase.SpecialQuality	VISIBLE:YES	DESC:Skill Level %1|SkillLVL	DESC:Apprentice|PREVARLTEQ:SkillLVL,4	DESC:Journeyman|PREMULT:2,[PREVARGTEQ:SkillLVL,5],[PREVARLTEQ:SkillLVL,11]	DESC:Master|PREMULT:2,[PREVARGTEQ:SkillLVL,12],[PREVARLTEQ:SkillLVL,15]	DESC:Grand Master|PREVARGTEQ:SkillLVL,16	DESC:Helpers %1|(SkillLVL-4)|PREVARGTEQ:SkillLVL,5	DEFINE:SkillLVL|0																						SOURCEPAGE:DD										
-
-Shield Prof ~ Light			CATEGORY:Internal		TYPE:ShieldProfTower.ShieldProf.ShieldProfLight	SERVESAS:FEAT|Shield Proficiency		AUTO:SHIELDPROF|SHIELDTYPE=Light
-Shield Prof ~ Buckler			CATEGORY:Internal		TYPE:ShieldProfTower.ShieldProf.ShieldProfLight.ShieldProfBuckler	SERVESAS:FEAT|Shield Proficiency		AUTO:SHIELDPROF|SHIELDTYPE=Buckler
-
-CATEGORY=Special Ability|Animal Trick ~ Attack.MOD	DESC:Attack ~ DC 20 ~ The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals.																																	
-CATEGORY=Special Ability|Animal Trick ~ Attack II.MOD	DESC:Attack ~ DC 20 ~ The animal attacks apparent enemies. You may point to a particular creature (including such unnatural creatures as undead and aberrations) that you wish the animal to attack, and it will comply if able.																																	
-CATEGORY=Special Ability|Animal Trick ~ Come.MOD	DESC:Come  ~ DC 15 ~ The animal comes to you, even if it normally would not do so.																																	
-CATEGORY=Special Ability|Animal Trick ~ Defend.MOD	DESC:Defend ~ DC 20 ~ The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend a specific other character.																																	
-CATEGORY=Special Ability|Animal Trick ~ Down.MOD	DESC:Down ~ DC 20 ~ The animal breaks off from combat or otherwise backs down.																																	
-CATEGORY=Special Ability|Animal Trick ~ Fetch.MOD	DESC:Fetch ~ DC 15 ~ The animal goes and gets something. If you do not point out a specific item, the animal fetches some random object.																																	
-CATEGORY=Special Ability|Animal Trick ~ Guard.MOD	DESC:Guard ~ DC 20 ~ The animal stays in place and prevents others from approaching.																																	
-CATEGORY=Special Ability|Animal Trick ~ Heel.MOD	DESC:Heel ~ DC 15 ~ The animal follows you closely, even to places where it normally would not go.																																	
-CATEGORY=Special Ability|Animal Trick ~ Perform.MOD	DESC:Perform ~ DC 15 ~ The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.																																	
-CATEGORY=Special Ability|Animal Trick ~ Seek.MOD	DESC:Seek ~ DC 15 ~ The animal moves into an area and looks around for anything that is obviously alive or animate.																																	
-CATEGORY=Special Ability|Animal Trick ~ Stay.MOD	DESC:Stay ~ DC 20 ~ The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.																																	
-CATEGORY=Special Ability|Animal Trick ~ Track.MOD	DESC:Track ~ DC 20 ~ The animal tracks the scent presented to it.	PREABILITY:1,CATEGORY=Special Ability,Scent																																
-CATEGORY=Special Ability|Animal Trick ~ Work.MOD	DESC:Work ~ DC 15 ~ The animal pulls or pushes a medium or heavy load.																																	
-
-# CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Turn Earth.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Rebuke Earth.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Turn Water.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Rebuke Water.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Turn Fire.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Rebuke Fire.MOD	TYPE:TurnElemental																																
-# CATEGORY=Special Ability|Druid ~ Wild Shape.MOD	TYPE:WildShape																																
-# CATEGORY=Special Ability|Rage.MOD	TYPE:Rage																																
-# CATEGORY=Special Ability|Curse of Lycanthropy.MOD	DEFINE:CurseOfLycanthropyDC|15	DESC:Fort DC %1|CurseOfLycanthropyDC																															
-# CATEGORY=Special Ability|Whirlwind.MOD	DESC:Ref DC %1|WhirlwindDC	DEFINE:WhirlwindDC|10+(HD/2)+STR	BONUS:VAR|WhirlwindDC|2|PREFEAT:1,Ability Focus (Whirlwind)																														
-# CATEGORY=Special Ability|Burn.MOD	DESC:Ref DC %1|BurnDC	DEFINE:BurnDC|10+(HD/2)+CON	BONUS:VAR|BurnDC|2|PREFEAT:1,Ability Focus (Burn)																														
-# CATEGORY=Special Ability|Vortex.MOD	DESC:Ref DC %1|VortexDC	DEFINE:VortexDC|10+(HD/2)+CON	BONUS:VAR|VortexDC|2|PREFEAT:1,Ability Focus (Vortex)																														
-# CATEGORY=Special Ability|Distraction.MOD	DESC:Fort DC %1|DistractionDC	DEFINE:DistractionDC|10+(HD/2)+CON	BONUS:VAR|DistractionDC|2|PREFEAT:1,Ability Focus (Distraction)																														
-# CATEGORY=Special Ability|Rend.MOD	DESC:%1d%2 + %3|RendDice|RendDie|RendBonusDamage	DEFINE:RendDice|0	DEFINE:RendDie|0	DEFINE:RendBonusDamage|STR*3/2																													
-# CATEGORY=Special Ability|Crippling Strike.MOD	DESC:.CLEAR	DESC:An opponent damaged with Sneak Attack also takes %1 points STR damage.|CripplingStrikeDamage	DEFINE:CripplingStrikeDamage|0	BONUS:VAR|CripplingStrikeDamage|2|TYPE=Base																													
-# CATEGORY=Special Ability|Archmage Spell Power.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|1																																
-# CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBonus|0																															
-# CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate
-#																																	
-# Resistance To Illusions	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:IllusionsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Illusions Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Illusions,Vulnerability To Illusions													SOURCEPAGE:RLCoD										
-# Resistance To Illusions Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Illusions	DESC:You get a +%1 bonus on saving throws against Illusion spells.|IllusionsResistanceBonus	ASPECT:Resistance|Illusions	ASPECT:Ability Benefit|%1|IllusionsResistanceBonus																									SOURCEPAGE:RLCoD										
-
-# Immunity to Ranged Attack	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take damage from ranged magic attack.																												SOURCEPAGE:MM	ASPECT:Immunity|Ranged Attack
-# Mist Form	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	VISIBLE:YES	DESC:You have the supernatural ability to assume a misty form.																												SOURCEPAGE:MMay	
-# Negative Energy Lash	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES																													SOURCEPAGE:MotP
-# Produce Acid	CATEGORY:Special Ability	TYPE:SpecialAttack.Spelllike	VISIBLE:YES																													SOURCEPAGE:MM	
-# Protected Sight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES		DESC:+3 racial bonus on saving throw against any light or pattern effect.																											SOURCEPAGE:MM	
-# Resistance To Ranged Attack	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO					DEFINE:RangedAttackResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Ranged Attack Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Ranged Attack,Vulnerability To Ranged Attack													SOURCEPAGE:MM	
-# Resistance To Ranged Attack Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	DESC:You gain +%1 resistance bonus to saving throws against ranged magic attack|BacklashResistanceBonus	OUTPUTNAME:Resistance To Ranged Attack	ASPECT:Resistance|Ranged Attack	ASPECT:Ability Benefit|%1|RangedAttackResistanceBonus																									SOURCEPAGE:MM	
-# Spurt	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:1 fire damage in 5-ft radius																												SOURCEPAGE:MMay	
-# Stunning Gaze	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.AbilityFocus	VISIBLE:YES	DESC:Will DC %1|StunningGazeDC				DEFINE:StunningGazeDC|10+(HD/2)+CHA			BONUS:VAR|StunningGazeDC|2|PREFEAT:1,Ability Focus (Stunning Gaze)																					SOURCEPAGE:MM	
-# Vulnerability To Ranged Attack	CATEGORY:Special Ability	TYPE:ClassAbility.Extraordinary.SpecialQuality.Weakness	VISIBLE:YES	DESC:You take half again as much (+50%%) damage as normal from magic ranged attack.																												SOURCEPAGE:MM	
+CATEGORY=Special Ability|Psionic.MOD	DESC:; Manifester Level %1|PsionML																															
+CATEGORY=Special Ability|Animal Trick ~ Attack.MOD	DESC:Attack ~ DC 20 ~ The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals.																															
+CATEGORY=Special Ability|Animal Trick ~ Attack II.MOD	DESC:Attack ~ DC 20 ~ The animal attacks apparent enemies. You may point to a particular creature (including such unnatural creatures as undead and aberrations) that you wish the animal to attack, and it will comply if able.																															
+CATEGORY=Special Ability|Animal Trick ~ Come.MOD	DESC:Come  ~ DC 15 ~ The animal comes to you, even if it normally would not do so.																															
+CATEGORY=Special Ability|Animal Trick ~ Defend.MOD	DESC:Defend ~ DC 20 ~ The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend a specific other character.																															
+CATEGORY=Special Ability|Animal Trick ~ Down.MOD	DESC:Down ~ DC 20 ~ The animal breaks off from combat or otherwise backs down.																															
+CATEGORY=Special Ability|Animal Trick ~ Fetch.MOD	DESC:Fetch ~ DC 15 ~ The animal goes and gets something. If you do not point out a specific item, the animal fetches some random object.																															
+CATEGORY=Special Ability|Animal Trick ~ Guard.MOD	DESC:Guard ~ DC 20 ~ The animal stays in place and prevents others from approaching.																															
+CATEGORY=Special Ability|Animal Trick ~ Heel.MOD	DESC:Heel ~ DC 15 ~ The animal follows you closely, even to places where it normally would not go.																															
+CATEGORY=Special Ability|Animal Trick ~ Perform.MOD	DESC:Perform ~ DC 15 ~ The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.																															
+CATEGORY=Special Ability|Animal Trick ~ Seek.MOD	DESC:Seek ~ DC 15 ~ The animal moves into an area and looks around for anything that is obviously alive or animate.																															
+CATEGORY=Special Ability|Animal Trick ~ Stay.MOD	DESC:Stay ~ DC 20 ~ The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.																															
+CATEGORY=Special Ability|Animal Trick ~ Track.MOD	DESC:Track ~ DC 20 ~ The animal tracks the scent presented to it.	PREABILITY:1,CATEGORY=Special Ability,Scent																														
+CATEGORY=Special Ability|Animal Trick ~ Work.MOD	DESC:Work ~ DC 15 ~ The animal pulls or pushes a medium or heavy load.																															
+CATEGORY=Special Ability|Smite Evil.MOD	TYPE:SmiteEvil.Smite	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteEvilToHit|SmiteEvilDamage|SmiteEvil	DEFINE:SmiteEvil|0	DEFINE:SmiteEvilToHit|0	DEFINE:SmiteEvilDamage|0	
+CATEGORY=Special Ability|Smite Good.MOD	TYPE:SmiteGood.Smite	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteGoodToHit|SmiteGoodDamage|SmiteGood	DEFINE:SmiteGood|0	DEFINE:SmiteGoodToHit|0	DEFINE:SmiteGoodDamage|0	
+																																
+# CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Turn Earth.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Rebuke Earth.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Turn Water.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Rebuke Water.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Turn Fire.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Rebuke Fire.MOD	TYPE:TurnElemental																															
+# CATEGORY=Special Ability|Druid ~ Wild Shape.MOD	TYPE:WildShape																															
+# CATEGORY=Special Ability|Rage.MOD	TYPE:Rage																															
+# CATEGORY=Special Ability|Curse of Lycanthropy.MOD	DEFINE:CurseOfLycanthropyDC|15	DESC:Fort DC %1|CurseOfLycanthropyDC																														
+# CATEGORY=Special Ability|Whirlwind.MOD	DESC:Ref DC %1|WhirlwindDC	DEFINE:WhirlwindDC|10+(HD/2)+STR	BONUS:VAR|WhirlwindDC|2|PREFEAT:1,Ability Focus (Whirlwind)																													
+# CATEGORY=Special Ability|Burn.MOD	DESC:Ref DC %1|BurnDC	DEFINE:BurnDC|10+(HD/2)+CON	BONUS:VAR|BurnDC|2|PREFEAT:1,Ability Focus (Burn)																													
+# CATEGORY=Special Ability|Vortex.MOD	DESC:Ref DC %1|VortexDC	DEFINE:VortexDC|10+(HD/2)+CON	BONUS:VAR|VortexDC|2|PREFEAT:1,Ability Focus (Vortex)																													
+# CATEGORY=Special Ability|Distraction.MOD	DESC:Fort DC %1|DistractionDC	DEFINE:DistractionDC|10+(HD/2)+CON	BONUS:VAR|DistractionDC|2|PREFEAT:1,Ability Focus (Distraction)																													
+# CATEGORY=Special Ability|Rend.MOD	DESC:%1d%2 + %3|RendDice|RendDie|RendBonusDamage	DEFINE:RendDice|0	DEFINE:RendDie|0	DEFINE:RendBonusDamage|STR*3/2																												
+# CATEGORY=Special Ability|Crippling Strike.MOD	DESC:.CLEAR	DESC:An opponent damaged with Sneak Attack also takes %1 points STR damage.|CripplingStrikeDamage	DEFINE:CripplingStrikeDamage|0	BONUS:VAR|CripplingStrikeDamage|2|TYPE=Base																												
+# CATEGORY=Special Ability|Archmage Spell Power.MOD	BONUS:CASTERLEVEL|TYPE.Arcane|1																															
+# CATEGORY=Special Ability|Grace.MOD	DESC:Grace (Ex) +%1|GraceBonus	DEFINE:GraceBonus|0																														
+# CATEGORY=Special Ability|Regeneration.MOD	OUTPUTNAME:Regeneration %1|RegenerationRate	DESC:%1|RegenerationRate																														
+#																																
+																																
+Shield Prof ~ Light	CATEGORY:Internal	TYPE:ShieldProfTower.ShieldProf.ShieldProfLight			SERVESAS:FEAT|Shield Proficiency														AUTO:SHIELDPROF|SHIELDTYPE=Light													
+Shield Prof ~ Buckler	CATEGORY:Internal	TYPE:ShieldProfTower.ShieldProf.ShieldProfLight.ShieldProfBuckler																	AUTO:SHIELDPROF|SHIELDTYPE=Buckler													
+																																
+Base Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel.SkillLevelBase.SpecialQuality	VISIBLE:YES	DESC:Skill Level %1|SkillLVL	DESC:Apprentice|PREVARLTEQ:SkillLVL,4	DESC:Journeyman|PREMULT:2,[PREVARGTEQ:SkillLVL,5],[PREVARLTEQ:SkillLVL,11]	DESC:Master|PREMULT:2,[PREVARGTEQ:SkillLVL,12],[PREVARLTEQ:SkillLVL,15]	DESC:Grand Master|PREVARGTEQ:SkillLVL,16	DESC:Helpers %1|(SkillLVL-4)|PREVARGTEQ:SkillLVL,5	DEFINE:SkillLVL|0																						SOURCEPAGE:DD
+Battle Fury	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:%1 times/day (%2 rounds)|BattleFuryTimes|BattleFuryDuration|PREVARGT:BattleFuryTimes,0	DESC:Bonuses when in battle fury (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BattleFuryStrBonus|BattleFuryConBonus|BattleFuryMorale|BattleFuryACPenalty|(BattleFuryConBonus/2)*TL			DEFINE:BattleFuryTimes|0	DEFINE:BattleFuryLvl|0	DEFINE:BattleFuryDuration|0	DEFINE:BattleFuryConBonus|0	DEFINE:BattleFuryStrBonus|0	DEFINE:BattleFuryACPenalty|0	DEFINE:BattleFuryMorale|0	DEFINE:BattleFuried|0	DEFINE:BattleFuryBonus|0	BONUS:VAR|BattleFuryBonus|6	BONUS:VAR|BattleFuryDuration|CON+3+(BattleFuryConBonus/2)	BONUS:VAR|BattleFuryConBonus|BattleFuryBonus	BONUS:VAR|BattleFuryStrBonus|BattleFuryBonus	BONUS:VAR|BattleFuryACPenalty|2	BONUS:VAR|BattleFuryMorale|BattleFuryBonus/2	TEMPBONUS:PC|SAVE|Will|BattleFuryMorale	TEMPBONUS:PC|COMBAT|AC|-1*(BattleFuryACPenalty)	TEMPBONUS:PC|STAT|CON|BattleFuryConBonus	TEMPBONUS:PC|STAT|STR|BattleFuryStrBonus	TEMPBONUS:PC|VAR|BattleFuryDuration|-(BattleFuryConBonus/2)	TEMPBONUS:PC|VAR|BattleFuried|1				SOURCEPAGE:DaD
 #
-###Block: Racial abilities
-# Elf Immunity	CATEGORY:Special Ability	TYPE:SpecialQuality.Immunity	VISIBLE:YES		OUTPUTNAME:Immunity to magic sleep effects														ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep													SOURCEPAGE:Srd																																	
-# Gnome Perception	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:+2 racial bonus on saving throws against illusions							BONUS:VAR|IllusionsResistanceBonus|2|TYPE=Racial							ABILITY:Special Ability|AUTOMATIC|Resistance To Illusions													SOURCEPAGE:Srd																																	
-# Gnome Speak with Animals	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES		OUTPUTNAME:Speak with Animals (burrowing mammal only, duration 1 minute)														SPELLS:Innate|TIMES=1|CASTERLEVEL=1|Speak with Burrowing Mammals,11+CHA													SOURCEPAGE:Srd																																	
-# Stoneworking Skills	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:NO		OUTPUTNAME:+2 racial bonus on Appraise and Craft checks that are related to stone or metal							TEMPBONUS:ANYPC|SKILL|Appraise,TYPE.Craft|2|TYPE=Racial	BONUS:SKILL|Craft (Armorsmithing),Craft (Blacksmithing),Craft (Metalworking),Craft (Stonemasonry),Craft (Stoneworking),Craft (Weaponsmithing)|2|TYPE=Racial	TEMPDESC:Adjusts Appraise and Craft skill bonuses by 2
-
-###Block: Dragon Breath Weapons																																	
-# Breath Weapon ~ Cone of Scalding Steam	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0		DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus (Breath Weapon)	DESC:%1' Cone of Scalding Steam %2d%3 cold DC %4|BreathWeaponCone|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC																					SOURCEPAGE:MMay	
-# Breath Weapon ~ Line of Burning Light	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0		DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus (Breath Weapon)	DESC:%1' Line of Burning Light %2d%3 fire DC %4|BreathWeaponLine|BreathWeaponDice|BreathWeaponDamageDie|BreathWeaponDC																					SOURCEPAGE:MMay	
-# Breath Weapon ~ Line of Caustic Slime	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponLine|0				DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus (Breath Weapon)	DESC:%1' Line of Caustic Slime DC %2|BreathWeaponLine|BreathWeaponDC																					SOURCEPAGE:MMay	
-# Breath Weapon ~ Cloud of Nauseating Gas	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.AbilityFocus	VISIBLE:YES	OUTPUTNAME:Breath Weapon	DEFINE:BreathWeaponCloud|0			DEFINE:BreathWeaponDuration|0	DEFINE:BreathWeaponDC|10+(HD/2)+CON	BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus (Breath Weapon)	DESC:%1' radius Cloud of Nauseating Gas DC %2 for %3 rounds|BreathWeaponCloud|BreathWeaponDC|BreathWeaponDuration																					SOURCEPAGE:MMay	
+Smite Undead	CATEGORY:Special Ability	TYPE:ClassFeatures.SpecialQuality.Supernatural.SmiteUndead.Smite	VISIBLE:YES	DESC:You may attempt to smite good with one normal melee attack. You add your Charisma modifier (if positive) to your attack roll and deals 1 extra point of damage per granting class level. If you accidentally smites a creature that is not good, the smite has no effect, but the use is still spent.	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteUndeadToHit|SmiteUndeadDamage|SmiteUndead	DEFINE:SmiteUndead|0	DEFINE:SmiteUndeadToHit|0	DEFINE:SmiteUndeadDamage|0	

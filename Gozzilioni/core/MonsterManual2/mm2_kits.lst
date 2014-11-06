@@ -628,7 +628,7 @@ RACE:Myconid	!PRERACE:1,%
 NAME:Myconid																																																																
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Myconid Average Worker	TYPE:Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myconid]																																																												
+STARTPACK:Myconid Junior Worker	TYPE:Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myconid]																																																												
 RACE:Myconid	!PRERACE:1,%																																																															
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																

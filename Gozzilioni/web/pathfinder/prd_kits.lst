@@ -371,17 +371,17 @@ GEAR:Torch	QTY:10
 GEAR:Rations (Trail/Per Day)	QTY:5
 GEAR:Waterskin
 
-STARTPACK:Sorcerer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Bedroll
-GEAR:Pouch (Belt)
-GEAR:Flint and Steel
-GEAR:Pot (Iron)
-GEAR:Mess Kit
-GEAR:Soap (Per Lb.)
-GEAR:Torch	QTY:10
-GEAR:Rations (Trail/Per Day)	QTY:5
-GEAR:Waterskin
+# STARTPACK:Sorcerer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+# GEAR:Backpack
+# GEAR:Bedroll
+# GEAR:Pouch (Belt)
+# GEAR:Flint and Steel
+# GEAR:Pot (Iron)
+# GEAR:Mess Kit
+# GEAR:Soap (Per Lb.)
+# GEAR:Torch	QTY:10
+# GEAR:Rations (Trail/Per Day)	QTY:5
+# GEAR:Waterskin
 
 STARTPACK:Troll Slayer's Kit	TYPE:Equipment	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
 GEAR:Alchemist's Fire (Flask)

@@ -31,9 +31,9 @@ Red Dragon Pact	CATEGORY:Special Ability	TYPE:GithyankiRaceTrait.SpecialQuality	
 Spell Resistance	CATEGORY:Special Ability	TYPE:GithyankiRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Spell resistance equal to 5+class levels.	KEY:Githyanki ~ Spell Resistance																		SR:TL+5									SOURCEPAGE:MM
 																																
 Race Traits ~ Githzerai	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=GitzeraiRaceTrait	AUTO:LANG|Githzerai																												
-Psionics	CATEGORY:Special Ability	TYPE:GitzeraiRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Githyanki ~ Psionics																		SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Daze,10+CHA|Feather Fall|Shatter,12+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Plane Shift,17+CHA|PRELEVEL:MIN=11								SOURCEPAGE:MM
-Inertial Armor	CATEGORY:Special Ability	TYPE:GitzeraiRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES		KEY:Githyanki ~ Inertial Armor									BONUS:COMBAT|AC|4|TYPE=Armor																		SOURCEPAGE:MM
-Spell Resistance	CATEGORY:Special Ability	TYPE:GitzeraiRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Spell resistance equal to 5+class levels.	KEY:Githyanki ~ Spell Resistance																		SR:TL+5									SOURCEPAGE:MM
+Psionics	CATEGORY:Special Ability	TYPE:GitzeraiRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Githzerai ~ Psionics																		SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Daze,10+CHA|Feather Fall|Shatter,12+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Plane Shift,17+CHA|PRELEVEL:MIN=11								SOURCEPAGE:MM
+Inertial Armor	CATEGORY:Special Ability	TYPE:GitzeraiRaceTrait.SpecialQuality.SpellLike	VISIBLE:YES		KEY:Githzerai ~ Inertial Armor									BONUS:COMBAT|AC|4|TYPE=Armor																		SOURCEPAGE:MM
+Spell Resistance	CATEGORY:Special Ability	TYPE:GitzeraiRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Spell resistance equal to 5+class levels.	KEY:Githzerai ~ Spell Resistance																		SR:TL+5									SOURCEPAGE:MM
 																																
 CATEGORY=Internal|Race Traits ~ Griffon.MOD	ABILITY:Special Ability|AUTOMATIC|Griffon ~ Training																															
 Training	CATEGORY:Special Ability	TYPE:GriffonRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Training DC 25 Handle Animal check. Require an exotic saddle. Professional trainers charge 1500 gp to rear or train.	KEY:Griffon ~ Training																											SOURCEPAGE:MM
