@@ -1,0 +1,15 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net				
+#						
+Diamond (5000 gp).MOD	SPROP:Material Component for Revive Outsider.
+###Materials Components						
+Bar (Silver/50 gp)		TYPE:MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MotP	SPROP:Material Component for Seal Portal.
+###Focuses						
+Bell (Crystall/100 gp)		TYPE:MaterialComponent.Focus	COST:100	WT:0	SOURCEPAGE:MotP	SPROP:Focus for Alarm (Greater).
+#
+###Block: Demons
+Uridezu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Armanite		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+###Block: Devils
+Spinagon		TYPE:Devil.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+#
+Poison (Sinmaker's Surprise)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:4400	WT:0	SOURCEPAGE:MotP, p.106	SPROP:Injury DC 24/Ingested DC 18, Init.: 2d6 CON + 1d6/round Acid Damage for 3 rounds, Sec.: 2d6 CON.								

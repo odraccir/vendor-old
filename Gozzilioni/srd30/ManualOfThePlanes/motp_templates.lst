@@ -1,0 +1,51 @@
+SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04				
+###Block: Class							
+# Template Name	Visible	Source Page	Special Ability				
+Deity's Alignment	VISIBLE:NO	SOURCEPAGE:MotP	TEMPLATE:CHOOSE:Assign Alignment ~ LG|Assign Alignment ~ LN|Assign Alignment ~ LE|Assign Alignment ~ NG|Assign Alignment ~ TN|Assign Alignment ~ NE|Assign Alignment ~ CG|Assign Alignment ~ CN|Assign Alignment ~ CE|Assign Alignment ~ None				
+Assign Alignment ~ LG	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:LG	KIT:1,LG			
+Assign Alignment ~ LN	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:LN	KIT:1,LN			
+Assign Alignment ~ LE	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:LE	KIT:1,LE			
+Assign Alignment ~ NG	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:NG	KIT:1,NG			
+Assign Alignment ~ TN	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:TN	KIT:1,TN			
+Assign Alignment ~ NE	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:NE	KIT:1,NE			
+Assign Alignment ~ CG	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:CG	KIT:1,CG			
+Assign Alignment ~ CN	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:CN	KIT:1,CN			
+Assign Alignment ~ CE	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:CE	KIT:1,CE			
+Assign Alignment ~ None	VISIBLE:NO	SOURCEPAGE:MotP	PREDEITYALIGN:None				
+Divine Agent ~ Mystic Union	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	RACETYPE:Outsider	TEMPLATE:CHOOSE:Mystic Union ~ LG|Mystic Union ~ LN|Mystic Union ~ LE|Mystic Union ~ NG|Mystic Union ~ TN|Mystic Union ~ NE|Mystic Union ~ CG|Mystic Union ~ CN|Mystic Union ~ CE|Mystic Union ~ None			
+Mystic Union ~ LG	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:LG	DR:10/Chaotic or Evil			
+Mystic Union ~ LN	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:LN	DR:10/Chaotic			
+Mystic Union ~ LE	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:LE	DR:10/Chaotic or Good			
+Mystic Union ~ NG	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:NG	DR:10/Evil			
+Mystic Union ~ TN	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:TN	DR:15/Magic			
+Mystic Union ~ NE	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:NE	DR:10/Good			
+Mystic Union ~ CG	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:CG	DR:10/Lawful or Evil			
+Mystic Union ~ CN	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:CN	DR:10/Lawful			
+Mystic Union ~ CE	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	PREDEITYALIGN:CE	DR:10/Lawful or Good			
+Mystic Union ~ None	VISIBLE:NO	SOURCEPAGE:MotP3.5upd		DR:5/Magic			
+							
+###Block: Other							
+Petitioner VISIBLE:DISPLAY	SOURCEPAGE:MotP	TEMPLATE:CHOOSE:Common Petitioner|Ysgard Petitioner|Limbo Petitioner|Pandemonium Petitioner|Abyss Petitioner|Carceri Petitioner|Hades Petitioner|Gehenna Petitioner|Baator Petitioner|Baator Cania Petitioner|Acheron Petitioner|Mechanus Petitioner|Arcadia Petitioner|Celestia Petitioner|Bytopia Petitioner|Elysium Petitioner|Beastland Petitioner|Arborea Petitioner|Arborea Bacchae Petitioner|Concordant Opposition Petitioner					
+Common Petitioner	VISIBLE:NO	SOURCEPAGE:MotP					
+Ysgard Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Fire|Resistance To Electricity|Resistance To Sonic	BONUS:VAR|ElectricityResistanceBonus,SonicResistanceBonus|10|TYPE=Resistance			
+Limbo Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Fire|Immunity To Cold|Resistance To Electricity|Resistance To Acid|Petitioner ~ Limbo Morphic Stability	BONUS:VAR|ElectricityResistanceBonus,AcidResistanceBonus|10|TYPE=Resistance			
+Pandemonium Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Sonic|Resistance To Acid|Resistance To Cold	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus|10|TYPE=Resistance			
+Abyss Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Poison|Resistance To Acid|Resistance To Fire|Petitioner ~ Abyss Acidic Vapor|Petitioner ~ Abyss No Planar Commitment	BONUS:VAR|AcidResistanceBonus,FireResistanceBonus|10|TYPE=Resistance			
+Carceri Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Cold|Resistance To Electricity|Resistance To Fire|Petitioner ~ Carceri Skills	BONUS:VAR|ElectricityResistanceBonus,AcidResistanceBonus|10|TYPE=Resistance			
+Hades Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Immunity To Fire|Resistance To Electricity|Resistance To Acid|Petitioner ~ Hades Wounding|Petitioner ~ Hades Disease|Petitioner ~ Hades No Planar Commitment	BONUS:VAR|ElectricityResistanceBonus,AcidResistanceBonus|10|TYPE=Resistance			
+Gehenna Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Poison|Resistance To Cold|Resistance To Fire|Petitioner ~ Gehenna Surefoot	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|10|TYPE=Resistance			
+Baator Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Poison|Resistance To Cold|Resistance To Fire|Petitioner ~ Baator Mindless|Petitioner ~ Baator No Planar Commitment	BONUS:VAR|FireResistanceBonus,ColdResistanceBonus|10|TYPE=Resistance	DR:5/Silver	SR:5	
+Baator Cania Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Immunity To Poison|Resistance To Acid|Petitioner ~ Baator Mindless|Petitioner ~ Baator No Planar Commitment	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	DR:5/Silver	SR:5	
+Acheron Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Sonic|Resistance To Cold|Resistance To Fire|Petitioner ~ Acheron Hearten	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|10|TYPE=Resistance			
+Mechanus Petitioner	VISIBLE:NO	SOURCEPAGE:MotP	ABILITY:Special Ability|AUTOMATIC|Immunity To Fire|Immunity To Cold				
+Arcadia Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Acid|Immunity To Sonic|Resistance To Cold|Resistance To Electricity|Petitioner ~ Arcadia Detect Chaos/Good	BONUS:VAR|ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance			
+Celestia Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Internal|AUTOMATIC|Race Traits ~ Archon	RACESUBTYPE:Archon	DR:5/Magic	HITDIE:8|CLASS.TYPE=Monster	VFEAT:Improved Initiative
+Bytopia Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Immunity To Fire|Resistance To Electricity|Petitioner ~ Bytopia Magic Circle against Evil	BONUS:VAR|ElectricityResistanceBonus|10|TYPE=Resistance			
+Elysium Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold|Immunity To Electricity|Resistance To Fire|Petitioner ~ Elysium Former Class	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance			
+Beastland Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Poison|Resistance To Cold|Resistance To Fire|Fast Healing	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|10|TYPE=Resistance	BONUS:VAR|FastHealingRate|2|TYPE=Racial		
+Arborea Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Poison|Resistance To Cold|Resistance To Fire	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|10|TYPE=Resistance	DR:5/Magic		
+Arborea Bacchae Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Poison|Resistance To Cold|Resistance To Fire|Resistance To Acid|Petitioner ~ Arborea Entice	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,FireResistanceBonus|10|TYPE=Resistance	DR:5/Magic		
+Concordant Opposition Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Polymorph|Immunity To Petrification|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	DR:5/Magic		
+							
+###Block: Disease							
+Disease Damage (Grey Wasting)		VISIBLE:NO	SOURCEPAGE:MotP, p. 110	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Charisma Drain		TEMPDESC:Infection DC 20 (Contact), Incubation 1 days, Damage 1d4 Cha drain, Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)

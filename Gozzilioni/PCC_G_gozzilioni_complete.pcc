@@ -21,6 +21,7 @@ PCC:&/Gozzilioni/srd30/Srd/_srd30.pcc
 PCC:&/Gozzilioni/srd30/MasterOfTheWild/_masterofthewild.pcc
 PCC:&/Gozzilioni/srd30/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
 PCC:&/Gozzilioni/srd30/DeitiesAndDemigods/_deitiesanddemigods.pcc
+PCC:&/Gozzilioni/srd30/ManualOfThePlanes/_manualoftheplanes.pcc
 PCC:&/Gozzilioni/houserules/_houserules.pcc
 #Core
 PCC:&/Gozzilioni/core/DungeonMasterSGuide/_dungeonsmastersguide.pcc
@@ -37,6 +38,8 @@ PCC:&/Gozzilioni/web/spelljammer/_spelljammer.pcc
 PCC:&/Gozzilioni/web/ruleofcool/_ruleofcool.pcc
 PCC:&/Gozzilioni/web/pathfinder/_pathfinder.pcc
 #
+
+HIDETYPE:SKILL|Accessory
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

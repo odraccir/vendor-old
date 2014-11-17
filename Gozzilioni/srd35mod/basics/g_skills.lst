@@ -4,6 +4,7 @@ SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://ww
 Appraise.MOD	SITUATION:By weight
 Bluff.MOD		SITUATION:Feint
 Climb.MOD		SITUATION:Forested area
+Disable Device.MOD		SITUATION:Magic traps
 Disguise.MOD			SITUATION:Impersonating a Human
 Disguise.MOD		SITUATION:Polymorph Self
 Hide.MOD		SITUATION:Desert area
@@ -16,6 +17,8 @@ Hide.MOD		SITUATION:Water area
 Hide.MOD		SITUATION:Wooded area
 Knowledge (Dungeoneering).MOD		SITUATION:Navigate underground
 Move Silently.MOD		SITUATION:Forested area
+Open Lock.MOD	SITUATION:Open Portal
+Search.MOD		SITUATION:Magic traps
 Spot.MOD		SITUATION:Daylight
 Spot.MOD		SITUATION:Forested area
 Survival.MOD		SITUATION:Follow designated foe
@@ -25,3 +28,4 @@ Survival.MOD		SITUATION:Orientation
 Survival.MOD		SITUATION:Start or maintain fires
 Survival.MOD		SITUATION:Track by scent
 Swim.MOD			SITUATION:Perform some special action or avoid hazard
+#

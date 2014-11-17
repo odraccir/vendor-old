@@ -1,0 +1,31 @@
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
+																												
+###Block:Weapons																												
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus		
+# Natural																												
+Spike	KEY:Spinagon ~ Spike	PROFICIENCY:WEAPON|Spike	TYPE:Weapon.Natural.Ranged.Piercing.Finesseable	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MotP	RANGE:30								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Spinagon ~ Spikes
+Positive Energy Ray	KEY:Xag-Ya ~ Positive Energy Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MotP	RANGE:30								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Energon ~ Energy Ray
+Negative Energy Ray	KEY:Xeg-Yi ~ Negative Energy Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MotP	RANGE:30								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Energon ~ Energy Ray
+																												
+# Melee 																												
+																												
+# Ranged																												
+																												
+# Armor 																												
+																												
+# Shield																												
+																												
+# Arrows
+
+###Block:Weapons																												
+###TODO: it's better to copy the original and modify the copy or not?																												
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus		
+# Melee Specific Weapons																												
+																												
+# Ranged Specific Weapons																												
+																												
+# Monster Specific Armors&Shields																												
+																												
+# Armor Specific																												
+																												
+# Shield Specific																												

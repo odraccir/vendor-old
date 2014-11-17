@@ -1,0 +1,7 @@
+SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																								
+
+# Equipment Name								
+Dimensional Sextant		TYPE:Magic.Wondrous	COST:21600	WT:2	SOURCEPAGE:MotP, p.22	SPROP:Leads the bearer to the nearest planar portal. it takes a Knowledge (The planes) check to operate it.								
+Ethereal Tapestry		TYPE:Magic.Wondrous	COST:47520	WT:87	SOURCEPAGE:MotP, p.59	SPROP:An ethereal tapestry is a portable gateway to the Ethereal Plane. It appears as a stout oak doorframe, carved with runes, from which hangs a heavy velvet tapestry stitched with metallic thread. When it is assembled and the command word spoken, the tapestry becomes a shimmering band of colors that leadsdirectly onto the Ethereal Plane. The portal stays open until another command word is spoken to deactivate it.
+
+Astral Carrack		TYPE:Goods.Construct.Transportation.Ships.Container	CONTAINS:300000|Any	COST:30000	WT:0	SPROP:10 Ballistae, Ram when not firing ballistae.	SOURCEPAGE:MotP, p. 52

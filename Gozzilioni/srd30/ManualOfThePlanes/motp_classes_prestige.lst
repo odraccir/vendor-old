@@ -1,0 +1,103 @@
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04											
+#														
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE		
+# Class Name req	Requirements	FINE												
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE					
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST								
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)				
+CLASS:Divine Agent	HD:8	TYPE:Prestige	ABB:Div	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:DivineAgentLVL|0	BONUS:VAR|DivineAgentLVL|CL	EXCLASS:Ex Divine Agent
+CLASS:Divine Agent	PREATT:4	PRESKILL:1,Knowledge (Religion)=7	PREMULT:2,[PRESPELLCAST:TYPE=Divine],[PRESPELLTYPE:1,Divine=2]	PRETEXT:The divine agent must have made peaceful contact with her deity or its direct agents (sometimes other divine agents acting on the deity's behalf ). Furthermore, a potential divine agent must have completed a specific task assigned by her deity in order to become a divine agent. Once the task is completed, the character can become a divine agent at any point thereafter.										
+CLASS:Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Disguise|Gather Information|Heal|Intimidate|Knowledge (Religion)TYPE=Profession|Search|Sense Motive|Spellcraft|Spot|Use Magid Device												
+1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentProficiencies										
+#														
+1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Granted Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGrantedDomain										
+2				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Contact|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentContact										
+3				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Menacing Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentMenacingAura										
+3				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Godly Gift|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGodlyGift										
+4				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Altered Appearance|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentAlteredAppearance										
+5				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Commune|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentCommune										
+5				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Plane Shift Deity's Plane|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentPlaneShiftDeitySPlane										
+7				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Plane Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentPlaneShift										
+8				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Audience|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentAudience										
+8				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Alignment Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentAlignmentShift										
+9				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Mystic Union|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentMysticUnion										
+10				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Gate|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGate										
+#														
+2	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+														
+CLASS:Ex Divine Agent	HD:8	TYPE:Prestige	ABB:Div	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:DivineAgentLVL|0	BONUS:VAR|DivineAgentLVL|CL	VISIBLE:NO
+CLASS:Ex Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Disguise|Gather Information|Heal|Intimidate|Knowledge (Religion)TYPE=Profession|Search|Sense Motive|Spellcraft|Spot|Use Magid Device												
+1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentProficiencies										
+#														
+1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Granted Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGrantedDomain										
+2				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Contact|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentContact										
+3				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Menacing Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentMenacingAura										
+3				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Godly Gift|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGodlyGift										
+4				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Altered Appearance|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentAlteredAppearance										
+5				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Plane Shift Deity's Plane|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentPlaneShiftDeitySPlane										
+7				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Plane Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentPlaneShift										
+8				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Alignment Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentAlignmentShift										
+9				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Mystic Union|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentMysticUnion										
+#														
+2	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+														
+CLASS:Gatecrusher	HD:6	TYPE:Prestige	ABB:Gac	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:GatecrusherLVL|0	BONUS:VAR|GatecrusherLVL|CL	
+CLASS:Gatecrusher	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:4	PRESKILL:1,Knowledge (Planes)=4	PRESKILL:1,Use Magic Device=8	PRETEXT:Must have visited two planes of existence other than his native plane.									
+CLASS:Gatecrusher	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE=Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Sense Motive|Intimidate|Survival|Jump|TYPE=Knowledge|Listen|Move Silently|Sleight of Hands|TYPE=Perform|TYPE=Profession|Read Lips|Search|Speak Language|Spot|Tumble|Use Magic Device|Use Rope												
+1				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherProficiencies										
+#														
+1				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Analyze Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherAnalyzePortal										
+1				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Bonus Language|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherBonusLanguage										
+2				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Comprehension|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherComprehension										
+3				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Open Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherOpenPortal										
+4				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Summon Spell Dampening|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherSummonSpellDampening										
+5				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Silver Tongue|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherSilverTongue										
+6				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Planar Survival|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlanarSurvival										
+7				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherDR										
+8				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Scamble Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherScramblePortal										
+9				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Plane Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlaneShift										
+10				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Planar Dampening|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlanarDampening										
+														
+CLASS:Planar Champion	HD:10	TYPE:Prestige	ABB:PlC	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Combat	DEFINE:PlanarChampionLVL|0	BONUS:VAR|PlanarChampionLVL|CL	
+CLASS:Planar Champion	PREATT:6	PRESKILL:1,Knowledge (The Planes)=4	PREFEAT:1,Weapon Specialization	PRETEXT:Must have visited at least two planes of existence other than his native plane.										
+CLASS:Planar Champion	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Handle Animal|Hide|Intimidate|Sense Motive|Jump|Knowledge (The Planes)|Listen|Move Silently|TYPE=Profession|Ride|Search|Speak Language|Spot|Swim|Use Rope|Survival												
+1				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionProficiencies										
+#														
+1				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Favored Plane|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionFavoredPlane										
+2				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ See Invisibility|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionSeeInvisibility										
+3				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Attack Ethereal|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionAttackEthereal										
+4				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Planar Survival|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionPlanarSurvival										
+6				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Ethereal Jaunt|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionEtherealJaunt										
+7				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Rip Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionRipPortal										
+8				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Sunder Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionSunderPortal										
+9				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionDR										
+														
+CLASS:Planeshifter	HD:4	TYPE:Prestige	ABB:Pls	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Wizard	DEFINE:PlanarChampionLVL|0	BONUS:VAR|PlanarChampionLVL|CL	
+CLASS:Planeshifter	PRESKILL:2,Concentration=10,Spellcraft=10	PRESKILL:1,Knowledge (The Planes)=4	PREFEAT:1,Craft Wondrous Item	PREMULT:2,[PRESPELLCAST:TYPE=Arcane],[PRESPELLTYPE:1,Arcane=5]	PRETEXT:Must have visited an Inner or Outer plane before taking this prestige class.									
+CLASS:Planeshifter	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Gather Information|Intimidate|Survival|TYPE=Knowledge|TYPE=Perform|TYPE=Profession|Ride|Search|Speak Language|Spellcraft|Swim												
+1				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Plane Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterPlaneShift										
+2				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Analyze Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterAnalyzePortal										
+3				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Planar Survival|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterPlanarSurvival										
+4				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Morphic Stability|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterMorphicStability										
+5				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Grant Planar Survival|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterGrantPlanarSurvival										
+6				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Control Planar Flux|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterControlPlanarFlux										
+7				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Telepathy|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterTelepathy										
+8				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Plane Shift ~ At will|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterPlaneShift										
+9				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Planar Area Swap|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterPlanarAreaSwap										
+10				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Demiplane Seed|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterDemiplaneSeed										
+#														
+2	ADD:SPELLCASTER|Arcane													
+3	ADD:SPELLCASTER|Arcane													
+4	ADD:SPELLCASTER|Arcane													
+6	ADD:SPELLCASTER|Arcane													
+7	ADD:SPELLCASTER|Arcane													
+8	ADD:SPELLCASTER|Arcane													
+10	ADD:SPELLCASTER|Arcane													
