@@ -47,7 +47,7 @@ Race Traits ~ Giant Firefly	CATEGORY:Internal	TYPE:Special	ABILITY:Special Abili
 Glow	CATEGORY:Special Ability	TYPE:GiantFireflyRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:The abdomen glows a soft yellow or green and shed light in a 10-ft radius.	KEY:Giant Firefly ~ Glow																											SOURCEPAGE:AaEG, p. 90
 Training	CATEGORY:Special Ability	TYPE:GiantFireflyRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 30 adult.	KEY:Giant Firefly ~ Training																											SOURCEPAGE:AaEG, p. 90
 																																
-Race Traits ~ Jade Locust	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=JadeLocustRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|4																		
+Race Traits ~ Jade Locust	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=NoRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|4																		
 																																
 # Ability Name																																
 Training	CATEGORY:Special Ability	TYPE:Blink DogRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Guard. DC 22 young, DC 29 adult.	KEY:Blink Dog ~ Training																											SOURCEPAGE:AaEG
