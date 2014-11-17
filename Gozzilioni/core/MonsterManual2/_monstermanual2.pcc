@@ -35,6 +35,8 @@ WEAPONPROF:mm2_profs_natural.lst
 WEAPONPROF:mm2_profs_weapon.lst
 TEMPLATE:mm2_templates_hidden.lst
 
+HIDETYPE:SKILL|Profession (Farmer)
+
 # CLASS:mm2_classes_monster__dragons.lst
 # COMPANIONMOD:mm2_companionmods.lst
 # EQUIPMENT:mm2_equip.lst

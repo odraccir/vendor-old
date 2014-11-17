@@ -42,3 +42,7 @@ SUBCLASSLEVEL:2			ABILITY:Red Wizard Class Feature|AUTOMATIC|Spell Power ~ Trans
 8	ADD:SPELLCASTER|Arcane											
 9	ADD:SPELLCASTER|Arcane						BONUS:VAR|SpecialistDefenseBonus|1					
 10	ADD:SPELLCASTER|Arcane
+
+CLASS:Acrane Trickster.MOD	ABB:Act
+CLASS:Archmage.MOD	ABB:Acm
+CLASS:Dragon Disciple.MOD	ABB:DDi

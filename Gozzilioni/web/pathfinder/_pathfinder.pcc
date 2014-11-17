@@ -22,6 +22,7 @@ SKILL:prd_skills.lst
 KIT:prd_kits.lst
 WEAPONPROF:prd_profs_weapon.lst
 
+HIDETYPE:SKILL|Profession (Fortune-teller)|Profession (Gambler)|Profession (Medium)
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst
 #COMPANIONMOD:my_companionmods.lst

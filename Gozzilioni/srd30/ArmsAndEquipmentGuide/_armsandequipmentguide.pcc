@@ -33,6 +33,9 @@ RACE:aaeg_races.lst
 SKILL:aaeg_skills.lst
 SPELL:aaeg_spells.lst
 
+HIDETYPE:SKILL|Craft (Coralshaping)
+HIDETYPE:SKILL|Profession (Farmer)
+
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst
 #BIOSET:my_biosettings.lst
