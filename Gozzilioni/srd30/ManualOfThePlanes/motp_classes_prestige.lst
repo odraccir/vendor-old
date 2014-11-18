@@ -7,7 +7,7 @@ SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)				
 CLASS:Divine Agent	HD:8	TYPE:Prestige	ABB:Div	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:DivineAgentLVL|0	BONUS:VAR|DivineAgentLVL|CL	EXCLASS:Ex Divine Agent
 CLASS:Divine Agent	PREATT:4	PRESKILL:1,Knowledge (Religion)=7	PREMULT:2,[PRESPELLCAST:TYPE=Divine],[PRESPELLTYPE:1,Divine=2]	PRETEXT:The divine agent must have made peaceful contact with her deity or its direct agents (sometimes other divine agents acting on the deity's behalf ). Furthermore, a potential divine agent must have completed a specific task assigned by her deity in order to become a divine agent. Once the task is completed, the character can become a divine agent at any point thereafter.										
-CLASS:Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Disguise|Gather Information|Heal|Intimidate|Knowledge (Religion)TYPE=Profession|Search|Sense Motive|Spellcraft|Spot|Use Magid Device												
+CLASS:Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Disguise|Gather Information|Heal|Intimidate|Knowledge (Religion)|TYPE=Profession|Search|Sense Motive|Spellcraft|Spot|Use Magic Device												
 1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentProficiencies										
 #														
 1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Granted Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGrantedDomain										
@@ -30,7 +30,7 @@ CLASS:Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Dis
 10	ADD:SPELLCASTER|ANY													
 														
 CLASS:Ex Divine Agent	HD:8	TYPE:Prestige	ABB:Div	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:DivineAgentLVL|0	BONUS:VAR|DivineAgentLVL|CL	VISIBLE:NO
-CLASS:Ex Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Disguise|Gather Information|Heal|Intimidate|Knowledge (Religion)TYPE=Profession|Search|Sense Motive|Spellcraft|Spot|Use Magid Device												
+CLASS:Ex Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Disguise|Gather Information|Heal|Intimidate|Knowledge (Religion)|TYPE=Profession|Search|Sense Motive|Spellcraft|Spot|Use Magic Device												
 1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentProficiencies										
 #														
 1				ABILITY:Divine Agent Class Feature|AUTOMATIC|Divine Agent ~ Granted Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineAgentGrantedDomain										
@@ -49,9 +49,9 @@ CLASS:Ex Divine Agent	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|
 8	ADD:SPELLCASTER|ANY													
 10	ADD:SPELLCASTER|ANY													
 														
-CLASS:Gatecrusher	HD:6	TYPE:Prestige	ABB:Gac	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:GatecrusherLVL|0	BONUS:VAR|GatecrusherLVL|CL	
+CLASS:Gatecrusher	HD:6	TYPE:Prestige	ABB:Gac	MAXLEVEL:10	SOURCEPAGE:MotP3.5upd	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:GatecrusherLVL|0	BONUS:VAR|GatecrusherLVL|CL	
 CLASS:Gatecrusher	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:4	PRESKILL:1,Knowledge (Planes)=4	PRESKILL:1,Use Magic Device=8	PRETEXT:Must have visited two planes of existence other than his native plane.									
-CLASS:Gatecrusher	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE=Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Sense Motive|Intimidate|Survival|Jump|TYPE=Knowledge|Listen|Move Silently|Sleight of Hands|TYPE=Perform|TYPE=Profession|Read Lips|Search|Speak Language|Spot|Tumble|Use Magic Device|Use Rope												
+CLASS:Gatecrusher	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE=Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Sense Motive|Intimidate|Survival|Jump|TYPE=Knowledge|Listen|Move Silently|Sleight of Hand|TYPE=Perform|TYPE=Profession|Search|Speak Language|Spot|Tumble|Use Magic Device|Use Rope												
 1				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherProficiencies										
 #														
 1				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Analyze Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherAnalyzePortal										
@@ -62,7 +62,7 @@ CLASS:Gatecrusher	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE=Craft
 5				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Silver Tongue|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherSilverTongue										
 6				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Planar Survival|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlanarSurvival										
 7				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherDR										
-8				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Scamble Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherScramblePortal										
+8				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Scramble Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherScramblePortal										
 9				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Plane Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlaneShift										
 10				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Planar Dampening|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlanarDampening										
 														

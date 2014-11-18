@@ -1,0 +1,34 @@
+SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
+###Block: Class			
+# Template Name	Visible	Source Page	Special Ability
+Base Race Type.MOD	VISIBLE:NO		
+Base Race Type ~ Aberration.MOD	VISIBLE:NO		
+Base Race Type ~ Animal.MOD	VISIBLE:NO		
+Base Race Type ~ Construct.MOD	VISIBLE:NO		
+Base Race Type ~ Dragon.MOD	VISIBLE:NO		
+Base Race Type ~ Elemental.MOD	VISIBLE:NO		
+Base Race Type ~ Fey.MOD	VISIBLE:NO		
+Base Race Type ~ Giant.MOD	VISIBLE:NO		
+Base Race Type ~ Humanoid.MOD	VISIBLE:NO		
+Base Race Type ~ Magical Beast.MOD	VISIBLE:NO		
+Base Race Type ~ Monstrous Humanoid.MOD	VISIBLE:NO		
+Base Race Type ~ Ooze.MOD	VISIBLE:NO		
+Base Race Type ~ Outsider.MOD	VISIBLE:NO		
+Base Race Type ~ Plant.MOD	VISIBLE:NO		
+Base Race Type ~ Undead.MOD	VISIBLE:NO		
+Base Race Type ~ Vermin.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Aberration.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Animal.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Construct.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Dragon.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Elemental.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Fey.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Giant.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Humanoid.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Magical Beast.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Monstrous Humanoid.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Ooze.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Outsider.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Plant.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Undead.MOD	VISIBLE:NO		
+RaceSubtype ~ Augmented Vermin.MOD	VISIBLE:NO		

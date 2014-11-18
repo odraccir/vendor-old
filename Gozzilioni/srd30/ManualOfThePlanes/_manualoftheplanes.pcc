@@ -15,10 +15,15 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Manual of the Planes
+ABILITY:motp_abilities.lst
 ABILITY:motp_abilities_classes.lst
+ABILITY:motp_abilities_races.lst
 CLASS:motp_classes_prestige.lst
+EQUIPMENT:motp_equip_arms_and_armor.lst
 EQUIPMENT:motp_equip_general.lst
 EQUIPMENT:motp_equip_magic_items.lst
+WEAPONPROF:motp_profs_natural.lst
+RACE:motp_races.lst
 SPELL:motp_spells.lst
 TEMPLATE:motp_templates.lst
 

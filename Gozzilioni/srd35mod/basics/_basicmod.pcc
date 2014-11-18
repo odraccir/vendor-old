@@ -22,6 +22,7 @@ EQUIPMENT:g_equip.lst
 EQUIPMOD:g_equipmods.lst
 SKILL:g_skills.lst
 SPELL:g_spells.lst
+TEMPLATE:g_templates.lst
 
 HIDETYPE:SKILL|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Decipher Script|Diplomacy
 HIDETYPE:SKILL|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal
