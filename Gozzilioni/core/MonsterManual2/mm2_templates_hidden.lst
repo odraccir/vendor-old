@@ -10,13 +10,3 @@ Disease Damage (Linnorm Fever/DEX)			VISIBLE:NO	SOURCEPAGE:MM	CHOOSE:NUMBER|MIN=
 Disease Damage (Linnorm Fever/CON)			VISIBLE:NO	SOURCEPAGE:MM	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Constitution Damage	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)		
 Disease Damage (Marrash Filth fever/Dex Damage)	VISIBLE:NO	SOURCEPAGE:MM2	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Dexterity Damage	TEMPDESC:Infection DC 14 (Injury), Incubation 1 day, Damage 1d3 Dex, 1d3 Con, Apply this temporary bonus for the dexterity damage each day the victim takes damage.However, a creature that fails any Fortitude saving throw after its initial infection dies instantly, and neither raise dead nor resurrection can restore it to life. The corpse rises as a new marrash 1d6 days later.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)	TEMPLATE:CHOOSE:Disease Damage (Marrash Filth fever/Con Damage)		
 Disease Damage (Marrash Filth fever/Con Damage)	VISIBLE:NO	SOURCEPAGE:MM2	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Constitution Damage	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)				
-								
-Junior Worker	VISIBLE:NO	KEY:Myconid ~ Junior Worker	SUBRACE:Junior Worker					
-Average Worker	VISIBLE:NO	KEY:Myconid ~ Average Worker	SUBRACE:Average Worker					
-Elder Worker	VISIBLE:NO	KEY:Myconid ~ Elder Worker	SUBRACE:Elder Worker					
-Guard	VISIBLE:NO	KEY:Myconid ~ Guard	SUBRACE:Guard					
-Circle Leader	VISIBLE:NO	KEY:Myconid ~ Circle Leader	SUBRACE:Circle Leader					
-Sovereign	VISIBLE:NO	KEY:Myconid ~ Sovereign	SUBRACE:Sovereign					
-
-Spawn	VISIBLE:NO	KEY:Neogi ~ Spawn	SUBRACE:Spawn
-Adult	VISIBLE:NO	KEY:Neogi ~ Adult	SUBRACE:Adult
