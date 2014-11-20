@@ -19,6 +19,7 @@ ABILITY:motp_abilities.lst
 ABILITY:motp_abilities_classes.lst
 ABILITY:motp_abilities_races.lst
 CLASS:motp_classes_prestige.lst
+CLASS:motp_classes_monsters_specific.lst
 EQUIPMENT:motp_equip_arms_and_armor.lst
 EQUIPMENT:motp_equip_general.lst
 EQUIPMENT:motp_equip_magic_items.lst
