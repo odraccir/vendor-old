@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04				
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-09
 ###Block: Class							
 # Template Name	Visible	Source Page	Special Ability				
 Deity's Alignment	VISIBLE:NO	SOURCEPAGE:MotP	TEMPLATE:CHOOSE:Assign Alignment ~ LG|Assign Alignment ~ LN|Assign Alignment ~ LE|Assign Alignment ~ NG|Assign Alignment ~ TN|Assign Alignment ~ NE|Assign Alignment ~ CG|Assign Alignment ~ CN|Assign Alignment ~ CE				

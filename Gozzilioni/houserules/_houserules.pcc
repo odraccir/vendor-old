@@ -16,6 +16,7 @@ INFOTEXT:Things we changed, things we found that are missing and needed, everyth
 #
 #Rsrd
 ABILITY:h_abilities_dragons.lst
+ABILITY:h_abilities_monsters.lst
 ABILITY:h_abilities_mounts.lst
 ABILITYCATEGORY:h_abilitycategories.lst
 CLASS:h_classes_monster.lst
