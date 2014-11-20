@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																							
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-09
 																										
 ###Block: Spells																										
 # Spell Name	Output Name	Spell Variations	Type	CLASSES:	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
@@ -30,6 +30,8 @@ Zone of Respite			TYPE:Arcane.Divine	CLASSES:Cleric=3|Sorcerer,Wizard=4		SCHOOL:
 Zone of Revelation			TYPE:Arcane.Divine	CLASSES:Cleric=3|Sorcerer,Wizard=4		SCHOOL:Divination			COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:5-ft radius/level emantation.		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:All creature and objects within Zone of Revelation's area are made visible.	SOURCEPAGE:MotP								
 #																										
 Teleport (Greater/Self and Mount)	OUTPUTNAME:Greater Teleport (self and its mount only)		TYPE:SpellLike			SCHOOL:Conjuration	SUBSCHOOL:Teleportation		COMPS:None	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You and up to 50 pounds of objects		DURATION:Instantaneous			DESC:As teleport, but no range limit and no off-target arrival.	SOURCEPAGE:MotP
+Plane Shift (Self and Rider)			TYPE:SpellLike				SCHOOL:Conjuration	SUBSCHOOL:Teleportation		COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You and your rider.		DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You and your mount travel to another plane.	SOURCEPAGE:MotP
+Grant a wish (to nongenies only)			TYPE:SpellLike				SCHOOL:Universal			COMPS:None	CASTTIME:1 standard action	RANGE:See text	TARGETAREA:See text		DURATION:See text	SAVEINFO:See text	SPELLRES:Yes	DESC:As wish, but with fewer limits.	SOURCEPAGE:MotP	XPCOST:5000
 #
 Dream Travel (Arcane)	OUTPUTNAME:Dream Travel		TYPE:Arcane			SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You plus one additional creature touched/level.		DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You and creatures touched can dream travel.	SOURCEPAGE:MotP, pag 202								
 Mirror Walking			TYPE:Arcane.Divine			SCHOOL:Transmutation			COMPS:V, S, F	CASTTIME:1 full round	RANGE:Touch	TARGETAREA:You and creature touched.		DURATION:Special	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You and creature touched can mirror walk.	SOURCEPAGE:MotP, pag 205								
