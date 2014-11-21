@@ -30,7 +30,18 @@ CLASS:Dragon.MOD	DEFINE:DragonLVL|0	BONUS:VAR|DragonLVL|CL
 CLASS:Dragon.MOD	PREVAREQ:DragonAdvancementCap,0
 #
 
-# Class Name				Required Template
+# Class Name	Define			Modify VAR
+CLASS:Elemental.MOD	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL
+
+# Class Name	Define			Modify VAR
+CLASS:Elemental (Air/Fire).MOD	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL
+
+# Class Name	Define			Modify VAR
+CLASS:Elemental (Earth/Water).MOD	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL
+
+# Class Name	Define			Modify VAR
+CLASS:Elemental (Mindless).MOD	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL
+# Class Name	Required Var. value
 CLASS:Elemental (Mindless).MOD	PRETEMPLATE:1,Mindless
 #
 
