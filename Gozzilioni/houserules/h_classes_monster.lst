@@ -17,7 +17,8 @@ CLASS:Animal (Legendary)	!PRECLASS:1,Animal (Will)=1,Animal=1	PRERACETYPE:Animal
 CLASS:Animal (Legendary)	STARTSKILLPTS:3	MODTOSKILLS:YES
 
 #
-# Class Name			Required Template
+
+# Class Name		Define			Modify VAR
 CLASS:Aberration.MOD	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL
 
 # Class Name			Required Template
@@ -41,12 +42,13 @@ CLASS:Elemental (Earth/Water).MOD	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|C
 
 # Class Name	Define			Modify VAR
 CLASS:Elemental (Mindless).MOD	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL
-# Class Name	Required Var. value
+# Class Name				Required Template
 CLASS:Elemental (Mindless).MOD	PRETEMPLATE:1,Mindless
 #
 
-# Class Name			Required Template
+# Class Name	Define		Modify VAR
 CLASS:Plant.MOD	DEFINE:PlantLVL|0	BONUS:VAR|PlantLVL|CL
+
 # Class Name			Required Template
 CLASS:Plant (Mindless).MOD	PRETEMPLATE:1,Mindless
 #

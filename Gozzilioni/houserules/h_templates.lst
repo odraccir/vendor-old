@@ -81,3 +81,7 @@ Trained Magical Beast	VISIBLE:NO	PRERACE:1,RACETYPE=Magical Beast	!PRESTAT:1,INT
 Trained Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin			BONUS:VAR|BasicTrainingNumber|2	
 Trained Animal (Will)	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal (Will)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
 Trained Animal (Dire)	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	PRECLASS:1,Animal (Dire)=1	!PRESTAT:1,INT=5		BONUS:VAR|BasicTrainingNumber|3*min(INTSCORE,4)
+
+Paraelemental ~ Normal	VISIBLE:NO
+Paraelemental ~ Greater	VISIBLE:NO	SUBRACE:Greater
+Paraelemental ~ Elder	VISIBLE:NO	SUBRACE:Elder

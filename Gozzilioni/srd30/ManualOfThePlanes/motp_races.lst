@@ -19,4 +19,4 @@ Genie (Marid)	OUTPUTNAME:Genie, [NAME]		STARTFEATS:1	SIZE:L	MOVE:Walk,20,Swim,60
 # Githyanki																																																																	
 # Githzerai																																																																	
 # Mercane																																																																	
-Ice Paraelemental	KEY:Paraelemental (Ice)		STARTFEATS:1		MOVE:Walk,30																						MONCSKILL:Listen|Spot									LEGS:2	HANDS:2						ABILITY:Internal|AUTOMATIC|Race Traits ~ Ice Paraelemental									MONSTERCLASS:Elemental:2	RACETYPE:Elemental	RACESUBTYPE:IceParaelemental|Air|Cold	TYPE:Elemental							CR:1	SOURCEPAGE:MotP3.5upd		SORTKEY:Paraelemental
+Ice Paraelemental	KEY:Paraelemental (Ice)		STARTFEATS:1		MOVE:Walk,30																						MONCSKILL:Listen|Spot									LEGS:2	HANDS:2						ABILITY:Internal|AUTOMATIC|Race Traits ~ Ice Paraelemental									MONSTERCLASS:Elemental:2	RACETYPE:Elemental	RACESUBTYPE:Paraelemental|Air|Cold	TYPE:Elemental							CR:1	SOURCEPAGE:MotP3.5upd		SORTKEY:Paraelemental
