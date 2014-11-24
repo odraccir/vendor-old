@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																													
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-09
 																																
 # Class Name	Hit Dice	Type			Class Type		Max Level	Source Page					Save checks bonus								Combat bonus											
 CLASS:Abeil Queen	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:14	SOURCEPAGE:MM2	ABILITY:Special Ability|AUTOMATIC|Monstrous Humanoid Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:SAVE|BASE.Will,BASE.Reflex|CL/2+2	BONUS:SAVE|BASE.Fortitude|CL/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/3)																					
