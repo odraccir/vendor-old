@@ -23,6 +23,7 @@ CLASS:motp_classes_monsters_specific.lst
 EQUIPMENT:motp_equip_arms_and_armor.lst
 EQUIPMENT:motp_equip_general.lst
 EQUIPMENT:motp_equip_magic_items.lst
+KIT:motp_kits.lst
 WEAPONPROF:motp_profs_natural.lst
 RACE:motp_races.lst
 SPELL:motp_spells.lst
