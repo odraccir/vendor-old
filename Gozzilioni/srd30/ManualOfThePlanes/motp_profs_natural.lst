@@ -2,3 +2,4 @@ SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www
 
 # Weapon Name	Type
 Spike	TYPE:Natural.Primary.Ranged.Piercing.RangedPiercing
+Tongue	TYPE:Natural.Primary.Ranged.Piercing.RangedPiercing.Slashing.RangedSlashing

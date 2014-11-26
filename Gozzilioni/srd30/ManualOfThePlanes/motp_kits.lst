@@ -1,11 +1,90 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																																																													
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-09
 																																																																
 # Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
 # Monster Abilities																																																																
 #																																																																
 # Races
+STARTPACK:Astral Dreadnaught Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Astral Dreadnaught]
+RACE:Astral Dreadnaught	!PRERACE:1,%
+NAME:Astral Dreadnaught
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Demon (Uridezu) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Uridezu)]
+RACE:Demon (Uridezu)	!PRERACE:1,%
+NAME:Uridezu
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Armanite) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Armanite)]
+RACE:Demon (Armanite)	!PRERACE:1,%
+NAME:Armanite
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Demon (Goristro) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Goristro)]
+RACE:Demon (Goristro)	!PRERACE:1,%
+NAME:Goristro
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=11|CHA=11
+
+STARTPACK:Devil (Spinagon) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Spinagon)]
+RACE:Devil (Spinagon)	!PRERACE:1,%
+NAME:Spinagon
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Devil (Narzugon) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Narzugon)]
+RACE:Devil (Narzugon)	!PRERACE:1,%
+NAME:Narzugon
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Energon (Yag-Ya) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Yag-Ya)]
+RACE:Energon (Xag-Ya)	!PRERACE:1,%
+NAME:Xag-Ya
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Energon (Yeg-Yi) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Yeg-Yi)]
+RACE:Energon (Xeg-Yi)	!PRERACE:1,%
+NAME:Xeg-Yi
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ephemera (Dusk Beast) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ephemera (Dusk Beast)]
+RACE:Ephemera (Dusk Beast)	!PRERACE:1,%
+NAME:Dusk Beast
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ephemera (Ecalypse) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ephemera (Ecalypse)]
+RACE:Ephemera (Ecalypse)	!PRERACE:1,%
+NAME:Ecalypse
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Ephemera (Umbral Banyan) Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ephemera (Umbral Banyan)]
+RACE:Ephemera (Umbral Banyan)	!PRERACE:1,%
+NAME:Umbral Banyan
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Genie (Dao) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Genie (Dao)]
+RACE:Genie (Dao)	!PRERACE:1,%
+NAME:Dao
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Genie (Marid) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Genie (Marid)]
+RACE:Genie (Marid)	!PRERACE:1,%
+NAME:Marid
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
 STARTPACK:Paraelemental (Ice) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Paraelemental (Ice)]																																																												
 RACE:Paraelemental (Ice)	!PRERACE:1,%																																																															
 NAME:Ice Paraelemental																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
-																																																																
+
+STARTPACK:Paraelemental (Magma) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Paraelemental (Magma)]																																																												
+RACE:Paraelemental (Magma)	!PRERACE:1,%																																																															
+NAME:Magma Paraelemental																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
+
+STARTPACK:Paraelemental (Ooze) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Paraelemental (Ooze)]																																																												
+RACE:Paraelemental (Ooze)	!PRERACE:1,%																																																															
+NAME:Ooze Paraelemental																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
+
+STARTPACK:Paraelemental (Smoke) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Paraelemental (Smoke)]																																																												
+RACE:Paraelemental (Smoke)	!PRERACE:1,%																																																															
+NAME:Smoke Paraelemental																																																																
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
