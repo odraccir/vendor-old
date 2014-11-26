@@ -7,6 +7,10 @@ How To Make Good Pull Request
 
 > git checkout -b my-feature-branch
 
+or
+
+> git checkout -b -track origin/my-feature-branch
+
 * modify the branch with the new feature
 * Commit
 
