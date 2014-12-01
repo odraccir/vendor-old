@@ -29,9 +29,20 @@ Xorn Movement			TYPE:Arcane	CLASSES:Sorcerer,Wizard=5		SCHOOL:Transmutation			CO
 Zone of Respite			TYPE:Arcane.Divine	CLASSES:Cleric=3|Sorcerer,Wizard=4		SCHOOL:Abjuration			COMPS:V, S	CASTTIME:2 rounds	RANGE:Medium	TARGETAREA:30-ft cube/level.		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:None	DESC:You create a region that is temporriliy proof against interplanar intrusion.	SOURCEPAGE:MotP								
 Zone of Revelation			TYPE:Arcane.Divine	CLASSES:Cleric=3|Sorcerer,Wizard=4		SCHOOL:Divination			COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:5-ft radius/level emantation.		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:All creature and objects within Zone of Revelation's area are made visible.	SOURCEPAGE:MotP								
 #																										
-Teleport (Greater/Self and Mount)	OUTPUTNAME:Greater Teleport (self and its mount only)		TYPE:SpellLike			SCHOOL:Conjuration	SUBSCHOOL:Teleportation		COMPS:None	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You and up to 50 pounds of objects		DURATION:Instantaneous			DESC:As teleport, but no range limit and no off-target arrival.	SOURCEPAGE:MotP
-Plane Shift (Self and Rider)			TYPE:SpellLike				SCHOOL:Conjuration	SUBSCHOOL:Teleportation		COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You and your rider.		DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You and your mount travel to another plane.	SOURCEPAGE:MotP
-Grant a wish (to nongenies only)			TYPE:SpellLike				SCHOOL:Universal			COMPS:None	CASTTIME:1 standard action	RANGE:See text	TARGETAREA:See text		DURATION:See text	SAVEINFO:See text	SPELLRES:Yes	DESC:As wish, but with fewer limits.	SOURCEPAGE:MotP	XPCOST:5000
-#
 Dream Travel (Arcane)	OUTPUTNAME:Dream Travel		TYPE:Arcane			SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You plus one additional creature touched/level.		DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You and creatures touched can dream travel.	SOURCEPAGE:MotP, pag 202								
 Mirror Walking			TYPE:Arcane.Divine			SCHOOL:Transmutation			COMPS:V, S, F	CASTTIME:1 full round	RANGE:Touch	TARGETAREA:You and creature touched.		DURATION:Special	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You and creature touched can mirror walk.	SOURCEPAGE:MotP, pag 205								
+
+###Block: Spell Like abilities
+Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Deity's plane only
+Gate.COPY=Gate	KEY:Gate ~ Deity's plane only
+Teleport (Greater).COPY=Teleport (Greater)	KEY:Teleport ~ Greater/Self and Mount
+Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Self and Rider
+Whish.COPY=Whish	KEY:Whish ~ to nongenies only
+Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Shadow Plane
+###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL or VISIBLE:NO
+Plane Shift ~ Deity's plane only.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:Creature touched, or up to eight willing creatures joining hands	DESC:As many as eight subjects travel to the deity's plane.	SOURCEPAGE:MotP
+Gate ~ Deity's plane only.MOD	TYPE:SpellLike	DESC:.CLEAR	DESC:Connects to the Deity's Home plane for travel or summoning.	SOURCEPAGE:MotP									
+Teleport ~ Greater/Self and Mount	TYPE:SpellLike	OUTPUTNAME:Greater Teleport (self and its mount only)	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:You, your mount and up to 50 pounds of objects	DESC:As teleport, but no range limit and no off-target arrival.	SOURCEPAGE:MotP
+Plane Shift ~ Self and Rider	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:You and your rider.	DESC:You and your rider travel to another plane.	SOURCEPAGE:MotP
+Grant a wish ~ to nongenies only	TYPE:SpellLike	SOURCEPAGE:MotP
+Plane Shift ~ Shadow Plane.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:You.	DESC:Self to or from the Plane of Shadow.	SOURCEPAGE:MotP
