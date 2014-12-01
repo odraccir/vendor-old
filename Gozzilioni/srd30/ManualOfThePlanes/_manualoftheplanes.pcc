@@ -28,6 +28,7 @@ WEAPONPROF:motp_profs_natural.lst
 RACE:motp_races.lst
 SPELL:motp_spells.lst
 TEMPLATE:motp_templates.lst
+TEMPLATE:motp_templates_hidden.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

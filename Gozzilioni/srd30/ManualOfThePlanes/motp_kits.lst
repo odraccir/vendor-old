@@ -88,3 +88,23 @@ STARTPACK:Paraelemental (Smoke) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QU
 RACE:Paraelemental (Smoke)	!PRERACE:1,%																																																															
 NAME:Smoke Paraelemental																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
+
+STARTPACK:Yugoloth (Canoloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Canoloth)]																																																												
+RACE:Yugoloth (Canoloth)	!PRERACE:1,%																																																															
+NAME:Yugoloth, Canoloth
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=11|CHA=10																																																																
+
+STARTPACK:Yugoloth (Mezzoloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Mezzoloth)]
+RACE:Yugoloth (Mezzoloth)	!PRERACE:1,%
+NAME:Yugoloth, Mezzoloth
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Yugoloth (Nycaloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Nycaloth)]
+RACE:Yugoloth (Nycaloth)	!PRERACE:1,%
+NAME:Yugoloth, Nycaloth
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Yugoloth (Ultroloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Ultroloth)]
+RACE:Yugoloth (Ultroloth)	!PRERACE:1,%
+NAME:Yugoloth, Ultroloth
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11

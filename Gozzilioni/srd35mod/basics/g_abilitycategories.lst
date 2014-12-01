@@ -39,10 +39,14 @@ ABILITYCATEGORY:Divine Agent Class Feature	CATEGORY:Special Ability	TYPE:DivineA
 ABILITYCATEGORY:Gatecrusher Class Feature	CATEGORY:Special Ability	TYPE:GatecrusherClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Gatecrusher Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Planar Champion Class Feature	CATEGORY:Special Ability	TYPE:PlanarChampionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planar Champion Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Planeshifter Class Feature	CATEGORY:Special Ability	TYPE:PlaneshifterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planeshifter Class Features			DISPLAYLOCATION:Class Features
+
 #Abilitygroup:Template Ability categories																						
 #SOURCELONG:Deities and Demigods	SOURCESHORT:DaD
 ABILITYCATEGORY:Greater Mummy Special Attack	CATEGORY:Special Ability	TYPE:GreaterMummySpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Attacks			DISPLAYLOCATION:Race Traits
 ABILITYCATEGORY:Greater Mummy Special Quality	CATEGORY:Special Ability	TYPE:GreaterMummySpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Qualities			DISPLAYLOCATION:Race Traits
+#SOURCELONG:Manual of the Planes	SOURCESHORT:MotP
+ABILITYCATEGORY:Shadow Special Quality	CATEGORY:Special Ability	TYPE:ShadowSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Special Qualities			DISPLAYLOCATION:Race Traits
+
 #Abilitygroup:Racial Class Ability categories																						
 #SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2
 ABILITYCATEGORY:Myconid Class Feature	CATEGORY:Special Ability	TYPE:MyconidClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Myconid Class Features			DISPLAYLOCATION:Class Features
@@ -56,11 +60,13 @@ ABILITYCATEGORY:Lilitu Class Feature	CATEGORY:Special Ability	TYPE:LilituClassFe
 ABILITYCATEGORY:Nightmare Steed Class Feature	CATEGORY:Special Ability	TYPE:NightmareSteedClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Nightmare Steed Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Cauchemar Class Feature	CATEGORY:Special Ability	TYPE:CauchemarClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cauchemar Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Faun Class Feature	CATEGORY:Special Ability	TYPE:FaunClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Faun Class Features			DISPLAYLOCATION:Class Features
+
 #Abilitygroup:Class Bonus Feats																						
 #SOURCELONG:Gozzilioni Rule of Cool Forum	SOURCESHORT:ROC
 ABILITYCATEGORY:Cauchemar Feat	CATEGORY:FEAT	TYPE:Fighter.Monstrous.Racial	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cauchemar Feats			DISPLAYLOCATION:Feats
 #SOURCELONG:Deities and Demigods	SOURCESHORT:DaD
 ABILITYCATEGORY:Justiciar of Taiia Feat	CATEGORY:FEAT	TYPE:JusticiarOfTaiiaBonusFeat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cauchemar Feats			DISPLAYLOCATION:Feats
+
 #Abilitygroup:Feat choosers
 #SOURCELONG:Gozzilioni Rule of Cool Forum	SOURCESHORT:ROC
 ABILITYCATEGORY:Extraordinary Disease	CATEGORY:Special Ability	TYPE:ExtraordinaryDisease	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Extraordinary Diseases			DISPLAYLOCATION:Race Traits
@@ -68,6 +74,7 @@ ABILITYCATEGORY:Wild Path	CATEGORY:Special Ability	TYPE:WildPath	VISIBLE:QUALIFY
 ABILITYCATEGORY:Wild Path Level	CATEGORY:Special Ability	TYPE:WildPathLevel	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Wild Path Levels			DISPLAYLOCATION:Race Traits
 ABILITYCATEGORY:Turn Spider	CATEGORY:Special Ability	TYPE:TurnSpider	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Spider			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Turn Scorpion	CATEGORY:Special Ability	TYPE:TurnScorpion	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Scorpion			DISPLAYLOCATION:Class Features
+
 #Abilitygroup:Class choosers
 #SOURCELONG:Deities and Demigods	SOURCESHORT:DaD
 ABILITYCATEGORY:Berserk Totem	CATEGORY:Special Ability	TYPE:BerserkTotem	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Berserk Totems			DISPLAYLOCATION:Class Features

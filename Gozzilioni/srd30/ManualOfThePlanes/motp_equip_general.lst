@@ -11,5 +11,10 @@ Uridezu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
 Armanite		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
 ###Block: Devils
 Spinagon		TYPE:Devil.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+###Block: Yugoloth
+Canoloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Mezzoloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Nycaloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Ultroloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
 #
 Poison (Sinmaker's Surprise)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:4400	WT:0	SOURCEPAGE:MotP, p.106	SPROP:Injury DC 24/Ingested DC 18, Init.: 2d6 CON + 1d6/round Acid Damage for 3 rounds, Sec.: 2d6 CON.								

@@ -7,6 +7,7 @@ Spike	KEY:Spinagon ~ Spike	PROFICIENCY:WEAPON|Spike	TYPE:Weapon.Natural.Ranged.P
 Positive Energy Ray	KEY:Xag-Ya ~ Positive Energy Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MotP	RANGE:30								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Energon ~ Energy Ray
 Negative Energy Ray	KEY:Xeg-Yi ~ Negative Energy Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MotP	RANGE:30								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Energon ~ Energy Ray
 Tongue	KEY:Canoloth ~ Tongue	PROFICIENCY:WEAPON|Tongue	TYPE:Weapon.Natural.Ranged.Slashing.Piercing.Finesseable	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MotP	RANGE:20								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Canoloth ~ Tongue
+Enervation Ray	KEY:Ultroloth ~ Enervation Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2						SPROP:Target gains 1d4 negative levels.	SOURCEPAGE:MotP	RANGE:40								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Ultroloth ~ Enervation Ray
 																												
 # Melee 																												
 																												
