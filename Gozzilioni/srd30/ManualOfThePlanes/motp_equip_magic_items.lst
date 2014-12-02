@@ -1,4 +1,4 @@
-SOURCELONG:Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net																								
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-09
 
 # Equipment Name								
 Dimensional Sextant		TYPE:Magic.Wondrous	COST:21600	WT:2	SOURCEPAGE:MotP, p.22	SPROP:Leads the bearer to the nearest planar portal. it takes a Knowledge (The planes) check to operate it.								

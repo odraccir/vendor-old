@@ -1,4 +1,5 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
+SOURCELONG:Gozzilioni Manual of the Planes	SOURCESHORT:MotP	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-09
 
 # Weapon Name	Type
 Spike	TYPE:Natural.Primary.Ranged.Piercing.RangedPiercing
+Tongue	TYPE:Natural.Primary.Ranged.Piercing.RangedPiercing.Slashing.RangedSlashing

@@ -137,6 +137,32 @@ Resistance To Energy Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.E
 Immunity To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Energy Drain-based effects damage				ASPECT:Immunity|Energy Drain																									SOURCEPAGE:MM2
 Vulnerability To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Energy Drain-based effects.																												SOURCEPAGE:MM				
 
+Resistance To Illusion Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:IllusionEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Illusion Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Illusion Effects,Vulnerability To Illusion Effects													SOURCEPAGE:MM				
+Resistance To Illusion Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Illusion Effects	DESC:You get a +%1 bonus on Fort saving throws against Illusion Effects.|IllusionEffectsResistanceBonus	ASPECT:Resistance|Illusion Effects	ASPECT:Ability Benefit|%1|IllusionEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Illusion Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Illusion effects.				ASPECT:Immunity|Illusion Effects																									SOURCEPAGE:MM
+Vulnerability To Illusion Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Illusion Effects.																												SOURCEPAGE:MM				
+
+Resistance To Cold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:ColdEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Cold Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Cold Effects,Vulnerability To Cold Effects													SOURCEPAGE:MM				
+Resistance To Cold Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Cold Effects	DESC:You get a +%1 bonus on Fort saving throws against Cold Effects.|ColdEffectsResistanceBonus	ASPECT:Resistance|Cold Effects	ASPECT:Ability Benefit|%1|ColdEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Cold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Cold effects.				ASPECT:Immunity|Cold Effects																									SOURCEPAGE:MM
+Vulnerability To Cold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Cold Effects.																												SOURCEPAGE:MM				
+
+Resistance To Earth Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:EarthEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Earth Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Earth Effects,Vulnerability To Earth Effects													SOURCEPAGE:MM				
+Resistance To Earth Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Earth Effects	DESC:You get a +%1 bonus on Fort saving throws against Earth Effects.|EarthEffectsResistanceBonus	ASPECT:Resistance|Earth Effects	ASPECT:Ability Benefit|%1|EarthEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Earth Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Earth effects.				ASPECT:Immunity|Earth Effects																									SOURCEPAGE:MM
+Vulnerability To Earth Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Earth Effects.																												SOURCEPAGE:MM				
+
+Resistance To Fire Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:FireEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Fire Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Fire Effects,Vulnerability To Fire Effects													SOURCEPAGE:MM				
+Resistance To Fire Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Fire Effects	DESC:You get a +%1 bonus on Fort saving throws against Fire Effects.|FireEffectsResistanceBonus	ASPECT:Resistance|Fire Effects	ASPECT:Ability Benefit|%1|FireEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Fire Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Fire effects.				ASPECT:Immunity|Fire Effects																									SOURCEPAGE:MM
+Vulnerability To Fire Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Fire Effects.																												SOURCEPAGE:MM				
+
+Resistance To Water Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:WaterEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Water Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Water Effects,Vulnerability To Water Effects													SOURCEPAGE:MM				
+Resistance To Water Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Water Effects	DESC:You get a +%1 bonus on Fort saving throws against Water Effects.|WaterEffectsResistanceBonus	ASPECT:Resistance|Water Effects	ASPECT:Ability Benefit|%1|WaterEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Water Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Water effects.				ASPECT:Immunity|Water Effects																									SOURCEPAGE:MM
+Vulnerability To Water Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Water Effects.																												SOURCEPAGE:MM				
+
+
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
@@ -159,6 +185,7 @@ Calcifying Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES											
 Charisma Damage	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charming Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Chill Metal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Confusing Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Constrict	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Constitution Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -194,6 +221,7 @@ Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																						
 Gulp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Hypnosis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Hypnotic Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Keening	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Kiss of Death	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -219,6 +247,7 @@ Razor Storm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES															
 Roar	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Seduction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Smoke Claws	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Sonic Abilities	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Soul Portal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -229,6 +258,7 @@ Steal Breath	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES														
 Stench	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Stomp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Strength Damage	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Swallow Whole	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Tail Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
