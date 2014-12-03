@@ -665,3 +665,10 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 STARTPACK:Neogi Adult	TYPE:Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Neogi]	PRETEMPLATE:1,Neogi ~ Adult																																																											
 RACE:Neogi	!PRERACE:1,%																																																															
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
+
+STARTPACK:Nethersight Mastiff Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nethersight Mastiff]
+RACE:Nethersight Mastiff	!PRERACE:1,%
+NAME:Nethersight Mastiff
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+
