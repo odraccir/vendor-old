@@ -8487,11 +8487,11 @@ BEGIN {
                             # No DC present, the whole param is the spell name
                             push @spells, $param;
 
-#                    $logging->ewarn(INFO,
-#                        qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
-#                        $file_for_error,
-#                        $line_for_error
-#                    );
+							$logging->ewarn(INFO,
+								qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
+								$file_for_error,
+								$line_for_error
+							);
                         }
                     }
                 }
