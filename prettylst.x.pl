@@ -713,7 +713,7 @@ my %tag_fix_value = (
     TIMEUNIT        => { map { $_ => 1 } ( 'Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Round', 'Encounter', 'Charges' ) },
     USEUNTRAINED   => { YES => 1, NO => 1 },
     USEMASTERSKILL => { YES => 1, NO => 1 },
-    VISIBLE        => { YES => 1, NO => 1, EXPORT => 1, DISPLAY => 1, QUALIFY => 1, CSHEET => 1, GUI => 1 }, #[ 1593907 ] False warning: Invalid value "CSHEET" for tag "VISIBLE"
+	VISIBLE			=> { YES => 1, NO => 1, EXPORT => 1, DISPLAY => 1, QUALIFY => 1, CSHEET => 1, GUI => 1, ALWAYS => 1 }, #[ 1593907 ] False warning: Invalid value "CSHEET" for tag "VISIBLE"
 );
 
 # This hash is used to convert 1 character choices to proper fix values.
@@ -2019,6 +2019,7 @@ my %master_order = (
         'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'LANGAUTO:.CLEAR',    # Deprecated - 6.0
         'LANGAUTO:*',        # Deprecated - 6.0
+		'SPELLPOINTCOST:*',
     ],
 
     'ABILITYCATEGORY' => [
@@ -2335,6 +2336,7 @@ my %master_order = (
         'SAB:*',
         'ABILITY:*',
         'UNENCUMBEREDMOVE',
+		'RACE:*',
         'TYPE',                 # Gozzilioni
     ],
 
@@ -3138,6 +3140,7 @@ my %master_order = (
         'DESC:*',
         'TEMPDESC:*',
         'TEMPBONUS:*',
+		'SPELLPOINTCOST:*',
     ],
 
     'SUBCLASS' => [
@@ -3757,8 +3760,8 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'RANGEADD',
     'RANGEMULT',
     'REPUTATION',   # Not listed in the Docs
+	'SIZEMOD',
     'SAVE',
-    'SIZEMOD',
     'SKILL',
     'SITUATION',
     'SKILLPOINTS',
