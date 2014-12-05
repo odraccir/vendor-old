@@ -666,9 +666,18 @@ STARTPACK:Neogi Adult	TYPE:Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRE
 RACE:Neogi	!PRERACE:1,%																																																															
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
 
-STARTPACK:Nethersight Mastiff Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nethersight Mastiff]
+STARTPACK:Nethersight Mastiff Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nethersight Mastiff]
 RACE:Nethersight Mastiff	!PRERACE:1,%
 NAME:Nethersight Mastiff
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
+STARTPACK:Nightmare Beast Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nightmare Beast]
+RACE:Nightmare Beast	!PRERACE:1,%
+NAME:Nightmare Beast
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Nimblerwright Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nimblewright]
+RACE:Nimblewright	!PRERACE:1,%
+NAME:Nimblewright
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
