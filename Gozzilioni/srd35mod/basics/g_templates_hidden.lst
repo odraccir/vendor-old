@@ -11,3 +11,7 @@ Sovereign	VISIBLE:NO	KEY:Myconid ~ Sovereign	SUBRACE:Sovereign
 
 Spawn	VISIBLE:NO	KEY:Neogi ~ Spawn	SUBRACE:Spawn
 Adult	VISIBLE:NO	KEY:Neogi ~ Adult	SUBRACE:Adult
+
+Average	VISIBLE:NO	KEY:Psurlon ~ Average	SUBRACE:Average
+Elder	VISIBLE:NO	KEY:Psurlon ~ Elder	SUBRACE:Elder
+Giant	VISIBLE:NO	KEY:Psurlon ~ Giant	SUBRACE:Giant
