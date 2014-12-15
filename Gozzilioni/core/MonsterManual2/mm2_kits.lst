@@ -701,3 +701,63 @@ RACE:Ormyrr	!PRERACE:1,%
 NAME:Ormyrr
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
+STARTPACK:Phase Wasp Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phase Wasp]
+RACE:Phase Wasp	!PRERACE:1,%
+NAME:Phase Wasp
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Phoenix Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phoenix]
+RACE:Phoenix	!PRERACE:1,%
+NAME:Phoenix
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Planetouched (Chaond) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Chaond)]
+RACE:Planetouched (Chaond)	!PRERACE:1,%
+NAME:Chaond
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Planetouched (Zenythri) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Zenythri)]
+RACE:Planetouched (Zenithri)	!PRERACE:1,%
+NAME:Zenythri
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Psurlon Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Psurlon]
+RACE:Psurlon	!PRERACE:1,%
+NAME:Psurlon
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ragewind Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ragewind]
+RACE:Ragewind	!PRERACE:1,%
+NAME:Ragewind
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Raggamoffyn (Tatterdemanimal) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Tatterdemanimal)]
+RACE:Raggamoffyn (Tatterdemanimal)	!PRERACE:1,%
+NAME:Tatterdemanimal Raggamoffyn
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Raggamoffyn (Common) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Common)]
+RACE:Raggamoffyn (Common)	!PRERACE:1,%
+NAME:Common Raggamoffyn
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Raggamoffyn (Guttersnipe) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Guttersnipe)]
+RACE:Raggamoffyn (Guttersnipe)	!PRERACE:1,%
+NAME:Guttersnipe Raggamoffyn
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Raggamoffyn (Shrapnyl) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Shrapnyl)]
+RACE:Raggamoffyn (Shrapnyl)	!PRERACE:1,%
+NAME:Shrapnyl Raggamoffyn
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Rampager Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rampager]
+RACE:Rampager	!PRERACE:1,%
+NAME:Rampager
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Reason Stealer Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Reason Stealer]
+RACE:Reason Stealer	!PRERACE:1,%
+NAME:Reason Stealer
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
