@@ -162,6 +162,11 @@ Resistance To Water Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.
 Immunity To Water Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Water effects.				ASPECT:Immunity|Water Effects																									SOURCEPAGE:MM
 Vulnerability To Water Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Water Effects.																												SOURCEPAGE:MM				
 
+Resistance To Hold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:HoldEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Hold Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Hold Effects,Vulnerability To Hold Effects													SOURCEPAGE:MM				
+Resistance To Hold Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Hold Effects	DESC:You get a +%1 bonus on Fort saving throws against Hold Effects.|HoldEffectsResistanceBonus	ASPECT:Resistance|Hold Effects	ASPECT:Ability Benefit|%1|HoldEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Hold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Hold effects.				ASPECT:Immunity|Hold Effects																									SOURCEPAGE:MM
+Vulnerability To Hold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Hold Effects.																												SOURCEPAGE:MM				
+
 
 # Ability Focus ability pool																																				
 #	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
@@ -276,3 +281,4 @@ Tripping Thrust	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES											
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Web of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Wounding	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Whirlwind	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
