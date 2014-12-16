@@ -2160,9 +2160,9 @@ my %master_order = (
         'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS',
         'SPELLLEVEL:DOMAIN',
-        'UNENCUMBEREDMOVE',
         'TEMPDESC:*',
         'TEMPBONUS:*',
+        'UNENCUMBEREDMOVE',
         'ROLE',
 #        'HASSPELLFORMULA',        # [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
 #        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
@@ -2487,10 +2487,10 @@ my %master_order = (
         'AUTO:EQUIP:*',
         'AUTO:WEAPONPROF:*',
         'DESC:*',
-        'UNENCUMBEREDMOVE',
-        'ICON',
         'TEMPDESC:*',
         'TEMPBONUS:*',
+        'UNENCUMBEREDMOVE',
+        'ICON',
 #        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 #        'SA:.CLEAR',        # Deprecated - replaced by SAB
 #        'SA:*',                # Deprecated
@@ -2627,12 +2627,12 @@ my %master_order = (
         'NATURALATTACKS',
         'ASPECT:*',
         'BENEFIT:*',
+		'TEMPDESC:*',
         'SPELLKNOWN:CLASS:*',
         'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'UNENCUMBEREDMOVE',
-        'TEMPDESC:*',
         'TEMPBONUS:*',
 #        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 #        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
