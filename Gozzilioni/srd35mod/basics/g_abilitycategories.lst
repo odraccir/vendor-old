@@ -46,6 +46,11 @@ ABILITYCATEGORY:Greater Mummy Special Attack	CATEGORY:Special Ability	TYPE:Great
 ABILITYCATEGORY:Greater Mummy Special Quality	CATEGORY:Special Ability	TYPE:GreaterMummySpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Qualities			DISPLAYLOCATION:Race Traits
 #SOURCELONG:Manual of the Planes	SOURCESHORT:MotP
 ABILITYCATEGORY:Shadow Special Quality	CATEGORY:Special Ability	TYPE:ShadowSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Special Qualities			DISPLAYLOCATION:Race Traits
+#SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2
+ABILITYCATEGORY:Chimeric Creature Dragon Head	CATEGORY:Special Ability	TYPE:ChimericCreatureDragonHead	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Chimeric Creature Dragon Heads			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Attack	CATEGORY:Special Ability	TYPE:MonsterOfLegendSpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Attacks			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Quality	CATEGORY:Special Ability	TYPE:MonsterOfLegendSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Qualitys			DISPLAYLOCATION:Race Traits
+
 
 #Abilitygroup:Racial Class Ability categories																						
 #SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2

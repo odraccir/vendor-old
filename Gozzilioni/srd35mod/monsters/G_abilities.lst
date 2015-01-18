@@ -174,6 +174,7 @@ Vulnerability To Hold Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extra
 ###TODO: Ability Focus for Spell-Like Abilities that are Special Attack.
 # Basic																																				
 # Improved Grab	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+
 Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Acid	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Allure	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -181,9 +182,10 @@ Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES											
 Aura of Pain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Baleful Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
-Blood Drink	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Beguille	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Blade Fury	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Blood Drink	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Blood Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Breath Weapon	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -195,9 +197,11 @@ Charming Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES													
 Chill Metal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Cloud of Steel	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Confusing Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
-Control Host	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
-Constrict	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Confusion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Constitution Damage	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Constitution Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Constrict	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Control Host	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Corrupting Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Corrupting Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Crush	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -214,9 +218,9 @@ Elemental Command	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES									
 Empathy	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Energy Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Enslave	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Entangle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Entangling Roots	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
-Enslave	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Explosion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DaD
 Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -227,6 +231,7 @@ Fists	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																					
 Flurry of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Frightful Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Fungus	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Gulp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -259,6 +264,7 @@ Roar	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																						
 Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Seduction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Silk Slick	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Smoke Claws	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Sonic Abilities	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -272,6 +278,7 @@ Stomp	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																					
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Strength Damage	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Stunning Strike	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Swallow Whole	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Tail Sweep	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Telekinesis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -280,5 +287,5 @@ Trample	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																			
 Tripping Thrust	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Web of Needles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
-Wounding	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Whirlwind	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Wounding	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
