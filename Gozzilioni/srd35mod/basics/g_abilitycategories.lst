@@ -29,6 +29,10 @@ ABILITYCATEGORY:Energon Companion Selection	CATEGORY:Internal	TYPE:EnergonCompan
 ABILITYCATEGORY:Exalted Feat	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Exalted Feats			DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Vile Feat	CATEGORY:FEAT	TYPE:Vile	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Vile Feats			DISPLAYLOCATION:Feats
 # 																						
+#Abilitygroup:Racial Ability categories																						
+#SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2
+ABILITYCATEGORY:Spirit of the Land Elemental Manifestation	CATEGORY:Special Ability	TYPE:ElementalManifestation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spirit of the land Elemental Manifestations			DISPLAYLOCATION:Race Traits
+
 #Abilitygroup:Class Ability categories																						
 #SOURCELONG:Deities and Demigods	SOURCESHORT:DaD
 ABILITYCATEGORY:Berserk Class Feature	CATEGORY:Special Ability	TYPE:BerserkClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Berserk Class Features			DISPLAYLOCATION:Class Features
@@ -46,6 +50,13 @@ ABILITYCATEGORY:Greater Mummy Special Attack	CATEGORY:Special Ability	TYPE:Great
 ABILITYCATEGORY:Greater Mummy Special Quality	CATEGORY:Special Ability	TYPE:GreaterMummySpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Qualities			DISPLAYLOCATION:Race Traits
 #SOURCELONG:Manual of the Planes	SOURCESHORT:MotP
 ABILITYCATEGORY:Shadow Special Quality	CATEGORY:Special Ability	TYPE:ShadowSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Special Qualities			DISPLAYLOCATION:Race Traits
+#SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2
+ABILITYCATEGORY:Chimeric Creature Dragon Head	CATEGORY:Special Ability	TYPE:ChimericCreatureDragonHead	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Chimeric Creature Dragon Heads			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Attack	CATEGORY:Special Ability	TYPE:MonsterOfLegendSpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Attacks			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Quality	CATEGORY:Special Ability	TYPE:MonsterOfLegendSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Qualities			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Immunity	CATEGORY:Special Ability	TYPE:MonsterOfLegendImmunity	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Immunities			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Subtype	CATEGORY:Special Ability	TYPE:MonsterOfLegendSubtype	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Subtypes			DISPLAYLOCATION:Race Traits
+
 
 #Abilitygroup:Racial Class Ability categories																						
 #SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2

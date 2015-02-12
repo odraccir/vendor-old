@@ -15,6 +15,9 @@ Hide.MOD		SITUATION:Subterran area
 Hide.MOD		SITUATION:Tall grass area
 Hide.MOD		SITUATION:Water area
 Hide.MOD		SITUATION:Wooded area
+Hide.MOD		SITUATION:Marshlands
+Hide.MOD		SITUATION:Arid settings
+Hide.MOD		SITUATION:Sandy settings
 Knowledge (Dungeoneering).MOD		SITUATION:Navigate underground
 Move Silently.MOD		SITUATION:Forested area
 Open Lock.MOD	SITUATION:Open Portal

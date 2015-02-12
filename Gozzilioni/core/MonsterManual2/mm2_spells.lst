@@ -25,12 +25,14 @@ Death Ward.MOD	CLASSES:Myconid=4
 
 ###Block: Spell Like abilities
 Animate Objects.COPY=Animate Objects ~ Galeb Duhr
+Dimension Door.COPY=Dimension Door ~ Nightmare Beast
 Crushing Despair.COPY=Emotion Control ~ Fihyr
 Speak with Animals.COPY=Speaks with Animals ~ Desmodu
 Speak with Animals.COPY=Speaks with Animals ~ Jermlaine
 Plane Shift.COPY=Plane Shift ~ Ethereal Slayer
 ###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL or VISIBLE:NO
 Animate Objects ~ Galeb Duhr.MOD	OUTPUTNAME:Animate Object (Stone only)	TYPE:SpellLike
+Dimension Door ~ Nightmare Beast.MOD	OUTPUTNAME:Dimension Door	TYPE:SpellLike	RANGE:.CLEAR	DESC:.CLEAR	RANGE:1000-ft	DESC:Teleports you up to 1000-ft.
 Emotion Control ~ Fihyr.MOD	OUTPUTNAME:Emotion Control	TYPE:SpellLike	RANGE:.CLEAR	RANGE:260-ft	TARGETAREA:.CLEAR	TARGETAREA:15-ft radius spread	DURATION:.CLEAR	DURATION:Concentration
 Speaks with Animals ~ Desmodu.MOD	OUTPUTNAME:Speas with Animals (Bats only)	TYPE:SpellLike	DESC:.CLEAR	DESC:You can comprehend and communicate with bats. You are able to ask questions of and receive answers from bats, although the spell doesn't make them any more friendly or cooperative than normal. Furthermore, wary and cunning bats are likely to be terse and evasive, while the more stupid ones make inane comments. If a bat is friendly toward you, it may do some favor or service for you.
 Speaks with Animals ~ Jermlaine.MOD	OUTPUTNAME:Speas with Animals (Rats and Dire Rats only)	TYPE:SpellLike	DESC:.CLEAR	DESC:You can comprehend and communicate with Rats and Dire Rats. You are able to ask questions of and receive answers from rats and dire rats, although the spell doesn't make them any more friendly or cooperative than normal. Furthermore, wary and cunning rats are likely to be terse and evasive, while the more stupid ones make inane comments. If a rat is friendly toward you, it may do some favor or service for you.

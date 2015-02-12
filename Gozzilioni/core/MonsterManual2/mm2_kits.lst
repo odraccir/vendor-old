@@ -665,3 +665,228 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 STARTPACK:Neogi Adult	TYPE:Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Neogi]	PRETEMPLATE:1,Neogi ~ Adult																																																											
 RACE:Neogi	!PRERACE:1,%																																																															
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
+
+STARTPACK:Nethersight Mastiff Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nethersight Mastiff]
+RACE:Nethersight Mastiff	!PRERACE:1,%
+NAME:Nethersight Mastiff
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Nightmare Beast Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nightmare Beast]
+RACE:Nightmare Beast	!PRERACE:1,%
+NAME:Nightmare Beast
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Nimblerwright Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nimblewright]
+RACE:Nimblewright	!PRERACE:1,%
+NAME:Nimblewright
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ocean Strider Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ocean Strider]
+RACE:Ocean Strider	!PRERACE:1,%
+NAME:Ocean Strider
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Orcwort (Wortling) Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Orcwort (Wortling)]
+RACE:Orcwort (Wortling)	!PRERACE:1,%
+NAME:Wortling
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Orcwort Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Orcwort]
+RACE:Orcwort	!PRERACE:1,%
+NAME:Orcwort
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Ormyrr Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ormyrr]
+RACE:Ormyrr	!PRERACE:1,%
+NAME:Ormyrr
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Phase Wasp Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phase Wasp]
+RACE:Phase Wasp	!PRERACE:1,%
+NAME:Phase Wasp
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Phoenix Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phoenix]
+RACE:Phoenix	!PRERACE:1,%
+NAME:Phoenix
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Planetouched (Chaond) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Chaond)]
+RACE:Planetouched (Chaond)	!PRERACE:1,%
+NAME:Chaond
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Planetouched (Zenythri) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Zenythri)]
+RACE:Planetouched (Zenythri)	!PRERACE:1,%
+NAME:Zenythri
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Psurlon Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Psurlon]
+RACE:Psurlon	!PRERACE:1,%
+NAME:Psurlon
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ragewind Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ragewind]
+RACE:Ragewind	!PRERACE:1,%
+NAME:Ragewind
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Raggamoffyn (Tatterdemanimal) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Tatterdemanimal)]
+RACE:Raggamoffyn (Tatterdemanimal)	!PRERACE:1,%
+NAME:Tatterdemanimal Raggamoffyn
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Raggamoffyn (Common) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Common)]
+RACE:Raggamoffyn (Common)	!PRERACE:1,%
+NAME:Common Raggamoffyn
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Raggamoffyn (Guttersnipe) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Guttersnipe)]
+RACE:Raggamoffyn (Guttersnipe)	!PRERACE:1,%
+NAME:Guttersnipe Raggamoffyn
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Raggamoffyn (Shrapnyl) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Shrapnyl)]
+RACE:Raggamoffyn (Shrapnyl)	!PRERACE:1,%
+NAME:Shrapnyl Raggamoffyn
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Rampager Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rampager]
+RACE:Rampager	!PRERACE:1,%
+NAME:Rampager
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Reason Stealer Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Reason Stealer]
+RACE:Reason Stealer	!PRERACE:1,%
+NAME:Reason Stealer
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Red Sundew Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Red Sundew]
+RACE:Red Sundew	!PRERACE:1,%
+NAME:Red Sundew
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Eidolon (Rogue) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eidolon (Rogue)]
+RACE:Eidolon (Rogue)	!PRERACE:1,%
+NAME:Rogue Eidolon
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Rukarazyll Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rukarazyll]
+RACE:Rukarazyll	!PRERACE:1,%
+NAME:Rukarazyll
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Runic Guardian Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Runic Guardian]
+RACE:Runic Guardian	!PRERACE:1,%
+NAME:Runic Guardian
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Shadow Spider Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Spider]
+RACE:Shadow Spider	!PRERACE:1,%
+NAME:Shadow Spider
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Sirine Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sirine]
+RACE:Sirine	!PRERACE:1,%
+NAME:Sirine
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Spawn of Kyuss Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spawn of Kyuss]
+RACE:Spawn of Kyuss	!PRERACE:1,%
+NAME:Spawn of Kyuss
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Spell Weaver Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spell Weaver]
+RACE:Spell Weaver	!PRERACE:1,%
+NAME:Spell Weaver
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Spellgaunt Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spellgaunt]
+RACE:Spellgaunt	!PRERACE:1,%
+NAME:Spellgaunt
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Spirit of the Land Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spirit of the Land]
+RACE:Spirit of the Land	!PRERACE:1,%
+NAME:Spirit of the Land
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Stone Spike Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Stone Spike]
+RACE:Stone Spike	!PRERACE:1,%
+NAME:Stone Spike
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Swamplight Lynx Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Swamplight Lynx]
+RACE:Swamplight Lynx	!PRERACE:1,%
+NAME:Swamplight Lynx
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Sylph Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sylph]
+RACE:Sylph	!PRERACE:1,%
+NAME:Sylph
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Tempest Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Tempest]
+RACE:Tempest	!PRERACE:1,%
+NAME:Tempest
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Teratomorph Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Teratomorph]
+RACE:Teratomorph	!PRERACE:1,%
+NAME:Teratomorph
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Thri-Kreen Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Thri-Kreen]
+RACE:Thri-Kreen	!PRERACE:1,%
+NAME:Thri-Kreen
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Twig Blight Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Twig Blight]
+RACE:Twig Blight	!PRERACE:1,%
+NAME:Twig Blight
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Vaporighu Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Vaporighu]
+RACE:Vaporighu	!PRERACE:1,%
+NAME:Vaporighu
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Windghost Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Windghost]
+RACE:Windghost	!PRERACE:1,%
+NAME:Windghost
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Wyste Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Wyste]
+RACE:Wyste	!PRERACE:1,%
+NAME:Wyste
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Yak Folk Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yak Folk]
+RACE:Yak Folk	!PRERACE:1,%
+NAME:Yak Folk
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Yugoloth (Marraenoloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Marraenoloth)]
+RACE:Yugoloth (Marraenoloth)	!PRERACE:1,%
+NAME:Yugoloth (MArraenoloth)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Yugoloth (Arcanaloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Arcanaloth)]
+RACE:Yugoloth (Arcanaloth)	!PRERACE:1,%
+NAME:Yugoloth (Arcanaloth)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Yugoloth (Yagnoloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Yagnoloth)]
+RACE:Yugoloth (Yagnoloth)	!PRERACE:1,%
+NAME:Yugoloth (Yagnoloth)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Razor Boar Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
+RACE:Razor Boar	!PRERACE:1,%
+NAME:Razor Boar
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Scorpionfolk Default	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
+RACE:Scorpionfolk	!PRERACE:1,%
+NAME:Scorpionfolk
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11

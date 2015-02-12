@@ -1,6 +1,8 @@
 SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09
 
 # Construct
+Laboratory (Half Golem)		TYPE:Goods.Tools.Construct	COST:500	WT:40	SOURCEPAGE:MM2
+#
 Bogun		TYPE:Construct.Container	COST:2000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 4th; Prerequisite: Craft Construct or Craft Wondrous Item, Control Plants, Wood Shape and Beget Bogun; Market Price: 2000 gp (never sold); Cost to create: 1050 gp + 78 xp.
 Bronze Serpent		TYPE:Construct.Container	COST:90000	WT:1000	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Wish, Polymorph Any Object and Shocking Grasp; Market Price: 90000 gp; Cost to create: 46500 gp + 3540 xp.
 Golem (Brass)		TYPE:Construct.Container	COST:90000	WT:1000	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Wish, Maze, Mordenkainen's Sword and Polymorph Any Object; Market Price: 90000 gp; Cost to create: 33820 gp (includes +3 wounding greataxe) + 2247 xp.
@@ -9,6 +11,8 @@ Golem (Dragonflesh)		TYPE:Construct.Container	COST:175000	WT:0	SOURCEPAGE:MM2	CO
 Golem (Jaggernaut)		TYPE:Construct.Container.Transportation	COST:140000	WT:50000	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Interior hiding space that can accomodate up to two medium size creatures. Casterlevel 18th; Prerequisite: Craft Construct, Bull's Strength, Geas/Quest, Limited Wish, Polymorph Any Object, Forcecage, Grease, Hold Monster, Magic Missile, Slow, Wall of Force, Web; Market Price: 140000 gp; Cost to create: 75000 gp + 5400 xp.
 Golem (Stained Glass)		TYPE:Construct.Container	COST:28000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Geas/Quest, Limited Wish, Polymorph Any Object; Market Price: 28000 gp; Cost to create: 15000 gp + 1080 xp.
 Dread Guard		TYPE:Construct.Container	COST:5000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 5th; Prerequisite: Craft Construct, Fabricate, Geas/Quest and Polymorph Any Object; Market Price: 5000 gp; Cost to create: 3059 gp (includes masterwork banded mail and masterwork light steel shield) + 178 xp.
+Nimblewright		TYPE:Construct.Container	COST:15000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 18th; Prerequisite: Craft Construct, Geas/Quest, Haste, Limited Wish and Polymorph An Object; Market Price: 22000 gp; Cost to create: 18500 gp (including 7500 for the body) + 580 xp.
+Runic Guardian		TYPE:Construct.Container	COST:175000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct; Market Price: 175000 gp; Cost to create: 97500 gp (including 10000 for the body) + 6600 xp.
 
 # Demons
 Abyssal Maw		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
@@ -24,6 +28,10 @@ Kelvezu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Advespa		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Amnizu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Malebranche		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
+###Block: Yugoloth
+Marraenoloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Arcanaloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Yagnoloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
 
 # Monster objects
 Ice Rune		TYPE:IceRune	COST:0	WT:0	SOURCEPAGE:MM2	MODS:REQUIRED

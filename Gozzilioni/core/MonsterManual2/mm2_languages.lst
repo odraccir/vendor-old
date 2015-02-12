@@ -10,3 +10,4 @@ Desmodu	TYPE:Desmodu	PREVARGTEQ:DesmoduLanguage,1
 Sloths	TYPE:Spoken
 Jermlaines	TYPE:Spoken
 Loxos	TYPE:Spoken
+Signal Language	TYPE:Phase Wasp	PREVARGTEQ:PhaseWaspLanguage,1
