@@ -881,3 +881,12 @@ RACE:Yugoloth (Yagnoloth)	!PRERACE:1,%
 NAME:Yugoloth (Yagnoloth)
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
 
+STARTPACK:Razor Boar Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
+RACE:Razor Boar	!PRERACE:1,%
+NAME:Razor Boar
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Scorpionfolk Default	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
+RACE:Scorpionfolk	!PRERACE:1,%
+NAME:Scorpionfolk
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11

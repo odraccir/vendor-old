@@ -28,6 +28,10 @@ Kelvezu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Advespa		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Amnizu		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
 Malebranche		TYPE:Demon.Container	COST:0	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any
+###Block: Yugoloth
+Marraenoloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Arcanaloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
+Yagnoloth		TYPE:Yugoloth.Container	COST:0	WT:0	SOURCEPAGE:MotP	CONTAINS:UNLIM|Any
 
 # Monster objects
 Ice Rune		TYPE:IceRune	COST:0	WT:0	SOURCEPAGE:MM2	MODS:REQUIRED
