@@ -15,7 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Wizards Articles: Monster Mayhem
-CLASS:we_templates.lst
+TEMPLATE:we_templates.lst
 
 
 #BIOSET:my_biosettings.lst
