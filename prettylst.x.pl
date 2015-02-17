@@ -3078,7 +3078,7 @@ my %master_order = (
         'DOMAINS',
         'STAT:*',
         'PPCOST',
-        'SPELLPOINTCOST',            # Delay implementing this until SPELLPOINTCOST is documented
+#        'SPELLPOINTCOST',            # Delay implementing this until SPELLPOINTCOST is documented
         'SCHOOL:.CLEAR',
         'SCHOOL:*',
         'SUBSCHOOL',
