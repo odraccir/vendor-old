@@ -25,8 +25,8 @@ CLASS:Fiery Eagle	PRERACE:1,Eagle (Giant)
 CLASS:Fiery Eagle	STARTSKILLPTS:2	CSKILL:Intimidate|Knowledge (Nature)|Listen|Sense Motive|Spot|Survival																									
 # (level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)																	
 1				ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Powerful Build|Fiery Eagle ~ Screech|Fiery Eagle ~ Swift Fly			BONUS:COMBAT|CA|CON|TYPE=NaturalArmor	BONUS:VAR|SwiftFlyLVL|CL
-2			AUTO:FEAT|Flyby Attack	ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Improved Evasion																							
-3			AUTO:FEAT|Improved Flyby Attack	ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Diving Blitz|Fiery Eagle ~ Ideal Cohort																							
+2			ABILITY:FEAT|AUTOMATIC|Flyby Attack	ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Improved Evasion																							
+3			ABILITY:FEAT|AUTOMATIC|Improved Flyby Attack	ABILITY:Fiery Eagle Class Feature|AUTOMATIC|Fiery Eagle ~ Diving Blitz|Fiery Eagle ~ Ideal Cohort																							
 																											
 # Class Name	Hit Dice	Type			Class Type		Max Level		Source Page					Combat bonus								Misc bonus					Bonus
 CLASS:Needle Fighter	HD:8		TYPE:Monster.Prestige	CLASSTYPE:Monster	MAXLEVEL:5	SOURCEPAGE:ROC	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3																	

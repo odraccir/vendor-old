@@ -106,7 +106,7 @@ Staff of Undying		TYPE:Magic.Staff	COST:27375	WT:5	SOURCEPAGE:AaEG	SPROP:Animate
 Armband of Reduction		TYPE:Magic.Wondrous.Bracer	COST:2000	WT:1	SOURCEPAGE:AaEG	SPROP:At command reduces the wearer to half its height. 2 hours duration.	SLOTS:2							
 Bag of Endless Caltrop		TYPE:Magic.Wondrous	COST:2300	WT:0	SOURCEPAGE:AaEG	SPROP:Endless supply of normal Caltrops. Each standard action enaugh to fill a 5-ft square								
 Banner of Valor		TYPE:Magic.Wondrous	COST:61000	WT:10	SOURCEPAGE:AaEG		SPELLS:Banner of Valor|TIMES=ATWILL|CASTERLEVEL=9|Remove Fear	SPELLS:Banner of Valor|TIMES=3|CASTERLEVEL=9|Cure Light Wounds (Mass),17						
-Belt of Endurance		TYPE:Magic.Wondrous.Belt	COST:10000	WT:1	SOURCEPAGE:AaEG		BONUS:STAT|CON|2|TYPE=Enhancement	VFEAT:Great Fortitude						
+Belt of Endurance		TYPE:Magic.Wondrous.Belt	COST:10000	WT:1	SOURCEPAGE:AaEG		BONUS:STAT|CON|2|TYPE=Enhancement	ABILITY:FEAT|VIRTUAL|Great Fortitude						
 Blindfold of True Darkness		TYPE:Magic.Wondrous.Eyegear	COST:9000	WT:0	SOURCEPAGE:AaEG		BONUS:VAR|BlindsightRange|60|TYPE=Base	ABILITY:Special Ability|VIRTUAL|Immunity To Gaze						
 Bracers of Exit		TYPE:Magic.Wondrous.Bracer	COST:11200	WT:1	SOURCEPAGE:AaEG	SPROP:Negate one Dimensional Anchor per day	SLOTS:2							
 Boots of Mountain King		TYPE:Magic.Wondrous.Boot	COST:48810	WT:1	SOURCEPAGE:AaEG	SPROP:Full movement on rocky, rugged or mountain terrain.	SPELLS:Boots of Mountain|TIMES=2|CASTERLEVEL=12|Stoneskin,16	SLOTS:2						
@@ -122,7 +122,7 @@ Clasp of the Elder		TYPE:Magic.Wondrous.Amulet	COST:6000	WT:10	SOURCEPAGE:AaEG		
 Cloak of Shelter		TYPE:Magic.Wondrous.Cape	COST:12080	WT:1	SOURCEPAGE:AaEG	SPROP:On command the cloak transform into a 4-person tent. The tent includes an Alarm spell.								
 Coin of Eternal Rest		TYPE:Magic.Wondrous.Coin	COST:6000	WT:0	SOURCEPAGE:AaEG	SPROP:Prevent a corpse beins Resurrected, Raised or turned into undead.								
 Dimensional Chalk Holder		TYPE:Magic.Wondrous	COST:22950	WT:0	SOURCEPAGE:AaEG	SPROP:A normal chalk is imbued the ability to draw in air 1d4+1 times. The draws are a Gate to whenever wish.	EQMOD:CHARGED_ITEM_5|CHARGES[5]							
-Dragonfly Medallion		TYPE:Magic.Wondrous.Amulet	COST:29760	WT:0	SOURCEPAGE:AaEG		VFEAT:Improved Initiative|!PREABILITY:1,CATEGORY=FEAT,Improved Initiative	BONUS:COMBAT|INITIATIVE|1|TYPE=Enhancement|PREABILITY:1,CATEGORY=FEAT,Improved Initiative						
+Dragonfly Medallion		TYPE:Magic.Wondrous.Amulet	COST:29760	WT:0	SOURCEPAGE:AaEG		ABILITY:FEAT|VIRTUAL|Improved Initiative|!PREABILITY:1,CATEGORY=FEAT,Improved Initiative	BONUS:COMBAT|INITIATIVE|1|TYPE=Enhancement|PREABILITY:1,CATEGORY=FEAT,Improved Initiative						
 Droplets of the Storm		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small water elementals leaps from.								
 Dust of Zephyr		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small air elementals leaps from.								
 Dimensional Prism		TYPE:Magic.Wondrous	COST:17600	WT:0	SOURCEPAGE:AaEG	SPROP:Shatter to the floor to force any being in 30-ft in transitive planes ti Will save DC 30 or forced into Material plane for 1d6 rounds								
@@ -154,7 +154,7 @@ Medallion of the Lycanthrope		TYPE:Magic.Wondrous.Amulet	COST:44200	WT:0	SOURCEP
 Mirror of Secrets Revealed		TYPE:Magic.Wondrous	COST:95000	WT:.5	SOURCEPAGE:AaEG		SPELLS:Mirror of Secrets Revealed|TIMES=1|CASTERLEVEL=11|Analyze Dweomer,19	SPELLS:Mirror of Secrets Revealed|TIMES=2|CASTERLEVEL=11|True Seeing,17						
 Neckalce of the Marauding Beast (Raging Bear)		TYPE:Magic.Wondrous.Amulet	COST:11840	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:VAR|RageDuration|1						
 Neckalce of the Marauding Beast (Frenzied Shark)		TYPE:Magic.Wondrous.Amulet	COST:12160	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:VAR|RageDuration|1	BONUS:SKILL|Swim|4|TYPE=Circumstance					
-Neckalce of the Marauding Beast (Rampaging Boar)		TYPE:Magic.Wondrous.Amulet	COST:12440	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|CON|1|TYPE=Enhancement	BONUS:VAR|RageDuration|1	VFEAT:Improved Sunder					
+Neckalce of the Marauding Beast (Rampaging Boar)		TYPE:Magic.Wondrous.Amulet	COST:12440	WT:0	SOURCEPAGE:AaEG		BONUS:STAT|CON|1|TYPE=Enhancement	BONUS:VAR|RageDuration|1	ABILITY:FEAT|VIRTUAL|Improved Sunder					
 Necklace of the Wild Beast		TYPE:Magic.Wondrous.Amulet.Container	COST:0	WT:0	SOURCEPAGE:AaEG		CONTAINS:UNLIM|Bead=6|BeadOfWildBeast=6							
 Bead of Calming		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Calm Animals once	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL,1						
 Bead of Servitude		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Dominate Animal once	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL,1						

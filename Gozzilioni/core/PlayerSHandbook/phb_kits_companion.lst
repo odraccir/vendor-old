@@ -4,7 +4,7 @@
 # RACE:Companion ~ Bat	!PRERACE:1,%
 # ALIGN:TN
 # SKILL:Move Silently	RANK:4
-# FEAT:Alertness
+# ABILITY:CATEGORY=FEAT|Alertness
 # STAT:DEX=11|STR=10|CON=10|INT=10|WIS=10|CHA=10
 
 ###Block: Animal Companion Kits
@@ -15,6 +15,6 @@
 # SKILL:Climb		RANK:1
 # SKILL:Listen	RANK:3
 # SKILL:Spot		RANK:3
-# FEAT:Alertness
-# FEAT:Toughness
+# ABILITY:CATEGORY=FEAT|Alertness
+# ABILITY:CATEGORY=FEAT|Toughness
 # STAT:STR=11|DEX=11|CHA=11|CON=10|INT=10|WIS=10

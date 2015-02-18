@@ -51,5 +51,5 @@ Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:
 Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:.	KEY:Rod of Seven Part ~ three pieces	SR:15
 Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:.	KEY:Rod of Seven Part ~ four pieces	SPELLS:Rod of Seven Part|TIMES=2|CASTERLEVEL=20|Control Winds
 Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:.	KEY:Rod of Seven Part ~ five pieces	SPELLS:Rod of Seven Part|TIMES=1|CASTERLEVEL=20|Shapechange
-Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:.	KEY:Rod of Seven Part ~ six pieces	SPELLS:Rod of Seven Part|TIMES=1|CASTERLEVEL=20|Wind Walk	VFEAT:Two-Weapon Fighting
+Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:.	KEY:Rod of Seven Part ~ six pieces	SPELLS:Rod of Seven Part|TIMES=1|CASTERLEVEL=20|Wind Walk	ABILITY:FEAT|VIRTUAL|Two-Weapon Fighting
 Rod of Seven Part	CATEGORY:Special Ability	TYPE:SpecialQuality	VISIBLE:YES	DESC:True Resurrection once. the rod shatter in pieces and scatter around the world.	KEY:Rod of Seven Part ~ seven pieces	SPELLS:Rod of Seven Part|TIMES=1|CASTERLEVEL=20|Control Weather|Whirlwind|Restoration (Greater)
