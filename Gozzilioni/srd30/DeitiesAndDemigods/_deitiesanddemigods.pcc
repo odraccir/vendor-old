@@ -21,7 +21,8 @@ ABILITY:dad_abilities_races.lst
 CLASS:dad_classes_prestige.lst
 COMPANIONMOD:dad_companionmods.lst
 DEITY:dad_deities.lst
-FEAT:dad_feats.lst
+# FEAT:dad_feats.lst
+ABILITY:dad_feats.lst
 KIT:dad_kits.lst
 KIT:dad_kits_companion.lst
 RACE:dad_races.lst

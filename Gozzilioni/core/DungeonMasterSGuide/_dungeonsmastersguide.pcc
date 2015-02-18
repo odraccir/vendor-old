@@ -24,7 +24,8 @@ CLASS:dmg_classes_prestige.lst
 EQUIPMENT:dmg_equip.lst
 EQUIPMENT:dmg_equip_poisons.lst
 EQUIPMOD:dmg_equipmods_enhancing.lst
-FEAT:dmg_feats.lst
+# FEAT:dmg_feats.lst
+ABILITY:dmg_feats.lst
 WEAPONPROF:dmg_profs_weapon.lst
 
 #BIOSET:my_biosettings.lst

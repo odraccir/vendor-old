@@ -18,7 +18,8 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 ABILITY:roc_abilities_classes.lst
 CLASS:roc_classes_monster.lst
 EQUIPMENT:roc_equip.lst
-FEAT:roc_feats.lst
+# FEAT:roc_feats.lst
+ABILITY:roc_feats.lst
 RACE:roc_races_companion.lst
 
 #BIOSET:my_biosettings.lst

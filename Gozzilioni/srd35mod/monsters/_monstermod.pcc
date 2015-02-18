@@ -17,7 +17,8 @@ SOURCEDATE:2003-07
 #Rsrd
 ABILITY:g_abilities.lst
 ABILITY:g_abilities_races.lst
-FEAT:g_feats.lst
+# FEAT:g_feats.lst
+ABILITY:g_feats.lst
 RACE:g_races.lst
 
 #BIOSET:my_biosettings.lst

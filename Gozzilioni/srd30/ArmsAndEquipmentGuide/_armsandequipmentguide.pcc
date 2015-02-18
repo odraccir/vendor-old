@@ -24,7 +24,8 @@ EQUIPMENT:aaeg_equip.lst
 EQUIPMENT:aaeg_equip_arms_and_armor.lst
 EQUIPMENT:aaeg_equip_magic_items.lst
 EQUIPMOD:aaeg_equipmods.lst
-FEAT:aaeg_feats.lst
+# FEAT:aaeg_feats.lst
+ABILITY:aaeg_feats.lst
 KIT:aaeg_kits.lst
 ARMORPROF:aaeg_profs_armor.lst
 SHIELDPROF:aaeg_profs_shield.lst

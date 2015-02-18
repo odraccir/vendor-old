@@ -2,10 +2,10 @@ SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.goz
 
 # BASICS																																									
 # Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
-Mobility.MOD	DEFINE:MobilityBonus|0
-Endurance.MOD	DEFINE:EnduranceBonus|0	BONUS:SITUATION|Swim=Avoid taking nonlethal fatigue damage|EnduranceBonus
-Combat Casting.MOD	DEFINE:CombatCastingBonus|0	BONUS:SITUATION|Concentration=Cast defensively|CombatCastingBonus
+CATEGORY=FEAT|Mobility.MOD	DEFINE:MobilityBonus|0
+CATEGORY=FEAT|Endurance.MOD	DEFINE:EnduranceBonus|0	BONUS:SITUATION|Swim=Avoid taking nonlethal fatigue damage|EnduranceBonus
+CATEGORY=FEAT|Combat Casting.MOD	DEFINE:CombatCastingBonus|0	BONUS:SITUATION|Concentration=Cast defensively|CombatCastingBonus
 #
-Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus
-Skill Focus.MOD		BONUS:SKILL|LIST|-3	BONUS:SKILL|LIST|3|TYPE=Focus
-Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=WeaponFocus
+CATEGORY=FEAT|Greater Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=GreaterWeaponFocus
+CATEGORY=FEAT|Skill Focus.MOD		BONUS:SKILL|LIST|-3	BONUS:SKILL|LIST|3|TYPE=Focus
+CATEGORY=FEAT|Weapon Focus.MOD	BONUS:WEAPONPROF=%LIST|TOHIT|-1	BONUS:WEAPONPROF=%LIST|TOHIT|1|TYPE=WeaponFocus

@@ -67,7 +67,7 @@ CLASS:Gatecrusher	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE=Craft
 10				ABILITY:Gatecrusher Class Feature|AUTOMATIC|Gatecrusher ~ Planar Dampening|!PREABILITY:1,CATEGORY=ACF,TYPE.GatecrusherPlanarDampening										
 														
 CLASS:Planar Champion	HD:10	TYPE:Prestige	ABB:PlC	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Combat	DEFINE:PlanarChampionLVL|0	BONUS:VAR|PlanarChampionLVL|CL	
-CLASS:Planar Champion	PREATT:6	PRESKILL:1,Knowledge (The Planes)=4	PREFEAT:1,Weapon Specialization	PRETEXT:Must have visited at least two planes of existence other than his native plane.										
+CLASS:Planar Champion	PREATT:6	PRESKILL:1,Knowledge (The Planes)=4	PREABILITY:1,CATEGORY=FEAT,Weapon Specialization	PRETEXT:Must have visited at least two planes of existence other than his native plane.										
 CLASS:Planar Champion	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Handle Animal|Hide|Intimidate|Sense Motive|Jump|Knowledge (The Planes)|Listen|Move Silently|TYPE=Profession|Ride|Search|Speak Language|Spot|Swim|Use Rope|Survival												
 1				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionProficiencies										
 #														
@@ -81,7 +81,7 @@ CLASS:Planar Champion	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Handle Animal|Hide
 9				ABILITY:Planar Champion Class Feature|AUTOMATIC|Planar Champion ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.PlanarChampionDR										
 														
 CLASS:Planeshifter	HD:4	TYPE:Prestige	ABB:Pls	MAXLEVEL:10	SOURCEPAGE:MotP	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Wizard	DEFINE:PlanarChampionLVL|0	BONUS:VAR|PlanarChampionLVL|CL	
-CLASS:Planeshifter	PRESKILL:2,Concentration=10,Spellcraft=10	PRESKILL:1,Knowledge (The Planes)=4	PREFEAT:1,Craft Wondrous Item	PREMULT:2,[PRESPELLCAST:TYPE=Arcane],[PRESPELLTYPE:1,Arcane=5]	PRETEXT:Must have visited an Inner or Outer plane before taking this prestige class.									
+CLASS:Planeshifter	PRESKILL:2,Concentration=10,Spellcraft=10	PRESKILL:1,Knowledge (The Planes)=4	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PREMULT:2,[PRESPELLCAST:TYPE=Arcane],[PRESPELLTYPE:1,Arcane=5]	PRETEXT:Must have visited an Inner or Outer plane before taking this prestige class.									
 CLASS:Planeshifter	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Gather Information|Intimidate|Survival|TYPE=Knowledge|TYPE=Perform|TYPE=Profession|Ride|Search|Speak Language|Spellcraft|Swim												
 1				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Plane Shift|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterPlaneShift										
 2				ABILITY:Planeshifter Class Feature|AUTOMATIC|Planeshifter ~ Analyze Portal|!PREABILITY:1,CATEGORY=ACF,TYPE.PlaneshifterAnalyzePortal										

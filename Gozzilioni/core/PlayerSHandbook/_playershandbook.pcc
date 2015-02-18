@@ -18,7 +18,8 @@ SOURCEDATE:2003-07
 ABILITY:phb_abilities_class.lst
 CLASS:phb_classes.lst
 EQUIPMENT:phb_equip_materials.lst
-FEAT:phb_feats.lst
+# FEAT:phb_feats.lst
+ABILITY:phb_feats.lst
 KIT:phb_kits_companion.lst
 SPELL:phb_spells.lst
 

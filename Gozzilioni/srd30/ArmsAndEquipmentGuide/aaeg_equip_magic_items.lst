@@ -122,7 +122,7 @@ Clasp of the Elder		TYPE:Magic.Wondrous.Amulet	COST:6000	WT:10	SOURCEPAGE:AaEG		
 Cloak of Shelter		TYPE:Magic.Wondrous.Cape	COST:12080	WT:1	SOURCEPAGE:AaEG	SPROP:On command the cloak transform into a 4-person tent. The tent includes an Alarm spell.								
 Coin of Eternal Rest		TYPE:Magic.Wondrous.Coin	COST:6000	WT:0	SOURCEPAGE:AaEG	SPROP:Prevent a corpse beins Resurrected, Raised or turned into undead.								
 Dimensional Chalk Holder		TYPE:Magic.Wondrous	COST:22950	WT:0	SOURCEPAGE:AaEG	SPROP:A normal chalk is imbued the ability to draw in air 1d4+1 times. The draws are a Gate to whenever wish.	EQMOD:CHARGED_ITEM_5|CHARGES[5]							
-Dragonfly Medallion		TYPE:Magic.Wondrous.Amulet	COST:29760	WT:0	SOURCEPAGE:AaEG		VFEAT:Improved Initiative|!PREFEAT:1,Improved Initiative	BONUS:COMBAT|INITIATIVE|1|TYPE=Enhancement|PREFEAT:1,Improved Initiative						
+Dragonfly Medallion		TYPE:Magic.Wondrous.Amulet	COST:29760	WT:0	SOURCEPAGE:AaEG		VFEAT:Improved Initiative|!PREABILITY:1,CATEGORY=FEAT,Improved Initiative	BONUS:COMBAT|INITIATIVE|1|TYPE=Enhancement|PREABILITY:1,CATEGORY=FEAT,Improved Initiative						
 Droplets of the Storm		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small water elementals leaps from.								
 Dust of Zephyr		TYPE:Magic.Wondrous	COST:7650	WT:0	SOURCEPAGE:AaEG	SPROP:In 1d4+1 rounds small air elementals leaps from.								
 Dimensional Prism		TYPE:Magic.Wondrous	COST:17600	WT:0	SOURCEPAGE:AaEG	SPROP:Shatter to the floor to force any being in 30-ft in transitive planes ti Will save DC 30 or forced into Material plane for 1d6 rounds								

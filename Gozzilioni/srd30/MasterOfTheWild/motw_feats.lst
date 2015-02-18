@@ -2,4 +2,4 @@ SOURCELONG:Gozzilioni Masters of the Wild	SOURCESHORT:MotW	SOURCEWEB:http://www.
 
 # BASICS																																									
 # Feat Name	Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page
-Remain Conscious	TYPE:General	VISIBLE:YES		PREATT:2			PREFEAT:3,Endurance,Iron Will,Toughness																	DESC:You have a tenacity of will that supports you even when things look bleak.																	SOURCEPAGE:MotW
+Remain Conscious	CATEGORY:FEAT	TYPE:General	VISIBLE:YES		PREATT:2			PREABILITY:3,CATEGORY=FEAT,Endurance,Iron Will,Toughness																	DESC:You have a tenacity of will that supports you even when things look bleak.																	SOURCEPAGE:MotW

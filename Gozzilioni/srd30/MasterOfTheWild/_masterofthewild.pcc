@@ -15,7 +15,8 @@ SOURCEDATE:2002-02
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Rsrd
-FEAT:motw_feats.lst
+# FEAT:motw_feats.lst
+ABILITY:motw_feats.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst
