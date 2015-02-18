@@ -1,0 +1,8 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																													
+#																																
+# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Resistance To Acid	CATEGORY:Special Ability	TYPE:InuredToEnergy	VISIBLE:DISPLAY		KEY:Inured To Energy ~ Resistance To Acid	PREABILITY:1,CATEGORY=Special Ability,Resistance To Acid								BONUS:VAR|AcidResistanceBonus|10					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:SS
+Resistance To Cold	CATEGORY:Special Ability	TYPE:InuredToEnergy	VISIBLE:DISPLAY		KEY:Inured To Energy ~ Resistance To Cold	PREABILITY:1,CATEGORY=Special Ability,Resistance To Cold								BONUS:VAR|ColdResistanceBonus|10					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:SS
+Resistance To Fire	CATEGORY:Special Ability	TYPE:InuredToEnergy	VISIBLE:DISPLAY		KEY:Inured To Energy ~ Resistance To Fire	PREABILITY:1,CATEGORY=Special Ability,Resistance To Fire								BONUS:VAR|FireResistanceBonus|10					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:SS
+Resistance To Electricity	CATEGORY:Special Ability	TYPE:InuredToEnergy	VISIBLE:DISPLAY		KEY:Inured To Energy ~ Resistance To Electricity	PREABILITY:1,CATEGORY=Special Ability,Resistance To Electricity								BONUS:VAR|ElectricityResistanceBonus|10					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:SS
+Resistance To Water	CATEGORY:Special Ability	TYPE:InuredToEnergy	VISIBLE:DISPLAY		KEY:Inured To Energy ~ Resistance To Water	PREABILITY:1,CATEGORY=Special Ability,Resistance To Water								BONUS:VAR|WaterResistanceBonus|10					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:SS
