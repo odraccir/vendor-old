@@ -4,7 +4,7 @@ SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.
 # Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 Race Traits ~ Lesser Cyclops	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=NoRaceTrait	AUTO:LANG|Common																			AUTO:WEAPONPROF|Longspear	AUTO:EQUIP|Longspear								
 																																
-Race Traits ~ Greater Cyclops	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=NoRaceTrait|Immunity To Fire	AUTO:LANG|Common																			AUTO:WEAPONPROF|Longspear	AUTO:EQUIP|Longspear	SR:21	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfMedium						
+Race Traits ~ Greater Cyclops	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=NoRaceTraitAttack|Immunity To Fire	AUTO:LANG|Common																			AUTO:WEAPONPROF|Longspear	AUTO:EQUIP|Longspear	SR:21	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfMedium						
 																																
 Race Traits ~ Faun	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=FaunRaceTrait	AUTO:LANG|Sylvan|Common																												
 Music Ability	CATEGORY:Special Ability	TYPE:FaunRaceTrait	VISIBLE:YES	DESC:when a faun uses a magic flute or a set of pipes the saving throw DC for any effect of the item is increased by +2. a Faun with Use Magic Device skill (DC 25) can use a satyr's pipes to create the magical effects that satyrs produce on the pipes. 	KEY:Faun ~ Music Ability																											SOURCEPAGE:DaD
