@@ -16,7 +16,24 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Savage Species
 ABILITY:ss_abilities.lst
-FEAT:ss_feats.lst
+ABILITY:ss_abilities_classes.lst
+ABILITY:ss_abilities_races.lst
+ABILITYCATEGORY:ss_abilitycategories.lst
+CLASS:ss_classes_prestige.lst
+EQUIPMENT:ss_equip.lst
+EQUIPMENT:ss_equip_arms_and_armor.lst
+EQUIPMENT:ss_equip_wondrous.lst
+ABILITY:ss_feats.lst
+KIT:SS_kits.lst
+WEAPONPROF:ss_profs_weapon.lst
+RACE:ss_races.lst
+RACE:ss_races_companion.lst
+SKILL:ss_skills.lst
+SPELL:ss_spells.lst
+TEMPLATE:ss_templates.lst
+
+HIDETYPE:CLASS|Monster
+HIDETYPE:SKILL|Perform (Chant)
 
 # CLASS:mm2_classes_monster__dragons.lst
 # COMPANIONMOD:mm2_companionmods.lst

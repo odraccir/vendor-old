@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+																																
+###Block: Proficiencies																																
+# Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Race Traits ~ Hippocampus	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=HippocampusRaceTrait	AUTO:LANG|Aquan																												
+Training	CATEGORY:Special Ability	TYPE:HippocampusRaceTrait.SpecialQuality	VISIBLE:YES	DESC:DC 22 young, DC 29 mature. Professional trainers charge 1,000 gp to rear or train a hippocampus.	KEY:Hippocampus ~ Training																											SOURCEPAGE:SS

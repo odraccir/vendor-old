@@ -32,6 +32,7 @@ use English qw( -no_match_vars );    # No more funky punctuation variables
 # Do not inclued the double quotes {"}. The double quotes are only used to indicate needed spaces.
 # Change the old build number and the date and time values
 # to the values shown on SVN for this revision.
+# Remove SVN hooks from displayed version.
 
 # Version information            # Converting to SVN Id parsing using array - Tir Gwaith
 my $SVN_id = '$Id$';
@@ -2068,7 +2069,6 @@ my %master_order = (
         'HAIR',
         'EYES',
         'SKINTONE',
-
     ],
 
     'CLASS' => [
@@ -2173,6 +2173,7 @@ my %master_order = (
     'CLASS Level' => [
         '000Level',
         'REPEATLEVEL',
+		'DONOTADD',
         'UATT',
         'UDAM',
         'UMULT',
@@ -2491,6 +2492,7 @@ my %master_order = (
         'TEMPBONUS:*',
         'UNENCUMBEREDMOVE',
         'ICON',
+        'KIT:*',
 #        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 #        'SA:.CLEAR',        # Deprecated - replaced by SAB
 #        'SA:*',                # Deprecated
@@ -2550,6 +2552,7 @@ my %master_order = (
         'UNENCUMBEREDMOVE',
     ],
 
+# This entire File is being deprecated
     'FEAT' => [
         '000FeatName',
         'KEY',                    # [ 1695877 ] KEY tag is global
@@ -3140,7 +3143,7 @@ my %master_order = (
         'DESC:*',
         'TEMPDESC:*',
         'TEMPBONUS:*',
-		'SPELLPOINTCOST:*',
+#		'SPELLPOINTCOST:*',
     ],
 
     'SUBCLASS' => [
@@ -4131,6 +4134,7 @@ my %tagheader = (
         'DESCRIPTOR'                => 'Descriptor',
         'DOMAIN'                => 'Domain',
         'DOMAINS'               => 'Domains',
+		'DONOTADD'					=> 'Do Not Add',
         'DR:.CLEAR'             => 'Remove Damage Reduction',
         'DR'                    => 'Damage Reduction',
         'DURATION:.CLEAR'               => 'Clear Duration',
@@ -5079,7 +5083,7 @@ if ($cl_options{input_path}) {
             # We keep track of the files we modify
             push @modified_files, $pcc_file_name;
 
-#               We add a CVS revision number is not present
+            # We add a CVS revision number is not present
             if ( !$conversion_enable{'No extra Tab'} ) {
                 print {$new_pcc_fh}
                 "# CVS \$Revision\$ \$Author\$ -- $today -- reformated by $SCRIPTNAME v$VERSION\n"
@@ -6199,7 +6203,6 @@ sub FILETYPE_parse {
     # No reformating needed?
     return $lines_ref unless $cl_options{output_path} && $writefiletype{$file_type};
 
-    # if (!$conversion_enable{'No extra Tab'}) {
     # Now on to all the non header lines.
     CORE_LINE:
     for ( my $line_index = 0; $line_index < @newlines; $line_index++ ) {
@@ -6795,8 +6798,7 @@ sub FILETYPE_parse {
     }
 
     return \@newlines;
-    # } else {
-    # }
+
 }
 
 ###############################################################

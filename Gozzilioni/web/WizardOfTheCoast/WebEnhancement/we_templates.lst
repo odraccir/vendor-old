@@ -3,6 +3,6 @@ SOURCELONG:Gozzilioni Web Enhancement More Half Golem	SOURCESHORT:WEMHG	SOURCEWE
 ###Block: Creature Subtypes								
 # Template Name	Visible	Source Page	Special Ability					
 #								
-Golem (Half/Dragonflesh)	VISIBLE:DISPLAY	SOURCEPAGE:WEMHG	SUBRACE:Half Dragonflesh Golem	BONUS:COMBAT|AC|7|TYPE=NaturalArmor	BONUS:STAT|STR|6	ABILITY:Internal|AUTOMATIC|TYPE=DragonfleshGolemRaceTrait	DR:5/Adamantine	
-Golem (Half/Stained Glass)	VISIBLE:DISPLAY	SOURCEPAGE:WEMHG	SUBRACE:Half Stained Glass Golem	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|2	ABILITY:Internal|AUTOMATIC|TYPE=StainedGlassGolemRaceTrait|Fast Healing	DR:5/Adamantine	BONUS:VAR|FastHealing|2
-Golem (Half/Brass)	VISIBLE:DISPLAY	SOURCEPAGE:WEMHG	SUBRACE:Half Brass Golem	BONUS:COMBAT|AC|11|TYPE=NaturalArmor	BONUS:STAT|STR|12	ABILITY:Internal|AUTOMATIC|TYPE=BrassGolemRaceTrait|Scent	DR:5/Adamantine	
+Golem (Half/Dragonflesh)	VISIBLE:DISPLAY	SOURCEPAGE:WEMHG	SUBRACE:Half Dragonflesh Golem	BONUS:COMBAT|AC|7|TYPE=NaturalArmor	BONUS:STAT|STR|6	ABILITY:Internal|AUTOMATIC|Race Traits ~ Dragonflesh Golem	DR:5/Adamantine	
+Golem (Half/Stained Glass)	VISIBLE:DISPLAY	SOURCEPAGE:WEMHG	SUBRACE:Half Stained Glass Golem	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|2	ABILITY:Internal|AUTOMATIC|Race Traits ~ Stained Glass Golem		DR:5/Adamantine	BONUS:VAR|FastHealing|2
+Golem (Half/Brass)	VISIBLE:DISPLAY	SOURCEPAGE:WEMHG	SUBRACE:Half Brass Golem	BONUS:COMBAT|AC|11|TYPE=NaturalArmor	BONUS:STAT|STR|12	ABILITY:Internal|AUTOMATIC|Race Traits ~ Brass Golem		DR:5/Adamantine	

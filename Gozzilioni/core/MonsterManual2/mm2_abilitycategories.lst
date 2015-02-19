@@ -1,5 +1,15 @@
-# Racial
-## Class Features
+#Abilitygroup:Racial Ability categories																						
+ABILITYCATEGORY:Spirit of the Land Elemental Manifestation	CATEGORY:Special Ability	TYPE:ElementalManifestation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spirit of the land Elemental Manifestations			DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Feature categories																						
 ABILITYCATEGORY:Special Enemy Bonus				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		POOL:SpecialEBonuses	CATEGORY:Special Ability	TYPE:SpecialEnemyBonus									PLURAL:Special Enemy Bonuses			DISPLAYLOCATION:Class Features
 
-## Feats
+#Abilitygroup:Template Ability categories																						
+ABILITYCATEGORY:Chimeric Creature Dragon Head	CATEGORY:Special Ability	TYPE:ChimericCreatureDragonHead	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Chimeric Creature Dragon Heads			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Attack	CATEGORY:Special Ability	TYPE:MonsterOfLegendSpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Attacks			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Quality	CATEGORY:Special Ability	TYPE:MonsterOfLegendSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Qualities			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Immunity	CATEGORY:Special Ability	TYPE:MonsterOfLegendImmunity	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Immunities			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Subtype	CATEGORY:Special Ability	TYPE:MonsterOfLegendSubtype	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monster of Legend Subtypes			DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Racial Class Ability categories																						
+ABILITYCATEGORY:Myconid Class Feature	CATEGORY:Special Ability	TYPE:MyconidClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Myconid Class Features			DISPLAYLOCATION:Class Features

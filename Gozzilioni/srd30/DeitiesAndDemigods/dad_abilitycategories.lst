@@ -1,0 +1,18 @@
+#Abilitygroup:Class Companion																						
+ABILITYCATEGORY:Energon Companion Selection	CATEGORY:Internal	TYPE:EnergonCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	PLURAL:Energon Companion Choices	DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Berserk Class Feature	CATEGORY:Special Ability	TYPE:BerserkClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Berserk Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Justiciar of Taiia Class Feature	CATEGORY:Special Ability	TYPE:JusticiarOfTaiiaClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Justiciar of Taiia Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Soldier of Light Class Feature	CATEGORY:Special Ability	TYPE:SoldierOfLightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Soldier of Light Class Features			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Template Ability categories																						
+ABILITYCATEGORY:Greater Mummy Special Attack	CATEGORY:Special Ability	TYPE:GreaterMummySpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Attacks			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Greater Mummy Special Quality	CATEGORY:Special Ability	TYPE:GreaterMummySpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Qualities			DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Bonus Feats																						
+ABILITYCATEGORY:Justiciar of Taiia Feat	CATEGORY:FEAT	TYPE:JusticiarOfTaiiaBonusFeat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Justiciar of Taiia Feats			DISPLAYLOCATION:Feats
+
+#Abilitygroup:Class Feature categories																						
+ABILITYCATEGORY:Berserk Totem	CATEGORY:Special Ability	TYPE:BerserkTotem	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Berserk Totems			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Godly Gift	CATEGORY:Special Ability	TYPE:GodlyGift	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Godly Gifts			DISPLAYLOCATION:Class Features

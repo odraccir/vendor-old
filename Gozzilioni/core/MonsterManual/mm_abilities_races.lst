@@ -1,8 +1,8 @@
-SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																													
 																																
 ###Block: Proficiencies																																
 # Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-#
+#																																
 Race Traits ~ Beholder	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=BeholderRaceTrait|Flight Maneuverability	ABILITY:Special Ability|AUTOMATIC|TYPE=TrueBeholderRaceTrait|PRERACE:2,RACESUBTYPE=Beholder,RACESUBTYPE=TrueBeholder	ABILITY:Special Ability|AUTOMATIC|TYPE=LesserBeholderRaceTrait|PRERACE:2,RACESUBTYPE=Beholder,RACESUBTYPE=LesserBeholder	AUTO:LANG|Beholder|Common	ABILITY:FEAT|AUTOMATIC|Alertness																									
 Eye Rays	CATEGORY:Special Ability	TYPE:BeholderRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Each of a Veholder's small eyes can produce a magical ray once per round as a free action.	KEY:Beholder ~ Eye Rays																											SOURCEPAGE:MM
 Flight	CATEGORY:Special Ability	TYPE:BeholderRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES		KEY:Beholder ~ Flight									BONUS:VAR|Maneuverability|4|TYPE=Racial																		SOURCEPAGE:MM
@@ -133,7 +133,7 @@ Skills	CATEGORY:Special Ability	TYPE:YuanTiAbomination.SpecialQuality	VISIBLE:YE
 Race Traits ~ Yuan-Ti Pureblood	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=YuanTiPurebloodRaceTrait																													
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:YuanTiPurebloodRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Yuan-Ti Pureblood ~ Spell-Like Abilities																		SPELLS:Innate|TIMES=1|CASTERLEVEL=4|Animal Trance,12+CHA|Cause Fear,11+CHA|Charm Person,11+CHA|Darkness|Entangle,11+CHA									SOURCEPAGE:MM
 Skills	CATEGORY:Special Ability	TYPE:YuanTiPurebloodRaceTrait.SpecialQuality	VISIBLE:YES	DESC:+5 racial bonus on Disguise checks when impersonating a human.	KEY:Yuan-Ti Pureblood ~ Skills									BONUS:SITUATION|Diplomacy=Impersonating a Human|5|TYPE=Racial																		
-
+																																
 Race Traits ~ Erinyes ~ MM	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=ErinyesMMRaceTrait|Flight Maneuverability	AUTO:LANG|Celestial|Draconic|Infernal	ABILITY:FEAT|AUTOMATIC|Dodge|Mobility	AUTO:WEAPONPROF|Longsword|TYPE=Martial|TYPE=Simple								BONUS:VAR|Maneuverability|4|TYPE=Racial																		
 Entangle	CATEGORY:Special Ability	TYPE:ErinyesMMRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Each Erinyes carries a stout rope some 50 feet long that entangles opponents of any size as an Animate Rope spell (casterlevel 16th). An Erinyes can hurl its rope 30 feet with no range penalty. Typically, an Erinyes entangles a foe, lift it into the air and drops it from a great heigth.	KEY:Erinyes ~ MM ~ Entangle																											SOURCEPAGE:MM
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:ErinyesMMRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Erinyes ~ MM ~ Spell-Like Abilities																		SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=12|Charm Monster,14+CHA|Minor Image,14+CHA|Teleport (Greater/Self Only),17+CHA|Unholy Blight,14+CHA									SOURCEPAGE:MM

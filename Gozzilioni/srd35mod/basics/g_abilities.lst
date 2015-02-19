@@ -20,8 +20,8 @@ CATEGORY=Special Ability|Smite Evil.MOD	TYPE:SmiteEvil.Smite	DESC:+%1 with one n
 CATEGORY=Special Ability|Smite Good.MOD	TYPE:SmiteGood.Smite	DESC:+%1 with one normal melee attack for +%2 extra damage %3/day|SmiteGoodToHit|SmiteGoodDamage|SmiteGood	DEFINE:SmiteGood|0	DEFINE:SmiteGoodToHit|0	DEFINE:SmiteGoodDamage|0	
 CATEGORY=Special Ability|Add Spoken Language.MOD	PREVARGTEQ:LoremasterLVL,1
 
--	CATEGORY:Special Ability	TYPE:NoRaceTrait.SpecialQuality	VISIBLE:YES	SOURCEPAGE:G
--	CATEGORY:Special Ability	TYPE:NoRaceTrait.SpecialAttack	VISIBLE:YES	SOURCEPAGE:G
+-	CATEGORY:Special Ability	TYPE:NoRaceTrait.NoRaceTraitQuality.SpecialQuality	VISIBLE:YES		KEY:No Race Trait ~ Special Quality	SOURCEPAGE:G
+-	CATEGORY:Special Ability	TYPE:NoRaceTrait.NoRaceTraitAttack.SpecialAttack	VISIBLE:YES		KEY:No Race Trait ~ Special Attack	SOURCEPAGE:G
 
 # CATEGORY=Special Ability|Turn Air.MOD	TYPE:TurnElemental																															
 # CATEGORY=Special Ability|Rebuke Air.MOD	TYPE:TurnElemental																															

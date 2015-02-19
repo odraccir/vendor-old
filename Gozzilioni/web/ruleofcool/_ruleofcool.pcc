@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Rule of Cool
+ABILITYCATEGORY:roc_abilitycategories.lst
 ABILITY:roc_abilities_classes.lst
 CLASS:roc_classes_monster.lst
 EQUIPMENT:roc_equip.lst

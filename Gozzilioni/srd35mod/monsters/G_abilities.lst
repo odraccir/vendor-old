@@ -6,12 +6,12 @@ CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponLine|
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|0	BONUS:VAR|DefaultSpellDCCha|10+CHA|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|0	BONUS:VAR|DefaultDCWis|10+(HD/2)+WIS|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|0	BONUS:VAR|DefaultDCStr|10+(HD/2)+STR|TYPE=Base																																			
-CATEGORY=Internal|Default.MOD	DEFINE:PoisonDC|0	BONUS:VAR|PoisonDC|-1*(10+(HD/2)+CON)|TYPE=Base																																			
+# CATEGORY=Internal|Default.MOD	DEFINE:PoisonDC|0	BONUS:VAR|PoisonDC|-1*(10+(HD/2)+CON)|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:RendDefaultDamage|0	BONUS:VAR|RendDefaultDamage|STR*3/2|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:SmiteGood|0	DEFINE:SmiteGoodDamage|0																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SmiteEvil|0	DEFINE:SmiteEvilDamage|0																																		
-																																				
+
 Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange																											
 See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange																											
 See In Darkness Vision	KEY:See In Darkness Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInDarknessRange|0	DESC:Can see perfectly in darkness of any kind, even that created by a Deeper Darkness spell.	VISION:See In Darkness (SeeInDarknessRange)			ASPECT:Vision|See In Darkness %1'|SeeInDarknessRange																											
@@ -138,6 +138,11 @@ Resistance To Energy Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.E
 Immunity To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Energy Drain-based effects damage				ASPECT:Immunity|Energy Drain																									SOURCEPAGE:MM2
 Vulnerability To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Energy Drain-based effects.																												SOURCEPAGE:MM				
 
+Resistance To Dream Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DreamEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Dream Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Dream Effects,Vulnerability To Dream Effects													SOURCEPAGE:MM				
+Resistance To Dream Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Dream Effects	DESC:You get a +%1 bonus on Will saving throws against Dream Effects.|DreamEffectsResistanceBonus	ASPECT:Resistance|Dream Effects	ASPECT:Ability Benefit|%1|DreamEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Dream Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Dream effects.				ASPECT:Immunity|Dream Effects																									SOURCEPAGE:MM
+Vulnerability To Dream Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Dream Effects.																												SOURCEPAGE:MM				
+
 Resistance To Illusion Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:IllusionEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Illusion Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Illusion Effects,Vulnerability To Illusion Effects													SOURCEPAGE:MM				
 Resistance To Illusion Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Illusion Effects	DESC:You get a +%1 bonus on Fort saving throws against Illusion Effects.|IllusionEffectsResistanceBonus	ASPECT:Resistance|Illusion Effects	ASPECT:Ability Benefit|%1|IllusionEffectsResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Illusion Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are not suscettible to Illusion effects.				ASPECT:Immunity|Illusion Effects																									SOURCEPAGE:MM
@@ -189,6 +194,7 @@ Vulnerability To Water Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extr
 # Improved Grab	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 
 Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Abyssal Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Acid	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Allure	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -208,6 +214,7 @@ Calcifying Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES											
 Charisma Damage	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Charming Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Charming Song	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Chill Metal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Cloud of Steel	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Confusing Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -286,6 +293,11 @@ Seduction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																	
 Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Silk Slick	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Smoke Claws	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
+Song of Despair	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
+Song of Nightmare	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
+Song of Idiocy	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
+Song of Weakness	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
+Song of Stone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
 Sonic Abilities	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Soul Portal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		

@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+###Block: Awakened Vermin
+Awakened Vermin	TEMPLATE:Awakened Vermin_Standard	PRERACE:1,RACETYPE=Vermin,TYPE=Vermin	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Animal	LANGBONUS:TYPE=Spoken	SUBRACE:Awakened	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin
+Awakened Vermin_Standard	VISIBLE:NO	PRECLASS:1,Vermin=1	ADDLEVEL:Vermin|2

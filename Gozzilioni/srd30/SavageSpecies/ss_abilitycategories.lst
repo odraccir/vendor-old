@@ -1,0 +1,23 @@
+#Abilitygroup:Feat choosers
+ABILITYCATEGORY:Inured to Energy	CATEGORY:Special Ability	TYPE:InuredToEnergy	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Inured to Energies			DISPLAYLOCATION:Feats
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Emancipated Spawn Class Feature	CATEGORY:Special Ability	TYPE:EmancipatedSpawnClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Emancipated Spawn Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Illithid Savant Class Feature	CATEGORY:Special Ability	TYPE:IllithidSavantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Illithid Savant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master of Flies Class Feature	CATEGORY:Special Ability	TYPE:MasterOfFliesClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master of Flies Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Scaled Horror Class Feature	CATEGORY:Special Ability	TYPE:ScaledHorrorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Scaled Horror Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Siren Class Feature	CATEGORY:Special Ability	TYPE:SirenClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Siren Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Slaad Brooder Class Feature	CATEGORY:Special Ability	TYPE:SlaadBrooderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Slaad Brooder Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Survivor Class Feature	CATEGORY:Special Ability	TYPE:SurvivorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Survivor Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sybil Class Feature	CATEGORY:Special Ability	TYPE:SybilClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sybil Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Waverider Class Feature	CATEGORY:Special Ability	TYPE:WaveriderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Waverider Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Yuan-Ti Cultist Class Feature	CATEGORY:Special Ability	TYPE:YuanTiCultistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Yuan-Ti Cultist Class Features			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Class Feature categories																						
+ABILITYCATEGORY:Acquire Skill	CATEGORY:Special Ability	TYPE:AcquireSkill	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acquire Skills			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Acquire Feat	CATEGORY:Special Ability	TYPE:AcquireFeat	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acquire Feats			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Acquire Class Feature	CATEGORY:Special Ability	TYPE:AcquireClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acquire Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Acquire Special Attack or Special Quality	CATEGORY:Special Ability	TYPE:AcquireSpecialAttack.AcquireSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acquire Special Attacks or Special Qualities			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Waverider Mount Choice	CATEGORY:Internal	TYPE:WaveriderMountSelection	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Waverider Mount Choices			DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Waverider Mount Selection	CATEGORY:Internal	TYPE:WaveriderMountSelection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Waverider Mount Selection			DISPLAYLOCATION:Class Features
