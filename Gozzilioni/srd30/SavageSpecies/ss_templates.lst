@@ -2,3 +2,19 @@ SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzili
 ###Block: Awakened Vermin
 Awakened Vermin	TEMPLATE:Awakened Vermin_Standard	PRERACE:1,RACETYPE=Vermin,TYPE=Vermin	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Animal	LANGBONUS:TYPE=Spoken	SUBRACE:Awakened	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin
 Awakened Vermin_Standard	VISIBLE:NO	PRECLASS:1,Vermin=1	ADDLEVEL:Vermin|2
+
+###Block: Class template
+Voice of Merrshaulk	VISIBLE:DISPLAY	SOURCEPAGE:SS	PRECLASS:1,Yuan-Ti Cultist=10	RACETYPE:Outsider	SR:20+WIS	ABILITY:Special Ability|VIRTUAL|Voice of Merrshaulk ~ Telepathy|Voice of Merrshaulk ~ Command Yuan-Ti
+
+###Block:Templates
+Feral	VISIBLE:YES	SOURCEPAGE:SS	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	!PRETEMPLATE:1,Incorporeal	RACETYPE:Monstrous Humanoid	HITDIE:10|CLASS.TYPE=Monster	BONUS:MOVEADD|TYPE.Walk|10	BONUS:COMBAT|AC|6|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Feral ~ Claw (Fine)|Feral ~ Claw (Diminutive)|Feral ~ Claw (Tiny)|Feral ~ Claw (Small)|Feral ~ Claw (Medium)|Feral ~ Claw (Large)|Feral ~ Claw (Huge)|Feral ~ Claw (Gargantuan)|Feral ~ Claw (Colossal)	ABILITY:Special Ability|AUTOMATIC|Feral ~ Improved Grab|PREHD:MIN=1	ABILITY:Special Ability|AUTOMATIC|Feral ~ Pounce|PREHD:MIN=4	ABILITY:Special Ability|AUTOMATIC|Feral ~ Rake|PREHD:MIN=8	ABILITY:Special Ability|AUTOMATIC|Feral ~ Rend|PREHD:MIN=12	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|DarkvisionRange|90|TYPE=Base|PREHD:MIN=8	BONUS:VAR|DarkvisionRange|120|TYPE=Base|PREHD:MIN=12	ABILITY:Special Ability|AUTOMATIC|Fast Healing	DEFINE:FeralFastHealing|0	BONUS:VAR|FeralFastHealing|min(5,(2+(HD/4)))	BONUS:VAR|FastHealing|FeralFastHealing|TYPE=Base	BONUS:STAT|STR|4	BONUS:STAT|DEX|-2	BONUS:STAT|CON|2	BONUS:STAT|INT|-4	BONUS:STAT|WIS|2	DEFINESTAT:MINVALUE|INT|2	BONUS:MISC|CR|1|PREHD:MIN=1	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=8	BONUS:MISC|CR|1|PREHD:MIN=12	LEVELADJUSTMENT:1	FAVOREDCLASS:Barbarian
+Feral ~ Claw (Fine)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:F	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d2																											
+Feral ~ Claw (Diminutive)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:D	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3																											
+Feral ~ Claw (Tiny)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:T	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4																											
+Feral ~ Claw (Small)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:S	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6																											
+Feral ~ Claw (Medium)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:M	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d8																											
+Feral ~ Claw (Large)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:L	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d6																											
+Feral ~ Claw (Huge)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:H	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d8																											
+Feral ~ Claw (Gargantuan)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:G	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,4d6																											
+Feral ~ Claw (Colossal)		VISIBLE:NO	SOURCEPAGE:SS	PRESIZEEQ:C	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,4d8																											
+Gelatinous	VISIBLE:YES	SOURCEPAGE:SS	!PRERACE:1,RACESUBTYPE:Ooze,RACESUBTYPE:Undead	RACETYPE:Aberration	HITDIE:10|CLASS.TYPE.Monster	BONUS:MOVEMULT|TYPE.Walk,TYPE.Climb,TYPE.SWIM|0.5	BONUS:COMBAT|AC|-2|TYPE=NaturalArmor.REPLACE	TEMPLATE:CHOOSE:Slam (Fine)|Slam (Diminutive)|Slam (Tiny)|Slam (Small)|Slam (Medium)|Slam (Large)|Slam (Huge)|Slam (Gargantuan)|Slam (Colossal)	ABILITY:Special Ability|AUTOMATIC|Gelatinous ~ Acid

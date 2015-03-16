@@ -2,8 +2,8 @@ SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzili
 																		
 # Equipment Name	Output Name	Type	Cost	Weight		Source Page	Special Property											
 # Rings																		
-Ring of Growth		TYPE:Magic.Ring	COST:18000	WT:0	SOURCEPAGE:SS		SPELLS:Ring of Growth|TIMES=1|CASTERLEVEL=9|Growth											
-Ring of Shrinking		TYPE:Magic.Ring	COST:3600	WT:0	SOURCEPAGE:SS		SPELLS:Ring of Shrinking|TIMES=1|CASTERLEVEL=9|Reduce											
+Ring of Growth		TYPE:Magic.Ring	COST:18000	WT:0	SOURCEPAGE:SS		SPELLS:Ring of Growth|TIMES=1|CASTERLEVEL=9|Enlarge Person											
+Ring of Shrinking		TYPE:Magic.Ring	COST:3600	WT:0	SOURCEPAGE:SS		SPELLS:Ring of Shrinking|TIMES=1|CASTERLEVEL=9|Reduce Person											
 Ring of Wordtwisting		TYPE:Magic.Ring	COST:23508	WT:0	SOURCEPAGE:SS		SPROP:Constant Tongues spell (5th level wizard).|PRERACE:1,RACESUBTYPE=Orc	BONUS:SKILL|Bluff,Diplomacy,Sense Motive|2|TYPE=Insight	BONUS:SKILL|Bluff,Diplomacy,Intimidate,Sense Motive|4|TYPE=Insight|PRERACE:1,RACESUBTYPE=Orc									
 																		
 # Staff																		

@@ -132,13 +132,28 @@ CLASS:Waverider	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Jump|T
 													
 CLASS:Yuan-Ti Cultist	HD:4	TYPE:Monster.Prestige	ABB:YtC	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:YuanTiCultistLVL|0	BONUS:VAR|YuanTiCultistLVL|CL
 CLASS:Yuan-Ti Cultist	PRERACE:1,RACESUBTYPE=Yuan-Ti	PREALIGN:LE,NE,CE	PREDEITY:1,Merrshaulk	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:1,Knowledge (Religion)=10	PRESKILL:1,Perform (Chant)=1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=3					
-CLASS:Yuan-Ti Cultist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Knowledge (Arcana)|Knowledge (Architecture)|Knowledge (Religion)|Profession (Chant)|TYPE=Profession|Spellcraft											
+CLASS:Yuan-Ti Cultist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Religion)|Perform (Chant)|TYPE=Profession|Spellcraft											
 1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spellcasting									
+2				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Suffering Prestige Domain									
 #													
 1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistProficiencies									
 1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Outer Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistOuterCircle									
 1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spit Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSpitPoison									
-1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Suffering Prestige Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSufferingPrestigeDomain									
+2				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Sticks To Snakes|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSticksToSnakes									
+3				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Third Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistThirdCircle									
+3				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Snake Darts|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSnakeDarts									
+4				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Psionic Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistPsionicFocus									
+4				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Chant of Pain|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistChantOfPain									
+5				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Second Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSecondCircle									
+6				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Greater Psionic Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistGreaterPsionicFocus									
+6				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Chant of Agony|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistChantOfAgony									
+7				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Unhallow|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistUnhallow									
+7				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ First Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistFirstCircle									
+8				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Command Reptiles|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistCommandReptiles									
+8				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Chant of Death|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistChantOfDeath									
+9				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Inner Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistInnerCircle									
+9				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Unholy Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistUnholyAura									
+10				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Voice of Merrshaulk|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistVoiceOfMerrshaulk									
 #													
 1	ADD:SPELLCASTER|Divine												
 2	ADD:SPELLCASTER|Divine												
