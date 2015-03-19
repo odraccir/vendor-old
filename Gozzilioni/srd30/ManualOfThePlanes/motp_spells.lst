@@ -37,12 +37,12 @@ Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Deity's plane only
 Gate.COPY=Gate	KEY:Gate ~ Deity's plane only
 Teleport (Greater).COPY=Teleport (Greater)	KEY:Teleport ~ Greater/Self and Mount
 Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Self and Rider
-Wish.COPY=Wish	KEY:Wish ~ to nongenies only
+Wish.COPY=Wish	KEY:Grant a wish ~ to nongenies only
 Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Shadow Plane
 ###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL or VISIBLE:NO
 Plane Shift ~ Deity's plane only.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:Creature touched, or up to eight willing creatures joining hands	DESC:As many as eight subjects travel to the deity's plane.	SOURCEPAGE:MotP
 Gate ~ Deity's plane only.MOD	TYPE:SpellLike	DESC:.CLEAR	DESC:Connects to the Deity's Home plane for travel or summoning.	SOURCEPAGE:MotP									
 Teleport ~ Greater/Self and Mount.MOD	TYPE:SpellLike	OUTPUTNAME:Greater Teleport (self and its mount only)	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:You, your mount and up to 50 pounds of objects	DESC:As teleport, but no range limit and no off-target arrival.	SOURCEPAGE:MotP
 Plane Shift ~ Self and Rider,MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:You and your rider.	DESC:You and your rider travel to another plane.	SOURCEPAGE:MotP
-Wish ~ to nongenies only.MOD	TYPE:SpellLike	SOURCEPAGE:MotP
+Grant a wish ~ to nongenies only.MOD	TYPE:SpellLike	SOURCEPAGE:MotP
 Plane Shift ~ Shadow Plane.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:You.	DESC:Self to or from the Plane of Shadow.	SOURCEPAGE:MotP

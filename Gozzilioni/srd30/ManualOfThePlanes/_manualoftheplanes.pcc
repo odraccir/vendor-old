@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Manual of the Planes
+ABILITYCATEGORY:motp_abilitycategories.lst
 ABILITY:motp_abilities.lst
 ABILITY:motp_abilities_classes.lst
 ABILITY:motp_abilities_races.lst

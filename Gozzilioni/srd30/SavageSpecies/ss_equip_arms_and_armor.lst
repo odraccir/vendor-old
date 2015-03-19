@@ -1,0 +1,114 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+																											
+###Block:Weapons																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+# Natural																											
+																											
+# Melee 																											
+Chain (Barbed)	OUTPUTNAME:Chain, [NAME]	PROFICIENCY:WEAPON|Chain (Barbed)	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.Piercing.TwoHanded.Finesseable.Reach.Chain	COST:18	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SS			REACHMULT:2						
+Tail Blade		PROFICIENCY:WEAPON|Tail Blade	TYPE:Weapon.Exotic.Melee.Standard.Slashing.OneHanded.Sword	COST:17	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SS									
+Tail Club		PROFICIENCY:WEAPON|Tail Club	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.OneHanded.Mace	COST:10	WT:10	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:SS									
+Chain (Lash)	OUTPUTNAME:Chain, [NAME]	PROFICIENCY:WEAPON|Chain (Lash)	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Reach.Finesseable.Double.Chain	COST:5	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	ALTTYPE:Weapon.Melee.Bludgeoning.Chain	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL	SOURCEPAGE:SS			REACHMULT:2						
+Gythka		PROFICIENCY:WEAPON|Gythka	TYPE:Weapon.Exotic.Melee.Standard.Slashing.TwoHanded.Double.Polearm	COST:60	WT:25	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	ALTTYPE:Weapon.Melee.Slashing.Polearm	ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL	SOURCEPAGE:SS									
+Longspear (Salamander)	OUTPUTNAME:Longspear, [NAME]	PROFICIENCY:WEAPON|Longspear (Salamander)	TYPE:Weapon.Exotic.Melee.Standard.Piercing.TwoHanded.Reach.Spear.Salamander	COST:10	WT:18	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:SS			REACHMULT:2						
+Pincerstaff		PROFICIENCY:WEAPON|Pincerstaff	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Quarterstaff.Polearm	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:SS									
+Sword (Scissor)	OUTPUTNAME:Sword, [NAME]	PROFICIENCY:WEAPON|Sword (Scissor)	TYPE:Weapon.Exotic.Melee.Standard.Slashing.TwoHanded.Sword	COST:100	WT:25	WIELD:TwoHanded		SIZE:M	DAMAGE:2d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SS									
+Sharktooth Staff		PROFICIENCY:WEAPON|Sharktooth Staff	TYPE:Weapon.Exotic.Melee.Standard.Slashing.TwoHanded.Quarterstaff	COST:20	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:SS									
+Chain (Snake)	OUTPUTNAME:Chain, [NAME]	PROFICIENCY:WEAPON|Chain (Snake)	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Reach.Finesseable.Double.Chain	COST:5	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL	SOURCEPAGE:SS			REACHMULT:2						
+Chuul Lasher		PROFICIENCY:WEAPON|Chuul Lasher	TYPE:Weapon.Exotic.Melee.Standard.Slashing.Light.Reach.Whip.Chuul	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d2	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER						SOURCEPAGE:SS		REACH:15							
+																											
+# Ranged																											
+Chakcha		PROFICIENCY:WEAPON|Chakcha	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.OneHanded	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d2	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SS	RANGE:20								
+Javelin (Howler)	OUTPUTNAME:Javelin, Howler	PROFICIENCY:WEAPON|Javelin (Howler)	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Thrown.Javelin	COST:2	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:SS	RANGE:30								
+Halfspear (Salamander)	OUTPUTNAME:Halfspear, [NAME]	PROFICIENCY:WEAPON|Halfspear (Salamander)	TYPE:Weapon.Exotic.Melee.Ranged.Standard.Piercing.OneHanded.Spear.Salamander	COST:2	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD						SOURCEPAGE:SS	RANGE:10								
+Shortspear (Salamander)	OUTPUTNAME:Shortspear, [NAME]	PROFICIENCY:WEAPON|Shortspear (Salamander)	TYPE:Weapon.Exotic.Melee.Ranged.Standard.Piercing.TwoHanded.Spear.Salamander	COST:4	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:SS	RANGE:10								
+																											
+# Armor 																											
+																											
+# Shield																											
+																											
+# Arrows																											
+																											
+###Block:Weapons																											
+###TODO: it's better to copy the original and modify the copy or not?																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+# Melee Specific Weapons																											
+Assassin Whip		PROFICIENCY:WEAPON|Whip	TYPE:Enhancement.Weapon.Exotic.Melee.Specific.Slashing.OneHanded.Reach.Finesseable.Subdual.Whip	COST:11021	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS		REACH:15							
+Beast Claws		PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Slashing.Light.Finesseable.Unarmed.Gauntlet	COST:9610	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						BONUS:EQM|WEIGHTADD|-1|PREMULT:3,[PREEQUIP:1,TYPE.Armor],[PREEQUIP:1,TYPE.Medium,TYPE.Heavy],[!PREEQUIP:1,Breastplate]	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement|PREWEAPONPROF:1,Claw,Claws	SPROP:+1d6 damage|PREWEAPONPROF:1,Claw,Claws	
+Blade of the Wind		PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Piercing.Light.Finesseable.Sword	COST:97510	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS2W.DANCE.EQ_COST_ADJ|72300						SOURCEPAGE:SS						BONUS:STAT|DEX|4|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Air	SPROP:threat range and critical multiplier improve to 17-20/x3 against creature with Earth Subtype|PRERACE:1,RACESUBTYPE=Air		
+Brimstone Hammer		PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Bludgeoning.OneHanded.Hammer	COST:45812	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.PLUS2W.UNHLY_M.EQ_COST_ADJ|32300						SOURCEPAGE:SS						BONUS:VAR|SmiteGood|1|PRETEMPLATE:1,Fiendish,Half Fiend			
+Dwarf Crusher		PROFICIENCY:WEAPON|Greatclub	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Bludgeoning.TwoHanded.Club	COST:26305	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:SS							SPROP:Creatures with Strength of at least 25 who use Power Attack at the highest possible level (devoting their entire base attack bonus to damage) ignore the hardness of nonliving materials when wielding this Hammer.|PRESTAT:1,STR=25		
+Elf Breaker		PROFICIENCY:WEAPON|Morningstar	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Bludgeoning.Piercing.OneHanded.Mace	COST:26305	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Goblinoid			
+Elf Edge		PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:18315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						BONUS:STAT|DEX|4|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Elf			
+Foe Reaver		PROFICIENCY:WEAPON|Greataxe	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Slashing.TwoHanded.Axe	COST:18320	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						ABILITY:Special Ability|AUTOMATIC|Resistance To Fire|PRERACE:1,Giant (Frost)	BONUS:VAR|FireResistanceBonus|20|PRERACE:1,Giant (Frost)		
+Fishgutter		PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Slashing.OneHanded.Sword	COST:64315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:SS						SPROP:constant Freedom of Movement			
+Flint Basher		PROFICIENCY:WEAPON|Greatclub	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Bludgeoning.TwoHanded.Club	COST:32305	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:SS						SPELLS:Flint Basher|TIMES=1|CASTERLEVEL=5|Stone Shape	BONUS:STAT|CON|4|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Earth	SPROP:threat range and critical multiplier improve to 19-20/x3 against creature with Air Subtype|PRERACE:1,RACESUBTYPE=Earth	
+Gauntlet of Gruumsh		PROFICIENCY:WEAPON|Gauntlet	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Bludgeoning.Light.Finesseable.Unarmed.Gauntlet	COST:24805	WT:5	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						SPROP:touch attack blinds (Fort DC 14)			
+Ice Scythe		PROFICIENCY:WEAPON|Scythe	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Piercing.Slashing.TwoHanded.Scythe	COST:26318	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.MWORKW.PLUS1W.FROST_M.EQ_COST_ADJ|8300						SOURCEPAGE:SS						SPROP:Slow opponents as spell on a succesfull critical hits (Will DC 14)|PRERACE:1,RACESUBTYPE=Cold			
+Orc Razor		PROFICIENCY:WEAPON|Falchion	TYPE:enhancement.Weapon.Martial.Melee.Specific.Slashing.TwoHanded.Sword	COST:17375	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						BONUS:STAT|DEX|2|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Orc	BONUS:STAT|CON|2|TYPE=Enhancement|PRERACE:1,RACESUBTYPE=Orc		
+Rogue Blade		PROFICIENCY:WEAPON|Rapier	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Piercing.OneHanded.Finesseable.Sword	COST:44320	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:SS						SPELLS:Rogue Blade|TIMES=ATWILL|CASTERLEVEL=6|Blink			
+Rusting Club		PROFICIENCY:WEAPON|Greatclub	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Bludgeoning.TwoHanded.Club	COST:35905	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						SPELLS:Rusting Club|TIMES=3|CASTERLEVEL=7|Rusting Grasp,16			
+Serrated Terror		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Martial.Melee.Specific.Slashing.TwoHanded.Sword	COST:18350	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						ABILITY:Special Ability|AUTOMATIC|Resistance To Cold|PRERACE:1,Giant (Fire)	BONUS:VAR|ColdResistanceBonus|20|PRERACE:1,Giant (Fire)		
+Skyspear		PROFICIENCY:WEAPON|Longspear	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Piercing.TwoHanded.Reach.Spear	COST:45805	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.PLUS2W.HOLY_M.EQ_COST_ADJ|32300						SOURCEPAGE:SS			REACHMULT:2			BONUS:VAR|SmiteEvil|1|PRETEMPLATE:1,Celestial,Half Celestial			
+Staff of the Whip		PROFICIENCY:WEAPON|Pincerstaff	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Bludgeoning.TwoHanded.Staff	COST:10408	WT:8	WIELD:TwoHanded		SIZE:L	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS1W.EQ_COST_ADJ|2300						SOURCEPAGE:SS						SPROP:1d8+6 electrical damage to a creature already grappled by the Staff of the Whip|PRERACE:1,Kuo-Toa			
+Storm Gauntlet		PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Enhancement.Weapon.Simple.Melee.Specific.Piercing.Light.Finesseable.Unarmed.Gauntlet	COST:52360	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.CHARGED_ITEM_50.EQ_COST_ADJ|2300						SOURCEPAGE:SS						BONUS:EQM|WEIGHTADD|-1|PREMULT:3,[PREEQUIP:1,TYPE.Armor],[PREEQUIP:1,TYPE.Medium,TYPE.Heavy],[!PREEQUIP:1,Breastplate]	ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|10	SPROP:Shocking Grasp 1 charge, Lightning Bolt 2 charges, Ball Lightning 4 charges.
+Sword of the Schemer		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.TwoHanded.Sword	COST:32350	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:SS						BONUS:STAT|INT|4|TYPE=Enhancement	BONUS:STAT|WIS|2|TYPE=Enhancement	BONUS:STAT|CHA|2|TYPE=Enhancement	
+Wave Piercer		PROFICIENCY:WEAPON|Trident	TYPE:enhancement.Weapon.Martial.Melee.Ranged.Specific.Piercing.OneHanded.Thrown.Trident	COST:56315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS2W.EQ_COST_ADJ|2300						SOURCEPAGE:SS	RANGE:10					SPROP:constant Freedom of Movement|PRERACE:1,RACESUBTYPE=Aquatic	SPROP:threat range and critical multiplier improve to 19-20/x3 against creature with Fire Subtype|PRERACE:1,RACESUBTYPE=Water		
+Whip of Webs		PROFICIENCY:WEAPON|Whip	TYPE:Enhancement.Weapon.Exotic.Melee.Specific.Slashing.OneHanded.Reach.Finesseable.Subdual.Whip	COST:10301	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.MWORKW.PLUS2W.EQ_COST_ADJ|2300						SOURCEPAGE:SS		REACH:15							
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+# Ranged Specific Weapons																											
+Scaled Javelin		PROFICIENCY:WEAPON|Javelin	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Thrown.Javelin	COST:26301	WT:2				DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:SS	MODS:NO	RANGE:30			SPROP:Distance and Returning special quality|PRERACE:1,RACESUBTYPE=Reptilian				
+																											
+# Ammonition Specific Weapons																											
+Pixie Arrow (Memory Loss)			TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:.05	WT:.15							EQMOD:WOOD.MWORKW						SOURCEPAGE:SS				BASEQTY:1			SPROP:Memory Loss (Fort DC 15)		
+Pixie Arrow (Memory Loss/20)			TYPE:Enhancement.Ammunition.Specific.Arrow	COST:1	WT:.3							EQMOD:WOOD.MWORKW						SOURCEPAGE:SS				BASEQTY:20			SPROP:Memory Loss (Fort DC 15)		
+Pixie Arrow (Sleep)			TYPE:Enhancement.Ammunition.Specific.Arrow.Individual	COST:.05	WT:.15							EQMOD:WOOD.MWORKW						SOURCEPAGE:SS				BASEQTY:1			SPROP:Sleep, regardless of HD (Fort DC 15)		
+Pixie Arrow (Sleep/20)			TYPE:Enhancement.Ammunition.Specific.Arrow	COST:1	WT:.3							EQMOD:WOOD.MWORKW						SOURCEPAGE:SS				BASEQTY:20			SPROP:Sleep, regardless of HD (Fort DC 15)		
+																											
+# Monster Specific Armors&Shields																											
+																											
+# Armor Specific																											
+Kyton Armor		PROFICIENCY:ARMOR|Chain Shirt	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:13980	WT:25	ACCHECK:-2	EQMOD:MITHRAL_ARMR_LT.PLUS1A.EQ_COST_ADJ|1150	MAXDEX:4	SOURCEPAGE:SS	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE																
+Serpent Armor		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:21660	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS3A.EQ_COST_ADJ|9150	MAXDEX:6	SOURCEPAGE:SS	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	BONUS:SAVE|Reflex|2|TYPE=Insight	ABILITY:FEAT|VIRTUAL|Combat Reflexes														
+Wight Armor		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:26175	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS1A.SHDW.EQ_COST_ADJ|4900	MAXDEX:6	SOURCEPAGE:SS	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	VISION:Darkvision (60')	SPROP:constant Invisibility To Undead (5th-level cleric)														
+																											
+# Shield Specific																											

@@ -1,0 +1,12 @@
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Divine Agent Class Feature	CATEGORY:Special Ability	TYPE:DivineAgentClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Agent Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Gatecrusher Class Feature	CATEGORY:Special Ability	TYPE:GatecrusherClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Gatecrusher Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Planar Champion Class Feature	CATEGORY:Special Ability	TYPE:PlanarChampionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planar Champion Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Planeshifter Class Feature	CATEGORY:Special Ability	TYPE:PlaneshifterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planeshifter Class Features			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Template Ability categories																						
+ABILITYCATEGORY:Shadow Special Quality	CATEGORY:Special Ability	TYPE:ShadowSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Special Qualities			DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Feature categories																						
+ABILITYCATEGORY:Favored Plane	CATEGORY:Special Ability	TYPE:FavoredPlane	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Planes			DISPLAYLOCATION:Class Features	POOL:FavoredPlaneCount
+ABILITYCATEGORY:Favored Plane Bonus	CATEGORY:Special Ability	TYPE:FavoredPlaneBonus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Plane Bonuses			DISPLAYLOCATION:Class Features	POOL:FavoredPlaneBonusCount

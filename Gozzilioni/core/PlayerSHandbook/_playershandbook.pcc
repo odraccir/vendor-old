@@ -17,6 +17,7 @@ SOURCEDATE:2003-07
 #Player's Hanbook
 ABILITY:phb_abilities_class.lst
 CLASS:phb_classes.lst
+DEITY:phb_deities.lst
 EQUIPMENT:phb_equip_materials.lst
 # FEAT:phb_feats.lst
 ABILITY:phb_feats.lst

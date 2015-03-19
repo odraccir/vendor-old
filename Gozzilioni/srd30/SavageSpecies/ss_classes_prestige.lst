@@ -1,0 +1,167 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01										
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name 3	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE				
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SA)	(SA)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Emancipated Spawn	HD:12	TYPE:Monster.Prestige	ABB:Ems	MAXLEVEL:3	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Combat	DEFINE:EmancipatedSpawnLVL|0	BONUS:VAR|EmancipatedSpawnLVL|CL
+CLASS:Emancipated Spawn	!PRETEMPLATE:1,Mindless	PRERACE:1,RACETYPE=Undead	PREATT:3	PRETEXT:Must have been created as a spawn by an undead creature that has since been destroyed.									
+CLASS:Emancipated Spawn	STARTSKILLPTS:2	CSKILL:Bluff|Climb|Disguise|Hide|Intimidate|Jump|Listen|Move Silently|Search|Sense Motive|Spot											
+1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnProficiencies									
+1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnTurnResistance	ABILITY:Special Ability|AUTOMATIC|Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnTurnResistance								
+1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Recall Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRecallFeats									
+2				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Recall Class Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRecallClassAbilities									
+3				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Rediscovery|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRediscovery									
+													
+CLASS:Illithid Savant	HD:4	TYPE:Monster.Prestige	ABB:Ils	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:IllithidSavantLVL|0	BONUS:VAR|IllithidSavantLVL|CL
+CLASS:Illithid Savant	PRERACE:1,RACESUBTYPE=Mind Flayer	PRESKILL:1,Knowledge (Arcana)=10	PRETEXT:Must have consumed the brain of a creature of CR 9 or greater.										
+CLASS:Illithid Savant	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Hide|Intimidate|TYPE.Knowledge|Listen|Move Silently|Search|Sense Motive											
+1				ABILITY:Illithid Savant Class Feature|AUTOMATIC|Illithid Savant ~ Acquire Skill|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSavantAcquireSkill									
+1				ABILITY:Illithid Savant Class Feature|AUTOMATIC|Illithid Savant ~ Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSavantLore									
+2				ABILITY:Illithid Savant Class Feature|AUTOMATIC|Illithid Savant ~ Acquire Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSavantAcquireFeat									
+3				ABILITY:Illithid Savant Class Feature|AUTOMATIC|Illithid Savant ~ Acquire Class Feature|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSavantAcquireClassFeature									
+4													
+5				ABILITY:Illithid Savant Class Feature|AUTOMATIC|Illithid Savant ~ Acquire Special Attack or Special Quality|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSavantAcquireSpecialAttacOrSpecialQuality									
+6													
+7													
+8													
+9													
+10													
+													
+CLASS:Master of Flies	HD:8	TYPE:Monster.Prestige	ABB:MoF	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:MasterOfFliesLVL|0	BONUS:VAR|MasterOfFliesLVL|CL
+CLASS:Master of Flies	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Escape Artist=5	PRESKILL:1,Knowledge (Nature)=8	PREABILITY:1,CATEGORY=FEAT,Quick Change	PRETEXT:Must possess the ability to change form, such as from an alternate form ability, the shapechanger subtype, or a Wild Shape ability.								
+CLASS:Master of Flies	STARTSKILLPTS:6	CSKILL:Balance|Climb|Control Shape|Disguise|Escape Artist|Handle Animal|Hide|Jump|Knowledge (Nature)|Move Silently|Survival|Swim											
+1				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Summon Swarm|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesSummonSwarm									
+2				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Swarm Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesSwarmShape									
+3				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Pied Piper|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesPiedPiper									
+5				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Insect Plague|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesInsectPlague									
+7				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Flyblown|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesFlyblown									
+8				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Creeping Doom|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesCreepingDoom									
+9				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Awaken Vermin|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesAwakenVermin									
+													
+CLASS:Scaled Horror	HD:10	TYPE:Monster.Prestige	ABB:ScH	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ScaledHorrorLVL|0	BONUS:VAR|ScaledHorrorLVL|CL
+CLASS:Scaled Horror	PRERACE:1,RACESUBTYPE=Aquatic,RACESUBTYPE=Reptilian	PREATT:5	PRESKILL:2,Hide=5,Move Silently=5	PRETEXT:5 ranks in Swim or a +8 racial bonus on Swim checks.									
+CLASS:Scaled Horror	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot|Survival|Swim											
+CLASS:Scaled Horror	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Scaled Horror|CL	SPELLLIST:1|Ranger							
+1				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Spells									
+#													
+1				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorProficiencies									
+1				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Improved Grab|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorImprovedGrab									
+1				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Keen Scent|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorKeenScent									
+2				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Freedom of Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorFreedomOfMovement									
+4				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorDamageReduction									
+5				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Spring Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorSpringAttack									
+7				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Silent Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorSilentSpell									
+8				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Still Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorStillSpell									
+#													
+1	CAST:0,0												
+2	CAST:0,1												
+3	CAST:0,1,0												
+4	CAST:0,1,1												
+5	CAST:0,1,1,0												
+6	CAST:0,1,1,1												
+7	CAST:0,2,1,1,0												
+8	CAST:0,2,1,1,1												
+9	CAST:0,2,2,1,1												
+10	CAST:0,2,2,2,1												
+													
+CLASS:Siren	HD:4	TYPE:Monster.Prestige	ABB:Sire	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SirenLVL|0	BONUS:VAR|SirenLVL|CL
+CLASS:Siren	PRESKILL:2,Bluff=6,Intimidate=6	PRESKILL:1,TYPE.Perform=8		PRETEXT:Must possess an innate sonic, mind-affecting ability.									
+CLASS:Siren	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot|Survival|Swim											
+1				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Reverberation|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenReverberation									
+2				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Song of Despair|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenSongOfDespair									
+3				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Charisma Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenCharismaBonus									
+4				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Song of Nightmare|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenSongOfNightmare									
+5				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Song of Idiocy|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenSongOfIdiocy									
+7				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Song of Weakness|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenSongOfWeakness									
+9				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Song of Stone|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenSongOfStone									
+10				ABILITY:Siren Class Feature|AUTOMATIC|Siren ~ Song of Death|!PREABILITY:1,CATEGORY=ACF,TYPE.SirenSongOfDeath									
+													
+CLASS:Slaad Brooder	HD:8	TYPE:Monster.Prestige	ABB:SlB	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SlaadBrooderLVL|0	BONUS:VAR|SlaadBrooderLVL|CL
+CLASS:Slaad Brooder	PRERACE:1,RACESUBTYPE=Slaad	PREALIGN:CG,CN,CE	PRESKILL:1,Concentration=10	PREABILITY:2,CATEGORY=FEAT,Great Fortitude,Improved Multiattack									
+CLASS:Slaad Brooder	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot											
+1				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Implant|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderImplant									
+1				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Improved Grab|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderImprovedGrab									
+2				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Imbue Pellet|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderImbuePellet									
+3				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Deep Implant|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderDeepImplant									
+4				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Rapid Hatching|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderRapidHatching									
+5				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Chaos Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderChaosFocus									
+6				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Multiple Implant|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderMultipleImplant									
+7				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Color Choice|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderColorChoice									
+8				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Heighten Chaos|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderHeightenChaos									
+9				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Corporeal Instability|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderCorporealInstability									
+9				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Death Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderDeathSpawn									
+10				ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Dominate Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.SlaadBrooderDominateSpawn									
+													
+CLASS:Survivor	HD:6	TYPE:Monster.Prestige	ABB:Sur	MAXLEVEL:5	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2		CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SlaadBrooderLVL|0	BONUS:VAR|SlaadBrooderLVL|CL
+CLASS:Survivor	PRECHECKBASE:1,Fortitude=TL,Reflex=TL,Will=TL	PRETEXT:The path of the survivor requires a concentrated month of study to enter the prestige class. During this month, the character must stay in one place and spend all his waking hours in study, practice, and meditation.											
+CLASS:Survivor	STARTSKILLPTS:2	CSKILL:ALL											
+1				ABILITY:Survivor Class Feature|AUTOMATIC|Survivor ~ Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.SurvivorUncannyDodge									
+2				ABILITY:Survivor Class Feature|AUTOMATIC|Survivor ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.SurvivorEvasion									
+3				ABILITY:Survivor Class Feature|AUTOMATIC|Survivor ~ Improved Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.SurvivorUncannyDodge									
+4				ABILITY:Survivor Class Feature|AUTOMATIC|Survivor ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.SurvivorEvasion									
+5				ABILITY:Survivor Class Feature|AUTOMATIC|Survivor ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.SurvivorDamageReduction									
+													
+CLASS:Sybil	HD:4	TYPE:Monster.Prestige	ABB:Syb	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SybilLVL|0	BONUS:VAR|SybilLVL|CL
+CLASS:Sybil	PREALIGN:TN	PRESKILL:1,Concentration=10	PRESKILL:2,Knowledge (Arcana)=8,Sense Motive=8	PREABILITY:1,CATEGORY=FEAT,Empower Spell-Like Ability	PRETEXT:Must have an innate spell-like divination ability.								
+CLASS:Sybil	STARTSKILLPTS:6	CSKILL:Concentration|TYPE=Craft|Diplomacy|Gather Information|Hide|Knowledge (Arcana)|Knowledge (Religion)|Listen|TYPE=Profession|Sense Motive											
+1				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Divine Insight|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilDivineInsight									
+2				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Reclusive Insight|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilReclusiveInsight									
+3				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Riddle|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilRiddle									
+4				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Lesser Geas|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilLesserGeas									
+4				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Mysterious Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilMysteriousLore									
+6				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Geas|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilGeas									
+9				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Limited Wish|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilLimitedWish									
+													
+CLASS:Waverider	HD:10	TYPE:Monster.Prestige	ABB:Wav	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:WaveriderLVL|0	BONUS:VAR|WaveriderLVL|CL
+CLASS:Waverider	PRERACE:1,RACETYPE=Fey,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Aquatic	PREATT:5	PRESKILL:1,Ride=6	PREABILITY:2,CATEGORY=FEAT,Mounted Archery,Mounted Combat								
+CLASS:Waverider	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Jump|TYPE=Profession|Ride											
+1				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Waverider Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderWaveriderMount									
+1				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Mounted Weapon Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderMountedWeaponBonus									
+1				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Trident Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderTridentCharge									
+2				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Ride Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderRideBonus									
+3				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Breach|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderBreach									
+4				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Sound|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderSound									
+5				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Improved Mounted Archery|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderImprovedMountedArchery									
+6				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Full Mounted Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderFullMountedAttack									
+7				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Skim|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderSkim									
+8				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Superior Mounted Archery|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderSuperiorMountedArchery									
+9				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Wavedancing|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderWavedancing									
+10				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Call of the Deeps|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderCallOfTheDeeps									
+													
+CLASS:Yuan-Ti Cultist	HD:4	TYPE:Monster.Prestige	ABB:YtC	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:YuanTiCultistLVL|0	BONUS:VAR|YuanTiCultistLVL|CL
+CLASS:Yuan-Ti Cultist	PRERACE:1,RACESUBTYPE=Yuan-Ti	PREALIGN:LE,NE,CE	PREDEITY:1,Merrshaulk	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:1,Knowledge (Religion)=10	PRESKILL:1,Perform (Chant)=1	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=3					
+CLASS:Yuan-Ti Cultist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Religion)|Perform (Chant)|TYPE=Profession|Spellcraft											
+1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spellcasting									
+2				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Suffering Prestige Domain									
+#													
+1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistProficiencies									
+1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Outer Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistOuterCircle									
+1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spit Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSpitPoison									
+2				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Sticks To Snakes|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSticksToSnakes									
+3				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Third Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistThirdCircle									
+3				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Snake Darts|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSnakeDarts									
+4				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Psionic Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistPsionicFocus									
+4				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Chant of Pain|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistChantOfPain									
+5				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Second Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSecondCircle									
+6				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Greater Psionic Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistGreaterPsionicFocus									
+6				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Chant of Agony|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistChantOfAgony									
+7				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Unhallow|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistUnhallow									
+7				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ First Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistFirstCircle									
+8				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Command Reptiles|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistCommandReptiles									
+8				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Chant of Death|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistChantOfDeath									
+9				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Inner Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistInnerCircle									
+9				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Unholy Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistUnholyAura									
+10				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Voice of Merrshaulk|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistVoiceOfMerrshaulk									
+#													
+1	ADD:SPELLCASTER|Divine												
+2	ADD:SPELLCASTER|Divine												
+3	ADD:SPELLCASTER|Divine												
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Divine												
+6	ADD:SPELLCASTER|Divine												
+7	ADD:SPELLCASTER|Divine												
+8	ADD:SPELLCASTER|Divine												
+9	ADD:SPELLCASTER|Divine												
+10	ADD:SPELLCASTER|Divine												

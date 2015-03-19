@@ -8,627 +8,627 @@ GEAR:Jovoc						OPTION:1,50
 GEAR:Quasit						OPTION:51,75																																																										
 GEAR:Vrock						OPTION:76,100																																																										
 #																																																																
-# STARTPACK:Beholder Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder]																																																												
+# STARTPACK:Beholder Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder]																																																												
 # RACE:Beholder	!PRERACE:1,%																																																															
 # NAME:Beholder																																																																
 # STAT:STR=10|DEX=10|CHA=10|CON=10|INT=10|WIS=10																																																																
-STARTPACK:Abeil (Vassal) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Vassal)]																																																												
+STARTPACK:Abeil (Vassal) Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Vassal)]																																																												
 RACE:Abeil (Vassal)	!PRERACE:1,%																																																															
 NAME:Vassal Abeil																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Abeil (Soldier) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Soldier)]																																																												
+STARTPACK:Abeil (Soldier) Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Soldier)]																																																												
 RACE:Abeil (Soldier)	!PRERACE:1,%																																																															
 NAME:Soldier Abeil																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Abeil (Queen) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Queen)]																																																												
+STARTPACK:Abeil (Queen) Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abeil (Queen)]																																																												
 RACE:Abeil (Queen)	!PRERACE:1,%																																																															
 NAME:Queen Abeil																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Ash Rat Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ash Rat]																																																												
+STARTPACK:Ash Rat Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ash Rat]																																																												
 RACE:Ash Rat	!PRERACE:1,%																																																															
 NAME:Ash Rat																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Asperi Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Asperi]																																																												
+STARTPACK:Asperi Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Asperi]																																																												
 RACE:Asperi	!PRERACE:1,%																																																															
 NAME:Asperi																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Avolakia Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Avolakia]																																																												
+STARTPACK:Avolakia Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Avolakia]																																																												
 RACE:Avolakia	!PRERACE:1,%																																																															
 NAME:Avolakia																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Banshee Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Banshee]																																																												
+STARTPACK:Banshee Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Banshee]																																																												
 RACE:Banshee	!PRERACE:1,%																																																															
 NAME:Banshee																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Bladeling Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bladeling]																																																												
+STARTPACK:Bladeling Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bladeling]																																																												
 RACE:Bladeling	!PRERACE:1,%																																																															
 NAME:Bladeling																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Blood Ape Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Blood Ape]																																																												
+STARTPACK:Blood Ape Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Blood Ape]																																																												
 RACE:Blood Ape	!PRERACE:1,%																																																															
 NAME:Blood Ape																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Boggle Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Boggle]																																																												
+STARTPACK:Boggle Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Boggle]																																																												
 RACE:Boggle	!PRERACE:1,%																																																															
 NAME:Boggle																																																																
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Bogun Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bogun]																																																												
+STARTPACK:Bogun Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bogun]																																																												
 RACE:Bogun	!PRERACE:1,%																																																															
 NAME:Bogun																																																																
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Bone Naga Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Naga (Bone)]																																																												
+STARTPACK:Bone Naga Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Naga (Bone)]																																																												
 RACE:Naga (Bone)	!PRERACE:1,%																																																															
 NAME:Bone Naga																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Ooze (Bone) Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ooze (Bone)]																																																												
+STARTPACK:Ooze (Bone) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ooze (Bone)]																																																												
 RACE:Ooze (Bone)	!PRERACE:1,%																																																															
 NAME:Bone Ooze																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Braxat Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Braxat]																																																												
+STARTPACK:Braxat Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Braxat]																																																												
 RACE:Braxat	!PRERACE:1,%																																																															
 NAME:Braxat																																																																
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Breathdrinker Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Breathdrinker]																																																												
+STARTPACK:Breathdrinker Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Breathdrinker]																																																												
 RACE:Breathdrinker	!PRERACE:1,%																																																															
 NAME:Breathdrinker																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Bronze Serpent Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bronze Serpent]																																																												
+STARTPACK:Bronze Serpent Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Bronze Serpent]																																																												
 RACE:Bronze Serpent	!PRERACE:1,%																																																															
 NAME:Bronze Serpent																																																																
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Catoblepas Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Catoblepas]																																																												
+STARTPACK:Catoblepas Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Catoblepas]																																																												
 RACE:Catoblepas	!PRERACE:1,%																																																															
 NAME:Catoblepas																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Guardinal (Cervidal) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Cervidal)]																																																												
+STARTPACK:Guardinal (Cervidal) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Cervidal)]																																																												
 RACE:Guardinal (Cervidal)	!PRERACE:1,%																																																															
 NAME:Guardinal Cervidal																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Guardinal (Lupinal) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Lupinal)]																																																												
+STARTPACK:Guardinal (Lupinal) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Guardinal (Lupinal)]																																																												
 RACE:Guardinal (Lupinal)	!PRERACE:1,%																																																															
 NAME:Guardinal Lupinal																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Chain Golem Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Chain)]																																																												
+STARTPACK:Chain Golem Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Chain)]																																																												
 RACE:Golem (Chain)	!PRERACE:1,%																																																															
 NAME:Chain Golem																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Roc (Chaos) Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Roc (Chaos)]																																																												
+STARTPACK:Roc (Chaos) Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Roc (Chaos)]																																																												
 RACE:Roc (Chaos)	!PRERACE:1,%																																																															
 NAME:Chaos Roc																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Cloaked Ape Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cloaked Ape]																																																												
+STARTPACK:Cloaked Ape Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cloaked Ape]																																																												
 RACE:Cloaked Ape	!PRERACE:1,%																																																															
 NAME:Cloaked Ape																																																																
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Electrum Clockwork Horror Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Electrum)]																																																												
+STARTPACK:Electrum Clockwork Horror Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Electrum)]																																																												
 RACE:Clockwork Horror (Electrum)	!PRERACE:1,%																																																															
 NAME:Electrum Clockwork Horror																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Gold Clockwork Horror Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Gold)]																																																												
+STARTPACK:Gold Clockwork Horror Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Gold)]																																																												
 RACE:Clockwork Horror (Gold)	!PRERACE:1,%																																																															
 NAME:Gold Clockwork Horror																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Platinum Clockwork Horror Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Platinum)]																																																												
+STARTPACK:Platinum Clockwork Horror Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Platinum)]																																																												
 RACE:Clockwork Horror (Platinum)	!PRERACE:1,%																																																															
 NAME:Platinum Clockwork Horror																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Adamantine Clockwork Horror Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Adamantine)]																																																												
+STARTPACK:Adamantine Clockwork Horror Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Closkwork Horror (Adamantine)]																																																												
 RACE:Clockwork Horror (Adamantine)	!PRERACE:1,%																																																															
 NAME:Adamantine Clockwork Horror																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Cloud Ray Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cloud Ray]																																																												
+STARTPACK:Cloud Ray Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cloud Ray]																																																												
 RACE:Cloud Ray	!PRERACE:1,%																																																															
 NAME:Cloud Ray																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Corollax Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Corollax]																																																												
+STARTPACK:Corollax Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Corollax]																																																												
 RACE:Corollax	!PRERACE:1,%																																																															
 NAME:Corollax																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Corpse Gatherer Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Corpse Gatherer]																																																												
+STARTPACK:Corpse Gatherer Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Corpse Gatherer]																																																												
 RACE:Corpse Gatherer	!PRERACE:1,%																																																															
 NAME:Corpse Gatherer																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Crimson Death Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Crimson Death]																																																												
+STARTPACK:Crimson Death Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Crimson Death]																																																												
 RACE:Crimson Death	!PRERACE:1,%																																																															
 NAME:Crimson Death																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Darktentacles Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Darktentacles]																																																												
+STARTPACK:Darktentacles Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Darktentacles]																																																												
 RACE:Darktentacles	!PRERACE:1,%																																																															
 NAME:Darktentacles																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Deathbringer Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Deathbringer]																																																												
+STARTPACK:Deathbringer Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Deathbringer]																																																												
 RACE:Deathbringer	!PRERACE:1,%																																																															
 NAME:Deathbringer																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Demon (Abyssal Maw) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Maw)]																																																												
+STARTPACK:Demon (Abyssal Maw) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Maw)]																																																												
 RACE:Demon (Abyssal Maw)	!PRERACE:1,%																																																															
 NAME:Abyssal Maw																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Demon (Abyssal Skulker) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Skulker)]																																																												
+STARTPACK:Demon (Abyssal Skulker) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Skulker)]																																																												
 RACE:Demon (Abyssal Skulker)	!PRERACE:1,%																																																															
 NAME:Abyssal Skulker																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Demon (Abyssal Ravager) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Ravager)]																																																												
+STARTPACK:Demon (Abyssal Ravager) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Abyssal Ravager)]																																																												
 RACE:Demon (Abyssal Ravager)	!PRERACE:1,%																																																															
 NAME:Abyssal Sravager																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Demon (Jovoc) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jovoc)]																																																												
+STARTPACK:Demon (Jovoc) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jovoc)]																																																												
 RACE:Demon (Jovoc)	!PRERACE:1,%																																																															
 NAME:Jovoc																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Demon (Palrethee) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Palrethee)]																																																												
+STARTPACK:Demon (Palrethee) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Palrethee)]																																																												
 RACE:Demon (Palrethee)	!PRERACE:1,%																																																															
 NAME:Palrethee																																																																
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Demon (Zovvut) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Zovvut)]																																																												
+STARTPACK:Demon (Zovvut) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Zovvut)]																																																												
 RACE:Demon (Zovvut)	!PRERACE:1,%																																																															
 NAME:Zovvut																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Demon (Jarilith) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jarilith)]																																																												
+STARTPACK:Demon (Jarilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Jarilith)]																																																												
 RACE:Demon (Jarilith)	!PRERACE:1,%																																																															
 NAME:Jarilith																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Demon (Kelvezu) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Kelvezu)]																																																												
+STARTPACK:Demon (Kelvezu) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Demon (Kelvezu)]																																																												
 RACE:Demon (Kelvezu)	!PRERACE:1,%																																																															
 NAME:Kelvezu																																																																
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Desmodu Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu]																																																												
+STARTPACK:Desmodu Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu]																																																												
 RACE:Desmodu	!PRERACE:1,%																																																															
 NAME:Desmodu																																																																
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Desmodu Hunting Bat Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (Hunting Bat)]																																																												
+STARTPACK:Desmodu Hunting Bat Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (Hunting Bat)]																																																												
 RACE:Desmodu (Hunting Bat)	!PRERACE:1,%																																																															
 NAME:Hunting Bat																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Desmodu Guard Bat Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (Guard Bat)]																																																												
+STARTPACK:Desmodu Guard Bat Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (Guard Bat)]																																																												
 RACE:Desmodu (Guard Bat)	!PRERACE:1,%																																																															
 NAME:Guard Bat																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Desmodu War Bat Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (War Bat)]																																																												
+STARTPACK:Desmodu War Bat Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Desmodu (War Bat)]																																																												
 RACE:Desmodu (War Bat)	!PRERACE:1,%																																																															
 NAME:War Bat																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Devil (Advespa) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Advespa)]																																																												
+STARTPACK:Devil (Advespa) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Advespa)]																																																												
 RACE:Devil (Advespa)	!PRERACE:1,%																																																															
 NAME:Advespa																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Devil (Amnizu) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Amnizu)]																																																												
+STARTPACK:Devil (Amnizu) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Amnizu)]																																																												
 RACE:Devil (Amnizu)	!PRERACE:1,%																																																															
 NAME:Amnizu																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Devil (Malebranche) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Malebranche)]																																																												
+STARTPACK:Devil (Malebranche) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Devil (Malebranche)]																																																												
 RACE:Devil (Malebranche)	!PRERACE:1,%																																																															
 NAME:Malebranche																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dragon (Amethyst) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Amethyst)]																																																												
+STARTPACK:Dragon (Amethyst) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Amethyst)]																																																												
 RACE:Dragon (Amethyst)	!PRERACE:1,%																																																															
 NAME:Amethyst Dragon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dragon (Crystal) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Crystal)]																																																												
+STARTPACK:Dragon (Crystal) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Crystal)]																																																												
 RACE:Dragon (Crystal)	!PRERACE:1,%																																																															
 NAME:Crystal Dragon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dragon (Emerald) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Emerald)]																																																												
+STARTPACK:Dragon (Emerald) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Emerald)]																																																												
 RACE:Dragon (Emerald)	!PRERACE:1,%																																																															
 NAME:Emerald Dragon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dragon (Sapphire) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Sapphire)]																																																												
+STARTPACK:Dragon (Sapphire) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Sapphire)]																																																												
 RACE:Dragon (Sapphire)	!PRERACE:1,%																																																															
 NAME:Sapphire Dragon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dragon (Topaz) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Topaz)]																																																												
+STARTPACK:Dragon (Topaz) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Topaz)]																																																												
 RACE:Dragon (Topaz)	!PRERACE:1,%																																																															
 NAME:Topaz Dragon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dread Guard Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dread Guard]																																																												
+STARTPACK:Dread Guard Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dread Guard]																																																												
 RACE:Dread Guard	!PRERACE:1,%																																																															
 NAME:Dread Guard																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dune Stalker Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dune Stalker]																																																												
+STARTPACK:Dune Stalker Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dune Stalker]																																																												
 RACE:Dune Stalker	!PRERACE:1,%																																																															
 NAME:Dune Stalker																																																																
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Effigy Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Effigy]																																																												
+STARTPACK:Effigy Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Effigy]																																																												
 RACE:Effigy	!PRERACE:1,%																																																															
 NAME:Effigy																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Elemental Weird (Air Weird) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Air Weird)]																																																												
+STARTPACK:Elemental Weird (Air Weird) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Air Weird)]																																																												
 RACE:Elemental Weird (Air Weird)	!PRERACE:1,%																																																															
 NAME:Air Weird																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Elemental Weird (Earth Weird) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Earth Weird)]																																																												
+STARTPACK:Elemental Weird (Earth Weird) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Earth Weird)]																																																												
 RACE:Elemental Weird (Earth Weird)	!PRERACE:1,%																																																															
 NAME:Earth Weird																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Elemental Weird (Fire Weird) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Fire Weird)]																																																												
+STARTPACK:Elemental Weird (Fire Weird) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Fire Weird)]																																																												
 RACE:Elemental Weird (Fire Weird)	!PRERACE:1,%																																																															
 NAME:Fire Weird																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Elemental Weird (Fire Weird) Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Fire Weird)]																																																												
-RACE:Elemental Weird (Fire Weird)	!PRERACE:1,%																																																															
-NAME:Fire Weird																																																																
+STARTPACK:Elemental Weird (Water Weird) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Elemental Weird (Water Weird)]																																																												
+RACE:Elemental Weird (Water Weird)	!PRERACE:1,%																																																															
+NAME:Water Weird																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Ether Scarab Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ether Scarab]																																																												
+STARTPACK:Ether Scarab Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ether Scarab]																																																												
 RACE:Ether Scarab	!PRERACE:1,%																																																															
 NAME:Ether Scarab																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Ethereal Doppelganger Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Doppelganger (Ethereal)]																																																												
+STARTPACK:Ethereal Doppelganger Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Doppelganger (Ethereal)]																																																												
 RACE:Doppelganger (Ethereal)	!PRERACE:1,%																																																															
 NAME:Ethereal Doppelganger																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Ethereal Slayer Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ethereal Slayer]																																																												
+STARTPACK:Ethereal Slayer Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ethereal Slayer]																																																												
 RACE:Ethereal Slayer	!PRERACE:1,%																																																															
 NAME:Ethereal Slayer																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Famine Spirit Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Famine Spirit]																																																												
+STARTPACK:Famine Spirit Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Famine Spirit]																																																												
 RACE:Famine Spirit	!PRERACE:1,%																																																															
 NAME:Famine Spirit																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Crested Felldrake Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Felldrake (Crested)]																																																												
+STARTPACK:Crested Felldrake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Felldrake (Crested)]																																																												
 RACE:Felldrake (Crested)	!PRERACE:1,%																																																															
 NAME:Crested Felldrake																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Spitting Felldrake Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Felldrake (Spitting)]																																																												
+STARTPACK:Spitting Felldrake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Felldrake (Spitting)]																																																												
 RACE:Felldrake (Spitting)	!PRERACE:1,%																																																															
 NAME:Spitting Felldrake																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Horned Felldrake Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Felldrake (Horned)]																																																												
+STARTPACK:Horned Felldrake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Felldrake (Horned)]																																																												
 RACE:Felldrake (Horned)	!PRERACE:1,%																																																															
 NAME:Horned Felldrake																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Fiendwurm Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fiendwurm]																																																												
+STARTPACK:Fiendwurm Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fiendwurm]																																																												
 RACE:Fiendwurm	!PRERACE:1,%																																																															
 NAME:Fiendwurm																																																																
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Fihyr Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fihyr]																																																												
+STARTPACK:Fihyr Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fihyr]																																																												
 RACE:Fihyr	!PRERACE:1,%																																																															
 NAME:Fihyr																																																																
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Great Fihyr Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fihyr (Great)]																																																												
+STARTPACK:Great Fihyr Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fihyr (Great)]																																																												
 RACE:Fihyr (Great)	!PRERACE:1,%																																																															
 NAME:Great Fihyr																																																																
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Firbolg Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Firbolg)]																																																												
+STARTPACK:Firbolg Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Firbolg)]																																																												
 RACE:Giant (Firbolg)	!PRERACE:1,%																																																															
 NAME:Firbolg																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Fire Bat Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fire Bat]																																																												
+STARTPACK:Fire Bat Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fire Bat]																																																												
 RACE:Fire Bat	!PRERACE:1,%																																																															
 NAME:Fire Bat																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Flesh Jelly Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Flesh Jelly]																																																												
+STARTPACK:Flesh Jelly Stats	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Flesh Jelly]																																																												
 RACE:Flesh Jelly	!PRERACE:1,%																																																															
 NAME:Flesh Jelly																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Fomorian Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fomorian]																																																												
+STARTPACK:Fomorian Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fomorian]																																																												
 RACE:Fomorian	!PRERACE:1,%																																																															
 NAME:Fomorian																																																																
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Forest Sloth Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Forest Sloth]																																																												
+STARTPACK:Forest Sloth Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Forest Sloth]																																																												
 RACE:Forest Sloth	!PRERACE:1,%																																																															
 NAME:Forest Sloth																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Frost Salamander Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Salamander (Frost)]																																																												
+STARTPACK:Frost Salamander Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Salamander (Frost)]																																																												
 RACE:Salamander (Frost)	!PRERACE:1,%																																																															
 NAME:Frost Salamander																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Galeb Duhr Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Galeb Duhr]																																																												
+STARTPACK:Galeb Duhr Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Galeb Duhr]																																																												
 RACE:Galeb Duhr	!PRERACE:1,%																																																															
 NAME:Galeb Duhr																																																																
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Gambol Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gambol]																																																												
+STARTPACK:Gambol Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gambol]																																																												
 RACE:Gambol	!PRERACE:1,%																																																															
 NAME:Gambol																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Giant (Forest) Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Forest)]																																																												
+STARTPACK:Giant (Forest) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Forest)]																																																												
 RACE:Giant (Forest)	!PRERACE:1,%																																																															
 NAME:Forest Giant																																																																
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Giant (Sun) Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Sun)]																																																												
+STARTPACK:Giant (Sun) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Sun)]																																																												
 RACE:Giant (Sun)	!PRERACE:1,%																																																															
 NAME:Sun Giant																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Giant (Ocean) Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Ocean)]																																																												
+STARTPACK:Giant (Ocean) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Ocean)]																																																												
 RACE:Giant (Ocean)	!PRERACE:1,%																																																															
 NAME:Ocean Giant																																																																
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Giant (Mountain) Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Mountain)]																																																												
+STARTPACK:Giant (Mountain) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Mountain)]																																																												
 RACE:Giant (Mountain)	!PRERACE:1,%																																																															
 NAME:Mountain Giant																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Glimmerskin Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Glimmerskin]																																																												
+STARTPACK:Glimmerskin Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Glimmerskin]																																																												
 RACE:Glimmerskin	!PRERACE:1,%																																																															
 NAME:Glimmerskin																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Golem (Stained Glass) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Stained Glass)]																																																												
+STARTPACK:Golem (Stained Glass) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Stained Glass)]																																																												
 RACE:Golem (Stained Glass)	!PRERACE:1,%																																																															
 NAME:Golem (Stained Glass)																																																																
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Golem (Brass) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Brass)]																																																												
+STARTPACK:Golem (Brass) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Brass)]																																																												
 RACE:Golem (Brass)	!PRERACE:1,%																																																															
 NAME:Golem (Brass)																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Golem (Dragonflesh) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Dragonflesh)]																																																												
+STARTPACK:Golem (Dragonflesh) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Golem (Dragonflesh)]																																																												
 RACE:Golem (Dragonflesh)	!PRERACE:1,%																																																															
 NAME:Golem (Dragonflesh)																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Gravecrawler Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gravecrawler]																																																												
+STARTPACK:Gravecrawler Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gravecrawler]																																																												
 RACE:Gravecrawler	!PRERACE:1,%																																																															
 NAME:Gravecrawler																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Gravorg Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gravorg]																																																												
+STARTPACK:Gravorg Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gravorg]																																																												
 RACE:Gravorg	!PRERACE:1,%																																																															
 NAME:Gravorg																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Grell Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grell]																																																												
+STARTPACK:Grell Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grell]																																																												
 RACE:Grell	!PRERACE:1,%																																																															
 NAME:Grell																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Grimalkin Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grimalkin]																																																												
+STARTPACK:Grimalkin Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grimalkin]																																																												
 RACE:Grimalkin	!PRERACE:1,%																																																															
 NAME:Grimalkin																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Grizzly Mastodon Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grizzly Mastodon]																																																												
+STARTPACK:Grizzly Mastodon Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grizzly Mastodon]																																																												
 RACE:Grizzly Mastodon	!PRERACE:1,%																																																															
 NAME:Grizzly Mastodon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Half Fiend (Durzagon) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Half Fiend (Durzagon)]																																																												
+STARTPACK:Half Fiend (Durzagon) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Half Fiend (Durzagon)]																																																												
 RACE:Half Fiend (Durzagon)	!PRERACE:1,%																																																															
 NAME:Durzagon																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Dragon (Hellfire Wyrm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Hellfire Wyrm)]																																																												
+STARTPACK:Dragon (Hellfire Wyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Hellfire Wyrm)]																																																												
 RACE:Dragon (Hellfire Wyrm)	!PRERACE:1,%																																																															
 NAME:Hellfire Wyrm																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Hook Horror Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Hook Horror]																																																												
+STARTPACK:Hook Horror Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Hook Horror]																																																												
 RACE:Hook Horror	!PRERACE:1,%																																																															
 NAME:Hook Horror																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Immoth Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Immoth]																																																												
+STARTPACK:Immoth Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Immoth]																																																												
 RACE:Immoth	!PRERACE:1,%																																																															
 NAME:Immoth																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 # GEAR:Ice Rune	QTY:roll("3d4+2")																																																															
 																																																																
-STARTPACK:Ixitxachitl Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ixitxachitl]																																																												
+STARTPACK:Ixitxachitl Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ixitxachitl]																																																												
 RACE:Ixitxachitl	!PRERACE:1,%																																																															
 NAME:Ixitxachitl																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Ixitxachitl (Vampiric) Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ixitxachitl (Vampiric)]																																																												
+STARTPACK:Ixitxachitl (Vampiric) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ixitxachitl (Vampiric)]																																																												
 RACE:Ixitxachitl (Vampiric)	!PRERACE:1,%																																																															
 NAME:Vampiric Ixitxachitl																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Jahi Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Jahi]																																																												
+STARTPACK:Jahi Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Jahi]																																																												
 RACE:Jahi	!PRERACE:1,%																																																															
 NAME:Jahi																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Jermlaine Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Jermlaine]																																																												
+STARTPACK:Jermlaine Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Jermlaine]																																																												
 RACE:Jermlaine	!PRERACE:1,%																																																															
 NAME:Jermlaine																																																																
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Julajimus Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Julajimus]																																																												
+STARTPACK:Julajimus Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Julajimus]																																																												
 RACE:Julajimus	!PRERACE:1,%																																																															
 NAME:Julajimus																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Kopru Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kopru]																																																												
+STARTPACK:Kopru Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kopru]																																																												
 RACE:Kopru	!PRERACE:1,%																																																															
 NAME:Kopru																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Leechwalger Default	TYPE:DefaultMonster.Vermin	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leech Walker]																																																												
+STARTPACK:Leechwalger Stats	TYPE:DefaultMonster.Vermin	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leech Walker]																																																												
 RACE:Leechwalker	!PRERACE:1,%																																																															
 NAME:Leechwalker																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Eagle) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Eagle)]																																																												
+STARTPACK:Legendary Animal (Legendary Eagle) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Eagle)]																																																												
 RACE:Legendary Animal (Legendary Eagle)	!PRERACE:1,%																																																															
 NAME:Legendary Eagle																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Ape) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Ape)]																																																												
+STARTPACK:Legendary Animal (Legendary Ape) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Ape)]																																																												
 RACE:Legendary Animal (Legendary Ape)	!PRERACE:1,%																																																															
 NAME:Legendary Ape																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Wolf) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Wolf)]																																																												
+STARTPACK:Legendary Animal (Legendary Wolf) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Wolf)]																																																												
 RACE:Legendary Animal (Legendary Wolf)	!PRERACE:1,%																																																															
 NAME:Legendary Wolf																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Snake) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Snake)]																																																												
+STARTPACK:Legendary Animal (Legendary Snake) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Snake)]																																																												
 RACE:Legendary Animal (Legendary Snake)	!PRERACE:1,%																																																															
 NAME:Legendary Snake																																																																
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Horse) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Horse)]																																																												
+STARTPACK:Legendary Animal (Legendary Horse) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Horse)]																																																												
 RACE:Legendary Animal (Legendary Horse)	!PRERACE:1,%																																																															
 NAME:Legendary Horse																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Bear) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Bear)]																																																												
+STARTPACK:Legendary Animal (Legendary Bear) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Bear)]																																																												
 RACE:Legendary Animal (Legendary Bear)	!PRERACE:1,%																																																															
 NAME:Legendary Bear																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Tiger) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Tiger)]																																																												
+STARTPACK:Legendary Animal (Legendary Tiger) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Tiger)]																																																												
 RACE:Legendary Animal (Legendary Tiger)	!PRERACE:1,%																																																															
 NAME:Legendary Tiger																																																																
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Legendary Animal (Legendary Shark) Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Shark)]																																																												
+STARTPACK:Legendary Animal (Legendary Shark) Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Legendary Animal (Legendary Shark)]																																																												
 RACE:Legendary Animal (Legendary Shark)	!PRERACE:1,%																																																															
 NAME:Legendary Shark																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Leviathan Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leviathan]																																																												
+STARTPACK:Leviathan Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leviathan]																																																												
 RACE:Leviathan	!PRERACE:1,%																																																															
 NAME:Leviathan																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Dragon (Grey Linnorm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Grey Linnorm)]																																																												
+STARTPACK:Dragon (Grey Linnorm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Grey Linnorm)]																																																												
 RACE:Dragon (Grey Linnorm)	!PRERACE:1,%																																																															
 NAME:Grey Linnorm																																																																
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Dragon (Dread Linnorm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Dread Linnorm)]																																																												
+STARTPACK:Dragon (Dread Linnorm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Dread Linnorm)]																																																												
 RACE:Dragon (Dread Linnorm)	!PRERACE:1,%																																																															
 NAME:Dread Linnorm																																																																
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Dragon (Corpse Tearer Linnorm) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Corpse Tearer Linnorm)]																																																												
+STARTPACK:Dragon (Corpse Tearer Linnorm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Dragon (Corpse Tearer Linnorm)]																																																												
 RACE:Dragon (Corpse Tearer Linnorm)	!PRERACE:1,%																																																															
 NAME:Corpse Tearer Linnorm																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Loxo Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Loxo]																																																												
+STARTPACK:Loxo Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Loxo]																																																												
 RACE:Loxo	!PRERACE:1,%																																																															
 NAME:Loxo																																																																
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Marrash Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Marrash]																																																												
+STARTPACK:Marrash Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Marrash]																																																												
 RACE:Marrash	!PRERACE:1,%																																																															
 NAME:Marrash																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Meenlock Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Meenlock]																																																												
+STARTPACK:Meenlock Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Meenlock]																																																												
 RACE:Meenlock	!PRERACE:1,%																																																															
 NAME:Meenlock																																																																
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11																																																																
 																																																																
-STARTPACK:Megalodon Default	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Megalodon]																																																												
+STARTPACK:Megalodon Stats	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Megalodon]																																																												
 RACE:Megalodon	!PRERACE:1,%																																																															
 NAME:Megalodon																																																																
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Moonbeast Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Moonbeast]																																																												
+STARTPACK:Moonbeast Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Moonbeast]																																																												
 RACE:Moonbeast	!PRERACE:1,%																																																															
 NAME:Moonbeast																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Mooncalf Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mooncalf]																																																												
+STARTPACK:Mooncalf Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mooncalf]																																																												
 RACE:Mooncalf	!PRERACE:1,%																																																															
 NAME:Mooncalf																																																																
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Moonrat Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Moonrat]																																																												
+STARTPACK:Moonrat Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Moonrat]																																																												
 RACE:Moonrat	!PRERACE:1,%																																																															
 NAME:Moonrat																																																																
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10																																																																
 																																																																
-STARTPACK:Morkoth Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Morkoth]																																																												
+STARTPACK:Morkoth Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Morkoth]																																																												
 RACE:Morkoth	!PRERACE:1,%																																																															
 NAME:Morkoth																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Mudmaw Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mudmaw]																																																												
+STARTPACK:Mudmaw Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mudmaw]																																																												
 RACE:Mudmaw	!PRERACE:1,%																																																															
 NAME:Mudmaw																																																																
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Myconid Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myconid]																																																												
+STARTPACK:Myconid Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myconid]																																																												
 RACE:Myconid	!PRERACE:1,%																																																															
 NAME:Myconid																																																																
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
 																																																																
-STARTPACK:Myconid Junior Worker	TYPE:Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myconid]																																																												
+STARTPACK:Myconid Junior Worker	TYPE:Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myconid]	PRETEMPLATE:1,Myconid ~ Junior Worker																																																											
 RACE:Myconid	!PRERACE:1,%																																																															
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11																																																																
 																																																																
@@ -652,12 +652,12 @@ STARTPACK:Myconid Sovereign	TYPE:Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PR
 RACE:Myconid	!PRERACE:1,%																																																															
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Needlefolk Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Needlefolk]																																																												
+STARTPACK:Needlefolk Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Needlefolk]																																																												
 RACE:Needlefolk	!PRERACE:1,%																																																															
 NAME:Needlefolk																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Neogi Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Neogi]																																																												
+STARTPACK:Neogi Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Neogi]																																																												
 RACE:Neogi	!PRERACE:1,%																																																															
 NAME:Neogi																																																																
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
@@ -666,227 +666,227 @@ STARTPACK:Neogi Adult	TYPE:Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRE
 RACE:Neogi	!PRERACE:1,%																																																															
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10																																																																
 
-STARTPACK:Nethersight Mastiff Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nethersight Mastiff]
+STARTPACK:Nethersight Mastiff Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nethersight Mastiff]
 RACE:Nethersight Mastiff	!PRERACE:1,%
 NAME:Nethersight Mastiff
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Nightmare Beast Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nightmare Beast]
+STARTPACK:Nightmare Beast Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nightmare Beast]
 RACE:Nightmare Beast	!PRERACE:1,%
 NAME:Nightmare Beast
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Nimblerwright Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nimblewright]
+STARTPACK:Nimblerwright Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Nimblewright]
 RACE:Nimblewright	!PRERACE:1,%
 NAME:Nimblewright
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Ocean Strider Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ocean Strider]
+STARTPACK:Ocean Strider Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ocean Strider]
 RACE:Ocean Strider	!PRERACE:1,%
 NAME:Ocean Strider
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Orcwort (Wortling) Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Orcwort (Wortling)]
+STARTPACK:Orcwort (Wortling) Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Orcwort (Wortling)]
 RACE:Orcwort (Wortling)	!PRERACE:1,%
 NAME:Wortling
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Orcwort Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Orcwort]
+STARTPACK:Orcwort Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Orcwort]
 RACE:Orcwort	!PRERACE:1,%
 NAME:Orcwort
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Ormyrr Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ormyrr]
+STARTPACK:Ormyrr Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ormyrr]
 RACE:Ormyrr	!PRERACE:1,%
 NAME:Ormyrr
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Phase Wasp Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phase Wasp]
+STARTPACK:Phase Wasp Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phase Wasp]
 RACE:Phase Wasp	!PRERACE:1,%
 NAME:Phase Wasp
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
 
-STARTPACK:Phoenix Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phoenix]
+STARTPACK:Phoenix Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Phoenix]
 RACE:Phoenix	!PRERACE:1,%
 NAME:Phoenix
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
 
-STARTPACK:Planetouched (Chaond) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Chaond)]
+STARTPACK:Planetouched (Chaond) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Chaond)]
 RACE:Planetouched (Chaond)	!PRERACE:1,%
 NAME:Chaond
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Planetouched (Zenythri) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Zenythri)]
+STARTPACK:Planetouched (Zenythri) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Planetouched (Zenythri)]
 RACE:Planetouched (Zenythri)	!PRERACE:1,%
 NAME:Zenythri
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Psurlon Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Psurlon]
+STARTPACK:Psurlon Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Psurlon]
 RACE:Psurlon	!PRERACE:1,%
 NAME:Psurlon
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Ragewind Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ragewind]
+STARTPACK:Ragewind Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ragewind]
 RACE:Ragewind	!PRERACE:1,%
 NAME:Ragewind
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
 
-STARTPACK:Raggamoffyn (Tatterdemanimal) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Tatterdemanimal)]
+STARTPACK:Raggamoffyn (Tatterdemanimal) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Tatterdemanimal)]
 RACE:Raggamoffyn (Tatterdemanimal)	!PRERACE:1,%
 NAME:Tatterdemanimal Raggamoffyn
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Raggamoffyn (Common) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Common)]
+STARTPACK:Raggamoffyn (Common) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Common)]
 RACE:Raggamoffyn (Common)	!PRERACE:1,%
 NAME:Common Raggamoffyn
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Raggamoffyn (Guttersnipe) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Guttersnipe)]
+STARTPACK:Raggamoffyn (Guttersnipe) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Guttersnipe)]
 RACE:Raggamoffyn (Guttersnipe)	!PRERACE:1,%
 NAME:Guttersnipe Raggamoffyn
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
-STARTPACK:Raggamoffyn (Shrapnyl) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Shrapnyl)]
+STARTPACK:Raggamoffyn (Shrapnyl) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Raggamoffyn (Shrapnyl)]
 RACE:Raggamoffyn (Shrapnyl)	!PRERACE:1,%
 NAME:Shrapnyl Raggamoffyn
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Rampager Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rampager]
+STARTPACK:Rampager Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rampager]
 RACE:Rampager	!PRERACE:1,%
 NAME:Rampager
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Reason Stealer Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Reason Stealer]
+STARTPACK:Reason Stealer Stats	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Reason Stealer]
 RACE:Reason Stealer	!PRERACE:1,%
 NAME:Reason Stealer
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Red Sundew Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Red Sundew]
+STARTPACK:Red Sundew Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Red Sundew]
 RACE:Red Sundew	!PRERACE:1,%
 NAME:Red Sundew
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Eidolon (Rogue) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eidolon (Rogue)]
+STARTPACK:Eidolon (Rogue) Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eidolon (Rogue)]
 RACE:Eidolon (Rogue)	!PRERACE:1,%
 NAME:Rogue Eidolon
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
-STARTPACK:Rukarazyll Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rukarazyll]
+STARTPACK:Rukarazyll Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Rukarazyll]
 RACE:Rukarazyll	!PRERACE:1,%
 NAME:Rukarazyll
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Runic Guardian Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Runic Guardian]
+STARTPACK:Runic Guardian Stats	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Runic Guardian]
 RACE:Runic Guardian	!PRERACE:1,%
 NAME:Runic Guardian
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Shadow Spider Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Spider]
+STARTPACK:Shadow Spider Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Shadow Spider]
 RACE:Shadow Spider	!PRERACE:1,%
 NAME:Shadow Spider
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
 
-STARTPACK:Sirine Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sirine]
+STARTPACK:Sirine Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sirine]
 RACE:Sirine	!PRERACE:1,%
 NAME:Sirine
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
 
-STARTPACK:Spawn of Kyuss Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spawn of Kyuss]
+STARTPACK:Spawn of Kyuss Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spawn of Kyuss]
 RACE:Spawn of Kyuss	!PRERACE:1,%
 NAME:Spawn of Kyuss
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Spell Weaver Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spell Weaver]
+STARTPACK:Spell Weaver Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spell Weaver]
 RACE:Spell Weaver	!PRERACE:1,%
 NAME:Spell Weaver
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Spellgaunt Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spellgaunt]
+STARTPACK:Spellgaunt Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spellgaunt]
 RACE:Spellgaunt	!PRERACE:1,%
 NAME:Spellgaunt
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
 
-STARTPACK:Spirit of the Land Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spirit of the Land]
+STARTPACK:Spirit of the Land Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spirit of the Land]
 RACE:Spirit of the Land	!PRERACE:1,%
 NAME:Spirit of the Land
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Stone Spike Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Stone Spike]
+STARTPACK:Stone Spike Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Stone Spike]
 RACE:Stone Spike	!PRERACE:1,%
 NAME:Stone Spike
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
 
-STARTPACK:Swamplight Lynx Default	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Swamplight Lynx]
+STARTPACK:Swamplight Lynx Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Swamplight Lynx]
 RACE:Swamplight Lynx	!PRERACE:1,%
 NAME:Swamplight Lynx
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Sylph Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sylph]
+STARTPACK:Sylph Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sylph]
 RACE:Sylph	!PRERACE:1,%
 NAME:Sylph
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Tempest Default	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Tempest]
+STARTPACK:Tempest Stats	TYPE:DefaultMonster.Elemental	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Tempest]
 RACE:Tempest	!PRERACE:1,%
 NAME:Tempest
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Teratomorph Default	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Teratomorph]
+STARTPACK:Teratomorph Stats	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Teratomorph]
 RACE:Teratomorph	!PRERACE:1,%
 NAME:Teratomorph
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Thri-Kreen Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Thri-Kreen]
+STARTPACK:Thri-Kreen Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Thri-Kreen]
 RACE:Thri-Kreen	!PRERACE:1,%
 NAME:Thri-Kreen
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
 
-STARTPACK:Twig Blight Default	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Twig Blight]
+STARTPACK:Twig Blight Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Twig Blight]
 RACE:Twig Blight	!PRERACE:1,%
 NAME:Twig Blight
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
 
-STARTPACK:Vaporighu Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Vaporighu]
+STARTPACK:Vaporighu Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Vaporighu]
 RACE:Vaporighu	!PRERACE:1,%
 NAME:Vaporighu
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 
-STARTPACK:Windghost Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Windghost]
+STARTPACK:Windghost Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Windghost]
 RACE:Windghost	!PRERACE:1,%
 NAME:Windghost
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Wyste Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Wyste]
+STARTPACK:Wyste Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Wyste]
 RACE:Wyste	!PRERACE:1,%
 NAME:Wyste
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
 
-STARTPACK:Yak Folk Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yak Folk]
+STARTPACK:Yak Folk Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yak Folk]
 RACE:Yak Folk	!PRERACE:1,%
 NAME:Yak Folk
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Yugoloth (Marraenoloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Marraenoloth)]
+STARTPACK:Yugoloth (Marraenoloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Marraenoloth)]
 RACE:Yugoloth (Marraenoloth)	!PRERACE:1,%
 NAME:Yugoloth (MArraenoloth)
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 
-STARTPACK:Yugoloth (Arcanaloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Arcanaloth)]
+STARTPACK:Yugoloth (Arcanaloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Arcanaloth)]
 RACE:Yugoloth (Arcanaloth)	!PRERACE:1,%
 NAME:Yugoloth (Arcanaloth)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
-STARTPACK:Yugoloth (Yagnoloth) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Yagnoloth)]
+STARTPACK:Yugoloth (Yagnoloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Yugoloth (Yagnoloth)]
 RACE:Yugoloth (Yagnoloth)	!PRERACE:1,%
 NAME:Yugoloth (Yagnoloth)
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
 
-STARTPACK:Razor Boar Default	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
+STARTPACK:Razor Boar Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
 RACE:Razor Boar	!PRERACE:1,%
 NAME:Razor Boar
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
 
-STARTPACK:Scorpionfolk Default	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
+STARTPACK:Scorpionfolk Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Razor Boar]
 RACE:Scorpionfolk	!PRERACE:1,%
 NAME:Scorpionfolk
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11

@@ -1,0 +1,9 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																																									
+																																												
+###Block:Familiar																																												
+# Class of the Master	Type			Spell Res.		Ability														Copy Masters BAB		Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define Stat									Combat bonus										Template
+FOLLOWER:WaveriderMountLVL=1	TYPE:Waverider Mount		HD:1	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Empathic Link|Waverider Mount ~ Improved Evasion|Waverider Mount ~ Share Saving Throws|Waverider Mount ~ Share Spells			COPYMASTERCHECK:MASTER			DEFINESTAT:MINVALUE|INT|5	BONUS:STAT|STR|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																																
+FOLLOWER:WaveriderMountLVL=8	TYPE:Waverider Mount		HD:1							DEFINESTAT:MINVALUE|INT|6	BONUS:STAT|STR|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																																
+FOLLOWER:WaveriderMountLVL=11	TYPE:Waverider Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Speak with Own Kind						DEFINESTAT:MINVALUE|INT|7	BONUS:STAT|STR|1	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE																																
+FOLLOWER:WaveriderMountLVL=15	TYPE:Waverider Mount		HD:2	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Fast Movement						DEFINESTAT:MINVALUE|INT|8	BONUS:STAT|STR|1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE	BONUS:MOVEADD|TYPE.Swim|5|PRESIZELTEQ:S	BONUS:MOVEADD|TYPE.Swim|10|PRESIZEGTEQ:M																														
+FOLLOWER:WaveriderMountLVL=19	TYPE:Waverider Mount	SR:mastervar("WaveriderMountClassLVL")+5	HD:2							DEFINESTAT:MINVALUE|INT|9	BONUS:STAT|STR|2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.REPLACE																																

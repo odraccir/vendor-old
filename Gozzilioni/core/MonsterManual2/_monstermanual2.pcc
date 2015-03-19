@@ -37,7 +37,7 @@ SPELL:mm2_spells.lst
 TEMPLATE:mm2_templates.lst
 TEMPLATE:mm2_templates_hidden.lst
 
-HIDETYPE:SKILL|Profession (Farmer)
+HIDETYPE:SKILL|Profession (Farmer)|Profession (Boater)|Profession (Scribe)
 
 # CLASS:mm2_classes_monster__dragons.lst
 # COMPANIONMOD:mm2_companionmods.lst

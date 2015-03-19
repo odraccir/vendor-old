@@ -2,27 +2,27 @@ SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.
 																																																																
 # Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
 # Monster Abilities
-STARTPACK:Cyclops (Lesser) Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cyclops (Lesser)]
+STARTPACK:Cyclops (Lesser) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cyclops (Lesser)]
 RACE:Cyclops (Lesser)	!PRERACE:1,%
 NAME:Lesser Cyclops
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Cyclops (Greater) Default	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cyclops (Greater)]
+STARTPACK:Cyclops (Greater) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Cyclops (Greater)]
 RACE:Cyclops (Greater)	!PRERACE:1,%
 NAME:Greater Cyclops
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Faun Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Faun]
+STARTPACK:Faun Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Faun]
 RACE:Faun	!PRERACE:1,%
 NAME:Faun
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
 
-STARTPACK:Minion of Set Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Minion of Set]
+STARTPACK:Minion of Set Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Minion of Set]
 RACE:Minion of Set	!PRERACE:1,%
 NAME:Minion of Set
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Energon (Yag-Ya) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Yag-Ya)]
+STARTPACK:Energon (Yag-Ya) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Energon (Yag-Ya)]
 RACE:Energon (Xag-Ya)	!PRERACE:1,%
 NAME:Xag-Ya
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10

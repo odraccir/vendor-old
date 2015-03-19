@@ -15,8 +15,10 @@ INFOTEXT:Rsrd official addition and modification from the PHB or the forum
 #Epico
 ABILITYCATEGORY:elh_ability_category.lst
 COMPANIONMOD:elh_companionmods.lst
-FEAT:elh_feat_hidden.lst
-FEAT:elh_feats.lst
+# FEAT:elh_feat_hidden.lst
+# FEAT:elh_feats.lst
+ABILITY:elh_feat_hidden.lst
+ABILITY:elh_feats.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

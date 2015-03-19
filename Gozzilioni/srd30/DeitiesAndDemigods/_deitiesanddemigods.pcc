@@ -15,6 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@/d20ogl/srd35/rsrd.pcc
 #
 #Deities and Demigods
+ABILITYCATEGORY:dad_abilitycategories.lst
 ABILITY:dad_abilities.lst
 ABILITY:dad_abilities_classes.lst
 ABILITY:dad_abilities_races.lst

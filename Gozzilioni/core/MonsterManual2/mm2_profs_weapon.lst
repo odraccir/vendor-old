@@ -12,3 +12,4 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 Notbora	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Quarterstaff		
 # Giantclub	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Club		
 Gythka	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Polearm		
+Chatkcha	TYPE:Exotic.Ranged.Piercing.OneHanded.RangedPiercing

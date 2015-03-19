@@ -1,0 +1,35 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+													
+# Equipment Name	Output Name	Type	Cost	Weight		Source Page	Special Property						
+# Construct													
+													
+# Demons													
+													
+# Devils													
+													
+# Monster objects													
+Bag of Boulders		TYPE:Magic.Wondrous.Container	COST:1200			SOURCEPAGE:SS			CONTAINS:UNLIM|SlingStone=4				
+													
+###Block:Alchemical Stuff and Liquids													
+Air Supply				TYPE:Goods.General.AirSupply	COST:950	WT:1		SOURCEPAGE:SS					
+Delver Slime (Vial)				TYPE:Goods.Alchemical.Vial.Consumable	COST:150	WT:1		SOURCEPAGE:SS					
+Delver Slime (Flask)				TYPE:Goods.Alchemical.Flask.Consumable	COST:40	WT:1		SOURCEPAGE:SS					
+Frostfire (Flask)				TYPE:Goods.Alchemical.Flask.Consumable	COST:40	WT:1		SOURCEPAGE:SS	SPROP:1d6 Cold damage. Craft DC 20.				
+Sulptor's Slime (Flask)				TYPE:Goods.Alchemical.Flask.Consumable	COST:750	WT:4		SOURCEPAGE:SS	SPROP:One flask allows a Craft (stonemasonry) check (DC 10) to shape up to 25 cubic feet of stone, as Stone Shape spell cast by a 15th-level druid. Craft DC 20.				
+Vrock's Spore (Flask)				TYPE:Goods.Alchemical.Flask.Consumable	COST:1000	WT:1		SOURCEPAGE:SS	SPROP:deal 1d8 points of damage to all creatures within 5 feet. dealing an additional 1d2 points of damage each round for 10 rounds.				
+													
+#Poisons													
+Poison (Aboleth Mucus)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:20	WT:1		SOURCEPAGE:SS	SPROP:Contact/Inhaled DC 19, Init.:lose ability to breath for 3 hours. Craft DC 19.						
+Poison (Drow Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:1		SOURCEPAGE:SS	SPROP:Injury DC 17, Init.:Unconsciusness for 1 minute, Sec.:Unconsciousness for 2d4 hours. Craft DC 19.						
+													
+###Block:Clothing													
+# Equipment Name	Output Name	Type	Cost	Weight		Source Page	Special Property						
+													
+###Block:Goods													
+Breathing Mask				TYPE:Goods.General.Headgear.Container	COST:1000	WT:5		SOURCEPAGE:SS		CONTAINS:UNLIM|AirSupply=1			
+Cable (Metal/50 Ft.)				TYPE:Goods.General.Cable	COST:25	WT:5		SOURCEPAGE:SS	SPROP:Climb DC 20. -2 penalty to Use Rope checks.				
+Cablespool				TYPE:Goods.General.Cablespool.Container	COST:125	WT:2		SOURCEPAGE:SS		CONTAINS:UNLIM|Cable=2			
+Flash Tube				TYPE:Goods.General	COST:30	WT:1		SOURCEPAGE:SS	SPROP:60-ft radius. Fort DC 13 or blinded for 1d3 rounds.				
+Harness				TYPE:Goods.Container.General.Resizable	COST:20	WT:2		SOURCEPAGE:SS		CONTAINS:UNLIM|Cablespool=1|Weapon=2|Any=UNLIM			
+Sun Lantern				TYPE:Goods.General.LightSource.Container	COST:162	WT:3		SOURCEPAGE:SS		CONTAINS:UNLIM|Sunrod=1	QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone	QUALITY:Duration|6 hr./sunrod
+Sunrod.MOD	TYPE:Sunrod												

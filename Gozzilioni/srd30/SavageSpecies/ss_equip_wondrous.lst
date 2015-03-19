@@ -1,0 +1,37 @@
+SOURCELONG:Gozzilioni Savage Species	SOURCESHORT:SS	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+																		
+# Equipment Name	Output Name	Type	Cost	Weight		Source Page	Special Property											
+# Rings																		
+Ring of Growth		TYPE:Magic.Ring	COST:18000	WT:0	SOURCEPAGE:SS		SPELLS:Ring of Growth|TIMES=1|CASTERLEVEL=9|Enlarge Person											
+Ring of Shrinking		TYPE:Magic.Ring	COST:3600	WT:0	SOURCEPAGE:SS		SPELLS:Ring of Shrinking|TIMES=1|CASTERLEVEL=9|Reduce Person											
+Ring of Wordtwisting		TYPE:Magic.Ring	COST:23508	WT:0	SOURCEPAGE:SS		SPROP:Constant Tongues spell (5th level wizard).|PRERACE:1,RACESUBTYPE=Orc	BONUS:SKILL|Bluff,Diplomacy,Sense Motive|2|TYPE=Insight	BONUS:SKILL|Bluff,Diplomacy,Intimidate,Sense Motive|4|TYPE=Insight|PRERACE:1,RACESUBTYPE=Orc									
+																		
+# Staff																		
+Staff (Glutton)	OUTPUTNAME:Staff of the [NAME]	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:58200	WT:5	SOURCEPAGE:SS	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.EQ_COST_ADJ|16300	ALTEQMOD:WOOD.PLUS2W.EQ_COST_ADJ|16300	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	WIELD:TwoHanded	SIZE:M	SPROP:Bite extra 1d8 on critical hit. Acid Fog (2 charges), Summon Swarm (1 charge).
+Staff (Lich)	OUTPUTNAME:Staff of the [NAME]	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Melee.TwoHanded.Simple.Double.Standard.Bludgeoning.Quarterstaff	COST:78950	WT:5	SOURCEPAGE:SS	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.UNHLY_M.EQ_COST_ADJ|32300	ALTEQMOD:WOOD.PLUS1W.UNHLY_M.EQ_COST_ADJ|18300	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	WIELD:TwoHanded	SIZE:M	SPROP:Negative Energy Wave (2 charges), Negative Energy Burst (2 charges), Negative energy Ray (1 charge).
+																		
+# Wondrous																		
+###TODO:Arms of the Naga HANDS:2																		
+Arms of the Naga		TYPE:Magic.Wondrous.Resizeable	COST:56000	WT:8		SOURCEPAGE:SS												
+Babbling Wheel		TYPE:Magic.Wondrous	COST:2000			SOURCEPAGE:SS			SPROP:Will DC 11 or Hypnotism spell for 2d4 rounds.									
+Circlet of Rest		TYPE:Magic.Wondrous.Headgear	COST:12500			SOURCEPAGE:SS			SPROP:+10 resistance bonus against Nightmare, Dream and Dream Casting.	ABILITY:Special Ability|AUTOMATIC|Immunity To Dream Effects								
+Cloak of Charms		TYPE:Magic.Wondrous.Cape	COST:54000	WT:1		SOURCEPAGE:SS			SPELLS:Cloak of Charms|TIMES=1|CASTERLEVEL=15|Charm Animal,11|Charm Person,11|Command Plants,14									
+Cloak of the Quills		TYPE:Magic.Wondrous.Cape	COST:2500	WT:1		SOURCEPAGE:SS												
+Musical Instrument (Cloaker Flute)		TYPE:Magic.Wondrous.Tools.Instrument.Wind.Resizable	COST:27225	WT:3		SOURCEPAGE:SS		EQMOD:MWORKI	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork									
+Dragon Mask		TYPE:Magic.Wondrous.Eyegear	COST:4400	WT:2		SOURCEPAGE:SS			SPROP:See Invisibility, not subject to a rogue's sneak attack unless the rogue is at least 10th level.	BONUS:VAR|HasSeeInvisibilityVision|1								
+Fairy Gold		TYPE:Magic.Wondrous	COST:4950	WT:2		SOURCEPAGE:SS												
+Fingerbone Neckace		TYPE:Magic.Wondrous.Amulet	COST:7620			SOURCEPAGE:SS			BONUS:SKILL|Handle Animal,Ride|2|TYPE=Competence|PRERACE:1,Goblin	ABILITY:FEAT|VIRTUAL|Mounted Combat|PRERACE:1,Goblin								
+Gazeblind Goggles		TYPE:Magic.Wondrous.Eyegear	COST:6000			SOURCEPAGE:SS			ABILITY:Special Ability|AUTOMATIC|Immunity To Gaze									
+Geas Acorn		TYPE:Magic.Wondrous	COST:8400			SOURCEPAGE:SS												
+Gloves of Man		TYPE:Magic.Wondrous.Glove	COST:42000			SOURCEPAGE:SS	SLOTS:2											
+Musical Instrument (Grig Fiddle)		TYPE:Magic.Wondrous.Tools.Instrument.String.Resizable	COST:14400	WT:3	SIZE:D	SOURCEPAGE:SS		EQMOD:MWORKI	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	SPROP:Will DC 15 or Otto's Irresistible Dance								
+Hag Eye		TYPE:Magic.Wondrous.Ring.Amulet	COST:22500			SOURCEPAGE:SS												
+Heartstone		TYPE:Magic.Wondrous.Amulet	COST:1800			SOURCEPAGE:SS			SPROP:cure all disease	BONUS:SAVE|Fortitude,Reflex,Will|2|TYPE=Resistance								
+Horseshoes of Flame		TYPE:Magic.Wondrous.Boot	COST:30240	WT:2		SOURCEPAGE:SS	SLOTS:2		SPROP:3/day transform a horse into a nightmare for 7 hours.									
+Liquid Vortex (Flask)		TYPE:Magic.Wondrous.Alchemical.Flask.Consumable	COST:3300			SOURCEPAGE:SS												
+Mask of Fangs		TYPE:Magic.Wondrous.Eyegear	COST:30000	WT:2		SOURCEPAGE:SS												
+Musical Instrument (Master Fiddle)		TYPE:Magic.Wondrous.Tools.Instrument.String.Resizable	COST:18000	WT:3	SIZE:T	SOURCEPAGE:SS		EQMOD:MWORKI	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	SPROP:Will DC 15								
+Necklace of Natural Weapon		TYPE:Magic.Wondrous.Amulet.Weapon.Melee.Natural	COST:600			SOURCEPAGE:SS												
+Render Bait		TYPE:Magic.Wondrous.Amulet	COST:35640			SOURCEPAGE:SS			SPROP:Will DC 19									
+Musical Instrument (Satyr Pipes)		TYPE:Magic.Wondrous.Tools.Instrument.Wind.Resizable	COST:3000	WT:3		SOURCEPAGE:SS	PRESKILL:1,Perform (Wind Instruments)=1		BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	SPROP:Will DC 14								
+Scentblinder		TYPE:Magic.Wondrous	COST:33000			SOURCEPAGE:SS												

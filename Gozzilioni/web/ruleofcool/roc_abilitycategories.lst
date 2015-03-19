@@ -1,0 +1,20 @@
+#Abilitygroup:Racial Class Ability categories																						
+ABILITYCATEGORY:Deepspawn Mother Class Feature	CATEGORY:Special Ability	TYPE:DeepspawnMotherClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Deepspawn Mother Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fiery Eagle Class Feature	CATEGORY:Special Ability	TYPE:FieryEagleClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiery Eagle Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Needle Fighter Class Feature	CATEGORY:Special Ability	TYPE:NeedleFighterClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Needle Fighter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fury Class Feature	CATEGORY:Special Ability	TYPE:FuryClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fury Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Pleasure Devil Class Feature	CATEGORY:Special Ability	TYPE:PleasureDevilClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Pleasure Devil Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Lilitu Class Feature	CATEGORY:Special Ability	TYPE:LilituClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lilitu Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Nightmare Steed Class Feature	CATEGORY:Special Ability	TYPE:NightmareSteedClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Nightmare Steed Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Cauchemar Class Feature	CATEGORY:Special Ability	TYPE:CauchemarClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cauchemar Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Faun Class Feature	CATEGORY:Special Ability	TYPE:FaunClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Faun Class Features			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Class Bonus Feats																						
+ABILITYCATEGORY:Cauchemar Feat	CATEGORY:FEAT	TYPE:Fighter.Monstrous.Racial	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cauchemar Feats			DISPLAYLOCATION:Feats
+
+#Abilitygroup:Feat choosers
+ABILITYCATEGORY:Extraordinary Disease	CATEGORY:Special Ability	TYPE:ExtraordinaryDisease	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Extraordinary Diseases			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Wild Path	CATEGORY:Special Ability	TYPE:WildPath	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Wild Paths			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Wild Path Level	CATEGORY:Special Ability	TYPE:WildPathLevel	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Wild Path Levels			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Turn Spider	CATEGORY:Special Ability	TYPE:TurnSpider	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Spider			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Turn Scorpion	CATEGORY:Special Ability	TYPE:TurnScorpion	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Scorpion			DISPLAYLOCATION:Feats
