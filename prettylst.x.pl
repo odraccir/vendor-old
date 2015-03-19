@@ -1866,7 +1866,7 @@ my @Global_BONUS_Tags = (
     'BONUS:SPECIALTYSPELLKNOWN:*',            # Global
     'BONUS:SPELLCAST:*',            # Global
     'BONUS:SPELLCASTMULT:*',        # Global
-    'BONUS:SPELLPOINTCOST:*',    # Global
+#	'BONUS:SPELLPOINTCOST:*',	# Global
     'BONUS:SPELLKNOWN:*',           # Global
     'BONUS:STAT:*',                 # Global
     'BONUS:UDAM:*',                 # Global
@@ -2020,7 +2020,7 @@ my %master_order = (
         'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
         'LANGAUTO:.CLEAR',    # Deprecated - 6.0
         'LANGAUTO:*',        # Deprecated - 6.0
-		'SPELLPOINTCOST:*',
+#		'SPELLPOINTCOST:*',
     ],
 
     'ABILITYCATEGORY' => [
@@ -3081,7 +3081,7 @@ my %master_order = (
         'DOMAINS',
         'STAT:*',
         'PPCOST',
-#        'SPELLPOINTCOST',            # Delay implementing this until SPELLPOINTCOST is documented
+#		'SPELLPOINTCOST:*',			# Delay implementing this until SPELLPOINTCOST is documented
         'SCHOOL:.CLEAR',
         'SCHOOL:*',
         'SUBSCHOOL',

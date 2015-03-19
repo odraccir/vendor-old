@@ -11,6 +11,9 @@ CATEGORY=Internal|Default.MOD	DEFINE:RendDefaultDamage|0	BONUS:VAR|RendDefaultDa
 CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:SmiteGood|0	DEFINE:SmiteGoodDamage|0																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SmiteEvil|0	DEFINE:SmiteEvilDamage|0																																		
+#
+CATEGORY=Special Ability|Mummy ~ Despair.MOD	DEFINE:MummyDespairDC|0	BONUS:VAR|MummyDespairDC|DefaultDCWis	DESC:Will DC %1|MummyDespairDC																																	
+CATEGORY=Special Ability|Mummy ~ Mummy Rot.MOD	DEFINE:MummyMummyRotDC|0	BONUS:VAR|MummyMummyRotDC|DefaultDCWis	DESC:Fort DC %1|MummyMummyRotDC																																	
 
 Detect Magic Vision	KEY:Detect Magic Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:DetectMagicRange|0	DESC:As Detect Magic spell.	VISION:Detect Magic (DetectMagicRange)			ASPECT:Vision|Detect Magic %1'|DetectMagicRange																											
 See Invisibility Vision	KEY:See Invisibility Vision	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Vision	DEFINE:SeeInvisibilityRange|0	DESC:As See Invisibility spell.	VISION:See Invisibility (SeeInvisibilityRange)			ASPECT:Vision|See Invisibility %1'|SeeInvisibilityRange																											
@@ -203,6 +206,7 @@ Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES							
 Baleful Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Beguille	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ROC
 Blade Fury	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Bloodcurdling Howl	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
 Blood Drink	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Blood Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Body Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
@@ -292,6 +296,7 @@ Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																			
 Seduction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Silk Slick	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Slavering Doom	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
 Smoke Claws	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MotP
 Song of Despair	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS
 Song of Nightmare	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:SS

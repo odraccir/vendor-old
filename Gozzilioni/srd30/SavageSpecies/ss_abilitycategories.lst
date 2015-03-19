@@ -19,5 +19,12 @@ ABILITYCATEGORY:Acquire Feat	CATEGORY:Special Ability	TYPE:AcquireFeat	VISIBLE:Q
 ABILITYCATEGORY:Acquire Class Feature	CATEGORY:Special Ability	TYPE:AcquireClassFeature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acquire Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Acquire Special Attack or Special Quality	CATEGORY:Special Ability	TYPE:AcquireSpecialAttack.AcquireSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acquire Special Attacks or Special Qualities			DISPLAYLOCATION:Class Features
 
+#Abilitygroup:Template Feature categories																						
+ABILITYCATEGORY:Ghost Brute Attack	CATEGORY:Special Ability	TYPE:GhostBruteSpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Brute Attacks			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monstrous Beast Attack	CATEGORY:Special Ability	TYPE:MonstrousBeastSpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monstrous Beast Attacks			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monstrous Beast Quality	CATEGORY:Special Ability	TYPE:MonstrousBeastSpecialQuality	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monstrous Beast Qualities			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Extra Head	CATEGORY:Special Ability	TYPE:MultiheadedExtraHead	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Extra Heads			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Mummified Attack	CATEGORY:Special Ability	TYPE:MummifiedSpecialAttack	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mummified Attacks			DISPLAYLOCATION:Race Traits
+
 ABILITYCATEGORY:Waverider Mount Choice	CATEGORY:Internal	TYPE:WaveriderMountSelection	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Waverider Mount Choices			DISPLAYLOCATION:Class Abilities
 ABILITYCATEGORY:Waverider Mount Selection	CATEGORY:Internal	TYPE:WaveriderMountSelection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Waverider Mount Selection			DISPLAYLOCATION:Class Features
