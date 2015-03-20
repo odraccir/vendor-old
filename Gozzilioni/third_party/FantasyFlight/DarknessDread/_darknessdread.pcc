@@ -6,7 +6,7 @@ SETTING:Heroes
 SOURCELONG:Gozzilioni Darkness and Dread
 SOURCESHORT:DD
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2004-01
+SOURCEDATE:2001-01
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
 
@@ -15,7 +15,7 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Darkness and Dread
-CLASS:DD_classes_monster.lst
+CLASS:dd_classes_monster.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

@@ -1,0 +1,3 @@
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Acolyte Class Feature	CATEGORY:Special Ability	TYPE:AcolyteClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acolyte Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Alchemist Class Feature	CATEGORY:Special Ability	TYPE:AlchemistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Alchemist Class Features			DISPLAYLOCATION:Class Features

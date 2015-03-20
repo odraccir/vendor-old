@@ -1,0 +1,40 @@
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-01										
+													
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Acolyte	HD:6	TYPE:NPC.Base	ABB:Acl	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:AcolyteLVL|0	BONUS:VAR|AcolyteLVL|CL
+CLASS:Acolyte	PRETEXT:In order to enter the acolyte class after 1st level, a character must gain the sponsorship of a religious organization and complete training in its basic tenets.												
+CLASS:Acolyte	STARTSKILLPTS:4	CSKILL:Diplomacy|Heal|Knowledge (Religion)|TYPE=Perform|Sense Motive											
+CLASS:Acolyte	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:YES	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3	BONUS:CASTERLEVEL|Acolyte|CL/2								
+1				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteProficiencies									
+1				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Spellcasting									
+1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
+#													
+1				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Ward the Unholy|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteWardTheUnholy									
+5				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Tend the Flock|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteTendTheFlock									
+10				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Strength of the Faithful|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteStrengthOfFaithful									
+#													
+1	CAST:1												
+2	CAST:1,0												
+3	CAST:1,1												
+4	CAST:2,1,0												
+5	CAST:2,1,1												
+6	CAST:2,2,1,0												
+7	CAST:3,2,1,1												
+8	CAST:3,2,2,1												
+9	CAST:3,3,2,1												
+10	CAST:4,3,2,2												
+													
+CLASS:Alchemist	HD:4	TYPE:NPC.Base	ABB:Acm	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:AlechemistLVL|0	BONUS:VAR|AlchemistLVL|CL
+CLASS:Alchemist	PRETEXT:In order to enter the alchemist class after 1st level, a character must work as an apprentice to a master of this art. The character must spend 1d4 months working as the master's servant. After this time, he may advance in this class as normal.												
+CLASS:Alchemist	STARTSKILLPTS:4	CSKILL:TYPE=Craft|Decipher Script|Heal|Use Magic Device											
+CLASS:Alchemist	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Alchemist|CL/2								
+1				ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistProficiencies									
+1				ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Spellcasting									
+1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
+#													
+1				ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Master of alchemy|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistMasterOfAlchemy									
