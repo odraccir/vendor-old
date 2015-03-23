@@ -1,3 +1,8 @@
 #Abilitygroup:Class Ability categories																						
 ABILITYCATEGORY:Acolyte Class Feature	CATEGORY:Special Ability	TYPE:AcolyteClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acolyte Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Alchemist Class Feature	CATEGORY:Special Ability	TYPE:AlchemistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Alchemist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Antiquarian Class Feature	CATEGORY:Special Ability	TYPE:AntiquarianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Antiquarian Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Apprentice Class Feature	CATEGORY:Special Ability	TYPE:ApprenticeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Apprentice Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Artisan Class Feature	CATEGORY:Special Ability	TYPE:ArtisanClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Artisan Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Artisan Feat	CATEGORY:Special Ability	TYPE:Artisan	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Artisan Feats			DISPLAYLOCATION:Class Features

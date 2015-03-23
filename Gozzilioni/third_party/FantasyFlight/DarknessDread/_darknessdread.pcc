@@ -15,7 +15,12 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #Darkness and Dread
+ABILITY:dd_abilities_classes.lst
+ABILITYCATEGORY:dd_abilitycategories.lst
+CLASS:dd_classes.lst
 CLASS:dd_classes_monster.lst
+SKILL:dd_skills.lst
+SPELL:dd_spells.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

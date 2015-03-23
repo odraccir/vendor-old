@@ -38,3 +38,61 @@ CLASS:Alchemist	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|
 1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
 #													
 1				ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Master of alchemy|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistMasterOfAlchemy									
+#													
+1	CAST:1												
+2	CAST:1,0												
+3	CAST:1,1												
+4	CAST:2,1,0												
+5	CAST:2,1,1												
+6	CAST:2,2,1,0												
+7	CAST:3,2,1,1												
+8	CAST:3,2,2,1												
+9	CAST:3,3,2,1												
+10	CAST:4,3,2,2												
+													
+CLASS:Antiquarian	HD:6	TYPE:NPC.Base	ABB:Ant	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:AntiquarianLVL|0	BONUS:VAR|AntiquarianLVL|CL
+CLASS:Antiquarian	PRETEXT:In order to enter the antiquarian class after 1st level, a character must establish his skill with ancient relics. He must have his character level + 3 ranks in Knowledge (history) and Use Magic Device.												
+CLASS:Antiquarian	STARTSKILLPTS:6	CSKILL:Appraise|Decipher Script|Disable Device|Forgery|Knowledge (Arcana)|Open Lock|Search|Spot|Use Magic Device											
+1				ABILITY:Antiquarian Class Feature|AUTOMATIC|Antiquarian ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AntiquarianProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
+#													
+1				ABILITY:Antiquarian Class Feature|AUTOMATIC|Antiquarian ~ Item Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.AntiquarianItemLore									
+3				ABILITY:Antiquarian Class Feature|AUTOMATIC|Antiquarian ~ Arcane Expert|!PREABILITY:1,CATEGORY=ACF,TYPE.AntiquarianArcaneExpert									
+5				ABILITY:Antiquarian Class Feature|AUTOMATIC|Antiquarian ~ Catalog of Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.AntiquarianCatalogOfKnowledge									
+													
+CLASS:Apprentice	HD:4	TYPE:NPC.Base	ABB:App	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:ApprenticeLVL|0	BONUS:VAR|ApprenticeLVL|CL
+CLASS:Apprentice	PRETEXT:In order to enter the apprentice class after 1st level, a character must serve a wizard and learn arcane lore from him. The character must spend 1d4 months working as the master's servant. After this time, he may advance in this class as normal.												
+CLASS:Apprentice	STARTSKILLPTS:2	CSKILL:TYPE=Craft|Decipher Script|Knowledge (Arcana)|Spellcraft|Use Magic Device											
+CLASS:Apprentice	SPELLSTAT:INT	SPELLTYPE:Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0	BONUS:CASTERLEVEL|Apprentice|CL*3/4								
+1				ABILITY:Apprentice Class Feature|AUTOMATIC|Acolyte ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ApprenticeProficiencies									
+1				ABILITY:Apprentice Class Feature|AUTOMATIC|Apprentice ~ Spellcasting									
+1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
+#													
+1	CAST:2,1												
+2	CAST:3,1												
+3	CAST:3,2												
+4	CAST:3,2,1												
+5	CAST:4,3,1												
+6	CAST:4,3,2												
+7	CAST:4,3,2,1												
+8	CAST:4,4,3,1												
+9	CAST:4,4,3,2,1												
+10	CAST:4,4,4,2,2												
+													
+CLASS:Artisan	HD:6	TYPE:NPC.Base	ABB:Art	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:ArtisanLVL|0	BONUS:VAR|ArtisanLVL|CL
+CLASS:Artisan	PRETEXT:In order to enter the artisan class after 1st level, a character must have total ranks in a skill equal to his level + 3.												
+CLASS:Artisan	STARTSKILLPTS:8	CSKILL:Appraise|Diplomacy|Forgery|Gather Iformation|Sense Motive											
+1				ABILITY:Artisan Class Feature|AUTOMATIC|Artisan ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ArtisanProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Expert ~ Skills			ADD:CLASSSKILLS|2|ANY						
+#													
+1				ABILITY:Artisan Class Feature|AUTOMATIC|Artisan ~ Master Artisan									
+3				ABILITY:Artisan Class Feature|AUTOMATIC|Artisan ~ Man About Town									
+													
+CLASS:Beggar	HD:6	TYPE:NPC.Base	ABB:Bgr	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:BeggarLVL|0	BONUS:VAR|BeggarLVL|CL
+CLASS:Beggar	PRETEXT:In order to enter the beggar class after 1st level, a character must spend at least four weeks living on the streets of a town or city. He must beg for money and scavenge shelter in alleys. At the end of this period, he is eligible to enter this class.												
+CLASS:Beggar	STARTSKILLPTS:6	CSKILL:Climb|Craft (Begging)|Profession (Begging)|Escape Artist|Gather Information|Hide|Knowledge (Local)|Listen|Perform (Begging)|Move Silently|Search|Sleight of Hand|Spot|Tumble											
+1				ABILITY:Beggar Class Feature|AUTOMATIC|Beggar ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BeggarProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Orato ~ Skills									
+#													
+1				ABILITY:Beggar Class Feature|AUTOMATIC|Beggar ~ Fade into the Background|!PREABILITY:1,CATEGORY=ACF,TYPE.BeggarFadeIntoTheBackground									
+3				ABILITY:Beggar Class Feature|AUTOMATIC|Beggar ~ Streetwise|!PREABILITY:1,CATEGORY=ACF,TYPE.BeggarStreetwise									
