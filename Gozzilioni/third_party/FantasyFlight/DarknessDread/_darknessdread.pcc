@@ -22,6 +22,8 @@ CLASS:dd_classes_monster.lst
 SKILL:dd_skills.lst
 SPELL:dd_spells.lst
 
+HIDETYPE:SKILL|Craft (Beggar)|Perform (Beggar)|Profession (Beggar)|Profession (Gambler)
+
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst
 #COMPANIONMOD:my_companionmods.lst

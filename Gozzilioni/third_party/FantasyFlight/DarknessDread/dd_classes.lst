@@ -96,3 +96,85 @@ CLASS:Beggar	STARTSKILLPTS:6	CSKILL:Climb|Craft (Begging)|Profession (Begging)|E
 #													
 1				ABILITY:Beggar Class Feature|AUTOMATIC|Beggar ~ Fade into the Background|!PREABILITY:1,CATEGORY=ACF,TYPE.BeggarFadeIntoTheBackground									
 3				ABILITY:Beggar Class Feature|AUTOMATIC|Beggar ~ Streetwise|!PREABILITY:1,CATEGORY=ACF,TYPE.BeggarStreetwise									
+5				ABILITY:Beggar Class Feature|AUTOMATIC|Beggar ~ Guise of the Sickly|!PREABILITY:1,CATEGORY=ACF,TYPE.BeggarGuiseOfTheSickly									
+													
+CLASS:Engineer	HD:6	TYPE:NPC.Base	ABB:Eng	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:EngineerLVL|0	BONUS:VAR|EngineerLVL|CL
+CLASS:Engineer	PRETEXT:In order to enter the engineer class after 1st level, a character must work with a master engineer in order to learn this craft. He must spend 6 months aiding the master. At the end of this term of service, the character may gain levels in this class.												
+CLASS:Engineer	STARTSKILLPTS:4	CSKILL:Appraise|TYPE=Craft|Disable Device|Knowledge (Architecture and Engineering)|Open Lock|Search|Use Rope											
+1				ABILITY:Engineer Class Feature|AUTOMATIC|Engineer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EngineerProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
+#													
+1				ABILITY:Engineer Class Feature|AUTOMATIC|Engineer ~ Engineer's Eye|!PREABILITY:1,CATEGORY=ACF,TYPE.EngineerEngineerSEye									
+3				ABILITY:Engineer Class Feature|AUTOMATIC|Engineer ~ Rapid Construction|!PREABILITY:1,CATEGORY=ACF,TYPE.EngineerRapidConstruction									
+5				ABILITY:Engineer Class Feature|AUTOMATIC|Engineer ~ Demolition Expert|!PREABILITY:1,CATEGORY=ACF,TYPE.EngineerDemolitionExpert									
+													
+CLASS:Gambler	HD:6	TYPE:NPC.Base	ABB:Gam	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:GamblerLVL|0	BONUS:VAR|GamblerLVL|CL
+CLASS:Gambler	PRETEXT:In order to enter the gambler class after 1st level, a character must have ranks in Profession (gambler) equal to his total character level +3.												
+CLASS:Gambler	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|Listen|TYPE=Profession|Sense Motive|Sleight of Hand|Spot											
+1				ABILITY:Gambler Class Feature|AUTOMATIC|Gambler ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GamblerProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Orator ~ Skills									
+#													
+1				ABILITY:Gambler Class Feature|AUTOMATIC|Gambler ~ Weigh the Odds|!PREABILITY:1,CATEGORY=ACF,TYPE.GamblerWeighTheOdds									
+3				ABILITY:Gambler Class Feature|AUTOMATIC|Gambler ~ Gambler's Luck|!PREABILITY:1,CATEGORY=ACF,TYPE.GamblerGamblerSLuck									
+5				ABILITY:Gambler Class Feature|AUTOMATIC|Gambler ~ Work the Angles|!PREABILITY:1,CATEGORY=ACF,TYPE.GamblerWorkTheAngles									
+													
+CLASS:Grave Robber	HD:8	TYPE:NPC.Base	ABB:Grv	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:GraveRobberLVL|0	BONUS:VAR|GraveRobberLVL|CL
+CLASS:Grave Robber	PRETEXT:In order to enter the grave robber class after 1st level, a character must assist a necromancer, physician, or similar person who requires fresh corpses for his work for at least one month. Alternatively, a character can rob graves on a freelance basis for three months to enter this class.												
+CLASS:Grave Robber	STARTSKILLPTS:4	CSKILL:Disable Device|Intimidate|Knowledge (Religion)|Listen|Move Silently|Search											
+1				ABILITY:Grave Robber Class Feature|AUTOMATIC|Grave Robber ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GraveRobberProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Laborer ~ Skills									
+#													
+1				ABILITY:Grave Robber Class Feature|AUTOMATIC|Grave Robber ~ Nerves of Steel|!PREABILITY:1,CATEGORY=ACF,TYPE.GraveRobberNervesOfSteel									
+3				ABILITY:Grave Robber Class Feature|AUTOMATIC|Grave Robber ~ Calm of the Dead|!PREABILITY:1,CATEGORY=ACF,TYPE.GraveRobberCalmOfTheDead									
+5				ABILITY:Grave Robber Class Feature|AUTOMATIC|Grave Robber ~ Necromantic Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.GraveRobberNecromanticLore									
+													
+CLASS:Grifter	HD:6	TYPE:NPC.Base	ABB:Grf	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:GrifterLVL|0	BONUS:VAR|GrifterLVL|CL
+CLASS:Grifter	PRETEXT:In order to enter the grifter class after 1st level, a character must be experienced with manipulating others and skillfully navigating social situations. The character must have a number of ranks in Bluff and Diplomacy equal to his total character level + 3.												
+CLASS:Grifter	STARTSKILLPTS:4	CSKILL:Disguise|Gather Information|Knowledge (Local)|Listen|TYPE=Perform|Sense Motive|Sleight of Hand|Speal Language											
+1				ABILITY:Grifter Class Feature|AUTOMATIC|Grifter ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GrifterProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Orator ~ Skills									
+#													
+1				ABILITY:Grifter Class Feature|AUTOMATIC|Grifter ~ Gilt Tongued|!PREABILITY:1,CATEGORY=ACF,TYPE.GrifterGiltTongued									
+3				ABILITY:Grifter Class Feature|AUTOMATIC|Grifter ~ Pernicious Influence|!PREABILITY:1,CATEGORY=ACF,TYPE.GrifterPerniciousInfluence									
+5				ABILITY:Grifter Class Feature|AUTOMATIC|Grifter ~ Confidence Artist|!PREABILITY:1,CATEGORY=ACF,TYPE.GrifterConfidenceArtist									
+													
+CLASS:Herbalist	HD:6	TYPE:NPC.Base	ABB:Hrb	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:HerbalistLVL|0	BONUS:VAR|HerbalistLVL|CL
+CLASS:Herbalist	PRETEXT:In order to enter the herbalist class after 1st level, a character must serve as an apprentice to a master of this profession. The character must spend 1d4 months working as the master's apprentice. After this time, he may advance in this class as normal. Alternatively, a character with ranks in Profession (herbalist) equal to his total character level + 3 can enter this class.												
+CLASS:Herbalist	STARTSKILLPTS:4	CSKILL:TYPE=Craft|Handle Animal|Heal|Survival											
+CLASS:Herbalist		SPELLTYPE:Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Herbalist|CL								
+1				ABILITY:Herbalist Class Feature|AUTOMATIC|Herbalist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HerbalistProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Academic ~ Skills									
+#													
+1				ABILITY:Herbalist Class Feature|AUTOMATIC|Herbalist ~ Craft Herbal Mixtures|!PREABILITY:1,CATEGORY=ACF,TYPE.HerbalistCraftHerbalMixtures									
+5				ABILITY:Herbalist Class Feature|AUTOMATIC|Herbalist ~ Improved Potion Creation|!PREABILITY:1,CATEGORY=ACF,TYPE.HerbalistImprovedPotionCreation									
+10				ABILITY:Herbalist Class Feature|AUTOMATIC|Herbalist ~ Supreme Potion Creation|!PREABILITY:1,CATEGORY=ACF,TYPE.HerbalistSupremePotionCreation									
+#													
+1	KNOWN:3,1												
+2	KNOWN:3,3												
+3	KNOWN:3,3,1												
+4	KNOWN:4,3,2												
+5	KNOWN:4,4,3,1												
+6	KNOWN:4,4,3,2												
+7	KNOWN:5,4,3,3												
+8	KNOWN:5,5,4,3												
+9	KNOWN:5,5,4,3												
+10	KNOWN:6,5,4,4												
+													
+CLASS:Kennelmaster	HD:8	TYPE:NPC.Base	ABB:Knm	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:KennelmasterLVL|0	BONUS:VAR|KennelmasterLVL|CL
+CLASS:Kennelmaster	PRETEXT:In order to enter the kennelmaster class after 1st level, a character must have ranks in Handle Animal equal to his total level + 3.												
+CLASS:Kennelmaster	STARTSKILLPTS:4	CSKILL:Climb|Handle Animal|Intimidate|Knowledge (Nature)|Sense Motive|Survival											
+1				ABILITY:Kennelmaster Class Feature|AUTOMATIC|Kennelmaster ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.KennelmasterProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Expert ~ Skills									
+#													
+1				ABILITY:Kennelmaster Class Feature|AUTOMATIC|Kennelmaster ~ Animal Husbandry|!PREABILITY:1,CATEGORY=ACF,TYPE.KennelmasterAnimalHusbandry									
+3				ABILITY:Kennelmaster Class Feature|AUTOMATIC|Kennelmaster ~ Calm Animal|!PREABILITY:1,CATEGORY=ACF,TYPE.KennelmasterCalmAnimal									
+5				ABILITY:Kennelmaster Class Feature|AUTOMATIC|Kennelmaster ~ Feral Bond|!PREABILITY:1,CATEGORY=ACF,TYPE.KennelmasterFeralBond									
+													
+CLASS:Medium	HD:6	TYPE:NPC.Base	ABB:Med	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:MediumLVL|0	BONUS:VAR|MediumLVL|CL
+CLASS:Medium	PRETEXT:In order to enter the medium class after 1st level, a character must have ranks in Sense Motive equal to her total character level + 3. In addition, she must have failed at least one Will save against a fear-based effect created by an undead creature or an outsider. Exposure to the supernatural is sometimes key to awakening a person's innate abilities.												
+CLASS:Medium	STARTSKILLPTS:4	CSKILL:Concentration|Gather Information|Knowledge (Arcana)|Knowledge (Religion)|TYPE=Perform|Sense Motive|Sleight of Hand|Spellcraft|Use Magic Device											
+1				ABILITY:Medium Class Feature|AUTOMATIC|Medium ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MediumProficiencies									
+1				ABILITY:Special Ability|AUTOMATIC|Orator ~ Skills									
+#													
+1				ABILITY:Medium Class Feature|AUTOMATIC|Medium ~ Sense the Unseen|Medium ~ Sense the Unseen ~ Area Reading|Medium ~ Sense the Unseen ~ Object Reading|!PREABILITY:1,CATEGORY=ACF,TYPE.MediumSenseTheUnseen									
+3				ABILITY:Medium Class Feature|AUTOMATIC|Medium ~ Sixth Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.MediumSixthSense									
