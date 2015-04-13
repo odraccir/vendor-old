@@ -220,7 +220,7 @@ my %conversion_enable =
      'ALL:Convert ADD:SA to ADD:SAB'      => 0,               #[ 1864711 ] Convert ADD:SA to ADD:SAB
     'CLASS:no more HASSPELLFORMULA'    => 0,            #[ 1973497 ] HASSPELLFORMULA is deprecated
     'No extra Tab'    => 1,            # Gozzilioni - no adding unwanted tabs when reformetting
-
+    'Missing spell DC'    => 1,            # Gozzilioni - no info messages when missing DC on innate spell.
 );
 
 
@@ -482,6 +482,9 @@ if ( $cl_options{convert} ) {
         $conversion_enable{'PCC:GAMEMODE Add to the CMP DnD_'} = 1;
     }
     elsif ( $cl_options{convert} eq 'extratab' ) {
+        $conversion_enable{'No extra Tab'} = 1;
+    }
+    elsif ( $cl_options{convert} eq 'NoExtraTab' ) {
         $conversion_enable{'No extra Tab'} = 1;
     }
     else {
@@ -8492,11 +8495,13 @@ BEGIN {
                             # No DC present, the whole param is the spell name
                             push @spells, $param;
 
-							$logging->ewarn(INFO,
-								qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
-								$file_for_error,
-								$line_for_error
-							);
+                            if ( !$conversion_enable{'Missing spell DC'} ) {
+                                $logging->ewarn(INFO,
+                                qq(the DC value is missing for "$param" in "$tag_name:$tag_value"),
+                                $file_for_error,
+                                $line_for_error
+                                );
+                            }
                         }
                     }
                 }

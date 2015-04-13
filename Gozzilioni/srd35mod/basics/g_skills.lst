@@ -18,8 +18,10 @@ Hide.MOD		SITUATION:Wooded area
 Hide.MOD		SITUATION:Marshlands
 Hide.MOD		SITUATION:Arid settings
 Hide.MOD		SITUATION:Sandy settings
+Hide.MOD		SITUATION:Urban environment
 Knowledge (Dungeoneering).MOD		SITUATION:Navigate underground
 Move Silently.MOD		SITUATION:Forested area
+Move Silently.MOD		SITUATION:Urban environment
 Open Lock.MOD	SITUATION:Open Portal
 Search.MOD		SITUATION:Magic traps
 Spot.MOD		SITUATION:Daylight

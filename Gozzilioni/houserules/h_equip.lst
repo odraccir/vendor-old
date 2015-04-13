@@ -1,5 +1,7 @@
 SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #						
+Book (Empty)	TYPE:Book	COST:0	WT:5	SOURCEPAGE:MagicItemsI	MODS:REQUIRED
+
 Pouch (Leather)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:1	WT:0.5	SOURCEPAGE:H	CONTAINS:UNLIM|Any	EQMOD:LEATHER
 Scabbard (Light)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER
 Scabbard (OneHanded)	TYPE:Goods.Container.General.Resizable.Leather.Scabbard	COST:2	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Weapon=1	EQMOD:LEATHER

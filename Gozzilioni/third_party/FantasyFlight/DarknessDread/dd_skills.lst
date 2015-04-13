@@ -1,0 +1,8 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net
+
+Craft (Beggar)	KEYSTAT:INT	USEUNTRAINED:NO		TYPE:Intelligence.Craft.Accessory.Craft (Beggar)					SOURCEPAGE:DD				
+Perform (Beggar)	KEYSTAT:CHA	USEUNTRAINED:NO		TYPE:Charisma.Perform.Accessory.Perform (Beggar)					SOURCEPAGE:DD				
+Profession (Beggar)	KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession.Accessory.Profession (Beggar)					SOURCEPAGE:DD
+Profession (Gambler)	KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession.Accessory.Profession (Gambler)					SOURCEPAGE:DD
+
+# Knowledge (General)	KEY:Knowledge ~ General	KEYSTAT:INT	TYPE:SkillDisplay	USEUNTRAINED:YES	VISIBLE:EXPORT	CLASSES:ALL				SOURCEPAGE:DD

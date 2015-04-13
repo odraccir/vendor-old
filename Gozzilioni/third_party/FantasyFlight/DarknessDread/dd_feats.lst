@@ -1,0 +1,13 @@
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+																																																																																							
+# Feat Name	Type	visible	outputname	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page																																														
+# Ability Focus	KEY:Ability Focus ~ MM	SERVESAS:ABILITY=FEAT|Ability Focus	TYPE:General		PREABILITY:1,CATEGORY=Ability Focus,TYPE.Ability Focus																																																DESC:Add +2 to the DC for all saving throws against the special attack on which the creature focuses.														STACK:NO	MULT:YES	CHOOSE:ABILITY|Ability Focus|PC[TYPE=Ability Focus]																		SOURCEPAGE:MM
+CATEGORY=FEAT|Alertness.MOD	TYPE:Worker
+CATEGORY=FEAT|Athletic.MOD	TYPE:Worker
+CATEGORY=FEAT|Deft Hands.MOD	TYPE:Worker
+CATEGORY=FEAT|Endurance.MOD	TYPE:Worker
+CATEGORY=FEAT|Die Hard.MOD	TYPE:Worker
+CATEGORY=FEAT|Great Fortitude.MOD	TYPE:Worker
+CATEGORY=FEAT|Improved Unarmed Strike.MOD	TYPE:Worker
+CATEGORY=FEAT|Iron Will.MOD	TYPE:Worker
+CATEGORY=FEAT|Toughness.MOD	TYPE:Worker

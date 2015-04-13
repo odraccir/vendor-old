@@ -1,6 +1,10 @@
 SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 # Class Name		Visible
+CLASS:Expert.MOD
+1	ABILITY:Special Ability|AUTOMATIC|Skill Level ~ Base	BONUS:VAR|SkillLVL|ExpertLVL
+
+# Class Name		Visible
 CLASS:Sorcerer/Domain	VISIBLE:NO
 # Class Name				Spell Stat		Spell Type		Memorize	Caster level						Use Spell List
 CLASS:Sorcerer/Domain	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer/Domain|CL	SPELLLIST:1|Sorcerer
