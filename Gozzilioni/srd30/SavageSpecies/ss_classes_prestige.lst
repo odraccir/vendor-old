@@ -11,7 +11,7 @@ CLASS:Emancipated Spawn	STARTSKILLPTS:2	CSKILL:Bluff|Climb|Disguise|Hide|Intimid
 1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnProficiencies									
 1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnTurnResistance	ABILITY:Special Ability|AUTOMATIC|Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnTurnResistance								
 1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Recall Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRecallFeats									
-2				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Recall Class Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRecallClassAbilities									
+2				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Recall Class Features|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRecallClassFeatures									
 3				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Rediscovery|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnRediscovery									
 													
 CLASS:Illithid Savant	HD:4	TYPE:Monster.Prestige	ABB:Ils	MAXLEVEL:10	SOURCEPAGE:SS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:IllithidSavantLVL|0	BONUS:VAR|IllithidSavantLVL|CL
