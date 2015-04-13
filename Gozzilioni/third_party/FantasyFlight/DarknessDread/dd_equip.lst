@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#						
+The journals of Tharm, Son of Ingulf	TYPE:Goods.General.Book	COST:0	WT:5	SOURCEPAGE:DD	SPROP:2 days (written in Dwarven); Combat Bonus (creature tactics: giants), Knowledge (arcana) +2 bonus; Madness points save DC 25, 1d8/1d3.	EQMOD:BOOK_CMB_TACTIC|Giants.BOOK_KNOWLEDGE_PLUS2|Knowledge (Arcana).BOOK_MADNESS_25
+The book of Distant Gates	TYPE:Goods.General.Book	COST:0	WT:5	SOURCEPAGE:DD	SPROP:day (written in Draconic); Rituals: dimensional anchor, dismissal, lesser planar binding, magic circle against evil; Knowledge (the planes) +4; Madness points save DC 35, 2d8/1d6.	EQMOD:BOOK_RITUAL.BOOK_KNOWLEDGE_PLUS4|Knowledge (The Planes).BOOK_MADNESS_35

@@ -1,0 +1,5 @@
+SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+###Block: Alignment Kits ------------------
+STARTPACK:Alignment ~ None	VISIBLE:NO	APPLY:INSTANT
+ALIGN:NONE

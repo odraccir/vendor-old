@@ -164,7 +164,7 @@ Bead of the Great Beast		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:2500	WT:0
 Bead of Awakening		TYPE:Magic.Wondrous.Bead.BeadOfWildBeast	COST:3750	WT:0	SOURCEPAGE:AaEG	SPROP:Wearer can cast Awaken once.	EQMOD:CHARGED_ITEM_1|1	PREVARGTEQ:AnimalCompanionLVL,1						
 Oracle Beads		TYPE:Magic.Wondrous.Amulet.Bead	COST:19192	WT:0	SOURCEPAGE:AaEG	SPROP:+5 insight bonus during scrying check.	BONUS:DC|SPELL.Scry|5|TYPE=Insight	SPELLS:Oracle Beads|TIMES=1|CASTERLEVEL=7|Divination,16|PRESPELLCAST:TYPE=Arcane	SPELLS:Oracle Beads|TIMES=2|CASTERLEVEL=7|Divination,16|PRESPELLCAST:TYPE=Divine					
 Pelt of Animal Senses		TYPE:Magic.Wondrous.Cape	COST:30080	WT:1	SOURCEPAGE:AaEG		BONUS:SKILL|Listen|2|TYPE=Circumstance	ABILITY:Special Ability|VIRTUAL|Scent	BONUS:VAR|HasLowLightVision|1					
-Phylactery of Change		TYPE:Magic.Wondrous	COST:11200	WT:0	SOURCEPAGE:AaEG	SPROP:Change Self once per day. The new form is mantained for indefinite times.								
+Phylactery of Change		TYPE:Magic.Wondrous	COST:11200	WT:0	SOURCEPAGE:AaEG	SPROP:Change Self once per day. The new form is mantained for indefinite times.	SPELLS:Phylactery of Change|TIMES=1|CASTERLEVEL=3|Disguise Self							
 Pitons (Burrowing)		TYPE:Magic.Wondrous.Consumable	COST:380	WT:.5	SOURCEPAGE:AaEG	SPROP:1d8 points of damage (x3 critical) against stone or clay golems or earth elementals	BONUS:SKILL|Climb|2|TYPE=Circumstance	EQMOD:CHARGED_ITEM_1|1						
 Pixie Dust		TYPE:Magic.Wondrous.Powder	COST:2700	WT:0	SOURCEPAGE:AaEG									
 Bridge (Portable//50-ft)		TYPE:Magic.Wondrous	COST:36000	WT:1	SOURCEPAGE:AaEG	SPROP:On command the statue of the bridge turn into a bridge 5-ft wide and 5-ft to 50-ft length								

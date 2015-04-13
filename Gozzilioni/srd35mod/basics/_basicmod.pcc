@@ -17,9 +17,10 @@ SOURCEDATE:2003-07
 #Rsrd
 ABILITY:g_abilities.lst
 ABILITYCATEGORY:g_abilitycategories.lst
-CLASS:g_classes_monster.lst
+CLASS:g_classes.lst
 EQUIPMENT:g_equip.lst
 EQUIPMOD:g_equipmods.lst
+KIT:g_kits.lst
 SKILL:g_skills.lst
 SPELL:g_spells.lst
 TEMPLATE:g_templates.lst

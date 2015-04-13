@@ -16,12 +16,17 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #
 #Darkness and Dread
 ABILITY:dd_abilities_classes.lst
+ABILITY:dd_abilities_races.lst
 ABILITYCATEGORY:dd_abilitycategories.lst
 CLASS:dd_classes.lst
 CLASS:dd_classes_monster.lst
+EQUIPMENT:dd_equip.lst
+EQUIPMOD:dd_equipmods.lst
+ABILITY:dd_feats.lst
+RACE:dd_races.lst
 SKILL:dd_skills.lst
 SPELL:dd_spells.lst
-
+TEMPLATE:dd_templates.lst
 HIDETYPE:SKILL|Craft (Beggar)|Perform (Beggar)|Profession (Beggar)|Profession (Gambler)
 
 #BIOSET:my_biosettings.lst
