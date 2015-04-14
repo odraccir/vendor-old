@@ -49,4 +49,4 @@ Arborea Bacchae Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Abil
 Concordant Opposition Petitioner	VISIBLE:NO	SOURCEPAGE:MotP3.5upd	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity|Immunity To Polymorph|Immunity To Petrification|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	DR:5/Magic		
 							
 ###Block: Disease							
-Disease Damage (Grey Wasting)		VISIBLE:NO	SOURCEPAGE:MotP, p. 110	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Charisma Drain		TEMPDESC:Infection DC 20 (Contact), Incubation 1 days, Damage 1d4 Cha drain, Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Grey Wasting)		VISIBLE:NO	SOURCEPAGE:MotP, p. 110	TEMPVALUE:MIN=1|MAX=4|TITLE=Charisma Drain		TEMPDESC:Infection DC 20 (Contact), Incubation 1 days, Damage 1d4 Cha drain, Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
