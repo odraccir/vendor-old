@@ -1,4 +1,4 @@
-SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 		
 #Teleport	CLASSES:Sorcerer,Wizard=5	TYPE:Arcane.Divine
 Create Water.MOD	CLASSES:Acolyte=0	

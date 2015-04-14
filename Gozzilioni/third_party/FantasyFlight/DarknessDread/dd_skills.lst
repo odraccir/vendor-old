@@ -1,5 +1,6 @@
-SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 
+# Skill Name		Key Stat	Untrained?		Type									Source Page
 Craft (Beggar)	KEYSTAT:INT	USEUNTRAINED:NO		TYPE:Intelligence.Craft.Accessory.Craft (Beggar)					SOURCEPAGE:DD				
 Perform (Beggar)	KEYSTAT:CHA	USEUNTRAINED:NO		TYPE:Charisma.Perform.Accessory.Perform (Beggar)					SOURCEPAGE:DD				
 Profession (Beggar)	KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession.Accessory.Profession (Beggar)					SOURCEPAGE:DD

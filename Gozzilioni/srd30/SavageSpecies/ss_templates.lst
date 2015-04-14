@@ -115,7 +115,7 @@ Ritual of Alignment ~ Chaotic	VISIBLE:DISPLAY	PREALIGN:CG,CN,CE	RACESUBTYPE:Chao
 Ritual of Association	VISIBLE:YES	SOURCEPAGE:SS	DESC:This ritual requires a 7th-level cleric who has the appropriate alignment domain as one of his domains. Ritual Cost: This ritual costs the subject 56,000 gold pieces and 2,240 XP. Level Adjustment: +0.	TEMPLATE:CHOOSE:Ritual of Association ~ Gnoll|Ritual of Association ~ Goblinoid|Ritual of Association ~ Orc|Ritual of Association ~ Reptilian
 Ritual of Association ~ Gnoll	VISIBLE:DISPLAY	ABILITY:Special Ability|AUTOMATIC|Shared ~ Gnoll Blood
 Ritual of Association ~ Goblinoid	VISIBLE:DISPLAY	ABILITY:Special Ability|AUTOMATIC|Shared ~ Goblinoid Blood
-Ritual of Association ~ Orc	VISIBLE:DISPLAY	ABILITY:Special Ability|AUTOMATIC|Shared ~ OrcBlood
+Ritual of Association ~ Orc	VISIBLE:DISPLAY	ABILITY:Special Ability|AUTOMATIC|Shared ~ Orc Blood
 Ritual of Association ~ Reptilian	VISIBLE:DISPLAY	ABILITY:Special Ability|AUTOMATIC|Shared ~ Reptilian Blood
 Ritual of the Elements	VISIBLE:YES	SOURCEPAGE:SS	DESC:This ritual requires a 9th-level cleric who has the appropriate element or energy type as one of his domains. Ritual Cost: This ritual costs the subject 36,000 gold pieces and 1,440 XP. Level Adjustment: +1.	TEMPLATE:CHOOSE:Ritual of the Elements ~ Air|Ritual of the Elements ~ Earth|Ritual of the Elements ~ Fire|Ritual of the Elements ~ Water|Ritual of the Elements ~ Electricity|Ritual of the Elements ~ Acid|Ritual of the Elements ~ Fire|Ritual of the Elements ~ Cold
 Ritual of the Elements ~ Air	VISIBLE:DISPLAY	RACESUBTYPE:Air	LEVELADJUSTMENT:1
