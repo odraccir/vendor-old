@@ -1,0 +1,20 @@
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01										
+													
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Reef Warrior	HD:10	TYPE:PC.Prestige	ABB:Ree	MAXLEVEL:10	SOURCEPAGE:Ssh	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ReefWarriorLVL|0	BONUS:VAR|ReefWarriorLVL|CL
+CLASS:Reef Warrior	PRERACE:1,RACE=Elf	PRETEMPLATE:1,Coral Elf	PREALIGN:TN,LN,NG	PREATT:5	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Swim)	PRESKILL:1,Hide=4	PRESKILL:1,Swim=6						
+CLASS:Reef Warrior	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Heal|Hide|Intimidate|Listen|Search|Spot|Swim											
+1				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Reef Bonding|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorReefBonding									
+2				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Coral Skin|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorCoralSkin									
+3				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Sustenance|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorSustenance									
+3				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorBonusFeats									
+4				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Alien Presence|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorAlienPresence									
+5				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Meld|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorMeld									
+5				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Reef Attunement|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorReefAttunement									
+7				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Spikes|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorSpikes									
+10				ABILITY:Reef Warrior Class Feature|AUTOMATIC|Reef Warrior ~ Reefwalking|!PREABILITY:1,CATEGORY=ACF,TYPE.ReefWarriorReefwalking									

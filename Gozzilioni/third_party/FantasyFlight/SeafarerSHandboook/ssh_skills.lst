@@ -1,0 +1,14 @@
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+
+# Skill Name		Key Stat	Untrained?		Type									Source Page
+Craft (Underwater Alchemy)	KEYSTAT:INT	USEUNTRAINED:NO	VISIBLE:DISPLAY	TYPE:Intelligence.Craft.Accessory.Craft (Underwater Alchemy)					SOURCEPAGE:Ssh
+Craft (Coral Sculpting)	KEYSTAT:INT	USEUNTRAINED:NO	VISIBLE:DISPLAY	TYPE:Intelligence.Craft.Accessory.Craft (Coral Sculpting)					SOURCEPAGE:Ssh	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used.	TEMPBONUS:PC|SKILL|Craft (Coral Sculpting)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=SculptingTools
+Survival (Underwater)	KEYSTAT:WIS			VISIBLE:YES	TYPE:Wisdom.Accessory.Survival (Underwater)					SOURCEPAGE:Ssh	BONUS:SKILL|Knowledge (Nature)|SynergyBonus|PRESKILL:1,Survival (Underwater)=5|TYPE=Synergy.STACK
+Profession (Navigator)	KEYSTAT:WIS	USEUNTRAINED:NO		VISIBLE:YES	TYPE:Wisdom.Profession.Accessory.Profession (Navigator)					SOURCEPAGE:Ssh
+Profession (Sailor)	KEYSTAT:WIS	USEUNTRAINED:NO		VISIBLE:YES	TYPE:Wisdom.Profession.Accessory.Profession (Sailor)					SOURCEPAGE:Ssh
+
+Craft (Underwater Alchemy)	KEY:Craft ~ Underwater Alchemy	KEYSTAT:INT	USEUNTRAINED:YES	VISIBLE:EXPORT	TYPE:SkillDisplay	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Underwater Alchemy).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Underwater Alchemy)"),1]	SOURCEPAGE:Ssh
+Craft (Coral Sculpting)	KEY:Craft ~ Coral Sculpting	KEYSTAT:INT	USEUNTRAINED:YES	VISIBLE:EXPORT	TYPE:SkillDisplay	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Coral Sculpting).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Coral Sculpting)"),1]	SOURCEPAGE:Ssh
+
+Craft (Untrained).MOD	BONUS:SKILL|Craft ~ Underwater Alchemy|var("SKILL.Craft (Underwater Alchemy).MISC")	BONUS:SKILLRANK|Craft ~ Underwater Alchemy|skillinfo("TOTALRANK", "Craft (Underwater Alchemy)")
+Craft (Untrained).MOD	BONUS:SKILL|Craft ~ Coral Sculpting|var("SKILL.Craft (Coral Sculpting).MISC")	BONUS:SKILLRANK|Craft ~ Coral Sculpting|skillinfo("TOTALRANK", "Craft (Coral Sculpting)")

@@ -1,0 +1,10 @@
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01																													
+																																
+# Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block: Abilities																																
+Armor Prof ~ Aquatic Light	CATEGORY:Internal	TYPE:ArmorProfAquaticLight.ArmorProfAquaticMedium.ArmorProfAquaticHeavy	AUTO:ARMORPROF|ARMORTYPE=AquaticLight	SOURCEPAGE:Ssh
+Armor Prof ~ Aquatic Medium	CATEGORY:Internal	TYPE:ArmorProfAquaticLight.ArmorProfAquaticMedium	AUTO:ARMORPROF|ARMORTYPE=AquaticMedium	SOURCEPAGE:Ssh
+Armor Prof ~ Aquatic Heavy	CATEGORY:Internal	TYPE:ArmorProfAquaticHeavy	AUTO:ARMORPROF|ARMORTYPE=AquaticHeavy	SOURCEPAGE:Ssh
+
+Skills	CATEGORY:Special Ability	TYPE:AquaticCreatureTemplateTrait.SpecialQuality	VISIBLE:YES	DESC:+8 racial bonus on any Swim checks to perform come special action or avoid azard. The creature can always take 10 on Swim checks, even if rushed or threatened. Can use the run action while swimming, provided they swim in a straight line.	KEY:Aquatic Creature ~ Skills																											SOURCEPAGE:Ssh
+Water Breathing	CATEGORY:Special Ability	TYPE:AquaticCreatureRaceTrait.SpecialQuality	VISIBLE:YES	DESC:The creature can breathe water and survive underwater indefinitely.	KEY:Aquatic Creature ~ Water Breathing																											SOURCEPAGE:Ssh

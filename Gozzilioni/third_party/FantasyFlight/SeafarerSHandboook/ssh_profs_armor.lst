@@ -1,0 +1,19 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net
+		
+# Armor Name		
+Soft Kelp	TYPE:AquaticLight.ArmorProfAquaticLight
+Stiffened Kelp	TYPE:AquaticLight.ArmorProfAquaticLight
+Light Scale	TYPE:AquaticLight.ArmorProfAquaticLight
+Bone Mail	TYPE:AquaticLight.ArmorProfAquaticLight
+		
+#Medium Armor		
+Medium Scale	TYPE:AquaticMedium.ArmorProfAquaticMedium
+Small Shell	TYPE:AquaticMedium.ArmorProfAquaticMedium
+		
+#Heavy Armor		
+Large Shell	TYPE:AquaticHeavy.ArmorProfAquaticHeavy
+Heavy Scale	TYPE:AquaticHeavy.ArmorProfAquaticHeavy
+		
+#		
+# end		
+#		

@@ -1,4 +1,7 @@
 # Racial																								
+ABILITYCATEGORY:Merfolk Race Trait			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Merfolk Race Trait.MerfolkRaceTrait																				DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Merfolk Subrace				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:MerfolkSubrace																								DISPLAYLOCATION:Race Traits
+
 ## Racial Features																								
 ABILITYCATEGORY:Yuan-Ti Halfblood Variant				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO			CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant									PLURAL:Yuan-Ti Halfblood Variants			DISPLAYLOCATION:Race Traits
 																								

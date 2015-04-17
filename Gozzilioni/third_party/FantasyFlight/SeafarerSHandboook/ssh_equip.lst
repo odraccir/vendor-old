@@ -1,0 +1,29 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net							
+									
+###Block: Equipment									
+Quiver (Aquatic)	OUTPUTNAME:Aquatic Quiver	TYPE:Goods.Container.Aquatic	COST:5	WT:1	SOURCEPAGE:Ssh	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20			
+Disguise Kit (Waterproof)	OUTPUTNAME:Waterproof Disguise Kit	TYPE:Goods.Tools.Masterwork.Resizable.Consumable.Aquatic	COST:250	WT:8	SOURCEPAGE:Ssh	BONUS:SKILL|Disguise|2|TYPE=Circumstance			
+Goggles (Swimming)	OUTPUTNAME:Goggles, Swimming	TYPE:Goods.General.Resizable.Eyegear.Aquatic	COST:5	WT:1	SOURCEPAGE:Ssh				
+Sailor's Wax		TYPE:Goods.Alchemical.Consumable.Aquatic	COST:10	WT:0	SOURCEPAGE:Ssh				
+Waterproof Scroll	KEY:Scroll ~ Waterproof	TYPE:Scroll.Consumable.WaterproofScroll	COST:5	WT:.5	SOURCEPAGE:Ssh	MODS:REQUIRED			
+Swimming Gear (Gloves)		TYPE:Goods.General.Resizable.Aquatic.Glove	COST:50	WT:1	SOURCEPAGE:Ssh	SLOTS:2	BONUS:SKILL|Disable Device,Open Lock,Sleight of Hand|-2	BONUS:SKILL|Swim|1	
+Swimming Gear (Flippers)		TYPE:Goods.General.Resizable.Aquatic.Boot	COST:50	WT:1	SOURCEPAGE:Ssh	SLOTS:2	BONUS:MOVEMULT|TYPE=Walk|.5	BONUS:SKILL|Swim|1	
+Acid bulb		TYPE:Goods.Alchemical.Consumable.Aquatic	COST:90	WT:.25	SOURCEPAGE:Ssh	SPROP:3d6 Acid damage (Ref DC 18 for half)/1d6 Con damage (Fort DC 15 for avoid)			
+Glowmold Lantern (Hooded)	OUTPUTNAME:Glowmold Lantern, Hooded	TYPE:Goods.General.Resizable.Aquatic.Container	COST:15	WT:3	SOURCEPAGE:Ssh	CONTAINS:UNLIM|Total=0.25|Glowmold=0.25	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|1 hr.
+Glowmold Lantern (Bullseye)	OUTPUTNAME:Glowmold Lantern, Bullseye	TYPE:Goods.General.Resizable.Aquatic.Container	COST:15	WT:3	SOURCEPAGE:Ssh	CONTAINS:UNLIM|Total=0.25|Glowmold=0.25	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|1 hr.
+Glowmold fuel		TYPE:Goods.Consumable.Aquatic.Glowmold	COST:.3	WT:.25	SOURCEPAGE:Ssh				
+Jellyfish Paste		TYPE:Goods.General.Aquatic.Consumable	COST:360	WT:0	SOURCEPAGE:Ssh				
+Spell shell		TYPE:Scroll.Consumable.Aquatic	COST:5	WT:.5	SOURCEPAGE:Ssh	MODS:REQUIRED			
+									
+###Block: Poison									
+Poison (Jellyfish Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:360	WT:0	SOURCEPAGE:Ssh	SPROP:Contact DC 15, Init.:paralysis and 1d8 CON, Sec.:1d6 DEX. Craft DC 23.			
+
+###Block: Golem
+Golem (Coral)		TYPE:Construct.Container	COST:75000	WT:1000	SOURCEPAGE:Ssh	CONTAINS:UNLIM|Any	SPROP:Casterlevel 16th; Prerequisite: Craft Construct, Animate Object, Bless, Freedom of Movement, Commune, Prayer, Regenerate; Market Price: 75000 gp; Cost to create: 37500 gp (includes 1000GP for the body) + 1500 xp. Assembling the body requires a successful Craft (Coral Sculpting) check DC 17.
+
+###Block: Services
+Hireling (Artillerist/Expert 1°)		TYPE:Service			COST:0.4	SOURCEPAGE:Ssh
+Hireling (Captain/Expert 2°)		TYPE:Service			COST:0.6	SOURCEPAGE:Ssh
+Hireling (Officer/Expert 2°)		TYPE:Service			COST:0.5	SOURCEPAGE:Ssh
+Hireling (Sailor/Common 1°)		TYPE:Service			COST:0.3	SOURCEPAGE:Ssh
+Hireling (Ship's Cook/Expert 1°)		TYPE:Service			COST:0.2	SOURCEPAGE:Ssh

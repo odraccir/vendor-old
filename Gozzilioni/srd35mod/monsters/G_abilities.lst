@@ -2,15 +2,6 @@ SOURCELONG:Gozzilioni Rsrd Modifications monster	SOURCESHORT:G	SOURCEWEB:http://
 																																				
 ###Block: Variables																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
-CATEGORY=Internal|Default.MOD	DEFINE:BreathWeaponCone|0	DEFINE:BreathWeaponLine|0	DEFINE:BreathWeaponDice|0	DEFINE:BreathWeaponDamageDie|0	DEFINE:BreathWeaponDC|0																															
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|0	BONUS:VAR|DefaultSpellDCCha|10+CHA|TYPE=Base																																			
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCWis|0	BONUS:VAR|DefaultDCWis|10+(HD/2)+WIS|TYPE=Base																																			
-CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|0	BONUS:VAR|DefaultDCStr|10+(HD/2)+STR|TYPE=Base																																			
-# CATEGORY=Internal|Default.MOD	DEFINE:PoisonDC|0	BONUS:VAR|PoisonDC|-1*(10+(HD/2)+CON)|TYPE=Base																																			
-CATEGORY=Internal|Default.MOD	DEFINE:RendDefaultDamage|0	BONUS:VAR|RendDefaultDamage|STR*3/2|TYPE=Base																																			
-CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:SmiteGood|0	DEFINE:SmiteGoodDamage|0																																		
-CATEGORY=Internal|Default.MOD	DEFINE:SmiteEvil|0	DEFINE:SmiteEvilDamage|0																																		
 #
 CATEGORY=Special Ability|Mummy ~ Despair.MOD	DEFINE:MummyDespairDC|0	BONUS:VAR|MummyDespairDC|DefaultDCWis	DESC:Will DC %1|MummyDespairDC																																	
 CATEGORY=Special Ability|Mummy ~ Mummy Rot.MOD	DEFINE:MummyMummyRotDC|0	BONUS:VAR|MummyMummyRotDC|DefaultDCWis	DESC:Fort DC %1|MummyMummyRotDC																																	
@@ -24,33 +15,22 @@ True Seeing Vision	KEY:True Seeing Vision	CATEGORY:Special Ability	TYPE:SpecialQ
 CATEGORY=Special Ability|Keen Scent.MOD	DESC:Blood in the water up to %1 mile radius|KeenScentBloodRadius	DEFINE:KeenScentBloodRadius|0
 
 #																																				
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0																																		
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0																																		
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See In Darkness Vision|PREMULT:1,[PREVARGTEQ:SeeInDarknessRange,1],[PREVARGTEQ:HasSeeInDarknessVision,1]	DEFINE:HasSeeInDarknessVision|0																																		
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breathsense Vision|PREMULT:1,[PREVARGTEQ:BreathsenseRange,1],[PREVARGTEQ:HasBreathsenseVision,1]	DEFINE:HasBreathsenseVision|0																																		
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Woodsense Vision|PREMULT:1,[PREVARGTEQ:WoodsenseRange,1],[PREVARGTEQ:HasWoodsenseVision,1]	DEFINE:HasWoodsenseVision|0																																		
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|True Seeing Vision|PREMULT:1,[PREVARGTEQ:TrueSeeingRange,1],[PREVARGTEQ:HasTrueSeeingVision,1]	DEFINE:HasTrueSeeingVision|0																																		
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Keen Scent|PREMULT:1,[PREVARGTEQ:KeenScentBloodRadius,1],[PREVARGTEQ:HasKeenScent,1]	DEFINE:HasKeenScent|0																																		
-#																																				
 # CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Regeneration|PREMULT:1,[PREVARGTEQ:RegenerationRate,1],[PREVARGTEQ:HasRegeneration,1]	DEFINE:HasRegeneration|0																																		
 																																				
 ###Block: Abilities																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
-CATEGORY=Special Ability|Telepathy.MOD	AUTO:LANG|Telepathy	DEFINE:TelepathyRangeMiles|0	BONUS:VAR|TelepathyRange|TelepathyRangeMiles*5280																																		
-CATEGORY=Special Ability|Traits Output ~ Incorporeal.MOD	DEFINESTAT:NONSTAT|STR																																			
-
 Immunity To Death from Massive Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can't die from massive damage				ASPECT:Immunity|Death from massive damage																									SOURCEPAGE:MM2
 
 Resistance To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:PoisonResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Poison Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Poison,Vulnerability To Poison													SOURCEPAGE:MM				
 Resistance To Poison Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Poison	DESC:You get a +%1 bonus on Fort saving throws against poison.|PoisonResistanceBonus	ASPECT:Resistance|Poison	ASPECT:Ability Benefit|%1|PoisonResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take poison damage				ASPECT:Immunity|Poison																									SOURCEPAGE:MM
 Vulnerability To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to poison.																												SOURCEPAGE:MM				
-																																				
+
 Resistance To Disease	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DiseaseResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Disease Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Disease,Vulnerability To Disease													SOURCEPAGE:DD				
 Resistance To Disease Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Disease	DESC:You get a +%1 bonus on Fort saving throws against Disease.|DiseaseResistanceBonus	ASPECT:Resistance|Disease	ASPECT:Ability Benefit|%1|DiseaseResistanceBonus																									SOURCEPAGE:DD
 Immunity To Disease	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never get Disease				ASPECT:Immunity|Disease																									SOURCEPAGE:DD
 Vulnerability To Disease	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Disease.																												SOURCEPAGE:DD
-																																				
+
 Resistance To Rust	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:RustResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Rust Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Rust,Vulnerability To Rust													SOURCEPAGE:MM				
 Resistance To Rust Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Rust	DESC:You get a +%1 bonus on Fort saving throws against Rust.|RustResistanceBonus	ASPECT:Resistance|Rust	ASPECT:Ability Benefit|%1|RustResistanceBonus																									SOURCEPAGE:MM				
 Immunity To Rust				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Rust damage				ASPECT:Immunity|Rust																									SOURCEPAGE:MM

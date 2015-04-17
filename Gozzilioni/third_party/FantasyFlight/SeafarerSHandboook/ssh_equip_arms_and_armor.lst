@@ -1,0 +1,88 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net																									
+																											
+###Block:Weapons																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+# Natural																											
+																											
+# Melee 																											
+																											
+# Ranged																											
+Crossbow (Light/Aquatic)	OUTPUTNAME:Aquatic Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Light/Aquatic)	TYPE:Weapon.Simple.Ranged.Standard.Piercing.TwoHanded.Container.Projectile.Crossbow.Aquatic	CONTAINS:1|Bolt=1	COST:45	WT:4		CRITRANGE:2	CRITMULT:x2	DAMAGE:1d8		RANGE:80		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Ssh	EQMOD:WOOD										
+Crossbow (Heavy/Aquatic)	OUTPUTNAME:Aquatic Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Light/Aquatic)	TYPE:Weapon.Simple.Ranged.Standard.Piercing.TwoHanded.Container.Projectile.Crossbow.Aquatic	CONTAINS:1|Bolt=1	COST:90	WT:6		CRITRANGE:2	CRITMULT:x2	DAMAGE:1d10		RANGE:120		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Ssh	EQMOD:WOOD										
+																											
+# Armor 																											
+#Light Armor																											
+Soft Kelp	PROFICIENCY:ARMOR|Soft Kelp	TYPE:Armor.AquaticLight.Suit.Standard.Nonmetal.Aquatic	COST:7	WT:7	ACCHECK:0	EQMOD:KELP	MAXDEX:8	SOURCEPAGE:Ssh		BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE											
+Stiffened Kelp	PROFICIENCY:ARMOR|Stiffened Kelp	TYPE:Armor.AquaticLight.Suit.Standard.Nonmetal.Aquatic	COST:15	WT:10	ACCHECK:0	EQMOD:KELP	MAXDEX:7	SOURCEPAGE:Ssh	SPELLFAILURE:5	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE											
+Light Scale	PROFICIENCY:ARMOR|Light Scale	TYPE:Armor.AquaticLight.Suit.Standard.Nonmetal.Aquatic	COST:30	WT:8	ACCHECK:0	EQMOD:FSHSCALE	MAXDEX:6	SOURCEPAGE:Ssh	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE											
+Bone Mail	PROFICIENCY:ARMOR|Bone Mail	TYPE:Armor.AquaticLight.Suit.Standard.Nonmetal.Aquatic	COST:30	WT:10	ACCHECK:-1	EQMOD:FSHBONE	MAXDEX:5	SOURCEPAGE:Ssh	SPELLFAILURE:15	BONUS:COMBAT|AC|3|TYPE=Armor.REPLACE											
+#Medium Armor																											
+Medium Scale	PROFICIENCY:ARMOR|Medium Scale	TYPE:Armor.AquaticMedium.Suit.Standard.Nonmetal.Aquatic	COST:75	WT:15	ACCHECK:-2	EQMOD:FSHSCALE	MAXDEX:5	SOURCEPAGE:Ssh	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE											
+Small Shell	PROFICIENCY:ARMOR|Small Shell	TYPE:Armor.AquaticMedium.Suit.Standard.Nonmetal.Aquatic	COST:60	WT:20	ACCHECK:-3	EQMOD:SHELL	MAXDEX:4	SOURCEPAGE:Ssh	SPELLFAILURE:20	BONUS:COMBAT|AC|5|TYPE=Armor.REPLACE											
+#Heavy Armor																											
+Large Shell	PROFICIENCY:ARMOR|Large Shell	TYPE:Armor.AquaticHeavy.Suit.Standard.Nonmetal.Aquatic	COST:500	WT:30	ACCHECK:-4	EQMOD:SHELL	MAXDEX:3	SOURCEPAGE:Ssh	SPELLFAILURE:30	BONUS:COMBAT|AC|6|TYPE=Armor.REPLACE											
+Heavy Scale	PROFICIENCY:ARMOR|Heavy Scale	TYPE:Armor.AquaticHeavy.Suit.Standard.Nonmetal.Aquatic	COST:2000	WT:25	ACCHECK:-5	EQMOD:FSHSCALE	MAXDEX:2	SOURCEPAGE:Ssh	SPELLFAILURE:40	BONUS:COMBAT|AC|7|TYPE=Armor.REPLACE											
+																											
+# Shield																											
+																											
+# Ammunition																											
+																											
+###Block:Specific Weapons																											
+###TODO: it's better to copy the original and modify the copy or not?																											
+# Ammunition Specific																											
+																											
+# Melee Specific Weapons																											
+Staff of the Kuo Toa	OUTPUTNAME:Staff of the Kuo-Toa	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Enhancement.Weapon.Exotic.Melee.Specific.Slashing.TwoHanded.Double.Reach.Quarterstaff	COST:2240	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.MWORKW	ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.MWORKW	SOURCEPAGE:Ssh			REACHMULT:2			MODS:NO	SPROP:keen vision, +4 competence bonus on Spot and Search		BONUS:SKILL|Spot,Search|4|TYPE=Competence
+Trident of the Sea		PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Martial.Ranged.Thrown.Specific.Piercing.Trident	COST:18000	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W.RETRN.EQ_COST_ADJ|9300						SOURCEPAGE:Ssh	RANGE:20						SPROP:+2 enhancement bonus vs. unintelligent aquatic creatures.		
+																											
+# Ranged Specific Weapons																											
+Crossbow of the Sea God		PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Container.Projectile.Crossbow	COST:18335	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD.MWORKW.PLUS3W.EQ_COST_ADJ|18300						SOURCEPAGE:Ssh	RANGE:80					MODS:NO	SPROP:can fire bolts underwater without penalties.		CONTAINS:1|Bolt=1
+																											
+###Block:Weapons Named but not defined																											
+																											
+# Monster Specific Armors&Shields																											
+																											
+# Armor Specific																											
+Sharkskin		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal.Aquatic	COST:10	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS3A.EQ_COST_ADJ|18330	MAXDEX:6	SOURCEPAGE:Ssh	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	BONUS:SKILL|Swim|10|TYPE=Enhancement	BONUS:COMBAT|DAMAGE.Piercing|2	MOVECLONE:Walk,Swim,*1													
+																											
+# Shield Specific																											
+																											
+###Block:Artifact																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+#																											

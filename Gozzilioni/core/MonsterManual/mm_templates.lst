@@ -7,3 +7,5 @@ Yuan-Ti Halfblood ~ 2 Arms	VISIBLE:NO	HANDS:2
 Yuan-Ti Halfblood ~ 2 Snakes	VISIBLE:NO	HANDS:0
 Yuan-Ti Halfblood ~ 2 Legs	VISIBLE:NO	LEGS:2
 Yuan-Ti Halfblood ~ 1 Tail	VISIBLE:NO	LEGS:0
+
+Shore	KEY:Shore Merfolk	VISIBLE:NO	SUBRACE:Shore	FAVOREDCLASS:Bard	AUTO:LANG|Common|Aquan

@@ -1,0 +1,16 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+#
+Fighting Defensively				VISIBLE:NO	SOURCEPAGE:CombatI	TEMPDESC:You are fighting defensively when attacking	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1*FightingDefensivelyPenalty	TEMPBONUS:ANYPC|VAR|TwoWeaponShield|1|TYPE=Temporary	TEMPBONUS:ANYPC|VAR|FightingDefensivelyAC|2+FightingDefensivelyACBonus|TYPE=Temp1	TEMPBONUS:ANYPC|VAR|FightingDefensivelyACBonus|1|TYPE=Temp2|PRESKILL:1,Tumble=5
+#
+###Block: Creature
+# Template Name	Visible	Source Page	Special Ability		
+Mirefolk	KEY:Mirefolk Merfolk	VISIBLE:NO	SUBRACE:Mirefolk	FAVOREDCLASS:Bard	AUTO:LANG|Common|Aquan
+Shelf	KEY:Shelf Merfolk	VISIBLE:NO	SUBRACE:Shelf	FAVOREDCLASS:Fighter	AUTO:LANG|Common|Aquan
+Deep	KEY:Deep Merfolk	VISIBLE:NO	SUBRACE:Deep	FAVOREDCLASS:Barbarian	AUTO:LANG|Common|Aquan
+
+Coral	KEY:Coral Elf	VISIBLE:NO	SUBRACE:Coral	FAVOREDCLASS:Wizard	CSKILL:Swim
+Kelp	KEY:Kelp Elf	VISIBLE:NO	SUBRACE:Kelp	FAVOREDCLASS:Wizard	CSKILL:Swim
+Deep Drow	KEY:Deep Drow Elf	VISIBLE:NO	SUBRACE:Deep Drow	FAVOREDCLASS:Wizard	CSKILL:Swim
+
+###Block: Template
+Aquatic Creature	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead	RACESUBTYPE:Aquatic	MOVECLONE:Walk,Swim,*1	ABILITY:Special Ability|AUTOMATIC|Aquatic Creature ~ Skills

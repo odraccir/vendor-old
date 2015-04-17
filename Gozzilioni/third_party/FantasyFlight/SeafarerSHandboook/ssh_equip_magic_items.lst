@@ -1,0 +1,35 @@
+SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-03										
+													
+# Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property
+###Block: Wondrous Items													
+Amulet of Protection against Aquatic Creatures		TYPE:Magic.Wondrous.Amulet	COST:36000	WT:0		SOURCEPAGE:Ssh				SPROP:+4 enhancement bonus to Ac  and Saving Throws that result from an attack against the wearer by aqatic beings.			
+Amulet of Storm Dispersal		TYPE:Magic.Wondrous.Amulet	COST:8100	WT:0		SOURCEPAGE:Ssh				SPROP:1/day, can disperse a 5 mile radius any storm or inclement weather for 1d4+1 hours			
+Amulet of Untarnished Steel		TYPE:Magic.Wondrous.Amulet	COST:30000	WT:0		SOURCEPAGE:Ssh	ABILITY:Special Ability|AUTOMATIC|Immunity to Rust						
+Boots of Water Walking		TYPE:Magic.Wondrous.Boot	COST:12000	WT:1	SLOTS:2	SOURCEPAGE:Ssh							
+Coracle of Xaren		TYPE:Magic.Wondrous.Transportation.Ships.Container	COST:100000	WT:2000		SOURCEPAGE:Ssh		CONTAINS:*700|Any=UNLIM	SIZE:L				
+Daoud's Marvelous Maritime Map		TYPE:Magic.Wondrous	COST:81000	WT:150		SOURCEPAGE:Ssh							
+Figurehead of Protection		TYPE:Magic.Wondrous	COST:27000	WT:300		SOURCEPAGE:Ssh							
+Helmet of the Crab		TYPE:Magic.Wondrous.Headgear	COST:5800	WT:3		SOURCEPAGE:Ssh				SPROP:Wearer cannot be suprised	BONUS:COMBAT|AC|1|TYPE=Enhancement		
+Lacedon Cloak		TYPE:Magic.Wondrous.Cape	COST:4750	WT:1		SOURCEPAGE:Ssh				BONUS:COMBAT|AC|2|TYPE=Enhancement		SPELLS:Lacedon Cloak|TIMES=6|CASTERLEVEL=7|Ghoul Touch,15	
+Master Wheel		TYPE:Magic.Wondrous	COST:72000	WT:75		SOURCEPAGE:Ssh				SPROP:doubles the speed of the vessel.			
+													
+###Block: Potion													
+Potion (Water Breathing)	OUTPUTNAME:Potion of [NAME]	TYPE:Magic.Potion	COST:750	WT:0	SOURCEPAGE:Ssh	SPROP:the potion grants water breathing as if cast by a 5th level caster.							
+													
+###Block: Elixir													
+													
+###Block: Rings													
+Ring of Aquatic Survival		TYPE:Magic.Ring	COST:130000	WT:0	SOURCEPAGE:Ssh								
+Ring of Wind Protection		TYPE:Magic.Ring	COST:2000	WT:0	SOURCEPAGE:Ssh								
+													
+###Block: Rods													
+Rod of the Waves		TYPE:Magic.Rod	COST:40000	WT:0	SOURCEPAGE:Ssh	SPROP:Create Food and Water (at will), Water Breating (at will), Summon Monster VII (Huge water elementals, 10 charges), Tidal Wave (10 charges), Waterways (5 charges)	BASEITEM:Rod	EQMOD:CHARGED_ITEM_50|CHARGES[50]					
+													
+###Block: Staff													
+													
+###Block: Wondrous Items													
+													
+###Block: Cursed													
+													
+###Block: Artifact													
+Ship of the Gods		TYPE:Magic.Artifact.Minor.Transportation.Ships.Container	COST:0	WT:0	SOURCEPAGE:Ssh	CONTAINS:448000							

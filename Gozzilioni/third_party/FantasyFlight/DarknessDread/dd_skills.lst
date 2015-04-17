@@ -1,9 +1,15 @@
 SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 
 # Skill Name		Key Stat	Untrained?		Type									Source Page
-Craft (Beggar)	KEYSTAT:INT	USEUNTRAINED:NO		TYPE:Intelligence.Craft.Accessory.Craft (Beggar)					SOURCEPAGE:DD				
-Perform (Beggar)	KEYSTAT:CHA	USEUNTRAINED:NO		TYPE:Charisma.Perform.Accessory.Perform (Beggar)					SOURCEPAGE:DD				
+Craft (Beggar)	KEYSTAT:INT	USEUNTRAINED:NO	VISIBLE:DISPLAY	TYPE:Intelligence.Craft.Accessory.Craft (Beggar)					SOURCEPAGE:DD				
+Perform (Beggar)	KEYSTAT:CHA	USEUNTRAINED:NO	VISIBLE:DISPLAY	TYPE:Charisma.Perform.Accessory.Perform (Beggar)					SOURCEPAGE:DD				
 Profession (Beggar)	KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession.Accessory.Profession (Beggar)					SOURCEPAGE:DD
 Profession (Gambler)	KEYSTAT:WIS	USEUNTRAINED:NO		TYPE:Wisdom.Profession.Accessory.Profession (Gambler)					SOURCEPAGE:DD
+
+Craft (Beggar)	KEY:Craft ~ Beggar	KEYSTAT:INT	USEUNTRAINED:YES	VISIBLE:EXPORT	TYPE:SkillDisplay	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Beggar).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Beggar)"),1]	SOURCEPAGE:DD
+Perform (Beggar)	KEY:Perform ~ Beggar	KEYSTAT:CHA	USEUNTRAINED:YES	CLASSES:ALL	TYPE:SkillDisplay	VISIBLE:EXPORT	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Beggar).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Beggar)"),1]	SOURCEPAGE:DD
+
+Craft (Untrained).MOD	BONUS:SKILL|Craft ~ Beggar|var("SKILL.Craft (Beggar).MISC")	BONUS:SKILLRANK|Craft ~ Beggar|skillinfo("TOTALRANK", "Craft (Beggar)")
+Perform (Untrained).MOD	BONUS:SKILL|Perform ~ Beggar|var("SKILL.Perform (Beggar).MISC")	BONUS:SKILLRANK|Perform ~ Beggar|skillinfo("TOTALRANK", "Perform (Beggar)")
 
 # Knowledge (General)	KEY:Knowledge ~ General	KEYSTAT:INT	TYPE:SkillDisplay	USEUNTRAINED:YES	VISIBLE:EXPORT	CLASSES:ALL				SOURCEPAGE:DD
