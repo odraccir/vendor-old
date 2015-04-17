@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 
 # Skill Name		Key Stat	Untrained?		Type									Source Page
 Craft (Underwater Alchemy)	KEYSTAT:INT	USEUNTRAINED:NO	VISIBLE:DISPLAY	TYPE:Intelligence.Craft.Accessory.Craft (Underwater Alchemy)					SOURCEPAGE:Ssh

@@ -1,4 +1,4 @@
-SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net							
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 									
 ###Block: Equipment									
 Quiver (Aquatic)	OUTPUTNAME:Aquatic Quiver	TYPE:Goods.Container.Aquatic	COST:5	WT:1	SOURCEPAGE:Ssh	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20			

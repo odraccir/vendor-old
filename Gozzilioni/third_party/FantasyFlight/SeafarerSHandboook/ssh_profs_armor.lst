@@ -1,6 +1,6 @@
-SOURCELONG:Seafarer's Handbook	SOURCESHORT:Ssh	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 		
-# Armor Name		
+# Armor Name	Type
 Soft Kelp	TYPE:AquaticLight.ArmorProfAquaticLight
 Stiffened Kelp	TYPE:AquaticLight.ArmorProfAquaticLight
 Light Scale	TYPE:AquaticLight.ArmorProfAquaticLight
