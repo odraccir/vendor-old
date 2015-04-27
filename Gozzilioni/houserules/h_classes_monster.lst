@@ -47,6 +47,9 @@ CLASS:Elemental (Mindless).MOD	PRETEMPLATE:1,Mindless
 #
 
 # Class Name	Define		Modify VAR
+CLASS:Fey.MOD	DEFINE:FeyLVL|0	BONUS:VAR|FeyLVL|CL
+
+# Class Name	Define		Modify VAR
 CLASS:Plant.MOD	DEFINE:PlantLVL|0	BONUS:VAR|PlantLVL|CL
 
 # Class Name			Required Template

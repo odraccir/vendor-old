@@ -1,0 +1,42 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+																											
+###Block:Weapons																											
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus	
+# Natural																											
+																											
+# Melee 																											
+Harpoon (Light)	OUTPUTNAME:Harpoon, [NAME]	PROFICIENCY:WEAPON|Harpoon (Light)	TYPE:Weapon.Exotic.Melee.Ranged.Standard.Piercing.OneHanded.Thrown.Harpoon	COST:10	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SoB	RANGE:30							
+Boathook		PROFICIENCY:WEAPON|Boathook	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded	COST:6	WT:5	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	ALTTYPE:Weapon.Exotic.Melee.Piercing	ALTDAMAGE:1d4	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL	SOURCEPAGE:SoB								
+Gaff Hook		PROFICIENCY:WEAPON|Gaff Hook	TYPE:Weapon.Exotic.Melee.Standard.Piercing.OneHanded	COST:4	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:SoB								
+
+# Ranged																											
+Aquatic Crossbow	OUTPUTNAME:Aquatic Crossbow	PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Weapon.Simple.Ranged.Standard.Piercing.TwoHanded.Container.Projectile.Crossbow.Aquatic	CONTAINS:1|Bolt=1	COST:175	WT:7		CRITRANGE:2	CRITMULT:x2	DAMAGE:1d8		RANGE:30		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:SoB	EQMOD:WOOD										
+																											
+# Armor 																											
+#Light Armor																											
+#Medium Armor																											
+#Heavy Armor																											
+																											
+# Shield																											
+																											
+# Ammunition																											
+																											
+###Block:Specific Weapons																											
+###TODO: it's better to copy the original and modify the copy or not?																											
+# Ammunition Specific																											
+																											
+# Melee Specific Weapons																											
+																											
+# Ranged Specific Weapons																											
+																											
+###Block:Weapons Named but not defined																											
+																											
+# Monster Specific Armors&Shields																											
+																											
+# Armor Specific																											
+																											
+# Shield Specific																											
+																											
+###Block:Artifact																											
+																											
+#																											

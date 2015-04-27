@@ -1,0 +1,10 @@
+#Abilitygroup:Class Alternate Ability categories																						
+ABILITYCATEGORY:Sea Druid	CATEGORY:ACF	TYPE:SeaDruid	VISIBLE:QUALIFY	EDITABLE:NO	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Sea Druid Alternate Class Features			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Sailor Class Feature	CATEGORY:Special Ability	TYPE:SailorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sailor Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Buccaneer Class Feature	CATEGORY:Special Ability	TYPE:BuccaneerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Buccaneer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Reaver Class Feature	CATEGORY:Special Ability	TYPE:ReaverClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Reaver Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Navigator Wizard Class Feature	CATEGORY:Special Ability	TYPE:NavigatorWizardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Navigator Wizard Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Reaver Bonus Feat	CATEGORY:Special Ability	TYPE:Reaver	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Reaver Feats			DISPLAYLOCATION:Class Features

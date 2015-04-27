@@ -1,0 +1,29 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+
+# Modifier Name	Unique Key		Naming Option	Type														Cost		Visible		Type granted	Source Page							Prohibited Type							Apply to both heads
+###Block: Base Materials
+
+###BLOCK: Ships
+Ships ~ Customize.MOD	SPROP:Choose Ship Type.!PRETYPE:1,ShipType	SPROP:Choose Ship SubType.!PRETYPE:1,ShipSubType	BONUS:VAR|ShipStructuralDice|ShipHP/10	BONUS:VAR|ShipStructuralPoints|ShipStructuralDice*(ShipStructuralDiceSize/2)
+Auxiliary	KEY:Ships ~ Type ~ Auxiliary	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Type ~ Coastal,Ships ~ Type ~ Merchantman,Ships ~ Type ~ Warship	SOURCEPAGE:SoB	ITYPE:ShipType.ShipTypeAuxiliary			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Auxiliary	BONUS:VAR|ShipStructuralDiceSize|4|TYPE=Base
+Coastal	KEY:Ships ~ Type ~ Coastal	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Type ~ Auxiliary,Ships ~ Type ~ Merchantman,Ships ~ Type ~ Warship	SOURCEPAGE:SoB	ITYPE:ShipType.ShipTypeCoastal			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Coastal	BONUS:VAR|ShipStructuralDiceSize|6|TYPE=Base
+Merchantman	KEY:Ships ~ Type ~ Merchantman	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Type ~ Coastal,Ships ~ Type ~ Coastal,Ships ~ Type ~ Warship	SOURCEPAGE:SoB	ITYPE:ShipType.ShipTypeMerchantman			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Merchantman	BONUS:VAR|ShipStructuralDiceSize|8|TYPE=Base
+Warship	KEY:Ships ~ Type ~ Warship	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Type ~ Coastal,Ships ~ Type ~ Merchantman,Ships ~ Type ~ Merchantman	SOURCEPAGE:SoB	ITYPE:ShipType.ShipTypeWarship			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Warship	BONUS:VAR|ShipStructuralDiceSize|10|TYPE=Base
+
+Cumbersome	KEY:Ships ~ SubType ~ Cumbersome	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ SubType ~ Light,Ships ~ SubType ~ Oared,Ships ~ SubType ~ Sailed,Ships ~ SubType ~ Submersible	SOURCEPAGE:SoB	ITYPE:ShipSubType.ShipSubTypeCumbersome			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Cumbersome
+Light	KEY:Ships ~ SubType ~ Light	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ SubType ~ Cumbersome,Ships ~ SubType ~ Oared,Ships ~ SubType ~ Sailed,Ships ~ SubType ~ Submersible	SOURCEPAGE:SoB	ITYPE:ShipSubType.ShipSubTypeLight			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Light
+Oared	KEY:Ships ~ SubType ~ Oared	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ SubType ~ Cumbersome,Ships ~ SubType ~ Light,Ships ~ SubType ~ Sailed,Ships ~ SubType ~ Submersible	SOURCEPAGE:SoB	ITYPE:ShipSubType.ShipSubTypeOared			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Oared
+Sailed	KEY:Ships ~ SubType ~ Sailed	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ SubType ~ Cumbersome,Ships ~ SubType ~ Light,Ships ~ SubType ~ Oared,Ships ~ SubType ~ Submersible	SOURCEPAGE:SoB	ITYPE:ShipSubType.ShipSubTypeSailed			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Sailed
+Submersible	KEY:Ships ~ SubType ~ Submersible	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ SubType ~ Cumbersome,Ships ~ SubType ~ Light,Ships ~ SubType ~ Oared,Ships ~ SubType ~ Sailed	SOURCEPAGE:SoB	ITYPE:ShipSubType.ShipSubTypeSubmersible.Submarine			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Submersible
+
+Woodden Ram	KEY:Ships ~ Weapon ~ Woodden Ram	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Weapon ~ Metal Shod Ram,Ships ~ Weapon ~ Adamantine Ram	SOURCEPAGE:SoB	ITYPE:ShipWeapon.ShipWeaponRam			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Woodden Ram	BONUS:ITEMCOST|TYPE=Ships|750*ShipStructuralDice|
+Metal Shod Ram	KEY:Ships ~ Weapon ~ Metal Shod Ram	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Weapon ~ Woodden Ram,Ships ~ Weapon ~ Adamantine Ram	SOURCEPAGE:SoB	ITYPE:ShipWeapon.ShipWeaponRam			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Metal Shod Ram	BONUS:ITEMCOST|TYPE=Ships|1250*ShipStructuralDice|
+Adamantine Ram	KEY:Ships ~ Weapon ~ Adamantine Ram	TYPE:Ships		COST:0	VISIBLE:QUALIFY	REPLACES:Ships ~ Weapon ~ Woodden Ram,Ships ~ Weapon ~ Metal Shod Ram	SOURCEPAGE:SoB	ITYPE:ShipWeapon.ShipWeaponRam			PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Adamantine Ram	BONUS:ITEMCOST|TYPE=Ships|3000*ShipStructuralDice|
+
+Cursed Ship	KEY:Ships ~ Template ~ Cursed Ship	TYPE:Ships		COST:0	VISIBLE:QUALIFY		SOURCEPAGE:SoB				PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Cursed (Maneuverability -1, Aura of Unease, Crew Slayer)							
+Death Hulk	KEY:Ships ~ Template ~ Death Hulk	TYPE:Ships		COST:0	VISIBLE:QUALIFY		SOURCEPAGE:SoB				PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Death Hulk (Maneuverability -2, Hardness -1, Fear Aura, Immunities, SR 12)	BONUS:VAR|ShipHardness|-1
+Ghost Ship	KEY:Ships ~ Template ~ Ghost Ship	TYPE:Ships		COST:0	VISIBLE:QUALIFY		SOURCEPAGE:SoB				PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Ghost Ship (Incorporeal, Calm Weather, Energy Drain, Immunities, SE 15, Unnatural Aura)	BONUS:VAR|ShipHardness|-1
+Skyship	KEY:Ships ~ Template ~ Skyship	TYPE:Ships		COST:0	VISIBLE:QUALIFY		SOURCEPAGE:SoB				PRETYPE:1,Ships			ASSIGNTOALL:YES	SPROP:Skyship (Maneuverability +2, Fly)	DEFINE:ShipFlySpeed|0	BONUS:VAR|ShipFlySpeed|ShipSpeed
+
+###BLOCK: Armor
+Tarred Armor				KEY:TAR_A		TYPE:Armor					COST:25	VISIBLE:QUALIFY									SOURCEPAGE:SoB		PRETYPE:3,Enhancement,Armor,Light	SPROP:Tar layer increase AC.	ASSIGNTOALL:NO	BONUS:COMBAT|AC|1|TYPE=Armor.REPLACE

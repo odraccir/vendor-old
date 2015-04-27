@@ -1,0 +1,10 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+
+# Skill Name		Key Stat	Untrained?		Type									Source Page
+Craft (Soul Cage)	KEYSTAT:INT	USEUNTRAINED:NO		VISIBLE:DISPLAY	TYPE:Intelligence.Craft.Accessory.Craft (Soul Cage)					SOURCEPAGE:SoB	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used.	TEMPBONUS:PC|SKILL|Craft (Soul Cage)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=SoulCageTools
+Knowledge (Seamanship)	KEYSTAT:INT	USEUNTRAINED:YES	VISIBLE:YES	TYPE:Intelligence.Knowledge.Accessory.Knowledge (Seamanship)					SOURCEPAGE:SoB
+Profession (Merchant)	KEYSTAT:WIS	USEUNTRAINED:NO	EXCLUSIVE:YES	VISIBLE:YES	TYPE:Wisdom.Profession.Accessory.Profession (Merchant)					SOURCEPAGE:SoB	BONUS:SKILL|Profession (Merchant)|SynergyBonus|PRESKILL:1,Bluff=5|TYPE=Synergy.STACK	BONUS:SKILL|Profession (Merchant)|SynergyBonus|PRESKILL:1,Sense Motive=5|TYPE=Synergy.STACK
+Profession (Navigator)	KEYSTAT:WIS	USEUNTRAINED:NO		VISIBLE:YES	TYPE:Wisdom.Profession.Accessory.Profession (Navigator)					SOURCEPAGE:SoB
+
+Craft (Soul Cage)	KEY:Craft ~ Soul Cage	KEYSTAT:INT	USEUNTRAINED:YES	VISIBLE:EXPORT	TYPE:SkillDisplay	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Soul Cage).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Soul Cage)"),1]	SOURCEPAGE:SoB
+Craft (Untrained).MOD	BONUS:SKILL|Craft ~ Soul Cage|var("SKILL.Craft (Soul Cage).MISC")	BONUS:SKILLRANK|Craft ~ Soul Cage|skillinfo("TOTALRANK", "Craft (Soul Cage)")

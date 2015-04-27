@@ -1,0 +1,37 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+									
+###Block: Goods									
+Boarding Ramp		TYPE:Goods	COST:250	WT:100	SOURCEPAGE:SoB
+Mechanical Log (Gnomish)	OUTPUTNAME:Mechanical Log, [NAME]	TYPE:Goods.General	COST:750	WT:12	SOURCEPAGE:SoB	BONUS:SKILL|Knowledge (Seamanship)|2|TYPE=Circumstance	BONUS:SKILL|Profession (Navigator)|2|TYPE=Competence
+Navigator's Toolkit	TYPE:Goods.Tools	COST:250	WT:8	SOURCEPAGE:SoB	BONUS:SKILL|Knowledge (Seamanship)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	BONUS:SKILL|Profession (Navigator)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Navigator's Toolkit (Masterwork)	TYPE:Goods.Tools.Masterwork	COST:1500	WT:8	SOURCEPAGE:SoB	BONUS:SKILL|Knowledge (Seamanship)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	BONUS:SKILL|Profession (Navigator)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+Sea Chest	TYPE:Chest.Container.General	COST:25	WT:30	SOURCEPAGE:SoB	CONTAINS:UNLIM|Any
+Watertight Case (Map or Scroll)		TYPE:Goods.Container.General				CONTAINS:UNLIM|Total=10|Paper=10|Documents=10|Scroll=10	COST:5	WT:0.5	SOURCEPAGE:SoB
+###Block: Equipment									
+									
+###Block: Poison									
+
+###Block: Golem
+
+###Block: Services
+Hireling (Pressganged Crewman/Commoner 1°)		TYPE:Service	SPROP:1 gp/Monthly		COST:1	SOURCEPAGE:SoB
+Hireling (Green Crewman/Commoner 1°)		TYPE:Service	SPROP:2 gp/Monthly		COST:2	SOURCEPAGE:SoB
+Hireling (Seaman/Sailor 1°)		TYPE:Service	SPROP:3 gp/Monthly		COST:3	SOURCEPAGE:SoB
+Hireling (Ruffian/Rogue 1°)		TYPE:Service	SPROP:3 gp/Monthly		COST:3	SOURCEPAGE:SoB
+Hireling (Hardy Seaman/Warrior 1°)		TYPE:Service	SPROP:4 gp/Monthly		COST:4	SOURCEPAGE:SoB
+Hireling (Fighting Seaman/Fighter 1°)		TYPE:Service	SPROP:7 gp/Monthly		COST:7	SOURCEPAGE:SoB
+Hireling (Able Seaman/Fighter 2°)		TYPE:Service	SPROP:10 gp/Monthly		COST:10	SOURCEPAGE:SoB
+Hireling (Veteran Seadog/Sailor 3°)		TYPE:Service	SPROP:15 gp/Monthly		COST:15	SOURCEPAGE:SoB
+Mercenary (Archer/Warrior 1°)		TYPE:Service	SPROP:4 gp/Monthly		COST:4	SOURCEPAGE:SoB
+Mercenary (Light Infantry/Warrior 1°)		TYPE:Service	SPROP:4 gp/Monthly		COST:4	SOURCEPAGE:SoB
+Mercenary (Heavy Infantry/Warrior 1°)		TYPE:Service	SPROP:6 gp/Monthly		COST:6	SOURCEPAGE:SoB
+Mercenary (Shock Troop/Fighter 1°)		TYPE:Service	SPROP:8 gp/Monthly		COST:8	SOURCEPAGE:SoB
+Mercenary (Berserker/Barbarian 1°)		TYPE:Service	SPROP:12 gp/Monthly		COST:8	SOURCEPAGE:SoB
+
+###Block: Siege Engines
+Catapult (Medium)	TYPE:Goods.SiegeEngine	COST:675	SOURCEPAGE:SoB	SPROP:150' Range, 4d6 damage (2d6 structural), 3 man crew
+Arrow Catapult	TYPE:Goods.SiegeEngine	COST:500	SOURCEPAGE:SoB	SPROP:100' Range, - damage (1d6 crew damage), 2 man crew
+Trebuchet	TYPE:Goods.SiegeEngine	COST:1400	SOURCEPAGE:SoB	SPROP:200' Range, 6d6 damage (4d6 structural), 6 man crew
+Fire Projector	TYPE:Goods.SiegeEngine	COST:3600	SOURCEPAGE:SoB	SPROP:30' Range, 4d6 damage (1d6 structural), 4 man crew
+Ship Screw	TYPE:Goods.SiegeEngine	COST:300	SOURCEPAGE:SoB	SPROP:0' Range, - damage (1d6 structural, crit x2), 4 man crew
+#Ram -> see EQMOD

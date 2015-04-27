@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+#
+Bonus Languages	KEY:Sea Druid ~ Bonus Languages	VISIBLE:NO	LANGBONUS:Aquan	SOURCEPAGE:SoB
+#
+Talorani Male		VISIBLE:NO	SOURCEPAGE:SoB	PRERACE:1,Talorani	FAVOREDCLASS:Fighter	GENDERLOCK:Male
+Talorani Female		VISIBLE:NO	SOURCEPAGE:SoB	PRERACE:1,Talorani	FAVOREDCLASS:Druid	GENDERLOCK:Female

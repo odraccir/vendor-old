@@ -35,10 +35,12 @@ PCC:&/Gozzilioni/accessory/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
 #Third Party
 PCC:&/Gozzilioni/third_party/FantasyFlight/DarknessDread/_darknessdread.pcc
 PCC:&/Gozzilioni/third_party/FantasyFlight/SeafarerSHandboook/_seafarershandbook.pcc
+PCC:&/Gozzilioni/third_party/Mongoose/SeasOfBlood/_seasofblood.pcc
 #Web
 PCC:&/Gozzilioni/web/spelljammer/_spelljammer.pcc
 PCC:&/Gozzilioni/web/ruleofcool/_ruleofcool.pcc
 PCC:&/Gozzilioni/web/pathfinder/_pathfinder.pcc
+PCC:&/Gozzilioni/web/pathfinder/_pathfinder_unofficial.pcc
 PCC:&/Gozzilioni/web/WizardOfTheCoast/WebEnhancement/_WE_MoreHalfGolem.pcc
 #
 
