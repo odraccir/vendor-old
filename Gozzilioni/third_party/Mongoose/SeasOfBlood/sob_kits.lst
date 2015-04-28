@@ -1,0 +1,60 @@
+SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+# Monster Abilities																																																																
+#																																																																
+# Races																																																																
+STARTPACK:Fideal Stats	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fideal]																																																												
+RACE:Fideal	!PRERACE:1,%																																																															
+NAME:Fideal																																																																
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Fisherman Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Fisherman]																																																												
+RACE:Fisherman	!PRERACE:1,%																																																															
+NAME:Fisherman																																																																
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Giant (Sea) Stats	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Giant (Sea)]																																																												
+RACE:Giant (Sea)	!PRERACE:1,%																																																															
+NAME:Giant (Sea)																																																																
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Gnarled Eels Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gnarled Eels]																																																												
+RACE:Gnarled Eels	!PRERACE:1,%																																																															
+NAME:Gnarled Eels																																																																
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Grey Lady Stats	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grey Lady]																																																												
+RACE:Grey Lady	!PRERACE:1,%																																																															
+NAME:Grey Lady																																																																
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Jastra Root Stats	TYPE:DefaultMonster.Plant	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Jastra Root]																																																												
+RACE:Jastra Root	!PRERACE:1,%																																																															
+NAME:Jastra Root																																																																
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Ooze (Killer Wave) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ooze (Killer Wave)]																																																												
+RACE:Ooze (Killer Wave)	!PRERACE:1,%																																																															
+NAME:Ooze (Killer Wave)																																																																
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
+																																																																
+STARTPACK:Leviathan Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leviathan]																																																												
+RACE:Leviathan	!PRERACE:1,%																																																															
+NAME:Leviathan																																																																
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Sea Drake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sea Drake]																																																												
+RACE:Sea Drake	!PRERACE:1,%																																																															
+NAME:Sea Drake																																																																
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Talorani Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Talorani]																																																												
+RACE:Talorani	!PRERACE:1,%																																																															
+NAME:Talorani																																																																
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10																																																																
+																																																																
+STARTPACK:Undine Stats	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Undine]																																																												
+RACE:Undine	!PRERACE:1,%																																																															
+NAME:Undine																																																																
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=10																																																																

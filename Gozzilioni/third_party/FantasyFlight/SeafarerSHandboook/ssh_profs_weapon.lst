@@ -8,3 +8,4 @@ SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.g
 #	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
 #	RangedTouch	
 Crossbow (Light/Aquatic)	TYPE:Simple.Ranged.Piercing.RangedPiercing.TwoHanded.Crossbow.Aquatic
+Crossbow (Heavy/Aquatic)	TYPE:Simple.Ranged.Piercing.RangedPiercing.TwoHanded.Crossbow.Aquatic

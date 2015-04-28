@@ -484,8 +484,8 @@ if ( $cl_options{convert} ) {
     elsif ( $cl_options{convert} eq 'extratab' ) {
         $conversion_enable{'No extra Tab'} = 1;
     }
-    elsif ( $cl_options{convert} eq 'NoExtraTab' ) {
-        $conversion_enable{'No extra Tab'} = 1;
+    elsif ( $cl_options{convert} eq 'missingspellDC' ) {
+        $conversion_enable{'Missing spell DC'} = 1;
     }
     else {
         $error_message .= "\nUnknown convertion option: $cl_options{convert}\n";

@@ -8,7 +8,7 @@ SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.g
 																											
 # Ranged																											
 Crossbow (Light/Aquatic)	OUTPUTNAME:Aquatic Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Light/Aquatic)	TYPE:Weapon.Simple.Ranged.Standard.Piercing.TwoHanded.Container.Projectile.Crossbow.Aquatic	CONTAINS:1|Bolt=1	COST:45	WT:4		CRITRANGE:2	CRITMULT:x2	DAMAGE:1d8		RANGE:80		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Ssh	EQMOD:WOOD										
-Crossbow (Heavy/Aquatic)	OUTPUTNAME:Aquatic Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Light/Aquatic)	TYPE:Weapon.Simple.Ranged.Standard.Piercing.TwoHanded.Container.Projectile.Crossbow.Aquatic	CONTAINS:1|Bolt=1	COST:90	WT:6		CRITRANGE:2	CRITMULT:x2	DAMAGE:1d10		RANGE:120		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Ssh	EQMOD:WOOD										
+Crossbow (Heavy/Aquatic)	OUTPUTNAME:Aquatic Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Heavy/Aquatic)	TYPE:Weapon.Simple.Ranged.Standard.Piercing.TwoHanded.Container.Projectile.Crossbow.Aquatic	CONTAINS:1|Bolt=1	COST:90	WT:6		CRITRANGE:2	CRITMULT:x2	DAMAGE:1d10		RANGE:120		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:Ssh	EQMOD:WOOD										
 																											
 # Armor 																											
 #Light Armor																											
@@ -48,41 +48,5 @@ Sharkskin		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.
 # Shield Specific																											
 																											
 ###Block:Artifact																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
-																											
 																											
 #																											

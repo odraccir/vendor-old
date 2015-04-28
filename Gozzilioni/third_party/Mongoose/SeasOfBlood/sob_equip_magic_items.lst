@@ -1,0 +1,27 @@
+SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+													
+# Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property
+###Block: Wondrous Items													
+Figurehead of Bravery		TYPE:Magic.Wondrous	COST:8000		SOURCEPAGE:SoB				SPROP:+1 enhancement bonus to all Morale checks.
+Figurehead of Luck		TYPE:Magic.Wondrous	COST:5000		SOURCEPAGE:SoB				SPROP:+1 luck bonus to all Seamanship checks.
+Figurehead of Protection		TYPE:Magic.Wondrous	COST:10000		SOURCEPAGE:SoB				SPROP:+1 deflection bonus to AC of the ship and crew against ranged attack.
+Figurehead of Safe Passage		TYPE:Magic.Wondrous	COST:14000		SOURCEPAGE:SoB				SPROP:cause all waterbreathing creatures within 60' a Will save DC 12 or cannot attack the ship for one day.
+Spyglass of Farseeing		TYPE:Magic.Wondrous.Eyegear		SOURCEPAGE:SoB				SPROP:Anyone using the Spyglass of Farseeing will double the range of their visibility.
+Wyrdstone		TYPE:Magic.Wondrous.Consumable	COST:163800	WT:0	SOURCEPAGE:SoB				SPROP:When used, the ship gains the Skyship ship template (eqmod).
+###Block: Potion													
+													
+###Block: Elixir													
+													
+###Block: Rings													
+													
+###Block: Rods													
+													
+###Block: Staff													
+Staff of the Deep		TYPE:Magic.Staff	COST:90000	WT:5	SOURCEPAGE:SoB	SPROP:Farstroke (1 charge), Murk & Gloom (1 charge), Resist Pressure (1 charge), Seavision (1 charge), Waterbreathing (1 charge), Shellskin (2 charges, +6 natural AC), Water Crush (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+Staff of the Fleet		TYPE:Magic.Staff	COST:104800	WT:5	SOURCEPAGE:SoB	SPROP:Predict Weather (1 charge), Repair Ship (1 charge), Control Weather (1 charge), Delay Sinking (1 charge), Enchat Ram (2 charges, +2 enhancement bonus), Hold Ship (2 charges)	BASEITEM:Staff	EQMOD:CHARGED_ITEM_50|CHARGES[50]						
+
+###Block: Wondrous Items													
+													
+###Block: Cursed													
+													
+###Block: Artifact													

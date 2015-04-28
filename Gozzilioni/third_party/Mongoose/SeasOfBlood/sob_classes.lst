@@ -1,0 +1,64 @@
+SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+													
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Sailor	HD:8	TYPE:NPC.Base	ABB:Sai	MAXLEVEL:5	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:SailorLVL|0	BONUS:VAR|SailorLVL|CL
+CLASS:Sailor													
+CLASS:Sailor	STARTSKILLPTS:2	CSKILL:Balance|Climb|Jump|Knowledge (Seamanship)|Swim|Use Rope											
+1				ABILITY:Sailor Class Feature|AUTOMATIC|Sailor ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SailorProficiencies									
+													
+CLASS:Buccaneer	HD:8	TYPE:PC.Prestige	ABB:Buc	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:BuccaneerLVL|0	BONUS:VAR|BuccaneerLVL|CL
+CLASS:Buccaneer	PRETOTALAB:3	PRESTAT:1,CHA=13	PRESKILL:3,Balance=6,Swim=6,Tumble=6										
+CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Seamanship)|Move Silently|Sense Motive|Swim|Tumble|Use Rope											
+1				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerProficiencies									
+#													
+1				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Shipboard Climbing|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerShipboardClimbing									
+2				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Up Close and Personal|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerUpCloseAndPersonal									
+3				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Witty Repartee|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerWittyRepartee									
+4				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Superb Seaman|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerSuperbSeaman									
+5				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Swarm Rigging|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerSwarmRigging									
+6				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Superb Balance|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerSuperbBalance									
+7				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Rope Fighting|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerRopeFighting									
+9				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Sabotage|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerSabotage									
+10				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Acrobatic Defence|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerAcrobaticDefence									
+													
+CLASS:Reaver	HD:10	TYPE:PC.Prestige	ABB:Rea	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ReaverLVL|0	BONUS:VAR|ReaverLVL|CL
+CLASS:Reaver	PRETOTALAB:4	PRESKILL:1,Swim=6	PREABILITY:2,CATEGORY=FEAT,Power Attack,Two-Weapon Fighting										
+CLASS:Reaver	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Hide|Intimidate|Jump|Knowledge (Seamanship)|Swim|Use Rope											
+1				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverProficiencies									
+#													
+1				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Armor Expertise|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverArmorExpertise									
+2				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Inspire Crew|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverInspireCrew									
+3				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverBonusFeat									
+4				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Instill Fear|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverInstillFear									
+7				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Skilled Boarder|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverSkilledBoarder									
+													
+CLASS:Navigator Wizard	HD:4	TYPE:PC.Prestige	ABB:NaW	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:NavigatorWizardLVL|0	BONUS:VAR|NavigatorWizardLVL|CL
+CLASS:Navigator Wizard	PRESPELLSCHOOL:1,Divination=2	PRESKILL:1,Profession (Navigator)=6	PREABILITY:1,CATEGORY=FEAT,Spell Mastery										
+CLASS:Navigator Wizard	STARTSKILLPTS:4	CSKILL:Concentration|Decipher Script|Gather Information|TYPE=Knowledge|Profession (Navigator)|Spellcraft											
+1				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardProficiencies									
+1				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Spells per Day									
+#													
+1				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Infallible Direction|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardInfallibleDirection									
+2				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Fast Pursuit|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardFastPursuit									
+3				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Intuitive Seamanship|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardIntuitiveSeamanship									
+4				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Catch the Wind|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardCatchTheWind									
+5				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ True Voyage|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardTrueVoyage									
+7				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Weather Prediction|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardWeatherPrediction									
+8				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Ride the Wind|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardRideTheWind									
+10				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Control Winds|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardControlWinds									
+#													
+1	ADD:SPELLCASTER|ANY												
+2	ADD:SPELLCASTER|ANY												
+3	ADD:SPELLCASTER|ANY												
+4	ADD:SPELLCASTER|ANY												
+5	ADD:SPELLCASTER|ANY												
+6	ADD:SPELLCASTER|ANY												
+7	ADD:SPELLCASTER|ANY												
+8	ADD:SPELLCASTER|ANY												
+9	ADD:SPELLCASTER|ANY												
+10	ADD:SPELLCASTER|ANY												
