@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01																													
+SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 																																
 # Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 ###Block: Subraces																																
@@ -67,7 +67,7 @@ Limited Telepathy	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality
 Skills	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Talorani receive a +8 racial bonus to Swim checks.	KEY:Talorani ~ Skills									BONUS:SKILL|Swim|8|TYPE=Racial																		SOURCEPAGE:SoB
 																																
 Race Traits ~ Undine	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=UndineRaceTrait	AUTO:WEAPONPROF|Dagger																												
-Spell-Like Abilities	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Undine ~ Spell-Like Abilities																		SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=7|Fog Cloud,12+CHA|Water Breathing,13,CHA									SOURCEPAGE:SoB
+Spell-Like Abilities	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Undine ~ Spell-Like Abilities																		SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=7|Fog Cloud,12+CHA|Water Breathing,13+CHA									SOURCEPAGE:SoB
 Spellcasting	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Undine can replicate cleric spells as 7th-level casters. They cannot replicate spells dealing with fire.	KEY:Undine ~ Spellcasting																											SOURCEPAGE:SoB
 Control Water	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES		KEY:Undine ~ Control Water																		SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=8|Control Water,16+CHA									SOURCEPAGE:SoB
 Touch of the Sea	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:The touch of an Undine causes living subject to become creature of the sea unless it succeeds a Fort save (DC %1). An affected creature gains the amphibious extraordinary trait and can breathe water normally. An Amphibious creature can survive out of the water for 1 hour per 2 points of Constitution. After that, apply the rules of drowning.|TouchOfTheSeaDC	KEY:Undine ~ Touch of the Sea				DEFINE:TouchOfTheSeaDC|0					BONUS:VAR|TouchOfTheSeaDC|DefaultDCCon	BONUS:VAR|TouchOfTheSeaDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Touch of the Sea)								ABILITY:Ability Focus|AUTOMATIC|Touch of the Sea									SOURCEPAGE:SoB

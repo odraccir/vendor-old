@@ -17,20 +17,22 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 #Seas of Blood
 # ABILITY:sob_abilities.lst
 ABILITY:sob_abilities_class.lst
-# ABILITY:sob_abilities_races.lst
+ABILITY:sob_abilities_races.lst
 ABILITYCATEGORY:sob_abilitycategories.lst
 CLASS:sob_classes.lst
+CLASS:sob_classes_monsters_specific.lst
 # DOMAIN:sob_domains.lst
 EQUIPMENT:sob_equip.lst
-# EQUIPMENT:sob_equip_arms_and_armor.lst
-# EQUIPMENT:sob_equip_magic_items.lst
-# EQUIPMOD:sob_equipmods.lst
+EQUIPMENT:sob_equip_arms_and_armor.lst
+EQUIPMENT:sob_equip_magic_items.lst
+EQUIPMOD:sob_equipmods.lst
 ABILITY:sob_feats.lst
+KIT:sob_kits.lst
 # ARMORPROF:sob_profs_armor.lst
-# WEAPONPROF:sob_profs_weapon.lst
-# RACE:sob_races.lst
+WEAPONPROF:sob_profs_weapon.lst
+RACE:sob_races.lst
 SKILL:sob_skills.lst
-# SPELL:sob_spells.lst
+SPELL:sob_spells.lst
 TEMPLATE:sob_templates.lst
 
 HIDETYPE:SKILL|Knowledge (Seamanship)

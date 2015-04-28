@@ -1,8 +1,7 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
 
 # Laid out to match RSRD ordering		
 # Weapon Name	Type	Nb Hands
 Harpoon (Light)	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHanded.Thrown.Harpoon
 Boathook	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded
 Gaff Hook	TYPE:Exotic.Melee.Piercing.MeleePiercing.OneHanded
-
