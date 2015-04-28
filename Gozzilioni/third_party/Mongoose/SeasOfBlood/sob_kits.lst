@@ -39,9 +39,9 @@ RACE:Ooze (Killer Wave)	!PRERACE:1,%
 NAME:Ooze (Killer Wave)																																																																
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11																																																																
 																																																																
-STARTPACK:Leviatan Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leviatan]																																																												
-RACE:Leviatan	!PRERACE:1,%																																																															
-NAME:Leviatan																																																																
+STARTPACK:Leviathan Stats	TYPE:DefaultMonster.MagicalBeast	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Leviathan]																																																												
+RACE:Leviathan	!PRERACE:1,%																																																															
+NAME:Leviathan																																																																
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=10																																																																
 																																																																
 STARTPACK:Sea Drake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sea Drake]																																																												

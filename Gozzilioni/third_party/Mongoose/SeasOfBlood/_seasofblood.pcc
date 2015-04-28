@@ -35,9 +35,9 @@ SKILL:sob_skills.lst
 SPELL:sob_spells.lst
 TEMPLATE:sob_templates.lst
 
+HIDETYPE:SKILL|Craft (Soul Cage)
 HIDETYPE:SKILL|Knowledge (Seamanship)
-HIDETYPE:SKILL|Profession (Navigator)
-# HIDETYPE:SKILL|Craft (Underwater Alchemy)|Craft (Coral Sculpting)
+HIDETYPE:SKILL|Profession (Navigator)|Profession (Merchant)
 # HIDETYPE:SKILL|Survival (Underwater)
 
 

@@ -13,7 +13,7 @@ CLASS:Sailor	STARTSKILLPTS:2	CSKILL:Balance|Climb|Jump|Knowledge (Seamanship)|Sw
 													
 CLASS:Buccaneer	HD:8	TYPE:PC.Prestige	ABB:Buc	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:BuccaneerLVL|0	BONUS:VAR|BuccaneerLVL|CL
 CLASS:Buccaneer	PRETOTALAB:3	PRESTAT:1,CHA=13	PRESKILL:3,Balance=6,Swim=6,Tumble=6										
-CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Innuendo|Intimidate|Jump|Knowledge (Seamanship)|Move Silently|Sense Motive|Swim|Tumble|Use Rope											
+CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Seamanship)|Move Silently|Sense Motive|Swim|Tumble|Use Rope											
 1				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerProficiencies									
 #													
 1				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Shipboard Climbing|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerShipboardClimbing									
