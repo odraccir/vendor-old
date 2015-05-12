@@ -1,0 +1,27 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																										
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
+###Block:Weapons																										
+																										
+###Block:Materials																										
+Steel	KEY:STEEL	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:RSRD Equipment	PREMULT:1,[PRETYPE:1,EQMOD=STEEL],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden																
+Wood	KEY:WOOD	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Wooden		SOURCEPAGE:RSRD Equipment	PREMULT:1,[PRETYPE:1,EQMOD=WOOD],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Metal																
+Aurorum	KEY:AURORUM	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon	COST:4000	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=AURORUM],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:An aurorum weapon that has been sundered can be reformed by bringing together its fragments (a full-round action). The broken pieces bond quickly and seamlessly, restoring the item to its previous state.							
+Frystalline	KEY:FRYSTALLINE	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Weapon	COST:2000	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=FRYSTALLINE],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:good-aligned for the purpose of overcoming damage reduction. 15hp/inch and 10 hardness.							
+Serren	KEY:SERREN	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:Wooden		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=SERREN],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Metal	PRETYPE:1,Bow,Arrow,Bolt								SPROP:Serren bows, arrows, and bolts have the ghost touch special quality, although this property is not magical.	BONUS:ITEMCOST|TYPE=Ammunition|80	BONUS:ITEMCOST|TYPE=Weapon|4000					
+Solarian Truesteel	KEY:SOLARIAN	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Weapon	COST:1000	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=SOLARIAN],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:+1 bonus on the confirmation roll for a critical hit.							
+Ysgardian Heartwire	KEY:HEARTWIRE	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor	COST:1500	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=HEARTWIRE],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:+2 to AC solely for purposes of the roll to confirm a critical hit.							
+																										
+# Armor Material																										
+																										
+# Weapon Material																										
+																										
+###Block:Traps																										
+																										
+###Block:Armor Modification																										
+																										
+###Block:Weapons Modification																										
+																										
+###Block:Intelligent Items																										
+																										
+###Block:Cursed Quality																										

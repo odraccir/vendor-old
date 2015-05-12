@@ -1,4 +1,4 @@
 #Abilitygroup:Subrace categories																						
 ABILITYCATEGORY:Reef Warrior Class Feature	CATEGORY:Special Ability	TYPE:ReefWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Reef Warrior Class Features			DISPLAYLOCATION:Class Features
 
-ABILITYCATEGORY:Reef Warrior Bonus Feat	CATEGORY:Special Ability	TYPE:Fighter.ReefWarrior	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Reef Warrior Bonus Feats			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Reef Warrior Bonus Feat	CATEGORY:FEAT	TYPE:Fighter.ReefWarrior	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Reef Warrior Bonus Feats			DISPLAYLOCATION:Feats

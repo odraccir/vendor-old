@@ -1,0 +1,17 @@
+#Abilitygroup:Feat Ability categories																						
+ABILITYCATEGORY:Ability Score Enhancement	CATEGORY:Special Ability	TYPE:AbilityScoreEnhancement	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ability Score Enhancements			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Celestial Familiar Selection	CATEGORY:Internal	TYPE:CelestialFamiliarSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Familiar Choice			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Anointed Knight Class Feature	CATEGORY:Special Ability	TYPE:AnointedKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Apostole Of Peace Class Feature	CATEGORY:Special Ability	TYPE:ApostoleOfPeaceClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Apostole Of Peace Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Beloved of Valarian Class Feature	CATEGORY:Special Ability	TYPE:BelovedOfValarianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Beloved of Valarian Class Features			DISPLAYLOCATION:Class Features
+
+#Abilitygroup:Template Ability categories																						
+
+#Abilitygroup:Class Feature categories																						
+ABILITYCATEGORY:Anoint Self	CATEGORY:Special Ability	TYPE:AnointSelf	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Selves			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Anoint Ancestral Weapon	CATEGORY:Special Ability	TYPE:AnointAncestralWeapon	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Ancestral Weapons			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Anointed Knight Feat	CATEGORY:FEAT	TYPE:AnointedKnight	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Censure Fiends	CATEGORY:Special Ability	TYPE:CensureFiends	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Censure Fiends			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Call Unicorn Selection	CATEGORY:Internal	TYPE:CallUnicornSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Unicorn Selections			DISPLAYLOCATION:Class Features

@@ -1,0 +1,108 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																																														
+# Feat Name		Type	visible		Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	Description	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page				
+Ancestral Relic	CATEGORY:FEAT	TYPE:General	VISIBLE:YES									PRELEVEL:MIN=3			PREALIGN:LG,NG,CG										DESC:Create personal magic item.																	SOURCEPAGE:ExD				
+Animal Friend	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:1,CHA=15					PREABILITY:1,CATEGORY=Special Ability,Wild Empathy				DESC:+4 exalted bonus on wild empathy checks of animals and Good-Aligned Magical Beast.																	SOURCEPAGE:ExD	BONUS:VAR|WildEmpathyAnimalBonus|4|TYPE=Exalted			
+Celestial Familiar	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Internal,Familiar (Base)				DESC:Additional familiar choices.																	SOURCEPAGE:ExD	ABILITY:Internal|AUTOMATIC|Celestial Familiar (Base)	BONUS:VAR|CelestialFamiliarLVL|FamiliarLVL		
+Celestial Mount	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG								ABILITY:Special Ability|AUTOMATIC|Celestial Mount ~ Celestial		DESC:Mount gains celestial creature template.																	SOURCEPAGE:ExD	BONUS:VAR|CelestialMountLVL|1			
+Consecrate Spell	CATEGORY:FEAT	TYPE:Metamagic	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:Adds good descriptor to spell. Furthermore, if the spell deals damage, half that damage (rounded down) results from divine power and can't be reduced by resistance or immunity to energy-based attacks.																	SOURCEPAGE:ExD	ADDSPELLLEVEL:1			
+Consecrate Spell-Like Ability	CATEGORY:FEAT	TYPE:General	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:Adds good descriptor to spell-like ability. Furthermore, if the ability deals damage, half that damage (rounded down) results from divine power and can't be reduced by resistance or immunity to energy-based attacks.	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLBOOK=Innate														SOURCEPAGE:ExD				
+Consecrate Spell Trigger	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=Special Ability,Craft Wand,Craft Staff								PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead				DESC:Use turning ability to add good descriptor to trigger triggered spell.																	SOURCEPAGE:ExD				
+Exalted Companion	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Internal,Animal Companion (Base)				DESC:Additional animal companion choices.																	SOURCEPAGE:ExD	ABILITY:Internal|AUTOMATIC|Exalted Companion (Base)	BONUS:VAR|ExaltedCompanionLVL|AnimalCompanionLVL		
+Exalted Smite	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=SmiteEvil				DESC:Weapon good-aligned when smiting evil.																	SOURCEPAGE:ExD				
+Exalted Spell Resistance	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:1,CHA=15						PRESRGTEQ:1			DESC:+4 to spell resistance against evil spells and spell-like abilities of evil outsiders.																	SOURCEPAGE:ExD				
+Exalted Turning	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead				DESC:Extra 3d6 points of damage when turning.																	SOURCEPAGE:ExD	BONUS:VAR|TurnDiceUndead|3			
+Exalted Wild Shape	CATEGORY:FEAT	TYPE:Exalted.Wild	VISIBLE:YES												PREALIGN:LG,NG,CG					PRETEXT:Wild shaping class of at least level 8th.	PREABILITY:1,CATEGORY=Special Ability,Wild Shape	PREVARGTEQ:WildShapeProgression,2,DruidWildShapeLVL,8		DEFINE:ExaltedWildShape|0	DESC:Additional wild shape options.																	SOURCEPAGE:ExD	BONUS:VAR|ExaltedWildShape|1			
+Favored of the Companions	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG							PREVAREQ:HasCelestialAllegiance,0		DEFINE:HasCelestialAllegiance|0	DESC:+1 luck bonus on any one roll or check (once per day).																	SOURCEPAGE:ExD	BONUS:VAR|HasCelestialAllegiance|1			
+Fist of the Heavens	CATEGORY:FEAT	TYPE:Exalted.Fighter	VISIBLE:YES				PREABILITY:2,CATEGORY=FEAT,Sanctify Ki Strike,Stunning Fist								PREALIGN:LG,NG,CG	PRESTAT:1,WIS=15									DESC:+2 to Stunning Fist DC against evil creature (creature is staggered the following round it is stunned).																	SOURCEPAGE:ExD				
+Gift of Faith	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:1,WIS=13									DESC:+2 bonus on saving throws to resist fear and despair.																	SOURCEPAGE:ExD	ABILITY:Special Ability|AUTOMATIC|Resistance To Fear	BONUS:VAR|FearResistanceBonus|2		
+Gift of Grace	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=DivineGrace				DESC:Share CHA saving throw bonus.																	SOURCEPAGE:ExD				
+Hands of a Healer	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:1,CHA=13					PREABILITY:1,CATEGORY=Internal,Lay on Hands				DESC:+2 bonus to CHA for lay on hand ability.																	SOURCEPAGE:ExD	BONUS:VAR|LayOnHands|LayOnHandsLVL|TYPE=HandsOfAHealer			
+Holy Ki Strike	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:2,CATEGORY=FEAT,Improved Unarmed Strike,Sanctify Ki Strike								PREALIGN:LG,NG,CG	PRESTAT:1,CHA=15						PREVARGTEQ:KiStrikeSanctified,1		DEFINE:KiStrikeHoly|0	DESC:+2d6 bonus on damage rolls against evil creatures.																	SOURCEPAGE:ExD	BONUS:VAR|KiStrikeHoly|1			
+Holy Radiance	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Nimbus of Light								PREALIGN:LG,NG,CG	PRESTAT:1,CHA=15									DESC:Glow with light harmful to undead.																	SOURCEPAGE:ExD				
+Holy Subdual	CATEGORY:FEAT	TYPE:Exalted.Fighter	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Subduing Strike								PREALIGN:LG,NG,CG										DESC:Transform bonus and smite damage to nonlethal.																	SOURCEPAGE:ExD				
+Intuitive Attack	CATEGORY:FEAT	TYPE:Exalted.Fighter	VISIBLE:YES		PREATT:1										PREALIGN:LG,NG,CG										DESC:Use WIS modifier instead of STR modifier on attack rolls with simple and natural weapons.																	SOURCEPAGE:ExD		BONUS:COMBAT|TOHIT.Natural|(max(STR,WIS)-STR)|TYPE=IntuitiveAttack	BONUS:COMBAT|TOHIT.Simple|(max(STR,WIS)-STR)|TYPE=IntuitiveAttack	
+Knight of Stars	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG							PREVAREQ:HasCelestialAllegiance,0		DEFINE:HasCelestialAllegiance|0	DESC:+1 luck bonus on any one roll or check (once per day).																	SOURCEPAGE:ExD	BONUS:VAR|HasCelestialAllegiance|1			
+Nemesis	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,Basic Favored Enemy				DESC:Detect presence of favored enemies.	STACK:NO	MULT:YES	CHOOSE:ABILITY|Favored Enemy|TYPE=FavoredEnemy														SOURCEPAGE:ExD				
+Nimbus of Light	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:+2 bonus on Diplomacy and Sense motive checks with good creatures.																	SOURCEPAGE:ExD				
+Nonlethal Substitution	CATEGORY:FEAT	TYPE:Metamagic	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic						PRESKILL:1,Knowledge (Arcana)=5												DESC:Transform spell's energy damage to nonlethal.	STACK:NO	MULT:YES	CHOOSE:STRING|Acid|Cold|Electricity|Fire|Sonic														SOURCEPAGE:ExD		ADDSPELLLEVEL:0		
+Nymph's Kiss	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:+2 bonus on CHA-related checks, +1 bonus on saving throws against spells, 1 extra skill point per level.																	SOURCEPAGE:ExD		BONUS:SKILLPOINTS|NUMBER|1		
+Purify Spell	CATEGORY:FEAT	TYPE:Metamagic	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:Adds good descriptor to spell; neutral creatures take half damage, good creatures take no damage.																	SOURCEPAGE:ExD		ADDSPELLLEVEL:1		
+Purify Spell-Like Ability	CATEGORY:FEAT	TYPE:General	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:Adds good descriptor to spell-like ability; neuttral creature take half damage, good creature take no damage.	STACK:NO	MULT:YES	CHOOSE:ABILITY|Special Ability|TYPE=SpellLike														SOURCEPAGE:ExD				
+Purify Spell Trigger	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Craft Wand,Craft Staff								PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead				DESC:Use turning ability to add good descriptor to spell; neutral creature take half damage, good creatures take no damage.																	SOURCEPAGE:ExD				
+Quell the Profane	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES		PREATT:8		PREABILITY:2,CATEGORY=FEAT,Power Attack,Resounding Blow								PREALIGN:LG,NG,CG	PRESTAT:1,STR=13									DESC:Potential STR damage to evil creatures on critical hit.																	SOURCEPAGE:ExD				
+Ranged Smite Evil	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=SmiteEvil				DESC:Smite evil with ranged attacks.																	SOURCEPAGE:ExD				
+Resounding Blow	CATEGORY:FEAT	TYPE:General.Fighter	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Power Attack						PRESKILL:1,Intimidate=7			PRESTAT:1,STR=13									DESC:Potential cowering effect on critical hits.																	SOURCEPAGE:ExD				
+Righteous Wrath	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,TYPE=Rage				DESC:Potential shaken effect against evil creatures.																	SOURCEPAGE:ExD				
+Sacred Strike	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PREABILITY:1,CATEGORY=Special Ability,Sneak Attack				DESC:Sneak attacks deals d8 to against evil creatures.																	SOURCEPAGE:ExD				
+Sacred Vow	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG										DESC:+2 perfection bonus on Diplomacy checks.													BONUS:SKILL|Diplomacy|2|TYPE=Perfection				SOURCEPAGE:ExD				
+Sanctify Ki Strike	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike								PREALIGN:LG,NG,CG	PRESTAT:1,CHA=15						PREVARGTEQ:KiStrikeLawful,1		DEFINE:KiStrikeSanctified|0	DESC:+1 or +1d4 bonus on unarmed damage rolls against evil creature.																	SOURCEPAGE:ExD	BONUS:VAR|KiStrikeSanctified|1			
+Sanctify Martial Strike	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:1,CHA=15									DESC:+1 or +1d4 bonus on weapon damage rolls against evil creature.	STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|FEAT=Weapon Focus														SOURCEPAGE:ExD				
+Sanctify Natural Attack	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES		PREATT:5										PREALIGN:LG,NG,CG						PREWEAPONPROF:1,TYPE.Natural				DESC:+1 or +1d4 bonus on natural attack damage rolls against evil creature.																	SOURCEPAGE:ExD				
+Sanctify Weapon	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG						PRESPELL:1,Align Weapon				DESC:Aligned weapon become sanctified.																	SOURCEPAGE:ExD				
+Servant of the Heavens	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG							PREVAREQ:HasCelestialAllegiance,0		DEFINE:HasCelestialAllegiance|0	DESC:+1 luck bonus on any one roll or check (once per day).																	SOURCEPAGE:ExD	BONUS:VAR|HasCelestialAllegiance|1			
+Spell Focus	CATEGORY:FEAT	TYPE:General	VISIBLE:YES	KEY:Spell Focus (Good)											PREALIGN:LG,NG,CG										DESC:+2 to the DC for all saving throws against your spells with the Good descriptor.																	SOURCEPAGE:ExD	BONUS:DC|SCHOOL.Good|2|TYPE=SpellFocus			
+Stigmata	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Nimbus of Light								PREALIGN:LG,NG,CG										DESC:Heal others' wounds by taking CON damage.																	SOURCEPAGE:ExD				
+Subduing Strike	CATEGORY:FEAT	TYPE:General.Fighter	VISIBLE:YES																						DESC:No penalty when dealing nonlethal damage; rogue's sneak attack deals nonlethal damage.																	SOURCEPAGE:ExD				
+Touch of Golden Ice	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:1,CON=13									DESC:Evil creatures touched ravaged by golden ice.																	SOURCEPAGE:ExD				
+Vow of Abstinence	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Sacred Vow								PREALIGN:LG,NG,CG										DESC:+4 perfection bonus on Fort saves against poisons and drugs.																	SOURCEPAGE:ExD				
+Vow of Chastity	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Sacred Vow								PREALIGN:LG,NG,CG										DESC:+4 perfection bonus on Will saves against charm and phantasm.																	SOURCEPAGE:ExD				
+Vow of Nonviolence	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Sacred Vow								PREALIGN:LG,NG,CG										DESC:+4 bonus on save Dcs of non-damaging spells.																	SOURCEPAGE:ExD				
+Vow of Obedience	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Sacred Vow								PREALIGN:LG,NG,CG										DESC:+4 perfection bonus on Will saves against compulsions.																	SOURCEPAGE:ExD				
+Vow of Peace	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Nonviolence								PREALIGN:LG,NG,CG									DEFINE:VowOfPeaceBonus|0	DESC:Calming aura; +6 varied bonus to AC.													BONUS:SKILL|Diplomacy|4|TYPE=Exalted				SOURCEPAGE:ExD	BONUS:VAR|VowOfPeaceBonus|2	BONUS:COMBAT|CA|2|TYPE=NaturalArmor	BONUS:COMBAT|CA|2|TYPE=Deflection	BONUS:COMBAT|CA|2|TYPE=Exalted
+Vow of Poverty	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Sacred Vow								PREALIGN:LG,NG,CG										DESC:Bonuses to AC, ability scores and saves; bonus feats.																	SOURCEPAGE:ExD	ABILITY:Special Ability|AUTOMATIC|Ascetic Traits ~ Vow of Poverty			
+Vow of Purity	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Sacred Vow								PREALIGN:LG,NG,CG										DESC:+4 perfection bonus on Fort saves against disease and death effects.																	SOURCEPAGE:ExD				
+Words of Creation	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:YES												PREALIGN:LG,NG,CG	PRESTAT:2,CHA=15,INT=15					PRECHECKBASE:1,Will=5				DESC:Ability to use Words of Creation.																	SOURCEPAGE:ExD				
+#																																														
+CATEGORY=FEAT|Blind-Fight.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Cleave.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Endurance.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Exalted Smite.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Great Cleave.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Holy Subdual.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Improved Bull Rush.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Improved Disarm.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Improved Feint.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Improved Overrun.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Improved Sunder.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Improved Trip.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Mobility.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Power Attack.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Sanctify Martial Strike.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Sanctify Weapon.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Spring Attack.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Subduing Strike.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Whirlwind Attack.MOD		TYPE:AnointedKnight																																												
+CATEGORY=FEAT|Vow of Abstinence.MOD		TYPE:InitiateOfPistisSophia																																												
+CATEGORY=FEAT|Vow of Chastity.MOD		TYPE:InitiateOfPistisSophia																																												
+CATEGORY=FEAT|Vow of Nonviolence.MOD		TYPE:InitiateOfPistisSophia																																												
+CATEGORY=FEAT|Vow of Obedience.MOD		TYPE:InitiateOfPistisSophia																																												
+CATEGORY=FEAT|Vow of Poverty.MOD		TYPE:InitiateOfPistisSophia																																												
+CATEGORY=FEAT|Vow of Purity.MOD		TYPE:InitiateOfPistisSophia																																												
+CATEGORY=FEAT|Flyby Attack.MOD		TYPE:FlyingMount																																												
+CATEGORY=FEAT|Hover.MOD		TYPE:FlyingMount																																												
+CATEGORY=FEAT|Multiattack.MOD		TYPE:FlyingMount																																												
+CATEGORY=FEAT|Wingover.MOD		TYPE:FlyingMount																																												
+CATEGORY=FEAT|Blind-Fight.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Cleave.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Combat Reflexes.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Exalted Smite.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Gift of Faith.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Gift of Grace.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Great Cleave.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Great Fortitude.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Hands of a Healer.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Holy Radiance.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Improved Bull Rush.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Improved Overrun.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Improved Sunder.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Iron Will.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Lightning Reflexes.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Negotiator.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Nemesis.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Nimbus of Light.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Persuasive.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Power Attack.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Righteous Wrath.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Sanctify Weapon.MOD		TYPE:VassalBahamut																																												
+CATEGORY=FEAT|Weapon Focus.MOD		TYPE:VassalBahamut																																												

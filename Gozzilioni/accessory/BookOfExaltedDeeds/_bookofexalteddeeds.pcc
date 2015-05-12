@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Book of Exalted deeds
+CAMPAIGN:Gozzilioni Book of Exalted Deeds
 GAMEMODE:35e
 RANK:6
 TYPE:Gozzilioni.Partial.Accessory
 SETTING:Heroes
 SOURCELONG:Gozzilioni Book of Exalted Deeds
-SOURCESHORT:EXD
+SOURCESHORT:ExD
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2003-10
 ISOGL:NO
@@ -14,11 +14,28 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 INFOTEXT:mancano le armi itelligenti. mancano i png unici del Celestial Hebdomad, Five Companions, Court of the Star.
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
-#
-HIDETYPE:FEAT|CelestialAllegiance
 
 #Book of Exalted Deeds
+ABILITY:exd_abilities.lst
+ABILITY:exd_abilities_classes.lst
+ABILITYCATEGORY:exd_abilitycategories.lst
+CLASS:exd_classes.lst
 CLASS:exd_classes_monster.lst
+COMPANIONMOD:exd_companionmods.lst
+DEITY:exd_deities.lst
+EQUIPMENT:exd_equip.lst
+EQUIPMENT:exd_equip_arms_and_armor.lst
+EQUIPMENT:exd_equip_magic_items.lst
+EQUIPMOD:exd_equipmods.lst
+EQUIPMOD:exd_equipmods_enhancing.lst
+ABILITY:exd_feats.lst
+WEAPONPROF:exd_profs_weapon.lst
+RACE:exd_races_companion.lst
+SPELL:exd_spells.lst
+SPELL:exd_spells_epic.lst
+TEMPLATE:exd_templates_hidden.lst
+
+
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

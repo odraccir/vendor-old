@@ -1,0 +1,28 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+														
+# Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property	
+###Block: Magical Augmentations														
+														
+###Block: Wondrous Items														
+Bleeding Statue		TYPE:Magic.Wondrous.Relic	COST:55000			SOURCEPAGE:EXD		MODS:NO	SPROP:constantly radiate Hallow and Death Ward (13th casterlevel)	
+Rack of the Tortured Saint		TYPE:Magic.Wondrous.Relic	COST:180			SOURCEPAGE:EXD		MODS:NO	SPELLS:Rack of the Tortured Saint|TIMES=1|CASTERLEVEL=1|Guidance	
+Sacred Vessel		TYPE:Magic.Wondrous.Relic.Container	COST:2000			SOURCEPAGE:EXD		MODS:NO	SPROP:water becomes holy water	CONTAINS:*UNLIM|Any=1
+Saint's Burial Shroud		TYPE:Magic.Wondrous.Relic	COST:30000			SOURCEPAGE:EXD		MODS:NO	SPROP:heal all diseases good creature that touch it.	
+Saint's Fingerbone		TYPE:Magic.Wondrous.Relic	COST:2000			SOURCEPAGE:EXD		MODS:NO	BONUS:SAVES|Fortitude,Reflex,Will|2|TYPE=Resistance	
+Weeping Image		TYPE:Magic.Wondrous.Relic	COST:65000			SOURCEPAGE:EXD		MODS:NO		
+														
+###Block: Potion														
+														
+###Block: Elixir														
+														
+###Block: Rings														
+														
+###Block: Rods														
+														
+###Block: Staff														
+														
+###Block: Wondrous Items														
+														
+###Block: Cursed														
+														
+###Block: Artifact														

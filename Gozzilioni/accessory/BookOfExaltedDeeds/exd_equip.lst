@@ -1,0 +1,63 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+
+###Block: Monsters
+# Construct
+
+# Demons
+
+# Devils
+
+# Yugoloth
+
+# Monster objects
+
+###Block:Alchemical Stuff and Liquids							
+
+###Block:Clothing							
+
+###Block:Goods							
+Distilled Joy				TYPE:Goods.Consumable.SpellComponent	COST:200	WT:0		SOURCEPAGE:EXD	SPROP:+2 bonus on effective caster level on a single Good spell.																																																																																																																																																																				
+Angel Radiance				TYPE:Goods.Consumable.SpellComponent.LightSource	COST:20	WT:0		SOURCEPAGE:EXD	SPROP:+1 saving throw DC on Banishment, Dismissal or Dispel Evil spell. +1 bonus on caster level check to overcome target's SR.	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|Permanent																																																																																																																																																																	
+Blink Dog Tooth				TYPE:Goods.Consumable.SpellComponent	COST:30	WT:0		SOURCEPAGE:EXD	SPROP:50% chance to confer Ghost Touch ability and negate miss chance due to Blur, Displacement, Enthropy or phasing abilities.																																																																																																																																																																				
+Celestial Blood				TYPE:Goods.Consumable.SpellComponent	COST:20	WT:0		SOURCEPAGE:EXD	SPROP:30% chance to deals +2d6 extra points of damage if the spel deals damage normally.																																																																																																																																																																				
+Couatl Feather				TYPE:Goods.Consumable.SpellComponent	COST:1000	WT:0		SOURCEPAGE:EXD	SPROP:35% chance to have effective caster level increased by +2.																																																																																																																																																																				
+Couatl Scale				TYPE:Goods.Consumable.SpellComponent	COST:16	WT:0		SOURCEPAGE:EXD	SPROP:30% chance to have the spell's save DC increased by +1																																																																																																																																																																				
+Lammasu Claw				TYPE:Goods.Consumable.SpellComponent	COST:30	WT:0		SOURCEPAGE:EXD	SPROP:25% chance to have any damage dealed increased by 10%.																																																																																																																																																																				
+Lillend Scale				TYPE:Goods.Consumable.SpellComponent	COST:15	WT:0		SOURCEPAGE:EXD	SPROP:40% chance to increase by +1 the save DC if is a Will save.|!PRECLASS:1,Bard=1	SPROP:60% chance to increase by +1 the save DC if is a Will save.|PRECLASS:1,Bard=1																																																																																																																																																																			
+Pegasus Feather				TYPE:Goods.Consumable.SpellComponent	COST:11	WT:0		SOURCEPAGE:EXD	SPROP:Detect Good or Detect Evil function in 2 round instead of 3.																																																																																																																																																																				
+Phoenix Feather				TYPE:Goods.Consumable.SpellComponent	COST:40	WT:0		SOURCEPAGE:EXD	SPROP:10% chance to not forget the spell when cast.																																																																																																																																																																				
+Unicorn Blood				TYPE:Goods.Consumable.SpellComponent	COST:500	WT:0		SOURCEPAGE:EXD	SPROP:40% chance to increase by +1 the save DC.																																																																																																																																																																				
+Unicorn Horn (Silver)				TYPE:Goods.Consumable.SpellComponent	COST:55	WT:0		SOURCEPAGE:EXD	SPROP:+1 sacred bonus on spell's attack roll.																																																																																																																																																																				
+Unicorn Tail Hair				TYPE:Goods.Consumable.SpellComponent	COST:25	WT:0		SOURCEPAGE:EXD	SPROP:20% chance to double duration.																																																																																																																																																																				
+Moonblood				TYPE:Goods.Consumable	COST:1500	WT:0		SOURCEPAGE:EXD	SPROP:DC 22 Craft (Painting) and 1 hour of time. If succesful +2 sacred bonus to AC for 1 day.	TEMPBONUS:ANYPC|COMBAT|AC|2|TYPE=Sacred																																																																																																																																																																			
+Storm Tears				TYPE:Goods.Consumable	COST:750	WT:0		SOURCEPAGE:EXD	SPROP:Heart's Ease spell.																																																																																																																																																																				
+
+
+###Block:Tools							
+
+###Block:Foods
+# Spices
+# Corns
+# Flours
+# Fruit
+# Nuts
+# Oils
+# Meats
+# Exotics
+
+###Block:Poisons
+Ravages (Golden ice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0		SOURCEPAGE:EXD	SPROP:Contact DC 14, Init.:1d6 DEX, Sec.:2d6 DEX													
+Ravages (Celestial lightsblood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0		SOURCEPAGE:EXD	SPROP:Ingested DC 20, Init.:1d4 DEX, Sec.:1d4 CON													
+Ravages (Jade water)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:350	WT:0		SOURCEPAGE:EXD	SPROP:Injury DC 14, Init.:1d4 WIS, Sec.:1d4 INT+1d4 WIS													
+Ravages (Purified coutl venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0		SOURCEPAGE:EXD	SPROP:Injury DC 16, Init.:2d4 STR, Sec.:4d4 STR													
+Ravages (Unicorn Blood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0		SOURCEPAGE:EXD	SPROP:Injury DC 17, Init.:1d3 STR, Sec.:1d4 STR													
+
+###Block:Transportations
+
+###Block:Spellcasting&Services
+
+###Block:Other
+
+
+
+

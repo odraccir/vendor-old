@@ -2,6 +2,6 @@ SOURCELONG:Gozzilioni Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http:/
 																										
 ###Block: Spells																										
 # Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
-Fireball.COPY=Fireball ~ Scepter of Evil
+Fireball.COPY=Fireball	KEY:Fireball ~ Corrupt
 ###TODO: CLASSES:.CLEARALL	DOMAINS:.CLEARALL or VISIBLE:NO
-Fireball ~ Scepter of Evil.MOD	OUTPUTNAME:Fireball (Corrupt)	DESC:.CLEAR	DESC:%1d6 fire damage and %1d6 unholy damage, 20-ft. radius.|(min(CASTERLEVEL,10)/2)
+Fireball ~ Corrupt.MOD	OUTPUTNAME:Fireball (Corrupt)	DESC:.CLEAR	DESC:%1d6 fire damage and %1d6 unholy damage, 20-ft. radius.|(min(CASTERLEVEL,10)/2)

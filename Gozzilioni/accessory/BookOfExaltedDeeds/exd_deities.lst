@@ -1,0 +1,10 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Ayailla	ALIGN:NG	DEITYWEAP:Shortspear|Halfspear	DESC:Ayailla (F)	DOMAINS:Glory,Good,Sun|PREALIGN:LG,LN,CG,NG		PANTHEON:Exalted	SOURCEPAGE:ExD	SYMBOL:A phoenix.
+Chaav	ALIGN:CG	DEITYWEAP:Quarterstaff	DESC:Chaav (M)	DOMAINS:Chaos,Good,Joy,Trickery|PREALIGN:NG,CG,CN		PANTHEON:Exalted	SOURCEPAGE:ExD	SYMBOL:Bunch of wildfower.
+Estanna	ALIGN:NG	DEITYWEAP:Dagger	DESC:Estanna (F)	DOMAINS:Community,Good,Protection|PREALIGN:LG,LN,CG,NG		PANTHEON:Exalted	SOURCEPAGE:ExD	SYMBOL:A hearth.
+Lastai	ALIGN:CG	DEITYWEAP:Grasping Pole	DESC:Lastai (F)	DOMAINS:Chaos,Good,Pleasure|PREALIGN:NG,CG,CN		PANTHEON:Exalted	SOURCEPAGE:ExD	SYMBOL:A peach.
+Phieran	ALIGN:LG	DEITYWEAP:Unarmed Strike	DESC:Phieran (M)	DOMAINS:Endurance,Good,Law,Protection|PREALIGN:LG,LN,CG,NG		PANTHEON:Exalted	SOURCEPAGE:ExD	SYMBOL:A broken chain or a shattered rack.
+Valarian	ALIGN:NG	DEITYWEAP:Horn	DESC:Valarian (M)	DOMAINS:Animal,Fey,Good|PREALIGN:LG,LN,CG,NG		PANTHEON:Exalted	SOURCEPAGE:ExD	SYMBOL:A silhouuette of a unicorn rampand in front of a full moon.

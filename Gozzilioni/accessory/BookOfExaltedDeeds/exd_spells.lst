@@ -1,0 +1,477 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																											
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	TARGETAREA:		Duration	Save Info	Spell Resistance	DESC:	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose	
+Baleful Polymorph.COPY=Baleful Polymorph	KEY:Baleful Polymorph ~ Evil Mass
+Baleful Polymorph ~ Evil Mass.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:All evil creature within 30 ft.	DESC:Affected creatures are transformed into harmless Diminutive mammals (rabbits, squirrels, or the like) or Fine vermin (nonthreatening spiders, centipedes, or the like).	SOURCEPAGE:ExD
+#
+# Good Hope.MOD	DESCRIPTOR:Good																										
+# Shield Other.MOD	DESCRIPTOR:Good																										
+#																											
+# Affliction			TYPE:Arcane.Divine	CLASSES:Cleric=3|Druid=3|Sorcerer,Wizard=4		SCHOOL:Necromancy		DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Evil creature touched		DURATION:Instantaneous	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:Infects evil subject with chosen affliction.	SOURCEPAGE:EXD									
+# Amber Sarcophagus			TYPE:Arcane	CLASSES:Sorcerer,Wizard=7		SCHOOL:Evocation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature		DURATION:1 day/level	SAVEINFO:None	SPELLRES:Yes	DESC:Target is trapped in stasis inside amber.	SOURCEPAGE:EXD		COST:500							
+# Aspect of the Deity			TYPE:Arcane.Divine			SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:As Lesser Aspect of the Deity, but get celestial qualities.	SOURCEPAGE:EXD									
+# Aspect of the Deity (Greater)	OUTPUTNAME:Aspect of the Deity, Greater		TYPE:Arcane.Divine			SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:As Lesser Aspect of the Deity, but gain wings, enhanced ability scores, and various resistamce and immunities.	SOURCEPAGE:EXD									
+# Aspect of the Deity (Lesser)	OUTPUTNAME:Aspect of the Deity, Lesser		TYPE:Arcane.Divine	CLASSES:Paladin=4		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Your form becomes more like your deity's.	SOURCEPAGE:EXD									
+# Axiomatic Creature			TYPE:Arcane.Divine	CLASSES:Cleric=8|Sorcerer,Wizard=8		SCHOOL:Transmutation			COMPS:V, S, M, XP, Archon	CASTTIME:1 round	RANGE:Touch	TARGETAREA:One corporeal creature of lawful or neutral alignment that is native to the Material Plane		DURATION:Permanent	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:Transform creature into n axiomatic creature.	SOURCEPAGE:EXD		COST:10000	XPCOST:1000						
+# Bastion of Good			TYPE:Divine	CLASSES:Cleric=7		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, S, Abstinence	CASTTIME:1 standard action	RANGE:20-ft	TARGETAREA:20-ft radius spherical emanation centered on you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Acts as Minor Globe of Invlunerability and double strength Magic Circle against Evil.Abstinence: fast 24 hours.	SOURCEPAGE:EXD									
+# Blessed Sight			TYPE:Divine	CLASSES:Cleric=3|Paladin=3		SCHOOL:Divination			COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:Evil auras becomes visible to you.	SOURCEPAGE:EXD									
+# Blinding Beauty			TYPE:Arcane.Divine	CLASSES:Bard=4|Druid=4|Ranger=4		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S, Abstinence	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You become as beautiful as a nymph, and can blind humanoids who look at you. Abstinence: abstain from sexual intercourse for one week.	SOURCEPAGE:EXD									
+# Blinding Glory			TYPE:Arcane	CLASSES:Sorcerer,Wizard=9		SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Good	COMPS:V, S, M/DF	CASTTIME:1 hour	RANGE:Close	TARGETAREA:100-ft/level radius spread, centered on you		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:100-ft/level radius of light linds evil creatures.	SOURCEPAGE:EXD									
+# Blood of the Martyr			TYPE:Divine	CLASSES:Cleric=4|Paladin=4		SCHOOL:Necromancy	SUBSCHOOL:Healing	DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:willing creature		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:You heal a target at range and take a like amount of damage.	SOURCEPAGE:EXD									
+# Bolt of Glory			TYPE:Divine			SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes		SOURCEPAGE:EXD									
+# Call Faithful Servants			TYPE:Arcane.Divine	CLASSES:Cleric=6|Sorcerer,Wizard=5		SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Good	COMPS:V, S, Abstinence, Celestial	CASTTIME:1 minute	RANGE:Close	TARGETAREA:1d4 lantern archons, coure eladrins or musteval guardinals		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Summons 1d4 lantern archons, coure eladrins or musteval guardinals. Abstinence: abstain from casting Conjuration spells for 3 days.	SOURCEPAGE:EXD									
+# Call Mount			TYPE:Divine	CLASSES:Paladin=2		SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Good	COMPS:V	CASTTIME:1 round	RANGE:10-ft	TARGETAREA:Your special mount		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Call your special mount, even if you already called it today.	SOURCEPAGE:EXD									
+# Celestial Blood			TYPE:Divine	CLASSES:Cleric=6		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, S, M	CASTTIME:1 round	RANGE:Touch	TARGETAREA:Nonevil creature touched		DURATION:1 minute/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Grant energy resistance, +4 on saves against poison and damage reduction 10/evil.	SOURCEPAGE:EXD									
+# Celestial Brilliance			TYPE:Arcane.Divine	CLASSES:Cleric=4|Sorcerer,Wizard=4		SCHOOL:Evocation		DESCRIPTOR:Good|Light	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Object touched		DURATION:1 day/level	SAVEINFO:None	SPELLRES:No	DESC:Object sheds brilliant light to 120-ft, hurts undead and evil outsiders.	SOURCEPAGE:EXD									
+# Chaav's Laugh			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V	CASTTIME:1 standard action	RANGE:40-ft	TARGETAREA:40-ft radius spread centered on you		DURATION:1 minute/level	SAVEINFO:Will negates (see text)	SPELLRES:Yes	DESC:Good creatures gain +2 on attack rolls and saves against fear, plus 1d8 temporary hp +1/level (max +20). Evil creatures take -2 on attack rolls and saves against fear.	SOURCEPAGE:EXD									
+# Convert Wand			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Wand touched		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:Transforms a magic wand into a healing wand (lasts 1 minute/level)	SOURCEPAGE:EXD									
+# Crown of Brilliance			TYPE:Divine	CLASSES:Cleric=6		SCHOOL:Evocation		DESCRIPTOR:Good|Light	COMPS:V, S, M, Archon	CASTTIME:1 round	RANGE:20-ft	TARGETAREA:20-ft radius spherical emanation centered on you		DURATION:1 round/level	SAVEINFO:Fortitude partial	SPELLRES:Yes	DESC:Holy light blinds or dazzles foes, repels light-sensitive creatures and damages undead.	SOURCEPAGE:EXD		COST:100							
+# Crown of Flame			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, Archon	CASTTIME:1 standard action	RANGE:10-ft	TARGETAREA:10-ft radius spherical emanation centered on you		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:Aura burns evil outsiders, undead and fey for 2d6 points of damage/round.	SOURCEPAGE:EXD									
+# Crown of Glory			TYPE:Divine			SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:10-ft/level	TARGETAREA:10-ft radius/level emanation centered on you.		DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes		SOURCEPAGE:EXD									
+# Dancing Web			TYPE:Divine	CLASSES:Cleric=5|Druid=5|Sorcerer,Wizard=4		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft radius burst		DURATION:Instantaneous	SAVEINFO:Reflex half; See text	SPELLRES:Yes	DESC:Energy strands deals 1d6 nonlethal damage per level plus entangles evil creatures for 1d6 rounds.	SOURCEPAGE:EXD									
+# Distilled Joy			TYPE:Arcane	CLASSES:Sorcerer,Wizard=3		SCHOOL:Transmutation			COMPS:V, S, F	CASTTIME:1 day	RANGE:Touch	TARGETAREA:one living creature		DURATION:Permanent	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:Creates ambrosia.	SOURCEPAGE:EXD									
+# Divine Sacrifice			TYPE:Divine	CLASSES:Paladin=1		SCHOOL:Necromancy			COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level or until discharged	SAVEINFO:None	SPELLRES:No	DESC:Sacrifice hit points for a damage bonus.	SOURCEPAGE:EXD									
+# Dolorous Motes			TYPE:Arcane	CLASSES:Bard=4|Sorcerer,Wizard=3		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:1 10-ft cube/level		DURATION:1 round/level	SAVEINFO:Will negates; See text	SPELLRES:Yes	DESC:Creates clouds of flickering light (1 10-ft cube/level) that dazes creatures. Sacrifice: 1d3 points of WIS damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|WIS|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose WIS damage	TEMPDESC:Sacrifice&colon; 1d3 points of WIS damage.
+# Ease Pain			TYPE:Divine	CLASSES:Cleric=2		SCHOOL:Conjuration	SUBSCHOOL:Healing		COMPS:S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:creature touched		DURATION:Instantaneous	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Remove lingering effects of pain.	SOURCEPAGE:EXD									
+# Eladrin Form			TYPE:Arcane	CLASSES:Sorcerer,Wizard=7		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You become an incorporeal globe.	SOURCEPAGE:EXD									
+# Elation			TYPE:Arcane.Divine	CLASSES:Bard=2|Cleric=2|Sorcerer,Wizard=3		SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting	COMPS:V, S	CASTTIME:1 standard action	RANGE:80-ft	TARGETAREA:allies in an 80-ft radius spread of you		DURATION:1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Allies gains +2 to STR and DEX, +5-ft of speed.	SOURCEPAGE:EXD									
+# Emerald Burst			TYPE:Arcane	CLASSES:Sorcerer,Wizard=5		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:20-ft radius burst		DURATION:Instantaneous	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:20-ft radius burst dazes neutral creatures for 1 round, stuns evil creatures for 1d4 rounds.	SOURCEPAGE:EXD		COST:1000							
+# Empyreal Ecstasy			TYPE:Arcane	CLASSES:Bard=6		SCHOOL:Abjuration			COMPS:V, S, DF	CASTTIME:1 round	RANGE:30-ft	TARGETAREA:one creature/level		DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Targets immune to pain and mind-influencing effects, and take half damage from melee and ranged attacks; -4 to skill checks.	SOURCEPAGE:EXD									
+# End to Strife			TYPE:Divine	CLASSES:Cleric=9		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:80-ft	TARGETAREA:80-ft radius emanation, centered on you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:Any attack made within 80-ft of caster causes attacker to take 1d6 points of lethal or nonlethal damage/caster level (max 20d6).	SOURCEPAGE:EXD									
+# Energetic Healing			TYPE:Divine	CLASSES:Cleric=5|Druid=5		SCHOOL:Conjuration	SUBSCHOOL:Healing		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one living creature touched		DURATION:10 minutes/level or until discharged	SAVEINFO:None (harmless)	SPELLRES:No	DESC:Target is immune to one energy type and gains 10%% of the energy damage as healing.	SOURCEPAGE:EXD									
+# Energize Potion			TYPE:Arcane.Divine	CLASSES:Cleric=3|Druid=3|Sorcerer,Wizard=2		SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:10-ft radius burst		DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:Transforms potion into a grnade that deals energy damage in a 10-ft radius burst.	SOURCEPAGE:EXD									
+# Estanna's Stew			TYPE:Divine	CLASSES:Cleric=2|Druid=2|Paladin=2		SCHOOL:Conjuration	SUBSCHOOL:Healing		COMPS:V, S, F	CASTTIME:1 round	RANGE:0-ft	TARGETAREA:fills pot with healing stew (1 serving/2 levels)		DURATION:Instantaneous (see text)	SAVEINFO:Will half (harmless); See text	SPELLRES:Yes	DESC:Conjures stew that heals 1d6+1 per serving.	SOURCEPAGE:EXD		COST:50							
+# Eyes of the Avoral			TYPE:Arcane.Divine	CLASSES:Cleric=1|Druid=1|Ranger=1|Sorcerer,Wizard=1		SCHOOL:Transmutation			COMPS:S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one creature		DURATION:10 minutes/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Subject gets +8 on Spot checks.	SOURCEPAGE:EXD									
+# Faerinaal's Hymn			TYPE:Arcane	CLASSES:Bard=2		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:up to one evil creature/level		DURATION:Concentration	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Up to one creature/level cannot take attacks of opportunity.	SOURCEPAGE:EXD									
+# Glorious Raiment			TYPE:Divine			SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:robe, garnment or outfit touched		DURATION:1 minute/level	SAVEINFO:Will negates (harmless,object)	SPELLRES:Yes	DESC:Wearer gains +1 sacred bonus to AC per five acster levels, damage reduction 5/evil.	SOURCEPAGE:EXD									
+# Glory of the Martyr			TYPE:Divine	CLASSES:Paladin=2		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, S, F, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one creature/level		DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:As Shield Other, but with multiple targets.	SOURCEPAGE:EXD		COST:50							
+# Status (Greater)			TYPE:Divine	CLASSES:Cleric=4		SCHOOL:Divination			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature touched/3 levels.		DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes		SOURCEPAGE:EXD									
+# Healing Touch			TYPE:Arcane	CLASSES:Sorcerer,Wizard=3		SCHOOL:Necromancy		DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:creature touched		DURATION:Instantaneous	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You take up to 1d6 points of damage/2 level and heal target that amount.	SOURCEPAGE:EXD									
+# Heart's Ease			TYPE:Divine	CLASSES:Cleric=3		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one creature/level		DURATION:Permanent	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Remove fear, despair, confusion, insanity and some mind-influencing effects; restores 2d4 points of temporary WIS damage.	SOURCEPAGE:EXD									
+# Heavenly Lightning			TYPE:Divine			SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:up to one creature per 2 caster level		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:See text	SOURCEPAGE:EXD									
+# Heavenly Lightning Storm			TYPE:Divine			SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:up to one creature per caster level in an area of 10-ft wide to close range.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:See text	SOURCEPAGE:EXD									
+# Heaven's Trumpet			TYPE:Arcane.Divine	CLASSES:Bard=6|Cleric=7		SCHOOL:Evocation		DESCRIPTOR:Good|Sonic	COMPS:S, F, Archon	CASTTIME:1 standard action	RANGE:120-ft	TARGETAREA:foes in a 120-ft radius burst centered on you		DURATION:Instantaneous	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:Blast of music paralyzes foes.	SOURCEPAGE:EXD									
+# Heroism (Greater).COPY=Heroic Valor	SOURCEPAGE:EXD, errata																										
+# Inspired Aim			TYPE:Arcane.Divine	CLASSES:Bard=4|Cleric=3|Ranger=3		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Language-Depentent|Mind-Affecting	COMPS:V	CASTTIME:1 standard action	RANGE:40-ft	TARGETAREA:allies within 40-ft radius emanation centered on you		DURATION:Concentration	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Allies within 40-ft gain +2 insight bonus on ranged attack rolls.	SOURCEPAGE:EXD									
+# Lantern Light			TYPE:Arcane.Divine	CLASSES:Cleric=1|Paladin=1|Sorcerer,Wizard=1		SCHOOL:Evocation		DESCRIPTOR:Good|Light	COMPS:S, Abstinence	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:ray		DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:Ranged touch attacks deal 1d6 points of damage. Abstinence: abstain from sexual intercourse for 24 hours.	SOURCEPAGE:EXD									
+# Last Judgement			TYPE:Arcane.Divine	CLASSES:Cleric=8|Sorcerer,Wizard=8		SCHOOL:Necromancy		DESCRIPTOR:Death|Good	COMPS:V, Celestial	CASTTIME:1 round	RANGE:Close	TARGETAREA:one evil humanoid, monstrous humanoid or giant/2 levels		DURATION:Instantaneous	SAVEINFO:Will partial	SPELLRES:Yes	DESC:Evil creature are struck dead and sent to Lower Planes.	SOURCEPAGE:EXD									
+# Leonal's Roar			TYPE:Divine	CLASSES:Druid=8		SCHOOL:Evocation		DESCRIPTOR:Good|Sonic	COMPS:V	CASTTIME:1 standard action	RANGE:40-ft	TARGETAREA:nongood creatures in a 40-ft radius spread centered on you		DURATION:Instantaneous	SAVEINFO:Fortitude partial	SPELLRES:Yes	DESC:Kills, paralyzes, weakens or dazes nongood subjects and deals 2d6 points of sonic damage.	SOURCEPAGE:EXD									
+# Lastai's Caress			TYPE:Divine	CLASSES:Cleric=2		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one known evil creature touched		DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:Intense feelings of good leave evil subject cowering, frightened nauseated or shaken.	SOURCEPAGE:EXD									
+# Mind Bond			TYPE:Divine	CLASSES:Paladin=3		SCHOOL:Divination			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:special mount		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You and your mount gain +4 flanking bonus when flanking the same opponent; mount gain bonus on attack rolls.	SOURCEPAGE:EXD									
+# Moment of Clarity			TYPE:Divine	CLASSES:Paladin=2		SCHOOL:Abjuration			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:creature touched		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:See text	SOURCEPAGE:EXD									
+# Perfect Summons			TYPE:Arcane	CLASSES:Sorcerer,Wizard=4		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:40-ft radius spread		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Creates area where only good creatures can be summoned.	SOURCEPAGE:EXD									
+# Quickshift			TYPE:Arcane.Divine	CLASSES:Cleric=6|Sorcerer,Wizard=6		SCHOOL:Transmutation			COMPS:V, S, Celestial	CASTTIME:1 round	RANGE:Personal	TARGETAREA:you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Caster can use Teleport or Greater Teleport spell-like ability as a free action for 1 round/level.	SOURCEPAGE:EXD									
+# Radiant Fog			TYPE:Arcane	CLASSES:Sorcerer,Wizard=4		SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Good	COMPS:V, S, Abstinence	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:fog that spread in a 20-ft radius, 20-ft high		DURATION:1 minute/level	SAVEINFO:Fortitude partial (see text)	SPELLRES:Yes	DESC:As Solid Fog, but dazzles or blinds creatures within.Abstinence: abstain from casting Necromancy or darkness spells for 24 hours.	SOURCEPAGE:EXD									
+# Radiant Shield			TYPE:Arcane.Divine	CLASSES:Sorcerer,Wizard=4		SCHOOL:Evocation		DESCRIPTOR:Electricity|Good	COMPS:V, S, Abstinence	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Creatures attacking you take electricity damage; you are protected from electricity. Abstinence: abstain from casting Necromancy or darkness spells for 24 hours.	SOURCEPAGE:EXD									
+# Rain of Black Tulips			TYPE:Divine	CLASSES:Druid=9		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:cylinder (80-ft radius, 80-ft high)		DURATION:1 round/level	SAVEINFO:See text	SPELLRES:Yes	DESC:Black tulip fall from the sky; evil creatures take 5d6 damage per round and are nauseated.	SOURCEPAGE:EXD									
+# Rain of Roses			TYPE:Divine	CLASSES:Druid=7		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:cylinder (80-ft radius, 80-ft high)		DURATION:1 round/level	SAVEINFO:See text	SPELLRES:Yes	DESC:Roses falls from the sky; evil creature take 1d4 WIS damage per round and are sickened.	SOURCEPAGE:EXD									
+# Ray of Hope			TYPE:Arcane.Divine	CLASSES:Bard=1|Cleric=1		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one living creature		DURATION:1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Subject gains +2 bonus on attacks, saves, and checks.	SOURCEPAGE:EXD									
+# Refreshment			TYPE:Arcane.Divine	CLASSES:Bard=3|Cleric=3		SCHOOL:Conjuration	SUBSCHOOL:Healing	DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:20-ft	TARGETAREA:20-ft radius burst centered on you		DURATION:Instantaneous	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Cures all nonlethal damage on one creature.	SOURCEPAGE:EXD									
+# Remove Addiction			TYPE:Divine	CLASSES:Cleric=2|Druid=2		SCHOOL:Conjuration	SUBSCHOOL:Healing		COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one creature touched		DURATION:Instantaneous	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:Cures target of drugs addictions.	SOURCEPAGE:EXD									
+# Remove Fatigue			TYPE:Divine	CLASSES:Cleric=4		SCHOOL:Transmutation			COMPS:S	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:up to one living creature touched per two levels		DURATION:Instantaneous	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:Removes effects of fatigue as 8 hours/level.	SOURCEPAGE:EXD									
+# Remove Nausea			TYPE:Divine	CLASSES:Cleric=3		SCHOOL:Conjuration	SUBSCHOOL:Healing		COMPS:V, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:creature touched		DURATION:Instantaneous	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Cure a nauseated or sickened character.	SOURCEPAGE:EXD									
+# Righteous Glare			TYPE:Arcane.Divine	CLASSES:Cleric=7|Sorcerer,Wizard=7		SCHOOL:Necromancy		DESCRIPTOR:Death|Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Your gaze attack kills evil creature with less than 5 HD, cause Fear in others.	SOURCEPAGE:EXD									
+# Righteous Smite			TYPE:Arcane.Divine	CLASSES:Cleric=7		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft radius spread		DURATION:Instantaneous	SAVEINFO:Will partial; See text	SPELLRES:Yes	DESC:Deals 1d6 damage/level (1d8 damage/level to evil outsiders) in 20-ft radius and blinds evil foes for 1d4 rounds.	SOURCEPAGE:EXD									
+# Sacred Guardian			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Divination			COMPS:V, S, Celestial	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:object or willing creature touched		DURATION:1 day/level	SAVEINFO:None (harmless); See text	SPELLRES:Yes	DESC:You know status of subject and can teleport or scry without error.	SOURCEPAGE:EXD									
+# Sacred Haven			TYPE:Divine	CLASSES:Paladin=4		SCHOOL:Abjuration			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:creature touched		DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Target gains +2 sacred bonus to AC and retains DEX bonus to AC when flat-footed; you can heal target using lay on hands at range.	SOURCEPAGE:EXD									
+# Second Wind			TYPE:Divine	CLASSES:Paladin=1		SCHOOL:Transmutation			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:creature touched		DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Target gains the equivalen of the Endurance feat for 1 hour/level.	SOURCEPAGE:EXD									
+# Secure Corpse			TYPE:Divine	CLASSES:Cleric=6		SCHOOL:Necromancy			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:stores one creature's corpse in your holy symbol		DURATION:1 day/level	SAVEINFO:None	SPELLRES:No	DESC:Traps corpse inside holy symbol.	SOURCEPAGE:EXD									
+# Shield of the Archons			TYPE:Divine	CLASSES:Cleric=7		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, Archon	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:you		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Protective shield dissipates targeted magical attacks and grants +4 bonus on saving throws against magical areas and effects.	SOURCEPAGE:EXD									
+# Silvered Claws			TYPE:Divine	CLASSES:Druid=1|Ranger=1		SCHOOL:Transmutation			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one living creature touched		DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:One creature's natural attacks are treated as silvered weapons.	SOURCEPAGE:EXD									
+# Silvered Weapon			TYPE:Divine	CLASSES:Paladin=1|Ranger=2		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one weapon or projectile touched		DURATION:1 round/level	SAVEINFO:Fortitude negates (harmless,object)	SPELLRES:Yes	DESC:Transforms one weapon into a silvered weapon.	SOURCEPAGE:EXD									
+# Smite Heretic			TYPE:Divine	CLASSES:Paladin=3		SCHOOL:Conjuration			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:you		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You gain a +2 sacred bonus on attack roll and deal extra damage with your smite evil ability when used against evil creature that cast divine spells.	SOURCEPAGE:EXD									
+# Spear of Valarian			TYPE:Divine	CLASSES:Druid=5|Ranger=5		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one nonmagical weapon touched		DURATION:1 round/level	SAVEINFO:Fortitude negates (harmless,object)	SPELLRES:Yes	DESC:Transforms a nonmagical weapon into a +1 silvered spear (+3 against magical beast, wichi take +2d6 points of damage)	SOURCEPAGE:EXD									
+# Spread of Contentment			TYPE:Divine	CLASSES:Cleric=8		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V, S, M	CASTTIME:1 hour	RANGE:Long	TARGETAREA:10-ft/level radius spread		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:Yes	DESC:Calms hostile creatures within 10-ft/level radius.	SOURCEPAGE:EXD									
+# Starmantle			TYPE:Arcane.Divine	CLASSES:Sorcerer,Wizard=6		SCHOOL:Abjuration			COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one living creature touched		DURATION:1 minute/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Cloak of stars destroys nonmagical weapons on contact and allows wearer a DC 15 Reflex save to reduce damage from magic weapons by half.	SOURCEPAGE:EXD		COST:20							
+# Stars of Arvandor			TYPE:Arcane.Divine	CLASSES:Cleric=4|Druid=4|Ranger=4|Sorcerer,Wizard=3		SCHOOL:Evocation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:up to one creature or object per round		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:Tiny starburst each deal 1d8 damage (half nonlethal) or 1d8 damage (all lethal) to evil creatures.	SOURCEPAGE:EXD									
+# Sublime Revelry			TYPE:Divine	CLASSES:Cleric=9		SCHOOL:Abjuration			COMPS:V, S, DF	CASTTIME:1 round	RANGE:Close	TARGETAREA:one creature/level, no two of wich can be more than 30-ft apart.		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:Targets immune to pain and mind-influencing effects, and take half damage from melee and ranged attacks.	SOURCEPAGE:EXD									
+# Sustain			TYPE:Divine	CLASSES:Cleric=4		SCHOOL:Transmutation			COMPS:V, S, M	CASTTIME:1 round	RANGE:Touch	TARGETAREA:up to one living creature touched per two levels		DURATION:6 hours/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:See text	SOURCEPAGE:EXD									
+# Sword of Conscience			TYPE:Divine	CLASSES:Cleric=4|Paladin=4		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one evil creature		DURATION:Instantaneous; see text	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Evil creature confesses crimes, take WIS damage.	SOURCEPAGE:EXD									
+# Telepathy Block			TYPE:Arcane.Divine	CLASSES:Bard=5|Cleric=5|Sorcerer,Wizard=5		SCHOOL:Abjuration			COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:80-ft radius emanation, centered on a creature, object or point in space		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Blocks all telepathic communication within 80-ft radius.	SOURCEPAGE:EXD									
+# Tomb of Light			TYPE:Arcane.Divine	CLASSES:Cleric=7|Sorcerer,Wizard=7		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S, M	CASTTIME:1 round	RANGE:Touch	TARGETAREA:evil extraplanar creature touched		DURATION:Concentration	SAVEINFO:Fortitude partial	SPELLRES:Yes	DESC:Entraps and harms evil extraplanar creatures.	SOURCEPAGE:EXD		COST:50							
+# Touch of Adamantine			TYPE:Arcane.Divine	CLASSES:Cleric=6|Druid=6|Sorcerer,Wizard=5		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:weapon touched		DURATION:1 minute/level	SAVEINFO:Will negates (harmless,object)	SPELLRES:Yes	DESC:Weapon gains the properties of an adamantine weapon.	SOURCEPAGE:EXD									
+# Unearthly Beauty			TYPE:Divine	CLASSES:Druid=8		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, S, Abstinence	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:As Blinding Beauty, but creatures must save or die. Abstinence: abstain from sexual intercourse for one month.	SOURCEPAGE:EXD									
+# Vanishing Weapon			TYPE:Arcane	CLASSES:Sorcerer,Wizard=5		SCHOOL:Abjuration			COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:weapon touched		DURATION:1 minute/level	SAVEINFO:None; See text	SPELLRES:No	DESC:Weapons' touch dispels summoned or quasi-real creatures.	SOURCEPAGE:EXD									
+# Vengeance Halo			TYPE:Divine	CLASSES:Cleric=6		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, S, DF, Abstinence	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one good-aligned creature; see text.		DURATION:1 minute/level	SAVEINFO:See text	SPELLRES:No	DESC:Any creature that slays the spell's recipient takes 1d6/level damage. Abstinence: abstain from imbibing alcohol for 1 week..	SOURCEPAGE:EXD									
+# Vision of Heaven			TYPE:Divine	CLASSES:Cleric=1		SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting	COMPS:V	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one evil creature		DURATION:1 round	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Evil creature is dazed for 1 round.	SOURCEPAGE:EXD									
+# Wages of Sin			TYPE:Arcane	CLASSES:Sorcerer,Wizard=6		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V, Abstinence	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:one evil creature/level		DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Evil creatures attack other evil creatures. Abstinence: abstain from intoxicant and stimulants for 1 week.	SOURCEPAGE:EXD									
+# Warcry			TYPE:Arcane	CLASSES:Bard=3|Sorcerer,Wizard=3		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:V	CASTTIME:1 standard action	RANGE:30-ft	TARGETAREA:cone-shaped burst		DURATION:Instantaneous	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:Creatures within a 30-ft cone cower for 1d4 rounds.	SOURCEPAGE:EXD									
+# Warding Gems			TYPE:Divine	CLASSES:Cleric=5		SCHOOL:Conjuration	SUBSCHOOL:Healing		COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:1 gem/3 caster levels		DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Creates gems that stores healing energy, encircle the target, and release their healing power on command.	SOURCEPAGE:EXD		COST:500							
+# Winged Mount			TYPE:Divine	CLASSES:Paladin=4		SCHOOL:Transmutation			COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:special mount touched		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:Your mount sprouts wings and gains a fly speed of 60-ft (good maneuverability).	SOURCEPAGE:EXD									
+# Yoke of Mercy			TYPE:Arcane	CLASSES:Sorcerer,Wizard=2		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Good|Mind-Affecting	COMPS:V, Abstinence	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one creature		DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:No	DESC:Target deals nonlethal damage. Abstinence: you must not dealt damage, by spell or by any other meant, to another living creature within the last 8 hours.	SOURCEPAGE:EXD									
+																											
+# Summon Monster III.MOD	DESC:&nl;*Bariaur: See EXD,p.165.&nl;*Eladrin (Coure): See EXD,p.168.&nl;*Guardinal (Musteval): See EXD,p.174.																										
+# Summon Monster IV.MOD	DESC:&nl;*Guardinal (Cervidal): See MM2,p.43.&nl;*Rhek: See EXD,p.181.																										
+# Summon Monster V.MOD	DESC:&nl;*Leskylor: See EXD,p.177.																										
+# Summon Monster VI.MOD	DESC:&nl;*Guardinal (Equinal): See EXD,p.173.																										
+# Summon Monster VII.MOD	DESC:&nl;*Asura: See EXD,p.164.&nl;*Leskylor (three headed): See EXD,p.177.																										
+# Summon Monster VIII.MOD	DESC:&nl;*Hollyphant: See EXD,p.176.&nl;*Guardinal (Lupinal): See MM2,p.43.&nl;*Archon (Warden): See EXD,p.163.																										
+# Summon Monster IX.MOD	DESC:&nl;*Eladrin (Firre): See EXD,p.169.&nl;*Moon Dog: See EXD,p.179.&nl;*Archon (Owl): See EXD,p.159.&nl;*Quesar: See EXD,p.180.&nl;*Archon (Sword): See EXD,p.160.&nl;*Guardinal (Ursinal): See EXD,p.174.																										
+																											
+# Armageddon	KEY:Armageddon ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=9		SCHOOL:Conjuration	SUBSCHOOL:Summoning	DESCRIPTOR:Good	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:2 or more summoned creature, no two of wich can be more than 30-ft apart		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:Calls powerfull good outsiders to fight at your side. Sacrifice: one character level.	SOURCEPAGE:EXD									
+# Ayalla's Radiant Burst	KEY:Ayalla's Radiant Burst ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=2		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:60-ft	TARGETAREA:Cone-shaped burst		DURATION:Instantaneous	SAVEINFO:See text	SPELLRES:Yes	DESC:Evil creatures are blinded for 1 round and take 1d6 damage/2 levels. Sacrifice: 1d2 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=2|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d2 points of STR damage.
+# Brilliant Emanation	KEY:Brilliant Emanation ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=3		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:Sacrifice	CASTTIME:1 standard action	RANGE:100-ft+10-ft/level	TARGETAREA:100-ft radius emanation + 10-ft radius/level		DURATION:1d4 rounds	SAVEINFO:Fortitude partial	SPELLRES:Yes	DESC:Reflective surfaces shed brilliant light that blinds evil creatures. Sacrifice: 1d3 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR damage.
+# Celestial Aspect	KEY:Celestial Aspect ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=3		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature touched		DURATION:1 minute/level	SAVEINFO:Fortitude negates (harmless); See text	SPELLRES:Yes	DESC:Target gains one of four celestial poperties; sword archon's armblade, firre eyes, cervidal horns, or deva wings.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR damage.
+# Channel Celestial	KEY:Channel Celestial ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=7		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, DF, Abstinence, Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You and 1 willing celestial		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You invite a celestial (up to 12 HD). Abstinence: see text. Sacrifice: 1d3 points of STR and DEX damage	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR,DEX|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR and DEX damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR and DEX damage.
+# Channel Celestial (Greater)	OUTPUTNAME:Channel Celestial, Greater	KEY:Channel Celestial (Greater) ~ Sanctified	TYPE:Arcane.Divine	CLASSES:Sanctified=9		SCHOOL:Transmutation		DESCRIPTOR:Good	COMPS:V, DF, Abstinence, Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You and 1 willing celestial		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:as Channel Celestial, but up to 24 HD. Abstinence: see text. Sacrifice: 1d6 points of STR and DEX damage	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR,DEX|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=6|TITLE=Choose STR and DEX damage	TEMPDESC:Sacrifice&colon; 1d6 points of STR and DEX damage.
+# Constricting Chains	KEY:Constricting Chains ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=7		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, F, Sacrifice	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One creature		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Creature is entangled, unable to move and takes 3d6 nonlethal damage per round. Sacrifice: 1d2 points of STR drain.	SOURCEPAGE:EXD		COST:10					TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=2|TITLE=Choose STR drain	TEMPDESC:Sacrifice&colon; 1d2 points of STR drain
+# Cry of Ysgard	KEY:Cry of Ysgard ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=7		SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Good	COMPS:V, Sacrifice	CASTTIME:1 round	RANGE:Close	TARGETAREA:Calls 2d4 bariaur defenders of ysgard		DURATION:Instantaneous; see text	SAVEINFO:None	SPELLRES:No	DESC:Calls 2d4 bariaur defenders of Ysgard. Sacrifice: 1d3 points of STR drain.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR drain	TEMPDESC:Sacrifice&colon; 1d3 points of STR drain
+# Curtain of Light	KEY:Curtain of Light ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=5		SCHOOL:Evocation		DESCRIPTOR:Light	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Curtain of light whose area is up to one 5-ft square/level		DURATION:1 round/level	SAVEINFO:See text	SPELLRES:No	DESC:Curtain of light deals 2d4 damage to evil creatures out to 10-ft and 1d4 damage out to 20-ft. Passing through curtain deals 2d6+1/level damage to evil creatures.Sacrifice: 1d4 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d4 points of STR damage.
+# Diamond Spray	KEY:Diamond Spray ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=4		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:60-ft	TARGETAREA:Cone-shaped burst		DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:Dazzles evil creatures for 2d6 rounds and deals 1d6 damage per level (max 10d6) to evil creatures.	SOURCEPAGE:EXD		COST:100							
+# Divine Inspiration	KEY:Divine Inspiration ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=1		SCHOOL:Divination			COMPS:Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one creature touched		DURATION:1d4 rounds	SAVEINFO:None (harmless)	SPELLRES:No	DESC:Target gains è3 sacred bonus on attack toll against evil creature. Sacrifice: 1d2 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=2|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d2 points of STR damage.
+# Dragon Cloud	KEY:Dragon Cloud ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=8		SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Air	COMPS:V, S, Sacrifice	CASTTIME:1 round	RANGE:Special	TARGETAREA:one conjured dragon cloud		DURATION:1 minute + 1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:Calls forth an elemental spirit that assume a cloudy, dragonlike form. Sacrifice: 1d3 points of CON damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose CON damage	TEMPDESC:Sacrifice&colon; 1d3 points of CON damage.
+# Exalted Fury	KEY:Exalted Fury ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=9		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, Sacrifice	CASTTIME:1 standard action	RANGE:40-ft	TARGETAREA:40-ft radius burst, centered on you		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:All creatures within 40-ft take damage equal to 50+your current hp, and you die. Sacrifice: you die. You can be raised or resurrected normally.	SOURCEPAGE:EXD									
+# Exalted Raiment	KEY:Exalted Raiment ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=6		SCHOOL:Abjuration			COMPS:V, DF, Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:robe, garnment or outfit touched		DURATION:1 minute/level	SAVEINFO:Will negates (harmless,object)	SPELLRES:Yes	DESC:Wearer gains +1 sacred bonus to AC per five acster levels, damage reduction 10/evil, SR 5+caster level, and immunity to CON damaged and CON drain. Sacrifice: 1d4 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d4 points of STR damage.
+# Hammer of Righteousness	KEY:Hammer of Righteousness ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=3		SCHOOL:Evocation		DESCRIPTOR:Force|Good	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:magic warhammer of force		DURATION:Instantaneous	SAVEINFO:Fortitude half	SPELLRES:Yes	DESC:Deals 1d6 ponts of damage per caster level, or 1d8 points of damage per caster level if the target is evil.Sacrifice: 1d3 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR damage.
+# Inquisition	KEY:Inquisition ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=5		SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	COMPS:Sacrifice	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one creature with an intelligence of 6 or more		DURATION:See text	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Compels target to divulge information thruthfully. Sacrifice: 1d4 points of CON damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Choose CON damage	TEMPDESC:Sacrifice&colon; 1d4 points of CON damage.
+# Luminous Armor	KEY:Luminous Armor ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=2		SCHOOL:Abjuration			COMPS:Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one good creature touched		DURATION:1 hour/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Shimmering light around target grants +5 armor bonus, dispels magical darkness and impose a -4 penalty on opponents' melee attacks. Sacrifice: 1d2 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=2|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d2 points of STR damage.
+# Luminous Armor (Greater)	OUTPUTNAME:Luminous Armor (Greater)	KEY:Luminous Armor (Greater) ~ Sanctified	TYPE:Arcane.Divine	CLASSES:Sanctified=4		SCHOOL:Abjuration			COMPS:Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one good creature touched		DURATION:1 hour/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Shimmering light around target grants +8 armor bonus, dispels magical darkness and impose a -4 penalty on opponents' melee attacks. Sacrifice: 1d3 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR damage.
+# Path of the Exalted	KEY:Path of the Exalted ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=3		SCHOOL:Divination			COMPS:V, Abstinence	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:you		DURATION:1 decision; See text	SAVEINFO:None	SPELLRES:No	DESC:Caster receives divine guidance from higher power. Abstinence: abstain from casting Divination spells for 24 hours.	SOURCEPAGE:EXD									
+# Phieran's Resolve	KEY:Phieran's Resolve ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=3		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, S, DF, Sacrifice	CASTTIME:1 standard action	RANGE:20-ft	TARGETAREA:one good creature/level in a 20-ft radius burst centered on you		DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:+4 sacred bonus on saves against spells with the Evil descriptor. Sacrifice: 1d3 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR damage.
+# Phoenix Fire	KEY:Phoenix Fire ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=7		SCHOOL:Necromancy		DESCRIPTOR:Fire|Good	COMPS:V, S, F, Sacrifice	CASTTIME:1 standard action	RANGE:15-ft	TARGETAREA:15-ft radius spread, centered on you		DURATION:Instantaneous (see text)	SAVEINFO:Reflex half (see text)	SPELLRES:Yes	DESC:Evil creatures take 2d6 damage/caster level as you immolate yourself. Sacrifice: your death and the level you lose when you return to life.	SOURCEPAGE:EXD		COST:40							
+# Rain of Embers	KEY:Rain of Embers ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=7		SCHOOL:Evocation		DESCRIPTOR:Fire|Good	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:cylinder (40-ft radius, 120-ft high)		DURATION:1 round/level	SAVEINFO:Reflex half; See text	SPELLRES:Yes	DESC:Rain of divine fire deals 10d6 damage per round to evil creatures. Sacrifice: 1d2 points of STR drain.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=2|TITLE=Choose STR drain	TEMPDESC:Sacrifice&colon; 1d2 points of STR drain
+# Restore Soul's Treasure	KEY:Restore Soul's Treasure ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=8		SCHOOL:Transmutation			COMPS:Sacrifice	CASTTIME:1 round	RANGE:Close	TARGETAREA:disintegrated remains of one item		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Restores a magic item destroyed by Soul's Treasure Lost spell. Sacrifice: 1d4 points of CON drain.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Choose CON drain	TEMPDESC:Sacrifice&colon; 1d4 points of CON drain
+# Sanctify the Wicked	KEY:Sanctify the Wicked ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=9		SCHOOL:Necromancy		DESCRIPTOR:Good	COMPS:V, S, F, Sacrifice	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:one evil creature		DURATION:See text	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Traps evil creature in a diamond for one year, then releases it as a sanctified creature. Sacrifice: one character level.	SOURCEPAGE:EXD		COST:10000							
+# Sicken Evil	KEY:Sicken Evil ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=5		SCHOOL:Necromancy			COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:20-ft radius emanation		DURATION:1 minute/level	SAVEINFO:None	SPELLRES:Yes	DESC:Evil creatures are sickened by your presence. Sacrifice: 1d4 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d4 points of STR damage.
+# Storm of Shards	KEY:Storm of Shards ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=1		SCHOOL:Evocation		DESCRIPTOR:Good	COMPS:V, S, Sacrifice	CASTTIME:1 standard action	RANGE:0-ft	TARGETAREA:80-ft radius spread		DURATION:Instantaneous	SAVEINFO:See text	SPELLRES:Yes	DESC:Evil creatures are blinded for 1 round; evil outsiders and undead also take 1d6 damage/level. Sacrifice: 1d3 points of STR drain.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|CON|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR drain	TEMPDESC:Sacrifice&colon; 1d3 points of STR drain
+# Sunmantle	KEY:Sunmantle ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=4		SCHOOL:Abjuration			COMPS:S, Sacrifice	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one creature touched		DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:Illuminates ass a Daylight spell; target gains damage reduction 5/-; lashes foe for 5 points of damage each time target takes damage in melee. Sacrifice: 1d4 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=4|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d4 points of STR damage.
+# Telepathy Tap	KEY:Telepathy Tap ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=3		SCHOOL:Divination			COMPS:Sacrifice	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:10-ft/level radius emanation		DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Overhear creatures' telepathic communications. Sacrifice: 1d3 points of STR damage.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR damage	TEMPDESC:Sacrifice&colon; 1d3 points of STR damage.
+# Twilight Luck	KEY:Twilight Luck ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=1		SCHOOL:Abjuration		DESCRIPTOR:Good	COMPS:V, Abstinence	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:one nonevil creature touched		DURATION:1 minute/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Target gains +1 luck bonus on all saving throws. Abstinence: abstain from imbibing alcohol for 3 days.	SOURCEPAGE:EXD									
+# Valiant Steed	KEY:Valiant Steed ~ Sanctified		TYPE:Arcane.Divine	CLASSES:Sanctified=6		SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Good	COMPS:V, S, Sacrifice	CASTTIME:1 hour	RANGE:Close	TARGETAREA:calls 1 pegasus or unicorn		DURATION:Instantaneous; see text	SAVEINFO:None	SPELLRES:No	DESC:Calls a pegasus or unicorn, wich serves caster for up to 1 year. Sacrifice: 1d3 points of STR drain.	SOURCEPAGE:EXD							TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)	CHOOSE:NUMBER|MIN=1|MAX=3|TITLE=Choose STR drain	TEMPDESC:Sacrifice&colon; 1d3 points of STR drain
+
+#
+Create Water.MOD	CLASSES:Apostole of Peace=0
+Cure Minor Wounds.MOD	CLASSES:Apostole of Peace=0
+Detect Magic.MOD	CLASSES:Apostole of Peace=0
+Detect Poison.MOD	CLASSES:Apostole of Peace=0
+Guidance.MOD	CLASSES:Apostole of Peace=0
+Light.MOD	CLASSES:Apostole of Peace=0
+Mending.MOD	CLASSES:Apostole of Peace=0
+Purify Food and Drink.MOD	CLASSES:Apostole of Peace=0
+Read Magic.MOD	CLASSES:Apostole of Peace=0
+Resistance.MOD	CLASSES:Apostole of Peace=0
+Virtue.MOD	CLASSES:Apostole of Peace=0
+Bless.MOD	CLASSES:Apostole of Peace=1
+Bless Water.MOD	CLASSES:Apostole of Peace=1
+Command.MOD	CLASSES:Apostole of Peace=1
+Comprehend Languages.MOD	CLASSES:Apostole of Peace=1
+Cure Light Wounds.MOD	CLASSES:Apostole of Peace=1
+Detect Evil.MOD	CLASSES:Apostole of Peace=1
+Detect Undead.MOD	CLASSES:Apostole of Peace=1
+Endure Elements.MOD	CLASSES:Apostole of Peace=1
+Entropic Shield.MOD	CLASSES:Apostole of Peace=1
+Eyes of the Avoral.MOD	CLASSES:Apostole of Peace=1
+Invisibility to Undead.MOD	CLASSES:Apostole of Peace=1
+Obscuring Mist.MOD	CLASSES:Apostole of Peace=1
+Protection from Evil.MOD	CLASSES:Apostole of Peace=1
+Ray of Hope.MOD	CLASSES:Apostole of Peace=1
+Remove Fear.MOD	CLASSES:Apostole of Peace=1
+Sanctuary.MOD	CLASSES:Apostole of Peace=1
+Shield of Faith.MOD	CLASSES:Apostole of Peace=1
+Vision of Heaven.MOD	CLASSES:Apostole of Peace=1
+Aid.MOD	CLASSES:Apostole of Peace=2
+Augury.MOD	CLASSES:Apostole of Peace=2
+Bear's Endurance.MOD	CLASSES:Apostole of Peace=2
+Calm Emotions.MOD	CLASSES:Apostole of Peace=2
+Consecrate.MOD	CLASSES:Apostole of Peace=2
+Cure Moderate Wounds.MOD	CLASSES:Apostole of Peace=2
+Delay Poison.MOD	CLASSES:Apostole of Peace=2
+Eagle's Splendor.MOD	CLASSES:Apostole of Peace=2
+Ease Pain.MOD	CLASSES:Apostole of Peace=2
+Enthrall.MOD	CLASSES:Apostole of Peace=2
+Glorious Raiment.MOD	CLASSES:Apostole of Peace=2
+Restoration (Lesser).MOD	CLASSES:Apostole of Peace=2
+Make Whole.MOD	CLASSES:Apostole of Peace=2
+Owl's Wisdom.MOD	CLASSES:Apostole of Peace=2
+Remove Paralysis.MOD	CLASSES:Apostole of Peace=2
+Resist Energy.MOD	CLASSES:Apostole of Peace=2
+Shield Other.MOD	CLASSES:Apostole of Peace=2
+Silence.MOD	CLASSES:Apostole of Peace=2
+Status.MOD	CLASSES:Apostole of Peace=2
+Yoke of Mercy.MOD	CLASSES:Apostole of Peace=2
+Zone of Truth.MOD	CLASSES:Apostole of Peace=2
+Blessed Sight.MOD	CLASSES:Apostole of Peace=3
+Create Food and Water.MOD	CLASSES:Apostole of Peace=3
+Cure Serious Wounds.MOD	CLASSES:Apostole of Peace=3
+Dispel Magic.MOD	CLASSES:Apostole of Peace=3
+Helping Hand.MOD	CLASSES:Apostole of Peace=3
+Invisibility Purge.MOD	CLASSES:Apostole of Peace=3
+Magic Circle against Evil.MOD	CLASSES:Apostole of Peace=3
+Magic Vestment.MOD	CLASSES:Apostole of Peace=3
+Meld into Stone.MOD	CLASSES:Apostole of Peace=3
+Prayer.MOD	CLASSES:Apostole of Peace=3
+Protection from Energy.MOD	CLASSES:Apostole of Peace=3
+Refreshment.MOD	CLASSES:Apostole of Peace=3
+Remove Blindness/Deafness.MOD	CLASSES:Apostole of Peace=3
+Remove Curse.MOD	CLASSES:Apostole of Peace=3
+Remove Disease.MOD	CLASSES:Apostole of Peace=3
+Remove Nausea.MOD	CLASSES:Apostole of Peace=3
+Water Breathing.MOD	CLASSES:Apostole of Peace=3
+Water Walk.MOD	CLASSES:Apostole of Peace=3
+Wind Wall.MOD	CLASSES:Apostole of Peace=3
+Air Walk.MOD	CLASSES:Apostole of Peace=4
+Blood of the Martyr.MOD	CLASSES:Apostole of Peace=4
+Control Water.MOD	CLASSES:Apostole of Peace=4
+Cure Critical Wounds.MOD	CLASSES:Apostole of Peace=4
+Death Ward.MOD	CLASSES:Apostole of Peace=4
+Discern Lies.MOD	CLASSES:Apostole of Peace=4
+Dismissal.MOD	CLASSES:Apostole of Peace=4
+Divination.MOD	CLASSES:Apostole of Peace=4
+Freedom of Movement.MOD	CLASSES:Apostole of Peace=4
+Good Hope.MOD	CLASSES:Apostole of Peace=4
+Status (Greater).MOD	CLASSES:Apostole of Peace=4
+Imbue with Spell Ability.MOD	CLASSES:Apostole of Peace=4
+Aspect of the Deity (Lesser).MOD	CLASSES:Apostole of Peace=4
+Planar Ally (Lesser).MOD	CLASSES:Apostole of Peace=4
+Neutralize Poison.MOD	CLASSES:Apostole of Peace=4
+Remove Fatigue.MOD	CLASSES:Apostole of Peace=4
+Repel Vermin.MOD	CLASSES:Apostole of Peace=4
+Restoration.MOD	CLASSES:Apostole of Peace=4
+Sending.MOD	CLASSES:Apostole of Peace=4
+Spell Immunity.MOD	CLASSES:Apostole of Peace=4
+Sustain.MOD	CLASSES:Apostole of Peace=4
+Tongues.MOD	CLASSES:Apostole of Peace=4
+Atonement.MOD	CLASSES:Apostole of Peace=5
+Break Enchantment.MOD	CLASSES:Apostole of Peace=5
+Commune.MOD	CLASSES:Apostole of Peace=5
+Cure Light Wounds (Mass).MOD	CLASSES:Apostole of Peace=5
+Dispel Evil.MOD	CLASSES:Apostole of Peace=5
+Energetic Healing.MOD	CLASSES:Apostole of Peace=5
+Command (Greater).MOD	CLASSES:Apostole of Peace=5
+Hallow.MOD	CLASSES:Apostole of Peace=5
+Mark of Justice.MOD	CLASSES:Apostole of Peace=5
+Plane Shift.MOD	CLASSES:Apostole of Peace=5
+Raise Dead.MOD	CLASSES:Apostole of Peace=5
+Sacred Guardian.MOD	CLASSES:Apostole of Peace=5
+Scrying.MOD	CLASSES:Apostole of Peace=5
+Spell Resistance.MOD	CLASSES:Apostole of Peace=5
+Symbol of Sleep.MOD	CLASSES:Apostole of Peace=5
+True Seeing.MOD	CLASSES:Apostole of Peace=5
+Wall of Stone.MOD	CLASSES:Apostole of Peace=5
+Antilife Shell.MOD	CLASSES:Apostole of Peace=6
+Aspect of the Deity.MOD	CLASSES:Apostole of Peace=6
+Banishment.MOD	CLASSES:Apostole of Peace=6
+Bear's Endurance (Mass).MOD	CLASSES:Apostole of Peace=6
+Celestial Blood.MOD	CLASSES:Apostole of Peace=6
+Cure Moderate Wounds (Mass).MOD	CLASSES:Apostole of Peace=6
+Eagle's Splendor (Mass).MOD	CLASSES:Apostole of Peace=6
+Forbiddance.MOD	CLASSES:Apostole of Peace=6
+Geas/Quest.MOD	CLASSES:Apostole of Peace=6
+Dispel Magic (Greater).MOD	CLASSES:Apostole of Peace=6
+Heal.MOD	CLASSES:Apostole of Peace=6
+Heroes' Feast.MOD	CLASSES:Apostole of Peace=6
+Owl's Wisdom (Mass).MOD	CLASSES:Apostole of Peace=6
+Planar Ally.MOD	CLASSES:Apostole of Peace=6
+Symbol of Persuasion.MOD	CLASSES:Apostole of Peace=6
+Wind Walk.MOD	CLASSES:Apostole of Peace=6
+Word of Recall.MOD	CLASSES:Apostole of Peace=6
+Bastion of Good.MOD	CLASSES:Apostole of Peace=7
+Control Weather.MOD	CLASSES:Apostole of Peace=7
+Ethereal Jaunt.MOD	CLASSES:Apostole of Peace=7
+Restoration (Greater).MOD	CLASSES:Apostole of Peace=7
+Scrying (Greater).MOD	CLASSES:Apostole of Peace=7
+Cure Serious Wounds (Mass).MOD	CLASSES:Apostole of Peace=7
+Refuge.MOD	CLASSES:Apostole of Peace=7
+Regenerate.MOD	CLASSES:Apostole of Peace=7
+Repulsion.MOD	CLASSES:Apostole of Peace=7
+Resurrection.MOD	CLASSES:Apostole of Peace=7
+Shield of the Archons.MOD	CLASSES:Apostole of Peace=7
+Antimagic Field.MOD	CLASSES:Apostole of Peace=8
+Discern Location.MOD	CLASSES:Apostole of Peace=8
+Planar Ally (Greater).MOD	CLASSES:Apostole of Peace=8
+Holy Aura.MOD	CLASSES:Apostole of Peace=8
+Cure Critical Wounds (Mass).MOD	CLASSES:Apostole of Peace=8
+Astral Projection.MOD	CLASSES:Apostole of Peace=9
+End to Strife.MOD	CLASSES:Apostole of Peace=9
+Etherealness.MOD	CLASSES:Apostole of Peace=9
+Gate.MOD	CLASSES:Apostole of Peace=9
+Aspect of the Deity (Greater).MOD	CLASSES:Apostole of Peace=9
+Heal (Mass).MOD	CLASSES:Apostole of Peace=9
+Miracle.MOD	CLASSES:Apostole of Peace=9
+True Resurrection.MOD	CLASSES:Apostole of Peace=9
+Calm Animals.MOD	CLASSES:Beloved of Valarian=1
+Charm Animal.MOD	CLASSES:Beloved of Valarian=1
+Cure Light Wounds.MOD	CLASSES:Beloved of Valarian=1
+Delay Poison.MOD	CLASSES:Beloved of Valarian=1
+Detect Poison.MOD	CLASSES:Beloved of Valarian=1
+Detect Snares and Pits.MOD	CLASSES:Beloved of Valarian=1
+Entangle.MOD	CLASSES:Beloved of Valarian=1
+Eyes of the Avoral.MOD	CLASSES:Beloved of Valarian=1
+Longstrider.MOD	CLASSES:Beloved of Valarian=1
+Pass without Trace.MOD	CLASSES:Beloved of Valarian=1
+Speak with Animals.MOD	CLASSES:Beloved of Valarian=1
+Summon Nature's Ally I.MOD	CLASSES:Beloved of Valarian=1
+Barkskin.MOD	CLASSES:Beloved of Valarian=2
+Cure Moderate Wounds.MOD	CLASSES:Beloved of Valarian=2
+Eagle's Splendor.MOD	CLASSES:Beloved of Valarian=2
+Ease Pain.MOD	CLASSES:Beloved of Valarian=2
+Hold Animal.MOD	CLASSES:Beloved of Valarian=2
+Restoration (Lesser).MOD	CLASSES:Beloved of Valarian=2
+Owl's Wisdom.MOD	CLASSES:Beloved of Valarian=2
+Remove Addiction.MOD	CLASSES:Beloved of Valarian=2
+Shield Other.MOD	CLASSES:Beloved of Valarian=2
+Summon Nature's Ally II.MOD	CLASSES:Beloved of Valarian=2
+Zone of Truth.MOD	CLASSES:Beloved of Valarian=2
+Cure Serious Wounds.MOD	CLASSES:Beloved of Valarian=3
+Darkvision.MOD	CLASSES:Beloved of Valarian=3
+Discern Lies.MOD	CLASSES:Beloved of Valarian=3
+Heart's Ease.MOD	CLASSES:Beloved of Valarian=3
+Neutralize Poison.MOD	CLASSES:Beloved of Valarian=3
+Remove Disease.MOD	CLASSES:Beloved of Valarian=3
+Summon Nature's Ally III.MOD	CLASSES:Beloved of Valarian=3
+Water Walk.MOD	CLASSES:Beloved of Valarian=3
+Blinding Beauty.MOD	CLASSES:Beloved of Valarian=4
+Commune with Nature.MOD	CLASSES:Beloved of Valarian=4
+Cure Critical Wounds.MOD	CLASSES:Beloved of Valarian=4
+Dispel Evil.MOD	CLASSES:Beloved of Valarian=4
+Freedom of Movement.MOD	CLASSES:Beloved of Valarian=4
+Nondetection.MOD	CLASSES:Beloved of Valarian=4
+Restoration.MOD	CLASSES:Beloved of Valarian=4
+Spear of Valarian.MOD	CLASSES:Beloved of Valarian=4
+Summon Nature's Ally IV.MOD	CLASSES:Beloved of Valarian=4
+Bless.MOD	CLASSES:Champion of Gwynharwyf=1
+Bless Weapon.MOD	CLASSES:Champion of Gwynharwyf=1
+Cure Light Wounds.MOD	CLASSES:Champion of Gwynharwyf=1
+Detect Poison.MOD	CLASSES:Champion of Gwynharwyf=1
+Detect Undead.MOD	CLASSES:Champion of Gwynharwyf=1
+Divine Favor.MOD	CLASSES:Champion of Gwynharwyf=1
+Divine Sacrifice.MOD	CLASSES:Champion of Gwynharwyf=1
+Endure Elements.MOD	CLASSES:Champion of Gwynharwyf=1
+Restoration (Lesser).MOD	CLASSES:Champion of Gwynharwyf=1
+Magic Weapon.MOD	CLASSES:Champion of Gwynharwyf=1
+Protection from Evil.MOD	CLASSES:Champion of Gwynharwyf=1
+Read Magic.MOD	CLASSES:Champion of Gwynharwyf=1
+Remove Fear.MOD	CLASSES:Champion of Gwynharwyf=1
+Resistance.MOD	CLASSES:Champion of Gwynharwyf=1
+Virtue.MOD	CLASSES:Champion of Gwynharwyf=1
+Bull's Strength.MOD	CLASSES:Champion of Gwynharwyf=2
+Delay Poison.MOD	CLASSES:Champion of Gwynharwyf=2
+Eagle's Splendor.MOD	CLASSES:Champion of Gwynharwyf=2
+Owl's Wisdom.MOD	CLASSES:Champion of Gwynharwyf=2
+Remove Paralysis.MOD	CLASSES:Champion of Gwynharwyf=2
+Resist Energy.MOD	CLASSES:Champion of Gwynharwyf=2
+Shield Other.MOD	CLASSES:Champion of Gwynharwyf=2
+Warcry.MOD	CLASSES:Champion of Gwynharwyf=2
+Blessed Sight.MOD	CLASSES:Champion of Gwynharwyf=3
+Cure Moderate Wounds.MOD	CLASSES:Champion of Gwynharwyf=3
+Daylight.MOD	CLASSES:Champion of Gwynharwyf=3
+Discern Lies.MOD	CLASSES:Champion of Gwynharwyf=3
+Dispel Magic.MOD	CLASSES:Champion of Gwynharwyf=3
+Magic Circle against Evil.MOD	CLASSES:Champion of Gwynharwyf=3
+Prayer.MOD	CLASSES:Champion of Gwynharwyf=3
+Remove Blindness/Deafness.MOD	CLASSES:Champion of Gwynharwyf=3
+Remove Curse.MOD	CLASSES:Champion of Gwynharwyf=3
+Blood of the Martyr.MOD	CLASSES:Champion of Gwynharwyf=4
+Break Enchantment.MOD	CLASSES:Champion of Gwynharwyf=4
+Cure Serious Wounds.MOD	CLASSES:Champion of Gwynharwyf=4
+Death Ward.MOD	CLASSES:Champion of Gwynharwyf=4
+Dispel Evil.MOD	CLASSES:Champion of Gwynharwyf=4
+Freedom of Movement.MOD	CLASSES:Champion of Gwynharwyf=4
+Glory of the Martyr.MOD	CLASSES:Champion of Gwynharwyf=4
+Holy Sword.MOD	CLASSES:Champion of Gwynharwyf=4
+Neutralize Poison.MOD	CLASSES:Champion of Gwynharwyf=4
+Restoration.MOD	CLASSES:Champion of Gwynharwyf=4
+Sword of Conscience.MOD	CLASSES:Champion of Gwynharwyf=4
+Charm Person.MOD	CLASSES:Emissary of Barachiel=1
+Comprehend Languages.MOD	CLASSES:Emissary of Barachiel=1
+Cure Light Wounds.MOD	CLASSES:Emissary of Barachiel=1
+Hypnotism.MOD	CLASSES:Emissary of Barachiel=1
+Magic Mouth.MOD	CLASSES:Emissary of Barachiel=1
+Message.MOD	CLASSES:Emissary of Barachiel=1
+Protection from Chaos.MOD	CLASSES:Emissary of Barachiel=1
+Protection from Evil.MOD	CLASSES:Emissary of Barachiel=1
+Ray of Hope.MOD	CLASSES:Emissary of Barachiel=1
+Sanctuary.MOD	CLASSES:Emissary of Barachiel=1
+Sleep.MOD	CLASSES:Emissary of Barachiel=1
+Ventriloquism.MOD	CLASSES:Emissary of Barachiel=1
+Animal Messenger.MOD	CLASSES:Emissary of Barachiel=2
+Blindness/Deafness.MOD	CLASSES:Emissary of Barachiel=2
+Blur.MOD	CLASSES:Emissary of Barachiel=2
+Calm Emotions.MOD	CLASSES:Emissary of Barachiel=2
+Cat's Grace.MOD	CLASSES:Emissary of Barachiel=2
+Cure Moderate Wounds.MOD	CLASSES:Emissary of Barachiel=2
+Detect Thoughts.MOD	CLASSES:Emissary of Barachiel=2
+Elation.MOD	CLASSES:Emissary of Barachiel=2
+Enthrall.MOD	CLASSES:Emissary of Barachiel=2
+Eagle's Splendor.MOD	CLASSES:Emissary of Barachiel=2
+Fox's Cunning.MOD	CLASSES:Emissary of Barachiel=2
+Glitterdust.MOD	CLASSES:Emissary of Barachiel=2
+Hold Person.MOD	CLASSES:Emissary of Barachiel=2
+Hypnotic Pattern.MOD	CLASSES:Emissary of Barachiel=2
+Silence.MOD	CLASSES:Emissary of Barachiel=2
+Suggestion.MOD	CLASSES:Emissary of Barachiel=2
+Tongues.MOD	CLASSES:Emissary of Barachiel=2
+Whispering Wind.MOD	CLASSES:Emissary of Barachiel=2
+Charm Monster.MOD	CLASSES:Emissary of Barachiel=3
+Clairaudience/Clairvoyance.MOD	CLASSES:Emissary of Barachiel=3
+Cure Serious Wounds.MOD	CLASSES:Emissary of Barachiel=3
+Daylight.MOD	CLASSES:Emissary of Barachiel=3
+Deep Slumber.MOD	CLASSES:Emissary of Barachiel=3
+Dispel Magic.MOD	CLASSES:Emissary of Barachiel=3
+Good Hope.MOD	CLASSES:Emissary of Barachiel=3
+Haste.MOD	CLASSES:Emissary of Barachiel=3
+Geas (Lesser).MOD	CLASSES:Emissary of Barachiel=3
+Refreshment.MOD	CLASSES:Emissary of Barachiel=3
+Remove Curse.MOD	CLASSES:Emissary of Barachiel=3
+Scrying.MOD	CLASSES:Emissary of Barachiel=3
+See Invisibility.MOD	CLASSES:Emissary of Barachiel=3
+Atonement.MOD	CLASSES:Emissary of Barachiel=4
+Break Enchantment.MOD	CLASSES:Emissary of Barachiel=4
+Cure Critical Wounds.MOD	CLASSES:Emissary of Barachiel=4
+Dream.MOD	CLASSES:Emissary of Barachiel=4
+Heaven's Trumpet.MOD	CLASSES:Emissary of Barachiel=4
+Heroic Valor.MOD	CLASSES:Emissary of Barachiel=4
+Hold Monster.MOD	CLASSES:Emissary of Barachiel=4
+Sending.MOD	CLASSES:Emissary of Barachiel=4
+Bless Weapon.MOD	CLASSES:Slayer of Domiel=1
+#Change Self.MOD	CLASSES:Slayer of Domiel=1
+Disguise Self.MOD	CLASSES:Slayer of Domiel=1
+Deathwatch.MOD	CLASSES:Slayer of Domiel=1
+Divine Favor.MOD	CLASSES:Slayer of Domiel=1
+Ghost Sound.MOD	CLASSES:Slayer of Domiel=1
+Obscuring Mist.MOD	CLASSES:Slayer of Domiel=1
+Spider Climb.MOD	CLASSES:Slayer of Domiel=1
+Vision of Heaven.MOD	CLASSES:Slayer of Domiel=1
+Alter Self.MOD	CLASSES:Slayer of Domiel=2
+Darkness.MOD	CLASSES:Slayer of Domiel=2
+Gentle Repose.MOD	CLASSES:Slayer of Domiel=2
+Pass without Trace.MOD	CLASSES:Slayer of Domiel=2
+Blessed Sight.MOD	CLASSES:Slayer of Domiel=3
+Deeper Darkness.MOD	CLASSES:Slayer of Domiel=3
+Invisibility.MOD	CLASSES:Slayer of Domiel=3
+Misdirection.MOD	CLASSES:Slayer of Domiel=3
+Nondetection.MOD	CLASSES:Slayer of Domiel=3
+Speak with Dead.MOD	CLASSES:Slayer of Domiel=3
+Death Ward.MOD	CLASSES:Slayer of Domiel=4
+Dimension Door.MOD	CLASSES:Slayer of Domiel=4
+Freedom of Movement.MOD	CLASSES:Slayer of Domiel=4
+Holy Sword.MOD	CLASSES:Slayer of Domiel=4
+Invisibility (Greater).MOD	CLASSES:Slayer of Domiel=4
+Sword of Conscience.MOD	CLASSES:Slayer of Domiel=4
+Bless.MOD	CLASSES:Vassal of Bahamut=1
+Bless Weapon.MOD	CLASSES:Vassal of Bahamut=1
+Divine Favor.MOD	CLASSES:Vassal of Bahamut=1
+Endure Elements.MOD	CLASSES:Vassal of Bahamut=1
+Lantern Light.MOD	CLASSES:Vassal of Bahamut=1
+Protection from Evil.MOD	CLASSES:Vassal of Bahamut=1
+Shield of Faith.MOD	CLASSES:Vassal of Bahamut=1
+Align Weapon.MOD	CLASSES:Vassal of Bahamut=2
+Bear's Endurance.MOD	CLASSES:Vassal of Bahamut=2
+Bull's Strength.MOD	CLASSES:Vassal of Bahamut=2
+#Change Self.MOD	CLASSES:Vassal of Bahamut=2
+Disguise Self.MOD	CLASSES:Vassal of Bahamut=2
+Resist Energy.MOD	CLASSES:Vassal of Bahamut=2
+Shield Other.MOD	CLASSES:Vassal of Bahamut=2
+Undetectable Alignment.MOD	CLASSES:Vassal of Bahamut=2
+Discern Lies.MOD	CLASSES:Vassal of Bahamut=3
+Magic Circle against Evil.MOD	CLASSES:Vassal of Bahamut=3
+Protection from Energy.MOD	CLASSES:Vassal of Bahamut=3
+Refreshment.MOD	CLASSES:Vassal of Bahamut=3
+Searing Light.MOD	CLASSES:Vassal of Bahamut=3
+Dispel Evil.MOD	CLASSES:Vassal of Bahamut=4
+Divination.MOD	CLASSES:Vassal of Bahamut=4
+Divine Power.MOD	CLASSES:Vassal of Bahamut=4
+Holy Sword.MOD	CLASSES:Vassal of Bahamut=4
+Tongues.MOD	CLASSES:Vassal of Bahamut=4
+
+Baleful Polymorph.COPY=Fireball ~ Scepter of Evil
