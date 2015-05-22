@@ -1,11 +1,18 @@
 #Abilitygroup:Feat Ability categories																						
 ABILITYCATEGORY:Ability Score Enhancement	CATEGORY:Special Ability	TYPE:AbilityScoreEnhancement	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ability Score Enhancements			DISPLAYLOCATION:Class Features
-ABILITYCATEGORY:Celestial Familiar Selection	CATEGORY:Internal	TYPE:CelestialFamiliarSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Familiar Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Celestial Familiar Selection	CATEGORY:Internal	TYPE:CelestialFamiliarSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Familiar Selection			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Exalted Companion Selection	CATEGORY:Internal	TYPE:ExaltedCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Exalted Companion Selection			DISPLAYLOCATION:Class Features
 
 #Abilitygroup:Class Ability categories																						
 ABILITYCATEGORY:Anointed Knight Class Feature	CATEGORY:Special Ability	TYPE:AnointedKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Apostole Of Peace Class Feature	CATEGORY:Special Ability	TYPE:ApostoleOfPeaceClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Apostole Of Peace Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Beloved of Valarian Class Feature	CATEGORY:Special Ability	TYPE:BelovedOfValarianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Beloved of Valarian Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Celestial Mystic Class Feature	CATEGORY:Special Ability	TYPE:CelestialMysticClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Mystic Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Champion of Gwynharwyf Class Feature	CATEGORY:Special Ability	TYPE:ChampionOfGwynharwyfClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Champion Of Gwynharwyf Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Defender of Sealtiel Class Feature	CATEGORY:Special Ability	TYPE:DefenderOfSealtielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Defender of Sealtiel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Emissary of Barachiel Class Feature	CATEGORY:Special Ability	TYPE:EmissaryOfBarachiel ClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Emissary of Barachiel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Exalted Arcanist Class Feature	CATEGORY:Special Ability	TYPE:ExaltedArcanistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Exalted Arcanist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fist of Raziel Class Feature	CATEGORY:Special Ability	TYPE:FistOfRazielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fist of Raziel Class Features			DISPLAYLOCATION:Class Features
 
 #Abilitygroup:Template Ability categories																						
 
@@ -15,3 +22,5 @@ ABILITYCATEGORY:Anoint Ancestral Weapon	CATEGORY:Special Ability	TYPE:AnointAnce
 ABILITYCATEGORY:Anointed Knight Feat	CATEGORY:FEAT	TYPE:AnointedKnight	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Feats			DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Censure Fiends	CATEGORY:Special Ability	TYPE:CensureFiends	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Censure Fiends			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Call Unicorn Selection	CATEGORY:Internal	TYPE:CallUnicornSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Unicorn Selections			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spell Knowledge Choice	CATEGORY:Special Ability	TYPE:SpellKnowledgeChoice	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Spell Knowledge Choices	DISPLAYLOCATION:Class Feature
+ABILITYCATEGORY:Initiate Of Pistis Sophia Feat	CATEGORY:FEAT	TYPE:InitiateOfPistisSophia	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Initiate Of Pistis Sophia Feats			DISPLAYLOCATION:Feats
