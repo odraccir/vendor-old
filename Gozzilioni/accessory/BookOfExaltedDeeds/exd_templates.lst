@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+
+# Template Name		Visible	Define				Modify VAR
+Spiritual Body	VISIBLE:YES	SOURCEPAGE:ExD	KEY:Risen Martyr ~ Spiritual Body	RACETYPE:Deathless

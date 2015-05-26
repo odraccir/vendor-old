@@ -17,7 +17,7 @@ CLASS:Anointed Knight	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Craft (Alchemy)
 													
 CLASS:Apostole of Peace	HD:4	TYPE:PC.Prestige	ABB:AoP	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ApostoleOfPeaceLVL|0	BONUS:VAR|ApostoleOfPeaceLVL|CL
 CLASS:Apostole of Peace	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PRESKILL:1,Concentration=10	PRESKILL:1,Diplomacy=6	PREABILITY:4,CATEGORY=FEAT,Sacred Vow,Vow of Nonviolence,Vow of Peace,Vow of Poverty								
-CLASS:Apostole of Peace	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Gather Information|Handle Animal|Heal|TYPE.Knowledge|Listen|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Speak Language|Spellcraft|Spot											
+CLASS:Apostole of Peace	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE=Craft|Diplomacy|Escape Artist|Gather Information|Handle Animal|Heal|TYPE=Knowledge|Listen|TYPE.Perform|TYPE=Profession|Search|Sense Motive|Speak Language|Spellcraft|Spot											
 CLASS:Apostole of Peace	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Apostole of Peace|((max(CASTERLEVEL.TOTAL,0))/2)								
 1				ABILITY:Apostole of Peace Class Feature|AUTOMATIC|Apostole of Peace ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ApostoleOfPeaceProficiencies									
 1				ABILITY:Apostole of Peace Class Feature|AUTOMATIC|Apostole of Peace ~ Spellcasting									
@@ -70,7 +70,7 @@ CLASS:Beloved of Valarian	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELL
 													
 CLASS:Celestial Mystic	HD:4	TYPE:PC.Prestige	ABB:Cmy	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:CelestialMysticLVL|0	BONUS:VAR|CelestialMysticLVL|CL
 CLASS:Celestial Mystic	PREALIGN:LG	PRESKILL:2,Knowledge (Arcana)=4,Knowledge (The Planes)=4	PRESKILL:2,Knowledge (Religion)=6,Spellcraft=6	PREABILITY:3,CATEGORY=FEAT,Servant of the Heavens,Sacred Vow,Vow of Abstinence	PRESPELLTYPE:1,ANY=4								
-CLASS:Celestial Mystic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Spellcraft											
+CLASS:Celestial Mystic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Spellcraft											
 1				ABILITY:Celestial Mystic Class Feature|AUTOMATIC|Celestial Mystic ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CelestialMysticProficiencies									
 #													
 1				ABILITY:Celestial Mystic Class Feature|AUTOMATIC|Celestial Mystic ~ Blessing of the Silver Heaven|!PREABILITY:1,CATEGORY=ACF,TYPE.CelestialMysticBlessingOfTheSilverHeaven									
@@ -94,7 +94,7 @@ CLASS:Celestial Mystic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy
 													
 CLASS:Champion of Gwynharwyf	HD:12	TYPE:PC.Prestige	ABB:CoG	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ChamionOfGwyharwyfLVL|0	BONUS:VAR|ChamionOfGwyharwyfLVL|CL
 CLASS:Champion of Gwynharwyf	PREALIGN:CG	PREATT:6	PRESKILL:1,Intimidate=9	PREABILITY:2,CATEGORY=FEAT,Knight of Stars,Righteous Wrath									
-CLASS:Champion of Gwynharwyf	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Listen|Ride|Survival|Swim											
+CLASS:Champion of Gwynharwyf	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Handle Animal|Intimidate|Jump|Listen|Ride|Survival|Swim											
 CLASS:Champion of Gwynharwyf	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Champion of Gwynharwyf|CL								
 1				ABILITY:Chamion Of Gwyharwyf Class Feature|AUTOMATIC|Chamion Of Gwyharwyf ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ChamionOfGwyharwyfProficiencies									
 1				ABILITY:Chamion Of Gwyharwyf Class Feature|AUTOMATIC|Chamion Of Gwyharwyf ~ Spells									
@@ -122,7 +122,7 @@ CLASS:Champion of Gwynharwyf	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSP
 													
 CLASS:Defender of Sealtiel	HD:12	TYPE:PC.Prestige	ABB:DoS	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:DefenderOfSealtielLVL|0	BONUS:VAR|DefenderOfSealtielLVL|CL
 CLASS:Defender of Sealtiel	PREALIGN:LG	PREATT:7	PRESKILL:1,Listen=5	PREABILITY:3,CATEGORY=FEAT,Diehard,Endurance,Servant of the Heavens									
-CLASS:Defender of Sealtiel	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Listen|Sense Motive|Spot											
+CLASS:Defender of Sealtiel	STARTSKILLPTS:2	CSKILL:TYPE=Craft|Listen|Sense Motive|Spot											
 1				ABILITY:Defender of Sealtiel Class Feature|AUTOMATIC|Defender of Sealtiel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DefenderOfSealtielProficiencies									
 #													
 1				ABILITY:Defender of Sealtiel Class Feature|AUTOMATIC|Defender of Sealtiel ~ Defensive Stance|!PREABILITY:1,CATEGORY=ACF,TYPE.DefenderOfSealtielDefenciveStance									
@@ -135,7 +135,7 @@ CLASS:Defender of Sealtiel	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Listen|Sense Motive
 													
 CLASS:Emissary of Barachiel	HD:6	TYPE:PC.Prestige	ABB:EoB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:EmissaryOfBarachielLVL|0	BONUS:VAR|EmissaryOfBarachielLVL|CL
 CLASS:Emissary of Barachiel	PREALIGN:LG	PRESKILL:1,Diplomacy=8	PRESKILL:1,Knowledge (The Planes)=4	PREABILITY:2,CATEGORY=FEAT,Servant of the Heavens,Words of Creation									
-CLASS:Emissary of Barachiel	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Diplomacy|Gather Information|TYPE.Knowledge|Listen|TYPE.Perform|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Use Magic Device											
+CLASS:Emissary of Barachiel	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|Gather Information|TYPE=Knowledge|Listen|TYPE.Perform|TYPE=Profession|Sense Motive|Speak Language|Spellcraft|Use Magic Device											
 CLASS:Emissary of Barachiel	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL|Emissary of Barachiel|CL								
 1				ABILITY:Emissary of Barachiel Class Feature|AUTOMATIC|Emissary of Barachiel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EmissaryOfBarachielProficiencies									
 1				ABILITY:Emissary of Barachiel Class Feature|AUTOMATIC|Emissary of Barachiel ~ Spells									
@@ -157,7 +157,7 @@ CLASS:Emissary of Barachiel	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CA
 													
 CLASS:Exalted Arcanist	HD:4	TYPE:PC.Prestige	ABB:ExA	MAXLEVEL:5	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ExaltedArcanistLVL|0	BONUS:VAR|ExaltedArcanistLVL|CL
 CLASS:Exalted Arcanist	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PRESKILL:1,Knowledge (Arcana)=9	PRESKILL:1,Knowledge (Religion)=4	PREABILITY:1,CATEGORY=FEAT,Consecrate Spell,Purify Spell	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=3						
-CLASS:Exalted Arcanist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Diplomacy|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device											
+CLASS:Exalted Arcanist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE=Profession|Sense Motive|Spellcraft|Use Magic Device											
 1				ABILITY:Exalted Arcanist Class Feature|AUTOMATIC|Exalted Arcanist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ExaltedArcanistProficiencies									
 2				ABILITY:Exalted Arcanist Class Feature|AUTOMATIC|Exalted Arcanist ~ Spells									
 #													
@@ -175,7 +175,7 @@ CLASS:Exalted Arcanist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher 
 													
 CLASS:Fist of Raziel	HD:10	TYPE:PC.Prestige	ABB:FiR	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:FistOfRazielLVL|0	BONUS:VAR|FistOfRazielLVL|CL
 CLASS:Fist of Raziel	PREALIGN:LG	PREATT:6	PRESKILL:2,Diplomacy=5,Knowledge (Religion)=5	PREABILITY:2,CATEGORY=FEAT,Power Attack,Servant of the Heavens	PRESPELL:1,Divine Favor								
-CLASS:Fist of Raziel	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive											
+CLASS:Fist of Raziel	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (The Planes)|Knowledge (Religion)|TYPE=Profession|Sense Motive											
 1				ABILITY:Fist of Raziel Class Feature|AUTOMATIC|Fist of Raziel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfRazielProficiencies									
 2				ABILITY:Fist of Raziel Class Feature|AUTOMATIC|Fist of Raziel ~ Spells per Day									
 #													
@@ -212,9 +212,105 @@ CLASS:Initiate of Pistis Sophia	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentrati
 													
 CLASS:Lion of Talsid	HD:8	TYPE:PC.Prestige	ABB:LoT	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:LionOfTalsidLVL|0	BONUS:VAR|LionOfTalsidLVL|CL
 CLASS:Lion of Talsid	PREALIGN:NG	PREATT:4	PRESKILL:2,Knowledge (Nature)=9,Survival=9	PREABILITY:1,CATEGORY=FEAT,Favored of the Companions	PRESPELL:1,Summon Nature's Ally II	PREABILITY:1,CATEGORY=Internal,Animal Companion							
-CLASS:Lion of Talsid	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Listen|Knowledge (Nature)|Ride|Spellcraft|Spot|Survival|Swim											
+CLASS:Lion of Talsid	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Handle Animal|Heal|Listen|Knowledge (Nature)|Ride|Spellcraft|Spot|Survival|Swim											
 1				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidProficiencies									
 1				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Spells per Day									
 #													
 1				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Animal Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidAnimalCompanion									
 1				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Lion's Courage|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidLionSCourage									
+2				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Scent|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidScent									
+3				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Wild Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidWildShape									
+4				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Exalted Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidExaltedCompanion									
+5				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Lion's Pounce|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidLionSPounce									
+#													
+1	ADD:SPELLCASTER|Divine												
+2	ADD:SPELLCASTER|Divine												
+3	ADD:SPELLCASTER|Divine												
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Divine												
+6	ADD:SPELLCASTER|Divine												
+7	ADD:SPELLCASTER|Divine												
+8	ADD:SPELLCASTER|Divine												
+9	ADD:SPELLCASTER|Divine												
+10	ADD:SPELLCASTER|Divine												
+													
+CLASS:Prophet of Erathaol	HD:8	TYPE:PC.Prestige	ABB:PoE	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ProphetOfErathaolLVL|0	BONUS:VAR|ProphetOfErathaolLVL|CL
+CLASS:Prophet of Erathaol	PREALIGN:LG	PRESKILL:1,Knowledge (Arcana)=5	PRESKILL:1,Spellcraft=10	PREABILITY:4,CATEGORY=FEAT,Sacred Vow,Servant of the Heavens,Spell Focus (Divination),Vow of Chastity	PREMULT:1,[PRESPELLTYPE:1,Arcane=4],[PRESPELLTYPE:1,Divine=4]								
+CLASS:Prophet of Erathaol	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE=Profession|Spellcraft											
+1				ABILITY:Prophet of Erathaol Class Feature|AUTOMATIC|Prophet of Erathaol ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ProphetOfErathaolProficiencies									
+2				ABILITY:Prophet of Erathaol Class Feature|AUTOMATIC|Prophet of Erathaol ~ Spells per Day									
+#													
+1				ABILITY:Prophet of Erathaol Class Feature|AUTOMATIC|Prophet of Erathaol ~ Ecstasy|!PREABILITY:1,CATEGORY=ACF,TYPE.ProphetOfErathaolEcstasy									
+#													
+2	ADD:SPELLCASTER|Divine												
+3	ADD:SPELLCASTER|Divine												
+4	ADD:SPELLCASTER|Divine												
+5	ADD:SPELLCASTER|Divine												
+6	ADD:SPELLCASTER|Divine												
+7	ADD:SPELLCASTER|Divine												
+8	ADD:SPELLCASTER|Divine												
+9	ADD:SPELLCASTER|Divine												
+10	ADD:SPELLCASTER|Divine												
+													
+CLASS:Risen Martyr	HD:12	TYPE:PC.Prestige	ABB:Rma	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:RysemMartyrLVL|0	BONUS:VAR|RysemMartyrLVL|CL
+CLASS:Risen Martyr	PREALIGN:LG,NG,CG	PRECHECKBASE:3,Fortitude=2,Reflex=2,Will=2	PRESKILL:1,TYPE.Strength=9,TYPE.Dexterity=9,TYPE.Constitution=9,TYPE.Intelligence=9,TYPE.Wisdom=9,TYPE.Charisma=9	PRELANG:1,Celestial	PREABILITY:1,CATEGORY=FEAT,Nimbus of Light	PREABILITY:2,CATEGORY=FEAT,TYPE=Exalted	PRETEXT:Must have suffered martyrdom and must not have been returned to life.	PRETEMPLATE:1,Risen Martyr ~ Spiritual Body					
+CLASS:Risen Martyr	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Gather Information|Heal|Knowledge (The Planes)|Knowledge (Religion)|Listen|Sense Motive|Spot											
+1				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrProficiencies									
+1				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Code of Conduct									
+#													
+1				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Charisma Score Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrCharismaScoreIncrease									
+1				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Deflection Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrDeflectionBonus									
+1				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Holy Purpose|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrHolyPurpose									
+2				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Bless|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrBless									
+2				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Magic Circle against Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrMagicCircleAgainstEvil									
+4				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Acid Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrAcidImmunity									
+4				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrDetectEvil									
+5				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Protective Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrProtectiveAura									
+6				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Shield Other|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrShieldOther									
+7				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Celestial Brilliance|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrCelestialBrilliance									
+7				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Cold Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrColdImmunity									
+8				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Holy Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrHolyAura									
+9				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Electricity Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrElectricityImmunity									
+10				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Perfection|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrPerfection									
+10				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Final Ascension|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrFinalAscension									
+													
+CLASS:Sentinel of Bharrai	HD:4	TYPE:PC.Prestige	ABB:SeB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SentinelOfBharraiLVL|0	BONUS:VAR|SentinelOfBharraiLVL|CL
+CLASS:Sentinel of Bharrai	PREALIGN:LG,NG,CG	PRESKILL:3,Knowledge (Arcana)=8,Knowledge (Nature)=8,Spellcraft=8	PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Obedience										
+CLASS:Sentinel of Bharrai	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|Decipher Script|Gather Information|Handle Animal|Heal|TYPE=Knowledge|TYPE=Profession|Speak Language|Spellcraft|Survival											
+1				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiProficiencies									
+1				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Spells per Day									
+#													
+1				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Nature-Firendly Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiNatureFriendlySpells									
+1				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Track|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiTrack									
+2				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Energy Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiEnergyResistance									
+3				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Bear Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiBearShape									
+3				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Quickened Call Lightning|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiQuickenedCallLightning									
+5				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Nature's Veil|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiQuickenedNatureSVeil									
+7				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Dire Bear Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiDireBearShape									
+7				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Ursinal's Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiUrsinalSTouch									
+9				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Cavalry of Dire Bears|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiCavalryOfDireBears									
+10				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Quickened Lightning Storm|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiQuickenedLightningStorm									
+#													
+1	ADD:SPELLCASTER|ANY												
+2	ADD:SPELLCASTER|ANY												
+3	ADD:SPELLCASTER|ANY												
+4	ADD:SPELLCASTER|ANY												
+5	ADD:SPELLCASTER|ANY												
+6	ADD:SPELLCASTER|ANY												
+7	ADD:SPELLCASTER|ANY												
+8	ADD:SPELLCASTER|ANY												
+9	ADD:SPELLCASTER|ANY												
+10	ADD:SPELLCASTER|ANY												
+													
+CLASS:Skylord	HD:10	TYPE:PC.Prestige	ABB:Skl	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SkylordLVL|0	BONUS:VAR|SkylordLVL|CL
+CLASS:Skylord	PREALIGN:LG,NG,CG	PRERACE:1,RACESUBTYPE=Elf	PREATT:7	PRESKILL:2,Handle Animal=10,Ride=10	PREABILITY:1,CATEGORY=FEAT,Mounted Combat	PREFEAT:1,CATEGORY=FEAT,Mounted Archery,Ride-By Attack	PREABILITY:1,CATEGORY=FEAT,TYPE=Exalted	PRETEXT:must spend one week living and meditating atop a mountain.					
+CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE=Knowledge|Listen|Ride|Spot|Survival											
+1				ABILITY:Skylord Class Feature|AUTOMATIC|Skylord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SkylordProficiencies									
+#													
+													
+#													
+2	ADD:SPELLCASTER|ANY												
+4	ADD:SPELLCASTER|ANY												
+6	ADD:SPELLCASTER|ANY												
+8	ADD:SPELLCASTER|ANY												
+10	ADD:SPELLCASTER|ANY												

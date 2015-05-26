@@ -2,6 +2,7 @@
 ABILITYCATEGORY:Ability Score Enhancement	CATEGORY:Special Ability	TYPE:AbilityScoreEnhancement	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ability Score Enhancements			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Celestial Familiar Selection	CATEGORY:Internal	TYPE:CelestialFamiliarSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Familiar Selection			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Exalted Companion Selection	CATEGORY:Internal	TYPE:ExaltedCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Exalted Companion Selection			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Flying Mount Selection	CATEGORY:Internal	TYPE:FlyingMountSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Flying Mounts Selection			DISPLAYLOCATION:Class Features
 
 #Abilitygroup:Class Ability categories																						
 ABILITYCATEGORY:Anointed Knight Class Feature	CATEGORY:Special Ability	TYPE:AnointedKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Class Features			DISPLAYLOCATION:Class Features
@@ -13,14 +14,22 @@ ABILITYCATEGORY:Defender of Sealtiel Class Feature	CATEGORY:Special Ability	TYPE
 ABILITYCATEGORY:Emissary of Barachiel Class Feature	CATEGORY:Special Ability	TYPE:EmissaryOfBarachiel ClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Emissary of Barachiel Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Exalted Arcanist Class Feature	CATEGORY:Special Ability	TYPE:ExaltedArcanistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Exalted Arcanist Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Fist of Raziel Class Feature	CATEGORY:Special Ability	TYPE:FistOfRazielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fist of Raziel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Initiate of Pistis Sophia Class Feature	CATEGORY:Special Ability	TYPE:InitiateOfPistisSophiaFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Initiate Of Pistis Sophia Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Lion of Talsid Class Feature	CATEGORY:Special Ability	TYPE:LionOfTalsidFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lion of Talsid Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Prophet of Erathaol Class Feature	CATEGORY:Special Ability	TYPE:ProphetOfErathaolFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Prophet of Erathaol Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Risen Martyr Class Feature	CATEGORY:Special Ability	TYPE:RisenMartyrFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Risen Martyr Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sentinel of Bharrai Class Feature	CATEGORY:Special Ability	TYPE:SentinelOfBharraiFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sentinel of Bharrai Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Skylord Class Feature	CATEGORY:Special Ability	TYPE:SkylordFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Skylord Class Features			DISPLAYLOCATION:Class Features
 
 #Abilitygroup:Template Ability categories																						
 
+#Abilitygroup:Class Feats categories																						
+ABILITYCATEGORY:Anointed Knight Feat	CATEGORY:FEAT	TYPE:AnointedKnight	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Initiate Of Pistis Sophia Feat	CATEGORY:FEAT	TYPE:InitiateOfPistisSophia	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Initiate Of Pistis Sophia Feats			DISPLAYLOCATION:Feats
 #Abilitygroup:Class Feature categories																						
 ABILITYCATEGORY:Anoint Self	CATEGORY:Special Ability	TYPE:AnointSelf	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Selves			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Anoint Ancestral Weapon	CATEGORY:Special Ability	TYPE:AnointAncestralWeapon	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Ancestral Weapons			DISPLAYLOCATION:Class Features
-ABILITYCATEGORY:Anointed Knight Feat	CATEGORY:FEAT	TYPE:AnointedKnight	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Feats			DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Censure Fiends	CATEGORY:Special Ability	TYPE:CensureFiends	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Censure Fiends			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Call Unicorn Selection	CATEGORY:Internal	TYPE:CallUnicornSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Unicorn Selections			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Spell Knowledge Choice	CATEGORY:Special Ability	TYPE:SpellKnowledgeChoice	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Spell Knowledge Choices	DISPLAYLOCATION:Class Feature
-ABILITYCATEGORY:Initiate Of Pistis Sophia Feat	CATEGORY:FEAT	TYPE:InitiateOfPistisSophia	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Initiate Of Pistis Sophia Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Sentinel of Bharrai Energy Resistance	CATEGORY:Special Ability	TYPE:SentinelOfBharraiEnergyResistance	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Sentinel of Gharrai Energy Resistances	DISPLAYLOCATION:Class Feature
