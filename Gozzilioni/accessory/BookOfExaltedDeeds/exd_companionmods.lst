@@ -1,10 +1,10 @@
-SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																																											
 																																														
 FOLLOWER:CelestialFamiliarLVL=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Empathic Link		COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES					TEMPLATE:Celestial Familiar Race Change																																
 FOLLOWER:CelestialFamiliarLVL=1	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Improved Evasion|Familiar ~ Share Spells						DEFINESTAT:MINVALUE|INT|5+((mastervar("CelestualFamiliarLVL")+1)/2)		BONUS:COMBAT|AC|(mastervar("CelestialFamiliarLVL")+1)/2|TYPE=NaturalArmor.STACK																																		
 FOLLOWER:CelestialFamiliarLVL=3	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Deliver Touch Spells																																										
 FOLLOWER:CelestialFamiliarLVL=5	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak with Master																																										
-FOLLOWER:CelestialFamiliarLVL=7	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak with Own Kind																																										
+FOLLOWER:CelestialFamiliarLVL=7	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak with Animals of Its Kind																																										
 FOLLOWER:CelestialFamiliarLVL=11	TYPE:Celestial Familiar		SR:MasterLVL+5																																											
 FOLLOWER:CelestialFamiliarLVL=13	TYPE:Celestial Familiar			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Scry on Familiar																																										
 																																														
@@ -21,6 +21,11 @@ FOLLOWER:ExaltedCompanionLVL=15	TYPE:Exalted Companion	HD:2		ABILITY:Special Abi
 FOLLOWER:ExaltedCompanionLVL=18	TYPE:Exalted Companion	HD:2																																	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	BONUS:STAT|DEX|1	BONUS:VAR|BonusTricks|1								
 #																																														
 FOLLOWER:ExaltedCompanionLVL=1	TYPE:Exalted Companion	PRERACE:1,RACETYPE:Animal	TEMPLATE:Celestial																																											
-
-FOLLOWER:UnicornMountLVL=1	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|Unicorn Mount ~ Telepathic Bond																		
-FOLLOWER:UnicornMountLVL=6	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|Unicorn Mount ~ Celestial Charger																		
+																																														
+FOLLOWER:UnicornMountLVL=1	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|Unicorn Mount ~ Telepathic Bond																																												
+FOLLOWER:UnicornMountLVL=6	TYPE:Unicorn Mount	ABILITY:Special Ability|AUTOMATIC|Unicorn Mount ~ Celestial Charger																																												
+																																														
+FOLLOWER:FlyingMountLVL=1	TYPE:Flying Mount	HD:2	TEMPLATE:Celestial	ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Empathic Link|Flying Mount ~ Improved Natural Attack|Flying Mount ~ Share Spells						BONUS:STAT|STR|(mastervar("FlyingMountLVL")+2)/3		BONUS:COMBAT|AC|2*((mastervar("FlyingMountLVL")+5)/3)|TYPE=NaturalArmor.STACK																																		
+FOLLOWER:FlyingMountLVL=4	TYPE:Flying Mount	HD:2		ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Improved Fly Speed|Flying Mount ~ Deadly Charge																																										
+FOLLOWER:FlyingMountLVL=7	TYPE:Flying Mount	HD:2	SR:MasterLVL+5	ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Spell Resistance|Flying Mount ~ Immunities																																										
+FOLLOWER:FlyingMountLVL=10	TYPE:Flying Mount	HD:2		ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Bonus Feat																																										

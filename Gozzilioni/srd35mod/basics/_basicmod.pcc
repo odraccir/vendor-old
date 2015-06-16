@@ -18,6 +18,7 @@ SOURCEDATE:2003-07
 ABILITY:g_abilities.lst
 ABILITYCATEGORY:g_abilitycategories.lst
 CLASS:g_classes.lst
+DOMAIN:g_domains.lst
 EQUIPMENT:g_equip.lst
 EQUIPMOD:g_equipmods.lst
 KIT:g_kits.lst

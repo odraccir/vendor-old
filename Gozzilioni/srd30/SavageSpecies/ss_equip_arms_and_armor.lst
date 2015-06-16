@@ -109,6 +109,6 @@ Pixie Arrow (Sleep/20)			TYPE:Enhancement.Ammunition.Specific.Arrow	COST:1	WT:.3
 # Armor Specific																											
 Kyton Armor		PROFICIENCY:ARMOR|Chain Shirt	TYPE:Enhancement.Armor.Light.Suit.Specific	COST:13980	WT:25	ACCHECK:-2	EQMOD:MITHRAL_ARMR_LT.PLUS1A.EQ_COST_ADJ|1150	MAXDEX:4	SOURCEPAGE:SS	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE																
 Serpent Armor		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:21660	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS3A.EQ_COST_ADJ|9150	MAXDEX:6	SOURCEPAGE:SS	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	BONUS:SAVE|Reflex|2|TYPE=Insight	ABILITY:FEAT|VIRTUAL|Combat Reflexes														
-Wight Armor		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:26175	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS1A.SHDW.EQ_COST_ADJ|4900	MAXDEX:6	SOURCEPAGE:SS	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	VISION:Darkvision (60')	SPROP:constant Invisibility To Undead (5th-level cleric)														
+Wight Armor		PROFICIENCY:ARMOR|Leather	TYPE:Enhancement.Armor.Light.Suit.Specific.Nonmetal	COST:26175	WT:15	ACCHECK:0	EQMOD:LEATHER.MWORKA.PLUS1A.SHDW.EQ_COST_ADJ|4900	MAXDEX:6	SOURCEPAGE:SS	SPELLFAILURE:10	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE	VISION:Darkvision (60')	SPROP:constant Hide from Undead spell (5th-level cleric)														
 																											
 # Shield Specific																											

@@ -27,7 +27,8 @@ Lasso		PROFICIENCY:WEAPON|Lasso	TYPE:Weapon.Exotic.Ranged.Standard.OneHanded.Sub
 # Ranged																										
 																										
 # Armor 																										
-																										
+# Platinum Armor		PROFICIENCY:ARMOR|Scale Mail	TYPE:Armor.Medium.Suit.Specific	COST:0	WT:25	ACCHECK:-2	EQMOD:STEEL.MWORKA.BAHAPLT_A	MAXDEX:4	SOURCEPAGE:EXD	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE			
+Platinum Armor	KEY:Vassal of Bahamut ~ Platinum Armor	PROFICIENCY:ARMOR|Scale Mail	TYPE:Armor.Medium.Suit.Specific	COST:0	WT:25	ACCHECK:-2	EQMOD:STEEL.MWORKA.BAHAPLT_A	MAXDEX:4	SOURCEPAGE:ExD	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor	SIZE:M	PRECLASS:1,Vassal of Bahamut=1
 # Shield																										
 																										
 # Arrows																										

@@ -19,7 +19,8 @@ Ysgardian Heartwire	KEY:HEARTWIRE	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor
 ###Block:Traps																										
 																										
 ###Block:Armor Modification																										
-																										
+Bahamut Platinum Armor	KEY:BAHAPLT_A	TYPE:Armor	COST:0	VISIBLE:NO	SOURCEPAGE:EXD		PRETYPE:2,Enhancement,Armor									ASSIGNTOALL:NO	ARMORTYPE:Medium|Light
+
 ###Block:Weapons Modification																										
 																										
 ###Block:Intelligent Items																										

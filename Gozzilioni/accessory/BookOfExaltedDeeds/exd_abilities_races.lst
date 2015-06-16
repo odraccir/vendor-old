@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																													
+																																
+# Ability Name	Category of Ability	TYPE:	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Race Traits ~ Swanmay Swan	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=NoRaceTrait|Flight Maneuverability											BONUS:VAR|Maneuverability|3																		

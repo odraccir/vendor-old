@@ -1,0 +1,24 @@
+#
+# Current Ver: $Revision$
+# Last Editor: $Author$
+# Last Edited: $Date$
+#
+#
+# This file contains Rule Checks that the user can turn on/off in the GUI
+#
+# Format is:
+# Name:aName		VAR:/PARM:aKey		DEFAULT:YES/NO		EXCLUDE:aKey	DESC:optional description
+# Where
+#  aName is used to search the Language.properties file for a DESC to display in the GIU
+#  aKey is the unique key used to store and reference this Rule
+#    -- VAR:aKey can be referenced in .lst files
+#    -- PARM:aKey means it's hardcoded into the Java code
+#  EXCLUDE: prevents two rules from being active at the same time. It also creates a Radio button in the GUI to choose between the two rules
+#  DESC: is optional and if overidden by the Language.properties file from the java code.
+#
+
+#
+# The following are all refereced from the .lst files
+#
+#NAME:CraftItemPenalty			VAR:SYS_CIP			DEFAULT:Yes					DESC:Improper tools incure a -2 circumstance penalty
+NAME:VariantGoodSpells		VAR:EXD_VAR_GOODSPELLS		DEFAULT:No					DESC:Consider the following spells from the PHB to have the good descriptor: good hope and shield other.
