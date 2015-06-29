@@ -15,7 +15,7 @@ SOURCEDATE:2006-04
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #D&D Wiki
-
+RACE:ddw_races.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst
