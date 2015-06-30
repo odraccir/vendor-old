@@ -15,7 +15,12 @@ SOURCEDATE:2006-04
 #PCC:@\d20ogl\srd35\rsrd.pcc
 #
 #D&D Wiki
+COMPANIONMOD:ddw_companionmods.lst
+EQUIPMENT:ddw_equip_arms_and_armor.lst
+EQUIPMOD:ddw_equipmods_enhancing.lst
+ABILITY:ddw_feats.lst
 RACE:ddw_races.lst
+SPELL:ddw_spells.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

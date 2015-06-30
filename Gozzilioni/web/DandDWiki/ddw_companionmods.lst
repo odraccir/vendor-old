@@ -1,0 +1,15 @@
+SOURCELONG:D and D Wiki	SOURCESHORT:ddw	SOURCEWEB:http://www.danddwiki.com																															
+																																	
+###Block:Familiar																																	
+# Class of the Master	Type	Spell Res.		Ability		Copy Masters BAB	Copy Masters Checks	HP formula based on Master	Use Masters skills?	Define		Combat bonus			Main Race Type																		
+MASTERBONUSRACE:Fox	TYPE:Familiar			BONUS:SKILL|Listen|3	BONUS:SKILL|Move Silently|4																												
+#																																	
+FOLLOWER:AnimalCompanionLVL=3	TYPE:Animal Companion	BONUS:SIZEMOD|NUMBER|-1|PRERACE:1,Fox|PREVARGT:TL,2|PREVARLT:TL,6	BONUS:SIZEMOD|NUMBER|-1|PRERACE:1,Fox|PREVARGT:TL,5|PREVARLT:TL,6																														
+FOLLOWER:EnhancedCompanion=1	TYPE:Animal Companion																											BONUS:COMBAT|AC|2|TYPE=Dodge
+#
+FOLLOWER:CadaverousFamiliar=1	TYPE:Familiar	TEMPLATE:CHOOSE:Skeleton|Zombie
+FOLLOWER:EnhancedCompanion=1	TYPE:Familiar																											BONUS:COMBAT|AC|2|TYPE=Dodge
+FOLLOWER:FamiliarFeat=1	TYPE:Familiar																											BONUS:ABILITYPOOL|FEAT|1
+FOLLOWER:TalkingFamiliar=1	TYPE:Familiar																											ABILITY:Special Ability|AUTOMATIC|Talking Familiar
+#
+FOLLOWER:EnhancedCompanion=1	TYPE:Special Mount																											BONUS:COMBAT|AC|2|TYPE=Dodge
