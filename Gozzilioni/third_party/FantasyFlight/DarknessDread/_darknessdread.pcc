@@ -26,7 +26,6 @@ ABILITY:dd_feats.lst
 RACE:dd_races.lst
 SKILL:dd_skills.lst
 SPELL:dd_spells.lst
-TEMPLATE:dd_templates.lst
 HIDETYPE:SKILL|Craft (Beggar)|Perform (Beggar)|Profession (Beggar)|Profession (Gambler)
 
 #BIOSET:my_biosettings.lst

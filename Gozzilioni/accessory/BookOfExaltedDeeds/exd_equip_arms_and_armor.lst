@@ -1,44 +1,61 @@
-SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
-																										
-###Block:Weapons																										
-# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
-# Natural																										
-																										
-# Melee 																										
-Turcheon		PROFICIENCY:WEAPON|Turcheon	TYPE:Weapon.Martial.Melee.Standard.Bludgeoning.OneHanded.Finesseable.Subdual.Sap	COST:2	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:EXD								
-Entangling Pole		PROFICIENCY:WEAPON|Entangling Pole	TYPE:Weapon.Exotic.Melee.Standard.Piercing.Reach.TwoHanded.Polearm	COST:4	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:EXD			REACHMULT:2				SPROP:entangle with a grapple check without attack of opportunity.	
-Grasping Pole		PROFICIENCY:WEAPON|Grasping Pole	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Subdual.Polearm	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:EXD			REACHMULT:2					
-																										
-# Ranged																										
-Lasso		PROFICIENCY:WEAPON|Lasso	TYPE:Weapon.Exotic.Ranged.Standard.OneHanded.Subdual	COST:1	WT:3	WIELD:OneHanded		SIZE:M				EQMOD:LEATHER						SOURCEPAGE:EXD	RANGE:10						SPROP:Entangling weapon	
-																										
-# Armor 																										
-																										
-# Shield																										
-																										
-# Arrows																										
-																										
-###Block:Specific Weapons																										
-###TODO: it's better to copy the original and modify the copy or not?																										
-# Natural																										
-																										
-# Melee 																										
-																										
-# Ranged																										
-																										
-# Armor 																										
-# Platinum Armor		PROFICIENCY:ARMOR|Scale Mail	TYPE:Armor.Medium.Suit.Specific	COST:0	WT:25	ACCHECK:-2	EQMOD:STEEL.MWORKA.BAHAPLT_A	MAXDEX:4	SOURCEPAGE:EXD	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor.REPLACE			
-Platinum Armor	KEY:Vassal of Bahamut ~ Platinum Armor	PROFICIENCY:ARMOR|Scale Mail	TYPE:Armor.Medium.Suit.Specific	COST:0	WT:25	ACCHECK:-2	EQMOD:STEEL.MWORKA.BAHAPLT_A	MAXDEX:4	SOURCEPAGE:ExD	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor	SIZE:M	PRECLASS:1,Vassal of Bahamut=1
-# Shield																										
-																										
-# Arrows																										
-																										
-###Block:Monster Weapons																										
-###TODO: it's better to copy the original and modify the copy or not?																										
-# Melee Specific Weapons																										
-																										
-# Ranged Specific Weapons																										
-																										
-# Armor Specific																										
-																										
-# Shield Specific																										
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																										
+																													
+###Block:Weapons																													
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus			
+# Natural																													
+																													
+# Melee 																													
+Turcheon		PROFICIENCY:WEAPON|Turcheon	TYPE:Weapon.Martial.Melee.Standard.Bludgeoning.OneHanded.Finesseable.Subdual.Sap	COST:2	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:ExD											
+Entangling Pole		PROFICIENCY:WEAPON|Entangling Pole	TYPE:Weapon.Exotic.Melee.Standard.Piercing.Reach.TwoHanded.Polearm	COST:4	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:ExD			REACHMULT:2				SPROP:entangle with a grapple check without attack of opportunity.				
+Grasping Pole		PROFICIENCY:WEAPON|Grasping Pole	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Subdual.Polearm	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:ExD			REACHMULT:2								
+																													
+# Ranged																													
+Lasso		PROFICIENCY:WEAPON|Lasso	TYPE:Weapon.Exotic.Ranged.Standard.OneHanded.Subdual	COST:1	WT:3	WIELD:OneHanded		SIZE:M				EQMOD:LEATHER						SOURCEPAGE:ExD	RANGE:10						SPROP:Entangling weapon				
+																													
+# Armor 																													
+																													
+# Shield																													
+																													
+# Arrows																													
+																													
+###Block:Specific Weapons																													
+###TODO: it's better to copy the original and modify the copy or not?																													
+# Natural																													
+																													
+# Melee 																													
+Celestial Blade		PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Enhancement.Weapon.Melee.Martial.Exotic.Specific.Slashing.Sword	COST:18335	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS3W.LGHT_EMIT.EQ_COST_ADJ|18300						SOURCEPAGE:ExD								BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13			
+Celestial Mace		PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Enhancement.Weapon.Melee.Simple.Specific.Bludgeoning.Mace	COST:50312	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS3W.DISRPT.LGHT_EMIT.EQ_COST_ADJ|50300						SOURCEPAGE:ExD											
+Demondoom		PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Bludgeoning.Hammer	COST:51512	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:C_IRON.PLUS2W.HOLY_M.BANE_M_OUT|Demons.EQ_COST_ADJ|50300						SOURCEPAGE:ExD							SPROP:1/day Blinding strike as Power Word Blind spell.				
+of Arvandor		PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:44315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS2W.EQ_COST_ADJ|8300						SOURCEPAGE:ExD							SPROP:stars, ranged attack, against nonevil creature 1d8 (half nonlethal), against evil creature 1d8 (all lethal)				
+																													
+# Ranged																													
+Bow of the Solars		PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100100	WT:3		SLOTS:2	SIZE:L	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS2W.BOWSTR|4.EQ_COST_ADJ|8700						SOURCEPAGE:ExD	RANGE:110			BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow		SPROP:Arrows fired becomes slaying arrows.				
+																													
+# Arrows																													
+Dart of the Phoenix		PROFICIENCY:WEAPON|Dart	TYPE:Enhancement.Weapon.Simple.Ranged.Specific.Piercing.Thrown.Dart	COST:99400.5	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD.PLUS1W.RETRN.EQ_COST_ADJ|8300						SOURCEPAGE:ExD	RANGE:20						SPROP:Throwing the dart requires a sacrifice of 1d4 STR damage, creature struck must Fort DC 20 or die. If successfull 13d6 fire damage. The creature reform after 2d6 rounds.				
+Hellpiercer			TYPE:Enhancement.Ammunition.Specific.SpecificArrow.Individual	COST:4007	WT:0.15							EQMOD:STEEL.WOOD.PLUS3W.SHK_BR_A.EQ_COST_ADJ|50006			BASEQTY:1	MODS:YES		SOURCEPAGE:ExD							SPROP:head contains a dose of Purified Couatl Venom affliction.				
+																													
+# Armor 																													
+Platinum Armor	KEY:Vassal of Bahamut ~ Platinum Armor	PROFICIENCY:ARMOR|Scale Mail	TYPE:Armor.Medium.Suit.Specific	COST:0	WT:25	ACCHECK:-2	EQMOD:STEEL.MWORKA.BAHAPLT_A	MAXDEX:4	SOURCEPAGE:ExD	SPELLFAILURE:20	BONUS:COMBAT|AC|4|TYPE=Armor	SIZE:M	PRECLASS:1,Vassal of Bahamut=1																
+Devilhusk		PROFICIENCY:ARMOR|Hide	TYPE:Armor.Medium.Suit.Specific.Nonmetal	COST:33165	WT:25	ACCHECK:-3	EQMOD:STEEL.PLUS5A	MAXDEX:4	SOURCEPAGE:ExD	SPELLFAILURE:20	BONUS:COMBAT|AC|3|TYPE=Armor	SIZE:M		SPROP:Barbs covering the armor allow the wearer to deal 3d8 points of damage plus 1-1/2 times its Strength modifier to a grabbed opponent with a successful grapple check.															
+Vassal Armor		PROFICIENCY:ARMOR|Half-Plate	TYPE:Armor.Heavy.Suit.Specific	COST:38250	WT:50	ACCHECK:-7	EQMOD:STEEL.HEARTWIRE.PLUS3A.EXALTED_A	MAXDEX:4	SOURCEPAGE:ExD	SPELLFAILURE:20	BONUS:COMBAT|AC|3|TYPE=Armor	SIZE:M		SPROP:Barbs covering the armor allow the wearer to deal 3d8 points of damage plus 1-1/2 times its Strength modifier to a grabbed opponent with a successful grapple check.															
+																													
+# Shield																													
+Asura Shield		PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Shield.Heavy.Specific	COST:27180	WT:15	ACCHECK:-2	EQMOD:STEEL.PLUS2S.BASH_H.SPIKE_S.FLM_S.FLM_DVN_S.EQ_COST_ADJ|9160		SOURCEPAGE:ExD	SPELLFAILURE:15	BONUS:COMBAT|AC|2|TYPE=Shield	SIZE:M														CRITMULT:x2	CRITRANGE:1	DAMAGE:1d4	WIELD:OneHanded
+																													
+###Block:Monster Weapons																													
+###TODO: it's better to copy the original and modify the copy or not?																													
+# Melee Monster Weapons																													
+Greatsword	KEY:Throne Armor ~ Greatsword	PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:L	DAMAGE:2d6	CRITMULT:x2	CRITRANGE:2	EQMOD:STEEL.PLUS1W.VORPAL						SOURCEPAGE:ExD
+Scimitar	KEY:Asura ~ Scimitar	PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITMULT:x2	CRITRANGE:3	EQMOD:STEEL.PLUS1W.FLM_M						SOURCEPAGE:ExD
+
+# Ranged Monster Weapons																													
+Longbow (Composite)	KEY:Asura ~ Composite Longbow	OUTPUTNAME:[NAME] Longbow STR	PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3		SLOTS:2	DAMAGE:1d8	CRITMULT:x3	CRITRANGE:1	EQMOD:WOOD.MWORKA.Bow_STR|3						SOURCEPAGE:ExD	RANGE:110	BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow
+
+# Armor Specific																													
+Full Plate	KEY:Throne Archon ~ Full Plate	PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.PLUS4A	MAXDEX:1	SOURCEPAGE:ExD	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor	SIZE:L
+Full Plate	KEY:Warden Archon ~ Full Plate	PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.PLUS1A.FRT_LGHT	MAXDEX:1	SOURCEPAGE:ExD	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor	SIZE:L
+Breastplate	KEY:Asura ~ Breastplate	PROFICIENCY:ARMOR|Breastplate	TYPE:Armor.Medium.Suit.Specific	COST:200	WT:30	ACCHECK:-4	EQMOD:MITHRAL_ARMR_MED.PLUS1A	MAXDEX:3	SOURCEPAGE:Equipment	SPELLFAILURE:25		BONUS:COMBAT|AC|5|TYPE=Armor
+
+# Shield Specific																													
+Buckler	KEY:Asura ~ Buckler	PROFICIENCY:SHIELD|Buckler	TYPE:Shield.Buckler.Specific	COST:15	WT:5	ACCHECK:-1	EQMOD:STEEL.PLUS1S		SOURCEPAGE:ExD	SPELLFAILURE:5	SLOTS:0	BONUS:COMBAT|AC|1|TYPE=Shield	BONUS:COMBAT|TOHIT|-1|PREMULT:1,[PREEQUIPBOTH:1,TYPE=Melee],[PREEQUIPSECONDARY:1,TYPE=Melee]

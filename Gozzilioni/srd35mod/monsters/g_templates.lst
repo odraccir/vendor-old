@@ -1,0 +1,17 @@
+SOURCELONG:Gozzilioni Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+###Block: Class			
+# Template Name	Visible	Source Page	Special Ability
+Abomination	VISIBLE:NO	SOURCEPAGE:DD
+Deathless	VISIBLE:NO	SOURCEPAGE:ExD	DEFINESTAT:NONSTAT|CON
+
+Base Race Type		VISIBLE:YES	TEMPLATE:CHOOSE:Base Race Type ~ Abomination|Base Race Type ~ Aberration|Base Race Type ~ Animal|Base Race Type ~ Construct|Base Race Type ~ Deathless|Base Race Type ~ Dragon|Base Race Type ~ Elemental|Base Race Type ~ Fey|Base Race Type ~ Giant|Base Race Type ~ Humanoid|Base Race Type ~ Magical Beast|Base Race Type ~ Monstrous Humanoid|Base Race Type ~ Ooze|Base Race Type ~ Outsider|Base Race Type ~ Plant|Base Race Type ~ Undead|Base Race Type ~ Vermin
+Base Race Type ~ Abomination	VISIBLE:YES	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Abomination,TYPE=Abomination	BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Abomination,TYPE=Abomination	ABILITY:Internal|AUTOMATIC|Augmented Abomination|PREVAREQ:BaseRaceTypeUnchanged,1	SOURCEPAGE:DD
+Base Race Type ~ Deathless			VISIBLE:YES	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Deathless,TYPE=Deathless					BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Deathless,TYPE=Deathless					ABILITY:Internal|AUTOMATIC|Augmented Deathless|PREVAREQ:BaseRaceTypeUnchanged,1	SOURCEPAGE:ExD
+
+RaceSubtype ~ Augmented Abomination	VISIBLE:YES	REMOVABLE:YES	RACESUBTYPE:Augmented Abomination	SOURCEPAGE:DD
+RaceSubtype ~ Augmented Deathless	VISIBLE:YES	REMOVABLE:YES	RACESUBTYPE:Augmented Deathless	SOURCEPAGE:ExD
+
+Assign Race Type ~ Abomination	RACETYPE:Abomination	SOURCEPAGE:DD
+Assign Race Type ~ Deathless	RACETYPE:Deathless	SOURCEPAGE:ExD
+
+

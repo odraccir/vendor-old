@@ -20,6 +20,7 @@ ABILITY:g_abilities_races.lst
 # FEAT:g_feats.lst
 ABILITY:g_feats.lst
 RACE:g_races.lst
+TEMPLATE:g_templates.lst
 
 #BIOSET:my_biosettings.lst
 #CLASS:my_classes.lst

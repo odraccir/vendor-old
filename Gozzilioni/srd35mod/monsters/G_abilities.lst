@@ -20,6 +20,8 @@ CATEGORY=Special Ability|Keen Scent.MOD	DESC:Blood in the water up to %1 mile ra
 ###Block: Abilities																																				
 # Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page				
 Immunity To Death from Massive Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can't die from massive damage				ASPECT:Immunity|Death from massive damage																									SOURCEPAGE:MM2
+Immunity To Fatigue	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never fatigued				ASPECT:Immunity|Fatigue																									SOURCEPAGE:ExD
+Immunity To Exhaustion	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never exhaust				ASPECT:Immunity|Exhaustion																									SOURCEPAGE:ExD
 
 Resistance To Poison	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:PoisonResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Poison Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Poison,Vulnerability To Poison													SOURCEPAGE:MM				
 Resistance To Poison Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Poison	DESC:You get a +%1 bonus on Fort saving throws against poison.|PoisonResistanceBonus	ASPECT:Resistance|Poison	ASPECT:Ability Benefit|%1|PoisonResistanceBonus																									SOURCEPAGE:MM				
@@ -66,6 +68,21 @@ Resistance To Ability Damage Output	CATEGORY:Special Ability	TYPE:SpecialQuality
 Immunity To Ability Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Ability Damage-based effects damage				ASPECT:Immunity|Ability Damage																									SOURCEPAGE:MM2
 Vulnerability To Ability Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Ability Damage-based effects.																												SOURCEPAGE:MM				
 
+Resistance To Strength Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:StrengthDamageResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Strength Damage Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Strength Damage,Vulnerability To Strength Damage													SOURCEPAGE:ExD				
+Resistance To Strength Damage Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Strength Damage	DESC:You get a +%1 bonus on saving throws against Strength Damage-based effects.|StrengthDamageResistanceBonus	ASPECT:Resistance|Strength Damage	ASPECT:Ability Benefit|%1|StrengthDamageResistanceBonus																									SOURCEPAGE:ExD				
+Immunity To Strength Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Strength Damage-based effects damage				ASPECT:Immunity|Strength Damage																									SOURCEPAGE:ExD
+Vulnerability To Strength Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Strength Damage-based effects.																												SOURCEPAGE:ExD				
+
+Resistance To Dexterity Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:DexterityDamageResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Dexterity Damage Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Dexterity Damage,Vulnerability To Dexterity Damage													SOURCEPAGE:ExD				
+Resistance To Dexterity Damage Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Dexterity Damage	DESC:You get a +%1 bonus on saving throws against Dexterity Damage-based effects.|DexterityDamageResistanceBonus	ASPECT:Resistance|Dexterity Damage	ASPECT:Ability Benefit|%1|DexterityDamageResistanceBonus																									SOURCEPAGE:ExD				
+Immunity To Dexterity Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Dexterity Damage-based effects damage				ASPECT:Immunity|Dexterity Damage																									SOURCEPAGE:ExD
+Vulnerability To Dexterity Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Dexterity Damage-based effects.																												SOURCEPAGE:ExD				
+
+Resistance To Constitution Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:ConstitutionDamageResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Constitution Damage Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Constitution Damage,Vulnerability To Constitution Damage													SOURCEPAGE:ExD				
+Resistance To Constitution Damage Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Constitution Damage	DESC:You get a +%1 bonus on saving throws against Constitution Damage-based effects.|ConstitutionDamageResistanceBonus	ASPECT:Resistance|Constitution Damage	ASPECT:Ability Benefit|%1|ConstitutionDamageResistanceBonus																									SOURCEPAGE:ExD				
+Immunity To Constitution Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Constitution Damage-based effects damage				ASPECT:Immunity|Constitution Damage																									SOURCEPAGE:ExD
+Vulnerability To Constitution Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Constitution Damage-based effects.																												SOURCEPAGE:ExD				
+
 Resistance To Charisma Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:CharismaDamageResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Charisma Damage Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Charisma Damage,Vulnerability To Charisma Damage													SOURCEPAGE:ExD				
 Resistance To Charisma Damage Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Charisma Damage	DESC:You get a +%1 bonus on saving throws against Charisma Damage-based effects.|CharismaDamageResistanceBonus	ASPECT:Resistance|Charisma Damage	ASPECT:Ability Benefit|%1|CharismaDamageResistanceBonus																									SOURCEPAGE:ExD				
 Immunity To Charisma Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Charisma Damage-based effects damage				ASPECT:Immunity|Charisma Damage																									SOURCEPAGE:ExD
@@ -80,6 +97,11 @@ Resistance To Charisma Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extrao
 Resistance To Charisma Drain Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Charisma Drain	DESC:You get a +%1 bonus on saving throws against Charisma Drain-based effects.|CharismaDrainResistanceBonus	ASPECT:Resistance|Charisma Drain	ASPECT:Ability Benefit|%1|CharismaDrainResistanceBonus																									SOURCEPAGE:ExD				
 Immunity To Charisma Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Charisma Drain-based effects damage				ASPECT:Immunity|Charisma Drain																									SOURCEPAGE:ExD
 Vulnerability To Charisma Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to Charisma Drain-based effects.																												SOURCEPAGE:ExD				
+
+Resistance To Negative Energy Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:NegativeEnergyEffectsResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Negative Energy Effects Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Negative Energy Effects,Vulnerability To Negative Energy Effects													SOURCEPAGE:MM				
+Resistance To Negative Energy Effects Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Negative Energy Effects	DESC:You get a +%1 bonus on Fort saving throws against Negative Energy Effects.|NegativeEnergyEffectsResistanceBonus	ASPECT:Resistance|Negative Energy Effects	ASPECT:Ability Benefit|%1|NegativeEnergyEffectsResistanceBonus																									SOURCEPAGE:MM				
+Immunity To Negative Energy Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to negative energy effects				ASPECT:Immunity|Negative Energy Effects																									SOURCEPAGE:MM
+Vulnerability To Negative Energy Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscettible to negative energy effects.																												SOURCEPAGE:MM				
 
 Resistance To Fear	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:NO					DEFINE:FearResistanceBonus|0											ABILITY:Special Ability|VIRTUAL|Resistance To Fear Output|!PREABILITY:1,CATEGORY=Special Ability,Immunity To Fear,Vulnerability To Fear													SOURCEPAGE:MM				
 Resistance To Fear Output	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Resistance	VISIBLE:YES	OUTPUTNAME:Resistance To Fear	DESC:You get a +%1 bonus on Fort saving throws against Fear.|FearResistanceBonus	ASPECT:Resistance|Fear	ASPECT:Ability Benefit|%1|FearResistanceBonus																									SOURCEPAGE:MM				
@@ -241,6 +263,7 @@ Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																	
 Death Rift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Demonic Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Disease	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Discorporating Dive	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ExD
 Disjunctive Bite	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Draining Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Draining Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
@@ -256,6 +279,7 @@ Enthralling Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES										
 Entropic Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Explosion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DaD
 Explosive Gem	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
+Eye Rays	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ExD
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Fear Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Feeblemind Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
@@ -288,6 +312,7 @@ Nightmarish Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES						
 Paralysis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Paralyzing Bite	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Paralyzing Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
+Penitentiary Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:ExD
 Petrifying Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2		
 Poison	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM		
 Portalwake	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2

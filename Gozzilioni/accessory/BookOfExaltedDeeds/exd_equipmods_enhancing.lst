@@ -1,6 +1,0 @@
-SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
-
-#
-###Block:Weapon/Armor abilities																																																																																																																																																																											
-# Modifier Name				Unique Key		Type					Plus		Cost		Visible		Type granted	Keys to replace			Source Page					Multiple Requirements										Required Type						Prohibited Type			Spell Res.	Damage Reduction	BONUS:EQM				BONUS:EQMWEAPON								Bonus to skill						Modify VAR						Special Property																			Virtual Feat		Choose																																																																															Apply to both heads
-Sanctified				KEY:SANCT			TYPE:Weapon.Melee						VISIBLE:QUALIFY									SOURCEPAGE:ExD															PRETYPE:2,Weapon,Melee																																											SPROP:deals 1 extra point of holy damage against evil creatures, or 1d4 points of damage against evil outsiders and evil undead.																																																																																											

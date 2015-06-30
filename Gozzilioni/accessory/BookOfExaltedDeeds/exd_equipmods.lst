@@ -1,11 +1,14 @@
-SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																							
 																										
 # Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier	SOURCEPAGE:	Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus
 ###Block:Weapons																										
+Sanctified	KEY:SANCT	TYPE:Weapon.Melee		VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Weapon,Melee												SPROP:deals 1 extra point of holy damage against evil creatures, or 1d4 points of damage against evil outsiders and evil undead.							
+|Redeem	KEY:REDEEM	TYPE:Armor.Shield.Weapon.Amulet.Belt.Bracer.Cape.Glove.Headgear.Instrument.Mantle.Ring.Robe.Shirt.Eyegear.Boot.Staff.Rod	NAMEOPT:TEXT=Redeemed	VISIBLE:QUALIFY	SOURCEPAGE:ExD	ITYPE:Redeemed	PREMULT:1,[PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield,Weapon]],[PRETYPE:1,Amulet,Belt,Bracer,Cape,Glove,Headgear,Instrument,Mantle,Ring,Robe,Shirt,Eyegear,Boot,Staff,Rod]												SPROP:Redeemed
+
 																										
 ###Block:Materials																										
-Steel	KEY:STEEL	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:RSRD Equipment	PREMULT:1,[PRETYPE:1,EQMOD=STEEL],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden																
-Wood	KEY:WOOD	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Wooden		SOURCEPAGE:RSRD Equipment	PREMULT:1,[PRETYPE:1,EQMOD=WOOD],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Metal																
+# Steel	KEY:STEEL	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:RSRD Equipment	PREMULT:1,[PRETYPE:1,EQMOD=STEEL],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden																
+# Wood	KEY:WOOD	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon.Instruments.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Wooden		SOURCEPAGE:RSRD Equipment	PREMULT:1,[PRETYPE:1,EQMOD=WOOD],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Metal																
 Aurorum	KEY:AURORUM	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Armor.Shield.Weapon	COST:4000	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=AURORUM],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:An aurorum weapon that has been sundered can be reformed by bringing together its fragments (a full-round action). The broken pieces bond quickly and seamlessly, restoring the item to its previous state.							
 Frystalline	KEY:FRYSTALLINE	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Weapon	COST:2000	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=FRYSTALLINE],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:good-aligned for the purpose of overcoming damage reduction. 15hp/inch and 10 hardness.							
 Serren	KEY:SERREN	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunition.Weapon	COST:0	VISIBLE:QUALIFY	ITYPE:Wooden		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=SERREN],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Metal	PRETYPE:1,Bow,Arrow,Bolt								SPROP:Serren bows, arrows, and bolts have the ghost touch special quality, although this property is not magical.	BONUS:ITEMCOST|TYPE=Ammunition|80	BONUS:ITEMCOST|TYPE=Weapon|4000					
@@ -13,15 +16,50 @@ Solarian Truesteel	KEY:SOLARIAN	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Ammunit
 Ysgardian Heartwire	KEY:HEARTWIRE	NAMEOPT:NORMAL	TYPE:BaseMaterial.Mundane.Armor	COST:1500	VISIBLE:QUALIFY	ITYPE:Metal		SOURCEPAGE:ExD	PREMULT:1,[PRETYPE:1,EQMOD=HEARTWIRE],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden									SPROP:+2 to AC solely for purposes of the roll to confirm a critical hit.							
 																										
 # Armor Material																										
+Angelic	KEY:ANGELIC_A		TYPE:Armor.Shield	PLUS:2	VISIBLE:QUALIFY			SOURCEPAGE:ExD	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]										SPROP:+1 to AC against attacks of Evil creatures. +4 Sacred bonus on saving throws against spells with Evil descriptor.|PREALIGN:LG,NG,CG							
+Empyreal	KEY:EMPYREAL_A		TYPE:Armor.Shield	PLUS:2	VISIBLE:QUALIFY			SOURCEPAGE:ExD	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]										SPROP:The wearer can transfer all or part of its enhancement bonus to a sacred bonus on saving throws. The wearer decides to make the transfer on his turn, and the choice remains in effect until his next turn.	TEMPLATE:Sickened|PREALIGN:LE,NE,CE						
+Exalted	KEY:EXALTED_A		TYPE:Armor.Shield	PLUS:3	VISIBLE:QUALIFY			SOURCEPAGE:ExD	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]										SPROP:Takes half damage from unholy weapon, continuous Protection from Evil. Negates Vile damage (see BoVD).|PREALIGN:LG,NG,CG							
+Sacred	KEY:SACRED_A		TYPE:Armor.Shield	PLUS:2	VISIBLE:QUALIFY			SOURCEPAGE:ExD	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]											BONUS:VAR|TurnCheckUndead|2						
+Soulfire	KEY:SOULFIRE_A		TYPE:Armor.Shield	PLUS:4	VISIBLE:QUALIFY			SOURCEPAGE:ExD	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]										ABILITY:Special Ability|AUTOMATIC|Immunity To Death Effects|Immunity To Energy Drain|Immunity To Negative Energy Effects							
+Twilight	KEY:TWILIGHT_A		TYPE:Armor.Shield	PLUS:1	VISIBLE:QUALIFY			SOURCEPAGE:ExD	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]										BONUS:EQMARMOR|SPELLFAILURE|-10|TYPE=Enhancement							
 																										
 # Weapon Material																										
 																										
 ###Block:Traps																										
 																										
 ###Block:Armor Modification																										
-Bahamut Platinum Armor	KEY:BAHAPLT_A	TYPE:Armor	COST:0	VISIBLE:NO	SOURCEPAGE:EXD		PRETYPE:2,Enhancement,Armor									ASSIGNTOALL:NO	ARMORTYPE:Medium|Light
-
+Bahamut Platinum Armor	KEY:BAHAPLT_A	TYPE:Armor	COST:0	VISIBLE:NO	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Armor									ASSIGNTOALL:NO	ARMORTYPE:Medium|Light									
+Flaming	KEY:FLM_S	TYPE:Shield	COST:0	VISIBLE:NO	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Shield												SPROP:+1d6 Fire damage							
+Flaming Divine	KEY:FLM_DVN_S	TYPE:Shield	COST:0	VISIBLE:NO	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Shield												SPROP:+1d6 Fire damage of divine origin that affect only Evil creatures.							
+																										
 ###Block:Weapons Modification																										
+Banishing	KEY:BANISH_A	TYPE:Ammunition	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Ammunition												SPROP:extraplanar struck must save at Will DC 24 or be banished.							
+Banishing	KEY:BANISH_M	TYPE:Weapon.Melee.Thrown	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:extraplanar struck must save at Will DC 24 or be banished.							
+Banishing	KEY:BANISH_R	TYPE:Weapon.Ranged	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:extraplanar struck must save at Will DC 24 or be banished.							
+Blessed	KEY:BLESS_A	TYPE:Ammunition	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Ammunition												SPROP:Good aligned. Every threat is confirmed as a critical against evil creatures.							
+Blessed	KEY:BLESS_M	TYPE:Weapon.Melee.Thrown	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:Good aligned. Every threat is confirmed as a critical against evil creatures.							
+Blessed	KEY:BLESS_R	TYPE:Weapon.Ranged	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:Good aligned. Every threat is confirmed as a critical against evil creatures.							
+Enfeebling	KEY:ENFEEBLE_A	TYPE:Ammunition	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Ammunition												SPROP:On a critical hit deals 1d6+2 temporary STR damage.							
+Enfeebling	KEY:ENFEEBLE_M	TYPE:Weapon.Melee.Thrown	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:On a critical hit deals 1d6+2 temporary STR damage.							
+Enfeebling	KEY:ENFEEBLE_R	TYPE:Weapon.Ranged	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:On a critical hit deals 1d6+2 temporary STR damage.							
+Heavenly Burst	KEY:HEAVEN_BR_A	TYPE:Ammunition	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Ammunition												SPROP:On a critical hit against evil creature deals 3d6 points of damage and blinds (Fort DC 14). wielder suffer 1d2 temporary STR damage.							
+Heavenly Burst	KEY:HEAVEN_BR_M	TYPE:Weapon.Melee.Thrown	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:On a critical hit against evil creature deals 3d6 points of damage and blinds (Fort DC 14). wielder suffer 1d2 temporary STR damage.							
+Heavenly Burst	KEY:HEAVEN_BR_R	TYPE:Weapon.Ranged	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:On a critical hit against evil creature deals 3d6 points of damage and blinds (Fort DC 14). wielder suffer 1d2 temporary STR damage.							
+Paralyzing	KEY:PARALYZE_A	TYPE:Ammunition	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Ammunition												SPROP:target strack must save at Will DC 17 or be paralyzed.							
+Paralyzing	KEY:PARALYZE_M	TYPE:Weapon.Melee.Thrown	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:target strack must save at Will DC 17 or be paralyzed.							
+Paralyzing	KEY:PARALYZE_R	TYPE:Weapon.Ranged	PLUS:2	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:target strack must save at Will DC 17 or be paralyzed.							
+Righteous	KEY:RIGHT_A	TYPE:Ammunition	PLUS:4	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Ammunition												SPROP:continuous detect evil. +2 bonus on attack and damage rolls against creature with Strong or Overwhelming aura of evil.							
+Righteous	KEY:RIGHT_M	TYPE:Weapon.Melee.Thrown	PLUS:4	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:continuous detect evil. +2 bonus on attack and damage rolls against creature with Strong or Overwhelming aura of evil.							
+Righteous	KEY:RIGHT_R	TYPE:Weapon.Ranged	PLUS:4	VISIBLE:QUALIFY	SOURCEPAGE:ExD		PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:continuous detect evil. +2 bonus on attack and damage rolls against creature with Strong or Overwhelming aura of evil.							
+Roaring	KEY:ROAR_A	TYPE:Ammunition	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:ExD	REPLACES:THNDR_A	PRETYPE:2,Enhancement,Ammunition												SPROP:target strack must save at Will DC 22 or be shaken. +2d6 points of sonic damage on successfull critical hits.							
+Roaring	KEY:ROAR_M	TYPE:Weapon.Melee.Thrown	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:ExD	REPLACES:THNDR_M	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown											SPROP:target strack must save at Will DC 22 or be shaken. +2d6 points of sonic damage on successfull critical hits.							
+Roaring	KEY:ROAR_R	TYPE:Weapon.Ranged	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:ExD	REPLACES:THNDR_R	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown											SPROP:target strack must save at Will DC 22 or be shaken. +2d6 points of sonic damage on successfull critical hits.							
+THNDR_A.MOD	REPLACES:ROAR_A																									
+THNDR_M.MOD	REPLACES:ROAR_M																									
+THNDR_R.MOD	REPLACES:ROAR_R																									
+																										
+																										
+																										
 																										
 ###Block:Intelligent Items																										
 																										

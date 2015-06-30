@@ -5,6 +5,9 @@ SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
-CLASS:Deathless	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:EXD	BONUS:SAVE|BASE.Fortitude|CL/3	BONUS:SAVE|BASE.Reflex|CL/3	BONUS:SAVE|BASE.Will|CL/2+2	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	
-CLASS:Deathless	PRERACETYPE:Aberration	ABILITY:Special Ability|AUTOMATIC|Deathless Traits|PREVAREQ:NoTypeTraits,0	ABILITY:Special Ability|AUTOMATIC|Undead Proficiencies|PREVAREQ:NoTypeProficiencies,0								
-CLASS:Deathless	STARTSKILLPTS:4	MODTOSKILLS:YES									
+# Class Name	Hit Dice	Type			Class Type		Max Level		Source Page				Ability														Combat bonus							Misc bonus					Save bonus
+CLASS:Deathless	HD:12		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:ExD	ABILITY:Special Ability|AUTOMATIC|Deathless Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name	Reg. Race Type
+CLASS:Deathless	PRERACETYPE:Deathless
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Deathless	STARTSKILLPTS:4	MODTOSKILLS:YES

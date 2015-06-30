@@ -1,0 +1,34 @@
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																																																													
+																																																																
+# Race Name	Output Name	Favored Class	Starting Feats	Size	Move	Face/Space	Reach	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								Racial Class Skills	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS	Main Race Type	Race Subtype	Type	Template			Hit Dice	Hit Dice Advancement	Level Adjustment	CR	Source Page	Innate Spells
+# Monster Abilities																																																																
+#																																																																
+# STARTPACK:Beholder Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Beholder]																																																												
+# RACE:Beholder	!PRERACE:1,%																																																															
+# NAME:Beholder																																																																
+# STAT:STR=10|DEX=10|CHA=10|CON=10|INT=10|WIS=10																																																																
+STARTPACK:Owl Archon Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Archon (Owl)]																																																												
+RACE:Archon Owl	!PRERACE:1,%																																																															
+NAME:Owl Archon																																																																
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Sword Archon Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Archon (Sword)]
+RACE:Archon Sword	!PRERACE:1,%
+NAME:Sword Archon
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Throne Archon Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Archon (Throne)]
+RACE:Archon Throne	!PRERACE:1,%
+NAME:Throne Archon
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Warden Archon Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Archon (Warden)]
+RACE:Archon Warden	!PRERACE:1,%
+NAME:Warden Archon
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Asura Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Asura]
+RACE:Asura	!PRERACE:1,%
+NAME:Asura
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+

@@ -14,7 +14,6 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 INFOTEXT:mancano le armi itelligenti. mancano i png unici del Celestial Hebdomad, Five Companions, Court of the Star.
 #
 #PCC:@/d20ogl/srd35/rsrd.pcc
-RULE:exd_rules.lst
 
 #Book of Exalted Deeds
 ABILITY:exd_abilities.lst
@@ -30,8 +29,8 @@ EQUIPMENT:exd_equip.lst
 EQUIPMENT:exd_equip_arms_and_armor.lst
 EQUIPMENT:exd_equip_magic_items.lst
 EQUIPMOD:exd_equipmods.lst
-EQUIPMOD:exd_equipmods_enhancing.lst
 ABILITY:exd_feats.lst
+KIT:exd_kits.lst
 WEAPONPROF:exd_profs_weapon.lst
 RACE:exd_races.lst
 RACE:exd_races_companion.lst
@@ -40,7 +39,8 @@ SPELL:exd_spells_epic.lst
 TEMPLATE:exd_templates.lst
 TEMPLATE:exd_templates_hidden.lst
 
-SPELLS:exd_spells_alternate_rule.lst|PRERULE:1,EXD_VAR_GOODSPELLS
+RULE:exd_rules.lst
+SPELL:exd_spells_alternate_rule.lst|PRERULE:1,EXD_VAR_GOODSPELLS
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

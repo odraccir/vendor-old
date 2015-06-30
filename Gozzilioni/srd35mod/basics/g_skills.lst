@@ -7,18 +7,19 @@ Climb.MOD		SITUATION:Forested area
 Disable Device.MOD		SITUATION:Magic traps
 Disguise.MOD			SITUATION:Impersonating a Human
 Disguise.MOD		SITUATION:Polymorph Self
+Hide.MOD		SITUATION:Arid settings
 Hide.MOD		SITUATION:Desert area
 Hide.MOD		SITUATION:Foggy area
+Hide.MOD		SITUATION:Marshlands
 Hide.MOD		SITUATION:Motionless in window frame
+Hide.MOD		SITUATION:Sandy settings
+Hide.MOD		SITUATION:Shadowy area
 Hide.MOD		SITUATION:Smoky area
 Hide.MOD		SITUATION:Subterran area
 Hide.MOD		SITUATION:Tall grass area
+Hide.MOD		SITUATION:Urban environment
 Hide.MOD		SITUATION:Water area
 Hide.MOD		SITUATION:Wooded area
-Hide.MOD		SITUATION:Marshlands
-Hide.MOD		SITUATION:Arid settings
-Hide.MOD		SITUATION:Sandy settings
-Hide.MOD		SITUATION:Urban environment
 Knowledge (Dungeoneering).MOD		SITUATION:Navigate underground
 Move Silently.MOD		SITUATION:Forested area
 Move Silently.MOD		SITUATION:Urban environment

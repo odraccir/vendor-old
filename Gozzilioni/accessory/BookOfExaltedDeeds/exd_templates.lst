@@ -2,3 +2,6 @@ SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www
 
 # Template Name		Visible	Define				Modify VAR
 Spiritual Body	VISIBLE:YES	SOURCEPAGE:ExD	KEY:Risen Martyr ~ Spiritual Body	RACETYPE:Deathless
+
+#Template
+Aleax	VISIBLE:YES	SOURCEPAGE:ExD	RACETYPE:Construct	HITDIE:10	BONUS:COMBAT|INItIATIVE|1|TYPE=Insight	BONUS:COMBAT|AC|2|TYPE=Perfection	ABILITY:Special Ability|AUTOMATIC|Aleax ~ Searing Light|Aleax ~ Shapechange|Aleax ~ Sudden Death|Fast Healing|Aleax ~ Singular Enemy|Aleax ~ Spell Resistance	BONUS:VAR|FastHealing|5	BONUS:VAR|HasTrueSeeingVision|1	DEFINESTAT:NONSTAT|CON	BONUS:MISC|CR|3

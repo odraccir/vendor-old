@@ -1,28 +1,48 @@
-SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
-														
-# Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property	
-###Block: Magical Augmentations														
-														
-###Block: Wondrous Items														
-Bleeding Statue		TYPE:Magic.Wondrous.Relic	COST:55000			SOURCEPAGE:EXD		MODS:NO	SPROP:constantly radiate Hallow and Death Ward (13th casterlevel)	
-Rack of the Tortured Saint		TYPE:Magic.Wondrous.Relic	COST:180			SOURCEPAGE:EXD		MODS:NO	SPELLS:Rack of the Tortured Saint|TIMES=1|CASTERLEVEL=1|Guidance	
-Sacred Vessel		TYPE:Magic.Wondrous.Relic.Container	COST:2000			SOURCEPAGE:EXD		MODS:NO	SPROP:water becomes holy water	CONTAINS:*UNLIM|Any=1
-Saint's Burial Shroud		TYPE:Magic.Wondrous.Relic	COST:30000			SOURCEPAGE:EXD		MODS:NO	SPROP:heal all diseases good creature that touch it.	
-Saint's Fingerbone		TYPE:Magic.Wondrous.Relic	COST:2000			SOURCEPAGE:EXD		MODS:NO	BONUS:SAVE|Fortitude,Reflex,Will|2|TYPE=Resistance	
-Weeping Image		TYPE:Magic.Wondrous.Relic	COST:65000			SOURCEPAGE:EXD		MODS:NO		
-														
-###Block: Potion														
-														
-###Block: Elixir														
-														
-###Block: Rings														
-														
-###Block: Rods														
-														
-###Block: Staff														
-														
-###Block: Wondrous Items														
-														
-###Block: Cursed														
-														
-###Block: Artifact														
+SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																															
+																																		
+# Equipment Name		Type	Cost	Weight	Source Page					Bonus to skill		Desc	Special Property																					
+###Block: Magical Augmentations																																		
+																																		
+###Block: Wondrous Items																																		
+Bleeding Statue		TYPE:Magic.Wondrous.Relic	COST:55000			SOURCEPAGE:ExD		MODS:NO	SPROP:constantly radiate Hallow and Death Ward (13th casterlevel)																									
+Rack of the Tortured Saint		TYPE:Magic.Wondrous.Relic	COST:180			SOURCEPAGE:ExD		MODS:NO	SPELLS:Rack of the Tortured Saint|TIMES=1|CASTERLEVEL=1|Guidance																									
+Sacred Vessel		TYPE:Magic.Wondrous.Relic.Container	COST:2000			SOURCEPAGE:ExD		MODS:NO	SPROP:water becomes holy water	CONTAINS:*UNLIM|Any=1																								
+Saint's Burial Shroud		TYPE:Magic.Wondrous.Relic	COST:30000			SOURCEPAGE:ExD		MODS:NO	SPROP:heal all diseases good creature that touch it.																									
+Saint's Fingerbone		TYPE:Magic.Wondrous.Relic	COST:2000			SOURCEPAGE:ExD		MODS:NO	BONUS:SAVE|Fortitude,Reflex,Will|2|TYPE=Resistance																									
+Weeping Image		TYPE:Magic.Wondrous.Relic	COST:65000			SOURCEPAGE:ExD		MODS:NO																										
+																																		
+###Block: Potion																																		
+																																		
+###Block: Elixir																																		
+																																		
+###Block: Rings																																		
+Ring of Adamantine Touch		TYPE:Magic.Ring	COST:120000	WT:0		SOURCEPAGE:ExD			SPROP:melee weapon and natural attack are made as id adamantine.																									
+Ring of Affliction		TYPE:Magic.Ring	COST:72000	WT:0		SOURCEPAGE:ExD			SPROP:target of any natural or unarmed attack must Fort DC 17 or Affliction (as spell)																									
+Ring of Solar Wings		TYPE:Magic.Ring	COST:118000	WT:0		SOURCEPAGE:ExD			MOVE:Fly,150	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability	BONUS:VAR|Maneuverability|4																							
+Ring of Vengeance		TYPE:Magic.Ring	COST:4500	WT:0		SOURCEPAGE:ExD			SPROP:15d6 divine energy against the killer of the wearer (Ref DC 19 for half)																									
+																																		
+###Block: Rods																																		
+																																		
+###Block: Staff																																		
+Staff (Rapture)	OUTPUTNAME:Staff of Rapture	PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Simple.Melee.Bludgeoning.Specific.Double.Quarterstaff	COST:73800	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.PLUS1W.CHARGED_ITEM_50|CHARGES[50].EQ_COST_ADJ|4300	ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.PLUS1W.EQ_COST_ADJ|2300	SOURCEPAGE:ExD							SPROP:Deal only non-lethal damage. Against evil creatures, it has a critical threat range of 17-20. Atonement (2 charges), Divination (1 charge), Elation (1 charge), Sword of Vengeance (2 charges), Vision of Heaven (1 charge).		BASEITEM:Staff							
+Sunstaff		PROFICIENCY:WEAPON|Quarterstaff	TYPE:Magic.Staff.Weapon.Simple.Melee.Bludgeoning.Specific.Double.Quarterstaff	COST:173300	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:DARK.PLUS3W.BRI_EN_M.CHARGED_ITEM_50|CHARGES[50].EQ_COST_ADJ|98300	ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:DARK.PLUS3W.BRI_EN_M.EQ_COST_ADJ|98300	SOURCEPAGE:ExD							SPROP:Bless (1 charge), Crown of Flame (2 charges), Searing Light (1 charge), Shield Other (1 charge).		BASEITEM:Staff							
+																																		
+###Block: Wondrous Items																																		
+Antimagic Shackles		PROFICIENCY:WEAPON|Manacles	TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	COST:132000	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:ADAMANT_WEAP.EQ_COST_ADJ|3000						SOURCEPAGE:ExD							SPROP:5 foot radius Antimagic Field when fastened. Escape Artist DC 28,to Break Strenght check DC 40.									
+Incense of Consecration			TYPE:Magic.Wondrous.Consumable	COST:300	WT:1													SOURCEPAGE:ExD																
+Retributive Amulet			TYPE:Magic.Wondrous.Amulet	COST:56000														SOURCEPAGE:ExD							SPROP:damage is divided equally between attacked and attacker.	BONUS:COMBAT|AC|2|TYPE=Sacred								
+Shackles of Silence		PROFICIENCY:WEAPON|Manacles	TYPE:Goods.General.Weapon.Melee.Exotic.Standard.Bludgeoning.Manacles	COST:12000	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:ExD							SPROP:Escape Artist DC 28, to Break Strenght check DC 28									
+Starmantle Cloak			TYPE:Magic.Wondrous.Cape	COST:132000	WT:1													SOURCEPAGE:ExD																
+Thurible of Consecration			TYPE:Magic.Wondrous.Container	COST:5000	WT:4													SOURCEPAGE:ExD								CONTAINS:*UNLIM|Any=1								
+Trumpet of Doom			TYPE:Magic.Goods.Tools.Instrument.Wind.Resizable	COST:7185	WT:1							EQMOD:MWORKI.EQ_COST_ADJ|95													SPROP:3/day The trumpet emits a haunting blare that fills evil enemies with a terrible sense of dread. All evil creatures within 100 feet that can hear the trumpet's blare are shaken for 1 minute (DC 14 Will save Negates).	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork								
+Trumpet of Healing			TYPE:Magic.Goods.Tools.Instrument.Wind.Resizable	COST:115440	WT:2							EQMOD:MWORKI.EQ_COST_ADJ|95													SPROP:3/day Perform (Wind Instruments) DC 15 to create effect as  Remove Blindness/Deafness, Remove Disease, Cure Serious Wounds, or Neutralize Poison spells to all in 360 feet radius. 1/day Heal spell on a single creature. Evil creatures cannot benefit from these effects; in fact, they hear nothing at all when the horn plays. The trumpeter cannot personally benefit from the trumpet's healing powers.	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork								
+Vambraces of Evil's Warding			TYPE:Magic.Wondrous.Bracer	COST:18000	WT:1																				SPROP:Ranged attacks made by evil creatures against the wearer take a -4 penalty. An evil creature that dons the vambraces of evil's warding takes 2d6 points of damage per round.									
+																																		
+###Block: Cursed																																		
+																																		
+###Block: Artifact																																		
+Cup of Al'Akbar			TYPE:Artifact	COST:0	WT:0													SOURCEPAGE:ExD							SPROP:7/day turn ordinary water into a potion of Cure Light Wounds.		ABILITY:Special Ability|VIRTUAL|Al'Akbar Objects	BONUS:VAR|AlAkbarObjectsLVL|1						
+Talisman of Al'Akbar			TYPE:Artifact.Amulet	COST:0	WT:0													SOURCEPAGE:ExD							SPELLS:Talisman of Al'Akbar|TIMES=ATWILL|CASTERLEVEL=1|Remove Disease	SPELLS:Talisman of Al'Akbar|TIMES=1|CASTERLEVEL=1|Remove Curse	ABILITY:Special Ability|VIRTUAL|Al'Akbar Objects	BONUS:VAR|AlAkbarObjectsLVL|1						
+Regalia of Good (Crown of Good)	OUTPUTNAME:[NAME]		TYPE:Artifact.Headgear	COST:0	WT:0							EQMOD:MITHRAL_ITEM						SOURCEPAGE:ExD							SPROP:cannot lie.	PREALIGN:LG,NG,CG	ABILITY:Special Ability|VIRTUAL|Regalia of Good	ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity	BONUS:STAT|WIS|4|TYPE=Enhancement	BONUS:COMBAT|AC|4|TYPE=Deflection	SR:20	SPELLS:Crown of Good|TIMES=ATWILL|CASTERLEVEL=20|Guidance	SPELLS:Crown of Good|TIMES=3|CASTERLEVEL=20|Heroes' Feast|Sending|Status (Greater)	SPELLS:Crown of Good|TIMES=1|CASTERLEVEL=20|Globe of Invulnerability
+Regalia of Good (Scepter of Good)	OUTPUTNAME:[NAME]		TYPE:Artifact.Rod	COST:0	WT:0							EQMOD:MITHRAL_ITEM						SOURCEPAGE:ExD						BASEITEM:Rod	SPROP:act as Rod of Rulership with no use limit. The wielder of the scepter becomes increasingly unable to refuse pleas for help, no matter how desperate the cause.	PREALIGN:LG,NG,CG	ABILITY:Special Ability|VIRTUAL|Regalia of Good	ABILITY:Special Ability|AUTOMATIC|Immunity To Mind-Affecting	BONUS:STAT|CHA|4|TYPE=Enhancement					
+Regalia of Good (Orb of Good)	OUTPUTNAME:[NAME]		TYPE:Artifact	COST:0	WT:0													SOURCEPAGE:ExD							SPROP:Turn undead as 15th level Cleric. can be used to scry like a crystal ball with the added ability to detect thoughts.	PREALIGN:LG,NG,CG	ABILITY:Special Ability|VIRTUAL|Regalia of Good	ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead	BONUS:STAT|INT|4|TYPE=Enhancement	SPELLS:Orb of Good|TIMES=1|CASTERLEVEL=20|Heal	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|15|TYPE=Level.REPLACE			
