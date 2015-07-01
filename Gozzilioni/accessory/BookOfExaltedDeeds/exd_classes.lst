@@ -472,3 +472,10 @@ CLASS:Cleric.MOD
 1	ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Sanctified Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericSanctifiedSpells									
 CLASS:Wizard.MOD
 1	ABILITY:Wizard Class Feature|AUTOMATIC|Wizard ~ Sanctified Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.WizardSanctifiedSpells									
+
+# Class Name	Hit Dice	Type			Class Type		Max Level		Source Page				Ability														Combat bonus							Misc bonus					Save bonus
+CLASS:Deathless	HD:12		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:ExD	ABILITY:Special Ability|AUTOMATIC|Deathless Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name	Reg. Race Type
+CLASS:Deathless	PRERACETYPE:Deathless
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Deathless	STARTSKILLPTS:4	MODTOSKILLS:YES

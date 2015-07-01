@@ -19,7 +19,6 @@ ABILITY:dd_abilities_classes.lst
 ABILITY:dd_abilities_races.lst
 ABILITYCATEGORY:dd_abilitycategories.lst
 CLASS:dd_classes.lst
-CLASS:dd_classes_monster.lst
 EQUIPMENT:dd_equip.lst
 EQUIPMOD:dd_equipmods.lst
 ABILITY:dd_feats.lst

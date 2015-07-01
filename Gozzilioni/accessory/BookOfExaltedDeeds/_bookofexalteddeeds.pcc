@@ -21,7 +21,7 @@ ABILITY:exd_abilities_classes.lst
 ABILITY:exd_abilities_races.lst
 ABILITYCATEGORY:exd_abilitycategories.lst
 CLASS:exd_classes.lst
-CLASS:exd_classes_monster.lst
+CLASS:exd_classes_monster_specific.lst
 COMPANIONMOD:exd_companionmods.lst
 DEITY:exd_deities.lst
 DOMAIN:exd_domains.lst
