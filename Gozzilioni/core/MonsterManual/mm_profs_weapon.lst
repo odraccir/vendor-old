@@ -10,3 +10,4 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzili
 						
 # -- 2-handers						
 Pincerstaff			TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Quarterstaff.Polearm
+Ranged (Touch)					TYPE:Natural.Ranged.Touch.RangedTouch

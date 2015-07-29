@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
+#FOLLOWERALIGN(deprecato)								
+# usare prealign su DOMAIN)								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
+#Bahamut	ALIGN:LG	DEITYWEAP:Pick (Heavy)|Bite	DESC:Bahamut (M)	DOMAINS:Air,Cold,Good,Luck,Protection|PREALIGN:LG,LN,NG	TYPE:Lesser	FACTSET:Pantheon|Greyhawk|Draconic	SOURCEPAGE:CD	
+Diirinka	ALIGN:CE		DESC:Diirinka (F)	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:NE,CN,CE		FACTSET:Pantheon|None	SOURCEPAGE:MM

@@ -50,7 +50,7 @@ Greatsword	KEY:Throne Armor ~ Greatsword	PROFICIENCY:WEAPON|Greatsword	TYPE:Enha
 Scimitar	KEY:Asura ~ Scimitar	PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Specific.Slashing.Sword	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITMULT:x2	CRITRANGE:3	EQMOD:STEEL.PLUS1W.FLM_M						SOURCEPAGE:ExD
 
 # Ranged Monster Weapons																													
-Longbow (Composite)	KEY:Asura ~ Composite Longbow	OUTPUTNAME:[NAME] Longbow STR	PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3		SLOTS:2	DAMAGE:1d8	CRITMULT:x3	CRITRANGE:1	EQMOD:WOOD.MWORKA.Bow_STR|3						SOURCEPAGE:ExD	RANGE:110	BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow
+Longbow (Composite)	KEY:Asura ~ Composite Longbow	OUTPUTNAME:[NAME] Longbow STR	PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Martial.Ranged.Specific.Piercing.Container.Projectile.Bow.Longbow.Composite	COST:100	WT:3		SLOTS:2	DAMAGE:1d8	CRITMULT:x3	CRITRANGE:1	EQMOD:WOOD.MWORKA.BOWSTR|3						SOURCEPAGE:ExD	RANGE:110	BONUS:WEAPON|DAMAGE|min(STR,0)	CONTAINS:UNLIM|Arrow|SpecificArrow
 
 # Armor Specific																													
 Full Plate	KEY:Throne Archon ~ Full Plate	PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Suit.Specific	COST:1500	WT:50	ACCHECK:-6	EQMOD:STEEL.PLUS4A	MAXDEX:1	SOURCEPAGE:ExD	SPELLFAILURE:35	BONUS:COMBAT|AC|8|TYPE=Armor	SIZE:L

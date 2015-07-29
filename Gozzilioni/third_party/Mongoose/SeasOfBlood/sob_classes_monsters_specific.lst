@@ -6,7 +6,7 @@ SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzili
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
-CLASS:Undine	HD:6	TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:4	SOURCEPAGE:SoB	ABILITY:Special Ability|AUTOMATIC|Fey Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Undine	HD:6	TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:4	SOURCEPAGE:SoB	ABILITY:Special Ability|AUTOMATIC|Fey Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Undine	PRERACE:1,Undine	PRERACETYPE:Fey
 CLASS:Undine	STARTSKILLPTS:6	MODTOSKILLS:YES	PROHIBITSPELL:DESCRIPTOR.Fire
 1	BONUS:PCLEVEL|Cleric|1	ADD:SPELLCASTER|Cleric

@@ -1,6 +1,9 @@
 SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 #																																	
+Smite Evil	CATEGORY:Special Ability	TYPE:CelestialTemplateTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Once per day a celestial creature can make a normal melee attack to deal extra damage equal to its HD (maximum of +20) against an evil foe.	KEY:Celestial ~ Smite Evil									BONUS:VAR|SmiteEvil|1		BONUS:VAR|SmiteEvilDamage|min(20,HD)							ABILITY:Special Ability|AUTOMATIC|Smite Evil									SOURCEPAGE:MM
+Natural Weapon	CATEGORY:Special Ability	TYPE:CelestialTemplateTrait.SpecialQuality	VISIBLE:YES	DESC:its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.	KEY:Celestial ~ Natural Weapon																											SOURCEPAGE:MM
+
 # Yuan-Ti variants
 Common	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Common									BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))									NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6	TEMPLATE:Yuan-Ti Halfblood ~ 2 Arms|Yuan-Ti Halfblood ~ 2 Legs								SOURCEPAGE:MM
 Human Head, arms are snakes	CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant	VISIBLE:YES		KEY:Yuan-Ti Halfblood ~ Snake Arms																		NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*2,1d4	TEMPLATE:Yuan-Ti Halfblood ~ 2 Snakes|Yuan-Ti Halfblood ~ 2 Legs								SOURCEPAGE:MM

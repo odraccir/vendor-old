@@ -1,0 +1,33 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+###Block:Weapons																												
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus		
+# Natural																												
+Light Ray	KEY:Lantern Archon ~ Light Ray	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Finesseable.Ray	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM	RANGE:30								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Lantern ~ Light Ray
+Web	KEY:Bebilith ~ Web	PROFICIENCY:WEAPON|Ranged (Touch)	TYPE:Natural.Ranged.Touch	COST:0	WT:0	WIELD:Light		SIZE:H	DAMAGE:0	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM	RANGE:10								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Bebilith ~ Web
+Eye Rays	KEY:Retriever ~ Eye Rays	PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Finesseable.Ray	COST:0	WT:0	WIELD:Light		SIZE:H	DAMAGE:12d6	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM	RANGE:100								MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Retriever ~ Eye Rays
+Chain	KEY:Chain Devil ~ Chain	PROFICIENCY:WEAPON|Chain	TYPE:Weapon.Natural.Melee.Finesseable.Bludgeoning	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2							SOURCEPAGE:MM		REACH:10							MODS:NO	PREABILITY:1,CATEGORY=Special Ability,Chain ~ Dancing Chain
+
+# Melee 																												
+Pincerstaff		PROFICIENCY:WEAPON|Pincerstaff	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Quarterstaff.Polearm	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD						SOURCEPAGE:MM								
+																												
+# Ranged																												
+																												
+# Armor 																												
+																												
+# Shield																												
+																												
+# Arrows																												
+
+###Block:Weapons																												
+###TODO: it's better to copy the original and modify the copy or not?																												
+# Equipment Name	Output Name	Required Proficiency	Type	Cost	Weight	Wield Category	Slot Needed	Size	Damage	Critical Hit Range	Critical Hit Multiplier	Modifier	Alternative Type	Alternative Damage	Alternative Critical Range	Alternative Critical	Alternative Modifier		Range	Reach	Reach Multiplier			BONUS:EQM	Special Property	Weapon prop. bonus		
+# Melee Specific Weapons																												
+																												
+# Ranged Specific Weapons																												
+																												
+# Monster Specific Armors&Shields																												
+																												
+# Armor Specific																												
+																												
+# Shield Specific																												

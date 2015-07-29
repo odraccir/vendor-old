@@ -35,13 +35,14 @@ use English qw( -no_match_vars );    # No more funky punctuation variables
 # Remove SVN hooks from displayed version.
 
 # Version information            # Converting to SVN Id parsing using array - Tir Gwaith
-my $SVN_id = '$Id$';
-my @SVN_array = split ' ', $SVN_id;
-my $SVN_build = $SVN_array[2];
-my $SVN_date = $SVN_array[3];
-$SVN_date =~ tr{-}{.};
-my $VERSION        = "1.51 (build $SVN_build)";
-my $VERSION_DATE    = $SVN_date;
+#my $SVN_id = '$Id: prettylst.pl 25712 2014-12-04 07:18:09Z amaitland $';
+#my @SVN_array = split ' ', $SVN_id;
+#my $SVN_build = $SVN_array[2];
+#my $SVN_date = $SVN_array[3];
+#$SVN_date =~ tr{-}{.};
+my $VERSION		= "6.04.01";
+my $VERSION_DATE	= "2015-02-09";
+my ($PROGRAM_NAME)	= "PCGen PrettyLST";
 my ($SCRIPTNAME)    = ( $PROGRAM_NAME =~ m{ ( [^/\\]* ) \z }xms );
 my $VERSION_LONG    = "$SCRIPTNAME version: $VERSION -- $VERSION_DATE";
 

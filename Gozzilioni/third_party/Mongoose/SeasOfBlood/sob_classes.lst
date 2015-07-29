@@ -6,12 +6,12 @@ SOURCELONG:Gozzilioni Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.gozzili
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
-CLASS:Sailor	HD:8	TYPE:NPC.Base	ABB:Sai	MAXLEVEL:5	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Base	ROLE:Skill	DEFINE:SailorLVL|0	BONUS:VAR|SailorLVL|CL
+CLASS:Sailor	HD:8	TYPE:NPC.Base	FACT:Abb|Sai	MAXLEVEL:5	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Base	ROLE:Skill	DEFINE:SailorLVL|0	BONUS:VAR|SailorLVL|CL
 CLASS:Sailor													
 CLASS:Sailor	STARTSKILLPTS:2	CSKILL:Balance|Climb|Jump|Knowledge (Seamanship)|Swim|Use Rope											
 1				ABILITY:Sailor Class Feature|AUTOMATIC|Sailor ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SailorProficiencies									
 													
-CLASS:Buccaneer	HD:8	TYPE:PC.Prestige	ABB:Buc	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:BuccaneerLVL|0	BONUS:VAR|BuccaneerLVL|CL
+CLASS:Buccaneer	HD:8	TYPE:PC.Prestige	FACT:Abb|Buc	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:BuccaneerLVL|0	BONUS:VAR|BuccaneerLVL|CL
 CLASS:Buccaneer	PRETOTALAB:3	PRESTAT:1,CHA=13	PRESKILL:3,Balance=6,Swim=6,Tumble=6										
 CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Seamanship)|Move Silently|Sense Motive|Swim|Tumble|Use Rope											
 1				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerProficiencies									
@@ -26,7 +26,7 @@ CLASS:Buccaneer	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Bluff|Climb|Diplomacy|Di
 9				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Sabotage|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerSabotage									
 10				ABILITY:Buccaneer Class Feature|AUTOMATIC|Buccaneer ~ Acrobatic Defence|!PREABILITY:1,CATEGORY=ACF,TYPE.BuccaneerAcrobaticDefence									
 													
-CLASS:Reaver	HD:10	TYPE:PC.Prestige	ABB:Rea	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ReaverLVL|0	BONUS:VAR|ReaverLVL|CL
+CLASS:Reaver	HD:10	TYPE:PC.Prestige	FACT:Abb|Rea	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:ReaverLVL|0	BONUS:VAR|ReaverLVL|CL
 CLASS:Reaver	PRETOTALAB:4	PRESKILL:1,Swim=6	PREABILITY:2,CATEGORY=FEAT,Power Attack,Two-Weapon Fighting										
 CLASS:Reaver	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Hide|Intimidate|Jump|Knowledge (Seamanship)|Swim|Use Rope											
 1				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverProficiencies									
@@ -37,7 +37,7 @@ CLASS:Reaver	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|Hide|Intimidate|Jump|Kn
 4				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Instill Fear|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverInstillFear									
 7				ABILITY:Reaver Class Feature|AUTOMATIC|Reaver ~ Skilled Boarder|!PREABILITY:1,CATEGORY=ACF,TYPE.ReaverSkilledBoarder									
 													
-CLASS:Navigator Wizard	HD:4	TYPE:PC.Prestige	ABB:NaW	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:NavigatorWizardLVL|0	BONUS:VAR|NavigatorWizardLVL|CL
+CLASS:Navigator Wizard	HD:4	TYPE:PC.Prestige	FACT:Abb|NaW	MAXLEVEL:10	SOURCEPAGE:SoB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:NavigatorWizardLVL|0	BONUS:VAR|NavigatorWizardLVL|CL
 CLASS:Navigator Wizard	PRESPELLSCHOOL:1,Divination=2	PRESKILL:1,Profession (Navigator)=6	PREABILITY:1,CATEGORY=FEAT,Spell Mastery										
 CLASS:Navigator Wizard	STARTSKILLPTS:4	CSKILL:Concentration|Decipher Script|Gather Information|TYPE=Knowledge|Profession (Navigator)|Spellcraft											
 1				ABILITY:Navigator Wizard Class Feature|AUTOMATIC|Navigator Wizard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.NavigatorWizardProficiencies									

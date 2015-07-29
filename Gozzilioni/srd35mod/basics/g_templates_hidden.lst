@@ -2,20 +2,7 @@ SOURCELONG:Gozzilioni Rsrd Modifications Basic	SOURCESHORT:G	SOURCEWEB:http://ww
 ###Block: Class			
 # Template Name	Visible	Source Page	Special Ability
 								
-Junior Worker	VISIBLE:NO	KEY:Myconid ~ Junior Worker	SUBRACE:Junior Worker					
-Average Worker	VISIBLE:NO	KEY:Myconid ~ Average Worker	SUBRACE:Average Worker					
-Elder Worker	VISIBLE:NO	KEY:Myconid ~ Elder Worker	SUBRACE:Elder Worker					
-Guard	VISIBLE:NO	KEY:Myconid ~ Guard	SUBRACE:Guard					
-Circle Leader	VISIBLE:NO	KEY:Myconid ~ Circle Leader	SUBRACE:Circle Leader					
-Sovereign	VISIBLE:NO	KEY:Myconid ~ Sovereign	SUBRACE:Sovereign					
-
-Spawn	VISIBLE:NO	KEY:Neogi ~ Spawn	SUBRACE:Spawn
-Adult	VISIBLE:NO	KEY:Neogi ~ Adult	SUBRACE:Adult
-
-Average	VISIBLE:NO	KEY:Psurlon ~ Average	SUBRACE:Average
-Elder	VISIBLE:NO	KEY:Psurlon ~ Elder	SUBRACE:Elder
-Giant	VISIBLE:NO	KEY:Psurlon ~ Giant	SUBRACE:Giant
-
+#Attacks
 Slam ~ Bite ~ Claw ~ Gore (Fine)	VISIBLE:NO				PRESIZEEQ:F	NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1																																			
 Slam ~ Bite ~ Claw ~ Gore (Diminutive)	VISIBLE:NO				PRESIZEEQ:D	NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d2|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1																																			
 Slam ~ Bite ~ Claw ~ Gore (Tiny)	VISIBLE:NO				PRESIZEEQ:T	NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d2	NATURALATTACKS:Gore,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1																																		

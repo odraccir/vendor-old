@@ -8,6 +8,7 @@ Disable Device.MOD		SITUATION:Magic traps
 Disguise.MOD			SITUATION:Impersonating a Human
 Disguise.MOD		SITUATION:Polymorph Self
 Hide.MOD		SITUATION:Arid settings
+Hide.MOD		SITUATION:Brush area
 Hide.MOD		SITUATION:Desert area
 Hide.MOD		SITUATION:Foggy area
 Hide.MOD		SITUATION:Marshlands
@@ -16,8 +17,10 @@ Hide.MOD		SITUATION:Sandy settings
 Hide.MOD		SITUATION:Shadowy area
 Hide.MOD		SITUATION:Smoky area
 Hide.MOD		SITUATION:Subterran area
+Hide.MOD		SITUATION:Scrubland area
 Hide.MOD		SITUATION:Tall grass area
 Hide.MOD		SITUATION:Urban environment
+Hide.MOD		SITUATION:Underwater
 Hide.MOD		SITUATION:Water area
 Hide.MOD		SITUATION:Wooded area
 Knowledge (Dungeoneering).MOD		SITUATION:Navigate underground

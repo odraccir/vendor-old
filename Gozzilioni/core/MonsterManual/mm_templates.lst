@@ -2,10 +2,16 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzili
 ###Block: Creature Subtypes					
 # Template Name	Visible	Source Page	Special Ability		
 Lich.MOD	PRE:.CLEAR	PREALIGN:LE,NE,CE	PRERACE:1,RACETYPE=Humanoid	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,SPELLCASTER=11
+Celestial	SOURCEPAGE:MM	PRERACE:1,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:CHOOSE:Celestial (Animal)|Celestial (Vermin)	RACESUBTYPE:Extraplanar	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Smite Evil|Resistance To Acid|Resistance To Cold|Resistance To Electricity	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|5|TYPE=Resistance|PREHD:MAX=7	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance|PREHD:MIN=8	DEFINE:CelestialDR|0	DR:CelestialDR/Magic	BONUS:VAR|CelestialDR|5|PREHD:MIN=4,MAX=11	BONUS:VAR|CelestialDR|10|PREHD:MIN=12	SR:CelestialSR	DEFINE:CelestialSR|0	BONUS:VAR|CelestialSR|min(5+HD,25)	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Natural Weapon|PREVARGTEQ:CelestialDR,1	TEMPLATE:CHOOSE:Int Bonus +1|Int Bonus +2|Int Bonus +3	BONUS:MISC|CR|1|PREHD:MIN=4,MAX=7	BONUS:MISC|CR|2|PREHD:MIN=8	KIT:1|LG|NG|CG	LEVELADJUSTMENT:2
+Celestial (Animal)	VISIBLE:NO	PRERACE:1,TYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal	DEFINESTAT:MINVALUE|INT|3
+Celestial (Vermin)	VISIBLE:NO	PRERACE:1,TYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin	DEFINESTAT:STAT|INT	DEFINESTAT:MINVALUE|INT|3
+
 
 Yuan-Ti Halfblood ~ 2 Arms	VISIBLE:NO	HANDS:2
 Yuan-Ti Halfblood ~ 2 Snakes	VISIBLE:NO	HANDS:0
 Yuan-Ti Halfblood ~ 2 Legs	VISIBLE:NO	LEGS:2
 Yuan-Ti Halfblood ~ 1 Tail	VISIBLE:NO	LEGS:0
 
+###Block: Races
+Bugbear	KEY:Bugbear Base	VISIBLE:NO		FAVOREDCLASS:Rogue	AUTO:LANG|Goblin|Common	LANGBONUS:Draconic,Elven,Giant,Gnoll,Orc
 Shore	KEY:Shore Merfolk	VISIBLE:NO	SUBRACE:Shore	FAVOREDCLASS:Bard	AUTO:LANG|Common|Aquan

@@ -19,6 +19,7 @@ ABILITY:g_abilities.lst
 ABILITY:g_abilities_races.lst
 # FEAT:g_feats.lst
 ABILITY:g_feats.lst
+CLASS:g_classes_monster.lst
 RACE:g_races.lst
 TEMPLATE:g_templates.lst
 

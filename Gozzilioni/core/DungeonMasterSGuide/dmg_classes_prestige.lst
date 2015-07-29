@@ -5,7 +5,7 @@ SOURCELONG:Gozzilioni Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://ww
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST						
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)		
-CLASS:Red Wizard	HD:4	TYPE:Prestige	ABB:Red	MAXLEVEL:10	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE	
+CLASS:Red Wizard	HD:4	TYPE:Prestige	FACT:Abb|Red	MAXLEVEL:10	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE	
 CLASS:Red Wizard	PRERACE:1,RACESUBTYPE=Human	PREREGION:1,Thay	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Tatoo Focus	PREMULT:1,[PREABILITY:3,CATEGORY=FEAT,TYPE.ItemCreation],[PREABILITY:3,CATEGORY=FEAT,TYPE.Metamagic]	PRESPELLTYPE:1,Arcane=3					
 CLASS:Red Wizard	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE=Craft|Intimidate|TYPE=Knowledge|TYPE=Profession|Spellcraft										ALLOWBASECLASS:NO
 SUBCLASS:Red Wizard ~ Abjurer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Abjuration									
@@ -43,6 +43,6 @@ SUBCLASSLEVEL:2			ABILITY:Red Wizard Class Feature|AUTOMATIC|Spell Power ~ Trans
 9	ADD:SPELLCASTER|Arcane						BONUS:VAR|SpecialistDefenseBonus|1					
 10	ADD:SPELLCASTER|Arcane
 
-CLASS:Arcane Trickster.MOD	ABB:Act
-CLASS:Archmage.MOD	ABB:Acm
-CLASS:Dragon Disciple.MOD	ABB:DDi
+CLASS:Arcane Trickster.MOD	FACT:Abb|Act
+CLASS:Archmage.MOD	FACT:Abb|Acm
+CLASS:Dragon Disciple.MOD	FACT:Abb|DDi

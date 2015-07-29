@@ -63,4 +63,4 @@ Studded Leather	KEY:Firbolg ~ Studded Leather	PROFICIENCY:ARMOR|Studded Leather	
 Banded Mail	KEY:Dread Guard ~ Banded Mail	PROFICIENCY:ARMOR|Banded Mail	TYPE:Enhancement.Armor.Heavy.Suit.Specific	COST:250	WT:35	ACCHECK:-6	EQMOD:STEEL.MWORKA	MAXDEX:1	SOURCEPAGE:MM2	SPELLFAILURE:35	BONUS:COMBAT|AC|6|TYPE=Armor	SIZE:M																
 																												
 # Shield Specific																												
-Shield, Light Metal	KEY:Dread Guard ~ Shield	PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Shield.Light.Specific.Metal	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA		SOURCEPAGE:MM2	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield	SIZE:M							CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	WIELD:Light						
+Shield (Light/Metal)	KEY:Dread Guard ~ Shield	PROFICIENCY:SHIELD|Shield (Light)	TYPE:Enhancement.Shield.Light.Specific.Metal	COST:9	WT:6	ACCHECK:-1	EQMOD:STEEL.MWORKA		SOURCEPAGE:MM2	SPELLFAILURE:5	BONUS:COMBAT|AC|1|TYPE=Shield	SIZE:M							CRITMULT:x2	CRITRANGE:1	DAMAGE:1d3	WIELD:Light	OUTPUTNAME:Shield, Light Metal						

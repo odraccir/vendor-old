@@ -1,8 +1,17 @@
 # Racial																								
 ABILITYCATEGORY:Merfolk Race Trait			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Merfolk Race Trait.MerfolkRaceTrait																				DISPLAYLOCATION:Race Traits
 ABILITYCATEGORY:Merfolk Subrace				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:MerfolkSubrace																								DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Bugbear Race Trait			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Bubgear Race Trait.BugbearRaceTrait																				DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Bugbear Subrace				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:BugbearSubrace.BugbearSubraceDisplay																				DISPLAYLOCATION:Race Traits
 
 ## Racial Features																								
 ABILITYCATEGORY:Yuan-Ti Halfblood Variant				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO			CATEGORY:Special Ability	TYPE:YuanTiHalfbloodVariant									PLURAL:Yuan-Ti Halfblood Variants			DISPLAYLOCATION:Race Traits
-																								
+ABILITYCATEGORY:Chimera Dragon Head				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO			CATEGORY:Special Ability	TYPE:ChimeraDragonHead									PLURAL:Chimera Dragon Heads			DISPLAYLOCATION:Race Traits
+
+# Race Abilities
+ABILITYCATEGORY:Angel Planetar Domains			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:PlanetarDomains																				DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Angel Solar Domains			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SolarDomains																				DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Animated Object Selection			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AnimatedObjectSelection																				DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Archon Trumpet Domains			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SolarDomains																				DISPLAYLOCATION:Race Traits
+
 ## Feats																								

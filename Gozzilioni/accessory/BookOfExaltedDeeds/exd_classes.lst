@@ -6,7 +6,7 @@ SOURCELONG:Gozzilioni Book of Exalted Deeds	SOURCESHORT:ExD	SOURCEWEB:http://www
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
-CLASS:Anointed Knight	HD:10	TYPE:PC.Prestige	ABB:AnK	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:AnointedKnightLVL|0	BONUS:VAR|AnointedKnightLVL|CL
+CLASS:Anointed Knight	HD:10	TYPE:PC.Prestige	FACT:Abb|AnK	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:AnointedKnightLVL|0	BONUS:VAR|AnointedKnightLVL|CL
 CLASS:Anointed Knight	PREALIGN:LG,NG,CG	PREATT:5	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:2,Knowledge (Arcana)=3,Spellcraft=3	PREABILITY:1,CATEGORY=FEAT,Ancestral Relic								
 CLASS:Anointed Knight	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Craft (Alchemy)|Heal|Jump|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (The Planes)|Ride|Spellcraft											
 1				ABILITY:Anointed Knight Class Feature|AUTOMATIC|Anointed Knight ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AnointedKnightProficiencies									
@@ -15,10 +15,10 @@ CLASS:Anointed Knight	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Craft (Alchemy)
 2				ABILITY:Anointed Knight Class Feature|AUTOMATIC|Anointed Knight ~ Anoint Ancestral Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.AnointedKnightAnointAncestralWeapon									
 3				ABILITY:Anointed Knight Class Feature|AUTOMATIC|Anointed Knight ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.AnointedKnightBonusFeats									
 													
-CLASS:Apostole of Peace	HD:4	TYPE:PC.Prestige	ABB:AoP	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ApostoleOfPeaceLVL|0	BONUS:VAR|ApostoleOfPeaceLVL|CL
+CLASS:Apostole of Peace	HD:4	TYPE:PC.Prestige	FACT:Abb|AoP	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:ApostoleOfPeaceLVL|0	BONUS:VAR|ApostoleOfPeaceLVL|CL
 CLASS:Apostole of Peace	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PRESKILL:1,Concentration=10	PRESKILL:1,Diplomacy=6	PREABILITY:4,CATEGORY=FEAT,Sacred Vow,Vow of Nonviolence,Vow of Peace,Vow of Poverty								
 CLASS:Apostole of Peace	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE=Craft|Diplomacy|Escape Artist|Gather Information|Handle Animal|Heal|TYPE=Knowledge|Listen|TYPE.Perform|TYPE=Profession|Search|Sense Motive|Speak Language|Spellcraft|Spot											
-CLASS:Apostole of Peace	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Apostole of Peace|((max(CASTERLEVEL.TOTAL,0))/2)								
+CLASS:Apostole of Peace	SPELLSTAT:WIS	FACT:SpellType|Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Apostole of Peace|((max(CASTERLEVEL.TOTAL,0))/2)								
 1				ABILITY:Apostole of Peace Class Feature|AUTOMATIC|Apostole of Peace ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ApostoleOfPeaceProficiencies									
 1				ABILITY:Apostole of Peace Class Feature|AUTOMATIC|Apostole of Peace ~ Spellcasting									
 #													
@@ -38,10 +38,10 @@ CLASS:Apostole of Peace	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:
 9	CAST:6,5,4,4,4,4,3,2,1,0												
 10	CAST:6,5,5,4,4,4,4,3,2,1												
 													
-CLASS:Beloved of Valarian	HD:10	TYPE:PC.Prestige	ABB:Bva	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:BelovedOfValarianLVL|0	BONUS:VAR|BelovedOfValarianLVL|CL
+CLASS:Beloved of Valarian	HD:10	TYPE:PC.Prestige	FACT:Abb|Bva	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:BelovedOfValarianLVL|0	BONUS:VAR|BelovedOfValarianLVL|CL
 CLASS:Beloved of Valarian	PREGENDER:Female	PREALIGN:LG,NG,CG	PREATT:7	PRESKILL:1,Knowledge (Nature)=5	PRESKILL:1,Ride=10	PREABILITY:3,CATEGORY=FEAT,Mounted Combat,Sacred Vow,Vow of Chastity	PRETEXT:Must meditate at a druid's grove and fast until she saves the life of an animal in danger.						
 CLASS:Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense Motive|Survival											
-CLASS:Beloved of Valarian	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Beloved Of Valarian|CL								
+CLASS:Beloved of Valarian	SPELLSTAT:WIS	FACT:SpellType|Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Beloved Of Valarian|CL								
 1				ABILITY:Beloved of Valarian Class Feature|AUTOMATIC|Beloved of Valarian ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BelovedOfValarianProficiencies									
 1				ABILITY:Beloved of Valarian Class Feature|AUTOMATIC|Beloved of Valarian ~ Spells									
 #													
@@ -68,7 +68,7 @@ CLASS:Beloved of Valarian	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELL
 9	CAST:0,2,2,1,1												
 10	CAST:0,2,2,2,1												
 													
-CLASS:Celestial Mystic	HD:4	TYPE:PC.Prestige	ABB:Cmy	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:CelestialMysticLVL|0	BONUS:VAR|CelestialMysticLVL|CL
+CLASS:Celestial Mystic	HD:4	TYPE:PC.Prestige	FACT:Abb|Cmy	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:CelestialMysticLVL|0	BONUS:VAR|CelestialMysticLVL|CL
 CLASS:Celestial Mystic	PREALIGN:LG	PRESKILL:2,Knowledge (Arcana)=4,Knowledge (The Planes)=4	PRESKILL:2,Knowledge (Religion)=6,Spellcraft=6	PREABILITY:3,CATEGORY=FEAT,Servant of the Heavens,Sacred Vow,Vow of Abstinence	PRESPELLTYPE:1,ANY=4								
 CLASS:Celestial Mystic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Spellcraft											
 1				ABILITY:Celestial Mystic Class Feature|AUTOMATIC|Celestial Mystic ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CelestialMysticProficiencies									
@@ -92,10 +92,10 @@ CLASS:Celestial Mystic	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy
 9	ADD:SPELLCASTER|ANY												
 10	ADD:SPELLCASTER|ANY												
 													
-CLASS:Champion of Gwynharwyf	HD:12	TYPE:PC.Prestige	ABB:CoG	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ChampionOfGwynharwyfLVL|0	BONUS:VAR|ChampionOfGwynharwyfLVL|CL
+CLASS:Champion of Gwynharwyf	HD:12	TYPE:PC.Prestige	FACT:Abb|CoG	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:ChampionOfGwynharwyfLVL|0	BONUS:VAR|ChampionOfGwynharwyfLVL|CL
 CLASS:Champion of Gwynharwyf	PREALIGN:CG	PREATT:6	PRESKILL:1,Intimidate=9	PREABILITY:2,CATEGORY=FEAT,Knight of Stars,Righteous Wrath									
 CLASS:Champion of Gwynharwyf	STARTSKILLPTS:4	CSKILL:Climb|TYPE=Craft|Handle Animal|Intimidate|Jump|Listen|Ride|Survival|Swim											
-CLASS:Champion of Gwynharwyf	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Champion of Gwynharwyf|CL								
+CLASS:Champion of Gwynharwyf	SPELLSTAT:WIS	FACT:SpellType|Divine	SPELLBOOK:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Champion of Gwynharwyf|CL								
 1				ABILITY:Champion of Gwynharwyf Class Feature|AUTOMATIC|Champion Of Gwynharwyf ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ChampionOfGwynharwyfProficiencies									
 1				ABILITY:Champion of Gwynharwyf Class Feature|AUTOMATIC|Champion Of Gwynharwyf ~ Spells									
 #													
@@ -120,7 +120,7 @@ CLASS:Champion of Gwynharwyf	SPELLSTAT:WIS	SPELLTYPE:Divine	SPELLBOOK:NO	KNOWNSP
 9	CAST:0,2,2,1,1												
 10	CAST:0,2,2,2,1												
 													
-CLASS:Defender of Sealtiel	HD:12	TYPE:PC.Prestige	ABB:DoS	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:DefenderOfSealtielLVL|0	BONUS:VAR|DefenderOfSealtielLVL|CL
+CLASS:Defender of Sealtiel	HD:12	TYPE:PC.Prestige	FACT:Abb|DoS	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:DefenderOfSealtielLVL|0	BONUS:VAR|DefenderOfSealtielLVL|CL
 CLASS:Defender of Sealtiel	PREALIGN:LG	PREATT:7	PRESKILL:1,Listen=5	PREABILITY:3,CATEGORY=FEAT,Diehard,Endurance,Servant of the Heavens									
 CLASS:Defender of Sealtiel	STARTSKILLPTS:2	CSKILL:TYPE=Craft|Listen|Sense Motive|Spot											
 1				ABILITY:Defender of Sealtiel Class Feature|AUTOMATIC|Defender of Sealtiel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DefenderOfSealtielProficiencies									
@@ -133,10 +133,10 @@ CLASS:Defender of Sealtiel	STARTSKILLPTS:2	CSKILL:TYPE=Craft|Listen|Sense Motive
 6				ABILITY:Defender of Sealtiel Class Feature|AUTOMATIC|Defender of Sealtiel ~ Protective Aura|PREABILITY:1,CATEGORY=ACF,TYPE.DefenderOfSealtielProtectiveAura									
 8				ABILITY:Defender of Sealtiel Class Feature|AUTOMATIC|Defender of Sealtiel ~ Glory of the Martyr|PREABILITY:1,CATEGORY=ACF,TYPE.DefenderOfSealtielGloryOfTheMartyr									
 													
-CLASS:Emissary of Barachiel	HD:6	TYPE:PC.Prestige	ABB:EoB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:EmissaryOfBarachielLVL|0	BONUS:VAR|EmissaryOfBarachielLVL|CL
+CLASS:Emissary of Barachiel	HD:6	TYPE:PC.Prestige	FACT:Abb|EoB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:EmissaryOfBarachielLVL|0	BONUS:VAR|EmissaryOfBarachielLVL|CL
 CLASS:Emissary of Barachiel	PREALIGN:LG	PRESKILL:1,Diplomacy=8	PRESKILL:1,Knowledge (The Planes)=4	PREABILITY:2,CATEGORY=FEAT,Servant of the Heavens,Words of Creation									
 CLASS:Emissary of Barachiel	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|Gather Information|TYPE=Knowledge|Listen|TYPE.Perform|TYPE=Profession|Sense Motive|Speak Language|Spellcraft|Use Magic Device											
-CLASS:Emissary of Barachiel	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CASTERLEVEL|Emissary of Barachiel|CL								
+CLASS:Emissary of Barachiel	SPELLSTAT:CHA	FACT:SpellType|Divine	MEMORIZE:NO		BONUS:CASTERLEVEL|Emissary of Barachiel|CL								
 1				ABILITY:Emissary of Barachiel Class Feature|AUTOMATIC|Emissary of Barachiel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EmissaryOfBarachielProficiencies									
 1				ABILITY:Emissary of Barachiel Class Feature|AUTOMATIC|Emissary of Barachiel ~ Spells									
 #													
@@ -155,7 +155,7 @@ CLASS:Emissary of Barachiel	SPELLSTAT:CHA	SPELLTYPE:Divine	MEMORIZE:NO		BONUS:CA
 9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3											
 10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4											
 													
-CLASS:Exalted Arcanist	HD:4	TYPE:PC.Prestige	ABB:ExA	MAXLEVEL:5	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ExaltedArcanistLVL|0	BONUS:VAR|ExaltedArcanistLVL|CL
+CLASS:Exalted Arcanist	HD:4	TYPE:PC.Prestige	FACT:Abb|ExA	MAXLEVEL:5	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:ExaltedArcanistLVL|0	BONUS:VAR|ExaltedArcanistLVL|CL
 CLASS:Exalted Arcanist	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PRESKILL:1,Knowledge (Arcana)=9	PRESKILL:1,Knowledge (Religion)=4	PREABILITY:1,CATEGORY=FEAT,Consecrate Spell,Purify Spell	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=3						
 CLASS:Exalted Arcanist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher Script|Diplomacy|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE=Profession|Sense Motive|Spellcraft|Use Magic Device											
 1				ABILITY:Exalted Arcanist Class Feature|AUTOMATIC|Exalted Arcanist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ExaltedArcanistProficiencies									
@@ -173,7 +173,7 @@ CLASS:Exalted Arcanist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Decipher 
 4	ADD:SPELLCASTER|Arcane												
 5	ADD:SPELLCASTER|Arcane												
 													
-CLASS:Fist of Raziel	HD:10	TYPE:PC.Prestige	ABB:FiR	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:FistOfRazielLVL|0	BONUS:VAR|FistOfRazielLVL|CL
+CLASS:Fist of Raziel	HD:10	TYPE:PC.Prestige	FACT:Abb|FiR	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:FistOfRazielLVL|0	BONUS:VAR|FistOfRazielLVL|CL
 CLASS:Fist of Raziel	PREALIGN:LG	PREATT:6	PRESKILL:2,Diplomacy=5,Knowledge (Religion)=5	PREABILITY:2,CATEGORY=FEAT,Power Attack,Servant of the Heavens	PRESPELL:1,Divine Favor								
 CLASS:Fist of Raziel	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Knowledge (The Planes)|Knowledge (Religion)|TYPE=Profession|Sense Motive											
 1				ABILITY:Fist of Raziel Class Feature|AUTOMATIC|Fist of Raziel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfRazielProficiencies									
@@ -194,7 +194,7 @@ CLASS:Fist of Raziel	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|H
 9	ADD:SPELLCASTER|Divine												
 10	ADD:SPELLCASTER|Divine												
 													
-CLASS:Initiate of Pistis Sophia	HD:8	TYPE:PC.Prestige	ABB:Ips	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:InitiateOfPistisSophiaLVL|0	BONUS:VAR|InitiateOfPistisSophiaLVL|CL
+CLASS:Initiate of Pistis Sophia	HD:8	TYPE:PC.Prestige	FACT:Abb|Ips	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:InitiateOfPistisSophiaLVL|0	BONUS:VAR|InitiateOfPistisSophiaLVL|CL
 CLASS:Initiate of Pistis Sophia	PREALIGN:LG	PRECHECKBASE:3,Fortitude=5,Reflex=5,Will=5	PRESKILL:1,Concentration=9	PREABILITY:3,CATEGORY=FEAT,Sacred Vow,Sanctify Ki Strike,Servant of the Heavens									
 CLASS:Initiate of Pistis Sophia	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplomacy|Escape Artist|Hide|Jump|Knowledge (The Planes)|Knowledge (Religion)|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Sense Motive|Spot|Swim|Tumble											
 1				ABILITY:Initiate of Pistis Sophia Class Feature|AUTOMATIC|Initiate of Pistis Sophia ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfPistisSophiaProficiencies									
@@ -210,7 +210,7 @@ CLASS:Initiate of Pistis Sophia	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentrati
 9				ABILITY:Initiate of Pistis Sophia Class Feature|AUTOMATIC|Initiate of Pistis Sophia ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfPistisSophiaImprovedEvasion									
 10				ABILITY:Initiate of Pistis Sophia Class Feature|AUTOMATIC|Initiate of Pistis Sophia ~ Celestial Transformation|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfPistisSophiaCelestialTransformation									
 													
-CLASS:Lion of Talsid	HD:8	TYPE:PC.Prestige	ABB:LoT	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:LionOfTalsidLVL|0	BONUS:VAR|LionOfTalsidLVL|CL
+CLASS:Lion of Talsid	HD:8	TYPE:PC.Prestige	FACT:Abb|LoT	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:LionOfTalsidLVL|0	BONUS:VAR|LionOfTalsidLVL|CL
 CLASS:Lion of Talsid	PREALIGN:NG	PREATT:4	PRESKILL:2,Knowledge (Nature)=9,Survival=9	PREABILITY:1,CATEGORY=FEAT,Favored of the Companions	PRESPELL:1,Summon Nature's Ally II	PREABILITY:1,CATEGORY=Internal,Animal Companion							
 CLASS:Lion of Talsid	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|Handle Animal|Heal|Listen|Knowledge (Nature)|Ride|Spellcraft|Spot|Survival|Swim											
 1				ABILITY:Lion of Talsid Class Feature|AUTOMATIC|Lion of Talsid ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.LionOfTalsidProficiencies									
@@ -234,7 +234,7 @@ CLASS:Lion of Talsid	STARTSKILLPTS:4	CSKILL:Concentration|TYPE=Craft|Diplomacy|H
 9	ADD:SPELLCASTER|Divine												
 10	ADD:SPELLCASTER|Divine												
 													
-CLASS:Prophet of Erathaol	HD:8	TYPE:PC.Prestige	ABB:PoE	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:ProphetOfErathaolLVL|0	BONUS:VAR|ProphetOfErathaolLVL|CL
+CLASS:Prophet of Erathaol	HD:8	TYPE:PC.Prestige	FACT:Abb|PoE	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:ProphetOfErathaolLVL|0	BONUS:VAR|ProphetOfErathaolLVL|CL
 CLASS:Prophet of Erathaol	PREALIGN:LG	PRESKILL:1,Knowledge (Arcana)=5	PRESKILL:1,Spellcraft=10	PREABILITY:4,CATEGORY=FEAT,Sacred Vow,Servant of the Heavens,Spell Focus (Divination),Vow of Chastity	PREMULT:1,[PRESPELLTYPE:1,Arcane=4],[PRESPELLTYPE:1,Divine=4]								
 CLASS:Prophet of Erathaol	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE=Profession|Spellcraft											
 1				ABILITY:Prophet of Erathaol Class Feature|AUTOMATIC|Prophet of Erathaol ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ProphetOfErathaolProficiencies									
@@ -252,7 +252,7 @@ CLASS:Prophet of Erathaol	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Heal|I
 9	ADD:SPELLCASTER|Divine												
 10	ADD:SPELLCASTER|Divine												
 													
-CLASS:Risen Martyr	HD:12	TYPE:PC.Prestige	ABB:Rma	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:RysemMartyrLVL|0	BONUS:VAR|RysemMartyrLVL|CL
+CLASS:Risen Martyr	HD:12	TYPE:PC.Prestige	FACT:Abb|Rma	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:RysemMartyrLVL|0	BONUS:VAR|RysemMartyrLVL|CL
 CLASS:Risen Martyr	PREALIGN:LG,NG,CG	PRECHECKBASE:3,Fortitude=2,Reflex=2,Will=2	PRESKILL:1,TYPE.Strength=9,TYPE.Dexterity=9,TYPE.Constitution=9,TYPE.Intelligence=9,TYPE.Wisdom=9,TYPE.Charisma=9	PRELANG:1,Celestial	PREABILITY:1,CATEGORY=FEAT,Nimbus of Light	PREABILITY:2,CATEGORY=FEAT,TYPE=Exalted	PRETEXT:Must have suffered martyrdom and must not have been returned to life.	PRETEMPLATE:1,Risen Martyr ~ Spiritual Body					
 CLASS:Risen Martyr	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Gather Information|Heal|Knowledge (The Planes)|Knowledge (Religion)|Listen|Sense Motive|Spot											
 1				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrProficiencies									
@@ -274,7 +274,7 @@ CLASS:Risen Martyr	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Gather Informa
 10				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Perfection|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrPerfection									
 10				ABILITY:Risen Martyr Class Feature|AUTOMATIC|Risen Martyr ~ Final Ascension|!PREABILITY:1,CATEGORY=ACF,TYPE.RisenMartyrFinalAscension									
 													
-CLASS:Sentinel of Bharrai	HD:4	TYPE:PC.Prestige	ABB:SeB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SentinelOfBharraiLVL|0	BONUS:VAR|SentinelOfBharraiLVL|CL
+CLASS:Sentinel of Bharrai	HD:4	TYPE:PC.Prestige	FACT:Abb|SeB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:SentinelOfBharraiLVL|0	BONUS:VAR|SentinelOfBharraiLVL|CL
 CLASS:Sentinel of Bharrai	PREALIGN:LG,NG,CG	PRESKILL:3,Knowledge (Arcana)=8,Knowledge (Nature)=8,Spellcraft=8	PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Obedience										
 CLASS:Sentinel of Bharrai	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|Decipher Script|Gather Information|Handle Animal|Heal|TYPE=Knowledge|TYPE=Profession|Speak Language|Spellcraft|Survival											
 1				ABILITY:Sentinel of Bharrai Class Feature|AUTOMATIC|Sentinel of Bharrai ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SentinelOfBharraiProficiencies									
@@ -302,7 +302,7 @@ CLASS:Sentinel of Bharrai	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|D
 9	ADD:SPELLCASTER|ANY												
 10	ADD:SPELLCASTER|ANY												
 													
-CLASS:Skylord	HD:10	TYPE:PC.Prestige	ABB:Skl	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SkylordLVL|0	BONUS:VAR|SkylordLVL|CL
+CLASS:Skylord	HD:10	TYPE:PC.Prestige	FACT:Abb|Skl	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:SkylordLVL|0	BONUS:VAR|SkylordLVL|CL
 CLASS:Skylord	PREALIGN:LG,NG,CG	PRERACE:1,RACESUBTYPE=Elf	PREATT:7	PRESKILL:2,Handle Animal=10,Ride=10	PREABILITY:1,CATEGORY=FEAT,Mounted Combat	PREFEAT:1,CATEGORY=FEAT,Mounted Archery,Ride-By Attack	PREABILITY:1,CATEGORY=FEAT,TYPE=Exalted	PRETEXT:must spend one week living and meditating atop a mountain.					
 CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE=Knowledge|Listen|Ride|Spot|Survival											
 1				ABILITY:Skylord Class Feature|AUTOMATIC|Skylord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SkylordProficiencies									
@@ -321,10 +321,10 @@ CLASS:Skylord	STARTSKILLPTS:2	CSKILL:Balance|Handle Animal|Heal|TYPE=Knowledge|L
 8	ADD:SPELLCASTER|ANY												
 10	ADD:SPELLCASTER|ANY												
 													
-CLASS:Slayer of Domiel	HD:6	TYPE:PC.Prestige	ABB:SoD	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SlayerOfDomielLVL|0	BONUS:VAR|SlayerOfDomielLVL|CL
+CLASS:Slayer of Domiel	HD:6	TYPE:PC.Prestige	FACT:Abb|SoD	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:SlayerOfDomielLVL|0	BONUS:VAR|SlayerOfDomielLVL|CL
 CLASS:Slayer of Domiel	PREALIGN:LG	PRESKILL:2,Hide=8,Move Silently=8	PREABILITY:2,CATEGORY=FEAT,Sanctify Martial Strike,Servant of the Heavens	PREABILITY:2,CATEGORY=Special Ability,Sneak Attack,Evasion	PREVARGTEQ:SneakAttackDice,3								
 CLASS:Slayer of Domiel	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Spot|Tumble|Use Magic Device|Use Rope											
-CLASS:Slayer of Domiel	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Slayer of Domiel|CL								
+CLASS:Slayer of Domiel	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Slayer of Domiel|CL								
 1				ABILITY:Slayer of Domiel Class Feature|AUTOMATIC|Slayer of Domiel ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SlayerOfDomielProficiencies									
 1				ABILITY:Slayer of Domiel Class Feature|AUTOMATIC|Slayer of Domiel ~ Spells									
 #													
@@ -345,42 +345,25 @@ CLASS:Slayer of Domiel	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LE
 9	CAST:0,2,2,1,1												
 10	CAST:0,2,2,2,1												
 													
-CLASS:Stalker of Kharash	HD:8	TYPE:PC.Prestige	ABB:SoK	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:StalkerOfKharashLVL|0	BONUS:VAR|StalkerOfKharashLVL|CL
+CLASS:Stalker of Kharash	HD:8	TYPE:PC.Prestige	FACT:Abb|SoK	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:StalkerOfKharashLVL|0	BONUS:VAR|StalkerOfKharashLVL|CL
 CLASS:Stalker of Kharash	PREALIGN:NG	PRESKILL:2,Hide=8,Move Silently=8	PREABILITY:3,CATEGORY=FEAT,Alertness,Favored of the Companions,Track										
 CLASS:Stalker of Kharash	STARTSKILLPTS:6	CSKILL:Climb|Concentration|Handle Animal|Heal|Hide|Jump|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|Ride|Search|Spot|Survival|Swim|Use Rope											
-SUBCLASS:Stalker of Kharash ~ Ranger	COST:0	PRECLASS:1,Ranger=1											
-SUBCLASSLEVEL:1				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Spells ~ Ranger									
-SUBCLASSLEVEL:1	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:2	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:3	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:4	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:5	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:6	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:7	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:8	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:9	ADD:SPELLCASTER|Ranger												
-SUBCLASSLEVEL:10	ADD:SPELLCASTER|Ranger												
-SUBCLASS:Stalker of Kharash ~ No Ranger	COST:0	!PRECLASS:1,Ranger=1	SPELLSTAT:WIS	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Stalker of Kharash|CL/2|PRECLASS:1,Stalker of Kharash=4	SPELLLIST:1|Ranger	ITEMCREATE:0.5					
-SUBCLASSLEVEL:1				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Spells ~ No Ranger									
-SUBCLASSLEVEL:1													
-SUBCLASSLEVEL:2													
-SUBCLASSLEVEL:3													
-SUBCLASSLEVEL:4	CAST:0,0												
-SUBCLASSLEVEL:5	CAST:0,0												
-SUBCLASSLEVEL:6	CAST:0,1												
-SUBCLASSLEVEL:7	CAST:0,1												
-SUBCLASSLEVEL:8	CAST:0,1,0												
-SUBCLASSLEVEL:9	CAST:0,1,0												
-SUBCLASSLEVEL:10	CAST:0,1,1												
 1				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashProficiencies									
+1				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Spells ~ Ranger|PRECLASS:1,Ranger=1
+1				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Spells ~ No Ranger|!PRECLASS:1,Ranger=1
 #													
-1				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Scent of Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashScentOfEvil									
-2				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashFavoredEnemy									
-4				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashHideInPlainSight									
-5				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Track Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashTrackEvil									
-6				ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashSmiteEvil									
-													
-CLASS:Swanmay	HD:8	TYPE:PC.Prestige	ABB:Swn	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SwanmayLVL|0	BONUS:VAR|SwanmayLVL|CL
+1	ADD:SPELLCASTER|Ranger			ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Scent of Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashScentOfEvil									
+2	ADD:SPELLCASTER|Ranger			ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashFavoredEnemy									
+3	ADD:SPELLCASTER|Ranger
+4	ADD:SPELLCASTER|Ranger			ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashHideInPlainSight									
+5	ADD:SPELLCASTER|Ranger			ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Track Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashTrackEvil									
+6	ADD:SPELLCASTER|Ranger			ABILITY:Stalker of Kharash Class Feature|AUTOMATIC|Stalker of Kharash ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.StalkerOfKharashSmiteEvil									
+7	ADD:SPELLCASTER|Ranger
+8	ADD:SPELLCASTER|Ranger
+9	ADD:SPELLCASTER|Ranger
+10	ADD:SPELLCASTER|Ranger
+
+CLASS:Swanmay	HD:8	TYPE:PC.Prestige	FACT:Abb|Swn	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:SwanmayLVL|0	BONUS:VAR|SwanmayLVL|CL
 CLASS:Swanmay	PREGENDER:Female	PREALIGN:LG,NG,CG	PRESKILL:2,Knowledge (Nature)=8,Survival=8	PRELANG:1,Sylvan	PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Purity	PRESPELL:1,Speak with Animals	PREABILITY:1,CATEGORY=Special Ability,Wild Empathy	PREABILITY:1,CATEGORY=Guild Category,Swanmay	PRETEXT:knowingly or not, must perform a great service for another swanmay before she can join the order.				
 CLASS:Swanmay	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Knowledge (Geography)|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Search|Spellcraft|Spot|Survival|Swim											
 1				ABILITY:Swanmay Class Feature|AUTOMATIC|Swanmay ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SwanmayProficiencies									
@@ -407,7 +390,7 @@ CLASS:Swanmay	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal
 10	ADD:SPELLCASTER|Druid,Ranger												
 													
 ###TODO: CONTIGUOUS:Paladin,Monk													
-CLASS:Sword of Righteousness	HD:10	TYPE:PC.Prestige	ABB:SwR	MAXLEVEL:3	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:SwordOfRighteousnessLVL|0	BONUS:VAR|SwordOfRighteousnessLVL|CL
+CLASS:Sword of Righteousness	HD:10	TYPE:PC.Prestige	FACT:Abb|SwR	MAXLEVEL:3	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:SwordOfRighteousnessLVL|0	BONUS:VAR|SwordOfRighteousnessLVL|CL
 CLASS:Sword of Righteousness	PREALIGN:LG,NG,CG	PREATT:6	PREABILITY:1,CATEGORY=FEAT,Favored of the Companions,Knight of Stars,Servant of the Heavens	PREABILITY:2,CATEGORY=FEAT,TYPE=Exalted									
 CLASS:Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive|Swim											
 1				ABILITY:Sword of Righteousness Class Feature|AUTOMATIC|Sword of Righteousness ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SwordOfRighteousnessProficiencies									
@@ -415,7 +398,7 @@ CLASS:Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|H
 #													
 1				ABILITY:Sword of Righteousness Class Feature|AUTOMATIC|Sword of Righteousness ~ Bonus Exalted Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SwordOfRighteousnessBonusExaltedFeat									
 													
-CLASS:Troubadour of Stars	HD:6	TYPE:PC.Prestige	ABB:ToS	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:TroubadourOfStarsLVL|0	BONUS:VAR|TroubadourOfStarsLVL|CL
+CLASS:Troubadour of Stars	HD:6	TYPE:PC.Prestige	FACT:Abb|ToS	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:TroubadourOfStarsLVL|0	BONUS:VAR|TroubadourOfStarsLVL|CL
 CLASS:Troubadour of Stars	PREALIGN:CG	PRESKILL:1,TYPE.Perform=6	PREABILITY:1,CATEGORY=FEAT,Knight of Stars	PRESPELLCAST:MEMORIZE=N	PRESPELLTYPE:1,Arcane=4								
 CLASS:Troubadour of Stars	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device											
 1				ABILITY:Troubadour of Stars Class Feature|AUTOMATIC|Troubadour of Stars ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TroubadourOfStarsProficiencies									
@@ -438,10 +421,10 @@ CLASS:Troubadour of Stars	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Concentrati
 8	ADD:SPELLCASTER|Arcane												
 10	ADD:SPELLCASTER|Arcane												
 													
-CLASS:Vassal of Bahamut	HD:10	TYPE:PC.Prestige	ABB:VoB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:VassalOfBahamutLVL|0	BONUS:VAR|VassalOfBahamutLVL|CL
+CLASS:Vassal of Bahamut	HD:10	TYPE:PC.Prestige	FACT:Abb|VoB	MAXLEVEL:10	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:VassalOfBahamutLVL|0	BONUS:VAR|VassalOfBahamutLVL|CL
 CLASS:Vassal of Bahamut	PREALIGN:LG	PREATT:7	PRESKILL:2,Craft (Armorsmithing)=5,Diplomacy=5	PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Obedience	PRETEXT:must have single handedly slain a juvenile (or older) red dragon.								
 CLASS:Vassal of Bahamut	STARTSKILLPTS:2	CSKILL:Bluff|Craft (Armorsmithing)|Craft (Weaponsmithing)|Diplomacy|Heal|Intimidate|Knowledge (Nobility and Royalty)|Knowledge (Religion)|Ride|Sense Motive											
-CLASS:Vassal of Bahamut	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Vassal of Bahamut|CL								
+CLASS:Vassal of Bahamut	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Vassal of Bahamut|CL								
 1				ABILITY:Vassal of Bahamut Class Feature|AUTOMATIC|Vassal of Bahamut ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.VassalOfBahamutProficiencies									
 2				ABILITY:Vassal of Bahamut Class Feature|AUTOMATIC|Vassal of Bahamut ~ Spells									
 #													
@@ -452,7 +435,7 @@ CLASS:Vassal of Bahamut	SPELLSTAT:WIS	SPELLTYPE:Divine	MEMORIZE:NO	KNOWNSPELLS:L
 3				ABILITY:Vassal of Bahamut Class Feature|AUTOMATIC|Vassal of Bahamut ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.VassalOfBahamutBonusFeat									
 4				ABILITY:Vassal of Bahamut Class Feature|AUTOMATIC|Vassal of Bahamut ~ Dragonwrack|!PREABILITY:1,CATEGORY=ACF,TYPE.VassalOfBahamutDragonwrack									
 													
-CLASS:Wonderworker	HD:6	TYPE:PC.Prestige	ABB:Won	MAXLEVEL:3	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	CLASSTYPE:Prestige	ROLE:Skill	DEFINE:WonerworkerLVL|0	BONUS:VAR|WonderworkerLVL|CL
+CLASS:Wonderworker	HD:6	TYPE:PC.Prestige	FACT:Abb|Won	MAXLEVEL:3	SOURCEPAGE:ExD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ROLE:Skill	DEFINE:WonerworkerLVL|0	BONUS:VAR|WonderworkerLVL|CL
 CLASS:Wonderworker	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PREABILITY:1,CATEGORY=FEAT,Favored of the Companions,Knight of Stars,Servant of the Heavens	PREFEAT:2,TYPE=Exalted	PRESPELLTYPE:1,ANY=3								
 CLASS:Wonderworker	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Knowledge (Psionics)											
 1				ABILITY:Wonderworker Class Feature|AUTOMATIC|Wonderworker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WonderworkerProficiencies									
@@ -461,11 +444,11 @@ CLASS:Wonderworker	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Hea
 1				ABILITY:Wonderworker Class Feature|AUTOMATIC|Wonderworker ~ Bonus Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.WonderworkerBonusSpellsPerDay									
 
 # 
-CLASS:Sanctified (Divine/WIS)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells	VISIBLE:NO
-CLASS:Sanctified (Divine/WIS)	SPELLSTAT:WIS	BONUSSPELLSTAT:NONE	SPELLTYPE:Divine	SPELLBOOK:YES	BONUS:CASTERLEVEL|Sanctified (Divine/WIS)|TL
+CLASS:Sanctified (Divine/WIS)	HD:1	TYPE:SanctifiedSpells	FACT:Abb|Sanctified Spells	VISIBLE:NO
+CLASS:Sanctified (Divine/WIS)	SPELLSTAT:WIS	BONUSSPELLSTAT:NONE	FACT:SpellType|Divine	SPELLBOOK:YES	BONUS:CASTERLEVEL|Sanctified (Divine/WIS)|TL
 1	CAST:0,0,0,0,0,0,0,0,0,0,0
-CLASS:Sanctified (Arcane/INT)	HD:1	TYPE:SanctifiedSpells	ABB:Sanctified Spells	VISIBLE:NO
-CLASS:Sanctified (Arcane/INT)	SPELLSTAT:INT	BONUSSPELLSTAT:NONE	SPELLTYPE:Divine	SPELLBOOK:YES	BONUS:CASTERLEVEL|Sanctified (Arcane/INT)|TL
+CLASS:Sanctified (Arcane/INT)	HD:1	TYPE:SanctifiedSpells	FACT:Abb|Sanctified Spells	VISIBLE:NO
+CLASS:Sanctified (Arcane/INT)	SPELLSTAT:INT	BONUSSPELLSTAT:NONE	FACT:SpellType|Divine	SPELLBOOK:YES	BONUS:CASTERLEVEL|Sanctified (Arcane/INT)|TL
 1	CAST:0,0,0,0,0,0,0,0,0,0,0
 
 CLASS:Cleric.MOD
@@ -474,7 +457,7 @@ CLASS:Wizard.MOD
 1	ABILITY:Wizard Class Feature|AUTOMATIC|Wizard ~ Sanctified Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.WizardSanctifiedSpells									
 
 # Class Name	Hit Dice	Type			Class Type		Max Level		Source Page				Ability														Combat bonus							Misc bonus					Save bonus
-CLASS:Deathless	HD:12		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:ExD	ABILITY:Special Ability|AUTOMATIC|Deathless Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Deathless	HD:12		TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:ExD	ABILITY:Special Ability|AUTOMATIC|Deathless Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/4)	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name	Reg. Race Type
 CLASS:Deathless	PRERACETYPE:Deathless
 # Class Name	Skill Pts/Lvl	Add INT to Skill Points?

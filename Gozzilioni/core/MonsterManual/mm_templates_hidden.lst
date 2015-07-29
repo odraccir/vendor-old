@@ -5,5 +5,16 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzili
 # Languages ~ Inevitable	VISIBLE:NO	LANGBONUS:ALL
 # Languages ~ Kaorti	VISIBLE:NO	LANGBONUS:ALL
 #
+Disease Damage (Devil's Chill/STR)			VISIBLE:NO	SOURCEPAGE:MM	TEMPVALUE:MIN=1|MAX=4|TITLE=Strength Damage	TEMPDESC:Infection DC 16 (Injury), Incubation 1d4 days, Damage 1d4 Str (The victim must make three successful Fortitude saving throws in a row to recover from devil's chill), Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
 Disease Damage (Slaad Fever/DEX)			VISIBLE:NO	SOURCEPAGE:MM	TEMPVALUE:MIN=1|MAX=3|TITLE=Dexterity Damage	TEMPDESC:Infection DC 18 (Injury), Incubation 1 day, Damage 1d3 Dex and 1d3 Cha (The victim must make three successful Fortitude saving throws in a row to recover from slaad fever), Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)	TEMPLATE:CHOOSE:Disease Damage (Slaad Fever/CHA)
 Disease Damage (Slaad Fever/CHA)			VISIBLE:NO	SOURCEPAGE:MM	TEMPVALUE:MIN=1|MAX=3|TITLE=Charisma Damage	TEMPBONUS:ANYPC|STAT|CHA|-1*(%CHOICE)
+
+#Subrace
+Juvenile	VISIBLE:NO	KEY:Arrowhawk ~ Juvenile	SUBRACE:Juvenile
+Adult	VISIBLE:NO	KEY:Arrowhawk ~ Adult	SUBRACE:Adult
+Elder	VISIBLE:NO	KEY:Arrowhawk ~ Elder	SUBRACE:Elder
+Common	VISIBLE:NO	KEY:Barghest ~ Common	
+Greater	VISIBLE:NO	KEY:Barghest ~ Greater	SUBRACE:Greater
+
+#
+Derro ~ Insanity	VISIBLE:YES	BONUS:STAT|WIS|-6	BONUS:STAT|CHA|6		

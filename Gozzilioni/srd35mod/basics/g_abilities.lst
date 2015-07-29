@@ -10,6 +10,9 @@ CATEGORY=Internal|Default.MOD	DEFINE:RegenerationRate|0
 CATEGORY=Internal|Default.MOD	DEFINE:SmiteGood|0	DEFINE:SmiteGoodDamage|0																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SmiteEvil|0	DEFINE:SmiteEvilDamage|0																																		
 CATEGORY=Internal|Default.MOD	DEFINE:FightingDefensivelyPenalty|0	BONUS:VAR|FightingDefensivelyPenalty|4|TYPE=Base
+# TODO: Remove from Default ability "Universal Define"
+CATEGORY=Internal|Default.MOD	DEFINE:PoisonDC|0	BONUS:VAR|PoisonDC|(-1)*(10+(HD/2)+CON)|TYPE=Base.STACK
+CATEGORY=Internal|Default.MOD	DEFINE:DeathGaczeDC|0	BONUS:VAR|DeathGazeDC|(-1)*(CHA+(HD/2)+10)|TYPE=Base.STACK
 #
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Detect Magic Vision|PREMULT:1,[PREVARGTEQ:DetectMagicRange,1],[PREVARGTEQ:HasDetectMagicVision,1]	DEFINE:HasDetectMagicVision|0																																		
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|See Invisibility Vision|PREMULT:1,[PREVARGTEQ:SeeInvisibilityRange,1],[PREVARGTEQ:HasSeeInvisibilityVision,1]	DEFINE:HasSeeInvisibilityVision|0																																		

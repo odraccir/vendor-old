@@ -1,24 +1,24 @@
 SOURCELONG:Gozzilioni Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
 #FOLLOWERALIGN(deprecato)								
 # usare prealign su DOMAIN)								
-#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
-#Bahamut	ALIGN:LG	DEITYWEAP:Pick (Heavy)|Bite	DESC:Bahamut (M)	DOMAINS:Air,Cold,Good,Luck,Protection|PREALIGN:LG,LN,NG	TYPE:Lesser	PANTHEON:Greyhawk|Draconic	SOURCEPAGE:CD	
-Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Corellon Larethian	ALIGN:CG	DEITYWEAP:Longsword	DESC:Corellon Larethian (M)	DOMAINS:Chaos,Good,Protection,War|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Ehlonna	ALIGN:NG	DEITYWEAP:Longbow	DESC:Ehlonna (F)	DOMAINS:Animal,Good,Plant|PREALIGN:LG,LN,CG,NG	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Erythnul	ALIGN:CE	DEITYWEAP:Morningstar	DESC:Erithnul (M)	DOMAINS:Chaos,Evil,Trickery,War|PREALIGN:NE,CE,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Fharlanghn	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Fharlanghn (M)	DOMAINS:Luck,Protection,Travel|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Garl Glittergold	ALIGN:NG	DEITYWEAP:Battleaxe	DESC:Garl Glittergold (M)	DOMAINS:Good,Protection,Trickery|PREALIGN:LG,LN,CG,NG	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Gruumsh	ALIGN:CE	DEITYWEAP:Shortspear|Longspear	DESC:Gruumsh (M)	DOMAINS:Chaos,Evil,Strength,War|PREALIGN:NE,CE,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Heironeous	ALIGN:LG	DEITYWEAP:Longsword	DESC:Heironeous (M)	DOMAINS:Good,Law,War|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Hextor	ALIGN:LE	DEITYWEAP:Flail	DESC:Hextor (M)	DOMAINS:Destruction,Evil,Law,War|PREALIGN:NE,LE,LN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Kord	ALIGN:CG	DEITYWEAP:Greatsword	DESC:Kord (M)	DOMAINS:Chaos,Good,Luck,Strength|PREALIGN:NG,CG,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Moradin	ALIGN:LG	DEITYWEAP:Warhammer	DESC:Moradin (M)	DOMAINS:Earth,Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Nerull	ALIGN:NE	DEITYWEAP:Scythe	DESC:Nerull (M)	DOMAINS:Death,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Obad-Hai	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Obad-Hai (M)	DOMAINS:Air,Animal,Earth,Fire,Plant,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Olidammara	ALIGN:CN	DEITYWEAP:Rapier	DESC:Olidammara (M)	DOMAINS:Chaos,Luck,Trickery|PREALIGN:CG,TN,CN,CE	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Pelor	ALIGN:NG	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Pelor (M)	DOMAINS:Good,Healing,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-St. Cuthbert	ALIGN:LN	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:St. Cuthbert (M)	DOMAINS:Destruction,Law,Protection,Strength|PREALIGN:LG,LN,TN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Vecna	ALIGN:NE	DEITYWEAP:Dagger	DESC:Vecna (M)	DOMAINS:Evil,Knowledge,Magic|PREALIGN:LE,TN,NE,CE	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Wee Jas	ALIGN:LN	DEITYWEAP:Dagger	DESC:Wee Jas (F)	DOMAINS:Death,Law,Magic|PREALIGN:LG,LN,LE,TN	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
-Yondalla	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Yondalla (F)	DOMAINS:Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	PANTHEON:None	SOURCEPAGE:PHB
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
+#Bahamut	ALIGN:LG	DEITYWEAP:Pick (Heavy)|Bite	DESC:Bahamut (M)	DOMAINS:Air,Cold,Good,Luck,Protection|PREALIGN:LG,LN,NG	TYPE:Lesser	FACTSET:Pantheon|Greyhawk|Draconic	SOURCEPAGE:CD	
+Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Corellon Larethian	ALIGN:CG	DEITYWEAP:Longsword	DESC:Corellon Larethian (M)	DOMAINS:Chaos,Good,Protection,War|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Ehlonna	ALIGN:NG	DEITYWEAP:Longbow	DESC:Ehlonna (F)	DOMAINS:Animal,Good,Plant|PREALIGN:LG,LN,CG,NG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Erythnul	ALIGN:CE	DEITYWEAP:Morningstar	DESC:Erithnul (M)	DOMAINS:Chaos,Evil,Trickery,War|PREALIGN:NE,CE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Fharlanghn	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Fharlanghn (M)	DOMAINS:Luck,Protection,Travel|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Garl Glittergold	ALIGN:NG	DEITYWEAP:Battleaxe	DESC:Garl Glittergold (M)	DOMAINS:Good,Protection,Trickery|PREALIGN:LG,LN,CG,NG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Gruumsh	ALIGN:CE	DEITYWEAP:Shortspear|Longspear	DESC:Gruumsh (M)	DOMAINS:Chaos,Evil,Strength,War|PREALIGN:NE,CE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Heironeous	ALIGN:LG	DEITYWEAP:Longsword	DESC:Heironeous (M)	DOMAINS:Good,Law,War|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Hextor	ALIGN:LE	DEITYWEAP:Flail	DESC:Hextor (M)	DOMAINS:Destruction,Evil,Law,War|PREALIGN:NE,LE,LN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Kord	ALIGN:CG	DEITYWEAP:Greatsword	DESC:Kord (M)	DOMAINS:Chaos,Good,Luck,Strength|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Moradin	ALIGN:LG	DEITYWEAP:Warhammer	DESC:Moradin (M)	DOMAINS:Earth,Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Nerull	ALIGN:NE	DEITYWEAP:Scythe	DESC:Nerull (M)	DOMAINS:Death,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Obad-Hai	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Obad-Hai (M)	DOMAINS:Air,Animal,Earth,Fire,Plant,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Olidammara	ALIGN:CN	DEITYWEAP:Rapier	DESC:Olidammara (M)	DOMAINS:Chaos,Luck,Trickery|PREALIGN:CG,TN,CN,CE	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Pelor	ALIGN:NG	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Pelor (M)	DOMAINS:Good,Healing,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+St. Cuthbert	ALIGN:LN	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:St. Cuthbert (M)	DOMAINS:Destruction,Law,Protection,Strength|PREALIGN:LG,LN,TN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Vecna	ALIGN:NE	DEITYWEAP:Dagger	DESC:Vecna (M)	DOMAINS:Evil,Knowledge,Magic|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Wee Jas	ALIGN:LN	DEITYWEAP:Dagger	DESC:Wee Jas (F)	DOMAINS:Death,Law,Magic|PREALIGN:LG,LN,LE,TN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB
+Yondalla	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Yondalla (F)	DOMAINS:Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB

@@ -13,3 +13,17 @@ Disease Damage (Marrash Filth fever/Con Damage)	VISIBLE:NO	SOURCEPAGE:MM2	TEMPVA
 #
 Spirit of the Land ~ Incorporeal	VISIBLE:NO	SOURCEPAGE:MM2	RACESUBTYPE:Incorporeal
 Spirit of the Land ~ Fire	VISIBLE:NO	SOURCEPAGE:MM2	RACESUBTYPE:Fire
+
+#Subrace
+Junior Worker	VISIBLE:NO	KEY:Myconid ~ Junior Worker	SUBRACE:Junior Worker					
+Average Worker	VISIBLE:NO	KEY:Myconid ~ Average Worker	SUBRACE:Average Worker					
+Elder Worker	VISIBLE:NO	KEY:Myconid ~ Elder Worker	SUBRACE:Elder Worker					
+Guard	VISIBLE:NO	KEY:Myconid ~ Guard	SUBRACE:Guard					
+Circle Leader	VISIBLE:NO	KEY:Myconid ~ Circle Leader	SUBRACE:Circle Leader					
+Sovereign	VISIBLE:NO	KEY:Myconid ~ Sovereign	SUBRACE:Sovereign					
+Spawn	VISIBLE:NO	KEY:Neogi ~ Spawn	SUBRACE:Spawn
+Adult	VISIBLE:NO	KEY:Neogi ~ Adult	SUBRACE:Adult
+Average	VISIBLE:NO	KEY:Psurlon ~ Average	SUBRACE:Average
+Elder	VISIBLE:NO	KEY:Psurlon ~ Elder	SUBRACE:Elder
+Giant	VISIBLE:NO	KEY:Psurlon ~ Giant	SUBRACE:Giant
+

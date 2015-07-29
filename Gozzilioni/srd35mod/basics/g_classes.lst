@@ -7,7 +7,7 @@ CLASS:Expert.MOD
 # Class Name		Visible
 CLASS:Sorcerer/Domain	VISIBLE:NO
 # Class Name				Spell Stat		Spell Type		Memorize	Caster level						Use Spell List
-CLASS:Sorcerer/Domain	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer/Domain|CL	SPELLLIST:1|Sorcerer
+CLASS:Sorcerer/Domain	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer/Domain|CL	SPELLLIST:1|Sorcerer
 # Air Domain
 1	SPELLLEVEL:CLASS|Sorcerer=1|Obscuring Mist|Sorcerer=2|Wind Wall|Sorcerer=3|Gaseous Form|Sorcerer=4|Air Walk|Sorcerer=5|Control Winds|Sorcerer=6|Chain Lightning|Sorcerer=7|Control Weather|Sorcerer=8|Whirlwind|Sorcerer=9|Elemental Swarm|PREVAREQ:AirDomainAllowed,1
 # Destruction
@@ -77,3 +77,8 @@ CLASS:Sorcerer/Domain	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	BONUS:CASTERLEV
 CLASS:Elemental (Air/Fire).MOD	PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Fire
 
 CLASS:Elemental (Earth/Water).MOD	PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water
+
+CLASS:Outsider (Mindless)	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/2)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+CLASS:Outsider (Mindless)	PRERACETYPE:Outsider
+CLASS:Outsider (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO
+

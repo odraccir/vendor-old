@@ -1,0 +1,112 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-09																													
+																																
+# Class Name	Hit Dice	Type			Class Type		Max Level	Source Page					Save checks bonus								Combat bonus											
+CLASS:Angel Planetar	HD:8		TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:14	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/2)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name	Reg. Race Type
+CLASS:Angel Planetar	PRERACE:1,Angel (Planetar)	PRERACETYPE:Outsider
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Angel Planetar	STARTSKILLPTS:8	MODTOSKILLS:YES	OUTPUTNAME:Outsider	VISIBLE:NO
+1	DOMAIN:Air|PREABILITY:1,CATEGORY=Special Ability,Planetar ~ Spells ~ Air Domain
+1	DOMAIN:Destruction|PREABILITY:1,CATEGORY=Special Ability,Planetar ~ Spells ~ Destruction Domain
+1	DOMAIN:Good|PREABILITY:1,CATEGORY=Special Ability,Planetar ~ Spells ~ Good Domain
+1	DOMAIN:Law|PREABILITY:1,CATEGORY=Special Ability,Planetar ~ Spells ~ Law Domain
+1	DOMAIN:War|PREABILITY:1,CATEGORY=Special Ability,Planetar ~ Spells ~ War Domain
+1	ADD:SPELLCASTER|Cleric	BONUS:DOMAIN|NUMBER|2
+2	BONUS:PCLEVEL|Cleric|1
+3	BONUS:PCLEVEL|Cleric|1
+4	BONUS:PCLEVEL|Cleric|1
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Cleric|1
+7	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Cleric|1
+9	BONUS:PCLEVEL|Cleric|1
+10	BONUS:PCLEVEL|Cleric|1
+11	BONUS:PCLEVEL|Cleric|1
+12	BONUS:PCLEVEL|Cleric|1
+13	BONUS:PCLEVEL|Cleric|1
+14	BONUS:PCLEVEL|Cleric|1
+
+# Class Name	Hit Dice	Type			Class Type		Max Level	Source Page					Save checks bonus								Combat bonus											
+CLASS:Angel Solar	HD:8		TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:14	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/2)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name	Reg. Race Type
+CLASS:Angel Solar	PRERACE:1,Angel (Solar)	PRERACETYPE:Outsider
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Angel Solar	STARTSKILLPTS:8	MODTOSKILLS:YES	OUTPUTNAME:Outsider	VISIBLE:NO
+1	DOMAIN:Air|PREABILITY:1,CATEGORY=Special Ability,Solar ~ Spells ~ Air Domain
+1	DOMAIN:Destruction|PREABILITY:1,CATEGORY=Special Ability,Solar ~ Spells ~ Destruction Domain
+1	DOMAIN:Good|PREABILITY:1,CATEGORY=Special Ability,Solar ~ Spells ~ Good Domain
+1	DOMAIN:Law|PREABILITY:1,CATEGORY=Special Ability,Solar ~ Spells ~ Law Domain
+1	DOMAIN:War|PREABILITY:1,CATEGORY=Special Ability,Solar ~ Spells ~ War Domain
+1	ADD:SPELLCASTER|Cleric	BONUS:DOMAIN|NUMBER|2
+2	BONUS:PCLEVEL|Cleric|1
+3	BONUS:PCLEVEL|Cleric|1
+4	BONUS:PCLEVEL|Cleric|1
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Cleric|1
+7	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Cleric|1
+9	BONUS:PCLEVEL|Cleric|1
+10	BONUS:PCLEVEL|Cleric|1
+11	
+12	BONUS:PCLEVEL|Cleric|1
+13	BONUS:PCLEVEL|Cleric|1
+14	BONUS:PCLEVEL|Cleric|1
+15	BONUS:PCLEVEL|Cleric|1
+16	BONUS:PCLEVEL|Cleric|1
+17	BONUS:PCLEVEL|Cleric|1
+18	BONUS:PCLEVEL|Cleric|1
+19	BONUS:PCLEVEL|Cleric|1
+20	BONUS:PCLEVEL|Cleric|1
+21	BONUS:PCLEVEL|Cleric|1
+22	
+
+# Class Name	Hit Dice	Type			Class Type		Max Level	Source Page					Save checks bonus								Combat bonus											
+CLASS:Aranea	HD:10		TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:3	SOURCEPAGE:MM	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/3)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+# Class Name		Reg. Race Type
+CLASS:Aranea	PRERACE:1,Aranea	PRERACETYPE:Magical Beast
+# Class Name		Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Aranea	STARTSKILLPTS:2	MODTOSKILLS:YES	OUTPUTNAME:Magical Beast	VISIBLE:NO
+1	ADD:SPELLCASTER|Sorcerer
+2	BONUS:PCLEVEL|Sorcerer|1
+3	BONUS:PCLEVEL|Sorcerer|1
+
+CLASS:Archon Trumpet	HD:8		TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:14	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/2)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name	Reg. Race Type
+CLASS:Archon Trumpet	PRERACE:1,Archon (Trumpet)	PRERACETYPE:Outsider
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Archon Trumpet	STARTSKILLPTS:8	MODTOSKILLS:YES	OUTPUTNAME:Outsider	VISIBLE:NO
+1	DOMAIN:Air|PREABILITY:1,CATEGORY=Special Ability,Trumpet ~ Spells ~ Air Domain
+1	DOMAIN:Destruction|PREABILITY:1,CATEGORY=Special Ability,Trumpet ~ Spells ~ Destruction Domain
+1	DOMAIN:Good|PREABILITY:1,CATEGORY=Special Ability,Trumpet ~ Spells ~ Good Domain
+1	DOMAIN:Law|PREABILITY:1,CATEGORY=Special Ability,Trumpet ~ Spells ~ Law Domain
+1	DOMAIN:War|PREABILITY:1,CATEGORY=Special Ability,Trumpet ~ Spells ~ War Domain
+1	ADD:SPELLCASTER|Cleric	BONUS:PCLEVEL|Cleric|1	BONUS:DOMAIN|NUMBER|2
+2	BONUS:PCLEVEL|Cleric|1
+3	BONUS:PCLEVEL|Cleric|1
+4	BONUS:PCLEVEL|Cleric|1
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Cleric|1
+7	BONUS:PCLEVEL|Cleric|1	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Cleric|1
+9	BONUS:PCLEVEL|Cleric|1
+10	BONUS:PCLEVEL|Cleric|1
+11	BONUS:PCLEVEL|Cleric|1
+12	BONUS:PCLEVEL|Cleric|1
+
+CLASS:Couatl	HD:8		TYPE:Monster	FACT:ClassType|Monster	MAXLEVEL:14	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/2)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name	Reg. Race Type
+CLASS:Couatl	PRERACE:1,Couatl	PRERACETYPE:Outsider
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Couatl	STARTSKILLPTS:8	MODTOSKILLS:YES	OUTPUTNAME:Outsider	VISIBLE:NO
+1	BONUS:VAR|AirDomainAllowed|1
+1	BONUS:VAR|GoodDomainAllowed|1
+1	BONUS:VAR|LawDomainAllowed|1
+1	ADD:SPELLCASTER|Sorcerer/Cleric (Arcane)	
+2	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+4	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+5	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+8	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
+9	BONUS:PCLEVEL|Sorcerer/Cleric (Arcane)|1
