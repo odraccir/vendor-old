@@ -81,4 +81,3 @@ CLASS:Elemental (Earth/Water).MOD	PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water
 CLASS:Outsider (Mindless)	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:MM	ABILITY:Special Ability|AUTOMATIC|Outsider Proficiencies|PREVAREQ:NoTypeProficiencies,0	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	BONUS:MISC|CR|floor((HD-BASEHD)/2)	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Outsider (Mindless)	PRERACETYPE:Outsider
 CLASS:Outsider (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO
-

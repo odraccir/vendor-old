@@ -18,6 +18,7 @@ SOURCEDATE:2003-07
 ABILITYCATEGORY:mm_abilitycategories.lst
 ABILITY:mm_abilities.lst
 ABILITY:mm_abilities_races.lst
+CLASS:mm_classes.lst
 CLASS:mm_classes_monsters_specific.lst
 DEITY:mm_deities.lst
 EQUIPMENT:mm_equip.lst
